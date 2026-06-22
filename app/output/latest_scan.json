@@ -1,0 +1,246 @@
+{
+  "arbs": [],
+  "near_arbs": [
+    {
+      "sport": "basketball_wnba",
+      "event": "Washington Mystics vs Minnesota Lynx",
+      "commence_time": "2026-06-24T23:40:00Z",
+      "event_age_seconds": -188356,
+      "is_live": false,
+      "market_type": "PREMATCH",
+      "profit_percent": 2.2,
+      "legs": [
+        {
+          "selection": "Minnesota Lynx",
+          "bookmaker": "betfair_ex_uk",
+          "odds": 1.55,
+          "stake": 65.93,
+          "exact_stake": 65.93,
+          "natural_stake": 66,
+          "stake_mode": "Natural"
+        },
+        {
+          "selection": "Washington Mystics",
+          "bookmaker": "paddypower",
+          "odds": 3.0,
+          "stake": 34.07,
+          "exact_stake": 34.07,
+          "natural_stake": 34,
+          "stake_mode": "Natural"
+        }
+      ],
+      "books": [
+        "paddypower",
+        "betfair_ex_uk"
+      ],
+      "exchange_arb": true,
+      "same_book_market": false,
+      "price_gaps": [
+        {
+          "selection": "Minnesota Lynx",
+          "best_bookmaker": "betfair_ex_uk",
+          "best_odds": 1.55,
+          "worst_bookmaker": "paddypower",
+          "worst_odds": 1.33,
+          "gap_percent": 16.54
+        },
+        {
+          "selection": "Washington Mystics",
+          "best_bookmaker": "paddypower",
+          "best_odds": 3.0,
+          "worst_bookmaker": "betfair_ex_uk",
+          "worst_odds": 1.28,
+          "gap_percent": 134.38
+        }
+      ],
+      "scanned_at": "2026-06-22T19:20:43.253415+00:00",
+      "stability_tracking": {
+        "market_key": "basketball_wnba::Washington Mystics vs Minnesota Lynx::Minnesota Lynx:betfair_ex_uk|Washington Mystics:paddypower",
+        "seen_count": 3,
+        "stable_seconds": 119,
+        "is_stable_pulse": true
+      },
+      "execution": {
+        "pulse_state": "EXCHANGE REVIEW",
+        "execution_stability": "REVIEW",
+        "stability_score": 60,
+        "execution_status": "STILL PROFITABLE",
+        "checked_at": "2026-06-22T19:20:43.254295+00:00"
+      },
+      "is_new": true
+    },
+    {
+      "sport": "soccer_fifa_world_cup",
+      "event": "Switzerland vs Canada",
+      "commence_time": "2026-06-24T19:00:00Z",
+      "event_age_seconds": -171558,
+      "is_live": false,
+      "market_type": "PREMATCH",
+      "profit_percent": 1.82,
+      "legs": [
+        {
+          "selection": "Canada",
+          "bookmaker": "smarkets",
+          "odds": 3.45,
+          "stake": 29.51,
+          "exact_stake": 29.51,
+          "natural_stake": 30,
+          "stake_mode": "Natural"
+        },
+        {
+          "selection": "Switzerland",
+          "bookmaker": "betvictor",
+          "odds": 2.6,
+          "stake": 39.16,
+          "exact_stake": 39.16,
+          "natural_stake": 39,
+          "stake_mode": "Natural"
+        },
+        {
+          "selection": "Draw",
+          "bookmaker": "smarkets",
+          "odds": 3.25,
+          "stake": 31.33,
+          "exact_stake": 31.33,
+          "natural_stake": 31,
+          "stake_mode": "Natural"
+        }
+      ],
+      "books": [
+        "betvictor",
+        "smarkets"
+      ],
+      "exchange_arb": true,
+      "same_book_market": false,
+      "price_gaps": [
+        {
+          "selection": "Canada",
+          "best_bookmaker": "smarkets",
+          "best_odds": 3.45,
+          "worst_bookmaker": "betvictor",
+          "worst_odds": 2.8,
+          "gap_percent": 23.21
+        },
+        {
+          "selection": "Switzerland",
+          "best_bookmaker": "betvictor",
+          "best_odds": 2.6,
+          "worst_bookmaker": "skybet",
+          "worst_odds": 2.38,
+          "gap_percent": 9.24
+        },
+        {
+          "selection": "Draw",
+          "best_bookmaker": "smarkets",
+          "best_odds": 3.25,
+          "worst_bookmaker": "betway",
+          "worst_odds": 2.88,
+          "gap_percent": 12.85
+        }
+      ],
+      "scanned_at": "2026-06-22T19:20:41.815354+00:00",
+      "stability_tracking": {
+        "market_key": "soccer_fifa_world_cup::Switzerland vs Canada::Canada:smarkets|Draw:smarkets|Switzerland:betvictor",
+        "seen_count": 3,
+        "stable_seconds": 119,
+        "is_stable_pulse": true
+      },
+      "execution": {
+        "pulse_state": "EXCHANGE REVIEW",
+        "execution_stability": "REVIEW",
+        "stability_score": 60,
+        "execution_status": "STILL PROFITABLE",
+        "checked_at": "2026-06-22T19:20:41.815780+00:00"
+      },
+      "is_new": true
+    },
+    {
+      "sport": "soccer_fifa_world_cup",
+      "event": "Egypt vs Iran",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "event_age_seconds": -373158,
+      "is_live": false,
+      "market_type": "PREMATCH",
+      "profit_percent": 0.53,
+      "legs": [
+        {
+          "selection": "Egypt",
+          "bookmaker": "smarkets",
+          "odds": 2.54,
+          "stake": 39.58,
+          "exact_stake": 39.58,
+          "natural_stake": 40,
+          "stake_mode": "Natural"
+        },
+        {
+          "selection": "Iran",
+          "bookmaker": "smarkets",
+          "odds": 4.1,
+          "stake": 24.52,
+          "exact_stake": 24.52,
+          "natural_stake": 25,
+          "stake_mode": "Natural"
+        },
+        {
+          "selection": "Draw",
+          "bookmaker": "williamhill",
+          "odds": 2.8,
+          "stake": 35.9,
+          "exact_stake": 35.9,
+          "natural_stake": 36,
+          "stake_mode": "Natural"
+        }
+      ],
+      "books": [
+        "williamhill",
+        "smarkets"
+      ],
+      "exchange_arb": true,
+      "same_book_market": false,
+      "price_gaps": [
+        {
+          "selection": "Egypt",
+          "best_bookmaker": "smarkets",
+          "best_odds": 2.54,
+          "worst_bookmaker": "boylesports",
+          "worst_odds": 2.3,
+          "gap_percent": 10.43
+        },
+        {
+          "selection": "Iran",
+          "best_bookmaker": "smarkets",
+          "best_odds": 4.1,
+          "worst_bookmaker": "williamhill",
+          "worst_odds": 3.25,
+          "gap_percent": 26.15
+        },
+        {
+          "selection": "Draw",
+          "best_bookmaker": "williamhill",
+          "best_odds": 2.8,
+          "worst_bookmaker": "skybet",
+          "worst_odds": 2.6,
+          "gap_percent": 7.69
+        }
+      ],
+      "scanned_at": "2026-06-22T19:20:41.832871+00:00",
+      "stability_tracking": {
+        "market_key": "soccer_fifa_world_cup::Egypt vs Iran::Draw:williamhill|Egypt:smarkets|Iran:smarkets",
+        "seen_count": 2,
+        "stable_seconds": 119,
+        "is_stable_pulse": true
+      },
+      "execution": {
+        "pulse_state": "EXCHANGE REVIEW",
+        "execution_stability": "REVIEW",
+        "stability_score": 60,
+        "execution_status": "STILL PROFITABLE",
+        "checked_at": "2026-06-22T19:20:41.833294+00:00"
+      },
+      "is_new": true
+    }
+  ],
+  "last_scan": "2026-06-22 20:20:43",
+  "api_remaining": "394",
+  "api_used": "106"
+}

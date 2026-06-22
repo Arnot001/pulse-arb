@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Pulse Dashboard</title>
+
+<link rel="icon" type="image/png" href="/static/favicon.png">
+
+<link rel="stylesheet" href="/static/styles.css">
+
+</head>
+
+<body>
+
+<div class="pulse-header">
+
+    <h1>Pulse</h1>
+
+    <div class="pulse-subtitle">
+        The future of the betting edge.
+    </div>
+
+    <div class="pulse-live">
+        ● LIVE MARKET MONITORING
+    </div>
+
+    <div class="pulse-divider"></div>
+
+</div>
+
+<div class="panel">
+
+    <h2>Status</h2>
+
+    <p>Running ✅</p>
+
+    <p>
+        Last saved scan:
+        {{ scan_cache["last_scan"] }}
+    </p>
+
+    <p>
+        API Credits Remaining:
+        {{ scan_cache["api_remaining"] }}
+    </p>
+
+    <p>
+        API Credits Used:
+        {{ scan_cache["api_used"] }}
+    </p>
+
+    <p class="muted">
+        Saved results reload after restarting Pulse.
+    </p>
+
+    <p id="refresh-timer" class="muted">
+        Next pulse refresh ready.
+    </p>
+
+
+</div>
+
+<div class="panel">
+
+    <h2>Controls</h2>
+
+    <div class="controls-row">
+
+        <a class="button" href="/settings">
+            Settings
+        </a>
+
+        <a class="button" href="/lay-calculator">
+            Lay Calculator
+        </a>
+
+        <form method="get" action="/shutdown">
+
+            <button class="button button-danger" type="submit">
+                Stop Pulse
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<div class="panel panel-glow">
+
+    <h2>Run Scan</h2>
+
+    <form method="get" action="/">
+
+        <input type="hidden" name="scan" value="true">
+
+        <div class="sports-section">
+
+            <strong>Sports:</strong>
+
+            <div class="sports-grid">
+                {{ sports_html | safe }}
+            </div>
+
+        </div>
+
+        <div class="scan-controls">
+
+            <div class="scan-field">
+
+                <label>Bankroll £</label>
+
+                <input
+                    type="number"
+                    step="0.01"
+                    name="bankroll"
+                    value="{{ bankroll }}"
+                >
+
+            </div>
+
+            <div class="scan-field">
+
+                <label>Minimum arb %</label>
+
+                <input
+                    type="number"
+                    step="0.01"
+                    name="min_profit"
+                    value="{{ min_profit }}"
+                >
+
+            </div>
+
+            <div class="scan-field">
+
+                <label>Near threshold %</label>
+
+                <input
+                    type="number"
+                    step="0.01"
+                    name="near_threshold"
+                    value="{{ near_threshold }}"
+                >
+
+            </div>
+
+            <div class="scan-field">
+
+                <button
+                    class="button run-button"
+                    type="submit"
+                    id="scanButton"
+                >
+                    Run Scan
+                </button>
+
+            </div>
+
+        </div>
+
+    </form>
+
+</div>
+
+<div class="panel panel-glow">
+
+    <div class="arb-section-title">
+
+        <div class="pulse-dot"></div>
+
+        <h2>🔥 Live Pulse</h2>
+
+    </div>
+
+    {{ live_html | safe }}
+
+</div>
+
+
+<div class="panel panel-glow">
+
+    <div class="arb-section-title">
+
+        <div class="pulse-dot"></div>
+
+        <h2>Sportsbook-Only True Arbs</h2>
+
+    </div>
+
+    {{ arb_html | safe }}
+
+</div>
+
+<div class="panel panel-glow">
+
+    <div class="arb-section-title">
+
+        <div class="pulse-dot"></div>
+
+        <h2>Near-Arbs / Exchange Watchlist</h2>
+
+    </div>
+
+    {{ near_html | safe }}
+
+</div>
+<script>
+    const scanForm = document.querySelector('form[action="/"]');
+
+    if (scanForm) {
+        scanForm.addEventListener("submit", () => {
+            const button = document.getElementById("scanButton");
+
+            if (button) {
+                button.innerText = "SCANNING LIVE...";
+                button.disabled = true;
+                button.classList.add("scanning");
+            }
+        });
+    }
+</script>
+
+<script>
+    let seconds = 60;
+
+    const timer =
+        document.getElementById("refresh-timer");
+
+    if (timer) {
+        setInterval(() => {
+            seconds -= 1;
+
+            if (seconds <= 0) {
+                seconds = 60;
+            }
+
+            timer.innerText =
+                "Next pulse refresh available in " + seconds + "s";
+        }, 1000);
+    }
+</script>
+
+</body>
+</html>

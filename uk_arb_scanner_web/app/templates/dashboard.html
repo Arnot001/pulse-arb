@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UK Arb Scanner</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <main class="shell">
+    <aside class="panel">
+      <h1>UK Arb Scanner</h1>
+      <p class="muted">One-shot manual scanner. No automated betting.</p>
+
+      <label>Bankroll: £<span id="bankrollLabel">100</span>
+        <input id="bankroll" type="range" min="10" max="5000" step="10" value="100">
+      </label>
+
+      <label>Minimum profit: <span id="minProfitLabel">1.0</span>%
+        <input id="minProfit" type="range" min="0" max="10" step="0.1" value="1.0">
+      </label>
+
+      <label>Maximum profit: <span id="maxProfitLabel">12.0</span>%
+        <input id="maxProfit" type="range" min="1" max="30" step="0.5" value="12.0">
+      </label>
+
+      <label>Near-arb range: <span id="nearArbLabel">0.75</span>%
+        <input id="nearArb" type="range" min="0" max="5" step="0.05" value="0.75">
+      </label>
+
+      <label>Search days: <span id="searchDaysLabel">5</span>
+        <input id="searchDays" type="range" min="1" max="5" step="1" value="5">
+      </label>
+
+      <fieldset>
+        <legend>Sports</legend>
+        <label class="check"><input type="checkbox" name="sport" value="soccer_epl" checked> Premier League</label>
+        <label class="check"><input type="checkbox" name="sport" value="tennis_atp" checked> ATP Tennis</label>
+        <label class="check"><input type="checkbox" name="sport" value="tennis_wta"> WTA Tennis</label>
+        <label class="check"><input type="checkbox" name="sport" value="basketball_nba" checked> NBA</label>
+        <label class="check"><input type="checkbox" name="sport" value="basketball_euroleague"> EuroLeague</label>
+        <label class="check"><input type="checkbox" name="sport" value="mma_mixed_martial_arts"> MMA</label>
+      </fieldset>
+
+      <label class="check"><input id="sendDiscord" type="checkbox" checked> Send Discord alerts</label>
+      <label class="check"><input id="sendNearArbs" type="checkbox" checked> Include near-arbs</label>
+
+      <label>Max Discord alerts
+        <input id="maxAlerts" type="number" min="0" max="100" value="20">
+      </label>
+
+      <button id="scanBtn">Run one scan</button>
+      <button id="loadBtn" class="secondary">Load latest saved results</button>
+      <p id="status" class="status">Ready.</p>
+    </aside>
+
+    <section class="content">
+      <div class="hero">
+        <div>
+          <h2>Results</h2>
+          <p id="summary" class="muted">Run a scan to find arbs and near-arbs.</p>
+        </div>
+        <div class="notice">Manual only: open links, verify odds, place bets yourself.</div>
+      </div>
+      <div id="results" class="results"></div>
+    </section>
+  </main>
+
+<script>
+const $ = id => document.getElementById(id);
+const results = $('results');
+const statusEl = $('status');
+const summary = $('summary');
+
+const controls = [
+  ['bankroll', 'bankrollLabel'],
+  ['minProfit', 'minProfitLabel'],
+  ['maxProfit', 'maxProfitLabel'],
+  ['nearArb', 'nearArbLabel'],
+  ['searchDays', 'searchDaysLabel'],
+];
+controls.forEach(([input, label]) => {
+  const el = $(input), out = $(label);
+  el.addEventListener('input', () => out.textContent = el.value);
+});
+
+function selectedSports() {
+  return [...document.querySelectorAll('input[name="sport"]:checked')].map(x => x.value);
+}
+
+function payload() {
+  return {
+    bankroll: Number($('bankroll').value),
+    min_profit_percent: Number($('minProfit').value),
+    max_profit_percent: Number($('maxProfit').value),
+    near_arb_percent: Number($('nearArb').value),
+    search_days: Number($('searchDays').value),
+    sport_keys: selectedSports(),
+    send_alerts: $('sendDiscord').checked,
+    send_near_arbs: $('sendNearArbs').checked,
+    max_alerts: Number($('maxAlerts').value),
+  };
+}
+
+function safeUrl(url) {
+  return url && url.length ? url : '#';
+}
+
+function render(data) {
+  results.innerHTML = '';
+  const arbs = data.filter(x => x.type === 'ARB').length;
+  const near = data.filter(x => x.type !== 'ARB').length;
+  summary.textContent = `${data.length} results: ${arbs} arbs, ${near} near-arbs.`;
+
+  if (!data.length) {
+    results.innerHTML = '<p class="empty">No arbs found with these filters. Try lower minimum profit or include more sports.</p>';
+    return;
+  }
+
+  data.forEach(opp => {
+    const card = document.createElement('article');
+    card.className = 'card ' + (opp.type === 'ARB' ? 'arb' : 'near');
+    const legs = opp.legs.map(leg => `
+      <li>
+        <div>
+          <strong>${leg.bookmaker}</strong>
+          <span>${leg.outcome} @ ${leg.odds}</span>
+          <small>Stake £${leg.stake}</small>
+        </div>
+        <a target="_blank" rel="noopener noreferrer" href="${safeUrl(leg.event_url)}">Open</a>
+      </li>
+    `).join('');
+
+    const meta = opp.scan_meta ? `<small>Scanned ${new Date(opp.scan_meta.scanned_at).toLocaleString()} | ${opp.scan_meta.events_checked} events checked</small>` : '';
+
+    card.innerHTML = `
+      <div class="topline">
+        <span class="pill">${opp.type}</span>
+        <span>${opp.confidence.label} confidence</span>
+        <span>${opp.difficulty}</span>
+      </div>
+      <h3>${opp.event_name}</h3>
+      <p class="muted">${opp.sport} | ${opp.market} | Starts ${new Date(opp.commence_time).toLocaleString()}</p>
+      <div class="metrics">
+        <div><b>${opp.profit_percent}%</b><small>Profit</small></div>
+        <div><b>£${opp.guaranteed_profit}</b><small>Guaranteed</small></div>
+        <div><b>${opp.distance_to_arb_percent}%</b><small>Away</small></div>
+      </div>
+      <ul class="legs">${legs}</ul>
+      <p class="manual">Open each bookmaker link, verify odds manually, then decide yourself.</p>
+      ${meta}
+    `;
+    results.appendChild(card);
+  });
+}
+
+async function runScan() {
+  if (!selectedSports().length) {
+    statusEl.textContent = 'Pick at least one sport.';
+    return;
+  }
+  $('scanBtn').disabled = true;
+  statusEl.textContent = 'Scanning. This may use API credits.';
+  try {
+    const res = await fetch('/api/scan', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify(payload()),
+    });
+    if (!res.ok) throw new Error(await res.text());
+    render(await res.json());
+    statusEl.textContent = 'Scan complete. You can stop the server when finished.';
+  } catch (err) {
+    statusEl.textContent = 'Error: ' + err.message;
+  } finally {
+    $('scanBtn').disabled = false;
+  }
+}
+
+async function loadResults() {
+  statusEl.textContent = 'Loading saved results...';
+  const res = await fetch('/api/results');
+  render(await res.json());
+  statusEl.textContent = 'Loaded.';
+}
+
+$('scanBtn').addEventListener('click', runScan);
+$('loadBtn').addEventListener('click', loadResults);
+loadResults();
+</script>
+</body>
+</html>

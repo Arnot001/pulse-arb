@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pulse Horses</title>
+    <style>
+        body {
+            background: #050509;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        .title {
+            color: #ff008c;
+            font-size: 42px;
+            font-weight: bold;
+        }
+
+        .subtitle {
+            color: #cfd3dc;
+            margin-bottom: 30px;
+        }
+
+        .horse-card {
+            background: #111118;
+            border: 1px solid #3a2144;
+            border-radius: 18px;
+            padding: 22px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 25px rgba(255, 0, 140, 0.12);
+        }
+
+        .horse-name {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .race-meta {
+            color: #b7bbca;
+            margin-top: 6px;
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+            margin-top: 20px;
+        }
+
+        .metric {
+            background: #090912;
+            border: 1px solid #29293a;
+            border-radius: 14px;
+            padding: 14px;
+        }
+
+        .metric-label {
+            color: #9ea4b5;
+            font-size: 13px;
+        }
+
+        .metric-value {
+            color: #00ff88;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 6px;
+        }
+
+        .badges {
+            margin-top: 18px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #ff0066;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 999px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .badge.dark {
+            background: #8a2be2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="title">Pulse Horses</div>
+    <div class="subtitle">Tipster consensus, value scoring, each-way flags and dark horse alerts.</div>
+
+    {% for card in cards %}
+    <div class="horse-card">
+        <div class="horse-name">
+            {{ card.horse }}
+        </div>
+
+        <div class="race-meta">
+            {{ card.race_time }} · {{ card.race_name }}
+        </div>
+
+        <div class="metrics">
+            <div class="metric">
+                <div class="metric-label">Odds</div>
+                <div class="metric-value">{{ card.odds }}</div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Value Score</div>
+                <div class="metric-value">{{ card.value_score }}</div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Each Way</div>
+                <div class="metric-value">
+                    {% if card.each_way %}YES{% else %}NO{% endif %}
+                </div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Dark Horse</div>
+                <div class="metric-value">
+                    {% if card.dark_horse %}YES{% else %}NO{% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="badges">
+            {% if card.each_way %}
+                <span class="badge">🎯 Each Way</span>
+            {% endif %}
+
+            {% if card.dark_horse %}
+                <span class="badge dark">🐎 Dark Horse</span>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+
+</body>
+</html>
