@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pulse Horses - Leaderboards</title>
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<div class="title">🐎 Pulse Horses</div>
+<div class="subtitle">Top trainers and jockeys from today’s Pulse data.</div>
+
+<div class="pulse-nav-wrap">
+    <div class="pulse-nav">
+        <a class="nav-button" href="/">📈 Pulse Arb</a>
+        <a class="nav-button active" href="/horses">🐎 Pulse Horses</a>
+        <a class="nav-button disabled" href="#">🐕 Dogs</a>
+        <a class="nav-button disabled" href="#">⚽ Football</a>
+    </div>
+</div>
+
+<div style="margin-bottom: 24px;">
+    <a class="button" href="/horses">Top Horses</a>
+    <a class="button" href="/horses/races">Race View</a>
+    <a class="button" href="/horses/leaderboards">Leaderboards</a>
+</div>
+
+<div class="horse-card">
+    <div class="horse-name">🏆 Top Trainers Today</div>
+
+    {% for trainer in trainers %}
+    <div class="leg-row">
+        <div>
+            <strong>{{ loop.index }}. {{ trainer.trainer }}</strong>
+            <div class="race-meta">
+                Runs: {{ trainer.runs }} · Top Rated: {{ trainer.top_rated_runners }}
+            </div>
+        </div>
+        <div class="leg-metrics">
+            <span class="odds-pill">{{ trainer.average_pulse_score }}</span>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="horse-card">
+    <div class="horse-name">🏇 Top Jockeys Today</div>
+
+    {% for jockey in jockeys %}
+    <div class="leg-row">
+        <div>
+            <strong>{{ loop.index }}. {{ jockey.jockey }}</strong>
+            <div class="race-meta">
+                Rides: {{ jockey.rides }} · Top Rated: {{ jockey.top_rated_rides }}
+            </div>
+        </div>
+        <div class="leg-metrics">
+            <span class="odds-pill">{{ jockey.average_pulse_score }}</span>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+</body>
+</html>

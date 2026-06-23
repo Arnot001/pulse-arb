@@ -527,3 +527,123 @@ white-space: nowrap;
 .legs-grid .leg-row {
     width: auto;
 }
+
+.pulse-nav-wrap {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+}
+
+.pulse-header {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.pulse-nav {
+    display: flex;
+    gap: 10px;
+    background: #101018;
+    border: 1px solid #29293a;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: #f5f7fa;
+    background: #151522;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+.nav-button:hover {
+    border-color: #ff008c;
+}
+
+.nav-button.active {
+    background: linear-gradient(135deg, #ff0066, #8a2be2);
+}
+
+.nav-button.disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+.title {
+    color: #ff174f;
+    font-size: 44px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #aaa;
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+
+.horse-card {
+    background:
+        radial-gradient(
+            circle at top left,
+            rgba(255,23,79,0.10),
+            transparent 35%
+        ),
+        #121218;
+
+    border: 1px solid #2b2b3a;
+    border-radius: 18px;
+    padding: 22px;
+    margin-bottom: 18px;
+
+    box-shadow:
+        0 18px 45px rgba(0,0,0,0.25);
+}
+
+.horse-name {
+    font-size: 28px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.race-meta {
+    color: #b7bbca;
+    margin-top: 7px;
+}
+
+.score {
+    color: #00e676;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 16px;
+}
+
+.notes {
+    margin-top: 16px;
+}
+
+.notes .badge {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff174f, #9b2cff);
+    color: white;
+    padding: 7px 11px;
+    border-radius: 999px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.race-summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    background: #0b0b10;
+    border: 1px solid #292936;
+    border-radius: 14px;
+    padding: 14px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}

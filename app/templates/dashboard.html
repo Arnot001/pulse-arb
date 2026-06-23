@@ -10,6 +10,42 @@
 
 </head>
 
+<style>
+.pulse-nav-wrap {
+    display: flex;
+    justify-content: flex-end;
+    margin: -10px 0 24px 0;
+}
+
+.pulse-nav {
+    display: flex;
+    gap: 10px;
+    background: #101018;
+    border: 1px solid #29293a;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: #f5f7fa;
+    background: #151522;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+.nav-button.active {
+    background: linear-gradient(135deg, #ff0066, #8a2be2);
+}
+
+.nav-button.disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+</style>
+
 <body>
 
 <div class="pulse-header">
@@ -26,6 +62,21 @@
 
     <div class="pulse-divider"></div>
 
+</div>
+
+<div class="pulse-nav-wrap">
+    <div class="pulse-nav">
+        <a class="nav-button {% if active_page == 'arb' %}active{% endif %}" href="/">
+            📈 Pulse Arb
+        </a>
+
+        <a class="nav-button {% if active_page == 'horses' %}active{% endif %}" href="/horses">
+            🐎 Pulse Horses
+        </a>
+        
+        <a class="nav-button disabled" href="#">🐕 Dogs</a>
+        <a class="nav-button disabled" href="#">⚽ Football</a>
+    </div>
 </div>
 
 <div class="panel">

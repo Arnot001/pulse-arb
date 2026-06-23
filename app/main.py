@@ -3,7 +3,10 @@ import os
 import threading
 import requests
 
-from app.modules.horses.routes import get_horse_dashboard
+from app.modules.horses.leaderboard_routes import get_leaderboard_data
+from app.modules.horses.output import get_top_horses
+from fastapi.responses import HTMLResponse
+from app.modules.horses.routes import get_horse_dashboard, get_horse_race_groups
 from app.services.scanner import (
     fetch_sport_results,
     run_full_scan,
@@ -40,6 +43,8 @@ app.mount(
     name="static",
 )
 
+templates = Jinja2Templates(directory="app/templates")
+
 @app.get("/horses", response_class=HTMLResponse)
 def horses(request: Request):
     return templates.TemplateResponse(
@@ -47,10 +52,34 @@ def horses(request: Request):
         {
             "request": request,
             "cards": get_horse_dashboard(),
+            "active_page": "horses",
         },
     )
+    
+@app.get("/horses/races", response_class=HTMLResponse)
+def horses_races(request: Request):
+    return templates.TemplateResponse(
+        "horses_races.html",
+        {
+            "request": request,
+            "races": get_horse_race_groups(),
+            "active_page": "horses",
+        },
+    )
+    
+@app.get("/horses/leaderboards", response_class=HTMLResponse)
+def horses_leaderboards(request: Request):
+    data = get_leaderboard_data()
 
-templates = Jinja2Templates(directory="app/templates")
+    return templates.TemplateResponse(
+        "horses_leaderboards.html",
+        {
+            "request": request,
+            "active_page": "horses",
+            "trainers": data["trainers"],
+            "jockeys": data["jockeys"],
+        },
+    )
 
 logging.basicConfig(level=logging.INFO)
 
@@ -686,6 +715,7 @@ def dashboard(
         "dashboard.html",
         {
             "request": request,
+            "active_page": "arb",
             "live_html": live_html,
             "arb_html": arb_html,
             "near_html": near_html,

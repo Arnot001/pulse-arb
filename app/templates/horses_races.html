@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pulse Horses - Race View</title>
+
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<div class="title">🐎 Pulse Horses</div>
+<div class="subtitle">Race-by-race Pulse Score rankings.</div>
+
+<div class="pulse-nav-wrap">
+    <div class="pulse-nav">
+        <a class="nav-button {% if active_page == 'arb' %}active{% endif %}" href="/">📈 Pulse Arb</a>
+        <a class="nav-button {% if active_page == 'horses' %}active{% endif %}" href="/horses">🐎 Pulse Horses</a>
+        <a class="nav-button disabled" href="#">🐕 Dogs</a>
+        <a class="nav-button disabled" href="#">⚽ Football</a>
+    </div>
+</div>
+
+<div style="margin-bottom: 24px;">
+    <a class="button" href="/horses">Top Horses</a>
+    <a class="button" href="/horses/races">Race View</a>
+</div>
+
+{% for race in races %}
+<div class="horse-card">
+    <div class="horse-name">
+        {{ race.course }} · {{ race.time }}
+    </div>
+
+    <div class="race-meta">
+        {{ race.race_name }}
+    </div>
+
+    <div class="race-summary">
+        <div>
+            ⭐ Pulse Pick:
+            <strong>{{ race.pulse_pick.horse }}</strong>
+            <span class="odds-pill">{{ race.top_score }}</span>
+        </div>
+
+        <div>
+            📊 Confidence:
+            <strong>{{ race.confidence }}</strong>
+            <span class="muted">Gap: {{ race.gap }}</span>
+        </div>
+    </div>
+
+    <div style="margin-top: 18px;">
+        {% for runner in race.runners %}
+        <div class="leg-row">
+            <div>
+                <strong>{{ loop.index }}. {{ runner.horse }}</strong>
+                <div class="race-meta">
+                    Form: {{ runner.form }} · Draw: {{ runner.draw }} · Last run: {{ runner.last_run }}
+                </div>
+            </div>
+
+            <div class="leg-metrics">
+                <span class="odds-pill">
+                    {{ runner.pulse_score }}
+                </span>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+
+</body>
+</html>
