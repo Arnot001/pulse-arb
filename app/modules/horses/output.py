@@ -40,12 +40,12 @@ def get_top_horses(limit=20):
 
 def get_confidence_label(gap):
     if gap >= 15:
-        return "ELITE"
+        return "DOMINANT"
     if gap >= 10:
-        return "HIGH"
+        return "STRONG EDGE"
     if gap >= 5:
-        return "MEDIUM"
-    return "LOW"
+        return "COMPETITIVE"
+    return "TIGHT RACE"
 
 
 def get_race_groups():
@@ -53,7 +53,11 @@ def get_race_groups():
     grouped = defaultdict(list)
 
     for horse in horses:
-        race_key = f'{horse.get("course")}|{horse.get("off_time")}|{horse.get("race_name")}'
+        race_key = (
+            f'{horse.get("course")}|'
+            f'{horse.get("off_time")}|'
+            f'{horse.get("race_name")}'
+        )
         grouped[race_key].append(horse)
 
     races = []
@@ -61,13 +65,24 @@ def get_race_groups():
     for race_key, runners in grouped.items():
         course, off_time, race_name = race_key.split("|")
 
-        runners.sort(key=lambda x: x.get("pulse_score", 0), reverse=True)
+        runners.sort(
+            key=lambda x: x.get("pulse_score", 0),
+            reverse=True,
+        )
 
         top_runner = runners[0] if runners else None
         second_runner = runners[1] if len(runners) > 1 else None
 
-        top_score = top_runner.get("pulse_score", 0) if top_runner else 0
-        second_score = second_runner.get("pulse_score", 0) if second_runner else 0
+        top_score = (
+            top_runner.get("pulse_score", 0)
+            if top_runner else 0
+        )
+
+        second_score = (
+            second_runner.get("pulse_score", 0)
+            if second_runner else 0
+        )
+
         gap = top_score - second_score
 
         races.append({

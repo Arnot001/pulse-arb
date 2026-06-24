@@ -647,3 +647,100 @@ white-space: nowrap;
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
+.race-card .metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-top: 22px;
+}
+
+.race-card .metric {
+    background: #090912;
+    border: 1px solid #29293a;
+    border-radius: 14px;
+    padding: 14px;
+}
+
+.race-card .metric-label {
+    color: #9ea4b5;
+    font-size: 13px;
+}
+
+.race-card .metric-value {
+    color: #00ff88;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.confidence-badge {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+.confidence-elite {
+    background: #00e676;
+    color: #001b09;
+}
+
+.confidence-high {
+    background: #00c853;
+    color: #001b09;
+}
+
+.confidence-medium {
+    background: #ffab00;
+    color: #1f1400;
+}
+
+.confidence-low {
+    background: #ff174f;
+    color: white;
+}
+
+.gap-high {
+    color: #00e676 !important;
+}
+
+.gap-medium {
+    color: #ffab00 !important;
+}
+
+.gap-low {
+    color: #ff174f !important;
+}
+
+.confidence-badge {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.confidence-dominant {
+    background: #00e676;
+    color: #001b09;
+}
+
+.confidence-strong-edge {
+    background: #00c853;
+    color: #001b09;
+}
+
+.confidence-competitive {
+    background: #ffab00;
+    color: #1f1400;
+}
+
+.confidence-tight-race {
+    background: #ff174f;
+    color: white;
+}
