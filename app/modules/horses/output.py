@@ -48,6 +48,16 @@ def get_confidence_label(gap):
     return "TIGHT RACE"
 
 
+def get_opportunity_note(gap, field_size):
+    if gap >= 10 and field_size >= 10:
+        return "Large-field standout"
+    if gap >= 10:
+        return "Clear Pulse edge"
+    if gap <= 3:
+        return "Very tight race"
+    return ""
+
+
 def get_race_groups():
     horses = load_horse_scores()
     grouped = defaultdict(list)
@@ -73,17 +83,10 @@ def get_race_groups():
         top_runner = runners[0] if runners else None
         second_runner = runners[1] if len(runners) > 1 else None
 
-        top_score = (
-            top_runner.get("pulse_score", 0)
-            if top_runner else 0
-        )
-
-        second_score = (
-            second_runner.get("pulse_score", 0)
-            if second_runner else 0
-        )
-
+        top_score = top_runner.get("pulse_score", 0) if top_runner else 0
+        second_score = second_runner.get("pulse_score", 0) if second_runner else 0
         gap = top_score - second_score
+        field_size = len(runners)
 
         races.append({
             "course": course,
@@ -94,11 +97,14 @@ def get_race_groups():
             "top_score": top_score,
             "second_score": second_score,
             "gap": gap,
+            "field_size": field_size,
             "confidence": get_confidence_label(gap),
+            "opportunity_note": get_opportunity_note(gap, field_size),
         })
 
     races.sort(key=lambda x: (x["course"], x["time"]))
     return races
+
 
 def get_race_by_key(race_key):
     races = get_race_groups()

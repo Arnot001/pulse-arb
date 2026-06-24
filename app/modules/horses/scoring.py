@@ -59,7 +59,6 @@ def score_draw(draw, field_size):
 
     return 0
 
-
 def calculate_horse_score(runner):
     score = 40
     notes = []
@@ -109,8 +108,6 @@ def calculate_horse_score(runner):
     elif jockey_bonus < 0:
         notes.append(f"Jockey concern {jockey_bonus}")
 
-    score = max(0, min(100, round(score)))
-
     tipster_count = runner.get("tipster_count", 0)
     total_tipsters = runner.get("total_tipsters", 0)
 
@@ -127,6 +124,8 @@ def calculate_horse_score(runner):
         notes.append(
             f"Tipster consensus {tipster_consensus} +{tipster_score}"
         )
+        
+    score = max(0, min(100, round(score)))
 
     return {
         "pulse_score": score,

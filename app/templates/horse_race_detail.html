@@ -20,6 +20,11 @@
                 <h2>Pulse Rankings</h2>
                 <div class="race-meta">
                     Gap To 2nd: {{ race.gap }} · {{ race.confidence }}
+                    {% if race.opportunity_note %}
+                    <div class="race-meta">
+                        🔥 {{ race.opportunity_note }}
+                    </div>
+                    {% endif %}
                 </div>
             </div>
 
@@ -36,7 +41,15 @@
 
                 <div>
                     <div class="horse-name">
-                        #{{ loop.index }} {{ runner.horse }}
+                        {% if loop.index == 1 %}
+                            🥇 {{ runner.horse }}
+                        {% elif loop.index == 2 %}
+                            🥈 {{ runner.horse }}
+                        {% elif loop.index == 3 %}
+                            🥉 {{ runner.horse }}
+                        {% else %}
+                            #{{ loop.index }} {{ runner.horse }}
+                        {% endif %}
                     </div>
 
                     <div class="race-meta">
@@ -46,7 +59,20 @@
                     </div>
                 </div>
 
-                <div class="pulse-score">
+                <div class="
+                    pulse-score
+                    {% if runner.pulse_score >= 80 %}
+                        score-elite
+                    {% elif runner.pulse_score >= 70 %}
+                        score-strong
+                    {% elif runner.pulse_score >= 60 %}
+                        score-good
+                    {% elif runner.pulse_score >= 50 %}
+                        score-fair
+                    {% else %}
+                        score-weak
+                    {% endif %}
+                ">
                     {{ runner.pulse_score }}
                 </div>
 
