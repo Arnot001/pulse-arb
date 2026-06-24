@@ -48,9 +48,9 @@ templates = Jinja2Templates(directory="app/templates")
 @app.get("/horses", response_class=HTMLResponse)
 def horses(request: Request):
     return templates.TemplateResponse(
+        request,
         "horses.html",
         {
-            "request": request,
             "cards": get_horse_dashboard(),
             "active_page": "horses",
         },
@@ -59,9 +59,9 @@ def horses(request: Request):
 @app.get("/horses/races", response_class=HTMLResponse)
 def horses_races(request: Request):
     return templates.TemplateResponse(
+        request,
         "horses_races.html",
-        {
-            "request": request,
+        {  
             "races": get_horse_race_groups(),
             "active_page": "horses",
         },
@@ -72,9 +72,9 @@ def horses_leaderboards(request: Request):
     data = get_leaderboard_data()
 
     return templates.TemplateResponse(
+        request,
         "horses_leaderboards.html",
         {
-            "request": request,
             "active_page": "horses",
             "trainers": data["trainers"],
             "jockeys": data["jockeys"],
@@ -712,9 +712,9 @@ def dashboard(
         book_html = "<li>No scan history yet.</li>"
 
     return templates.TemplateResponse(
+        request,
         "dashboard.html",
         {
-            "request": request,
             "active_page": "arb",
             "live_html": live_html,
             "arb_html": arb_html,

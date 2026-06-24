@@ -1,7 +1,8 @@
 from app.modules.horses.trainer_lookup import get_trainer_bonus
 from app.modules.horses.jockey_lookup import get_jockey_bonus
 from app.utils import to_int
-
+from app.modules.horses.tipsters import calculate_tipster_score
+from app.modules.horses.class_score import score_race_class
 
 def score_form(form):
     if not form:
@@ -9,6 +10,7 @@ def score_form(form):
 
     score = 0
     recent = str(form).replace("-", "")[-4:]
+
 
     for char in recent:
         if char == "1":
@@ -87,6 +89,12 @@ def calculate_horse_score(runner):
         score -= 30
         notes.append("Non-runner risk")
 
+    class_score = score_race_class(runner.get("race_class"))
+    score += class_score
+
+    if class_score > 0:
+        notes.append(f"Race class strength +{class_score}")
+
     trainer_bonus = get_trainer_bonus(runner.get("trainer_id"))
     score += trainer_bonus
     if trainer_bonus > 0:
@@ -102,6 +110,23 @@ def calculate_horse_score(runner):
         notes.append(f"Jockey concern {jockey_bonus}")
 
     score = max(0, min(100, round(score)))
+
+    tipster_count = runner.get("tipster_count", 0)
+    total_tipsters = runner.get("total_tipsters", 0)
+
+    tipster_result = calculate_tipster_score(
+        tipster_count=tipster_count,
+        total_tipsters=total_tipsters,
+    )
+
+    tipster_score = tipster_result["tipster_score"]
+    tipster_consensus = tipster_result["tipster_consensus"]
+
+    if tipster_score > 0:
+        score += tipster_score
+        notes.append(
+            f"Tipster consensus {tipster_consensus} +{tipster_score}"
+        )
 
     return {
         "pulse_score": score,
