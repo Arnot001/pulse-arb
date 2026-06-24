@@ -11,7 +11,7 @@ from app.services.scanner import (
     fetch_sport_results,
     run_full_scan,
 )
-
+from app.modules.horses.output import get_race_by_key
 from app.ui.cards import render_result_card
 from fastapi.templating import Jinja2Templates
 from fastapi import FastAPI, Query, HTTPException, Form, Request
@@ -64,6 +64,22 @@ def horses_races(request: Request):
         {  
             "races": get_horse_race_groups(),
             "active_page": "horses",
+        },
+    )
+    
+@app.get("/horses/race/{race_key}", response_class=HTMLResponse)
+async def horse_race_detail(request: Request, race_key: str):
+
+    race = get_race_by_key(race_key)
+
+    if not race:
+        return HTMLResponse("Race not found", status_code=404)
+
+    return templates.TemplateResponse(
+        "horse_race_detail.html",
+        {
+            "request": request,
+            "race": race,
         },
     )
     

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ race.course }} {{ race.time }}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<div class="pulse-horses-page">
+
+    <a class="button" href="/horses/races">← Back To Races</a>
+
+    <h1>{{ race.course }} · {{ race.time }}</h1>
+    <p class="muted">{{ race.race_name }}</p>
+
+    <div class="horse-card race-card">
+
+        <div class="card-top">
+            <div>
+                <h2>Pulse Rankings</h2>
+                <div class="race-meta">
+                    Gap To 2nd: {{ race.gap }} · {{ race.confidence }}
+                </div>
+            </div>
+
+            <span class="confidence-badge confidence-{{ race.confidence|lower|replace(' ', '-') }}">
+                {{ race.confidence }}
+            </span>
+        </div>
+
+        {% for runner in race.runners %}
+
+        <div class="horse-card" style="margin-bottom:16px;">
+
+            <div class="card-top">
+
+                <div>
+                    <div class="horse-name">
+                        #{{ loop.index }} {{ runner.horse }}
+                    </div>
+
+                    <div class="race-meta">
+                        Trainer: {{ runner.trainer }}
+                        ·
+                        Jockey: {{ runner.jockey }}
+                    </div>
+                </div>
+
+                <div class="pulse-score">
+                    {{ runner.pulse_score }}
+                </div>
+
+            </div>
+
+            {% if runner.notes %}
+            <div class="notes">
+                {% for note in runner.notes %}
+                    <span class="badge">{{ note }}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+</body>
+</html>

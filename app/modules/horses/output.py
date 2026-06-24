@@ -99,3 +99,18 @@ def get_race_groups():
 
     races.sort(key=lambda x: (x["course"], x["time"]))
     return races
+
+def get_race_by_key(race_key):
+    races = get_race_groups()
+
+    for race in races:
+        current_key = (
+            f'{race["course"]}|'
+            f'{race["time"]}|'
+            f'{race["race_name"]}'
+        )
+
+        if current_key == race_key:
+            return race
+
+    return None
