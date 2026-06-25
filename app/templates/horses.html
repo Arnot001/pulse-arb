@@ -8,45 +8,53 @@
 </head>
 <body>
 
-<div class="title">🐎 Pulse Horses</div>
-<div class="subtitle">Real Racing API data ranked by Pulse Score.</div>
+<div class="pulse-horses-page">
 
-<div class="pulse-nav-wrap">
-    <div class="pulse-nav">
+    <div class="horses-header-row">
 
-        <a class="nav-button {% if active_page == 'arb' %}active{% endif %}" href="/">
-            📈 Pulse Arb
-        </a>
+        <div>
+            <h1>🐎 Pulse Horses</h1>
+            <p class="muted">
+                Real Racing API data ranked by Pulse Score.
+            </p>
+        </div>
 
-        <a class="nav-button {% if active_page == 'horses' %}active{% endif %}" href="/horses">
-            🐎 Pulse Horses
-        </a>
-
-        <a class="nav-button disabled" href="#">
-            🐕 Dogs
-        </a>
-
-        <a class="nav-button disabled" href="#">
-            ⚽ Football
-        </a>
+        <div class="horses-subnav">
+            <a class="button" href="/horses">🏆 Top Horses</a>
+            <a class="button" href="/horses/races">🏇 Today's Races</a>
+            <a class="button" href="/horses/leaderboards">📊 Leaderboards</a>
+            <a class="button" href="/">📈 Pulse Arb</a>
+        </div>
 
     </div>
-</div>
 
-{% for card in cards %}
-<div class="horse-card">
-    <div class="horse-name">{{ card.horse }}</div>
-    <div class="race-meta">{{ card.course }} · {{ card.time }} · Form: {{ card.form }}</div>
+    {% for card in cards %}
 
-    <div class="score">Pulse Score: {{ card.score }}</div>
+    <div class="horse-card">
 
-    <div class="notes">
-        {% for note in card.notes %}
-            <span class="badge">{{ note }}</span>
-        {% endfor %}
+        <div class="horse-name">
+            {{ card.horse }}
+        </div>
+
+        <div class="race-meta">
+            {{ card.course }} · {{ card.time }} · Form: {{ card.form }}
+        </div>
+
+        <div class="score">
+            Pulse Score: {{ card.score }}
+        </div>
+
+        <div class="notes">
+            {% for note in card.notes %}
+                <span class="badge">{{ note }}</span>
+            {% endfor %}
+        </div>
+
     </div>
+
+    {% endfor %}
+
 </div>
-{% endfor %}
 
 </body>
 </html>
