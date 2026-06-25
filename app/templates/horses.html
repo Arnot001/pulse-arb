@@ -28,6 +28,7 @@
 
     </div>
 
+<<<<<<< HEAD
     {% for card in cards %}
 
     <div class="horse-card">
@@ -55,6 +56,65 @@
     {% endfor %}
 
 </div>
+=======
+<div class="horses-subnav">
+    <a class="button" href="/horses">🏆 Top Horses</a>
+    <a class="button" href="/horses/races">🏇 Today's Races</a>
+    <a class="button" href="/horses/leaderboards">📊 Leaderboards</a>
+    <a class="button" href="/">📈 Pulse Arb</a>
+</div>
+
+{% for card in cards %}
+
+<div class="horse-card">
+
+    <div class="horse-name">
+        {{ card.horse }}
+    </div>
+
+    <div class="race-meta">
+        {{ card.course }} · {{ card.time }} · Form: {{ card.form }}
+    </div>
+
+    <div class="score">
+        Pulse Score: {{ card.score }}
+    </div>
+
+    <!-- Main scoring factors -->
+    {% if card.normal_notes %}
+    <div class="notes">
+        {% for note in card.normal_notes %}
+            <span class="badge">{{ note }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Tipster section -->
+    {% if card.tipster_notes %}
+    <div class="notes" style="margin-top:10px;">
+        <strong>🔥 Tipster Support</strong><br>
+
+        {% for note in card.tipster_notes %}
+            <span class="badge">{{ note }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- History section -->
+    {% if card.history_notes %}
+    <div class="notes" style="margin-top:10px;">
+        <strong>📚 Historical Profile</strong><br>
+
+        {% for note in card.history_notes %}
+            <span class="badge">{{ note }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+</div>
+
+{% endfor %}
+>>>>>>> fd1b1cc (Add Pulse Horses tipster and history intelligence)
 
 </body>
 </html>

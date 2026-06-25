@@ -1,8 +1,11 @@
+from app.modules.horses.history_stats import get_horse_history
+from app.modules.horses.tipster_support import get_tipster_boost
 from app.modules.horses.trainer_lookup import get_trainer_bonus
 from app.modules.horses.jockey_lookup import get_jockey_bonus
-from app.utils import to_int
-from app.modules.horses.tipsters import calculate_tipster_score
 from app.modules.horses.class_score import score_race_class
+from app.modules.horses.value import value_rating
+from app.utils import to_int
+
 
 def score_form(form):
     if not form:
@@ -10,7 +13,6 @@ def score_form(form):
 
     score = 0
     recent = str(form).replace("-", "")[-4:]
-
 
     for char in recent:
         if char == "1":
@@ -59,12 +61,27 @@ def score_draw(draw, field_size):
 
     return 0
 
+
+def format_tipster_note(tip):
+    source = tip.get("source", "")
+    tipster = tip.get("tipster", "")
+    tip_type = tip.get("tip_type", "")
+
+    label_parts = [part for part in [source, tipster, tip_type] if part]
+
+    if not label_parts:
+        return "Tipster support"
+
+    return "Tipster: " + " · ".join(label_parts)
+
+
 def calculate_horse_score(runner):
     score = 40
     notes = []
 
     form_score = score_form(runner.get("form"))
     score += form_score
+
     if form_score >= 12:
         notes.append("Strong recent form")
     elif form_score > 0:
@@ -74,6 +91,7 @@ def calculate_horse_score(runner):
 
     last_run_score = score_last_run(runner.get("last_run"))
     score += last_run_score
+
     if last_run_score > 0:
         notes.append("Good recent run timing")
     elif last_run_score < 0:
@@ -81,6 +99,7 @@ def calculate_horse_score(runner):
 
     draw_score = score_draw(runner.get("draw"), runner.get("field_size"))
     score += draw_score
+
     if draw_score > 0:
         notes.append("Helpful draw")
 
@@ -96,6 +115,7 @@ def calculate_horse_score(runner):
 
     trainer_bonus = get_trainer_bonus(runner.get("trainer_id"))
     score += trainer_bonus
+
     if trainer_bonus > 0:
         notes.append(f"Trainer bonus +{trainer_bonus}")
     elif trainer_bonus < 0:
@@ -103,31 +123,50 @@ def calculate_horse_score(runner):
 
     jockey_bonus = get_jockey_bonus(runner.get("jockey_id"))
     score += jockey_bonus
+
     if jockey_bonus > 0:
         notes.append(f"Jockey bonus +{jockey_bonus}")
     elif jockey_bonus < 0:
         notes.append(f"Jockey concern {jockey_bonus}")
 
-    tipster_count = runner.get("tipster_count", 0)
-    total_tipsters = runner.get("total_tipsters", 0)
-
-    tipster_result = calculate_tipster_score(
-        tipster_count=tipster_count,
-        total_tipsters=total_tipsters,
+    tipster_boost, tipster_matches = get_tipster_boost(
+        runner.get("horse", "")
     )
 
-    tipster_score = tipster_result["tipster_score"]
-    tipster_consensus = tipster_result["tipster_consensus"]
+    if tipster_boost > 0:
+        score += tipster_boost
+        notes.append(f"Tipster support +{tipster_boost}")
 
-    if tipster_score > 0:
-        score += tipster_score
-        notes.append(
-            f"Tipster consensus {tipster_consensus} +{tipster_score}"
-        )
-        
+        for tip in tipster_matches:
+            notes.append(format_tipster_note(tip))
+
+    history = get_horse_history(runner.get("horse", ""))
+
+    if history:
+        wins = history.get("wins", 0)
+
+        if wins >= 1:
+            score += 3
+            notes.append("Historical winner +3")
+
+        course_name = runner.get("course", "")
+        course_history = history.get("courses", {}).get(course_name)
+
+        if course_history and course_history.get("wins", 0) >= 1:
+            score += 4
+            notes.append("Previous course winner +4")
+
     score = max(0, min(100, round(score)))
+
+    value = value_rating(
+        score,
+        runner.get("sp")
+    )
 
     return {
         "pulse_score": score,
         "notes": notes,
+        "tipster_boost": tipster_boost,
+        "tipsters": tipster_matches,
+        "value_rating": value,
     }

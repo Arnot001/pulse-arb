@@ -5,6 +5,17 @@ from pathlib import Path
 TIP_FILE = Path("data/horses/tipsters/tips.jsonl")
 
 
+TIP_WEIGHTS = {
+    "nap": 8,
+    "top tip": 6,
+    "watch out for": 3,
+    "each way": 3,
+    "ew": 3,
+    "dark horse": 4,
+    "daily tip": 4,
+}
+
+
 def normalise(text):
     return str(text or "").strip().lower()
 
@@ -49,11 +60,13 @@ def get_tipster_boost(horse_name):
     for tip in matches:
         tip_type = normalise(tip.get("tip_type"))
 
-        if "nap" in tip_type:
-            boost += 8
-        elif "top tip" in tip_type:
-            boost += 6
-        else:
-            boost += 4
+        points = 4
+
+        for key, value in TIP_WEIGHTS.items():
+            if key in tip_type:
+                points = value
+                break
+
+        boost += points
 
     return min(boost, 15), matches

@@ -1,6 +1,6 @@
 import os
 import requests
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 
 from app.data_store import append_jsonl
@@ -24,28 +24,39 @@ def get_auth():
 
 def collect_horse_results():
     auth = get_auth()
-    today = datetime.now(timezone.utc).date().isoformat()
+
+    target_date = (
+        datetime.now(timezone.utc).date()
+        - timedelta(days=1)
+    ).isoformat()
 
     url = f"{BASE_URL}/results"
 
     response = requests.get(
         url,
         auth=auth,
-        params={"date": today},
+        params={"date": target_date},
         timeout=20,
     )
+
+    if response.status_code == 401:
+        print(
+            "The Racing API results endpoint is not authorised on this plan. "
+            "Use public results scraping instead."
+        )
+        return
 
     response.raise_for_status()
     data = response.json()
 
     saved = 0
-
     races = data.get("results", data if isinstance(data, list) else [])
 
     for race in races:
         record = {
             "source": "the_racing_api",
-            "collection_date": today,
+            "collection_date": datetime.now(timezone.utc).date().isoformat(),
+            "result_date": target_date,
             "raw": race,
         }
 
@@ -57,7 +68,7 @@ def collect_horse_results():
 
         saved += 1
 
-    print(f"Saved {saved} horse result records.")
+    print(f"Saved {saved} horse result records for {target_date}.")
 
 
 if __name__ == "__main__":

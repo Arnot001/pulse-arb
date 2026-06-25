@@ -27,9 +27,35 @@ def load_horse_scores():
                 continue
 
             seen.add(key)
-            horses.append(horse)
+            horses.append(enrich_horse_notes(horse))
 
     return horses
+
+
+def enrich_horse_notes(horse):
+    notes = horse.get("notes", [])
+
+    normal_notes = []
+    tipster_notes = []
+    history_notes = []
+
+    for note in notes:
+        text = str(note)
+
+        if text.startswith("Tipster:") or text.startswith("Tipster support"):
+            tipster_notes.append(text)
+
+        elif text.startswith("Historical") or "course winner" in text.lower():
+            history_notes.append(text)
+
+        else:
+            normal_notes.append(text)
+
+    horse["normal_notes"] = normal_notes
+    horse["tipster_notes"] = tipster_notes
+    horse["history_notes"] = history_notes
+
+    return horse
 
 
 def get_top_horses(limit=20):
