@@ -46,10 +46,22 @@ JOBS = {
         },
     ],
 
-    "football": [
+                "football": [
         {
             "label": "Football Fixtures",
             "module": "collectors.football",
+        },
+        {
+            "label": "Football Results",
+            "module": "collectors.football_results",
+        },
+        {
+            "label": "Football Team History",
+            "module": "collectors.build_team_history",
+        },
+        {
+            "label": "Football IQ",
+            "module": "collectors.football_iq",
         },
     ],
 }

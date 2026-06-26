@@ -6,6 +6,7 @@ import threading
 import requests
 import time
 
+from app.modules.football.routes import get_football_leaderboard
 from collectors.daily_update import run_jobs
 from fastapi import FastAPI, Query, HTTPException, Form, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
@@ -187,6 +188,17 @@ def horses(request: Request):
         {
             "cards": get_horse_dashboard(),
             "active_page": "horses",
+        },
+    )
+    
+@app.get("/football", response_class=HTMLResponse)
+def football(request: Request):
+    return templates.TemplateResponse(
+        request,
+        "football.html",
+        {
+            "active_page": "football",
+            "teams": get_football_leaderboard(),
         },
     )
 

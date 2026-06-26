@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}Pulse IQ{% endblock %}</title>
+
+    <link rel="icon" type="image/png" href="/static/favicon.png">
+    <link rel="stylesheet" href="/static/styles.css">
+
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+
+<div class="pulse-layout">
+
+    <aside class="pulse-sidebar">
+
+        <div class="pulse-logo">
+            <h2>🧠 Pulse IQ</h2>
+            <div class="pulse-tagline">
+                Collect first.<br>
+                Learn forever.
+            </div>
+        </div>
+
+        <nav class="pulse-nav">
+
+            <a href="/" class="{% if active_page == 'dashboard' %}active{% endif %}">
+                🏠 Dashboard
+            </a>
+
+            <div class="pulse-nav-heading">
+                Intelligence
+            </div>
+
+            <a href="/horses" class="{% if active_page == 'horses' %}active{% endif %}">
+                🏇 Horses
+            </a>
+
+            <a href="/football" class="{% if active_page == 'football' %}active{% endif %}">
+                ⚽ Football
+            </a>
+
+            <a href="/dogs" class="{% if active_page == 'dogs' %}active{% endif %}">
+                🐕 Dogs
+            </a>
+
+            <hr>
+
+            <a href="/">
+                📈 Pulse Arb
+            </a>
+
+            <a href="/horses">
+                🔄 Updates
+            </a>
+
+        </nav>
+
+    </aside>
+
+    <main class="pulse-content">
+
+        {% block content %}
+        {% endblock %}
+
+    </main>
+
+</div>
+
+{% block scripts %}
+{% endblock %}
+
+</body>
+</html>
