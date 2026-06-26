@@ -9,11 +9,16 @@ from app.data_store import append_jsonl
 
 
 BASE_URL = "https://www.sportinglife.com"
-DATA_DIR = Path("data/dogs/racecards")
+RACECARDS_DIR = Path("data/dogs/racecards")
+RUNNER_RECORDS_DIR = Path("data/dogs/runner_records")
+
+
+def get_today():
+    return datetime.now(timezone.utc).date().isoformat()
 
 
 def get_latest_racecard_file():
-    files = sorted(DATA_DIR.glob("*.jsonl"))
+    files = sorted(RACECARDS_DIR.glob("*.jsonl"))
 
     if not files:
         raise RuntimeError("No dog racecard files found.")
@@ -45,16 +50,49 @@ def build_race_url(record):
     )
 
 
-def load_racecard_records():
+def load_todays_racecard_records():
+    today = get_today()
     file_path = get_latest_racecard_file()
     records = []
 
     with file_path.open("r", encoding="utf-8") as f:
         for line in f:
-            if line.strip():
-                records.append(json.loads(line))
+            if not line.strip():
+                continue
+
+            record = json.loads(line)
+
+            if record.get("collection_date") != today:
+                continue
+
+            records.append(record)
 
     return records
+
+
+def load_existing_runner_race_ids():
+    existing = set()
+
+    if not RUNNER_RECORDS_DIR.exists():
+        return existing
+
+    for file_path in RUNNER_RECORDS_DIR.glob("*.jsonl"):
+        with file_path.open("r", encoding="utf-8") as f:
+            for line in f:
+                if not line.strip():
+                    continue
+
+                try:
+                    record = json.loads(line)
+                except Exception:
+                    continue
+
+                race_id = record.get("race_id")
+
+                if race_id:
+                    existing.add(race_id)
+
+    return existing
 
 
 def extract_race(data):
@@ -66,12 +104,14 @@ def extract_race(data):
 
 
 def collect_dog_runner_records():
-    collection_date = datetime.now(timezone.utc).date().isoformat()
-    racecards = load_racecard_records()
+    collection_date = get_today()
+    racecards = load_todays_racecard_records()
+    already_saved_races = load_existing_runner_race_ids()
 
     saved = 0
     skipped = 0
     failed = 0
+    duplicate = 0
     seen_races = set()
 
     total = len(racecards)
@@ -83,6 +123,10 @@ def collect_dog_runner_records():
             continue
 
         seen_races.add(race_id)
+
+        if race_id in already_saved_races:
+            duplicate += 1
+            continue
 
         url = build_race_url(racecard)
 
@@ -194,7 +238,9 @@ def collect_dog_runner_records():
 
     print(
         f"Saved {saved} dog runner records. "
-        f"Skipped {skipped}. Failed {failed}."
+        f"Skipped {skipped}. "
+        f"Duplicates {duplicate}. "
+        f"Failed {failed}."
     )
 
 
