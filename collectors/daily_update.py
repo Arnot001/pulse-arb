@@ -10,10 +10,6 @@ JOBS = {
             "module": "collectors.real_horses",
         },
         {
-            "label": "Horse Results",
-            "module": "collectors.public_horse_results",
-        },
-        {
             "label": "Clean Horse Racecards",
             "module": "collectors.clean_horse_racecards",
         },
@@ -35,6 +31,10 @@ JOBS = {
         {
             "label": "Dog Racecards",
             "module": "collectors.dogs",
+        },
+        {
+            "label": "Dog Results",
+            "module": "collectors.dog_results",
         },
     ],
 

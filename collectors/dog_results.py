@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from app.data_store import append_jsonl
 
 
-URL = "https://www.sportinglife.com/greyhounds/racecards"
+URL = "https://www.sportinglife.com/greyhounds/results"
 
 
 def clean_text(text):
@@ -24,7 +24,7 @@ def get_next_data(html):
     return json.loads(script.string)
 
 
-def collect_dog_racecards():
+def collect_dog_results():
     collection_date = datetime.now(timezone.utc).date().isoformat()
 
     response = requests.get(
@@ -63,6 +63,7 @@ def collect_dog_racecards():
                 "race_class": race.get("race_class"),
                 "distance": race.get("distance"),
                 "prizes": race.get("prizes"),
+                "winning_time": race.get("winning_time"),
                 "race_stage": race.get("race_stage"),
                 "has_handicap": race.get("has_handicap"),
                 "meeting_id": (
@@ -80,14 +81,14 @@ def collect_dog_racecards():
 
             append_jsonl(
                 sport="dogs",
-                data_type="racecards",
+                data_type="results",
                 record=record,
             )
 
             saved += 1
 
-    print(f"Saved {saved} real dog racecard records.")
+    print(f"Saved {saved} real dog result records.")
 
 
 if __name__ == "__main__":
-    collect_dog_racecards()
+    collect_dog_results()
