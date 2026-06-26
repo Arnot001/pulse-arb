@@ -28,7 +28,78 @@
 
     </div>
 
-<<<<<<< HEAD
+    <div class="horse-card update-panel">
+        <h2>🧠 Pulse IQ Updates</h2>
+
+        <p class="muted">
+            Collect first. Learn forever.
+        </p>
+
+        <div class="update-buttons">
+
+            <form method="post" action="/update/horses">
+                <button class="button" type="submit">🐎 Update Horses</button>
+            </form>
+
+            <form method="post" action="/update/dogs">
+                <button class="button" type="submit">🐕 Update Dogs</button>
+            </form>
+
+            <form method="post" action="/update/football">
+                <button class="button" type="submit">⚽ Update Football</button>
+            </form>
+
+            <form method="post" action="/update/all">
+                <button class="button" type="submit">🧠 Update All</button>
+            </form>
+
+        </div>
+    </div>
+    <div class="update-progress-box">
+    <div id="update-status-title">🟢 Ready</div>
+    <div id="update-bar" class="update-bar">░░░░░░░░░░░░░░░░░░░░ 0%</div>
+    <div id="update-current" class="muted">Waiting for update...</div>
+    <div id="update-completed"></div>
+</div>
+
+<script>
+async function refreshUpdateStatus() {
+    const response = await fetch("/update/status");
+    const data = await response.json();
+
+    const title = document.getElementById("update-status-title");
+    const bar = document.getElementById("update-bar");
+    const current = document.getElementById("update-current");
+    const completed = document.getElementById("update-completed");
+
+    bar.textContent = data.bar;
+    current.textContent = data.running
+        ? "⚙ Running: " + data.current_task
+        : "Current: " + data.current_task;
+
+    if (data.running) {
+        title.textContent = "🧠 Updating Pulse IQ...";
+    } else if (data.percent === 100) {
+        title.textContent = "✅ Intelligence Update Complete";
+    } else {
+        title.textContent = "🟢 Ready";
+    }
+
+    completed.innerHTML = "";
+
+    data.completed.forEach(function(item) {
+        completed.innerHTML += "<div class='update-done'>✓ " + item + "</div>";
+    });
+
+    data.failed.forEach(function(item) {
+        completed.innerHTML += "<div class='update-failed'>✖ " + item + "</div>";
+    });
+}
+
+setInterval(refreshUpdateStatus, 1000);
+refreshUpdateStatus();
+</script>
+
     {% for card in cards %}
 
     <div class="horse-card">
@@ -45,76 +116,39 @@
             Pulse Score: {{ card.score }}
         </div>
 
+        {% if card.normal_notes %}
         <div class="notes">
-            {% for note in card.notes %}
+            {% for note in card.normal_notes %}
                 <span class="badge">{{ note }}</span>
             {% endfor %}
         </div>
+        {% endif %}
+
+        {% if card.tipster_notes %}
+        <div class="notes" style="margin-top:10px;">
+            <strong>🔥 Tipster Support</strong><br>
+
+            {% for note in card.tipster_notes %}
+                <span class="badge">{{ note }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if card.history_notes %}
+        <div class="notes" style="margin-top:10px;">
+            <strong>📚 Historical Profile</strong><br>
+
+            {% for note in card.history_notes %}
+                <span class="badge">{{ note }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
 
     </div>
 
     {% endfor %}
 
 </div>
-=======
-<div class="horses-subnav">
-    <a class="button" href="/horses">🏆 Top Horses</a>
-    <a class="button" href="/horses/races">🏇 Today's Races</a>
-    <a class="button" href="/horses/leaderboards">📊 Leaderboards</a>
-    <a class="button" href="/">📈 Pulse Arb</a>
-</div>
-
-{% for card in cards %}
-
-<div class="horse-card">
-
-    <div class="horse-name">
-        {{ card.horse }}
-    </div>
-
-    <div class="race-meta">
-        {{ card.course }} · {{ card.time }} · Form: {{ card.form }}
-    </div>
-
-    <div class="score">
-        Pulse Score: {{ card.score }}
-    </div>
-
-    <!-- Main scoring factors -->
-    {% if card.normal_notes %}
-    <div class="notes">
-        {% for note in card.normal_notes %}
-            <span class="badge">{{ note }}</span>
-        {% endfor %}
-    </div>
-    {% endif %}
-
-    <!-- Tipster section -->
-    {% if card.tipster_notes %}
-    <div class="notes" style="margin-top:10px;">
-        <strong>🔥 Tipster Support</strong><br>
-
-        {% for note in card.tipster_notes %}
-            <span class="badge">{{ note }}</span>
-        {% endfor %}
-    </div>
-    {% endif %}
-
-    <!-- History section -->
-    {% if card.history_notes %}
-    <div class="notes" style="margin-top:10px;">
-        <strong>📚 Historical Profile</strong><br>
-
-        {% for note in card.history_notes %}
-            <span class="badge">{{ note }}</span>
-        {% endfor %}
-    </div>
-    {% endif %}
-
-</div>
-
-{% endfor %}
->>>>>>> fd1b1cc (Add Pulse Horses tipster and history intelligence)
 
 </body>
 </html>

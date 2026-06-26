@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <title>Pulse Horses - Today's Races</title>
-
-    <title>Pulse Horses - Races</title>
     <link rel="icon" type="image/png" href="/static/favicon.png">
-
     <link rel="stylesheet" href="/static/styles.css">
 </head>
 <body>
@@ -37,17 +33,6 @@
         href="/horses/race/{{ race.course }}|{{ race.time }}|{{ race.race_name }}"
         style="text-decoration:none;"
     >
-
-        <div class="horse-card race-card">
-
-            <div class="card-top">
-
-                <div>
-                    <div class="horse-name">
-                        {{ race.course }} · {{ race.time }}
-                    </div>
-
-
 
         <div class="horse-card race-card">
 
@@ -115,6 +100,7 @@
             {% endif %}
 
         </div>
+
     </a>
 
     {% endfor %}

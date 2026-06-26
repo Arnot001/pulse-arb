@@ -1,22 +1,27 @@
 import logging
 import os
+import subprocess
+import sys
 import threading
 import requests
+import time
+
+from collectors.daily_update import run_jobs
+from fastapi import FastAPI, Query, HTTPException, Form, Request
+from fastapi.responses import HTMLResponse, RedirectResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
 
 from app.modules.horses.leaderboard_routes import get_leaderboard_data
-from app.modules.horses.output import get_top_horses
-from fastapi.responses import HTMLResponse
+from app.modules.horses.output import get_race_by_key
 from app.modules.horses.routes import get_horse_dashboard, get_horse_race_groups
+
 from app.services.scanner import (
     fetch_sport_results,
     run_full_scan,
 )
-from app.modules.horses.output import get_race_by_key
+
 from app.ui.cards import render_result_card
-from fastapi.templating import Jinja2Templates
-from fastapi import FastAPI, Query, HTTPException, Form, Request
-from fastapi.responses import HTMLResponse, RedirectResponse
-from fastapi.staticfiles import StaticFiles
 from app.core.pulse_score import calculate_pulse_score
 
 from app.core.history import (
@@ -45,6 +50,135 @@ app.mount(
 
 templates = Jinja2Templates(directory="app/templates")
 
+logging.basicConfig(level=logging.INFO)
+
+
+UPDATE_LOCK = threading.Lock()
+
+UPDATE_STATUS = {
+    "running": False,
+    "mode": None,
+    "current_task": "Ready",
+    "percent": 0,
+    "bar": "░░░░░░░░░░░░░░░░░░░░ 0%",
+    "completed": [],
+    "failed": [],
+    "started_at": None,
+    "finished_at": None,
+    "runtime": None,
+}
+
+
+def build_progress_bar(percent):
+    filled = int(percent / 5)
+    empty = 20 - filled
+    return f"{'█' * filled}{'░' * empty} {percent}%"
+
+
+def run_update_job(mode):
+    with UPDATE_LOCK:
+        UPDATE_STATUS["running"] = True
+        UPDATE_STATUS["mode"] = mode
+        UPDATE_STATUS["current_task"] = "Starting..."
+        UPDATE_STATUS["percent"] = 0
+        UPDATE_STATUS["bar"] = build_progress_bar(0)
+        UPDATE_STATUS["completed"] = []
+        UPDATE_STATUS["failed"] = []
+        UPDATE_STATUS["started_at"] = time.time()
+        UPDATE_STATUS["finished_at"] = None
+        UPDATE_STATUS["runtime"] = None
+
+    def progress(update_event):
+        if update_event["event"] == "start":
+            with UPDATE_LOCK:
+                UPDATE_STATUS["current_task"] = update_event["label"]
+
+        elif update_event["event"] == "finish":
+            percent = int(
+                (update_event["index"] / update_event["total"]) * 100
+            )
+
+            with UPDATE_LOCK:
+                UPDATE_STATUS["percent"] = percent
+                UPDATE_STATUS["bar"] = build_progress_bar(percent)
+
+                if update_event["success"]:
+                    UPDATE_STATUS["completed"].append(update_event["label"])
+                else:
+                    UPDATE_STATUS["failed"].append(update_event["label"])
+
+    summary = run_jobs(
+        mode,
+        progress_callback=progress,
+    )
+
+    finished_at = time.time()
+
+    with UPDATE_LOCK:
+        UPDATE_STATUS["running"] = False
+        UPDATE_STATUS["current_task"] = "Complete"
+        UPDATE_STATUS["finished_at"] = finished_at
+        UPDATE_STATUS["runtime"] = summary["runtime"]
+
+
+def start_update(mode):
+    with UPDATE_LOCK:
+        if UPDATE_STATUS["running"]:
+            return RedirectResponse(
+                url="/horses?update=already-running",
+                status_code=303,
+            )
+
+    thread = threading.Thread(
+        target=run_update_job,
+        args=(mode,),
+        daemon=True,
+    )
+    thread.start()
+
+    return RedirectResponse(
+        url="/horses?update=started",
+        status_code=303,
+    )
+
+
+@app.get("/update/status")
+def update_status():
+    with UPDATE_LOCK:
+        return dict(UPDATE_STATUS)
+
+
+@app.post("/update/horses")
+def update_horses():
+    return start_update("horses")
+
+
+@app.post("/update/dogs")
+def update_dogs():
+    return start_update("dogs")
+
+
+@app.post("/update/football")
+def update_football():
+    return start_update("football")
+
+
+@app.post("/update/all")
+def update_all():
+    return start_update("all")
+
+
+@app.get("/horses/races", response_class=HTMLResponse)
+def horses_races(request: Request):
+    return templates.TemplateResponse(
+        request,
+        "horses_races.html",
+        {
+            "races": get_horse_race_groups(),
+            "active_page": "horses",
+        },
+    )
+    
 @app.get("/horses", response_class=HTMLResponse)
 def horses(request: Request):
     return templates.TemplateResponse(
@@ -55,21 +189,9 @@ def horses(request: Request):
             "active_page": "horses",
         },
     )
-    
-@app.get("/horses/races", response_class=HTMLResponse)
-def horses_races(request: Request):
-    return templates.TemplateResponse(
-        request,
-        "horses_races.html",
-        {  
-            "races": get_horse_race_groups(),
-            "active_page": "horses",
-        },
-    )
-    
+
 @app.get("/horses/race/{race_key}", response_class=HTMLResponse)
 async def horse_race_detail(request: Request, race_key: str):
-
     race = get_race_by_key(race_key)
 
     if not race:
@@ -82,7 +204,8 @@ async def horse_race_detail(request: Request, race_key: str):
             "race": race,
         },
     )
-    
+
+
 @app.get("/horses/leaderboards", response_class=HTMLResponse)
 def horses_leaderboards(request: Request):
     data = get_leaderboard_data()
@@ -96,8 +219,6 @@ def horses_leaderboards(request: Request):
             "jockeys": data["jockeys"],
         },
     )
-
-logging.basicConfig(level=logging.INFO)
 
 
 CREDIT_STOP_LIMIT = 20
@@ -162,7 +283,7 @@ def should_pause_for_credits():
 
     if remaining is None:
         return False
-    
+
     if remaining <= 0:
         return False
 
@@ -219,9 +340,7 @@ def lay_calculator_page(
     <html>
     <head>
         <title>Pulse Lay Calculator</title>
-
         <link rel="icon" type="image/png" href="/static/favicon.png">
-
         <style>
             body {{
                 background: #050505;
@@ -229,12 +348,10 @@ def lay_calculator_page(
                 font-family: Arial, sans-serif;
                 padding: 40px;
             }}
-
             h1 {{
                 color: #ff174f;
                 font-size: 42px;
             }}
-
             .panel {{
                 background: #111;
                 border: 1px solid #333;
@@ -242,14 +359,12 @@ def lay_calculator_page(
                 padding: 24px;
                 max-width: 700px;
             }}
-
             label {{
                 display: block;
                 margin-bottom: 6px;
                 color: #ccc;
                 font-weight: bold;
             }}
-
             input {{
                 width: 100%;
                 padding: 12px;
@@ -260,7 +375,6 @@ def lay_calculator_page(
                 border-radius: 8px;
                 box-sizing: border-box;
             }}
-
             button {{
                 background: linear-gradient(90deg, #ff174f, #9b2cff);
                 color: white;
@@ -270,7 +384,6 @@ def lay_calculator_page(
                 font-weight: bold;
                 cursor: pointer;
             }}
-
             .result {{
                 margin-top: 24px;
                 padding: 20px;
@@ -278,26 +391,21 @@ def lay_calculator_page(
                 border-radius: 12px;
                 border: 1px solid #333;
             }}
-
             .green {{
                 color: #00e676;
                 font-weight: bold;
             }}
-
             .red {{
                 color: #ff5252;
                 font-weight: bold;
             }}
-
             .muted {{
                 color: #aaa;
             }}
-
             a {{
                 color: #d066ff;
                 text-decoration: none;
             }}
-
             a:hover {{
                 text-decoration: underline;
             }}
@@ -309,43 +417,21 @@ def lay_calculator_page(
 
         <div class="panel">
             <form method="get" action="/lay-calculator">
-
                 <label>Back Odds</label>
-                <input
-                    type="number"
-                    step="0.01"
-                    name="back_odds"
-                    value="{back_odds}"
-                >
+                <input type="number" step="0.01" name="back_odds" value="{back_odds}">
 
                 <label>Back Stake (£)</label>
-                <input
-                    type="number"
-                    step="0.01"
-                    name="back_stake"
-                    value="{back_stake}"
-                >
+                <input type="number" step="0.01" name="back_stake" value="{back_stake}">
 
                 <label>Lay Odds</label>
-                <input
-                    type="number"
-                    step="0.01"
-                    name="lay_odds"
-                    value="{lay_odds}"
-                >
+                <input type="number" step="0.01" name="lay_odds" value="{lay_odds}">
 
                 <label>Commission (%)</label>
-                <input
-                    type="number"
-                    step="0.01"
-                    name="commission_percent"
-                    value="{commission_percent}"
-                >
+                <input type="number" step="0.01" name="commission_percent" value="{commission_percent}">
 
                 <button type="submit">
                     Calculate Hedge
                 </button>
-
             </form>
 
             {result_html}
@@ -378,9 +464,7 @@ def settings_page():
     <html>
     <head>
         <title>Pulse Settings</title>
-
         <link rel="icon" type="image/png" href="/static/favicon.png">
-
         <style>
             body {{
                 background: #050505;
@@ -388,12 +472,10 @@ def settings_page():
                 font-family: Arial, sans-serif;
                 padding: 40px;
             }}
-
             h1 {{
                 color: #ff174f;
                 font-size: 42px;
             }}
-
             .panel {{
                 background: #111;
                 border: 1px solid #333;
@@ -402,14 +484,12 @@ def settings_page():
                 max-width: 760px;
                 margin-bottom: 24px;
             }}
-
             label {{
                 display: block;
                 margin-bottom: 6px;
                 color: #ccc;
                 font-weight: bold;
             }}
-
             input {{
                 width: 100%;
                 padding: 12px;
@@ -420,7 +500,6 @@ def settings_page():
                 border-radius: 8px;
                 box-sizing: border-box;
             }}
-
             button {{
                 background: linear-gradient(90deg, #ff174f, #9b2cff);
                 color: white;
@@ -430,16 +509,13 @@ def settings_page():
                 font-weight: bold;
                 cursor: pointer;
             }}
-
             a {{
                 color: #d066ff;
                 text-decoration: none;
             }}
-
             a:hover {{
                 text-decoration: underline;
             }}
-
             .muted {{
                 color: #aaa;
             }}
@@ -516,9 +592,7 @@ def shutdown():
     <html>
     <head>
         <title>Pulse Shutting Down</title>
-
         <link rel="icon" type="image/png" href="/static/favicon.png">
-
         <style>
             body {
                 background: #050505;
@@ -558,7 +632,6 @@ def dashboard(
     selected_sports: list[str] = Query(None),
 ):
     if scan:
-
         scan_result = run_full_scan(
             sports_to_scan=selected_sports or list(SPORT_OPTIONS.keys()),
             api_key=get_the_odds_api_key(),
@@ -570,19 +643,17 @@ def dashboard(
         )
 
         SCAN_CACHE["arbs"] = scan_result["arbs"]
-
         SCAN_CACHE["near_arbs"] = scan_result["near_arbs"]
-
         SCAN_CACHE["last_scan"] = scan_result["last_scan"]
 
         SCAN_CACHE["api_remaining"] = scan_result.get(
             "api_remaining",
-        SCAN_CACHE.get("api_remaining"),
+            SCAN_CACHE.get("api_remaining"),
         )
 
         SCAN_CACHE["api_used"] = scan_result.get(
             "api_used",
-        SCAN_CACHE.get("api_used"),
+            SCAN_CACHE.get("api_used"),
         )
 
         for item in SCAN_CACHE["arbs"]:
@@ -620,7 +691,7 @@ def dashboard(
         )[0],
         reverse=True,
     )
-    
+
     near_arbs = sorted(
         SCAN_CACHE["near_arbs"],
         key=lambda item: calculate_pulse_score(
@@ -629,7 +700,7 @@ def dashboard(
         )[0],
         reverse=True,
     )
-    
+
     live_arbs = [
         item for item in arbs
         if item.get("is_live")
@@ -654,24 +725,24 @@ def dashboard(
         item for item in arbs
         if not item.get("is_live")
     ]
-    
+
     prematch_near_arbs = [
         item for item in near_arbs
         if not item.get("is_live")
     ]
-    
+
     print("ARBS:", len(arbs))
     print("NEAR:", len(near_arbs))
     print("LIVE ARBS:", len(live_arbs))
     print("LIVE NEAR:", len(live_near_arbs))
     print("PREMATCH ARBS:", len(prematch_arbs))
     print("PREMATCH NEAR:", len(prematch_near_arbs))
-    
+
     live_html = ""
 
     for item in live_arbs:
         live_html += render_result_card(item, "LIVE ARB")
-        
+
     for item in live_near_arbs:
         live_html += render_result_card(item, "LIVE WATCHLIST")
 
@@ -683,14 +754,14 @@ def dashboard(
     near_html = ""
 
     for item in prematch_near_arbs:
-        near_html += render_result_card(item, "NEAR-ARB")  
+        near_html += render_result_card(item, "NEAR-ARB")
 
     if not arb_html:
         arb_html = "<p class='muted'>No sportsbook-only true arbs saved yet. Run a scan.</p>"
 
     if not live_html:
         live_html = "<p class='muted'>No live Pulse opportunities detected yet.</p>"
-    
+
     if not near_html:
         near_html = "<p class='muted'>No near-arbs or exchange watchlist items saved yet. Run a scan.</p>"
 
@@ -785,7 +856,7 @@ async def get_arbs(
     return arbs
 
 
-#threading.Thread(target=background_scanner, daemon=True).start()
+# threading.Thread(target=background_scanner, daemon=True).start()
 
 
 if __name__ == "__main__":
