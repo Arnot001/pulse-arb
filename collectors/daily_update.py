@@ -36,6 +36,14 @@ JOBS = {
             "label": "Dog Results",
             "module": "collectors.dog_results",
         },
+                {
+            "label": "Dog Runner Records",
+            "module": "collectors.dog_runner_records",
+        },
+        {
+            "label": "Dog History",
+            "module": "collectors.build_dog_history",
+        },
     ],
 
     "football": [
