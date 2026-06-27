@@ -12,7 +12,7 @@ from fastapi import FastAPI, Query, HTTPException, Form, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-
+from app.modules.horses.profile import get_horse_profile
 from app.modules.horses.leaderboard_routes import get_leaderboard_data
 from app.modules.horses.output import get_race_by_key
 from app.modules.horses.routes import get_horse_dashboard, get_horse_race_groups
@@ -188,6 +188,22 @@ def horses(request: Request):
         {
             "cards": get_horse_dashboard(),
             "active_page": "horses",
+        },
+    )
+    
+@app.get("/horses/profile/{horse_name}", response_class=HTMLResponse)
+def horse_profile(request: Request, horse_name: str):
+    horse = get_horse_profile(horse_name)
+
+    if not horse:
+        return HTMLResponse("Horse profile not found", status_code=404)
+
+    return templates.TemplateResponse(
+        request,
+        "horse_profile.html",
+        {
+            "active_page": "horses",
+            "horse": horse,
         },
     )
     

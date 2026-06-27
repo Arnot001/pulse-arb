@@ -4,7 +4,7 @@ import time
 
 
 JOBS = {
-    "horses": [
+        "horses": [
         {
             "label": "Horse Racecards",
             "module": "collectors.real_horses",
@@ -24,6 +24,18 @@ JOBS = {
         {
             "label": "Jockey Rankings",
             "module": "collectors.jockey_rankings",
+        },
+        {
+            "label": "Horse Profiles",
+            "module": "collectors.build_horse_profiles",
+        },
+        {
+            "label": "Enrich Horse Profiles",
+            "module": "collectors.enrich_horse_profiles",
+        },
+        {
+            "label": "Race Intelligence",
+            "module": "collectors.build_race_intelligence",
         },
     ],
 
