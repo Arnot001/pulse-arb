@@ -1,8 +1,13 @@
 import json
 from pathlib import Path
 from collections import defaultdict
+from datetime import datetime
 
 from app.data_store import get_week_key
+
+
+def today_key():
+    return datetime.now().date().isoformat()
 
 
 def load_horse_scores():
@@ -12,6 +17,7 @@ def load_horse_scores():
     if not file_path.exists():
         return []
 
+    today = today_key()
     horses = []
     seen = set()
 
@@ -21,6 +27,10 @@ def load_horse_scores():
                 continue
 
             horse = json.loads(line)
+
+            if horse.get("date") != today:
+                continue
+
             key = f'{horse.get("race_id")}:{horse.get("horse_id")}'
 
             if key in seen:
