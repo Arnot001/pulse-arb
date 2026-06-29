@@ -1,200 +1,83 @@
 import json
-from collections import defaultdict, Counter
 from pathlib import Path
 
-
-RUNNER_RECORDS_DIR = Path("data/horses/runner_records")
-PULSE_SCORES_DIR = Path("data/horses/pulse_scores")
-PROFILE_DIR = Path("data/horses/profiles")
-
-
-def slugify(value):
-    return (
-        str(value or "")
-        .lower()
-        .replace("&", "and")
-        .replace(".", "")
-        .replace("'", "")
-        .replace("/", "-")
-        .replace("\\", "-")
-        .replace(" ", "_")
-    )
+from app.data_store import append_jsonl, get_week_key
+from app.dedupe import should_store
+from app.utils import to_int, to_float
 
 
-def load_jsonl_records(folder):
-    records = []
+def clean_horse_racecards():
+    week_key = get_week_key()
+    input_file = Path("data") / "horses" / "racecards" / f"{week_key}.jsonl"
 
-    if not folder.exists():
-        return records
-
-    for file_path in folder.glob("*.jsonl"):
-        with file_path.open("r", encoding="utf-8") as f:
-            for line in f:
-                if not line.strip():
-                    continue
-
-                try:
-                    records.append(json.loads(line))
-                except Exception:
-                    continue
-
-    return records
-
-
-def latest_by_horse_id(records):
-    latest = {}
-
-    for record in records:
-        horse_id = record.get("horse_id")
-        stored_at = record.get("_stored_at", "")
-
-        if not horse_id:
-            continue
-
-        current = latest.get(horse_id)
-
-        if not current or stored_at > current.get("_stored_at", ""):
-            latest[horse_id] = record
-
-    return latest
-
-
-def avg(values):
-    clean = []
-
-    for value in values:
-        try:
-            if value is not None:
-                clean.append(float(value))
-        except Exception:
-            continue
-
-    if not clean:
-        return 0
-
-    return round(sum(clean) / len(clean), 2)
-
-
-def build_profile(horse_id, records, latest_scores):
-    records = sorted(
-        records,
-        key=lambda item: item.get("off_dt") or item.get("_stored_at") or "",
-    )
-
-    latest = records[-1]
-    latest_score = latest_scores.get(horse_id, {})
-
-    courses = Counter(record.get("course") for record in records if record.get("course"))
-    distances = Counter(record.get("distance_f") for record in records if record.get("distance_f"))
-    goings = Counter(record.get("going") for record in records if record.get("going"))
-    classes = Counter(record.get("race_class") for record in records if record.get("race_class"))
-    trainers = Counter(record.get("trainer") for record in records if record.get("trainer"))
-    jockeys = Counter(record.get("jockey") for record in records if record.get("jockey"))
-
-    pulse_scores = [
-        record.get("pulse_score")
-        for record in records
-        if record.get("pulse_score") is not None
-    ]
-
-    profile = {
-        "horse": latest.get("horse"),
-        "horse_id": horse_id,
-        "age": latest.get("age"),
-        "sex": latest.get("sex"),
-        "latest_course": latest.get("course"),
-        "latest_time": latest.get("off_time"),
-        "latest_race": latest.get("race_name"),
-        "latest_date": latest.get("date"),
-        "latest_distance_f": latest.get("distance_f"),
-        "latest_class": latest.get("race_class"),
-        "latest_going": latest.get("going"),
-        "latest_surface": latest.get("surface"),
-        "latest_trainer": latest.get("trainer"),
-        "latest_jockey": latest.get("jockey"),
-        "latest_draw": latest.get("draw"),
-        "latest_weight_lbs": latest.get("lbs"),
-        "official_rating": latest.get("ofr"),
-        "recent_form": latest.get("form"),
-        "last_run_days": latest.get("last_run"),
-        "profile_runs": len(records),
-        "courses_seen": dict(courses.most_common()),
-        "distances_seen": dict(distances.most_common()),
-        "goings_seen": dict(goings.most_common()),
-        "classes_seen": dict(classes.most_common()),
-        "trainers_seen": dict(trainers.most_common()),
-        "jockeys_seen": dict(jockeys.most_common()),
-        "average_pulse_score": avg(pulse_scores),
-        "best_pulse_score": max(pulse_scores) if pulse_scores else None,
-        "latest_pulse_score": latest_score.get("pulse_score"),
-        "latest_notes": latest_score.get("notes", []),
-        "runs": records[-20:],
-    }
-
-    notes = []
-
-    if profile["latest_pulse_score"] and profile["latest_pulse_score"] >= 80:
-        notes.append("Elite latest Pulse Score")
-
-    if profile["average_pulse_score"] >= 70:
-        notes.append("Strong average Pulse profile")
-
-    if profile["profile_runs"] >= 3:
-        notes.append("Profile has multiple stored runs")
-
-    if profile["latest_draw"] and profile["latest_draw"] <= 3:
-        notes.append("Low draw today")
-
-    if profile["last_run_days"] is not None:
-        if profile["last_run_days"] <= 14:
-            notes.append("Recent run timing")
-        elif profile["last_run_days"] >= 90:
-            notes.append("Returning from a break")
-
-    profile["profile_notes"] = notes
-
-    return profile
-
-
-def build_horse_profiles():
-    PROFILE_DIR.mkdir(parents=True, exist_ok=True)
-
-    runner_records = load_jsonl_records(RUNNER_RECORDS_DIR)
-    pulse_scores = load_jsonl_records(PULSE_SCORES_DIR)
-
-    latest_scores = latest_by_horse_id(pulse_scores)
-
-    grouped = defaultdict(list)
-
-    for record in runner_records:
-        horse_id = record.get("horse_id")
-
-        if not horse_id:
-            continue
-
-        grouped[horse_id].append(record)
+    if not input_file.exists():
+        print(f"No racecard file found: {input_file}")
+        return
 
     saved = 0
+    skipped = 0
 
-    for horse_id, records in grouped.items():
-        profile = build_profile(
-            horse_id=horse_id,
-            records=records,
-            latest_scores=latest_scores,
-        )
+    with input_file.open("r", encoding="utf-8") as f:
+        for line in f:
+            if not line.strip():
+                continue
 
-        file_name = slugify(profile["horse"]) + ".json"
-        file_path = PROFILE_DIR / file_name
+            item = json.loads(line)
+            race = item.get("raw", {})
 
-        with file_path.open("w", encoding="utf-8") as f:
-            json.dump(profile, f, ensure_ascii=False, indent=2)
+            race_id = race.get("race_id")
+            runners = race.get("runners", [])
 
-        saved += 1
+            for runner in runners:
+                horse_id = runner.get("horse_id")
+                runner_key = f"horse_runner:{race.get('date')}:{race_id}:{horse_id}"
 
-    print(f"Horse runner records loaded: {len(runner_records)}")
-    print(f"Horse pulse scores loaded: {len(pulse_scores)}")
-    print(f"Horse profiles saved: {saved}")
+                if not should_store(runner_key):
+                    skipped += 1
+                    continue
+
+                record = {
+                    "source": "the_racing_api",
+                    "race_id": race_id,
+                    "course": race.get("course"),
+                    "date": race.get("date"),
+                    "off_time": race.get("off_time"),
+                    "off_dt": race.get("off_dt"),
+                    "race_name": race.get("race_name"),
+                    "distance_f": to_float(race.get("distance_f")),
+                    "race_class": race.get("race_class"),
+                    "race_type": race.get("type"),
+                    "going": race.get("going"),
+                    "surface": race.get("surface"),
+                    "field_size": to_int(race.get("field_size")),
+                    "horse": runner.get("horse"),
+                    "horse_id": horse_id,
+                    "age": to_int(runner.get("age")),
+                    "sex": runner.get("sex"),
+                    "trainer": runner.get("trainer"),
+                    "trainer_id": runner.get("trainer_id"),
+                    "jockey": runner.get("jockey"),
+                    "jockey_id": runner.get("jockey_id"),
+                    "draw": to_int(runner.get("draw")),
+                    "number": to_int(runner.get("number")),
+                    "lbs": to_int(runner.get("lbs")),
+                    "ofr": runner.get("ofr"),
+                    "last_run": to_int(runner.get("last_run")),
+                    "form": runner.get("form"),
+                    "headgear": runner.get("headgear"),
+                }
+
+                append_jsonl(
+                    sport="horses",
+                    data_type="runner_records",
+                    record=record,
+                )
+
+                saved += 1
+
+    print(f"Saved {saved} cleaned horse runner records.")
+    print(f"Skipped {skipped} duplicate runner records.")
 
 
 if __name__ == "__main__":
-    build_horse_profiles()
+    clean_horse_racecards()

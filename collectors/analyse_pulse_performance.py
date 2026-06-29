@@ -5,20 +5,24 @@ from pathlib import Path
 
 
 PULSE_SCORE_DIR = Path("data/horses/pulse_scores")
-PUBLIC_RESULTS_DIR = Path("data/horses/public_results")
+PUBLIC_RESULTS_DIR = Path("data/horses/sporting_life_results")
 OUTPUT_DIR = Path("data/horses/performance_reports")
 
 
 def normalise(value):
-    return (
+    text = (
         str(value or "")
         .lower()
         .replace("'", "")
         .replace(".", "")
         .replace(",", "")
         .replace("&", "and")
-        .strip()
+        .replace("(gb)", "")
+        .replace("(ire)", "")
+        .replace("(fr)", "")
     )
+
+    return " ".join(text.split()).strip()
 
 
 def load_jsonl(folder):
@@ -43,6 +47,76 @@ def load_jsonl(folder):
 
 def race_key(course, time):
     return f"{normalise(course)}|{normalise(time)}"
+
+def score_time(item):
+    off_dt = item.get("off_dt", "")
+
+    if "T" in str(off_dt):
+        return str(off_dt).split("T")[1][:5]
+
+    return item.get("off_time")
+
+
+def shift_time(value, hours):
+    try:
+        parsed = datetime.strptime(str(value), "%H:%M")
+        shifted = parsed + timedelta(hours=hours)
+        return shifted.strftime("%H:%M").lstrip("0")
+    except Exception:
+        return value
+
+
+def get_runner_match(
+    grouped_scores,
+    grouped_names,
+    course,
+    race_name,
+    result_time,
+):
+    # First try exact race name
+    name_key = (
+        normalise(course),
+        normalise(race_name),
+    )
+
+    runners = grouped_names.get(name_key)
+
+    if runners:
+        return runners
+
+    # Then exact time
+    key = race_key(course, result_time)
+
+    if grouped_scores.get(key):
+        return grouped_scores[key]
+
+    # Finally allow ±1 hour (BST/UTC)
+    for offset in (1, -1):
+        key = race_key(course, shift_time(result_time, offset))
+
+        if grouped_scores.get(key):
+            return grouped_scores[key]
+
+    return []
+
+def dedupe_runners(runners):
+    deduped = {}
+    
+    for runner in runners:
+        key = normalise(runner.get("horse"))
+
+        if not key:
+            continue
+
+        existing = deduped.get(key)
+
+        if (
+            existing is None
+            or runner.get("pulse_score", 0) > existing.get("pulse_score", 0)
+        ):
+            deduped[key] = runner
+
+    return list(deduped.values())
 
 
 def dedupe_results(results):
@@ -85,19 +159,28 @@ def analyse_date(target_date):
     results = dedupe_results(results_raw)
 
     grouped_scores = defaultdict(list)
+    grouped_names = defaultdict(list)
 
     for item in scores:
-        key = race_key(
-            item.get("course"),
-            item.get("off_time"),
-        )
-        grouped_scores[key].append(item)
-        
-        known_courses = {
-            normalise(item.get("course"))
-            for item in scores
-            if item.get("course")
-        }
+        grouped_scores[
+            race_key(
+                item.get("course"),
+                score_time(item),
+            )
+        ].append(item)
+
+        grouped_names[
+            (
+                normalise(item.get("course")),
+                normalise(item.get("race_name")),
+            )
+        ].append(item)
+
+    known_courses = {
+        normalise(item.get("course"))
+        for item in scores
+        if item.get("course")
+    }
 
     races_checked = 0
     top_1_wins = 0
@@ -105,24 +188,26 @@ def analyse_date(target_date):
     top_3_wins = 0
     misses = []
     unmatched_results = []
-
     race_reports = []
 
     for result in results:
         raw = result.get("raw", {})
-        
+
         if normalise(raw.get("course")) not in known_courses:
             continue
-        
+
         winner = raw.get("winner", {})
         winner_name = winner.get("horse")
 
-        key = race_key(
-            raw.get("course"),
-            raw.get("race_time"),
+        runners = dedupe_runners(
+            get_runner_match(
+                grouped_scores,
+                grouped_names,
+                raw.get("course"),
+                raw.get("race_name"),
+                raw.get("race_time"),
+            )
         )
-
-        runners = grouped_scores.get(key, [])
 
         if not runners or not winner_name:
             unmatched_results.append(
@@ -273,7 +358,7 @@ def analyse_pulse_performance():
     report = analyse_date(target_date)
     save_report(report)
     print_report(report)
-    
+
     if report["unmatched_results"]:
         print()
         print("Unmatched result examples")
@@ -281,10 +366,10 @@ def analyse_pulse_performance():
 
         for item in report["unmatched_results"][:10]:
             print(
-            f"{item['time']} {item['course']} | "
-            f"{item['winner']} | "
-            f"{item['race_name']}"
-        )
+                f"{item['time']} {item['course']} | "
+                f"{item['winner']} | "
+                f"{item['race_name']}"
+            )
 
 
 if __name__ == "__main__":

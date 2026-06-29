@@ -12,6 +12,7 @@ from fastapi import FastAPI, Query, HTTPException, Form, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from app.modules.horses.performance import get_latest_performance_report
 from app.modules.horses.profile import get_horse_profile
 from app.modules.horses.leaderboard_routes import get_leaderboard_data
 from app.modules.horses.output import get_race_by_key
@@ -168,6 +169,10 @@ def update_football():
 def update_all():
     return start_update("all")
 
+@app.post("/update/performance")
+def update_performance():
+    return start_update("performance")
+
 
 @app.get("/horses/races", response_class=HTMLResponse)
 def horses_races(request: Request):
@@ -245,6 +250,19 @@ def horses_leaderboards(request: Request):
             "active_page": "horses",
             "trainers": data["trainers"],
             "jockeys": data["jockeys"],
+        },
+    )
+    
+@app.get("/horses/performance", response_class=HTMLResponse)
+def horses_performance(request: Request):
+    report = get_latest_performance_report()
+
+    return templates.TemplateResponse(
+        request,
+        "horses_performance.html",
+        {
+            "active_page": "horses",
+            "report": report,
         },
     )
 

@@ -32,7 +32,12 @@ def save_horse_scores():
 
             result = calculate_horse_score(runner)
 
-            score_key = f'horse_score:{runner.get("race_id")}:{runner.get("horse_id")}:{result["pulse_score"]}'
+            score_key = (
+                f'horse_score_v3:'
+                f'{runner.get("race_id")}:'
+                f'{runner.get("horse_id")}:'
+                f'{result["pulse_score"]}'
+            )
 
             if not should_store(score_key):
                 skipped += 1
@@ -42,6 +47,8 @@ def save_horse_scores():
                 **runner,
                 "pulse_score": result["pulse_score"],
                 "notes": result["notes"],
+                "factors": result.get("factors", {}),
+                "value_rating": result.get("value_rating"),
             }
 
             append_jsonl(

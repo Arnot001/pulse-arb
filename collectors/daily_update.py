@@ -88,6 +88,24 @@ JOBS = {
             "module": "collectors.football_iq",
         },
     ],
+                    "performance": [
+        {
+            "label": "Sporting Life Results",
+            "module": "collectors.sporting_life_results",
+        },
+        {
+            "label": "Pulse Performance",
+            "module": "collectors.analyse_pulse_performance",
+        },
+        {
+            "label": "Learn From Results",
+            "module": "collectors.learn_from_results",
+        },
+        {
+            "label": "Learning Factors",
+            "module": "collectors.analyse_learning_factors",
+        },
+    ],
 }
 
 

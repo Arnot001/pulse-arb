@@ -1,12 +1,12 @@
 import re
 import requests
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
 
 from app.data_store import append_jsonl
 
 
-URL = "https://www.attheraces.com/results"
+BASE_URL = "https://www.attheraces.com/results"
 
 
 def clean_text(text):
@@ -65,30 +65,51 @@ def extract_races(text):
     return races
 
 
+def build_result_urls(target_date):
+    return [
+        f"{BASE_URL}/{target_date}",
+        f"{BASE_URL}?date={target_date}",
+        BASE_URL,
+    ]
+
+
 def collect_public_horse_results():
-    today = datetime.now(timezone.utc).date().isoformat()
-
-    response = requests.get(
-        URL,
-        headers={"User-Agent": "Mozilla/5.0"},
-        timeout=20,
-    )
-
-    response.raise_for_status()
-
-    soup = BeautifulSoup(response.text, "html.parser")
-    text = clean_text(soup.get_text(" "))
-
-    races = extract_races(text)
+    collection_date = datetime.now(timezone.utc).date().isoformat()
+    target_date = (
+        datetime.now(timezone.utc).date()
+        - timedelta(days=1)
+    ).isoformat()
 
     saved = 0
+    used_url = None
+    races = []
+
+    for url in build_result_urls(target_date):
+        response = requests.get(
+            url,
+            headers={"User-Agent": "Mozilla/5.0"},
+            timeout=20,
+        )
+
+        if response.status_code != 200:
+            continue
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        text = clean_text(soup.get_text(" "))
+
+        found = extract_races(text)
+
+        if found:
+            races = found
+            used_url = url
+            break
 
     for race in races:
         record = {
             "source": "at_the_races",
-            "collection_date": today,
-            "result_date": today,
-            "url": URL,
+            "collection_date": collection_date,
+            "result_date": target_date,
+            "url": used_url,
             "raw": race,
         }
 
@@ -100,6 +121,8 @@ def collect_public_horse_results():
 
         saved += 1
 
+    print(f"Target result date: {target_date}")
+    print(f"Used URL: {used_url}")
     print(f"Saved {saved} ATR public result records.")
 
 

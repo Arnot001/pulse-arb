@@ -78,8 +78,10 @@ def format_tipster_note(tip):
 def calculate_horse_score(runner):
     score = 40
     notes = []
+    factors = {}
 
     form_score = score_form(runner.get("form"))
+    factors["form_score"] = form_score
     score += form_score
 
     if form_score >= 12:
@@ -90,6 +92,7 @@ def calculate_horse_score(runner):
         notes.append("Weak recent form")
 
     last_run_score = score_last_run(runner.get("last_run"))
+    factors["last_run_score"] = last_run_score
     score += last_run_score
 
     if last_run_score > 0:
@@ -97,23 +100,34 @@ def calculate_horse_score(runner):
     elif last_run_score < 0:
         notes.append("Questionable run timing")
 
-    draw_score = score_draw(runner.get("draw"), runner.get("field_size"))
+    draw_score = score_draw(
+        runner.get("draw"),
+        runner.get("field_size"),
+    )
+    factors["draw_score"] = draw_score
     score += draw_score
 
     if draw_score > 0:
         notes.append("Helpful draw")
 
+    non_runner_penalty = 0
+
     if runner.get("number") in (None, "NR"):
-        score -= 30
+        non_runner_penalty = -30
+        score += non_runner_penalty
         notes.append("Non-runner risk")
 
+    factors["non_runner_penalty"] = non_runner_penalty
+
     class_score = score_race_class(runner.get("race_class"))
+    factors["class_score"] = class_score
     score += class_score
 
     if class_score > 0:
         notes.append(f"Race class strength +{class_score}")
 
     trainer_bonus = get_trainer_bonus(runner.get("trainer_id"))
+    factors["trainer_bonus"] = trainer_bonus
     score += trainer_bonus
 
     if trainer_bonus > 0:
@@ -122,6 +136,7 @@ def calculate_horse_score(runner):
         notes.append(f"Trainer concern {trainer_bonus}")
 
     jockey_bonus = get_jockey_bonus(runner.get("jockey_id"))
+    factors["jockey_bonus"] = jockey_bonus
     score += jockey_bonus
 
     if jockey_bonus > 0:
@@ -132,6 +147,7 @@ def calculate_horse_score(runner):
     tipster_boost, tipster_matches = get_tipster_boost(
         runner.get("horse", "")
     )
+    factors["tipster_boost"] = tipster_boost
 
     if tipster_boost > 0:
         score += tipster_boost
@@ -142,31 +158,42 @@ def calculate_horse_score(runner):
 
     history = get_horse_history(runner.get("horse", ""))
 
+    historical_winner_bonus = 0
+    previous_course_winner_bonus = 0
+
     if history:
         wins = history.get("wins", 0)
 
         if wins >= 1:
-            score += 3
+            historical_winner_bonus = 3
+            score += historical_winner_bonus
             notes.append("Historical winner +3")
 
         course_name = runner.get("course", "")
         course_history = history.get("courses", {}).get(course_name)
 
         if course_history and course_history.get("wins", 0) >= 1:
-            score += 4
+            previous_course_winner_bonus = 4
+            score += previous_course_winner_bonus
             notes.append("Previous course winner +4")
 
-    score = max(0, min(100, round(score)))
+    factors["historical_winner_bonus"] = historical_winner_bonus
+    factors["previous_course_winner_bonus"] = previous_course_winner_bonus
+
+    raw_score = round(score)
+    score = max(0, min(100, raw_score))
 
     value = value_rating(
         score,
-        runner.get("sp")
+        runner.get("sp"),
     )
 
     return {
         "pulse_score": score,
+        "raw_score": raw_score,
         "notes": notes,
         "tipster_boost": tipster_boost,
         "tipsters": tipster_matches,
         "value_rating": value,
+        "factors": factors,
     }

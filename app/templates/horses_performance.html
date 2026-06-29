@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pulse Performance</title>
+
+    <link rel="icon" href="/static/favicon.png">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+
+<div class="pulse-horses-page">
+
+    <div class="top-buttons">
+
+        <a class="button" href="/horses">🏇 Top Horses</a>
+
+        <a class="button" href="/horses/races">🎠 Today's Races</a>
+
+        <a class="button" href="/horses/leaderboards">📊 Leaderboards</a>
+
+        <a class="button active" href="/horses/performance">📈 Performance</a>
+
+    </div>
+
+    <h1>📈 Pulse Performance</h1>
+
+    <p class="muted">
+        Yesterday's intelligence report.
+    </p>
+
+    <div class="horse-card">
+
+        <h2>{{ report.date }}</h2>
+
+        <div class="metrics">
+
+            <div class="metric">
+                <div class="metric-label">Races</div>
+                <div class="metric-value">{{ report.races_checked }}</div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Top Pick</div>
+                <div class="metric-value">
+                    {{ report.top_1_rate }}%
+                </div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Top 2</div>
+                <div class="metric-value">
+                    {{ report.top_2_rate }}%
+                </div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Top 3</div>
+                <div class="metric-value">
+                    {{ report.top_3_rate }}%
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h2>Race Results</h2>
+
+    {% for race in report.races %}
+
+    <div class="horse-card">
+
+        <h3>{{ race.course }} · {{ race.time }}</h3>
+
+        <p>{{ race.race_name }}</p>
+
+        <p>
+
+            <strong>Winner:</strong>
+
+            {{ race.winner }}
+
+            {% if race.winner_rank == 1 %}
+
+                <span class="badge-good">✅ Top Pick</span>
+
+            {% elif race.winner_rank and race.winner_rank <= 3 %}
+
+                <span class="badge-warning">
+                    Top {{ race.winner_rank }}
+                </span>
+
+            {% else %}
+
+                <span class="badge-bad">
+                    Missed (Rank {{ race.winner_rank or "-" }})
+                </span>
+
+            {% endif %}
+
+        </p>
+
+        <div class="metrics">
+
+            {% for runner in race.top_3 %}
+
+            <div class="metric">
+
+                <div class="metric-label">
+
+                    #{{ runner.rank }}
+
+                </div>
+
+                <div class="metric-value">
+
+                    {{ runner.horse }}
+
+                </div>
+
+                <small>
+
+                    {{ runner.pulse_score }}
+
+                </small>
+
+            </div>
+
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+    {% endfor %}
+
+</div>
+
+</body>
+
+</html>
