@@ -33,7 +33,7 @@ def save_horse_scores():
             result = calculate_horse_score(runner)
 
             score_key = (
-                f'horse_score_v3:'
+                f'horse_score_v5:'
                 f'{runner.get("race_id")}:'
                 f'{runner.get("horse_id")}:'
                 f'{result["pulse_score"]}'

@@ -1,4 +1,10 @@
-from app.modules.horses.history_stats import get_horse_history
+from app.modules.horses.history_stats import (
+    get_horse_history,
+    get_distance_profile,
+    get_going_profile,
+    get_trainer_recent_form,
+    get_jockey_recent_form,
+)
 from app.modules.horses.tipster_support import get_tipster_boost
 from app.modules.horses.trainer_lookup import get_trainer_bonus
 from app.modules.horses.jockey_lookup import get_jockey_bonus
@@ -45,6 +51,36 @@ def score_last_run(days):
 
     return 0
 
+def score_layoff(days):
+    days = to_int(days)
+
+    if days is None:
+        return 0
+
+    if 14 <= days <= 35:
+        return 2
+    if days < 7:
+        return -3
+    if 121 <= days <= 240:
+        return -4
+    if days > 240:
+        return -7
+
+    return 0
+
+    pace_score = score_pace_profile(runner)
+    factors["pace_score"] = pace_score
+    score += pace_score
+
+    if pace_score > 0:
+        notes.append(f"Positive pace profile +{pace_score}")
+    elif pace_score < 0:
+        notes.append(f"Pace concern {pace_score}")
+
+def score_pace_profile(runner):
+    # Pace data is not collected yet.
+    # Keep this as a safe placeholder so future pace intelligence has a stored factor.
+    return 0
 
 def score_draw(draw, field_size):
     draw = to_int(draw)
@@ -99,6 +135,28 @@ def calculate_horse_score(runner):
         notes.append("Good recent run timing")
     elif last_run_score < 0:
         notes.append("Questionable run timing")
+        
+    layoff_score = score_layoff(runner.get("last_run"))
+    factors["layoff_score"] = layoff_score
+    score += layoff_score
+
+    if layoff_score > 0:
+        notes.append(f"Ideal layoff profile +{layoff_score}")
+    elif layoff_score == -3:
+        notes.append("Sharp return concern -3")
+    elif layoff_score == -4:
+        notes.append("Long layoff concern -4")
+    elif layoff_score == -7:
+        notes.append("Very long absence concern -7")
+        
+    pace_score = score_pace_profile(runner)
+    factors["pace_score"] = pace_score
+    score += pace_score
+
+    if pace_score > 0:
+        notes.append(f"Positive pace profile +{pace_score}")
+    elif pace_score < 0:
+        notes.append(f"Pace concern {pace_score}")
 
     draw_score = score_draw(
         runner.get("draw"),
@@ -134,6 +192,37 @@ def calculate_horse_score(runner):
         notes.append(f"Trainer bonus +{trainer_bonus}")
     elif trainer_bonus < 0:
         notes.append(f"Trainer concern {trainer_bonus}")
+        
+    stable_form_bonus = 0
+
+    stable_form = get_trainer_recent_form(
+        trainer_name=runner.get("trainer", ""),
+        trainer_id=runner.get("trainer_id"),
+        days=14,
+    )
+
+    if stable_form:
+        stable_wins = stable_form.get("wins", 0)
+        stable_runs = stable_form.get("runs", 0)
+        stable_win_rate = stable_form.get("win_rate", 0)
+
+        if stable_wins >= 3 and stable_win_rate >= 25:
+            stable_form_bonus = 4
+            score += stable_form_bonus
+            notes.append(
+                f"Stable flying +4 "
+                f"({stable_wins}/{stable_runs} last 14 days)"
+            )
+
+        elif stable_wins >= 1 and stable_win_rate >= 15:
+            stable_form_bonus = 2
+            score += stable_form_bonus
+            notes.append(
+                f"Stable in form +2 "
+                f"({stable_wins}/{stable_runs} last 14 days)"
+            )
+
+    factors["stable_form_bonus"] = stable_form_bonus
 
     jockey_bonus = get_jockey_bonus(runner.get("jockey_id"))
     factors["jockey_bonus"] = jockey_bonus
@@ -143,6 +232,37 @@ def calculate_horse_score(runner):
         notes.append(f"Jockey bonus +{jockey_bonus}")
     elif jockey_bonus < 0:
         notes.append(f"Jockey concern {jockey_bonus}")
+        
+    jockey_form_bonus = 0
+
+    jockey_form = get_jockey_recent_form(
+        jockey_name=runner.get("jockey", ""),
+        jockey_id=runner.get("jockey_id"),
+        days=14,
+    )
+
+    if jockey_form:
+        jockey_wins = jockey_form.get("wins", 0)
+        jockey_runs = jockey_form.get("runs", 0)
+        jockey_win_rate = jockey_form.get("win_rate", 0)
+
+        if jockey_wins >= 3 and jockey_win_rate >= 25:
+            jockey_form_bonus = 4
+            score += jockey_form_bonus
+            notes.append(
+                f"Jockey flying +4 "
+                f"({jockey_wins}/{jockey_runs} last 14 days)"
+            )
+
+        elif jockey_wins >= 1 and jockey_win_rate >= 15:
+            jockey_form_bonus = 2
+            score += jockey_form_bonus
+            notes.append(
+                f"Jockey in form +2 "
+                f"({jockey_wins}/{jockey_runs} last 14 days)"
+            )
+
+    factors["jockey_form_bonus"] = jockey_form_bonus
 
     tipster_boost, tipster_matches = get_tipster_boost(
         runner.get("horse", "")
@@ -176,6 +296,73 @@ def calculate_horse_score(runner):
             previous_course_winner_bonus = 4
             score += previous_course_winner_bonus
             notes.append("Previous course winner +4")
+            
+    distance_bonus = 0
+
+    distance_value = runner.get("distance_f")
+
+    if distance_value is not None:
+        distance_value = f"{distance_value:g}f"
+    else:
+        distance_value = ""
+
+    distance_profile = get_distance_profile(
+        runner.get("horse", ""),
+        distance_value,
+    )
+
+    if distance_profile:
+        distance_wins = distance_profile.get("wins", 0)
+        distance_runs = distance_profile.get("runs", 0)
+        distance_win_rate = distance_profile.get("win_rate", 0)
+
+        if distance_wins >= 2 and distance_win_rate >= 40:
+            distance_bonus = 4
+            score += distance_bonus
+            notes.append(
+                f"Distance specialist +4 "
+                f"({distance_wins}/{distance_runs} at trip)"
+            )
+
+        elif distance_wins >= 1:
+            distance_bonus = 2
+            score += distance_bonus
+            notes.append(
+                f"Proven at distance +2 "
+                f"({distance_wins}/{distance_runs} at trip)"
+            )
+
+    factors["distance_bonus"] = distance_bonus
+    
+    going_bonus = 0
+
+    going_profile = get_going_profile(
+        runner.get("horse", ""),
+        runner.get("going", ""),
+    )
+
+    if going_profile:
+        going_wins = going_profile.get("wins", 0)
+        going_runs = going_profile.get("runs", 0)
+        going_win_rate = going_profile.get("win_rate", 0)
+
+        if going_wins >= 2 and going_win_rate >= 40:
+            going_bonus = 4
+            score += going_bonus
+            notes.append(
+                f"Going specialist +4 "
+                f"({going_wins}/{going_runs} on going)"
+            )
+
+        elif going_wins >= 1:
+            going_bonus = 2
+            score += going_bonus
+            notes.append(
+                f"Proven on going +2 "
+                f"({going_wins}/{going_runs} on going)"
+            )
+
+    factors["going_bonus"] = going_bonus
 
     factors["historical_winner_bonus"] = historical_winner_bonus
     factors["previous_course_winner_bonus"] = previous_course_winner_bonus
