@@ -1,7 +1,8 @@
 import json
 from pathlib import Path
 from urllib.parse import urlparse
-
+from app.modules.horses.intelligence_store import upsert_intelligence_record
+from app.modules.horses.intelligence_store import append_market_event_to_intelligence
 from app.data_store import append_jsonl
 from app.modules.horses.scoring import calculate_horse_score
 
@@ -135,6 +136,28 @@ def enrich_market_events():
             enriched["pulse_score"] = score_data.get("pulse_score")
             enriched["pulse_notes"] = score_data.get("notes")
             enriched["pulse_factors"] = score_data.get("factors")
+            
+            market_event = {
+                "event_type": event.get("event_type"),
+                "detected_at": event.get("detected_at"),
+                "previous_best_odds": event.get("previous_best_odds"),
+                "previous_best_odds_decimal": event.get("previous_best_odds_decimal"),
+                "best_odds": event.get("best_odds"),
+                "best_odds_decimal": event.get("best_odds_decimal"),
+                "movement_pct": event.get("movement_pct"),
+                "market_rank": event.get("market_rank"),
+                "url": event.get("url"),
+            }
+
+            append_market_event_to_intelligence(
+                {
+                    "race_id": runner.get("race_id"),
+                    "horse_id": runner.get("horse_id"),
+                    "horse": runner.get("horse"),
+                },
+                market_event,
+            )
+            
         else:
             enriched["matched_runner"] = False
 

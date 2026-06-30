@@ -890,3 +890,77 @@ white-space: nowrap;
     font-weight: 800;
     margin-top: 8px;
 }
+
+.pulse-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.pulse-sidebar {
+    width: 260px;
+    flex-shrink: 0;
+    padding: 24px;
+}
+
+.pulse-content {
+    flex: 1;
+    padding: 32px;
+}
+
+.pulse-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pulse-nav a {
+    display: block;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+
+.pulse-nav a.active {
+    background: linear-gradient(90deg, #ff176b, #9b2cff);
+    color: white;
+}
+
+.pulse-page {
+    max-width: 1100px;
+}
+
+.pulse-page-header {
+    margin-bottom: 28px;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    gap: 22px;
+}
+
+.dashboard-card {
+    background: #101018;
+    border: 1px solid #29293a;
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.35);
+}
+
+.dashboard-card h2 {
+    margin-top: 0;
+}
+
+.dashboard-list div {
+    margin-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 11px 18px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #ff176b, #9b2cff);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}

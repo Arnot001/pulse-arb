@@ -28,35 +28,14 @@
 
         <nav class="pulse-nav">
 
-            <a href="/" class="{% if active_page == 'dashboard' %}active{% endif %}">
-                🏠 Dashboard
-            </a>
-
-            <div class="pulse-nav-heading">
-                Intelligence
-            </div>
-
-            <a href="/horses" class="{% if active_page == 'horses' %}active{% endif %}">
-                🏇 Horses
-            </a>
-
-            <a href="/football" class="{% if active_page == 'football' %}active{% endif %}">
-                ⚽ Football
-            </a>
-
-            <a href="/dogs" class="{% if active_page == 'dogs' %}active{% endif %}">
-                🐕 Dogs
-            </a>
-
-            <hr>
-
-            <a href="/">
-                📈 Pulse Arb
-            </a>
-
-            <a href="/horses">
-                🔄 Updates
-            </a>
+            <a href="/" class="{% if active_page == 'home' %}active{% endif %}">🏠 Home</a>
+            <a href="/horses" class="{% if active_page == 'horses' %}active{% endif %}">🏇 Horses</a>
+            <a href="/dogs" class="{% if active_page == 'dogs' %}active{% endif %}">🐕 Dogs</a>
+            <a href="/football" class="{% if active_page == 'football' %}active{% endif %}">⚽ Football</a>
+            <a href="/arb" class="{% if active_page == 'arb' %}active{% endif %}">📈 Pulse Arb</a>
+            <a href="/horses/performance">📊 Performance</a>
+            <a href="/horses/market-events">📈 Market Intelligence</a>
+            <a href="/horses/races">🏆 Today's Races</a>
 
         </nav>
 

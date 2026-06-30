@@ -105,9 +105,9 @@ def compare_market(previous, current):
         runner["previous_best_odds_decimal"] = old_decimal
         runner["movement_pct"] = change_pct
 
-        if change_pct <= -8:
+        if change_pct <= -3:
             runner["market_movement"] = "shortening"
-        elif change_pct >= 8:
+        elif change_pct >= 3:
             runner["market_movement"] = "drifting"
         else:
             runner["market_movement"] = "stable"

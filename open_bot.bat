@@ -11,7 +11,7 @@ echo.
 echo Opening Pulse IQ in your browser...
 echo.
 
-start http://127.0.0.1:8000/horses
+start http://127.0.0.1:8000
 
 echo Starting server...
 echo Leave this window open while using Pulse.

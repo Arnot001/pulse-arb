@@ -679,8 +679,25 @@ def shutdown():
 
     return html
 
-
 @app.get("/", response_class=HTMLResponse)
+def pulse_home(request: Request):
+    market_events = get_market_events(limit=5)
+    top_horses = get_horse_dashboard()[:5]
+    performance = get_latest_performance_report()
+
+    return templates.TemplateResponse(
+        request,
+        "home.html",
+        {
+            "active_page": "home",
+            "market_events": market_events,
+            "top_horses": top_horses,
+            "performance": performance,
+            "scan_cache": SCAN_CACHE,
+        },
+    )
+
+@app.get("/arb", response_class=HTMLResponse)
 def dashboard(
     request: Request,
     bankroll: float = Query(100.0),
