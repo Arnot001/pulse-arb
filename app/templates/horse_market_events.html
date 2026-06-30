@@ -1,83 +1,56 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Pulse IQ - Live Market Intelligence</title>
-    <link rel="stylesheet" href="/static/styles.css">
-</head>
-<body>
+{% extends "base.html" %}
 
-<div class="pulse-horses-page">
+{% block title %}
+Pulse IQ - Live Market Intelligence
+{% endblock %}
 
-    <h1>📈 Live Market Intelligence</h1>
+{% block content %}
 
-    <p class="muted">
-        Live steamers and drifters detected from market snapshots.
-    </p>
+<div class="pulse-page">
 
-    <p>
-        <a href="/horses">← Back to Horses</a>
-    </p>
+    <div class="pulse-page-header">
+        <h1>📈 Live Market Intelligence</h1>
+        <p class="muted">
+            Live steamers and drifters detected from market snapshots.
+        </p>
+    </div>
 
     {% if not events %}
-        <p class="muted">No market events saved yet.</p>
+        <div class="dashboard-card">
+            <p class="muted">No market events saved yet.</p>
+        </div>
     {% endif %}
 
-    {% for event in events %}
-        <div class="horse-card">
+    <div class="dashboard-grid">
+        {% for event in events %}
+            <div class="dashboard-card">
 
-            <h2>
-                {% if event.event_type == "market_shortening" %}
-                    🟢 Market Steamer
-                {% else %}
-                    🔴 Market Drifter
-                {% endif %}
-            </h2>
+                <h2>
+                    {% if event.event_type == "market_shortening" %}
+                        🟢 Market Steamer
+                    {% else %}
+                        🔴 Market Drifter
+                    {% endif %}
+                </h2>
 
-            <h3>{{ event.horse }}</h3>
+                <h3>{{ event.horse }}</h3>
 
-            <p>
-                <strong>Odds:</strong>
-                {{ event.previous_decimal }}
-                →
-                {{ event.current_decimal }}
-            </p>
+                <p><strong>Odds:</strong> {{ event.previous_decimal }} → {{ event.current_decimal }}</p>
+                <p><strong>Implied chance:</strong> {{ event.previous_probability }}% → {{ event.current_probability }}%</p>
+                <p><strong>Movement:</strong> {{ event.movement_pct }}%</p>
+                <p><strong>Raw odds:</strong> {{ event.previous_best_odds }} → {{ event.best_odds }}</p>
+                <p><strong>Jockey:</strong> {{ event.jockey }}</p>
 
-            <p>
-                <strong>Implied chance:</strong>
-                {{ event.previous_probability }}%
-                →
-                {{ event.current_probability }}%
-            </p>
+                <p class="muted">Detected: {{ event.detected_at }}</p>
 
-            <p>
-                <strong>Movement:</strong>
-                {{ event.movement_pct }}%
-            </p>
+                <a class="button" href="{{ event.url }}" target="_blank">
+                    Open market →
+                </a>
 
-            <p>
-                <strong>Raw odds:</strong>
-                {{ event.previous_best_odds }}
-                →
-                {{ event.best_odds }}
-            </p>
-
-            <p>
-                <strong>Jockey:</strong>
-                {{ event.jockey }}
-            </p>
-
-            <p class="muted">
-                Detected: {{ event.detected_at }}
-            </p>
-
-            <p>
-                <a href="{{ event.url }}" target="_blank">Open market</a>
-            </p>
-
-        </div>
-    {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
 
 </div>
 
-</body>
-</html>
+{% endblock %}

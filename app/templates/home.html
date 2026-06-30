@@ -9,77 +9,89 @@ Pulse IQ
 <div class="pulse-page">
 
     <div class="pulse-page-header">
-
-        <h1>🧠 Pulse IQ</h1>
-
-        <p class="muted">
-            Collect First. Learn Forever.
-        </p>
-
+        <h1>🧠 Pulse IQ Central</h1>
+        <p class="muted">Collect First. Learn Forever.</p>
     </div>
 
     <div class="dashboard-grid">
 
         <div class="dashboard-card">
-
             <h2>🟢 Intelligence Engine</h2>
 
             <div class="dashboard-list">
-
-                <div>🏇 Horses <strong>Ready</strong></div>
+                <div>🏇 Horse Intelligence <strong>{{ horse_intelligence_count }}</strong></div>
+                <div>🐎 Runner Records <strong>{{ runner_record_count }}</strong></div>
+                <div>🏆 Horse Profiles <strong>{{ horse_profile_count }}</strong></div>
+                <div>📈 Market Events <strong>{{ market_event_count }}</strong></div>
+                <div>🧠 Learning Reports <strong>{{ learning_report_count }}</strong></div>
                 <div>🐕 Dogs <strong>Ready</strong></div>
                 <div>⚽ Football <strong>Ready</strong></div>
                 <div>📈 Pulse Arb <strong>Running</strong></div>
-
             </div>
-
         </div>
 
         <div class="dashboard-card">
+            <h2>⚡ Quick Actions</h2>
 
-            <h2>🏇 Horses</h2>
+            <form method="post" action="/update/horses">
+                <button type="submit">🐎 Update Horses</button>
+            </form>
 
-            <p>Racecards</p>
-            <p>Horse IQ</p>
-            <p>Trainer Rankings</p>
-            <p>Jockey Rankings</p>
+            <form method="post" action="/update/dogs">
+                <button type="submit">🐕 Update Dogs</button>
+            </form>
+
+            <form method="post" action="/update/football">
+                <button type="submit">⚽ Update Football</button>
+            </form>
+
+            <form method="post" action="/update/all">
+                <button type="submit">🧠 Update All</button>
+            </form>
+
+            <form method="post" action="/update/performance">
+                <button type="submit">📊 Analyse Yesterday</button>
+            </form>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>🔥 Latest Market Moves</h2>
+
+            {% if not market_events %}
+                <p class="muted">No market events yet.</p>
+            {% endif %}
+
+            {% for event in market_events %}
+                <p>
+                    <strong>{{ event.horse }}</strong><br>
+                    {{ event.event_type }}
+                    · {{ event.previous_decimal }} → {{ event.current_decimal }}
+                    · {{ event.movement_pct }}%
+                </p>
+            {% endfor %}
+
+            <a class="button" href="/horses/market-events">
+                Open Market Intelligence →
+            </a>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>🏇 Top Pulse Horses</h2>
+
+            {% for horse in top_horses %}
+                <p>
+                    <strong>{{ horse.horse }}</strong><br>
+                    {{ horse.course }} · {{ horse.off_time }}<br>
+                    Pulse Score: {{ horse.pulse_score }}
+                </p>
+            {% endfor %}
 
             <a class="button" href="/horses">
                 Open Horses →
             </a>
-
         </div>
 
         <div class="dashboard-card">
-
-            <h2>🐕 Dogs</h2>
-
-            <p>Racecards</p>
-            <p>Results</p>
-            <p>Dog History</p>
-
-            <a class="button" href="/dogs">
-                Open Dogs →
-            </a>
-
-        </div>
-
-        <div class="dashboard-card">
-
-            <h2>⚽ Football</h2>
-
-            <p>Fixtures</p>
-            <p>Results</p>
-            <p>Football IQ</p>
-
-            <a class="button" href="/football">
-                Open Football →
-            </a>
-
-        </div>
-
-        <div class="dashboard-card">
-
             <h2>📈 Pulse Arb</h2>
 
             <p>Live Monitoring</p>
@@ -89,21 +101,18 @@ Pulse IQ
             <a class="button" href="/arb">
                 Open Arb →
             </a>
-
         </div>
 
         <div class="dashboard-card">
-
             <h2>⚙ System</h2>
 
-            <p>Daily Intelligence Engine</p>
-            <p>Updates Working</p>
-            <p>GitHub Synced</p>
+            <p>Pulse IQ Platform v0.5</p>
+            <p>Dashboard: Online</p>
+            <p>Learning Engine: Active</p>
 
             <p class="muted">
-                Pulse IQ Platform v0.4
+                Next goal: attach results to intelligence records.
             </p>
-
         </div>
 
     </div>

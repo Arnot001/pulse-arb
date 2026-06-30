@@ -1,3 +1,4 @@
+from pathlib import Path
 import logging
 import os
 import subprocess
@@ -6,6 +7,7 @@ import threading
 import requests
 import time
 
+from app.modules.dashboard import get_dashboard_data
 from app.modules.football.routes import get_football_leaderboard
 from collectors.daily_update import run_jobs
 from fastapi import FastAPI, Query, HTTPException, Form, Request
@@ -681,19 +683,14 @@ def shutdown():
 
 @app.get("/", response_class=HTMLResponse)
 def pulse_home(request: Request):
-    market_events = get_market_events(limit=5)
-    top_horses = get_horse_dashboard()[:5]
-    performance = get_latest_performance_report()
+    dashboard = get_dashboard_data()
 
     return templates.TemplateResponse(
         request,
         "home.html",
         {
             "active_page": "home",
-            "market_events": market_events,
-            "top_horses": top_horses,
-            "performance": performance,
-            "scan_cache": SCAN_CACHE,
+            **dashboard,
         },
     )
 

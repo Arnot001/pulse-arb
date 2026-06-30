@@ -3,7 +3,7 @@ from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-
+RACE_REVIEW_DIR = Path("data/horses/race_reviews")
 PULSE_SCORE_DIR = Path("data/horses/pulse_scores")
 PUBLIC_RESULTS_DIR = Path("data/horses/sporting_life_results")
 OUTPUT_DIR = Path("data/horses/performance_reports")
@@ -144,6 +144,38 @@ def dedupe_results(results):
 
     return deduped
 
+def get_review_label(winner_rank):
+    if winner_rank == 1:
+        return "EXCELLENT"
+    if winner_rank and winner_rank <= 3:
+        return "GOOD"
+    if winner_rank and winner_rank <= 5:
+        return "NEAR MISS"
+    return "MISS"
+
+
+def save_race_review(review):
+    RACE_REVIEW_DIR.mkdir(parents=True, exist_ok=True)
+
+    def safe_filename(value):
+        text = normalise(value)
+        for char in ['<', '>', ':', '"', '/', '\\', '|', '?', '*', '(', ')']:
+            text = text.replace(char, "")
+        return "_".join(text.split())
+
+
+    safe_key = "__".join([
+        safe_filename(review.get("course")),
+        safe_filename(review.get("time")),
+        safe_filename(review.get("race_name")),
+    ])
+
+    file_path = RACE_REVIEW_DIR / f"{safe_key}.json"
+
+    with file_path.open("w", encoding="utf-8") as f:
+        json.dump(review, f, ensure_ascii=False, indent=2)
+
+    return file_path
 
 def analyse_date(target_date):
     scores = [
@@ -262,27 +294,53 @@ def analyse_date(target_date):
                 }
             )
 
-        race_reports.append(
-            {
-                "course": raw.get("course"),
-                "time": raw.get("race_time"),
-                "race_name": raw.get("race_name"),
-                "winner": winner_name,
-                "winner_sp": winner.get("sp"),
-                "winner_rank": winner_rank,
-                "winner_score": winner_score,
-                "top_pick": top_pick.get("horse") if top_pick else None,
-                "top_pick_score": top_pick.get("pulse_score") if top_pick else None,
-                "top_3": [
-                    {
-                        "rank": index,
-                        "horse": runner.get("horse"),
-                        "pulse_score": runner.get("pulse_score"),
-                    }
-                    for index, runner in enumerate(runners[:3], start=1)
-                ],
-            }
-        )
+        top_3_hit = bool(winner_rank and winner_rank <= 3)
+        top_pick_win = winner_rank == 1
+        review_label = get_review_label(winner_rank)
+
+        learning_notes = []
+
+        if top_pick_win:
+            learning_notes.append("Pulse top pick won.")
+        elif top_3_hit:
+            learning_notes.append("Winner was inside Pulse top 3.")
+        elif winner_rank:
+            learning_notes.append(f"Winner ranked outside top 3 at rank {winner_rank}.")
+        else:
+            learning_notes.append("Winner was not ranked by Pulse.")
+
+        if top_pick:
+            learning_notes.append(
+                f"Top pick was {top_pick.get('horse')} with score {top_pick.get('pulse_score')}."
+            )
+
+        race_review = {
+            "date": target_date,
+            "course": raw.get("course"),
+            "time": raw.get("race_time"),
+            "race_name": raw.get("race_name"),
+            "winner": winner_name,
+            "winner_sp": winner.get("sp"),
+            "winner_rank": winner_rank,
+            "winner_score": winner_score,
+            "top_pick": top_pick.get("horse") if top_pick else None,
+            "top_pick_score": top_pick.get("pulse_score") if top_pick else None,
+            "top_pick_win": top_pick_win,
+            "top_3_hit": top_3_hit,
+            "review": review_label,
+            "learning_notes": learning_notes,
+            "top_3": [
+                {
+                    "rank": index,
+                    "horse": runner.get("horse"),
+                    "pulse_score": runner.get("pulse_score"),
+                }
+                for index, runner in enumerate(runners[:3], start=1)
+            ],
+        }
+
+        race_reports.append(race_review)
+        save_race_review(race_review)
 
     report = {
         "date": target_date,

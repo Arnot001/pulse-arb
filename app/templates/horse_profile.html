@@ -1,27 +1,21 @@
-<!DOCTYPE html>
-<html>
+{% extends "base.html" %}
 
-<head>
-    <title>{{ horse.horse }}</title>
-    <link rel="icon" href="/static/favicon.png">
-    <link rel="stylesheet" href="/static/styles.css">
-</head>
+{% block title %}
+{{ horse.horse }} - Pulse IQ
+{% endblock %}
 
-<body>
+{% block content %}
 
-<div class="pulse-horses-page">
+<div class="pulse-page">
 
-    <a class="button" href="/horses">
-        ← Back
-    </a>
-
-    <div class="horse-card">
-
-        <h1>{{ horse.horse }}</h1>
-
-        <div class="race-meta">
+    <div class="pulse-page-header">
+        <h1>🏇 {{ horse.horse }}</h1>
+        <p class="muted">
             {{ horse.latest_course }} · {{ horse.latest_time }} · {{ horse.latest_race }}
-        </div>
+        </p>
+    </div>
+
+    <div class="dashboard-card">
 
         <div class="score">
             Horse Intelligence:
@@ -35,217 +29,222 @@
         </div>
 
         <div class="race-summary">
-            <div>
-                <strong>Age</strong><br>
-                {{ horse.age }}
-            </div>
-
-            <div>
-                <strong>Sex</strong><br>
-                {{ horse.sex }}
-            </div>
-
-            <div>
-                <strong>Trainer</strong><br>
-                {{ horse.latest_trainer }}
-            </div>
-
-            <div>
-                <strong>Jockey</strong><br>
-                {{ horse.latest_jockey }}
-            </div>
-        </div>
-
-        <div class="race-card">
-            <div class="metrics">
-
-                <div class="metric">
-                    <div class="metric-label">Profile Runs</div>
-                    <div class="metric-value">{{ horse.profile_runs }}</div>
-                </div>
-
-                <div class="metric">
-                    <div class="metric-label">Avg Pulse</div>
-                    <div class="metric-value">{{ horse.average_pulse_score }}</div>
-                </div>
-
-                <div class="metric">
-                    <div class="metric-label">Latest Pulse</div>
-                    <div class="metric-value">{{ horse.latest_pulse_score }}</div>
-                </div>
-
-                <div class="metric">
-                    <div class="metric-label">Best Pulse</div>
-                    <div class="metric-value">{{ horse.best_pulse_score }}</div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="race-card">
-            <h3>🎯 Suitability Scores</h3>
-
-            <div class="metrics">
-
-                <div class="metric">
-                    <div class="metric-label">Overall Suitability</div>
-                    <div class="metric-value">{{ horse.suitability_score }}</div>
-                </div>
-
-                <div class="metric">
-                    <div class="metric-label">Course</div>
-                    <div class="metric-value">{{ horse.course_suitability_score }}</div>
-                </div>
-
-                <div class="metric">
-                    <div class="metric-label">Distance</div>
-                    <div class="metric-value">{{ horse.distance_suitability_score }}</div>
-                </div>
-
-                <div class="metric">
-                    <div class="metric-label">Going</div>
-                    <div class="metric-value">{{ horse.going_suitability_score }}</div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="race-summary">
-            <div>
-                <strong>Today Distance</strong><br>
-                {{ horse.latest_distance_f }}f
-            </div>
-
-            <div>
-                <strong>Today Going</strong><br>
-                {{ horse.latest_going }}
-            </div>
-
-            <div>
-                <strong>Today Class</strong><br>
-                {{ horse.latest_class }}
-            </div>
-
-            <div>
-                <strong>Draw</strong><br>
-                {{ horse.latest_draw }}
-            </div>
-        </div>
-
-        <div class="race-card">
-            <h3>⭐ Favourite Conditions</h3>
-
-            <div class="race-summary">
-                <div>
-                    <strong>Course</strong><br>
-                    {% if horse.favourite_course %}
-                        {{ horse.favourite_course.value }} x{{ horse.favourite_course.runs }}
-                    {% else %}
-                        Unknown
-                    {% endif %}
-                </div>
-
-                <div>
-                    <strong>Distance</strong><br>
-                    {% if horse.favourite_distance %}
-                        {{ horse.favourite_distance.value }}f x{{ horse.favourite_distance.runs }}
-                    {% else %}
-                        Unknown
-                    {% endif %}
-                </div>
-
-                <div>
-                    <strong>Going</strong><br>
-                    {% if horse.favourite_going %}
-                        {{ horse.favourite_going.value }} x{{ horse.favourite_going.runs }}
-                    {% else %}
-                        Unknown
-                    {% endif %}
-                </div>
-
-                <div>
-                    <strong>Class</strong><br>
-                    {% if horse.favourite_class %}
-                        {{ horse.favourite_class.value }} x{{ horse.favourite_class.runs }}
-                    {% else %}
-                        Unknown
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-
-        <div class="notes">
-            <h3>🟢 Profile Strengths</h3>
-
-            {% if horse.profile_strengths %}
-                {% for note in horse.profile_strengths %}
-                    <span class="badge">{{ note }}</span>
-                {% endfor %}
-            {% else %}
-                <p class="muted">No major strengths flagged yet.</p>
-            {% endif %}
-        </div>
-
-        <div class="notes">
-            <h3>🟡 Profile Cautions</h3>
-
-            {% if horse.profile_cautions %}
-                {% for note in horse.profile_cautions %}
-                    <span class="badge">{{ note }}</span>
-                {% endfor %}
-            {% else %}
-                <p class="muted">No major cautions flagged yet.</p>
-            {% endif %}
-        </div>
-
-        <div class="notes">
-            <h3>⚡ Latest Pulse Notes</h3>
-
-            {% if horse.latest_notes %}
-                {% for note in horse.latest_notes %}
-                    <span class="badge">{{ note }}</span>
-                {% endfor %}
-            {% else %}
-                <p class="muted">No latest Pulse notes found.</p>
-            {% endif %}
-        </div>
-
-        <div class="notes">
-            <h3>📚 Seen Conditions</h3>
-
-            <p>
-                <strong>Courses:</strong>
-                {% for course, count in horse.courses_seen.items() %}
-                    <span class="badge">{{ course }} x{{ count }}</span>
-                {% endfor %}
-            </p>
-
-            <p>
-                <strong>Distances:</strong>
-                {% for distance, count in horse.distances_seen.items() %}
-                    <span class="badge">{{ distance }}f x{{ count }}</span>
-                {% endfor %}
-            </p>
-
-            <p>
-                <strong>Going:</strong>
-                {% for going, count in horse.goings_seen.items() %}
-                    <span class="badge">{{ going }} x{{ count }}</span>
-                {% endfor %}
-            </p>
-
-            <p>
-                <strong>Classes:</strong>
-                {% for race_class, count in horse.classes_seen.items() %}
-                    <span class="badge">{{ race_class }} x{{ count }}</span>
-                {% endfor %}
-            </p>
+            <div><strong>Age</strong><br>{{ horse.age }}</div>
+            <div><strong>Sex</strong><br>{{ horse.sex }}</div>
+            <div><strong>Trainer</strong><br>{{ horse.latest_trainer }}</div>
+            <div><strong>Jockey</strong><br>{{ horse.latest_jockey }}</div>
         </div>
 
     </div>
 
+    <div class="dashboard-card">
+        <h2>📊 Pulse Metrics</h2>
+
+        <div class="metrics">
+            <div class="metric">
+                <div class="metric-label">Profile Runs</div>
+                <div class="metric-value">{{ horse.profile_runs }}</div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Avg Pulse</div>
+                <div class="metric-value">{{ horse.average_pulse_score }}</div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Latest Pulse</div>
+                <div class="metric-value">{{ horse.latest_pulse_score }}</div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Best Pulse</div>
+                <div class="metric-value">{{ horse.best_pulse_score }}</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>🎯 Suitability Scores</h2>
+
+        <div class="metrics">
+            <div class="metric">
+                <div class="metric-label">Overall</div>
+                <div class="metric-value">{{ horse.suitability_score }}</div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Course</div>
+                <div class="metric-value">{{ horse.course_suitability_score }}</div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Distance</div>
+                <div class="metric-value">{{ horse.distance_suitability_score }}</div>
+            </div>
+
+            <div class="metric">
+                <div class="metric-label">Going</div>
+                <div class="metric-value">{{ horse.going_suitability_score }}</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>🏁 Today’s Setup</h2>
+
+        <div class="race-summary">
+            <div><strong>Distance</strong><br>{{ horse.latest_distance_f }}f</div>
+            <div><strong>Going</strong><br>{{ horse.latest_going }}</div>
+            <div><strong>Class</strong><br>{{ horse.latest_class }}</div>
+            <div><strong>Draw</strong><br>{{ horse.latest_draw }}</div>
+        </div>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>📈 Market Intelligence</h2>
+
+        {% if horse.market_events %}
+            {% for event in horse.market_events %}
+                <p>
+                    <strong>
+                        {% if event.event_type == "market_shortening" %}
+                            🟢 Market Steamer
+                        {% else %}
+                            🔴 Market Drifter
+                        {% endif %}
+                    </strong><br>
+                    {{ event.previous_best_odds }} → {{ event.best_odds }}
+                    · {{ event.movement_pct }}%
+                </p>
+            {% endfor %}
+        {% else %}
+            <p class="muted">No market moves attached yet.</p>
+        {% endif %}
+    </div>
+
+    <div class="dashboard-card">
+        <h2>🏆 Result</h2>
+
+        {% if horse.result %}
+            <p><strong>Position:</strong> {{ horse.result.finish_position }}</p>
+            <p><strong>Won:</strong> {{ horse.result.won }}</p>
+            <p><strong>Placed:</strong> {{ horse.result.placed }}</p>
+            <p><strong>SP:</strong> {{ horse.result.sp }}</p>
+        {% else %}
+            <p class="muted">Result not attached yet.</p>
+        {% endif %}
+    </div>
+
+    <div class="dashboard-card">
+        <h2>⭐ Favourite Conditions</h2>
+
+        <div class="race-summary">
+            <div>
+                <strong>Course</strong><br>
+                {% if horse.favourite_course %}
+                    {{ horse.favourite_course.value }} x{{ horse.favourite_course.runs }}
+                {% else %}
+                    Unknown
+                {% endif %}
+            </div>
+
+            <div>
+                <strong>Distance</strong><br>
+                {% if horse.favourite_distance %}
+                    {{ horse.favourite_distance.value }}f x{{ horse.favourite_distance.runs }}
+                {% else %}
+                    Unknown
+                {% endif %}
+            </div>
+
+            <div>
+                <strong>Going</strong><br>
+                {% if horse.favourite_going %}
+                    {{ horse.favourite_going.value }} x{{ horse.favourite_going.runs }}
+                {% else %}
+                    Unknown
+                {% endif %}
+            </div>
+
+            <div>
+                <strong>Class</strong><br>
+                {% if horse.favourite_class %}
+                    {{ horse.favourite_class.value }} x{{ horse.favourite_class.runs }}
+                {% else %}
+                    Unknown
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>🟢 Profile Strengths</h2>
+
+        {% if horse.profile_strengths %}
+            {% for note in horse.profile_strengths %}
+                <span class="badge">{{ note }}</span>
+            {% endfor %}
+        {% else %}
+            <p class="muted">No major strengths flagged yet.</p>
+        {% endif %}
+    </div>
+
+    <div class="dashboard-card">
+        <h2>🟡 Profile Cautions</h2>
+
+        {% if horse.profile_cautions %}
+            {% for note in horse.profile_cautions %}
+                <span class="badge">{{ note }}</span>
+            {% endfor %}
+        {% else %}
+            <p class="muted">No major cautions flagged yet.</p>
+        {% endif %}
+    </div>
+
+    <div class="dashboard-card">
+        <h2>⚡ Latest Pulse Notes</h2>
+
+        {% if horse.latest_notes %}
+            {% for note in horse.latest_notes %}
+                <span class="badge">{{ note }}</span>
+            {% endfor %}
+        {% else %}
+            <p class="muted">No latest Pulse notes found.</p>
+        {% endif %}
+    </div>
+
+    <div class="dashboard-card">
+        <h2>📚 Seen Conditions</h2>
+
+        <p>
+            <strong>Courses:</strong>
+            {% for course, count in horse.courses_seen.items() %}
+                <span class="badge">{{ course }} x{{ count }}</span>
+            {% endfor %}
+        </p>
+
+        <p>
+            <strong>Distances:</strong>
+            {% for distance, count in horse.distances_seen.items() %}
+                <span class="badge">{{ distance }}f x{{ count }}</span>
+            {% endfor %}
+        </p>
+
+        <p>
+            <strong>Going:</strong>
+            {% for going, count in horse.goings_seen.items() %}
+                <span class="badge">{{ going }} x{{ count }}</span>
+            {% endfor %}
+        </p>
+
+        <p>
+            <strong>Classes:</strong>
+            {% for race_class, count in horse.classes_seen.items() %}
+                <span class="badge">{{ race_class }} x{{ count }}</span>
+            {% endfor %}
+        </p>
+    </div>
+
 </div>
 
-</body>
-
-</html>
+{% endblock %}

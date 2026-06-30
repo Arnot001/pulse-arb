@@ -1,43 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Pulse Horses</title>
+{% extends "base.html" %}
 
-    <link rel="icon" type="image/png" href="/static/favicon.png">
-    <link rel="stylesheet" href="/static/styles.css">
-</head>
-<body>
+{% block title %}
+Pulse Horses
+{% endblock %}
 
-<div class="pulse-horses-page">
+{% block content %}
 
-    <div class="horses-header-row">
+<div class="pulse-page">
 
-        <div>
-            <h1>🐎 Pulse Horses</h1>
-            <p class="muted">
-                Real Racing API data ranked by Pulse Score.
-            </p>
-        </div>
-
-        <div class="horses-subnav">
-            <a class="button" href="/horses">🏆 Top Horses</a>
-            <a class="button" href="/horses/races">🏇 Today's Races</a>
-            <a class="button" href="/horses/leaderboards">📊 Leaderboards</a>
-            <a class="button" href="/">📈 Pulse Arb</a>
-            <a class="button" href="/horses/performance">📈 Performance</a>
-        </div>
-
+    <div class="pulse-page-header">
+        <h1>🐎 Pulse Horses</h1>
+        <p class="muted">
+            Real Racing API data ranked by Pulse Score.
+        </p>
     </div>
 
-    <div class="horse-card update-panel">
-        <h2>🧠 Pulse IQ Updates</h2>
+    <div class="horses-subnav">
+        <a class="button" href="/horses">🏆 Top Horses</a>
+        <a class="button" href="/horses/races">🏇 Today's Races</a>
+        <a class="button" href="/horses/leaderboards">📊 Leaderboards</a>
+        <a class="button" href="/horses/market-events">📈 Market Intelligence</a>
+        <a class="button" href="/horses/performance">📊 Performance</a>
+    </div>
 
-        <p class="muted">
-            Collect first. Learn forever.
-        </p>
+    <div class="dashboard-card update-panel">
+        <h2>🧠 Pulse IQ Updates</h2>
+        <p class="muted">Collect first. Learn forever.</p>
 
         <div class="update-buttons">
-
             <form method="post" action="/update/horses">
                 <button class="button" type="submit">🐎 Update Horses</button>
             </form>
@@ -57,14 +47,64 @@
             <form method="post" action="/update/performance">
                 <button class="button" type="submit">📊 Analyse Yesterday</button>
             </form>
-
         </div>
     </div>
+
     <div class="update-progress-box">
-    <div id="update-status-title">🟢 Ready</div>
-    <div id="update-bar" class="update-bar">░░░░░░░░░░░░░░░░░░░░ 0%</div>
-    <div id="update-current" class="muted">Waiting for update...</div>
-    <div id="update-completed"></div>
+        <div id="update-status-title">🟢 Ready</div>
+        <div id="update-bar" class="update-bar">░░░░░░░░░░░░░░░░░░░░ 0%</div>
+        <div id="update-current" class="muted">Waiting for update...</div>
+        <div id="update-completed"></div>
+    </div>
+
+    {% for card in cards %}
+        <div class="dashboard-card">
+
+            <div class="horse-name">
+                {{ card.horse }}
+            </div>
+
+            <div class="race-meta">
+                {{ card.course }} · {{ card.time }} · Form: {{ card.form }}
+            </div>
+
+            <div class="score">
+                Pulse Score: {{ card.score }}
+            </div>
+
+            <a class="button" href="/horses/profile/{{ card.horse }}">
+                🧠 Intelligence Profile →
+            </a>
+
+            {% if card.normal_notes %}
+                <div class="notes">
+                    {% for note in card.normal_notes %}
+                        <span class="badge">{{ note }}</span>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            {% if card.tipster_notes %}
+                <div class="notes" style="margin-top:10px;">
+                    <strong>🔥 Tipster Support</strong><br>
+                    {% for note in card.tipster_notes %}
+                        <span class="badge">{{ note }}</span>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            {% if card.history_notes %}
+                <div class="notes" style="margin-top:10px;">
+                    <strong>📚 Historical Profile</strong><br>
+                    {% for note in card.history_notes %}
+                        <span class="badge">{{ note }}</span>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+        </div>
+    {% endfor %}
+
 </div>
 
 <script>
@@ -105,55 +145,4 @@ setInterval(refreshUpdateStatus, 1000);
 refreshUpdateStatus();
 </script>
 
-    {% for card in cards %}
-
-    <div class="horse-card">
-
-        <div class="horse-name">
-            {{ card.horse }}
-        </div>
-
-        <div class="race-meta">
-            {{ card.course }} · {{ card.time }} · Form: {{ card.form }}
-        </div>
-
-        <div class="score">
-            Pulse Score: {{ card.score }}
-        </div>
-
-        {% if card.normal_notes %}
-        <div class="notes">
-            {% for note in card.normal_notes %}
-                <span class="badge">{{ note }}</span>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        {% if card.tipster_notes %}
-        <div class="notes" style="margin-top:10px;">
-            <strong>🔥 Tipster Support</strong><br>
-
-            {% for note in card.tipster_notes %}
-                <span class="badge">{{ note }}</span>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        {% if card.history_notes %}
-        <div class="notes" style="margin-top:10px;">
-            <strong>📚 Historical Profile</strong><br>
-
-            {% for note in card.history_notes %}
-                <span class="badge">{{ note }}</span>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-    </div>
-
-    {% endfor %}
-
-</div>
-
-</body>
-</html>
+{% endblock %}
