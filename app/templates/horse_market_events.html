@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pulse IQ - Live Market Intelligence</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<div class="pulse-horses-page">
+
+    <h1>📈 Live Market Intelligence</h1>
+
+    <p class="muted">
+        Live steamers and drifters detected from market snapshots.
+    </p>
+
+    <p>
+        <a href="/horses">← Back to Horses</a>
+    </p>
+
+    {% if not events %}
+        <p class="muted">No market events saved yet.</p>
+    {% endif %}
+
+    {% for event in events %}
+        <div class="horse-card">
+
+            <h2>
+                {% if event.event_type == "market_shortening" %}
+                    🟢 Market Steamer
+                {% else %}
+                    🔴 Market Drifter
+                {% endif %}
+            </h2>
+
+            <h3>{{ event.horse }}</h3>
+
+            <p>
+                <strong>Odds:</strong>
+                {{ event.previous_decimal }}
+                →
+                {{ event.current_decimal }}
+            </p>
+
+            <p>
+                <strong>Implied chance:</strong>
+                {{ event.previous_probability }}%
+                →
+                {{ event.current_probability }}%
+            </p>
+
+            <p>
+                <strong>Movement:</strong>
+                {{ event.movement_pct }}%
+            </p>
+
+            <p>
+                <strong>Raw odds:</strong>
+                {{ event.previous_best_odds }}
+                →
+                {{ event.best_odds }}
+            </p>
+
+            <p>
+                <strong>Jockey:</strong>
+                {{ event.jockey }}
+            </p>
+
+            <p class="muted">
+                Detected: {{ event.detected_at }}
+            </p>
+
+            <p>
+                <a href="{{ event.url }}" target="_blank">Open market</a>
+            </p>
+
+        </div>
+    {% endfor %}
+
+</div>
+
+</body>
+</html>

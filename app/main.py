@@ -12,6 +12,7 @@ from fastapi import FastAPI, Query, HTTPException, Form, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from app.modules.horses.market_events import get_market_events
 from app.modules.horses.performance import get_latest_performance_report
 from app.modules.horses.profile import get_horse_profile
 from app.modules.horses.leaderboard_routes import get_leaderboard_data
@@ -209,6 +210,17 @@ def horse_profile(request: Request, horse_name: str):
         {
             "active_page": "horses",
             "horse": horse,
+        },
+    )
+
+@app.get("/horses/market-events", response_class=HTMLResponse)
+def horse_market_events(request: Request):
+    return templates.TemplateResponse(
+        request,
+        "horse_market_events.html",
+        {
+            "active_page": "horses",
+            "events": get_market_events(),
         },
     )
     
