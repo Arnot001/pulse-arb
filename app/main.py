@@ -7,6 +7,7 @@ import threading
 import requests
 import time
 
+from app.modules.strategy.engine import get_strategy_lab_data
 from app.modules.dashboard import get_dashboard_data
 from app.modules.football.routes import get_football_leaderboard
 from collectors.daily_update import run_jobs
@@ -252,6 +253,16 @@ async def horse_race_detail(request: Request, race_key: str):
         },
     )
 
+@app.get("/strategy", response_class=HTMLResponse)
+def strategy_lab(request: Request):
+    return templates.TemplateResponse(
+        request,
+        "strategy_lab.html",
+        {
+            "active_page": "strategy",
+            **get_strategy_lab_data(),
+        },
+    )
 
 @app.get("/horses/leaderboards", response_class=HTMLResponse)
 def horses_leaderboards(request: Request):

@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}
+Pulse Strategy Lab
+{% endblock %}
+
+{% block content %}
+
+<div class="pulse-page">
+
+    <div class="pulse-page-header">
+        <h1>🧪 Pulse Strategy Lab</h1>
+        <p class="muted">
+            Testing Pulse strategies against real race reviews.
+        </p>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>📊 Data Analysed</h2>
+        <p><strong>{{ total_races }}</strong> races reviewed</p>
+
+        {% if best_strategy %}
+            <p>
+                Best current strategy:
+                <strong>{{ best_strategy.name }}</strong>
+                — {{ best_strategy.hit_rate }}%
+            </p>
+        {% endif %}
+    </div>
+
+    <div class="dashboard-grid">
+
+        {% for strategy in strategies %}
+            <div class="dashboard-card">
+                <h2>{{ strategy.name }}</h2>
+                <p class="muted">{{ strategy.description }}</p>
+
+                <p>Races: <strong>{{ strategy.races }}</strong></p>
+                <p>Hits: <strong>{{ strategy.hits }}</strong></p>
+                <p>Hit Rate: <strong>{{ strategy.hit_rate }}%</strong></p>
+            </div>
+        {% endfor %}
+
+    </div>
+
+    <div class="dashboard-card">
+        <h2>⚠️ Recent Misses</h2>
+
+        {% if not misses %}
+            <p class="muted">No misses found.</p>
+        {% endif %}
+
+        {% for miss in misses %}
+            <p>
+                <strong>{{ miss.course }} · {{ miss.time }}</strong><br>
+                Winner: {{ miss.winner }}{% if miss.winner_sp %} ({{ miss.winner_sp }}){% endif %}<br>
+                Pulse Rank: {{ miss.winner_rank }}<br>
+                Top Pick: {{ miss.top_pick }} ({{ miss.top_pick_score }})
+            </p>
+        {% endfor %}
+    </div>
+
+</div>
+
+{% endblock %}
