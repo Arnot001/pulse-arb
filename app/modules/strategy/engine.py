@@ -1,9 +1,18 @@
 import json
 from pathlib import Path
 
-
+DISCOVERY_FILE = Path("data/strategy/discoveries.json")
 RACE_REVIEW_DIR = Path("data/horses/race_reviews")
 
+def load_discoveries():
+    if not DISCOVERY_FILE.exists():
+        return []
+
+    try:
+        with DISCOVERY_FILE.open("r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return []
 
 def load_race_reviews():
     reviews = []
@@ -99,4 +108,5 @@ def get_strategy_lab_data():
         "strategies": strategies,
         "best_strategy": best_strategy,
         "misses": misses[:10],
+        "discoveries": load_discoveries(),
     }

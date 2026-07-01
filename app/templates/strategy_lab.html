@@ -28,8 +28,26 @@ Pulse Strategy Lab
         {% endif %}
     </div>
 
-    <div class="dashboard-grid">
+    <div class="dashboard-card">
+        <h2>🧠 Pulse Discoveries</h2>
 
+        {% if not discoveries %}
+            <p class="muted">No discoveries found yet. Run the discovery engine.</p>
+        {% endif %}
+
+        {% for discovery in discoveries %}
+            <p>
+                <strong>{{ discovery.name }}</strong><br>
+                {{ discovery.description }}<br>
+                Sample: {{ discovery.sample }} |
+                Top Pick: {{ discovery.top_pick_rate }}% |
+                Top 3: {{ discovery.top_3_rate }}% |
+                Confidence: {{ discovery.confidence }}
+            </p>
+        {% endfor %}
+    </div>
+
+    <div class="dashboard-grid">
         {% for strategy in strategies %}
             <div class="dashboard-card">
                 <h2>{{ strategy.name }}</h2>
@@ -40,7 +58,6 @@ Pulse Strategy Lab
                 <p>Hit Rate: <strong>{{ strategy.hit_rate }}%</strong></p>
             </div>
         {% endfor %}
-
     </div>
 
     <div class="dashboard-card">
