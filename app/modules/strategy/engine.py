@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from app.modules.strategy.verification import load_verified_strategies
 
 DISCOVERY_FILE = Path("data/strategy/discoveries.json")
 RACE_REVIEW_DIR = Path("data/horses/race_reviews")
@@ -109,4 +110,5 @@ def get_strategy_lab_data():
         "best_strategy": best_strategy,
         "misses": misses[:10],
         "discoveries": load_discoveries(),
+        "verified_strategies": load_verified_strategies(),
     }

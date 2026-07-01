@@ -29,6 +29,27 @@ Pulse Strategy Lab
     </div>
 
     <div class="dashboard-card">
+        <h2>⭐ Verified Strategies</h2>
+
+        {% if not verified_strategies %}
+            <p class="muted">No verified strategies found yet. Run the verification engine.</p>
+        {% endif %}
+
+        {% for strategy in verified_strategies %}
+            <p>
+                <strong>{{ strategy.name }}</strong><br>
+                Status: <strong>{{ strategy.lifecycle_status }}</strong> |
+                Trust: <strong>{{ strategy.trust_score }}</strong><br>
+                Sample: {{ strategy.sample }} |
+                Top Pick: {{ strategy.top_pick_rate }}% |
+                Top 3: {{ strategy.top_3_rate }}%<br>
+                Reason: {{ strategy.lifecycle_reason }}<br>
+                Verified: {{ strategy.verified_at }}
+            </p>
+        {% endfor %}
+    </div>
+
+    <div class="dashboard-card">
         <h2>🧠 Pulse Discoveries</h2>
 
         {% if not discoveries %}

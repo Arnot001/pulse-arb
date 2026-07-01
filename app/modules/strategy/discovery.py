@@ -7,7 +7,8 @@ from app.modules.strategy.discoveries.field_size import field_size_discoveries
 from app.modules.strategy.discoveries.course import course_discoveries
 from app.modules.strategy.discoveries.going import going_discoveries
 from app.modules.strategy.discoveries.market import market_discoveries
-
+from app.modules.strategy.verification import (save_verified_strategies,verify_discoveries,)
+from app.modules.strategy.history import save_strategy_history
 
 DISCOVERY_OUTPUT = Path("data/strategy/discoveries.json")
 
@@ -53,8 +54,12 @@ def save_discoveries(discoveries):
 def run_discovery():
     discoveries = discover_strategies()
     path = save_discoveries(discoveries)
+    verified = verify_discoveries(discoveries)
+    save_verified_strategies(verified)
+    history_path = save_strategy_history(discoveries, verified)
 
     print(f"Strategy discoveries saved: {path}")
+    print(f"Strategy history saved: {history_path}")
     print(f"Discoveries found: {len(discoveries)}")
 
     for item in discoveries:
