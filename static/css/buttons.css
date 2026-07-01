@@ -1,0 +1,36 @@
+.button {
+display: inline-block;
+background: linear-gradient(90deg, #ff174f, #9b2cff);
+color: white;
+border: none;
+border-radius: 8px;
+padding: 12px 18px;
+font-weight: bold;
+text-decoration: none;
+cursor: pointer;
+}
+
+.button:hover {
+opacity: 0.9;
+}
+
+.button-danger {
+background: #ff174f;
+}
+
+button.button {
+font-family: inherit;
+}
+
+.mini-button {
+display: inline-block;
+background: #222;
+border: 1px solid #555;
+border-radius: 8px;
+padding: 7px 10px;
+color: white;
+text-decoration: none;
+font-size: 12px;
+font-weight: 800;
+white-space: nowrap;
+}

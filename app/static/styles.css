@@ -964,3 +964,211 @@ white-space: nowrap;
     font-weight: bold;
     text-decoration: none;
 }
+
+/* ---------- Strategy Lab Intelligence UI ---------- */
+
+.strategy-card {
+    margin-bottom: 22px;
+}
+
+.strategy-item {
+    background: #0b0b10;
+    border: 1px solid #292936;
+    border-radius: 14px;
+    padding: 16px;
+    margin-top: 14px;
+}
+
+.strategy-title-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.strategy-name {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.strategy-meta {
+    color: #aaa;
+    margin-top: 10px;
+    line-height: 1.7;
+}
+
+.strategy-badge {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.badge-strong {
+    background: #00e676;
+    color: #001b09;
+}
+
+.badge-watch {
+    background: #ffab00;
+    color: #1f1400;
+}
+
+.badge-avoid {
+    background: #ff174f;
+    color: white;
+}
+
+.badge-neutral {
+    background: #292936;
+    color: #ddd;
+}
+
+.trend-up {
+    color: #00e676;
+    font-weight: 900;
+}
+
+.trend-down {
+    color: #ff5252;
+    font-weight: 900;
+}
+
+.trend-flat {
+    color: #ffab00;
+    font-weight: 900;
+}
+
+.trust-score {
+    color: #d066ff;
+    font-weight: 900;
+}
+
+/* ---------- Pulse IQ Central Hero ---------- */
+
+.pulse-hero {
+    min-height: 260px;
+    border-radius: 24px;
+    margin-bottom: 28px;
+    overflow: hidden;
+    border: 1px solid #29293a;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(5,5,5,0.98),
+            rgba(5,5,5,0.65),
+            rgba(5,5,5,0.2)
+        ),
+        radial-gradient(
+            circle at 70% 40%,
+            rgba(255,23,79,0.35),
+            transparent 28%
+        ),
+        linear-gradient(
+            135deg,
+            #050505,
+            #101018 45%,
+            #1a0b22
+        );
+    box-shadow:
+        0 0 35px rgba(155,44,255,0.18),
+        0 24px 80px rgba(0,0,0,0.55);
+}
+
+.pulse-hero-overlay {
+    padding: 42px;
+}
+
+.pulse-hero h1 {
+    font-size: 52px;
+    margin: 8px 0 12px;
+    background: linear-gradient(90deg, #ff174f, #9b2cff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pulse-hero p {
+    font-size: 18px;
+    color: #d7d7e7;
+}
+
+/* ---------- Pulse IQ Central ---------- */
+
+.pulse-central-page {
+    max-width: 1180px;
+}
+
+.pulse-hero-sports {
+    min-height: 310px;
+    position: relative;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(5,5,5,0.98) 0%,
+            rgba(5,5,5,0.78) 38%,
+            rgba(5,5,5,0.25) 100%
+        ),
+        radial-gradient(
+            circle at 75% 35%,
+            rgba(255,23,79,0.42),
+            transparent 28%
+        ),
+        linear-gradient(
+            135deg,
+            #050505,
+            #111122 45%,
+            #23091f 100%
+        );
+}
+
+.pulse-hero-sports::after {
+    content: "🏇  🐕  ⚽";
+    position: absolute;
+    right: 44px;
+    top: 64px;
+    font-size: 86px;
+    letter-spacing: 18px;
+    opacity: 0.38;
+    filter: drop-shadow(0 0 24px rgba(255,23,79,0.5));
+}
+
+.central-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(160px, 1fr));
+    gap: 14px;
+}
+
+.central-actions .button {
+    margin-top: 0;
+    text-align: center;
+}
+
+.central-main-action {
+    grid-column: 1 / -1;
+    font-size: 18px;
+    padding: 18px;
+}
+
+.pulse-nav a {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.nav-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    flex-shrink: 0;
+    transition: 0.2s ease;
+}
+
+.pulse-nav a:hover .nav-icon {
+    transform: scale(1.08);
+}
+
+.pulse-nav a.active .nav-icon {
+    filter: drop-shadow(0 0 6px rgba(255, 23, 111, 0.8));
+}

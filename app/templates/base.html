@@ -6,7 +6,6 @@
 
     <title>{% block title %}Pulse IQ{% endblock %}</title>
 
-    <link rel="icon" type="image/png" href="/static/favicon.png">
     <link rel="stylesheet" href="/static/styles.css">
 
     {% block head %}{% endblock %}
@@ -28,15 +27,50 @@
 
         <nav class="pulse-nav">
 
-            <a href="/" class="{% if active_page == 'home' %}active{% endif %}">🏠 Home</a>
-            <a href="/horses" class="{% if active_page == 'horses' %}active{% endif %}">🏇 Horses</a>
-            <a href="/dogs" class="{% if active_page == 'dogs' %}active{% endif %}">🐕 Dogs</a>
-            <a href="/football" class="{% if active_page == 'football' %}active{% endif %}">⚽ Football</a>
-            <a href="/arb" class="{% if active_page == 'arb' %}active{% endif %}">📈 Pulse Arb</a>
-            <a href="/horses/performance">📊 Performance</a>
-            <a href="/strategy" class="{% if active_page == 'strategy' %}active{% endif %}">🧪 Strategy Lab</a>
-            <a href="/horses/market-events">📈 Market Intelligence</a>
-            <a href="/horses/races">🏆 Today's Races</a>
+            <a href="/" class="{% if active_page == 'home' %}active{% endif %}">
+                <img src="/static/icons/home.png" class="nav-icon" alt="">
+                <span>Home</span>
+            </a>
+
+            <a href="/horses" class="{% if active_page == 'horses' %}active{% endif %}">
+                <img src="/static/icons/horses.png" class="nav-icon" alt="">
+                <span>Horses</span>
+            </a>
+
+            <a href="/dogs" class="{% if active_page == 'dogs' %}active{% endif %}">
+                <img src="/static/icons/dogs.png" class="nav-icon" alt="">
+                <span>Dogs</span>
+            </a>
+
+            <a href="/football" class="{% if active_page == 'football' %}active{% endif %}">
+                <img src="/static/icons/football.png" class="nav-icon" alt="">
+                <span>Football</span>
+            </a>
+
+            <a href="/arb" class="{% if active_page == 'arb' %}active{% endif %}">
+                <img src="/static/icons/arb.png" class="nav-icon" alt="">
+                <span>Pulse Arb</span>
+            </a>
+
+            <a href="/horses/performance">
+                <img src="/static/icons/performance.png" class="nav-icon" alt="">
+                <span>Performance</span>
+            </a>
+
+            <a href="/strategy" class="{% if active_page == 'strategy' %}active{% endif %}">
+                <img src="/static/icons/strategy.png" class="nav-icon" alt="">
+                <span>Strategy Lab</span>
+            </a>
+
+            <a href="/horses/market-events">
+                <img src="/static/icons/market.png" class="nav-icon" alt="">
+                <span>Market Intelligence</span>
+            </a>
+
+            <a href="/horses/races">
+                <img src="/static/icons/races.png" class="nav-icon" alt="">
+                <span>Today's Races</span>
+            </a>
 
         </nav>
 

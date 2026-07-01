@@ -15,41 +15,100 @@ Pulse Strategy Lab
         </p>
     </div>
 
-    <div class="dashboard-card">
-        <h2>📊 Data Analysed</h2>
-        <p><strong>{{ total_races }}</strong> races reviewed</p>
+    <div class="dashboard-card strategy-card">
+        <h2>⭐ Today's Recommendations</h2>
 
-        {% if best_strategy %}
-            <p>
-                Best current strategy:
-                <strong>{{ best_strategy.name }}</strong>
-                — {{ best_strategy.hit_rate }}%
-            </p>
+        {% if not strategy_recommendations %}
+            <p class="muted">No recommendations available yet.</p>
         {% endif %}
+
+        {% for strategy in strategy_recommendations %}
+            <div class="strategy-item">
+                <div class="strategy-title-row">
+                    <div class="strategy-name">{{ strategy.name }}</div>
+                    <span class="strategy-badge badge-neutral">
+                        {{ strategy.recommendation }}
+                    </span>
+                </div>
+
+                <div class="strategy-meta">
+                    Score: <span class="trust-score">{{ strategy.recommendation_score }}</span><br>
+                    Status: {{ strategy.current_status }}<br>
+                    Trend: {{ strategy.trend }}<br>
+                    Trust: {{ strategy.current_trust }}
+                </div>
+            </div>
+        {% endfor %}
     </div>
 
-    <div class="dashboard-card">
-        <h2>⭐ Verified Strategies</h2>
+    <div class="dashboard-card strategy-card">
+        <h2>📈 Strategy Trends</h2>
+
+        {% if not strategy_trends %}
+            <p class="muted">
+                No trend data available yet.
+                Pulse needs at least two history snapshots.
+            </p>
+        {% endif %}
+
+        {% for trend in strategy_trends %}
+            <div class="strategy-item">
+                <div class="strategy-title-row">
+                    <div class="strategy-name">{{ trend.name }}</div>
+                    <span class="strategy-badge badge-neutral">
+                        {{ trend.trend }}
+                    </span>
+                </div>
+
+                <div class="strategy-meta">
+                    Trust:
+                    <span class="trust-score">
+                        {{ trend.current_trust }}
+                        ({% if trend.trust_change >= 0 %}+{% endif %}{{ trend.trust_change }})
+                    </span><br>
+
+                    Sample:
+                    {% if trend.sample_change >= 0 %}+{% endif %}{{ trend.sample_change }}<br>
+
+                    Top Pick:
+                    {% if trend.top_pick_change >= 0 %}+{% endif %}{{ trend.top_pick_change }}%<br>
+
+                    Top 3:
+                    {% if trend.top_3_change >= 0 %}+{% endif %}{{ trend.top_3_change }}%
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="dashboard-card strategy-card">
+        <h2>✅ Verified Strategies</h2>
 
         {% if not verified_strategies %}
             <p class="muted">No verified strategies found yet. Run the verification engine.</p>
         {% endif %}
 
         {% for strategy in verified_strategies %}
-            <p>
-                <strong>{{ strategy.name }}</strong><br>
-                Status: <strong>{{ strategy.lifecycle_status }}</strong> |
-                Trust: <strong>{{ strategy.trust_score }}</strong><br>
-                Sample: {{ strategy.sample }} |
-                Top Pick: {{ strategy.top_pick_rate }}% |
-                Top 3: {{ strategy.top_3_rate }}%<br>
-                Reason: {{ strategy.lifecycle_reason }}<br>
-                Verified: {{ strategy.verified_at }}
-            </p>
+            <div class="strategy-item">
+                <div class="strategy-title-row">
+                    <div class="strategy-name">{{ strategy.name }}</div>
+                    <span class="strategy-badge badge-neutral">
+                        {{ strategy.lifecycle_status }}
+                    </span>
+                </div>
+
+                <div class="strategy-meta">
+                    Trust: <span class="trust-score">{{ strategy.trust_score }}</span><br>
+                    Sample: {{ strategy.sample }} |
+                    Top Pick: {{ strategy.top_pick_rate }}% |
+                    Top 3: {{ strategy.top_3_rate }}%<br>
+                    Reason: {{ strategy.lifecycle_reason }}<br>
+                    Verified: {{ strategy.verified_at }}
+                </div>
+            </div>
         {% endfor %}
     </div>
 
-    <div class="dashboard-card">
+    <div class="dashboard-card strategy-card">
         <h2>🧠 Pulse Discoveries</h2>
 
         {% if not discoveries %}
@@ -57,31 +116,40 @@ Pulse Strategy Lab
         {% endif %}
 
         {% for discovery in discoveries %}
-            <p>
-                <strong>{{ discovery.name }}</strong><br>
-                {{ discovery.description }}<br>
-                Sample: {{ discovery.sample }} |
-                Top Pick: {{ discovery.top_pick_rate }}% |
-                Top 3: {{ discovery.top_3_rate }}% |
-                Confidence: {{ discovery.confidence }}
-            </p>
+            <div class="strategy-item">
+                <div class="strategy-title-row">
+                    <div class="strategy-name">{{ discovery.name }}</div>
+                    <span class="strategy-badge badge-neutral">
+                        {{ discovery.confidence }}
+                    </span>
+                </div>
+
+                <div class="strategy-meta">
+                    {{ discovery.description }}<br>
+                    Sample: {{ discovery.sample }} |
+                    Top Pick: {{ discovery.top_pick_rate }}% |
+                    Top 3: {{ discovery.top_3_rate }}%
+                </div>
+            </div>
         {% endfor %}
     </div>
 
     <div class="dashboard-grid">
         {% for strategy in strategies %}
-            <div class="dashboard-card">
+            <div class="dashboard-card strategy-card">
                 <h2>{{ strategy.name }}</h2>
                 <p class="muted">{{ strategy.description }}</p>
 
-                <p>Races: <strong>{{ strategy.races }}</strong></p>
-                <p>Hits: <strong>{{ strategy.hits }}</strong></p>
-                <p>Hit Rate: <strong>{{ strategy.hit_rate }}%</strong></p>
+                <div class="strategy-meta">
+                    Races: <strong>{{ strategy.races }}</strong><br>
+                    Hits: <strong>{{ strategy.hits }}</strong><br>
+                    Hit Rate: <strong>{{ strategy.hit_rate }}%</strong>
+                </div>
             </div>
         {% endfor %}
     </div>
 
-    <div class="dashboard-card">
+    <div class="dashboard-card strategy-card">
         <h2>⚠️ Recent Misses</h2>
 
         {% if not misses %}
@@ -89,12 +157,22 @@ Pulse Strategy Lab
         {% endif %}
 
         {% for miss in misses %}
-            <p>
-                <strong>{{ miss.course }} · {{ miss.time }}</strong><br>
-                Winner: {{ miss.winner }}{% if miss.winner_sp %} ({{ miss.winner_sp }}){% endif %}<br>
-                Pulse Rank: {{ miss.winner_rank }}<br>
-                Top Pick: {{ miss.top_pick }} ({{ miss.top_pick_score }})
-            </p>
+            <div class="strategy-item">
+                <div class="strategy-title-row">
+                    <div class="strategy-name">
+                        {{ miss.course }} · {{ miss.time }}
+                    </div>
+                    <span class="strategy-badge badge-avoid">
+                        MISS
+                    </span>
+                </div>
+
+                <div class="strategy-meta">
+                    Winner: {{ miss.winner }}{% if miss.winner_sp %} ({{ miss.winner_sp }}){% endif %}<br>
+                    Pulse Rank: {{ miss.winner_rank }}<br>
+                    Top Pick: {{ miss.top_pick }} ({{ miss.top_pick_score }})
+                </div>
+            </div>
         {% endfor %}
     </div>
 

@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}
+Pulse IQ Central
+{% endblock %}
+
+{% block content %}
+
+<div class="pulse-page pulse-central-page">
+
+    <div class="pulse-hero pulse-hero-sports">
+        <div class="pulse-hero-overlay">
+            <p class="muted">Good afternoon, Tim.</p>
+            <h1>🧠 Pulse IQ Central</h1>
+            <p>Real data. Real learning. Real edge.</p>
+        </div>
+    </div>
+
+    <div class="dashboard-grid">
+        <div class="dashboard-card strategy-card">
+            <h2>🟢 Intelligence Engine</h2>
+            <div class="strategy-meta">
+                🏇 Horse Intelligence <strong>READY</strong><br>
+                🐕 Dog Intelligence <strong>READY</strong><br>
+                ⚽ Football Intelligence <strong>READY</strong><br>
+                🧠 Learning Engine <strong>READY</strong><br>
+                🧪 Discovery Engine <strong>READY</strong><br>
+                ✅ Verification Engine <strong>READY</strong><br>
+                📈 Trend Engine <strong>READY</strong><br>
+                ⭐ Recommendation Engine <strong>READY</strong>
+            </div>
+        </div>
+
+        <div class="dashboard-card strategy-card">
+            <h2>⚡ Quick Actions</h2>
+
+            <div class="central-actions">
+                <a class="button central-main-action" href="/update/all">🧠 Run Pulse IQ</a>
+                <a class="button" href="/update/horses">🏇 Update Horses</a>
+                <a class="button" href="/update/dogs">🐕 Update Dogs</a>
+                <a class="button" href="/update/football">⚽ Update Football</a>
+                <a class="button" href="/performance/analyse-yesterday">📊 Analyse Yesterday</a>
+                <a class="button" href="/strategy">🧪 Strategy Lab</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-grid">
+        <div class="dashboard-card strategy-card">
+            <h2>⭐ Today’s Intelligence</h2>
+
+            <div class="strategy-item">
+                <div class="strategy-title-row">
+                    <div class="strategy-name">Top Pick Score 80+</div>
+                    <span class="strategy-badge badge-watch">★★ MONITOR</span>
+                </div>
+
+                <div class="strategy-meta">
+                    Trust: <span class="trust-score">46.7</span><br>
+                    Trend: STABLE<br>
+                    Status: EXPERIMENTAL<br>
+                    Reason: Still collecting evidence.
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-card strategy-card">
+            <h2>📈 What Changed Today</h2>
+
+            <div class="strategy-meta">
+                Horse Profiles: <strong>3083</strong><br>
+                Runner Records: <strong>5205</strong><br>
+                Race Reviews: <strong>74</strong><br>
+                Strategies Tracked: <strong>5</strong><br>
+                Strategy Snapshots: <strong>LIVE</strong>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock %}
