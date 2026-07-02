@@ -1,148 +1,123 @@
 {% extends "base.html" %}
 
-{% block title %}
-Pulse Horses
-{% endblock %}
+{% block title %}Pulse Horses{% endblock %}
 
 {% block content %}
 
 <div class="pulse-page">
 
-    <div class="pulse-page-header">
-        <h1>🐎 Pulse Horses</h1>
-        <p class="muted">
-            Real Racing API data ranked by Pulse Score.
-        </p>
+    <div class="pulse-page-header module-header">
+        <div class="module-title-row">
+            <img src="/static/glyphs_transparent/horses.png" class="hero-icon" alt="">
+            <div>
+                <h1>Horse Intelligence</h1>
+                <p class="muted">Real Racing API data ranked by Pulse Score.</p>
+            </div>
+        </div>
     </div>
 
     <div class="horses-subnav">
-        <a class="button" href="/horses">🏆 Top Horses</a>
-        <a class="button" href="/horses/races">🏇 Today's Races</a>
-        <a class="button" href="/horses/leaderboards">📊 Leaderboards</a>
-        <a class="button" href="/horses/market-events">📈 Market Intelligence</a>
-        <a class="button" href="/horses/performance">📊 Performance</a>
-    </div>
-
-    <div class="dashboard-card update-panel">
-        <h2>🧠 Pulse IQ Updates</h2>
-        <p class="muted">Collect first. Learn forever.</p>
-
-        <div class="update-buttons">
-            <form method="post" action="/update/horses">
-                <button class="button" type="submit">🐎 Update Horses</button>
-            </form>
-
-            <form method="post" action="/update/dogs">
-                <button class="button" type="submit">🐕 Update Dogs</button>
-            </form>
-
-            <form method="post" action="/update/football">
-                <button class="button" type="submit">⚽ Update Football</button>
-            </form>
-
-            <form method="post" action="/update/all">
-                <button class="button" type="submit">🧠 Update All</button>
-            </form>
-
-            <form method="post" action="/update/performance">
-                <button class="button" type="submit">📊 Analyse Yesterday</button>
-            </form>
-        </div>
-    </div>
-
-    <div class="update-progress-box">
-        <div id="update-status-title">🟢 Ready</div>
-        <div id="update-bar" class="update-bar">░░░░░░░░░░░░░░░░░░░░ 0%</div>
-        <div id="update-current" class="muted">Waiting for update...</div>
-        <div id="update-completed"></div>
+        <a class="button" href="/horses">Top Horses</a>
+        <a class="button" href="/horses/races">Today's Races</a>
+        <a class="button" href="/horses/leaderboards">Leaderboards</a>
+        <a class="button" href="/horses/market-events">Market Intelligence</a>
+        <a class="button" href="/horses/performance">Performance</a>
     </div>
 
     {% for card in cards %}
-        <div class="dashboard-card">
+    <div class="dashboard-card horse-intel-card">
 
-            <div class="horse-name">
-                {{ card.horse }}
+        <div class="horse-card-top">
+
+            <div class="horse-card-info">
+
+                <div class="horse-name">
+                    <span class="horse-rank">#{{ card.rank }}</span>
+                    {{ card.horse }}
+                </div>
+
+                <div class="race-meta">
+                    {{ card.course }} · {{ card.time }} · Form: {{ card.form }}
+                </div>
+
+                <div class="horse-confidence confidence-{{ card.confidence_colour }}">
+                    {{ card.confidence }}
+                </div>
+
             </div>
 
-            <div class="race-meta">
-                {{ card.course }} · {{ card.time }} · Form: {{ card.form }}
+            <div class="horse-score-pill {{ card.score_class }}">
+                <span>IQ</span>
+                <strong>{{ card.score }}</strong>
             </div>
-
-            <div class="score">
-                Pulse Score: {{ card.score }}
-            </div>
-
-            <a class="button" href="/horses/profile/{{ card.horse }}">
-                🧠 Intelligence Profile →
-            </a>
-
-            {% if card.normal_notes %}
-                <div class="notes">
-                    {% for note in card.normal_notes %}
-                        <span class="badge">{{ note }}</span>
-                    {% endfor %}
-                </div>
-            {% endif %}
-
-            {% if card.tipster_notes %}
-                <div class="notes" style="margin-top:10px;">
-                    <strong>🔥 Tipster Support</strong><br>
-                    {% for note in card.tipster_notes %}
-                        <span class="badge">{{ note }}</span>
-                    {% endfor %}
-                </div>
-            {% endif %}
-
-            {% if card.history_notes %}
-                <div class="notes" style="margin-top:10px;">
-                    <strong>📚 Historical Profile</strong><br>
-                    {% for note in card.history_notes %}
-                        <span class="badge">{{ note }}</span>
-                    {% endfor %}
-                </div>
-            {% endif %}
 
         </div>
+
+        <div class="horse-intel-grid">
+
+            <div class="intel-box">
+                <span class="intel-label">Win Chance</span>
+
+                <strong>
+                    {% if card.win_chance %}
+                        {{ card.win_chance }}%
+                    {% else %}
+                        {{ card.win_chance }}
+                    {% endif %}
+                </strong>
+            </div>
+
+            <div class="intel-box">
+                <span class="intel-label">Place Chance</span>
+
+                <strong>
+                    {% if card.place_chance %}
+                        {{ card.place_chance }}%
+                    {% else %}
+                        {{ card.place_chance }}
+                    {% endif %}
+                </strong>
+            </div>
+
+            <div class="intel-box">
+                <span class="intel-label">Market Signal</span>
+
+                <strong>
+                    {% if card.market_signal %}
+                        {{ card.market_signal }}
+                    {% else %}
+                        {{ card.market_signal }}
+                    {% endif %}
+                </strong>
+            </div>
+
+        </div>
+
+        {% if card.notes %}
+        <div class="notes">
+            {% for note in card.notes %}
+                <span class="badge">{{ note }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if card.warnings %}
+        <div class="notes note-block">
+            <strong>Watch Outs</strong><br>
+
+            {% for warning in card.warnings %}
+                <span class="badge badge-avoid">{{ warning }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+        <a class="button" href="/horses/profile/{{ card.horse }}">
+            Intelligence Profile →
+        </a>
+
+    </div>
     {% endfor %}
 
 </div>
-
-<script>
-async function refreshUpdateStatus() {
-    const response = await fetch("/update/status");
-    const data = await response.json();
-
-    const title = document.getElementById("update-status-title");
-    const bar = document.getElementById("update-bar");
-    const current = document.getElementById("update-current");
-    const completed = document.getElementById("update-completed");
-
-    bar.textContent = data.bar;
-    current.textContent = data.running
-        ? "⚙ Running: " + data.current_task
-        : "Current: " + data.current_task;
-
-    if (data.running) {
-        title.textContent = "🧠 Updating Pulse IQ...";
-    } else if (data.percent === 100) {
-        title.textContent = "✅ Intelligence Update Complete";
-    } else {
-        title.textContent = "🟢 Ready";
-    }
-
-    completed.innerHTML = "";
-
-    data.completed.forEach(function(item) {
-        completed.innerHTML += "<div class='update-done'>✓ " + item + "</div>";
-    });
-
-    data.failed.forEach(function(item) {
-        completed.innerHTML += "<div class='update-failed'>✖ " + item + "</div>";
-    });
-}
-
-setInterval(refreshUpdateStatus, 1000);
-refreshUpdateStatus();
-</script>
 
 {% endblock %}

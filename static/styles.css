@@ -1343,3 +1343,133 @@ white-space: nowrap;
     font-size: 17px;
     box-shadow: 0 0 18px rgba(255, 23, 111, 0.25);
 }
+
+.module-title-row {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.horse-intel-card {
+    margin-bottom: 18px;
+}
+
+.horse-card-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    align-items: flex-start;
+}
+
+.horse-score-pill {
+    min-width: 76px;
+    height: 76px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, rgba(255,23,111,0.25), rgba(161,44,255,0.16));
+    border: 1px solid rgba(255,23,111,0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #48f08a;
+    font-size: 30px;
+    font-weight: 900;
+    box-shadow: 0 0 22px rgba(255,23,111,0.18);
+}
+
+.note-block {
+    margin-top: 10px;
+}
+
+.horse-confidence {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 7px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+
+.confidence-green {
+    background: #48f08a;
+    color: #001b09;
+}
+
+.confidence-pink {
+    background: #ff176f;
+    color: white;
+}
+
+.confidence-blue {
+    background: #00e5ff;
+    color: #00151a;
+}
+
+.confidence-grey {
+    background: #292936;
+    color: #ddd;
+}
+
+.horse-intel-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 18px 0;
+}
+
+.horse-intel-grid div {
+    background: #0b0b10;
+    border: 1px solid #292936;
+    border-radius: 14px;
+    padding: 14px;
+}
+
+.intel-label {
+    display: block;
+    color: #9ea4b5;
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.horse-intel-grid strong {
+    font-size: 18px;
+}
+
+.horse-rank {
+    color: #ff176f;
+    margin-right: 10px;
+}
+
+.horse-score-pill {
+    flex-direction: column;
+    gap: 2px;
+}
+
+.horse-score-pill span {
+    font-size: 12px;
+    color: #aeb3c6;
+    letter-spacing: 1px;
+}
+
+.horse-score-pill strong {
+    font-size: 30px;
+}
+
+.iq-elite {
+    color: #48f08a;
+    box-shadow: 0 0 24px rgba(72, 240, 138, 0.25);
+}
+
+.iq-strong {
+    color: #ff176f;
+    box-shadow: 0 0 24px rgba(255, 23, 111, 0.25);
+}
+
+.iq-good {
+    color: #00e5ff;
+    box-shadow: 0 0 24px rgba(0, 229, 255, 0.20);
+}
+
+.iq-standard {
+    color: #d7d7e7;
+}
