@@ -1473,3 +1473,152 @@ white-space: nowrap;
 .iq-standard {
     color: #d7d7e7;
 }
+
+.update-progress-row {
+    display: flex !important;
+    align-items: center;
+    gap: 14px;
+    margin: 14px 0;
+}
+
+.update-progress {
+    display: block !important;
+    flex: 1;
+    height: 14px !important;
+    background: #0b0b10;
+    border: 1px solid #292936;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.update-progress-fill {
+    display: block !important;
+    height: 100% !important;
+    background: linear-gradient(90deg, #48f08a, #00e5ff);
+    border-radius: 999px;
+    box-shadow: 0 0 16px rgba(72, 240, 138, 0.45);
+    transition: width 0.35s ease;
+}
+
+.update-percent {
+    min-width: 48px;
+    color: #48f08a;
+    font-weight: 900;
+}
+
+.module-status-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    margin: 22px 0;
+}
+
+.module-status-card form {
+    margin: 0;
+}
+
+.update-task-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.update-task {
+    background: #0b0b10;
+    border: 1px solid #292936;
+    border-radius: 999px;
+    padding: 9px 12px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.update-task-done {
+    color: #48f08a;
+    border-color: rgba(72, 240, 138, 0.35);
+}
+
+.update-task-failed {
+    color: #ff4a6a;
+    border-color: rgba(255, 74, 106, 0.35);
+}
+
+.pulse-platform-tagline {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+
+    color: #c6c9d3;
+
+    opacity: .9;
+}
+
+.pulse-platform-tagline::before,
+.pulse-platform-tagline::after {
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 1px;
+    margin: 0 18px;
+    vertical-align: middle;
+
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.25),
+        transparent
+    );
+}
+
+.daily-briefing {
+    margin-bottom: 22px;
+}
+
+.daily-briefing h2 {
+    font-size: 32px;
+}
+
+.briefing-text {
+    color: #c9ccd8;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 850px;
+}
+
+.mission-status-card {
+    margin-bottom: 24px;
+}
+
+.mission-status-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.mission-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 14px;
+    background: #0d0d16;
+}
+
+.mission-row span {
+    color: #b7b8c7;
+    font-size: 17px;
+}
+
+.mission-row strong {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: .5px;
+}

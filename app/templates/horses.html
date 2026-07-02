@@ -24,98 +24,90 @@
         <a class="button" href="/horses/performance">Performance</a>
     </div>
 
-    {% for card in cards %}
-    <div class="dashboard-card horse-intel-card">
-
-        <div class="horse-card-top">
-
-            <div class="horse-card-info">
-
-                <div class="horse-name">
-                    <span class="horse-rank">#{{ card.rank }}</span>
-                    {{ card.horse }}
-                </div>
-
-                <div class="race-meta">
-                    {{ card.course }} · {{ card.time }} · Form: {{ card.form }}
-                </div>
-
-                <div class="horse-confidence confidence-{{ card.confidence_colour }}">
-                    {{ card.confidence }}
-                </div>
-
-            </div>
-
-            <div class="horse-score-pill {{ card.score_class }}">
-                <span>IQ</span>
-                <strong>{{ card.score }}</strong>
-            </div>
-
+    <div class="dashboard-card module-status-card">
+        <div>
+            <strong>Horse Intelligence Status</strong><br>
+            <span class="muted">Ready</span>
         </div>
 
-        <div class="horse-intel-grid">
-
-            <div class="intel-box">
-                <span class="intel-label">Win Chance</span>
-
-                <strong>
-                    {% if card.win_chance %}
-                        {{ card.win_chance }}%
-                    {% else %}
-                        {{ card.win_chance }}
-                    {% endif %}
-                </strong>
-            </div>
-
-            <div class="intel-box">
-                <span class="intel-label">Place Chance</span>
-
-                <strong>
-                    {% if card.place_chance %}
-                        {{ card.place_chance }}%
-                    {% else %}
-                        {{ card.place_chance }}
-                    {% endif %}
-                </strong>
-            </div>
-
-            <div class="intel-box">
-                <span class="intel-label">Market Signal</span>
-
-                <strong>
-                    {% if card.market_signal %}
-                        {{ card.market_signal }}
-                    {% else %}
-                        {{ card.market_signal }}
-                    {% endif %}
-                </strong>
-            </div>
-
-        </div>
-
-        {% if card.notes %}
-        <div class="notes">
-            {% for note in card.notes %}
-                <span class="badge">{{ note }}</span>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        {% if card.warnings %}
-        <div class="notes note-block">
-            <strong>Watch Outs</strong><br>
-
-            {% for warning in card.warnings %}
-                <span class="badge badge-avoid">{{ warning }}</span>
-            {% endfor %}
-        </div>
-        {% endif %}
-
-        <a class="button" href="/horses/profile/{{ card.horse }}">
-            Intelligence Profile →
-        </a>
-
+        <form method="post" action="/update/horses">
+            <button class="button" type="submit">
+                Refresh Horses
+            </button>
+        </form>
     </div>
+
+    {% for card in cards %}
+        <div class="dashboard-card horse-intel-card">
+
+            <div class="horse-card-top">
+
+                <div class="horse-card-info">
+
+                    <div class="horse-name">
+                        <span class="horse-rank">#{{ card.rank }}</span>
+                        {{ card.horse }}
+                    </div>
+
+                    <div class="race-meta">
+                        {{ card.course }} · {{ card.time }} · Form: {{ card.form }}
+                    </div>
+
+                    <div class="horse-confidence confidence-{{ card.confidence_colour }}">
+                        {{ card.confidence }}
+                    </div>
+
+                </div>
+
+                <div class="horse-score-pill {{ card.score_class }}">
+                    <span>IQ</span>
+                    <strong>{{ card.score }}</strong>
+                </div>
+
+            </div>
+
+            <div class="horse-intel-grid">
+
+                <div class="intel-box">
+                    <span class="intel-label">Win Chance</span>
+                    <strong>{{ card.win_chance }}</strong>
+                </div>
+
+                <div class="intel-box">
+                    <span class="intel-label">Place Chance</span>
+                    <strong>{{ card.place_chance }}</strong>
+                </div>
+
+                <div class="intel-box">
+                    <span class="intel-label">Market Signal</span>
+                    <strong>{{ card.market_signal }}</strong>
+                </div>
+
+            </div>
+
+            {% if card.notes %}
+                <div class="notes">
+                    {% for note in card.notes %}
+                        <span class="badge">{{ note }}</span>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            {% if card.warnings %}
+                <div class="notes note-block">
+                    <strong>Watch Outs</strong><br>
+
+                    {% for warning in card.warnings %}
+                        <span class="badge badge-avoid">{{ warning }}</span>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <a class="button" href="/horses/profile/{{ card.horse }}">
+                Intelligence Profile →
+            </a>
+
+        </div>
     {% endfor %}
 
 </div>

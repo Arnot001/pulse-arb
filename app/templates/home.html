@@ -10,40 +10,77 @@
         <div class="pulse-wordmark-wrap">
             <img src="/static/pulse-logo.svg" class="pulse-wordmark" alt="Pulse IQ">
         </div>
+
+        <div class="pulse-platform-tagline">
+            Sports Intelligence Operating System
+        </div>
+    </div>
+
+    <div class="dashboard-card mission-status-card">
+        <h2>
+            <img src="/static/glyphs_transparent/engine.png" class="card-icon" alt="">
+            Mission Status
+        </h2>
+
+        <div class="mission-status-list">
+            <div class="mission-row">
+                <span>Today's Data</span>
+                <strong id="mission-data-status" class="status-ready">READY</strong>
+            </div>
+
+            <div class="mission-row">
+                <span>Modules</span>
+                <strong class="status-ready">ONLINE</strong>
+            </div>
+
+            <div class="mission-row">
+                <span>Market Monitoring</span>
+                <strong class="status-live">ACTIVE</strong>
+            </div>
+
+            <div class="mission-row">
+                <span>Last Update</span>
+                <strong id="mission-last-update">--:--</strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-card update-progress-box">
+        <h2>
+            <img src="/static/glyphs_transparent/engine.png" class="card-icon" alt="">
+            Today's Data
+        </h2>
+
+        <div id="update-status-title">Ready</div>
+
+        <div class="update-progress-row">
+            <div class="update-progress">
+                <div id="update-progress-fill" class="update-progress-fill" style="width: 0%;"></div>
+            </div>
+            <div id="update-percent" class="update-percent">0%</div>
+        </div>
+
+        <div id="update-current" class="muted">Waiting for update...</div>
+        <div id="update-completed"></div>
     </div>
 
     <div class="dashboard-grid">
 
         <div class="dashboard-card">
-            <h2><img src="/static/glyphs_transparent/engine.png" class="card-icon" alt=""> Intelligence Engine</h2>
-
-            <div class="stat-list">
-                <div><span>Horse Intelligence</span><strong>{{ horse_intelligence_count }}</strong></div>
-                <div><span>Runner Records</span><strong>{{ runner_record_count }}</strong></div>
-                <div><span>Horse Profiles</span><strong>{{ horse_profile_count }}</strong></div>
-                <div><span>Market Events</span><strong>{{ market_event_count }}</strong></div>
-                <div><span>Learning Reports</span><strong>{{ learning_report_count }}</strong></div>
-                <div><span>Dogs</span><strong class="status-ready">READY</strong></div>
-                <div><span>Football</span><strong class="status-ready">READY</strong></div>
-                <div><span>Pulse Arb</span><strong class="status-live">RUNNING</strong></div>
-            </div>
-        </div>
-
-        <div class="dashboard-card">
-            <h2><img src="/static/glyphs_transparent/verify.png" class="card-icon" alt=""> Operations</h2>
+            <h2><img src="/static/glyphs_transparent/verify.png" class="card-icon" alt=""> Update Centre</h2>
 
             <div class="operation-buttons">
                 <form method="post" action="/update/all">
-                    <button class="button primary-operation" type="submit">Run Intelligence Cycle</button>
+                    <button class="button primary-operation" type="submit">Update Today's Data</button>
                 </form>
                 <form method="post" action="/update/horses">
-                    <button class="button" type="submit">Refresh Horses</button>
+                    <button class="button" type="submit">Update Horses</button>
                 </form>
                 <form method="post" action="/update/dogs">
-                    <button class="button" type="submit">Refresh Dogs</button>
+                    <button class="button" type="submit">Update Dogs</button>
                 </form>
                 <form method="post" action="/update/football">
-                    <button class="button" type="submit">Refresh Football</button>
+                    <button class="button" type="submit">Update Football</button>
                 </form>
                 <form method="post" action="/update/performance">
                     <button class="button" type="submit">Analyse Yesterday</button>
@@ -52,10 +89,39 @@
         </div>
 
         <div class="dashboard-card">
-            <h2><img src="/static/glyphs_transparent/market.png" class="card-icon" alt=""> Latest Market Moves</h2>
+            <h2><img src="/static/glyphs_transparent/engine.png" class="card-icon" alt=""> Today's Data</h2>
+
+            <div class="stat-list">
+                <div><span>Today's Horse Picks</span><strong>{{ horse_intelligence_count }}</strong></div>
+                <div><span>Runner History</span><strong>{{ runner_record_count }}</strong></div>
+                <div><span>Horse Database</span><strong>{{ horse_profile_count }}</strong></div>
+                <div><span>Market Movers</span><strong>{{ market_event_count }}</strong></div>
+                <div><span>Betting Insights</span><strong>{{ learning_report_count }}</strong></div>
+                <div><span>Dogs</span><strong class="status-ready">READY</strong></div>
+                <div><span>Football</span><strong class="status-ready">READY</strong></div>
+                <div><span>Pulse Arb</span><strong class="status-live">RUNNING</strong></div>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <h2><img src="/static/glyphs_transparent/horses.png" class="card-icon" alt=""> Top IQ Picks</h2>
+
+            {% for horse in top_horses %}
+                <div class="mini-data-card">
+                    <strong>{{ horse.horse }}</strong>
+                    <span>{{ horse.course }} · {{ horse.off_time }}</span>
+                    <strong>IQ {{ horse.pulse_score }}</strong>
+                </div>
+            {% endfor %}
+
+            <a class="button" href="/horses">View Today's Picks →</a>
+        </div>
+
+        <div class="dashboard-card">
+            <h2><img src="/static/glyphs_transparent/market.png" class="card-icon" alt=""> Market Movers</h2>
 
             {% if not market_events %}
-                <p class="muted">No market events yet.</p>
+                <p class="muted">No market movers yet.</p>
             {% endif %}
 
             {% for event in market_events %}
@@ -67,21 +133,7 @@
                 </div>
             {% endfor %}
 
-            <a class="button" href="/horses/market-events">Open Market Intelligence →</a>
-        </div>
-
-        <div class="dashboard-card">
-            <h2><img src="/static/glyphs_transparent/horses.png" class="card-icon" alt=""> Top Pulse Horses</h2>
-
-            {% for horse in top_horses %}
-                <div class="mini-data-card">
-                    <strong>{{ horse.horse }}</strong>
-                    <span>{{ horse.course }} · {{ horse.off_time }}</span>
-                    <strong>Pulse {{ horse.pulse_score }}</strong>
-                </div>
-            {% endfor %}
-
-            <a class="button" href="/horses">Open Horses →</a>
+            <a class="button" href="/horses/market-events">View Market Movers →</a>
         </div>
 
         <div class="dashboard-card">
@@ -97,19 +149,87 @@
         </div>
 
         <div class="dashboard-card">
-            <h2><img src="/static/glyphs_transparent/performance.png" class="card-icon" alt=""> System</h2>
+            <h2><img src="/static/glyphs_transparent/performance.png" class="card-icon" alt=""> Platform Status</h2>
 
             <div class="stat-list">
                 <div><span>Platform</span><strong>v0.5</strong></div>
                 <div><span>Dashboard</span><strong class="status-ready">ONLINE</strong></div>
-                <div><span>Learning Engine</span><strong class="status-live">ACTIVE</strong></div>
+                <div><span>Data Updates</span><strong class="status-live">ACTIVE</strong></div>
             </div>
 
-            <p class="muted">Next goal: attach results to intelligence records.</p>
+            <p class="muted">Pulse IQ is online and ready.</p>
         </div>
 
     </div>
 
 </div>
+
+<script>
+async function refreshUpdateStatus() {
+    const response = await fetch("/update/status");
+    const data = await response.json();
+
+    const title = document.getElementById("update-status-title");
+    const fill = document.getElementById("update-progress-fill");
+    const percent = document.getElementById("update-percent");
+    const current = document.getElementById("update-current");
+    const completed = document.getElementById("update-completed");
+    const missionDataStatus = document.getElementById("mission-data-status");
+    const missionLastUpdate = document.getElementById("mission-last-update");
+
+    if (!title || !fill || !percent || !current || !completed) return;
+
+    fill.style.width = data.percent + "%";
+    percent.textContent = data.percent + "%";
+
+    current.textContent = data.running
+        ? "Updating: " + data.current_task
+        : "Status: " + data.current_task;
+
+    if (data.running) {
+        title.textContent = "Updating Today's Data...";
+
+        if (missionDataStatus) {
+            missionDataStatus.textContent = "UPDATING";
+            missionDataStatus.className = "status-live";
+        }
+    } else if (data.percent === 100) {
+        title.textContent = "Today's Data Is Ready";
+
+        if (missionDataStatus) {
+            missionDataStatus.textContent = "READY";
+            missionDataStatus.className = "status-ready";
+        }
+
+        if (missionLastUpdate) {
+            missionLastUpdate.textContent = new Date().toLocaleTimeString([], {
+                hour: "2-digit",
+                minute: "2-digit"
+            });
+        }
+    } else {
+        title.textContent = "Ready";
+
+        if (missionDataStatus) {
+            missionDataStatus.textContent = "READY";
+            missionDataStatus.className = "status-ready";
+        }
+    }
+
+    completed.innerHTML = "<div class='update-task-grid'></div>";
+    const grid = completed.querySelector(".update-task-grid");
+
+    data.completed.forEach(function(item) {
+        grid.innerHTML += "<div class='update-task update-task-done'>✓ " + item + "</div>";
+    });
+
+    data.failed.forEach(function(item) {
+        grid.innerHTML += "<div class='update-task update-task-failed'>✖ " + item + "</div>";
+    });
+}
+
+setInterval(refreshUpdateStatus, 1000);
+refreshUpdateStatus();
+</script>
 
 {% endblock %}
