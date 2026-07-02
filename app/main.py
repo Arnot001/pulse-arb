@@ -50,7 +50,7 @@ app = FastAPI(title="Pulse")
 
 app.mount(
     "/static",
-    StaticFiles(directory="app/static"),
+    StaticFiles(directory="static"),
     name="static",
 )
 
