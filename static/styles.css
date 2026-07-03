@@ -1908,3 +1908,57 @@ white-space: nowrap;
     bottom: 26%;
     opacity: 0.13;
 }
+
+.racecourse-accordion summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+.racecourse-accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+.racecourse-accordion summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.racecourse-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.race-list-accordion {
+    margin-top: 18px;
+    display: grid;
+    gap: 10px;
+}
+
+.race-row-link {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    padding: 14px 16px;
+    border-radius: 14px;
+    background: rgba(255,255,255,0.035);
+    border: 1px solid rgba(255,255,255,0.08);
+    text-decoration: none;
+    color: inherit;
+}
+
+.race-row-link:hover {
+    border-color: rgba(255,0,140,0.55);
+    background: rgba(255,0,140,0.08);
+}
+
+.race-row-link > div {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+}

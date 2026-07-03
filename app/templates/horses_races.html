@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Pulse Horses - Today's Races{% endblock %}
+{% block title %}Pulse Horses - Today's Racecards{% endblock %}
 
 {% block content %}
 
@@ -11,9 +11,7 @@
             <img src="/static/glyphs_transparent/horses.png" class="hero-icon" alt="">
             <div>
                 <h1>Today's Racecards</h1>
-                <p class="muted">
-                    Choose a course, then open the race you want to analyse.
-                </p>
+                <p class="muted">Choose a course, then open a race.</p>
             </div>
         </div>
     </div>
@@ -21,114 +19,75 @@
     <div class="horses-subnav">
         <a class="button" href="/horses">Top Horses</a>
         <a class="button" href="/horses/leaderboards">Leaderboards</a>
-        <a class="button" href="/horses/market-events">Market Intelligence</a>
+        <a class="button" href="/horses/market-events">Market Movers</a>
         <a class="button" href="/horses/performance">Performance</a>
         <a class="button" href="/arb">Pulse Arb</a>
     </div>
 
-    <div class="dashboard-card">
-        <strong>Racecard Menu</strong>
+    {% for card in racecards %}
 
-        <div class="horses-subnav" style="margin-top: 16px;">
-            <a class="button {% if not selected_course %}active{% endif %}" href="/horses/races">
-                All Courses
-            </a>
+        <details class="dashboard-card racecourse-accordion" {% if loop.first %}open{% endif %}>
 
-            {% for course in courses %}
-            <a
-                class="button {% if selected_course == course %}active{% endif %}"
-                href="/horses/races/{{ course }}"
-            >
-                {{ course }}
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-
-    {% if selected_course %}
-        <h2>{{ selected_course }} Card</h2>
-    {% else %}
-        <h2>All Racecards</h2>
-    {% endif %}
-
-    {% for race in races %}
-
-        <a
-            href="/horses/race/{{ race.course }}|{{ race.time }}|{{ race.race_name }}"
-            style="text-decoration:none;"
-        >
-
-            <div class="dashboard-card race-card">
-
-                <div class="card-top">
-
-                    <div>
-                        <div class="horse-name">
-                            {{ race.course }} · {{ race.time }}
-                        </div>
-
-                        <div class="race-meta">
-                            {{ race.race_name }}
-                        </div>
-                    </div>
-
-                    <span class="confidence-badge confidence-{{ race.confidence|lower|replace(' ', '-') }}">
-                        {{ race.confidence }}
-                    </span>
-
+            <summary>
+                <div>
+                    <strong>{{ card.course }}</strong>
+                    <span class="muted"> · {{ card.races|length }} races</span>
                 </div>
 
-                {% if race.pulse_pick %}
+                <div class="racecourse-summary">
+                    <span>Top Pick: {{ card.top_pick or "None" }}</span>
+                    <span>Best IQ: {{ card.best_score }}</span>
+                    <span>Dominant: {{ card.dominant_count }}</span>
+                    <span>Tight: {{ card.tight_count }}</span>
+                </div>
+            </summary>
 
-                    <div class="metrics">
+            <div class="race-list-accordion">
 
-                        <div class="metric">
-                            <div class="metric-label">Pulse Pick</div>
-                            <div class="metric-value">
-                                {{ race.pulse_pick.horse }}
-                            </div>
+                {% for race in card.races %}
+
+                    <a
+                        class="race-row-link"
+                        href="/horses/race/{{ race.course }}|{{ race.time }}|{{ race.race_name }}"
+                    >
+                        <div>
+                            <strong>{{ race.time }}</strong>
+                            <span>{{ race.race_name }}</span>
                         </div>
 
-                        <div class="metric">
-                            <div class="metric-label">Pulse Score</div>
-                            <div class="metric-value">
-                                {{ race.top_score }}
-                            </div>
+                        <div>
+                            <span>{{ race.pulse_pick.horse if race.pulse_pick else "No pick" }}</span>
+
+                            <span class="confidence-badge confidence-{{ race.confidence|lower|replace(' ', '-') }}">
+                                {{ race.confidence }}
+                            </span>
                         </div>
+                    </a>
 
-                        <div class="metric">
-                            <div class="metric-label">Gap To 2nd</div>
-
-                            <div class="metric-value
-                                {% if race.gap >= 10 %}
-                                    gap-high
-                                {% elif race.gap >= 5 %}
-                                    gap-medium
-                                {% else %}
-                                    gap-low
-                                {% endif %}
-                            ">
-                                {{ race.gap }}
-                            </div>
-                        </div>
-
-                        <div class="metric">
-                            <div class="metric-label">Runners</div>
-                            <div class="metric-value">
-                                {{ race.runners|length }}
-                            </div>
-                        </div>
-
-                    </div>
-
-                {% endif %}
+                {% endfor %}
 
             </div>
 
-        </a>
+        </details>
 
     {% endfor %}
 
 </div>
+
+<script>
+    const accordions = document.querySelectorAll(".racecourse-accordion");
+
+    accordions.forEach((accordion) => {
+        accordion.addEventListener("toggle", () => {
+            if (accordion.open) {
+                accordions.forEach((other) => {
+                    if (other !== accordion) {
+                        other.open = false;
+                    }
+                });
+            }
+        });
+    });
+</script>
 
 {% endblock %}

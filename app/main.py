@@ -250,15 +250,38 @@ def football(request: Request):
 def horses_races(request: Request):
     races = get_horse_race_groups()
 
-    courses = sorted(set(race.get("course") for race in races if race.get("course")))
+    racecards = {}
+
+    for race in races:
+        course = race.get("course", "Unknown")
+
+        if course not in racecards:
+            racecards[course] = {
+                "course": course,
+                "races": [],
+                "top_pick": None,
+                "best_score": 0,
+                "dominant_count": 0,
+                "tight_count": 0,
+            }
+
+        racecards[course]["races"].append(race)
+
+        if race.get("top_score", 0) > racecards[course]["best_score"]:
+            racecards[course]["best_score"] = race.get("top_score", 0)
+            racecards[course]["top_pick"] = race.get("pulse_pick", {}).get("horse")
+
+        if race.get("confidence") == "DOMINANT":
+            racecards[course]["dominant_count"] += 1
+
+        if race.get("confidence") == "TIGHT RACE":
+            racecards[course]["tight_count"] += 1
 
     return templates.TemplateResponse(
         request,
         "horses_races.html",
         {
-            "races": races,
-            "all_races": races,
-            "selected_course": None,
+            "racecards": racecards.values(),
             "active_page": "horses",
         },
     )
