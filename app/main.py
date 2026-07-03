@@ -177,18 +177,26 @@ def update_all():
 def update_performance():
     return start_update("performance")
 
+@app.get("/horses/races/{course}", response_class=HTMLResponse)
+def horses_races_by_course(request: Request, course: str):
+    all_races = get_horse_race_groups()
 
-@app.get("/horses/races", response_class=HTMLResponse)
-def horses_races(request: Request):
+    course_races = [
+        race for race in all_races
+        if race.get("course") == course
+    ]
+
     return templates.TemplateResponse(
         request,
         "horses_races.html",
         {
-            "races": get_horse_race_groups(),
+            "races": course_races,
+            "all_races": all_races,
+            "selected_course": course,
             "active_page": "horses",
         },
     )
-    
+
 @app.get("/horses", response_class=HTMLResponse)
 def horses(request: Request):
     return templates.TemplateResponse(
@@ -238,18 +246,20 @@ def football(request: Request):
         },
     )
 
-@app.get("/horses/race/{race_key}", response_class=HTMLResponse)
-async def horse_race_detail(request: Request, race_key: str):
-    race = get_race_by_key(race_key)
+@app.get("/horses/races", response_class=HTMLResponse)
+def horses_races(request: Request):
+    races = get_horse_race_groups()
 
-    if not race:
-        return HTMLResponse("Race not found", status_code=404)
+    courses = sorted(set(race.get("course") for race in races if race.get("course")))
 
     return templates.TemplateResponse(
-        "horse_race_detail.html",
+        request,
+        "horses_races.html",
         {
-            "request": request,
-            "race": race,
+            "races": races,
+            "all_races": races,
+            "selected_course": None,
+            "active_page": "horses",
         },
     )
 

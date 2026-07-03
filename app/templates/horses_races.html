@@ -1,111 +1,134 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Pulse Horses - Today's Races</title>
-    <link rel="icon" type="image/png" href="/static/favicon.png">
-    <link rel="stylesheet" href="/static/styles.css">
-</head>
-<body>
+{% extends "base.html" %}
 
-<div class="pulse-horses-page">
+{% block title %}Pulse Horses - Today's Races{% endblock %}
 
-    <div class="horses-header-row">
+{% block content %}
 
-        <div>
-            <h1>🏇 Today's Races</h1>
-            <p class="muted">
-                Race-by-race Pulse Picks, confidence and score gaps.
-            </p>
+<div class="pulse-page">
+
+    <div class="pulse-page-header module-header">
+        <div class="module-title-row">
+            <img src="/static/glyphs_transparent/horses.png" class="hero-icon" alt="">
+            <div>
+                <h1>Today's Racecards</h1>
+                <p class="muted">
+                    Choose a course, then open the race you want to analyse.
+                </p>
+            </div>
         </div>
-
-        <div class="horses-subnav">
-            <a class="button" href="/horses">🏆 Top Horses</a>
-            <a class="button" href="/horses/races">🏇 Today's Races</a>
-            <a class="button" href="/horses/leaderboards">📊 Leaderboards</a>
-            <a class="button" href="/">📈 Pulse Arb</a>
-        </div>
-
     </div>
+
+    <div class="horses-subnav">
+        <a class="button" href="/horses">Top Horses</a>
+        <a class="button" href="/horses/leaderboards">Leaderboards</a>
+        <a class="button" href="/horses/market-events">Market Intelligence</a>
+        <a class="button" href="/horses/performance">Performance</a>
+        <a class="button" href="/arb">Pulse Arb</a>
+    </div>
+
+    <div class="dashboard-card">
+        <strong>Racecard Menu</strong>
+
+        <div class="horses-subnav" style="margin-top: 16px;">
+            <a class="button {% if not selected_course %}active{% endif %}" href="/horses/races">
+                All Courses
+            </a>
+
+            {% for course in courses %}
+            <a
+                class="button {% if selected_course == course %}active{% endif %}"
+                href="/horses/races/{{ course }}"
+            >
+                {{ course }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% if selected_course %}
+        <h2>{{ selected_course }} Card</h2>
+    {% else %}
+        <h2>All Racecards</h2>
+    {% endif %}
 
     {% for race in races %}
 
-    <a
-        href="/horses/race/{{ race.course }}|{{ race.time }}|{{ race.race_name }}"
-        style="text-decoration:none;"
-    >
+        <a
+            href="/horses/race/{{ race.course }}|{{ race.time }}|{{ race.race_name }}"
+            style="text-decoration:none;"
+        >
 
-        <div class="horse-card race-card">
+            <div class="dashboard-card race-card">
 
-            <div class="card-top">
+                <div class="card-top">
 
-                <div>
-                    <div class="horse-name">
-                        {{ race.course }} · {{ race.time }}
+                    <div>
+                        <div class="horse-name">
+                            {{ race.course }} · {{ race.time }}
+                        </div>
+
+                        <div class="race-meta">
+                            {{ race.race_name }}
+                        </div>
                     </div>
 
-                    <div class="race-meta">
-                        {{ race.race_name }}
-                    </div>
+                    <span class="confidence-badge confidence-{{ race.confidence|lower|replace(' ', '-') }}">
+                        {{ race.confidence }}
+                    </span>
+
                 </div>
 
-                <span class="confidence-badge confidence-{{ race.confidence|lower|replace(' ', '-') }}">
-                    {{ race.confidence }}
-                </span>
+                {% if race.pulse_pick %}
+
+                    <div class="metrics">
+
+                        <div class="metric">
+                            <div class="metric-label">Pulse Pick</div>
+                            <div class="metric-value">
+                                {{ race.pulse_pick.horse }}
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <div class="metric-label">Pulse Score</div>
+                            <div class="metric-value">
+                                {{ race.top_score }}
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <div class="metric-label">Gap To 2nd</div>
+
+                            <div class="metric-value
+                                {% if race.gap >= 10 %}
+                                    gap-high
+                                {% elif race.gap >= 5 %}
+                                    gap-medium
+                                {% else %}
+                                    gap-low
+                                {% endif %}
+                            ">
+                                {{ race.gap }}
+                            </div>
+                        </div>
+
+                        <div class="metric">
+                            <div class="metric-label">Runners</div>
+                            <div class="metric-value">
+                                {{ race.runners|length }}
+                            </div>
+                        </div>
+
+                    </div>
+
+                {% endif %}
 
             </div>
 
-            {% if race.pulse_pick %}
-
-            <div class="metrics">
-
-                <div class="metric">
-                    <div class="metric-label">Pulse Pick</div>
-                    <div class="metric-value">
-                        {{ race.pulse_pick.horse }}
-                    </div>
-                </div>
-
-                <div class="metric">
-                    <div class="metric-label">Pulse Score</div>
-                    <div class="metric-value">
-                        {{ race.top_score }}
-                    </div>
-                </div>
-
-                <div class="metric">
-                    <div class="metric-label">Gap To 2nd</div>
-
-                    <div class="metric-value
-                        {% if race.gap >= 10 %}
-                            gap-high
-                        {% elif race.gap >= 5 %}
-                            gap-medium
-                        {% else %}
-                            gap-low
-                        {% endif %}
-                    ">
-                        {{ race.gap }}
-                    </div>
-                </div>
-
-                <div class="metric">
-                    <div class="metric-label">Runners</div>
-                    <div class="metric-value">
-                        {{ race.runners|length }}
-                    </div>
-                </div>
-
-            </div>
-
-            {% endif %}
-
-        </div>
-
-    </a>
+        </a>
 
     {% endfor %}
 
 </div>
 
-</body>
-</html>
+{% endblock %}
