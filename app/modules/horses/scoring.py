@@ -1,3 +1,4 @@
+from functools import lru_cache
 from app.modules.horses.history_stats import (
     get_horse_history,
     get_distance_profile,
@@ -11,6 +12,53 @@ from app.modules.horses.jockey_lookup import get_jockey_bonus
 from app.modules.horses.class_score import score_race_class
 from app.modules.horses.value import value_rating
 from app.utils import to_int
+
+@lru_cache(maxsize=None)
+def cached_trainer_bonus(trainer_id):
+    return get_trainer_bonus(trainer_id)
+
+
+@lru_cache(maxsize=None)
+def cached_jockey_bonus(jockey_id):
+    return get_jockey_bonus(jockey_id)
+
+
+@lru_cache(maxsize=None)
+def cached_trainer_recent_form(trainer_name, trainer_id, days):
+    return get_trainer_recent_form(
+        trainer_name=trainer_name,
+        trainer_id=trainer_id,
+        days=days,
+    )
+
+
+@lru_cache(maxsize=None)
+def cached_jockey_recent_form(jockey_name, jockey_id, days):
+    return get_jockey_recent_form(
+        jockey_name=jockey_name,
+        jockey_id=jockey_id,
+        days=days,
+    )
+
+
+@lru_cache(maxsize=None)
+def cached_tipster_boost(horse_name):
+    return get_tipster_boost(horse_name)
+
+
+@lru_cache(maxsize=None)
+def cached_horse_history(horse_name):
+    return get_horse_history(horse_name)
+
+
+@lru_cache(maxsize=None)
+def cached_distance_profile(horse_name, distance_value):
+    return get_distance_profile(horse_name, distance_value)
+
+
+@lru_cache(maxsize=None)
+def cached_going_profile(horse_name, going):
+    return get_going_profile(horse_name, going)
 
 
 def score_form(form):
@@ -184,7 +232,7 @@ def calculate_horse_score(runner):
     if class_score > 0:
         notes.append(f"Race class strength +{class_score}")
 
-    trainer_bonus = get_trainer_bonus(runner.get("trainer_id"))
+    trainer_bonus = cached_trainer_bonus(runner.get("trainer_id"))
     factors["trainer_bonus"] = trainer_bonus
     score += trainer_bonus
 
@@ -195,7 +243,7 @@ def calculate_horse_score(runner):
         
     stable_form_bonus = 0
 
-    stable_form = get_trainer_recent_form(
+    stable_form = cached_trainer_recent_form(
         trainer_name=runner.get("trainer", ""),
         trainer_id=runner.get("trainer_id"),
         days=14,
@@ -224,7 +272,7 @@ def calculate_horse_score(runner):
 
     factors["stable_form_bonus"] = stable_form_bonus
 
-    jockey_bonus = get_jockey_bonus(runner.get("jockey_id"))
+    jockey_bonus = cached_jockey_bonus(runner.get("jockey_id"))
     factors["jockey_bonus"] = jockey_bonus
     score += jockey_bonus
 
@@ -235,7 +283,7 @@ def calculate_horse_score(runner):
         
     jockey_form_bonus = 0
 
-    jockey_form = get_jockey_recent_form(
+    jockey_form = cached_jockey_recent_form(
         jockey_name=runner.get("jockey", ""),
         jockey_id=runner.get("jockey_id"),
         days=14,
@@ -276,7 +324,7 @@ def calculate_horse_score(runner):
         for tip in tipster_matches:
             notes.append(format_tipster_note(tip))
 
-    history = get_horse_history(runner.get("horse", ""))
+    history = cached_horse_history(runner.get("horse", ""))
 
     historical_winner_bonus = 0
     previous_course_winner_bonus = 0
@@ -306,7 +354,7 @@ def calculate_horse_score(runner):
     else:
         distance_value = ""
 
-    distance_profile = get_distance_profile(
+    distance_profile = cached_distance_profile(
         runner.get("horse", ""),
         distance_value,
     )
@@ -336,7 +384,7 @@ def calculate_horse_score(runner):
     
     going_bonus = 0
 
-    going_profile = get_going_profile(
+    going_profile = cached_going_profile(
         runner.get("horse", ""),
         runner.get("going", ""),
     )

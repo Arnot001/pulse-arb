@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block title %}Bet Builder{% endblock %}
+
+{% block content %}
+
+<div class="pulse-page">
+
+    <div class="pulse-page-header module-header">
+        <div class="module-title-row">
+            <img src="/static/glyphs_transparent/verify.png" class="hero-icon" alt="">
+            <div>
+                <h1>Bet Builder</h1>
+                <p class="muted">AI generated bets built from today's Pulse Intelligence.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-card mission-status-card">
+
+        <h2>🧠 Today's Verdict</h2>
+
+        <div class="stat-list">
+
+            <div>
+                <span>Overall Confidence</span>
+                <strong>{{ bets.verdict.confidence }}</strong>
+            </div>
+
+            <div>
+                <span>Best Strategy</span>
+                <strong>{{ bets.verdict.strategy }}</strong>
+            </div>
+
+            <div>
+                <span>Elite Selections</span>
+                <strong>{{ bets.verdict.elite_count }}</strong>
+            </div>
+
+            <div>
+                <span>Strong Selections</span>
+                <strong>{{ bets.verdict.strong_count }}</strong>
+            </div>
+
+            <div>
+                <span>Avoid Flags</span>
+                <strong>{{ bets.verdict.avoid_count }}</strong>
+            </div>
+
+        </div>
+
+    <p class="muted">
+        {{ bets.verdict.verdict }}
+    </p>
+
+</div>
+
+    <div class="dashboard-grid">
+
+        {% set sections = [
+            ("🟢 Smart Singles", bets.smart_singles),
+            ("🔥 Pulse Double", bets.pulse_double),
+            ("🔥 Pulse Treble", bets.pulse_treble),
+            ("🧠 Dominant Double", bets.dominant_double),
+            ("⚠ Avoid Bets", bets.avoid_bets)
+        ] %}
+
+        {% for title, horses in sections %}
+            <div class="dashboard-card">
+                <h2>{{ title }}</h2>
+
+                {% if horses %}
+                    {% for horse in horses %}
+                        <div class="mini-data-card">
+                            <strong>{{ horse.stars }} {{ horse.horse }}</strong>
+                            <span>{{ horse.course }} · {{ horse.time }}</span>
+                            <span>IQ {{ horse.score }} · REC {{ horse.recommendation_score }} · {{ horse.risk }}</span>
+
+                            {% if horse.recommendation_reasons %}
+                                <div class="notes">
+                                    {% for reason in horse.recommendation_reasons %}
+                                        <span class="badge">{{ reason }}</span>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <p class="muted">No qualifying selections today.</p>
+                {% endif %}
+            </div>
+        {% endfor %}
+
+        <div class="dashboard-card">
+            <h2>Coming Next</h2>
+
+            <div class="stat-list">
+                <div><span>Meeting Doubles</span><strong>Next</strong></div>
+                <div><span>Dutch Bets</span><strong>Next</strong></div>
+                <div><span>Lucky 15</span><strong>Next</strong></div>
+                <div><span>Yankee</span><strong>Next</strong></div>
+                <div><span>Value Builder</span><strong>Next</strong></div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

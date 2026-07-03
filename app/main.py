@@ -9,6 +9,7 @@ import time
 
 from app.modules.strategy.engine import get_strategy_lab_data
 from app.modules.dashboard import get_dashboard_data
+from app.modules.betting.builder import build_bets
 from app.modules.football.routes import get_football_leaderboard
 from collectors.daily_update import run_jobs
 from fastapi import FastAPI, Query, HTTPException, Form, Request
@@ -127,11 +128,11 @@ def run_update_job(mode):
         UPDATE_STATUS["runtime"] = summary["runtime"]
 
 
-def start_update(mode):
+def start_update(mode, redirect_url="/"):
     with UPDATE_LOCK:
         if UPDATE_STATUS["running"]:
             return RedirectResponse(
-                url="/horses?update=already-running",
+                url=f"{redirect_url}?update=already-running",
                 status_code=303,
             )
 
@@ -143,10 +144,9 @@ def start_update(mode):
     thread.start()
 
     return RedirectResponse(
-        url="/horses?update=started",
+        url=f"{redirect_url}?update=started",
         status_code=303,
     )
-
 
 @app.get("/update/status")
 def update_status():
@@ -156,46 +156,28 @@ def update_status():
 
 @app.post("/update/horses")
 def update_horses():
-    return start_update("horses")
+    return start_update("horses", "/horses")
 
 
 @app.post("/update/dogs")
 def update_dogs():
-    return start_update("dogs")
+    return start_update("dogs", "/")
 
 
 @app.post("/update/football")
 def update_football():
-    return start_update("football")
+    return start_update("football", "/")
 
 
 @app.post("/update/all")
 def update_all():
-    return start_update("all")
+    return start_update("all", "/")
+
 
 @app.post("/update/performance")
 def update_performance():
-    return start_update("performance")
+    return start_update("performance", "/horses/performance")
 
-@app.get("/horses/races/{course}", response_class=HTMLResponse)
-def horses_races_by_course(request: Request, course: str):
-    all_races = get_horse_race_groups()
-
-    course_races = [
-        race for race in all_races
-        if race.get("course") == course
-    ]
-
-    return templates.TemplateResponse(
-        request,
-        "horses_races.html",
-        {
-            "races": course_races,
-            "all_races": all_races,
-            "selected_course": course,
-            "active_page": "horses",
-        },
-    )
 
 @app.get("/horses", response_class=HTMLResponse)
 def horses(request: Request):
@@ -205,6 +187,17 @@ def horses(request: Request):
         {
             "cards": get_horse_dashboard(),
             "active_page": "horses",
+        },
+    )
+    
+@app.get("/bet-builder", response_class=HTMLResponse)
+def bet_builder(request: Request):
+    return templates.TemplateResponse(
+        request,
+        "bet_builder.html",
+        {
+            "active_page": "bet_builder",
+            "bets": build_bets(),
         },
     )
     
@@ -230,7 +223,7 @@ def horse_market_events(request: Request):
         request,
         "horse_market_events.html",
         {
-            "active_page": "horses",
+            "active_page": "market_events",
             "events": get_market_events(),
         },
     )
@@ -282,7 +275,7 @@ def horses_races(request: Request):
         "horses_races.html",
         {
             "racecards": racecards.values(),
-            "active_page": "horses",
+            "active_page": "racecards",
         },
     )
 
@@ -319,7 +312,7 @@ def horses_performance(request: Request):
         request,
         "horses_performance.html",
         {
-            "active_page": "horses",
+            "active_page": "performance",
             "report": report,
         },
     )

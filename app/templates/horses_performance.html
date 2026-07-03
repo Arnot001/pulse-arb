@@ -1,32 +1,80 @@
 {% extends "base.html" %}
 
-{% block title %}Pulse Horses - Today's Racecards{% endblock %}
+{% block title %}Horse Performance{% endblock %}
 
 {% block content %}
-<h1>TEST PAGE</h1>
 
-<p>Racecards: {{ racecards|length }}</p>
+<div class="pulse-page">
 
-{% for card in racecards %}
-    <p>{{ card.course }} - {{ card.races|length }}</p>
-{% endfor %}
+    <div class="pulse-page-header module-header">
+        <div class="module-title-row">
+            <img src="/static/glyphs_transparent/performance.png"
+                 class="hero-icon"
+                 alt="">
+
+            <div>
+                <h1>Performance</h1>
+                <p class="muted">
+                    Yesterday's race reviews, learning and strategy analysis.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="horses-subnav">
+        <a class="button" href="/horses">Top Horses</a>
+        <a class="button" href="/horses/races">Today's Races</a>
+        <a class="button" href="/horses/leaderboards">Leaderboards</a>
+        <a class="button" href="/horses/market-events">Market Movers</a>
+        <a class="button active" href="/horses/performance">Performance</a>
+    </div>
+
+    <div class="dashboard-card">
+
+        <h2>Performance Centre</h2>
+
+        <p class="muted">
+            This module will become Pulse IQ's learning engine.
+        </p>
+
+        <div class="stat-list">
+
+            <div>
+                <span>Race Reviews</span>
+                <strong>Coming Soon</strong>
+            </div>
+
+            <div>
+                <span>Strategy Verification</span>
+                <strong>Coming Soon</strong>
+            </div>
+
+            <div>
+                <span>Learning Factors</span>
+                <strong>Coming Soon</strong>
+            </div>
+
+            <div>
+                <span>Verified Systems</span>
+                <strong>Coming Soon</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+    {% if report %}
+
+    <div class="dashboard-card">
+
+        <h2>Latest Analysis</h2>
+
+        <pre>{{ report }}</pre>
+
+    </div>
+
+    {% endif %}
 
 </div>
-
-<script>
-    const accordions = document.querySelectorAll(".racecourse-accordion");
-
-    accordions.forEach((accordion) => {
-        accordion.addEventListener("toggle", () => {
-            if (accordion.open) {
-                accordions.forEach((other) => {
-                    if (other !== accordion) {
-                        other.open = false;
-                    }
-                });
-            }
-        });
-    });
-</script>
 
 {% endblock %}

@@ -4,6 +4,7 @@ from pathlib import Path
 
 
 PROFILE_DIR = Path("data/horses/profiles")
+ENRICH_VERSION = "profile_enrich_v2"
 
 
 def most_common_label(items):
@@ -27,6 +28,26 @@ def score_condition_match(latest_value, favourite):
         return 90
 
     return 55
+
+
+def get_profile_signature(profile):
+    return {
+        "latest_course": profile.get("latest_course"),
+        "latest_distance_f": profile.get("latest_distance_f"),
+        "latest_going": profile.get("latest_going"),
+        "latest_class": profile.get("latest_class"),
+        "latest_pulse_score": profile.get("latest_pulse_score"),
+        "average_pulse_score": profile.get("average_pulse_score"),
+        "profile_runs": profile.get("profile_runs"),
+        "runs_count": len(profile.get("runs", [])),
+    }
+
+
+def profile_already_enriched(profile):
+    return (
+        profile.get("enrich_version") == ENRICH_VERSION
+        and profile.get("enrich_signature") == get_profile_signature(profile)
+    )
 
 
 def enrich_profile(profile):
@@ -147,6 +168,9 @@ def enrich_profile(profile):
     profile["profile_strengths"] = strengths
     profile["profile_cautions"] = cautions
 
+    profile["enrich_version"] = ENRICH_VERSION
+    profile["enrich_signature"] = get_profile_signature(profile)
+
     return profile
 
 
@@ -158,24 +182,33 @@ def enrich_horse_profiles():
     files = list(PROFILE_DIR.glob("*.json"))
 
     enriched = 0
+    skipped = 0
+    failed = 0
 
     for file_path in files:
         try:
             with file_path.open("r", encoding="utf-8") as f:
                 profile = json.load(f)
 
+            if profile_already_enriched(profile):
+                skipped += 1
+                continue
+
             profile = enrich_profile(profile)
 
             with file_path.open("w", encoding="utf-8") as f:
-                json.dump(profile, f, ensure_ascii=False, indent=2)
+                json.dump(profile, f, ensure_ascii=False, separators=(",", ":"))
 
             enriched += 1
 
         except Exception as exc:
+            failed += 1
             print(f"Failed to enrich {file_path.name}: {exc}")
 
     print(f"Horse profiles found: {len(files)}")
     print(f"Horse profiles enriched: {enriched}")
+    print(f"Horse profiles skipped: {skipped}")
+    print(f"Horse profiles failed: {failed}")
 
 
 if __name__ == "__main__":

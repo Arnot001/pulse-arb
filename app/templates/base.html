@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,6 +33,20 @@
                 <span>Home</span>
             </a>
 
+            <div class="nav-section-title">Intelligence</div>
+
+            <a href="/bet-builder" class="{% if active_page == 'bet_builder' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/strategy.png" class="nav-icon" alt="">
+                <span>Bet Builder</span>
+            </a>
+
+            <a href="/strategy" class="{% if active_page == 'strategy' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/strategy.png" class="nav-icon" alt="">
+                <span>Betting Lab</span>
+            </a>
+
+            <div class="nav-section-title">Sports</div>
+
             <a href="/horses" class="{% if active_page == 'horses' %}active{% endif %}">
                 <img src="/static/glyphs_transparent/horses.png" class="nav-icon" alt="">
                 <span>Horse Picks</span>
@@ -52,24 +67,21 @@
                 <span>Pulse Arb</span>
             </a>
 
-            <a href="/horses/races">
+            <div class="nav-section-title">Data</div>
+
+            <a href="/horses/races" class="{% if active_page == 'racecards' %}active{% endif %}">
                 <img src="/static/glyphs_transparent/races.png" class="nav-icon" alt="">
                 <span>Racecards</span>
             </a>
 
-            <a href="/horses/market-events">
+            <a href="/horses/market-events" class="{% if active_page == 'market_events' %}active{% endif %}">
                 <img src="/static/glyphs_transparent/market.png" class="nav-icon" alt="">
                 <span>Market Movers</span>
             </a>
 
-            <a href="/horses/performance">
+            <a href="/horses/performance" class="{% if active_page == 'performance' %}active{% endif %}">
                 <img src="/static/glyphs_transparent/performance.png" class="nav-icon" alt="">
                 <span>Results</span>
-            </a>
-
-            <a href="/strategy" class="{% if active_page == 'strategy' %}active{% endif %}">
-                <img src="/static/glyphs_transparent/strategy.png" class="nav-icon" alt="">
-                <span>Betting Lab</span>
             </a>
 
         </nav>

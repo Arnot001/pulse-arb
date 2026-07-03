@@ -4,107 +4,39 @@ import time
 
 
 JOBS = {
-            "horses": [
-        {
-            "label": "Horse Racecards",
-            "module": "collectors.real_horses",
-        },
-        {
-            "label": "Clean Horse Racecards",
-            "module": "collectors.clean_horse_racecards",
-        },
-        {
-            "label": "Horse Scores",
-            "module": "collectors.save_horse_scores",
-        },
-        {
-            "label": "Trainer Rankings",
-            "module": "collectors.trainer_rankings",
-        },
-        {
-            "label": "Jockey Rankings",
-            "module": "collectors.jockey_rankings",
-        },
-        {
-            "label": "Horse Profiles",
-            "module": "collectors.build_horse_profiles",
-        },
-        {
-            "label": "Enrich Horse Profiles",
-            "module": "collectors.enrich_horse_profiles",
-        },
-        {
-            "label": "Race Intelligence",
-            "module": "collectors.build_race_intelligence",
-        },
-        {
-            "label": "Pulse Performance",
-            "module": "collectors.analyse_pulse_performance",
-        },
-        {
-            "label": "Learn From Results",
-            "module": "collectors.learn_from_results",
-        },
-        {
-            "label": "Learning Factors",
-            "module": "collectors.analyse_learning_factors",
-        },
+    "horses": [
+        {"label": "Horse Racecards", "module": "collectors.real_horses"},
+        {"label": "Clean Horse Racecards", "module": "collectors.clean_horse_racecards"},
+        {"label": "Horse Scores", "module": "collectors.save_horse_scores"},
+        {"label": "Trainer Rankings", "module": "collectors.trainer_rankings"},
+        {"label": "Jockey Rankings", "module": "collectors.jockey_rankings"},
+        {"label": "Horse Profiles", "module": "collectors.build_horse_profiles"},
+        {"label": "Enrich Horse Profiles", "module": "collectors.enrich_horse_profiles"},
+        {"label": "Race Intelligence", "module": "collectors.build_race_intelligence"},
+        {"label": "Pulse Performance", "module": "collectors.analyse_pulse_performance"},
+        {"label": "Learn From Results", "module": "collectors.learn_from_results"},
+        {"label": "Learning Factors", "module": "collectors.analyse_learning_factors"},
     ],
 
     "dogs": [
-        {
-            "label": "Dog Racecards",
-            "module": "collectors.dogs",
-        },
-        {
-            "label": "Dog Results",
-            "module": "collectors.dog_results",
-        },
-                {
-            "label": "Dog Runner Records",
-            "module": "collectors.dog_runner_records",
-        },
-        {
-            "label": "Dog History",
-            "module": "collectors.build_dog_history",
-        },
+        {"label": "Dog Racecards", "module": "collectors.dogs"},
+        {"label": "Dog Results", "module": "collectors.dog_results"},
+        {"label": "Dog Runner Records", "module": "collectors.dog_runner_records"},
+        {"label": "Dog History", "module": "collectors.build_dog_history"},
     ],
 
-                "football": [
-        {
-            "label": "Football Fixtures",
-            "module": "collectors.football",
-        },
-        {
-            "label": "Football Results",
-            "module": "collectors.football_results",
-        },
-        {
-            "label": "Football Team History",
-            "module": "collectors.build_team_history",
-        },
-        {
-            "label": "Football IQ",
-            "module": "collectors.football_iq",
-        },
+    "football": [
+        {"label": "Football Fixtures", "module": "collectors.football"},
+        {"label": "Football Results", "module": "collectors.football_results"},
+        {"label": "Football Team History", "module": "collectors.build_team_history"},
+        {"label": "Football IQ", "module": "collectors.football_iq"},
     ],
-                    "performance": [
-        {
-            "label": "Sporting Life Results",
-            "module": "collectors.sporting_life_results",
-        },
-        {
-            "label": "Pulse Performance",
-            "module": "collectors.analyse_pulse_performance",
-        },
-        {
-            "label": "Learn From Results",
-            "module": "collectors.learn_from_results",
-        },
-        {
-            "label": "Learning Factors",
-            "module": "collectors.analyse_learning_factors",
-        },
+
+    "performance": [
+        {"label": "Sporting Life Results", "module": "collectors.sporting_life_results"},
+        {"label": "Pulse Performance", "module": "collectors.analyse_pulse_performance"},
+        {"label": "Learn From Results", "module": "collectors.learn_from_results"},
+        {"label": "Learning Factors", "module": "collectors.analyse_learning_factors"},
     ],
 }
 
@@ -129,6 +61,7 @@ def run_jobs(mode, progress_callback=None):
     for index, job in enumerate(jobs, start=1):
         label = job["label"]
         module = job["module"]
+        job_started = time.time()
 
         if progress_callback:
             progress_callback(
@@ -172,6 +105,7 @@ def run_jobs(mode, progress_callback=None):
                 "stderr": str(exc),
             }
 
+        result["runtime"] = round(time.time() - job_started, 2)
         results.append(result)
 
         if progress_callback:
@@ -183,6 +117,7 @@ def run_jobs(mode, progress_callback=None):
                     "label": label,
                     "module": module,
                     "success": success,
+                    "runtime": result["runtime"],
                     "result": result,
                 }
             )
@@ -206,6 +141,12 @@ if __name__ == "__main__":
 
     for result in summary["results"]:
         status = "OK" if result["success"] else "FAILED"
-        print(f"{status} | {result['label']} | {result['module']}")
 
-    print(f"Runtime: {summary['runtime']}s")
+        print(
+            f"{status:<7}"
+            f"{result['runtime']:>8}s   "
+            f"{result['label']}"
+        )
+
+    print("-" * 70)
+    print(f"Total runtime: {summary['runtime']}s")
