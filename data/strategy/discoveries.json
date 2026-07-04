@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Baseline",
+    "name": "All Reviewed Races",
+    "description": "Baseline across every race review.",
+    "sample": 46,
+    "top_pick_wins": 20,
+    "top_pick_rate": 43.5,
+    "top_3_hits": 33,
+    "top_3_rate": 71.7,
+    "confidence": "MEDIUM",
+    "confidence_score": 3
+  },
+  {
+    "category": "Score",
+    "name": "Top Pick Score 80+",
+    "description": "Races where Pulse top pick scored 80 or higher.",
+    "sample": 16,
+    "top_pick_wins": 8,
+    "top_pick_rate": 50.0,
+    "top_3_hits": 14,
+    "top_3_rate": 87.5,
+    "confidence": "LOW",
+    "confidence_score": 2
+  },
+  {
+    "category": "Score",
+    "name": "Top Pick Score 70+",
+    "description": "Races where Pulse top pick scored 70 or higher.",
+    "sample": 37,
+    "top_pick_wins": 16,
+    "top_pick_rate": 43.2,
+    "top_3_hits": 27,
+    "top_3_rate": 73.0,
+    "confidence": "LOW",
+    "confidence_score": 2
+  },
+  {
+    "category": "Score",
+    "name": "Top Pick Score 90+",
+    "description": "Races where Pulse top pick scored 90 or higher.",
+    "sample": 7,
+    "top_pick_wins": 5,
+    "top_pick_rate": 71.4,
+    "top_3_hits": 7,
+    "top_3_rate": 100.0,
+    "confidence": "TINY SAMPLE",
+    "confidence_score": 1
+  },
+  {
+    "category": "Review",
+    "name": "Near Misses",
+    "description": "Races where winner was ranked 4th or 5th.",
+    "sample": 6,
+    "top_pick_wins": 0,
+    "top_pick_rate": 0.0,
+    "top_3_hits": 0,
+    "top_3_rate": 0.0,
+    "confidence": "TINY SAMPLE",
+    "confidence_score": 1
+  }
+]

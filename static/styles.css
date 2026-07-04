@@ -1973,3 +1973,112 @@ white-space: nowrap;
     text-transform: uppercase;
     border-bottom: 1px solid rgba(255,255,255,.08);
 }
+
+.bet-report {
+    background: rgba(10, 14, 26, 0.92);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-left: 4px solid #ff008c;
+    border-radius: 22px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 0 30px rgba(255,0,140,0.08);
+}
+
+.bet-report-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.bet-confidence {
+    text-align: right;
+}
+
+.bet-confidence span {
+    display: block;
+    font-size: 11px;
+    color: #8b8fa3;
+    letter-spacing: 1.5px;
+}
+
+.bet-confidence strong {
+    font-size: 34px;
+    color: #ffffff;
+}
+
+.bet-metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.bet-metrics div {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 14px;
+    padding: 14px;
+}
+
+.bet-metrics span {
+    display: block;
+    color: #8b8fa3;
+    font-size: 12px;
+}
+
+.bet-metrics strong {
+    font-size: 22px;
+}
+
+.bet-selection-list {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.bet-selection-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    background: rgba(255,255,255,0.035);
+    border-radius: 14px;
+    padding: 14px 16px;
+}
+
+.bet-selection-row span {
+    display: block;
+    color: #8b8fa3;
+    font-size: 13px;
+}
+
+.bet-reasons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.bet-ai-summary {
+    background: rgba(255,0,140,0.07);
+    border: 1px solid rgba(255,0,140,0.18);
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 18px;
+}
+
+.bet-ai-summary p {
+    margin-bottom: 0;
+}
+
+.bet-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.button.disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}

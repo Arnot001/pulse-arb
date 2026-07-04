@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-03",
+  "horse": "Private Larry",
+  "pulse_rank": 14,
+  "winner": true,
+  "sp": "20/1",
+  "course": "Bellewstown",
+  "time": "19:17",
+  "top_pick": "Porsche Lad",
+  "top_pick_score": 62,
+  "winner_score": 40,
+  "signals": [
+    {
+      "signal": "Favourite course matched",
+      "reason": "Winner ran at its most common course: Bellewstown"
+    },
+    {
+      "signal": "Favourite going matched",
+      "reason": "Winner ran on its most common going: Good"
+    },
+    {
+      "signal": "Favourite class matched",
+      "reason": "Winner ran at its most common class: "
+    },
+    {
+      "signal": "Profile strength existed",
+      "reason": "Today's going matches known profile preference"
+    }
+  ],
+  "profile_snapshot": {
+    "average_pulse_score": 0,
+    "latest_pulse_score": 40,
+    "horse_intelligence_score": 37,
+    "suitability_score": 62,
+    "profile_runs": 2,
+    "favourite_course": {
+      "value": "Bellewstown",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 12.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 2
+    },
+    "favourite_class": null
+  },
+  "cautions": [
+    "Course does not strongly match stored profile",
+    "Distance not yet a clear profile strength",
+    "Low latest Pulse Score",
+    "Limited stored profile data"
+  ]
+}

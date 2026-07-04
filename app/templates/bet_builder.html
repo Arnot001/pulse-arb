@@ -11,98 +11,137 @@
             <img src="/static/glyphs_transparent/verify.png" class="hero-icon" alt="">
             <div>
                 <h1>Bet Builder</h1>
-                <p class="muted">AI generated bets built from today's Pulse Intelligence.</p>
+                <p class="muted">Pulse AI betting opportunities built from today's intelligence.</p>
             </div>
         </div>
     </div>
 
     <div class="dashboard-card mission-status-card">
 
-        <h2>🧠 Today's Verdict</h2>
+    <h2>🧠 Pulse's Decision</h2>
 
-        <div class="stat-list">
-
-            <div>
-                <span>Overall Confidence</span>
-                <strong>{{ bets.verdict.confidence }}</strong>
-            </div>
-
-            <div>
-                <span>Best Strategy</span>
-                <strong>{{ bets.verdict.strategy }}</strong>
-            </div>
-
-            <div>
-                <span>Elite Selections</span>
-                <strong>{{ bets.verdict.elite_count }}</strong>
-            </div>
-
-            <div>
-                <span>Strong Selections</span>
-                <strong>{{ bets.verdict.strong_count }}</strong>
-            </div>
-
-            <div>
-                <span>Avoid Flags</span>
-                <strong>{{ bets.verdict.avoid_count }}</strong>
-            </div>
-
+    <div class="stat-list">
+        <div>
+            <span>Today's Play</span>
+            <strong>{{ bets.decision.play }}</strong>
         </div>
 
+        <div>
+            <span>Confidence</span>
+            <strong>{{ bets.decision.confidence }}</strong>
+        </div>
+
+        <div>
+            <span>Recommendation</span>
+            <strong>{{ bets.decision.recommendation }}</strong>
+        </div>
+
+        <div>
+            <span>Portfolio Quality</span>
+            <strong>{{ bets.decision.portfolio_quality }}</strong>
+        </div>
+    </div>
+
     <p class="muted">
-        {{ bets.verdict.verdict }}
+        {{ bets.decision.reason }}
     </p>
+
+    {% if bets.decision.warnings %}
+        <div class="notes">
+            {% for warning in bets.decision.warnings %}
+                <span class="badge badge-avoid">{{ warning }}</span>
+            {% endfor %}
+        </div>
+    {% endif %}
 
 </div>
 
-    <div class="dashboard-grid">
+    <div class="dashboard-card mission-status-card">
+        <h2>🧠 Today's Verdict</h2>
 
-        {% set sections = [
-            ("🟢 Smart Singles", bets.smart_singles),
-            ("🔥 Pulse Double", bets.pulse_double),
-            ("🔥 Pulse Treble", bets.pulse_treble),
-            ("🧠 Dominant Double", bets.dominant_double),
-            ("⚠ Avoid Bets", bets.avoid_bets)
-        ] %}
-
-        {% for title, horses in sections %}
-            <div class="dashboard-card">
-                <h2>{{ title }}</h2>
-
-                {% if horses %}
-                    {% for horse in horses %}
-                        <div class="mini-data-card">
-                            <strong>{{ horse.stars }} {{ horse.horse }}</strong>
-                            <span>{{ horse.course }} · {{ horse.time }}</span>
-                            <span>IQ {{ horse.score }} · REC {{ horse.recommendation_score }} · {{ horse.risk }}</span>
-
-                            {% if horse.recommendation_reasons %}
-                                <div class="notes">
-                                    {% for reason in horse.recommendation_reasons %}
-                                        <span class="badge">{{ reason }}</span>
-                                    {% endfor %}
-                                </div>
-                            {% endif %}
-                        </div>
-                    {% endfor %}
-                {% else %}
-                    <p class="muted">No qualifying selections today.</p>
-                {% endif %}
-            </div>
-        {% endfor %}
-
-        <div class="dashboard-card">
-            <h2>Coming Next</h2>
-
-            <div class="stat-list">
-                <div><span>Meeting Doubles</span><strong>Next</strong></div>
-                <div><span>Dutch Bets</span><strong>Next</strong></div>
-                <div><span>Lucky 15</span><strong>Next</strong></div>
-                <div><span>Yankee</span><strong>Next</strong></div>
-                <div><span>Value Builder</span><strong>Next</strong></div>
-            </div>
+        <div class="stat-list">
+            <div><span>Overall Confidence</span><strong>{{ bets.verdict.confidence }}</strong></div>
+            <div><span>Best Strategy</span><strong>{{ bets.verdict.strategy }}</strong></div>
+            <div><span>Elite Selections</span><strong>{{ bets.verdict.elite_count }}</strong></div>
+            <div><span>Strong Selections</span><strong>{{ bets.verdict.strong_count }}</strong></div>
+            <div><span>Avoid Flags</span><strong>{{ bets.verdict.avoid_count }}</strong></div>
         </div>
 
+        <p class="muted">{{ bets.verdict.verdict }}</p>
+    </div>
+
+    {% for report in bets.bet_reports %}
+
+        <div class="bet-report">
+
+            <div class="bet-report-header">
+                <div>
+                    <h2>{{ report.ai_rating }} {{ report.title }}</h2>
+                    <p class="muted">{{ report.strategy }}</p>
+                </div>
+
+                <div class="bet-confidence">
+                    <span>AI CONFIDENCE</span>
+                    <strong>{{ report.confidence }}%</strong>
+                </div>
+            </div>
+
+            <div class="bet-metrics">
+                <div><span>Combined IQ</span><strong>{{ report.combined_iq }}</strong></div>
+                <div><span>Recommendation</span><strong>{{ report.combined_recommendation }}</strong></div>
+                <div><span>Risk</span><strong>{{ report.combined_risk }}</strong></div>
+                <div><span>Strike Rate</span><strong>{{ report.expected_strike_rate }}%</strong></div>
+            </div>
+
+            <div class="bet-selection-list">
+                {% for horse in report.horses %}
+                    <div class="bet-selection-row">
+                        <div>
+                            <strong>{{ horse.stars }} {{ horse.horse }}</strong>
+                            <span>{{ horse.course }} · {{ horse.time }}</span>
+                        </div>
+
+                        <div>
+                            <strong>REC {{ horse.recommendation_score }}</strong>
+                            <span>IQ {{ horse.score }}</span>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+
+            {% if report.reasons %}
+                <div class="bet-reasons">
+                    {% for reason in report.reasons %}
+                        <span class="badge">{{ reason }}</span>
+                    {% endfor %}
+                </div>
+            {% endif %}
+
+            <div class="bet-ai-summary">
+                <strong>Pulse AI Summary</strong>
+                <p>{{ report.verdict }}</p>
+            </div>
+
+            <div class="bet-actions">
+                <button class="button">Copy Bet</button>
+                <button class="button">View Race Analysis</button>
+                <button class="button disabled">Find Best Odds Soon</button>
+            </div>
+
+        </div>
+
+    {% endfor %}
+
+    <div class="dashboard-card">
+        <h2>Coming Next</h2>
+
+        <div class="stat-list">
+            <div><span>Meeting Doubles</span><strong>Next</strong></div>
+            <div><span>Dutch Bets</span><strong>Next</strong></div>
+            <div><span>Lucky 15</span><strong>Next</strong></div>
+            <div><span>Yankee</span><strong>Next</strong></div>
+            <div><span>Value Builder</span><strong>Next</strong></div>
+        </div>
     </div>
 
 </div>

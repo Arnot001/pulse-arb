@@ -1,0 +1,142 @@
+[
+  {
+    "endpoint": "fixtures",
+    "url": "https://api09.horseracing.software/bha/v1/fixtures?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 401,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "message": "Unauthenticated."
+    }
+  },
+  {
+    "endpoint": "courses",
+    "url": "https://api09.horseracing.software/bha/v1/courses?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 404,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "error": "Not found"
+    }
+  },
+  {
+    "endpoint": "meetings",
+    "url": "https://api09.horseracing.software/bha/v1/meetings?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 404,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "error": "Not found"
+    }
+  },
+  {
+    "endpoint": "racecards",
+    "url": "https://api09.horseracing.software/bha/v1/racecards?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 404,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "error": "Not found"
+    }
+  },
+  {
+    "endpoint": "races",
+    "url": "https://api09.horseracing.software/bha/v1/races?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 404,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "error": "Not found"
+    }
+  },
+  {
+    "endpoint": "entries",
+    "url": "https://api09.horseracing.software/bha/v1/entries?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 404,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "error": "Not found"
+    }
+  },
+  {
+    "endpoint": "runners",
+    "url": "https://api09.horseracing.software/bha/v1/runners?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 404,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "error": "Not found"
+    }
+  },
+  {
+    "endpoint": "horses",
+    "url": "https://api09.horseracing.software/bha/v1/horses?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 404,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "error": "Not found"
+    }
+  },
+  {
+    "endpoint": "jockeys",
+    "url": "https://api09.horseracing.software/bha/v1/jockeys?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 401,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "message": "Unauthenticated."
+    }
+  },
+  {
+    "endpoint": "trainers",
+    "url": "https://api09.horseracing.software/bha/v1/trainers?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 401,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "message": "Unauthenticated."
+    }
+  },
+  {
+    "endpoint": "results",
+    "url": "https://api09.horseracing.software/bha/v1/results?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 404,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "error": "Not found"
+    }
+  },
+  {
+    "endpoint": "nonrunners",
+    "url": "https://api09.horseracing.software/bha/v1/nonrunners?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 404,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "error": "Not found"
+    }
+  },
+  {
+    "endpoint": "updates",
+    "url": "https://api09.horseracing.software/bha/v1/updates?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 404,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "error": "Not found"
+    }
+  },
+  {
+    "endpoint": "going",
+    "url": "https://api09.horseracing.software/bha/v1/going?fromdate=20260703&todate=20260705&per_page=5",
+    "status_code": 404,
+    "content_type": "application/json",
+    "ok": false,
+    "sample": {
+      "error": "Not found"
+    }
+  }
+]

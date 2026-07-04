@@ -1,16 +1,73 @@
-.env
-__pycache__/
-*.pyc
-app/output/
-uk_arb_scanner_web/app/output/
-.env
-__pycache__/
-*.pyc
+# ==========================================
+# Environment
+# ==========================================
 
-app/output/
-uk_arb_scanner_web/app/output/
+.env
+.env.*
 
-data/
-sample.txt
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ==========================================
+# Virtual Environments
+# ==========================================
 
 .venv/
+venv/
+env/
+
+# ==========================================
+# IDE
+# ==========================================
+
+.vscode/
+.idea/
+
+# ==========================================
+# Build
+# ==========================================
+
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+
+# ==========================================
+# Generated Output
+# ==========================================
+
+app/output/
+uk_arb_scanner_web/app/output/
+
+# ==========================================
+# Generated Data
+# ==========================================
+
+data/cache/
+data/horses/racecards/
+data/horses/results/
+data/horses/runner_records/
+
+data/dogs/racecards/
+data/dogs/results/
+data/dogs/runner_records/
+
+data/football/fixtures/
+data/football/results/
+
+# ==========================================
+# OS
+# ==========================================
+
+Thumbs.db
+.DS_Store

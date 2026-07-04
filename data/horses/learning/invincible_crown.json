@@ -1,0 +1,69 @@
+{
+  "date": "2026-06-30",
+  "horse": "Invincible Crown",
+  "pulse_rank": 4,
+  "winner": true,
+  "sp": "4/1",
+  "course": "Musselburgh",
+  "time": "16:05",
+  "top_pick": "What A Tahoo",
+  "top_pick_score": 72,
+  "winner_score": 52,
+  "signals": [
+    {
+      "signal": "Favourite distance matched",
+      "reason": "Winner ran at its most common distance: 5.0f"
+    },
+    {
+      "signal": "Favourite going matched",
+      "reason": "Winner ran on its most common going: Good"
+    },
+    {
+      "signal": "Favourite class matched",
+      "reason": "Winner ran at its most common class: Class 6"
+    },
+    {
+      "signal": "Strong suitability profile",
+      "reason": "Suitability Score was 81"
+    },
+    {
+      "signal": "Profile strength existed",
+      "reason": "Today's distance matches strongest profile pattern"
+    },
+    {
+      "signal": "Profile strength existed",
+      "reason": "Today's going matches known profile preference"
+    },
+    {
+      "signal": "Profile strength existed",
+      "reason": "Race class matches common profile level"
+    }
+  ],
+  "profile_snapshot": {
+    "average_pulse_score": 0,
+    "latest_pulse_score": 52,
+    "horse_intelligence_score": 48,
+    "suitability_score": 81,
+    "profile_runs": 2,
+    "favourite_course": {
+      "value": "Nottingham",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 5.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 6",
+      "runs": 2
+    }
+  },
+  "cautions": [
+    "Course does not strongly match stored profile",
+    "Limited stored profile data"
+  ]
+}

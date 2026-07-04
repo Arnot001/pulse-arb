@@ -1,8 +1,149 @@
 from app.modules.horses.output import get_top_horses
 from app.modules.betting.recommendation import build_recommendation
+from app.modules.betting.portfolio import PortfolioBuilder
+from app.modules.decision.engine import build_daily_decision
+
+def risk_rank(risk):
+    ranks = {
+        "LOW": 1,
+        "MEDIUM": 2,
+        "MEDIUM-HIGH": 3,
+        "HIGH": 4,
+    }
+
+    return ranks.get(risk, 4)
 
 
-def build_verdict(bet_horses):
+def build_bet_report(title, bet_type, horses):
+    horses = list(horses)
+
+    if not horses:
+        return {
+            "title": title,
+            "type": bet_type,
+            "horses": [],
+            "confidence": 0,
+            "ai_rating": "☆☆☆☆☆",
+            "combined_iq": 0,
+            "combined_recommendation": 0,
+            "combined_risk": "NONE",
+            "expected_strike_rate": 0,
+            "strategy": "No Bet",
+            "reasons": [],
+            "verdict": "No qualifying selections found.",
+        }
+
+    combined_iq = sum(h.get("score", 0) for h in horses)
+    avg_rec = round(
+        sum(h.get("recommendation_score", 0) for h in horses) / len(horses)
+    )
+
+    worst_risk = max(
+        horses,
+        key=lambda h: risk_rank(h.get("risk")),
+    ).get("risk", "HIGH")
+
+    unique_races = len(set(h.get("race_id") for h in horses if h.get("race_id")))
+    unique_courses = len(set(h.get("course") for h in horses if h.get("course")))
+
+    reasons = []
+
+    if avg_rec >= 92:
+        reasons.append("Elite recommendation profile")
+    elif avg_rec >= 85:
+        reasons.append("Strong recommendation profile")
+
+    if unique_races == len(horses):
+        reasons.append("Selections are from different races")
+    else:
+        reasons.append("Warning: selections may share a race")
+
+    if unique_courses > 1:
+        reasons.append("Selections spread across different meetings")
+
+    if all(h.get("risk") == "LOW" for h in horses):
+        reasons.append("Low combined risk profile")
+
+    if any(
+        "Strong recent form" in " ".join(h.get("recommendation_reasons", []))
+        for h in horses
+    ):
+        reasons.append("Strong recent form signal")
+
+    if any("Trainer positive" in h.get("recommendation_reasons", []) for h in horses):
+        reasons.append("Trainer confidence signal")
+
+    if any("Jockey positive" in h.get("recommendation_reasons", []) for h in horses):
+        reasons.append("Jockey confidence signal")
+
+    confidence = avg_rec
+
+    if unique_races < len(horses):
+        confidence -= 12
+
+    if worst_risk == "MEDIUM-HIGH":
+        confidence -= 6
+    elif worst_risk == "HIGH":
+        confidence -= 12
+
+    confidence = max(0, min(100, confidence))
+
+    if confidence >= 92:
+        ai_rating = "★★★★★"
+    elif confidence >= 85:
+        ai_rating = "★★★★☆"
+    elif confidence >= 75:
+        ai_rating = "★★★☆☆"
+    elif confidence >= 65:
+        ai_rating = "★★☆☆☆"
+    else:
+        ai_rating = "★☆☆☆☆"
+
+    if bet_type == "single":
+        expected_strike_rate = min(75, round(confidence * 0.62))
+        strategy = "Smart Single"
+    elif bet_type == "double":
+        expected_strike_rate = min(62, round(confidence * 0.52))
+        strategy = "Pulse Double"
+    elif bet_type == "treble":
+        expected_strike_rate = min(48, round(confidence * 0.42))
+        strategy = "Pulse Treble"
+    else:
+        expected_strike_rate = min(50, round(confidence * 0.45))
+        strategy = "Pulse Strategy"
+
+    if confidence >= 90:
+        verdict = (
+            f"{title} is strongly recommended by Pulse based on elite "
+            f"recommendation scores and a favourable risk profile."
+        )
+    elif confidence >= 80:
+        verdict = (
+            f"{title} is playable, but should be treated as a selective "
+            f"opportunity rather than a banker."
+        )
+    else:
+        verdict = (
+            f"{title} carries elevated uncertainty. Review before placing."
+        )
+
+    return {
+        "title": title,
+        "type": bet_type,
+        "horses": horses,
+        "confidence": confidence,
+        "ai_rating": ai_rating,
+        "combined_iq": combined_iq,
+        "combined_recommendation": avg_rec,
+        "combined_risk": worst_risk,
+        "expected_strike_rate": expected_strike_rate,
+        "strategy": strategy,
+        "reasons": reasons,
+        "verdict": verdict,
+    }
+
+
+def build_verdict(bet_horses, portfolio_quality=0):
     elite = [
         h for h in bet_horses
         if h.get("recommendation_score", 0) >= 92
@@ -18,7 +159,11 @@ def build_verdict(bet_horses):
         if h.get("recommendation_score", 0) < 75
     ]
 
-    if len(elite) >= 3:
+    if portfolio_quality >= 90 and len(elite) >= 2:
+        confidence = "HIGH"
+        strategy = "Balanced Portfolio"
+        verdict = "Good betting day. Pulse has found strong picks without overloading one horse."
+    elif len(elite) >= 3:
         confidence = "HIGH"
         strategy = "Pulse Treble"
         verdict = "Strong betting day. Multiple elite selections found."
@@ -42,6 +187,7 @@ def build_verdict(bet_horses):
         "elite_count": len(elite),
         "strong_count": len(strong),
         "avoid_count": len(avoid),
+        "portfolio_quality": portfolio_quality,
     }
 
 
@@ -71,21 +217,70 @@ def build_bets():
         reverse=True,
     )
 
+    portfolio = PortfolioBuilder(bet_horses)
+    portfolio_data = portfolio.build_portfolio()
+
+    best_single = portfolio_data["best_single"]
+    smart_singles = portfolio_data["safe_singles"]
+    pulse_double = portfolio_data["best_double"]
+    pulse_treble = portfolio_data["best_treble"]
+    dominant_double = portfolio_data["dominant_double"]
+    dominant_treble = []
+
+    avoid_bets = [
+        h for h in bet_horses
+        if h.get("recommendation_score", 0) < 75
+    ][:8]
+
+    portfolio_quality = portfolio_data["portfolio_quality"]
+
+    bet_reports = [
+        build_bet_report("Best Single", "single", best_single),
+        build_bet_report("Smart Singles", "single", smart_singles),
+        build_bet_report("Pulse Double", "double", pulse_double),
+        build_bet_report("Pulse Treble", "treble", pulse_treble),
+        build_bet_report("Dominant Double", "double", dominant_double),
+    ]
+
+    decision = build_daily_decision(
+        bet_horses=bet_horses,
+        portfolio_quality=portfolio_quality,
+        recommended_reports=bet_reports,
+    )
+
+    bet_reports = [
+        build_bet_report("Best Single", "single", best_single),
+        build_bet_report("Smart Singles", "single", smart_singles),
+        build_bet_report("Pulse Double", "double", pulse_double),
+        build_bet_report("Pulse Treble", "treble", pulse_treble),
+        build_bet_report("Dominant Double", "double", dominant_double),
+    ]
+
+    decision = build_daily_decision(
+        bet_horses=bet_horses,
+        portfolio_quality=portfolio_quality,
+        recommended_reports=bet_reports,
+    )
+
     return {
-        "verdict": build_verdict(bet_horses),
-        "smart_singles": bet_horses[:5],
-        "pulse_double": bet_horses[:2],
-        "pulse_treble": bet_horses[:3],
-        "dominant_double": [
-            h for h in bet_horses
-            if h.get("recommendation_score", 0) >= 90
-        ][:2],
-        "dominant_treble": [
-            h for h in bet_horses
-            if h.get("recommendation_score", 0) >= 90
-        ][:3],
-        "avoid_bets": [
-            h for h in bet_horses
-            if h.get("recommendation_score", 0) < 75
-        ][:8],
+        "decision": decision,
+
+        "verdict": build_verdict(
+            bet_horses,
+            portfolio_quality=portfolio_quality,
+        ),
+
+        "bet_reports": bet_reports,
+
+        "best_single": best_single,
+        "smart_singles": smart_singles,
+        "pulse_double": pulse_double,
+        "pulse_treble": pulse_treble,
+        "dominant_double": dominant_double,
+        "dominant_treble": dominant_treble,
+
+        "portfolio_quality": portfolio_quality,
+        "exposure": portfolio_data["exposure"],
+
+        "avoid_bets": avoid_bets,
     }
