@@ -7,6 +7,7 @@ import threading
 import requests
 import time
 
+from app.modules.race_intelligence.output import (get_race_intelligence_dashboard,)
 from app.modules.strategy.engine import get_strategy_lab_data
 from app.modules.dashboard import get_dashboard_data
 from app.modules.betting.builder import build_bets
@@ -198,6 +199,17 @@ def bet_builder(request: Request):
         {
             "active_page": "bet_builder",
             "bets": build_bets(),
+        },
+    )
+    
+@app.get("/race-intelligence", response_class=HTMLResponse)
+def race_intelligence(request: Request):
+    return templates.TemplateResponse(
+        request,
+        "race_intelligence.html",
+        {
+            "active_page": "race_intelligence",
+            **get_race_intelligence_dashboard(),
         },
     )
     

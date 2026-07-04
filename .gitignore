@@ -50,13 +50,17 @@ app/output/
 uk_arb_scanner_web/app/output/
 
 # ==========================================
-# Generated Data
+# Generated Raw Data
 # ==========================================
 
 data/cache/
+
 data/horses/racecards/
 data/horses/results/
 data/horses/runner_records/
+data/horses/race_reviews/
+data/horses/sporting_life_results/
+data/horses/sporting_life_results_raw/
 
 data/dogs/racecards/
 data/dogs/results/
@@ -64,6 +68,9 @@ data/dogs/runner_records/
 
 data/football/fixtures/
 data/football/results/
+
+# Generated strategy history
+data/strategy/history/
 
 # ==========================================
 # OS

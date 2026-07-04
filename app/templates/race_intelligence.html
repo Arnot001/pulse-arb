@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block title %}Race Intelligence{% endblock %}
+
+{% block content %}
+
+<div class="pulse-page">
+
+    <div class="pulse-page-header module-header">
+
+        <div class="module-title-row">
+
+            <img src="/static/glyphs_transparent/brain.png"
+                 class="hero-icon"
+                 alt="">
+
+            <div>
+
+                <h1>Race Intelligence</h1>
+
+                <p class="muted">
+                    Live race intelligence collected throughout the day.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="dashboard-card">
+
+        <h2>System Status</h2>
+
+        <div class="stat-list">
+
+            <div>
+                <span>Status</span>
+                <strong>{{ status }}</strong>
+            </div>
+
+            <div>
+                <span>Total Signals</span>
+                <strong>{{ summary.total }}</strong>
+            </div>
+
+            <div>
+                <span>Positive</span>
+                <strong>{{ summary.positive }}</strong>
+            </div>
+
+            <div>
+                <span>Negative</span>
+                <strong>{{ summary.negative }}</strong>
+            </div>
+
+            <div>
+                <span>Warnings</span>
+                <strong>{{ summary.warnings }}</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="dashboard-card">
+
+        <h2>Today's Intelligence Feed</h2>
+
+        {% if signals %}
+
+            {% for signal in signals %}
+
+                <div class="mini-data-card">
+
+                    <strong>{{ signal.type }}</strong>
+
+                    <span>{{ signal.reason }}</span>
+
+                </div>
+
+            {% endfor %}
+
+        {% else %}
+
+            <p class="muted">
+
+                Waiting for today's intelligence...
+
+            </p>
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+{% endblock %}
