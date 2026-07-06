@@ -4,17 +4,17 @@
   "course": "Sha Tin",
   "time": "1:05",
   "race_name": "Beas River Handicap (Class 3) (All Weather)",
-  "field_size": 16,
-  "average_intelligence": 46.38,
-  "top_score": 56,
-  "second_score": 55,
-  "gap": 1,
-  "confidence_score": 44,
+  "field_size": 15,
+  "average_intelligence": 24.0,
+  "top_score": 24,
+  "second_score": 24,
+  "gap": 0,
+  "confidence_score": 19,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Run Run Smart",
-    "horse_id": "hrs_40919158",
+    "horse": "All Round Winner",
+    "horse_id": "hrs_52086853",
     "age": 4,
     "sex": "gelding",
     "latest_course": "Sha Tin",
@@ -25,13 +25,13 @@
     "latest_class": "",
     "latest_going": "Standard",
     "latest_surface": "AW",
-    "latest_trainer": "F C Lor",
-    "latest_jockey": "Britney Wong(7)",
-    "latest_draw": 1,
-    "latest_weight_lbs": 119,
-    "official_rating": "69",
-    "recent_form": "910312",
-    "last_run_days": 20,
+    "latest_trainer": "David A Hayes",
+    "latest_jockey": "Karis Teetan",
+    "latest_draw": 12,
+    "latest_weight_lbs": 115,
+    "official_rating": "64",
+    "recent_form": "631378",
+    "last_run_days": 24,
     "profile_runs": 2,
     "courses_seen": {
       "Sha Tin": 2
@@ -44,20 +44,15 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "F C Lor": 2
+      "David A Hayes": 2
     },
     "jockeys_seen": {
-      "Britney Wong(7)": 2
+      "Karis Teetan": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 72,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Trainer bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -73,22 +68,22 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 14,
-        "horse": "Run Run Smart",
-        "horse_id": "hrs_40919158",
+        "horse": "All Round Winner",
+        "horse_id": "hrs_52086853",
         "age": 4,
         "sex": "gelding",
-        "trainer": "F C Lor",
-        "trainer_id": "trn_303201",
-        "jockey": "Britney Wong(7)",
-        "jockey_id": "jky_309648",
-        "draw": 1,
-        "number": 8,
-        "lbs": 119,
-        "ofr": "69",
-        "last_run": 20,
-        "form": "910312",
-        "headgear": "t",
-        "_stored_at": "2026-06-27T10:06:24.382958+00:00"
+        "trainer": "David A Hayes",
+        "trainer_id": "trn_31950",
+        "jockey": "Karis Teetan",
+        "jockey_id": "jky_265902",
+        "draw": 12,
+        "number": 10,
+        "lbs": 115,
+        "ofr": "64",
+        "last_run": 24,
+        "form": "631378",
+        "headgear": "b",
+        "_stored_at": "2026-06-27T10:06:24.411836+00:00"
       },
       {
         "source": "the_racing_api",
@@ -104,27 +99,25 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 14,
-        "horse": "Run Run Smart",
-        "horse_id": "hrs_40919158",
+        "horse": "All Round Winner",
+        "horse_id": "hrs_52086853",
         "age": 4,
         "sex": "gelding",
-        "trainer": "F C Lor",
-        "trainer_id": "trn_303201",
-        "jockey": "Britney Wong(7)",
-        "jockey_id": "jky_309648",
-        "draw": 1,
-        "number": 8,
-        "lbs": 119,
-        "ofr": "69",
-        "last_run": 20,
-        "form": "910312",
-        "headgear": "t",
-        "_stored_at": "2026-06-28T12:42:51.987585+00:00"
+        "trainer": "David A Hayes",
+        "trainer_id": "trn_31950",
+        "jockey": "Karis Teetan",
+        "jockey_id": "jky_265902",
+        "draw": 12,
+        "number": 10,
+        "lbs": 115,
+        "ofr": "64",
+        "last_run": 24,
+        "form": "631378",
+        "headgear": "b",
+        "_stored_at": "2026-06-28T12:42:52.021464+00:00"
       }
     ],
-    "profile_notes": [
-      "Low draw today"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Sha Tin",
       "runs": 2
@@ -143,14 +136,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 56,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -159,15 +152,15 @@
       "latest_distance_f": 8.5,
       "latest_going": "Standard",
       "latest_class": "",
-      "latest_pulse_score": 72,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "main_threat": {
-    "horse": "Victory Sky",
-    "horse_id": "hrs_36316014",
+    "horse": "Dragon Air Force",
+    "horse_id": "hrs_42749077",
     "age": 5,
     "sex": "gelding",
     "latest_course": "Sha Tin",
@@ -179,11 +172,11 @@
     "latest_going": "Standard",
     "latest_surface": "AW",
     "latest_trainer": "P F Yiu",
-    "latest_jockey": "Nichola Yuen(10)",
-    "latest_draw": 14,
-    "latest_weight_lbs": 135,
-    "official_rating": "85",
-    "recent_form": "-15125",
+    "latest_jockey": "Matthew Chadwick",
+    "latest_draw": 15,
+    "latest_weight_lbs": 127,
+    "official_rating": "77",
+    "recent_form": "120880",
     "last_run_days": 14,
     "profile_runs": 2,
     "courses_seen": {
@@ -200,15 +193,12 @@
       "P F Yiu": 2
     },
     "jockeys_seen": {
-      "Nichola Yuen(10)": 2
+      "Matthew Chadwick": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 69,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -224,22 +214,22 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 14,
-        "horse": "Victory Sky",
-        "horse_id": "hrs_36316014",
+        "horse": "Dragon Air Force",
+        "horse_id": "hrs_42749077",
         "age": 5,
         "sex": "gelding",
         "trainer": "P F Yiu",
         "trainer_id": "trn_125424",
-        "jockey": "Nichola Yuen(10)",
-        "jockey_id": "jky_308487",
-        "draw": 14,
-        "number": 2,
-        "lbs": 135,
-        "ofr": "85",
+        "jockey": "Matthew Chadwick",
+        "jockey_id": "jky_265302",
+        "draw": 15,
+        "number": 15,
+        "lbs": 127,
+        "ofr": "77",
         "last_run": 14,
-        "form": "-15125",
+        "form": "120880",
         "headgear": "t",
-        "_stored_at": "2026-06-27T10:06:24.284548+00:00"
+        "_stored_at": "2026-06-27T10:06:24.482188+00:00"
       },
       {
         "source": "the_racing_api",
@@ -255,22 +245,22 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 14,
-        "horse": "Victory Sky",
-        "horse_id": "hrs_36316014",
+        "horse": "Dragon Air Force",
+        "horse_id": "hrs_42749077",
         "age": 5,
         "sex": "gelding",
         "trainer": "P F Yiu",
         "trainer_id": "trn_125424",
-        "jockey": "Nichola Yuen(10)",
-        "jockey_id": "jky_308487",
-        "draw": 14,
-        "number": 2,
-        "lbs": 135,
-        "ofr": "85",
+        "jockey": "Matthew Chadwick",
+        "jockey_id": "jky_265302",
+        "draw": 15,
+        "number": 15,
+        "lbs": 127,
+        "ofr": "77",
         "last_run": 14,
-        "form": "-15125",
+        "form": "120880",
         "headgear": "t",
-        "_stored_at": "2026-06-28T12:42:51.887697+00:00"
+        "_stored_at": "2026-06-28T12:42:52.104919+00:00"
       }
     ],
     "profile_notes": [
@@ -294,14 +284,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 55,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -310,16 +300,16 @@
       "latest_distance_f": 8.5,
       "latest_going": "Standard",
       "latest_class": "",
-      "latest_pulse_score": 69,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "dark_horse": {
-    "horse": "Victory Sky",
-    "horse_id": "hrs_36316014",
-    "age": 5,
+    "horse": "Glittering Legend",
+    "horse_id": "hrs_412693106",
+    "age": 4,
     "sex": "gelding",
     "latest_course": "Sha Tin",
     "latest_time": "1:05",
@@ -329,13 +319,13 @@
     "latest_class": "",
     "latest_going": "Standard",
     "latest_surface": "AW",
-    "latest_trainer": "P F Yiu",
-    "latest_jockey": "Nichola Yuen(10)",
-    "latest_draw": 14,
-    "latest_weight_lbs": 135,
-    "official_rating": "85",
-    "recent_form": "-15125",
-    "last_run_days": 14,
+    "latest_trainer": "David Eustace",
+    "latest_jockey": "Brenton Avdulla",
+    "latest_draw": 7,
+    "latest_weight_lbs": 125,
+    "official_rating": "75",
+    "recent_form": "049293",
+    "last_run_days": 17,
     "profile_runs": 2,
     "courses_seen": {
       "Sha Tin": 2
@@ -348,18 +338,15 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "P F Yiu": 2
+      "David Eustace": 2
     },
     "jockeys_seen": {
-      "Nichola Yuen(10)": 2
+      "Brenton Avdulla": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 69,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -375,22 +362,22 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 14,
-        "horse": "Victory Sky",
-        "horse_id": "hrs_36316014",
-        "age": 5,
+        "horse": "Glittering Legend",
+        "horse_id": "hrs_412693106",
+        "age": 4,
         "sex": "gelding",
-        "trainer": "P F Yiu",
-        "trainer_id": "trn_125424",
-        "jockey": "Nichola Yuen(10)",
-        "jockey_id": "jky_308487",
-        "draw": 14,
-        "number": 2,
-        "lbs": 135,
-        "ofr": "85",
-        "last_run": 14,
-        "form": "-15125",
-        "headgear": "t",
-        "_stored_at": "2026-06-27T10:06:24.284548+00:00"
+        "trainer": "David Eustace",
+        "trainer_id": "trn_375849",
+        "jockey": "Brenton Avdulla",
+        "jockey_id": "jky_266817",
+        "draw": 7,
+        "number": 6,
+        "lbs": 125,
+        "ofr": "75",
+        "last_run": 17,
+        "form": "049293",
+        "headgear": "v",
+        "_stored_at": "2026-06-27T10:06:24.354077+00:00"
       },
       {
         "source": "the_racing_api",
@@ -406,27 +393,25 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 14,
-        "horse": "Victory Sky",
-        "horse_id": "hrs_36316014",
-        "age": 5,
+        "horse": "Glittering Legend",
+        "horse_id": "hrs_412693106",
+        "age": 4,
         "sex": "gelding",
-        "trainer": "P F Yiu",
-        "trainer_id": "trn_125424",
-        "jockey": "Nichola Yuen(10)",
-        "jockey_id": "jky_308487",
-        "draw": 14,
-        "number": 2,
-        "lbs": 135,
-        "ofr": "85",
-        "last_run": 14,
-        "form": "-15125",
-        "headgear": "t",
-        "_stored_at": "2026-06-28T12:42:51.887697+00:00"
+        "trainer": "David Eustace",
+        "trainer_id": "trn_375849",
+        "jockey": "Brenton Avdulla",
+        "jockey_id": "jky_266817",
+        "draw": 7,
+        "number": 6,
+        "lbs": 125,
+        "ofr": "75",
+        "last_run": 17,
+        "form": "049293",
+        "headgear": "v",
+        "_stored_at": "2026-06-28T12:42:51.955033+00:00"
       }
     ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Sha Tin",
       "runs": 2
@@ -445,14 +430,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 55,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -461,466 +446,13 @@
       "latest_distance_f": 8.5,
       "latest_going": "Standard",
       "latest_class": "",
-      "latest_pulse_score": 69,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "runners": [
-    {
-      "horse": "Run Run Smart",
-      "horse_id": "hrs_40919158",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:05",
-      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "F C Lor",
-      "latest_jockey": "Britney Wong(7)",
-      "latest_draw": 1,
-      "latest_weight_lbs": 119,
-      "official_rating": "69",
-      "recent_form": "910312",
-      "last_run_days": 20,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sha Tin": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "F C Lor": 2
-      },
-      "jockeys_seen": {
-        "Britney Wong(7)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 72,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Run Run Smart",
-          "horse_id": "hrs_40919158",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "F C Lor",
-          "trainer_id": "trn_303201",
-          "jockey": "Britney Wong(7)",
-          "jockey_id": "jky_309648",
-          "draw": 1,
-          "number": 8,
-          "lbs": 119,
-          "ofr": "69",
-          "last_run": 20,
-          "form": "910312",
-          "headgear": "t",
-          "_stored_at": "2026-06-27T10:06:24.382958+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Run Run Smart",
-          "horse_id": "hrs_40919158",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "F C Lor",
-          "trainer_id": "trn_303201",
-          "jockey": "Britney Wong(7)",
-          "jockey_id": "jky_309648",
-          "draw": 1,
-          "number": 8,
-          "lbs": 119,
-          "ofr": "69",
-          "last_run": 20,
-          "form": "910312",
-          "headgear": "t",
-          "_stored_at": "2026-06-28T12:42:51.987585+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "",
-        "latest_pulse_score": 72,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Victory Sky",
-      "horse_id": "hrs_36316014",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:05",
-      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "P F Yiu",
-      "latest_jockey": "Nichola Yuen(10)",
-      "latest_draw": 14,
-      "latest_weight_lbs": 135,
-      "official_rating": "85",
-      "recent_form": "-15125",
-      "last_run_days": 14,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sha Tin": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "P F Yiu": 2
-      },
-      "jockeys_seen": {
-        "Nichola Yuen(10)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 69,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Victory Sky",
-          "horse_id": "hrs_36316014",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "P F Yiu",
-          "trainer_id": "trn_125424",
-          "jockey": "Nichola Yuen(10)",
-          "jockey_id": "jky_308487",
-          "draw": 14,
-          "number": 2,
-          "lbs": 135,
-          "ofr": "85",
-          "last_run": 14,
-          "form": "-15125",
-          "headgear": "t",
-          "_stored_at": "2026-06-27T10:06:24.284548+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Victory Sky",
-          "horse_id": "hrs_36316014",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "P F Yiu",
-          "trainer_id": "trn_125424",
-          "jockey": "Nichola Yuen(10)",
-          "jockey_id": "jky_308487",
-          "draw": 14,
-          "number": 2,
-          "lbs": 135,
-          "ofr": "85",
-          "last_run": 14,
-          "form": "-15125",
-          "headgear": "t",
-          "_stored_at": "2026-06-28T12:42:51.887697+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 55,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "",
-        "latest_pulse_score": 69,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "King Dance",
-      "horse_id": "hrs_53180897",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:05",
-      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "K W Lui",
-      "latest_jockey": "Richard Kingscote",
-      "latest_draw": 5,
-      "latest_weight_lbs": 115,
-      "official_rating": "61",
-      "recent_form": "616110",
-      "last_run_days": 27,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sha Tin": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "K W Lui": 2
-      },
-      "jockeys_seen": {
-        "Richard Kingscote": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 64,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "King Dance",
-          "horse_id": "hrs_53180897",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "K W Lui",
-          "trainer_id": "trn_114858",
-          "jockey": "Richard Kingscote",
-          "jockey_id": "jky_250662",
-          "draw": 5,
-          "number": 13,
-          "lbs": 115,
-          "ofr": "61",
-          "last_run": 27,
-          "form": "616110",
-          "headgear": "b",
-          "_stored_at": "2026-06-27T10:06:24.453665+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "King Dance",
-          "horse_id": "hrs_53180897",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "K W Lui",
-          "trainer_id": "trn_114858",
-          "jockey": "Richard Kingscote",
-          "jockey_id": "jky_250662",
-          "draw": 5,
-          "number": 13,
-          "lbs": 115,
-          "ofr": "61",
-          "last_run": 27,
-          "form": "616110",
-          "headgear": "b",
-          "_stored_at": "2026-06-28T12:42:52.070883+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "",
-        "latest_pulse_score": 64,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
     {
       "horse": "All Round Winner",
       "horse_id": "hrs_52086853",
@@ -960,11 +492,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 57,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1048,13 +577,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 50,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1063,1200 +593,7 @@
         "latest_distance_f": 8.5,
         "latest_going": "Standard",
         "latest_class": "",
-        "latest_pulse_score": 57,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Must Go",
-      "horse_id": "hrs_34140316",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:05",
-      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "J Size",
-      "latest_jockey": "Andrea Atzeni",
-      "latest_draw": 10,
-      "latest_weight_lbs": 120,
-      "official_rating": "70",
-      "recent_form": "000163",
-      "last_run_days": 14,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sha Tin": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "J Size": 2
-      },
-      "jockeys_seen": {
-        "Andrea Atzeni": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 57,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Must Go",
-          "horse_id": "hrs_34140316",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "J Size",
-          "trainer_id": "trn_114651",
-          "jockey": "Andrea Atzeni",
-          "jockey_id": "jky_262047",
-          "draw": 10,
-          "number": 7,
-          "lbs": 120,
-          "ofr": "70",
-          "last_run": 14,
-          "form": "000163",
-          "headgear": "et",
-          "_stored_at": "2026-06-27T10:06:24.367829+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Must Go",
-          "horse_id": "hrs_34140316",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "J Size",
-          "trainer_id": "trn_114651",
-          "jockey": "Andrea Atzeni",
-          "jockey_id": "jky_262047",
-          "draw": 10,
-          "number": 7,
-          "lbs": 120,
-          "ofr": "70",
-          "last_run": 14,
-          "form": "000163",
-          "headgear": "et",
-          "_stored_at": "2026-06-28T12:42:51.971188+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 50,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "",
-        "latest_pulse_score": 57,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Glittering Legend",
-      "horse_id": "hrs_412693106",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:05",
-      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "David Eustace",
-      "latest_jockey": "Brenton Avdulla",
-      "latest_draw": 7,
-      "latest_weight_lbs": 125,
-      "official_rating": "75",
-      "recent_form": "049293",
-      "last_run_days": 17,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sha Tin": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "David Eustace": 2
-      },
-      "jockeys_seen": {
-        "Brenton Avdulla": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 56,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Glittering Legend",
-          "horse_id": "hrs_412693106",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "David Eustace",
-          "trainer_id": "trn_375849",
-          "jockey": "Brenton Avdulla",
-          "jockey_id": "jky_266817",
-          "draw": 7,
-          "number": 6,
-          "lbs": 125,
-          "ofr": "75",
-          "last_run": 17,
-          "form": "049293",
-          "headgear": "v",
-          "_stored_at": "2026-06-27T10:06:24.354077+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Glittering Legend",
-          "horse_id": "hrs_412693106",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "David Eustace",
-          "trainer_id": "trn_375849",
-          "jockey": "Brenton Avdulla",
-          "jockey_id": "jky_266817",
-          "draw": 7,
-          "number": 6,
-          "lbs": 125,
-          "ofr": "75",
-          "last_run": 17,
-          "form": "049293",
-          "headgear": "v",
-          "_stored_at": "2026-06-28T12:42:51.955033+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 49,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "",
-        "latest_pulse_score": 56,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "High Praise",
-      "horse_id": "hrs_56525217",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:05",
-      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "W K Mo",
-      "latest_jockey": "",
-      "latest_draw": 16,
-      "latest_weight_lbs": 115,
-      "official_rating": "63",
-      "recent_form": "132-00",
-      "last_run_days": 20,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sha Tin": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "W K Mo": 2
-      },
-      "jockeys_seen": {},
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "High Praise",
-          "horse_id": "hrs_56525217",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "W K Mo",
-          "trainer_id": "trn_366579",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 16,
-          "number": 16,
-          "lbs": 115,
-          "ofr": "63",
-          "last_run": 20,
-          "form": "132-00",
-          "headgear": "tp",
-          "_stored_at": "2026-06-27T10:06:24.496063+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "High Praise",
-          "horse_id": "hrs_56525217",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "W K Mo",
-          "trainer_id": "trn_366579",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 16,
-          "number": 16,
-          "lbs": 115,
-          "ofr": "63",
-          "last_run": 20,
-          "form": "132-00",
-          "headgear": "tp",
-          "_stored_at": "2026-06-28T12:42:52.121762+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 48,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "",
-        "latest_pulse_score": 54,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Nezha",
-      "horse_id": "hrs_54178152",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:05",
-      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "D J Hall",
-      "latest_jockey": "Matthew Poon",
-      "latest_draw": 6,
-      "latest_weight_lbs": 115,
-      "official_rating": "65",
-      "recent_form": "0-1775",
-      "last_run_days": 52,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sha Tin": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "D J Hall": 2
-      },
-      "jockeys_seen": {
-        "Matthew Poon": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 52,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Nezha",
-          "horse_id": "hrs_54178152",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "D J Hall",
-          "trainer_id": "trn_211005",
-          "jockey": "Matthew Poon",
-          "jockey_id": "jky_287175",
-          "draw": 6,
-          "number": 9,
-          "lbs": 115,
-          "ofr": "65",
-          "last_run": 52,
-          "form": "0-1775",
-          "headgear": "b",
-          "_stored_at": "2026-06-27T10:06:24.397396+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Nezha",
-          "horse_id": "hrs_54178152",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "D J Hall",
-          "trainer_id": "trn_211005",
-          "jockey": "Matthew Poon",
-          "jockey_id": "jky_287175",
-          "draw": 6,
-          "number": 9,
-          "lbs": 115,
-          "ofr": "65",
-          "last_run": 52,
-          "form": "0-1775",
-          "headgear": "b",
-          "_stored_at": "2026-06-28T12:42:52.004768+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "",
-        "latest_pulse_score": 52,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Talents Ambition",
-      "horse_id": "hrs_39589221",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:05",
-      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Mark Newnham",
-      "latest_jockey": "Zac Purton",
-      "latest_draw": 3,
-      "latest_weight_lbs": 135,
-      "official_rating": "85",
-      "recent_form": "-37429",
-      "last_run_days": 52,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sha Tin": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Mark Newnham": 2
-      },
-      "jockeys_seen": {
-        "Zac Purton": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Talents Ambition",
-          "horse_id": "hrs_39589221",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Mark Newnham",
-          "trainer_id": "trn_290223",
-          "jockey": "Zac Purton",
-          "jockey_id": "jky_247017",
-          "draw": 3,
-          "number": 1,
-          "lbs": 135,
-          "ofr": "85",
-          "last_run": 52,
-          "form": "-37429",
-          "headgear": "b",
-          "_stored_at": "2026-06-27T10:06:24.270391+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Talents Ambition",
-          "horse_id": "hrs_39589221",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Mark Newnham",
-          "trainer_id": "trn_290223",
-          "jockey": "Zac Purton",
-          "jockey_id": "jky_247017",
-          "draw": 3,
-          "number": 1,
-          "lbs": 135,
-          "ofr": "85",
-          "last_run": 52,
-          "form": "-37429",
-          "headgear": "b",
-          "_stored_at": "2026-06-28T12:42:51.871210+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "",
-        "latest_pulse_score": 51,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Pray For Justice",
-      "horse_id": "hrs_40165867",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:05",
-      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "David Eustace",
-      "latest_jockey": "Angus Chung(2)",
-      "latest_draw": 8,
-      "latest_weight_lbs": 115,
-      "official_rating": "61",
-      "recent_form": "1/5-75",
-      "last_run_days": 45,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sha Tin": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "David Eustace": 2
-      },
-      "jockeys_seen": {
-        "Angus Chung(2)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Pray For Justice",
-          "horse_id": "hrs_40165867",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "David Eustace",
-          "trainer_id": "trn_375849",
-          "jockey": "Angus Chung(2)",
-          "jockey_id": "jky_304404",
-          "draw": 8,
-          "number": 14,
-          "lbs": 115,
-          "ofr": "61",
-          "last_run": 45,
-          "form": "1/5-75",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:24.468552+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Pray For Justice",
-          "horse_id": "hrs_40165867",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "David Eustace",
-          "trainer_id": "trn_375849",
-          "jockey": "Angus Chung(2)",
-          "jockey_id": "jky_304404",
-          "draw": 8,
-          "number": 14,
-          "lbs": 115,
-          "ofr": "61",
-          "last_run": 45,
-          "form": "1/5-75",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:52.087331+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "",
-        "latest_pulse_score": 45,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Sword Point",
-      "horse_id": "hrs_22680847",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:05",
-      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "F C Lor",
-      "latest_jockey": "K C Leung",
-      "latest_draw": 2,
-      "latest_weight_lbs": 128,
-      "official_rating": "78",
-      "recent_form": "799600",
-      "last_run_days": 34,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sha Tin": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "F C Lor": 2
-      },
-      "jockeys_seen": {
-        "K C Leung": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 41,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Sword Point",
-          "horse_id": "hrs_22680847",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "F C Lor",
-          "trainer_id": "trn_303201",
-          "jockey": "K C Leung",
-          "jockey_id": "jky_265608",
-          "draw": 2,
-          "number": 5,
-          "lbs": 128,
-          "ofr": "78",
-          "last_run": 34,
-          "form": "799600",
-          "headgear": "b",
-          "_stored_at": "2026-06-27T10:06:24.339986+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Sword Point",
-          "horse_id": "hrs_22680847",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "F C Lor",
-          "trainer_id": "trn_303201",
-          "jockey": "K C Leung",
-          "jockey_id": "jky_265608",
-          "draw": 2,
-          "number": 5,
-          "lbs": 128,
-          "ofr": "78",
-          "last_run": 34,
-          "form": "799600",
-          "headgear": "b",
-          "_stored_at": "2026-06-28T12:42:51.937869+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 42,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "",
-        "latest_pulse_score": 41,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Telecom Fighters",
-      "horse_id": "hrs_19610906",
-      "age": 9,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:05",
-      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Y S Tsui",
-      "latest_jockey": "H T Mo(2)",
-      "latest_draw": 13,
-      "latest_weight_lbs": 115,
-      "official_rating": "62",
-      "recent_form": "700409",
-      "last_run_days": 17,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sha Tin": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Y S Tsui": 2
-      },
-      "jockeys_seen": {
-        "H T Mo(2)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 41,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Telecom Fighters",
-          "horse_id": "hrs_19610906",
-          "age": 9,
-          "sex": "gelding",
-          "trainer": "Y S Tsui",
-          "trainer_id": "trn_161982",
-          "jockey": "H T Mo(2)",
-          "jockey_id": "jky_286911",
-          "draw": 13,
-          "number": 11,
-          "lbs": 115,
-          "ofr": "62",
-          "last_run": 17,
-          "form": "700409",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:24.426094+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007268",
-          "course": "Sha Tin",
-          "date": "2026-06-27",
-          "off_time": "1:05",
-          "off_dt": "2026-06-27T13:05:00+01:00",
-          "race_name": "Beas River Handicap (Class 3) (All Weather)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Telecom Fighters",
-          "horse_id": "hrs_19610906",
-          "age": 9,
-          "sex": "gelding",
-          "trainer": "Y S Tsui",
-          "trainer_id": "trn_161982",
-          "jockey": "H T Mo(2)",
-          "jockey_id": "jky_286911",
-          "draw": 13,
-          "number": 11,
-          "lbs": 115,
-          "ofr": "62",
-          "last_run": 17,
-          "form": "700409",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:52.037741+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 42,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "",
-        "latest_pulse_score": 41,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -2301,11 +638,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 36,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2391,7 +725,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 40,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2407,7 +741,153 @@
         "latest_distance_f": 8.5,
         "latest_going": "Standard",
         "latest_class": "",
-        "latest_pulse_score": 36,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Glittering Legend",
+      "horse_id": "hrs_412693106",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:05",
+      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "David Eustace",
+      "latest_jockey": "Brenton Avdulla",
+      "latest_draw": 7,
+      "latest_weight_lbs": 125,
+      "official_rating": "75",
+      "recent_form": "049293",
+      "last_run_days": 17,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "David Eustace": 2
+      },
+      "jockeys_seen": {
+        "Brenton Avdulla": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Glittering Legend",
+          "horse_id": "hrs_412693106",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "David Eustace",
+          "trainer_id": "trn_375849",
+          "jockey": "Brenton Avdulla",
+          "jockey_id": "jky_266817",
+          "draw": 7,
+          "number": 6,
+          "lbs": 125,
+          "ofr": "75",
+          "last_run": 17,
+          "form": "049293",
+          "headgear": "v",
+          "_stored_at": "2026-06-27T10:06:24.354077+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Glittering Legend",
+          "horse_id": "hrs_412693106",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "David Eustace",
+          "trainer_id": "trn_375849",
+          "jockey": "Brenton Avdulla",
+          "jockey_id": "jky_266817",
+          "draw": 7,
+          "number": 6,
+          "lbs": 125,
+          "ofr": "75",
+          "last_run": 17,
+          "form": "049293",
+          "headgear": "v",
+          "_stored_at": "2026-06-28T12:42:51.955033+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.5,
+        "latest_going": "Standard",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -2452,11 +932,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 36,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2540,7 +1017,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 40,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2556,7 +1033,153 @@
         "latest_distance_f": 8.5,
         "latest_going": "Standard",
         "latest_class": "",
-        "latest_pulse_score": 36,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "King Dance",
+      "horse_id": "hrs_53180897",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:05",
+      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "K W Lui",
+      "latest_jockey": "Richard Kingscote",
+      "latest_draw": 5,
+      "latest_weight_lbs": 115,
+      "official_rating": "61",
+      "recent_form": "616110",
+      "last_run_days": 27,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "K W Lui": 2
+      },
+      "jockeys_seen": {
+        "Richard Kingscote": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "King Dance",
+          "horse_id": "hrs_53180897",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "K W Lui",
+          "trainer_id": "trn_114858",
+          "jockey": "Richard Kingscote",
+          "jockey_id": "jky_250662",
+          "draw": 5,
+          "number": 13,
+          "lbs": 115,
+          "ofr": "61",
+          "last_run": 27,
+          "form": "616110",
+          "headgear": "b",
+          "_stored_at": "2026-06-27T10:06:24.453665+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "King Dance",
+          "horse_id": "hrs_53180897",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "K W Lui",
+          "trainer_id": "trn_114858",
+          "jockey": "Richard Kingscote",
+          "jockey_id": "jky_250662",
+          "draw": 5,
+          "number": 13,
+          "lbs": 115,
+          "ofr": "61",
+          "last_run": 27,
+          "form": "616110",
+          "headgear": "b",
+          "_stored_at": "2026-06-28T12:42:52.070883+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.5,
+        "latest_going": "Standard",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -2601,11 +1224,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 36,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2689,7 +1309,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 40,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2705,7 +1325,1037 @@
         "latest_distance_f": 8.5,
         "latest_going": "Standard",
         "latest_class": "",
-        "latest_pulse_score": 36,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Must Go",
+      "horse_id": "hrs_34140316",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:05",
+      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "J Size",
+      "latest_jockey": "Andrea Atzeni",
+      "latest_draw": 10,
+      "latest_weight_lbs": 120,
+      "official_rating": "70",
+      "recent_form": "000163",
+      "last_run_days": 14,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "J Size": 2
+      },
+      "jockeys_seen": {
+        "Andrea Atzeni": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Must Go",
+          "horse_id": "hrs_34140316",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "J Size",
+          "trainer_id": "trn_114651",
+          "jockey": "Andrea Atzeni",
+          "jockey_id": "jky_262047",
+          "draw": 10,
+          "number": 7,
+          "lbs": 120,
+          "ofr": "70",
+          "last_run": 14,
+          "form": "000163",
+          "headgear": "et",
+          "_stored_at": "2026-06-27T10:06:24.367829+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Must Go",
+          "horse_id": "hrs_34140316",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "J Size",
+          "trainer_id": "trn_114651",
+          "jockey": "Andrea Atzeni",
+          "jockey_id": "jky_262047",
+          "draw": 10,
+          "number": 7,
+          "lbs": 120,
+          "ofr": "70",
+          "last_run": 14,
+          "form": "000163",
+          "headgear": "et",
+          "_stored_at": "2026-06-28T12:42:51.971188+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.5,
+        "latest_going": "Standard",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Nezha",
+      "horse_id": "hrs_54178152",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:05",
+      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "D J Hall",
+      "latest_jockey": "Matthew Poon",
+      "latest_draw": 6,
+      "latest_weight_lbs": 115,
+      "official_rating": "65",
+      "recent_form": "0-1775",
+      "last_run_days": 52,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "D J Hall": 2
+      },
+      "jockeys_seen": {
+        "Matthew Poon": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Nezha",
+          "horse_id": "hrs_54178152",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "D J Hall",
+          "trainer_id": "trn_211005",
+          "jockey": "Matthew Poon",
+          "jockey_id": "jky_287175",
+          "draw": 6,
+          "number": 9,
+          "lbs": 115,
+          "ofr": "65",
+          "last_run": 52,
+          "form": "0-1775",
+          "headgear": "b",
+          "_stored_at": "2026-06-27T10:06:24.397396+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Nezha",
+          "horse_id": "hrs_54178152",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "D J Hall",
+          "trainer_id": "trn_211005",
+          "jockey": "Matthew Poon",
+          "jockey_id": "jky_287175",
+          "draw": 6,
+          "number": 9,
+          "lbs": 115,
+          "ofr": "65",
+          "last_run": 52,
+          "form": "0-1775",
+          "headgear": "b",
+          "_stored_at": "2026-06-28T12:42:52.004768+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.5,
+        "latest_going": "Standard",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Pray For Justice",
+      "horse_id": "hrs_40165867",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:05",
+      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "David Eustace",
+      "latest_jockey": "Angus Chung(2)",
+      "latest_draw": 8,
+      "latest_weight_lbs": 115,
+      "official_rating": "61",
+      "recent_form": "1/5-75",
+      "last_run_days": 45,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "David Eustace": 2
+      },
+      "jockeys_seen": {
+        "Angus Chung(2)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Pray For Justice",
+          "horse_id": "hrs_40165867",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "David Eustace",
+          "trainer_id": "trn_375849",
+          "jockey": "Angus Chung(2)",
+          "jockey_id": "jky_304404",
+          "draw": 8,
+          "number": 14,
+          "lbs": 115,
+          "ofr": "61",
+          "last_run": 45,
+          "form": "1/5-75",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:24.468552+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Pray For Justice",
+          "horse_id": "hrs_40165867",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "David Eustace",
+          "trainer_id": "trn_375849",
+          "jockey": "Angus Chung(2)",
+          "jockey_id": "jky_304404",
+          "draw": 8,
+          "number": 14,
+          "lbs": 115,
+          "ofr": "61",
+          "last_run": 45,
+          "form": "1/5-75",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:52.087331+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.5,
+        "latest_going": "Standard",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Run Run Smart",
+      "horse_id": "hrs_40919158",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:05",
+      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "F C Lor",
+      "latest_jockey": "Britney Wong(7)",
+      "latest_draw": 1,
+      "latest_weight_lbs": 119,
+      "official_rating": "69",
+      "recent_form": "910312",
+      "last_run_days": 20,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "F C Lor": 2
+      },
+      "jockeys_seen": {
+        "Britney Wong(7)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Run Run Smart",
+          "horse_id": "hrs_40919158",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "F C Lor",
+          "trainer_id": "trn_303201",
+          "jockey": "Britney Wong(7)",
+          "jockey_id": "jky_309648",
+          "draw": 1,
+          "number": 8,
+          "lbs": 119,
+          "ofr": "69",
+          "last_run": 20,
+          "form": "910312",
+          "headgear": "t",
+          "_stored_at": "2026-06-27T10:06:24.382958+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Run Run Smart",
+          "horse_id": "hrs_40919158",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "F C Lor",
+          "trainer_id": "trn_303201",
+          "jockey": "Britney Wong(7)",
+          "jockey_id": "jky_309648",
+          "draw": 1,
+          "number": 8,
+          "lbs": 119,
+          "ofr": "69",
+          "last_run": 20,
+          "form": "910312",
+          "headgear": "t",
+          "_stored_at": "2026-06-28T12:42:51.987585+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.5,
+        "latest_going": "Standard",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Sword Point",
+      "horse_id": "hrs_22680847",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:05",
+      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "F C Lor",
+      "latest_jockey": "K C Leung",
+      "latest_draw": 2,
+      "latest_weight_lbs": 128,
+      "official_rating": "78",
+      "recent_form": "799600",
+      "last_run_days": 34,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "F C Lor": 2
+      },
+      "jockeys_seen": {
+        "K C Leung": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Sword Point",
+          "horse_id": "hrs_22680847",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "F C Lor",
+          "trainer_id": "trn_303201",
+          "jockey": "K C Leung",
+          "jockey_id": "jky_265608",
+          "draw": 2,
+          "number": 5,
+          "lbs": 128,
+          "ofr": "78",
+          "last_run": 34,
+          "form": "799600",
+          "headgear": "b",
+          "_stored_at": "2026-06-27T10:06:24.339986+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Sword Point",
+          "horse_id": "hrs_22680847",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "F C Lor",
+          "trainer_id": "trn_303201",
+          "jockey": "K C Leung",
+          "jockey_id": "jky_265608",
+          "draw": 2,
+          "number": 5,
+          "lbs": 128,
+          "ofr": "78",
+          "last_run": 34,
+          "form": "799600",
+          "headgear": "b",
+          "_stored_at": "2026-06-28T12:42:51.937869+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.5,
+        "latest_going": "Standard",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Talents Ambition",
+      "horse_id": "hrs_39589221",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:05",
+      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Mark Newnham",
+      "latest_jockey": "Zac Purton",
+      "latest_draw": 3,
+      "latest_weight_lbs": 135,
+      "official_rating": "85",
+      "recent_form": "-37429",
+      "last_run_days": 52,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Mark Newnham": 2
+      },
+      "jockeys_seen": {
+        "Zac Purton": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Talents Ambition",
+          "horse_id": "hrs_39589221",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Mark Newnham",
+          "trainer_id": "trn_290223",
+          "jockey": "Zac Purton",
+          "jockey_id": "jky_247017",
+          "draw": 3,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "85",
+          "last_run": 52,
+          "form": "-37429",
+          "headgear": "b",
+          "_stored_at": "2026-06-27T10:06:24.270391+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Talents Ambition",
+          "horse_id": "hrs_39589221",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Mark Newnham",
+          "trainer_id": "trn_290223",
+          "jockey": "Zac Purton",
+          "jockey_id": "jky_247017",
+          "draw": 3,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "85",
+          "last_run": 52,
+          "form": "-37429",
+          "headgear": "b",
+          "_stored_at": "2026-06-28T12:42:51.871210+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.5,
+        "latest_going": "Standard",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Telecom Fighters",
+      "horse_id": "hrs_19610906",
+      "age": 9,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:05",
+      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Y S Tsui",
+      "latest_jockey": "H T Mo(2)",
+      "latest_draw": 13,
+      "latest_weight_lbs": 115,
+      "official_rating": "62",
+      "recent_form": "700409",
+      "last_run_days": 17,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Y S Tsui": 2
+      },
+      "jockeys_seen": {
+        "H T Mo(2)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Telecom Fighters",
+          "horse_id": "hrs_19610906",
+          "age": 9,
+          "sex": "gelding",
+          "trainer": "Y S Tsui",
+          "trainer_id": "trn_161982",
+          "jockey": "H T Mo(2)",
+          "jockey_id": "jky_286911",
+          "draw": 13,
+          "number": 11,
+          "lbs": 115,
+          "ofr": "62",
+          "last_run": 17,
+          "form": "700409",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:24.426094+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Telecom Fighters",
+          "horse_id": "hrs_19610906",
+          "age": 9,
+          "sex": "gelding",
+          "trainer": "Y S Tsui",
+          "trainer_id": "trn_161982",
+          "jockey": "H T Mo(2)",
+          "jockey_id": "jky_286911",
+          "draw": 13,
+          "number": 11,
+          "lbs": 115,
+          "ofr": "62",
+          "last_run": 17,
+          "form": "700409",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:52.037741+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.5,
+        "latest_going": "Standard",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -2750,12 +2400,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 34,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2839,7 +2485,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 39,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2855,7 +2501,155 @@
         "latest_distance_f": 8.5,
         "latest_going": "Standard",
         "latest_class": "",
-        "latest_pulse_score": 34,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Victory Sky",
+      "horse_id": "hrs_36316014",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:05",
+      "latest_race": "Beas River Handicap (Class 3) (All Weather)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "P F Yiu",
+      "latest_jockey": "Nichola Yuen(10)",
+      "latest_draw": 14,
+      "latest_weight_lbs": 135,
+      "official_rating": "85",
+      "recent_form": "-15125",
+      "last_run_days": 14,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "P F Yiu": 2
+      },
+      "jockeys_seen": {
+        "Nichola Yuen(10)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Victory Sky",
+          "horse_id": "hrs_36316014",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "P F Yiu",
+          "trainer_id": "trn_125424",
+          "jockey": "Nichola Yuen(10)",
+          "jockey_id": "jky_308487",
+          "draw": 14,
+          "number": 2,
+          "lbs": 135,
+          "ofr": "85",
+          "last_run": 14,
+          "form": "-15125",
+          "headgear": "t",
+          "_stored_at": "2026-06-27T10:06:24.284548+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007268",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "1:05",
+          "off_dt": "2026-06-27T13:05:00+01:00",
+          "race_name": "Beas River Handicap (Class 3) (All Weather)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Victory Sky",
+          "horse_id": "hrs_36316014",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "P F Yiu",
+          "trainer_id": "trn_125424",
+          "jockey": "Nichola Yuen(10)",
+          "jockey_id": "jky_308487",
+          "draw": 14,
+          "number": 2,
+          "lbs": 135,
+          "ofr": "85",
+          "last_run": 14,
+          "form": "-15125",
+          "headgear": "t",
+          "_stored_at": "2026-06-28T12:42:51.887697+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.5,
+        "latest_going": "Standard",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -2863,8 +2657,9 @@
     }
   ],
   "notes": [
-    "Run Run Smart is the top-rated Pulse IQ runner.",
+    "All Round Winner is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Victory Sky is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Glittering Legend is flagged as a possible dark horse."
   ]
 }

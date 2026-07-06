@@ -7,6 +7,8 @@ import threading
 import requests
 import time
 
+from app.modules.performance.profit_engine import simulate_level_stakes
+from app.modules.performance.bet_ledger import load_jsonl, LEDGER_FILE
 from app.modules.race_intelligence.output import (get_race_intelligence_dashboard,)
 from app.modules.strategy.engine import get_strategy_lab_data
 from app.modules.dashboard import get_dashboard_data
@@ -179,6 +181,9 @@ def update_all():
 def update_performance():
     return start_update("performance", "/horses/performance")
 
+@app.post("/update/settlement")
+def update_settlement():
+    return start_update("settlement", "/bet-builder")
 
 @app.get("/horses", response_class=HTMLResponse)
 def horses(request: Request):
@@ -313,6 +318,123 @@ def horses_leaderboards(request: Request):
             "active_page": "horses",
             "trainers": data["trainers"],
             "jockeys": data["jockeys"],
+        },
+    )
+    
+@app.get("/bet-ledger", response_class=HTMLResponse)
+def bet_ledger(request: Request, stake: float = Query(1.0)):
+    bets = load_jsonl(LEDGER_FILE)
+    report = simulate_level_stakes(stake)
+
+    open_bets = [
+        bet for bet in bets
+        if bet.get("status") == "OPEN"
+    ]
+
+    settled_bets = [
+        bet for bet in bets
+        if bet.get("status") == "SETTLED"
+    ]
+
+    official_bets = [
+        bet for bet in bets
+        if bet.get("official_bet")
+    ]
+
+    near_misses = [
+        bet for bet in bets
+        if (
+            not bet.get("official_bet")
+            and (bet.get("pulse_score") or 0) >= 80
+        )
+    ]
+
+    prediction_only = [
+        bet for bet in bets
+        if (
+            not bet.get("official_bet")
+            and (bet.get("pulse_score") or 0) < 80
+        )
+    ]
+
+    official_settled = [
+        bet for bet in official_bets
+        if bet.get("status") == "SETTLED"
+    ]
+
+    official_winners = [
+        bet for bet in official_settled
+        if bet.get("won")
+    ]
+
+    official_profit = round(
+        sum(bet.get("profit") or 0 for bet in official_settled),
+        2,
+    )
+
+    official_total = len(official_bets)
+
+    official_strike_rate = 0
+    official_roi = 0
+
+    if official_settled:
+        official_strike_rate = round(
+            (len(official_winners) / len(official_settled)) * 100,
+            1,
+        )
+
+        official_roi = round(
+            (official_profit / len(official_settled)) * 100,
+            1,
+        )
+
+    today = None
+    if bets:
+        today = max(bet.get("date") for bet in bets if bet.get("date"))
+
+    today_bets = [
+        bet for bet in bets
+        if bet.get("date") == today
+    ]
+
+    settled_today_bets = [
+        bet for bet in today_bets
+        if bet.get("status") == "SETTLED"
+    ]
+
+    won_today_bets = [
+        bet for bet in settled_today_bets
+        if bet.get("won")
+    ]
+
+    today_profit = round(
+        sum(bet.get("profit") or 0 for bet in settled_today_bets),
+        2,
+    )
+
+    return templates.TemplateResponse(
+        request,
+        "bet_ledger.html",
+        {
+            "active_page": "bet_ledger",
+            "bets": bets[-50:][::-1],
+            "official_bets": official_bets,
+            "prediction_only": prediction_only,
+            "near_misses": near_misses,
+            "open_bets": open_bets,
+            "settled_bets": settled_bets,
+            "report": report,
+            "stake": stake,
+
+            "official_total": official_total,
+            "official_winners": len(official_winners),
+            "official_strike_rate": official_strike_rate,
+            "official_roi": official_roi,
+            "official_profit": official_profit,
+
+            "settled_today": len(settled_today_bets),
+            "won_today": len(won_today_bets),
+            "today_profit": today_profit,
         },
     )
     

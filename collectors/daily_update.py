@@ -33,10 +33,17 @@ JOBS = {
     ],
 
     "performance": [
+        {"label": "BBC Horse Results", "module": "collectors.bbc_horse_results"},
         {"label": "Sporting Life Results", "module": "collectors.sporting_life_results"},
         {"label": "Pulse Performance", "module": "collectors.analyse_pulse_performance"},
         {"label": "Learn From Results", "module": "collectors.learn_from_results"},
         {"label": "Learning Factors", "module": "collectors.analyse_learning_factors"},
+    ],
+
+    "settlement": [
+        {"label": "BBC Horse Results", "module": "collectors.bbc_horse_results"},
+        {"label": "Sporting Life Results", "module": "collectors.sporting_life_results"},
+        {"label": "Settle Bet Ledger", "module": "app.modules.performance.settlement"},
     ],
 }
 
@@ -45,6 +52,7 @@ JOBS["all"] = (
     JOBS["horses"]
     + JOBS["dogs"]
     + JOBS["football"]
+    + JOBS["settlement"]
 )
 
 

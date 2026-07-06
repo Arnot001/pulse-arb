@@ -6,71 +6,41 @@
   "sp": "1/1",
   "course": "Beverley",
   "time": "17:00",
-  "top_pick": "Havachoc",
-  "top_pick_score": 71,
-  "winner_score": 48,
+  "top_pick": "Bruce Banner",
+  "top_pick_score": 73,
+  "winner_score": 59,
   "signals": [
     {
-      "signal": "Favourite course matched",
-      "reason": "Winner ran at its most common course: Beverley"
-    },
-    {
-      "signal": "Favourite distance matched",
-      "reason": "Winner ran at its most common distance: 12.0f"
-    },
-    {
-      "signal": "Favourite going matched",
-      "reason": "Winner ran on its most common going: Good To Firm"
-    },
-    {
-      "signal": "Favourite class matched",
-      "reason": "Winner ran at its most common class: Class 6"
-    },
-    {
-      "signal": "Strong suitability profile",
-      "reason": "Suitability Score was 90"
-    },
-    {
-      "signal": "Profile strength existed",
-      "reason": "Today's course matches strongest profile pattern"
-    },
-    {
-      "signal": "Profile strength existed",
-      "reason": "Today's distance matches strongest profile pattern"
-    },
-    {
-      "signal": "Profile strength existed",
-      "reason": "Today's going matches known profile preference"
-    },
-    {
-      "signal": "Profile strength existed",
-      "reason": "Race class matches common profile level"
+      "signal": "Stored history available",
+      "reason": "Profile had 3 stored runs"
     }
   ],
   "profile_snapshot": {
     "average_pulse_score": 0,
-    "latest_pulse_score": 48,
-    "horse_intelligence_score": 49,
-    "suitability_score": 90,
-    "profile_runs": 1,
+    "latest_pulse_score": 59,
+    "horse_intelligence_score": 43,
+    "suitability_score": 55,
+    "profile_runs": 3,
     "favourite_course": {
-      "value": "Beverley",
-      "runs": 1
+      "value": "York",
+      "runs": 2
     },
     "favourite_distance": {
-      "value": 12.0,
-      "runs": 1
+      "value": 10.5,
+      "runs": 2
     },
     "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
+      "value": "Good",
+      "runs": 2
     },
     "favourite_class": {
-      "value": "Class 6",
-      "runs": 1
+      "value": "Class 4",
+      "runs": 2
     }
   },
   "cautions": [
-    "Limited stored profile data"
+    "Course does not strongly match stored profile",
+    "Distance not yet a clear profile strength",
+    "Going is not clearly proven from stored profile"
   ]
 }

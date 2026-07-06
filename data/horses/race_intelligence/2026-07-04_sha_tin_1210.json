@@ -5,7 +5,7 @@
   "time": "12:10",
   "race_name": "Stevenson Cup (Handicap) (Class 4) (Course C) (Turf)",
   "field_size": 14,
-  "average_intelligence": 44.36,
+  "average_intelligence": 44.0,
   "top_score": 51,
   "second_score": 51,
   "gap": 0,
@@ -23,7 +23,7 @@
     "latest_date": "2026-07-04",
     "latest_distance_f": 6.0,
     "latest_class": "",
-    "latest_going": "Good",
+    "latest_going": "Good To Yielding",
     "latest_surface": "Turf",
     "latest_trainer": "W K Mo",
     "latest_jockey": "Karis Teetan",
@@ -40,7 +40,7 @@
       "6.0": 1
     },
     "goings_seen": {
-      "Good": 1
+      "Good To Yielding": 1
     },
     "classes_seen": {},
     "trainers_seen": {
@@ -71,7 +71,7 @@
         "distance_f": 6.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "Good To Yielding",
         "surface": "Turf",
         "field_size": 12,
         "horse": "Oneshot",
@@ -103,7 +103,7 @@
       "runs": 1
     },
     "favourite_going": {
-      "value": "Good",
+      "value": "Good To Yielding",
       "runs": 1
     },
     "favourite_class": null,
@@ -125,7 +125,7 @@
     "enrich_signature": {
       "latest_course": "Sha Tin",
       "latest_distance_f": 6.0,
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_class": "",
       "latest_pulse_score": 61,
       "average_pulse_score": 0,
@@ -144,7 +144,7 @@
     "latest_date": "2026-07-04",
     "latest_distance_f": 6.0,
     "latest_class": "",
-    "latest_going": "Good",
+    "latest_going": "Good To Yielding",
     "latest_surface": "Turf",
     "latest_trainer": "Douglas Whyte",
     "latest_jockey": "Lyle Hewitson",
@@ -161,7 +161,7 @@
       "6.0": 1
     },
     "goings_seen": {
-      "Good": 1
+      "Good To Yielding": 1
     },
     "classes_seen": {},
     "trainers_seen": {
@@ -190,7 +190,7 @@
         "distance_f": 6.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "Good To Yielding",
         "surface": "Turf",
         "field_size": 12,
         "horse": "Riding High",
@@ -222,7 +222,7 @@
       "runs": 1
     },
     "favourite_going": {
-      "value": "Good",
+      "value": "Good To Yielding",
       "runs": 1
     },
     "favourite_class": null,
@@ -244,7 +244,7 @@
     "enrich_signature": {
       "latest_course": "Sha Tin",
       "latest_distance_f": 6.0,
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_class": "",
       "latest_pulse_score": 61,
       "average_pulse_score": 0,
@@ -263,7 +263,7 @@
     "latest_date": "2026-07-04",
     "latest_distance_f": 6.0,
     "latest_class": "",
-    "latest_going": "Good",
+    "latest_going": "Good To Yielding",
     "latest_surface": "Turf",
     "latest_trainer": "F C Lor",
     "latest_jockey": "K C Leung",
@@ -280,7 +280,8 @@
       "6.0": 2
     },
     "goings_seen": {
-      "Good": 2
+      "Good To Firm": 1,
+      "Good To Yielding": 1
     },
     "classes_seen": {},
     "trainers_seen": {
@@ -291,12 +292,13 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 57,
+    "latest_pulse_score": 59,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Trainer bonus +1"
+      "Trainer bonus +1",
+      "Stable in form +2 (1/1 last 14 days)"
     ],
     "runs": [
       {
@@ -310,7 +312,7 @@
         "distance_f": 6.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 12,
         "horse": "Run Run Sunrise",
@@ -328,7 +330,7 @@
         "last_run": 24,
         "form": "212309",
         "headgear": "ht",
-        "_stored_at": "2026-06-30T23:10:45.210323+00:00"
+        "_stored_at": "2026-07-01T13:17:54.520910+00:00"
       },
       {
         "source": "the_racing_api",
@@ -341,7 +343,7 @@
         "distance_f": 6.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "Good To Yielding",
         "surface": "Turf",
         "field_size": 12,
         "horse": "Run Run Sunrise",
@@ -371,31 +373,31 @@
       "runs": 2
     },
     "favourite_going": {
-      "value": "Good",
-      "runs": 2
+      "value": "Good To Firm",
+      "runs": 1
     },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 90,
+    "going_suitability_score": 55,
     "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 50,
+    "suitability_score": 71,
+    "horse_intelligence_score": 48,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
+      "Today's distance matches strongest profile pattern"
     ],
     "profile_cautions": [
+      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Sha Tin",
       "latest_distance_f": 6.0,
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_class": "",
-      "latest_pulse_score": 57,
+      "latest_pulse_score": 59,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
@@ -413,7 +415,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "W K Mo",
       "latest_jockey": "Karis Teetan",
@@ -430,7 +432,7 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -461,7 +463,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Oneshot",
@@ -493,7 +495,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -515,7 +517,7 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 61,
         "average_pulse_score": 0,
@@ -534,7 +536,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "Douglas Whyte",
       "latest_jockey": "Lyle Hewitson",
@@ -551,7 +553,7 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -580,7 +582,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Riding High",
@@ -612,7 +614,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -634,7 +636,7 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 61,
         "average_pulse_score": 0,
@@ -653,7 +655,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "F C Lor",
       "latest_jockey": "K C Leung",
@@ -670,7 +672,8 @@
         "6.0": 2
       },
       "goings_seen": {
-        "Good": 2
+        "Good To Firm": 1,
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -681,12 +684,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 57,
+      "latest_pulse_score": 59,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Trainer bonus +1"
+        "Trainer bonus +1",
+        "Stable in form +2 (1/1 last 14 days)"
       ],
       "runs": [
         {
@@ -700,7 +704,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Run Run Sunrise",
@@ -718,7 +722,7 @@
           "last_run": 24,
           "form": "212309",
           "headgear": "ht",
-          "_stored_at": "2026-06-30T23:10:45.210323+00:00"
+          "_stored_at": "2026-07-01T13:17:54.520910+00:00"
         },
         {
           "source": "the_racing_api",
@@ -731,7 +735,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Run Run Sunrise",
@@ -761,31 +765,31 @@
         "runs": 2
       },
       "favourite_going": {
-        "value": "Good",
-        "runs": 2
+        "value": "Good To Firm",
+        "runs": 1
       },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 55,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 50,
+      "suitability_score": 71,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
-        "latest_pulse_score": 57,
+        "latest_pulse_score": 59,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -802,7 +806,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "K W Lui",
       "latest_jockey": "Ethan Brown",
@@ -819,7 +823,7 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -850,7 +854,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "A Time For Us",
@@ -880,7 +884,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -902,126 +906,9 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 49,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Grouper",
-      "horse_id": "hrs_64589910",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "12:10",
-      "latest_race": "Stevenson Cup (Handicap) (Class 4) (Course C) (Turf)",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "C S Shum",
-      "latest_jockey": "Zac Purton",
-      "latest_draw": 8,
-      "latest_weight_lbs": 128,
-      "official_rating": "52",
-      "recent_form": "2882",
-      "last_run_days": 7,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "C S Shum": 1
-      },
-      "jockeys_seen": {
-        "Zac Purton": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 48,
-      "latest_notes": [
-        "Positive recent form"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12015900",
-          "course": "Sha Tin",
-          "date": "2026-07-04",
-          "off_time": "12:10",
-          "off_dt": "2026-07-04T12:10:00+01:00",
-          "race_name": "Stevenson Cup (Handicap) (Class 4) (Course C) (Turf)",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Grouper",
-          "horse_id": "hrs_64589910",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "C S Shum",
-          "trainer_id": "trn_144522",
-          "jockey": "Zac Purton",
-          "jockey_id": "jky_247017",
-          "draw": 8,
-          "number": 6,
-          "lbs": 128,
-          "ofr": "52",
-          "last_run": 7,
-          "form": "2882",
-          "headgear": "tb"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 48,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1038,7 +925,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "D J Hall",
       "latest_jockey": "James Orman",
@@ -1055,7 +942,7 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1085,7 +972,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Private Wealth",
@@ -1115,7 +1002,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -1137,12 +1024,192 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 49,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Grouper",
+      "horse_id": "hrs_64589910",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "12:10",
+      "latest_race": "Stevenson Cup (Handicap) (Class 4) (Course C) (Turf)",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Yielding",
+      "latest_surface": "Turf",
+      "latest_trainer": "C S Shum",
+      "latest_jockey": "Zac Purton",
+      "latest_draw": 8,
+      "latest_weight_lbs": 128,
+      "official_rating": "52",
+      "recent_form": "2882",
+      "last_run_days": 7,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Sha Tin": 3
+      },
+      "distances_seen": {
+        "6.0": 3
+      },
+      "goings_seen": {
+        "Good": 2,
+        "Good To Yielding": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "C S Shum": 3
+      },
+      "jockeys_seen": {
+        "Zac Purton": 3
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Positive recent form"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007229",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "11:30",
+          "off_dt": "2026-06-27T11:30:00+01:00",
+          "race_name": "Lam Tsuen River Handicap (Class 4) (Course B) (Turf)",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Grouper",
+          "horse_id": "hrs_64589910",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "C S Shum",
+          "trainer_id": "trn_144522",
+          "jockey": "Zac Purton",
+          "jockey_id": "jky_247017",
+          "draw": 10,
+          "number": 4,
+          "lbs": 128,
+          "ofr": "52",
+          "last_run": 17,
+          "form": "288",
+          "headgear": "tb",
+          "_stored_at": "2026-06-27T10:06:23.662726+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007229",
+          "course": "Sha Tin",
+          "date": "2026-06-27",
+          "off_time": "11:30",
+          "off_dt": "2026-06-27T11:30:00+01:00",
+          "race_name": "Lam Tsuen River Handicap (Class 4) (Course B) (Turf)",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Grouper",
+          "horse_id": "hrs_64589910",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "C S Shum",
+          "trainer_id": "trn_144522",
+          "jockey": "Zac Purton",
+          "jockey_id": "jky_247017",
+          "draw": 10,
+          "number": 4,
+          "lbs": 128,
+          "ofr": "52",
+          "last_run": 17,
+          "form": "288",
+          "headgear": "tb",
+          "_stored_at": "2026-06-28T12:42:51.204402+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12015900",
+          "course": "Sha Tin",
+          "date": "2026-07-04",
+          "off_time": "12:10",
+          "off_dt": "2026-07-04T12:10:00+01:00",
+          "race_name": "Stevenson Cup (Handicap) (Class 4) (Course C) (Turf)",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Yielding",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Grouper",
+          "horse_id": "hrs_64589910",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "C S Shum",
+          "trainer_id": "trn_144522",
+          "jockey": "Zac Purton",
+          "jockey_id": "jky_247017",
+          "draw": 8,
+          "number": 6,
+          "lbs": 128,
+          "ofr": "52",
+          "last_run": 7,
+          "form": "2882",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 3
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 3
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 55,
+      "class_suitability_score": 50,
+      "suitability_score": 71,
+      "horse_intelligence_score": 43,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Yielding",
+        "latest_class": "",
+        "latest_pulse_score": 48,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -1156,7 +1223,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "P C Ng",
       "latest_jockey": "Andrea Atzeni",
@@ -1173,7 +1240,7 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1203,7 +1270,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Healthy Healthy",
@@ -1235,7 +1302,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -1257,7 +1324,7 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 42,
         "average_pulse_score": 0,
@@ -1276,7 +1343,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "David Eustace",
       "latest_jockey": "Jerry Chau(2)",
@@ -1293,7 +1360,7 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1320,7 +1387,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Lean Era",
@@ -1350,7 +1417,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -1372,7 +1439,7 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 42,
         "average_pulse_score": 0,
@@ -1391,7 +1458,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "C Fownes",
       "latest_jockey": "",
@@ -1408,7 +1475,7 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1435,7 +1502,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Daily Acclaim",
@@ -1465,7 +1532,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -1488,7 +1555,7 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 39,
         "average_pulse_score": 0,
@@ -1507,7 +1574,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "David A Hayes",
       "latest_jockey": "M L Yeung",
@@ -1524,7 +1591,7 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1553,7 +1620,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Kol",
@@ -1583,7 +1650,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -1605,7 +1672,7 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 41,
         "average_pulse_score": 0,
@@ -1624,9 +1691,9 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
-      "latest_trainer": "Mark Newnham",
+      "latest_trainer": "Y S Tsui",
       "latest_jockey": "L J Ferraris",
       "latest_draw": 4,
       "latest_weight_lbs": 131,
@@ -1641,11 +1708,11 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Mark Newnham": 1
+        "Y S Tsui": 1
       },
       "jockeys_seen": {
         "L J Ferraris": 1
@@ -1671,15 +1738,15 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "One More",
           "horse_id": "hrs_41939457",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Mark Newnham",
-          "trainer_id": "trn_290223",
+          "trainer": "Y S Tsui",
+          "trainer_id": "trn_161982",
           "jockey": "L J Ferraris",
           "jockey_id": "jky_294588",
           "draw": 4,
@@ -1701,7 +1768,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -1724,7 +1791,7 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 40,
         "average_pulse_score": 0,
@@ -1743,7 +1810,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "C H Yip",
       "latest_jockey": "",
@@ -1760,7 +1827,7 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1787,7 +1854,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Majestic Life",
@@ -1817,7 +1884,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -1840,7 +1907,7 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 38,
         "average_pulse_score": 0,
@@ -1859,7 +1926,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "Mark Newnham",
       "latest_jockey": "Matthew Chadwick",
@@ -1876,7 +1943,7 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1905,7 +1972,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Russet Glow",
@@ -1935,7 +2002,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -1958,7 +2025,7 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 35,
         "average_pulse_score": 0,
@@ -1977,7 +2044,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 6.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "C W Chang",
       "latest_jockey": "Richard Kingscote",
@@ -1994,7 +2061,7 @@
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -2021,7 +2088,7 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Dashing Peach",
@@ -2051,7 +2118,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -2074,7 +2141,7 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 6.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
         "latest_pulse_score": 31,
         "average_pulse_score": 0,

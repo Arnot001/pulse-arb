@@ -16,6 +16,19 @@
         </div>
     </div>
 
+    <div class="dashboard-card">
+        <h2>🏁 Results Refresh</h2>
+        <p class="muted">
+            Check for finished races and update today’s bet results.
+        </p>
+
+        <form method="post" action="/update/settlement">
+            <button class="button" type="submit">
+                 Race Results
+            </button>
+        </form>
+    </div>
+
     <div class="dashboard-card mission-status-card">
 
     <h2>🧠 Pulse's Decision</h2>
@@ -92,7 +105,13 @@
                 <div><span>Risk</span><strong>{{ report.combined_risk }}</strong></div>
                 <div><span>Strike Rate</span><strong>{{ report.expected_strike_rate }}%</strong></div>
             </div>
-
+            <div class="bet-metrics">
+                <div><span>Status</span><strong>{{ report.tracker_status }}</strong></div>
+                <div><span>Settled</span><strong>{{ report.settled_count }} / {{ report.selection_count }}</strong></div>
+                <div><span>Winners</span><strong>{{ report.winners }}</strong></div>
+                <div><span>Profit</span><strong>£{{ report.profit }}</strong></div>
+                <div><span>ROI</span><strong>{{ report.roi }}%</strong></div>
+            </div>
             <div class="bet-selection-list">
                 {% for horse in report.horses %}
                     <div class="bet-selection-row">
@@ -101,9 +120,24 @@
                             <span>{{ horse.course }} · {{ horse.time }}</span>
                         </div>
 
-                        <div>
+                        <div class="bet-selection-meta">
+
                             <strong>REC {{ horse.recommendation_score }}</strong>
+
                             <span>IQ {{ horse.score }}</span>
+
+                            <span class="status-badge status-{{ horse.status|lower }}">
+                                {{ horse.status }}
+                            </span>
+
+                            {% if horse.position %}
+                                <span>Pos {{ horse.position }}</span>
+                            {% endif %}
+
+                            {% if horse.profit is not none %}
+                                <span>£{{ horse.profit }}</span>
+                            {% endif %}
+
                         </div>
                     </div>
                 {% endfor %}
@@ -124,8 +158,22 @@
 
             <div class="bet-actions">
                 <button class="button">Copy Bet</button>
-                <button class="button">View Race Analysis</button>
-                <button class="button disabled">Find Best Odds Soon</button>
+
+                {% if report.horses and report.horses[0].race_id %}
+                    <a class="button" href="/horses/race/{{ report.horses[0].race_id }}">
+                        View Race Analysis
+                    </a>
+                {% else %}
+                    <button class="button disabled">View Race Analysis</button>
+                {% endif %}
+
+                {% if report.horses and report.horses[0].odds_url %}
+                    <a class="button" href="{{ report.horses[0].odds_url }}" target="_blank">
+                        View Best Odds
+                    </a>
+                {% else %}
+                    <button class="button disabled">Best Odds Pending</button>
+                {% endif %}
             </div>
 
         </div>
@@ -145,5 +193,35 @@
     </div>
 
 </div>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const updateStarted = params.get("update") === "started";
+
+async function pollUpdateStatus() {
+    if (!updateStarted) {
+        return;
+    }
+
+    try {
+        const response = await fetch("/update/status");
+        const status = await response.json();
+
+        if (status.running) {
+            document.title = "Updating... Pulse IQ";
+            setTimeout(pollUpdateStatus, 2000);
+            return;
+        }
+
+        if (status.current_task === "Complete") {
+            window.location.href = "/bet-builder";
+        }
+    } catch (error) {
+        console.log("Update status check failed", error);
+    }
+}
+
+pollUpdateStatus();
+</script>
 
 {% endblock %}

@@ -5,11 +5,11 @@
   "time": "4:20",
   "race_name": "Download The Raceday Ready App Handicap",
   "field_size": 9,
-  "average_intelligence": 48.67,
-  "top_score": 54,
-  "second_score": 54,
-  "gap": 0,
-  "confidence_score": 42,
+  "average_intelligence": 50.44,
+  "top_score": 57,
+  "second_score": 56,
+  "gap": 1,
+  "confidence_score": 46,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -53,12 +53,15 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 59,
+    "latest_pulse_score": 66,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Trainer bonus +1"
+      "Trainer bonus +2",
+      "Stable in form +2 (2/2 last 14 days)",
+      "Jockey bonus +2",
+      "Jockey in form +2 (2/6 last 14 days)"
     ],
     "runs": [
       {
@@ -90,7 +93,7 @@
         "last_run": 19,
         "form": "00-226",
         "headgear": "v",
-        "_stored_at": "2026-07-03T00:37:00.203840+00:00"
+        "_stored_at": "2026-07-03T04:58:46.710543+00:00"
       }
     ],
     "profile_notes": [],
@@ -115,12 +118,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 54,
+    "horse_intelligence_score": 57,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Limited stored profile data"
@@ -131,16 +135,16 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": 59,
+      "latest_pulse_score": 66,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Ishe Worth Agamble",
-    "horse_id": "hrs_35068887",
-    "age": 5,
+    "horse": "Come On Over",
+    "horse_id": "hrs_53294451",
+    "age": 3,
     "sex": "gelding",
     "latest_course": "Doncaster",
     "latest_time": "4:20",
@@ -150,41 +154,108 @@
     "latest_class": "Class 6",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Tim Easterby",
-    "latest_jockey": "Jake Dickson(7)",
-    "latest_draw": 4,
-    "latest_weight_lbs": 137,
-    "official_rating": "60",
-    "recent_form": "-73539",
-    "last_run_days": 12,
-    "profile_runs": 1,
+    "latest_trainer": "David O'Meara",
+    "latest_jockey": "Daniel Tudhope",
+    "latest_draw": 2,
+    "latest_weight_lbs": 135,
+    "official_rating": "64",
+    "recent_form": "-70842",
+    "last_run_days": 7,
+    "profile_runs": 3,
     "courses_seen": {
-      "Doncaster": 1
+      "Doncaster": 3
     },
     "distances_seen": {
-      "6.0": 1
+      "6.0": 3
     },
     "goings_seen": {
-      "Good To Firm": 1
+      "Good To Firm": 3
     },
     "classes_seen": {
-      "Class 6": 1
+      "Class 6": 3
     },
     "trainers_seen": {
-      "Tim Easterby": 1
+      "David O'Meara": 3
     },
     "jockeys_seen": {
-      "Jake Dickson(7)": 1
+      "Daniel Tudhope": 3
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 59,
+    "latest_pulse_score": 65,
     "latest_notes": [
       "Positive recent form",
-      "Good recent run timing",
-      "Helpful draw"
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Stable in form +2 (2/4 last 14 days)",
+      "Jockey bonus +3",
+      "Jockey flying +4 (5/7 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4"
     ],
     "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977563",
+        "course": "Doncaster",
+        "date": "2026-06-26",
+        "off_time": "12:45",
+        "off_dt": "2026-06-26T12:45:00+01:00",
+        "race_name": "Sky Sports Racing Sky 415 Handicap",
+        "distance_f": 6.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 9,
+        "horse": "Come On Over",
+        "horse_id": "hrs_53294451",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "David O'Meara",
+        "trainer_id": "trn_205551",
+        "jockey": "Daniel Tudhope",
+        "jockey_id": "jky_246693",
+        "draw": 7,
+        "number": 2,
+        "lbs": 135,
+        "ofr": "65",
+        "last_run": 12,
+        "form": "6-7084",
+        "headgear": "v",
+        "_stored_at": "2026-06-26T08:14:10.414205+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977563",
+        "course": "Doncaster",
+        "date": "2026-06-26",
+        "off_time": "12:45",
+        "off_dt": "2026-06-26T12:45:00+01:00",
+        "race_name": "Sky Sports Racing Sky 415 Handicap",
+        "distance_f": 6.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 9,
+        "horse": "Come On Over",
+        "horse_id": "hrs_53294451",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "David O'Meara",
+        "trainer_id": "trn_205551",
+        "jockey": "Daniel Tudhope",
+        "jockey_id": "jky_246693",
+        "draw": 7,
+        "number": 2,
+        "lbs": 135,
+        "ofr": "65",
+        "last_run": 12,
+        "form": "6-7084",
+        "headgear": "v",
+        "_stored_at": "2026-06-28T12:42:22.748890+00:00"
+      },
       {
         "source": "the_racing_api",
         "race_id": "rac_11989133",
@@ -199,75 +270,76 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 9,
-        "horse": "Ishe Worth Agamble",
-        "horse_id": "hrs_35068887",
-        "age": 5,
+        "horse": "Come On Over",
+        "horse_id": "hrs_53294451",
+        "age": 3,
         "sex": "gelding",
-        "trainer": "Tim Easterby",
-        "trainer_id": "trn_91368",
-        "jockey": "Jake Dickson(7)",
-        "jockey_id": "jky_310494",
-        "draw": 4,
-        "number": 4,
-        "lbs": 137,
-        "ofr": "60",
-        "last_run": 12,
-        "form": "-73539",
-        "headgear": "tp",
-        "_stored_at": "2026-07-03T00:37:00.120462+00:00"
+        "trainer": "David O'Meara",
+        "trainer_id": "trn_205551",
+        "jockey": "Daniel Tudhope",
+        "jockey_id": "jky_246693",
+        "draw": 2,
+        "number": 7,
+        "lbs": 135,
+        "ofr": "64",
+        "last_run": 7,
+        "form": "-70842",
+        "headgear": "v",
+        "_stored_at": "2026-07-03T04:58:46.735383+00:00"
       }
     ],
     "profile_notes": [
+      "Profile has multiple stored runs",
+      "Low draw today",
       "Recent run timing"
     ],
     "favourite_course": {
       "value": "Doncaster",
-      "runs": 1
+      "runs": 3
     },
     "favourite_distance": {
       "value": 6.0,
-      "runs": 1
+      "runs": 3
     },
     "favourite_going": {
       "value": "Good To Firm",
-      "runs": 1
+      "runs": 3
     },
     "favourite_class": {
       "value": "Class 6",
-      "runs": 1
+      "runs": 3
     },
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 54,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
+    "profile_cautions": [],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Doncaster",
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": 59,
+      "latest_pulse_score": 65,
       "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
+      "profile_runs": 3,
+      "runs_count": 3
     }
   },
   "dark_horse": {
-    "horse": "Carlton And Co",
-    "horse_id": "hrs_30017435",
-    "age": 7,
-    "sex": "mare",
+    "horse": "Come On Over",
+    "horse_id": "hrs_53294451",
+    "age": 3,
+    "sex": "gelding",
     "latest_course": "Doncaster",
     "latest_time": "4:20",
     "latest_race": "Download The Raceday Ready App Handicap",
@@ -276,43 +348,108 @@
     "latest_class": "Class 6",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Michael & David Easterby",
-    "latest_jockey": "Joanna Mason",
-    "latest_draw": 3,
-    "latest_weight_lbs": 139,
-    "official_rating": "62",
-    "recent_form": "120-99",
-    "last_run_days": 29,
-    "profile_runs": 1,
+    "latest_trainer": "David O'Meara",
+    "latest_jockey": "Daniel Tudhope",
+    "latest_draw": 2,
+    "latest_weight_lbs": 135,
+    "official_rating": "64",
+    "recent_form": "-70842",
+    "last_run_days": 7,
+    "profile_runs": 3,
     "courses_seen": {
-      "Doncaster": 1
+      "Doncaster": 3
     },
     "distances_seen": {
-      "6.0": 1
+      "6.0": 3
     },
     "goings_seen": {
-      "Good To Firm": 1
+      "Good To Firm": 3
     },
     "classes_seen": {
-      "Class 6": 1
+      "Class 6": 3
     },
     "trainers_seen": {
-      "Michael & David Easterby": 1
+      "David O'Meara": 3
     },
     "jockeys_seen": {
-      "Joanna Mason": 1
+      "Daniel Tudhope": 3
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 54,
+    "latest_pulse_score": 65,
     "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
+      "Positive recent form",
       "Helpful draw",
-      "Stable in form +2 (1/2 last 14 days)"
+      "Trainer bonus +2",
+      "Stable in form +2 (2/4 last 14 days)",
+      "Jockey bonus +3",
+      "Jockey flying +4 (5/7 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4"
     ],
     "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977563",
+        "course": "Doncaster",
+        "date": "2026-06-26",
+        "off_time": "12:45",
+        "off_dt": "2026-06-26T12:45:00+01:00",
+        "race_name": "Sky Sports Racing Sky 415 Handicap",
+        "distance_f": 6.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 9,
+        "horse": "Come On Over",
+        "horse_id": "hrs_53294451",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "David O'Meara",
+        "trainer_id": "trn_205551",
+        "jockey": "Daniel Tudhope",
+        "jockey_id": "jky_246693",
+        "draw": 7,
+        "number": 2,
+        "lbs": 135,
+        "ofr": "65",
+        "last_run": 12,
+        "form": "6-7084",
+        "headgear": "v",
+        "_stored_at": "2026-06-26T08:14:10.414205+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977563",
+        "course": "Doncaster",
+        "date": "2026-06-26",
+        "off_time": "12:45",
+        "off_dt": "2026-06-26T12:45:00+01:00",
+        "race_name": "Sky Sports Racing Sky 415 Handicap",
+        "distance_f": 6.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 9,
+        "horse": "Come On Over",
+        "horse_id": "hrs_53294451",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "David O'Meara",
+        "trainer_id": "trn_205551",
+        "jockey": "Daniel Tudhope",
+        "jockey_id": "jky_246693",
+        "draw": 7,
+        "number": 2,
+        "lbs": 135,
+        "ofr": "65",
+        "last_run": 12,
+        "form": "6-7084",
+        "headgear": "v",
+        "_stored_at": "2026-06-28T12:42:22.748890+00:00"
+      },
       {
         "source": "the_racing_api",
         "race_id": "rac_11989133",
@@ -327,68 +464,69 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 9,
-        "horse": "Carlton And Co",
-        "horse_id": "hrs_30017435",
-        "age": 7,
-        "sex": "mare",
-        "trainer": "Michael & David Easterby",
-        "trainer_id": "trn_346887",
-        "jockey": "Joanna Mason",
-        "jockey_id": "jky_257346",
-        "draw": 3,
-        "number": 2,
-        "lbs": 139,
-        "ofr": "62",
-        "last_run": 29,
-        "form": "120-99",
+        "horse": "Come On Over",
+        "horse_id": "hrs_53294451",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "David O'Meara",
+        "trainer_id": "trn_205551",
+        "jockey": "Daniel Tudhope",
+        "jockey_id": "jky_246693",
+        "draw": 2,
+        "number": 7,
+        "lbs": 135,
+        "ofr": "64",
+        "last_run": 7,
+        "form": "-70842",
         "headgear": "v",
-        "_stored_at": "2026-07-03T00:37:00.031415+00:00"
+        "_stored_at": "2026-07-03T04:58:46.735383+00:00"
       }
     ],
     "profile_notes": [
-      "Low draw today"
+      "Profile has multiple stored runs",
+      "Low draw today",
+      "Recent run timing"
     ],
     "favourite_course": {
       "value": "Doncaster",
-      "runs": 1
+      "runs": 3
     },
     "favourite_distance": {
       "value": 6.0,
-      "runs": 1
+      "runs": 3
     },
     "favourite_going": {
       "value": "Good To Firm",
-      "runs": 1
+      "runs": 3
     },
     "favourite_class": {
       "value": "Class 6",
-      "runs": 1
+      "runs": 3
     },
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 51,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
+    "profile_cautions": [],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Doncaster",
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": 54,
+      "latest_pulse_score": 65,
       "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
+      "profile_runs": 3,
+      "runs_count": 3
     }
   },
   "runners": [
@@ -433,12 +571,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 59,
+      "latest_pulse_score": 66,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Trainer bonus +1"
+        "Trainer bonus +2",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey in form +2 (2/6 last 14 days)"
       ],
       "runs": [
         {
@@ -470,7 +611,7 @@
           "last_run": 19,
           "form": "00-226",
           "headgear": "v",
-          "_stored_at": "2026-07-03T00:37:00.203840+00:00"
+          "_stored_at": "2026-07-03T04:58:46.710543+00:00"
         }
       ],
       "profile_notes": [],
@@ -495,12 +636,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 57,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
         "Limited stored profile data"
@@ -511,10 +653,204 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 59,
+        "latest_pulse_score": 66,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Come On Over",
+      "horse_id": "hrs_53294451",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Doncaster",
+      "latest_time": "4:20",
+      "latest_race": "Download The Raceday Ready App Handicap",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "David O'Meara",
+      "latest_jockey": "Daniel Tudhope",
+      "latest_draw": 2,
+      "latest_weight_lbs": 135,
+      "official_rating": "64",
+      "recent_form": "-70842",
+      "last_run_days": 7,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Doncaster": 3
+      },
+      "distances_seen": {
+        "6.0": 3
+      },
+      "goings_seen": {
+        "Good To Firm": 3
+      },
+      "classes_seen": {
+        "Class 6": 3
+      },
+      "trainers_seen": {
+        "David O'Meara": 3
+      },
+      "jockeys_seen": {
+        "Daniel Tudhope": 3
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 65,
+      "latest_notes": [
+        "Positive recent form",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/4 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey flying +4 (5/7 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977563",
+          "course": "Doncaster",
+          "date": "2026-06-26",
+          "off_time": "12:45",
+          "off_dt": "2026-06-26T12:45:00+01:00",
+          "race_name": "Sky Sports Racing Sky 415 Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Come On Over",
+          "horse_id": "hrs_53294451",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "David O'Meara",
+          "trainer_id": "trn_205551",
+          "jockey": "Daniel Tudhope",
+          "jockey_id": "jky_246693",
+          "draw": 7,
+          "number": 2,
+          "lbs": 135,
+          "ofr": "65",
+          "last_run": 12,
+          "form": "6-7084",
+          "headgear": "v",
+          "_stored_at": "2026-06-26T08:14:10.414205+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977563",
+          "course": "Doncaster",
+          "date": "2026-06-26",
+          "off_time": "12:45",
+          "off_dt": "2026-06-26T12:45:00+01:00",
+          "race_name": "Sky Sports Racing Sky 415 Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Come On Over",
+          "horse_id": "hrs_53294451",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "David O'Meara",
+          "trainer_id": "trn_205551",
+          "jockey": "Daniel Tudhope",
+          "jockey_id": "jky_246693",
+          "draw": 7,
+          "number": 2,
+          "lbs": 135,
+          "ofr": "65",
+          "last_run": 12,
+          "form": "6-7084",
+          "headgear": "v",
+          "_stored_at": "2026-06-28T12:42:22.748890+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989133",
+          "course": "Doncaster",
+          "date": "2026-07-03",
+          "off_time": "4:20",
+          "off_dt": "2026-07-03T16:20:00+01:00",
+          "race_name": "Download The Raceday Ready App Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Come On Over",
+          "horse_id": "hrs_53294451",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "David O'Meara",
+          "trainer_id": "trn_205551",
+          "jockey": "Daniel Tudhope",
+          "jockey_id": "jky_246693",
+          "draw": 2,
+          "number": 7,
+          "lbs": 135,
+          "ofr": "64",
+          "last_run": 7,
+          "form": "-70842",
+          "headgear": "v",
+          "_stored_at": "2026-07-03T04:58:46.735383+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Doncaster",
+        "runs": 3
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 3
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 3
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 3
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 56,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Doncaster",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 65,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -558,11 +894,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 59,
+      "latest_pulse_score": 63,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
-        "Helpful draw"
+        "Helpful draw",
+        "Stable flying +4 (4/7 last 14 days)"
       ],
       "runs": [
         {
@@ -594,7 +931,7 @@
           "last_run": 12,
           "form": "-73539",
           "headgear": "tp",
-          "_stored_at": "2026-07-03T00:37:00.120462+00:00"
+          "_stored_at": "2026-07-03T04:58:46.663318+00:00"
         }
       ],
       "profile_notes": [
@@ -621,7 +958,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 55,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -637,7 +974,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 59,
+        "latest_pulse_score": 63,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -684,13 +1021,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 54,
+      "latest_pulse_score": 58,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
-        "Stable in form +2 (1/2 last 14 days)"
+        "Trainer bonus +2",
+        "Stable in form +2 (1/2 last 14 days)",
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -722,7 +1061,7 @@
           "last_run": 29,
           "form": "120-99",
           "headgear": "v",
-          "_stored_at": "2026-07-03T00:37:00.031415+00:00"
+          "_stored_at": "2026-07-03T04:58:46.614763+00:00"
         }
       ],
       "profile_notes": [
@@ -749,7 +1088,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 51,
+      "horse_intelligence_score": 53,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -765,135 +1104,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 54,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Come On Over",
-      "horse_id": "hrs_53294451",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Doncaster",
-      "latest_time": "4:20",
-      "latest_race": "Download The Raceday Ready App Handicap",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "David O'Meara",
-      "latest_jockey": "Daniel Tudhope",
-      "latest_draw": 2,
-      "latest_weight_lbs": 135,
-      "official_rating": "64",
-      "recent_form": "-70842",
-      "last_run_days": 7,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Doncaster": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "David O'Meara": 1
-      },
-      "jockeys_seen": {
-        "Daniel Tudhope": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw",
-        "Jockey bonus +3",
-        "Jockey flying +4 (3/3 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989133",
-          "course": "Doncaster",
-          "date": "2026-07-03",
-          "off_time": "4:20",
-          "off_dt": "2026-07-03T16:20:00+01:00",
-          "race_name": "Download The Raceday Ready App Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Come On Over",
-          "horse_id": "hrs_53294451",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "David O'Meara",
-          "trainer_id": "trn_205551",
-          "jockey": "Daniel Tudhope",
-          "jockey_id": "jky_246693",
-          "draw": 2,
-          "number": 7,
-          "lbs": 135,
-          "ofr": "64",
-          "last_run": 7,
-          "form": "-70842",
-          "headgear": "v",
-          "_stored_at": "2026-07-03T00:37:00.237051+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Doncaster",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Doncaster",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 54,
+        "latest_pulse_score": 58,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -919,38 +1130,38 @@
       "official_rating": "60",
       "recent_form": "83-347",
       "last_run_days": 35,
-      "profile_runs": 2,
+      "profile_runs": 5,
       "courses_seen": {
-        "Nottingham": 1,
+        "Nottingham": 4,
         "Doncaster": 1
       },
       "distances_seen": {
-        "5.0": 1,
+        "5.0": 4,
         "6.0": 1
       },
       "goings_seen": {
-        "Good": 1,
-        "Good To Firm": 1
+        "Good To Firm": 5
       },
       "classes_seen": {
-        "Class 6": 2
+        "Class 6": 5
       },
       "trainers_seen": {
-        "P T Midgley": 1,
-        "Paul Midgley": 1
+        "Paul Midgley": 5
       },
       "jockeys_seen": {
-        "D Nolan": 1,
+        "NON-RUNNER": 4,
         "David Nolan": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 61,
+      "latest_pulse_score": 64,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Jockey in form +2 (1/1 last 14 days)"
+        "Trainer bonus +2",
+        "Jockey bonus +1",
+        "Jockey in form +2 (1/3 last 14 days)"
       ],
       "runs": [
         {
@@ -964,16 +1175,16 @@
           "distance_f": 5.0,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 6,
+          "field_size": 5,
           "horse": "Get Up Everybody",
           "horse_id": "hrs_46169648",
           "age": 4,
           "sex": "gelding",
-          "trainer": "P T Midgley",
+          "trainer": "Paul Midgley",
           "trainer_id": "trn_143532",
-          "jockey": "D Nolan",
+          "jockey": "NON-RUNNER",
           "jockey_id": "jky_224913",
           "draw": 1,
           "number": null,
@@ -982,7 +1193,100 @@
           "last_run": 27,
           "form": "83-347",
           "headgear": "",
-          "_stored_at": "2026-06-25T06:53:22.651965+00:00"
+          "_stored_at": "2026-06-25T14:16:21.347067+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Get Up Everybody",
+          "horse_id": "hrs_46169648",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Paul Midgley",
+          "trainer_id": "trn_143532",
+          "jockey": "NON-RUNNER",
+          "jockey_id": "jky_224913",
+          "draw": 1,
+          "number": null,
+          "lbs": 138,
+          "ofr": "60",
+          "last_run": 27,
+          "form": "83-347",
+          "headgear": "",
+          "_stored_at": "2026-06-25T17:11:31.121607+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Get Up Everybody",
+          "horse_id": "hrs_46169648",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Paul Midgley",
+          "trainer_id": "trn_143532",
+          "jockey": "NON-RUNNER",
+          "jockey_id": "jky_224913",
+          "draw": 1,
+          "number": null,
+          "lbs": 138,
+          "ofr": "60",
+          "last_run": 27,
+          "form": "83-347",
+          "headgear": "",
+          "_stored_at": "2026-06-26T08:14:08.934085+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Get Up Everybody",
+          "horse_id": "hrs_46169648",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Paul Midgley",
+          "trainer_id": "trn_143532",
+          "jockey": "NON-RUNNER",
+          "jockey_id": "jky_224913",
+          "draw": 1,
+          "number": null,
+          "lbs": 138,
+          "ofr": "60",
+          "last_run": 27,
+          "form": "83-347",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:19.802559+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1013,40 +1317,41 @@
           "last_run": 35,
           "form": "83-347",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:37:00.153703+00:00"
+          "_stored_at": "2026-07-03T04:58:46.687504+00:00"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Profile has multiple stored runs"
+      ],
       "favourite_course": {
         "value": "Nottingham",
-        "runs": 1
+        "runs": 4
       },
       "favourite_distance": {
         "value": 5.0,
-        "runs": 1
+        "runs": 4
       },
       "favourite_going": {
-        "value": "Good",
-        "runs": 1
+        "value": "Good To Firm",
+        "runs": 5
       },
       "favourite_class": {
         "value": "Class 6",
-        "runs": 2
+        "runs": 5
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 55,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 64,
-      "horse_intelligence_score": 47,
+      "suitability_score": 72,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
+        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
+        "Distance not yet a clear profile strength"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -1054,10 +1359,10 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 61,
+        "latest_pulse_score": 64,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 5,
+        "runs_count": 5
       }
     },
     {
@@ -1139,7 +1444,7 @@
           "last_run": 17,
           "form": "456478",
           "headgear": "p",
-          "_stored_at": "2026-07-03T00:37:00.070385+00:00"
+          "_stored_at": "2026-07-03T04:58:46.638518+00:00"
         }
       ],
       "profile_notes": [
@@ -1229,11 +1534,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 43,
+      "latest_pulse_score": 45,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2"
+        "Ideal layoff profile +2",
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -1265,7 +1571,7 @@
           "last_run": 21,
           "form": "3-8840",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:36:59.970797+00:00"
+          "_stored_at": "2026-07-03T04:58:46.591053+00:00"
         }
       ],
       "profile_notes": [],
@@ -1290,7 +1596,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 46,
+      "horse_intelligence_score": 47,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1306,7 +1612,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 43,
+        "latest_pulse_score": 45,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1356,11 +1662,11 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 54,
+      "latest_pulse_score": 56,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
-        "Jockey in form +2 (1/1 last 14 days)"
+        "Jockey flying +4 (4/4 last 14 days)"
       ],
       "runs": [
         {
@@ -1392,7 +1698,7 @@
           "last_run": 57,
           "form": "254-9",
           "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.001430+00:00"
+          "_stored_at": "2026-06-30T05:14:24.933797+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1423,7 +1729,7 @@
           "last_run": 60,
           "form": "254-9",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:37:00.270435+00:00"
+          "_stored_at": "2026-07-03T04:58:46.759131+00:00"
         }
       ],
       "profile_notes": [],
@@ -1448,7 +1754,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 72,
-      "horse_intelligence_score": 46,
+      "horse_intelligence_score": 47,
       "profile_strengths": [
         "Today's going matches known profile preference",
         "Race class matches common profile level"
@@ -1464,7 +1770,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 54,
+        "latest_pulse_score": 56,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1547,7 +1853,7 @@
           "last_run": 43,
           "form": "280-00",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:37:00.324924+00:00"
+          "_stored_at": "2026-07-03T04:58:46.783306+00:00"
         }
       ],
       "profile_notes": [],
@@ -1599,6 +1905,6 @@
   "notes": [
     "Cosmic Clarets is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Carlton And Co is flagged as a possible dark horse."
+    "Come On Over is flagged as a possible dark horse."
   ]
 }

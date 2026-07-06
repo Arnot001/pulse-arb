@@ -5,13 +5,13 @@
   "time": "1:50",
   "race_name": "HKJC World Pool Battaash Handicap",
   "field_size": 5,
-  "average_intelligence": 60.2,
-  "top_score": 68,
-  "second_score": 63,
-  "gap": 5,
-  "confidence_score": 60,
+  "average_intelligence": 63.6,
+  "top_score": 69,
+  "second_score": 68,
+  "gap": 1,
+  "confidence_score": 56,
   "confidence": "MEDIUM",
-  "race_shape": "COMPETITIVE EDGE",
+  "race_shape": "OPEN RACE",
   "top_runner": {
     "horse": "Westport",
     "horse_id": "hrs_62170927",
@@ -53,16 +53,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 92,
+    "latest_pulse_score": 94,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
       "Race class strength +6",
-      "Trainer bonus +1",
+      "Trainer bonus +3",
       "Jockey bonus +3",
-      "Jockey flying +4 (3/4 last 14 days)"
+      "Jockey flying +4 (6/7 last 14 days)"
     ],
     "runs": [
       {
@@ -94,11 +94,149 @@
         "last_run": 14,
         "form": "1110",
         "headgear": "",
-        "_stored_at": "2026-07-03T00:37:02.270140+00:00"
+        "_stored_at": "2026-07-03T04:58:48.318765+00:00"
       }
     ],
     "profile_notes": [
       "Elite latest Pulse Score",
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Sandown",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 5.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 2",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 69,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Sandown",
+      "latest_distance_f": 5.0,
+      "latest_going": "Good",
+      "latest_class": "Class 2",
+      "latest_pulse_score": 94,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "One And Gone",
+    "horse_id": "hrs_56127708",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Sandown",
+    "latest_time": "1:50",
+    "latest_race": "HKJC World Pool Battaash Handicap",
+    "latest_date": "2026-07-03",
+    "latest_distance_f": 5.0,
+    "latest_class": "Class 2",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Ian Williams",
+    "latest_jockey": "Ryan Kavanagh(5)",
+    "latest_draw": 2,
+    "latest_weight_lbs": 118,
+    "official_rating": "83",
+    "recent_form": "733401",
+    "last_run_days": 14,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Sandown": 1
+    },
+    "distances_seen": {
+      "5.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 2": 1
+    },
+    "trainers_seen": {
+      "Ian Williams": 1
+    },
+    "jockeys_seen": {
+      "Ryan Kavanagh(5)": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 92,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +6",
+      "Trainer bonus +3",
+      "Stable flying +4 (5/5 last 14 days)",
+      "Jockey bonus +1",
+      "Jockey in form +2 (2/2 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4",
+      "Going specialist +4 (2/2 on going)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11989367",
+        "course": "Sandown",
+        "date": "2026-07-03",
+        "off_time": "1:50",
+        "off_dt": "2026-07-03T13:50:00+01:00",
+        "race_name": "HKJC World Pool Battaash Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 2",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "One And Gone",
+        "horse_id": "hrs_56127708",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Ian Williams",
+        "trainer_id": "trn_112185",
+        "jockey": "Ryan Kavanagh(5)",
+        "jockey_id": "jky_308169",
+        "draw": 2,
+        "number": 5,
+        "lbs": 118,
+        "ofr": "83",
+        "last_run": 14,
+        "form": "733401",
+        "headgear": "",
+        "_stored_at": "2026-07-03T04:58:48.368366+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score",
+      "Low draw today",
       "Recent run timing"
     ],
     "favourite_course": {
@@ -145,140 +283,11 @@
       "runs_count": 1
     }
   },
-  "main_threat": {
-    "horse": "Comical Point",
-    "horse_id": "hrs_52772286",
-    "age": 3,
-    "sex": "colt",
-    "latest_course": "Sandown",
-    "latest_time": "1:50",
-    "latest_race": "HKJC World Pool Battaash Handicap",
-    "latest_date": "2026-07-03",
-    "latest_distance_f": 5.0,
-    "latest_class": "Class 2",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Andrew Balding",
-    "latest_jockey": "Ryan Moore",
-    "latest_draw": 3,
-    "latest_weight_lbs": 131,
-    "official_rating": "96",
-    "recent_form": "43-332",
-    "last_run_days": 32,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Sandown": 1
-    },
-    "distances_seen": {
-      "5.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 2": 1
-    },
-    "trainers_seen": {
-      "Andrew Balding": 1
-    },
-    "jockeys_seen": {
-      "Ryan Moore": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 79,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +6"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11989367",
-        "course": "Sandown",
-        "date": "2026-07-03",
-        "off_time": "1:50",
-        "off_dt": "2026-07-03T13:50:00+01:00",
-        "race_name": "HKJC World Pool Battaash Handicap",
-        "distance_f": 5.0,
-        "race_class": "Class 2",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Comical Point",
-        "horse_id": "hrs_52772286",
-        "age": 3,
-        "sex": "colt",
-        "trainer": "Andrew Balding",
-        "trainer_id": "trn_140445",
-        "jockey": "Ryan Moore",
-        "jockey_id": "jky_237606",
-        "draw": 3,
-        "number": 2,
-        "lbs": 131,
-        "ofr": "96",
-        "last_run": 32,
-        "form": "43-332",
-        "headgear": "t",
-        "_stored_at": "2026-07-03T00:37:02.219753+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ],
-    "favourite_course": {
-      "value": "Sandown",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 5.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 2",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 63,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Sandown",
-      "latest_distance_f": 5.0,
-      "latest_going": "Good",
-      "latest_class": "Class 2",
-      "latest_pulse_score": 79,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
   "dark_horse": {
-    "horse": "Comical Point",
-    "horse_id": "hrs_52772286",
+    "horse": "One And Gone",
+    "horse_id": "hrs_56127708",
     "age": 3,
-    "sex": "colt",
+    "sex": "gelding",
     "latest_course": "Sandown",
     "latest_time": "1:50",
     "latest_race": "HKJC World Pool Battaash Handicap",
@@ -287,13 +296,13 @@
     "latest_class": "Class 2",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Andrew Balding",
-    "latest_jockey": "Ryan Moore",
-    "latest_draw": 3,
-    "latest_weight_lbs": 131,
-    "official_rating": "96",
-    "recent_form": "43-332",
-    "last_run_days": 32,
+    "latest_trainer": "Ian Williams",
+    "latest_jockey": "Ryan Kavanagh(5)",
+    "latest_draw": 2,
+    "latest_weight_lbs": 118,
+    "official_rating": "83",
+    "recent_form": "733401",
+    "last_run_days": 14,
     "profile_runs": 1,
     "courses_seen": {
       "Sandown": 1
@@ -308,20 +317,27 @@
       "Class 2": 1
     },
     "trainers_seen": {
-      "Andrew Balding": 1
+      "Ian Williams": 1
     },
     "jockeys_seen": {
-      "Ryan Moore": 1
+      "Ryan Kavanagh(5)": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 79,
+    "latest_pulse_score": 92,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
-      "Race class strength +6"
+      "Race class strength +6",
+      "Trainer bonus +3",
+      "Stable flying +4 (5/5 last 14 days)",
+      "Jockey bonus +1",
+      "Jockey in form +2 (2/2 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4",
+      "Going specialist +4 (2/2 on going)"
     ],
     "runs": [
       {
@@ -338,26 +354,28 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 5,
-        "horse": "Comical Point",
-        "horse_id": "hrs_52772286",
+        "horse": "One And Gone",
+        "horse_id": "hrs_56127708",
         "age": 3,
-        "sex": "colt",
-        "trainer": "Andrew Balding",
-        "trainer_id": "trn_140445",
-        "jockey": "Ryan Moore",
-        "jockey_id": "jky_237606",
-        "draw": 3,
-        "number": 2,
-        "lbs": 131,
-        "ofr": "96",
-        "last_run": 32,
-        "form": "43-332",
-        "headgear": "t",
-        "_stored_at": "2026-07-03T00:37:02.219753+00:00"
+        "sex": "gelding",
+        "trainer": "Ian Williams",
+        "trainer_id": "trn_112185",
+        "jockey": "Ryan Kavanagh(5)",
+        "jockey_id": "jky_308169",
+        "draw": 2,
+        "number": 5,
+        "lbs": 118,
+        "ofr": "83",
+        "last_run": 14,
+        "form": "733401",
+        "headgear": "",
+        "_stored_at": "2026-07-03T04:58:48.368366+00:00"
       }
     ],
     "profile_notes": [
-      "Low draw today"
+      "Elite latest Pulse Score",
+      "Low draw today",
+      "Recent run timing"
     ],
     "favourite_course": {
       "value": "Sandown",
@@ -380,13 +398,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 63,
+    "horse_intelligence_score": 68,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
       "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
       "Limited stored profile data"
@@ -397,7 +415,7 @@
       "latest_distance_f": 5.0,
       "latest_going": "Good",
       "latest_class": "Class 2",
-      "latest_pulse_score": 79,
+      "latest_pulse_score": 92,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -445,16 +463,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 92,
+      "latest_pulse_score": 94,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
         "Race class strength +6",
-        "Trainer bonus +1",
+        "Trainer bonus +3",
         "Jockey bonus +3",
-        "Jockey flying +4 (3/4 last 14 days)"
+        "Jockey flying +4 (6/7 last 14 days)"
       ],
       "runs": [
         {
@@ -486,11 +504,149 @@
           "last_run": 14,
           "form": "1110",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:37:02.270140+00:00"
+          "_stored_at": "2026-07-03T04:58:48.318765+00:00"
         }
       ],
       "profile_notes": [
         "Elite latest Pulse Score",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Sandown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 69,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sandown",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 94,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "One And Gone",
+      "horse_id": "hrs_56127708",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Sandown",
+      "latest_time": "1:50",
+      "latest_race": "HKJC World Pool Battaash Handicap",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ian Williams",
+      "latest_jockey": "Ryan Kavanagh(5)",
+      "latest_draw": 2,
+      "latest_weight_lbs": 118,
+      "official_rating": "83",
+      "recent_form": "733401",
+      "last_run_days": 14,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sandown": 1
+      },
+      "distances_seen": {
+        "5.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Ian Williams": 1
+      },
+      "jockeys_seen": {
+        "Ryan Kavanagh(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 92,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +6",
+        "Trainer bonus +3",
+        "Stable flying +4 (5/5 last 14 days)",
+        "Jockey bonus +1",
+        "Jockey in form +2 (2/2 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4",
+        "Going specialist +4 (2/2 on going)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989367",
+          "course": "Sandown",
+          "date": "2026-07-03",
+          "off_time": "1:50",
+          "off_dt": "2026-07-03T13:50:00+01:00",
+          "race_name": "HKJC World Pool Battaash Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "One And Gone",
+          "horse_id": "hrs_56127708",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Ian Williams",
+          "trainer_id": "trn_112185",
+          "jockey": "Ryan Kavanagh(5)",
+          "jockey_id": "jky_308169",
+          "draw": 2,
+          "number": 5,
+          "lbs": 118,
+          "ofr": "83",
+          "last_run": 14,
+          "form": "733401",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:48.368366+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score",
+        "Low draw today",
         "Recent run timing"
       ],
       "favourite_course": {
@@ -578,13 +734,17 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 79,
+      "latest_pulse_score": 89,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
-        "Race class strength +6"
+        "Race class strength +6",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey bonus +4",
+        "Jockey in form +2 (2/4 last 14 days)"
       ],
       "runs": [
         {
@@ -616,10 +776,11 @@
           "last_run": 32,
           "form": "43-332",
           "headgear": "t",
-          "_stored_at": "2026-07-03T00:37:02.219753+00:00"
+          "_stored_at": "2026-07-03T04:58:48.294474+00:00"
         }
       ],
       "profile_notes": [
+        "Elite latest Pulse Score",
         "Low draw today"
       ],
       "favourite_course": {
@@ -643,13 +804,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 63,
+      "horse_intelligence_score": 67,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
         "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
         "Limited stored profile data"
@@ -660,139 +821,7 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good",
         "latest_class": "Class 2",
-        "latest_pulse_score": 79,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "One And Gone",
-      "horse_id": "hrs_56127708",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Sandown",
-      "latest_time": "1:50",
-      "latest_race": "HKJC World Pool Battaash Handicap",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ian Williams",
-      "latest_jockey": "Ryan Kavanagh(5)",
-      "latest_draw": 2,
-      "latest_weight_lbs": 118,
-      "official_rating": "83",
-      "recent_form": "733401",
-      "last_run_days": 14,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sandown": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Ian Williams": 1
-      },
-      "jockeys_seen": {
-        "Ryan Kavanagh(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 74,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +6",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989367",
-          "course": "Sandown",
-          "date": "2026-07-03",
-          "off_time": "1:50",
-          "off_dt": "2026-07-03T13:50:00+01:00",
-          "race_name": "HKJC World Pool Battaash Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "One And Gone",
-          "horse_id": "hrs_56127708",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Ian Williams",
-          "trainer_id": "trn_112185",
-          "jockey": "Ryan Kavanagh(5)",
-          "jockey_id": "jky_308169",
-          "draw": 2,
-          "number": 5,
-          "lbs": 118,
-          "ofr": "83",
-          "last_run": 14,
-          "form": "733401",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:37:02.320077+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Sandown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 2",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 60,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sandown",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good",
-        "latest_class": "Class 2",
-        "latest_pulse_score": 74,
+        "latest_pulse_score": 89,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -839,16 +868,17 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 65,
+      "latest_pulse_score": 68,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
         "Race class strength +6",
-        "Trainer bonus +2",
-        "Stable in form +2 (1/2 last 14 days)",
-        "Jockey bonus +3"
+        "Trainer bonus +3",
+        "Stable in form +2 (1/5 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey in form +2 (1/4 last 14 days)"
       ],
       "runs": [
         {
@@ -880,7 +910,7 @@
           "last_run": 14,
           "form": "-90190",
           "headgear": "p",
-          "_stored_at": "2026-07-03T00:37:02.287339+00:00"
+          "_stored_at": "2026-07-03T04:58:48.343223+00:00"
         }
       ],
       "profile_notes": [
@@ -908,7 +938,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 56,
+      "horse_intelligence_score": 58,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -925,7 +955,7 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good",
         "latest_class": "Class 2",
-        "latest_pulse_score": 65,
+        "latest_pulse_score": 68,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -972,14 +1002,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 59,
+      "latest_pulse_score": 65,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
         "Race class strength +6",
-        "Trainer bonus +1"
+        "Trainer bonus +1",
+        "Stable flying +4 (4/5 last 14 days)",
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -1011,7 +1043,7 @@
           "last_run": 14,
           "form": "346-30",
           "headgear": "p",
-          "_stored_at": "2026-07-03T00:37:02.186683+00:00"
+          "_stored_at": "2026-07-03T04:58:48.270230+00:00"
         }
       ],
       "profile_notes": [
@@ -1038,12 +1070,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
         "Limited stored profile data"
@@ -1054,7 +1087,7 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good",
         "latest_class": "Class 2",
-        "latest_pulse_score": 59,
+        "latest_pulse_score": 65,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1063,6 +1096,7 @@
   ],
   "notes": [
     "Westport is the top-rated Pulse IQ runner.",
-    "Comical Point is flagged as a possible dark horse."
+    "The race looks competitive with no clear standout.",
+    "One And Gone is flagged as a possible dark horse."
   ]
 }

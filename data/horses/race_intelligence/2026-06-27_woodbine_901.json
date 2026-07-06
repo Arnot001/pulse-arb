@@ -5,13 +5,13 @@
   "time": "9:01",
   "race_name": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
   "field_size": 6,
-  "average_intelligence": 58.33,
-  "top_score": 65,
-  "second_score": 60,
-  "gap": 5,
-  "confidence_score": 58,
-  "confidence": "MEDIUM",
-  "race_shape": "COMPETITIVE EDGE",
+  "average_intelligence": 24.0,
+  "top_score": 24,
+  "second_score": 24,
+  "gap": 0,
+  "confidence_score": 19,
+  "confidence": "LOW",
+  "race_shape": "OPEN RACE",
   "top_runner": {
     "horse": "Brachetto",
     "horse_id": "hrs_65609978",
@@ -51,15 +51,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 92,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Race class strength +8",
-      "Trainer bonus +4",
-      "Jockey bonus +4"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -124,9 +117,7 @@
         "_stored_at": "2026-06-28T12:42:42.780505+00:00"
       }
     ],
-    "profile_notes": [
-      "Elite latest Pulse Score"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Woodbine",
       "runs": 2
@@ -145,15 +136,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 65,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level",
-      "Elite latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -162,16 +153,16 @@
       "latest_distance_f": 8.5,
       "latest_going": "",
       "latest_class": "Class 1",
-      "latest_pulse_score": 92,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "main_threat": {
-    "horse": "Fire And Wine",
-    "horse_id": "hrs_56811447",
-    "age": 3,
+    "horse": "Casson",
+    "horse_id": "hrs_56811027",
+    "age": 2,
     "sex": "colt",
     "latest_course": "Woodbine",
     "latest_time": "9:01",
@@ -181,12 +172,12 @@
     "latest_class": "Class 1",
     "latest_going": "",
     "latest_surface": "",
-    "latest_trainer": "Zeljko Krcmar",
-    "latest_jockey": "Slade Jones",
-    "latest_draw": 3,
-    "latest_weight_lbs": 122,
+    "latest_trainer": "Mark Casse",
+    "latest_jockey": "Rafael Manuel Hernandez",
+    "latest_draw": 1,
+    "latest_weight_lbs": 118,
     "official_rating": "-",
-    "recent_form": "3311-6",
+    "recent_form": "262-41",
     "last_run_days": 41,
     "profile_runs": 2,
     "courses_seen": {
@@ -200,22 +191,15 @@
       "Class 1": 2
     },
     "trainers_seen": {
-      "Zeljko Krcmar": 2
+      "Mark Casse": 2
     },
     "jockeys_seen": {
-      "Slade Jones": 2
+      "Rafael Manuel Hernandez": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 81,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Race class strength +8",
-      "Trainer bonus +3",
-      "Jockey bonus +3"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -231,22 +215,22 @@
         "going": "",
         "surface": "",
         "field_size": 6,
-        "horse": "Fire And Wine",
-        "horse_id": "hrs_56811447",
-        "age": 3,
+        "horse": "Casson",
+        "horse_id": "hrs_56811027",
+        "age": 2,
         "sex": "colt",
-        "trainer": "Zeljko Krcmar",
-        "trainer_id": "trn_186336",
-        "jockey": "Slade Jones",
-        "jockey_id": "jky_305799",
-        "draw": 3,
-        "number": 3,
-        "lbs": 122,
+        "trainer": "Mark Casse",
+        "trainer_id": "trn_81099",
+        "jockey": "Rafael Manuel Hernandez",
+        "jockey_id": "jky_282219",
+        "draw": 1,
+        "number": 1,
+        "lbs": 118,
         "ofr": "-",
         "last_run": 41,
-        "form": "3311-6",
-        "headgear": "b",
-        "_stored_at": "2026-06-27T10:06:13.572027+00:00"
+        "form": "262-41",
+        "headgear": "",
+        "_stored_at": "2026-06-27T10:06:13.523052+00:00"
       },
       {
         "source": "the_racing_api",
@@ -262,26 +246,25 @@
         "going": "",
         "surface": "",
         "field_size": 6,
-        "horse": "Fire And Wine",
-        "horse_id": "hrs_56811447",
-        "age": 3,
+        "horse": "Casson",
+        "horse_id": "hrs_56811027",
+        "age": 2,
         "sex": "colt",
-        "trainer": "Zeljko Krcmar",
-        "trainer_id": "trn_186336",
-        "jockey": "Slade Jones",
-        "jockey_id": "jky_305799",
-        "draw": 3,
-        "number": 3,
-        "lbs": 122,
+        "trainer": "Mark Casse",
+        "trainer_id": "trn_81099",
+        "jockey": "Rafael Manuel Hernandez",
+        "jockey_id": "jky_282219",
+        "draw": 1,
+        "number": 1,
+        "lbs": 118,
         "ofr": "-",
         "last_run": 41,
-        "form": "3311-6",
-        "headgear": "b",
-        "_stored_at": "2026-06-28T12:42:42.740585+00:00"
+        "form": "262-41",
+        "headgear": "",
+        "_stored_at": "2026-06-28T12:42:42.707444+00:00"
       }
     ],
     "profile_notes": [
-      "Elite latest Pulse Score",
       "Low draw today"
     ],
     "favourite_course": {
@@ -302,15 +285,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 60,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level",
-      "Elite latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -319,7 +302,7 @@
       "latest_distance_f": 8.5,
       "latest_going": "",
       "latest_class": "Class 1",
-      "latest_pulse_score": 81,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
@@ -364,15 +347,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 81,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Race class strength +8",
-      "Trainer bonus +3",
-      "Jockey bonus +3"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -438,7 +414,6 @@
       }
     ],
     "profile_notes": [
-      "Elite latest Pulse Score",
       "Low draw today"
     ],
     "favourite_course": {
@@ -459,15 +434,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 60,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level",
-      "Elite latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -476,7 +451,7 @@
       "latest_distance_f": 8.5,
       "latest_going": "",
       "latest_class": "Class 1",
-      "latest_pulse_score": 81,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
@@ -522,15 +497,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 92,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +8",
-        "Trainer bonus +4",
-        "Jockey bonus +4"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -595,318 +563,6 @@
           "_stored_at": "2026-06-28T12:42:42.780505+00:00"
         }
       ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ],
-      "favourite_course": {
-        "value": "Woodbine",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 65,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Woodbine",
-        "latest_distance_f": 8.5,
-        "latest_going": "",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 92,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Fire And Wine",
-      "horse_id": "hrs_56811447",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Woodbine",
-      "latest_time": "9:01",
-      "latest_race": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "Class 1",
-      "latest_going": "",
-      "latest_surface": "",
-      "latest_trainer": "Zeljko Krcmar",
-      "latest_jockey": "Slade Jones",
-      "latest_draw": 3,
-      "latest_weight_lbs": 122,
-      "official_rating": "-",
-      "recent_form": "3311-6",
-      "last_run_days": 41,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Woodbine": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 1": 2
-      },
-      "trainers_seen": {
-        "Zeljko Krcmar": 2
-      },
-      "jockeys_seen": {
-        "Slade Jones": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 81,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +8",
-        "Trainer bonus +3",
-        "Jockey bonus +3"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007918",
-          "course": "Woodbine",
-          "date": "2026-06-27",
-          "off_time": "9:01",
-          "off_dt": "2026-06-27T21:01:00+01:00",
-          "race_name": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
-          "distance_f": 8.5,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "",
-          "field_size": 6,
-          "horse": "Fire And Wine",
-          "horse_id": "hrs_56811447",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Zeljko Krcmar",
-          "trainer_id": "trn_186336",
-          "jockey": "Slade Jones",
-          "jockey_id": "jky_305799",
-          "draw": 3,
-          "number": 3,
-          "lbs": 122,
-          "ofr": "-",
-          "last_run": 41,
-          "form": "3311-6",
-          "headgear": "b",
-          "_stored_at": "2026-06-27T10:06:13.572027+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007918",
-          "course": "Woodbine",
-          "date": "2026-06-27",
-          "off_time": "9:01",
-          "off_dt": "2026-06-27T21:01:00+01:00",
-          "race_name": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
-          "distance_f": 8.5,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "",
-          "field_size": 6,
-          "horse": "Fire And Wine",
-          "horse_id": "hrs_56811447",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Zeljko Krcmar",
-          "trainer_id": "trn_186336",
-          "jockey": "Slade Jones",
-          "jockey_id": "jky_305799",
-          "draw": 3,
-          "number": 3,
-          "lbs": 122,
-          "ofr": "-",
-          "last_run": 41,
-          "form": "3311-6",
-          "headgear": "b",
-          "_stored_at": "2026-06-28T12:42:42.740585+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score",
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Woodbine",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 60,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Woodbine",
-        "latest_distance_f": 8.5,
-        "latest_going": "",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 81,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Yoshii",
-      "horse_id": "hrs_66272332",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Woodbine",
-      "latest_time": "9:01",
-      "latest_race": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 8.5,
-      "latest_class": "Class 1",
-      "latest_going": "",
-      "latest_surface": "",
-      "latest_trainer": "Dale A Desruisseaux",
-      "latest_jockey": "Fraser Aebly",
-      "latest_draw": 4,
-      "latest_weight_lbs": 118,
-      "official_rating": "-",
-      "recent_form": "1-1",
-      "last_run_days": null,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Woodbine": 2
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 1": 2
-      },
-      "trainers_seen": {
-        "Dale A Desruisseaux": 2
-      },
-      "jockeys_seen": {
-        "Fraser Aebly": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 77,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Race class strength +8",
-        "Trainer bonus +4",
-        "Jockey bonus +4"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007918",
-          "course": "Woodbine",
-          "date": "2026-06-27",
-          "off_time": "9:01",
-          "off_dt": "2026-06-27T21:01:00+01:00",
-          "race_name": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
-          "distance_f": 8.5,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "",
-          "field_size": 6,
-          "horse": "Yoshii",
-          "horse_id": "hrs_66272332",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Dale A Desruisseaux",
-          "trainer_id": "trn_324603",
-          "jockey": "Fraser Aebly",
-          "jockey_id": "jky_308964",
-          "draw": 4,
-          "number": 4,
-          "lbs": 118,
-          "ofr": "-",
-          "last_run": null,
-          "form": "1-1",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:13.599584+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007918",
-          "course": "Woodbine",
-          "date": "2026-06-27",
-          "off_time": "9:01",
-          "off_dt": "2026-06-27T21:01:00+01:00",
-          "race_name": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
-          "distance_f": 8.5,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "",
-          "field_size": 6,
-          "horse": "Yoshii",
-          "horse_id": "hrs_66272332",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Dale A Desruisseaux",
-          "trainer_id": "trn_324603",
-          "jockey": "Fraser Aebly",
-          "jockey_id": "jky_308964",
-          "draw": 4,
-          "number": 4,
-          "lbs": 118,
-          "ofr": "-",
-          "last_run": null,
-          "form": "1-1",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:42.759963+00:00"
-        }
-      ],
       "profile_notes": [],
       "favourite_course": {
         "value": "Woodbine",
@@ -926,15 +582,15 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 59,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -943,7 +599,7 @@
         "latest_distance_f": 8.5,
         "latest_going": "",
         "latest_class": "Class 1",
-        "latest_pulse_score": 77,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -988,15 +644,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 76,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +8",
-        "Trainer bonus +3",
-        "Jockey bonus +4"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1082,15 +731,15 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 58,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1099,17 +748,17 @@
         "latest_distance_f": 8.5,
         "latest_going": "",
         "latest_class": "Class 1",
-        "latest_pulse_score": 76,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
       }
     },
     {
-      "horse": "Yukon Striker",
-      "horse_id": "hrs_66272339",
+      "horse": "Fire And Wine",
+      "horse_id": "hrs_56811447",
       "age": 3,
-      "sex": "gelding",
+      "sex": "colt",
       "latest_course": "Woodbine",
       "latest_time": "9:01",
       "latest_race": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
@@ -1118,13 +767,13 @@
       "latest_class": "Class 1",
       "latest_going": "",
       "latest_surface": "",
-      "latest_trainer": "Kevin Attard",
-      "latest_jockey": "Pietro Moran",
-      "latest_draw": 6,
-      "latest_weight_lbs": 118,
+      "latest_trainer": "Zeljko Krcmar",
+      "latest_jockey": "Slade Jones",
+      "latest_draw": 3,
+      "latest_weight_lbs": 122,
       "official_rating": "-",
-      "recent_form": "1-1",
-      "last_run_days": null,
+      "recent_form": "3311-6",
+      "last_run_days": 41,
       "profile_runs": 2,
       "courses_seen": {
         "Woodbine": 2
@@ -1137,21 +786,15 @@
         "Class 1": 2
       },
       "trainers_seen": {
-        "Kevin Attard": 2
+        "Zeljko Krcmar": 2
       },
       "jockeys_seen": {
-        "Pietro Moran": 2
+        "Slade Jones": 2
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 73,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Race class strength +8",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1167,22 +810,22 @@
           "going": "",
           "surface": "",
           "field_size": 6,
-          "horse": "Yukon Striker",
-          "horse_id": "hrs_66272339",
+          "horse": "Fire And Wine",
+          "horse_id": "hrs_56811447",
           "age": 3,
-          "sex": "gelding",
-          "trainer": "Kevin Attard",
-          "trainer_id": "trn_147690",
-          "jockey": "Pietro Moran",
-          "jockey_id": "jky_311085",
-          "draw": 6,
-          "number": 6,
-          "lbs": 118,
+          "sex": "colt",
+          "trainer": "Zeljko Krcmar",
+          "trainer_id": "trn_186336",
+          "jockey": "Slade Jones",
+          "jockey_id": "jky_305799",
+          "draw": 3,
+          "number": 3,
+          "lbs": 122,
           "ofr": "-",
-          "last_run": null,
-          "form": "1-1",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:13.638169+00:00"
+          "last_run": 41,
+          "form": "3311-6",
+          "headgear": "b",
+          "_stored_at": "2026-06-27T10:06:13.572027+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1198,25 +841,27 @@
           "going": "",
           "surface": "",
           "field_size": 6,
-          "horse": "Yukon Striker",
-          "horse_id": "hrs_66272339",
+          "horse": "Fire And Wine",
+          "horse_id": "hrs_56811447",
           "age": 3,
-          "sex": "gelding",
-          "trainer": "Kevin Attard",
-          "trainer_id": "trn_147690",
-          "jockey": "Pietro Moran",
-          "jockey_id": "jky_311085",
-          "draw": 6,
-          "number": 6,
-          "lbs": 118,
+          "sex": "colt",
+          "trainer": "Zeljko Krcmar",
+          "trainer_id": "trn_186336",
+          "jockey": "Slade Jones",
+          "jockey_id": "jky_305799",
+          "draw": 3,
+          "number": 3,
+          "lbs": 122,
           "ofr": "-",
-          "last_run": null,
-          "form": "1-1",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:42.797800+00:00"
+          "last_run": 41,
+          "form": "3311-6",
+          "headgear": "b",
+          "_stored_at": "2026-06-28T12:42:42.740585+00:00"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Low draw today"
+      ],
       "favourite_course": {
         "value": "Woodbine",
         "runs": 2
@@ -1235,15 +880,15 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 57,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1252,7 +897,7 @@
         "latest_distance_f": 8.5,
         "latest_going": "",
         "latest_class": "Class 1",
-        "latest_pulse_score": 73,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1297,15 +942,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Strong recent form",
-        "Questionable run timing",
-        "Helpful draw",
-        "Race class strength +8",
-        "Trainer bonus +1",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1392,7 +1030,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 51,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1400,6 +1038,7 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1408,7 +1047,301 @@
         "latest_distance_f": 8.5,
         "latest_going": "",
         "latest_class": "Class 1",
-        "latest_pulse_score": 60,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Yoshii",
+      "horse_id": "hrs_66272332",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Woodbine",
+      "latest_time": "9:01",
+      "latest_race": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "Class 1",
+      "latest_going": "",
+      "latest_surface": "",
+      "latest_trainer": "Dale A Desruisseaux",
+      "latest_jockey": "Fraser Aebly",
+      "latest_draw": 4,
+      "latest_weight_lbs": 118,
+      "official_rating": "-",
+      "recent_form": "1-1",
+      "last_run_days": null,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Woodbine": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 1": 2
+      },
+      "trainers_seen": {
+        "Dale A Desruisseaux": 2
+      },
+      "jockeys_seen": {
+        "Fraser Aebly": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007918",
+          "course": "Woodbine",
+          "date": "2026-06-27",
+          "off_time": "9:01",
+          "off_dt": "2026-06-27T21:01:00+01:00",
+          "race_name": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
+          "distance_f": 8.5,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "",
+          "field_size": 6,
+          "horse": "Yoshii",
+          "horse_id": "hrs_66272332",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Dale A Desruisseaux",
+          "trainer_id": "trn_324603",
+          "jockey": "Fraser Aebly",
+          "jockey_id": "jky_308964",
+          "draw": 4,
+          "number": 4,
+          "lbs": 118,
+          "ofr": "-",
+          "last_run": null,
+          "form": "1-1",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:13.599584+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007918",
+          "course": "Woodbine",
+          "date": "2026-06-27",
+          "off_time": "9:01",
+          "off_dt": "2026-06-27T21:01:00+01:00",
+          "race_name": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
+          "distance_f": 8.5,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "",
+          "field_size": 6,
+          "horse": "Yoshii",
+          "horse_id": "hrs_66272332",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Dale A Desruisseaux",
+          "trainer_id": "trn_324603",
+          "jockey": "Fraser Aebly",
+          "jockey_id": "jky_308964",
+          "draw": 4,
+          "number": 4,
+          "lbs": 118,
+          "ofr": "-",
+          "last_run": null,
+          "form": "1-1",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:42.759963+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Woodbine",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Woodbine",
+        "latest_distance_f": 8.5,
+        "latest_going": "",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Yukon Striker",
+      "horse_id": "hrs_66272339",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Woodbine",
+      "latest_time": "9:01",
+      "latest_race": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 8.5,
+      "latest_class": "Class 1",
+      "latest_going": "",
+      "latest_surface": "",
+      "latest_trainer": "Kevin Attard",
+      "latest_jockey": "Pietro Moran",
+      "latest_draw": 6,
+      "latest_weight_lbs": 118,
+      "official_rating": "-",
+      "recent_form": "1-1",
+      "last_run_days": null,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Woodbine": 2
+      },
+      "distances_seen": {
+        "8.5": 2
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 1": 2
+      },
+      "trainers_seen": {
+        "Kevin Attard": 2
+      },
+      "jockeys_seen": {
+        "Pietro Moran": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007918",
+          "course": "Woodbine",
+          "date": "2026-06-27",
+          "off_time": "9:01",
+          "off_dt": "2026-06-27T21:01:00+01:00",
+          "race_name": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
+          "distance_f": 8.5,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "",
+          "field_size": 6,
+          "horse": "Yukon Striker",
+          "horse_id": "hrs_66272339",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Kevin Attard",
+          "trainer_id": "trn_147690",
+          "jockey": "Pietro Moran",
+          "jockey_id": "jky_311085",
+          "draw": 6,
+          "number": 6,
+          "lbs": 118,
+          "ofr": "-",
+          "last_run": null,
+          "form": "1-1",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:13.638169+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007918",
+          "course": "Woodbine",
+          "date": "2026-06-27",
+          "off_time": "9:01",
+          "off_dt": "2026-06-27T21:01:00+01:00",
+          "race_name": "Marine Stakes (Grade 3) (All Weather (Tapeta))",
+          "distance_f": 8.5,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "",
+          "field_size": 6,
+          "horse": "Yukon Striker",
+          "horse_id": "hrs_66272339",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Kevin Attard",
+          "trainer_id": "trn_147690",
+          "jockey": "Pietro Moran",
+          "jockey_id": "jky_311085",
+          "draw": 6,
+          "number": 6,
+          "lbs": 118,
+          "ofr": "-",
+          "last_run": null,
+          "form": "1-1",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:42.797800+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Woodbine",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 2
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Woodbine",
+        "latest_distance_f": 8.5,
+        "latest_going": "",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1417,6 +1350,8 @@
   ],
   "notes": [
     "Brachetto is the top-rated Pulse IQ runner.",
+    "The race looks competitive with no clear standout.",
+    "This race has a generally weak profile strength.",
     "Fire And Wine is flagged as a possible dark horse."
   ]
 }

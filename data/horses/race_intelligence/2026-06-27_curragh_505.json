@@ -5,18 +5,18 @@
   "time": "5:05",
   "race_name": "Fitzpatrick's Garage Group Handicap",
   "field_size": 17,
-  "average_intelligence": 45.88,
-  "top_score": 56,
-  "second_score": 56,
+  "average_intelligence": 24.0,
+  "top_score": 24,
+  "second_score": 24,
   "gap": 0,
-  "confidence_score": 43,
+  "confidence_score": 19,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Real Encounter",
-    "horse_id": "hrs_54304593",
-    "age": 3,
-    "sex": "filly",
+    "horse": "Bishopton",
+    "horse_id": "hrs_43826930",
+    "age": 4,
+    "sex": "gelding",
     "latest_course": "Curragh",
     "latest_time": "5:05",
     "latest_race": "Fitzpatrick's Garage Group Handicap",
@@ -25,13 +25,13 @@
     "latest_class": "",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Mrs John Harrington",
-    "latest_jockey": "Shane Foley",
-    "latest_draw": 15,
-    "latest_weight_lbs": 125,
-    "official_rating": "81",
-    "recent_form": "4-2162",
-    "last_run_days": 24,
+    "latest_trainer": "Miss Natalia Lupini",
+    "latest_jockey": "Wayne Lordan",
+    "latest_draw": 13,
+    "latest_weight_lbs": 134,
+    "official_rating": "83",
+    "recent_form": "72-105",
+    "last_run_days": 13,
     "profile_runs": 2,
     "courses_seen": {
       "Curragh": 2
@@ -44,20 +44,15 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "Mrs John Harrington": 2
+      "Miss Natalia Lupini": 2
     },
     "jockeys_seen": {
-      "Shane Foley": 2
+      "Wayne Lordan": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 71,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Trainer bonus +1",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -73,22 +68,22 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 14,
-        "horse": "Real Encounter",
-        "horse_id": "hrs_54304593",
-        "age": 3,
-        "sex": "filly",
-        "trainer": "Mrs John Harrington",
-        "trainer_id": "trn_11565",
-        "jockey": "Shane Foley",
-        "jockey_id": "jky_259047",
-        "draw": 15,
-        "number": 14,
-        "lbs": 125,
-        "ofr": "81",
-        "last_run": 24,
-        "form": "4-2162",
+        "horse": "Bishopton",
+        "horse_id": "hrs_43826930",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Miss Natalia Lupini",
+        "trainer_id": "trn_278505",
+        "jockey": "Wayne Lordan",
+        "jockey_id": "jky_229806",
+        "draw": 13,
+        "number": 2,
+        "lbs": 134,
+        "ofr": "83",
+        "last_run": 13,
+        "form": "72-105",
         "headgear": "",
-        "_stored_at": "2026-06-27T10:06:26.338548+00:00"
+        "_stored_at": "2026-06-27T10:06:26.211995+00:00"
       },
       {
         "source": "the_racing_api",
@@ -104,25 +99,27 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 14,
-        "horse": "Real Encounter",
-        "horse_id": "hrs_54304593",
-        "age": 3,
-        "sex": "filly",
-        "trainer": "Mrs John Harrington",
-        "trainer_id": "trn_11565",
-        "jockey": "Shane Foley",
-        "jockey_id": "jky_259047",
-        "draw": 15,
-        "number": 14,
-        "lbs": 125,
-        "ofr": "81",
-        "last_run": 24,
-        "form": "4-2162",
+        "horse": "Bishopton",
+        "horse_id": "hrs_43826930",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Miss Natalia Lupini",
+        "trainer_id": "trn_278505",
+        "jockey": "Wayne Lordan",
+        "jockey_id": "jky_229806",
+        "draw": 13,
+        "number": 2,
+        "lbs": 134,
+        "ofr": "83",
+        "last_run": 13,
+        "form": "72-105",
         "headgear": "",
-        "_stored_at": "2026-06-28T12:42:53.793785+00:00"
+        "_stored_at": "2026-06-28T12:42:53.627861+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Recent run timing"
+    ],
     "favourite_course": {
       "value": "Curragh",
       "runs": 2
@@ -141,14 +138,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 56,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -157,16 +154,16 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "",
-      "latest_pulse_score": 71,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "main_threat": {
-    "horse": "The Piper's Call",
-    "horse_id": "hrs_53390141",
-    "age": 3,
+    "horse": "Clonmacash",
+    "horse_id": "hrs_35513198",
+    "age": 5,
     "sex": "gelding",
     "latest_course": "Curragh",
     "latest_time": "5:05",
@@ -176,13 +173,13 @@
     "latest_class": "",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Daniel McLoughlin",
-    "latest_jockey": "Ben Coen",
-    "latest_draw": 16,
-    "latest_weight_lbs": 126,
-    "official_rating": "82",
-    "recent_form": "23-1",
-    "last_run_days": 24,
+    "latest_trainer": "Adrian McGuinness",
+    "latest_jockey": "Declan McDonogh",
+    "latest_draw": 17,
+    "latest_weight_lbs": 125,
+    "official_rating": "74",
+    "recent_form": "419535",
+    "last_run_days": 8,
     "profile_runs": 2,
     "courses_seen": {
       "Curragh": 2
@@ -195,20 +192,15 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "Daniel McLoughlin": 2
+      "Adrian McGuinness": 2
     },
     "jockeys_seen": {
-      "Ben Coen": 2
+      "Declan McDonogh": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 72,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Trainer bonus +1",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -224,22 +216,22 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 14,
-        "horse": "The Piper's Call",
-        "horse_id": "hrs_53390141",
-        "age": 3,
+        "horse": "Clonmacash",
+        "horse_id": "hrs_35513198",
+        "age": 5,
         "sex": "gelding",
-        "trainer": "Daniel McLoughlin",
-        "trainer_id": "trn_371457",
-        "jockey": "Ben Coen",
-        "jockey_id": "jky_291093",
-        "draw": 16,
-        "number": 11,
-        "lbs": 126,
-        "ofr": "82",
-        "last_run": 24,
-        "form": "23-1",
-        "headgear": "",
-        "_stored_at": "2026-06-27T10:06:26.301351+00:00"
+        "trainer": "Adrian McGuinness",
+        "trainer_id": "trn_126792",
+        "jockey": "Declan McDonogh",
+        "jockey_id": "jky_39609",
+        "draw": 17,
+        "number": 12,
+        "lbs": 125,
+        "ofr": "74",
+        "last_run": 8,
+        "form": "419535",
+        "headgear": "v",
+        "_stored_at": "2026-06-27T10:06:26.313925+00:00"
       },
       {
         "source": "the_racing_api",
@@ -255,25 +247,27 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 14,
-        "horse": "The Piper's Call",
-        "horse_id": "hrs_53390141",
-        "age": 3,
+        "horse": "Clonmacash",
+        "horse_id": "hrs_35513198",
+        "age": 5,
         "sex": "gelding",
-        "trainer": "Daniel McLoughlin",
-        "trainer_id": "trn_371457",
-        "jockey": "Ben Coen",
-        "jockey_id": "jky_291093",
-        "draw": 16,
-        "number": 11,
-        "lbs": 126,
-        "ofr": "82",
-        "last_run": 24,
-        "form": "23-1",
-        "headgear": "",
-        "_stored_at": "2026-06-28T12:42:53.744799+00:00"
+        "trainer": "Adrian McGuinness",
+        "trainer_id": "trn_126792",
+        "jockey": "Declan McDonogh",
+        "jockey_id": "jky_39609",
+        "draw": 17,
+        "number": 12,
+        "lbs": 125,
+        "ofr": "74",
+        "last_run": 8,
+        "form": "419535",
+        "headgear": "v",
+        "_stored_at": "2026-06-28T12:42:53.761315+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Recent run timing"
+    ],
     "favourite_course": {
       "value": "Curragh",
       "runs": 2
@@ -292,14 +286,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 56,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -308,16 +302,16 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "",
-      "latest_pulse_score": 72,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "dark_horse": {
-    "horse": "The Piper's Call",
-    "horse_id": "hrs_53390141",
-    "age": 3,
+    "horse": "Flaming Rib",
+    "horse_id": "hrs_24517857",
+    "age": 7,
     "sex": "gelding",
     "latest_course": "Curragh",
     "latest_time": "5:05",
@@ -327,13 +321,13 @@
     "latest_class": "",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Daniel McLoughlin",
-    "latest_jockey": "Ben Coen",
-    "latest_draw": 16,
+    "latest_trainer": "Adrian McGuinness",
+    "latest_jockey": "James Ryan",
+    "latest_draw": 8,
     "latest_weight_lbs": 126,
-    "official_rating": "82",
-    "recent_form": "23-1",
-    "last_run_days": 24,
+    "official_rating": "75",
+    "recent_form": "940-54",
+    "last_run_days": 8,
     "profile_runs": 2,
     "courses_seen": {
       "Curragh": 2
@@ -346,20 +340,15 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "Daniel McLoughlin": 2
+      "Adrian McGuinness": 2
     },
     "jockeys_seen": {
-      "Ben Coen": 2
+      "James Ryan": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 72,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Trainer bonus +1",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -375,22 +364,22 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 14,
-        "horse": "The Piper's Call",
-        "horse_id": "hrs_53390141",
-        "age": 3,
+        "horse": "Flaming Rib",
+        "horse_id": "hrs_24517857",
+        "age": 7,
         "sex": "gelding",
-        "trainer": "Daniel McLoughlin",
-        "trainer_id": "trn_371457",
-        "jockey": "Ben Coen",
-        "jockey_id": "jky_291093",
-        "draw": 16,
-        "number": 11,
+        "trainer": "Adrian McGuinness",
+        "trainer_id": "trn_126792",
+        "jockey": "James Ryan",
+        "jockey_id": "jky_303036",
+        "draw": 8,
+        "number": null,
         "lbs": 126,
-        "ofr": "82",
-        "last_run": 24,
-        "form": "23-1",
+        "ofr": "75",
+        "last_run": 8,
+        "form": "940-54",
         "headgear": "",
-        "_stored_at": "2026-06-27T10:06:26.301351+00:00"
+        "_stored_at": "2026-06-27T10:06:26.391616+00:00"
       },
       {
         "source": "the_racing_api",
@@ -406,25 +395,27 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 14,
-        "horse": "The Piper's Call",
-        "horse_id": "hrs_53390141",
-        "age": 3,
+        "horse": "Flaming Rib",
+        "horse_id": "hrs_24517857",
+        "age": 7,
         "sex": "gelding",
-        "trainer": "Daniel McLoughlin",
-        "trainer_id": "trn_371457",
-        "jockey": "Ben Coen",
-        "jockey_id": "jky_291093",
-        "draw": 16,
-        "number": 11,
+        "trainer": "Adrian McGuinness",
+        "trainer_id": "trn_126792",
+        "jockey": "James Ryan",
+        "jockey_id": "jky_303036",
+        "draw": 8,
+        "number": null,
         "lbs": 126,
-        "ofr": "82",
-        "last_run": 24,
-        "form": "23-1",
+        "ofr": "75",
+        "last_run": 8,
+        "form": "940-54",
         "headgear": "",
-        "_stored_at": "2026-06-28T12:42:53.744799+00:00"
+        "_stored_at": "2026-06-28T12:42:53.859753+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Recent run timing"
+    ],
     "favourite_course": {
       "value": "Curragh",
       "runs": 2
@@ -443,14 +434,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 56,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -459,466 +450,13 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "",
-      "latest_pulse_score": 72,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "runners": [
-    {
-      "horse": "Real Encounter",
-      "horse_id": "hrs_54304593",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mrs John Harrington",
-      "latest_jockey": "Shane Foley",
-      "latest_draw": 15,
-      "latest_weight_lbs": 125,
-      "official_rating": "81",
-      "recent_form": "4-2162",
-      "last_run_days": 24,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Mrs John Harrington": 2
-      },
-      "jockeys_seen": {
-        "Shane Foley": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 71,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Real Encounter",
-          "horse_id": "hrs_54304593",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Mrs John Harrington",
-          "trainer_id": "trn_11565",
-          "jockey": "Shane Foley",
-          "jockey_id": "jky_259047",
-          "draw": 15,
-          "number": 14,
-          "lbs": 125,
-          "ofr": "81",
-          "last_run": 24,
-          "form": "4-2162",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.338548+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Real Encounter",
-          "horse_id": "hrs_54304593",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Mrs John Harrington",
-          "trainer_id": "trn_11565",
-          "jockey": "Shane Foley",
-          "jockey_id": "jky_259047",
-          "draw": 15,
-          "number": 14,
-          "lbs": 125,
-          "ofr": "81",
-          "last_run": 24,
-          "form": "4-2162",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:53.793785+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 71,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "The Piper's Call",
-      "horse_id": "hrs_53390141",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Daniel McLoughlin",
-      "latest_jockey": "Ben Coen",
-      "latest_draw": 16,
-      "latest_weight_lbs": 126,
-      "official_rating": "82",
-      "recent_form": "23-1",
-      "last_run_days": 24,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Daniel McLoughlin": 2
-      },
-      "jockeys_seen": {
-        "Ben Coen": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 72,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "The Piper's Call",
-          "horse_id": "hrs_53390141",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Daniel McLoughlin",
-          "trainer_id": "trn_371457",
-          "jockey": "Ben Coen",
-          "jockey_id": "jky_291093",
-          "draw": 16,
-          "number": 11,
-          "lbs": 126,
-          "ofr": "82",
-          "last_run": 24,
-          "form": "23-1",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.301351+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "The Piper's Call",
-          "horse_id": "hrs_53390141",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Daniel McLoughlin",
-          "trainer_id": "trn_371457",
-          "jockey": "Ben Coen",
-          "jockey_id": "jky_291093",
-          "draw": 16,
-          "number": 11,
-          "lbs": 126,
-          "ofr": "82",
-          "last_run": 24,
-          "form": "23-1",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:53.744799+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 72,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Unauthorized",
-      "horse_id": "hrs_52962777",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Aidan Melia",
-      "latest_jockey": "Rory Cleary",
-      "latest_draw": 5,
-      "latest_weight_lbs": 130,
-      "official_rating": "86",
-      "recent_form": "851-71",
-      "last_run_days": 27,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Aidan Melia": 2
-      },
-      "jockeys_seen": {
-        "Rory Cleary": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 71,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Unauthorized",
-          "horse_id": "hrs_52962777",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Aidan Melia",
-          "trainer_id": "trn_373869",
-          "jockey": "Rory Cleary",
-          "jockey_id": "jky_247374",
-          "draw": 5,
-          "number": 5,
-          "lbs": 130,
-          "ofr": "86",
-          "last_run": 27,
-          "form": "851-71",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.235485+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Unauthorized",
-          "horse_id": "hrs_52962777",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Aidan Melia",
-          "trainer_id": "trn_373869",
-          "jockey": "Rory Cleary",
-          "jockey_id": "jky_247374",
-          "draw": 5,
-          "number": 5,
-          "lbs": 130,
-          "ofr": "86",
-          "last_run": 27,
-          "form": "851-71",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:53.662470+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 71,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
     {
       "horse": "Bishopton",
       "horse_id": "hrs_43826930",
@@ -958,12 +496,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 66,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Trainer bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1049,318 +583,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 66,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Midnight Dusk",
-      "horse_id": "hrs_56624925",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Jack Foley",
-      "latest_jockey": "W J Lee",
-      "latest_draw": 2,
-      "latest_weight_lbs": 125,
-      "official_rating": "81",
-      "recent_form": "-33591",
-      "last_run_days": 15,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Jack Foley": 2
-      },
-      "jockeys_seen": {
-        "W J Lee": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 66,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Midnight Dusk",
-          "horse_id": "hrs_56624925",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Jack Foley",
-          "trainer_id": "trn_382455",
-          "jockey": "W J Lee",
-          "jockey_id": "jky_244275",
-          "draw": 2,
-          "number": 13,
-          "lbs": 125,
-          "ofr": "81",
-          "last_run": 15,
-          "form": "-33591",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.326951+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Midnight Dusk",
-          "horse_id": "hrs_56624925",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Jack Foley",
-          "trainer_id": "trn_382455",
-          "jockey": "W J Lee",
-          "jockey_id": "jky_244275",
-          "draw": 2,
-          "number": 13,
-          "lbs": 125,
-          "ofr": "81",
-          "last_run": 15,
-          "form": "-33591",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:53.777580+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 66,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Sommelier",
-      "horse_id": "hrs_33788979",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Kieran P Cotter",
-      "latest_jockey": "Paddy Harnett(5)",
-      "latest_draw": 3,
-      "latest_weight_lbs": 134,
-      "official_rating": "83",
-      "recent_form": "048715",
-      "last_run_days": 20,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Kieran P Cotter": 2
-      },
-      "jockeys_seen": {
-        "Paddy Harnett(5)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 59,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Sommelier",
-          "horse_id": "hrs_33788979",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Kieran P Cotter",
-          "trainer_id": "trn_88227",
-          "jockey": "Paddy Harnett(5)",
-          "jockey_id": "jky_296208",
-          "draw": 3,
-          "number": 3,
-          "lbs": 134,
-          "ofr": "83",
-          "last_run": 20,
-          "form": "048715",
-          "headgear": "tb",
-          "_stored_at": "2026-06-27T10:06:26.223804+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Sommelier",
-          "horse_id": "hrs_33788979",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Kieran P Cotter",
-          "trainer_id": "trn_88227",
-          "jockey": "Paddy Harnett(5)",
-          "jockey_id": "jky_296208",
-          "draw": 3,
-          "number": 3,
-          "lbs": 134,
-          "ofr": "83",
-          "last_run": 20,
-          "form": "048715",
-          "headgear": "tb",
-          "_stored_at": "2026-06-28T12:42:53.645573+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 51,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1369,308 +599,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "",
-        "latest_pulse_score": 59,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Fox In Flight",
-      "horse_id": "hrs_57255079",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "David Marnane",
-      "latest_jockey": "Luke McAteer",
-      "latest_draw": 10,
-      "latest_weight_lbs": 124,
-      "official_rating": "80",
-      "recent_form": "13-802",
-      "last_run_days": 13,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "David Marnane": 2
-      },
-      "jockeys_seen": {
-        "Luke McAteer": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 57,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Trainer bonus +3"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Fox In Flight",
-          "horse_id": "hrs_57255079",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "David Marnane",
-          "trainer_id": "trn_155772",
-          "jockey": "Luke McAteer",
-          "jockey_id": "jky_289707",
-          "draw": 10,
-          "number": 15,
-          "lbs": 124,
-          "ofr": "80",
-          "last_run": 13,
-          "form": "13-802",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.350974+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Fox In Flight",
-          "horse_id": "hrs_57255079",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "David Marnane",
-          "trainer_id": "trn_155772",
-          "jockey": "Luke McAteer",
-          "jockey_id": "jky_289707",
-          "draw": 10,
-          "number": 15,
-          "lbs": 124,
-          "ofr": "80",
-          "last_run": 13,
-          "form": "13-802",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:53.810161+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 50,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 57,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Inishfallen",
-      "horse_id": "hrs_35840798",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Stephen Thorne",
-      "latest_jockey": "Colin Keane",
-      "latest_draw": 6,
-      "latest_weight_lbs": 126,
-      "official_rating": "75",
-      "recent_form": "442460",
-      "last_run_days": 27,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Stephen Thorne": 2
-      },
-      "jockeys_seen": {
-        "Colin Keane": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Inishfallen",
-          "horse_id": "hrs_35840798",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Stephen Thorne",
-          "trainer_id": "trn_376083",
-          "jockey": "Colin Keane",
-          "jockey_id": "jky_269877",
-          "draw": 6,
-          "number": 8,
-          "lbs": 126,
-          "ofr": "75",
-          "last_run": 27,
-          "form": "442460",
-          "headgear": "p",
-          "_stored_at": "2026-06-27T10:06:26.260465+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Inishfallen",
-          "horse_id": "hrs_35840798",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Stephen Thorne",
-          "trainer_id": "trn_376083",
-          "jockey": "Colin Keane",
-          "jockey_id": "jky_269877",
-          "draw": 6,
-          "number": 8,
-          "lbs": 126,
-          "ofr": "75",
-          "last_run": 27,
-          "form": "442460",
-          "headgear": "p",
-          "_stored_at": "2026-06-28T12:42:53.695549+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 48,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 54,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1715,10 +644,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Positive recent form"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1804,756 +731,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 46,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Morehampton",
-      "horse_id": "hrs_54149823",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "J P Murtagh",
-      "latest_jockey": "Rory Mulligan(5)",
-      "latest_draw": 11,
-      "latest_weight_lbs": 126,
-      "official_rating": "82",
-      "recent_form": "50-405",
-      "last_run_days": 22,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "J P Murtagh": 2
-      },
-      "jockeys_seen": {
-        "Rory Mulligan(5)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Morehampton",
-          "horse_id": "hrs_54149823",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "J P Murtagh",
-          "trainer_id": "trn_253620",
-          "jockey": "Rory Mulligan(5)",
-          "jockey_id": "jky_306150",
-          "draw": 11,
-          "number": 9,
-          "lbs": 126,
-          "ofr": "82",
-          "last_run": 22,
-          "form": "50-405",
-          "headgear": "p",
-          "_stored_at": "2026-06-27T10:06:26.274007+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Morehampton",
-          "horse_id": "hrs_54149823",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "J P Murtagh",
-          "trainer_id": "trn_253620",
-          "jockey": "Rory Mulligan(5)",
-          "jockey_id": "jky_306150",
-          "draw": 11,
-          "number": 9,
-          "lbs": 126,
-          "ofr": "82",
-          "last_run": 22,
-          "form": "50-405",
-          "headgear": "p",
-          "_stored_at": "2026-06-28T12:42:53.711924+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 46,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Nakamura",
-      "horse_id": "hrs_51800616",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "J P Murtagh",
-      "latest_jockey": "Patrick McGettigan(5)",
-      "latest_draw": 4,
-      "latest_weight_lbs": 126,
-      "official_rating": "82",
-      "recent_form": "4-8782",
-      "last_run_days": 15,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "J P Murtagh": 2
-      },
-      "jockeys_seen": {
-        "Patrick McGettigan(5)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Jockey concern -2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Nakamura",
-          "horse_id": "hrs_51800616",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "J P Murtagh",
-          "trainer_id": "trn_253620",
-          "jockey": "Patrick McGettigan(5)",
-          "jockey_id": "jky_311598",
-          "draw": 4,
-          "number": 10,
-          "lbs": 126,
-          "ofr": "82",
-          "last_run": 15,
-          "form": "4-8782",
-          "headgear": "b",
-          "_stored_at": "2026-06-27T10:06:26.287217+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Nakamura",
-          "horse_id": "hrs_51800616",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "J P Murtagh",
-          "trainer_id": "trn_253620",
-          "jockey": "Patrick McGettigan(5)",
-          "jockey_id": "jky_311598",
-          "draw": 4,
-          "number": 10,
-          "lbs": 126,
-          "ofr": "82",
-          "last_run": 15,
-          "form": "4-8782",
-          "headgear": "b",
-          "_stored_at": "2026-06-28T12:42:53.728214+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 46,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Go Athletico",
-      "horse_id": "hrs_21666736",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Adrian McGuinness",
-      "latest_jockey": "Ronan Whelan",
-      "latest_draw": 14,
-      "latest_weight_lbs": 129,
-      "official_rating": "78",
-      "recent_form": "-70300",
-      "last_run_days": 13,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Adrian McGuinness": 2
-      },
-      "jockeys_seen": {
-        "Ronan Whelan": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Go Athletico",
-          "horse_id": "hrs_21666736",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Adrian McGuinness",
-          "trainer_id": "trn_126792",
-          "jockey": "Ronan Whelan",
-          "jockey_id": "jky_265689",
-          "draw": 14,
-          "number": 6,
-          "lbs": 129,
-          "ofr": "78",
-          "last_run": 13,
-          "form": "-70300",
-          "headgear": "t",
-          "_stored_at": "2026-06-27T10:06:26.247095+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Go Athletico",
-          "horse_id": "hrs_21666736",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Adrian McGuinness",
-          "trainer_id": "trn_126792",
-          "jockey": "Ronan Whelan",
-          "jockey_id": "jky_265689",
-          "draw": 14,
-          "number": 6,
-          "lbs": 129,
-          "ofr": "78",
-          "last_run": 13,
-          "form": "-70300",
-          "headgear": "t",
-          "_stored_at": "2026-06-28T12:42:53.678927+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 44,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Valiant Force",
-      "horse_id": "hrs_35244349",
-      "age": 5,
-      "sex": "horse",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Robson De Aguiar",
-      "latest_jockey": "Donagh O'Connor",
-      "latest_draw": 7,
-      "latest_weight_lbs": 140,
-      "official_rating": "89",
-      "recent_form": "150099",
-      "last_run_days": 35,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Robson De Aguiar": 2
-      },
-      "jockeys_seen": {
-        "Donagh O'Connor": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 42,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +3",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Valiant Force",
-          "horse_id": "hrs_35244349",
-          "age": 5,
-          "sex": "horse",
-          "trainer": "Robson De Aguiar",
-          "trainer_id": "trn_383751",
-          "jockey": "Donagh O'Connor",
-          "jockey_id": "jky_281148",
-          "draw": 7,
-          "number": 1,
-          "lbs": 140,
-          "ofr": "89",
-          "last_run": 35,
-          "form": "150099",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.200018+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Valiant Force",
-          "horse_id": "hrs_35244349",
-          "age": 5,
-          "sex": "horse",
-          "trainer": "Robson De Aguiar",
-          "trainer_id": "trn_383751",
-          "jockey": "Donagh O'Connor",
-          "jockey_id": "jky_281148",
-          "draw": 7,
-          "number": 1,
-          "lbs": 140,
-          "ofr": "89",
-          "last_run": 35,
-          "form": "150099",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:53.611539+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 43,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 42,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Mary Shoelaces",
-      "horse_id": "hrs_34976186",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Eddie & Patrick Harty",
-      "latest_jockey": "Jessica O'Gorman(7)",
-      "latest_draw": 9,
-      "latest_weight_lbs": 120,
-      "official_rating": "69",
-      "recent_form": "491-06",
-      "last_run_days": 8,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Eddie & Patrick Harty": 2
-      },
-      "jockeys_seen": {
-        "Jessica O'Gorman(7)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 39,
-      "latest_notes": [
-        "Positive recent form",
-        "Jockey concern -2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Mary Shoelaces",
-          "horse_id": "hrs_34976186",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Eddie & Patrick Harty",
-          "trainer_id": "trn_346563",
-          "jockey": "Jessica O'Gorman(7)",
-          "jockey_id": "jky_301167",
-          "draw": 9,
-          "number": 16,
-          "lbs": 120,
-          "ofr": "69",
-          "last_run": 8,
-          "form": "491-06",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.363324+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Mary Shoelaces",
-          "horse_id": "hrs_34976186",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Eddie & Patrick Harty",
-          "trainer_id": "trn_346563",
-          "jockey": "Jessica O'Gorman(7)",
-          "jockey_id": "jky_301167",
-          "draw": 9,
-          "number": 16,
-          "lbs": 120,
-          "ofr": "69",
-          "last_run": 8,
-          "form": "491-06",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:53.826421+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 42,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2569,160 +747,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "",
-        "latest_pulse_score": 39,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Joyful Tidings",
-      "horse_id": "hrs_51308299",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Curragh",
-      "latest_time": "5:05",
-      "latest_race": "Fitzpatrick's Garage Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gavin Cromwell",
-      "latest_jockey": "Chris Hayes",
-      "latest_draw": 1,
-      "latest_weight_lbs": 119,
-      "official_rating": "75",
-      "recent_form": "-75024",
-      "last_run_days": 15,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Gavin Cromwell": 2
-      },
-      "jockeys_seen": {
-        "Chris Hayes": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 30,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Non-runner risk"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Joyful Tidings",
-          "horse_id": "hrs_51308299",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Gavin Cromwell",
-          "trainer_id": "trn_160524",
-          "jockey": "Chris Hayes",
-          "jockey_id": "jky_250446",
-          "draw": 1,
-          "number": null,
-          "lbs": 119,
-          "ofr": "75",
-          "last_run": 15,
-          "form": "-75024",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.377739+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006748",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:05",
-          "off_dt": "2026-06-27T17:05:00+01:00",
-          "race_name": "Fitzpatrick's Garage Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Joyful Tidings",
-          "horse_id": "hrs_51308299",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Gavin Cromwell",
-          "trainer_id": "trn_160524",
-          "jockey": "Chris Hayes",
-          "jockey_id": "jky_250446",
-          "draw": 1,
-          "number": null,
-          "lbs": 119,
-          "ofr": "75",
-          "last_run": 15,
-          "form": "-75024",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:53.843115+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 38,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 30,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -2767,12 +792,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 11,
-      "latest_notes": [
-        "Positive recent form",
-        "Non-runner risk",
-        "Jockey concern -2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2858,7 +879,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 29,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2874,7 +895,303 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "",
-        "latest_pulse_score": 11,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Fox In Flight",
+      "horse_id": "hrs_57255079",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "David Marnane",
+      "latest_jockey": "Luke McAteer",
+      "latest_draw": 10,
+      "latest_weight_lbs": 124,
+      "official_rating": "80",
+      "recent_form": "13-802",
+      "last_run_days": 13,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "David Marnane": 2
+      },
+      "jockeys_seen": {
+        "Luke McAteer": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Fox In Flight",
+          "horse_id": "hrs_57255079",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "David Marnane",
+          "trainer_id": "trn_155772",
+          "jockey": "Luke McAteer",
+          "jockey_id": "jky_289707",
+          "draw": 10,
+          "number": 15,
+          "lbs": 124,
+          "ofr": "80",
+          "last_run": 13,
+          "form": "13-802",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:26.350974+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Fox In Flight",
+          "horse_id": "hrs_57255079",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "David Marnane",
+          "trainer_id": "trn_155772",
+          "jockey": "Luke McAteer",
+          "jockey_id": "jky_289707",
+          "draw": 10,
+          "number": 15,
+          "lbs": 124,
+          "ofr": "80",
+          "last_run": 13,
+          "form": "13-802",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:53.810161+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Go Athletico",
+      "horse_id": "hrs_21666736",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Adrian McGuinness",
+      "latest_jockey": "Ronan Whelan",
+      "latest_draw": 14,
+      "latest_weight_lbs": 129,
+      "official_rating": "78",
+      "recent_form": "-70300",
+      "last_run_days": 13,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Adrian McGuinness": 2
+      },
+      "jockeys_seen": {
+        "Ronan Whelan": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Go Athletico",
+          "horse_id": "hrs_21666736",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Adrian McGuinness",
+          "trainer_id": "trn_126792",
+          "jockey": "Ronan Whelan",
+          "jockey_id": "jky_265689",
+          "draw": 14,
+          "number": 6,
+          "lbs": 129,
+          "ofr": "78",
+          "last_run": 13,
+          "form": "-70300",
+          "headgear": "t",
+          "_stored_at": "2026-06-27T10:06:26.247095+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Go Athletico",
+          "horse_id": "hrs_21666736",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Adrian McGuinness",
+          "trainer_id": "trn_126792",
+          "jockey": "Ronan Whelan",
+          "jockey_id": "jky_265689",
+          "draw": 14,
+          "number": 6,
+          "lbs": 129,
+          "ofr": "78",
+          "last_run": 13,
+          "form": "-70300",
+          "headgear": "t",
+          "_stored_at": "2026-06-28T12:42:53.678927+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -2919,12 +1236,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 0,
-      "latest_notes": [
-        "Weak recent form",
-        "Non-runner risk",
-        "Jockey concern -2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -3024,7 +1337,1621 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "",
-        "latest_pulse_score": 0,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Inishfallen",
+      "horse_id": "hrs_35840798",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Stephen Thorne",
+      "latest_jockey": "Colin Keane",
+      "latest_draw": 6,
+      "latest_weight_lbs": 126,
+      "official_rating": "75",
+      "recent_form": "442460",
+      "last_run_days": 27,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Stephen Thorne": 2
+      },
+      "jockeys_seen": {
+        "Colin Keane": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Inishfallen",
+          "horse_id": "hrs_35840798",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Stephen Thorne",
+          "trainer_id": "trn_376083",
+          "jockey": "Colin Keane",
+          "jockey_id": "jky_269877",
+          "draw": 6,
+          "number": 8,
+          "lbs": 126,
+          "ofr": "75",
+          "last_run": 27,
+          "form": "442460",
+          "headgear": "p",
+          "_stored_at": "2026-06-27T10:06:26.260465+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Inishfallen",
+          "horse_id": "hrs_35840798",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Stephen Thorne",
+          "trainer_id": "trn_376083",
+          "jockey": "Colin Keane",
+          "jockey_id": "jky_269877",
+          "draw": 6,
+          "number": 8,
+          "lbs": 126,
+          "ofr": "75",
+          "last_run": 27,
+          "form": "442460",
+          "headgear": "p",
+          "_stored_at": "2026-06-28T12:42:53.695549+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Joyful Tidings",
+      "horse_id": "hrs_51308299",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gavin Cromwell",
+      "latest_jockey": "Chris Hayes",
+      "latest_draw": 1,
+      "latest_weight_lbs": 119,
+      "official_rating": "75",
+      "recent_form": "-75024",
+      "last_run_days": 15,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Gavin Cromwell": 2
+      },
+      "jockeys_seen": {
+        "Chris Hayes": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Joyful Tidings",
+          "horse_id": "hrs_51308299",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Gavin Cromwell",
+          "trainer_id": "trn_160524",
+          "jockey": "Chris Hayes",
+          "jockey_id": "jky_250446",
+          "draw": 1,
+          "number": null,
+          "lbs": 119,
+          "ofr": "75",
+          "last_run": 15,
+          "form": "-75024",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:26.377739+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Joyful Tidings",
+          "horse_id": "hrs_51308299",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Gavin Cromwell",
+          "trainer_id": "trn_160524",
+          "jockey": "Chris Hayes",
+          "jockey_id": "jky_250446",
+          "draw": 1,
+          "number": null,
+          "lbs": 119,
+          "ofr": "75",
+          "last_run": 15,
+          "form": "-75024",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:53.843115+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Mary Shoelaces",
+      "horse_id": "hrs_34976186",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Eddie & Patrick Harty",
+      "latest_jockey": "Jessica O'Gorman(7)",
+      "latest_draw": 9,
+      "latest_weight_lbs": 120,
+      "official_rating": "69",
+      "recent_form": "491-06",
+      "last_run_days": 8,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Eddie & Patrick Harty": 2
+      },
+      "jockeys_seen": {
+        "Jessica O'Gorman(7)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Mary Shoelaces",
+          "horse_id": "hrs_34976186",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Eddie & Patrick Harty",
+          "trainer_id": "trn_346563",
+          "jockey": "Jessica O'Gorman(7)",
+          "jockey_id": "jky_301167",
+          "draw": 9,
+          "number": 16,
+          "lbs": 120,
+          "ofr": "69",
+          "last_run": 8,
+          "form": "491-06",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:26.363324+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Mary Shoelaces",
+          "horse_id": "hrs_34976186",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Eddie & Patrick Harty",
+          "trainer_id": "trn_346563",
+          "jockey": "Jessica O'Gorman(7)",
+          "jockey_id": "jky_301167",
+          "draw": 9,
+          "number": 16,
+          "lbs": 120,
+          "ofr": "69",
+          "last_run": 8,
+          "form": "491-06",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:53.826421+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Midnight Dusk",
+      "horse_id": "hrs_56624925",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jack Foley",
+      "latest_jockey": "W J Lee",
+      "latest_draw": 2,
+      "latest_weight_lbs": 125,
+      "official_rating": "81",
+      "recent_form": "-33591",
+      "last_run_days": 15,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Jack Foley": 2
+      },
+      "jockeys_seen": {
+        "W J Lee": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Midnight Dusk",
+          "horse_id": "hrs_56624925",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Jack Foley",
+          "trainer_id": "trn_382455",
+          "jockey": "W J Lee",
+          "jockey_id": "jky_244275",
+          "draw": 2,
+          "number": 13,
+          "lbs": 125,
+          "ofr": "81",
+          "last_run": 15,
+          "form": "-33591",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:26.326951+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Midnight Dusk",
+          "horse_id": "hrs_56624925",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Jack Foley",
+          "trainer_id": "trn_382455",
+          "jockey": "W J Lee",
+          "jockey_id": "jky_244275",
+          "draw": 2,
+          "number": 13,
+          "lbs": 125,
+          "ofr": "81",
+          "last_run": 15,
+          "form": "-33591",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:53.777580+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Morehampton",
+      "horse_id": "hrs_54149823",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "J P Murtagh",
+      "latest_jockey": "Rory Mulligan(5)",
+      "latest_draw": 11,
+      "latest_weight_lbs": 126,
+      "official_rating": "82",
+      "recent_form": "50-405",
+      "last_run_days": 22,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "J P Murtagh": 2
+      },
+      "jockeys_seen": {
+        "Rory Mulligan(5)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Morehampton",
+          "horse_id": "hrs_54149823",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "J P Murtagh",
+          "trainer_id": "trn_253620",
+          "jockey": "Rory Mulligan(5)",
+          "jockey_id": "jky_306150",
+          "draw": 11,
+          "number": 9,
+          "lbs": 126,
+          "ofr": "82",
+          "last_run": 22,
+          "form": "50-405",
+          "headgear": "p",
+          "_stored_at": "2026-06-27T10:06:26.274007+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Morehampton",
+          "horse_id": "hrs_54149823",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "J P Murtagh",
+          "trainer_id": "trn_253620",
+          "jockey": "Rory Mulligan(5)",
+          "jockey_id": "jky_306150",
+          "draw": 11,
+          "number": 9,
+          "lbs": 126,
+          "ofr": "82",
+          "last_run": 22,
+          "form": "50-405",
+          "headgear": "p",
+          "_stored_at": "2026-06-28T12:42:53.711924+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Nakamura",
+      "horse_id": "hrs_51800616",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "J P Murtagh",
+      "latest_jockey": "Patrick McGettigan(5)",
+      "latest_draw": 4,
+      "latest_weight_lbs": 126,
+      "official_rating": "82",
+      "recent_form": "4-8782",
+      "last_run_days": 15,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "J P Murtagh": 2
+      },
+      "jockeys_seen": {
+        "Patrick McGettigan(5)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Nakamura",
+          "horse_id": "hrs_51800616",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "J P Murtagh",
+          "trainer_id": "trn_253620",
+          "jockey": "Patrick McGettigan(5)",
+          "jockey_id": "jky_311598",
+          "draw": 4,
+          "number": 10,
+          "lbs": 126,
+          "ofr": "82",
+          "last_run": 15,
+          "form": "4-8782",
+          "headgear": "b",
+          "_stored_at": "2026-06-27T10:06:26.287217+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Nakamura",
+          "horse_id": "hrs_51800616",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "J P Murtagh",
+          "trainer_id": "trn_253620",
+          "jockey": "Patrick McGettigan(5)",
+          "jockey_id": "jky_311598",
+          "draw": 4,
+          "number": 10,
+          "lbs": 126,
+          "ofr": "82",
+          "last_run": 15,
+          "form": "4-8782",
+          "headgear": "b",
+          "_stored_at": "2026-06-28T12:42:53.728214+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Real Encounter",
+      "horse_id": "hrs_54304593",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Mrs John Harrington",
+      "latest_jockey": "Shane Foley",
+      "latest_draw": 15,
+      "latest_weight_lbs": 125,
+      "official_rating": "81",
+      "recent_form": "4-2162",
+      "last_run_days": 24,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Mrs John Harrington": 2
+      },
+      "jockeys_seen": {
+        "Shane Foley": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Real Encounter",
+          "horse_id": "hrs_54304593",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Mrs John Harrington",
+          "trainer_id": "trn_11565",
+          "jockey": "Shane Foley",
+          "jockey_id": "jky_259047",
+          "draw": 15,
+          "number": 14,
+          "lbs": 125,
+          "ofr": "81",
+          "last_run": 24,
+          "form": "4-2162",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:26.338548+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Real Encounter",
+          "horse_id": "hrs_54304593",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Mrs John Harrington",
+          "trainer_id": "trn_11565",
+          "jockey": "Shane Foley",
+          "jockey_id": "jky_259047",
+          "draw": 15,
+          "number": 14,
+          "lbs": 125,
+          "ofr": "81",
+          "last_run": 24,
+          "form": "4-2162",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:53.793785+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Sommelier",
+      "horse_id": "hrs_33788979",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Kieran P Cotter",
+      "latest_jockey": "Paddy Harnett(5)",
+      "latest_draw": 3,
+      "latest_weight_lbs": 134,
+      "official_rating": "83",
+      "recent_form": "048715",
+      "last_run_days": 20,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Kieran P Cotter": 2
+      },
+      "jockeys_seen": {
+        "Paddy Harnett(5)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Sommelier",
+          "horse_id": "hrs_33788979",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Kieran P Cotter",
+          "trainer_id": "trn_88227",
+          "jockey": "Paddy Harnett(5)",
+          "jockey_id": "jky_296208",
+          "draw": 3,
+          "number": 3,
+          "lbs": 134,
+          "ofr": "83",
+          "last_run": 20,
+          "form": "048715",
+          "headgear": "tb",
+          "_stored_at": "2026-06-27T10:06:26.223804+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Sommelier",
+          "horse_id": "hrs_33788979",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Kieran P Cotter",
+          "trainer_id": "trn_88227",
+          "jockey": "Paddy Harnett(5)",
+          "jockey_id": "jky_296208",
+          "draw": 3,
+          "number": 3,
+          "lbs": 134,
+          "ofr": "83",
+          "last_run": 20,
+          "form": "048715",
+          "headgear": "tb",
+          "_stored_at": "2026-06-28T12:42:53.645573+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "The Piper's Call",
+      "horse_id": "hrs_53390141",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Daniel McLoughlin",
+      "latest_jockey": "Ben Coen",
+      "latest_draw": 16,
+      "latest_weight_lbs": 126,
+      "official_rating": "82",
+      "recent_form": "23-1",
+      "last_run_days": 24,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Daniel McLoughlin": 2
+      },
+      "jockeys_seen": {
+        "Ben Coen": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "The Piper's Call",
+          "horse_id": "hrs_53390141",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Daniel McLoughlin",
+          "trainer_id": "trn_371457",
+          "jockey": "Ben Coen",
+          "jockey_id": "jky_291093",
+          "draw": 16,
+          "number": 11,
+          "lbs": 126,
+          "ofr": "82",
+          "last_run": 24,
+          "form": "23-1",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:26.301351+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "The Piper's Call",
+          "horse_id": "hrs_53390141",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Daniel McLoughlin",
+          "trainer_id": "trn_371457",
+          "jockey": "Ben Coen",
+          "jockey_id": "jky_291093",
+          "draw": 16,
+          "number": 11,
+          "lbs": 126,
+          "ofr": "82",
+          "last_run": 24,
+          "form": "23-1",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:53.744799+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Unauthorized",
+      "horse_id": "hrs_52962777",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Aidan Melia",
+      "latest_jockey": "Rory Cleary",
+      "latest_draw": 5,
+      "latest_weight_lbs": 130,
+      "official_rating": "86",
+      "recent_form": "851-71",
+      "last_run_days": 27,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Aidan Melia": 2
+      },
+      "jockeys_seen": {
+        "Rory Cleary": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Unauthorized",
+          "horse_id": "hrs_52962777",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Aidan Melia",
+          "trainer_id": "trn_373869",
+          "jockey": "Rory Cleary",
+          "jockey_id": "jky_247374",
+          "draw": 5,
+          "number": 5,
+          "lbs": 130,
+          "ofr": "86",
+          "last_run": 27,
+          "form": "851-71",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:26.235485+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Unauthorized",
+          "horse_id": "hrs_52962777",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Aidan Melia",
+          "trainer_id": "trn_373869",
+          "jockey": "Rory Cleary",
+          "jockey_id": "jky_247374",
+          "draw": 5,
+          "number": 5,
+          "lbs": 130,
+          "ofr": "86",
+          "last_run": 27,
+          "form": "851-71",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:53.662470+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Valiant Force",
+      "horse_id": "hrs_35244349",
+      "age": 5,
+      "sex": "horse",
+      "latest_course": "Curragh",
+      "latest_time": "5:05",
+      "latest_race": "Fitzpatrick's Garage Group Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Robson De Aguiar",
+      "latest_jockey": "Donagh O'Connor",
+      "latest_draw": 7,
+      "latest_weight_lbs": 140,
+      "official_rating": "89",
+      "recent_form": "150099",
+      "last_run_days": 35,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Curragh": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Robson De Aguiar": 2
+      },
+      "jockeys_seen": {
+        "Donagh O'Connor": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Valiant Force",
+          "horse_id": "hrs_35244349",
+          "age": 5,
+          "sex": "horse",
+          "trainer": "Robson De Aguiar",
+          "trainer_id": "trn_383751",
+          "jockey": "Donagh O'Connor",
+          "jockey_id": "jky_281148",
+          "draw": 7,
+          "number": 1,
+          "lbs": 140,
+          "ofr": "89",
+          "last_run": 35,
+          "form": "150099",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:26.200018+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006748",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "5:05",
+          "off_dt": "2026-06-27T17:05:00+01:00",
+          "race_name": "Fitzpatrick's Garage Group Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Valiant Force",
+          "horse_id": "hrs_35244349",
+          "age": 5,
+          "sex": "horse",
+          "trainer": "Robson De Aguiar",
+          "trainer_id": "trn_383751",
+          "jockey": "Donagh O'Connor",
+          "jockey_id": "jky_281148",
+          "draw": 7,
+          "number": 1,
+          "lbs": 140,
+          "ofr": "89",
+          "last_run": 35,
+          "form": "150099",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:53.611539+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -3032,8 +2959,9 @@
     }
   ],
   "notes": [
-    "Real Encounter is the top-rated Pulse IQ runner.",
+    "Bishopton is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "The Piper's Call is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Flaming Rib is flagged as a possible dark horse."
   ]
 }

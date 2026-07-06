@@ -5,14 +5,166 @@
   "time": "2:10",
   "race_name": "JenningsBet Chipchase Stakes (Group 3)",
   "field_size": 12,
-  "average_intelligence": 55.33,
-  "top_score": 63,
-  "second_score": 63,
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
   "gap": 0,
-  "confidence_score": 49,
+  "confidence_score": 22,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Bloodsweatandtyres",
+    "horse_id": "hrs_56655557",
+    "age": 4,
+    "sex": "gelding",
+    "latest_course": "Newcastle (AW)",
+    "latest_time": "2:10",
+    "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
+    "latest_date": "2026-06-27",
+    "latest_distance_f": 6.0,
+    "latest_class": "Class 1",
+    "latest_going": "Standard To Slow",
+    "latest_surface": "AW",
+    "latest_trainer": "Brian Ellison",
+    "latest_jockey": "Mikey Sheehy",
+    "latest_draw": 12,
+    "latest_weight_lbs": 131,
+    "official_rating": "76",
+    "recent_form": "31-0",
+    "last_run_days": 35,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Newcastle (AW)": 2
+    },
+    "distances_seen": {
+      "6.0": 2
+    },
+    "goings_seen": {
+      "Standard To Slow": 2
+    },
+    "classes_seen": {
+      "Class 1": 2
+    },
+    "trainers_seen": {
+      "Brian Ellison": 2
+    },
+    "jockeys_seen": {
+      "Mikey Sheehy": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11978746",
+        "course": "Newcastle (AW)",
+        "date": "2026-06-27",
+        "off_time": "2:10",
+        "off_dt": "2026-06-27T14:10:00+01:00",
+        "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+        "distance_f": 6.0,
+        "race_class": "Class 1",
+        "race_type": "Flat",
+        "going": "Standard To Slow",
+        "surface": "AW",
+        "field_size": 11,
+        "horse": "Bloodsweatandtyres",
+        "horse_id": "hrs_56655557",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Brian Ellison",
+        "trainer_id": "trn_39879",
+        "jockey": "Mikey Sheehy",
+        "jockey_id": "jky_298917",
+        "draw": 12,
+        "number": 2,
+        "lbs": 131,
+        "ofr": "76",
+        "last_run": 35,
+        "form": "31-0",
+        "headgear": "",
+        "_stored_at": "2026-06-27T10:06:17.401335+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11978746",
+        "course": "Newcastle (AW)",
+        "date": "2026-06-27",
+        "off_time": "2:10",
+        "off_dt": "2026-06-27T14:10:00+01:00",
+        "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+        "distance_f": 6.0,
+        "race_class": "Class 1",
+        "race_type": "Flat",
+        "going": "Standard To Slow",
+        "surface": "AW",
+        "field_size": 11,
+        "horse": "Bloodsweatandtyres",
+        "horse_id": "hrs_56655557",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Brian Ellison",
+        "trainer_id": "trn_39879",
+        "jockey": "Mikey Sheehy",
+        "jockey_id": "jky_298917",
+        "draw": 12,
+        "number": 2,
+        "lbs": 131,
+        "ofr": "76",
+        "last_run": 35,
+        "form": "31-0",
+        "headgear": "",
+        "_stored_at": "2026-06-28T12:42:46.157147+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Newcastle (AW)",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 6.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Standard To Slow",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 1",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Newcastle (AW)",
+      "latest_distance_f": 6.0,
+      "latest_going": "Standard To Slow",
+      "latest_class": "Class 1",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "main_threat": {
     "horse": "Diligent Harry",
     "horse_id": "hrs_21649397",
     "age": 8,
@@ -53,14 +205,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 79,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Race class strength +8",
-      "Trainer bonus +2",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -147,15 +293,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 63,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -164,172 +310,15 @@
       "latest_distance_f": 6.0,
       "latest_going": "Standard To Slow",
       "latest_class": "Class 1",
-      "latest_pulse_score": 79,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
-  },
-  "main_threat": {
-    "horse": "Poet Master",
-    "horse_id": "hrs_35813260",
-    "age": 6,
-    "sex": "gelding",
-    "latest_course": "Newcastle (AW)",
-    "latest_time": "2:10",
-    "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
-    "latest_date": "2026-06-27",
-    "latest_distance_f": 6.0,
-    "latest_class": "Class 1",
-    "latest_going": "Standard To Slow",
-    "latest_surface": "AW",
-    "latest_trainer": "K R Burke",
-    "latest_jockey": "Sam James",
-    "latest_draw": 11,
-    "latest_weight_lbs": 131,
-    "official_rating": "108",
-    "recent_form": "22-253",
-    "last_run_days": 21,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Newcastle (AW)": 2
-    },
-    "distances_seen": {
-      "6.0": 2
-    },
-    "goings_seen": {
-      "Standard To Slow": 2
-    },
-    "classes_seen": {
-      "Class 1": 2
-    },
-    "trainers_seen": {
-      "K R Burke": 2
-    },
-    "jockeys_seen": {
-      "Sam James": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 79,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Race class strength +8",
-      "Trainer bonus +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11978746",
-        "course": "Newcastle (AW)",
-        "date": "2026-06-27",
-        "off_time": "2:10",
-        "off_dt": "2026-06-27T14:10:00+01:00",
-        "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-        "distance_f": 6.0,
-        "race_class": "Class 1",
-        "race_type": "Flat",
-        "going": "Standard To Slow",
-        "surface": "AW",
-        "field_size": 11,
-        "horse": "Poet Master",
-        "horse_id": "hrs_35813260",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "K R Burke",
-        "trainer_id": "trn_45171",
-        "jockey": "Sam James",
-        "jockey_id": "jky_261870",
-        "draw": 11,
-        "number": 8,
-        "lbs": 131,
-        "ofr": "108",
-        "last_run": 21,
-        "form": "22-253",
-        "headgear": "",
-        "_stored_at": "2026-06-27T10:06:17.478394+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11978746",
-        "course": "Newcastle (AW)",
-        "date": "2026-06-27",
-        "off_time": "2:10",
-        "off_dt": "2026-06-27T14:10:00+01:00",
-        "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-        "distance_f": 6.0,
-        "race_class": "Class 1",
-        "race_type": "Flat",
-        "going": "Standard To Slow",
-        "surface": "AW",
-        "field_size": 11,
-        "horse": "Poet Master",
-        "horse_id": "hrs_35813260",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "K R Burke",
-        "trainer_id": "trn_45171",
-        "jockey": "Sam James",
-        "jockey_id": "jky_261870",
-        "draw": 11,
-        "number": 8,
-        "lbs": 131,
-        "ofr": "108",
-        "last_run": 21,
-        "form": "22-253",
-        "headgear": "",
-        "_stored_at": "2026-06-28T12:42:46.254220+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Newcastle (AW)",
-      "runs": 2
-    },
-    "favourite_distance": {
-      "value": 6.0,
-      "runs": 2
-    },
-    "favourite_going": {
-      "value": "Standard To Slow",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 1",
-      "runs": 2
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 63,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Newcastle (AW)",
-      "latest_distance_f": 6.0,
-      "latest_going": "Standard To Slow",
-      "latest_class": "Class 1",
-      "latest_pulse_score": 79,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "dark_horse": {
-    "horse": "Poet Master",
-    "horse_id": "hrs_35813260",
+    "horse": "Ferrous",
+    "horse_id": "hrs_29227072",
     "age": 6,
     "sex": "gelding",
     "latest_course": "Newcastle (AW)",
@@ -340,13 +329,13 @@
     "latest_class": "Class 1",
     "latest_going": "Standard To Slow",
     "latest_surface": "AW",
-    "latest_trainer": "K R Burke",
-    "latest_jockey": "Sam James",
-    "latest_draw": 11,
+    "latest_trainer": "Jack Channon",
+    "latest_jockey": "Connor Beasley",
+    "latest_draw": 6,
     "latest_weight_lbs": 131,
-    "official_rating": "108",
-    "recent_form": "22-253",
-    "last_run_days": 21,
+    "official_rating": "104",
+    "recent_form": "6-4265",
+    "last_run_days": 85,
     "profile_runs": 2,
     "courses_seen": {
       "Newcastle (AW)": 2
@@ -361,20 +350,15 @@
       "Class 1": 2
     },
     "trainers_seen": {
-      "K R Burke": 2
+      "Jack Channon": 2
     },
     "jockeys_seen": {
-      "Sam James": 2
+      "Connor Beasley": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 79,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Race class strength +8",
-      "Trainer bonus +2"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -390,22 +374,22 @@
         "going": "Standard To Slow",
         "surface": "AW",
         "field_size": 11,
-        "horse": "Poet Master",
-        "horse_id": "hrs_35813260",
+        "horse": "Ferrous",
+        "horse_id": "hrs_29227072",
         "age": 6,
         "sex": "gelding",
-        "trainer": "K R Burke",
-        "trainer_id": "trn_45171",
-        "jockey": "Sam James",
-        "jockey_id": "jky_261870",
-        "draw": 11,
-        "number": 8,
+        "trainer": "Jack Channon",
+        "trainer_id": "trn_361449",
+        "jockey": "Connor Beasley",
+        "jockey_id": "jky_272604",
+        "draw": 6,
+        "number": 4,
         "lbs": 131,
-        "ofr": "108",
-        "last_run": 21,
-        "form": "22-253",
+        "ofr": "104",
+        "last_run": 85,
+        "form": "6-4265",
         "headgear": "",
-        "_stored_at": "2026-06-27T10:06:17.478394+00:00"
+        "_stored_at": "2026-06-27T10:06:17.427608+00:00"
       },
       {
         "source": "the_racing_api",
@@ -421,22 +405,22 @@
         "going": "Standard To Slow",
         "surface": "AW",
         "field_size": 11,
-        "horse": "Poet Master",
-        "horse_id": "hrs_35813260",
+        "horse": "Ferrous",
+        "horse_id": "hrs_29227072",
         "age": 6,
         "sex": "gelding",
-        "trainer": "K R Burke",
-        "trainer_id": "trn_45171",
-        "jockey": "Sam James",
-        "jockey_id": "jky_261870",
-        "draw": 11,
-        "number": 8,
+        "trainer": "Jack Channon",
+        "trainer_id": "trn_361449",
+        "jockey": "Connor Beasley",
+        "jockey_id": "jky_272604",
+        "draw": 6,
+        "number": 4,
         "lbs": 131,
-        "ofr": "108",
-        "last_run": 21,
-        "form": "22-253",
+        "ofr": "104",
+        "last_run": 85,
+        "form": "6-4265",
         "headgear": "",
-        "_stored_at": "2026-06-28T12:42:46.254220+00:00"
+        "_stored_at": "2026-06-28T12:42:46.189431+00:00"
       }
     ],
     "profile_notes": [],
@@ -461,15 +445,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 63,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -478,13 +462,165 @@
       "latest_distance_f": 6.0,
       "latest_going": "Standard To Slow",
       "latest_class": "Class 1",
-      "latest_pulse_score": 79,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "runners": [
+    {
+      "horse": "Bloodsweatandtyres",
+      "horse_id": "hrs_56655557",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Newcastle (AW)",
+      "latest_time": "2:10",
+      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 1",
+      "latest_going": "Standard To Slow",
+      "latest_surface": "AW",
+      "latest_trainer": "Brian Ellison",
+      "latest_jockey": "Mikey Sheehy",
+      "latest_draw": 12,
+      "latest_weight_lbs": 131,
+      "official_rating": "76",
+      "recent_form": "31-0",
+      "last_run_days": 35,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newcastle (AW)": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Standard To Slow": 2
+      },
+      "classes_seen": {
+        "Class 1": 2
+      },
+      "trainers_seen": {
+        "Brian Ellison": 2
+      },
+      "jockeys_seen": {
+        "Mikey Sheehy": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Bloodsweatandtyres",
+          "horse_id": "hrs_56655557",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Brian Ellison",
+          "trainer_id": "trn_39879",
+          "jockey": "Mikey Sheehy",
+          "jockey_id": "jky_298917",
+          "draw": 12,
+          "number": 2,
+          "lbs": 131,
+          "ofr": "76",
+          "last_run": 35,
+          "form": "31-0",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:17.401335+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Bloodsweatandtyres",
+          "horse_id": "hrs_56655557",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Brian Ellison",
+          "trainer_id": "trn_39879",
+          "jockey": "Mikey Sheehy",
+          "jockey_id": "jky_298917",
+          "draw": 12,
+          "number": 2,
+          "lbs": 131,
+          "ofr": "76",
+          "last_run": 35,
+          "form": "31-0",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:46.157147+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newcastle (AW)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard To Slow",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newcastle (AW)",
+        "latest_distance_f": 6.0,
+        "latest_going": "Standard To Slow",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
     {
       "horse": "Diligent Harry",
       "horse_id": "hrs_21649397",
@@ -526,14 +662,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 79,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Race class strength +8",
-        "Trainer bonus +2",
-        "Jockey bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -620,15 +750,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 63,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -637,15 +767,15 @@
         "latest_distance_f": 6.0,
         "latest_going": "Standard To Slow",
         "latest_class": "Class 1",
-        "latest_pulse_score": 79,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
       }
     },
     {
-      "horse": "Poet Master",
-      "horse_id": "hrs_35813260",
+      "horse": "Ferrous",
+      "horse_id": "hrs_29227072",
       "age": 6,
       "sex": "gelding",
       "latest_course": "Newcastle (AW)",
@@ -656,13 +786,13 @@
       "latest_class": "Class 1",
       "latest_going": "Standard To Slow",
       "latest_surface": "AW",
-      "latest_trainer": "K R Burke",
-      "latest_jockey": "Sam James",
-      "latest_draw": 11,
+      "latest_trainer": "Jack Channon",
+      "latest_jockey": "Connor Beasley",
+      "latest_draw": 6,
       "latest_weight_lbs": 131,
-      "official_rating": "108",
-      "recent_form": "22-253",
-      "last_run_days": 21,
+      "official_rating": "104",
+      "recent_form": "6-4265",
+      "last_run_days": 85,
       "profile_runs": 2,
       "courses_seen": {
         "Newcastle (AW)": 2
@@ -677,20 +807,15 @@
         "Class 1": 2
       },
       "trainers_seen": {
-        "K R Burke": 2
+        "Jack Channon": 2
       },
       "jockeys_seen": {
-        "Sam James": 2
+        "Connor Beasley": 2
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 79,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Race class strength +8",
-        "Trainer bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -706,22 +831,22 @@
           "going": "Standard To Slow",
           "surface": "AW",
           "field_size": 11,
-          "horse": "Poet Master",
-          "horse_id": "hrs_35813260",
+          "horse": "Ferrous",
+          "horse_id": "hrs_29227072",
           "age": 6,
           "sex": "gelding",
-          "trainer": "K R Burke",
-          "trainer_id": "trn_45171",
-          "jockey": "Sam James",
-          "jockey_id": "jky_261870",
-          "draw": 11,
-          "number": 8,
+          "trainer": "Jack Channon",
+          "trainer_id": "trn_361449",
+          "jockey": "Connor Beasley",
+          "jockey_id": "jky_272604",
+          "draw": 6,
+          "number": 4,
           "lbs": 131,
-          "ofr": "108",
-          "last_run": 21,
-          "form": "22-253",
+          "ofr": "104",
+          "last_run": 85,
+          "form": "6-4265",
           "headgear": "",
-          "_stored_at": "2026-06-27T10:06:17.478394+00:00"
+          "_stored_at": "2026-06-27T10:06:17.427608+00:00"
         },
         {
           "source": "the_racing_api",
@@ -737,22 +862,22 @@
           "going": "Standard To Slow",
           "surface": "AW",
           "field_size": 11,
-          "horse": "Poet Master",
-          "horse_id": "hrs_35813260",
+          "horse": "Ferrous",
+          "horse_id": "hrs_29227072",
           "age": 6,
           "sex": "gelding",
-          "trainer": "K R Burke",
-          "trainer_id": "trn_45171",
-          "jockey": "Sam James",
-          "jockey_id": "jky_261870",
-          "draw": 11,
-          "number": 8,
+          "trainer": "Jack Channon",
+          "trainer_id": "trn_361449",
+          "jockey": "Connor Beasley",
+          "jockey_id": "jky_272604",
+          "draw": 6,
+          "number": 4,
           "lbs": 131,
-          "ofr": "108",
-          "last_run": 21,
-          "form": "22-253",
+          "ofr": "104",
+          "last_run": 85,
+          "form": "6-4265",
           "headgear": "",
-          "_stored_at": "2026-06-28T12:42:46.254220+00:00"
+          "_stored_at": "2026-06-28T12:42:46.189431+00:00"
         }
       ],
       "profile_notes": [],
@@ -777,15 +902,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 63,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -794,7 +919,619 @@
         "latest_distance_f": 6.0,
         "latest_going": "Standard To Slow",
         "latest_class": "Class 1",
-        "latest_pulse_score": 79,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Heathcliff",
+      "horse_id": "hrs_37889838",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Newcastle (AW)",
+      "latest_time": "2:10",
+      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 1",
+      "latest_going": "Standard To Slow",
+      "latest_surface": "AW",
+      "latest_trainer": "James Fanshawe",
+      "latest_jockey": "Daniel Muscutt",
+      "latest_draw": 8,
+      "latest_weight_lbs": 131,
+      "official_rating": "102",
+      "recent_form": "312470",
+      "last_run_days": 7,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newcastle (AW)": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Standard To Slow": 2
+      },
+      "classes_seen": {
+        "Class 1": 2
+      },
+      "trainers_seen": {
+        "James Fanshawe": 2
+      },
+      "jockeys_seen": {
+        "Daniel Muscutt": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Heathcliff",
+          "horse_id": "hrs_37889838",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "James Fanshawe",
+          "trainer_id": "trn_40860",
+          "jockey": "Daniel Muscutt",
+          "jockey_id": "jky_275571",
+          "draw": 8,
+          "number": 5,
+          "lbs": 131,
+          "ofr": "102",
+          "last_run": 7,
+          "form": "312470",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:17.440642+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Heathcliff",
+          "horse_id": "hrs_37889838",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "James Fanshawe",
+          "trainer_id": "trn_40860",
+          "jockey": "Daniel Muscutt",
+          "jockey_id": "jky_275571",
+          "draw": 8,
+          "number": 5,
+          "lbs": 131,
+          "ofr": "102",
+          "last_run": 7,
+          "form": "312470",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:46.205526+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Newcastle (AW)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard To Slow",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newcastle (AW)",
+        "latest_distance_f": 6.0,
+        "latest_going": "Standard To Slow",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Heavenly Heather",
+      "horse_id": "hrs_44540699",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Newcastle (AW)",
+      "latest_time": "2:10",
+      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 1",
+      "latest_going": "Standard To Slow",
+      "latest_surface": "AW",
+      "latest_trainer": "Tracy Waggott",
+      "latest_jockey": "",
+      "latest_draw": 9,
+      "latest_weight_lbs": 128,
+      "official_rating": "104",
+      "recent_form": "525426",
+      "last_run_days": 11,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newcastle (AW)": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Standard To Slow": 2
+      },
+      "classes_seen": {
+        "Class 1": 2
+      },
+      "trainers_seen": {
+        "Tracy Waggott": 2
+      },
+      "jockeys_seen": {},
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Heavenly Heather",
+          "horse_id": "hrs_44540699",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Tracy Waggott",
+          "trainer_id": "trn_160227",
+          "jockey": "",
+          "jockey_id": "",
+          "draw": 9,
+          "number": null,
+          "lbs": 128,
+          "ofr": "104",
+          "last_run": 11,
+          "form": "525426",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:17.539847+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Heavenly Heather",
+          "horse_id": "hrs_44540699",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Tracy Waggott",
+          "trainer_id": "trn_160227",
+          "jockey": "",
+          "jockey_id": "",
+          "draw": 9,
+          "number": null,
+          "lbs": 128,
+          "ofr": "104",
+          "last_run": 11,
+          "form": "525426",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:46.319829+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Newcastle (AW)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard To Slow",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newcastle (AW)",
+        "latest_distance_f": 6.0,
+        "latest_going": "Standard To Slow",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Marvelman",
+      "horse_id": "hrs_42452102",
+      "age": 4,
+      "sex": "colt",
+      "latest_course": "Newcastle (AW)",
+      "latest_time": "2:10",
+      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 1",
+      "latest_going": "Standard To Slow",
+      "latest_surface": "AW",
+      "latest_trainer": "Andrew Balding",
+      "latest_jockey": "P J McDonald",
+      "latest_draw": 4,
+      "latest_weight_lbs": 136,
+      "official_rating": "115",
+      "recent_form": "3310-9",
+      "last_run_days": 133,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newcastle (AW)": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Standard To Slow": 2
+      },
+      "classes_seen": {
+        "Class 1": 2
+      },
+      "trainers_seen": {
+        "Andrew Balding": 2
+      },
+      "jockeys_seen": {
+        "P J McDonald": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Marvelman",
+          "horse_id": "hrs_42452102",
+          "age": 4,
+          "sex": "colt",
+          "trainer": "Andrew Balding",
+          "trainer_id": "trn_140445",
+          "jockey": "P J McDonald",
+          "jockey_id": "jky_230616",
+          "draw": 4,
+          "number": 1,
+          "lbs": 136,
+          "ofr": "115",
+          "last_run": 133,
+          "form": "3310-9",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:17.385711+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Marvelman",
+          "horse_id": "hrs_42452102",
+          "age": 4,
+          "sex": "colt",
+          "trainer": "Andrew Balding",
+          "trainer_id": "trn_140445",
+          "jockey": "P J McDonald",
+          "jockey_id": "jky_230616",
+          "draw": 4,
+          "number": 1,
+          "lbs": 136,
+          "ofr": "115",
+          "last_run": 133,
+          "form": "3310-9",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:46.141129+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Newcastle (AW)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard To Slow",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newcastle (AW)",
+        "latest_distance_f": 6.0,
+        "latest_going": "Standard To Slow",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Noble Champion",
+      "horse_id": "hrs_46077311",
+      "age": 4,
+      "sex": "colt",
+      "latest_course": "Newcastle (AW)",
+      "latest_time": "2:10",
+      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 1",
+      "latest_going": "Standard To Slow",
+      "latest_surface": "AW",
+      "latest_trainer": "Ed Walker",
+      "latest_jockey": "Paul Mulrennan",
+      "latest_draw": 5,
+      "latest_weight_lbs": 131,
+      "official_rating": "115",
+      "recent_form": "371P-5",
+      "last_run_days": 37,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newcastle (AW)": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Standard To Slow": 2
+      },
+      "classes_seen": {
+        "Class 1": 2
+      },
+      "trainers_seen": {
+        "Ed Walker": 2
+      },
+      "jockeys_seen": {
+        "Paul Mulrennan": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Noble Champion",
+          "horse_id": "hrs_46077311",
+          "age": 4,
+          "sex": "colt",
+          "trainer": "Ed Walker",
+          "trainer_id": "trn_215334",
+          "jockey": "Paul Mulrennan",
+          "jockey_id": "jky_238113",
+          "draw": 5,
+          "number": 6,
+          "lbs": 131,
+          "ofr": "115",
+          "last_run": 37,
+          "form": "371P-5",
+          "headgear": "t",
+          "_stored_at": "2026-06-27T10:06:17.451931+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Noble Champion",
+          "horse_id": "hrs_46077311",
+          "age": 4,
+          "sex": "colt",
+          "trainer": "Ed Walker",
+          "trainer_id": "trn_215334",
+          "jockey": "Paul Mulrennan",
+          "jockey_id": "jky_238113",
+          "draw": 5,
+          "number": 6,
+          "lbs": 131,
+          "ofr": "115",
+          "last_run": 37,
+          "form": "371P-5",
+          "headgear": "t",
+          "_stored_at": "2026-06-28T12:42:46.221733+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newcastle (AW)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard To Slow",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newcastle (AW)",
+        "latest_distance_f": 6.0,
+        "latest_going": "Standard To Slow",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -841,15 +1578,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 75,
-      "latest_notes": [
-        "Strong recent form",
-        "Questionable run timing",
-        "Helpful draw",
-        "Race class strength +8",
-        "Trainer bonus +2",
-        "Jockey bonus +4"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -939,15 +1669,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 61,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -956,332 +1686,15 @@
         "latest_distance_f": 6.0,
         "latest_going": "Standard To Slow",
         "latest_class": "Class 1",
-        "latest_pulse_score": 75,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
       }
     },
     {
-      "horse": "Zoum Zoum",
-      "horse_id": "hrs_37475333",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Newcastle (AW)",
-      "latest_time": "2:10",
-      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 1",
-      "latest_going": "Standard To Slow",
-      "latest_surface": "AW",
-      "latest_trainer": "Ralph Beckett",
-      "latest_jockey": "Hector Crouch",
-      "latest_draw": 2,
-      "latest_weight_lbs": 131,
-      "official_rating": "104",
-      "recent_form": "4022-9",
-      "last_run_days": 35,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Newcastle (AW)": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Standard To Slow": 2
-      },
-      "classes_seen": {
-        "Class 1": 2
-      },
-      "trainers_seen": {
-        "Ralph Beckett": 2
-      },
-      "jockeys_seen": {
-        "Hector Crouch": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 73,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +8",
-        "Trainer bonus +3",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Zoum Zoum",
-          "horse_id": "hrs_37475333",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Ralph Beckett",
-          "trainer_id": "trn_125253",
-          "jockey": "Hector Crouch",
-          "jockey_id": "jky_278418",
-          "draw": 2,
-          "number": 11,
-          "lbs": 131,
-          "ofr": "104",
-          "last_run": 35,
-          "form": "4022-9",
-          "headgear": "t",
-          "_stored_at": "2026-06-27T10:06:17.522496+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Zoum Zoum",
-          "horse_id": "hrs_37475333",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Ralph Beckett",
-          "trainer_id": "trn_125253",
-          "jockey": "Hector Crouch",
-          "jockey_id": "jky_278418",
-          "draw": 2,
-          "number": 11,
-          "lbs": 131,
-          "ofr": "104",
-          "last_run": 35,
-          "form": "4022-9",
-          "headgear": "t",
-          "_stored_at": "2026-06-28T12:42:46.303691+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Newcastle (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard To Slow",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 60,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newcastle (AW)",
-        "latest_distance_f": 6.0,
-        "latest_going": "Standard To Slow",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 73,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Bloodsweatandtyres",
-      "horse_id": "hrs_56655557",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Newcastle (AW)",
-      "latest_time": "2:10",
-      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 1",
-      "latest_going": "Standard To Slow",
-      "latest_surface": "AW",
-      "latest_trainer": "Brian Ellison",
-      "latest_jockey": "Mikey Sheehy",
-      "latest_draw": 12,
-      "latest_weight_lbs": 131,
-      "official_rating": "76",
-      "recent_form": "31-0",
-      "last_run_days": 35,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Newcastle (AW)": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Standard To Slow": 2
-      },
-      "classes_seen": {
-        "Class 1": 2
-      },
-      "trainers_seen": {
-        "Brian Ellison": 2
-      },
-      "jockeys_seen": {
-        "Mikey Sheehy": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 68,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Race class strength +8"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Bloodsweatandtyres",
-          "horse_id": "hrs_56655557",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Brian Ellison",
-          "trainer_id": "trn_39879",
-          "jockey": "Mikey Sheehy",
-          "jockey_id": "jky_298917",
-          "draw": 12,
-          "number": 2,
-          "lbs": 131,
-          "ofr": "76",
-          "last_run": 35,
-          "form": "31-0",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:17.401335+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Bloodsweatandtyres",
-          "horse_id": "hrs_56655557",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Brian Ellison",
-          "trainer_id": "trn_39879",
-          "jockey": "Mikey Sheehy",
-          "jockey_id": "jky_298917",
-          "draw": 12,
-          "number": 2,
-          "lbs": 131,
-          "ofr": "76",
-          "last_run": 35,
-          "form": "31-0",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:46.157147+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Newcastle (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard To Slow",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 58,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newcastle (AW)",
-        "latest_distance_f": 6.0,
-        "latest_going": "Standard To Slow",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 68,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Wiltshire",
-      "horse_id": "hrs_30540783",
+      "horse": "Poet Master",
+      "horse_id": "hrs_35813260",
       "age": 6,
       "sex": "gelding",
       "latest_course": "Newcastle (AW)",
@@ -1292,13 +1705,13 @@
       "latest_class": "Class 1",
       "latest_going": "Standard To Slow",
       "latest_surface": "AW",
-      "latest_trainer": "William Haggas",
-      "latest_jockey": "Cieren Fallon",
-      "latest_draw": 3,
+      "latest_trainer": "K R Burke",
+      "latest_jockey": "Sam James",
+      "latest_draw": 11,
       "latest_weight_lbs": 131,
-      "official_rating": "102",
-      "recent_form": "-06510",
-      "last_run_days": 42,
+      "official_rating": "108",
+      "recent_form": "22-253",
+      "last_run_days": 21,
       "profile_runs": 2,
       "courses_seen": {
         "Newcastle (AW)": 2
@@ -1313,22 +1726,15 @@
         "Class 1": 2
       },
       "trainers_seen": {
-        "William Haggas": 2
+        "K R Burke": 2
       },
       "jockeys_seen": {
-        "Cieren Fallon": 2
+        "Sam James": 2
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 67,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +8",
-        "Trainer bonus +3",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1344,22 +1750,22 @@
           "going": "Standard To Slow",
           "surface": "AW",
           "field_size": 11,
-          "horse": "Wiltshire",
-          "horse_id": "hrs_30540783",
+          "horse": "Poet Master",
+          "horse_id": "hrs_35813260",
           "age": 6,
           "sex": "gelding",
-          "trainer": "William Haggas",
-          "trainer_id": "trn_30735",
-          "jockey": "Cieren Fallon",
-          "jockey_id": "jky_295557",
-          "draw": 3,
-          "number": 10,
+          "trainer": "K R Burke",
+          "trainer_id": "trn_45171",
+          "jockey": "Sam James",
+          "jockey_id": "jky_261870",
+          "draw": 11,
+          "number": 8,
           "lbs": 131,
-          "ofr": "102",
-          "last_run": 42,
-          "form": "-06510",
-          "headgear": "t",
-          "_stored_at": "2026-06-27T10:06:17.505817+00:00"
+          "ofr": "108",
+          "last_run": 21,
+          "form": "22-253",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:17.478394+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1375,182 +1781,22 @@
           "going": "Standard To Slow",
           "surface": "AW",
           "field_size": 11,
-          "horse": "Wiltshire",
-          "horse_id": "hrs_30540783",
+          "horse": "Poet Master",
+          "horse_id": "hrs_35813260",
           "age": 6,
           "sex": "gelding",
-          "trainer": "William Haggas",
-          "trainer_id": "trn_30735",
-          "jockey": "Cieren Fallon",
-          "jockey_id": "jky_295557",
-          "draw": 3,
-          "number": 10,
+          "trainer": "K R Burke",
+          "trainer_id": "trn_45171",
+          "jockey": "Sam James",
+          "jockey_id": "jky_261870",
+          "draw": 11,
+          "number": 8,
           "lbs": 131,
-          "ofr": "102",
-          "last_run": 42,
-          "form": "-06510",
-          "headgear": "t",
-          "_stored_at": "2026-06-28T12:42:46.286923+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Newcastle (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard To Slow",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 57,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newcastle (AW)",
-        "latest_distance_f": 6.0,
-        "latest_going": "Standard To Slow",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 67,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Noble Champion",
-      "horse_id": "hrs_46077311",
-      "age": 4,
-      "sex": "colt",
-      "latest_course": "Newcastle (AW)",
-      "latest_time": "2:10",
-      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 1",
-      "latest_going": "Standard To Slow",
-      "latest_surface": "AW",
-      "latest_trainer": "Ed Walker",
-      "latest_jockey": "Paul Mulrennan",
-      "latest_draw": 5,
-      "latest_weight_lbs": 131,
-      "official_rating": "115",
-      "recent_form": "371P-5",
-      "last_run_days": 37,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Newcastle (AW)": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Standard To Slow": 2
-      },
-      "classes_seen": {
-        "Class 1": 2
-      },
-      "trainers_seen": {
-        "Ed Walker": 2
-      },
-      "jockeys_seen": {
-        "Paul Mulrennan": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 65,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +8",
-        "Trainer bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Noble Champion",
-          "horse_id": "hrs_46077311",
-          "age": 4,
-          "sex": "colt",
-          "trainer": "Ed Walker",
-          "trainer_id": "trn_215334",
-          "jockey": "Paul Mulrennan",
-          "jockey_id": "jky_238113",
-          "draw": 5,
-          "number": 6,
-          "lbs": 131,
-          "ofr": "115",
-          "last_run": 37,
-          "form": "371P-5",
-          "headgear": "t",
-          "_stored_at": "2026-06-27T10:06:17.451931+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Noble Champion",
-          "horse_id": "hrs_46077311",
-          "age": 4,
-          "sex": "colt",
-          "trainer": "Ed Walker",
-          "trainer_id": "trn_215334",
-          "jockey": "Paul Mulrennan",
-          "jockey_id": "jky_238113",
-          "draw": 5,
-          "number": 6,
-          "lbs": 131,
-          "ofr": "115",
-          "last_run": 37,
-          "form": "371P-5",
-          "headgear": "t",
-          "_stored_at": "2026-06-28T12:42:46.221733+00:00"
+          "ofr": "108",
+          "last_run": 21,
+          "form": "22-253",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:46.254220+00:00"
         }
       ],
       "profile_notes": [],
@@ -1575,162 +1821,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newcastle (AW)",
-        "latest_distance_f": 6.0,
-        "latest_going": "Standard To Slow",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 65,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Ferrous",
-      "horse_id": "hrs_29227072",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Newcastle (AW)",
-      "latest_time": "2:10",
-      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 1",
-      "latest_going": "Standard To Slow",
-      "latest_surface": "AW",
-      "latest_trainer": "Jack Channon",
-      "latest_jockey": "Connor Beasley",
-      "latest_draw": 6,
-      "latest_weight_lbs": 131,
-      "official_rating": "104",
-      "recent_form": "6-4265",
-      "last_run_days": 85,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Newcastle (AW)": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Standard To Slow": 2
-      },
-      "classes_seen": {
-        "Class 1": 2
-      },
-      "trainers_seen": {
-        "Jack Channon": 2
-      },
-      "jockeys_seen": {
-        "Connor Beasley": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 56,
-      "latest_notes": [
-        "Positive recent form",
-        "Race class strength +8"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Ferrous",
-          "horse_id": "hrs_29227072",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Jack Channon",
-          "trainer_id": "trn_361449",
-          "jockey": "Connor Beasley",
-          "jockey_id": "jky_272604",
-          "draw": 6,
-          "number": 4,
-          "lbs": 131,
-          "ofr": "104",
-          "last_run": 85,
-          "form": "6-4265",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:17.427608+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Ferrous",
-          "horse_id": "hrs_29227072",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Jack Channon",
-          "trainer_id": "trn_361449",
-          "jockey": "Connor Beasley",
-          "jockey_id": "jky_272604",
-          "draw": 6,
-          "number": 4,
-          "lbs": 131,
-          "ofr": "104",
-          "last_run": 85,
-          "form": "6-4265",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:46.189431+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Newcastle (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard To Slow",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1738,6 +1829,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1746,325 +1838,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Standard To Slow",
         "latest_class": "Class 1",
-        "latest_pulse_score": 56,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Heathcliff",
-      "horse_id": "hrs_37889838",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Newcastle (AW)",
-      "latest_time": "2:10",
-      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 1",
-      "latest_going": "Standard To Slow",
-      "latest_surface": "AW",
-      "latest_trainer": "James Fanshawe",
-      "latest_jockey": "Daniel Muscutt",
-      "latest_draw": 8,
-      "latest_weight_lbs": 131,
-      "official_rating": "102",
-      "recent_form": "312470",
-      "last_run_days": 7,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Newcastle (AW)": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Standard To Slow": 2
-      },
-      "classes_seen": {
-        "Class 1": 2
-      },
-      "trainers_seen": {
-        "James Fanshawe": 2
-      },
-      "jockeys_seen": {
-        "Daniel Muscutt": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 56,
-      "latest_notes": [
-        "Positive recent form",
-        "Race class strength +8",
-        "Trainer bonus +3",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Heathcliff",
-          "horse_id": "hrs_37889838",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "James Fanshawe",
-          "trainer_id": "trn_40860",
-          "jockey": "Daniel Muscutt",
-          "jockey_id": "jky_275571",
-          "draw": 8,
-          "number": 5,
-          "lbs": 131,
-          "ofr": "102",
-          "last_run": 7,
-          "form": "312470",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:17.440642+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Heathcliff",
-          "horse_id": "hrs_37889838",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "James Fanshawe",
-          "trainer_id": "trn_40860",
-          "jockey": "Daniel Muscutt",
-          "jockey_id": "jky_275571",
-          "draw": 8,
-          "number": 5,
-          "lbs": 131,
-          "ofr": "102",
-          "last_run": 7,
-          "form": "312470",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:46.205526+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Newcastle (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard To Slow",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newcastle (AW)",
-        "latest_distance_f": 6.0,
-        "latest_going": "Standard To Slow",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 56,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Marvelman",
-      "horse_id": "hrs_42452102",
-      "age": 4,
-      "sex": "colt",
-      "latest_course": "Newcastle (AW)",
-      "latest_time": "2:10",
-      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 1",
-      "latest_going": "Standard To Slow",
-      "latest_surface": "AW",
-      "latest_trainer": "Andrew Balding",
-      "latest_jockey": "P J McDonald",
-      "latest_draw": 4,
-      "latest_weight_lbs": 136,
-      "official_rating": "115",
-      "recent_form": "3310-9",
-      "last_run_days": 133,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Newcastle (AW)": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Standard To Slow": 2
-      },
-      "classes_seen": {
-        "Class 1": 2
-      },
-      "trainers_seen": {
-        "Andrew Balding": 2
-      },
-      "jockeys_seen": {
-        "P J McDonald": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Helpful draw",
-        "Race class strength +8",
-        "Trainer bonus +3",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Marvelman",
-          "horse_id": "hrs_42452102",
-          "age": 4,
-          "sex": "colt",
-          "trainer": "Andrew Balding",
-          "trainer_id": "trn_140445",
-          "jockey": "P J McDonald",
-          "jockey_id": "jky_230616",
-          "draw": 4,
-          "number": 1,
-          "lbs": 136,
-          "ofr": "115",
-          "last_run": 133,
-          "form": "3310-9",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:17.385711+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978746",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:10",
-          "off_dt": "2026-06-27T14:10:00+01:00",
-          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
-          "distance_f": 6.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Marvelman",
-          "horse_id": "hrs_42452102",
-          "age": 4,
-          "sex": "colt",
-          "trainer": "Andrew Balding",
-          "trainer_id": "trn_140445",
-          "jockey": "P J McDonald",
-          "jockey_id": "jky_230616",
-          "draw": 4,
-          "number": 1,
-          "lbs": 136,
-          "ofr": "115",
-          "last_run": 133,
-          "form": "3310-9",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:46.141129+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Newcastle (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard To Slow",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newcastle (AW)",
-        "latest_distance_f": 6.0,
-        "latest_going": "Standard To Slow",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 55,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -2111,13 +1885,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 47,
-      "latest_notes": [
-        "Weak recent form",
-        "Race class strength +8",
-        "Trainer bonus +3",
-        "Jockey bonus +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2206,7 +1975,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 48,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2214,6 +1983,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -2222,17 +1992,17 @@
         "latest_distance_f": 6.0,
         "latest_going": "Standard To Slow",
         "latest_class": "Class 1",
-        "latest_pulse_score": 47,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
       }
     },
     {
-      "horse": "Heavenly Heather",
-      "horse_id": "hrs_44540699",
-      "age": 5,
-      "sex": "mare",
+      "horse": "Wiltshire",
+      "horse_id": "hrs_30540783",
+      "age": 6,
+      "sex": "gelding",
       "latest_course": "Newcastle (AW)",
       "latest_time": "2:10",
       "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
@@ -2241,13 +2011,13 @@
       "latest_class": "Class 1",
       "latest_going": "Standard To Slow",
       "latest_surface": "AW",
-      "latest_trainer": "Tracy Waggott",
-      "latest_jockey": "",
-      "latest_draw": 9,
-      "latest_weight_lbs": 128,
-      "official_rating": "104",
-      "recent_form": "525426",
-      "last_run_days": 11,
+      "latest_trainer": "William Haggas",
+      "latest_jockey": "Cieren Fallon",
+      "latest_draw": 3,
+      "latest_weight_lbs": 131,
+      "official_rating": "102",
+      "recent_form": "-06510",
+      "last_run_days": 42,
       "profile_runs": 2,
       "courses_seen": {
         "Newcastle (AW)": 2
@@ -2262,18 +2032,15 @@
         "Class 1": 2
       },
       "trainers_seen": {
-        "Tracy Waggott": 2
+        "William Haggas": 2
       },
-      "jockeys_seen": {},
+      "jockeys_seen": {
+        "Cieren Fallon": 2
+      },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 34,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Non-runner risk",
-        "Race class strength +8"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2289,22 +2056,22 @@
           "going": "Standard To Slow",
           "surface": "AW",
           "field_size": 11,
-          "horse": "Heavenly Heather",
-          "horse_id": "hrs_44540699",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Tracy Waggott",
-          "trainer_id": "trn_160227",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 9,
-          "number": null,
-          "lbs": 128,
-          "ofr": "104",
-          "last_run": 11,
-          "form": "525426",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:17.539847+00:00"
+          "horse": "Wiltshire",
+          "horse_id": "hrs_30540783",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "William Haggas",
+          "trainer_id": "trn_30735",
+          "jockey": "Cieren Fallon",
+          "jockey_id": "jky_295557",
+          "draw": 3,
+          "number": 10,
+          "lbs": 131,
+          "ofr": "102",
+          "last_run": 42,
+          "form": "-06510",
+          "headgear": "t",
+          "_stored_at": "2026-06-27T10:06:17.505817+00:00"
         },
         {
           "source": "the_racing_api",
@@ -2320,26 +2087,26 @@
           "going": "Standard To Slow",
           "surface": "AW",
           "field_size": 11,
-          "horse": "Heavenly Heather",
-          "horse_id": "hrs_44540699",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Tracy Waggott",
-          "trainer_id": "trn_160227",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 9,
-          "number": null,
-          "lbs": 128,
-          "ofr": "104",
-          "last_run": 11,
-          "form": "525426",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:46.319829+00:00"
+          "horse": "Wiltshire",
+          "horse_id": "hrs_30540783",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "William Haggas",
+          "trainer_id": "trn_30735",
+          "jockey": "Cieren Fallon",
+          "jockey_id": "jky_295557",
+          "draw": 3,
+          "number": 10,
+          "lbs": 131,
+          "ofr": "102",
+          "last_run": 42,
+          "form": "-06510",
+          "headgear": "t",
+          "_stored_at": "2026-06-28T12:42:46.286923+00:00"
         }
       ],
       "profile_notes": [
-        "Recent run timing"
+        "Low draw today"
       ],
       "favourite_course": {
         "value": "Newcastle (AW)",
@@ -2362,7 +2129,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 42,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2379,7 +2146,161 @@
         "latest_distance_f": 6.0,
         "latest_going": "Standard To Slow",
         "latest_class": "Class 1",
-        "latest_pulse_score": 34,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Zoum Zoum",
+      "horse_id": "hrs_37475333",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Newcastle (AW)",
+      "latest_time": "2:10",
+      "latest_race": "JenningsBet Chipchase Stakes (Group 3)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 1",
+      "latest_going": "Standard To Slow",
+      "latest_surface": "AW",
+      "latest_trainer": "Ralph Beckett",
+      "latest_jockey": "Hector Crouch",
+      "latest_draw": 2,
+      "latest_weight_lbs": 131,
+      "official_rating": "104",
+      "recent_form": "4022-9",
+      "last_run_days": 35,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newcastle (AW)": 2
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Standard To Slow": 2
+      },
+      "classes_seen": {
+        "Class 1": 2
+      },
+      "trainers_seen": {
+        "Ralph Beckett": 2
+      },
+      "jockeys_seen": {
+        "Hector Crouch": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Zoum Zoum",
+          "horse_id": "hrs_37475333",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Ralph Beckett",
+          "trainer_id": "trn_125253",
+          "jockey": "Hector Crouch",
+          "jockey_id": "jky_278418",
+          "draw": 2,
+          "number": 11,
+          "lbs": 131,
+          "ofr": "104",
+          "last_run": 35,
+          "form": "4022-9",
+          "headgear": "t",
+          "_stored_at": "2026-06-27T10:06:17.522496+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978746",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-27",
+          "off_time": "2:10",
+          "off_dt": "2026-06-27T14:10:00+01:00",
+          "race_name": "JenningsBet Chipchase Stakes (Group 3)",
+          "distance_f": 6.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 11,
+          "horse": "Zoum Zoum",
+          "horse_id": "hrs_37475333",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Ralph Beckett",
+          "trainer_id": "trn_125253",
+          "jockey": "Hector Crouch",
+          "jockey_id": "jky_278418",
+          "draw": 2,
+          "number": 11,
+          "lbs": 131,
+          "ofr": "104",
+          "last_run": 35,
+          "form": "4022-9",
+          "headgear": "t",
+          "_stored_at": "2026-06-28T12:42:46.303691+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Newcastle (AW)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard To Slow",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newcastle (AW)",
+        "latest_distance_f": 6.0,
+        "latest_going": "Standard To Slow",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -2387,8 +2308,9 @@
     }
   ],
   "notes": [
-    "Diligent Harry is the top-rated Pulse IQ runner.",
+    "Bloodsweatandtyres is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Poet Master is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Ferrous is flagged as a possible dark horse."
   ]
 }

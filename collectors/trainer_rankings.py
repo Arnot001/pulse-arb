@@ -1,9 +1,23 @@
 import json
 from pathlib import Path
 from collections import defaultdict
-
 from app.data_store import append_jsonl, get_week_key
-from app.dedupe import should_store
+
+DEDupe_KEYS = set()
+
+
+def should_store(key):
+    if key in DEDupe_KEYS:
+        return False
+
+    DEDupe_KEYS.add(key)
+    return True
+
+def safe_score(value):
+    try:
+        return float(value or 0)
+    except Exception:
+        return 0
 
 
 def build_trainer_rankings():
@@ -23,13 +37,18 @@ def build_trainer_rankings():
     })
 
     seen_runners = set()
+    bad_lines = 0
 
     with file_path.open("r", encoding="utf-8") as f:
         for line in f:
             if not line.strip():
                 continue
 
-            runner = json.loads(line)
+            try:
+                runner = json.loads(line)
+            except Exception:
+                bad_lines += 1
+                continue
 
             runner_key = f'{runner.get("race_id")}:{runner.get("horse_id")}'
             if runner_key in seen_runners:
@@ -39,10 +58,10 @@ def build_trainer_rankings():
             trainer_id = runner.get("trainer_id") or runner.get("trainer")
             trainer_name = runner.get("trainer")
 
-            if not trainer_id:
+            if not trainer_id or not trainer_name:
                 continue
 
-            score = runner.get("pulse_score", 0)
+            score = safe_score(runner.get("pulse_score"))
 
             trainers[trainer_id]["trainer"] = trainer_name
             trainers[trainer_id]["trainer_id"] = trainer_id
@@ -89,6 +108,7 @@ def build_trainer_rankings():
 
     print(f"Saved {saved} trainer ranking records.")
     print(f"Skipped {skipped} duplicate trainer ranking records.")
+    print(f"Bad pulse score lines skipped: {bad_lines}")
 
 
 if __name__ == "__main__":

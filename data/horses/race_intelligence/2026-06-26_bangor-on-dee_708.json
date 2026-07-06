@@ -5,14 +5,166 @@
   "time": "7:08",
   "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
   "field_size": 7,
-  "average_intelligence": 54.86,
-  "top_score": 68,
-  "second_score": 59,
-  "gap": 9,
-  "confidence_score": 65,
-  "confidence": "MEDIUM",
-  "race_shape": "COMPETITIVE EDGE",
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 22,
+  "confidence": "LOW",
+  "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Brenda Lady",
+    "horse_id": "hrs_64847321",
+    "age": 6,
+    "sex": "mare",
+    "latest_course": "Bangor-on-Dee",
+    "latest_time": "7:08",
+    "latest_race": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+    "latest_date": "2026-06-26",
+    "latest_distance_f": 19.5,
+    "latest_class": "Class 4",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "David Rees",
+    "latest_jockey": "Shane Fenelon(5)",
+    "latest_draw": 0,
+    "latest_weight_lbs": 160,
+    "official_rating": "-",
+    "recent_form": "45",
+    "last_run_days": 23,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Bangor-on-Dee": 2
+    },
+    "distances_seen": {
+      "19.5": 2
+    },
+    "goings_seen": {
+      "Good": 2
+    },
+    "classes_seen": {
+      "Class 4": 2
+    },
+    "trainers_seen": {
+      "David Rees": 2
+    },
+    "jockeys_seen": {
+      "Shane Fenelon(5)": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11973663",
+        "course": "Bangor-on-Dee",
+        "date": "2026-06-26",
+        "off_time": "7:08",
+        "off_dt": "2026-06-26T19:08:00+01:00",
+        "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+        "distance_f": 19.5,
+        "race_class": "Class 4",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Brenda Lady",
+        "horse_id": "hrs_64847321",
+        "age": 6,
+        "sex": "mare",
+        "trainer": "David Rees",
+        "trainer_id": "trn_110853",
+        "jockey": "Shane Fenelon(5)",
+        "jockey_id": "jky_297585",
+        "draw": 0,
+        "number": 1,
+        "lbs": 160,
+        "ofr": "-",
+        "last_run": 23,
+        "form": "45",
+        "headgear": "",
+        "_stored_at": "2026-06-26T08:14:09.233764+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11973663",
+        "course": "Bangor-on-Dee",
+        "date": "2026-06-26",
+        "off_time": "7:08",
+        "off_dt": "2026-06-26T19:08:00+01:00",
+        "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+        "distance_f": 19.5,
+        "race_class": "Class 4",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Brenda Lady",
+        "horse_id": "hrs_64847321",
+        "age": 6,
+        "sex": "mare",
+        "trainer": "David Rees",
+        "trainer_id": "trn_110853",
+        "jockey": "Shane Fenelon(5)",
+        "jockey_id": "jky_297585",
+        "draw": 0,
+        "number": 1,
+        "lbs": 160,
+        "ofr": "-",
+        "last_run": 23,
+        "form": "45",
+        "headgear": "",
+        "_stored_at": "2026-06-28T12:42:20.726390+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Bangor-on-Dee",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 19.5,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Bangor-on-Dee",
+      "latest_distance_f": 19.5,
+      "latest_going": "Good",
+      "latest_class": "Class 4",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "main_threat": {
     "horse": "Colegram",
     "horse_id": "hrs_41052592",
     "age": 6,
@@ -53,15 +205,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 92,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +4",
-      "Jockey bonus +4"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -127,7 +272,6 @@
       }
     ],
     "profile_notes": [
-      "Elite latest Pulse Score",
       "Recent run timing"
     ],
     "favourite_course": {
@@ -151,15 +295,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 68,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Elite latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -168,174 +312,16 @@
       "latest_distance_f": 19.5,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": 92,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
-  },
-  "main_threat": {
-    "horse": "Moonshine River",
-    "horse_id": "hrs_51341780",
-    "age": 6,
-    "sex": "mare",
-    "latest_course": "Bangor-on-Dee",
-    "latest_time": "7:08",
-    "latest_race": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-    "latest_date": "2026-06-26",
-    "latest_distance_f": 19.5,
-    "latest_class": "Class 4",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Alastair Ralph",
-    "latest_jockey": "Ciaran Gethings",
-    "latest_draw": 0,
-    "latest_weight_lbs": 160,
-    "official_rating": "-",
-    "recent_form": "75223-",
-    "last_run_days": null,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Bangor-on-Dee": 2
-    },
-    "distances_seen": {
-      "19.5": 2
-    },
-    "goings_seen": {
-      "Good": 2
-    },
-    "classes_seen": {
-      "Class 4": 2
-    },
-    "trainers_seen": {
-      "Alastair Ralph": 2
-    },
-    "jockeys_seen": {
-      "Ciaran Gethings": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 71,
-    "latest_notes": [
-      "Strong recent form",
-      "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +2",
-      "Jockey bonus +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11973663",
-        "course": "Bangor-on-Dee",
-        "date": "2026-06-26",
-        "off_time": "7:08",
-        "off_dt": "2026-06-26T19:08:00+01:00",
-        "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-        "distance_f": 19.5,
-        "race_class": "Class 4",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Moonshine River",
-        "horse_id": "hrs_51341780",
-        "age": 6,
-        "sex": "mare",
-        "trainer": "Alastair Ralph",
-        "trainer_id": "trn_236331",
-        "jockey": "Ciaran Gethings",
-        "jockey_id": "jky_277692",
-        "draw": 0,
-        "number": 5,
-        "lbs": 160,
-        "ofr": "-",
-        "last_run": null,
-        "form": "75223-",
-        "headgear": "",
-        "_stored_at": "2026-06-26T08:14:09.274801+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11973663",
-        "course": "Bangor-on-Dee",
-        "date": "2026-06-26",
-        "off_time": "7:08",
-        "off_dt": "2026-06-26T19:08:00+01:00",
-        "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-        "distance_f": 19.5,
-        "race_class": "Class 4",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Moonshine River",
-        "horse_id": "hrs_51341780",
-        "age": 6,
-        "sex": "mare",
-        "trainer": "Alastair Ralph",
-        "trainer_id": "trn_236331",
-        "jockey": "Ciaran Gethings",
-        "jockey_id": "jky_277692",
-        "draw": 0,
-        "number": 5,
-        "lbs": 160,
-        "ofr": "-",
-        "last_run": null,
-        "form": "75223-",
-        "headgear": "",
-        "_stored_at": "2026-06-28T12:42:20.833404+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Bangor-on-Dee",
-      "runs": 2
-    },
-    "favourite_distance": {
-      "value": 19.5,
-      "runs": 2
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 2
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 59,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Bangor-on-Dee",
-      "latest_distance_f": 19.5,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 71,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "dark_horse": {
-    "horse": "Moonshine River",
-    "horse_id": "hrs_51341780",
-    "age": 6,
+    "horse": "Little Twig",
+    "horse_id": "hrs_62779920",
+    "age": 5,
     "sex": "mare",
     "latest_course": "Bangor-on-Dee",
     "latest_time": "7:08",
@@ -345,12 +331,12 @@
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Alastair Ralph",
-    "latest_jockey": "Ciaran Gethings",
+    "latest_trainer": "Nick Scholfield",
+    "latest_jockey": "Kielan Woods",
     "latest_draw": 0,
     "latest_weight_lbs": 160,
     "official_rating": "-",
-    "recent_form": "75223-",
+    "recent_form": "7-3",
     "last_run_days": null,
     "profile_runs": 2,
     "courses_seen": {
@@ -366,21 +352,15 @@
       "Class 4": 2
     },
     "trainers_seen": {
-      "Alastair Ralph": 2
+      "Nick Scholfield": 2
     },
     "jockeys_seen": {
-      "Ciaran Gethings": 2
+      "Kielan Woods": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 71,
-    "latest_notes": [
-      "Strong recent form",
-      "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +2",
-      "Jockey bonus +2"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -396,22 +376,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 7,
-        "horse": "Moonshine River",
-        "horse_id": "hrs_51341780",
-        "age": 6,
+        "horse": "Little Twig",
+        "horse_id": "hrs_62779920",
+        "age": 5,
         "sex": "mare",
-        "trainer": "Alastair Ralph",
-        "trainer_id": "trn_236331",
-        "jockey": "Ciaran Gethings",
-        "jockey_id": "jky_277692",
+        "trainer": "Nick Scholfield",
+        "trainer_id": "trn_383553",
+        "jockey": "Kielan Woods",
+        "jockey_id": "jky_266652",
         "draw": 0,
-        "number": 5,
+        "number": 3,
         "lbs": 160,
         "ofr": "-",
         "last_run": null,
-        "form": "75223-",
+        "form": "7-3",
         "headgear": "",
-        "_stored_at": "2026-06-26T08:14:09.274801+00:00"
+        "_stored_at": "2026-06-26T08:14:09.254135+00:00"
       },
       {
         "source": "the_racing_api",
@@ -427,22 +407,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 7,
-        "horse": "Moonshine River",
-        "horse_id": "hrs_51341780",
-        "age": 6,
+        "horse": "Little Twig",
+        "horse_id": "hrs_62779920",
+        "age": 5,
         "sex": "mare",
-        "trainer": "Alastair Ralph",
-        "trainer_id": "trn_236331",
-        "jockey": "Ciaran Gethings",
-        "jockey_id": "jky_277692",
+        "trainer": "Nick Scholfield",
+        "trainer_id": "trn_383553",
+        "jockey": "Kielan Woods",
+        "jockey_id": "jky_266652",
         "draw": 0,
-        "number": 5,
+        "number": 3,
         "lbs": 160,
         "ofr": "-",
         "last_run": null,
-        "form": "75223-",
+        "form": "7-3",
         "headgear": "",
-        "_stored_at": "2026-06-28T12:42:20.833404+00:00"
+        "_stored_at": "2026-06-28T12:42:20.798905+00:00"
       }
     ],
     "profile_notes": [],
@@ -467,15 +447,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 59,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -484,492 +464,13 @@
       "latest_distance_f": 19.5,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": 71,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "runners": [
-    {
-      "horse": "Colegram",
-      "horse_id": "hrs_41052592",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "Bangor-on-Dee",
-      "latest_time": "7:08",
-      "latest_race": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-      "latest_date": "2026-06-26",
-      "latest_distance_f": 19.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Dan Skelton",
-      "latest_jockey": "Harry Skelton",
-      "latest_draw": 0,
-      "latest_weight_lbs": 160,
-      "official_rating": "-",
-      "recent_form": "/311-3",
-      "last_run_days": 14,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Bangor-on-Dee": 2
-      },
-      "distances_seen": {
-        "19.5": 2
-      },
-      "goings_seen": {
-        "Good": 2
-      },
-      "classes_seen": {
-        "Class 4": 2
-      },
-      "trainers_seen": {
-        "Dan Skelton": 2
-      },
-      "jockeys_seen": {
-        "Harry Skelton": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 92,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +4",
-        "Jockey bonus +4"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11973663",
-          "course": "Bangor-on-Dee",
-          "date": "2026-06-26",
-          "off_time": "7:08",
-          "off_dt": "2026-06-26T19:08:00+01:00",
-          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-          "distance_f": 19.5,
-          "race_class": "Class 4",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Colegram",
-          "horse_id": "hrs_41052592",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "Dan Skelton",
-          "trainer_id": "trn_146430",
-          "jockey": "Harry Skelton",
-          "jockey_id": "jky_255654",
-          "draw": 0,
-          "number": 2,
-          "lbs": 160,
-          "ofr": "-",
-          "last_run": 14,
-          "form": "/311-3",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:09.243942+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11973663",
-          "course": "Bangor-on-Dee",
-          "date": "2026-06-26",
-          "off_time": "7:08",
-          "off_dt": "2026-06-26T19:08:00+01:00",
-          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-          "distance_f": 19.5,
-          "race_class": "Class 4",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Colegram",
-          "horse_id": "hrs_41052592",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "Dan Skelton",
-          "trainer_id": "trn_146430",
-          "jockey": "Harry Skelton",
-          "jockey_id": "jky_255654",
-          "draw": 0,
-          "number": 2,
-          "lbs": 160,
-          "ofr": "-",
-          "last_run": 14,
-          "form": "/311-3",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:20.781469+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Bangor-on-Dee",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 19.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 68,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bangor-on-Dee",
-        "latest_distance_f": 19.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 92,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Moonshine River",
-      "horse_id": "hrs_51341780",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "Bangor-on-Dee",
-      "latest_time": "7:08",
-      "latest_race": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-      "latest_date": "2026-06-26",
-      "latest_distance_f": 19.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Alastair Ralph",
-      "latest_jockey": "Ciaran Gethings",
-      "latest_draw": 0,
-      "latest_weight_lbs": 160,
-      "official_rating": "-",
-      "recent_form": "75223-",
-      "last_run_days": null,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Bangor-on-Dee": 2
-      },
-      "distances_seen": {
-        "19.5": 2
-      },
-      "goings_seen": {
-        "Good": 2
-      },
-      "classes_seen": {
-        "Class 4": 2
-      },
-      "trainers_seen": {
-        "Alastair Ralph": 2
-      },
-      "jockeys_seen": {
-        "Ciaran Gethings": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 71,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11973663",
-          "course": "Bangor-on-Dee",
-          "date": "2026-06-26",
-          "off_time": "7:08",
-          "off_dt": "2026-06-26T19:08:00+01:00",
-          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-          "distance_f": 19.5,
-          "race_class": "Class 4",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Moonshine River",
-          "horse_id": "hrs_51341780",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "Alastair Ralph",
-          "trainer_id": "trn_236331",
-          "jockey": "Ciaran Gethings",
-          "jockey_id": "jky_277692",
-          "draw": 0,
-          "number": 5,
-          "lbs": 160,
-          "ofr": "-",
-          "last_run": null,
-          "form": "75223-",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:09.274801+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11973663",
-          "course": "Bangor-on-Dee",
-          "date": "2026-06-26",
-          "off_time": "7:08",
-          "off_dt": "2026-06-26T19:08:00+01:00",
-          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-          "distance_f": 19.5,
-          "race_class": "Class 4",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Moonshine River",
-          "horse_id": "hrs_51341780",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "Alastair Ralph",
-          "trainer_id": "trn_236331",
-          "jockey": "Ciaran Gethings",
-          "jockey_id": "jky_277692",
-          "draw": 0,
-          "number": 5,
-          "lbs": 160,
-          "ofr": "-",
-          "last_run": null,
-          "form": "75223-",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:20.833404+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bangor-on-Dee",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 19.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 59,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bangor-on-Dee",
-        "latest_distance_f": 19.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 71,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Mirabello",
-      "horse_id": "hrs_62326404",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Bangor-on-Dee",
-      "latest_time": "7:08",
-      "latest_race": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-      "latest_date": "2026-06-26",
-      "latest_distance_f": 19.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Jamie Snowden",
-      "latest_jockey": "Gavin Sheehan",
-      "latest_draw": 0,
-      "latest_weight_lbs": 160,
-      "official_rating": "-",
-      "recent_form": "54-2",
-      "last_run_days": 44,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Bangor-on-Dee": 2
-      },
-      "distances_seen": {
-        "19.5": 2
-      },
-      "goings_seen": {
-        "Good": 2
-      },
-      "classes_seen": {
-        "Class 4": 2
-      },
-      "trainers_seen": {
-        "Jamie Snowden": 2
-      },
-      "jockeys_seen": {
-        "Gavin Sheehan": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 65,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11973663",
-          "course": "Bangor-on-Dee",
-          "date": "2026-06-26",
-          "off_time": "7:08",
-          "off_dt": "2026-06-26T19:08:00+01:00",
-          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-          "distance_f": 19.5,
-          "race_class": "Class 4",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Mirabello",
-          "horse_id": "hrs_62326404",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Jamie Snowden",
-          "trainer_id": "trn_187326",
-          "jockey": "Gavin Sheehan",
-          "jockey_id": "jky_266721",
-          "draw": 0,
-          "number": 4,
-          "lbs": 160,
-          "ofr": "-",
-          "last_run": 44,
-          "form": "54-2",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:09.264692+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11973663",
-          "course": "Bangor-on-Dee",
-          "date": "2026-06-26",
-          "off_time": "7:08",
-          "off_dt": "2026-06-26T19:08:00+01:00",
-          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
-          "distance_f": 19.5,
-          "race_class": "Class 4",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Mirabello",
-          "horse_id": "hrs_62326404",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Jamie Snowden",
-          "trainer_id": "trn_187326",
-          "jockey": "Gavin Sheehan",
-          "jockey_id": "jky_266721",
-          "draw": 0,
-          "number": 4,
-          "lbs": 160,
-          "ofr": "-",
-          "last_run": 44,
-          "form": "54-2",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:20.817130+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bangor-on-Dee",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 19.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bangor-on-Dee",
-        "latest_distance_f": 19.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 65,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
     {
       "horse": "Brenda Lady",
       "horse_id": "hrs_64847321",
@@ -1011,15 +512,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1106,7 +600,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1114,6 +608,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1122,7 +617,161 @@
         "latest_distance_f": 19.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": 60,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Colegram",
+      "horse_id": "hrs_41052592",
+      "age": 6,
+      "sex": "mare",
+      "latest_course": "Bangor-on-Dee",
+      "latest_time": "7:08",
+      "latest_race": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+      "latest_date": "2026-06-26",
+      "latest_distance_f": 19.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Dan Skelton",
+      "latest_jockey": "Harry Skelton",
+      "latest_draw": 0,
+      "latest_weight_lbs": 160,
+      "official_rating": "-",
+      "recent_form": "/311-3",
+      "last_run_days": 14,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Bangor-on-Dee": 2
+      },
+      "distances_seen": {
+        "19.5": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "Dan Skelton": 2
+      },
+      "jockeys_seen": {
+        "Harry Skelton": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973663",
+          "course": "Bangor-on-Dee",
+          "date": "2026-06-26",
+          "off_time": "7:08",
+          "off_dt": "2026-06-26T19:08:00+01:00",
+          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+          "distance_f": 19.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Colegram",
+          "horse_id": "hrs_41052592",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Dan Skelton",
+          "trainer_id": "trn_146430",
+          "jockey": "Harry Skelton",
+          "jockey_id": "jky_255654",
+          "draw": 0,
+          "number": 2,
+          "lbs": 160,
+          "ofr": "-",
+          "last_run": 14,
+          "form": "/311-3",
+          "headgear": "",
+          "_stored_at": "2026-06-26T08:14:09.243942+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973663",
+          "course": "Bangor-on-Dee",
+          "date": "2026-06-26",
+          "off_time": "7:08",
+          "off_dt": "2026-06-26T19:08:00+01:00",
+          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+          "distance_f": 19.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Colegram",
+          "horse_id": "hrs_41052592",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Dan Skelton",
+          "trainer_id": "trn_146430",
+          "jockey": "Harry Skelton",
+          "jockey_id": "jky_255654",
+          "draw": 0,
+          "number": 2,
+          "lbs": 160,
+          "ofr": "-",
+          "last_run": 14,
+          "form": "/311-3",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:20.781469+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Bangor-on-Dee",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bangor-on-Dee",
+        "latest_distance_f": 19.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1169,14 +818,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 52,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1263,7 +906,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 50,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1271,6 +914,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1279,7 +923,311 @@
         "latest_distance_f": 19.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": 52,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Mirabello",
+      "horse_id": "hrs_62326404",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Bangor-on-Dee",
+      "latest_time": "7:08",
+      "latest_race": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+      "latest_date": "2026-06-26",
+      "latest_distance_f": 19.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jamie Snowden",
+      "latest_jockey": "Gavin Sheehan",
+      "latest_draw": 0,
+      "latest_weight_lbs": 160,
+      "official_rating": "-",
+      "recent_form": "54-2",
+      "last_run_days": 44,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Bangor-on-Dee": 2
+      },
+      "distances_seen": {
+        "19.5": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "Jamie Snowden": 2
+      },
+      "jockeys_seen": {
+        "Gavin Sheehan": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973663",
+          "course": "Bangor-on-Dee",
+          "date": "2026-06-26",
+          "off_time": "7:08",
+          "off_dt": "2026-06-26T19:08:00+01:00",
+          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+          "distance_f": 19.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Mirabello",
+          "horse_id": "hrs_62326404",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Jamie Snowden",
+          "trainer_id": "trn_187326",
+          "jockey": "Gavin Sheehan",
+          "jockey_id": "jky_266721",
+          "draw": 0,
+          "number": 4,
+          "lbs": 160,
+          "ofr": "-",
+          "last_run": 44,
+          "form": "54-2",
+          "headgear": "",
+          "_stored_at": "2026-06-26T08:14:09.264692+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973663",
+          "course": "Bangor-on-Dee",
+          "date": "2026-06-26",
+          "off_time": "7:08",
+          "off_dt": "2026-06-26T19:08:00+01:00",
+          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+          "distance_f": 19.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Mirabello",
+          "horse_id": "hrs_62326404",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Jamie Snowden",
+          "trainer_id": "trn_187326",
+          "jockey": "Gavin Sheehan",
+          "jockey_id": "jky_266721",
+          "draw": 0,
+          "number": 4,
+          "lbs": 160,
+          "ofr": "-",
+          "last_run": 44,
+          "form": "54-2",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:20.817130+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bangor-on-Dee",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bangor-on-Dee",
+        "latest_distance_f": 19.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Moonshine River",
+      "horse_id": "hrs_51341780",
+      "age": 6,
+      "sex": "mare",
+      "latest_course": "Bangor-on-Dee",
+      "latest_time": "7:08",
+      "latest_race": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+      "latest_date": "2026-06-26",
+      "latest_distance_f": 19.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Alastair Ralph",
+      "latest_jockey": "Ciaran Gethings",
+      "latest_draw": 0,
+      "latest_weight_lbs": 160,
+      "official_rating": "-",
+      "recent_form": "75223-",
+      "last_run_days": null,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Bangor-on-Dee": 2
+      },
+      "distances_seen": {
+        "19.5": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "Alastair Ralph": 2
+      },
+      "jockeys_seen": {
+        "Ciaran Gethings": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973663",
+          "course": "Bangor-on-Dee",
+          "date": "2026-06-26",
+          "off_time": "7:08",
+          "off_dt": "2026-06-26T19:08:00+01:00",
+          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+          "distance_f": 19.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Moonshine River",
+          "horse_id": "hrs_51341780",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Alastair Ralph",
+          "trainer_id": "trn_236331",
+          "jockey": "Ciaran Gethings",
+          "jockey_id": "jky_277692",
+          "draw": 0,
+          "number": 5,
+          "lbs": 160,
+          "ofr": "-",
+          "last_run": null,
+          "form": "75223-",
+          "headgear": "",
+          "_stored_at": "2026-06-26T08:14:09.274801+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973663",
+          "course": "Bangor-on-Dee",
+          "date": "2026-06-26",
+          "off_time": "7:08",
+          "off_dt": "2026-06-26T19:08:00+01:00",
+          "race_name": "Wrexham Lager Mares' Maiden Hurdle (GBB Race)",
+          "distance_f": 19.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Moonshine River",
+          "horse_id": "hrs_51341780",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Alastair Ralph",
+          "trainer_id": "trn_236331",
+          "jockey": "Ciaran Gethings",
+          "jockey_id": "jky_277692",
+          "draw": 0,
+          "number": 5,
+          "lbs": 160,
+          "ofr": "-",
+          "last_run": null,
+          "form": "75223-",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:20.833404+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bangor-on-Dee",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bangor-on-Dee",
+        "latest_distance_f": 19.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1326,13 +1274,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +2",
-        "Jockey bonus +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1419,7 +1362,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 50,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1427,6 +1370,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1435,7 +1379,7 @@
         "latest_distance_f": 19.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": 51,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1482,12 +1426,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Weak recent form",
-        "Helpful draw",
-        "Race class strength +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1576,7 +1516,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 47,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1584,6 +1524,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1592,7 +1533,7 @@
         "latest_distance_f": 19.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": 45,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1600,7 +1541,9 @@
     }
   ],
   "notes": [
-    "Colegram is the top-rated Pulse IQ runner.",
-    "Moonshine River is flagged as a possible dark horse."
+    "Brenda Lady is the top-rated Pulse IQ runner.",
+    "The race looks competitive with no clear standout.",
+    "This race has a generally weak profile strength.",
+    "Little Twig is flagged as a possible dark horse."
   ]
 }

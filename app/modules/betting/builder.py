@@ -1,7 +1,17 @@
+from app.modules.performance.live_tracker import load_live_status
+from app.modules.odds.url_builder import build_oddschecker_url
 from app.modules.horses.output import get_top_horses
 from app.modules.betting.recommendation import build_recommendation
 from app.modules.betting.portfolio import PortfolioBuilder
 from app.modules.decision.engine import build_daily_decision
+
+
+SUPPORTED_COURSES = {
+    "Ayr",
+    "Market Rasen",
+    "Southwell (AW)",
+}
+
 
 def risk_rank(risk):
     ranks = {
@@ -31,6 +41,12 @@ def build_bet_report(title, bet_type, horses):
             "strategy": "No Bet",
             "reasons": [],
             "verdict": "No qualifying selections found.",
+            "tracker_status": "NO BET",
+            "settled_count": 0,
+            "selection_count": 0,
+            "winners": 0,
+            "profit": 0,
+            "roi": 0,
         }
 
     combined_iq = sum(h.get("score", 0) for h in horses)
@@ -53,7 +69,9 @@ def build_bet_report(title, bet_type, horses):
     elif avg_rec >= 85:
         reasons.append("Strong recommendation profile")
 
-    if unique_races == len(horses):
+    if len(horses) == 1:
+        reasons.append("Single selection")
+    elif unique_races == len(horses):
         reasons.append("Selections are from different races")
     else:
         reasons.append("Warning: selections may share a race")
@@ -123,9 +141,35 @@ def build_bet_report(title, bet_type, horses):
             f"opportunity rather than a banker."
         )
     else:
-        verdict = (
-            f"{title} carries elevated uncertainty. Review before placing."
-        )
+        verdict = f"{title} carries elevated uncertainty. Review before placing."
+
+    settled = [
+        h for h in horses
+        if h.get("status") == "SETTLED"
+    ]
+
+    won = [
+        h for h in settled
+        if h.get("profit", 0) > 0
+    ]
+
+    total_profit = round(
+        sum(h.get("profit") or 0 for h in settled),
+        2,
+    )
+
+    total_stake = len(settled)
+
+    roi = 0
+    if total_stake:
+        roi = round((total_profit / total_stake) * 100, 2)
+
+    if not settled:
+        tracker_status = "WAITING"
+    elif len(settled) < len(horses):
+        tracker_status = "IN PROGRESS"
+    else:
+        tracker_status = "COMPLETE"
 
     return {
         "title": title,
@@ -140,6 +184,12 @@ def build_bet_report(title, bet_type, horses):
         "strategy": strategy,
         "reasons": reasons,
         "verdict": verdict,
+        "tracker_status": tracker_status,
+        "settled_count": len(settled),
+        "selection_count": len(horses),
+        "winners": len(won),
+        "profit": total_profit,
+        "roi": roi,
     }
 
 
@@ -193,17 +243,40 @@ def build_verdict(bet_horses, portfolio_quality=0):
 
 def build_bets():
     horses = list(get_top_horses(50))
+    live_status = load_live_status()
 
     def to_bet_horse(horse):
+        course = horse.get("course")
+        race_time = horse.get("off_time")
+        horse_name = horse.get("horse")
+
+        key = (
+            str(horse_name or "").lower().strip(),
+            str(course or "").lower().strip(),
+            str(race_time or "").strip(),
+        )
+
+        status = live_status.get(key, {})
+
         return {
-            "horse": horse.get("horse"),
-            "course": horse.get("course"),
-            "time": horse.get("off_time"),
+            "horse": horse_name,
+            "course": course,
+            "time": race_time,
             "race_name": horse.get("race_name"),
             "race_id": horse.get("race_id"),
             "score": horse.get("pulse_score", 0),
             "form": horse.get("form"),
             "notes": horse.get("notes", []),
+            "odds_url": build_oddschecker_url(
+                course=course,
+                race_time=race_time,
+                horse=horse_name,
+            ),
+            "status": status.get("status", "WAITING"),
+            "position": status.get("position"),
+            "sp": status.get("sp"),
+            "returned": status.get("returned"),
+            "profit": status.get("profit"),
         }
 
     bet_horses = [
@@ -217,7 +290,13 @@ def build_bets():
         reverse=True,
     )
 
-    portfolio = PortfolioBuilder(bet_horses)
+    qualified_bet_horses = [
+        h for h in bet_horses
+        if h.get("course") in SUPPORTED_COURSES
+        and h.get("score", 0) >= 85
+    ]
+
+    portfolio = PortfolioBuilder(qualified_bet_horses)
     portfolio_data = portfolio.build_portfolio()
 
     best_single = portfolio_data["best_single"]
@@ -234,53 +313,43 @@ def build_bets():
 
     portfolio_quality = portfolio_data["portfolio_quality"]
 
-    bet_reports = [
-        build_bet_report("Best Single", "single", best_single),
-        build_bet_report("Smart Singles", "single", smart_singles),
-        build_bet_report("Pulse Double", "double", pulse_double),
-        build_bet_report("Pulse Treble", "treble", pulse_treble),
-        build_bet_report("Dominant Double", "double", dominant_double),
-    ]
+    bet_reports = []
+
+    if len(best_single) >= 1:
+        bet_reports.append(build_bet_report("Best Single", "single", best_single))
+
+    if len(smart_singles) >= 2:
+        bet_reports.append(build_bet_report("Smart Singles", "single", smart_singles))
+
+    if len(pulse_double) >= 2:
+        bet_reports.append(build_bet_report("Pulse Double", "double", pulse_double))
+
+    if len(pulse_treble) >= 3:
+        bet_reports.append(build_bet_report("Pulse Treble", "treble", pulse_treble))
+
+    if len(dominant_double) >= 2:
+        bet_reports.append(build_bet_report("Dominant Double", "double", dominant_double))
 
     decision = build_daily_decision(
-        bet_horses=bet_horses,
-        portfolio_quality=portfolio_quality,
-        recommended_reports=bet_reports,
-    )
-
-    bet_reports = [
-        build_bet_report("Best Single", "single", best_single),
-        build_bet_report("Smart Singles", "single", smart_singles),
-        build_bet_report("Pulse Double", "double", pulse_double),
-        build_bet_report("Pulse Treble", "treble", pulse_treble),
-        build_bet_report("Dominant Double", "double", dominant_double),
-    ]
-
-    decision = build_daily_decision(
-        bet_horses=bet_horses,
+        bet_horses=qualified_bet_horses,
         portfolio_quality=portfolio_quality,
         recommended_reports=bet_reports,
     )
 
     return {
         "decision": decision,
-
         "verdict": build_verdict(
-            bet_horses,
+            qualified_bet_horses,
             portfolio_quality=portfolio_quality,
         ),
-
         "bet_reports": bet_reports,
-
         "best_single": best_single,
         "smart_singles": smart_singles,
         "pulse_double": pulse_double,
         "pulse_treble": pulse_treble,
         "dominant_double": dominant_double,
         "dominant_treble": dominant_treble,
-
         "portfolio_quality": portfolio_quality,
         "exposure": portfolio_data["exposure"],
-
         "avoid_bets": avoid_bets,
     }

@@ -1,0 +1,200 @@
+{% extends "base.html" %}
+
+{% block title %}Bet Ledger{% endblock %}
+
+{% block content %}
+
+<div class="pulse-page">
+
+    <div class="pulse-page-header module-header">
+        <div class="module-title-row">
+            <img src="/static/glyphs_transparent/performance.png" class="hero-icon" alt="">
+            <div>
+                <h1>Bet Ledger</h1>
+                <p class="muted">Proof engine for Pulse picks, odds, results and profit.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>🏆 Official Pulse Record</h2>
+
+        <div class="stat-list">
+            <div><span>Total Official Bets</span><strong>{{ official_total }}</strong></div>
+            <div><span>Official Winners</span><strong>{{ official_winners }}</strong></div>
+            <div><span>Strike Rate</span><strong>{{ official_strike_rate }}%</strong></div>
+            <div><span>ROI</span><strong>{{ official_roi }}%</strong></div>
+            <div><span>Profit</span><strong>£{{ official_profit }}</strong></div>
+        </div>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>📅 Today's Performance</h2>
+
+        <div class="stat-list">
+            <div><span>Official Bets</span><strong>{{ official_bets|length }}</strong></div>
+            <div><span>Watchlist</span><strong>{{ near_misses|length }}</strong></div>
+            <div><span>Predictions</span><strong>{{ prediction_only|length }}</strong></div>
+            <div><span>Settled Today</span><strong>{{ settled_today }}</strong></div>
+            <div><span>Won Today</span><strong>{{ won_today }}</strong></div>
+            <div><span>Today's Profit</span><strong>£{{ today_profit }}</strong></div>
+        </div>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>💷 Profit Simulator</h2>
+
+        <form method="get" action="/bet-ledger">
+            <label class="muted">Stake per bet (£)</label>
+            <input type="number" step="0.01" name="stake" value="{{ stake }}">
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div class="stat-list">
+            <div><span>Logged Bets</span><strong>{{ report.logged_bets }}</strong></div>
+            <div><span>Settled Bets</span><strong>{{ report.settled_bets }}</strong></div>
+            <div><span>Total Logged Stake</span><strong>£{{ report.total_logged_stake }}</strong></div>
+            <div><span>Settled Stake</span><strong>£{{ report.settled_stake }}</strong></div>
+            <div><span>Returned</span><strong>£{{ report.returned }}</strong></div>
+            <div><span>Profit</span><strong>£{{ report.profit }}</strong></div>
+            <div><span>ROI</span><strong>{{ report.roi }}%</strong></div>
+        </div>
+
+        <p class="muted">{{ report.note }}</p>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>Ledger Status</h2>
+
+        <div class="stat-list">
+            <div><span>Open Bets</span><strong>{{ open_bets|length }}</strong></div>
+            <div><span>Settled Bets</span><strong>{{ settled_bets|length }}</strong></div>
+            <div><span>Official Bets</span><strong>{{ official_bets|length }}</strong></div>
+            <div><span>Watchlist</span><strong>{{ near_misses|length }}</strong></div>
+            <div><span>Predictions</span><strong>{{ prediction_only|length }}</strong></div>
+        </div>
+    </div>
+
+    <div class="dashboard-card">
+        <h2>🟢 Official Pulse Bets</h2>
+
+        {% if official_bets %}
+            {% for bet in official_bets|reverse %}
+                <div class="mini-data-card">
+                    <strong>🟢 {{ bet.horse }}</strong>
+                    <span>{{ bet.date }} · {{ bet.course }} · {{ bet.race_time }}</span>
+                    <span>IQ {{ bet.pulse_score }} · Odds {{ bet.best_odds }}</span>
+
+                    <div class="notes">
+                        {% if bet.status == "OPEN" %}
+                            <span class="badge">🟡 Waiting</span>
+                        {% elif bet.won %}
+                            <span class="badge">🟢 Won</span>
+                        {% elif bet.status == "SETTLED" %}
+                            <span class="badge badge-avoid">🔴 Lost</span>
+                        {% else %}
+                            <span class="badge">{{ bet.status }}</span>
+                        {% endif %}
+
+                        {% if bet.result_position %}
+                            <span class="badge">Pos {{ bet.result_position }}</span>
+                        {% endif %}
+
+                        {% if bet.sp %}
+                            <span class="badge">SP {{ bet.sp }}</span>
+                        {% endif %}
+
+                        {% if bet.profit is not none %}
+                            <span class="badge">Profit £{{ bet.profit }}</span>
+                        {% endif %}
+                    </div>
+
+                    {% if bet.qualification_reasons %}
+                        <div class="notes">
+                            {% for reason in bet.qualification_reasons %}
+                                <span class="badge">{{ reason }}</span>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        {% else %}
+            <p class="muted">No official Pulse bets logged yet.</p>
+        {% endif %}
+    </div>
+
+    <div class="dashboard-card">
+        <h2>🟡 Pulse Watchlist</h2>
+
+        {% if near_misses %}
+            {% for bet in near_misses|reverse %}
+                <div class="mini-data-card">
+                    <strong>🟡 {{ bet.horse }}</strong>
+                    <span>{{ bet.date }} · {{ bet.course }} · {{ bet.race_time }}</span>
+                    <span>IQ {{ bet.pulse_score }} · Odds {{ bet.best_odds }}</span>
+
+                    <div class="notes">
+                        {% if bet.status == "OPEN" %}
+                            <span class="badge">🟡 Waiting</span>
+                        {% elif bet.won %}
+                            <span class="badge">🟢 Won</span>
+                        {% elif bet.status == "SETTLED" %}
+                            <span class="badge badge-avoid">🔴 Lost</span>
+                        {% else %}
+                            <span class="badge">{{ bet.status }}</span>
+                        {% endif %}
+                    </div>
+
+                    {% if bet.qualification_warnings %}
+                        <div class="notes">
+                            {% for warning in bet.qualification_warnings %}
+                                <span class="badge badge-avoid">{{ warning }}</span>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        {% else %}
+            <p class="muted">No watchlist picks today.</p>
+        {% endif %}
+    </div>
+
+    <div class="dashboard-card">
+        <h2>⚪ Predictions Only</h2>
+
+        {% if prediction_only %}
+            {% for bet in prediction_only|reverse %}
+                <div class="mini-data-card">
+                    <strong>⚪ {{ bet.horse }}</strong>
+                    <span>{{ bet.date }} · {{ bet.course }} · {{ bet.race_time }}</span>
+                    <span>IQ {{ bet.pulse_score }} · Odds {{ bet.best_odds }}</span>
+
+                    <div class="notes">
+                        {% if bet.status == "OPEN" %}
+                            <span class="badge">🟡 Waiting</span>
+                        {% elif bet.won %}
+                            <span class="badge">🟢 Won</span>
+                        {% elif bet.status == "SETTLED" %}
+                            <span class="badge badge-avoid">🔴 Lost</span>
+                        {% else %}
+                            <span class="badge">{{ bet.status }}</span>
+                        {% endif %}
+                    </div>
+
+                    {% if bet.qualification_warnings %}
+                        <div class="notes">
+                            {% for warning in bet.qualification_warnings %}
+                                <span class="badge badge-avoid">{{ warning }}</span>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        {% else %}
+            <p class="muted">No prediction-only records yet.</p>
+        {% endif %}
+    </div>
+
+</div>
+
+{% endblock %}

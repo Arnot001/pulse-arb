@@ -1,11 +1,16 @@
 import os
 import requests
-from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from datetime import datetime, timezone
 from dotenv import load_dotenv
 
 from app.data_store import append_jsonl
 
-load_dotenv()
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+ENV_FILE = ROOT_DIR / ".env"
+
+load_dotenv(dotenv_path=ENV_FILE)
 
 BASE_URL = "https://api.theracingapi.com/v1"
 
@@ -25,26 +30,16 @@ def get_auth():
 def collect_horse_results():
     auth = get_auth()
 
-    target_date = (
-        datetime.now(timezone.utc).date()
-        - timedelta(days=1)
-    ).isoformat()
+    target_date = datetime.now(timezone.utc).date().isoformat()
 
-    url = f"{BASE_URL}/results"
+    url = f"{BASE_URL}/results/today/free"
 
     response = requests.get(
         url,
         auth=auth,
-        params={"date": target_date},
+        params={"limit": 100},
         timeout=20,
     )
-
-    if response.status_code == 401:
-        print(
-            "The Racing API results endpoint is not authorised on this plan. "
-            "Use public results scraping instead."
-        )
-        return
 
     response.raise_for_status()
     data = response.json()
@@ -54,7 +49,7 @@ def collect_horse_results():
 
     for race in races:
         record = {
-            "source": "the_racing_api",
+            "source": "the_racing_api_free_today",
             "collection_date": datetime.now(timezone.utc).date().isoformat(),
             "result_date": target_date,
             "raw": race,

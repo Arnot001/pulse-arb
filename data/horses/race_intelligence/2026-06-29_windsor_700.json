@@ -4,15 +4,147 @@
   "course": "Windsor",
   "time": "7:00",
   "race_name": "Fitzdares Sprint Series Handicap",
-  "field_size": 11,
-  "average_intelligence": 57.64,
-  "top_score": 70,
-  "second_score": 70,
-  "gap": 0,
-  "confidence_score": 54,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 10,
+  "average_intelligence": 58.1,
+  "top_score": 71,
+  "second_score": 63,
+  "gap": 8,
+  "confidence_score": 66,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
+    "horse": "Regal Envoy",
+    "horse_id": "hrs_24686235",
+    "age": 7,
+    "sex": "gelding",
+    "latest_course": "Windsor",
+    "latest_time": "7:00",
+    "latest_race": "Fitzdares Sprint Series Handicap",
+    "latest_date": "2026-06-29",
+    "latest_distance_f": 6.0,
+    "latest_class": "Class 2",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "William Knight",
+    "latest_jockey": "Oisin Murphy",
+    "latest_draw": 7,
+    "latest_weight_lbs": 136,
+    "official_rating": "94",
+    "recent_form": "6-3121",
+    "last_run_days": 21,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Windsor": 1
+    },
+    "distances_seen": {
+      "6.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 2": 1
+    },
+    "trainers_seen": {
+      "William Knight": 1
+    },
+    "jockeys_seen": {
+      "Oisin Murphy": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 97,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Race class strength +6",
+      "Trainer bonus +2",
+      "Stable in form +2 (2/4 last 14 days)",
+      "Jockey bonus +3",
+      "Jockey in form +2 (2/8 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988054",
+        "course": "Windsor",
+        "date": "2026-06-29",
+        "off_time": "7:00",
+        "off_dt": "2026-06-29T19:00:00+01:00",
+        "race_name": "Fitzdares Sprint Series Handicap",
+        "distance_f": 6.0,
+        "race_class": "Class 2",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 10,
+        "horse": "Regal Envoy",
+        "horse_id": "hrs_24686235",
+        "age": 7,
+        "sex": "gelding",
+        "trainer": "William Knight",
+        "trainer_id": "trn_161694",
+        "jockey": "Oisin Murphy",
+        "jockey_id": "jky_278184",
+        "draw": 7,
+        "number": 5,
+        "lbs": 136,
+        "ofr": "94",
+        "last_run": 21,
+        "form": "6-3121",
+        "headgear": "p",
+        "_stored_at": "2026-06-29T11:41:34.743952+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
+    "favourite_course": {
+      "value": "Windsor",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 6.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 2",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 71,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Windsor",
+      "latest_distance_f": 6.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 2",
+      "latest_pulse_score": 97,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "King Of Light",
     "horse_id": "hrs_40668425",
     "age": 4,
@@ -53,18 +185,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 96,
+    "latest_pulse_score": 81,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Race class strength +6",
       "Trainer bonus +1",
-      "Stable flying +4 (9/9 last 14 days)",
-      "Jockey bonus +3",
-      "Jockey flying +4 (15/24 last 14 days)",
-      "Historical winner +3",
-      "Previous course winner +4"
+      "Jockey bonus +3"
     ],
     "runs": [
       {
@@ -123,7 +251,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 70,
+    "horse_intelligence_score": 63,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -140,147 +268,16 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 2",
-      "latest_pulse_score": 96,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Regal Envoy",
-    "horse_id": "hrs_24686235",
-    "age": 7,
-    "sex": "gelding",
-    "latest_course": "Windsor",
-    "latest_time": "7:00",
-    "latest_race": "Fitzdares Sprint Series Handicap",
-    "latest_date": "2026-06-29",
-    "latest_distance_f": 6.0,
-    "latest_class": "Class 2",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "William Knight",
-    "latest_jockey": "Oisin Murphy",
-    "latest_draw": 7,
-    "latest_weight_lbs": 136,
-    "official_rating": "94",
-    "recent_form": "6-3121",
-    "last_run_days": 21,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Windsor": 1
-    },
-    "distances_seen": {
-      "6.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 2": 1
-    },
-    "trainers_seen": {
-      "William Knight": 1
-    },
-    "jockeys_seen": {
-      "Oisin Murphy": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 96,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Race class strength +6",
-      "Trainer bonus +3",
-      "Stable in form +2 (2/2 last 14 days)",
-      "Jockey bonus +3"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988054",
-        "course": "Windsor",
-        "date": "2026-06-29",
-        "off_time": "7:00",
-        "off_dt": "2026-06-29T19:00:00+01:00",
-        "race_name": "Fitzdares Sprint Series Handicap",
-        "distance_f": 6.0,
-        "race_class": "Class 2",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 10,
-        "horse": "Regal Envoy",
-        "horse_id": "hrs_24686235",
-        "age": 7,
-        "sex": "gelding",
-        "trainer": "William Knight",
-        "trainer_id": "trn_161694",
-        "jockey": "Oisin Murphy",
-        "jockey_id": "jky_278184",
-        "draw": 7,
-        "number": 5,
-        "lbs": 136,
-        "ofr": "94",
-        "last_run": 21,
-        "form": "6-3121",
-        "headgear": "p",
-        "_stored_at": "2026-06-29T11:41:34.743952+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Elite latest Pulse Score"
-    ],
-    "favourite_course": {
-      "value": "Windsor",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 6.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 2",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 70,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Elite latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Windsor",
-      "latest_distance_f": 6.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 2",
-      "latest_pulse_score": 96,
+      "latest_pulse_score": 81,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Regal Envoy",
-    "horse_id": "hrs_24686235",
-    "age": 7,
+    "horse": "King Of Light",
+    "horse_id": "hrs_40668425",
+    "age": 4,
     "sex": "gelding",
     "latest_course": "Windsor",
     "latest_time": "7:00",
@@ -290,13 +287,13 @@
     "latest_class": "Class 2",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "William Knight",
-    "latest_jockey": "Oisin Murphy",
-    "latest_draw": 7,
-    "latest_weight_lbs": 136,
-    "official_rating": "94",
-    "recent_form": "6-3121",
-    "last_run_days": 21,
+    "latest_trainer": "Stuart Williams",
+    "latest_jockey": "Marco Ghiani",
+    "latest_draw": 10,
+    "latest_weight_lbs": 133,
+    "official_rating": "91",
+    "recent_form": "014-25",
+    "last_run_days": 23,
     "profile_runs": 1,
     "courses_seen": {
       "Windsor": 1
@@ -311,21 +308,20 @@
       "Class 2": 1
     },
     "trainers_seen": {
-      "William Knight": 1
+      "Stuart Williams": 1
     },
     "jockeys_seen": {
-      "Oisin Murphy": 1
+      "Marco Ghiani": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 96,
+    "latest_pulse_score": 81,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Race class strength +6",
-      "Trainer bonus +3",
-      "Stable in form +2 (2/2 last 14 days)",
+      "Trainer bonus +1",
       "Jockey bonus +3"
     ],
     "runs": [
@@ -343,22 +339,22 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Regal Envoy",
-        "horse_id": "hrs_24686235",
-        "age": 7,
+        "horse": "King Of Light",
+        "horse_id": "hrs_40668425",
+        "age": 4,
         "sex": "gelding",
-        "trainer": "William Knight",
-        "trainer_id": "trn_161694",
-        "jockey": "Oisin Murphy",
-        "jockey_id": "jky_278184",
-        "draw": 7,
-        "number": 5,
-        "lbs": 136,
-        "ofr": "94",
-        "last_run": 21,
-        "form": "6-3121",
-        "headgear": "p",
-        "_stored_at": "2026-06-29T11:41:34.743952+00:00"
+        "trainer": "Stuart Williams",
+        "trainer_id": "trn_76887",
+        "jockey": "Marco Ghiani",
+        "jockey_id": "jky_294903",
+        "draw": 10,
+        "number": 9,
+        "lbs": 133,
+        "ofr": "91",
+        "last_run": 23,
+        "form": "014-25",
+        "headgear": "",
+        "_stored_at": "2026-06-29T11:41:34.809355+00:00"
       }
     ],
     "profile_notes": [
@@ -385,7 +381,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 70,
+    "horse_intelligence_score": 63,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -402,147 +398,13 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 2",
-      "latest_pulse_score": 96,
+      "latest_pulse_score": 81,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "King Of Light",
-      "horse_id": "hrs_40668425",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Windsor",
-      "latest_time": "7:00",
-      "latest_race": "Fitzdares Sprint Series Handicap",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Stuart Williams",
-      "latest_jockey": "Marco Ghiani",
-      "latest_draw": 10,
-      "latest_weight_lbs": 133,
-      "official_rating": "91",
-      "recent_form": "014-25",
-      "last_run_days": 23,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Windsor": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Stuart Williams": 1
-      },
-      "jockeys_seen": {
-        "Marco Ghiani": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 96,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +6",
-        "Trainer bonus +1",
-        "Stable flying +4 (9/9 last 14 days)",
-        "Jockey bonus +3",
-        "Jockey flying +4 (15/24 last 14 days)",
-        "Historical winner +3",
-        "Previous course winner +4"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988054",
-          "course": "Windsor",
-          "date": "2026-06-29",
-          "off_time": "7:00",
-          "off_dt": "2026-06-29T19:00:00+01:00",
-          "race_name": "Fitzdares Sprint Series Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "King Of Light",
-          "horse_id": "hrs_40668425",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Stuart Williams",
-          "trainer_id": "trn_76887",
-          "jockey": "Marco Ghiani",
-          "jockey_id": "jky_294903",
-          "draw": 10,
-          "number": 9,
-          "lbs": 133,
-          "ofr": "91",
-          "last_run": 23,
-          "form": "014-25",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:34.809355+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ],
-      "favourite_course": {
-        "value": "Windsor",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 2",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 70,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Windsor",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 2",
-        "latest_pulse_score": 96,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Regal Envoy",
       "horse_id": "hrs_24686235",
@@ -584,15 +446,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 96,
+      "latest_pulse_score": 97,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Race class strength +6",
-        "Trainer bonus +3",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey bonus +3"
+        "Trainer bonus +2",
+        "Stable in form +2 (2/4 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey in form +2 (2/8 last 14 days)"
       ],
       "runs": [
         {
@@ -651,7 +514,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 70,
+      "horse_intelligence_score": 71,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -668,15 +531,15 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 2",
-        "latest_pulse_score": 96,
+        "latest_pulse_score": 97,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Invictus Gold",
-      "horse_id": "hrs_39961537",
+      "horse": "King Of Light",
+      "horse_id": "hrs_40668425",
       "age": 4,
       "sex": "gelding",
       "latest_course": "Windsor",
@@ -687,12 +550,12 @@
       "latest_class": "Class 2",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Tom Clover",
-      "latest_jockey": "Tom Marquand",
-      "latest_draw": 4,
-      "latest_weight_lbs": 142,
-      "official_rating": "100",
-      "recent_form": "55-392",
+      "latest_trainer": "Stuart Williams",
+      "latest_jockey": "Marco Ghiani",
+      "latest_draw": 10,
+      "latest_weight_lbs": 133,
+      "official_rating": "91",
+      "recent_form": "014-25",
       "last_run_days": 23,
       "profile_runs": 1,
       "courses_seen": {
@@ -708,24 +571,21 @@
         "Class 2": 1
       },
       "trainers_seen": {
-        "Tom Clover": 1
+        "Stuart Williams": 1
       },
       "jockeys_seen": {
-        "Tom Marquand": 1
+        "Marco Ghiani": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 79,
+      "latest_pulse_score": 81,
       "latest_notes": [
-        "Positive recent form",
+        "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw",
         "Race class strength +6",
-        "Trainer bonus +2",
-        "Stable in form +2 (2/3 last 14 days)",
-        "Jockey bonus +2",
-        "Jockey flying +4 (8/24 last 14 days)"
+        "Trainer bonus +1",
+        "Jockey bonus +3"
       ],
       "runs": [
         {
@@ -742,25 +602,27 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 10,
-          "horse": "Invictus Gold",
-          "horse_id": "hrs_39961537",
+          "horse": "King Of Light",
+          "horse_id": "hrs_40668425",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Tom Clover",
-          "trainer_id": "trn_294885",
-          "jockey": "Tom Marquand",
-          "jockey_id": "jky_281841",
-          "draw": 4,
-          "number": 1,
-          "lbs": 142,
-          "ofr": "100",
+          "trainer": "Stuart Williams",
+          "trainer_id": "trn_76887",
+          "jockey": "Marco Ghiani",
+          "jockey_id": "jky_294903",
+          "draw": 10,
+          "number": 9,
+          "lbs": 133,
+          "ofr": "91",
           "last_run": 23,
-          "form": "55-392",
-          "headgear": "p",
-          "_stored_at": "2026-06-29T11:41:34.656797+00:00"
+          "form": "014-25",
+          "headgear": "",
+          "_stored_at": "2026-06-29T11:41:34.809355+00:00"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
       "favourite_course": {
         "value": "Windsor",
         "runs": 1
@@ -788,7 +650,7 @@
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
         "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
         "Limited stored profile data"
@@ -799,7 +661,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 2",
-        "latest_pulse_score": 79,
+        "latest_pulse_score": 81,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -846,16 +708,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 78,
+      "latest_pulse_score": 75,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Race class strength +6",
-        "Trainer bonus +2",
-        "Stable in form +2 (2/8 last 14 days)",
-        "Jockey bonus +3",
-        "Jockey flying +4 (4/6 last 14 days)"
+        "Trainer bonus +3",
+        "Stable in form +2 (2/4 last 14 days)",
+        "Jockey bonus +3"
       ],
       "runs": [
         {
@@ -912,7 +773,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 62,
+      "horse_intelligence_score": 61,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -929,7 +790,136 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 2",
-        "latest_pulse_score": 78,
+        "latest_pulse_score": 75,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Invictus Gold",
+      "horse_id": "hrs_39961537",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Windsor",
+      "latest_time": "7:00",
+      "latest_race": "Fitzdares Sprint Series Handicap",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Tom Clover",
+      "latest_jockey": "Tom Marquand",
+      "latest_draw": 4,
+      "latest_weight_lbs": 142,
+      "official_rating": "100",
+      "recent_form": "55-392",
+      "last_run_days": 23,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Windsor": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Tom Clover": 1
+      },
+      "jockeys_seen": {
+        "Tom Marquand": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 74,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +6",
+        "Trainer bonus +2",
+        "Jockey bonus +3"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988054",
+          "course": "Windsor",
+          "date": "2026-06-29",
+          "off_time": "7:00",
+          "off_dt": "2026-06-29T19:00:00+01:00",
+          "race_name": "Fitzdares Sprint Series Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Invictus Gold",
+          "horse_id": "hrs_39961537",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Tom Clover",
+          "trainer_id": "trn_294885",
+          "jockey": "Tom Marquand",
+          "jockey_id": "jky_281841",
+          "draw": 4,
+          "number": 1,
+          "lbs": 142,
+          "ofr": "100",
+          "last_run": 23,
+          "form": "55-392",
+          "headgear": "p",
+          "_stored_at": "2026-06-29T11:41:34.656797+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Windsor",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 60,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Windsor",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 74,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -976,16 +966,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 74,
+      "latest_pulse_score": 71,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Helpful draw",
         "Race class strength +6",
-        "Trainer bonus +1",
-        "Stable flying +4 (7/14 last 14 days)",
+        "Trainer bonus +2",
         "Jockey bonus +2",
-        "Jockey in form +2 (2/4 last 14 days)"
+        "Jockey in form +2 (2/8 last 14 days)"
       ],
       "runs": [
         {
@@ -1044,7 +1033,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 60,
+      "horse_intelligence_score": 59,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1061,264 +1050,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 2",
-        "latest_pulse_score": 74,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Cindy Lou Who",
-      "horse_id": "hrs_40819625",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Windsor",
-      "latest_time": "7:00",
-      "latest_race": "Fitzdares Sprint Series Handicap",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Tony Carroll",
-      "latest_jockey": "William Carson",
-      "latest_draw": 11,
-      "latest_weight_lbs": 134,
-      "official_rating": "92",
-      "recent_form": "13-299",
-      "last_run_days": 23,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Windsor": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Tony Carroll": 1
-      },
-      "jockeys_seen": {
-        "William Carson": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 67,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +6",
-        "Trainer bonus +1",
-        "Stable flying +4 (4/8 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988054",
-          "course": "Windsor",
-          "date": "2026-06-29",
-          "off_time": "7:00",
-          "off_dt": "2026-06-29T19:00:00+01:00",
-          "race_name": "Fitzdares Sprint Series Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Cindy Lou Who",
-          "horse_id": "hrs_40819625",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Tony Carroll",
-          "trainer_id": "trn_87426",
-          "jockey": "William Carson",
-          "jockey_id": "jky_254646",
-          "draw": 11,
-          "number": 7,
-          "lbs": 134,
-          "ofr": "92",
-          "last_run": 23,
-          "form": "13-299",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:34.787143+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Windsor",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 2",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 57,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Windsor",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 2",
-        "latest_pulse_score": 67,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Baldomero",
-      "horse_id": "hrs_22897546",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Windsor",
-      "latest_time": "7:00",
-      "latest_race": "Fitzdares Sprint Series Handicap",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Michael Appleby",
-      "latest_jockey": "Conor Whiteley(5)",
-      "latest_draw": 6,
-      "latest_weight_lbs": 127,
-      "official_rating": "85",
-      "recent_form": "450637",
-      "last_run_days": 16,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Windsor": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Michael Appleby": 1
-      },
-      "jockeys_seen": {
-        "Conor Whiteley(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 64,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +6",
-        "Trainer bonus +1",
-        "Stable flying +4 (10/15 last 14 days)",
-        "Jockey bonus +3",
-        "Jockey flying +4 (7/9 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988054",
-          "course": "Windsor",
-          "date": "2026-06-29",
-          "off_time": "7:00",
-          "off_dt": "2026-06-29T19:00:00+01:00",
-          "race_name": "Fitzdares Sprint Series Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Baldomero",
-          "horse_id": "hrs_22897546",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Michael Appleby",
-          "trainer_id": "trn_93267",
-          "jockey": "Conor Whiteley(5)",
-          "jockey_id": "jky_310359",
-          "draw": 6,
-          "number": 11,
-          "lbs": 127,
-          "ofr": "85",
-          "last_run": 16,
-          "form": "450637",
-          "headgear": "p",
-          "_stored_at": "2026-06-29T11:41:34.853555+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Windsor",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 2",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Windsor",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 2",
-        "latest_pulse_score": 64,
+        "latest_pulse_score": 71,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1365,12 +1097,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 61,
+      "latest_pulse_score": 65,
       "latest_notes": [
         "Positive recent form",
         "Race class strength +6",
-        "Trainer bonus +2",
-        "Stable flying +4 (14/16 last 14 days)"
+        "Trainer bonus +3",
+        "Stable in form +2 (2/6 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey in form +2 (2/4 last 14 days)"
       ],
       "runs": [
         {
@@ -1429,12 +1163,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
         "Limited stored profile data"
@@ -1445,17 +1180,17 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 2",
-        "latest_pulse_score": 61,
+        "latest_pulse_score": 65,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Rydale Frosty",
-      "horse_id": "hrs_53504276",
-      "age": 3,
-      "sex": "gelding",
+      "horse": "Cindy Lou Who",
+      "horse_id": "hrs_40819625",
+      "age": 4,
+      "sex": "filly",
       "latest_course": "Windsor",
       "latest_time": "7:00",
       "latest_race": "Fitzdares Sprint Series Handicap",
@@ -1464,13 +1199,13 @@
       "latest_class": "Class 2",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "David Simcock",
-      "latest_jockey": "Harry Davies",
-      "latest_draw": 1,
-      "latest_weight_lbs": 127,
+      "latest_trainer": "Tony Carroll",
+      "latest_jockey": "William Carson",
+      "latest_draw": 11,
+      "latest_weight_lbs": 134,
       "official_rating": "92",
-      "recent_form": "4646-5",
-      "last_run_days": 58,
+      "recent_form": "13-299",
+      "last_run_days": 23,
       "profile_runs": 1,
       "courses_seen": {
         "Windsor": 1
@@ -1485,21 +1220,19 @@
         "Class 2": 1
       },
       "trainers_seen": {
-        "David Simcock": 1
+        "Tony Carroll": 1
       },
       "jockeys_seen": {
-        "Harry Davies": 1
+        "William Carson": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 58,
+      "latest_pulse_score": 62,
       "latest_notes": [
-        "Weak recent form",
+        "Positive recent form",
         "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +6",
-        "Stable flying +4 (7/7 last 14 days)",
-        "Jockey bonus +2"
+        "Ideal layoff profile +2",
+        "Race class strength +6"
       ],
       "runs": [
         {
@@ -1516,27 +1249,25 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 10,
-          "horse": "Rydale Frosty",
-          "horse_id": "hrs_53504276",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "David Simcock",
-          "trainer_id": "trn_145287",
-          "jockey": "Harry Davies",
-          "jockey_id": "jky_304524",
-          "draw": 1,
-          "number": 10,
-          "lbs": 127,
+          "horse": "Cindy Lou Who",
+          "horse_id": "hrs_40819625",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Tony Carroll",
+          "trainer_id": "trn_87426",
+          "jockey": "William Carson",
+          "jockey_id": "jky_254646",
+          "draw": 11,
+          "number": 7,
+          "lbs": 134,
           "ofr": "92",
-          "last_run": 58,
-          "form": "4646-5",
+          "last_run": 23,
+          "form": "13-299",
           "headgear": "",
-          "_stored_at": "2026-06-29T11:41:34.831382+00:00"
+          "_stored_at": "2026-06-29T11:41:34.787143+00:00"
         }
       ],
-      "profile_notes": [
-        "Low draw today"
-      ],
+      "profile_notes": [],
       "favourite_course": {
         "value": "Windsor",
         "runs": 1
@@ -1558,7 +1289,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 53,
+      "horse_intelligence_score": 55,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1574,7 +1305,134 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 2",
-        "latest_pulse_score": 58,
+        "latest_pulse_score": 62,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Baldomero",
+      "horse_id": "hrs_22897546",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Windsor",
+      "latest_time": "7:00",
+      "latest_race": "Fitzdares Sprint Series Handicap",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Michael Appleby",
+      "latest_jockey": "Conor Whiteley(5)",
+      "latest_draw": 6,
+      "latest_weight_lbs": 127,
+      "official_rating": "85",
+      "recent_form": "450637",
+      "last_run_days": 16,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Windsor": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Michael Appleby": 1
+      },
+      "jockeys_seen": {
+        "Conor Whiteley(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 55,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +6",
+        "Trainer bonus +1",
+        "Stable in form +2 (1/4 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988054",
+          "course": "Windsor",
+          "date": "2026-06-29",
+          "off_time": "7:00",
+          "off_dt": "2026-06-29T19:00:00+01:00",
+          "race_name": "Fitzdares Sprint Series Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Baldomero",
+          "horse_id": "hrs_22897546",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Michael Appleby",
+          "trainer_id": "trn_93267",
+          "jockey": "Conor Whiteley(5)",
+          "jockey_id": "jky_310359",
+          "draw": 6,
+          "number": 11,
+          "lbs": 127,
+          "ofr": "85",
+          "last_run": 16,
+          "form": "450637",
+          "headgear": "p",
+          "_stored_at": "2026-06-29T11:41:34.853555+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Windsor",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Windsor",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 55,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1621,14 +1479,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 55,
+      "latest_pulse_score": 56,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
         "Helpful draw",
         "Race class strength +6",
         "Trainer bonus +1",
-        "Stable flying +4 (3/8 last 14 days)"
+        "Stable in form +2 (1/4 last 14 days)",
+        "Jockey bonus +1",
+        "Jockey in form +2 (2/2 last 14 days)"
       ],
       "runs": [
         {
@@ -1701,16 +1561,16 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 2",
-        "latest_pulse_score": 55,
+        "latest_pulse_score": 56,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Divine Libra",
-      "horse_id": "hrs_32499936",
-      "age": 6,
+      "horse": "Rydale Frosty",
+      "horse_id": "hrs_53504276",
+      "age": 3,
       "sex": "gelding",
       "latest_course": "Windsor",
       "latest_time": "7:00",
@@ -1720,13 +1580,13 @@
       "latest_class": "Class 2",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Charles Hills",
-      "latest_jockey": "Finley Marsh",
-      "latest_draw": 3,
-      "latest_weight_lbs": 133,
-      "official_rating": "91",
-      "recent_form": "462-88",
-      "last_run_days": 54,
+      "latest_trainer": "David Simcock",
+      "latest_jockey": "Harry Davies",
+      "latest_draw": 1,
+      "latest_weight_lbs": 127,
+      "official_rating": "92",
+      "recent_form": "4646-5",
+      "last_run_days": 58,
       "profile_runs": 1,
       "courses_seen": {
         "Windsor": 1
@@ -1741,21 +1601,21 @@
         "Class 2": 1
       },
       "trainers_seen": {
-        "Charles Hills": 1
+        "David Simcock": 1
       },
       "jockeys_seen": {
-        "Finley Marsh": 1
+        "Harry Davies": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 23,
+      "latest_pulse_score": 55,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
         "Helpful draw",
-        "Non-runner risk",
         "Race class strength +6",
-        "Jockey bonus +1"
+        "Trainer bonus +1",
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -1772,22 +1632,22 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 10,
-          "horse": "Divine Libra",
-          "horse_id": "hrs_32499936",
-          "age": 6,
+          "horse": "Rydale Frosty",
+          "horse_id": "hrs_53504276",
+          "age": 3,
           "sex": "gelding",
-          "trainer": "Charles Hills",
-          "trainer_id": "trn_230652",
-          "jockey": "Finley Marsh",
-          "jockey_id": "jky_287355",
-          "draw": 3,
-          "number": null,
-          "lbs": 133,
-          "ofr": "91",
-          "last_run": 54,
-          "form": "462-88",
+          "trainer": "David Simcock",
+          "trainer_id": "trn_145287",
+          "jockey": "Harry Davies",
+          "jockey_id": "jky_304524",
+          "draw": 1,
+          "number": 10,
+          "lbs": 127,
+          "ofr": "92",
+          "last_run": 58,
+          "form": "4646-5",
           "headgear": "",
-          "_stored_at": "2026-06-29T11:41:34.877057+00:00"
+          "_stored_at": "2026-06-29T11:41:34.831382+00:00"
         }
       ],
       "profile_notes": [
@@ -1814,7 +1674,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 37,
+      "horse_intelligence_score": 52,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1822,7 +1682,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1831,7 +1690,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 2",
-        "latest_pulse_score": 23,
+        "latest_pulse_score": 55,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1839,8 +1698,7 @@
     }
   ],
   "notes": [
-    "King Of Light is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "Regal Envoy is flagged as a possible dark horse."
+    "Regal Envoy is the top-rated Pulse IQ runner.",
+    "King Of Light is flagged as a possible dark horse."
   ]
 }

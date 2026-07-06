@@ -5,7 +5,7 @@
   "time": "2:33",
   "race_name": "Coolmore Stud Blackbeard Tipperary Stakes (Listed)",
   "field_size": 10,
-  "average_intelligence": 56.6,
+  "average_intelligence": 55.5,
   "top_score": 64,
   "second_score": 63,
   "gap": 1,
@@ -1567,8 +1567,7 @@
         "5.0": 1
       },
       "goings_seen": {
-        "Good To Firm": 1,
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {
         "Class 1": 1
@@ -1581,11 +1580,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 49,
+      "latest_pulse_score": 19,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
+        "Non-runner risk",
         "Stable in form +2 (1/1 last 14 days)"
       ],
       "runs": [
@@ -1600,9 +1600,9 @@
           "distance_f": 6.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 8,
           "horse": "Arrowstock",
           "horse_id": "hrs_63033964",
           "age": 2,
@@ -1612,13 +1612,13 @@
           "jockey": "Nathan Crosse",
           "jockey_id": "jky_288798",
           "draw": 9,
-          "number": 6,
+          "number": null,
           "lbs": 123,
           "ofr": "-",
           "last_run": 24,
           "form": "6",
           "headgear": "",
-          "_stored_at": "2026-06-30T23:10:48.334729+00:00"
+          "_stored_at": "2026-07-01T13:17:56.558541+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1663,8 +1663,8 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
+        "value": "Good",
+        "runs": 2
       },
       "favourite_class": {
         "value": "Class 1",
@@ -1672,17 +1672,18 @@
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 55,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 64,
-      "horse_intelligence_score": 41,
+      "suitability_score": 72,
+      "horse_intelligence_score": 30,
       "profile_strengths": [
+        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1691,7 +1692,7 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good",
         "latest_class": "Class 1",
-        "latest_pulse_score": 49,
+        "latest_pulse_score": 19,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2

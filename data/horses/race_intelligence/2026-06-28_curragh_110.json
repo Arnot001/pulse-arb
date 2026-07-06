@@ -5,11 +5,11 @@
   "time": "1:10",
   "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
   "field_size": 14,
-  "average_intelligence": 43.57,
-  "top_score": 52,
-  "second_score": 49,
-  "gap": 3,
-  "confidence_score": 44,
+  "average_intelligence": 24.0,
+  "top_score": 24,
+  "second_score": 24,
+  "gap": 0,
+  "confidence_score": 19,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -51,15 +51,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 62,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Trainer bonus +1",
-      "Jockey bonus +1",
-      "Historical winner +3"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -112,13 +105,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 52,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -127,15 +121,15 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 62,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Ibelieveicanfly",
-    "horse_id": "hrs_65101428",
+    "horse": "Alpine Wedding",
+    "horse_id": "hrs_65101365",
     "age": 2,
     "sex": "filly",
     "latest_course": "Curragh",
@@ -146,12 +140,12 @@
     "latest_class": "",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "A P O'Brien",
-    "latest_jockey": "Wayne Lordan",
-    "latest_draw": 1,
+    "latest_trainer": "P Twomey",
+    "latest_jockey": "NON-RUNNER",
+    "latest_draw": 10,
     "latest_weight_lbs": 128,
     "official_rating": "-",
-    "recent_form": "4",
+    "recent_form": "5",
     "last_run_days": 24,
     "profile_runs": 1,
     "courses_seen": {
@@ -165,20 +159,15 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "A P O'Brien": 1
+      "P Twomey": 1
     },
     "jockeys_seen": {
-      "Wayne Lordan": 1
+      "NON-RUNNER": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 55,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Trainer bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -194,144 +183,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 13,
-        "horse": "Ibelieveicanfly",
-        "horse_id": "hrs_65101428",
+        "horse": "Alpine Wedding",
+        "horse_id": "hrs_65101365",
         "age": 2,
         "sex": "filly",
-        "trainer": "A P O'Brien",
-        "trainer_id": "trn_71802",
-        "jockey": "Wayne Lordan",
-        "jockey_id": "jky_229806",
-        "draw": 1,
-        "number": 7,
+        "trainer": "P Twomey",
+        "trainer_id": "trn_238923",
+        "jockey": "NON-RUNNER",
+        "jockey_id": "jky_224913",
+        "draw": 10,
+        "number": null,
         "lbs": 128,
         "ofr": "-",
         "last_run": 24,
-        "form": "4",
+        "form": "5",
         "headgear": "",
-        "_stored_at": "2026-06-28T12:43:03.916562+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ],
-    "favourite_course": {
-      "value": "Curragh",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 7.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 49,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Curragh",
-      "latest_distance_f": 7.0,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 55,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Exchange Student",
-    "horse_id": "hrs_65005409",
-    "age": 2,
-    "sex": "filly",
-    "latest_course": "Curragh",
-    "latest_time": "1:10",
-    "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-    "latest_date": "2026-06-28",
-    "latest_distance_f": 7.0,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "J A Stack",
-    "latest_jockey": "Andrew Slattery",
-    "latest_draw": 6,
-    "latest_weight_lbs": 128,
-    "official_rating": "-",
-    "recent_form": "7",
-    "last_run_days": 28,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Curragh": 1
-    },
-    "distances_seen": {
-      "7.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "J A Stack": 1
-    },
-    "jockeys_seen": {
-      "Andrew Slattery": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 50,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Trainer bonus +1",
-      "Jockey bonus +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12006644",
-        "course": "Curragh",
-        "date": "2026-06-28",
-        "off_time": "1:10",
-        "off_dt": "2026-06-28T13:10:00+01:00",
-        "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-        "distance_f": 7.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 13,
-        "horse": "Exchange Student",
-        "horse_id": "hrs_65005409",
-        "age": 2,
-        "sex": "filly",
-        "trainer": "J A Stack",
-        "trainer_id": "trn_297531",
-        "jockey": "Andrew Slattery",
-        "jockey_id": "jky_291090",
-        "draw": 6,
-        "number": 6,
-        "lbs": 128,
-        "ofr": "-",
-        "last_run": 28,
-        "form": "7",
-        "headgear": "",
-        "_stored_at": "2026-06-28T12:43:03.899459+00:00"
+        "_stored_at": "2026-06-28T12:43:04.050118+00:00"
       }
     ],
     "profile_notes": [],
@@ -353,13 +220,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 46,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -368,7 +236,122 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 50,
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Alreem",
+    "horse_id": "hrs_66198734",
+    "age": 2,
+    "sex": "filly",
+    "latest_course": "Curragh",
+    "latest_time": "1:10",
+    "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+    "latest_date": "2026-06-28",
+    "latest_distance_f": 7.0,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Donnacha Aidan O'Brien",
+    "latest_jockey": "Chris Hayes",
+    "latest_draw": 7,
+    "latest_weight_lbs": 128,
+    "official_rating": "-",
+    "recent_form": "",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Curragh": 1
+    },
+    "distances_seen": {
+      "7.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Donnacha Aidan O'Brien": 1
+    },
+    "jockeys_seen": {
+      "Chris Hayes": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12006644",
+        "course": "Curragh",
+        "date": "2026-06-28",
+        "off_time": "1:10",
+        "off_dt": "2026-06-28T13:10:00+01:00",
+        "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+        "distance_f": 7.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 13,
+        "horse": "Alreem",
+        "horse_id": "hrs_66198734",
+        "age": 2,
+        "sex": "filly",
+        "trainer": "Donnacha Aidan O'Brien",
+        "trainer_id": "trn_331254",
+        "jockey": "Chris Hayes",
+        "jockey_id": "jky_250446",
+        "draw": 7,
+        "number": 3,
+        "lbs": 128,
+        "ofr": "-",
+        "last_run": null,
+        "form": "",
+        "headgear": "",
+        "_stored_at": "2026-06-28T12:43:03.849153+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Curragh",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 7.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Curragh",
+      "latest_distance_f": 7.0,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -414,15 +397,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 62,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +1",
-        "Jockey bonus +1",
-        "Historical winner +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -475,13 +451,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -490,7 +467,582 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 62,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Alpine Wedding",
+      "horse_id": "hrs_65101365",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Curragh",
+      "latest_time": "1:10",
+      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+      "latest_date": "2026-06-28",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "P Twomey",
+      "latest_jockey": "NON-RUNNER",
+      "latest_draw": 10,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "5",
+      "last_run_days": 24,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Curragh": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "P Twomey": 1
+      },
+      "jockeys_seen": {
+        "NON-RUNNER": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006644",
+          "course": "Curragh",
+          "date": "2026-06-28",
+          "off_time": "1:10",
+          "off_dt": "2026-06-28T13:10:00+01:00",
+          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Alpine Wedding",
+          "horse_id": "hrs_65101365",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "P Twomey",
+          "trainer_id": "trn_238923",
+          "jockey": "NON-RUNNER",
+          "jockey_id": "jky_224913",
+          "draw": 10,
+          "number": null,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 24,
+          "form": "5",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:43:04.050118+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Alreem",
+      "horse_id": "hrs_66198734",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Curragh",
+      "latest_time": "1:10",
+      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+      "latest_date": "2026-06-28",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Donnacha Aidan O'Brien",
+      "latest_jockey": "Chris Hayes",
+      "latest_draw": 7,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Curragh": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Donnacha Aidan O'Brien": 1
+      },
+      "jockeys_seen": {
+        "Chris Hayes": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006644",
+          "course": "Curragh",
+          "date": "2026-06-28",
+          "off_time": "1:10",
+          "off_dt": "2026-06-28T13:10:00+01:00",
+          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Alreem",
+          "horse_id": "hrs_66198734",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Donnacha Aidan O'Brien",
+          "trainer_id": "trn_331254",
+          "jockey": "Chris Hayes",
+          "jockey_id": "jky_250446",
+          "draw": 7,
+          "number": 3,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:43:03.849153+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Endless Night",
+      "horse_id": "hrs_65973313",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Curragh",
+      "latest_time": "1:10",
+      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+      "latest_date": "2026-06-28",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "J A Stack",
+      "latest_jockey": "Seamie Heffernan",
+      "latest_draw": 9,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Curragh": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "J A Stack": 1
+      },
+      "jockeys_seen": {
+        "Seamie Heffernan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006644",
+          "course": "Curragh",
+          "date": "2026-06-28",
+          "off_time": "1:10",
+          "off_dt": "2026-06-28T13:10:00+01:00",
+          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Endless Night",
+          "horse_id": "hrs_65973313",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "J A Stack",
+          "trainer_id": "trn_297531",
+          "jockey": "Seamie Heffernan",
+          "jockey_id": "jky_22815",
+          "draw": 9,
+          "number": 4,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:43:03.865923+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Exceptionally",
+      "horse_id": "hrs_66198741",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Curragh",
+      "latest_time": "1:10",
+      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+      "latest_date": "2026-06-28",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "A P O'Brien",
+      "latest_jockey": "Jack Cleary(5)",
+      "latest_draw": 4,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Curragh": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "A P O'Brien": 1
+      },
+      "jockeys_seen": {
+        "Jack Cleary(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006644",
+          "course": "Curragh",
+          "date": "2026-06-28",
+          "off_time": "1:10",
+          "off_dt": "2026-06-28T13:10:00+01:00",
+          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Exceptionally",
+          "horse_id": "hrs_66198741",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "A P O'Brien",
+          "trainer_id": "trn_71802",
+          "jockey": "Jack Cleary(5)",
+          "jockey_id": "jky_301107",
+          "draw": 4,
+          "number": 5,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:43:03.882625+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Exchange Student",
+      "horse_id": "hrs_65005409",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Curragh",
+      "latest_time": "1:10",
+      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+      "latest_date": "2026-06-28",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "J A Stack",
+      "latest_jockey": "Andrew Slattery",
+      "latest_draw": 6,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "7",
+      "last_run_days": 28,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Curragh": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "J A Stack": 1
+      },
+      "jockeys_seen": {
+        "Andrew Slattery": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006644",
+          "course": "Curragh",
+          "date": "2026-06-28",
+          "off_time": "1:10",
+          "off_dt": "2026-06-28T13:10:00+01:00",
+          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Exchange Student",
+          "horse_id": "hrs_65005409",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "J A Stack",
+          "trainer_id": "trn_297531",
+          "jockey": "Andrew Slattery",
+          "jockey_id": "jky_291090",
+          "draw": 6,
+          "number": 6,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 28,
+          "form": "7",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:43:03.899459+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -535,13 +1087,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -596,13 +1143,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 49,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -611,366 +1159,7 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 55,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Exchange Student",
-      "horse_id": "hrs_65005409",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Curragh",
-      "latest_time": "1:10",
-      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-      "latest_date": "2026-06-28",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "J A Stack",
-      "latest_jockey": "Andrew Slattery",
-      "latest_draw": 6,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "7",
-      "last_run_days": 28,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Curragh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "J A Stack": 1
-      },
-      "jockeys_seen": {
-        "Andrew Slattery": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +1",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006644",
-          "course": "Curragh",
-          "date": "2026-06-28",
-          "off_time": "1:10",
-          "off_dt": "2026-06-28T13:10:00+01:00",
-          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Exchange Student",
-          "horse_id": "hrs_65005409",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "J A Stack",
-          "trainer_id": "trn_297531",
-          "jockey": "Andrew Slattery",
-          "jockey_id": "jky_291090",
-          "draw": 6,
-          "number": 6,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 28,
-          "form": "7",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:43:03.899459+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 50,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Littlepacer",
-      "horse_id": "hrs_65287152",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Curragh",
-      "latest_time": "1:10",
-      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-      "latest_date": "2026-06-28",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "J P Murtagh",
-      "latest_jockey": "Ben Coen",
-      "latest_draw": 3,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "8",
-      "last_run_days": 24,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Curragh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "J P Murtagh": 1
-      },
-      "jockeys_seen": {
-        "Ben Coen": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006644",
-          "course": "Curragh",
-          "date": "2026-06-28",
-          "off_time": "1:10",
-          "off_dt": "2026-06-28T13:10:00+01:00",
-          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Littlepacer",
-          "horse_id": "hrs_65287152",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "J P Murtagh",
-          "trainer_id": "trn_253620",
-          "jockey": "Ben Coen",
-          "jockey_id": "jky_291093",
-          "draw": 3,
-          "number": 9,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 24,
-          "form": "8",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:43:03.950942+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 50,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Livenka",
-      "horse_id": "hrs_64102360",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Curragh",
-      "latest_time": "1:10",
-      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-      "latest_date": "2026-06-28",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "G M Lyons",
-      "latest_jockey": "Colin Keane",
-      "latest_draw": 13,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "3",
-      "last_run_days": 62,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Curragh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "G M Lyons": 1
-      },
-      "jockeys_seen": {
-        "Colin Keane": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 47,
-      "latest_notes": [
-        "Positive recent form",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006644",
-          "course": "Curragh",
-          "date": "2026-06-28",
-          "off_time": "1:10",
-          "off_dt": "2026-06-28T13:10:00+01:00",
-          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Livenka",
-          "horse_id": "hrs_64102360",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "G M Lyons",
-          "trainer_id": "trn_77103",
-          "jockey": "Colin Keane",
-          "jockey_id": "jky_269877",
-          "draw": 13,
-          "number": 10,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 62,
-          "form": "3",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:43:03.967675+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 47,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1015,10 +1204,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1073,13 +1260,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 44,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1088,15 +1276,15 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Exceptionally",
-      "horse_id": "hrs_66198741",
+      "horse": "Littlepacer",
+      "horse_id": "hrs_65287152",
       "age": 2,
       "sex": "filly",
       "latest_course": "Curragh",
@@ -1107,13 +1295,13 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "A P O'Brien",
-      "latest_jockey": "Jack Cleary(5)",
-      "latest_draw": 4,
+      "latest_trainer": "J P Murtagh",
+      "latest_jockey": "Ben Coen",
+      "latest_draw": 3,
       "latest_weight_lbs": 128,
       "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
+      "recent_form": "8",
+      "last_run_days": 24,
       "profile_runs": 1,
       "courses_seen": {
         "Curragh": 1
@@ -1126,248 +1314,14 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "A P O'Brien": 1
+        "J P Murtagh": 1
       },
       "jockeys_seen": {
-        "Jack Cleary(5)": 1
+        "Ben Coen": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 43,
-      "latest_notes": [
-        "Helpful draw",
-        "Trainer bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006644",
-          "course": "Curragh",
-          "date": "2026-06-28",
-          "off_time": "1:10",
-          "off_dt": "2026-06-28T13:10:00+01:00",
-          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Exceptionally",
-          "horse_id": "hrs_66198741",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "A P O'Brien",
-          "trainer_id": "trn_71802",
-          "jockey": "Jack Cleary(5)",
-          "jockey_id": "jky_301107",
-          "draw": 4,
-          "number": 5,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:43:03.882625+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 43,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 43,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Samnina",
-      "horse_id": "hrs_66198762",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Curragh",
-      "latest_time": "1:10",
-      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-      "latest_date": "2026-06-28",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mrs John Harrington",
-      "latest_jockey": "Shane Foley",
-      "latest_draw": 8,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Curragh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Mrs John Harrington": 1
-      },
-      "jockeys_seen": {
-        "Shane Foley": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 42,
-      "latest_notes": [
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006644",
-          "course": "Curragh",
-          "date": "2026-06-28",
-          "off_time": "1:10",
-          "off_dt": "2026-06-28T13:10:00+01:00",
-          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Samnina",
-          "horse_id": "hrs_66198762",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Mrs John Harrington",
-          "trainer_id": "trn_11565",
-          "jockey": "Shane Foley",
-          "jockey_id": "jky_259047",
-          "draw": 8,
-          "number": 13,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:43:04.016724+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 43,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 42,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Alreem",
-      "horse_id": "hrs_66198734",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Curragh",
-      "latest_time": "1:10",
-      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-      "latest_date": "2026-06-28",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Donnacha Aidan O'Brien",
-      "latest_jockey": "Chris Hayes",
-      "latest_draw": 7,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Curragh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Donnacha Aidan O'Brien": 1
-      },
-      "jockeys_seen": {
-        "Chris Hayes": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 40,
+      "latest_pulse_score": null,
       "latest_notes": [],
       "runs": [
         {
@@ -1384,25 +1338,27 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 13,
-          "horse": "Alreem",
-          "horse_id": "hrs_66198734",
+          "horse": "Littlepacer",
+          "horse_id": "hrs_65287152",
           "age": 2,
           "sex": "filly",
-          "trainer": "Donnacha Aidan O'Brien",
-          "trainer_id": "trn_331254",
-          "jockey": "Chris Hayes",
-          "jockey_id": "jky_250446",
-          "draw": 7,
-          "number": 3,
+          "trainer": "J P Murtagh",
+          "trainer_id": "trn_253620",
+          "jockey": "Ben Coen",
+          "jockey_id": "jky_291093",
+          "draw": 3,
+          "number": 9,
           "lbs": 128,
           "ofr": "-",
-          "last_run": null,
-          "form": "",
+          "last_run": 24,
+          "form": "8",
           "headgear": "",
-          "_stored_at": "2026-06-28T12:43:03.849153+00:00"
+          "_stored_at": "2026-06-28T12:43:03.950942+00:00"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Low draw today"
+      ],
       "favourite_course": {
         "value": "Curragh",
         "runs": 1
@@ -1421,7 +1377,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 42,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1437,15 +1393,15 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 40,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Endless Night",
-      "horse_id": "hrs_65973313",
+      "horse": "Livenka",
+      "horse_id": "hrs_64102360",
       "age": 2,
       "sex": "filly",
       "latest_course": "Curragh",
@@ -1456,13 +1412,13 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "J A Stack",
-      "latest_jockey": "Seamie Heffernan",
-      "latest_draw": 9,
+      "latest_trainer": "G M Lyons",
+      "latest_jockey": "Colin Keane",
+      "latest_draw": 13,
       "latest_weight_lbs": 128,
       "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
+      "recent_form": "3",
+      "last_run_days": 62,
       "profile_runs": 1,
       "courses_seen": {
         "Curragh": 1
@@ -1475,17 +1431,15 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "J A Stack": 1
+        "G M Lyons": 1
       },
       "jockeys_seen": {
-        "Seamie Heffernan": 1
+        "Colin Keane": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 41,
-      "latest_notes": [
-        "Trainer bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1501,22 +1455,22 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 13,
-          "horse": "Endless Night",
-          "horse_id": "hrs_65973313",
+          "horse": "Livenka",
+          "horse_id": "hrs_64102360",
           "age": 2,
           "sex": "filly",
-          "trainer": "J A Stack",
-          "trainer_id": "trn_297531",
-          "jockey": "Seamie Heffernan",
-          "jockey_id": "jky_22815",
-          "draw": 9,
-          "number": 4,
+          "trainer": "G M Lyons",
+          "trainer_id": "trn_77103",
+          "jockey": "Colin Keane",
+          "jockey_id": "jky_269877",
+          "draw": 13,
+          "number": 10,
           "lbs": 128,
           "ofr": "-",
-          "last_run": null,
-          "form": "",
+          "last_run": 62,
+          "form": "3",
           "headgear": "",
-          "_stored_at": "2026-06-28T12:43:03.865923+00:00"
+          "_stored_at": "2026-06-28T12:43:03.967675+00:00"
         }
       ],
       "profile_notes": [],
@@ -1538,13 +1492,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 42,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1553,7 +1508,7 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 41,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1598,7 +1553,7 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 40,
+      "latest_pulse_score": null,
       "latest_notes": [],
       "runs": [
         {
@@ -1652,7 +1607,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 42,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1668,123 +1623,7 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 40,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Social Circle",
-      "horse_id": "hrs_66198769",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Curragh",
-      "latest_time": "1:10",
-      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-      "latest_date": "2026-06-28",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Donnacha Aidan O'Brien",
-      "latest_jockey": "Paddy Harnett(5)",
-      "latest_draw": 14,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Curragh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Donnacha Aidan O'Brien": 1
-      },
-      "jockeys_seen": {
-        "Paddy Harnett(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 41,
-      "latest_notes": [
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006644",
-          "course": "Curragh",
-          "date": "2026-06-28",
-          "off_time": "1:10",
-          "off_dt": "2026-06-28T13:10:00+01:00",
-          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Social Circle",
-          "horse_id": "hrs_66198769",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Donnacha Aidan O'Brien",
-          "trainer_id": "trn_331254",
-          "jockey": "Paddy Harnett(5)",
-          "jockey_id": "jky_296208",
-          "draw": 14,
-          "number": 14,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:43:04.033414+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 42,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 41,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1829,10 +1668,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 38,
-      "latest_notes": [
-        "Trainer concern -2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1885,7 +1722,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 41,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1901,15 +1738,15 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 38,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Alpine Wedding",
-      "horse_id": "hrs_65101365",
+      "horse": "Samnina",
+      "horse_id": "hrs_66198762",
       "age": 2,
       "sex": "filly",
       "latest_course": "Curragh",
@@ -1920,13 +1757,13 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "P Twomey",
-      "latest_jockey": "NON-RUNNER",
-      "latest_draw": 10,
+      "latest_trainer": "Mrs John Harrington",
+      "latest_jockey": "Shane Foley",
+      "latest_draw": 8,
       "latest_weight_lbs": 128,
       "official_rating": "-",
-      "recent_form": "5",
-      "last_run_days": 24,
+      "recent_form": "",
+      "last_run_days": null,
       "profile_runs": 1,
       "courses_seen": {
         "Curragh": 1
@@ -1939,21 +1776,15 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "P Twomey": 1
+        "Mrs John Harrington": 1
       },
       "jockeys_seen": {
-        "NON-RUNNER": 1
+        "Shane Foley": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 19,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Non-runner risk",
-        "Trainer bonus +1",
-        "Jockey concern -2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1969,22 +1800,22 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 13,
-          "horse": "Alpine Wedding",
-          "horse_id": "hrs_65101365",
+          "horse": "Samnina",
+          "horse_id": "hrs_66198762",
           "age": 2,
           "sex": "filly",
-          "trainer": "P Twomey",
-          "trainer_id": "trn_238923",
-          "jockey": "NON-RUNNER",
-          "jockey_id": "jky_224913",
-          "draw": 10,
-          "number": null,
+          "trainer": "Mrs John Harrington",
+          "trainer_id": "trn_11565",
+          "jockey": "Shane Foley",
+          "jockey_id": "jky_259047",
+          "draw": 8,
+          "number": 13,
           "lbs": 128,
           "ofr": "-",
-          "last_run": 24,
-          "form": "5",
+          "last_run": null,
+          "form": "",
           "headgear": "",
-          "_stored_at": "2026-06-28T12:43:04.050118+00:00"
+          "_stored_at": "2026-06-28T12:43:04.016724+00:00"
         }
       ],
       "profile_notes": [],
@@ -2006,7 +1837,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 33,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2022,7 +1853,122 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 19,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Social Circle",
+      "horse_id": "hrs_66198769",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Curragh",
+      "latest_time": "1:10",
+      "latest_race": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+      "latest_date": "2026-06-28",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Donnacha Aidan O'Brien",
+      "latest_jockey": "Paddy Harnett(5)",
+      "latest_draw": 14,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Curragh": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Donnacha Aidan O'Brien": 1
+      },
+      "jockeys_seen": {
+        "Paddy Harnett(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006644",
+          "course": "Curragh",
+          "date": "2026-06-28",
+          "off_time": "1:10",
+          "off_dt": "2026-06-28T13:10:00+01:00",
+          "race_name": "GAIN Equine Nutrition Irish European Breeders Fund Fillies Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Social Circle",
+          "horse_id": "hrs_66198769",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Donnacha Aidan O'Brien",
+          "trainer_id": "trn_331254",
+          "jockey": "Paddy Harnett(5)",
+          "jockey_id": "jky_296208",
+          "draw": 14,
+          "number": 14,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:43:04.033414+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Curragh",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -2033,6 +1979,6 @@
     "Alpha is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Exchange Student is flagged as a possible dark horse."
+    "Alreem is flagged as a possible dark horse."
   ]
 }

@@ -5,14 +5,323 @@
   "time": "8:10",
   "race_name": "Dereham Handicap",
   "field_size": 5,
-  "average_intelligence": 53.8,
-  "top_score": 60,
-  "second_score": 57,
-  "gap": 3,
-  "confidence_score": 51,
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 22,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Betelgeuse",
+    "horse_id": "hrs_43892457",
+    "age": 4,
+    "sex": "gelding",
+    "latest_course": "Newmarket (July)",
+    "latest_time": "8:10",
+    "latest_race": "Dereham Handicap",
+    "latest_date": "2026-06-26",
+    "latest_distance_f": 16.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "S Woods",
+    "latest_jockey": "Billy Loughnane",
+    "latest_draw": 1,
+    "latest_weight_lbs": 131,
+    "official_rating": "64",
+    "recent_form": "5-2253",
+    "last_run_days": 8,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Newmarket (July)": 2
+    },
+    "distances_seen": {
+      "16.0": 2
+    },
+    "goings_seen": {
+      "Good To Firm": 2
+    },
+    "classes_seen": {
+      "Class 5": 2
+    },
+    "trainers_seen": {
+      "S Woods": 2
+    },
+    "jockeys_seen": {
+      "Billy Loughnane": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977355",
+        "course": "Newmarket (July)",
+        "date": "2026-06-26",
+        "off_time": "8:10",
+        "off_dt": "2026-06-26T20:10:00+01:00",
+        "race_name": "Dereham Handicap",
+        "distance_f": 16.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Betelgeuse",
+        "horse_id": "hrs_43892457",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "S Woods",
+        "trainer_id": "trn_63747",
+        "jockey": "Billy Loughnane",
+        "jockey_id": "jky_233301",
+        "draw": 1,
+        "number": 4,
+        "lbs": 131,
+        "ofr": "64",
+        "last_run": 8,
+        "form": "5-2253",
+        "headgear": "p",
+        "_stored_at": "2026-06-26T08:14:11.793653+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977355",
+        "course": "Newmarket (July)",
+        "date": "2026-06-26",
+        "off_time": "8:10",
+        "off_dt": "2026-06-26T20:10:00+01:00",
+        "race_name": "Dereham Handicap",
+        "distance_f": 16.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Betelgeuse",
+        "horse_id": "hrs_43892457",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "S Woods",
+        "trainer_id": "trn_63747",
+        "jockey": "Billy Loughnane",
+        "jockey_id": "jky_233301",
+        "draw": 1,
+        "number": 4,
+        "lbs": 131,
+        "ofr": "64",
+        "last_run": 8,
+        "form": "5-2253",
+        "headgear": "p",
+        "_stored_at": "2026-06-28T12:42:25.103765+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Low draw today",
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Newmarket (July)",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 16.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Newmarket (July)",
+      "latest_distance_f": 16.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 5",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "main_threat": {
+    "horse": "Dereham",
+    "horse_id": "hrs_19830643",
+    "age": 10,
+    "sex": "gelding",
+    "latest_course": "Newmarket (July)",
+    "latest_time": "8:10",
+    "latest_race": "Dereham Handicap",
+    "latest_date": "2026-06-26",
+    "latest_distance_f": 16.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "John Berry",
+    "latest_jockey": "Nicola Currie",
+    "latest_draw": 2,
+    "latest_weight_lbs": 122,
+    "official_rating": "55",
+    "recent_form": "123P-4",
+    "last_run_days": 37,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Newmarket (July)": 2
+    },
+    "distances_seen": {
+      "16.0": 2
+    },
+    "goings_seen": {
+      "Good To Firm": 2
+    },
+    "classes_seen": {
+      "Class 5": 2
+    },
+    "trainers_seen": {
+      "John Berry": 2
+    },
+    "jockeys_seen": {
+      "Nicola Currie": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977355",
+        "course": "Newmarket (July)",
+        "date": "2026-06-26",
+        "off_time": "8:10",
+        "off_dt": "2026-06-26T20:10:00+01:00",
+        "race_name": "Dereham Handicap",
+        "distance_f": 16.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Dereham",
+        "horse_id": "hrs_19830643",
+        "age": 10,
+        "sex": "gelding",
+        "trainer": "John Berry",
+        "trainer_id": "trn_84960",
+        "jockey": "Nicola Currie",
+        "jockey_id": "jky_278814",
+        "draw": 2,
+        "number": 5,
+        "lbs": 122,
+        "ofr": "55",
+        "last_run": 37,
+        "form": "123P-4",
+        "headgear": "",
+        "_stored_at": "2026-06-26T08:14:11.804309+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977355",
+        "course": "Newmarket (July)",
+        "date": "2026-06-26",
+        "off_time": "8:10",
+        "off_dt": "2026-06-26T20:10:00+01:00",
+        "race_name": "Dereham Handicap",
+        "distance_f": 16.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Dereham",
+        "horse_id": "hrs_19830643",
+        "age": 10,
+        "sex": "gelding",
+        "trainer": "John Berry",
+        "trainer_id": "trn_84960",
+        "jockey": "Nicola Currie",
+        "jockey_id": "jky_278814",
+        "draw": 2,
+        "number": 5,
+        "lbs": 122,
+        "ofr": "55",
+        "last_run": 37,
+        "form": "123P-4",
+        "headgear": "",
+        "_stored_at": "2026-06-28T12:42:25.118977+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Newmarket (July)",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 16.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Newmarket (July)",
+      "latest_distance_f": 16.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 5",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "dark_horse": {
     "horse": "Now The Eagle",
     "horse_id": "hrs_56872970",
     "age": 4,
@@ -53,14 +362,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 74,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Trainer bonus +3",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -147,15 +450,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 60,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -164,491 +467,13 @@
       "latest_distance_f": 16.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": 74,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
-  },
-  "main_threat": {
-    "horse": "Betelgeuse",
-    "horse_id": "hrs_43892457",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Newmarket (July)",
-    "latest_time": "8:10",
-    "latest_race": "Dereham Handicap",
-    "latest_date": "2026-06-26",
-    "latest_distance_f": 16.0,
-    "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "S Woods",
-    "latest_jockey": "Billy Loughnane",
-    "latest_draw": 1,
-    "latest_weight_lbs": 131,
-    "official_rating": "64",
-    "recent_form": "5-2253",
-    "last_run_days": 8,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Newmarket (July)": 2
-    },
-    "distances_seen": {
-      "16.0": 2
-    },
-    "goings_seen": {
-      "Good To Firm": 2
-    },
-    "classes_seen": {
-      "Class 5": 2
-    },
-    "trainers_seen": {
-      "S Woods": 2
-    },
-    "jockeys_seen": {
-      "Billy Loughnane": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 66,
-    "latest_notes": [
-      "Strong recent form",
-      "Helpful draw",
-      "Trainer bonus +2",
-      "Jockey bonus +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977355",
-        "course": "Newmarket (July)",
-        "date": "2026-06-26",
-        "off_time": "8:10",
-        "off_dt": "2026-06-26T20:10:00+01:00",
-        "race_name": "Dereham Handicap",
-        "distance_f": 16.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Betelgeuse",
-        "horse_id": "hrs_43892457",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "S Woods",
-        "trainer_id": "trn_63747",
-        "jockey": "Billy Loughnane",
-        "jockey_id": "jky_233301",
-        "draw": 1,
-        "number": 4,
-        "lbs": 131,
-        "ofr": "64",
-        "last_run": 8,
-        "form": "5-2253",
-        "headgear": "p",
-        "_stored_at": "2026-06-26T08:14:11.793653+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977355",
-        "course": "Newmarket (July)",
-        "date": "2026-06-26",
-        "off_time": "8:10",
-        "off_dt": "2026-06-26T20:10:00+01:00",
-        "race_name": "Dereham Handicap",
-        "distance_f": 16.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Betelgeuse",
-        "horse_id": "hrs_43892457",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "S Woods",
-        "trainer_id": "trn_63747",
-        "jockey": "Billy Loughnane",
-        "jockey_id": "jky_233301",
-        "draw": 1,
-        "number": 4,
-        "lbs": 131,
-        "ofr": "64",
-        "last_run": 8,
-        "form": "5-2253",
-        "headgear": "p",
-        "_stored_at": "2026-06-28T12:42:25.103765+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Low draw today",
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Newmarket (July)",
-      "runs": 2
-    },
-    "favourite_distance": {
-      "value": 16.0,
-      "runs": 2
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 2
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 57,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Newmarket (July)",
-      "latest_distance_f": 16.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 5",
-      "latest_pulse_score": 66,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
-  },
-  "dark_horse": {
-    "horse": "Betelgeuse",
-    "horse_id": "hrs_43892457",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Newmarket (July)",
-    "latest_time": "8:10",
-    "latest_race": "Dereham Handicap",
-    "latest_date": "2026-06-26",
-    "latest_distance_f": 16.0,
-    "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "S Woods",
-    "latest_jockey": "Billy Loughnane",
-    "latest_draw": 1,
-    "latest_weight_lbs": 131,
-    "official_rating": "64",
-    "recent_form": "5-2253",
-    "last_run_days": 8,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Newmarket (July)": 2
-    },
-    "distances_seen": {
-      "16.0": 2
-    },
-    "goings_seen": {
-      "Good To Firm": 2
-    },
-    "classes_seen": {
-      "Class 5": 2
-    },
-    "trainers_seen": {
-      "S Woods": 2
-    },
-    "jockeys_seen": {
-      "Billy Loughnane": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 66,
-    "latest_notes": [
-      "Strong recent form",
-      "Helpful draw",
-      "Trainer bonus +2",
-      "Jockey bonus +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977355",
-        "course": "Newmarket (July)",
-        "date": "2026-06-26",
-        "off_time": "8:10",
-        "off_dt": "2026-06-26T20:10:00+01:00",
-        "race_name": "Dereham Handicap",
-        "distance_f": 16.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Betelgeuse",
-        "horse_id": "hrs_43892457",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "S Woods",
-        "trainer_id": "trn_63747",
-        "jockey": "Billy Loughnane",
-        "jockey_id": "jky_233301",
-        "draw": 1,
-        "number": 4,
-        "lbs": 131,
-        "ofr": "64",
-        "last_run": 8,
-        "form": "5-2253",
-        "headgear": "p",
-        "_stored_at": "2026-06-26T08:14:11.793653+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977355",
-        "course": "Newmarket (July)",
-        "date": "2026-06-26",
-        "off_time": "8:10",
-        "off_dt": "2026-06-26T20:10:00+01:00",
-        "race_name": "Dereham Handicap",
-        "distance_f": 16.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Betelgeuse",
-        "horse_id": "hrs_43892457",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "S Woods",
-        "trainer_id": "trn_63747",
-        "jockey": "Billy Loughnane",
-        "jockey_id": "jky_233301",
-        "draw": 1,
-        "number": 4,
-        "lbs": 131,
-        "ofr": "64",
-        "last_run": 8,
-        "form": "5-2253",
-        "headgear": "p",
-        "_stored_at": "2026-06-28T12:42:25.103765+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Low draw today",
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Newmarket (July)",
-      "runs": 2
-    },
-    "favourite_distance": {
-      "value": 16.0,
-      "runs": 2
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 2
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 57,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Newmarket (July)",
-      "latest_distance_f": 16.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 5",
-      "latest_pulse_score": 66,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "runners": [
-    {
-      "horse": "Now The Eagle",
-      "horse_id": "hrs_56872970",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Newmarket (July)",
-      "latest_time": "8:10",
-      "latest_race": "Dereham Handicap",
-      "latest_date": "2026-06-26",
-      "latest_distance_f": 16.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Luke Dace",
-      "latest_jockey": "Ryan Kavanagh(5)",
-      "latest_draw": 5,
-      "latest_weight_lbs": 135,
-      "official_rating": "68",
-      "recent_form": "-81227",
-      "last_run_days": 25,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Newmarket (July)": 2
-      },
-      "distances_seen": {
-        "16.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {
-        "Class 5": 2
-      },
-      "trainers_seen": {
-        "Luke Dace": 2
-      },
-      "jockeys_seen": {
-        "Ryan Kavanagh(5)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 74,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +3",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977355",
-          "course": "Newmarket (July)",
-          "date": "2026-06-26",
-          "off_time": "8:10",
-          "off_dt": "2026-06-26T20:10:00+01:00",
-          "race_name": "Dereham Handicap",
-          "distance_f": 16.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Now The Eagle",
-          "horse_id": "hrs_56872970",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Luke Dace",
-          "trainer_id": "trn_108918",
-          "jockey": "Ryan Kavanagh(5)",
-          "jockey_id": "jky_308169",
-          "draw": 5,
-          "number": 2,
-          "lbs": 135,
-          "ofr": "68",
-          "last_run": 25,
-          "form": "-81227",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:11.772661+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977355",
-          "course": "Newmarket (July)",
-          "date": "2026-06-26",
-          "off_time": "8:10",
-          "off_dt": "2026-06-26T20:10:00+01:00",
-          "race_name": "Dereham Handicap",
-          "distance_f": 16.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Now The Eagle",
-          "horse_id": "hrs_56872970",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Luke Dace",
-          "trainer_id": "trn_108918",
-          "jockey": "Ryan Kavanagh(5)",
-          "jockey_id": "jky_308169",
-          "draw": 5,
-          "number": 2,
-          "lbs": 135,
-          "ofr": "68",
-          "last_run": 25,
-          "form": "-81227",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:25.071956+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Newmarket (July)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 16.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 60,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newmarket (July)",
-        "latest_distance_f": 16.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 74,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
     {
       "horse": "Betelgeuse",
       "horse_id": "hrs_43892457",
@@ -690,13 +515,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 66,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -786,15 +606,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 57,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -803,7 +623,7 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": 66,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -850,13 +670,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Jockey bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -945,7 +760,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -953,6 +768,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -961,7 +777,159 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": 60,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Now The Eagle",
+      "horse_id": "hrs_56872970",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Newmarket (July)",
+      "latest_time": "8:10",
+      "latest_race": "Dereham Handicap",
+      "latest_date": "2026-06-26",
+      "latest_distance_f": 16.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Luke Dace",
+      "latest_jockey": "Ryan Kavanagh(5)",
+      "latest_draw": 5,
+      "latest_weight_lbs": 135,
+      "official_rating": "68",
+      "recent_form": "-81227",
+      "last_run_days": 25,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newmarket (July)": 2
+      },
+      "distances_seen": {
+        "16.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "Luke Dace": 2
+      },
+      "jockeys_seen": {
+        "Ryan Kavanagh(5)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977355",
+          "course": "Newmarket (July)",
+          "date": "2026-06-26",
+          "off_time": "8:10",
+          "off_dt": "2026-06-26T20:10:00+01:00",
+          "race_name": "Dereham Handicap",
+          "distance_f": 16.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Now The Eagle",
+          "horse_id": "hrs_56872970",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Luke Dace",
+          "trainer_id": "trn_108918",
+          "jockey": "Ryan Kavanagh(5)",
+          "jockey_id": "jky_308169",
+          "draw": 5,
+          "number": 2,
+          "lbs": 135,
+          "ofr": "68",
+          "last_run": 25,
+          "form": "-81227",
+          "headgear": "",
+          "_stored_at": "2026-06-26T08:14:11.772661+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977355",
+          "course": "Newmarket (July)",
+          "date": "2026-06-26",
+          "off_time": "8:10",
+          "off_dt": "2026-06-26T20:10:00+01:00",
+          "race_name": "Dereham Handicap",
+          "distance_f": 16.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Now The Eagle",
+          "horse_id": "hrs_56872970",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Luke Dace",
+          "trainer_id": "trn_108918",
+          "jockey": "Ryan Kavanagh(5)",
+          "jockey_id": "jky_308169",
+          "draw": 5,
+          "number": 2,
+          "lbs": 135,
+          "ofr": "68",
+          "last_run": 25,
+          "form": "-81227",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:25.071956+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newmarket (July)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 16.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket (July)",
+        "latest_distance_f": 16.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1008,11 +976,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1102,7 +1067,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 51,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1110,6 +1075,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1118,7 +1084,7 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": 54,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1165,13 +1131,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer concern -2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1258,7 +1219,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 47,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1266,6 +1227,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1274,7 +1236,7 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": 45,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1282,8 +1244,9 @@
     }
   ],
   "notes": [
-    "Now The Eagle is the top-rated Pulse IQ runner.",
+    "Betelgeuse is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Betelgeuse is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Now The Eagle is flagged as a possible dark horse."
   ]
 }

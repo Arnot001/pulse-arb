@@ -1,3 +1,4 @@
+import argparse
 import json
 import re
 from datetime import datetime, timedelta, timezone
@@ -8,7 +9,7 @@ import requests
 from app.data_store import append_jsonl
 
 
-URL = "https://www.sportinglife.com/racing/results/yesterday"
+BASE_URL = "https://www.sportinglife.com/racing/results"
 RACECARD_DIR = Path("data/horses/racecards")
 
 
@@ -59,7 +60,6 @@ def load_racecard_runner_lookup():
                     continue
 
                 raw = record.get("raw", {})
-
                 date = raw.get("date")
                 course = normalise(raw.get("course"))
 
@@ -101,17 +101,23 @@ def load_racecard_runner_lookup():
     return lookup
 
 
-def collect_sporting_life_results():
+def get_target(mode):
+    today = datetime.now(timezone.utc).date()
+
+    if mode == "today":
+        return today.isoformat(), BASE_URL
+
+    return (today - timedelta(days=1)).isoformat(), f"{BASE_URL}/yesterday"
+
+
+def collect_sporting_life_results(mode="yesterday"):
     collection_date = datetime.now(timezone.utc).date().isoformat()
-    target_date = (
-        datetime.now(timezone.utc).date()
-        - timedelta(days=1)
-    ).isoformat()
+    target_date, url = get_target(mode)
 
     runner_lookup = load_racecard_runner_lookup()
 
     response = requests.get(
-        URL,
+        url,
         headers={"User-Agent": "Mozilla/5.0"},
         timeout=20,
     )
@@ -236,7 +242,7 @@ def collect_sporting_life_results():
                 "source": "sporting_life",
                 "collection_date": collection_date,
                 "result_date": target_date,
-                "url": URL,
+                "url": url,
                 "raw": {
                     "course": course,
                     "race_time": race_time,
@@ -258,6 +264,8 @@ def collect_sporting_life_results():
 
             saved_races += 1
 
+    print(f"Mode: {mode}")
+    print(f"URL: {url}")
     print(f"Target result date: {target_date}")
     print(f"Sporting Life meetings found: {len(meetings)}")
     print(f"Racecard runner lookup size: {len(runner_lookup)}")
@@ -268,4 +276,15 @@ def collect_sporting_life_results():
 
 
 if __name__ == "__main__":
-    collect_sporting_life_results()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--today",
+        action="store_true",
+        help="Collect same-day results instead of yesterday.",
+    )
+
+    args = parser.parse_args()
+
+    collect_sporting_life_results(
+        mode="today" if args.today else "yesterday"
+    )

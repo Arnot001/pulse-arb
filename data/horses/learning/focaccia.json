@@ -1,70 +1,47 @@
 {
   "date": "2026-07-03",
   "horse": "Focaccia",
-  "pulse_rank": 8,
+  "pulse_rank": 6,
   "winner": true,
   "sp": "7/1",
   "course": "Bellewstown",
   "time": "18:10",
   "top_pick": "Profit Surge",
-  "top_pick_score": 64,
-  "winner_score": 31,
+  "top_pick_score": 67,
+  "winner_score": 48,
   "signals": [
-    {
-      "signal": "Favourite course matched",
-      "reason": "Winner ran at its most common course: Bellewstown"
-    },
-    {
-      "signal": "Favourite distance matched",
-      "reason": "Winner ran at its most common distance: 5.0f"
-    },
-    {
-      "signal": "Favourite going matched",
-      "reason": "Winner ran on its most common going: Good"
-    },
     {
       "signal": "Favourite class matched",
       "reason": "Winner ran at its most common class: "
     },
     {
-      "signal": "Strong suitability profile",
-      "reason": "Suitability Score was 80"
-    },
-    {
-      "signal": "Profile strength existed",
-      "reason": "Today's course matches strongest profile pattern"
-    },
-    {
-      "signal": "Profile strength existed",
-      "reason": "Today's distance matches strongest profile pattern"
-    },
-    {
-      "signal": "Profile strength existed",
-      "reason": "Today's going matches known profile preference"
+      "signal": "Stored history available",
+      "reason": "Profile had 3 stored runs"
     }
   ],
   "profile_snapshot": {
     "average_pulse_score": 0,
-    "latest_pulse_score": 31,
+    "latest_pulse_score": 48,
     "horse_intelligence_score": 38,
-    "suitability_score": 80,
-    "profile_runs": 1,
+    "suitability_score": 54,
+    "profile_runs": 3,
     "favourite_course": {
-      "value": "Bellewstown",
-      "runs": 1
+      "value": "Curragh",
+      "runs": 2
     },
     "favourite_distance": {
-      "value": 5.0,
-      "runs": 1
+      "value": 6.0,
+      "runs": 2
     },
     "favourite_going": {
-      "value": "Good",
-      "runs": 1
+      "value": "Good To Firm",
+      "runs": 2
     },
     "favourite_class": null
   },
   "cautions": [
-    "Low latest Pulse Score",
-    "Limited stored profile data"
+    "Course does not strongly match stored profile",
+    "Distance not yet a clear profile strength",
+    "Going is not clearly proven from stored profile"
   ]
 }
