@@ -2082,3 +2082,124 @@ white-space: nowrap;
     opacity: 0.45;
     cursor: not-allowed;
 }
+
+.pulse-performance-card {
+    overflow: hidden;
+    min-height: 390px;
+    border-color: rgba(255,0,140,.18);
+}
+
+.performance-split-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-top: 18px;
+}
+
+.performance-record-box {
+    position: relative;
+    padding: 18px;
+    border-radius: 18px;
+    background: rgba(5,8,16,.72);
+    border: 1px solid rgba(255,255,255,.08);
+}
+
+.performance-record-box span,
+.performance-mini-row span {
+    display: block;
+    color: #9ea4b5;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.performance-record-box strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.performance-record-box small {
+    display: block;
+    margin-top: 7px;
+    color: #d6d9e6;
+}
+
+.record-positive strong {
+    color: #48f08a;
+    text-shadow: 0 0 16px rgba(72,240,138,.35);
+}
+
+.record-negative strong {
+    color: #ff4a6a;
+    text-shadow: 0 0 16px rgba(255,74,106,.32);
+}
+
+.performance-pulse-line {
+    position: relative;
+    height: 42px;
+    margin: 18px 0 12px;
+    border-radius: 14px;
+    background:
+        linear-gradient(90deg, transparent, rgba(255,0,140,.18), transparent),
+        repeating-linear-gradient(
+            90deg,
+            rgba(255,255,255,.04) 0,
+            rgba(255,255,255,.04) 1px,
+            transparent 1px,
+            transparent 28px
+        );
+    overflow: hidden;
+}
+
+.performance-pulse-line::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20px;
+    height: 2px;
+    background: linear-gradient(90deg, #48f08a, #00e5ff, #ff008c);
+    box-shadow: 0 0 16px rgba(255,0,140,.55);
+}
+
+.performance-pulse-line span {
+    position: absolute;
+    top: 0;
+    left: -80px;
+    width: 80px;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,.9), transparent);
+    animation: pulseScan 3.5s infinite;
+}
+
+@keyframes pulseScan {
+    0% { left: -90px; opacity: 0; }
+    15% { opacity: 1; }
+    100% { left: 110%; opacity: 0; }
+}
+
+.performance-mini-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.performance-mini-row div {
+    background: #090912;
+    border: 1px solid #29293a;
+    border-radius: 14px;
+    padding: 13px;
+}
+
+.performance-mini-row strong {
+    display: block;
+    margin-top: 6px;
+    font-size: 22px;
+}
+
+.performance-button {
+    margin-top: 18px;
+}

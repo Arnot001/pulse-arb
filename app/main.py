@@ -8,7 +8,7 @@ import requests
 import time
 
 from app.modules.performance.profit_engine import simulate_level_stakes
-from app.modules.performance.bet_ledger import load_jsonl, LEDGER_FILE
+from app.modules.performance.bet_ledger import (load_jsonl,LEDGER_FILE,get_verified_official_stats,get_all_settled_stats,get_bankroll_history,)
 from app.modules.race_intelligence.output import (get_race_intelligence_dashboard,)
 from app.modules.strategy.engine import get_strategy_lab_data
 from app.modules.dashboard import get_dashboard_data
@@ -437,6 +437,20 @@ def bet_ledger(request: Request, stake: float = Query(1.0)):
             "today_profit": today_profit,
         },
     )
+
+@app.get("/performance", response_class=HTMLResponse)
+def performance(request: Request):
+    return templates.TemplateResponse(
+        request,
+        "performance.html",
+        {
+            "request": request,
+            "active_page": "performance",
+            "official_stats": get_verified_official_stats(),
+            "all_stats": get_all_settled_stats(),
+            "bankroll_history": get_bankroll_history(),
+        },
+    )
     
 @app.get("/horses/performance", response_class=HTMLResponse)
 def horses_performance(request: Request):
@@ -862,6 +876,8 @@ def pulse_home(request: Request):
         {
             "active_page": "home",
             **dashboard,
+            "official_stats": get_verified_official_stats(),
+            "all_settled_stats": get_all_settled_stats(),
         },
     )
 

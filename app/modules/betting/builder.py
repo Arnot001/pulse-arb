@@ -4,14 +4,7 @@ from app.modules.horses.output import get_top_horses
 from app.modules.betting.recommendation import build_recommendation
 from app.modules.betting.portfolio import PortfolioBuilder
 from app.modules.decision.engine import build_daily_decision
-
-
-SUPPORTED_COURSES = {
-    "Ayr",
-    "Market Rasen",
-    "Southwell (AW)",
-}
-
+from app.modules.performance.bet_qualifier import qualifies_as_official_bet
 
 def risk_rank(risk):
     ranks = {
@@ -49,10 +42,15 @@ def build_bet_report(title, bet_type, horses):
             "roi": 0,
         }
 
-    combined_iq = sum(h.get("score", 0) for h in horses)
+    avg_iq = round(
+        sum(h.get("score", 0) for h in horses) / len(horses)
+    )
+
     avg_rec = round(
         sum(h.get("recommendation_score", 0) for h in horses) / len(horses)
     )
+
+    combined_iq = avg_iq
 
     worst_risk = max(
         horses,
@@ -96,6 +94,13 @@ def build_bet_report(title, bet_type, horses):
 
     confidence = avg_rec
 
+    if bet_type == "double":
+        confidence -= 6
+    elif bet_type == "treble":
+        confidence -= 14
+    elif len(horses) >= 3:
+        confidence -= 10
+
     if unique_races < len(horses):
         confidence -= 12
 
@@ -119,7 +124,7 @@ def build_bet_report(title, bet_type, horses):
 
     if bet_type == "single":
         expected_strike_rate = min(75, round(confidence * 0.62))
-        strategy = "Smart Single"
+        strategy = "Single Selection" if len(horses) == 1 else "Singles Portfolio"
     elif bet_type == "double":
         expected_strike_rate = min(62, round(confidence * 0.52))
         strategy = "Pulse Double"
@@ -292,8 +297,7 @@ def build_bets():
 
     qualified_bet_horses = [
         h for h in bet_horses
-        if h.get("course") in SUPPORTED_COURSES
-        and h.get("score", 0) >= 85
+        if h.get("score", 0) >= 85
     ]
 
     portfolio = PortfolioBuilder(qualified_bet_horses)
@@ -319,17 +323,24 @@ def build_bets():
         bet_reports.append(build_bet_report("Best Single", "single", best_single))
 
     if len(smart_singles) >= 2:
-        bet_reports.append(build_bet_report("Smart Singles", "single", smart_singles))
+        bet_reports.append(
+            build_bet_report("Best 3 Singles", "single", smart_singles)
+        )
 
     if len(pulse_double) >= 2:
-        bet_reports.append(build_bet_report("Pulse Double", "double", pulse_double))
+        bet_reports.append(
+            build_bet_report("Best Double", "double", pulse_double)
+        )
 
     if len(pulse_treble) >= 3:
-        bet_reports.append(build_bet_report("Pulse Treble", "treble", pulse_treble))
+        bet_reports.append(
+            build_bet_report("Best Treble", "treble", pulse_treble)
+        )
 
     if len(dominant_double) >= 2:
-        bet_reports.append(build_bet_report("Dominant Double", "double", dominant_double))
-
+        bet_reports.append(
+            build_bet_report("Dominant Double", "double", dominant_double)
+        )
     decision = build_daily_decision(
         bet_horses=qualified_bet_horses,
         portfolio_quality=portfolio_quality,

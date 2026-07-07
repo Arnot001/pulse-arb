@@ -88,6 +88,31 @@ def get_verified_official_stats():
 def get_all_settled_stats():
     return calculate_ledger_stats(load_settled_bets())
 
+def get_bankroll_history(start_bank=100.0):
+    bankroll = start_bank
+    history = []
+
+    settled = load_settled_bets()
+
+    settled = sorted(
+        settled,
+        key=lambda row: row.get("settled_at", "")
+    )
+
+    for index, bet in enumerate(settled, start=1):
+        bankroll += float(bet.get("profit") or 0)
+
+        history.append({
+            "x": index,
+            "bankroll": round(bankroll, 2),
+            "profit": round(float(bet.get("profit") or 0), 2),
+            "horse": bet.get("horse"),
+            "course": bet.get("course"),
+            "won": bet.get("won"),
+        })
+
+    return history
+
 def load_existing_ledger():
     rows = load_jsonl(LEDGER_FILE)
     return {row.get("bet_id"): row for row in rows if row.get("bet_id")}

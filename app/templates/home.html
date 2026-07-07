@@ -65,7 +65,38 @@
     </div>
 
     <div class="dashboard-grid">
+       <div class="dashboard-card pulse-performance-card">
+            <h2>
+                <img src="/static/glyphs_transparent/performance.png" class="card-icon" alt="">
+                Pulse Performance
+            </h2>
 
+            <div class="performance-split-grid">
+                <div class="performance-record-box {% if official_stats.profit >= 0 %}record-positive{% else %}record-negative{% endif %}">
+                    <span>Official Record</span>
+                    <strong>{{ official_stats.profit }} pts</strong>
+                    <small>{{ official_stats.total }} settled · ROI {{ official_stats.roi }}%</small>
+                </div>
+
+                <div class="performance-record-box {% if all_settled_stats.profit >= 0 %}record-positive{% else %}record-negative{% endif %}">
+                    <span>All Pulse Picks</span>
+                    <strong>{{ all_settled_stats.profit }} pts</strong>
+                    <small>{{ all_settled_stats.winners }} / {{ all_settled_stats.total }} winners · ROI {{ all_settled_stats.roi }}%</small>
+                </div>
+            </div>
+
+            <div class="performance-pulse-line">
+                <span></span>
+            </div>
+
+            <div class="performance-mini-row">
+                <div><span>Wins</span><strong>{{ all_settled_stats.winners }}</strong></div>
+                <div><span>Losses</span><strong>{{ all_settled_stats.losers }}</strong></div>
+                <div><span>Strike</span><strong>{{ all_settled_stats.strike_rate }}%</strong></div>
+            </div>
+
+            <a class="button performance-button" href="/bet-ledger">Open Bet Ledger →</a>
+        </div>
         <div class="dashboard-card">
             <h2><img src="/static/glyphs_transparent/verify.png" class="card-icon" alt=""> Update Centre</h2>
 

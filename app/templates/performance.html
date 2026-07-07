@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+
+{% block title %}Performance Centre{% endblock %}
+
+{% block content %}
+
+<div class="pulse-page">
+
+    <div class="pulse-page-header module-header">
+        <div class="module-title-row">
+            <img src="/static/glyphs_transparent/performance.png"
+                 class="hero-icon"
+                 alt="">
+            <div>
+                <h1>Performance Centre</h1>
+                <p class="muted">
+                    Live performance tracking for every Pulse selection.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="performance-grid">
+
+        <div class="dashboard-card pulse-performance-card">
+
+            <h2>Official Pulse</h2>
+
+            <div class="performance-stat">
+
+                <div>
+                    <span>Settled</span>
+                    <strong>{{ official_stats.total }}</strong>
+                </div>
+
+                <div>
+                    <span>ROI</span>
+                    <strong>{{ official_stats.roi }}%</strong>
+                </div>
+
+                <div>
+                    <span>Strike Rate</span>
+                    <strong>{{ official_stats.strike_rate }}%</strong>
+                </div>
+
+                <div>
+                    <span>Profit</span>
+                    <strong class="{% if official_stats.profit >= 0 %}profit-positive{% else %}profit-negative{% endif %}">
+                        {{ official_stats.profit }} pts
+                    </strong>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="dashboard-card pulse-performance-card">
+
+            <h2>All Pulse Picks</h2>
+
+            <div class="performance-stat">
+
+                <div>
+                    <span>Settled</span>
+                    <strong>{{ all_stats.total }}</strong>
+                </div>
+
+                <div>
+                    <span>ROI</span>
+                    <strong>{{ all_stats.roi }}%</strong>
+                </div>
+
+                <div>
+                    <span>Strike Rate</span>
+                    <strong>{{ all_stats.strike_rate }}%</strong>
+                </div>
+
+                <div>
+                    <span>Profit</span>
+                    <strong class="{% if all_stats.profit >= 0 %}profit-positive{% else %}profit-negative{% endif %}">
+                        {{ all_stats.profit }} pts
+                    </strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="dashboard-card pulse-performance-card">
+
+        <h2>Bankroll Performance</h2>
+
+        <div class="performance-mini-row">
+
+            <div>
+                <span>Starting Bank</span>
+                <strong>£100</strong>
+            </div>
+
+            <div>
+                <span>Current Bank</span>
+                <strong id="current-bank">--</strong>
+            </div>
+
+            <div>
+                <span>Settled Bets</span>
+                <strong>{{ all_stats.total }}</strong>
+            </div>
+
+        </div>
+
+        <div class="performance-chart">
+
+            <svg
+                id="bankroll-chart"
+                viewBox="0 0 1000 320"
+                preserveAspectRatio="none">
+
+                <polyline
+                    id="bankroll-line"
+                    fill="none"
+                    stroke="#48f08a"
+                    stroke-width="4"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    points=""
+                />
+
+            </svg>
+
+        </div>
+
+    </div>
+
+    <div class="dashboard-card pulse-performance-card">
+
+        <h2>Pulse Intelligence</h2>
+
+        <p class="muted">
+
+            Pulse will automatically analyse settled bets, detect profitable
+            patterns, verify strategies and continuously improve future
+            recommendations.
+
+        </p>
+
+    </div>
+
+</div>
+
+<script>
+
+const history = {{ bankroll_history | tojson }};
+
+const line = document.getElementById("bankroll-line");
+const currentBank = document.getElementById("current-bank");
+
+if (history.length > 0) {
+
+    const values = history.map(r => r.bankroll);
+
+    const min = Math.min(...values);
+    const max = Math.max(...values);
+
+    const width = 1000;
+    const height = 320;
+
+    const range = Math.max(max - min, 1);
+
+    const points = history.map((row, i) => {
+
+        const x = (i / Math.max(history.length - 1, 1)) * width;
+
+        const y =
+            height -
+            (((row.bankroll - min) / range) * (height - 20)) -
+            10;
+
+        return `${x},${y}`;
+
+    });
+
+    line.setAttribute("points", points.join(" "));
+
+    currentBank.textContent =
+        "£" + history[history.length - 1].bankroll.toFixed(2);
+
+}
+else {
+
+    currentBank.textContent = "£100.00";
+
+}
+
+</script>
+
+{% endblock %}
