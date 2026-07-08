@@ -140,9 +140,14 @@ def collect_bbc_horse_results():
                 print(f"SKIP no race data: {url}")
                 continue
 
+            print(
+                f"{race.get('racecourse', {}).get('name')} "
+                f"{race.get('time')} "
+                f"STATUS={race.get('status')}"
+            )
+
             if race.get("status") != "PostEvent":
                 skipped += 1
-                print(f"SKIP not resulted: {race.get('raceId')} {race.get('status')}")
                 continue
 
             runners_saved = save_race_results(race, collection_date)

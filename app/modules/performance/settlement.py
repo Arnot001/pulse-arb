@@ -228,3 +228,14 @@ def settle_bets(stake=1.0):
         "settled_file": str(SETTLED_FILE),
         "ledger_file": str(LEDGER_FILE),
     }
+
+if __name__ == "__main__":
+    report = settle_bets(1.0)
+
+    print("Settlement Complete")
+    print("-" * 40)
+    print(f"Ledger bets: {report['ledger_bets']}")
+    print(f"Results indexed: {report['results_indexed']}")
+    print(f"Settled: {report['settled']}")
+    print(f"Open: {report['open']}")
+    print(f"File: {report['settled_file']}")
