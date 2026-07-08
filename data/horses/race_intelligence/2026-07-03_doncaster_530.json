@@ -5,14 +5,144 @@
   "time": "5:30",
   "race_name": "attheraces.com/marketmovers Fillies' Handicap",
   "field_size": 12,
-  "average_intelligence": 55.5,
-  "top_score": 64,
-  "second_score": 63,
-  "gap": 1,
-  "confidence_score": 51,
+  "average_intelligence": 55.0,
+  "top_score": 63,
+  "second_score": 61,
+  "gap": 2,
+  "confidence_score": 52,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Gunalt Wavelength",
+    "horse_id": "hrs_54555361",
+    "age": 3,
+    "sex": "filly",
+    "latest_course": "Doncaster",
+    "latest_time": "5:30",
+    "latest_race": "attheraces.com/marketmovers Fillies' Handicap",
+    "latest_date": "2026-07-03",
+    "latest_distance_f": 7.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Michael & David Easterby",
+    "latest_jockey": "Joanna Mason",
+    "latest_draw": 10,
+    "latest_weight_lbs": 130,
+    "official_rating": "65",
+    "recent_form": "29-211",
+    "last_run_days": 19,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Doncaster": 1
+    },
+    "distances_seen": {
+      "7.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 5": 1
+    },
+    "trainers_seen": {
+      "Michael & David Easterby": 1
+    },
+    "jockeys_seen": {
+      "Joanna Mason": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 80,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Trainer bonus +2",
+      "Stable in form +2 (1/2 last 14 days)",
+      "Jockey bonus +2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11989120",
+        "course": "Doncaster",
+        "date": "2026-07-03",
+        "off_time": "5:30",
+        "off_dt": "2026-07-03T17:30:00+01:00",
+        "race_name": "attheraces.com/marketmovers Fillies' Handicap",
+        "distance_f": 7.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 11,
+        "horse": "Gunalt Wavelength",
+        "horse_id": "hrs_54555361",
+        "age": 3,
+        "sex": "filly",
+        "trainer": "Michael & David Easterby",
+        "trainer_id": "trn_346887",
+        "jockey": "Joanna Mason",
+        "jockey_id": "jky_257346",
+        "draw": 10,
+        "number": 8,
+        "lbs": 130,
+        "ofr": "65",
+        "last_run": 19,
+        "form": "29-211",
+        "headgear": "",
+        "_stored_at": "2026-07-03T00:37:00.868575+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
+    "favourite_course": {
+      "value": "Doncaster",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 7.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 63,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Doncaster",
+      "latest_distance_f": 7.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 5",
+      "latest_pulse_score": 80,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Seeing Stars",
     "horse_id": "hrs_59367294",
     "age": 3,
@@ -32,23 +162,26 @@
     "official_rating": "68",
     "recent_form": "2-2134",
     "last_run_days": 29,
-    "profile_runs": 1,
+    "profile_runs": 3,
     "courses_seen": {
+      "Newbury": 2,
       "Doncaster": 1
     },
     "distances_seen": {
-      "7.0": 1
+      "7.0": 3
     },
     "goings_seen": {
-      "Good To Firm": 1
+      "Good To Firm": 3
     },
     "classes_seen": {
-      "Class 5": 1
+      "Class 5": 3
     },
     "trainers_seen": {
+      "W J Knight": 2,
       "William Knight": 1
     },
     "jockeys_seen": {
+      "Oisin Murphy": 2,
       "Harry Davies": 1
     },
     "average_pulse_score": 0,
@@ -64,6 +197,68 @@
       "Jockey bonus +2"
     ],
     "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976679",
+        "course": "Newbury",
+        "date": "2026-06-23",
+        "off_time": "7:00",
+        "off_dt": "2026-06-23T19:00:00+01:00",
+        "race_name": "Venture Security Handicap",
+        "distance_f": 7.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 13,
+        "horse": "Seeing Stars",
+        "horse_id": "hrs_59367294",
+        "age": 3,
+        "sex": "filly",
+        "trainer": "W J Knight",
+        "trainer_id": "trn_161694",
+        "jockey": "Oisin Murphy",
+        "jockey_id": "jky_278184",
+        "draw": 12,
+        "number": null,
+        "lbs": 126,
+        "ofr": "68",
+        "last_run": 19,
+        "form": "2-2134",
+        "headgear": "",
+        "_stored_at": "2026-06-23T21:32:40.697682+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976679",
+        "course": "Newbury",
+        "date": "2026-06-23",
+        "off_time": "7:00",
+        "off_dt": "2026-06-23T19:00:00+01:00",
+        "race_name": "Venture Security Handicap",
+        "distance_f": 7.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 13,
+        "horse": "Seeing Stars",
+        "horse_id": "hrs_59367294",
+        "age": 3,
+        "sex": "filly",
+        "trainer": "W J Knight",
+        "trainer_id": "trn_161694",
+        "jockey": "Oisin Murphy",
+        "jockey_id": "jky_278184",
+        "draw": 12,
+        "number": null,
+        "lbs": 126,
+        "ofr": "68",
+        "last_run": 19,
+        "form": "2-2134",
+        "headgear": "",
+        "_stored_at": "2026-06-25T06:53:17.956868+00:00"
+      },
       {
         "source": "the_racing_api",
         "race_id": "rac_11989120",
@@ -93,43 +288,43 @@
         "last_run": 29,
         "form": "2-2134",
         "headgear": "",
-        "_stored_at": "2026-07-03T04:58:47.085669+00:00"
+        "_stored_at": "2026-07-03T00:37:00.767448+00:00"
       }
     ],
     "profile_notes": [
-      "Elite latest Pulse Score"
+      "Elite latest Pulse Score",
+      "Profile has multiple stored runs"
     ],
     "favourite_course": {
-      "value": "Doncaster",
-      "runs": 1
+      "value": "Newbury",
+      "runs": 2
     },
     "favourite_distance": {
       "value": 7.0,
-      "runs": 1
+      "runs": 3
     },
     "favourite_going": {
       "value": "Good To Firm",
-      "runs": 1
+      "runs": 3
     },
     "favourite_class": {
       "value": "Class 5",
-      "runs": 1
+      "runs": 3
     },
-    "course_suitability_score": 90,
+    "course_suitability_score": 55,
     "distance_suitability_score": 90,
     "going_suitability_score": 90,
     "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 64,
+    "suitability_score": 81,
+    "horse_intelligence_score": 61,
     "profile_strengths": [
-      "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Limited stored profile data"
+      "Course does not strongly match stored profile"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
@@ -139,143 +334,13 @@
       "latest_class": "Class 5",
       "latest_pulse_score": 82,
       "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Gunalt Wavelength",
-    "horse_id": "hrs_54555361",
-    "age": 3,
-    "sex": "filly",
-    "latest_course": "Doncaster",
-    "latest_time": "5:30",
-    "latest_race": "attheraces.com/marketmovers Fillies' Handicap",
-    "latest_date": "2026-07-03",
-    "latest_distance_f": 7.0,
-    "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Michael & David Easterby",
-    "latest_jockey": "Joanna Mason",
-    "latest_draw": 10,
-    "latest_weight_lbs": 130,
-    "official_rating": "65",
-    "recent_form": "29-211",
-    "last_run_days": 19,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Doncaster": 1
-    },
-    "distances_seen": {
-      "7.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 5": 1
-    },
-    "trainers_seen": {
-      "Michael & David Easterby": 1
-    },
-    "jockeys_seen": {
-      "Joanna Mason": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 80,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Trainer bonus +2",
-      "Stable in form +2 (1/2 last 14 days)",
-      "Jockey bonus +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11989120",
-        "course": "Doncaster",
-        "date": "2026-07-03",
-        "off_time": "5:30",
-        "off_dt": "2026-07-03T17:30:00+01:00",
-        "race_name": "attheraces.com/marketmovers Fillies' Handicap",
-        "distance_f": 7.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 11,
-        "horse": "Gunalt Wavelength",
-        "horse_id": "hrs_54555361",
-        "age": 3,
-        "sex": "filly",
-        "trainer": "Michael & David Easterby",
-        "trainer_id": "trn_346887",
-        "jockey": "Joanna Mason",
-        "jockey_id": "jky_257346",
-        "draw": 10,
-        "number": 8,
-        "lbs": 130,
-        "ofr": "65",
-        "last_run": 19,
-        "form": "29-211",
-        "headgear": "",
-        "_stored_at": "2026-07-03T04:58:47.180667+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Elite latest Pulse Score"
-    ],
-    "favourite_course": {
-      "value": "Doncaster",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 7.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 63,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Elite latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Doncaster",
-      "latest_distance_f": 7.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 5",
-      "latest_pulse_score": 80,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
+      "profile_runs": 3,
+      "runs_count": 3
     }
   },
   "dark_horse": {
-    "horse": "Gunalt Wavelength",
-    "horse_id": "hrs_54555361",
+    "horse": "Seeing Stars",
+    "horse_id": "hrs_59367294",
     "age": 3,
     "sex": "filly",
     "latest_course": "Doncaster",
@@ -286,44 +351,110 @@
     "latest_class": "Class 5",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Michael & David Easterby",
-    "latest_jockey": "Joanna Mason",
-    "latest_draw": 10,
-    "latest_weight_lbs": 130,
-    "official_rating": "65",
-    "recent_form": "29-211",
-    "last_run_days": 19,
-    "profile_runs": 1,
+    "latest_trainer": "William Knight",
+    "latest_jockey": "Harry Davies",
+    "latest_draw": 4,
+    "latest_weight_lbs": 133,
+    "official_rating": "68",
+    "recent_form": "2-2134",
+    "last_run_days": 29,
+    "profile_runs": 3,
     "courses_seen": {
+      "Newbury": 2,
       "Doncaster": 1
     },
     "distances_seen": {
-      "7.0": 1
+      "7.0": 3
     },
     "goings_seen": {
-      "Good To Firm": 1
+      "Good To Firm": 3
     },
     "classes_seen": {
-      "Class 5": 1
+      "Class 5": 3
     },
     "trainers_seen": {
-      "Michael & David Easterby": 1
+      "W J Knight": 2,
+      "William Knight": 1
     },
     "jockeys_seen": {
-      "Joanna Mason": 1
+      "Oisin Murphy": 2,
+      "Harry Davies": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 80,
+    "latest_pulse_score": 82,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
+      "Helpful draw",
       "Trainer bonus +2",
-      "Stable in form +2 (1/2 last 14 days)",
+      "Stable in form +2 (2/4 last 14 days)",
       "Jockey bonus +2"
     ],
     "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976679",
+        "course": "Newbury",
+        "date": "2026-06-23",
+        "off_time": "7:00",
+        "off_dt": "2026-06-23T19:00:00+01:00",
+        "race_name": "Venture Security Handicap",
+        "distance_f": 7.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 13,
+        "horse": "Seeing Stars",
+        "horse_id": "hrs_59367294",
+        "age": 3,
+        "sex": "filly",
+        "trainer": "W J Knight",
+        "trainer_id": "trn_161694",
+        "jockey": "Oisin Murphy",
+        "jockey_id": "jky_278184",
+        "draw": 12,
+        "number": null,
+        "lbs": 126,
+        "ofr": "68",
+        "last_run": 19,
+        "form": "2-2134",
+        "headgear": "",
+        "_stored_at": "2026-06-23T21:32:40.697682+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976679",
+        "course": "Newbury",
+        "date": "2026-06-23",
+        "off_time": "7:00",
+        "off_dt": "2026-06-23T19:00:00+01:00",
+        "race_name": "Venture Security Handicap",
+        "distance_f": 7.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 13,
+        "horse": "Seeing Stars",
+        "horse_id": "hrs_59367294",
+        "age": 3,
+        "sex": "filly",
+        "trainer": "W J Knight",
+        "trainer_id": "trn_161694",
+        "jockey": "Oisin Murphy",
+        "jockey_id": "jky_278184",
+        "draw": 12,
+        "number": null,
+        "lbs": 126,
+        "ofr": "68",
+        "last_run": 19,
+        "form": "2-2134",
+        "headgear": "",
+        "_stored_at": "2026-06-25T06:53:17.956868+00:00"
+      },
       {
         "source": "the_racing_api",
         "race_id": "rac_11989120",
@@ -338,58 +469,58 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 11,
-        "horse": "Gunalt Wavelength",
-        "horse_id": "hrs_54555361",
+        "horse": "Seeing Stars",
+        "horse_id": "hrs_59367294",
         "age": 3,
         "sex": "filly",
-        "trainer": "Michael & David Easterby",
-        "trainer_id": "trn_346887",
-        "jockey": "Joanna Mason",
-        "jockey_id": "jky_257346",
-        "draw": 10,
-        "number": 8,
-        "lbs": 130,
-        "ofr": "65",
-        "last_run": 19,
-        "form": "29-211",
+        "trainer": "William Knight",
+        "trainer_id": "trn_161694",
+        "jockey": "Harry Davies",
+        "jockey_id": "jky_304524",
+        "draw": 4,
+        "number": 4,
+        "lbs": 133,
+        "ofr": "68",
+        "last_run": 29,
+        "form": "2-2134",
         "headgear": "",
-        "_stored_at": "2026-07-03T04:58:47.180667+00:00"
+        "_stored_at": "2026-07-03T00:37:00.767448+00:00"
       }
     ],
     "profile_notes": [
-      "Elite latest Pulse Score"
+      "Elite latest Pulse Score",
+      "Profile has multiple stored runs"
     ],
     "favourite_course": {
-      "value": "Doncaster",
-      "runs": 1
+      "value": "Newbury",
+      "runs": 2
     },
     "favourite_distance": {
       "value": 7.0,
-      "runs": 1
+      "runs": 3
     },
     "favourite_going": {
       "value": "Good To Firm",
-      "runs": 1
+      "runs": 3
     },
     "favourite_class": {
       "value": "Class 5",
-      "runs": 1
+      "runs": 3
     },
-    "course_suitability_score": 90,
+    "course_suitability_score": 55,
     "distance_suitability_score": 90,
     "going_suitability_score": 90,
     "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 63,
+    "suitability_score": 81,
+    "horse_intelligence_score": 61,
     "profile_strengths": [
-      "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Limited stored profile data"
+      "Course does not strongly match stored profile"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
@@ -397,144 +528,13 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": 80,
+      "latest_pulse_score": 82,
       "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
+      "profile_runs": 3,
+      "runs_count": 3
     }
   },
   "runners": [
-    {
-      "horse": "Seeing Stars",
-      "horse_id": "hrs_59367294",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Doncaster",
-      "latest_time": "5:30",
-      "latest_race": "attheraces.com/marketmovers Fillies' Handicap",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "William Knight",
-      "latest_jockey": "Harry Davies",
-      "latest_draw": 4,
-      "latest_weight_lbs": 133,
-      "official_rating": "68",
-      "recent_form": "2-2134",
-      "last_run_days": 29,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Doncaster": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "William Knight": 1
-      },
-      "jockeys_seen": {
-        "Harry Davies": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 82,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable in form +2 (2/4 last 14 days)",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989120",
-          "course": "Doncaster",
-          "date": "2026-07-03",
-          "off_time": "5:30",
-          "off_dt": "2026-07-03T17:30:00+01:00",
-          "race_name": "attheraces.com/marketmovers Fillies' Handicap",
-          "distance_f": 7.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Seeing Stars",
-          "horse_id": "hrs_59367294",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "William Knight",
-          "trainer_id": "trn_161694",
-          "jockey": "Harry Davies",
-          "jockey_id": "jky_304524",
-          "draw": 4,
-          "number": 4,
-          "lbs": 133,
-          "ofr": "68",
-          "last_run": 29,
-          "form": "2-2134",
-          "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.085669+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ],
-      "favourite_course": {
-        "value": "Doncaster",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 64,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Doncaster",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 82,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Gunalt Wavelength",
       "horse_id": "hrs_54555361",
@@ -615,7 +615,7 @@
           "last_run": 19,
           "form": "29-211",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.180667+00:00"
+          "_stored_at": "2026-07-03T00:37:00.868575+00:00"
         }
       ],
       "profile_notes": [
@@ -666,8 +666,8 @@
       }
     },
     {
-      "horse": "Bami",
-      "horse_id": "hrs_57686916",
+      "horse": "Seeing Stars",
+      "horse_id": "hrs_59367294",
       "age": 3,
       "sex": "filly",
       "latest_course": "Doncaster",
@@ -678,42 +678,110 @@
       "latest_class": "Class 5",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Tom Dascombe",
-      "latest_jockey": "William Cox",
-      "latest_draw": 5,
-      "latest_weight_lbs": 141,
-      "official_rating": "76",
-      "recent_form": "4314-1",
-      "last_run_days": 10,
-      "profile_runs": 1,
+      "latest_trainer": "William Knight",
+      "latest_jockey": "Harry Davies",
+      "latest_draw": 4,
+      "latest_weight_lbs": 133,
+      "official_rating": "68",
+      "recent_form": "2-2134",
+      "last_run_days": 29,
+      "profile_runs": 3,
       "courses_seen": {
+        "Newbury": 2,
         "Doncaster": 1
       },
       "distances_seen": {
-        "7.0": 1
+        "7.0": 3
       },
       "goings_seen": {
-        "Good To Firm": 1
+        "Good To Firm": 3
       },
       "classes_seen": {
-        "Class 5": 1
+        "Class 5": 3
       },
       "trainers_seen": {
-        "Tom Dascombe": 1
+        "W J Knight": 2,
+        "William Knight": 1
       },
       "jockeys_seen": {
-        "William Cox": 1
+        "Oisin Murphy": 2,
+        "Harry Davies": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 78,
+      "latest_pulse_score": 82,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
+        "Ideal layoff profile +2",
         "Helpful draw",
-        "Trainer bonus +1"
+        "Trainer bonus +2",
+        "Stable in form +2 (2/4 last 14 days)",
+        "Jockey bonus +2"
       ],
       "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Seeing Stars",
+          "horse_id": "hrs_59367294",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "W J Knight",
+          "trainer_id": "trn_161694",
+          "jockey": "Oisin Murphy",
+          "jockey_id": "jky_278184",
+          "draw": 12,
+          "number": null,
+          "lbs": 126,
+          "ofr": "68",
+          "last_run": 19,
+          "form": "2-2134",
+          "headgear": "",
+          "_stored_at": "2026-06-23T21:32:40.697682+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Seeing Stars",
+          "horse_id": "hrs_59367294",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "W J Knight",
+          "trainer_id": "trn_161694",
+          "jockey": "Oisin Murphy",
+          "jockey_id": "jky_278184",
+          "draw": 12,
+          "number": null,
+          "lbs": 126,
+          "ofr": "68",
+          "last_run": 19,
+          "form": "2-2134",
+          "headgear": "",
+          "_stored_at": "2026-06-25T06:53:17.956868+00:00"
+        },
         {
           "source": "the_racing_api",
           "race_id": "rac_11989120",
@@ -728,58 +796,58 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 11,
-          "horse": "Bami",
-          "horse_id": "hrs_57686916",
+          "horse": "Seeing Stars",
+          "horse_id": "hrs_59367294",
           "age": 3,
           "sex": "filly",
-          "trainer": "Tom Dascombe",
-          "trainer_id": "trn_161406",
-          "jockey": "William Cox",
-          "jockey_id": "jky_285624",
-          "draw": 5,
-          "number": 1,
-          "lbs": 141,
-          "ofr": "76",
-          "last_run": 10,
-          "form": "4314-1",
+          "trainer": "William Knight",
+          "trainer_id": "trn_161694",
+          "jockey": "Harry Davies",
+          "jockey_id": "jky_304524",
+          "draw": 4,
+          "number": 4,
+          "lbs": 133,
+          "ofr": "68",
+          "last_run": 29,
+          "form": "2-2134",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.005030+00:00"
+          "_stored_at": "2026-07-03T00:37:00.767448+00:00"
         }
       ],
       "profile_notes": [
-        "Recent run timing"
+        "Elite latest Pulse Score",
+        "Profile has multiple stored runs"
       ],
       "favourite_course": {
-        "value": "Doncaster",
-        "runs": 1
+        "value": "Newbury",
+        "runs": 2
       },
       "favourite_distance": {
         "value": 7.0,
-        "runs": 1
+        "runs": 3
       },
       "favourite_going": {
         "value": "Good To Firm",
-        "runs": 1
+        "runs": 3
       },
       "favourite_class": {
         "value": "Class 5",
-        "runs": 1
+        "runs": 3
       },
-      "course_suitability_score": 90,
+      "course_suitability_score": 55,
       "distance_suitability_score": 90,
       "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 62,
+      "suitability_score": 81,
+      "horse_intelligence_score": 61,
       "profile_strengths": [
-        "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
         "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Limited stored profile data"
+        "Course does not strongly match stored profile"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -787,10 +855,10 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": 78,
+        "latest_pulse_score": 82,
         "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -875,7 +943,7 @@
           "last_run": 29,
           "form": "4-17",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.061641+00:00"
+          "_stored_at": "2026-07-03T00:37:00.737356+00:00"
         }
       ],
       "profile_notes": [
@@ -923,6 +991,198 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Bami",
+      "horse_id": "hrs_57686916",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Doncaster",
+      "latest_time": "5:30",
+      "latest_race": "attheraces.com/marketmovers Fillies' Handicap",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Tom Dascombe",
+      "latest_jockey": "William Cox",
+      "latest_draw": 5,
+      "latest_weight_lbs": 141,
+      "official_rating": "76",
+      "recent_form": "4314-1",
+      "last_run_days": 10,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Newbury": 2,
+        "Doncaster": 1
+      },
+      "distances_seen": {
+        "7.0": 3
+      },
+      "goings_seen": {
+        "Good To Firm": 3
+      },
+      "classes_seen": {
+        "Class 5": 3
+      },
+      "trainers_seen": {
+        "Tom Dascombe": 3
+      },
+      "jockeys_seen": {
+        "Pierre-Louis Jamin": 2,
+        "William Cox": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 78,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Trainer bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Bami",
+          "horse_id": "hrs_57686916",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Tom Dascombe",
+          "trainer_id": "trn_161406",
+          "jockey": "Pierre-Louis Jamin",
+          "jockey_id": "jky_285624",
+          "draw": 3,
+          "number": 11,
+          "lbs": 128,
+          "ofr": "70",
+          "last_run": 195,
+          "form": "4314-",
+          "headgear": "",
+          "_stored_at": "2026-06-23T21:32:40.652324+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Bami",
+          "horse_id": "hrs_57686916",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Tom Dascombe",
+          "trainer_id": "trn_161406",
+          "jockey": "Pierre-Louis Jamin",
+          "jockey_id": "jky_285624",
+          "draw": 3,
+          "number": 11,
+          "lbs": 128,
+          "ofr": "70",
+          "last_run": 195,
+          "form": "4314-",
+          "headgear": "",
+          "_stored_at": "2026-06-25T06:53:17.922618+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989120",
+          "course": "Doncaster",
+          "date": "2026-07-03",
+          "off_time": "5:30",
+          "off_dt": "2026-07-03T17:30:00+01:00",
+          "race_name": "attheraces.com/marketmovers Fillies' Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Bami",
+          "horse_id": "hrs_57686916",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Tom Dascombe",
+          "trainer_id": "trn_161406",
+          "jockey": "William Cox",
+          "jockey_id": "jky_285624",
+          "draw": 5,
+          "number": 1,
+          "lbs": 141,
+          "ofr": "76",
+          "last_run": 10,
+          "form": "4314-1",
+          "headgear": "",
+          "_stored_at": "2026-07-03T00:37:00.642091+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 3
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 3
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 3
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 81,
+      "horse_intelligence_score": 59,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Doncaster",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 78,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -1007,7 +1267,7 @@
           "last_run": 34,
           "form": "744-5",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.157292+00:00"
+          "_stored_at": "2026-07-03T00:37:00.850972+00:00"
         }
       ],
       "profile_notes": [
@@ -1136,7 +1396,7 @@
           "last_run": 20,
           "form": "8-7513",
           "headgear": "p",
-          "_stored_at": "2026-07-03T04:58:47.252460+00:00"
+          "_stored_at": "2026-07-03T00:37:00.985105+00:00"
         }
       ],
       "profile_notes": [],
@@ -1263,7 +1523,7 @@
           "last_run": 31,
           "form": "352671",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.204374+00:00"
+          "_stored_at": "2026-07-03T00:37:00.923131+00:00"
         }
       ],
       "profile_notes": [],
@@ -1391,7 +1651,7 @@
           "last_run": 29,
           "form": "74-364",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.227935+00:00"
+          "_stored_at": "2026-07-03T00:37:00.957839+00:00"
         }
       ],
       "profile_notes": [
@@ -1517,7 +1777,7 @@
           "last_run": 68,
           "form": "233-44",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.132980+00:00"
+          "_stored_at": "2026-07-03T00:37:00.818622+00:00"
         }
       ],
       "profile_notes": [],
@@ -1645,7 +1905,7 @@
           "last_run": 18,
           "form": "7-9446",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.109017+00:00"
+          "_stored_at": "2026-07-03T00:37:00.800883+00:00"
         }
       ],
       "profile_notes": [],
@@ -1771,7 +2031,7 @@
           "last_run": 43,
           "form": "445-64",
           "headgear": "h",
-          "_stored_at": "2026-07-03T04:58:47.038218+00:00"
+          "_stored_at": "2026-07-03T00:37:00.689695+00:00"
         }
       ],
       "profile_notes": [],
@@ -1899,7 +2159,7 @@
           "last_run": 19,
           "form": "4-8797",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.275847+00:00"
+          "_stored_at": "2026-07-03T00:37:01.024139+00:00"
         }
       ],
       "profile_notes": [],
@@ -1949,8 +2209,8 @@
     }
   ],
   "notes": [
-    "Seeing Stars is the top-rated Pulse IQ runner.",
+    "Gunalt Wavelength is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Gunalt Wavelength is flagged as a possible dark horse."
+    "Seeing Stars is flagged as a possible dark horse."
   ]
 }

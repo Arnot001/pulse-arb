@@ -113,6 +113,61 @@ def get_bankroll_history(start_bank=100.0):
 
     return history
 
+def get_performance_insights():
+    settled = load_settled_bets()
+    stats = get_all_settled_stats()
+
+    if not settled:
+        return {
+            "health": "WAITING",
+            "form": "No settled bets yet.",
+            "best_run": 0,
+            "worst_run": 0,
+            "summary": "Pulse needs settled results before it can generate intelligence.",
+        }
+
+    latest = settled[-8:]
+    latest_wins = len([b for b in latest if b.get("won") is True])
+    latest_profit = round(sum(float(b.get("profit") or 0) for b in latest), 2)
+
+    win_streak = 0
+    best_streak = 0
+    loss_streak = 0
+    worst_streak = 0
+
+    for bet in settled:
+        if bet.get("won") is True:
+            win_streak += 1
+            loss_streak = 0
+        else:
+            loss_streak += 1
+            win_streak = 0
+
+        best_streak = max(best_streak, win_streak)
+        worst_streak = max(worst_streak, loss_streak)
+
+    if stats["profit"] > 0 and stats["strike_rate"] >= 50:
+        health = "EXCELLENT"
+    elif stats["profit"] > 0:
+        health = "POSITIVE"
+    elif stats["profit"] == 0:
+        health = "FLAT"
+    else:
+        health = "NEGATIVE"
+
+    return {
+        "health": health,
+        "form": f"{latest_wins} wins from last {len(latest)} selections ({latest_profit:+.2f} pts)",
+        "best_run": best_streak,
+        "worst_run": worst_streak,
+        "summary": (
+            f"Pulse is currently {health.lower()} with "
+            f"{stats['profit']:+.2f} pts profit, "
+            f"{stats['strike_rate']}% strike rate and "
+            f"{stats['roi']}% ROI."
+        ),
+    }
+
 def load_existing_ledger():
     rows = load_jsonl(LEDGER_FILE)
     return {row.get("bet_id"): row for row in rows if row.get("bet_id")}

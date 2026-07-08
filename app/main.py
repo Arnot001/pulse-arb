@@ -8,7 +8,7 @@ import requests
 import time
 
 from app.modules.performance.profit_engine import simulate_level_stakes
-from app.modules.performance.bet_ledger import (load_jsonl,LEDGER_FILE,get_verified_official_stats,get_all_settled_stats,get_bankroll_history,)
+from app.modules.performance.bet_ledger import (load_jsonl,LEDGER_FILE,get_verified_official_stats,get_all_settled_stats,get_bankroll_history,get_performance_insights,)
 from app.modules.race_intelligence.output import (get_race_intelligence_dashboard,)
 from app.modules.strategy.engine import get_strategy_lab_data
 from app.modules.dashboard import get_dashboard_data
@@ -179,7 +179,7 @@ def update_all():
 
 @app.post("/update/performance")
 def update_performance():
-    return start_update("performance", "/horses/performance")
+    return start_update("performance", "/results-intelligence")
 
 @app.post("/update/settlement")
 def update_settlement():
@@ -449,10 +449,11 @@ def performance(request: Request):
             "official_stats": get_verified_official_stats(),
             "all_stats": get_all_settled_stats(),
             "bankroll_history": get_bankroll_history(),
+            "insights": get_performance_insights(),
         },
     )
     
-@app.get("/horses/performance", response_class=HTMLResponse)
+@app.get("/results-intelligence", response_class=HTMLResponse)
 def horses_performance(request: Request):
     report = get_latest_performance_report()
 

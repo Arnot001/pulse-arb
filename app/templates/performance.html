@@ -20,14 +20,12 @@
         </div>
     </div>
 
-    <div class="performance-grid">
+    <div class="performance-kpi-grid">
 
         <div class="dashboard-card pulse-performance-card">
-
             <h2>Official Pulse</h2>
 
             <div class="performance-stat">
-
                 <div>
                     <span>Settled</span>
                     <strong>{{ official_stats.total }}</strong>
@@ -49,17 +47,13 @@
                         {{ official_stats.profit }} pts
                     </strong>
                 </div>
-
             </div>
-
         </div>
 
         <div class="dashboard-card pulse-performance-card">
-
             <h2>All Pulse Picks</h2>
 
             <div class="performance-stat">
-
                 <div>
                     <span>Settled</span>
                     <strong>{{ all_stats.total }}</strong>
@@ -81,19 +75,15 @@
                         {{ all_stats.profit }} pts
                     </strong>
                 </div>
-
             </div>
-
         </div>
 
     </div>
 
     <div class="dashboard-card pulse-performance-card">
-
         <h2>Bankroll Performance</h2>
 
         <div class="performance-mini-row">
-
             <div>
                 <span>Starting Bank</span>
                 <strong>£100</strong>
@@ -108,44 +98,84 @@
                 <span>Settled Bets</span>
                 <strong>{{ all_stats.total }}</strong>
             </div>
-
         </div>
 
         <div class="performance-chart">
+            <svg id="bankroll-chart" viewBox="0 0 1000 520" preserveAspectRatio="none">
+                <defs>
+                    <filter id="glow">
+                        <feGaussianBlur stdDeviation="4" result="blur"/>
+                        <feMerge>
+                            <feMergeNode in="blur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                    <linearGradient id="bank-fill" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="#48f08a" stop-opacity="0.35"/>
+                        <stop offset="45%" stop-color="#00d8ff" stop-opacity="0.15"/>
+                        <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+                    </linearGradient>
+                </defs>
 
-            <svg
-                id="bankroll-chart"
-                viewBox="0 0 1000 320"
-                preserveAspectRatio="none">
-
+                <g id="grid-lines"></g>
+                <path
+                    id="bankroll-fill"
+                    fill="url(#bank-fill)"
+                    opacity="0.9"
+                />
                 <polyline
                     id="bankroll-line"
                     fill="none"
                     stroke="#48f08a"
-                    stroke-width="4"
+                    stroke-width="5"
                     stroke-linejoin="round"
                     stroke-linecap="round"
+                    filter="url(#glow)"
                     points=""
                 />
 
+                <line
+                    id="pulse-scan-line"
+                    x1="-80"
+                    y1="0"
+                    x2="-80"
+                    y2="520"
+                />
+
+                <g id="bankroll-points"></g>
             </svg>
-
         </div>
-
     </div>
 
     <div class="dashboard-card pulse-performance-card">
-
         <h2>Pulse Intelligence</h2>
 
-        <p class="muted">
+        <div class="performance-mini-row">
 
-            Pulse will automatically analyse settled bets, detect profitable
-            patterns, verify strategies and continuously improve future
-            recommendations.
+            <div>
+                <span>Overall Health</span>
+                <strong>{{ insights.health }}</strong>
+            </div>
 
-        </p>
+            <div>
+                <span>Current Form</span>
+                <strong>{{ insights.form }}</strong>
+            </div>
 
+            <div>
+                <span>Best Win Run</span>
+                <strong>{{ insights.best_run }}</strong>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</div>
+
+<p class="muted">
+    {{ insights.summary }}
+</p>
     </div>
 
 </div>
@@ -156,6 +186,8 @@ const history = {{ bankroll_history | tojson }};
 
 const line = document.getElementById("bankroll-line");
 const currentBank = document.getElementById("current-bank");
+const grid = document.getElementById("grid-lines");
+const pointLayer = document.getElementById("bankroll-points");
 
 if (history.length > 0) {
 
@@ -165,7 +197,7 @@ if (history.length > 0) {
     const max = Math.max(...values);
 
     const width = 1000;
-    const height = 320;
+    const height = 520;
 
     const range = Math.max(max - min, 1);
 
@@ -175,20 +207,54 @@ if (history.length > 0) {
 
         const y =
             height -
-            (((row.bankroll - min) / range) * (height - 20)) -
-            10;
+            (((row.bankroll - min) / range) * (height - 28)) -
+            14;
 
         return `${x},${y}`;
 
     });
 
-    line.setAttribute("points", points.join(" "));
+    const fill = document.getElementById("bankroll-fill");
+
+    const area =
+        "M0," + height +
+        " L" +
+        points.join(" L") +
+        " L" +
+        width +
+        "," +
+        height +
+        " Z";
+
+    fill.setAttribute("d", area);
+
+    for (let i = 1; i < 6; i++) {
+        const y = (i / 6) * height;
+
+        grid.innerHTML += `
+            <line x1="0" y1="${y}" x2="${width}" y2="${y}"
+                  class="chart-grid-line" />
+        `;
+    }
+
+    history.forEach((row, i) => {
+        const [x, y] = points[i].split(",");
+        const cls = row.won ? "bankroll-dot win-dot" : "bankroll-dot loss-dot";
+
+        pointLayer.innerHTML += `
+            <circle class="${cls}"
+                    cx="${x}"
+                    cy="${y}"
+                    r="7">
+                <title>${row.horse} · ${row.course} · £${row.profit} · Bank £${row.bankroll}</title>
+            </circle>
+        `;
+    });
 
     currentBank.textContent =
         "£" + history[history.length - 1].bankroll.toFixed(2);
 
-}
-else {
+} else {
 
     currentBank.textContent = "£100.00";
 

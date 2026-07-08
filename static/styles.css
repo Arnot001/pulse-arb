@@ -2203,3 +2203,106 @@ white-space: nowrap;
 .performance-button {
     margin-top: 18px;
 }
+
+.performance-chart {
+    margin-top: 22px;
+    height: 520px;
+    border-radius: 22px;
+    background:
+        radial-gradient(circle at top right, rgba(72,240,138,.08), transparent 35%),
+        linear-gradient(180deg, rgba(255,255,255,.025), transparent),
+        #060811;
+    border: 1px solid rgba(255,255,255,.08);
+    overflow: hidden;
+    box-shadow:
+        inset 0 0 35px rgba(0,0,0,.45),
+        0 0 28px rgba(72,240,138,.08);
+}
+
+.performance-chart svg {
+    width: 100%;
+    height: 100%;
+}
+
+.chart-grid-line {
+    stroke: rgba(255,255,255,.07);
+    stroke-width: 1;
+}
+
+.bankroll-dot {
+    stroke: #060811;
+    stroke-width: 3;
+    filter: drop-shadow(0 0 8px rgba(255,255,255,.25));
+}
+
+.win-dot {
+    fill: #48f08a;
+}
+
+.loss-dot {
+    fill: #ff4a6a;
+}
+
+#pulse-scan-line {
+    stroke: rgba(0, 229, 255, .35);
+    stroke-width: 22;
+    filter:
+        drop-shadow(0 0 18px rgba(0,229,255,.55))
+        drop-shadow(0 0 34px rgba(255,0,140,.35));
+    animation: performancePulseScan 4.5s infinite;
+}
+
+@keyframes performancePulseScan {
+    0% {
+        transform: translateX(-120px);
+        opacity: 0;
+    }
+
+    12% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(1120px);
+        opacity: 0;
+    }
+}
+
+.performance-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-bottom: 22px;
+}
+
+.performance-kpi-grid .pulse-performance-card {
+    min-height: auto;
+    padding: 22px;
+}
+
+.performance-kpi-grid .performance-stat {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.performance-kpi-grid .performance-stat div {
+    background: #090912;
+    border: 1px solid #29293a;
+    border-radius: 14px;
+    padding: 13px;
+}
+
+.performance-kpi-grid .performance-stat span {
+    display: block;
+    color: #9ea4b5;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.performance-kpi-grid .performance-stat strong {
+    display: block;
+    margin-top: 6px;
+    font-size: 20px;
+}
