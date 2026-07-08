@@ -4,8 +4,8 @@
   "course": "Ayr",
   "time": "5:35",
   "race_name": "Sunday Roast At westernhousehotel Available Now Handicap",
-  "field_size": 6,
-  "average_intelligence": 50.0,
+  "field_size": 12,
+  "average_intelligence": 47.67,
   "top_score": 66,
   "second_score": 55,
   "gap": 11,
@@ -660,6 +660,163 @@
       }
     },
     {
+      "horse": "Monhammer",
+      "horse_id": "hrs_24495709",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Ayr",
+      "latest_time": "5:35",
+      "latest_race": "Sunday Roast At westernhousehotel Available Now Handicap",
+      "latest_date": "2026-07-05",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Linda Perratt",
+      "latest_jockey": "Andrew Mullen",
+      "latest_draw": 9,
+      "latest_weight_lbs": 131,
+      "official_rating": "48",
+      "recent_form": "25-032",
+      "last_run_days": 5,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Musselburgh": 1,
+        "Ayr": 1
+      },
+      "distances_seen": {
+        "7.0": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 6": 2
+      },
+      "trainers_seen": {
+        "Linda Perratt": 2
+      },
+      "jockeys_seen": {
+        "Andrew Mullen": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 61,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988366",
+          "course": "Musselburgh",
+          "date": "2026-06-30",
+          "off_time": "3:30",
+          "off_dt": "2026-06-30T15:30:00+01:00",
+          "race_name": "Max Recycle Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Monhammer",
+          "horse_id": "hrs_24495709",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Linda Perratt",
+          "trainer_id": "trn_51552",
+          "jockey": "Andrew Mullen",
+          "jockey_id": "jky_243498",
+          "draw": 10,
+          "number": 10,
+          "lbs": 130,
+          "ofr": "48",
+          "last_run": 10,
+          "form": "325-03",
+          "headgear": "",
+          "_stored_at": "2026-06-30T05:14:25.975386+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989822",
+          "course": "Ayr",
+          "date": "2026-07-05",
+          "off_time": "5:35",
+          "off_dt": "2026-07-05T17:35:00+01:00",
+          "race_name": "Sunday Roast At westernhousehotel Available Now Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Monhammer",
+          "horse_id": "hrs_24495709",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Linda Perratt",
+          "trainer_id": "trn_51552",
+          "jockey": "Andrew Mullen",
+          "jockey_id": "jky_243498",
+          "draw": 9,
+          "number": 7,
+          "lbs": 131,
+          "ofr": "48",
+          "last_run": 5,
+          "form": "25-032",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Musselburgh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 81,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Ayr",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 61,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
       "horse": "Bobbys Pride",
       "horse_id": "hrs_54464060",
       "age": 3,
@@ -1104,6 +1261,892 @@
         "average_pulse_score": 0,
         "profile_runs": 3,
         "runs_count": 3
+      }
+    },
+    {
+      "horse": "Penny Mountain",
+      "horse_id": "hrs_42195531",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Ayr",
+      "latest_time": "5:35",
+      "latest_race": "Sunday Roast At westernhousehotel Available Now Handicap",
+      "latest_date": "2026-07-05",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gary Rutherford",
+      "latest_jockey": "Clifford Lee",
+      "latest_draw": 8,
+      "latest_weight_lbs": 137,
+      "official_rating": "54",
+      "recent_form": "235633",
+      "last_run_days": 10,
+      "profile_runs": 5,
+      "courses_seen": {
+        "Hamilton": 4,
+        "Ayr": 1
+      },
+      "distances_seen": {
+        "6.0": 4,
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 4,
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 6": 5
+      },
+      "trainers_seen": {
+        "Gary Rutherford": 5
+      },
+      "jockeys_seen": {
+        "Greg Fairley": 4,
+        "Clifford Lee": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 61,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977121",
+          "course": "Hamilton",
+          "date": "2026-06-25",
+          "off_time": "9:00",
+          "off_dt": "2026-06-25T21:00:00+01:00",
+          "race_name": "Hamilton Park Construction Race Day Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Penny Mountain",
+          "horse_id": "hrs_42195531",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Gary Rutherford",
+          "trainer_id": "trn_288135",
+          "jockey": "Greg Fairley",
+          "jockey_id": "jky_252060",
+          "draw": 2,
+          "number": 5,
+          "lbs": 131,
+          "ofr": "54",
+          "last_run": 15,
+          "form": "223563",
+          "headgear": "",
+          "_stored_at": "2026-06-25T14:16:19.104739+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977121",
+          "course": "Hamilton",
+          "date": "2026-06-25",
+          "off_time": "9:00",
+          "off_dt": "2026-06-25T21:00:00+01:00",
+          "race_name": "Hamilton Park Construction Race Day Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Penny Mountain",
+          "horse_id": "hrs_42195531",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Gary Rutherford",
+          "trainer_id": "trn_288135",
+          "jockey": "Greg Fairley",
+          "jockey_id": "jky_252060",
+          "draw": 2,
+          "number": 5,
+          "lbs": 131,
+          "ofr": "54",
+          "last_run": 15,
+          "form": "223563",
+          "headgear": "",
+          "_stored_at": "2026-06-25T17:11:28.788618+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977121",
+          "course": "Hamilton",
+          "date": "2026-06-25",
+          "off_time": "9:00",
+          "off_dt": "2026-06-25T21:00:00+01:00",
+          "race_name": "Hamilton Park Construction Race Day Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Penny Mountain",
+          "horse_id": "hrs_42195531",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Gary Rutherford",
+          "trainer_id": "trn_288135",
+          "jockey": "Greg Fairley",
+          "jockey_id": "jky_252060",
+          "draw": 2,
+          "number": 5,
+          "lbs": 131,
+          "ofr": "54",
+          "last_run": 15,
+          "form": "223563",
+          "headgear": "",
+          "_stored_at": "2026-06-26T08:14:06.636393+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977121",
+          "course": "Hamilton",
+          "date": "2026-06-25",
+          "off_time": "9:00",
+          "off_dt": "2026-06-25T21:00:00+01:00",
+          "race_name": "Hamilton Park Construction Race Day Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Penny Mountain",
+          "horse_id": "hrs_42195531",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Gary Rutherford",
+          "trainer_id": "trn_288135",
+          "jockey": "Greg Fairley",
+          "jockey_id": "jky_252060",
+          "draw": 2,
+          "number": 5,
+          "lbs": 131,
+          "ofr": "54",
+          "last_run": 15,
+          "form": "223563",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:15.062751+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989822",
+          "course": "Ayr",
+          "date": "2026-07-05",
+          "off_time": "5:35",
+          "off_dt": "2026-07-05T17:35:00+01:00",
+          "race_name": "Sunday Roast At westernhousehotel Available Now Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Penny Mountain",
+          "horse_id": "hrs_42195531",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Gary Rutherford",
+          "trainer_id": "trn_288135",
+          "jockey": "Clifford Lee",
+          "jockey_id": "jky_280440",
+          "draw": 8,
+          "number": 3,
+          "lbs": 137,
+          "ofr": "54",
+          "last_run": 10,
+          "form": "235633",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Hamilton",
+        "runs": 4
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 4
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 4
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 5
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 55,
+      "class_suitability_score": 90,
+      "suitability_score": 64,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
+        "Going is not clearly proven from stored profile"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Ayr",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 61,
+        "average_pulse_score": 0,
+        "profile_runs": 5,
+        "runs_count": 5
+      }
+    },
+    {
+      "horse": "Ramon Di Loria",
+      "horse_id": "hrs_22241121",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Ayr",
+      "latest_time": "5:35",
+      "latest_race": "Sunday Roast At westernhousehotel Available Now Handicap",
+      "latest_date": "2026-07-05",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ewan Whillans",
+      "latest_jockey": "Greg Fairley",
+      "latest_draw": 10,
+      "latest_weight_lbs": 137,
+      "official_rating": "54",
+      "recent_form": "356363",
+      "last_run_days": 5,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Musselburgh": 1,
+        "Ayr": 1
+      },
+      "distances_seen": {
+        "7.0": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 6": 2
+      },
+      "trainers_seen": {
+        "Ewan Whillans": 2
+      },
+      "jockeys_seen": {
+        "Greg Fairley": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 51,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988366",
+          "course": "Musselburgh",
+          "date": "2026-06-30",
+          "off_time": "3:30",
+          "off_dt": "2026-06-30T15:30:00+01:00",
+          "race_name": "Max Recycle Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Ramon Di Loria",
+          "horse_id": "hrs_22241121",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Ewan Whillans",
+          "trainer_id": "trn_348426",
+          "jockey": "Greg Fairley",
+          "jockey_id": "jky_252060",
+          "draw": 7,
+          "number": 6,
+          "lbs": 136,
+          "ofr": "54",
+          "last_run": 15,
+          "form": "235636",
+          "headgear": "",
+          "_stored_at": "2026-06-30T05:14:25.915521+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989822",
+          "course": "Ayr",
+          "date": "2026-07-05",
+          "off_time": "5:35",
+          "off_dt": "2026-07-05T17:35:00+01:00",
+          "race_name": "Sunday Roast At westernhousehotel Available Now Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Ramon Di Loria",
+          "horse_id": "hrs_22241121",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Ewan Whillans",
+          "trainer_id": "trn_348426",
+          "jockey": "Greg Fairley",
+          "jockey_id": "jky_252060",
+          "draw": 10,
+          "number": 5,
+          "lbs": 137,
+          "ofr": "54",
+          "last_run": 5,
+          "form": "356363",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Musselburgh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 81,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Ayr",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 51,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Defence Missile",
+      "horse_id": "hrs_40918899",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Ayr",
+      "latest_time": "5:35",
+      "latest_race": "Sunday Roast At westernhousehotel Available Now Handicap",
+      "latest_date": "2026-07-05",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Linda Perratt",
+      "latest_jockey": "NON-RUNNER",
+      "latest_draw": 11,
+      "latest_weight_lbs": 138,
+      "official_rating": "55",
+      "recent_form": "586-89",
+      "last_run_days": 5,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Musselburgh": 1,
+        "Ayr": 1
+      },
+      "distances_seen": {
+        "7.0": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 6": 2
+      },
+      "trainers_seen": {
+        "Linda Perratt": 2
+      },
+      "jockeys_seen": {
+        "David Allan": 1,
+        "NON-RUNNER": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 45,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988366",
+          "course": "Musselburgh",
+          "date": "2026-06-30",
+          "off_time": "3:30",
+          "off_dt": "2026-06-30T15:30:00+01:00",
+          "race_name": "Max Recycle Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Defence Missile",
+          "horse_id": "hrs_40918899",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Linda Perratt",
+          "trainer_id": "trn_51552",
+          "jockey": "David Allan",
+          "jockey_id": "jky_234669",
+          "draw": 3,
+          "number": 3,
+          "lbs": 137,
+          "ofr": "55",
+          "last_run": 11,
+          "form": "0586-8",
+          "headgear": "",
+          "_stored_at": "2026-06-30T05:14:25.855764+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989822",
+          "course": "Ayr",
+          "date": "2026-07-05",
+          "off_time": "5:35",
+          "off_dt": "2026-07-05T17:35:00+01:00",
+          "race_name": "Sunday Roast At westernhousehotel Available Now Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Defence Missile",
+          "horse_id": "hrs_40918899",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Linda Perratt",
+          "trainer_id": "trn_51552",
+          "jockey": "NON-RUNNER",
+          "jockey_id": "jky_224913",
+          "draw": 11,
+          "number": null,
+          "lbs": 138,
+          "ofr": "55",
+          "last_run": 5,
+          "form": "586-89",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Musselburgh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 81,
+      "horse_intelligence_score": 45,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Ayr",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 45,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Toy Soldier",
+      "horse_id": "hrs_39961607",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Ayr",
+      "latest_time": "5:35",
+      "latest_race": "Sunday Roast At westernhousehotel Available Now Handicap",
+      "latest_date": "2026-07-05",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Maurice Andrew Ahern",
+      "latest_jockey": "Leigh Roche",
+      "latest_draw": 4,
+      "latest_weight_lbs": 137,
+      "official_rating": "54",
+      "recent_form": "-00422",
+      "last_run_days": 5,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Roscommon": 1,
+        "Ayr": 1
+      },
+      "distances_seen": {
+        "7.5": 1,
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Maurice Andrew Ahern": 2
+      },
+      "jockeys_seen": {
+        "Dylan Browne McMonagle": 1,
+        "Leigh Roche": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 52,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Trainer bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007645",
+          "course": "Roscommon",
+          "date": "2026-06-30",
+          "off_time": "6:30",
+          "off_dt": "2026-06-30T18:30:00+01:00",
+          "race_name": "Jimmy Murray Agri Services Handicap (0-60)",
+          "distance_f": 7.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Toy Soldier",
+          "horse_id": "hrs_39961607",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Maurice Andrew Ahern",
+          "trainer_id": "trn_381051",
+          "jockey": "Dylan Browne McMonagle",
+          "jockey_id": "jky_299181",
+          "draw": 8,
+          "number": 9,
+          "lbs": 136,
+          "ofr": "54",
+          "last_run": 11,
+          "form": "0-0042",
+          "headgear": "v",
+          "_stored_at": "2026-06-30T05:14:29.121551+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989822",
+          "course": "Ayr",
+          "date": "2026-07-05",
+          "off_time": "5:35",
+          "off_dt": "2026-07-05T17:35:00+01:00",
+          "race_name": "Sunday Roast At westernhousehotel Available Now Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Toy Soldier",
+          "horse_id": "hrs_39961607",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Maurice Andrew Ahern",
+          "trainer_id": "trn_381051",
+          "jockey": "Leigh Roche",
+          "jockey_id": "jky_268713",
+          "draw": 4,
+          "number": 2,
+          "lbs": 137,
+          "ofr": "54",
+          "last_run": 5,
+          "form": "-00422",
+          "headgear": "v"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Roscommon",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 72,
+      "horse_intelligence_score": 45,
+      "profile_strengths": [
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Ayr",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 52,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Bonito Cavalo",
+      "horse_id": "hrs_30850484",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Ayr",
+      "latest_time": "5:35",
+      "latest_race": "Sunday Roast At westernhousehotel Available Now Handicap",
+      "latest_date": "2026-07-05",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jim Goldie",
+      "latest_jockey": "Paul Mulrennan",
+      "latest_draw": 12,
+      "latest_weight_lbs": 129,
+      "official_rating": "46",
+      "recent_form": "-08790",
+      "last_run_days": 5,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Musselburgh": 1,
+        "Ayr": 1
+      },
+      "distances_seen": {
+        "5.0": 1,
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 6": 2
+      },
+      "trainers_seen": {
+        "Jim Goldie": 2
+      },
+      "jockeys_seen": {
+        "Lauren Young(5)": 1,
+        "Paul Mulrennan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 32,
+      "latest_notes": [
+        "Weak recent form",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988379",
+          "course": "Musselburgh",
+          "date": "2026-06-30",
+          "off_time": "5:05",
+          "off_dt": "2026-06-30T17:05:00+01:00",
+          "race_name": "Watch On Racing TV Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Bonito Cavalo",
+          "horse_id": "hrs_30850484",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "Jim Goldie",
+          "trainer_id": "trn_70155",
+          "jockey": "Lauren Young(5)",
+          "jockey_id": "jky_311244",
+          "draw": 3,
+          "number": 8,
+          "lbs": 127,
+          "ofr": "45",
+          "last_run": 78,
+          "form": "0-0879",
+          "headgear": "",
+          "_stored_at": "2026-06-30T05:14:26.433228+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989822",
+          "course": "Ayr",
+          "date": "2026-07-05",
+          "off_time": "5:35",
+          "off_dt": "2026-07-05T17:35:00+01:00",
+          "race_name": "Sunday Roast At westernhousehotel Available Now Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Bonito Cavalo",
+          "horse_id": "hrs_30850484",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "Jim Goldie",
+          "trainer_id": "trn_70155",
+          "jockey": "Paul Mulrennan",
+          "jockey_id": "jky_238113",
+          "draw": 12,
+          "number": 10,
+          "lbs": 129,
+          "ofr": "46",
+          "last_run": 5,
+          "form": "-08790",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Musselburgh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 72,
+      "horse_intelligence_score": 36,
+      "profile_strengths": [
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Ayr",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 32,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {

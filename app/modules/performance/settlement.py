@@ -152,10 +152,17 @@ def settle_bets(stake=1.0):
     bets = load_jsonl(LEDGER_FILE)
     index = build_result_index()
     loose_index = build_loose_result_index(index)
+
     settled = []
     open_bets = []
+    updated_bets = []
 
     for bet in bets:
+        if bet.get("status") == "SETTLED":
+            settled.append(bet)
+            updated_bets.append(bet)
+            continue
+
         key = (
             normalise(bet.get("date")),
             normalise(bet.get("course")),
@@ -179,13 +186,15 @@ def settle_bets(stake=1.0):
 
         if not result:
             open_bets.append(bet)
+            updated_bets.append(bet)
             continue
 
+        bet_stake = float(bet.get("stake") or stake)
         won = str(result.get("position")) == "1"
         decimal_odds = float(bet.get("best_odds_decimal") or 0)
 
-        returned = stake * decimal_odds if won else 0.0
-        profit = returned - stake
+        returned = bet_stake * decimal_odds if won else 0.0
+        profit = returned - bet_stake
 
         settled_bet = dict(bet)
         settled_bet["status"] = "SETTLED"
@@ -193,17 +202,22 @@ def settle_bets(stake=1.0):
         settled_bet["result_position"] = result.get("position")
         settled_bet["sp"] = result.get("sp")
         settled_bet["won"] = won
-        settled_bet["stake"] = stake
+        settled_bet["stake"] = bet_stake
         settled_bet["returned"] = round(returned, 2)
         settled_bet["profit"] = round(profit, 2)
-        settled_bet["roi"] = round((profit / stake) * 100, 2)
+        settled_bet["roi"] = round((profit / bet_stake) * 100, 2)
 
         settled.append(settled_bet)
+        updated_bets.append(settled_bet)
 
     SETTLED_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     with SETTLED_FILE.open("w", encoding="utf-8") as f:
         for row in settled:
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+    with LEDGER_FILE.open("w", encoding="utf-8") as f:
+        for row in updated_bets:
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
     return {
@@ -212,16 +226,5 @@ def settle_bets(stake=1.0):
         "settled": len(settled),
         "open": len(open_bets),
         "settled_file": str(SETTLED_FILE),
+        "ledger_file": str(LEDGER_FILE),
     }
-
-
-if __name__ == "__main__":
-    report = settle_bets(1.0)
-
-    print("Settlement Complete")
-    print("-" * 40)
-    print(f"Ledger bets: {report['ledger_bets']}")
-    print(f"Results indexed: {report['results_indexed']}")
-    print(f"Settled: {report['settled']}")
-    print(f"Open: {report['open']}")
-    print(f"File: {report['settled_file']}")

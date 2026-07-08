@@ -257,10 +257,28 @@ async function refreshUpdateStatus() {
     data.failed.forEach(function(item) {
         grid.innerHTML += "<div class='update-task update-task-failed'>✖ " + item + "</div>";
     });
+
+    const updateStarted =
+        new URLSearchParams(window.location.search).get("update") === "started";
+
+    if (updateStarted && data.running) {
+        sessionStorage.setItem("pulseUpdateInProgress", "1");
+    }
+
+    if (
+        sessionStorage.getItem("pulseUpdateInProgress") === "1" &&
+        !data.running &&
+        data.current_task === "Complete"
+    ) {
+        sessionStorage.removeItem("pulseUpdateInProgress");
+
+        setTimeout(() => {
+            window.location.href = "/";
+        }, 1500);
+    }
 }
 
 setInterval(refreshUpdateStatus, 1000);
 refreshUpdateStatus();
 </script>
-
 {% endblock %}
