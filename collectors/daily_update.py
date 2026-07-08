@@ -34,9 +34,8 @@ JOBS = {
     ],
 
     "performance": [
-        {"label": "BBC Horse Results", "module": "collectors.bbc_horse_results"},
+        {"label": "Live Results Update", "module": "collectors.update_market_results"},
         {"label": "Sporting Life Results", "module": "collectors.sporting_life_results"},
-        {"label": "Settle Bet Ledger", "module": "app.modules.performance.settlement"},
         {"label": "Pulse Performance", "module": "collectors.analyse_pulse_performance"},
         {"label": "Learn From Results", "module": "collectors.learn_from_results"},
         {"label": "Learning Factors", "module": "collectors.analyse_learning_factors"},
@@ -73,6 +72,11 @@ def run_jobs(mode, progress_callback=None):
         module = job["module"]
         job_started = time.time()
 
+        print("=" * 70, flush=True)
+        print(f"[{index}/{total}] {label}", flush=True)
+        print(f"Module: {module}", flush=True)
+        print("=" * 70, flush=True)
+
         if progress_callback:
             progress_callback(
                 {
@@ -88,7 +92,6 @@ def run_jobs(mode, progress_callback=None):
             completed = subprocess.run(
                 [sys.executable, "-m", module],
                 text=True,
-                capture_output=True,
                 check=False,
             )
 
@@ -99,8 +102,8 @@ def run_jobs(mode, progress_callback=None):
                 "module": module,
                 "success": success,
                 "returncode": completed.returncode,
-                "stdout": completed.stdout,
-                "stderr": completed.stderr,
+                "stdout": "",
+                "stderr": "",
             }
 
         except Exception as exc:
@@ -115,8 +118,13 @@ def run_jobs(mode, progress_callback=None):
                 "stderr": str(exc),
             }
 
+            print(f"FAILED: {exc}", flush=True)
+
         result["runtime"] = round(time.time() - job_started, 2)
         results.append(result)
+
+        status = "OK" if success else "FAILED"
+        print(f"{status} | {label} | {result['runtime']}s", flush=True)
 
         if progress_callback:
             progress_callback(
@@ -141,7 +149,6 @@ def run_jobs(mode, progress_callback=None):
         "runtime": round(finished_at - started_at, 1),
     }
 
-
 if __name__ == "__main__":
     summary = run_jobs("all")
 
@@ -151,12 +158,7 @@ if __name__ == "__main__":
 
     for result in summary["results"]:
         status = "OK" if result["success"] else "FAILED"
-
-        print(
-            f"{status:<7}"
-            f"{result['runtime']:>8}s   "
-            f"{result['label']}"
-        )
+        print(f"{status:<7}{result['runtime']:>8}s   {result['label']}")
 
     print("-" * 70)
     print(f"Total runtime: {summary['runtime']}s")

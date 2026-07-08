@@ -5,13 +5,13 @@
   "time": "3:48",
   "race_name": "Pontefract Squash And Leisure Club Handicap",
   "field_size": 11,
-  "average_intelligence": 51.09,
+  "average_intelligence": 50.55,
   "top_score": 61,
-  "second_score": 58,
-  "gap": 3,
-  "confidence_score": 51,
+  "second_score": 56,
+  "gap": 5,
+  "confidence_score": 54,
   "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
     "horse": "Dubai Venture",
     "horse_id": "hrs_36695841",
@@ -157,23 +157,26 @@
     "official_rating": "51",
     "recent_form": "1423-5",
     "last_run_days": 35,
-    "profile_runs": 1,
+    "profile_runs": 3,
     "courses_seen": {
+      "Beverley": 2,
       "Pontefract": 1
     },
     "distances_seen": {
-      "12.0": 1
+      "12.0": 3
     },
     "goings_seen": {
-      "Good": 1
+      "Good": 3
     },
     "classes_seen": {
-      "Class 6": 1
+      "Class 6": 3
     },
     "trainers_seen": {
+      "P T Midgley": 2,
       "Paul Midgley": 1
     },
     "jockeys_seen": {
+      "D Nolan": 2,
       "David Nolan": 1
     },
     "average_pulse_score": 0,
@@ -187,6 +190,68 @@
       "Jockey bonus +1"
     ],
     "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976588",
+        "course": "Beverley",
+        "date": "2026-06-23",
+        "off_time": "3:45",
+        "off_dt": "2026-06-23T15:45:00+01:00",
+        "race_name": "Beverley Annual Badgeholders Handicap",
+        "distance_f": 12.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 6,
+        "horse": "Jedhi Knight",
+        "horse_id": "hrs_50339793",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "P T Midgley",
+        "trainer_id": "trn_143532",
+        "jockey": "D Nolan",
+        "jockey_id": "jky_42996",
+        "draw": 2,
+        "number": null,
+        "lbs": 131,
+        "ofr": "51",
+        "last_run": 21,
+        "form": "1423-5",
+        "headgear": "b",
+        "_stored_at": "2026-06-23T21:32:39.125608+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976588",
+        "course": "Beverley",
+        "date": "2026-06-23",
+        "off_time": "3:45",
+        "off_dt": "2026-06-23T15:45:00+01:00",
+        "race_name": "Beverley Annual Badgeholders Handicap",
+        "distance_f": 12.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 6,
+        "horse": "Jedhi Knight",
+        "horse_id": "hrs_50339793",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "P T Midgley",
+        "trainer_id": "trn_143532",
+        "jockey": "D Nolan",
+        "jockey_id": "jky_42996",
+        "draw": 2,
+        "number": null,
+        "lbs": 131,
+        "ofr": "51",
+        "last_run": 21,
+        "form": "1423-5",
+        "headgear": "b",
+        "_stored_at": "2026-06-25T06:53:16.534023+00:00"
+      },
       {
         "source": "the_racing_api",
         "race_id": "rac_11990147",
@@ -218,38 +283,39 @@
         "headgear": "b"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Profile has multiple stored runs"
+    ],
     "favourite_course": {
-      "value": "Pontefract",
-      "runs": 1
+      "value": "Beverley",
+      "runs": 2
     },
     "favourite_distance": {
       "value": 12.0,
-      "runs": 1
+      "runs": 3
     },
     "favourite_going": {
       "value": "Good",
-      "runs": 1
+      "runs": 3
     },
     "favourite_class": {
       "value": "Class 6",
-      "runs": 1
+      "runs": 3
     },
-    "course_suitability_score": 90,
+    "course_suitability_score": 55,
     "distance_suitability_score": 90,
     "going_suitability_score": 90,
     "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 58,
+    "suitability_score": 81,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
-      "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Limited stored profile data"
+      "Course does not strongly match stored profile"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
@@ -259,8 +325,8 @@
       "latest_class": "Class 6",
       "latest_pulse_score": 70,
       "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
+      "profile_runs": 3,
+      "runs_count": 3
     }
   },
   "dark_horse": {
@@ -283,23 +349,26 @@
     "official_rating": "51",
     "recent_form": "1423-5",
     "last_run_days": 35,
-    "profile_runs": 1,
+    "profile_runs": 3,
     "courses_seen": {
+      "Beverley": 2,
       "Pontefract": 1
     },
     "distances_seen": {
-      "12.0": 1
+      "12.0": 3
     },
     "goings_seen": {
-      "Good": 1
+      "Good": 3
     },
     "classes_seen": {
-      "Class 6": 1
+      "Class 6": 3
     },
     "trainers_seen": {
+      "P T Midgley": 2,
       "Paul Midgley": 1
     },
     "jockeys_seen": {
+      "D Nolan": 2,
       "David Nolan": 1
     },
     "average_pulse_score": 0,
@@ -313,6 +382,68 @@
       "Jockey bonus +1"
     ],
     "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976588",
+        "course": "Beverley",
+        "date": "2026-06-23",
+        "off_time": "3:45",
+        "off_dt": "2026-06-23T15:45:00+01:00",
+        "race_name": "Beverley Annual Badgeholders Handicap",
+        "distance_f": 12.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 6,
+        "horse": "Jedhi Knight",
+        "horse_id": "hrs_50339793",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "P T Midgley",
+        "trainer_id": "trn_143532",
+        "jockey": "D Nolan",
+        "jockey_id": "jky_42996",
+        "draw": 2,
+        "number": null,
+        "lbs": 131,
+        "ofr": "51",
+        "last_run": 21,
+        "form": "1423-5",
+        "headgear": "b",
+        "_stored_at": "2026-06-23T21:32:39.125608+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976588",
+        "course": "Beverley",
+        "date": "2026-06-23",
+        "off_time": "3:45",
+        "off_dt": "2026-06-23T15:45:00+01:00",
+        "race_name": "Beverley Annual Badgeholders Handicap",
+        "distance_f": 12.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 6,
+        "horse": "Jedhi Knight",
+        "horse_id": "hrs_50339793",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "P T Midgley",
+        "trainer_id": "trn_143532",
+        "jockey": "D Nolan",
+        "jockey_id": "jky_42996",
+        "draw": 2,
+        "number": null,
+        "lbs": 131,
+        "ofr": "51",
+        "last_run": 21,
+        "form": "1423-5",
+        "headgear": "b",
+        "_stored_at": "2026-06-25T06:53:16.534023+00:00"
+      },
       {
         "source": "the_racing_api",
         "race_id": "rac_11990147",
@@ -344,38 +475,39 @@
         "headgear": "b"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Profile has multiple stored runs"
+    ],
     "favourite_course": {
-      "value": "Pontefract",
-      "runs": 1
+      "value": "Beverley",
+      "runs": 2
     },
     "favourite_distance": {
       "value": 12.0,
-      "runs": 1
+      "runs": 3
     },
     "favourite_going": {
       "value": "Good",
-      "runs": 1
+      "runs": 3
     },
     "favourite_class": {
       "value": "Class 6",
-      "runs": 1
+      "runs": 3
     },
-    "course_suitability_score": 90,
+    "course_suitability_score": 55,
     "distance_suitability_score": 90,
     "going_suitability_score": 90,
     "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 58,
+    "suitability_score": 81,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
-      "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Limited stored profile data"
+      "Course does not strongly match stored profile"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
@@ -385,8 +517,8 @@
       "latest_class": "Class 6",
       "latest_pulse_score": 70,
       "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
+      "profile_runs": 3,
+      "runs_count": 3
     }
   },
   "runners": [
@@ -535,23 +667,26 @@
       "official_rating": "51",
       "recent_form": "1423-5",
       "last_run_days": 35,
-      "profile_runs": 1,
+      "profile_runs": 3,
       "courses_seen": {
+        "Beverley": 2,
         "Pontefract": 1
       },
       "distances_seen": {
-        "12.0": 1
+        "12.0": 3
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 3
       },
       "classes_seen": {
-        "Class 6": 1
+        "Class 6": 3
       },
       "trainers_seen": {
+        "P T Midgley": 2,
         "Paul Midgley": 1
       },
       "jockeys_seen": {
+        "D Nolan": 2,
         "David Nolan": 1
       },
       "average_pulse_score": 0,
@@ -565,6 +700,68 @@
         "Jockey bonus +1"
       ],
       "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976588",
+          "course": "Beverley",
+          "date": "2026-06-23",
+          "off_time": "3:45",
+          "off_dt": "2026-06-23T15:45:00+01:00",
+          "race_name": "Beverley Annual Badgeholders Handicap",
+          "distance_f": 12.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Jedhi Knight",
+          "horse_id": "hrs_50339793",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "P T Midgley",
+          "trainer_id": "trn_143532",
+          "jockey": "D Nolan",
+          "jockey_id": "jky_42996",
+          "draw": 2,
+          "number": null,
+          "lbs": 131,
+          "ofr": "51",
+          "last_run": 21,
+          "form": "1423-5",
+          "headgear": "b",
+          "_stored_at": "2026-06-23T21:32:39.125608+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976588",
+          "course": "Beverley",
+          "date": "2026-06-23",
+          "off_time": "3:45",
+          "off_dt": "2026-06-23T15:45:00+01:00",
+          "race_name": "Beverley Annual Badgeholders Handicap",
+          "distance_f": 12.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Jedhi Knight",
+          "horse_id": "hrs_50339793",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "P T Midgley",
+          "trainer_id": "trn_143532",
+          "jockey": "D Nolan",
+          "jockey_id": "jky_42996",
+          "draw": 2,
+          "number": null,
+          "lbs": 131,
+          "ofr": "51",
+          "last_run": 21,
+          "form": "1423-5",
+          "headgear": "b",
+          "_stored_at": "2026-06-25T06:53:16.534023+00:00"
+        },
         {
           "source": "the_racing_api",
           "race_id": "rac_11990147",
@@ -596,38 +793,39 @@
           "headgear": "b"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Profile has multiple stored runs"
+      ],
       "favourite_course": {
-        "value": "Pontefract",
-        "runs": 1
+        "value": "Beverley",
+        "runs": 2
       },
       "favourite_distance": {
         "value": 12.0,
-        "runs": 1
+        "runs": 3
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 3
       },
       "favourite_class": {
         "value": "Class 6",
-        "runs": 1
+        "runs": 3
       },
-      "course_suitability_score": 90,
+      "course_suitability_score": 55,
       "distance_suitability_score": 90,
       "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 58,
+      "suitability_score": 81,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
-        "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
         "Race class matches common profile level",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Limited stored profile data"
+        "Course does not strongly match stored profile"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -637,134 +835,8 @@
         "latest_class": "Class 6",
         "latest_pulse_score": 70,
         "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Princess Vivi",
-      "horse_id": "hrs_47313756",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Pontefract",
-      "latest_time": "3:48",
-      "latest_race": "Pontefract Squash And Leisure Club Handicap",
-      "latest_date": "2026-07-07",
-      "latest_distance_f": 12.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Antony Brittain",
-      "latest_jockey": "Cam Hardie",
-      "latest_draw": 5,
-      "latest_weight_lbs": 129,
-      "official_rating": "47",
-      "recent_form": "-44624",
-      "last_run_days": 14,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Pontefract": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Antony Brittain": 1
-      },
-      "jockeys_seen": {
-        "Cam Hardie": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990147",
-          "course": "Pontefract",
-          "date": "2026-07-07",
-          "off_time": "3:48",
-          "off_dt": "2026-07-07T15:48:00+01:00",
-          "race_name": "Pontefract Squash And Leisure Club Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Princess Vivi",
-          "horse_id": "hrs_47313756",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Antony Brittain",
-          "trainer_id": "trn_278469",
-          "jockey": "Cam Hardie",
-          "jockey_id": "jky_278196",
-          "draw": 5,
-          "number": 8,
-          "lbs": 129,
-          "ofr": "47",
-          "last_run": 14,
-          "form": "-44624",
-          "headgear": "v"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Pontefract",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Pontefract",
-        "latest_distance_f": 12.0,
-        "latest_going": "Good",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 60,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -1017,133 +1089,6 @@
       }
     },
     {
-      "horse": "Lednikov",
-      "horse_id": "hrs_28707154",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Pontefract",
-      "latest_time": "3:48",
-      "latest_race": "Pontefract Squash And Leisure Club Handicap",
-      "latest_date": "2026-07-07",
-      "latest_distance_f": 12.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ivan Furtado",
-      "latest_jockey": "Elle-May Croot(5)",
-      "latest_draw": 1,
-      "latest_weight_lbs": 134,
-      "official_rating": "52",
-      "recent_form": "176555",
-      "last_run_days": 14,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Pontefract": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Ivan Furtado": 1
-      },
-      "jockeys_seen": {
-        "Elle-May Croot(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 57,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990147",
-          "course": "Pontefract",
-          "date": "2026-07-07",
-          "off_time": "3:48",
-          "off_dt": "2026-07-07T15:48:00+01:00",
-          "race_name": "Pontefract Squash And Leisure Club Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Lednikov",
-          "horse_id": "hrs_28707154",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Ivan Furtado",
-          "trainer_id": "trn_277803",
-          "jockey": "Elle-May Croot(5)",
-          "jockey_id": "jky_302214",
-          "draw": 1,
-          "number": 2,
-          "lbs": 134,
-          "ofr": "52",
-          "last_run": 14,
-          "form": "176555",
-          "headgear": "b"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Pontefract",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Pontefract",
-        "latest_distance_f": 12.0,
-        "latest_going": "Good",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 57,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
       "horse": "Yakhabar",
       "horse_id": "hrs_25868479",
       "age": 7,
@@ -1268,10 +1213,10 @@
       }
     },
     {
-      "horse": "Clipsham Noble",
-      "horse_id": "hrs_39190466",
+      "horse": "Princess Vivi",
+      "horse_id": "hrs_47313756",
       "age": 4,
-      "sex": "gelding",
+      "sex": "filly",
       "latest_course": "Pontefract",
       "latest_time": "3:48",
       "latest_race": "Pontefract Squash And Leisure Club Handicap",
@@ -1280,166 +1225,105 @@
       "latest_class": "Class 6",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Charlie Clover",
-      "latest_jockey": "Liam Wright(5)",
-      "latest_draw": 2,
-      "latest_weight_lbs": 132,
-      "official_rating": "50",
-      "recent_form": "465414",
-      "last_run_days": 12,
-      "profile_runs": 5,
+      "latest_trainer": "Antony Brittain",
+      "latest_jockey": "Cam Hardie",
+      "latest_draw": 5,
+      "latest_weight_lbs": 129,
+      "official_rating": "47",
+      "recent_form": "-44624",
+      "last_run_days": 14,
+      "profile_runs": 3,
       "courses_seen": {
-        "Leicester": 4,
+        "Beverley": 2,
         "Pontefract": 1
       },
       "distances_seen": {
-        "12.0": 5
+        "12.0": 3
       },
       "goings_seen": {
-        "Good To Firm": 4,
-        "Good": 1
+        "Good": 3
       },
       "classes_seen": {
-        "Class 6": 5
+        "Class 6": 3
       },
       "trainers_seen": {
-        "Charlie Clover": 5
+        "A Brittain": 2,
+        "Antony Brittain": 1
       },
       "jockeys_seen": {
-        "Liam Wright(5)": 5
+        "Cam Hardie": 3
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 57,
+      "latest_pulse_score": 60,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
-        "Jockey concern -2"
+        "Ideal layoff profile +2",
+        "Helpful draw"
       ],
       "runs": [
         {
           "source": "the_racing_api",
-          "race_id": "rac_11977173",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "7:15",
-          "off_dt": "2026-06-25T19:15:00+01:00",
-          "race_name": "Global Harvester Handicap",
+          "race_id": "rac_11976588",
+          "course": "Beverley",
+          "date": "2026-06-23",
+          "off_time": "3:45",
+          "off_dt": "2026-06-23T15:45:00+01:00",
+          "race_name": "Beverley Annual Badgeholders Handicap",
           "distance_f": 12.0,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 8,
-          "horse": "Clipsham Noble",
-          "horse_id": "hrs_39190466",
+          "field_size": 6,
+          "horse": "Princess Vivi",
+          "horse_id": "hrs_47313756",
           "age": 4,
-          "sex": "gelding",
-          "trainer": "Charlie Clover",
-          "trainer_id": "trn_377352",
-          "jockey": "Liam Wright(5)",
-          "jockey_id": "jky_304650",
-          "draw": 5,
-          "number": 4,
-          "lbs": 132,
-          "ofr": "50",
-          "last_run": 31,
-          "form": "-46541",
+          "sex": "filly",
+          "trainer": "A Brittain",
+          "trainer_id": "trn_278469",
+          "jockey": "Cam Hardie",
+          "jockey_id": "jky_278196",
+          "draw": 3,
+          "number": 5,
+          "lbs": 127,
+          "ofr": "47",
+          "last_run": 27,
+          "form": "0-4462",
           "headgear": "p",
-          "_stored_at": "2026-06-25T14:16:19.382033+00:00"
+          "_stored_at": "2026-06-23T21:32:39.062125+00:00"
         },
         {
           "source": "the_racing_api",
-          "race_id": "rac_11977173",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "7:15",
-          "off_dt": "2026-06-25T19:15:00+01:00",
-          "race_name": "Global Harvester Handicap",
+          "race_id": "rac_11976588",
+          "course": "Beverley",
+          "date": "2026-06-23",
+          "off_time": "3:45",
+          "off_dt": "2026-06-23T15:45:00+01:00",
+          "race_name": "Beverley Annual Badgeholders Handicap",
           "distance_f": 12.0,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 8,
-          "horse": "Clipsham Noble",
-          "horse_id": "hrs_39190466",
+          "field_size": 6,
+          "horse": "Princess Vivi",
+          "horse_id": "hrs_47313756",
           "age": 4,
-          "sex": "gelding",
-          "trainer": "Charlie Clover",
-          "trainer_id": "trn_377352",
-          "jockey": "Liam Wright(5)",
-          "jockey_id": "jky_304650",
-          "draw": 5,
-          "number": 4,
-          "lbs": 132,
-          "ofr": "50",
-          "last_run": 31,
-          "form": "-46541",
+          "sex": "filly",
+          "trainer": "A Brittain",
+          "trainer_id": "trn_278469",
+          "jockey": "Cam Hardie",
+          "jockey_id": "jky_278196",
+          "draw": 3,
+          "number": 5,
+          "lbs": 127,
+          "ofr": "47",
+          "last_run": 27,
+          "form": "0-4462",
           "headgear": "p",
-          "_stored_at": "2026-06-25T17:11:29.054453+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977173",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "7:15",
-          "off_dt": "2026-06-25T19:15:00+01:00",
-          "race_name": "Global Harvester Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Clipsham Noble",
-          "horse_id": "hrs_39190466",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Charlie Clover",
-          "trainer_id": "trn_377352",
-          "jockey": "Liam Wright(5)",
-          "jockey_id": "jky_304650",
-          "draw": 5,
-          "number": 4,
-          "lbs": 132,
-          "ofr": "50",
-          "last_run": 31,
-          "form": "-46541",
-          "headgear": "p",
-          "_stored_at": "2026-06-26T08:14:06.912145+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977173",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "7:15",
-          "off_dt": "2026-06-25T19:15:00+01:00",
-          "race_name": "Global Harvester Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Clipsham Noble",
-          "horse_id": "hrs_39190466",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Charlie Clover",
-          "trainer_id": "trn_377352",
-          "jockey": "Liam Wright(5)",
-          "jockey_id": "jky_304650",
-          "draw": 5,
-          "number": 4,
-          "lbs": 132,
-          "ofr": "50",
-          "last_run": 31,
-          "form": "-46541",
-          "headgear": "p",
-          "_stored_at": "2026-06-28T12:42:15.633222+00:00"
+          "_stored_at": "2026-06-25T06:53:16.476526+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1455,21 +1339,212 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 11,
-          "horse": "Clipsham Noble",
-          "horse_id": "hrs_39190466",
+          "horse": "Princess Vivi",
+          "horse_id": "hrs_47313756",
           "age": 4,
+          "sex": "filly",
+          "trainer": "Antony Brittain",
+          "trainer_id": "trn_278469",
+          "jockey": "Cam Hardie",
+          "jockey_id": "jky_278196",
+          "draw": 5,
+          "number": 8,
+          "lbs": 129,
+          "ofr": "47",
+          "last_run": 14,
+          "form": "-44624",
+          "headgear": "v"
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Beverley",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 3
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 3
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 3
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 81,
+      "horse_intelligence_score": 51,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Pontefract",
+        "latest_distance_f": 12.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 60,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
+      }
+    },
+    {
+      "horse": "Lednikov",
+      "horse_id": "hrs_28707154",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Pontefract",
+      "latest_time": "3:48",
+      "latest_race": "Pontefract Squash And Leisure Club Handicap",
+      "latest_date": "2026-07-07",
+      "latest_distance_f": 12.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ivan Furtado",
+      "latest_jockey": "Elle-May Croot(5)",
+      "latest_draw": 1,
+      "latest_weight_lbs": 134,
+      "official_rating": "52",
+      "recent_form": "176555",
+      "last_run_days": 14,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Beverley": 2,
+        "Pontefract": 1
+      },
+      "distances_seen": {
+        "12.0": 3
+      },
+      "goings_seen": {
+        "Good": 3
+      },
+      "classes_seen": {
+        "Class 6": 3
+      },
+      "trainers_seen": {
+        "I Furtado": 2,
+        "Ivan Furtado": 1
+      },
+      "jockeys_seen": {
+        "Elle-May Croot": 2,
+        "Elle-May Croot(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 57,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976588",
+          "course": "Beverley",
+          "date": "2026-06-23",
+          "off_time": "3:45",
+          "off_dt": "2026-06-23T15:45:00+01:00",
+          "race_name": "Beverley Annual Badgeholders Handicap",
+          "distance_f": 12.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Lednikov",
+          "horse_id": "hrs_28707154",
+          "age": 8,
           "sex": "gelding",
-          "trainer": "Charlie Clover",
-          "trainer_id": "trn_377352",
-          "jockey": "Liam Wright(5)",
-          "jockey_id": "jky_304650",
-          "draw": 2,
-          "number": 4,
-          "lbs": 132,
-          "ofr": "50",
-          "last_run": 12,
-          "form": "465414",
-          "headgear": "p"
+          "trainer": "I Furtado",
+          "trainer_id": "trn_277803",
+          "jockey": "Elle-May Croot",
+          "jockey_id": "jky_302214",
+          "draw": 4,
+          "number": 2,
+          "lbs": 134,
+          "ofr": "54",
+          "last_run": 10,
+          "form": "917655",
+          "headgear": "b",
+          "_stored_at": "2026-06-23T21:32:39.048186+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976588",
+          "course": "Beverley",
+          "date": "2026-06-23",
+          "off_time": "3:45",
+          "off_dt": "2026-06-23T15:45:00+01:00",
+          "race_name": "Beverley Annual Badgeholders Handicap",
+          "distance_f": 12.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Lednikov",
+          "horse_id": "hrs_28707154",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "I Furtado",
+          "trainer_id": "trn_277803",
+          "jockey": "Elle-May Croot",
+          "jockey_id": "jky_302214",
+          "draw": 4,
+          "number": 2,
+          "lbs": 134,
+          "ofr": "54",
+          "last_run": 10,
+          "form": "917655",
+          "headgear": "b",
+          "_stored_at": "2026-06-25T06:53:16.466970+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990147",
+          "course": "Pontefract",
+          "date": "2026-07-07",
+          "off_time": "3:48",
+          "off_dt": "2026-07-07T15:48:00+01:00",
+          "race_name": "Pontefract Squash And Leisure Club Handicap",
+          "distance_f": 12.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Lednikov",
+          "horse_id": "hrs_28707154",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Ivan Furtado",
+          "trainer_id": "trn_277803",
+          "jockey": "Elle-May Croot(5)",
+          "jockey_id": "jky_302214",
+          "draw": 1,
+          "number": 2,
+          "lbs": 134,
+          "ofr": "52",
+          "last_run": 14,
+          "form": "176555",
+          "headgear": "b"
         }
       ],
       "profile_notes": [
@@ -1478,34 +1553,34 @@
         "Recent run timing"
       ],
       "favourite_course": {
-        "value": "Leicester",
-        "runs": 4
+        "value": "Beverley",
+        "runs": 2
       },
       "favourite_distance": {
         "value": 12.0,
-        "runs": 5
+        "runs": 3
       },
       "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 4
+        "value": "Good",
+        "runs": 3
       },
       "favourite_class": {
         "value": "Class 6",
-        "runs": 5
+        "runs": 3
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
-      "going_suitability_score": 55,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 72,
-      "horse_intelligence_score": 47,
+      "suitability_score": 81,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile"
+        "Course does not strongly match stored profile"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -1515,8 +1590,8 @@
         "latest_class": "Class 6",
         "latest_pulse_score": 57,
         "average_pulse_score": 0,
-        "profile_runs": 5,
-        "runs_count": 5
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -1539,27 +1614,26 @@
       "official_rating": "45",
       "recent_form": "533443",
       "last_run_days": 12,
-      "profile_runs": 5,
+      "profile_runs": 2,
       "courses_seen": {
-        "Nottingham": 4,
+        "Nottingham": 1,
         "Pontefract": 1
       },
       "distances_seen": {
-        "14.0": 4,
+        "14.0": 1,
         "12.0": 1
       },
       "goings_seen": {
-        "Good To Firm": 4,
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {
-        "Class 6": 5
+        "Class 6": 2
       },
       "trainers_seen": {
-        "Olly Williams": 5
+        "Olly Williams": 2
       },
       "jockeys_seen": {
-        "Shay Farmer(5)": 4,
+        "Warren Fentiman": 1,
         "Warren Fentiman(3)": 1
       },
       "average_pulse_score": 0,
@@ -1583,7 +1657,7 @@
           "distance_f": 14.0,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 4,
           "horse": "Muhib",
@@ -1592,7 +1666,7 @@
           "sex": "gelding",
           "trainer": "Olly Williams",
           "trainer_id": "trn_279945",
-          "jockey": "Shay Farmer(5)",
+          "jockey": "Warren Fentiman",
           "jockey_id": "jky_311127",
           "draw": 3,
           "number": 5,
@@ -1601,100 +1675,7 @@
           "last_run": 20,
           "form": "553344",
           "headgear": "",
-          "_stored_at": "2026-06-25T14:16:20.948492+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977264",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "11:00",
-          "off_dt": "2026-06-25T11:00:00+01:00",
-          "race_name": "Martin Stonemans Lucky Last Handicap",
-          "distance_f": 14.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 4,
-          "horse": "Muhib",
-          "horse_id": "hrs_45157749",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Olly Williams",
-          "trainer_id": "trn_279945",
-          "jockey": "Shay Farmer(5)",
-          "jockey_id": "jky_311127",
-          "draw": 3,
-          "number": 5,
-          "lbs": 121,
-          "ofr": "46",
-          "last_run": 20,
-          "form": "553344",
-          "headgear": "",
-          "_stored_at": "2026-06-25T17:11:30.779830+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977264",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "11:00",
-          "off_dt": "2026-06-25T11:00:00+01:00",
-          "race_name": "Martin Stonemans Lucky Last Handicap",
-          "distance_f": 14.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 4,
-          "horse": "Muhib",
-          "horse_id": "hrs_45157749",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Olly Williams",
-          "trainer_id": "trn_279945",
-          "jockey": "Shay Farmer(5)",
-          "jockey_id": "jky_311127",
-          "draw": 3,
-          "number": 5,
-          "lbs": 121,
-          "ofr": "46",
-          "last_run": 20,
-          "form": "553344",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:08.605496+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977264",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "11:00",
-          "off_dt": "2026-06-25T11:00:00+01:00",
-          "race_name": "Martin Stonemans Lucky Last Handicap",
-          "distance_f": 14.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 4,
-          "horse": "Muhib",
-          "horse_id": "hrs_45157749",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Olly Williams",
-          "trainer_id": "trn_279945",
-          "jockey": "Shay Farmer(5)",
-          "jockey_id": "jky_311127",
-          "draw": 3,
-          "number": 5,
-          "lbs": 121,
-          "ofr": "46",
-          "last_run": 20,
-          "form": "553344",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:19.164147+00:00"
+          "_stored_at": "2026-06-25T06:53:22.200321+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1728,38 +1709,38 @@
         }
       ],
       "profile_notes": [
-        "Profile has multiple stored runs",
         "Recent run timing"
       ],
       "favourite_course": {
         "value": "Nottingham",
-        "runs": 4
+        "runs": 1
       },
       "favourite_distance": {
         "value": 14.0,
-        "runs": 4
+        "runs": 1
       },
       "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 4
+        "value": "Good",
+        "runs": 2
       },
       "favourite_class": {
         "value": "Class 6",
-        "runs": 5
+        "runs": 2
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 55,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 64,
-      "horse_intelligence_score": 47,
+      "suitability_score": 72,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
+        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile"
+        "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -1769,8 +1750,168 @@
         "latest_class": "Class 6",
         "latest_pulse_score": 61,
         "average_pulse_score": 0,
-        "profile_runs": 5,
-        "runs_count": 5
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Clipsham Noble",
+      "horse_id": "hrs_39190466",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Pontefract",
+      "latest_time": "3:48",
+      "latest_race": "Pontefract Squash And Leisure Club Handicap",
+      "latest_date": "2026-07-07",
+      "latest_distance_f": 12.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Charlie Clover",
+      "latest_jockey": "Liam Wright(5)",
+      "latest_draw": 2,
+      "latest_weight_lbs": 132,
+      "official_rating": "50",
+      "recent_form": "465414",
+      "last_run_days": 12,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Leicester": 1,
+        "Pontefract": 1
+      },
+      "distances_seen": {
+        "12.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 1,
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 6": 2
+      },
+      "trainers_seen": {
+        "Charlie Clover": 2
+      },
+      "jockeys_seen": {
+        "Liam Wright": 1,
+        "Liam Wright(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 57,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Jockey concern -2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977173",
+          "course": "Leicester",
+          "date": "2026-06-25",
+          "off_time": "7:15",
+          "off_dt": "2026-06-25T19:15:00+01:00",
+          "race_name": "Global Harvester Handicap",
+          "distance_f": 12.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Clipsham Noble",
+          "horse_id": "hrs_39190466",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Charlie Clover",
+          "trainer_id": "trn_377352",
+          "jockey": "Liam Wright",
+          "jockey_id": "jky_304650",
+          "draw": 5,
+          "number": 4,
+          "lbs": 132,
+          "ofr": "50",
+          "last_run": 31,
+          "form": "-46541",
+          "headgear": "p",
+          "_stored_at": "2026-06-25T06:53:20.026675+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990147",
+          "course": "Pontefract",
+          "date": "2026-07-07",
+          "off_time": "3:48",
+          "off_dt": "2026-07-07T15:48:00+01:00",
+          "race_name": "Pontefract Squash And Leisure Club Handicap",
+          "distance_f": 12.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Clipsham Noble",
+          "horse_id": "hrs_39190466",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Charlie Clover",
+          "trainer_id": "trn_377352",
+          "jockey": "Liam Wright(5)",
+          "jockey_id": "jky_304650",
+          "draw": 2,
+          "number": 4,
+          "lbs": 132,
+          "ofr": "50",
+          "last_run": 12,
+          "form": "465414",
+          "headgear": "p"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Leicester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 55,
+      "class_suitability_score": 90,
+      "suitability_score": 72,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Pontefract",
+        "latest_distance_f": 12.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 57,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -1793,26 +1934,28 @@
       "official_rating": "45",
       "recent_form": "-05483",
       "last_run_days": 12,
-      "profile_runs": 5,
+      "profile_runs": 2,
       "courses_seen": {
-        "Leicester": 4,
+        "Leicester": 1,
         "Pontefract": 1
       },
       "distances_seen": {
-        "12.0": 5
+        "12.0": 2
       },
       "goings_seen": {
-        "Good To Firm": 4,
+        "Good To Firm": 1,
         "Good": 1
       },
       "classes_seen": {
-        "Class 6": 5
+        "Class 6": 2
       },
       "trainers_seen": {
-        "Peter Winks": 5
+        "P Winks": 1,
+        "Peter Winks": 1
       },
       "jockeys_seen": {
-        "Ben Ffrench Davis(5)": 5
+        "Ben Ffrench-Davis": 1,
+        "Ben Ffrench Davis(5)": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
@@ -1837,14 +1980,14 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 8,
+          "field_size": 9,
           "horse": "Coverbridge",
           "horse_id": "hrs_42226856",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Peter Winks",
+          "trainer": "P Winks",
           "trainer_id": "trn_60957",
-          "jockey": "Ben Ffrench Davis(5)",
+          "jockey": "Ben Ffrench-Davis",
           "jockey_id": "jky_277308",
           "draw": 1,
           "number": 9,
@@ -1853,100 +1996,7 @@
           "last_run": 17,
           "form": "0-0548",
           "headgear": "",
-          "_stored_at": "2026-06-25T14:16:19.422115+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977173",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "7:15",
-          "off_dt": "2026-06-25T19:15:00+01:00",
-          "race_name": "Global Harvester Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Coverbridge",
-          "horse_id": "hrs_42226856",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Peter Winks",
-          "trainer_id": "trn_60957",
-          "jockey": "Ben Ffrench Davis(5)",
-          "jockey_id": "jky_277308",
-          "draw": 1,
-          "number": 9,
-          "lbs": 127,
-          "ofr": "45",
-          "last_run": 17,
-          "form": "0-0548",
-          "headgear": "",
-          "_stored_at": "2026-06-25T17:11:29.094382+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977173",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "7:15",
-          "off_dt": "2026-06-25T19:15:00+01:00",
-          "race_name": "Global Harvester Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Coverbridge",
-          "horse_id": "hrs_42226856",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Peter Winks",
-          "trainer_id": "trn_60957",
-          "jockey": "Ben Ffrench Davis(5)",
-          "jockey_id": "jky_277308",
-          "draw": 1,
-          "number": 9,
-          "lbs": 127,
-          "ofr": "45",
-          "last_run": 17,
-          "form": "0-0548",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:06.952917+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977173",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "7:15",
-          "off_dt": "2026-06-25T19:15:00+01:00",
-          "race_name": "Global Harvester Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Coverbridge",
-          "horse_id": "hrs_42226856",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Peter Winks",
-          "trainer_id": "trn_60957",
-          "jockey": "Ben Ffrench Davis(5)",
-          "jockey_id": "jky_277308",
-          "draw": 1,
-          "number": 9,
-          "lbs": 127,
-          "ofr": "45",
-          "last_run": 17,
-          "form": "0-0548",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:15.719085+00:00"
+          "_stored_at": "2026-06-25T06:53:20.079411+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1980,25 +2030,24 @@
         }
       ],
       "profile_notes": [
-        "Profile has multiple stored runs",
         "Low draw today",
         "Recent run timing"
       ],
       "favourite_course": {
         "value": "Leicester",
-        "runs": 4
+        "runs": 1
       },
       "favourite_distance": {
         "value": 12.0,
-        "runs": 5
+        "runs": 2
       },
       "favourite_going": {
         "value": "Good To Firm",
-        "runs": 4
+        "runs": 1
       },
       "favourite_class": {
         "value": "Class 6",
-        "runs": 5
+        "runs": 2
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
@@ -2012,7 +2061,8 @@
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile"
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -2022,8 +2072,8 @@
         "latest_class": "Class 6",
         "latest_pulse_score": 52,
         "average_pulse_score": 0,
-        "profile_runs": 5,
-        "runs_count": 5
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -2046,31 +2096,28 @@
       "official_rating": "45",
       "recent_form": "339U44",
       "last_run_days": 8,
-      "profile_runs": 6,
+      "profile_runs": 2,
       "courses_seen": {
-        "Hamilton": 4,
-        "Kempton (AW)": 1,
+        "Hamilton": 1,
         "Pontefract": 1
       },
       "distances_seen": {
-        "13.0": 4,
-        "16.0": 1,
+        "13.0": 1,
         "12.0": 1
       },
       "goings_seen": {
-        "Good To Firm": 4,
-        "Standard To Slow": 1,
+        "Good To Firm": 1,
         "Good": 1
       },
       "classes_seen": {
-        "Class 6": 6
+        "Class 6": 2
       },
       "trainers_seen": {
-        "Jessica Bedi": 6
+        "J Bedi": 1,
+        "Jessica Bedi": 1
       },
       "jockeys_seen": {
-        "Miss Venetia Thompson(7)": 4,
-        "Tom Kiely-Marshall(5)": 1,
+        "Miss Venetia Thompson": 1,
         "Jason Hart": 1
       },
       "average_pulse_score": 0,
@@ -2096,147 +2143,23 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 6,
-          "horse": "Apache Eagle",
-          "horse_id": "hrs_40260619",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Jessica Bedi",
-          "trainer_id": "trn_310419",
-          "jockey": "Miss Venetia Thompson(7)",
-          "jockey_id": "jky_313956",
-          "draw": 4,
-          "number": 7,
-          "lbs": 142,
-          "ofr": "46",
-          "last_run": 7,
-          "form": "27339U",
-          "headgear": "tp",
-          "_stored_at": "2026-06-25T14:16:18.709233+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977108",
-          "course": "Hamilton",
-          "date": "2026-06-25",
-          "off_time": "6:00",
-          "off_dt": "2026-06-25T18:00:00+01:00",
-          "race_name": "Indigo Unified Comms Saints & Sinners Amateur Jockeys' Handicap",
-          "distance_f": 13.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Apache Eagle",
-          "horse_id": "hrs_40260619",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Jessica Bedi",
-          "trainer_id": "trn_310419",
-          "jockey": "Miss Venetia Thompson(7)",
-          "jockey_id": "jky_313956",
-          "draw": 4,
-          "number": 7,
-          "lbs": 142,
-          "ofr": "46",
-          "last_run": 7,
-          "form": "27339U",
-          "headgear": "tp",
-          "_stored_at": "2026-06-25T17:11:28.390735+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977108",
-          "course": "Hamilton",
-          "date": "2026-06-25",
-          "off_time": "6:00",
-          "off_dt": "2026-06-25T18:00:00+01:00",
-          "race_name": "Indigo Unified Comms Saints & Sinners Amateur Jockeys' Handicap",
-          "distance_f": 13.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Apache Eagle",
-          "horse_id": "hrs_40260619",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Jessica Bedi",
-          "trainer_id": "trn_310419",
-          "jockey": "Miss Venetia Thompson(7)",
-          "jockey_id": "jky_313956",
-          "draw": 4,
-          "number": 7,
-          "lbs": 142,
-          "ofr": "46",
-          "last_run": 7,
-          "form": "27339U",
-          "headgear": "tp",
-          "_stored_at": "2026-06-26T08:14:06.196746+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977108",
-          "course": "Hamilton",
-          "date": "2026-06-25",
-          "off_time": "6:00",
-          "off_dt": "2026-06-25T18:00:00+01:00",
-          "race_name": "Indigo Unified Comms Saints & Sinners Amateur Jockeys' Handicap",
-          "distance_f": 13.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Apache Eagle",
-          "horse_id": "hrs_40260619",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Jessica Bedi",
-          "trainer_id": "trn_310419",
-          "jockey": "Miss Venetia Thompson(7)",
-          "jockey_id": "jky_313956",
-          "draw": 4,
-          "number": 7,
-          "lbs": 142,
-          "ofr": "46",
-          "last_run": 7,
-          "form": "27339U",
-          "headgear": "tp",
-          "_stored_at": "2026-06-28T12:42:14.185824+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006553",
-          "course": "Kempton (AW)",
-          "date": "2026-06-29",
-          "off_time": "8:45",
-          "off_dt": "2026-06-29T20:45:00+01:00",
-          "race_name": "Tom Farrell Memorial Handicap",
-          "distance_f": 16.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
           "field_size": 7,
           "horse": "Apache Eagle",
           "horse_id": "hrs_40260619",
           "age": 5,
           "sex": "gelding",
-          "trainer": "Jessica Bedi",
+          "trainer": "J Bedi",
           "trainer_id": "trn_310419",
-          "jockey": "Tom Kiely-Marshall(5)",
-          "jockey_id": "jky_302325",
-          "draw": 1,
+          "jockey": "Miss Venetia Thompson",
+          "jockey_id": "jky_313956",
+          "draw": 4,
           "number": 7,
-          "lbs": 122,
-          "ofr": "45",
-          "last_run": 4,
-          "form": "7339U4",
+          "lbs": 142,
+          "ofr": "46",
+          "last_run": 7,
+          "form": "27339U",
           "headgear": "tp",
-          "_stored_at": "2026-06-29T11:41:32.191954+00:00"
+          "_stored_at": "2026-06-25T06:53:19.141091+00:00"
         },
         {
           "source": "the_racing_api",
@@ -2270,24 +2193,23 @@
         }
       ],
       "profile_notes": [
-        "Profile has multiple stored runs",
         "Recent run timing"
       ],
       "favourite_course": {
         "value": "Hamilton",
-        "runs": 4
+        "runs": 1
       },
       "favourite_distance": {
         "value": 13.0,
-        "runs": 4
+        "runs": 1
       },
       "favourite_going": {
         "value": "Good To Firm",
-        "runs": 4
+        "runs": 1
       },
       "favourite_class": {
         "value": "Class 6",
-        "runs": 6
+        "runs": 2
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
@@ -2302,7 +2224,8 @@
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score"
+        "Low latest Pulse Score",
+        "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -2312,14 +2235,13 @@
         "latest_class": "Class 6",
         "latest_pulse_score": 39,
         "average_pulse_score": 0,
-        "profile_runs": 6,
-        "runs_count": 6
+        "profile_runs": 2,
+        "runs_count": 2
       }
     }
   ],
   "notes": [
     "Dubai Venture is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
     "Jedhi Knight is flagged as a possible dark horse."
   ]
 }
