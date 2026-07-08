@@ -15,6 +15,7 @@ from app.modules.dashboard import get_dashboard_data
 from app.modules.betting.builder import build_bets
 from app.modules.football.routes import get_football_leaderboard
 from collectors.daily_update import run_jobs
+from collectors.pulse_live_engine import run_loop as run_pulse_live_engine
 from fastapi import FastAPI, Query, HTTPException, Form, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
@@ -61,7 +62,28 @@ app.mount(
 templates = Jinja2Templates(directory="app/templates")
 
 logging.basicConfig(level=logging.INFO)
+PULSE_LIVE_THREAD = None
+PULSE_LIVE_ENABLED = os.getenv("PULSE_LIVE_ENABLED", "1") == "1"
 
+
+@app.on_event("startup")
+def start_pulse_live_engine():
+    global PULSE_LIVE_THREAD
+
+    if not PULSE_LIVE_ENABLED:
+        print("Pulse Live Engine disabled.")
+        return
+
+    if PULSE_LIVE_THREAD and PULSE_LIVE_THREAD.is_alive():
+        return
+
+    PULSE_LIVE_THREAD = threading.Thread(
+        target=run_pulse_live_engine,
+        daemon=True,
+    )
+    PULSE_LIVE_THREAD.start()
+
+    print("Pulse Live Engine plugged in ✅")
 
 UPDATE_LOCK = threading.Lock()
 
