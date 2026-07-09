@@ -7,9 +7,6 @@ from playwright.sync_api import sync_playwright
 from app.modules.odds.url_builder import build_oddschecker_url
 
 
-ODDSCHECKER_HOME = "https://www.oddschecker.com/horse-racing"
-
-
 def fraction_to_decimal(value):
     value = str(value).strip()
 
@@ -48,9 +45,7 @@ def extract_horse_row(body_text, horse):
 
 
 def extract_odds_from_row(row_text):
-    odds_pattern = r"\b\d+/\d+\b"
-    values = re.findall(odds_pattern, row_text)
-
+    values = re.findall(r"\b\d+/\d+\b", row_text)
     odds = []
 
     for value in values:
@@ -69,6 +64,7 @@ def extract_odds_from_row(row_text):
 
     return odds
 
+
 def filter_suspicious_odds(odds):
     if len(odds) < 4:
         return odds
@@ -76,61 +72,103 @@ def filter_suspicious_odds(odds):
     decimals = [item["decimal"] for item in odds]
     mid = median(decimals)
 
-    filtered = []
+    return [
+        item for item in odds
+        if item["decimal"] <= mid * 3
+    ]
 
-    for item in odds:
-        decimal = item["decimal"]
 
-        if decimal > mid * 3:
-            continue
+class OddscheckerSession:
+    def __init__(self, headless=False):
+        self.headless = headless
+        self.playwright = None
+        self.browser = None
+        self.page = None
 
-        filtered.append(item)
+    def __enter__(self):
+        self.playwright = sync_playwright().start()
+        self.browser = self.playwright.chromium.launch(headless=self.headless)
+        self.page = self.browser.new_page()
+        return self
 
-    return filtered
+    def __exit__(self, exc_type, exc, tb):
+        if self.browser:
+            self.browser.close()
 
-def get_best_odds(course, race_time, horse, headless=False):
-    url = build_oddschecker_url(course, race_time, horse)
+        if self.playwright:
+            self.playwright.stop()
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=headless)
-        page = browser.new_page()
+    def get_best_odds(self, course, race_time, horse):
+        url = build_oddschecker_url(course, race_time, horse)
+        row_text = ""
 
-        page.goto(url, wait_until="networkidle", timeout=60000)
-        accept_cookies(page)
+        try:
+            self.page.goto(url, wait_until="networkidle", timeout=60000)
+            accept_cookies(self.page)
 
-        body_text = page.locator("body").inner_text(timeout=15000)
-        row_text = extract_horse_row(body_text, horse)
-        odds = filter_suspicious_odds(
-            extract_odds_from_row(row_text)
-        )
+            body_text = self.page.locator("body").inner_text(timeout=15000)
+            if "you have been blocked" in body_text.lower():
+                return {
+                    "success": False,
+                    "horse": horse,
+                    "url": url,
+                    "snapshot_time": datetime.now().isoformat(timespec="seconds"),
+                    "best_odds": None,
+                    "best_odds_decimal": None,
+                    "bookmaker": None,
+                    "row_text": "",
+                    "error": "Oddschecker blocked by Cloudflare",
+                }
+            row_text = extract_horse_row(body_text, horse)
 
-        browser.close()
+            odds = filter_suspicious_odds(
+                extract_odds_from_row(row_text)
+            )
 
-    if not odds:
+        except Exception as exc:
+            return {
+                "success": False,
+                "horse": horse,
+                "url": url,
+                "snapshot_time": datetime.now().isoformat(timespec="seconds"),
+                "best_odds": None,
+                "best_odds_decimal": None,
+                "bookmaker": None,
+                "row_text": row_text,
+                "error": str(exc),
+            }
+
+        if not odds:
+            return {
+                "success": False,
+                "horse": horse,
+                "url": url,
+                "snapshot_time": datetime.now().isoformat(timespec="seconds"),
+                "best_odds": None,
+                "best_odds_decimal": None,
+                "bookmaker": None,
+                "row_text": row_text,
+                "error": "No odds found",
+            }
+
+        best = max(odds, key=lambda item: item["decimal"])
+
         return {
-            "success": False,
+            "success": True,
             "horse": horse,
             "url": url,
             "snapshot_time": datetime.now().isoformat(timespec="seconds"),
-            "best_odds": None,
-            "best_odds_decimal": None,
-            "bookmaker": None,
+            "best_odds": best["fractional"],
+            "best_odds_decimal": best["decimal"],
+            "bookmaker": "Oddschecker Best",
             "row_text": row_text,
-            "error": "No odds found",
+            "error": None,
         }
 
-    best = max(odds, key=lambda item: item["decimal"])
 
-    return {
-        "success": True,
-        "horse": horse,
-        "url": url,
-        "snapshot_time": datetime.now().isoformat(timespec="seconds"),
-        "best_odds": best["fractional"],
-        "best_odds_decimal": best["decimal"],
-        "bookmaker": "Oddschecker Best",
-        "row_text": row_text,
-    }
+def get_best_odds(course, race_time, horse, headless=False):
+    with OddscheckerSession(headless=headless) as session:
+        return session.get_best_odds(course, race_time, horse)
 
 
 if __name__ == "__main__":

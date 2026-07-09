@@ -24,63 +24,63 @@ def snapshot_pulse_picks():
     failed = 0
 
     with output_file.open("a", encoding="utf-8") as f:
-        for race in races:
-            pick = race.get("pulse_pick")
+            for race in races:
+                pick = race.get("pulse_pick")
 
-            if not pick:
-                continue
+                if not pick:
+                    continue
 
-            course = race.get("course")
-            race_time = race.get("time")
-            horse = pick.get("horse")
+                course = race.get("course")
+                race_time = race.get("time")
+                horse = pick.get("horse")
 
-            print(f"Checking odds: {course} {race_time} - {horse}")
+                print(f"Checking odds: {course} {race_time} - {horse}")
 
-            try:
-                odds = get_best_odds(
-                    course=course,
-                    race_time=race_time,
-                    horse=horse,
-                    headless=False,
-                )
-            except Exception as exc:
-                odds = {
-                    "success": False,
-                    "best_odds": None,
-                    "best_odds_decimal": None,
-                    "bookmaker": None,
-                    "url": None,
-                    "error": str(exc),
+                try:
+                    odds = get_best_odds(
+                        course=course,
+                        race_time=race_time,
+                        horse=horse,
+                        headless=False,
+                    )
+                except Exception as exc:
+                    odds = {
+                        "success": False,
+                        "best_odds": None,
+                        "best_odds_decimal": None,
+                        "bookmaker": None,
+                        "url": None,
+                        "error": str(exc),
+                    }
+
+                record = {
+                    "snapshot_time": datetime.now().isoformat(timespec="seconds"),
+                    "course": course,
+                    "race_time": race_time,
+                    "race_name": race.get("race_name"),
+                    "race_id": pick.get("race_id"),
+                    "horse": horse,
+                    "horse_id": pick.get("horse_id"),
+                    "pulse_score": pick.get("pulse_score"),
+                    "strategy": "Pulse Top Pick",
+                    "odds_source": "oddschecker",
+                    "best_odds": odds.get("best_odds"),
+                    "best_odds_decimal": odds.get("best_odds_decimal"),
+                    "bookmaker": odds.get("bookmaker"),
+                    "odds_url": odds.get("url"),
+                    "odds_success": odds.get("success"),
+                    "odds_error": odds.get("error"),
+                    "minutes_before_off": None,
                 }
 
-            record = {
-                "snapshot_time": datetime.now().isoformat(timespec="seconds"),
-                "course": course,
-                "race_time": race_time,
-                "race_name": race.get("race_name"),
-                "race_id": pick.get("race_id"),
-                "horse": horse,
-                "horse_id": pick.get("horse_id"),
-                "pulse_score": pick.get("pulse_score"),
-                "strategy": "Pulse Top Pick",
-                "odds_source": "oddschecker",
-                "best_odds": odds.get("best_odds"),
-                "best_odds_decimal": odds.get("best_odds_decimal"),
-                "bookmaker": odds.get("bookmaker"),
-                "odds_url": odds.get("url"),
-                "odds_success": odds.get("success"),
-                "odds_error": odds.get("error"),
-                "minutes_before_off": None,
-            }
+                f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
-            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+                if odds.get("success"):
+                    saved += 1
+                else:
+                    failed += 1
 
-            if odds.get("success"):
-                saved += 1
-            else:
-                failed += 1
-
-            time.sleep(1.5)
+                time.sleep(1.5)
 
     print(f"Saved {saved} real Pulse pick odds snapshots.")
     print(f"Failed: {failed}")

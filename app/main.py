@@ -81,6 +81,7 @@ def start_pulse_live_engine():
         target=run_pulse_live_engine,
         daemon=True,
     )
+
     PULSE_LIVE_THREAD.start()
 
     print("Pulse Live Engine plugged in ✅")
