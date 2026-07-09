@@ -4,7 +4,7 @@ from datetime import datetime
 from pathlib import Path
 
 from app.modules.horses.routes import get_horse_race_groups
-from app.modules.odds.oddschecker import get_best_odds
+from app.modules.odds.provider import get_best_odds
 
 
 OUTPUT_DIR = Path("data/horses/odds_snapshots")
@@ -41,7 +41,6 @@ def snapshot_pulse_picks():
                         course=course,
                         race_time=race_time,
                         horse=horse,
-                        headless=False,
                     )
                 except Exception as exc:
                     odds = {
@@ -63,7 +62,7 @@ def snapshot_pulse_picks():
                     "horse_id": pick.get("horse_id"),
                     "pulse_score": pick.get("pulse_score"),
                     "strategy": "Pulse Top Pick",
-                    "odds_source": "oddschecker",
+                    "odds_source": odds.get("odds_source"),
                     "best_odds": odds.get("best_odds"),
                     "best_odds_decimal": odds.get("best_odds_decimal"),
                     "bookmaker": odds.get("bookmaker"),
