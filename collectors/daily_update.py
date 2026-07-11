@@ -3,57 +3,90 @@ import sys
 import time
 
 
+HORSE_DATA_JOBS = [
+    {"label": "Horse Racecards", "module": "collectors.real_horses"},
+    {"label": "Clean Horse Racecards", "module": "collectors.clean_horse_racecards"},
+    {"label": "Horse Scores", "module": "collectors.save_horse_scores"},
+    {"label": "Horse Odds Snapshots", "module": "collectors.horse_odds_snapshots"},
+
+    # Critical: turn today's snapshots into tracked ledger bets.
+    {"label": "Update Bet Ledger", "module": "app.modules.performance.bet_ledger"},
+
+    {"label": "Trainer Rankings", "module": "collectors.trainer_rankings"},
+    {"label": "Jockey Rankings", "module": "collectors.jockey_rankings"},
+    {"label": "Horse Profiles", "module": "collectors.build_horse_profiles"},
+    {"label": "Enrich Horse Profiles", "module": "collectors.enrich_horse_profiles"},
+    {"label": "Race Intelligence", "module": "collectors.build_race_intelligence"},
+]
+
+
+RESULT_AND_PERFORMANCE_JOBS = [
+    # Collect any races that have finished.
+    {"label": "Live Results Update", "module": "collectors.update_market_results"},
+    {"label": "BBC Horse Results", "module": "collectors.bbc_horse_results"},
+    {"label": "Sporting Life Results", "module": "collectors.sporting_life_results"},
+
+    # Critical: match collected results against the bet ledger.
+    {"label": "Settle Bet Ledger", "module": "app.modules.performance.settlement"},
+
+    # These must run only after settlement.
+    {"label": "Pulse Performance", "module": "collectors.analyse_pulse_performance"},
+    {"label": "Learn From Results", "module": "collectors.learn_from_results"},
+    {"label": "Learning Factors", "module": "collectors.analyse_learning_factors"},
+]
+
+
+DOG_JOBS = [
+    {"label": "Dog Racecards", "module": "collectors.dogs"},
+    {"label": "Dog Results", "module": "collectors.dog_results"},
+    {"label": "Dog Runner Records", "module": "collectors.dog_runner_records"},
+    {"label": "Dog History", "module": "collectors.build_dog_history"},
+]
+
+
+FOOTBALL_JOBS = [
+    {"label": "Football Fixtures", "module": "collectors.football"},
+    {"label": "Football Results", "module": "collectors.football_results"},
+    {"label": "Football Team History", "module": "collectors.build_team_history"},
+    {"label": "Football IQ", "module": "collectors.football_iq"},
+]
+
+
 JOBS = {
-    "horses": [
-        {"label": "Horse Racecards", "module": "collectors.real_horses"},
-        {"label": "Clean Horse Racecards", "module": "collectors.clean_horse_racecards"},
-        {"label": "Horse Scores", "module": "collectors.save_horse_scores"},
-        {"label": "Horse Odds Snapshots", "module": "collectors.horse_odds_snapshots"},
-        {"label": "Trainer Rankings", "module": "collectors.trainer_rankings"},
-        {"label": "Jockey Rankings", "module": "collectors.jockey_rankings"},
-        {"label": "Horse Profiles", "module": "collectors.build_horse_profiles"},
-        {"label": "Enrich Horse Profiles", "module": "collectors.enrich_horse_profiles"},
-        {"label": "Race Intelligence", "module": "collectors.build_race_intelligence"},
-        {"label": "Pulse Performance", "module": "collectors.analyse_pulse_performance"},
-        {"label": "Learn From Results", "module": "collectors.learn_from_results"},
-        {"label": "Learning Factors", "module": "collectors.analyse_learning_factors"},
-    ],
+    # Updating horses now completes the full horse pipeline.
+    "horses": (
+        HORSE_DATA_JOBS
+        + RESULT_AND_PERFORMANCE_JOBS
+    ),
 
-    "dogs": [
-        {"label": "Dog Racecards", "module": "collectors.dogs"},
-        {"label": "Dog Results", "module": "collectors.dog_results"},
-        {"label": "Dog Runner Records", "module": "collectors.dog_runner_records"},
-        {"label": "Dog History", "module": "collectors.build_dog_history"},
-    ],
+    "dogs": DOG_JOBS,
 
-    "football": [
-        {"label": "Football Fixtures", "module": "collectors.football"},
-        {"label": "Football Results", "module": "collectors.football_results"},
-        {"label": "Football Team History", "module": "collectors.build_team_history"},
-        {"label": "Football IQ", "module": "collectors.football_iq"},
-    ],
+    "football": FOOTBALL_JOBS,
 
+    # Analyse Results button:
+    # rebuild the ledger first in case today's snapshots were not imported yet.
     "performance": [
-        {"label": "Live Results Update", "module": "collectors.update_market_results"},
-        {"label": "Sporting Life Results", "module": "collectors.sporting_life_results"},
-        {"label": "Pulse Performance", "module": "collectors.analyse_pulse_performance"},
-        {"label": "Learn From Results", "module": "collectors.learn_from_results"},
-        {"label": "Learning Factors", "module": "collectors.analyse_learning_factors"},
+        {"label": "Update Bet Ledger", "module": "app.modules.performance.bet_ledger"},
+        *RESULT_AND_PERFORMANCE_JOBS,
     ],
 
+    # Settlement-only mode remains available from the command line.
     "settlement": [
+        {"label": "Update Bet Ledger", "module": "app.modules.performance.bet_ledger"},
         {"label": "BBC Horse Results", "module": "collectors.bbc_horse_results"},
         {"label": "Sporting Life Results", "module": "collectors.sporting_life_results"},
         {"label": "Settle Bet Ledger", "module": "app.modules.performance.settlement"},
+        {"label": "Pulse Performance", "module": "collectors.analyse_pulse_performance"},
     ],
 }
 
 
+# No duplicated performance jobs.
 JOBS["all"] = (
-    JOBS["horses"]
-    + JOBS["dogs"]
-    + JOBS["football"]
-    + JOBS["performance"]
+    HORSE_DATA_JOBS
+    + DOG_JOBS
+    + FOOTBALL_JOBS
+    + RESULT_AND_PERFORMANCE_JOBS
 )
 
 
@@ -92,8 +125,15 @@ def run_jobs(mode, progress_callback=None):
             completed = subprocess.run(
                 [sys.executable, "-m", module],
                 text=True,
+                capture_output=True,
                 check=False,
             )
+
+            if completed.stdout:
+                print(completed.stdout, end="", flush=True)
+
+            if completed.stderr:
+                print(completed.stderr, end="", file=sys.stderr, flush=True)
 
             success = completed.returncode == 0
 
@@ -102,8 +142,8 @@ def run_jobs(mode, progress_callback=None):
                 "module": module,
                 "success": success,
                 "returncode": completed.returncode,
-                "stdout": "",
-                "stderr": "",
+                "stdout": completed.stdout or "",
+                "stderr": completed.stderr or "",
             }
 
         except Exception as exc:
@@ -148,6 +188,7 @@ def run_jobs(mode, progress_callback=None):
         "results": results,
         "runtime": round(finished_at - started_at, 1),
     }
+
 
 if __name__ == "__main__":
     summary = run_jobs("all")

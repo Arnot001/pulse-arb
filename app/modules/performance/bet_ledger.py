@@ -23,7 +23,10 @@ def make_bet_id(row):
         row.get("strategy"),
     ]
 
-    return "|".join(str(part or "").lower().strip() for part in parts)
+    return "|".join(
+        str(part or "").lower().strip()
+        for part in parts
+    )
 
 
 def load_jsonl(file_path):
@@ -44,6 +47,7 @@ def load_jsonl(file_path):
 
     return rows
 
+
 def load_open_bets():
     return load_jsonl(LEDGER_FILE)
 
@@ -54,26 +58,62 @@ def load_settled_bets():
 
 def load_official_settled_bets():
     return [
-        bet for bet in load_settled_bets()
+        bet
+        for bet in load_settled_bets()
         if bet.get("official_bet") is True
     ]
 
 
 def calculate_ledger_stats(bets):
     total = len(bets)
-    winners = len([bet for bet in bets if bet.get("won") is True])
-    losers = len([bet for bet in bets if bet.get("won") is False])
 
-    stake = sum(float(bet.get("stake") or 0) for bet in bets)
-    profit = sum(float(bet.get("profit") or 0) for bet in bets)
+    winners = len([
+        bet
+        for bet in bets
+        if bet.get("won") is True
+    ])
 
-    strike_rate = round((winners / total) * 100, 2) if total else 0
-    roi = round((profit / stake) * 100, 2) if stake else 0
+    losers = len([
+        bet
+        for bet in bets
+        if bet.get("won") is False
+    ])
+
+    # ROI and profit should only use bets that had a captured price.
+    priced_bets = [
+        bet
+        for bet in bets
+        if bet.get("best_odds_decimal") is not None
+        and bet.get("profit") is not None
+    ]
+
+    stake = sum(
+        float(bet.get("stake") or 0)
+        for bet in priced_bets
+    )
+
+    profit = sum(
+        float(bet.get("profit") or 0)
+        for bet in priced_bets
+    )
+
+    strike_rate = (
+        round((winners / total) * 100, 2)
+        if total
+        else 0
+    )
+
+    roi = (
+        round((profit / stake) * 100, 2)
+        if stake
+        else 0
+    )
 
     return {
         "total": total,
         "winners": winners,
         "losers": losers,
+        "priced_total": len(priced_bets),
         "stake": round(stake, 2),
         "profit": round(profit, 2),
         "strike_rate": strike_rate,
@@ -82,36 +122,50 @@ def calculate_ledger_stats(bets):
 
 
 def get_verified_official_stats():
-    return calculate_ledger_stats(load_official_settled_bets())
+    return calculate_ledger_stats(
+        load_official_settled_bets()
+    )
 
 
 def get_all_settled_stats():
-    return calculate_ledger_stats(load_settled_bets())
+    return calculate_ledger_stats(
+        load_settled_bets()
+    )
+
 
 def get_bankroll_history(start_bank=100.0):
     bankroll = start_bank
     history = []
 
-    settled = load_settled_bets()
-
     settled = sorted(
-        settled,
-        key=lambda row: row.get("settled_at", "")
+        load_settled_bets(),
+        key=lambda row: row.get("settled_at", ""),
     )
 
     for index, bet in enumerate(settled, start=1):
-        bankroll += float(bet.get("profit") or 0)
+        profit = bet.get("profit")
+
+        if profit is not None:
+            bankroll += float(profit)
 
         history.append({
             "x": index,
             "bankroll": round(bankroll, 2),
-            "profit": round(float(bet.get("profit") or 0), 2),
+            "profit": (
+                round(float(profit), 2)
+                if profit is not None
+                else None
+            ),
             "horse": bet.get("horse"),
             "course": bet.get("course"),
             "won": bet.get("won"),
+            "odds_available": (
+                bet.get("best_odds_decimal") is not None
+            ),
         })
 
     return history
+
 
 def get_performance_insights():
     settled = load_settled_bets()
@@ -123,12 +177,28 @@ def get_performance_insights():
             "form": "No settled bets yet.",
             "best_run": 0,
             "worst_run": 0,
-            "summary": "Pulse needs settled results before it can generate intelligence.",
+            "summary": (
+                "Pulse needs settled results before it can "
+                "generate intelligence."
+            ),
         }
 
     latest = settled[-8:]
-    latest_wins = len([b for b in latest if b.get("won") is True])
-    latest_profit = round(sum(float(b.get("profit") or 0) for b in latest), 2)
+
+    latest_wins = len([
+        bet
+        for bet in latest
+        if bet.get("won") is True
+    ])
+
+    latest_profit = round(
+        sum(
+            float(bet.get("profit") or 0)
+            for bet in latest
+            if bet.get("profit") is not None
+        ),
+        2,
+    )
 
     win_streak = 0
     best_streak = 0
@@ -157,7 +227,10 @@ def get_performance_insights():
 
     return {
         "health": health,
-        "form": f"{latest_wins} wins from last {len(latest)} selections ({latest_profit:+.2f} pts)",
+        "form": (
+            f"{latest_wins} wins from last {len(latest)} "
+            f"selections ({latest_profit:+.2f} pts)"
+        ),
         "best_run": best_streak,
         "worst_run": worst_streak,
         "summary": (
@@ -168,9 +241,15 @@ def get_performance_insights():
         ),
     }
 
+
 def load_existing_ledger():
     rows = load_jsonl(LEDGER_FILE)
-    return {row.get("bet_id"): row for row in rows if row.get("bet_id")}
+
+    return {
+        row.get("bet_id"): row
+        for row in rows
+        if row.get("bet_id")
+    }
 
 
 def load_odds_snapshots():
@@ -183,86 +262,162 @@ def load_odds_snapshots():
         snapshot_date = file_path.stem
 
         for row in load_jsonl(file_path):
-            row["snapshot_date"] = row.get("snapshot_date") or snapshot_date
+            row["snapshot_date"] = (
+                row.get("snapshot_date")
+                or snapshot_date
+            )
+
             rows.append(row)
 
     return rows
 
 
+def clean_decimal_odds(value):
+    if value is None:
+        return None
+
+    try:
+        value = float(value)
+    except Exception:
+        return None
+
+    if value < 1.5 or value > 10:
+        return None
+
+    return value
+
+
 def rebuild_ledger_from_snapshots():
-    existing = load_existing_ledger()
+    ledger_rows = load_jsonl(LEDGER_FILE)
     snapshots = load_odds_snapshots()
 
+    rows_by_id = {
+        row.get("bet_id"): row
+        for row in ledger_rows
+        if row.get("bet_id")
+    }
+
     added = 0
+    updated = 0
     skipped = 0
 
-    with LEDGER_FILE.open("a", encoding="utf-8") as f:
-        for row in snapshots:
-            if not row.get("odds_success"):
+    for row in snapshots:
+        bet_id = make_bet_id(row)
+
+        if not bet_id.strip("|"):
+            skipped += 1
+            continue
+
+        decimal_odds = clean_decimal_odds(
+            row.get("best_odds_decimal")
+        )
+
+        existing = rows_by_id.get(bet_id)
+
+        # If the pick already exists, attach odds later when
+        # a successful price becomes available.
+        if existing:
+            changed = False
+
+            if (
+                existing.get("status") == "OPEN"
+                and existing.get("best_odds_decimal") is None
+                and decimal_odds is not None
+            ):
+                existing["odds_source"] = row.get("odds_source")
+                existing["odds_url"] = row.get("odds_url")
+                existing["snapshot_time"] = row.get("snapshot_time")
+                existing["best_odds"] = row.get("best_odds")
+                existing["best_odds_decimal"] = decimal_odds
+                existing["bookmaker"] = row.get("bookmaker")
+                existing["odds_available"] = True
+
+                qualification = qualifies_as_official_bet(row)
+
+                existing["bet_type"] = qualification["bet_type"]
+                existing["official_bet"] = qualification["qualifies"]
+                existing["qualification_reasons"] = qualification["reasons"]
+                existing["qualification_warnings"] = qualification["warnings"]
+
+                changed = True
+
+            if changed:
+                updated += 1
+            else:
                 skipped += 1
-                continue
-            
-            decimal_odds = row.get("best_odds_decimal") or 0
 
-            if decimal_odds < 1.5 or decimal_odds > 10:
-                skipped += 1
-                continue
+            continue
 
-            bet_id = make_bet_id(row)
+        qualification_row = dict(row)
+        qualification_row["best_odds_decimal"] = decimal_odds
 
-            if bet_id in existing:
-                skipped += 1
-                continue
+        qualification = qualifies_as_official_bet(
+            qualification_row
+        )
 
-            qualification = qualifies_as_official_bet(row)
+        record = {
+            "bet_id": bet_id,
+            "status": "OPEN",
 
-            record = {
-                "bet_id": bet_id,
-                "status": "OPEN",
+            "bet_type": qualification["bet_type"],
+            "official_bet": qualification["qualifies"],
+            "qualification_reasons": qualification["reasons"],
+            "qualification_warnings": qualification["warnings"],
 
-                "bet_type": qualification["bet_type"],
-                "official_bet": qualification["qualifies"],
-                "qualification_reasons": qualification["reasons"],
-                "qualification_warnings": qualification["warnings"],
+            "created_at": datetime.now().isoformat(
+                timespec="seconds"
+            ),
 
-                "created_at": datetime.now().isoformat(timespec="seconds"),
-                "date": row.get("snapshot_date"),
-                "course": row.get("course"),
-                "race_time": row.get("race_time"),
-                "race_name": row.get("race_name"),
-                "race_id": row.get("race_id"),
+            "date": row.get("snapshot_date"),
+            "course": row.get("course"),
+            "race_time": row.get("race_time"),
+            "race_name": row.get("race_name"),
+            "race_id": row.get("race_id"),
 
-                "horse": row.get("horse"),
-                "horse_id": row.get("horse_id"),
+            "horse": row.get("horse"),
+            "horse_id": row.get("horse_id"),
 
-                "strategy": row.get("strategy"),
-                "pulse_score": row.get("pulse_score"),
+            "strategy": (
+                row.get("strategy")
+                or "Pulse Top Pick"
+            ),
 
-                "odds_source": row.get("odds_source"),
-                "odds_url": row.get("odds_url"),
-                "snapshot_time": row.get("snapshot_time"),
-                "best_odds": row.get("best_odds"),
-                "best_odds_decimal": row.get("best_odds_decimal"),
-                "bookmaker": row.get("bookmaker"),
+            "pulse_score": row.get("pulse_score"),
 
-                "result_position": None,
-                "sp": None,
-                "won": None,
+            "odds_source": row.get("odds_source"),
+            "odds_url": row.get("odds_url"),
+            "snapshot_time": row.get("snapshot_time"),
+            "best_odds": row.get("best_odds"),
+            "best_odds_decimal": decimal_odds,
+            "bookmaker": row.get("bookmaker"),
+            "odds_available": decimal_odds is not None,
 
-                "stake": 1.0,
-                "returned": None,
-                "profit": None,
-                "roi": None,
-            }
+            "result_position": None,
+            "sp": None,
+            "won": None,
 
-            f.write(json.dumps(record, ensure_ascii=False) + "\n")
+            "stake": 1.0,
+            "returned": None,
+            "profit": None,
+            "roi": None,
+        }
 
-            existing[bet_id] = record
-            added += 1
+        ledger_rows.append(record)
+        rows_by_id[bet_id] = record
+        added += 1
+
+    # Rewrite once so existing records can receive later odds.
+    with LEDGER_FILE.open("w", encoding="utf-8") as f:
+        for row in ledger_rows:
+            f.write(
+                json.dumps(row, ensure_ascii=False)
+                + "\n"
+            )
 
     return {
         "snapshots": len(snapshots),
         "added": added,
+        "updated": updated,
         "skipped": skipped,
         "ledger_file": str(LEDGER_FILE),
     }
@@ -275,5 +430,6 @@ if __name__ == "__main__":
     print("-" * 40)
     print(f"Snapshots checked: {report['snapshots']}")
     print(f"Added: {report['added']}")
+    print(f"Updated with odds: {report['updated']}")
     print(f"Skipped: {report['skipped']}")
     print(f"File: {report['ledger_file']}")

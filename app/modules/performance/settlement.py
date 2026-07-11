@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 from datetime import datetime
 
@@ -16,9 +17,19 @@ RESULT_DIRS = [
 
 def normalise(value):
     value = str(value or "").lower().strip()
-    value = value.replace("(aw)", "").strip()
-    value = " ".join(value.split())
-    return value
+
+    value = re.sub(
+        r"\((aw|gb|ire|fr|usa|aus)\)",
+        "",
+        value,
+        flags=re.IGNORECASE,
+    )
+
+    value = value.replace("&", "and")
+    value = value.replace("’", "'")
+    value = re.sub(r"[^a-z0-9]+", " ", value)
+
+    return " ".join(value.split())
 
 
 def normalise_time(value):
@@ -34,12 +45,13 @@ def normalise_time(value):
 
     try:
         hour = int(parts[0])
-        minute = parts[1].zfill(2)
+        minute = int(parts[1])
 
         if hour > 12:
             hour -= 12
 
-        return f"{hour}:{minute}"
+        return f"{hour}:{minute:02d}"
+
     except Exception:
         return value
 
@@ -52,11 +64,13 @@ def load_jsonl(file_path):
 
     with file_path.open("r", encoding="utf-8") as f:
         for line in f:
-            if line.strip():
-                try:
-                    rows.append(json.loads(line))
-                except Exception:
-                    pass
+            if not line.strip():
+                continue
+
+            try:
+                rows.append(json.loads(line))
+            except Exception:
+                pass
 
     return rows
 
@@ -78,7 +92,6 @@ def build_result_index():
     index = {}
 
     for row in load_results():
-        # Flat runner result format: BBC / enriched runner_results
         if row.get("horse") and row.get("finish_position") is not None:
             result_date = row.get("result_date") or row.get("collection_date")
             course = row.get("course")
@@ -99,17 +112,18 @@ def build_result_index():
                 "horse": horse,
                 "position": row.get("finish_position"),
                 "sp": row.get("sp"),
-                "favourite": row.get("favourite") or row.get("favourite_position"),
+                "favourite": (
+                    row.get("favourite")
+                    or row.get("favourite_position")
+                ),
                 "race_stage": row.get("status"),
                 "source": row.get("source"),
             }
 
             continue
 
-        # Older Sporting Life race-level format
         raw = row.get("raw", row)
         result_date = row.get("result_date") or row.get("collection_date")
-
         course = raw.get("course")
         race_time = raw.get("race_time")
 
@@ -137,29 +151,35 @@ def build_result_index():
 
     return index
 
+
 def build_loose_result_index(index):
     loose = {}
 
     for key, result in index.items():
         result_date, course, race_time, horse = key
         loose_key = (result_date, course, horse)
-
         loose.setdefault(loose_key, []).append(result)
 
     return loose
+
 
 def settle_bets(stake=1.0):
     bets = load_jsonl(LEDGER_FILE)
     index = build_result_index()
     loose_index = build_loose_result_index(index)
 
-    settled = []
+    settled_rows = []
     open_bets = []
     updated_bets = []
+    newly_settled = []
+    unmatched_samples = []
+
+    already_settled_count = 0
 
     for bet in bets:
         if bet.get("status") == "SETTLED":
-            settled.append(bet)
+            already_settled_count += 1
+            settled_rows.append(bet)
             updated_bets.append(bet)
             continue
 
@@ -187,14 +207,31 @@ def settle_bets(stake=1.0):
         if not result:
             open_bets.append(bet)
             updated_bets.append(bet)
+
+            if len(unmatched_samples) < 20:
+                unmatched_samples.append({
+                    "date": bet.get("date"),
+                    "course": bet.get("course"),
+                    "race_time": bet.get("race_time"),
+                    "horse": bet.get("horse"),
+                    "normalised_key": key,
+                })
+
             continue
 
         bet_stake = float(bet.get("stake") or stake)
         won = str(result.get("position")) == "1"
-        decimal_odds = float(bet.get("best_odds_decimal") or 0)
+        decimal_odds = bet.get("best_odds_decimal")
 
-        returned = bet_stake * decimal_odds if won else 0.0
-        profit = returned - bet_stake
+        if decimal_odds:
+            decimal_odds = float(decimal_odds)
+            returned = bet_stake * decimal_odds if won else 0.0
+            profit = returned - bet_stake
+            roi = round((profit / bet_stake) * 100, 2)
+        else:
+            returned = None
+            profit = None
+            roi = None
 
         settled_bet = dict(bet)
         settled_bet["status"] = "SETTLED"
@@ -203,17 +240,19 @@ def settle_bets(stake=1.0):
         settled_bet["sp"] = result.get("sp")
         settled_bet["won"] = won
         settled_bet["stake"] = bet_stake
-        settled_bet["returned"] = round(returned, 2)
-        settled_bet["profit"] = round(profit, 2)
-        settled_bet["roi"] = round((profit / bet_stake) * 100, 2)
+        settled_bet["returned"] = returned
+        settled_bet["profit"] = profit
+        settled_bet["roi"] = roi
+        settled_bet["result_source"] = result.get("source")
 
-        settled.append(settled_bet)
+        settled_rows.append(settled_bet)
         updated_bets.append(settled_bet)
+        newly_settled.append(settled_bet)
 
     SETTLED_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     with SETTLED_FILE.open("w", encoding="utf-8") as f:
-        for row in settled:
+        for row in settled_rows:
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
     with LEDGER_FILE.open("w", encoding="utf-8") as f:
@@ -223,19 +262,36 @@ def settle_bets(stake=1.0):
     return {
         "ledger_bets": len(bets),
         "results_indexed": len(index),
-        "settled": len(settled),
+        "already_settled": already_settled_count,
+        "newly_settled": len(newly_settled),
+        "total_settled": len(settled_rows),
         "open": len(open_bets),
+        "unmatched_samples": unmatched_samples,
         "settled_file": str(SETTLED_FILE),
         "ledger_file": str(LEDGER_FILE),
     }
+
 
 if __name__ == "__main__":
     report = settle_bets(1.0)
 
     print("Settlement Complete")
-    print("-" * 40)
-    print(f"Ledger bets: {report['ledger_bets']}")
-    print(f"Results indexed: {report['results_indexed']}")
-    print(f"Settled: {report['settled']}")
-    print(f"Open: {report['open']}")
+    print("-" * 50)
+    print(f"Ledger bets:       {report['ledger_bets']}")
+    print(f"Results indexed:   {report['results_indexed']}")
+    print(f"Already settled:   {report['already_settled']}")
+    print(f"Newly settled:     {report['newly_settled']}")
+    print(f"Total settled:     {report['total_settled']}")
+    print(f"Still open:        {report['open']}")
+
+    if report["unmatched_samples"]:
+        print()
+        print("Unmatched open bets:")
+        for item in report["unmatched_samples"]:
+            print(
+                f"- {item['date']} | {item['course']} | "
+                f"{item['race_time']} | {item['horse']}"
+            )
+
+    print()
     print(f"File: {report['settled_file']}")

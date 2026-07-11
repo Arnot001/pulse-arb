@@ -1,6 +1,7 @@
 import re
 from statistics import median
 from datetime import datetime
+from difflib import SequenceMatcher
 
 from playwright.sync_api import sync_playwright
 
@@ -26,6 +27,18 @@ def fraction_to_decimal(value):
         return None
 
 
+def normalise(value):
+    value = str(value or "").lower().strip()
+
+    for suffix in ["(aw)", "(gb)", "(ire)", "(fr)", "(usa)", "(aus)"]:
+        value = value.replace(suffix, "")
+
+    for char in ["'", "’", "-", ".", ",", "(", ")", "/"]:
+        value = value.replace(char, " ")
+
+    return " ".join(value.split())
+
+
 def accept_cookies(page):
     try:
         page.get_by_text("Accept all", exact=True).click(timeout=5000)
@@ -33,13 +46,29 @@ def accept_cookies(page):
         pass
 
 
+def is_match(line, horse):
+    line_key = normalise(line)
+    horse_key = normalise(horse)
+
+    if not line_key or not horse_key:
+        return False
+
+    if line_key.startswith(horse_key):
+        return True
+
+    if horse_key in line_key[:80]:
+        return True
+
+    first_chunk = " ".join(line_key.split()[:6])
+    return SequenceMatcher(None, first_chunk, horse_key).ratio() >= 0.86
+
+
 def extract_horse_row(body_text, horse):
     lines = [line.strip() for line in body_text.splitlines() if line.strip()]
-    horse_lower = horse.lower()
 
     for index, line in enumerate(lines):
-        if line.lower().startswith(horse_lower):
-            return " ".join(lines[index:index + 4])
+        if is_match(line, horse):
+            return " ".join(lines[index:index + 8])
 
     return ""
 
@@ -54,7 +83,7 @@ def extract_odds_from_row(row_text):
         if not decimal:
             continue
 
-        if decimal < 1.2 or decimal > 51:
+        if decimal < 1.2 or decimal > 101:
             continue
 
         odds.append({
@@ -103,10 +132,12 @@ class OddscheckerSession:
         row_text = ""
 
         try:
-            self.page.goto(url, wait_until="networkidle", timeout=60000)
+            self.page.goto(url, wait_until="domcontentloaded", timeout=45000)
             accept_cookies(self.page)
+            self.page.wait_for_timeout(5000)
 
             body_text = self.page.locator("body").inner_text(timeout=15000)
+
             if "you have been blocked" in body_text.lower():
                 return {
                     "success": False,
@@ -117,8 +148,10 @@ class OddscheckerSession:
                     "best_odds_decimal": None,
                     "bookmaker": None,
                     "row_text": "",
+                    "odds_source": "oddschecker",
                     "error": "Oddschecker blocked by Cloudflare",
                 }
+
             row_text = extract_horse_row(body_text, horse)
 
             odds = filter_suspicious_odds(
@@ -135,6 +168,7 @@ class OddscheckerSession:
                 "best_odds_decimal": None,
                 "bookmaker": None,
                 "row_text": row_text,
+                "odds_source": "oddschecker",
                 "error": str(exc),
             }
 
@@ -148,6 +182,7 @@ class OddscheckerSession:
                 "best_odds_decimal": None,
                 "bookmaker": None,
                 "row_text": row_text,
+                "odds_source": "oddschecker",
                 "error": "No odds found",
             }
 
@@ -162,6 +197,7 @@ class OddscheckerSession:
             "best_odds_decimal": best["decimal"],
             "bookmaker": "Oddschecker Best",
             "row_text": row_text,
+            "odds_source": "oddschecker",
             "error": None,
         }
 
@@ -172,4 +208,4 @@ def get_best_odds(course, race_time, horse, headless=False):
 
 
 if __name__ == "__main__":
-    print(get_best_odds("Ayr", "3:15", "Altareq"))
+    print(get_best_odds("Newmarket", "3:35", "Tenability"))

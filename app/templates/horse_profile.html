@@ -125,11 +125,43 @@
     <div class="dashboard-card">
         <h2>🏆 Result</h2>
 
-        {% if horse.result %}
-            <p><strong>Position:</strong> {{ horse.result.finish_position }}</p>
-            <p><strong>Won:</strong> {{ horse.result.won }}</p>
-            <p><strong>Placed:</strong> {{ horse.result.placed }}</p>
-            <p><strong>SP:</strong> {{ horse.result.sp }}</p>
+        {% if horse.latest_result %}
+
+            {% if horse.latest_result.won %}
+                <div class="score">🏆 WINNER</div>
+            {% elif horse.latest_result.placed %}
+                <div class="score">✅ PLACED</div>
+            {% else %}
+                <div class="score">❌ UNPLACED</div>
+            {% endif %}
+
+            <div class="race-summary">
+                <div>
+                    <strong>Position</strong><br>
+                    {{ horse.latest_result.finish_position }}
+                </div>
+
+                <div>
+                    <strong>SP</strong><br>
+                    {{ horse.latest_result.sp or "Unknown" }}
+                </div>
+
+                <div>
+                    <strong>Course</strong><br>
+                    {{ horse.latest_result.course }}
+                </div>
+
+                <div>
+                    <strong>Date</strong><br>
+                    {{ horse.latest_result.result_date }}
+                </div>
+            </div>
+
+            <p class="muted">
+                {{ horse.latest_result.race_time }}
+                · {{ horse.latest_result.race_name }}
+            </p>
+
         {% else %}
             <p class="muted">Result not attached yet.</p>
         {% endif %}

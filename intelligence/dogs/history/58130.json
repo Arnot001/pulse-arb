@@ -4,13 +4,13 @@
   "sex": "b",
   "colour": "bk",
   "birth_date": "2022-09-15",
-  "trainer": "L G Tuffin",
-  "owner": "Mr P T Johnson",
+  "trainer": null,
+  "owner": null,
   "sire": "Broadstrand Bono",
   "dam": "Droopys Lullaby",
-  "current_form": "21643",
+  "current_form": "64335",
   "overall": {
-    "runs": 79,
+    "runs": 80,
     "wins": 13,
     "seconds": 20,
     "thirds": 13,
@@ -18,7 +18,7 @@
   },
   "tracks": {
     "Towcester": {
-      "runs": 75,
+      "runs": 76,
       "wins": 13,
       "seconds": 18,
       "thirds": 11,
@@ -40,6 +40,13 @@
     }
   },
   "distances": {
+    "460": {
+      "runs": 2,
+      "wins": 0,
+      "seconds": 0,
+      "thirds": 1,
+      "places": 1
+    },
     "270": {
       "runs": 13,
       "wins": 1,
@@ -81,29 +88,22 @@
       "seconds": 0,
       "thirds": 1,
       "places": 1
-    },
-    "460": {
-      "runs": 1,
-      "wins": 0,
-      "seconds": 0,
-      "thirds": 1,
-      "places": 1
     }
   },
   "traps": {
+    "6": {
+      "runs": 52,
+      "wins": 10,
+      "seconds": 13,
+      "thirds": 7,
+      "places": 30
+    },
     "5": {
       "runs": 25,
       "wins": 2,
       "seconds": 6,
       "thirds": 6,
       "places": 14
-    },
-    "6": {
-      "runs": 51,
-      "wins": 10,
-      "seconds": 13,
-      "thirds": 7,
-      "places": 30
     },
     "4": {
       "runs": 3,
@@ -114,6 +114,20 @@
     }
   },
   "classes": {
+    "B1": {
+      "runs": 1,
+      "wins": 0,
+      "seconds": 0,
+      "thirds": 0,
+      "places": 0
+    },
+    "OR": {
+      "runs": 5,
+      "wins": 0,
+      "seconds": 3,
+      "thirds": 2,
+      "places": 5
+    },
     "D2": {
       "runs": 7,
       "wins": 0,
@@ -127,13 +141,6 @@
       "seconds": 1,
       "thirds": 1,
       "places": 3
-    },
-    "OR": {
-      "runs": 5,
-      "wins": 0,
-      "seconds": 3,
-      "thirds": 2,
-      "places": 5
     },
     "A2": {
       "runs": 21,
@@ -200,8 +207,8 @@
     }
   },
   "best_time": 16.15,
-  "average_time": 29.56,
-  "last_seen": "2026-06-28",
-  "win_rate": 16.46,
-  "place_rate": 58.23
+  "average_time": 29.53,
+  "last_seen": "2026-07-04",
+  "win_rate": 16.25,
+  "place_rate": 57.5
 }
