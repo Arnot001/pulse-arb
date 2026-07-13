@@ -5,13 +5,13 @@
   "time": "6:30",
   "race_name": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
   "field_size": 6,
-  "average_intelligence": 52.67,
+  "average_intelligence": 17.0,
   "top_score": 58,
-  "second_score": 55,
-  "gap": 3,
-  "confidence_score": 50,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "second_score": 44,
+  "gap": 14,
+  "confidence_score": 59,
+  "confidence": "MEDIUM",
+  "race_shape": "PULSE EDGE",
   "top_runner": {
     "horse": "Eevee Star",
     "horse_id": "hrs_64779757",
@@ -93,7 +93,7 @@
         "last_run": 24,
         "form": "35",
         "headgear": "t",
-        "_stored_at": "2026-07-03T00:36:54.838815+00:00"
+        "_stored_at": "2026-07-03T04:58:43.480506+00:00"
       }
     ],
     "profile_notes": [],
@@ -142,8 +142,8 @@
     }
   },
   "main_threat": {
-    "horse": "Tropical Crown",
-    "horse_id": "hrs_66368477",
+    "horse": "Fast Track",
+    "horse_id": "hrs_64937964",
     "age": 2,
     "sex": "filly",
     "latest_course": "Beverley",
@@ -154,13 +154,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "K R Burke",
-    "latest_jockey": "Pierre-Louis Jamin",
-    "latest_draw": 4,
+    "latest_trainer": "Andrew Balding",
+    "latest_jockey": "NON-RUNNER",
+    "latest_draw": 1,
     "latest_weight_lbs": 128,
-    "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
+    "official_rating": "86",
+    "recent_form": "320",
+    "last_run_days": 16,
     "profile_runs": 1,
     "courses_seen": {
       "Beverley": 1
@@ -175,23 +175,24 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "K R Burke": 1
+      "Andrew Balding": 1
     },
     "jockeys_seen": {
-      "Pierre-Louis Jamin": 1
+      "NON-RUNNER": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 63,
+    "latest_pulse_score": 37,
     "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Non-runner risk",
       "Race class strength +2",
-      "Trainer bonus +3",
-      "Stable flying +4 (4/7 last 14 days)",
-      "Jockey bonus +1",
-      "Jockey in form +2 (2/2 last 14 days)",
-      "Historical winner +3",
-      "Previous course winner +4",
-      "Distance specialist +4 (2/2 at trip)"
+      "Trainer bonus +2",
+      "Stable in form +2 (2/2 last 14 days)",
+      "Jockey concern -2"
     ],
     "runs": [
       {
@@ -208,25 +209,27 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 7,
-        "horse": "Tropical Crown",
-        "horse_id": "hrs_66368477",
+        "horse": "Fast Track",
+        "horse_id": "hrs_64937964",
         "age": 2,
         "sex": "filly",
-        "trainer": "K R Burke",
-        "trainer_id": "trn_45171",
-        "jockey": "Pierre-Louis Jamin",
-        "jockey_id": "jky_283893",
-        "draw": 4,
-        "number": 7,
+        "trainer": "Andrew Balding",
+        "trainer_id": "trn_140445",
+        "jockey": "NON-RUNNER",
+        "jockey_id": "jky_224913",
+        "draw": 1,
+        "number": null,
         "lbs": 128,
-        "ofr": "-",
-        "last_run": null,
-        "form": "",
+        "ofr": "86",
+        "last_run": 16,
+        "form": "320",
         "headgear": "",
-        "_stored_at": "2026-07-03T00:36:55.026592+00:00"
+        "_stored_at": "2026-07-03T04:58:43.652059+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Low draw today"
+    ],
     "favourite_course": {
       "value": "Beverley",
       "runs": 1
@@ -248,7 +251,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 55,
+    "horse_intelligence_score": 44,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -256,6 +259,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -264,15 +268,15 @@
       "latest_distance_f": 5.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": 63,
+      "latest_pulse_score": 37,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Tropical Crown",
-    "horse_id": "hrs_66368477",
+    "horse": "Isca Bay",
+    "horse_id": "hrs_65190475",
     "age": 2,
     "sex": "filly",
     "latest_course": "Beverley",
@@ -283,13 +287,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "K R Burke",
-    "latest_jockey": "Pierre-Louis Jamin",
-    "latest_draw": 4,
+    "latest_trainer": "Craig Lidster",
+    "latest_jockey": "David Allan",
+    "latest_draw": 3,
     "latest_weight_lbs": 128,
     "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
+    "recent_form": "5",
+    "last_run_days": 11,
     "profile_runs": 1,
     "courses_seen": {
       "Beverley": 1
@@ -304,23 +308,20 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "K R Burke": 1
+      "Craig Lidster": 1
     },
     "jockeys_seen": {
-      "Pierre-Louis Jamin": 1
+      "David Allan": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 63,
+    "latest_pulse_score": 60,
     "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Helpful draw",
       "Race class strength +2",
-      "Trainer bonus +3",
-      "Stable flying +4 (4/7 last 14 days)",
-      "Jockey bonus +1",
-      "Jockey in form +2 (2/2 last 14 days)",
-      "Historical winner +3",
-      "Previous course winner +4",
-      "Distance specialist +4 (2/2 at trip)"
+      "Jockey flying +4 (4/6 last 14 days)"
     ],
     "runs": [
       {
@@ -337,67 +338,28 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 7,
-        "horse": "Tropical Crown",
-        "horse_id": "hrs_66368477",
+        "horse": "Isca Bay",
+        "horse_id": "hrs_65190475",
         "age": 2,
         "sex": "filly",
-        "trainer": "K R Burke",
-        "trainer_id": "trn_45171",
-        "jockey": "Pierre-Louis Jamin",
-        "jockey_id": "jky_283893",
-        "draw": 4,
-        "number": 7,
+        "trainer": "Craig Lidster",
+        "trainer_id": "trn_351099",
+        "jockey": "David Allan",
+        "jockey_id": "jky_234669",
+        "draw": 3,
+        "number": 3,
         "lbs": 128,
         "ofr": "-",
-        "last_run": null,
-        "form": "",
+        "last_run": 11,
+        "form": "5",
         "headgear": "",
-        "_stored_at": "2026-07-03T00:36:55.026592+00:00"
+        "_stored_at": "2026-07-03T04:58:43.504218+00:00"
       }
     ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Beverley",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 5.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 55,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Beverley",
-      "latest_distance_f": 5.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 63,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
+    "profile_notes": [
+      "Low draw today",
+      "Recent run timing"
+    ]
   },
   "runners": [
     {
@@ -481,7 +443,7 @@
           "last_run": 24,
           "form": "35",
           "headgear": "t",
-          "_stored_at": "2026-07-03T00:36:54.838815+00:00"
+          "_stored_at": "2026-07-03T04:58:43.480506+00:00"
         }
       ],
       "profile_notes": [],
@@ -524,520 +486,6 @@
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
         "latest_pulse_score": 68,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Tropical Crown",
-      "horse_id": "hrs_66368477",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Beverley",
-      "latest_time": "6:30",
-      "latest_race": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "K R Burke",
-      "latest_jockey": "Pierre-Louis Jamin",
-      "latest_draw": 4,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Beverley": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "K R Burke": 1
-      },
-      "jockeys_seen": {
-        "Pierre-Louis Jamin": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 63,
-      "latest_notes": [
-        "Race class strength +2",
-        "Trainer bonus +3",
-        "Stable flying +4 (4/7 last 14 days)",
-        "Jockey bonus +1",
-        "Jockey in form +2 (2/2 last 14 days)",
-        "Historical winner +3",
-        "Previous course winner +4",
-        "Distance specialist +4 (2/2 at trip)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989159",
-          "course": "Beverley",
-          "date": "2026-07-03",
-          "off_time": "6:30",
-          "off_dt": "2026-07-03T18:30:00+01:00",
-          "race_name": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Tropical Crown",
-          "horse_id": "hrs_66368477",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "K R Burke",
-          "trainer_id": "trn_45171",
-          "jockey": "Pierre-Louis Jamin",
-          "jockey_id": "jky_283893",
-          "draw": 4,
-          "number": 7,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:36:55.026592+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Beverley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 55,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Beverley",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 63,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Isca Bay",
-      "horse_id": "hrs_65190475",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Beverley",
-      "latest_time": "6:30",
-      "latest_race": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Craig Lidster",
-      "latest_jockey": "David Allan",
-      "latest_draw": 3,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "5",
-      "last_run_days": 11,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Beverley": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Craig Lidster": 1
-      },
-      "jockeys_seen": {
-        "David Allan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Jockey flying +4 (4/6 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989159",
-          "course": "Beverley",
-          "date": "2026-07-03",
-          "off_time": "6:30",
-          "off_dt": "2026-07-03T18:30:00+01:00",
-          "race_name": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Isca Bay",
-          "horse_id": "hrs_65190475",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Craig Lidster",
-          "trainer_id": "trn_351099",
-          "jockey": "David Allan",
-          "jockey_id": "jky_234669",
-          "draw": 3,
-          "number": 3,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 11,
-          "form": "5",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:36:54.872040+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Beverley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Beverley",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 60,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Miss Havisham",
-      "horse_id": "hrs_64780513",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Beverley",
-      "latest_time": "6:30",
-      "latest_race": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Kevin Ryan",
-      "latest_jockey": "Tom Eaves",
-      "latest_draw": 2,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "3",
-      "last_run_days": 46,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Beverley": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Kevin Ryan": 1
-      },
-      "jockeys_seen": {
-        "Tom Eaves": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 58,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +1",
-        "Jockey in form +2 (1/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989159",
-          "course": "Beverley",
-          "date": "2026-07-03",
-          "off_time": "6:30",
-          "off_dt": "2026-07-03T18:30:00+01:00",
-          "race_name": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Miss Havisham",
-          "horse_id": "hrs_64780513",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Kevin Ryan",
-          "trainer_id": "trn_202725",
-          "jockey": "Tom Eaves",
-          "jockey_id": "jky_230493",
-          "draw": 2,
-          "number": 4,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 46,
-          "form": "3",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:36:54.888354+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Beverley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Beverley",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 58,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Northern Viola",
-      "horse_id": "hrs_65678319",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Beverley",
-      "latest_time": "6:30",
-      "latest_race": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "John & Sean Quinn",
-      "latest_jockey": "Jason Hart",
-      "latest_draw": 6,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "55",
-      "last_run_days": 11,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Beverley": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "John & Sean Quinn": 1
-      },
-      "jockeys_seen": {
-        "Jason Hart": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 56,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Race class strength +2",
-        "Jockey in form +2 (2/4 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989159",
-          "course": "Beverley",
-          "date": "2026-07-03",
-          "off_time": "6:30",
-          "off_dt": "2026-07-03T18:30:00+01:00",
-          "race_name": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Northern Viola",
-          "horse_id": "hrs_65678319",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "John & Sean Quinn",
-          "trainer_id": "trn_369855",
-          "jockey": "Jason Hart",
-          "jockey_id": "jky_270729",
-          "draw": 6,
-          "number": 6,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 11,
-          "form": "55",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:36:54.976889+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Beverley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Beverley",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 56,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1126,7 +574,7 @@
           "last_run": 16,
           "form": "320",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:36:55.109605+00:00"
+          "_stored_at": "2026-07-03T04:58:43.652059+00:00"
         }
       ],
       "profile_notes": [
@@ -1175,11 +623,358 @@
         "profile_runs": 1,
         "runs_count": 1
       }
+    },
+    {
+      "horse": "Isca Bay",
+      "horse_id": "hrs_65190475",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Beverley",
+      "latest_time": "6:30",
+      "latest_race": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Craig Lidster",
+      "latest_jockey": "David Allan",
+      "latest_draw": 3,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "5",
+      "last_run_days": 11,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Beverley": 1
+      },
+      "distances_seen": {
+        "5.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Craig Lidster": 1
+      },
+      "jockeys_seen": {
+        "David Allan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 60,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2",
+        "Jockey flying +4 (4/6 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989159",
+          "course": "Beverley",
+          "date": "2026-07-03",
+          "off_time": "6:30",
+          "off_dt": "2026-07-03T18:30:00+01:00",
+          "race_name": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Isca Bay",
+          "horse_id": "hrs_65190475",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Craig Lidster",
+          "trainer_id": "trn_351099",
+          "jockey": "David Allan",
+          "jockey_id": "jky_234669",
+          "draw": 3,
+          "number": 3,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 11,
+          "form": "5",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:43.504218+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today",
+        "Recent run timing"
+      ]
+    },
+    {
+      "horse": "Miss Havisham",
+      "horse_id": "hrs_64780513",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Beverley",
+      "latest_time": "6:30",
+      "latest_race": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Kevin Ryan",
+      "latest_jockey": "Tom Eaves",
+      "latest_draw": 2,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "3",
+      "last_run_days": 46,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Beverley": 1
+      },
+      "distances_seen": {
+        "5.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Kevin Ryan": 1
+      },
+      "jockeys_seen": {
+        "Tom Eaves": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 58,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Jockey in form +2 (1/2 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989159",
+          "course": "Beverley",
+          "date": "2026-07-03",
+          "off_time": "6:30",
+          "off_dt": "2026-07-03T18:30:00+01:00",
+          "race_name": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Miss Havisham",
+          "horse_id": "hrs_64780513",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Kevin Ryan",
+          "trainer_id": "trn_202725",
+          "jockey": "Tom Eaves",
+          "jockey_id": "jky_230493",
+          "draw": 2,
+          "number": 4,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 46,
+          "form": "3",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:43.527263+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ]
+    },
+    {
+      "horse": "Northern Viola",
+      "horse_id": "hrs_65678319",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Beverley",
+      "latest_time": "6:30",
+      "latest_race": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "John & Sean Quinn",
+      "latest_jockey": "Jason Hart",
+      "latest_draw": 6,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "55",
+      "last_run_days": 11,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Beverley": 1
+      },
+      "distances_seen": {
+        "5.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "John & Sean Quinn": 1
+      },
+      "jockeys_seen": {
+        "Jason Hart": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 56,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Race class strength +2",
+        "Jockey in form +2 (2/4 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989159",
+          "course": "Beverley",
+          "date": "2026-07-03",
+          "off_time": "6:30",
+          "off_dt": "2026-07-03T18:30:00+01:00",
+          "race_name": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Northern Viola",
+          "horse_id": "hrs_65678319",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "John & Sean Quinn",
+          "trainer_id": "trn_369855",
+          "jockey": "Jason Hart",
+          "jockey_id": "jky_270729",
+          "draw": 6,
+          "number": 6,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 11,
+          "form": "55",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:43.576480+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ]
+    },
+    {
+      "horse": "Tropical Crown",
+      "horse_id": "hrs_66368477",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Beverley",
+      "latest_time": "6:30",
+      "latest_race": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "K R Burke",
+      "latest_jockey": "Pierre-Louis Jamin",
+      "latest_draw": 4,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Beverley": 1
+      },
+      "distances_seen": {
+        "5.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "K R Burke": 1
+      },
+      "jockeys_seen": {
+        "Pierre-Louis Jamin": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 63,
+      "latest_notes": [
+        "Race class strength +2",
+        "Trainer bonus +3",
+        "Stable flying +4 (4/7 last 14 days)",
+        "Jockey bonus +1",
+        "Jockey in form +2 (2/2 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4",
+        "Distance specialist +4 (2/2 at trip)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989159",
+          "course": "Beverley",
+          "date": "2026-07-03",
+          "off_time": "6:30",
+          "off_dt": "2026-07-03T18:30:00+01:00",
+          "race_name": "IRE-Incentive, It Pays To Buy Irish EBF Fillies' Novice Stakes (GBB/IRE Incentive Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Tropical Crown",
+          "horse_id": "hrs_66368477",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "K R Burke",
+          "trainer_id": "trn_45171",
+          "jockey": "Pierre-Louis Jamin",
+          "jockey_id": "jky_283893",
+          "draw": 4,
+          "number": 7,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:43.601048+00:00"
+        }
+      ],
+      "profile_notes": []
     }
   ],
   "notes": [
     "Eevee Star is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "Tropical Crown is flagged as a possible dark horse."
+    "The top runner has a clear intelligence gap over the field.",
+    "This race has a generally weak profile strength.",
+    "Isca Bay is flagged as a possible dark horse."
   ]
 }

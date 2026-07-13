@@ -4,18 +4,18 @@
   "course": "Worcester",
   "time": "9:00",
   "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
-  "field_size": 11,
-  "average_intelligence": 51.45,
-  "top_score": 59,
-  "second_score": 58,
+  "field_size": 9,
+  "average_intelligence": 51.0,
+  "top_score": 58,
+  "second_score": 57,
   "gap": 1,
-  "confidence_score": 47,
+  "confidence_score": 46,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Hold Your Fort",
-    "horse_id": "hrs_21221641",
-    "age": 10,
+    "horse": "Mexican Stan",
+    "horse_id": "hrs_48667584",
+    "age": 6,
     "sex": "gelding",
     "latest_course": "Worcester",
     "latest_time": "9:00",
@@ -25,13 +25,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Debra Hamer",
-    "latest_jockey": "Mr J P Murray(7)",
+    "latest_trainer": "Alastair Ralph",
+    "latest_jockey": "Lee Edwards",
     "latest_draw": 0,
-    "latest_weight_lbs": 168,
-    "official_rating": "100",
-    "recent_form": "U12-39",
-    "last_run_days": 12,
+    "latest_weight_lbs": 159,
+    "official_rating": "91",
+    "recent_form": "45-144",
+    "last_run_days": 27,
     "profile_runs": 1,
     "courses_seen": {
       "Worcester": 1
@@ -46,14 +46,165 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Debra Hamer": 1
+      "Alastair Ralph": 1
     },
     "jockeys_seen": {
-      "Mr J P Murray(7)": 1
+      "Lee Edwards": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 71,
+    "latest_pulse_score": 70,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11987742",
+        "course": "Worcester",
+        "date": "2026-07-10",
+        "off_time": "9:00",
+        "off_dt": "2026-07-10T21:00:00+01:00",
+        "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+        "distance_f": 23.0,
+        "race_class": "Class 5",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 10,
+        "horse": "Mexican Stan",
+        "horse_id": "hrs_48667584",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Alastair Ralph",
+        "trainer_id": "trn_236331",
+        "jockey": "Lee Edwards",
+        "jockey_id": "jky_249876",
+        "draw": 0,
+        "number": 7,
+        "lbs": 159,
+        "ofr": "91",
+        "last_run": 27,
+        "form": "45-144",
+        "headgear": "t"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Worcester",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 23.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 58,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Worcester",
+      "latest_distance_f": 23.0,
+      "latest_going": "Good",
+      "latest_class": "Class 5",
+      "latest_pulse_score": 70,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    },
+    "latest_result": {
+      "source": "bbc_sport",
+      "result_date": "2026-07-10",
+      "course": "Worcester",
+      "race_time": "21:00",
+      "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+      "race_id": "p-1573192",
+      "status": "PostEvent",
+      "finish_position": 8,
+      "sp": "11/1",
+      "favourite_position": 5,
+      "going": "Good",
+      "distance": "2m 7f",
+      "field_size": 9,
+      "trainer": "A Ralph",
+      "jockey": "Lee Edwards",
+      "distance_beaten": "22L",
+      "won": false,
+      "placed": false,
+      "attached_at": "2026-07-11T14:59:22"
+    },
+    "latest_result_position": 8,
+    "latest_result_sp": "11/1",
+    "latest_result_won": false,
+    "latest_result_placed": false,
+    "latest_result_date": "2026-07-10"
+  },
+  "main_threat": {
+    "horse": "Ballela Blaze",
+    "horse_id": "hrs_34373787",
+    "age": 8,
+    "sex": "gelding",
+    "latest_course": "Worcester",
+    "latest_time": "9:00",
+    "latest_race": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+    "latest_date": "2026-07-10",
+    "latest_distance_f": 23.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Thomas Gallagher",
+    "latest_jockey": "David Noonan",
+    "latest_draw": 0,
+    "latest_weight_lbs": 155,
+    "official_rating": "87",
+    "recent_form": "8322/3",
+    "last_run_days": 60,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Worcester": 1
+    },
+    "distances_seen": {
+      "23.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 5": 1
+    },
+    "trainers_seen": {
+      "Thomas Gallagher": 1
+    },
+    "jockeys_seen": {
+      "David Noonan": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 67,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
@@ -74,150 +225,23 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Hold Your Fort",
-        "horse_id": "hrs_21221641",
-        "age": 10,
+        "horse": "Ballela Blaze",
+        "horse_id": "hrs_34373787",
+        "age": 8,
         "sex": "gelding",
-        "trainer": "Debra Hamer",
-        "trainer_id": "trn_58077",
-        "jockey": "Mr J P Murray(7)",
-        "jockey_id": "jky_303405",
+        "trainer": "Thomas Gallagher",
+        "trainer_id": "trn_288549",
+        "jockey": "David Noonan",
+        "jockey_id": "jky_274599",
         "draw": 0,
-        "number": 1,
-        "lbs": 168,
-        "ofr": "100",
-        "last_run": 12,
-        "form": "U12-39",
+        "number": 8,
+        "lbs": 155,
+        "ofr": "87",
+        "last_run": 60,
+        "form": "8322/3",
         "headgear": ""
       }
     ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Worcester",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 23.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 59,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Worcester",
-      "latest_distance_f": 23.0,
-      "latest_going": "Good",
-      "latest_class": "Class 5",
-      "latest_pulse_score": 71,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Mexican Stan",
-    "horse_id": "hrs_48667584",
-    "age": 6,
-    "sex": "gelding",
-    "latest_course": "Worcester",
-    "latest_time": "9:00",
-    "latest_race": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
-    "latest_date": "2026-07-10",
-    "latest_distance_f": 23.0,
-    "latest_class": "Class 5",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Alastair Ralph",
-    "latest_jockey": "Lee Edwards",
-    "latest_draw": 0,
-    "latest_weight_lbs": 159,
-    "official_rating": "91",
-    "recent_form": "45-144",
-    "last_run_days": 27,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Worcester": 1
-    },
-    "distances_seen": {
-      "23.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 5": 1
-    },
-    "trainers_seen": {
-      "Alastair Ralph": 1
-    },
-    "jockeys_seen": {
-      "Lee Edwards": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 70,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11987742",
-        "course": "Worcester",
-        "date": "2026-07-10",
-        "off_time": "9:00",
-        "off_dt": "2026-07-10T21:00:00+01:00",
-        "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
-        "distance_f": 23.0,
-        "race_class": "Class 5",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 10,
-        "horse": "Mexican Stan",
-        "horse_id": "hrs_48667584",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "Alastair Ralph",
-        "trainer_id": "trn_236331",
-        "jockey": "Lee Edwards",
-        "jockey_id": "jky_249876",
-        "draw": 0,
-        "number": 7,
-        "lbs": 159,
-        "ofr": "91",
-        "last_run": 27,
-        "form": "45-144",
-        "headgear": "t"
-      }
-    ],
     "profile_notes": [],
     "favourite_course": {
       "value": "Worcester",
@@ -240,7 +264,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 58,
+    "horse_intelligence_score": 57,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -257,16 +281,42 @@
       "latest_distance_f": 23.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 70,
+      "latest_pulse_score": 67,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
-    }
+    },
+    "latest_result": {
+      "source": "bbc_sport",
+      "result_date": "2026-07-10",
+      "course": "Worcester",
+      "race_time": "21:00",
+      "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+      "race_id": "p-1573192",
+      "status": "PostEvent",
+      "finish_position": 7,
+      "sp": "14/1",
+      "favourite_position": 8,
+      "going": "Good",
+      "distance": "2m 7f",
+      "field_size": 9,
+      "trainer": "T Gallagher",
+      "jockey": "David Noonan",
+      "distance_beaten": "2ÃÂ¾L",
+      "won": false,
+      "placed": false,
+      "attached_at": "2026-07-11T14:59:22"
+    },
+    "latest_result_position": 7,
+    "latest_result_sp": "14/1",
+    "latest_result_won": false,
+    "latest_result_placed": false,
+    "latest_result_date": "2026-07-10"
   },
   "dark_horse": {
-    "horse": "Mexican Stan",
-    "horse_id": "hrs_48667584",
-    "age": 6,
+    "horse": "Ballela Blaze",
+    "horse_id": "hrs_34373787",
+    "age": 8,
     "sex": "gelding",
     "latest_course": "Worcester",
     "latest_time": "9:00",
@@ -276,13 +326,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Alastair Ralph",
-    "latest_jockey": "Lee Edwards",
+    "latest_trainer": "Thomas Gallagher",
+    "latest_jockey": "David Noonan",
     "latest_draw": 0,
-    "latest_weight_lbs": 159,
-    "official_rating": "91",
-    "recent_form": "45-144",
-    "last_run_days": 27,
+    "latest_weight_lbs": 155,
+    "official_rating": "87",
+    "recent_form": "8322/3",
+    "last_run_days": 60,
     "profile_runs": 1,
     "courses_seen": {
       "Worcester": 1
@@ -297,18 +347,17 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Alastair Ralph": 1
+      "Thomas Gallagher": 1
     },
     "jockeys_seen": {
-      "Lee Edwards": 1
+      "David Noonan": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 70,
+    "latest_pulse_score": 67,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
-      "Ideal layoff profile +2",
       "Helpful draw"
     ],
     "runs": [
@@ -326,21 +375,21 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Mexican Stan",
-        "horse_id": "hrs_48667584",
-        "age": 6,
+        "horse": "Ballela Blaze",
+        "horse_id": "hrs_34373787",
+        "age": 8,
         "sex": "gelding",
-        "trainer": "Alastair Ralph",
-        "trainer_id": "trn_236331",
-        "jockey": "Lee Edwards",
-        "jockey_id": "jky_249876",
+        "trainer": "Thomas Gallagher",
+        "trainer_id": "trn_288549",
+        "jockey": "David Noonan",
+        "jockey_id": "jky_274599",
         "draw": 0,
-        "number": 7,
-        "lbs": 159,
-        "ofr": "91",
-        "last_run": 27,
-        "form": "45-144",
-        "headgear": "t"
+        "number": 8,
+        "lbs": 155,
+        "ofr": "87",
+        "last_run": 60,
+        "form": "8322/3",
+        "headgear": ""
       }
     ],
     "profile_notes": [],
@@ -365,7 +414,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 58,
+    "horse_intelligence_score": 57,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -382,139 +431,39 @@
       "latest_distance_f": 23.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 70,
+      "latest_pulse_score": 67,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
-    }
+    },
+    "latest_result": {
+      "source": "bbc_sport",
+      "result_date": "2026-07-10",
+      "course": "Worcester",
+      "race_time": "21:00",
+      "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+      "race_id": "p-1573192",
+      "status": "PostEvent",
+      "finish_position": 7,
+      "sp": "14/1",
+      "favourite_position": 8,
+      "going": "Good",
+      "distance": "2m 7f",
+      "field_size": 9,
+      "trainer": "T Gallagher",
+      "jockey": "David Noonan",
+      "distance_beaten": "2ÃÂ¾L",
+      "won": false,
+      "placed": false,
+      "attached_at": "2026-07-11T14:59:22"
+    },
+    "latest_result_position": 7,
+    "latest_result_sp": "14/1",
+    "latest_result_won": false,
+    "latest_result_placed": false,
+    "latest_result_date": "2026-07-10"
   },
   "runners": [
-    {
-      "horse": "Hold Your Fort",
-      "horse_id": "hrs_21221641",
-      "age": 10,
-      "sex": "gelding",
-      "latest_course": "Worcester",
-      "latest_time": "9:00",
-      "latest_race": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
-      "latest_date": "2026-07-10",
-      "latest_distance_f": 23.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Debra Hamer",
-      "latest_jockey": "Mr J P Murray(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "100",
-      "recent_form": "U12-39",
-      "last_run_days": 12,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Worcester": 1
-      },
-      "distances_seen": {
-        "23.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Debra Hamer": 1
-      },
-      "jockeys_seen": {
-        "Mr J P Murray(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 71,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987742",
-          "course": "Worcester",
-          "date": "2026-07-10",
-          "off_time": "9:00",
-          "off_dt": "2026-07-10T21:00:00+01:00",
-          "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
-          "distance_f": 23.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Hold Your Fort",
-          "horse_id": "hrs_21221641",
-          "age": 10,
-          "sex": "gelding",
-          "trainer": "Debra Hamer",
-          "trainer_id": "trn_58077",
-          "jockey": "Mr J P Murray(7)",
-          "jockey_id": "jky_303405",
-          "draw": 0,
-          "number": 1,
-          "lbs": 168,
-          "ofr": "100",
-          "last_run": 12,
-          "form": "U12-39",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Worcester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 23.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 59,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Worcester",
-        "latest_distance_f": 23.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 71,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Mexican Stan",
       "horse_id": "hrs_48667584",
@@ -638,7 +587,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-10",
+        "course": "Worcester",
+        "race_time": "21:00",
+        "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+        "race_id": "p-1573192",
+        "status": "PostEvent",
+        "finish_position": 8,
+        "sp": "11/1",
+        "favourite_position": 5,
+        "going": "Good",
+        "distance": "2m 7f",
+        "field_size": 9,
+        "trainer": "A Ralph",
+        "jockey": "Lee Edwards",
+        "distance_beaten": "22L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-11T14:59:22"
+      },
+      "latest_result_position": 8,
+      "latest_result_sp": "11/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-10"
     },
     {
       "horse": "Ballela Blaze",
@@ -762,7 +737,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-10",
+        "course": "Worcester",
+        "race_time": "21:00",
+        "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+        "race_id": "p-1573192",
+        "status": "PostEvent",
+        "finish_position": 7,
+        "sp": "14/1",
+        "favourite_position": 8,
+        "going": "Good",
+        "distance": "2m 7f",
+        "field_size": 9,
+        "trainer": "T Gallagher",
+        "jockey": "David Noonan",
+        "distance_beaten": "2ÃÂ¾L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-11T14:59:22"
+      },
+      "latest_result_position": 7,
+      "latest_result_sp": "14/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-10"
     },
     {
       "horse": "Spitalfield",
@@ -889,7 +890,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-10",
+        "course": "Worcester",
+        "race_time": "21:00",
+        "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+        "race_id": "p-1573192",
+        "status": "PostEvent",
+        "finish_position": 6,
+        "sp": "15/2",
+        "favourite_position": 4,
+        "going": "Good",
+        "distance": "2m 7f",
+        "field_size": 9,
+        "trainer": "J & A O'Neill",
+        "jockey": "Jonjo O'Neill Jr.",
+        "distance_beaten": "2ÃÂ¼L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-11T14:59:22"
+      },
+      "latest_result_position": 6,
+      "latest_result_sp": "15/2",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-10"
     },
     {
       "horse": "Alderley Charlie",
@@ -1139,7 +1166,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "sporting_life_enriched",
+        "result_date": "2026-07-10",
+        "course": "Worcester",
+        "race_time": "20:00",
+        "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+        "race_id": null,
+        "status": null,
+        "finish_position": 3,
+        "sp": "6/1",
+        "favourite_position": null,
+        "going": "Good (Good to Firm in places)",
+        "distance": "2m 7f",
+        "field_size": null,
+        "trainer": null,
+        "jockey": null,
+        "distance_beaten": null,
+        "won": false,
+        "placed": true,
+        "attached_at": "2026-07-11T16:25:07"
+      },
+      "latest_result_position": 3,
+      "latest_result_sp": "6/1",
+      "latest_result_won": false,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-10"
     },
     {
       "horse": "Iamcelestialgift",
@@ -1265,7 +1318,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-10",
+        "course": "Worcester",
+        "race_time": "21:00",
+        "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+        "race_id": "p-1573192",
+        "status": "PostEvent",
+        "finish_position": 9,
+        "sp": "12/1",
+        "favourite_position": 7,
+        "going": "Good",
+        "distance": "2m 7f",
+        "field_size": 9,
+        "trainer": "D Killahena & G McPherson",
+        "jockey": "Kielan Woods",
+        "distance_beaten": "17L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-11T14:59:22"
+      },
+      "latest_result_position": 9,
+      "latest_result_sp": "12/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-10"
     },
     {
       "horse": "Pooroldmackley",
@@ -1389,7 +1468,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-10",
+        "course": "Worcester",
+        "race_time": "21:00",
+        "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+        "race_id": "p-1573192",
+        "status": "PostEvent",
+        "finish_position": 4,
+        "sp": "18/1",
+        "favourite_position": 9,
+        "going": "Good",
+        "distance": "2m 7f",
+        "field_size": 9,
+        "trainer": "Mrs C Williams",
+        "jockey": "Miss Eleanor Williams",
+        "distance_beaten": "ÃÂ½L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-11T14:59:22"
+      },
+      "latest_result_position": 4,
+      "latest_result_sp": "18/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-10"
     },
     {
       "horse": "Stiletto",
@@ -1515,135 +1620,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
-    },
-    {
-      "horse": "Oneinthewell",
-      "horse_id": "hrs_50036350",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Worcester",
-      "latest_time": "9:00",
-      "latest_race": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
-      "latest_date": "2026-07-10",
-      "latest_distance_f": 23.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "James Owen",
-      "latest_jockey": "Jonathan Burke",
-      "latest_draw": 0,
-      "latest_weight_lbs": 167,
-      "official_rating": "99",
-      "recent_form": "5733-2",
-      "last_run_days": 5,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Worcester": 1
       },
-      "distances_seen": {
-        "23.0": 1
+      "latest_result": {
+        "source": "sporting_life_enriched",
+        "result_date": "2026-07-10",
+        "course": "Worcester",
+        "race_time": "20:00",
+        "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
+        "race_id": null,
+        "status": null,
+        "finish_position": 1,
+        "sp": "11/1",
+        "favourite_position": null,
+        "going": "Good (Good to Firm in places)",
+        "distance": "2m 7f",
+        "field_size": null,
+        "trainer": null,
+        "jockey": null,
+        "distance_beaten": null,
+        "won": true,
+        "placed": true,
+        "attached_at": "2026-07-11T16:25:07"
       },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "James Owen": 1
-      },
-      "jockeys_seen": {
-        "Jonathan Burke": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw",
-        "Trainer bonus +3",
-        "Stable in form +2 (1/1 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987742",
-          "course": "Worcester",
-          "date": "2026-07-10",
-          "off_time": "9:00",
-          "off_dt": "2026-07-10T21:00:00+01:00",
-          "race_name": "CopyBet Overnight Best Odds Guaranteed Handicap Hurdle",
-          "distance_f": 23.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Oneinthewell",
-          "horse_id": "hrs_50036350",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "James Owen",
-          "trainer_id": "trn_360648",
-          "jockey": "Jonathan Burke",
-          "jockey_id": "jky_275277",
-          "draw": 0,
-          "number": 2,
-          "lbs": 167,
-          "ofr": "99",
-          "last_run": 5,
-          "form": "5733-2",
-          "headgear": "p"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Worcester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 23.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 48,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Worcester",
-        "latest_distance_f": 23.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 46,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
+      "latest_result_position": 1,
+      "latest_result_sp": "11/1",
+      "latest_result_won": true,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-10"
     },
     {
       "horse": "Jefe Triunfo",
@@ -1772,8 +1775,8 @@
     }
   ],
   "notes": [
-    "Hold Your Fort is the top-rated Pulse IQ runner.",
+    "Mexican Stan is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Mexican Stan is flagged as a possible dark horse."
+    "Ballela Blaze is flagged as a possible dark horse."
   ]
 }

@@ -4,17 +4,17 @@
   "course": "Wolverhampton (AW)",
   "time": "7:00",
   "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-  "field_size": 7,
-  "average_intelligence": 53.14,
-  "top_score": 57,
-  "second_score": 56,
+  "field_size": 8,
+  "average_intelligence": 38.38,
+  "top_score": 56,
+  "second_score": 55,
   "gap": 1,
-  "confidence_score": 46,
+  "confidence_score": 43,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Roxelina",
-    "horse_id": "hrs_63811209",
+    "horse": "Delighfully Hot",
+    "horse_id": "hrs_65287285",
     "age": 2,
     "sex": "filly",
     "latest_course": "Wolverhampton (AW)",
@@ -25,13 +25,13 @@
     "latest_class": "Class 4",
     "latest_going": "Standard",
     "latest_surface": "AW",
-    "latest_trainer": "Kevin Philippart De Foy",
-    "latest_jockey": "David Egan",
-    "latest_draw": 4,
+    "latest_trainer": "James Owen",
+    "latest_jockey": "Cieren Fallon",
+    "latest_draw": 1,
     "latest_weight_lbs": 128,
     "official_rating": "-",
-    "recent_form": "30",
-    "last_run_days": 17,
+    "recent_form": "9",
+    "last_run_days": 33,
     "profile_runs": 2,
     "courses_seen": {
       "Wolverhampton (AW)": 2
@@ -46,24 +46,24 @@
       "Class 4": 2
     },
     "trainers_seen": {
-      "Kevin Philippart De Foy": 2
+      "James Owen": 2
     },
     "jockeys_seen": {
-      "David Egan": 2
+      "Cieren Fallon": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 66,
+    "latest_pulse_score": 64,
     "latest_notes": [
-      "Positive recent form",
+      "Weak recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
       "Race class strength +2",
-      "Trainer bonus +2",
-      "Stable flying +4 (3/3 last 14 days)",
+      "Trainer bonus +3",
+      "Stable in form +2 (1/4 last 14 days)",
       "Jockey bonus +2",
-      "Jockey in form +2 (2/2 last 14 days)"
+      "Jockey flying +4 (3/4 last 14 days)"
     ],
     "runs": [
       {
@@ -80,21 +80,21 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 8,
-        "horse": "Roxelina",
-        "horse_id": "hrs_63811209",
+        "horse": "Delighfully Hot",
+        "horse_id": "hrs_65287285",
         "age": 2,
         "sex": "filly",
-        "trainer": "Kevin Philippart De Foy",
-        "trainer_id": "trn_341541",
-        "jockey": "David Egan",
-        "jockey_id": "jky_286164",
-        "draw": 4,
-        "number": 8,
+        "trainer": "James Owen",
+        "trainer_id": "trn_360648",
+        "jockey": "Cieren Fallon",
+        "jockey_id": "jky_295557",
+        "draw": 1,
+        "number": 3,
         "lbs": 128,
         "ofr": "-",
-        "last_run": 17,
-        "form": "30",
-        "headgear": "t"
+        "last_run": 33,
+        "form": "9",
+        "headgear": ""
       },
       {
         "source": "the_racing_api",
@@ -110,21 +110,180 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 7,
-        "horse": "Roxelina",
-        "horse_id": "hrs_63811209",
+        "horse": "Delighfully Hot",
+        "horse_id": "hrs_65287285",
         "age": 2,
         "sex": "filly",
-        "trainer": "Kevin Philippart De Foy",
-        "trainer_id": "trn_341541",
-        "jockey": "David Egan",
-        "jockey_id": "jky_286164",
-        "draw": 4,
-        "number": 8,
+        "trainer": "James Owen",
+        "trainer_id": "trn_360648",
+        "jockey": "Cieren Fallon",
+        "jockey_id": "jky_295557",
+        "draw": 1,
+        "number": 3,
         "lbs": 128,
         "ofr": "-",
-        "last_run": 17,
-        "form": "30",
-        "headgear": "t"
+        "last_run": 33,
+        "form": "9",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Wolverhampton (AW)",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 5.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Standard",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 56,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Wolverhampton (AW)",
+      "latest_distance_f": 5.0,
+      "latest_going": "Standard",
+      "latest_class": "Class 4",
+      "latest_pulse_score": 64,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "main_threat": {
+    "horse": "Dreams Galore",
+    "horse_id": "hrs_65190622",
+    "age": 2,
+    "sex": "filly",
+    "latest_course": "Wolverhampton (AW)",
+    "latest_time": "7:00",
+    "latest_race": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+    "latest_date": "2026-07-06",
+    "latest_distance_f": 5.0,
+    "latest_class": "Class 4",
+    "latest_going": "Standard",
+    "latest_surface": "AW",
+    "latest_trainer": "Ollie Sangster",
+    "latest_jockey": "Stevie Donohoe",
+    "latest_draw": 6,
+    "latest_weight_lbs": 128,
+    "official_rating": "-",
+    "recent_form": "74",
+    "last_run_days": 21,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Wolverhampton (AW)": 2
+    },
+    "distances_seen": {
+      "5.0": 2
+    },
+    "goings_seen": {
+      "Standard": 2
+    },
+    "classes_seen": {
+      "Class 4": 2
+    },
+    "trainers_seen": {
+      "Ollie Sangster": 2
+    },
+    "jockeys_seen": {
+      "Stevie Donohoe": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 62,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Race class strength +2",
+      "Trainer bonus +3",
+      "Stable flying +4 (3/6 last 14 days)",
+      "Jockey flying +4 (3/3 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11992006",
+        "course": "Wolverhampton (AW)",
+        "date": "2026-07-06",
+        "off_time": "7:00",
+        "off_dt": "2026-07-06T19:00:00+01:00",
+        "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+        "distance_f": 5.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Standard",
+        "surface": "AW",
+        "field_size": 8,
+        "horse": "Dreams Galore",
+        "horse_id": "hrs_65190622",
+        "age": 2,
+        "sex": "filly",
+        "trainer": "Ollie Sangster",
+        "trainer_id": "trn_363114",
+        "jockey": "Stevie Donohoe",
+        "jockey_id": "jky_241263",
+        "draw": 6,
+        "number": 4,
+        "lbs": 128,
+        "ofr": "-",
+        "last_run": 21,
+        "form": "74",
+        "headgear": ""
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11992006",
+        "course": "Wolverhampton (AW)",
+        "date": "2026-07-06",
+        "off_time": "7:00",
+        "off_dt": "2026-07-06T19:00:00+01:00",
+        "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+        "distance_f": 5.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Standard",
+        "surface": "AW",
+        "field_size": 7,
+        "horse": "Dreams Galore",
+        "horse_id": "hrs_65190622",
+        "age": 2,
+        "sex": "filly",
+        "trainer": "Ollie Sangster",
+        "trainer_id": "trn_363114",
+        "jockey": "Stevie Donohoe",
+        "jockey_id": "jky_241263",
+        "draw": 6,
+        "number": 4,
+        "lbs": 128,
+        "ofr": "-",
+        "last_run": 21,
+        "form": "74",
+        "headgear": ""
       }
     ],
     "profile_notes": [],
@@ -149,195 +308,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 57,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Wolverhampton (AW)",
-      "latest_distance_f": 5.0,
-      "latest_going": "Standard",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 66,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-06",
-      "course": "Wolverhampton",
-      "race_time": "18:00",
-      "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-      "race_id": null,
-      "status": null,
-      "finish_position": 1,
-      "sp": "2/9",
-      "favourite_position": null,
-      "going": "Standard",
-      "distance": "5f 21y",
-      "field_size": null,
-      "trainer": null,
-      "jockey": null,
-      "distance_beaten": null,
-      "won": true,
-      "placed": true,
-      "attached_at": "2026-07-10T18:55:12"
-    },
-    "latest_result_position": 1,
-    "latest_result_sp": "2/9",
-    "latest_result_won": true,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-06"
-  },
-  "main_threat": {
-    "horse": "Delighfully Hot",
-    "horse_id": "hrs_65287285",
-    "age": 2,
-    "sex": "filly",
-    "latest_course": "Wolverhampton (AW)",
-    "latest_time": "7:00",
-    "latest_race": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-    "latest_date": "2026-07-06",
-    "latest_distance_f": 5.0,
-    "latest_class": "Class 4",
-    "latest_going": "Standard",
-    "latest_surface": "AW",
-    "latest_trainer": "James Owen",
-    "latest_jockey": "Cieren Fallon",
-    "latest_draw": 1,
-    "latest_weight_lbs": 128,
-    "official_rating": "-",
-    "recent_form": "9",
-    "last_run_days": 33,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Wolverhampton (AW)": 2
-    },
-    "distances_seen": {
-      "5.0": 2
-    },
-    "goings_seen": {
-      "Standard": 2
-    },
-    "classes_seen": {
-      "Class 4": 2
-    },
-    "trainers_seen": {
-      "James Owen": 2
-    },
-    "jockeys_seen": {
-      "Cieren Fallon": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 64,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +3",
-      "Stable in form +2 (1/4 last 14 days)",
-      "Jockey bonus +2",
-      "Jockey flying +4 (3/4 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11992006",
-        "course": "Wolverhampton (AW)",
-        "date": "2026-07-06",
-        "off_time": "7:00",
-        "off_dt": "2026-07-06T19:00:00+01:00",
-        "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-        "distance_f": 5.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Standard",
-        "surface": "AW",
-        "field_size": 8,
-        "horse": "Delighfully Hot",
-        "horse_id": "hrs_65287285",
-        "age": 2,
-        "sex": "filly",
-        "trainer": "James Owen",
-        "trainer_id": "trn_360648",
-        "jockey": "Cieren Fallon",
-        "jockey_id": "jky_295557",
-        "draw": 1,
-        "number": 3,
-        "lbs": 128,
-        "ofr": "-",
-        "last_run": 33,
-        "form": "9",
-        "headgear": ""
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11992006",
-        "course": "Wolverhampton (AW)",
-        "date": "2026-07-06",
-        "off_time": "7:00",
-        "off_dt": "2026-07-06T19:00:00+01:00",
-        "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-        "distance_f": 5.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Standard",
-        "surface": "AW",
-        "field_size": 7,
-        "horse": "Delighfully Hot",
-        "horse_id": "hrs_65287285",
-        "age": 2,
-        "sex": "filly",
-        "trainer": "James Owen",
-        "trainer_id": "trn_360648",
-        "jockey": "Cieren Fallon",
-        "jockey_id": "jky_295557",
-        "draw": 1,
-        "number": 3,
-        "lbs": 128,
-        "ofr": "-",
-        "last_run": 33,
-        "form": "9",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ],
-    "favourite_course": {
-      "value": "Wolverhampton (AW)",
-      "runs": 2
-    },
-    "favourite_distance": {
-      "value": 5.0,
-      "runs": 2
-    },
-    "favourite_going": {
-      "value": "Standard",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 2
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 56,
+    "horse_intelligence_score": 55,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -353,41 +324,15 @@
       "latest_distance_f": 5.0,
       "latest_going": "Standard",
       "latest_class": "Class 4",
-      "latest_pulse_score": 64,
+      "latest_pulse_score": 62,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-06",
-      "course": "Wolverhampton",
-      "race_time": "18:00",
-      "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-      "race_id": null,
-      "status": null,
-      "finish_position": 2,
-      "sp": "11/1",
-      "favourite_position": null,
-      "going": "Standard",
-      "distance": "5f 21y",
-      "field_size": null,
-      "trainer": null,
-      "jockey": null,
-      "distance_beaten": null,
-      "won": false,
-      "placed": true,
-      "attached_at": "2026-07-10T18:55:12"
-    },
-    "latest_result_position": 2,
-    "latest_result_sp": "11/1",
-    "latest_result_won": false,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-06"
+    }
   },
   "dark_horse": {
-    "horse": "Delighfully Hot",
-    "horse_id": "hrs_65287285",
+    "horse": "Dreams Galore",
+    "horse_id": "hrs_65190622",
     "age": 2,
     "sex": "filly",
     "latest_course": "Wolverhampton (AW)",
@@ -398,13 +343,13 @@
     "latest_class": "Class 4",
     "latest_going": "Standard",
     "latest_surface": "AW",
-    "latest_trainer": "James Owen",
-    "latest_jockey": "Cieren Fallon",
-    "latest_draw": 1,
+    "latest_trainer": "Ollie Sangster",
+    "latest_jockey": "Stevie Donohoe",
+    "latest_draw": 6,
     "latest_weight_lbs": 128,
     "official_rating": "-",
-    "recent_form": "9",
-    "last_run_days": 33,
+    "recent_form": "74",
+    "last_run_days": 21,
     "profile_runs": 2,
     "courses_seen": {
       "Wolverhampton (AW)": 2
@@ -419,24 +364,22 @@
       "Class 4": 2
     },
     "trainers_seen": {
-      "James Owen": 2
+      "Ollie Sangster": 2
     },
     "jockeys_seen": {
-      "Cieren Fallon": 2
+      "Stevie Donohoe": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 64,
+    "latest_pulse_score": 62,
     "latest_notes": [
       "Weak recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Helpful draw",
       "Race class strength +2",
       "Trainer bonus +3",
-      "Stable in form +2 (1/4 last 14 days)",
-      "Jockey bonus +2",
-      "Jockey flying +4 (3/4 last 14 days)"
+      "Stable flying +4 (3/6 last 14 days)",
+      "Jockey flying +4 (3/3 last 14 days)"
     ],
     "runs": [
       {
@@ -453,20 +396,20 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 8,
-        "horse": "Delighfully Hot",
-        "horse_id": "hrs_65287285",
+        "horse": "Dreams Galore",
+        "horse_id": "hrs_65190622",
         "age": 2,
         "sex": "filly",
-        "trainer": "James Owen",
-        "trainer_id": "trn_360648",
-        "jockey": "Cieren Fallon",
-        "jockey_id": "jky_295557",
-        "draw": 1,
-        "number": 3,
+        "trainer": "Ollie Sangster",
+        "trainer_id": "trn_363114",
+        "jockey": "Stevie Donohoe",
+        "jockey_id": "jky_241263",
+        "draw": 6,
+        "number": 4,
         "lbs": 128,
         "ofr": "-",
-        "last_run": 33,
-        "form": "9",
+        "last_run": 21,
+        "form": "74",
         "headgear": ""
       },
       {
@@ -483,26 +426,24 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 7,
-        "horse": "Delighfully Hot",
-        "horse_id": "hrs_65287285",
+        "horse": "Dreams Galore",
+        "horse_id": "hrs_65190622",
         "age": 2,
         "sex": "filly",
-        "trainer": "James Owen",
-        "trainer_id": "trn_360648",
-        "jockey": "Cieren Fallon",
-        "jockey_id": "jky_295557",
-        "draw": 1,
-        "number": 3,
+        "trainer": "Ollie Sangster",
+        "trainer_id": "trn_363114",
+        "jockey": "Stevie Donohoe",
+        "jockey_id": "jky_241263",
+        "draw": 6,
+        "number": 4,
         "lbs": 128,
         "ofr": "-",
-        "last_run": 33,
-        "form": "9",
+        "last_run": 21,
+        "form": "74",
         "headgear": ""
       }
     ],
-    "profile_notes": [
-      "Low draw today"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Wolverhampton (AW)",
       "runs": 2
@@ -524,7 +465,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 56,
+    "horse_intelligence_score": 55,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -540,225 +481,13 @@
       "latest_distance_f": 5.0,
       "latest_going": "Standard",
       "latest_class": "Class 4",
-      "latest_pulse_score": 64,
+      "latest_pulse_score": 62,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-06",
-      "course": "Wolverhampton",
-      "race_time": "18:00",
-      "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-      "race_id": null,
-      "status": null,
-      "finish_position": 2,
-      "sp": "11/1",
-      "favourite_position": null,
-      "going": "Standard",
-      "distance": "5f 21y",
-      "field_size": null,
-      "trainer": null,
-      "jockey": null,
-      "distance_beaten": null,
-      "won": false,
-      "placed": true,
-      "attached_at": "2026-07-10T18:55:12"
-    },
-    "latest_result_position": 2,
-    "latest_result_sp": "11/1",
-    "latest_result_won": false,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-06"
+    }
   },
   "runners": [
-    {
-      "horse": "Roxelina",
-      "horse_id": "hrs_63811209",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "7:00",
-      "latest_race": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-      "latest_date": "2026-07-06",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Kevin Philippart De Foy",
-      "latest_jockey": "David Egan",
-      "latest_draw": 4,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "30",
-      "last_run_days": 17,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Wolverhampton (AW)": 2
-      },
-      "distances_seen": {
-        "5.0": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {
-        "Class 4": 2
-      },
-      "trainers_seen": {
-        "Kevin Philippart De Foy": 2
-      },
-      "jockeys_seen": {
-        "David Egan": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 66,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +2",
-        "Stable flying +4 (3/3 last 14 days)",
-        "Jockey bonus +2",
-        "Jockey in form +2 (2/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992006",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "7:00",
-          "off_dt": "2026-07-06T19:00:00+01:00",
-          "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 8,
-          "horse": "Roxelina",
-          "horse_id": "hrs_63811209",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Kevin Philippart De Foy",
-          "trainer_id": "trn_341541",
-          "jockey": "David Egan",
-          "jockey_id": "jky_286164",
-          "draw": 4,
-          "number": 8,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 17,
-          "form": "30",
-          "headgear": "t"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992006",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "7:00",
-          "off_dt": "2026-07-06T19:00:00+01:00",
-          "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 7,
-          "horse": "Roxelina",
-          "horse_id": "hrs_63811209",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Kevin Philippart De Foy",
-          "trainer_id": "trn_341541",
-          "jockey": "David Egan",
-          "jockey_id": "jky_286164",
-          "draw": 4,
-          "number": 8,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 17,
-          "form": "30",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 57,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 5.0,
-        "latest_going": "Standard",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 66,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "18:00",
-        "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-        "race_id": null,
-        "status": null,
-        "finish_position": 1,
-        "sp": "2/9",
-        "favourite_position": null,
-        "going": "Standard",
-        "distance": "5f 21y",
-        "field_size": null,
-        "trainer": null,
-        "jockey": null,
-        "distance_beaten": null,
-        "won": true,
-        "placed": true,
-        "attached_at": "2026-07-10T18:55:12"
-      },
-      "latest_result_position": 1,
-      "latest_result_sp": "2/9",
-      "latest_result_won": true,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-06"
-    },
     {
       "horse": "Delighfully Hot",
       "horse_id": "hrs_65287285",
@@ -918,216 +647,7 @@
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "18:00",
-        "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-        "race_id": null,
-        "status": null,
-        "finish_position": 2,
-        "sp": "11/1",
-        "favourite_position": null,
-        "going": "Standard",
-        "distance": "5f 21y",
-        "field_size": null,
-        "trainer": null,
-        "jockey": null,
-        "distance_beaten": null,
-        "won": false,
-        "placed": true,
-        "attached_at": "2026-07-10T18:55:12"
-      },
-      "latest_result_position": 2,
-      "latest_result_sp": "11/1",
-      "latest_result_won": false,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-06"
-    },
-    {
-      "horse": "Lola",
-      "horse_id": "hrs_62170241",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "7:00",
-      "latest_race": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-      "latest_date": "2026-07-06",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Tom Ward",
-      "latest_jockey": "Rob Hornby",
-      "latest_draw": 7,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "3",
-      "last_run_days": 35,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Wolverhampton (AW)": 2
-      },
-      "distances_seen": {
-        "5.0": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {
-        "Class 4": 2
-      },
-      "trainers_seen": {
-        "Tom Ward": 2
-      },
-      "jockeys_seen": {
-        "Rob Hornby": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 64,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +2",
-        "Trainer bonus +1",
-        "Jockey bonus +2",
-        "Jockey flying +4 (3/3 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992006",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "7:00",
-          "off_dt": "2026-07-06T19:00:00+01:00",
-          "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 8,
-          "horse": "Lola",
-          "horse_id": "hrs_62170241",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Tom Ward",
-          "trainer_id": "trn_327069",
-          "jockey": "Rob Hornby",
-          "jockey_id": "jky_278322",
-          "draw": 7,
-          "number": 7,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 35,
-          "form": "3",
-          "headgear": ""
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992006",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "7:00",
-          "off_dt": "2026-07-06T19:00:00+01:00",
-          "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 7,
-          "horse": "Lola",
-          "horse_id": "hrs_62170241",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Tom Ward",
-          "trainer_id": "trn_327069",
-          "jockey": "Rob Hornby",
-          "jockey_id": "jky_278322",
-          "draw": 7,
-          "number": 7,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 35,
-          "form": "3",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 5.0,
-        "latest_going": "Standard",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 64,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      },
-      "latest_result": {
-        "source": "bbc_sport",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "19:00",
-        "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-        "race_id": "p-1571217",
-        "status": "PostEvent",
-        "finish_position": 4,
-        "sp": "12/1",
-        "favourite_position": 4,
-        "going": "Standard",
-        "distance": "5f 21y",
-        "field_size": 7,
-        "trainer": "T Ward",
-        "jockey": "Rob Hornby",
-        "distance_beaten": "1L",
-        "won": false,
-        "placed": false,
-        "attached_at": "2026-07-10T18:55:12"
-      },
-      "latest_result_position": 4,
-      "latest_result_sp": "12/1",
-      "latest_result_won": false,
-      "latest_result_placed": false,
-      "latest_result_date": "2026-07-06"
+      }
     },
     {
       "horse": "Dreams Galore",
@@ -1284,33 +804,7 @@
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
-      },
-      "latest_result": {
-        "source": "bbc_sport",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "19:00",
-        "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-        "race_id": "p-1571217",
-        "status": "PostEvent",
-        "finish_position": 7,
-        "sp": "22/1",
-        "favourite_position": 5,
-        "going": "Standard",
-        "distance": "5f 21y",
-        "field_size": 7,
-        "trainer": "Ollie Sangster",
-        "jockey": "S Donohoe",
-        "distance_beaten": "6ÃÂ½L",
-        "won": false,
-        "placed": false,
-        "attached_at": "2026-07-10T18:55:12"
-      },
-      "latest_result_position": 7,
-      "latest_result_sp": "22/1",
-      "latest_result_won": false,
-      "latest_result_placed": false,
-      "latest_result_date": "2026-07-06"
+      }
     },
     {
       "horse": "Enhancing",
@@ -1467,33 +961,7 @@
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
-      },
-      "latest_result": {
-        "source": "bbc_sport",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "19:00",
-        "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-        "race_id": "p-1571217",
-        "status": "PostEvent",
-        "finish_position": 6,
-        "sp": "33/1",
-        "favourite_position": 6,
-        "going": "Standard",
-        "distance": "5f 21y",
-        "field_size": 7,
-        "trainer": "H Palmer",
-        "jockey": "Jason Watson",
-        "distance_beaten": "2ÃÂ¾L",
-        "won": false,
-        "placed": false,
-        "attached_at": "2026-07-10T18:55:12"
-      },
-      "latest_result_position": 6,
-      "latest_result_sp": "33/1",
-      "latest_result_won": false,
-      "latest_result_placed": false,
-      "latest_result_date": "2026-07-06"
+      }
     },
     {
       "horse": "Elpeeare",
@@ -1650,33 +1118,231 @@
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
+      }
+    },
+    {
+      "horse": "Betty Boop",
+      "horse_id": "hrs_66160892",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "7:00",
+      "latest_race": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+      "latest_date": "2026-07-06",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 4",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Richard Hughes",
+      "latest_jockey": "",
+      "latest_draw": 2,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "3",
+      "last_run_days": 9,
+      "profile_runs": 4,
+      "courses_seen": {
+        "Lingfield": 2,
+        "Wolverhampton (AW)": 2
       },
-      "latest_result": {
-        "source": "bbc_sport",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "19:00",
-        "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-        "race_id": "p-1571217",
-        "status": "PostEvent",
-        "finish_position": 3,
-        "sp": "9/1",
-        "favourite_position": 2,
-        "going": "Standard",
-        "distance": "5f 21y",
-        "field_size": 7,
-        "trainer": "George Scott",
-        "jockey": "Darragh Keenan",
-        "distance_beaten": "ÃÂ½L",
-        "won": false,
-        "placed": true,
-        "attached_at": "2026-07-10T18:55:12"
+      "distances_seen": {
+        "5.0": 4
       },
-      "latest_result_position": 3,
-      "latest_result_sp": "9/1",
-      "latest_result_won": false,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-06"
+      "goings_seen": {
+        "Good To Firm": 2,
+        "Standard": 2
+      },
+      "classes_seen": {
+        "Class 4": 4
+      },
+      "trainers_seen": {
+        "Richard Hughes": 4
+      },
+      "jockeys_seen": {
+        "Pat Cosgrave": 2,
+        "Finley Marsh": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 59,
+      "latest_notes": [
+        "Positive recent form",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +3",
+        "Stable flying +4 (3/9 last 14 days)",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977862",
+          "course": "Lingfield",
+          "date": "2026-06-27",
+          "off_time": "7:55",
+          "off_dt": "2026-06-27T19:55:00+01:00",
+          "race_name": "Getaway To Cyprus EBF Fillies' Novice Stakes (GBB Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Betty Boop",
+          "horse_id": "hrs_66160892",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Richard Hughes",
+          "trainer_id": "trn_280692",
+          "jockey": "Pat Cosgrave",
+          "jockey_id": "jky_43887",
+          "draw": 1,
+          "number": 1,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:16.825913+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977862",
+          "course": "Lingfield",
+          "date": "2026-06-27",
+          "off_time": "7:55",
+          "off_dt": "2026-06-27T19:55:00+01:00",
+          "race_name": "Getaway To Cyprus EBF Fillies' Novice Stakes (GBB Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Betty Boop",
+          "horse_id": "hrs_66160892",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Richard Hughes",
+          "trainer_id": "trn_280692",
+          "jockey": "Pat Cosgrave",
+          "jockey_id": "jky_43887",
+          "draw": 1,
+          "number": 1,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:45.508264+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992006",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "7:00",
+          "off_dt": "2026-07-06T19:00:00+01:00",
+          "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 8,
+          "horse": "Betty Boop",
+          "horse_id": "hrs_66160892",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Richard Hughes",
+          "trainer_id": "trn_280692",
+          "jockey": "Finley Marsh",
+          "jockey_id": "jky_287355",
+          "draw": 2,
+          "number": 1,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 9,
+          "form": "3",
+          "headgear": ""
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992006",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "7:00",
+          "off_dt": "2026-07-06T19:00:00+01:00",
+          "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 7,
+          "horse": "Betty Boop",
+          "horse_id": "hrs_66160892",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Richard Hughes",
+          "trainer_id": "trn_280692",
+          "jockey": "",
+          "jockey_id": "",
+          "draw": 2,
+          "number": null,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 9,
+          "form": "3",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Lingfield",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 4
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 4
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 55,
+      "class_suitability_score": 90,
+      "suitability_score": 72,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Going is not clearly proven from stored profile"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 5.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 59,
+        "average_pulse_score": 0,
+        "profile_runs": 4,
+        "runs_count": 4
+      }
     },
     {
       "horse": "Charcoal Diva",
@@ -1830,38 +1496,245 @@
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
+      }
+    },
+    {
+      "horse": "Lola",
+      "horse_id": "hrs_62170241",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "7:00",
+      "latest_race": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+      "latest_date": "2026-07-06",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 4",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Tom Ward",
+      "latest_jockey": "Rob Hornby",
+      "latest_draw": 7,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "3",
+      "last_run_days": 35,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Wolverhampton (AW)": 2
       },
-      "latest_result": {
-        "source": "bbc_sport",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "19:00",
-        "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
-        "race_id": "p-1571217",
-        "status": "PostEvent",
-        "finish_position": 5,
-        "sp": "80/1",
-        "favourite_position": 7,
-        "going": "Standard",
-        "distance": "5f 21y",
-        "field_size": 7,
-        "trainer": "D Donovan",
-        "jockey": "K T O'Neill",
-        "distance_beaten": "2L",
-        "won": false,
-        "placed": false,
-        "attached_at": "2026-07-10T18:55:12"
+      "distances_seen": {
+        "5.0": 2
       },
-      "latest_result_position": 5,
-      "latest_result_sp": "80/1",
-      "latest_result_won": false,
-      "latest_result_placed": false,
-      "latest_result_date": "2026-07-06"
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "Tom Ward": 2
+      },
+      "jockeys_seen": {
+        "Rob Hornby": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 64,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Jockey bonus +2",
+        "Jockey flying +4 (3/3 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992006",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "7:00",
+          "off_dt": "2026-07-06T19:00:00+01:00",
+          "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 8,
+          "horse": "Lola",
+          "horse_id": "hrs_62170241",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Tom Ward",
+          "trainer_id": "trn_327069",
+          "jockey": "Rob Hornby",
+          "jockey_id": "jky_278322",
+          "draw": 7,
+          "number": 7,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 35,
+          "form": "3",
+          "headgear": ""
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992006",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "7:00",
+          "off_dt": "2026-07-06T19:00:00+01:00",
+          "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 7,
+          "horse": "Lola",
+          "horse_id": "hrs_62170241",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Tom Ward",
+          "trainer_id": "trn_327069",
+          "jockey": "Rob Hornby",
+          "jockey_id": "jky_278322",
+          "draw": 7,
+          "number": 7,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 35,
+          "form": "3",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": []
+    },
+    {
+      "horse": "Roxelina",
+      "horse_id": "hrs_63811209",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "7:00",
+      "latest_race": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+      "latest_date": "2026-07-06",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 4",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Kevin Philippart De Foy",
+      "latest_jockey": "David Egan",
+      "latest_draw": 4,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "30",
+      "last_run_days": 17,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Wolverhampton (AW)": 2
+      },
+      "distances_seen": {
+        "5.0": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "Kevin Philippart De Foy": 2
+      },
+      "jockeys_seen": {
+        "David Egan": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 66,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Stable flying +4 (3/3 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey in form +2 (2/2 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992006",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "7:00",
+          "off_dt": "2026-07-06T19:00:00+01:00",
+          "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 8,
+          "horse": "Roxelina",
+          "horse_id": "hrs_63811209",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Kevin Philippart De Foy",
+          "trainer_id": "trn_341541",
+          "jockey": "David Egan",
+          "jockey_id": "jky_286164",
+          "draw": 4,
+          "number": 8,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 17,
+          "form": "30",
+          "headgear": "t"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992006",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "7:00",
+          "off_dt": "2026-07-06T19:00:00+01:00",
+          "race_name": "Free Bets On attheraces.com Fillies' Novice Stakes (GBB Race)",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 7,
+          "horse": "Roxelina",
+          "horse_id": "hrs_63811209",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Kevin Philippart De Foy",
+          "trainer_id": "trn_341541",
+          "jockey": "David Egan",
+          "jockey_id": "jky_286164",
+          "draw": 4,
+          "number": 8,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 17,
+          "form": "30",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": []
     }
   ],
   "notes": [
-    "Roxelina is the top-rated Pulse IQ runner.",
+    "Delighfully Hot is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Delighfully Hot is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Dreams Galore is flagged as a possible dark horse."
   ]
 }

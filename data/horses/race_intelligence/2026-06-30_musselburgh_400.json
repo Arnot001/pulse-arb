@@ -4,18 +4,148 @@
   "course": "Musselburgh",
   "time": "4:00",
   "race_name": "Racing TV Profits Returned To Racing Handicap",
-  "field_size": 7,
-  "average_intelligence": 51.0,
-  "top_score": 67,
-  "second_score": 61,
-  "gap": 6,
-  "confidence_score": 59,
-  "confidence": "MEDIUM",
-  "race_shape": "COMPETITIVE EDGE",
+  "field_size": 3,
+  "average_intelligence": 20.33,
+  "top_score": 61,
+  "second_score": 0,
+  "gap": 61,
+  "confidence_score": 100,
+  "confidence": "HIGH",
+  "race_shape": "CLEAR STANDOUT",
   "top_runner": {
-    "horse": "The Gay Blade",
-    "horse_id": "hrs_26356659",
-    "age": 7,
+    "horse": "Diamont Katie",
+    "horse_id": "hrs_41072570",
+    "age": 4,
+    "sex": "filly",
+    "latest_course": "Musselburgh",
+    "latest_time": "4:00",
+    "latest_race": "Racing TV Profits Returned To Racing Handicap",
+    "latest_date": "2026-06-30",
+    "latest_distance_f": 7.0,
+    "latest_class": "Class 4",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "K R Burke",
+    "latest_jockey": "Clifford Lee",
+    "latest_draw": 2,
+    "latest_weight_lbs": 129,
+    "official_rating": "74",
+    "recent_form": "851234",
+    "last_run_days": 8,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Musselburgh": 1
+    },
+    "distances_seen": {
+      "7.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "K R Burke": 1
+    },
+    "jockeys_seen": {
+      "Clifford Lee": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 75,
+    "latest_notes": [
+      "Strong recent form",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +3",
+      "Jockey bonus +2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988327",
+        "course": "Musselburgh",
+        "date": "2026-06-30",
+        "off_time": "4:00",
+        "off_dt": "2026-06-30T16:00:00+01:00",
+        "race_name": "Racing TV Profits Returned To Racing Handicap",
+        "distance_f": 7.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 8,
+        "horse": "Diamont Katie",
+        "horse_id": "hrs_41072570",
+        "age": 4,
+        "sex": "filly",
+        "trainer": "K R Burke",
+        "trainer_id": "trn_45171",
+        "jockey": "Clifford Lee",
+        "jockey_id": "jky_280440",
+        "draw": 2,
+        "number": 3,
+        "lbs": 129,
+        "ofr": "74",
+        "last_run": 8,
+        "form": "851234",
+        "headgear": "",
+        "_stored_at": "2026-06-30T05:14:26.054750+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Low draw today",
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Musselburgh",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 7.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 61,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Musselburgh",
+      "latest_distance_f": 7.0,
+      "latest_going": "Good",
+      "latest_class": "Class 4",
+      "latest_pulse_score": 75,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "Native Instinct",
+    "horse_id": "hrs_43508472",
+    "age": 4,
     "sex": "gelding",
     "latest_course": "Musselburgh",
     "latest_time": "4:00",
@@ -25,13 +155,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Iain Jardine",
-    "latest_jockey": "Andrew Mullen",
-    "latest_draw": 3,
-    "latest_weight_lbs": 126,
-    "official_rating": "71",
-    "recent_form": "126111",
-    "last_run_days": 11,
+    "latest_trainer": "Edward Bethell",
+    "latest_jockey": "Daniel Tudhope",
+    "latest_draw": 7,
+    "latest_weight_lbs": 128,
+    "official_rating": "73",
+    "recent_form": "056-26",
+    "last_run_days": 43,
     "profile_runs": 1,
     "courses_seen": {
       "Musselburgh": 1
@@ -46,22 +176,25 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Iain Jardine": 1
+      "Edward Bethell": 1
     },
     "jockeys_seen": {
-      "Andrew Mullen": 1
+      "Daniel Tudhope": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 88,
+    "latest_pulse_score": 69,
     "latest_notes": [
-      "Strong recent form",
+      "Positive recent form",
       "Good recent run timing",
-      "Helpful draw",
       "Race class strength +2",
-      "Trainer bonus +3",
-      "Stable in form +2 (1/1 last 14 days)",
-      "Jockey bonus +2"
+      "Trainer bonus +2",
+      "Stable in form +2 (2/2 last 14 days)",
+      "Jockey bonus +3",
+      "Jockey flying +4 (3/3 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4",
+      "Proven on going +2 (1/1 on going)"
     ],
     "runs": [
       {
@@ -78,208 +211,31 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "The Gay Blade",
-        "horse_id": "hrs_26356659",
-        "age": 7,
-        "sex": "gelding",
-        "trainer": "Iain Jardine",
-        "trainer_id": "trn_193644",
-        "jockey": "Andrew Mullen",
-        "jockey_id": "jky_243498",
-        "draw": 3,
-        "number": 5,
-        "lbs": 126,
-        "ofr": "71",
-        "last_run": 11,
-        "form": "126111",
-        "headgear": "",
-        "_stored_at": "2026-06-30T01:49:56.832188+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Elite latest Pulse Score",
-      "Low draw today",
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Musselburgh",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 7.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 67,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Elite latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Musselburgh",
-      "latest_distance_f": 7.0,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 88,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Diamont Katie",
-    "horse_id": "hrs_41072570",
-    "age": 4,
-    "sex": "filly",
-    "latest_course": "Musselburgh",
-    "latest_time": "4:00",
-    "latest_race": "Racing TV Profits Returned To Racing Handicap",
-    "latest_date": "2026-06-30",
-    "latest_distance_f": 7.0,
-    "latest_class": "Class 4",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "K R Burke",
-    "latest_jockey": "Clifford Lee",
-    "latest_draw": 2,
-    "latest_weight_lbs": 129,
-    "official_rating": "74",
-    "recent_form": "851234",
-    "last_run_days": 8,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Musselburgh": 1
-    },
-    "distances_seen": {
-      "7.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "K R Burke": 1
-    },
-    "jockeys_seen": {
-      "Clifford Lee": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 75,
-    "latest_notes": [
-      "Strong recent form",
-      "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +3",
-      "Jockey bonus +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988327",
-        "course": "Musselburgh",
-        "date": "2026-06-30",
-        "off_time": "4:00",
-        "off_dt": "2026-06-30T16:00:00+01:00",
-        "race_name": "Racing TV Profits Returned To Racing Handicap",
-        "distance_f": 7.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Diamont Katie",
-        "horse_id": "hrs_41072570",
+        "horse": "Native Instinct",
+        "horse_id": "hrs_43508472",
         "age": 4,
-        "sex": "filly",
-        "trainer": "K R Burke",
-        "trainer_id": "trn_45171",
-        "jockey": "Clifford Lee",
-        "jockey_id": "jky_280440",
-        "draw": 2,
-        "number": 3,
-        "lbs": 129,
-        "ofr": "74",
-        "last_run": 8,
-        "form": "851234",
+        "sex": "gelding",
+        "trainer": "Edward Bethell",
+        "trainer_id": "trn_342657",
+        "jockey": "Daniel Tudhope",
+        "jockey_id": "jky_246693",
+        "draw": 7,
+        "number": 4,
+        "lbs": 128,
+        "ofr": "73",
+        "last_run": 43,
+        "form": "056-26",
         "headgear": "",
-        "_stored_at": "2026-06-30T01:49:56.816608+00:00"
+        "_stored_at": "2026-06-30T05:14:26.075515+00:00"
       }
     ],
-    "profile_notes": [
-      "Low draw today",
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Musselburgh",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 7.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 61,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Musselburgh",
-      "latest_distance_f": 7.0,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 75,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
+    "profile_notes": []
   },
   "dark_horse": {
-    "horse": "Diamont Katie",
-    "horse_id": "hrs_41072570",
-    "age": 4,
-    "sex": "filly",
+    "horse": "Son",
+    "horse_id": "hrs_34471094",
+    "age": 5,
+    "sex": "gelding",
     "latest_course": "Musselburgh",
     "latest_time": "4:00",
     "latest_race": "Racing TV Profits Returned To Racing Handicap",
@@ -288,13 +244,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "K R Burke",
-    "latest_jockey": "Clifford Lee",
-    "latest_draw": 2,
-    "latest_weight_lbs": 129,
-    "official_rating": "74",
-    "recent_form": "851234",
-    "last_run_days": 8,
+    "latest_trainer": "Tim Easterby",
+    "latest_jockey": "David Allan",
+    "latest_draw": 4,
+    "latest_weight_lbs": 136,
+    "official_rating": "81",
+    "recent_form": "-22973",
+    "last_run_days": 17,
     "profile_runs": 1,
     "courses_seen": {
       "Musselburgh": 1
@@ -309,20 +265,20 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "K R Burke": 1
+      "Tim Easterby": 1
     },
     "jockeys_seen": {
-      "Clifford Lee": 1
+      "David Allan": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 75,
+    "latest_pulse_score": 60,
     "latest_notes": [
-      "Strong recent form",
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
       "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +3",
-      "Jockey bonus +2"
+      "Race class strength +2"
     ],
     "runs": [
       {
@@ -339,206 +295,27 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Diamont Katie",
-        "horse_id": "hrs_41072570",
-        "age": 4,
-        "sex": "filly",
-        "trainer": "K R Burke",
-        "trainer_id": "trn_45171",
-        "jockey": "Clifford Lee",
-        "jockey_id": "jky_280440",
-        "draw": 2,
-        "number": 3,
-        "lbs": 129,
-        "ofr": "74",
-        "last_run": 8,
-        "form": "851234",
+        "horse": "Son",
+        "horse_id": "hrs_34471094",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "Tim Easterby",
+        "trainer_id": "trn_91368",
+        "jockey": "David Allan",
+        "jockey_id": "jky_234669",
+        "draw": 4,
+        "number": 1,
+        "lbs": 136,
+        "ofr": "81",
+        "last_run": 17,
+        "form": "-22973",
         "headgear": "",
-        "_stored_at": "2026-06-30T01:49:56.816608+00:00"
+        "_stored_at": "2026-06-30T05:14:26.015240+00:00"
       }
     ],
-    "profile_notes": [
-      "Low draw today",
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Musselburgh",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 7.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 61,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Musselburgh",
-      "latest_distance_f": 7.0,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 75,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
+    "profile_notes": []
   },
   "runners": [
-    {
-      "horse": "The Gay Blade",
-      "horse_id": "hrs_26356659",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Musselburgh",
-      "latest_time": "4:00",
-      "latest_race": "Racing TV Profits Returned To Racing Handicap",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Iain Jardine",
-      "latest_jockey": "Andrew Mullen",
-      "latest_draw": 3,
-      "latest_weight_lbs": 126,
-      "official_rating": "71",
-      "recent_form": "126111",
-      "last_run_days": 11,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Musselburgh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Iain Jardine": 1
-      },
-      "jockeys_seen": {
-        "Andrew Mullen": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 88,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +3",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988327",
-          "course": "Musselburgh",
-          "date": "2026-06-30",
-          "off_time": "4:00",
-          "off_dt": "2026-06-30T16:00:00+01:00",
-          "race_name": "Racing TV Profits Returned To Racing Handicap",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "The Gay Blade",
-          "horse_id": "hrs_26356659",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Iain Jardine",
-          "trainer_id": "trn_193644",
-          "jockey": "Andrew Mullen",
-          "jockey_id": "jky_243498",
-          "draw": 3,
-          "number": 5,
-          "lbs": 126,
-          "ofr": "71",
-          "last_run": 11,
-          "form": "126111",
-          "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.832188+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score",
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Musselburgh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 67,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Musselburgh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 88,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Diamont Katie",
       "horse_id": "hrs_41072570",
@@ -618,7 +395,7 @@
           "last_run": 8,
           "form": "851234",
           "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.816608+00:00"
+          "_stored_at": "2026-06-30T05:14:26.054750+00:00"
         }
       ],
       "profile_notes": [
@@ -753,183 +530,14 @@
           "last_run": 43,
           "form": "056-26",
           "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.832188+00:00"
+          "_stored_at": "2026-06-30T05:14:26.075515+00:00"
         }
       ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Musselburgh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 58,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Musselburgh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 69,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
+      "profile_notes": []
     },
     {
-      "horse": "Abduction",
-      "horse_id": "hrs_21743631",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Musselburgh",
-      "latest_time": "4:00",
-      "latest_race": "Racing TV Profits Returned To Racing Handicap",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Jim Goldie",
-      "latest_jockey": "Jake Dickson(7)",
-      "latest_draw": 5,
-      "latest_weight_lbs": 129,
-      "official_rating": "74",
-      "recent_form": "418773",
-      "last_run_days": 10,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Musselburgh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Jim Goldie": 1
-      },
-      "jockeys_seen": {
-        "Jake Dickson(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Race class strength +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988327",
-          "course": "Musselburgh",
-          "date": "2026-06-30",
-          "off_time": "4:00",
-          "off_dt": "2026-06-30T16:00:00+01:00",
-          "race_name": "Racing TV Profits Returned To Racing Handicap",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Abduction",
-          "horse_id": "hrs_21743631",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Jim Goldie",
-          "trainer_id": "trn_70155",
-          "jockey": "Jake Dickson(7)",
-          "jockey_id": "jky_310494",
-          "draw": 5,
-          "number": 2,
-          "lbs": 129,
-          "ofr": "74",
-          "last_run": 10,
-          "form": "418773",
-          "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.799559+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Musselburgh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 48,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Musselburgh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 46,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Gressington",
-      "horse_id": "hrs_37026010",
+      "horse": "Son",
+      "horse_id": "hrs_34471094",
       "age": 5,
       "sex": "gelding",
       "latest_course": "Musselburgh",
@@ -940,13 +548,13 @@
       "latest_class": "Class 4",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Katie Scott",
-      "latest_jockey": "Jason Hart",
-      "latest_draw": 1,
-      "latest_weight_lbs": 123,
-      "official_rating": "68",
-      "recent_form": "006080",
-      "last_run_days": 14,
+      "latest_trainer": "Tim Easterby",
+      "latest_jockey": "David Allan",
+      "latest_draw": 4,
+      "latest_weight_lbs": 136,
+      "official_rating": "81",
+      "recent_form": "-22973",
+      "last_run_days": 17,
       "profile_runs": 1,
       "courses_seen": {
         "Musselburgh": 1
@@ -961,16 +569,16 @@
         "Class 4": 1
       },
       "trainers_seen": {
-        "Katie Scott": 1
+        "Tim Easterby": 1
       },
       "jockeys_seen": {
-        "Jason Hart": 1
+        "David Allan": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
+      "latest_pulse_score": 60,
       "latest_notes": [
-        "Weak recent form",
+        "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
@@ -991,366 +599,31 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 8,
-          "horse": "Gressington",
-          "horse_id": "hrs_37026010",
+          "horse": "Son",
+          "horse_id": "hrs_34471094",
           "age": 5,
           "sex": "gelding",
-          "trainer": "Katie Scott",
-          "trainer_id": "trn_171504",
-          "jockey": "Jason Hart",
-          "jockey_id": "jky_270729",
-          "draw": 1,
-          "number": 7,
-          "lbs": 123,
-          "ofr": "68",
-          "last_run": 14,
-          "form": "006080",
-          "headgear": "b",
-          "_stored_at": "2026-06-30T01:49:56.866952+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Musselburgh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Musselburgh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 44,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Iris Dancer",
-      "horse_id": "hrs_21648795",
-      "age": 8,
-      "sex": "mare",
-      "latest_course": "Musselburgh",
-      "latest_time": "4:00",
-      "latest_race": "Racing TV Profits Returned To Racing Handicap",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Tristan Davidson",
-      "latest_jockey": "Rowan Scott",
-      "latest_draw": 6,
-      "latest_weight_lbs": 120,
-      "official_rating": "65",
-      "recent_form": "406121",
-      "last_run_days": 5,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Hamilton": 1,
-        "Musselburgh": 1
-      },
-      "distances_seen": {
-        "6.0": 1,
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1,
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 6": 1,
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "T Davidson": 1,
-        "Tristan Davidson": 1
-      },
-      "jockeys_seen": {
-        "Rowan Scott": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 57,
-      "latest_notes": [
-        "Strong recent form",
-        "Questionable run timing",
-        "Sharp return concern -3",
-        "Race class strength +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977121",
-          "course": "Hamilton",
-          "date": "2026-06-25",
-          "off_time": "9:00",
-          "off_dt": "2026-06-25T21:00:00+01:00",
-          "race_name": "Hamilton Park Construction Race Day Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Iris Dancer",
-          "horse_id": "hrs_21648795",
-          "age": 8,
-          "sex": "mare",
-          "trainer": "T Davidson",
-          "trainer_id": "trn_201609",
-          "jockey": "Rowan Scott",
-          "jockey_id": "jky_277695",
-          "draw": 5,
-          "number": 4,
-          "lbs": 137,
-          "ofr": "60",
-          "last_run": 8,
-          "form": "040612",
-          "headgear": "b",
-          "_stored_at": "2026-06-25T06:53:19.695401+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988327",
-          "course": "Musselburgh",
-          "date": "2026-06-30",
-          "off_time": "4:00",
-          "off_dt": "2026-06-30T16:00:00+01:00",
-          "race_name": "Racing TV Profits Returned To Racing Handicap",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Iris Dancer",
-          "horse_id": "hrs_21648795",
-          "age": 8,
-          "sex": "mare",
-          "trainer": "Tristan Davidson",
-          "trainer_id": "trn_201609",
-          "jockey": "Rowan Scott",
-          "jockey_id": "jky_277695",
-          "draw": 6,
-          "number": 8,
-          "lbs": 120,
-          "ofr": "65",
-          "last_run": 5,
-          "form": "406121",
-          "headgear": "b",
-          "_stored_at": "2026-06-30T01:49:56.899880+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Hamilton",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 55,
-      "class_suitability_score": 55,
-      "suitability_score": 55,
-      "horse_intelligence_score": 42,
-      "profile_strengths": [],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Musselburgh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 57,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Ameilya",
-      "horse_id": "hrs_35828044",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Musselburgh",
-      "latest_time": "4:00",
-      "latest_race": "Racing TV Profits Returned To Racing Handicap",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Stuart Coltherd",
-      "latest_jockey": "James Sullivan",
-      "latest_draw": 8,
-      "latest_weight_lbs": 126,
-      "official_rating": "71",
-      "recent_form": "170/6-",
-      "last_run_days": 399,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Musselburgh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Stuart Coltherd": 1
-      },
-      "jockeys_seen": {
-        "James Sullivan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 16,
-      "latest_notes": [
-        "Weak recent form",
-        "Questionable run timing",
-        "Very long absence concern -7",
-        "Race class strength +2",
-        "Trainer concern -2",
-        "Jockey concern -2",
-        "Jockey in form +2 (1/1 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988327",
-          "course": "Musselburgh",
-          "date": "2026-06-30",
-          "off_time": "4:00",
-          "off_dt": "2026-06-30T16:00:00+01:00",
-          "race_name": "Racing TV Profits Returned To Racing Handicap",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Ameilya",
-          "horse_id": "hrs_35828044",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Stuart Coltherd",
-          "trainer_id": "trn_82629",
-          "jockey": "James Sullivan",
-          "jockey_id": "jky_253623",
-          "draw": 8,
-          "number": 6,
-          "lbs": 126,
-          "ofr": "71",
-          "last_run": 399,
-          "form": "170/6-",
+          "trainer": "Tim Easterby",
+          "trainer_id": "trn_91368",
+          "jockey": "David Allan",
+          "jockey_id": "jky_234669",
+          "draw": 4,
+          "number": 1,
+          "lbs": 136,
+          "ofr": "81",
+          "last_run": 17,
+          "form": "-22973",
           "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.860231+00:00"
+          "_stored_at": "2026-06-30T05:14:26.015240+00:00"
         }
       ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Musselburgh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 34,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Musselburgh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 16,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
+      "profile_notes": []
     }
   ],
   "notes": [
-    "The Gay Blade is the top-rated Pulse IQ runner.",
-    "Diamont Katie is flagged as a possible dark horse."
+    "Diamont Katie is the top-rated Pulse IQ runner.",
+    "The top runner has a clear intelligence gap over the field.",
+    "This race has a generally weak profile strength.",
+    "Son is flagged as a possible dark horse."
   ]
 }

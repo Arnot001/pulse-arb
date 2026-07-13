@@ -228,8 +228,9 @@ def get_performance_insights():
     return {
         "health": health,
         "form": (
-            f"{latest_wins} wins from last {len(latest)} "
-            f"selections ({latest_profit:+.2f} pts)"
+            f"{latest_wins} wins from last "
+            f"{len(latest)} selections "
+            f"({latest_profit:+.2f} pts)"
         ),
         "best_run": best_streak,
         "worst_run": worst_streak,

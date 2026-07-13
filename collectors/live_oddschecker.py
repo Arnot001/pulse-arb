@@ -256,35 +256,51 @@ def discover_race_urls(headless=False, limit=20):
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=headless)
-        page = browser.new_page()
 
-        page.goto(HOME_URL, wait_until="domcontentloaded", timeout=60000)
+        page = browser.new_page(
+            viewport={"width": 1440, "height": 1000},
+        )
+
+        page.goto(
+            HOME_URL,
+            wait_until="domcontentloaded",
+            timeout=60000,
+        )
 
         try:
-            page.get_by_role("button", name="Accept all").click(timeout=8000)
+            page.get_by_role(
+                "button",
+                name="Accept all",
+            ).click(timeout=8000)
         except Exception:
             pass
 
-        page.wait_for_timeout(5000)
+        # Give the client-rendered race links time to appear.
+        page.wait_for_timeout(10000)
 
         links = page.locator("a").evaluate_all(
             """
             links => links
                 .map(a => a.href)
+                .filter(Boolean)
                 .filter(h => h.includes('/horse-racing/'))
-                .filter(h => /\\/horse-racing\\/[^/]+\\/\\d{1,2}:\\d{2}/.test(h))
+                .filter(h => /\\/\\d{1,2}:\\d{2}(\\/|$)/.test(h))
             """
-    )
+        )
 
         for link in links:
-            if "/winner" not in link:
-                link = link.rstrip("/") + "/winner"
+            clean_link = link.split("?")[0].split("#")[0].rstrip("/")
 
-            if link not in urls:
-                urls.append(link)
+            if not clean_link.endswith("/winner"):
+                clean_link += "/winner"
+
+            if clean_link not in urls:
+                urls.append(clean_link)
 
             if len(urls) >= limit:
                 break
+
+        print(f"Race links found on page: {len(links)}")
 
         browser.close()
 
@@ -368,4 +384,7 @@ def monitor_oddschecker_race(
 
 
 if __name__ == "__main__":
-    monitor_oddschecker_race()
+    collect_all_discovered_races(
+        headless=True,
+        limit=10,
+    )

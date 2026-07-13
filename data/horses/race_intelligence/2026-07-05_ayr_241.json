@@ -5,13 +5,13 @@
   "time": "2:41",
   "race_name": "Ayrshire Magazine Community EBF Maiden Stakes (GBB Race)",
   "field_size": 4,
-  "average_intelligence": 50.5,
+  "average_intelligence": 13.75,
   "top_score": 55,
-  "second_score": 53,
-  "gap": 2,
-  "confidence_score": 46,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "second_score": 0,
+  "gap": 55,
+  "confidence_score": 100,
+  "confidence": "HIGH",
+  "race_shape": "CLEAR STANDOUT",
   "top_runner": {
     "horse": "Conciliate",
     "horse_id": "hrs_64812902",
@@ -140,35 +140,92 @@
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-05",
-      "course": "Ayr",
-      "race_time": "13:41",
-      "race_name": "Ayrshire Magazine Community EBF Maiden Stakes (GBB Race)",
-      "race_id": "rac_11989770",
-      "status": null,
-      "finish_position": 1,
-      "sp": "9/4",
-      "favourite_position": null,
-      "going": "Good",
-      "distance": "6f",
-      "field_size": "4",
-      "trainer": "John Butler",
-      "jockey": "Billy Loughnane",
-      "distance_beaten": null,
-      "won": true,
-      "placed": true,
-      "attached_at": "2026-07-10T18:55:12"
-    },
-    "latest_result_position": 1,
-    "latest_result_sp": "9/4",
-    "latest_result_won": true,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-05"
+    }
   },
   "main_threat": {
+    "horse": "Influencer Man",
+    "horse_id": "hrs_66399606",
+    "age": 2,
+    "sex": "gelding",
+    "latest_course": "Ayr",
+    "latest_time": "2:41",
+    "latest_race": "Ayrshire Magazine Community EBF Maiden Stakes (GBB Race)",
+    "latest_date": "2026-07-05",
+    "latest_distance_f": 6.0,
+    "latest_class": "Class 4",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Adrian Paul Keatley",
+    "latest_jockey": "Mikey Sheehy",
+    "latest_draw": 3,
+    "latest_weight_lbs": 133,
+    "official_rating": "-",
+    "recent_form": "",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Ayr": 1
+    },
+    "distances_seen": {
+      "6.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Adrian Paul Keatley": 1
+    },
+    "jockeys_seen": {
+      "Mikey Sheehy": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 44,
+    "latest_notes": [
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +1"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11989770",
+        "course": "Ayr",
+        "date": "2026-07-05",
+        "off_time": "2:41",
+        "off_dt": "2026-07-05T14:41:00+01:00",
+        "race_name": "Ayrshire Magazine Community EBF Maiden Stakes (GBB Race)",
+        "distance_f": 6.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 4,
+        "horse": "Influencer Man",
+        "horse_id": "hrs_66399606",
+        "age": 2,
+        "sex": "gelding",
+        "trainer": "Adrian Paul Keatley",
+        "trainer_id": "trn_265617",
+        "jockey": "Mikey Sheehy",
+        "jockey_id": "jky_298917",
+        "draw": 3,
+        "number": 2,
+        "lbs": 133,
+        "ofr": "-",
+        "last_run": null,
+        "form": "",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ]
+  },
+  "dark_horse": {
     "horse": "Instant Force",
     "horse_id": "hrs_65190468",
     "age": 2,
@@ -250,174 +307,7 @@
         "headgear": ""
       }
     ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Ayr",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 6.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 53,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Ayr",
-      "latest_distance_f": 6.0,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 57,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Influencer Man",
-    "horse_id": "hrs_66399606",
-    "age": 2,
-    "sex": "gelding",
-    "latest_course": "Ayr",
-    "latest_time": "2:41",
-    "latest_race": "Ayrshire Magazine Community EBF Maiden Stakes (GBB Race)",
-    "latest_date": "2026-07-05",
-    "latest_distance_f": 6.0,
-    "latest_class": "Class 4",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Adrian Paul Keatley",
-    "latest_jockey": "Mikey Sheehy",
-    "latest_draw": 3,
-    "latest_weight_lbs": 133,
-    "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Ayr": 1
-    },
-    "distances_seen": {
-      "6.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "Adrian Paul Keatley": 1
-    },
-    "jockeys_seen": {
-      "Mikey Sheehy": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 44,
-    "latest_notes": [
-      "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +1"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11989770",
-        "course": "Ayr",
-        "date": "2026-07-05",
-        "off_time": "2:41",
-        "off_dt": "2026-07-05T14:41:00+01:00",
-        "race_name": "Ayrshire Magazine Community EBF Maiden Stakes (GBB Race)",
-        "distance_f": 6.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 4,
-        "horse": "Influencer Man",
-        "horse_id": "hrs_66399606",
-        "age": 2,
-        "sex": "gelding",
-        "trainer": "Adrian Paul Keatley",
-        "trainer_id": "trn_265617",
-        "jockey": "Mikey Sheehy",
-        "jockey_id": "jky_298917",
-        "draw": 3,
-        "number": 2,
-        "lbs": 133,
-        "ofr": "-",
-        "last_run": null,
-        "form": "",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ],
-    "favourite_course": {
-      "value": "Ayr",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 6.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 47,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Ayr",
-      "latest_distance_f": 6.0,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 44,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
+    "profile_notes": []
   },
   "runners": [
     {
@@ -548,158 +438,6 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-05",
-        "course": "Ayr",
-        "race_time": "13:41",
-        "race_name": "Ayrshire Magazine Community EBF Maiden Stakes (GBB Race)",
-        "race_id": "rac_11989770",
-        "status": null,
-        "finish_position": 1,
-        "sp": "9/4",
-        "favourite_position": null,
-        "going": "Good",
-        "distance": "6f",
-        "field_size": "4",
-        "trainer": "John Butler",
-        "jockey": "Billy Loughnane",
-        "distance_beaten": null,
-        "won": true,
-        "placed": true,
-        "attached_at": "2026-07-10T18:55:12"
-      },
-      "latest_result_position": 1,
-      "latest_result_sp": "9/4",
-      "latest_result_won": true,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-05"
-    },
-    {
-      "horse": "Instant Force",
-      "horse_id": "hrs_65190468",
-      "age": 2,
-      "sex": "colt",
-      "latest_course": "Ayr",
-      "latest_time": "2:41",
-      "latest_race": "Ayrshire Magazine Community EBF Maiden Stakes (GBB Race)",
-      "latest_date": "2026-07-05",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "K R Burke",
-      "latest_jockey": "Clifford Lee",
-      "latest_draw": 4,
-      "latest_weight_lbs": 133,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Ayr": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "K R Burke": 1
-      },
-      "jockeys_seen": {
-        "Clifford Lee": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 57,
-      "latest_notes": [
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +3",
-        "Stable flying +4 (6/10 last 14 days)",
-        "Jockey bonus +3",
-        "Jockey flying +4 (3/4 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989770",
-          "course": "Ayr",
-          "date": "2026-07-05",
-          "off_time": "2:41",
-          "off_dt": "2026-07-05T14:41:00+01:00",
-          "race_name": "Ayrshire Magazine Community EBF Maiden Stakes (GBB Race)",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 4,
-          "horse": "Instant Force",
-          "horse_id": "hrs_65190468",
-          "age": 2,
-          "sex": "colt",
-          "trainer": "K R Burke",
-          "trainer_id": "trn_45171",
-          "jockey": "Clifford Lee",
-          "jockey_id": "jky_280440",
-          "draw": 4,
-          "number": 3,
-          "lbs": 133,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Ayr",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Ayr",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 57,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
       }
     },
     {
@@ -783,49 +521,91 @@
       ],
       "profile_notes": [
         "Low draw today"
+      ]
+    },
+    {
+      "horse": "Instant Force",
+      "horse_id": "hrs_65190468",
+      "age": 2,
+      "sex": "colt",
+      "latest_course": "Ayr",
+      "latest_time": "2:41",
+      "latest_race": "Ayrshire Magazine Community EBF Maiden Stakes (GBB Race)",
+      "latest_date": "2026-07-05",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "K R Burke",
+      "latest_jockey": "Clifford Lee",
+      "latest_draw": 4,
+      "latest_weight_lbs": 133,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Ayr": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "K R Burke": 1
+      },
+      "jockeys_seen": {
+        "Clifford Lee": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 57,
+      "latest_notes": [
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +3",
+        "Stable flying +4 (6/10 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey flying +4 (3/4 last 14 days)"
       ],
-      "favourite_course": {
-        "value": "Ayr",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989770",
+          "course": "Ayr",
+          "date": "2026-07-05",
+          "off_time": "2:41",
+          "off_dt": "2026-07-05T14:41:00+01:00",
+          "race_name": "Ayrshire Magazine Community EBF Maiden Stakes (GBB Race)",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 4,
+          "horse": "Instant Force",
+          "horse_id": "hrs_65190468",
+          "age": 2,
+          "sex": "colt",
+          "trainer": "K R Burke",
+          "trainer_id": "trn_45171",
+          "jockey": "Clifford Lee",
+          "jockey_id": "jky_280440",
+          "draw": 4,
+          "number": 3,
+          "lbs": 133,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": ""
+        }
       ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Ayr",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 44,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
+      "profile_notes": []
     },
     {
       "horse": "Trumpety Trump",
@@ -908,54 +688,13 @@
       ],
       "profile_notes": [
         "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Ayr",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Ayr",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 44,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
+      ]
     }
   ],
   "notes": [
     "Conciliate is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "Influencer Man is flagged as a possible dark horse."
+    "The top runner has a clear intelligence gap over the field.",
+    "This race has a generally weak profile strength.",
+    "Instant Force is flagged as a possible dark horse."
   ]
 }

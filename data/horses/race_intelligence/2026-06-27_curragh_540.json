@@ -4,19 +4,19 @@
   "course": "Curragh",
   "time": "5:40",
   "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-  "field_size": 18,
-  "average_intelligence": 24.0,
-  "top_score": 24,
+  "field_size": 13,
+  "average_intelligence": 10.77,
+  "top_score": 44,
   "second_score": 24,
-  "gap": 0,
-  "confidence_score": 19,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "gap": 20,
+  "confidence_score": 59,
+  "confidence": "MEDIUM",
+  "race_shape": "CLEAR STANDOUT",
   "top_runner": {
-    "horse": "Amerilis",
-    "horse_id": "hrs_53116392",
-    "age": 3,
-    "sex": "filly",
+    "horse": "Footstepstoglory",
+    "horse_id": "hrs_53539675",
+    "age": 5,
+    "sex": "gelding",
     "latest_course": "Curragh",
     "latest_time": "5:40",
     "latest_race": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
@@ -25,13 +25,13 @@
     "latest_class": "",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Gillian Scott",
-    "latest_jockey": "Donagh O'Connor",
-    "latest_draw": 11,
-    "latest_weight_lbs": 129,
-    "official_rating": "63",
-    "recent_form": "66-492",
-    "last_run_days": 24,
+    "latest_trainer": "David Harry Kelly",
+    "latest_jockey": "Gavin Ryan",
+    "latest_draw": 13,
+    "latest_weight_lbs": 141,
+    "official_rating": "-",
+    "recent_form": "96",
+    "last_run_days": 17,
     "profile_runs": 2,
     "courses_seen": {
       "Curragh": 2
@@ -44,15 +44,19 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "Gillian Scott": 2
+      "David Harry Kelly": 2
     },
     "jockeys_seen": {
-      "Donagh O'Connor": 2
+      "Gavin Ryan": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 45,
+    "latest_notes": [
+      "Positive recent form",
+      "Helpful draw",
+      "Trainer concern -2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -68,22 +72,22 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 21,
-        "horse": "Amerilis",
-        "horse_id": "hrs_53116392",
-        "age": 3,
-        "sex": "filly",
-        "trainer": "Gillian Scott",
-        "trainer_id": "trn_315738",
-        "jockey": "Donagh O'Connor",
-        "jockey_id": "jky_281148",
-        "draw": 11,
-        "number": 11,
-        "lbs": 129,
-        "ofr": "63",
-        "last_run": 24,
-        "form": "66-492",
-        "headgear": "t",
-        "_stored_at": "2026-06-27T10:06:26.561956+00:00"
+        "horse": "Footstepstoglory",
+        "horse_id": "hrs_53539675",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "David Harry Kelly",
+        "trainer_id": "trn_240876",
+        "jockey": "Gavin Ryan",
+        "jockey_id": "jky_289029",
+        "draw": 13,
+        "number": 2,
+        "lbs": 141,
+        "ofr": "-",
+        "last_run": 17,
+        "form": "96",
+        "headgear": "",
+        "_stored_at": "2026-06-27T10:06:26.433396+00:00"
       },
       {
         "source": "the_racing_api",
@@ -99,22 +103,22 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 21,
-        "horse": "Amerilis",
-        "horse_id": "hrs_53116392",
-        "age": 3,
-        "sex": "filly",
-        "trainer": "Gillian Scott",
-        "trainer_id": "trn_315738",
-        "jockey": "Donagh O'Connor",
-        "jockey_id": "jky_281148",
-        "draw": 11,
-        "number": 11,
-        "lbs": 129,
-        "ofr": "63",
-        "last_run": 24,
-        "form": "66-492",
-        "headgear": "t",
-        "_stored_at": "2026-06-28T12:42:54.059303+00:00"
+        "horse": "Footstepstoglory",
+        "horse_id": "hrs_53539675",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "David Harry Kelly",
+        "trainer_id": "trn_240876",
+        "jockey": "Gavin Ryan",
+        "jockey_id": "jky_289029",
+        "draw": 13,
+        "number": 2,
+        "lbs": 141,
+        "ofr": "-",
+        "last_run": 17,
+        "form": "96",
+        "headgear": "",
+        "_stored_at": "2026-06-28T12:42:53.909533+00:00"
       }
     ],
     "profile_notes": [],
@@ -136,14 +140,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 44,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -152,7 +155,7 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 45,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
@@ -452,10 +455,10 @@
   },
   "runners": [
     {
-      "horse": "Amerilis",
-      "horse_id": "hrs_53116392",
-      "age": 3,
-      "sex": "filly",
+      "horse": "Footstepstoglory",
+      "horse_id": "hrs_53539675",
+      "age": 5,
+      "sex": "gelding",
       "latest_course": "Curragh",
       "latest_time": "5:40",
       "latest_race": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
@@ -464,13 +467,13 @@
       "latest_class": "",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Gillian Scott",
-      "latest_jockey": "Donagh O'Connor",
-      "latest_draw": 11,
-      "latest_weight_lbs": 129,
-      "official_rating": "63",
-      "recent_form": "66-492",
-      "last_run_days": 24,
+      "latest_trainer": "David Harry Kelly",
+      "latest_jockey": "Gavin Ryan",
+      "latest_draw": 13,
+      "latest_weight_lbs": 141,
+      "official_rating": "-",
+      "recent_form": "96",
+      "last_run_days": 17,
       "profile_runs": 2,
       "courses_seen": {
         "Curragh": 2
@@ -483,15 +486,19 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Gillian Scott": 2
+        "David Harry Kelly": 2
       },
       "jockeys_seen": {
-        "Donagh O'Connor": 2
+        "Gavin Ryan": 2
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 45,
+      "latest_notes": [
+        "Positive recent form",
+        "Helpful draw",
+        "Trainer concern -2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -507,22 +514,22 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 21,
-          "horse": "Amerilis",
-          "horse_id": "hrs_53116392",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Gillian Scott",
-          "trainer_id": "trn_315738",
-          "jockey": "Donagh O'Connor",
-          "jockey_id": "jky_281148",
-          "draw": 11,
-          "number": 11,
-          "lbs": 129,
-          "ofr": "63",
-          "last_run": 24,
-          "form": "66-492",
-          "headgear": "t",
-          "_stored_at": "2026-06-27T10:06:26.561956+00:00"
+          "horse": "Footstepstoglory",
+          "horse_id": "hrs_53539675",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "David Harry Kelly",
+          "trainer_id": "trn_240876",
+          "jockey": "Gavin Ryan",
+          "jockey_id": "jky_289029",
+          "draw": 13,
+          "number": 2,
+          "lbs": 141,
+          "ofr": "-",
+          "last_run": 17,
+          "form": "96",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:26.433396+00:00"
         },
         {
           "source": "the_racing_api",
@@ -538,22 +545,22 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 21,
-          "horse": "Amerilis",
-          "horse_id": "hrs_53116392",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Gillian Scott",
-          "trainer_id": "trn_315738",
-          "jockey": "Donagh O'Connor",
-          "jockey_id": "jky_281148",
-          "draw": 11,
-          "number": 11,
-          "lbs": 129,
-          "ofr": "63",
-          "last_run": 24,
-          "form": "66-492",
-          "headgear": "t",
-          "_stored_at": "2026-06-28T12:42:54.059303+00:00"
+          "horse": "Footstepstoglory",
+          "horse_id": "hrs_53539675",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "David Harry Kelly",
+          "trainer_id": "trn_240876",
+          "jockey": "Gavin Ryan",
+          "jockey_id": "jky_289029",
+          "draw": 13,
+          "number": 2,
+          "lbs": 141,
+          "ofr": "-",
+          "last_run": 17,
+          "form": "96",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:53.909533+00:00"
         }
       ],
       "profile_notes": [],
@@ -575,14 +582,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 44,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -591,7 +597,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 45,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1036,152 +1042,6 @@
       }
     },
     {
-      "horse": "Forza Magico",
-      "horse_id": "hrs_66198832",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Curragh",
-      "latest_time": "5:40",
-      "latest_race": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "John James Feane",
-      "latest_jockey": "Ronan Whelan",
-      "latest_draw": 7,
-      "latest_weight_lbs": 129,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "John James Feane": 2
-      },
-      "jockeys_seen": {
-        "Ronan Whelan": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Forza Magico",
-          "horse_id": "hrs_66198832",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "John James Feane",
-          "trainer_id": "trn_259128",
-          "jockey": "Ronan Whelan",
-          "jockey_id": "jky_265689",
-          "draw": 7,
-          "number": 15,
-          "lbs": 129,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.620528+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Forza Magico",
-          "horse_id": "hrs_66198832",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "John James Feane",
-          "trainer_id": "trn_259128",
-          "jockey": "Ronan Whelan",
-          "jockey_id": "jky_265689",
-          "draw": 7,
-          "number": 15,
-          "lbs": 129,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:54.126761+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
       "horse": "Hazrama",
       "horse_id": "hrs_55978454",
       "age": 3,
@@ -1331,154 +1191,6 @@
       }
     },
     {
-      "horse": "Lady Moon",
-      "horse_id": "hrs_65287082",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Curragh",
-      "latest_time": "5:40",
-      "latest_race": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "A Oliver",
-      "latest_jockey": "W J Lee",
-      "latest_draw": 3,
-      "latest_weight_lbs": 129,
-      "official_rating": "-",
-      "recent_form": "9",
-      "last_run_days": 24,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "A Oliver": 2
-      },
-      "jockeys_seen": {
-        "W J Lee": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Lady Moon",
-          "horse_id": "hrs_65287082",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "A Oliver",
-          "trainer_id": "trn_143361",
-          "jockey": "W J Lee",
-          "jockey_id": "jky_244275",
-          "draw": 3,
-          "number": 17,
-          "lbs": 129,
-          "ofr": "-",
-          "last_run": 24,
-          "form": "9",
-          "headgear": "t",
-          "_stored_at": "2026-06-27T10:06:26.648872+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Lady Moon",
-          "horse_id": "hrs_65287082",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "A Oliver",
-          "trainer_id": "trn_143361",
-          "jockey": "W J Lee",
-          "jockey_id": "jky_244275",
-          "draw": 3,
-          "number": 17,
-          "lbs": 129,
-          "ofr": "-",
-          "last_run": 24,
-          "form": "9",
-          "headgear": "t",
-          "_stored_at": "2026-06-28T12:42:54.160162+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
       "horse": "Leannespour",
       "horse_id": "hrs_56559216",
       "age": 3,
@@ -1585,46 +1297,7 @@
       ],
       "profile_notes": [
         "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+      ]
     },
     {
       "horse": "Lilli's Angel",
@@ -1731,342 +1404,7 @@
           "_stored_at": "2026-06-28T12:42:54.192849+00:00"
         }
       ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Mountain Memory",
-      "horse_id": "hrs_64846901",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Curragh",
-      "latest_time": "5:40",
-      "latest_race": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Andrew Slattery",
-      "latest_jockey": "Adam Browne-Souza(7)",
-      "latest_draw": 15,
-      "latest_weight_lbs": 134,
-      "official_rating": "-",
-      "recent_form": "58",
-      "last_run_days": 8,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Andrew Slattery": 2
-      },
-      "jockeys_seen": {
-        "Adam Browne-Souza(7)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Mountain Memory",
-          "horse_id": "hrs_64846901",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Andrew Slattery",
-          "trainer_id": "trn_95292",
-          "jockey": "Adam Browne-Souza(7)",
-          "jockey_id": "jky_312177",
-          "draw": 15,
-          "number": 4,
-          "lbs": 134,
-          "ofr": "-",
-          "last_run": 8,
-          "form": "58",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.462265+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Mountain Memory",
-          "horse_id": "hrs_64846901",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Andrew Slattery",
-          "trainer_id": "trn_95292",
-          "jockey": "Adam Browne-Souza(7)",
-          "jockey_id": "jky_312177",
-          "draw": 15,
-          "number": 4,
-          "lbs": 134,
-          "ofr": "-",
-          "last_run": 8,
-          "form": "58",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:53.942261+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Off We Go",
-      "horse_id": "hrs_66198839",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Curragh",
-      "latest_time": "5:40",
-      "latest_race": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "A Oliver",
-      "latest_jockey": "Luke McAteer",
-      "latest_draw": 1,
-      "latest_weight_lbs": 129,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "A Oliver": 2
-      },
-      "jockeys_seen": {
-        "Luke McAteer": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Off We Go",
-          "horse_id": "hrs_66198839",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "A Oliver",
-          "trainer_id": "trn_143361",
-          "jockey": "Luke McAteer",
-          "jockey_id": "jky_289707",
-          "draw": 1,
-          "number": 20,
-          "lbs": 129,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.685792+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Off We Go",
-          "horse_id": "hrs_66198839",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "A Oliver",
-          "trainer_id": "trn_143361",
-          "jockey": "Luke McAteer",
-          "jockey_id": "jky_289707",
-          "draw": 1,
-          "number": 20,
-          "lbs": 129,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:54.209524+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+      "profile_notes": []
     },
     {
       "horse": "Saint Acclaim",
@@ -2173,46 +1511,7 @@
           "_stored_at": "2026-06-28T12:42:53.958912+00:00"
         }
       ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+      "profile_notes": []
     },
     {
       "horse": "Solana Beach",
@@ -2319,46 +1618,7 @@
           "_stored_at": "2026-06-28T12:42:54.225867+00:00"
         }
       ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+      "profile_notes": []
     },
     {
       "horse": "Spinola Bear",
@@ -2465,46 +1725,7 @@
           "_stored_at": "2026-06-28T12:42:53.976129+00:00"
         }
       ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+      "profile_notes": []
     },
     {
       "horse": "Starborn Legend",
@@ -2611,46 +1832,7 @@
           "_stored_at": "2026-06-28T12:42:53.992737+00:00"
         }
       ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+      "profile_notes": []
     },
     {
       "horse": "Suspicious Mindz",
@@ -2757,46 +1939,7 @@
           "_stored_at": "2026-06-28T12:42:54.009248+00:00"
         }
       ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+      "profile_notes": []
     },
     {
       "horse": "Tide Of Fortune",
@@ -2903,197 +2046,12 @@
           "_stored_at": "2026-06-28T12:42:54.025833+00:00"
         }
       ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Trek Home",
-      "horse_id": "hrs_64294804",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Curragh",
-      "latest_time": "5:40",
-      "latest_race": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Daniel James Murphy",
-      "latest_jockey": "Shane Foley",
-      "latest_draw": 16,
-      "latest_weight_lbs": 134,
-      "official_rating": "-",
-      "recent_form": "44",
-      "last_run_days": 24,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Curragh": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Daniel James Murphy": 2
-      },
-      "jockeys_seen": {
-        "Shane Foley": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Trek Home",
-          "horse_id": "hrs_64294804",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Daniel James Murphy",
-          "trainer_id": "trn_366723",
-          "jockey": "Shane Foley",
-          "jockey_id": "jky_259047",
-          "draw": 16,
-          "number": 10,
-          "lbs": 134,
-          "ofr": "-",
-          "last_run": 24,
-          "form": "44",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.546935+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Trek Home",
-          "horse_id": "hrs_64294804",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Daniel James Murphy",
-          "trainer_id": "trn_366723",
-          "jockey": "Shane Foley",
-          "jockey_id": "jky_259047",
-          "draw": 16,
-          "number": 10,
-          "lbs": 134,
-          "ofr": "-",
-          "last_run": 24,
-          "form": "44",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:54.042456+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Curragh",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+      "profile_notes": []
     }
   ],
   "notes": [
-    "Amerilis is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
+    "Footstepstoglory is the top-rated Pulse IQ runner.",
+    "The top runner has a clear intelligence gap over the field.",
     "This race has a generally weak profile strength.",
     "Dandymaria is flagged as a possible dark horse."
   ]
