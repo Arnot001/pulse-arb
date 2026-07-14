@@ -5,14 +5,145 @@
   "time": "3:00",
   "race_name": "Betway Handicap (Heritage Handicap)",
   "field_size": 14,
-  "average_intelligence": 12.29,
-  "top_score": 70,
-  "second_score": 58,
-  "gap": 12,
-  "confidence_score": 62,
+  "average_intelligence": 62.0,
+  "top_score": 71,
+  "second_score": 70,
+  "gap": 1,
+  "confidence_score": 56,
   "confidence": "MEDIUM",
-  "race_shape": "PULSE EDGE",
+  "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Red Spells Danger",
+    "horse_id": "hrs_52054562",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Newmarket",
+    "latest_time": "3:00",
+    "latest_race": "Betway Handicap (Heritage Handicap)",
+    "latest_date": "2026-07-09",
+    "latest_distance_f": 6.0,
+    "latest_class": "Class 2",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Tim Easterby",
+    "latest_jockey": "David Allan",
+    "latest_draw": 11,
+    "latest_weight_lbs": 127,
+    "official_rating": "93",
+    "recent_form": "-22112",
+    "last_run_days": 26,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Newmarket": 1
+    },
+    "distances_seen": {
+      "6.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 2": 1
+    },
+    "trainers_seen": {
+      "Tim Easterby": 1
+    },
+    "jockeys_seen": {
+      "David Allan": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 98,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Race class strength +6",
+      "Trainer bonus +2",
+      "Stable in form +2 (9/37 last 14 days)",
+      "Jockey bonus +2",
+      "Jockey in form +2 (6/27 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11978135",
+        "course": "Newmarket",
+        "date": "2026-07-09",
+        "off_time": "3:00",
+        "off_dt": "2026-07-09T15:00:00+01:00",
+        "race_name": "Betway Handicap (Heritage Handicap)",
+        "distance_f": 6.0,
+        "race_class": "Class 2",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 13,
+        "horse": "Red Spells Danger",
+        "horse_id": "hrs_52054562",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Tim Easterby",
+        "trainer_id": "trn_91368",
+        "jockey": "David Allan",
+        "jockey_id": "jky_234669",
+        "draw": 11,
+        "number": 6,
+        "lbs": 127,
+        "ofr": "93",
+        "last_run": 26,
+        "form": "-22112",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
+    "favourite_course": {
+      "value": "Newmarket",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 6.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 2",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 71,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Newmarket",
+      "latest_distance_f": 6.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 2",
+      "latest_pulse_score": 98,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Calico Blue",
     "horse_id": "hrs_50434685",
     "age": 3,
@@ -143,139 +274,9 @@
       "runs_count": 1
     }
   },
-  "main_threat": {
-    "horse": "Ghost Mode",
-    "horse_id": "hrs_53960277",
-    "age": 3,
-    "sex": "colt",
-    "latest_course": "Newmarket",
-    "latest_time": "3:00",
-    "latest_race": "Betway Handicap (Heritage Handicap)",
-    "latest_date": "2026-07-09",
-    "latest_distance_f": 6.0,
-    "latest_class": "Class 2",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Andrew Balding",
-    "latest_jockey": "James Doyle",
-    "latest_draw": 5,
-    "latest_weight_lbs": 128,
-    "official_rating": "94",
-    "recent_form": "2-1790",
-    "last_run_days": 20,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Newmarket": 1
-    },
-    "distances_seen": {
-      "6.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 2": 1
-    },
-    "trainers_seen": {
-      "Andrew Balding": 1
-    },
-    "jockeys_seen": {
-      "James Doyle": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 70,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +6",
-      "Trainer bonus +2",
-      "Stable flying +4 (3/3 last 14 days)",
-      "Jockey bonus +1",
-      "Jockey flying +4 (6/15 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11978135",
-        "course": "Newmarket",
-        "date": "2026-07-09",
-        "off_time": "3:00",
-        "off_dt": "2026-07-09T15:00:00+01:00",
-        "race_name": "Betway Handicap (Heritage Handicap)",
-        "distance_f": 6.0,
-        "race_class": "Class 2",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 13,
-        "horse": "Ghost Mode",
-        "horse_id": "hrs_53960277",
-        "age": 3,
-        "sex": "colt",
-        "trainer": "Andrew Balding",
-        "trainer_id": "trn_140445",
-        "jockey": "James Doyle",
-        "jockey_id": "jky_20703",
-        "draw": 5,
-        "number": 4,
-        "lbs": 128,
-        "ofr": "94",
-        "last_run": 20,
-        "form": "2-1790",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Newmarket",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 6.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 2",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 58,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Newmarket",
-      "latest_distance_f": 6.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 2",
-      "latest_pulse_score": 70,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
   "dark_horse": {
-    "horse": "Ghost Mode",
-    "horse_id": "hrs_53960277",
+    "horse": "Calico Blue",
+    "horse_id": "hrs_50434685",
     "age": 3,
     "sex": "colt",
     "latest_course": "Newmarket",
@@ -286,12 +287,12 @@
     "latest_class": "Class 2",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Andrew Balding",
-    "latest_jockey": "James Doyle",
-    "latest_draw": 5,
-    "latest_weight_lbs": 128,
-    "official_rating": "94",
-    "recent_form": "2-1790",
+    "latest_trainer": "Roger Varian",
+    "latest_jockey": "Ray Dawson",
+    "latest_draw": 9,
+    "latest_weight_lbs": 127,
+    "official_rating": "93",
+    "recent_form": "311-24",
     "last_run_days": 20,
     "profile_runs": 1,
     "courses_seen": {
@@ -307,24 +308,23 @@
       "Class 2": 1
     },
     "trainers_seen": {
-      "Andrew Balding": 1
+      "Roger Varian": 1
     },
     "jockeys_seen": {
-      "James Doyle": 1
+      "Ray Dawson": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 70,
+    "latest_pulse_score": 96,
     "latest_notes": [
-      "Positive recent form",
+      "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Helpful draw",
       "Race class strength +6",
-      "Trainer bonus +2",
-      "Stable flying +4 (3/3 last 14 days)",
-      "Jockey bonus +1",
-      "Jockey flying +4 (6/15 last 14 days)"
+      "Trainer bonus +1",
+      "Stable flying +4 (9/9 last 14 days)",
+      "Jockey bonus +2",
+      "Jockey flying +4 (9/12 last 14 days)"
     ],
     "runs": [
       {
@@ -341,24 +341,26 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 13,
-        "horse": "Ghost Mode",
-        "horse_id": "hrs_53960277",
+        "horse": "Calico Blue",
+        "horse_id": "hrs_50434685",
         "age": 3,
         "sex": "colt",
-        "trainer": "Andrew Balding",
-        "trainer_id": "trn_140445",
-        "jockey": "James Doyle",
-        "jockey_id": "jky_20703",
-        "draw": 5,
-        "number": 4,
-        "lbs": 128,
-        "ofr": "94",
+        "trainer": "Roger Varian",
+        "trainer_id": "trn_224010",
+        "jockey": "Ray Dawson",
+        "jockey_id": "jky_266394",
+        "draw": 9,
+        "number": 5,
+        "lbs": 127,
+        "ofr": "93",
         "last_run": 20,
-        "form": "2-1790",
+        "form": "311-24",
         "headgear": ""
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
     "favourite_course": {
       "value": "Newmarket",
       "runs": 1
@@ -380,13 +382,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 58,
+    "horse_intelligence_score": 70,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
       "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
       "Limited stored profile data"
@@ -397,13 +399,144 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 2",
-      "latest_pulse_score": 70,
+      "latest_pulse_score": 96,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Red Spells Danger",
+      "horse_id": "hrs_52054562",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Newmarket",
+      "latest_time": "3:00",
+      "latest_race": "Betway Handicap (Heritage Handicap)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Tim Easterby",
+      "latest_jockey": "David Allan",
+      "latest_draw": 11,
+      "latest_weight_lbs": 127,
+      "official_rating": "93",
+      "recent_form": "-22112",
+      "last_run_days": 26,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newmarket": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Tim Easterby": 1
+      },
+      "jockeys_seen": {
+        "David Allan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 98,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +6",
+        "Trainer bonus +2",
+        "Stable in form +2 (9/37 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey in form +2 (6/27 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978135",
+          "course": "Newmarket",
+          "date": "2026-07-09",
+          "off_time": "3:00",
+          "off_dt": "2026-07-09T15:00:00+01:00",
+          "race_name": "Betway Handicap (Heritage Handicap)",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Red Spells Danger",
+          "horse_id": "hrs_52054562",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Tim Easterby",
+          "trainer_id": "trn_91368",
+          "jockey": "David Allan",
+          "jockey_id": "jky_234669",
+          "draw": 11,
+          "number": 6,
+          "lbs": 127,
+          "ofr": "93",
+          "last_run": 26,
+          "form": "-22112",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
+      "favourite_course": {
+        "value": "Newmarket",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 71,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 98,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Calico Blue",
       "horse_id": "hrs_50434685",
@@ -530,6 +663,1040 @@
         "latest_going": "Good To Firm",
         "latest_class": "Class 2",
         "latest_pulse_score": 96,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Sea Cookie",
+      "horse_id": "hrs_54337437",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Newmarket",
+      "latest_time": "3:00",
+      "latest_race": "Betway Handicap (Heritage Handicap)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Tom Clover",
+      "latest_jockey": "Jack Callan(3)",
+      "latest_draw": 10,
+      "latest_weight_lbs": 118,
+      "official_rating": "84",
+      "recent_form": "22-11",
+      "last_run_days": 19,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newmarket": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Tom Clover": 1
+      },
+      "jockeys_seen": {
+        "Jack Callan(3)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 90,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +6"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978135",
+          "course": "Newmarket",
+          "date": "2026-07-09",
+          "off_time": "3:00",
+          "off_dt": "2026-07-09T15:00:00+01:00",
+          "race_name": "Betway Handicap (Heritage Handicap)",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Sea Cookie",
+          "horse_id": "hrs_54337437",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Tom Clover",
+          "trainer_id": "trn_294885",
+          "jockey": "Jack Callan(3)",
+          "jockey_id": "jky_307578",
+          "draw": 10,
+          "number": 13,
+          "lbs": 118,
+          "ofr": "84",
+          "last_run": 19,
+          "form": "22-11",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
+      "favourite_course": {
+        "value": "Newmarket",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 68,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 90,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Starmade",
+      "horse_id": "hrs_56494697",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Newmarket",
+      "latest_time": "3:00",
+      "latest_race": "Betway Handicap (Heritage Handicap)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ed Dunlop",
+      "latest_jockey": "Jamie Spencer",
+      "latest_draw": 3,
+      "latest_weight_lbs": 122,
+      "official_rating": "88",
+      "recent_form": "21-315",
+      "last_run_days": 20,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newmarket": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Ed Dunlop": 1
+      },
+      "jockeys_seen": {
+        "Jamie Spencer": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 92,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +6",
+        "Trainer bonus +1",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978135",
+          "course": "Newmarket",
+          "date": "2026-07-09",
+          "off_time": "3:00",
+          "off_dt": "2026-07-09T15:00:00+01:00",
+          "race_name": "Betway Handicap (Heritage Handicap)",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Starmade",
+          "horse_id": "hrs_56494697",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Ed Dunlop",
+          "trainer_id": "trn_81324",
+          "jockey": "Jamie Spencer",
+          "jockey_id": "jky_41067",
+          "draw": 3,
+          "number": 11,
+          "lbs": 122,
+          "ofr": "88",
+          "last_run": 20,
+          "form": "21-315",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score",
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Newmarket",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 68,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 92,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Thunder Call",
+      "horse_id": "hrs_57406937",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Newmarket",
+      "latest_time": "3:00",
+      "latest_race": "Betway Handicap (Heritage Handicap)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "William Haggas",
+      "latest_jockey": "Tom Marquand",
+      "latest_draw": 7,
+      "latest_weight_lbs": 125,
+      "official_rating": "91",
+      "recent_form": "02-11",
+      "last_run_days": 26,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newmarket": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "William Haggas": 1
+      },
+      "jockeys_seen": {
+        "Tom Marquand": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 90,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +6",
+        "Trainer bonus +1",
+        "Stable flying +4 (6/12 last 14 days)",
+        "Jockey bonus +1",
+        "Jockey flying +4 (3/9 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978135",
+          "course": "Newmarket",
+          "date": "2026-07-09",
+          "off_time": "3:00",
+          "off_dt": "2026-07-09T15:00:00+01:00",
+          "race_name": "Betway Handicap (Heritage Handicap)",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Thunder Call",
+          "horse_id": "hrs_57406937",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "William Haggas",
+          "trainer_id": "trn_30735",
+          "jockey": "Tom Marquand",
+          "jockey_id": "jky_281841",
+          "draw": 7,
+          "number": 8,
+          "lbs": 125,
+          "ofr": "91",
+          "last_run": 26,
+          "form": "02-11",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
+      "favourite_course": {
+        "value": "Newmarket",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 68,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 90,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Jazl",
+      "horse_id": "hrs_55851439",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Newmarket",
+      "latest_time": "3:00",
+      "latest_race": "Betway Handicap (Heritage Handicap)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Simon & Ed Crisford",
+      "latest_jockey": "Jack Mitchell",
+      "latest_draw": 2,
+      "latest_weight_lbs": 129,
+      "official_rating": "95",
+      "recent_form": "23-110",
+      "last_run_days": 20,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newmarket": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Simon & Ed Crisford": 1
+      },
+      "jockeys_seen": {
+        "Jack Mitchell": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 87,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +6",
+        "Stable flying +4 (3/3 last 14 days)",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978135",
+          "course": "Newmarket",
+          "date": "2026-07-09",
+          "off_time": "3:00",
+          "off_dt": "2026-07-09T15:00:00+01:00",
+          "race_name": "Betway Handicap (Heritage Handicap)",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Jazl",
+          "horse_id": "hrs_55851439",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Simon & Ed Crisford",
+          "trainer_id": "trn_337302",
+          "jockey": "Jack Mitchell",
+          "jockey_id": "jky_253248",
+          "draw": 2,
+          "number": 3,
+          "lbs": 129,
+          "ofr": "95",
+          "last_run": 20,
+          "form": "23-110",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score",
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Newmarket",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 66,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 87,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Man Of Vision",
+      "horse_id": "hrs_52862782",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Newmarket",
+      "latest_time": "3:00",
+      "latest_race": "Betway Handicap (Heritage Handicap)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Charlie Appleby",
+      "latest_jockey": "William Buick",
+      "latest_draw": 4,
+      "latest_weight_lbs": 124,
+      "official_rating": "90",
+      "recent_form": "251-29",
+      "last_run_days": 26,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newmarket": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Charlie Appleby": 1
+      },
+      "jockeys_seen": {
+        "William Buick": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 81,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +6",
+        "Stable flying +4 (3/6 last 14 days)",
+        "Jockey bonus +3"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978135",
+          "course": "Newmarket",
+          "date": "2026-07-09",
+          "off_time": "3:00",
+          "off_dt": "2026-07-09T15:00:00+01:00",
+          "race_name": "Betway Handicap (Heritage Handicap)",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Man Of Vision",
+          "horse_id": "hrs_52862782",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Charlie Appleby",
+          "trainer_id": "trn_255042",
+          "jockey": "William Buick",
+          "jockey_id": "jky_257379",
+          "draw": 4,
+          "number": 9,
+          "lbs": 124,
+          "ofr": "90",
+          "last_run": 26,
+          "form": "251-29",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
+      "favourite_course": {
+        "value": "Newmarket",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 63,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 81,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Ten Carat Harry",
+      "horse_id": "hrs_56406707",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Newmarket",
+      "latest_time": "3:00",
+      "latest_race": "Betway Handicap (Heritage Handicap)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jamie Osborne",
+      "latest_jockey": "Saffie Osborne",
+      "latest_draw": 8,
+      "latest_weight_lbs": 135,
+      "official_rating": "101",
+      "recent_form": "334143",
+      "last_run_days": 20,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newmarket": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Jamie Osborne": 1
+      },
+      "jockeys_seen": {
+        "Saffie Osborne": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 79,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +6",
+        "Stable in form +2 (1/5 last 14 days)",
+        "Jockey in form +2 (2/13 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978135",
+          "course": "Newmarket",
+          "date": "2026-07-09",
+          "off_time": "3:00",
+          "off_dt": "2026-07-09T15:00:00+01:00",
+          "race_name": "Betway Handicap (Heritage Handicap)",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Ten Carat Harry",
+          "horse_id": "hrs_56406707",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Jamie Osborne",
+          "trainer_id": "trn_125595",
+          "jockey": "Saffie Osborne",
+          "jockey_id": "jky_301050",
+          "draw": 8,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "101",
+          "last_run": 20,
+          "form": "334143",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newmarket",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 63,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 79,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "River Spey",
+      "horse_id": "hrs_53390309",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Newmarket",
+      "latest_time": "3:00",
+      "latest_race": "Betway Handicap (Heritage Handicap)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ed Walker",
+      "latest_jockey": "George Downing",
+      "latest_draw": 14,
+      "latest_weight_lbs": 121,
+      "official_rating": "87",
+      "recent_form": "431-61",
+      "last_run_days": 38,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newmarket": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Ed Walker": 1
+      },
+      "jockeys_seen": {
+        "George Downing": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 76,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Race class strength +6",
+        "Stable flying +4 (3/6 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978135",
+          "course": "Newmarket",
+          "date": "2026-07-09",
+          "off_time": "3:00",
+          "off_dt": "2026-07-09T15:00:00+01:00",
+          "race_name": "Betway Handicap (Heritage Handicap)",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "River Spey",
+          "horse_id": "hrs_53390309",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Ed Walker",
+          "trainer_id": "trn_215334",
+          "jockey": "George Downing",
+          "jockey_id": "jky_266355",
+          "draw": 14,
+          "number": 12,
+          "lbs": 121,
+          "ofr": "87",
+          "last_run": 38,
+          "form": "431-61",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newmarket",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 61,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 76,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "May Angel",
+      "horse_id": "hrs_53960214",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Newmarket",
+      "latest_time": "3:00",
+      "latest_race": "Betway Handicap (Heritage Handicap)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "John & Thady Gosden",
+      "latest_jockey": "Oisin Murphy",
+      "latest_draw": 1,
+      "latest_weight_lbs": 129,
+      "official_rating": "95",
+      "recent_form": "56-338",
+      "last_run_days": 20,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newmarket": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "John & Thady Gosden": 1
+      },
+      "jockeys_seen": {
+        "Oisin Murphy": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 71,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +6",
+        "Trainer bonus +1",
+        "Stable flying +4 (3/3 last 14 days)",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978135",
+          "course": "Newmarket",
+          "date": "2026-07-09",
+          "off_time": "3:00",
+          "off_dt": "2026-07-09T15:00:00+01:00",
+          "race_name": "Betway Handicap (Heritage Handicap)",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "May Angel",
+          "horse_id": "hrs_53960214",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "John & Thady Gosden",
+          "trainer_id": "trn_344619",
+          "jockey": "Oisin Murphy",
+          "jockey_id": "jky_278184",
+          "draw": 1,
+          "number": 2,
+          "lbs": 129,
+          "ofr": "95",
+          "last_run": 20,
+          "form": "56-338",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Newmarket",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 59,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 71,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -666,6 +1833,255 @@
       }
     },
     {
+      "horse": "Pilu",
+      "horse_id": "hrs_55392813",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Newmarket",
+      "latest_time": "3:00",
+      "latest_race": "Betway Handicap (Heritage Handicap)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Roger Teal",
+      "latest_jockey": "Marco Ghiani",
+      "latest_draw": 13,
+      "latest_weight_lbs": 122,
+      "official_rating": "88",
+      "recent_form": "114-62",
+      "last_run_days": 45,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newmarket": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Roger Teal": 1
+      },
+      "jockeys_seen": {
+        "Marco Ghiani": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 67,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Race class strength +6",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978135",
+          "course": "Newmarket",
+          "date": "2026-07-09",
+          "off_time": "3:00",
+          "off_dt": "2026-07-09T15:00:00+01:00",
+          "race_name": "Betway Handicap (Heritage Handicap)",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Pilu",
+          "horse_id": "hrs_55392813",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Roger Teal",
+          "trainer_id": "trn_172827",
+          "jockey": "Marco Ghiani",
+          "jockey_id": "jky_294903",
+          "draw": 13,
+          "number": 10,
+          "lbs": 122,
+          "ofr": "88",
+          "last_run": 45,
+          "form": "114-62",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newmarket",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 57,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 67,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Mo Of Cairo",
+      "horse_id": "hrs_53181548",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Newmarket",
+      "latest_time": "3:00",
+      "latest_race": "Betway Handicap (Heritage Handicap)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Kevin Ryan",
+      "latest_jockey": "Alex Jary(3)",
+      "latest_draw": 6,
+      "latest_weight_lbs": 115,
+      "official_rating": "81",
+      "recent_form": "12-664",
+      "last_run_days": 38,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newmarket": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 2": 1
+      },
+      "trainers_seen": {
+        "Kevin Ryan": 1
+      },
+      "jockeys_seen": {
+        "Alex Jary(3)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 55,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +6"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978135",
+          "course": "Newmarket",
+          "date": "2026-07-09",
+          "off_time": "3:00",
+          "off_dt": "2026-07-09T15:00:00+01:00",
+          "race_name": "Betway Handicap (Heritage Handicap)",
+          "distance_f": 6.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Mo Of Cairo",
+          "horse_id": "hrs_53181548",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Kevin Ryan",
+          "trainer_id": "trn_202725",
+          "jockey": "Alex Jary(3)",
+          "jockey_id": "jky_299634",
+          "draw": 6,
+          "number": 14,
+          "lbs": 115,
+          "ofr": "81",
+          "last_run": 38,
+          "form": "12-664",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newmarket",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newmarket",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 55,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
       "horse": "Advertised",
       "horse_id": "hrs_53116378",
       "age": 3,
@@ -793,954 +2209,11 @@
         "profile_runs": 1,
         "runs_count": 1
       }
-    },
-    {
-      "horse": "Jazl",
-      "horse_id": "hrs_55851439",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Newmarket",
-      "latest_time": "3:00",
-      "latest_race": "Betway Handicap (Heritage Handicap)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Simon & Ed Crisford",
-      "latest_jockey": "Jack Mitchell",
-      "latest_draw": 2,
-      "latest_weight_lbs": 129,
-      "official_rating": "95",
-      "recent_form": "23-110",
-      "last_run_days": 20,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newmarket": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Simon & Ed Crisford": 1
-      },
-      "jockeys_seen": {
-        "Jack Mitchell": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 87,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +6",
-        "Stable flying +4 (3/3 last 14 days)",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978135",
-          "course": "Newmarket",
-          "date": "2026-07-09",
-          "off_time": "3:00",
-          "off_dt": "2026-07-09T15:00:00+01:00",
-          "race_name": "Betway Handicap (Heritage Handicap)",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Jazl",
-          "horse_id": "hrs_55851439",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Simon & Ed Crisford",
-          "trainer_id": "trn_337302",
-          "jockey": "Jack Mitchell",
-          "jockey_id": "jky_253248",
-          "draw": 2,
-          "number": 3,
-          "lbs": 129,
-          "ofr": "95",
-          "last_run": 20,
-          "form": "23-110",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score",
-        "Low draw today"
-      ]
-    },
-    {
-      "horse": "Man Of Vision",
-      "horse_id": "hrs_52862782",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Newmarket",
-      "latest_time": "3:00",
-      "latest_race": "Betway Handicap (Heritage Handicap)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Charlie Appleby",
-      "latest_jockey": "William Buick",
-      "latest_draw": 4,
-      "latest_weight_lbs": 124,
-      "official_rating": "90",
-      "recent_form": "251-29",
-      "last_run_days": 26,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newmarket": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Charlie Appleby": 1
-      },
-      "jockeys_seen": {
-        "William Buick": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 81,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +6",
-        "Stable flying +4 (3/6 last 14 days)",
-        "Jockey bonus +3"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978135",
-          "course": "Newmarket",
-          "date": "2026-07-09",
-          "off_time": "3:00",
-          "off_dt": "2026-07-09T15:00:00+01:00",
-          "race_name": "Betway Handicap (Heritage Handicap)",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Man Of Vision",
-          "horse_id": "hrs_52862782",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Charlie Appleby",
-          "trainer_id": "trn_255042",
-          "jockey": "William Buick",
-          "jockey_id": "jky_257379",
-          "draw": 4,
-          "number": 9,
-          "lbs": 124,
-          "ofr": "90",
-          "last_run": 26,
-          "form": "251-29",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ]
-    },
-    {
-      "horse": "May Angel",
-      "horse_id": "hrs_53960214",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Newmarket",
-      "latest_time": "3:00",
-      "latest_race": "Betway Handicap (Heritage Handicap)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "John & Thady Gosden",
-      "latest_jockey": "Oisin Murphy",
-      "latest_draw": 1,
-      "latest_weight_lbs": 129,
-      "official_rating": "95",
-      "recent_form": "56-338",
-      "last_run_days": 20,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newmarket": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "John & Thady Gosden": 1
-      },
-      "jockeys_seen": {
-        "Oisin Murphy": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 71,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +6",
-        "Trainer bonus +1",
-        "Stable flying +4 (3/3 last 14 days)",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978135",
-          "course": "Newmarket",
-          "date": "2026-07-09",
-          "off_time": "3:00",
-          "off_dt": "2026-07-09T15:00:00+01:00",
-          "race_name": "Betway Handicap (Heritage Handicap)",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "May Angel",
-          "horse_id": "hrs_53960214",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "John & Thady Gosden",
-          "trainer_id": "trn_344619",
-          "jockey": "Oisin Murphy",
-          "jockey_id": "jky_278184",
-          "draw": 1,
-          "number": 2,
-          "lbs": 129,
-          "ofr": "95",
-          "last_run": 20,
-          "form": "56-338",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ]
-    },
-    {
-      "horse": "Mo Of Cairo",
-      "horse_id": "hrs_53181548",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Newmarket",
-      "latest_time": "3:00",
-      "latest_race": "Betway Handicap (Heritage Handicap)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Kevin Ryan",
-      "latest_jockey": "Alex Jary(3)",
-      "latest_draw": 6,
-      "latest_weight_lbs": 115,
-      "official_rating": "81",
-      "recent_form": "12-664",
-      "last_run_days": 38,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newmarket": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Kevin Ryan": 1
-      },
-      "jockeys_seen": {
-        "Alex Jary(3)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +6"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978135",
-          "course": "Newmarket",
-          "date": "2026-07-09",
-          "off_time": "3:00",
-          "off_dt": "2026-07-09T15:00:00+01:00",
-          "race_name": "Betway Handicap (Heritage Handicap)",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Mo Of Cairo",
-          "horse_id": "hrs_53181548",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Kevin Ryan",
-          "trainer_id": "trn_202725",
-          "jockey": "Alex Jary(3)",
-          "jockey_id": "jky_299634",
-          "draw": 6,
-          "number": 14,
-          "lbs": 115,
-          "ofr": "81",
-          "last_run": 38,
-          "form": "12-664",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Pilu",
-      "horse_id": "hrs_55392813",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Newmarket",
-      "latest_time": "3:00",
-      "latest_race": "Betway Handicap (Heritage Handicap)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Roger Teal",
-      "latest_jockey": "Marco Ghiani",
-      "latest_draw": 13,
-      "latest_weight_lbs": 122,
-      "official_rating": "88",
-      "recent_form": "114-62",
-      "last_run_days": 45,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newmarket": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Roger Teal": 1
-      },
-      "jockeys_seen": {
-        "Marco Ghiani": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 67,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Race class strength +6",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978135",
-          "course": "Newmarket",
-          "date": "2026-07-09",
-          "off_time": "3:00",
-          "off_dt": "2026-07-09T15:00:00+01:00",
-          "race_name": "Betway Handicap (Heritage Handicap)",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Pilu",
-          "horse_id": "hrs_55392813",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Roger Teal",
-          "trainer_id": "trn_172827",
-          "jockey": "Marco Ghiani",
-          "jockey_id": "jky_294903",
-          "draw": 13,
-          "number": 10,
-          "lbs": 122,
-          "ofr": "88",
-          "last_run": 45,
-          "form": "114-62",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Red Spells Danger",
-      "horse_id": "hrs_52054562",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Newmarket",
-      "latest_time": "3:00",
-      "latest_race": "Betway Handicap (Heritage Handicap)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Tim Easterby",
-      "latest_jockey": "David Allan",
-      "latest_draw": 11,
-      "latest_weight_lbs": 127,
-      "official_rating": "93",
-      "recent_form": "-22112",
-      "last_run_days": 26,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newmarket": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Tim Easterby": 1
-      },
-      "jockeys_seen": {
-        "David Allan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 98,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +6",
-        "Trainer bonus +2",
-        "Stable in form +2 (9/37 last 14 days)",
-        "Jockey bonus +2",
-        "Jockey in form +2 (6/27 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978135",
-          "course": "Newmarket",
-          "date": "2026-07-09",
-          "off_time": "3:00",
-          "off_dt": "2026-07-09T15:00:00+01:00",
-          "race_name": "Betway Handicap (Heritage Handicap)",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Red Spells Danger",
-          "horse_id": "hrs_52054562",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Tim Easterby",
-          "trainer_id": "trn_91368",
-          "jockey": "David Allan",
-          "jockey_id": "jky_234669",
-          "draw": 11,
-          "number": 6,
-          "lbs": 127,
-          "ofr": "93",
-          "last_run": 26,
-          "form": "-22112",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ]
-    },
-    {
-      "horse": "River Spey",
-      "horse_id": "hrs_53390309",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Newmarket",
-      "latest_time": "3:00",
-      "latest_race": "Betway Handicap (Heritage Handicap)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ed Walker",
-      "latest_jockey": "George Downing",
-      "latest_draw": 14,
-      "latest_weight_lbs": 121,
-      "official_rating": "87",
-      "recent_form": "431-61",
-      "last_run_days": 38,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newmarket": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Ed Walker": 1
-      },
-      "jockeys_seen": {
-        "George Downing": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 76,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Race class strength +6",
-        "Stable flying +4 (3/6 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978135",
-          "course": "Newmarket",
-          "date": "2026-07-09",
-          "off_time": "3:00",
-          "off_dt": "2026-07-09T15:00:00+01:00",
-          "race_name": "Betway Handicap (Heritage Handicap)",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "River Spey",
-          "horse_id": "hrs_53390309",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Ed Walker",
-          "trainer_id": "trn_215334",
-          "jockey": "George Downing",
-          "jockey_id": "jky_266355",
-          "draw": 14,
-          "number": 12,
-          "lbs": 121,
-          "ofr": "87",
-          "last_run": 38,
-          "form": "431-61",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Sea Cookie",
-      "horse_id": "hrs_54337437",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Newmarket",
-      "latest_time": "3:00",
-      "latest_race": "Betway Handicap (Heritage Handicap)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Tom Clover",
-      "latest_jockey": "Jack Callan(3)",
-      "latest_draw": 10,
-      "latest_weight_lbs": 118,
-      "official_rating": "84",
-      "recent_form": "22-11",
-      "last_run_days": 19,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newmarket": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Tom Clover": 1
-      },
-      "jockeys_seen": {
-        "Jack Callan(3)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 90,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +6"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978135",
-          "course": "Newmarket",
-          "date": "2026-07-09",
-          "off_time": "3:00",
-          "off_dt": "2026-07-09T15:00:00+01:00",
-          "race_name": "Betway Handicap (Heritage Handicap)",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Sea Cookie",
-          "horse_id": "hrs_54337437",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Tom Clover",
-          "trainer_id": "trn_294885",
-          "jockey": "Jack Callan(3)",
-          "jockey_id": "jky_307578",
-          "draw": 10,
-          "number": 13,
-          "lbs": 118,
-          "ofr": "84",
-          "last_run": 19,
-          "form": "22-11",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ]
-    },
-    {
-      "horse": "Starmade",
-      "horse_id": "hrs_56494697",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Newmarket",
-      "latest_time": "3:00",
-      "latest_race": "Betway Handicap (Heritage Handicap)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ed Dunlop",
-      "latest_jockey": "Jamie Spencer",
-      "latest_draw": 3,
-      "latest_weight_lbs": 122,
-      "official_rating": "88",
-      "recent_form": "21-315",
-      "last_run_days": 20,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newmarket": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Ed Dunlop": 1
-      },
-      "jockeys_seen": {
-        "Jamie Spencer": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 92,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +6",
-        "Trainer bonus +1",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978135",
-          "course": "Newmarket",
-          "date": "2026-07-09",
-          "off_time": "3:00",
-          "off_dt": "2026-07-09T15:00:00+01:00",
-          "race_name": "Betway Handicap (Heritage Handicap)",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Starmade",
-          "horse_id": "hrs_56494697",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Ed Dunlop",
-          "trainer_id": "trn_81324",
-          "jockey": "Jamie Spencer",
-          "jockey_id": "jky_41067",
-          "draw": 3,
-          "number": 11,
-          "lbs": 122,
-          "ofr": "88",
-          "last_run": 20,
-          "form": "21-315",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score",
-        "Low draw today"
-      ]
-    },
-    {
-      "horse": "Ten Carat Harry",
-      "horse_id": "hrs_56406707",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Newmarket",
-      "latest_time": "3:00",
-      "latest_race": "Betway Handicap (Heritage Handicap)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Jamie Osborne",
-      "latest_jockey": "Saffie Osborne",
-      "latest_draw": 8,
-      "latest_weight_lbs": 135,
-      "official_rating": "101",
-      "recent_form": "334143",
-      "last_run_days": 20,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newmarket": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "Jamie Osborne": 1
-      },
-      "jockeys_seen": {
-        "Saffie Osborne": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 79,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +6",
-        "Stable in form +2 (1/5 last 14 days)",
-        "Jockey in form +2 (2/13 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978135",
-          "course": "Newmarket",
-          "date": "2026-07-09",
-          "off_time": "3:00",
-          "off_dt": "2026-07-09T15:00:00+01:00",
-          "race_name": "Betway Handicap (Heritage Handicap)",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Ten Carat Harry",
-          "horse_id": "hrs_56406707",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Jamie Osborne",
-          "trainer_id": "trn_125595",
-          "jockey": "Saffie Osborne",
-          "jockey_id": "jky_301050",
-          "draw": 8,
-          "number": 1,
-          "lbs": 135,
-          "ofr": "101",
-          "last_run": 20,
-          "form": "334143",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Thunder Call",
-      "horse_id": "hrs_57406937",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Newmarket",
-      "latest_time": "3:00",
-      "latest_race": "Betway Handicap (Heritage Handicap)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 2",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "William Haggas",
-      "latest_jockey": "Tom Marquand",
-      "latest_draw": 7,
-      "latest_weight_lbs": 125,
-      "official_rating": "91",
-      "recent_form": "02-11",
-      "last_run_days": 26,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newmarket": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 2": 1
-      },
-      "trainers_seen": {
-        "William Haggas": 1
-      },
-      "jockeys_seen": {
-        "Tom Marquand": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 90,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +6",
-        "Trainer bonus +1",
-        "Stable flying +4 (6/12 last 14 days)",
-        "Jockey bonus +1",
-        "Jockey flying +4 (3/9 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978135",
-          "course": "Newmarket",
-          "date": "2026-07-09",
-          "off_time": "3:00",
-          "off_dt": "2026-07-09T15:00:00+01:00",
-          "race_name": "Betway Handicap (Heritage Handicap)",
-          "distance_f": 6.0,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Thunder Call",
-          "horse_id": "hrs_57406937",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "William Haggas",
-          "trainer_id": "trn_30735",
-          "jockey": "Tom Marquand",
-          "jockey_id": "jky_281841",
-          "draw": 7,
-          "number": 8,
-          "lbs": 125,
-          "ofr": "91",
-          "last_run": 26,
-          "form": "02-11",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ]
     }
   ],
   "notes": [
-    "Calico Blue is the top-rated Pulse IQ runner.",
-    "The top runner has a clear intelligence gap over the field.",
-    "This race has a generally weak profile strength.",
-    "Ghost Mode is flagged as a possible dark horse."
+    "Red Spells Danger is the top-rated Pulse IQ runner.",
+    "The race looks competitive with no clear standout.",
+    "Calico Blue is flagged as a possible dark horse."
   ]
 }

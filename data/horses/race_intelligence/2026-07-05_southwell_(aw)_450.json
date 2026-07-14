@@ -4,15 +4,145 @@
   "course": "Southwell (AW)",
   "time": "4:50",
   "race_name": "Free Race Replays On attheraces.com Handicap",
-  "field_size": 7,
-  "average_intelligence": 14.71,
-  "top_score": 58,
-  "second_score": 45,
-  "gap": 13,
-  "confidence_score": 57,
+  "field_size": 6,
+  "average_intelligence": 53.67,
+  "top_score": 64,
+  "second_score": 58,
+  "gap": 6,
+  "confidence_score": 58,
   "confidence": "MEDIUM",
-  "race_shape": "PULSE EDGE",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
+    "horse": "John Galt",
+    "horse_id": "hrs_59645509",
+    "age": 4,
+    "sex": "gelding",
+    "latest_course": "Southwell (AW)",
+    "latest_time": "4:50",
+    "latest_race": "Free Race Replays On attheraces.com Handicap",
+    "latest_date": "2026-07-05",
+    "latest_distance_f": 14.0,
+    "latest_class": "Class 5",
+    "latest_going": "Standard",
+    "latest_surface": "AW",
+    "latest_trainer": "Jamie Osborne",
+    "latest_jockey": "Saffie Osborne",
+    "latest_draw": 6,
+    "latest_weight_lbs": 142,
+    "official_rating": "73",
+    "recent_form": "453215",
+    "last_run_days": 34,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Southwell (AW)": 1
+    },
+    "distances_seen": {
+      "14.0": 1
+    },
+    "goings_seen": {
+      "Standard": 1
+    },
+    "classes_seen": {
+      "Class 5": 1
+    },
+    "trainers_seen": {
+      "Jamie Osborne": 1
+    },
+    "jockeys_seen": {
+      "Saffie Osborne": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 82,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Trainer bonus +2",
+      "Stable in form +2 (1/2 last 14 days)",
+      "Jockey bonus +2",
+      "Jockey in form +2 (2/10 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11984908",
+        "course": "Southwell (AW)",
+        "date": "2026-07-05",
+        "off_time": "4:50",
+        "off_dt": "2026-07-05T16:50:00+01:00",
+        "race_name": "Free Race Replays On attheraces.com Handicap",
+        "distance_f": 14.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Standard",
+        "surface": "AW",
+        "field_size": 7,
+        "horse": "John Galt",
+        "horse_id": "hrs_59645509",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Jamie Osborne",
+        "trainer_id": "trn_125595",
+        "jockey": "Saffie Osborne",
+        "jockey_id": "jky_301050",
+        "draw": 6,
+        "number": 3,
+        "lbs": 142,
+        "ofr": "73",
+        "last_run": 34,
+        "form": "453215",
+        "headgear": "tp"
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
+    "favourite_course": {
+      "value": "Southwell (AW)",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 14.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Standard",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 64,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Southwell (AW)",
+      "latest_distance_f": 14.0,
+      "latest_going": "Standard",
+      "latest_class": "Class 5",
+      "latest_pulse_score": 82,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Dino Bellagio",
     "horse_id": "hrs_33036024",
     "age": 7,
@@ -139,10 +269,10 @@
       "runs_count": 1
     }
   },
-  "main_threat": {
-    "horse": "Baltic",
-    "horse_id": "hrs_35335685",
-    "age": 6,
+  "dark_horse": {
+    "horse": "Dino Bellagio",
+    "horse_id": "hrs_33036024",
+    "age": 7,
     "sex": "gelding",
     "latest_course": "Southwell (AW)",
     "latest_time": "4:50",
@@ -152,13 +282,13 @@
     "latest_class": "Class 5",
     "latest_going": "Standard",
     "latest_surface": "AW",
-    "latest_trainer": "Lucy Wadham",
-    "latest_jockey": "Jamie Spencer",
-    "latest_draw": 5,
+    "latest_trainer": "Donald McCain",
+    "latest_jockey": "David Nolan",
+    "latest_draw": 8,
     "latest_weight_lbs": 142,
     "official_rating": "73",
-    "recent_form": "760-06",
-    "last_run_days": 24,
+    "recent_form": "318-35",
+    "last_run_days": 22,
     "profile_runs": 1,
     "courses_seen": {
       "Southwell (AW)": 1
@@ -173,19 +303,21 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Lucy Wadham": 1
+      "Donald McCain": 1
     },
     "jockeys_seen": {
-      "Jamie Spencer": 1
+      "David Nolan": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 39,
+    "latest_pulse_score": 68,
     "latest_notes": [
-      "Weak recent form",
+      "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Jockey bonus +1"
+      "Trainer bonus +1",
+      "Jockey bonus +1",
+      "Jockey in form +2 (1/4 last 14 days)"
     ],
     "runs": [
       {
@@ -202,21 +334,21 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 7,
-        "horse": "Baltic",
-        "horse_id": "hrs_35335685",
-        "age": 6,
+        "horse": "Dino Bellagio",
+        "horse_id": "hrs_33036024",
+        "age": 7,
         "sex": "gelding",
-        "trainer": "Lucy Wadham",
-        "trainer_id": "trn_88209",
-        "jockey": "Jamie Spencer",
-        "jockey_id": "jky_41067",
-        "draw": 5,
-        "number": 4,
+        "trainer": "Donald McCain",
+        "trainer_id": "trn_141066",
+        "jockey": "David Nolan",
+        "jockey_id": "jky_42996",
+        "draw": 8,
+        "number": 2,
         "lbs": 142,
         "ofr": "73",
-        "last_run": 24,
-        "form": "760-06",
-        "headgear": "p"
+        "last_run": 22,
+        "form": "318-35",
+        "headgear": ""
       }
     ],
     "profile_notes": [],
@@ -241,15 +373,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 45,
+    "horse_intelligence_score": 58,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -258,100 +390,143 @@
       "latest_distance_f": 14.0,
       "latest_going": "Standard",
       "latest_class": "Class 5",
-      "latest_pulse_score": 39,
+      "latest_pulse_score": 68,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
-    "horse": "John Galt",
-    "horse_id": "hrs_59645509",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Southwell (AW)",
-    "latest_time": "4:50",
-    "latest_race": "Free Race Replays On attheraces.com Handicap",
-    "latest_date": "2026-07-05",
-    "latest_distance_f": 14.0,
-    "latest_class": "Class 5",
-    "latest_going": "Standard",
-    "latest_surface": "AW",
-    "latest_trainer": "Jamie Osborne",
-    "latest_jockey": "Saffie Osborne",
-    "latest_draw": 6,
-    "latest_weight_lbs": 142,
-    "official_rating": "73",
-    "recent_form": "453215",
-    "last_run_days": 34,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Southwell (AW)": 1
-    },
-    "distances_seen": {
-      "14.0": 1
-    },
-    "goings_seen": {
-      "Standard": 1
-    },
-    "classes_seen": {
-      "Class 5": 1
-    },
-    "trainers_seen": {
-      "Jamie Osborne": 1
-    },
-    "jockeys_seen": {
-      "Saffie Osborne": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 82,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Trainer bonus +2",
-      "Stable in form +2 (1/2 last 14 days)",
-      "Jockey bonus +2",
-      "Jockey in form +2 (2/10 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11984908",
-        "course": "Southwell (AW)",
-        "date": "2026-07-05",
-        "off_time": "4:50",
-        "off_dt": "2026-07-05T16:50:00+01:00",
-        "race_name": "Free Race Replays On attheraces.com Handicap",
-        "distance_f": 14.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Standard",
-        "surface": "AW",
-        "field_size": 7,
-        "horse": "John Galt",
-        "horse_id": "hrs_59645509",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Jamie Osborne",
-        "trainer_id": "trn_125595",
-        "jockey": "Saffie Osborne",
-        "jockey_id": "jky_301050",
-        "draw": 6,
-        "number": 3,
-        "lbs": 142,
-        "ofr": "73",
-        "last_run": 34,
-        "form": "453215",
-        "headgear": "tp"
-      }
-    ],
-    "profile_notes": [
-      "Elite latest Pulse Score"
-    ]
-  },
   "runners": [
+    {
+      "horse": "John Galt",
+      "horse_id": "hrs_59645509",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Southwell (AW)",
+      "latest_time": "4:50",
+      "latest_race": "Free Race Replays On attheraces.com Handicap",
+      "latest_date": "2026-07-05",
+      "latest_distance_f": 14.0,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Jamie Osborne",
+      "latest_jockey": "Saffie Osborne",
+      "latest_draw": 6,
+      "latest_weight_lbs": 142,
+      "official_rating": "73",
+      "recent_form": "453215",
+      "last_run_days": 34,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Southwell (AW)": 1
+      },
+      "distances_seen": {
+        "14.0": 1
+      },
+      "goings_seen": {
+        "Standard": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Jamie Osborne": 1
+      },
+      "jockeys_seen": {
+        "Saffie Osborne": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 82,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Trainer bonus +2",
+        "Stable in form +2 (1/2 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey in form +2 (2/10 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11984908",
+          "course": "Southwell (AW)",
+          "date": "2026-07-05",
+          "off_time": "4:50",
+          "off_dt": "2026-07-05T16:50:00+01:00",
+          "race_name": "Free Race Replays On attheraces.com Handicap",
+          "distance_f": 14.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 7,
+          "horse": "John Galt",
+          "horse_id": "hrs_59645509",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Jamie Osborne",
+          "trainer_id": "trn_125595",
+          "jockey": "Saffie Osborne",
+          "jockey_id": "jky_301050",
+          "draw": 6,
+          "number": 3,
+          "lbs": 142,
+          "ofr": "73",
+          "last_run": 34,
+          "form": "453215",
+          "headgear": "tp"
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
+      "favourite_course": {
+        "value": "Southwell (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 14.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 64,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Southwell (AW)",
+        "latest_distance_f": 14.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 82,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Dino Bellagio",
       "horse_id": "hrs_33036024",
@@ -474,6 +649,290 @@
         "latest_going": "Standard",
         "latest_class": "Class 5",
         "latest_pulse_score": 68,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Shushi",
+      "horse_id": "hrs_55634229",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Southwell (AW)",
+      "latest_time": "4:50",
+      "latest_race": "Free Race Replays On attheraces.com Handicap",
+      "latest_date": "2026-07-05",
+      "latest_distance_f": 14.0,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Andrew Balding",
+      "latest_jockey": "P J McDonald",
+      "latest_draw": 3,
+      "latest_weight_lbs": 125,
+      "official_rating": "69",
+      "recent_form": "44-346",
+      "last_run_days": 25,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Southwell (AW)": 1
+      },
+      "distances_seen": {
+        "14.0": 1
+      },
+      "goings_seen": {
+        "Standard": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Andrew Balding": 1
+      },
+      "jockeys_seen": {
+        "P J McDonald": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 68,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable flying +4 (3/3 last 14 days)",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11984908",
+          "course": "Southwell (AW)",
+          "date": "2026-07-05",
+          "off_time": "4:50",
+          "off_dt": "2026-07-05T16:50:00+01:00",
+          "race_name": "Free Race Replays On attheraces.com Handicap",
+          "distance_f": 14.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 7,
+          "horse": "Shushi",
+          "horse_id": "hrs_55634229",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Andrew Balding",
+          "trainer_id": "trn_140445",
+          "jockey": "P J McDonald",
+          "jockey_id": "jky_230616",
+          "draw": 3,
+          "number": 8,
+          "lbs": 125,
+          "ofr": "69",
+          "last_run": 25,
+          "form": "44-346",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "latest_result": {
+        "source": "sporting_life_enriched",
+        "result_date": "2026-07-05",
+        "course": "Southwell",
+        "race_time": "15:50",
+        "race_name": "Free Race Replays On attheraces.com Handicap",
+        "race_id": null,
+        "status": null,
+        "finish_position": 2,
+        "sp": "17/2",
+        "favourite_position": null,
+        "going": "Standard",
+        "distance": "1m 6f 21y",
+        "field_size": null,
+        "trainer": null,
+        "jockey": null,
+        "distance_beaten": null,
+        "won": false,
+        "placed": true,
+        "attached_at": "2026-07-13T21:08:00"
+      },
+      "latest_result_position": 2,
+      "latest_result_sp": "17/2",
+      "latest_result_won": false,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-05",
+      "favourite_course": {
+        "value": "Southwell (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 14.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Southwell (AW)",
+        "latest_distance_f": 14.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 68,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Premier",
+      "horse_id": "hrs_44873752",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Southwell (AW)",
+      "latest_time": "4:50",
+      "latest_race": "Free Race Replays On attheraces.com Handicap",
+      "latest_date": "2026-07-05",
+      "latest_distance_f": 14.0,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Warren Greatrex",
+      "latest_jockey": "Edward Greatrex",
+      "latest_draw": 1,
+      "latest_weight_lbs": 139,
+      "official_rating": "70",
+      "recent_form": "348-72",
+      "last_run_days": 31,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Southwell (AW)": 1
+      },
+      "distances_seen": {
+        "14.0": 1
+      },
+      "goings_seen": {
+        "Standard": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Warren Greatrex": 1
+      },
+      "jockeys_seen": {
+        "Edward Greatrex": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 64,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey bonus +3",
+        "Jockey flying +4 (3/6 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11984908",
+          "course": "Southwell (AW)",
+          "date": "2026-07-05",
+          "off_time": "4:50",
+          "off_dt": "2026-07-05T16:50:00+01:00",
+          "race_name": "Free Race Replays On attheraces.com Handicap",
+          "distance_f": 14.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 7,
+          "horse": "Premier",
+          "horse_id": "hrs_44873752",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Warren Greatrex",
+          "trainer_id": "trn_198099",
+          "jockey": "Edward Greatrex",
+          "jockey_id": "jky_282474",
+          "draw": 1,
+          "number": 6,
+          "lbs": 139,
+          "ofr": "70",
+          "last_run": 31,
+          "form": "348-72",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Southwell (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 14.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 56,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Southwell (AW)",
+        "latest_distance_f": 14.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 64,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -605,266 +1064,6 @@
       }
     },
     {
-      "horse": "John Galt",
-      "horse_id": "hrs_59645509",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Southwell (AW)",
-      "latest_time": "4:50",
-      "latest_race": "Free Race Replays On attheraces.com Handicap",
-      "latest_date": "2026-07-05",
-      "latest_distance_f": 14.0,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Jamie Osborne",
-      "latest_jockey": "Saffie Osborne",
-      "latest_draw": 6,
-      "latest_weight_lbs": 142,
-      "official_rating": "73",
-      "recent_form": "453215",
-      "last_run_days": 34,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Southwell (AW)": 1
-      },
-      "distances_seen": {
-        "14.0": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Jamie Osborne": 1
-      },
-      "jockeys_seen": {
-        "Saffie Osborne": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 82,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Trainer bonus +2",
-        "Stable in form +2 (1/2 last 14 days)",
-        "Jockey bonus +2",
-        "Jockey in form +2 (2/10 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11984908",
-          "course": "Southwell (AW)",
-          "date": "2026-07-05",
-          "off_time": "4:50",
-          "off_dt": "2026-07-05T16:50:00+01:00",
-          "race_name": "Free Race Replays On attheraces.com Handicap",
-          "distance_f": 14.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 7,
-          "horse": "John Galt",
-          "horse_id": "hrs_59645509",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Jamie Osborne",
-          "trainer_id": "trn_125595",
-          "jockey": "Saffie Osborne",
-          "jockey_id": "jky_301050",
-          "draw": 6,
-          "number": 3,
-          "lbs": 142,
-          "ofr": "73",
-          "last_run": 34,
-          "form": "453215",
-          "headgear": "tp"
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ]
-    },
-    {
-      "horse": "Premier",
-      "horse_id": "hrs_44873752",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Southwell (AW)",
-      "latest_time": "4:50",
-      "latest_race": "Free Race Replays On attheraces.com Handicap",
-      "latest_date": "2026-07-05",
-      "latest_distance_f": 14.0,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Warren Greatrex",
-      "latest_jockey": "Edward Greatrex",
-      "latest_draw": 1,
-      "latest_weight_lbs": 139,
-      "official_rating": "70",
-      "recent_form": "348-72",
-      "last_run_days": 31,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Southwell (AW)": 1
-      },
-      "distances_seen": {
-        "14.0": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Warren Greatrex": 1
-      },
-      "jockeys_seen": {
-        "Edward Greatrex": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 64,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey bonus +3",
-        "Jockey flying +4 (3/6 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11984908",
-          "course": "Southwell (AW)",
-          "date": "2026-07-05",
-          "off_time": "4:50",
-          "off_dt": "2026-07-05T16:50:00+01:00",
-          "race_name": "Free Race Replays On attheraces.com Handicap",
-          "distance_f": 14.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 7,
-          "horse": "Premier",
-          "horse_id": "hrs_44873752",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Warren Greatrex",
-          "trainer_id": "trn_198099",
-          "jockey": "Edward Greatrex",
-          "jockey_id": "jky_282474",
-          "draw": 1,
-          "number": 6,
-          "lbs": 139,
-          "ofr": "70",
-          "last_run": 31,
-          "form": "348-72",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ]
-    },
-    {
-      "horse": "Shushi",
-      "horse_id": "hrs_55634229",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Southwell (AW)",
-      "latest_time": "4:50",
-      "latest_race": "Free Race Replays On attheraces.com Handicap",
-      "latest_date": "2026-07-05",
-      "latest_distance_f": 14.0,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Andrew Balding",
-      "latest_jockey": "P J McDonald",
-      "latest_draw": 3,
-      "latest_weight_lbs": 125,
-      "official_rating": "69",
-      "recent_form": "44-346",
-      "last_run_days": 25,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Southwell (AW)": 1
-      },
-      "distances_seen": {
-        "14.0": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Andrew Balding": 1
-      },
-      "jockeys_seen": {
-        "P J McDonald": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 68,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable flying +4 (3/3 last 14 days)",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11984908",
-          "course": "Southwell (AW)",
-          "date": "2026-07-05",
-          "off_time": "4:50",
-          "off_dt": "2026-07-05T16:50:00+01:00",
-          "race_name": "Free Race Replays On attheraces.com Handicap",
-          "distance_f": 14.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 7,
-          "horse": "Shushi",
-          "horse_id": "hrs_55634229",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Andrew Balding",
-          "trainer_id": "trn_140445",
-          "jockey": "P J McDonald",
-          "jockey_id": "jky_230616",
-          "draw": 3,
-          "number": 8,
-          "lbs": 125,
-          "ofr": "69",
-          "last_run": 25,
-          "form": "44-346",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ]
-    },
-    {
       "horse": "Spooky Wooky",
       "horse_id": "hrs_53960179",
       "age": 4,
@@ -945,136 +1144,54 @@
       ],
       "profile_notes": [
         "Returning from a break"
-      ]
-    },
-    {
-      "horse": "Tripoli Flyer",
-      "horse_id": "hrs_35107450",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Southwell (AW)",
-      "latest_time": "4:50",
-      "latest_race": "Free Race Replays On attheraces.com Handicap",
-      "latest_date": "2026-07-05",
-      "latest_distance_f": 14.0,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Fergal O'Brien",
-      "latest_jockey": "NON-RUNNER",
-      "latest_draw": 2,
-      "latest_weight_lbs": 145,
-      "official_rating": "76",
-      "recent_form": "7431",
-      "last_run_days": 3,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Kempton (AW)": 1,
-        "Southwell (AW)": 1
-      },
-      "distances_seen": {
-        "12.0": 1,
-        "14.0": 1
-      },
-      "goings_seen": {
-        "Standard To Slow": 1,
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 3": 1,
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Fergal O'Brien": 2
-      },
-      "jockeys_seen": {
-        "Gina Mangan": 1,
-        "NON-RUNNER": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 61,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +1",
-        "Jockey flying +4 (3/4 last 14 days)"
       ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991759",
-          "course": "Kempton (AW)",
-          "date": "2026-07-02",
-          "off_time": "7:43",
-          "off_dt": "2026-07-02T19:43:00+01:00",
-          "race_name": "Unibet 40,000+ Live Streamed Events Handicap (GBBPlus Race)",
-          "distance_f": 12.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 7,
-          "horse": "Tripoli Flyer",
-          "horse_id": "hrs_35107450",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Fergal O'Brien",
-          "trainer_id": "trn_125874",
-          "jockey": "Gina Mangan",
-          "jockey_id": "jky_262767",
-          "draw": 3,
-          "number": 7,
-          "lbs": 117,
-          "ofr": "72",
-          "last_run": 36,
-          "form": "743",
-          "headgear": "",
-          "_stored_at": "2026-07-02T04:58:36.095671+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11984908",
-          "course": "Southwell (AW)",
-          "date": "2026-07-05",
-          "off_time": "4:50",
-          "off_dt": "2026-07-05T16:50:00+01:00",
-          "race_name": "Free Race Replays On attheraces.com Handicap",
-          "distance_f": 14.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 7,
-          "horse": "Tripoli Flyer",
-          "horse_id": "hrs_35107450",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Fergal O'Brien",
-          "trainer_id": "trn_125874",
-          "jockey": "NON-RUNNER",
-          "jockey_id": "jky_224913",
-          "draw": 2,
-          "number": null,
-          "lbs": 145,
-          "ofr": "76",
-          "last_run": 3,
-          "form": "7431",
-          "headgear": ""
-        }
+      "favourite_course": {
+        "value": "Southwell (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 14.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 41,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
       ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ]
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Southwell (AW)",
+        "latest_distance_f": 14.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 31,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     }
   ],
   "notes": [
-    "Dino Bellagio is the top-rated Pulse IQ runner.",
-    "The top runner has a clear intelligence gap over the field.",
-    "This race has a generally weak profile strength.",
-    "John Galt is flagged as a possible dark horse."
+    "John Galt is the top-rated Pulse IQ runner.",
+    "Dino Bellagio is flagged as a possible dark horse."
   ]
 }

@@ -1,3 +1,4 @@
+import re
 import json
 import time
 from datetime import datetime, timezone
@@ -251,15 +252,31 @@ def parse_visible_market_text(text, url):
         "runners": structured_runners,
     }
 
-def discover_race_urls(headless=False, limit=20):
+def discover_race_urls(headless=True, limit=20):
     urls = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=headless)
-
-        page = browser.new_page(
-            viewport={"width": 1440, "height": 1000},
+        browser = p.chromium.launch(
+            headless=headless,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--disable-dev-shm-usage",
+                "--no-sandbox",
+            ],
         )
+
+        context = browser.new_context(
+            viewport={"width": 1440, "height": 1000},
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/142.0.0.0 Safari/537.36"
+            ),
+            locale="en-GB",
+            timezone_id="Europe/London",
+        )
+
+        page = context.new_page()
 
         page.goto(
             HOME_URL,
@@ -267,32 +284,66 @@ def discover_race_urls(headless=False, limit=20):
             timeout=60000,
         )
 
+        page.wait_for_timeout(12000)
+
         try:
-            page.get_by_role(
-                "button",
-                name="Accept all",
+            page.get_by_text(
+                "Accept all",
+                exact=True,
             ).click(timeout=8000)
         except Exception:
             pass
 
-        # Give the client-rendered race links time to appear.
         page.wait_for_timeout(10000)
 
-        links = page.locator("a").evaluate_all(
+        body_text = page.locator("body").inner_text(
+            timeout=20000
+        )
+
+        if "you have been blocked" in body_text.lower():
+            print("Oddschecker blocked the discovery browser.")
+            browser.close()
+            return []
+
+        all_links = page.locator("a").evaluate_all(
             """
             links => links
-                .map(a => a.href)
-                .filter(Boolean)
-                .filter(h => h.includes('/horse-racing/'))
-                .filter(h => /\\/\\d{1,2}:\\d{2}(\\/|$)/.test(h))
+                .map(a => ({
+                    text: (a.innerText || "").trim(),
+                    href: a.href || ""
+                }))
+                .filter(item =>
+                    item.href.includes("/horse-racing/")
+                )
             """
         )
 
-        for link in links:
-            clean_link = link.split("?")[0].split("#")[0].rstrip("/")
+        print(
+            f"Horse-racing links found on page: "
+            f"{len(all_links)}"
+        )
 
-            if not clean_link.endswith("/winner"):
-                clean_link += "/winner"
+        for item in all_links:
+            link = item.get("href", "")
+            text = item.get("text", "")
+
+            # Only retain links whose final path contains a race time.
+            if not re.search(
+                r"/\d{1,2}:\d{2}/winner(?:$|\?)",
+                link,
+                flags=re.IGNORECASE,
+            ):
+                continue
+
+            clean_link = (
+                link.split("?")[0]
+                .split("#")[0]
+                .rstrip("/")
+            )
+
+            # Skip tomorrow/future cards for the live monitor.
+            if text.lower().startswith("in "):
+                continue
 
             if clean_link not in urls:
                 urls.append(clean_link)
@@ -300,7 +351,7 @@ def discover_race_urls(headless=False, limit=20):
             if len(urls) >= limit:
                 break
 
-        print(f"Race links found on page: {len(links)}")
+        print(f"Usable live race links: {len(urls)}")
 
         browser.close()
 
@@ -385,6 +436,6 @@ def monitor_oddschecker_race(
 
 if __name__ == "__main__":
     collect_all_discovered_races(
-        headless=True,
+        headless=False,
         limit=10,
     )

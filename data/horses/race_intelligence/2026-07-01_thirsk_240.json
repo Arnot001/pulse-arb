@@ -4,15 +4,143 @@
   "course": "Thirsk",
   "time": "2:40",
   "race_name": "Army Benevolent Fund Handicap",
-  "field_size": 16,
-  "average_intelligence": 15.44,
-  "top_score": 56,
-  "second_score": 52,
-  "gap": 4,
-  "confidence_score": 43,
+  "field_size": 15,
+  "average_intelligence": 49.33,
+  "top_score": 59,
+  "second_score": 56,
+  "gap": 3,
+  "confidence_score": 50,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Stormy Pearl",
+    "horse_id": "hrs_30285465",
+    "age": 6,
+    "sex": "mare",
+    "latest_course": "Thirsk",
+    "latest_time": "2:40",
+    "latest_race": "Army Benevolent Fund Handicap",
+    "latest_date": "2026-07-01",
+    "latest_distance_f": 6.0,
+    "latest_class": "Class 6",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "David Thompson",
+    "latest_jockey": "Mikey Sheehy",
+    "latest_draw": 5,
+    "latest_weight_lbs": 135,
+    "official_rating": "54",
+    "recent_form": "6-2543",
+    "last_run_days": 16,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Thirsk": 1
+    },
+    "distances_seen": {
+      "6.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 6": 1
+    },
+    "trainers_seen": {
+      "David Thompson": 1
+    },
+    "jockeys_seen": {
+      "Mikey Sheehy": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 71,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Jockey bonus +1"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988626",
+        "course": "Thirsk",
+        "date": "2026-07-01",
+        "off_time": "2:40",
+        "off_dt": "2026-07-01T14:40:00+01:00",
+        "race_name": "Army Benevolent Fund Handicap",
+        "distance_f": 6.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 19,
+        "horse": "Stormy Pearl",
+        "horse_id": "hrs_30285465",
+        "age": 6,
+        "sex": "mare",
+        "trainer": "David Thompson",
+        "trainer_id": "trn_132597",
+        "jockey": "Mikey Sheehy",
+        "jockey_id": "jky_298917",
+        "draw": 5,
+        "number": 1,
+        "lbs": 135,
+        "ofr": "54",
+        "last_run": 16,
+        "form": "6-2543",
+        "headgear": "p",
+        "_stored_at": "2026-06-30T23:10:37.657122+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Thirsk",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 6.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 6",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 59,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Thirsk",
+      "latest_distance_f": 6.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 6",
+      "latest_pulse_score": 71,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Desert Master",
     "horse_id": "hrs_35015505",
     "age": 5,
@@ -74,7 +202,7 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 18,
+        "field_size": 19,
         "horse": "Desert Master",
         "horse_id": "hrs_35015505",
         "age": 5,
@@ -90,7 +218,7 @@
         "last_run": 16,
         "form": "482624",
         "headgear": "b",
-        "_stored_at": "2026-07-01T13:17:49.889636+00:00"
+        "_stored_at": "2026-06-30T23:10:38.138718+00:00"
       }
     ],
     "profile_notes": [],
@@ -138,10 +266,10 @@
       "runs_count": 1
     }
   },
-  "main_threat": {
-    "horse": "Barmyblade",
-    "horse_id": "hrs_40918836",
-    "age": 4,
+  "dark_horse": {
+    "horse": "Desert Master",
+    "horse_id": "hrs_35015505",
+    "age": 5,
     "sex": "gelding",
     "latest_course": "Thirsk",
     "latest_time": "2:40",
@@ -151,13 +279,13 @@
     "latest_class": "Class 6",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Tim Easterby",
-    "latest_jockey": "David Allan",
-    "latest_draw": 15,
-    "latest_weight_lbs": 131,
-    "official_rating": "50",
-    "recent_form": "046082",
-    "last_run_days": 14,
+    "latest_trainer": "Antony Brittain",
+    "latest_jockey": "Cam Hardie",
+    "latest_draw": 11,
+    "latest_weight_lbs": 127,
+    "official_rating": "46",
+    "recent_form": "482624",
+    "last_run_days": 16,
     "profile_runs": 1,
     "courses_seen": {
       "Thirsk": 1
@@ -172,20 +300,19 @@
       "Class 6": 1
     },
     "trainers_seen": {
-      "Tim Easterby": 1
+      "Antony Brittain": 1
     },
     "jockeys_seen": {
-      "David Allan": 1
+      "Cam Hardie": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 56,
+    "latest_pulse_score": 65,
     "latest_notes": [
-      "Weak recent form",
+      "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Stable flying +4 (4/7 last 14 days)",
-      "Jockey flying +4 (4/6 last 14 days)"
+      "Trainer bonus +2"
     ],
     "runs": [
       {
@@ -201,150 +328,23 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 18,
-        "horse": "Barmyblade",
-        "horse_id": "hrs_40918836",
-        "age": 4,
+        "field_size": 19,
+        "horse": "Desert Master",
+        "horse_id": "hrs_35015505",
+        "age": 5,
         "sex": "gelding",
-        "trainer": "Tim Easterby",
-        "trainer_id": "trn_91368",
-        "jockey": "David Allan",
-        "jockey_id": "jky_234669",
-        "draw": 15,
-        "number": 5,
-        "lbs": 131,
-        "ofr": "50",
-        "last_run": 14,
-        "form": "046082",
-        "headgear": "p",
-        "_stored_at": "2026-07-01T13:17:49.735000+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Thirsk",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 6.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 6",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 52,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Thirsk",
-      "latest_distance_f": 6.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 6",
-      "latest_pulse_score": 56,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Dolly's Delight",
-    "horse_id": "hrs_40919641",
-    "age": 4,
-    "sex": "filly",
-    "latest_course": "Thirsk",
-    "latest_time": "2:40",
-    "latest_race": "Army Benevolent Fund Handicap",
-    "latest_date": "2026-07-01",
-    "latest_distance_f": 6.0,
-    "latest_class": "Class 6",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Ivan Furtado",
-    "latest_jockey": "Jason Hart",
-    "latest_draw": 17,
-    "latest_weight_lbs": 134,
-    "official_rating": "53",
-    "recent_form": "3-6568",
-    "last_run_days": 23,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Thirsk": 1
-    },
-    "distances_seen": {
-      "6.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 6": 1
-    },
-    "trainers_seen": {
-      "Ivan Furtado": 1
-    },
-    "jockeys_seen": {
-      "Jason Hart": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 45,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Jockey in form +2 (2/4 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988626",
-        "course": "Thirsk",
-        "date": "2026-07-01",
-        "off_time": "2:40",
-        "off_dt": "2026-07-01T14:40:00+01:00",
-        "race_name": "Army Benevolent Fund Handicap",
-        "distance_f": 6.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 18,
-        "horse": "Dolly's Delight",
-        "horse_id": "hrs_40919641",
-        "age": 4,
-        "sex": "filly",
-        "trainer": "Ivan Furtado",
-        "trainer_id": "trn_277803",
-        "jockey": "Jason Hart",
-        "jockey_id": "jky_270729",
-        "draw": 17,
-        "number": 2,
-        "lbs": 134,
-        "ofr": "53",
-        "last_run": 23,
-        "form": "3-6568",
-        "headgear": "",
-        "_stored_at": "2026-07-01T13:17:49.671799+00:00"
+        "trainer": "Antony Brittain",
+        "trainer_id": "trn_278469",
+        "jockey": "Cam Hardie",
+        "jockey_id": "jky_278196",
+        "draw": 11,
+        "number": 14,
+        "lbs": 127,
+        "ofr": "46",
+        "last_run": 16,
+        "form": "482624",
+        "headgear": "b",
+        "_stored_at": "2026-06-30T23:10:38.138718+00:00"
       }
     ],
     "profile_notes": [],
@@ -369,12 +369,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 47,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Limited stored profile data"
@@ -385,13 +386,141 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": 45,
+      "latest_pulse_score": 65,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Stormy Pearl",
+      "horse_id": "hrs_30285465",
+      "age": 6,
+      "sex": "mare",
+      "latest_course": "Thirsk",
+      "latest_time": "2:40",
+      "latest_race": "Army Benevolent Fund Handicap",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "David Thompson",
+      "latest_jockey": "Mikey Sheehy",
+      "latest_draw": 5,
+      "latest_weight_lbs": 135,
+      "official_rating": "54",
+      "recent_form": "6-2543",
+      "last_run_days": 16,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Thirsk": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "David Thompson": 1
+      },
+      "jockeys_seen": {
+        "Mikey Sheehy": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 71,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988626",
+          "course": "Thirsk",
+          "date": "2026-07-01",
+          "off_time": "2:40",
+          "off_dt": "2026-07-01T14:40:00+01:00",
+          "race_name": "Army Benevolent Fund Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 19,
+          "horse": "Stormy Pearl",
+          "horse_id": "hrs_30285465",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "David Thompson",
+          "trainer_id": "trn_132597",
+          "jockey": "Mikey Sheehy",
+          "jockey_id": "jky_298917",
+          "draw": 5,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "54",
+          "last_run": 16,
+          "form": "6-2543",
+          "headgear": "p",
+          "_stored_at": "2026-06-30T23:10:37.657122+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Thirsk",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 59,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Thirsk",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 71,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Desert Master",
       "horse_id": "hrs_35015505",
@@ -454,7 +583,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 19,
           "horse": "Desert Master",
           "horse_id": "hrs_35015505",
           "age": 5,
@@ -470,7 +599,7 @@
           "last_run": 16,
           "form": "482624",
           "headgear": "b",
-          "_stored_at": "2026-07-01T13:17:49.889636+00:00"
+          "_stored_at": "2026-06-30T23:10:38.138718+00:00"
         }
       ],
       "profile_notes": [],
@@ -519,8 +648,8 @@
       }
     },
     {
-      "horse": "Barmyblade",
-      "horse_id": "hrs_40918836",
+      "horse": "Mister Sky Blue",
+      "horse_id": "hrs_43605611",
       "age": 4,
       "sex": "gelding",
       "latest_course": "Thirsk",
@@ -531,13 +660,13 @@
       "latest_class": "Class 6",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Tim Easterby",
-      "latest_jockey": "David Allan",
-      "latest_draw": 15,
+      "latest_trainer": "Gemma Tutty",
+      "latest_jockey": "Connor Beasley",
+      "latest_draw": 7,
       "latest_weight_lbs": 131,
       "official_rating": "50",
-      "recent_form": "046082",
-      "last_run_days": 14,
+      "recent_form": "49-272",
+      "last_run_days": 21,
       "profile_runs": 1,
       "courses_seen": {
         "Thirsk": 1
@@ -552,20 +681,20 @@
         "Class 6": 1
       },
       "trainers_seen": {
-        "Tim Easterby": 1
+        "Gemma Tutty": 1
       },
       "jockeys_seen": {
-        "David Allan": 1
+        "Connor Beasley": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 56,
+      "latest_pulse_score": 61,
       "latest_notes": [
-        "Weak recent form",
+        "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Stable flying +4 (4/7 last 14 days)",
-        "Jockey flying +4 (4/6 last 14 days)"
+        "Helpful draw",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
@@ -581,23 +710,277 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 18,
-          "horse": "Barmyblade",
-          "horse_id": "hrs_40918836",
+          "field_size": 19,
+          "horse": "Mister Sky Blue",
+          "horse_id": "hrs_43605611",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Tim Easterby",
-          "trainer_id": "trn_91368",
-          "jockey": "David Allan",
-          "jockey_id": "jky_234669",
-          "draw": 15,
-          "number": 5,
+          "trainer": "Gemma Tutty",
+          "trainer_id": "trn_354429",
+          "jockey": "Connor Beasley",
+          "jockey_id": "jky_272604",
+          "draw": 7,
+          "number": 7,
           "lbs": 131,
           "ofr": "50",
-          "last_run": 14,
-          "form": "046082",
-          "headgear": "p",
-          "_stored_at": "2026-07-01T13:17:49.735000+00:00"
+          "last_run": 21,
+          "form": "49-272",
+          "headgear": "b",
+          "_stored_at": "2026-06-30T23:10:37.858312+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Thirsk",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 54,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Thirsk",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 61,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Thehunnebelllegacy",
+      "horse_id": "hrs_53390288",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Thirsk",
+      "latest_time": "2:40",
+      "latest_race": "Army Benevolent Fund Handicap",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Richard & Peter Fahey",
+      "latest_jockey": "Warren Fentiman(3)",
+      "latest_draw": 1,
+      "latest_weight_lbs": 130,
+      "official_rating": "55",
+      "recent_form": "634-55",
+      "last_run_days": 9,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Thirsk": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Richard & Peter Fahey": 1
+      },
+      "jockeys_seen": {
+        "Warren Fentiman(3)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 61,
+      "latest_notes": [
+        "Positive recent form",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988626",
+          "course": "Thirsk",
+          "date": "2026-07-01",
+          "off_time": "2:40",
+          "off_dt": "2026-07-01T14:40:00+01:00",
+          "race_name": "Army Benevolent Fund Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 19,
+          "horse": "Thehunnebelllegacy",
+          "horse_id": "hrs_53390288",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Richard & Peter Fahey",
+          "trainer_id": "trn_386964",
+          "jockey": "Warren Fentiman(3)",
+          "jockey_id": "jky_312057",
+          "draw": 1,
+          "number": 10,
+          "lbs": 130,
+          "ofr": "55",
+          "last_run": 9,
+          "form": "634-55",
+          "headgear": "",
+          "_stored_at": "2026-06-30T23:10:37.982106+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Thirsk",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 54,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Thirsk",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 61,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Uncle Sam",
+      "horse_id": "hrs_412652982",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Thirsk",
+      "latest_time": "2:40",
+      "latest_race": "Army Benevolent Fund Handicap",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ray Craggs",
+      "latest_jockey": "Tom Eaves",
+      "latest_draw": 10,
+      "latest_weight_lbs": 131,
+      "official_rating": "50",
+      "recent_form": "6820-2",
+      "last_run_days": 13,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Thirsk": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Ray Craggs": 1
+      },
+      "jockeys_seen": {
+        "Tom Eaves": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 59,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Trainer bonus +1",
+        "Jockey in form +2 (1/2 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988626",
+          "course": "Thirsk",
+          "date": "2026-07-01",
+          "off_time": "2:40",
+          "off_dt": "2026-07-01T14:40:00+01:00",
+          "race_name": "Army Benevolent Fund Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 19,
+          "horse": "Uncle Sam",
+          "horse_id": "hrs_412652982",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Ray Craggs",
+          "trainer_id": "trn_74457",
+          "jockey": "Tom Eaves",
+          "jockey_id": "jky_230493",
+          "draw": 10,
+          "number": 6,
+          "lbs": 131,
+          "ofr": "50",
+          "last_run": 13,
+          "form": "6820-2",
+          "headgear": "",
+          "_stored_at": "2026-06-30T23:10:37.796110+00:00"
         }
       ],
       "profile_notes": [
@@ -624,7 +1007,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 54,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -640,7 +1023,389 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 56,
+        "latest_pulse_score": 59,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Night Emperor",
+      "horse_id": "hrs_41189575",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Thirsk",
+      "latest_time": "2:40",
+      "latest_race": "Army Benevolent Fund Handicap",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Tina Jackson",
+      "latest_jockey": "Joanna Mason",
+      "latest_draw": 6,
+      "latest_weight_lbs": 132,
+      "official_rating": "51",
+      "recent_form": "67/864",
+      "last_run_days": 34,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Thirsk": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Tina Jackson": 1
+      },
+      "jockeys_seen": {
+        "Joanna Mason": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 53,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Jockey bonus +2",
+        "Jockey in form +2 (1/3 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988626",
+          "course": "Thirsk",
+          "date": "2026-07-01",
+          "off_time": "2:40",
+          "off_dt": "2026-07-01T14:40:00+01:00",
+          "race_name": "Army Benevolent Fund Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 19,
+          "horse": "Night Emperor",
+          "horse_id": "hrs_41189575",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Tina Jackson",
+          "trainer_id": "trn_54261",
+          "jockey": "Joanna Mason",
+          "jockey_id": "jky_257346",
+          "draw": 6,
+          "number": 3,
+          "lbs": 132,
+          "ofr": "51",
+          "last_run": 34,
+          "form": "67/864",
+          "headgear": "",
+          "_stored_at": "2026-06-30T23:10:37.722653+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Thirsk",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 51,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Thirsk",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 53,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Hurstwood",
+      "horse_id": "hrs_18366467",
+      "age": 9,
+      "sex": "gelding",
+      "latest_course": "Thirsk",
+      "latest_time": "2:40",
+      "latest_race": "Army Benevolent Fund Handicap",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Peter Niven",
+      "latest_jockey": "P J McDonald",
+      "latest_draw": 8,
+      "latest_weight_lbs": 131,
+      "official_rating": "50",
+      "recent_form": "7-9466",
+      "last_run_days": 25,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Thirsk": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Peter Niven": 1
+      },
+      "jockeys_seen": {
+        "P J McDonald": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 47,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988626",
+          "course": "Thirsk",
+          "date": "2026-07-01",
+          "off_time": "2:40",
+          "off_dt": "2026-07-01T14:40:00+01:00",
+          "race_name": "Army Benevolent Fund Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 19,
+          "horse": "Hurstwood",
+          "horse_id": "hrs_18366467",
+          "age": 9,
+          "sex": "gelding",
+          "trainer": "Peter Niven",
+          "trainer_id": "trn_139041",
+          "jockey": "P J McDonald",
+          "jockey_id": "jky_230616",
+          "draw": 8,
+          "number": 8,
+          "lbs": 131,
+          "ofr": "50",
+          "last_run": 25,
+          "form": "7-9466",
+          "headgear": "",
+          "_stored_at": "2026-06-30T23:10:37.890744+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Thirsk",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Thirsk",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 47,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Hyrcanian",
+      "horse_id": "hrs_35336413",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Thirsk",
+      "latest_time": "2:40",
+      "latest_race": "Army Benevolent Fund Handicap",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ron Barr",
+      "latest_jockey": "Jack Nicholls(5)",
+      "latest_draw": 18,
+      "latest_weight_lbs": 126,
+      "official_rating": "45",
+      "recent_form": "85-808",
+      "last_run_days": 14,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Thirsk": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Ron Barr": 1
+      },
+      "jockeys_seen": {
+        "Jack Nicholls(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 46,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Jockey bonus +1",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988626",
+          "course": "Thirsk",
+          "date": "2026-07-01",
+          "off_time": "2:40",
+          "off_dt": "2026-07-01T14:40:00+01:00",
+          "race_name": "Army Benevolent Fund Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 19,
+          "horse": "Hyrcanian",
+          "horse_id": "hrs_35336413",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Ron Barr",
+          "trainer_id": "trn_6966",
+          "jockey": "Jack Nicholls(5)",
+          "jockey_id": "jky_308319",
+          "draw": 18,
+          "number": 17,
+          "lbs": 126,
+          "ofr": "45",
+          "last_run": 14,
+          "form": "85-808",
+          "headgear": "",
+          "_stored_at": "2026-06-30T23:10:38.185406+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Thirsk",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Thirsk",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 46,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -708,7 +1473,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 19,
           "horse": "Dolly's Delight",
           "horse_id": "hrs_40919641",
           "age": 4,
@@ -724,7 +1489,7 @@
           "last_run": 23,
           "form": "3-6568",
           "headgear": "",
-          "_stored_at": "2026-07-01T13:17:49.671799+00:00"
+          "_stored_at": "2026-06-30T23:10:37.689827+00:00"
         }
       ],
       "profile_notes": [],
@@ -834,7 +1599,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 19,
           "horse": "Everydaysasaturday",
           "horse_id": "hrs_53960284",
           "age": 3,
@@ -850,7 +1615,7 @@
           "last_run": 43,
           "form": "6-6705",
           "headgear": "b",
-          "_stored_at": "2026-07-01T13:17:49.871082+00:00"
+          "_stored_at": "2026-06-30T23:10:38.073152+00:00"
         }
       ],
       "profile_notes": [
@@ -898,386 +1663,6 @@
         "profile_runs": 1,
         "runs_count": 1
       }
-    },
-    {
-      "horse": "Golden Prosperity",
-      "horse_id": "hrs_25286478",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Thirsk",
-      "latest_time": "2:40",
-      "latest_race": "Army Benevolent Fund Handicap",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Tony Coyle & Kaine Wood",
-      "latest_jockey": "Jake Dickson(7)",
-      "latest_draw": 16,
-      "latest_weight_lbs": 131,
-      "official_rating": "50",
-      "recent_form": "006054",
-      "last_run_days": 9,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Thirsk": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Tony Coyle & Kaine Wood": 1
-      },
-      "jockeys_seen": {
-        "Jake Dickson(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 41,
-      "latest_notes": [
-        "Weak recent form",
-        "Jockey bonus +1",
-        "Jockey in form +2 (1/6 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988626",
-          "course": "Thirsk",
-          "date": "2026-07-01",
-          "off_time": "2:40",
-          "off_dt": "2026-07-01T14:40:00+01:00",
-          "race_name": "Army Benevolent Fund Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Golden Prosperity",
-          "horse_id": "hrs_25286478",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Tony Coyle & Kaine Wood",
-          "trainer_id": "trn_370053",
-          "jockey": "Jake Dickson(7)",
-          "jockey_id": "jky_310494",
-          "draw": 16,
-          "number": 9,
-          "lbs": 131,
-          "ofr": "50",
-          "last_run": 9,
-          "form": "006054",
-          "headgear": "p",
-          "_stored_at": "2026-07-01T13:17:49.811581+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Thirsk",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Thirsk",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 41,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Hurstwood",
-      "horse_id": "hrs_18366467",
-      "age": 9,
-      "sex": "gelding",
-      "latest_course": "Thirsk",
-      "latest_time": "2:40",
-      "latest_race": "Army Benevolent Fund Handicap",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Peter Niven",
-      "latest_jockey": "P J McDonald",
-      "latest_draw": 8,
-      "latest_weight_lbs": 131,
-      "official_rating": "50",
-      "recent_form": "7-9466",
-      "last_run_days": 25,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Thirsk": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Peter Niven": 1
-      },
-      "jockeys_seen": {
-        "P J McDonald": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 47,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988626",
-          "course": "Thirsk",
-          "date": "2026-07-01",
-          "off_time": "2:40",
-          "off_dt": "2026-07-01T14:40:00+01:00",
-          "race_name": "Army Benevolent Fund Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Hurstwood",
-          "horse_id": "hrs_18366467",
-          "age": 9,
-          "sex": "gelding",
-          "trainer": "Peter Niven",
-          "trainer_id": "trn_139041",
-          "jockey": "P J McDonald",
-          "jockey_id": "jky_230616",
-          "draw": 8,
-          "number": 8,
-          "lbs": 131,
-          "ofr": "50",
-          "last_run": 25,
-          "form": "7-9466",
-          "headgear": "",
-          "_stored_at": "2026-07-01T13:17:49.792803+00:00"
-        }
-      ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Hyrcanian",
-      "horse_id": "hrs_35336413",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Thirsk",
-      "latest_time": "2:40",
-      "latest_race": "Army Benevolent Fund Handicap",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ron Barr",
-      "latest_jockey": "Jack Nicholls(5)",
-      "latest_draw": 18,
-      "latest_weight_lbs": 126,
-      "official_rating": "45",
-      "recent_form": "85-808",
-      "last_run_days": 14,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Thirsk": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Ron Barr": 1
-      },
-      "jockeys_seen": {
-        "Jack Nicholls(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey bonus +1",
-        "Jockey in form +2 (1/1 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988626",
-          "course": "Thirsk",
-          "date": "2026-07-01",
-          "off_time": "2:40",
-          "off_dt": "2026-07-01T14:40:00+01:00",
-          "race_name": "Army Benevolent Fund Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Hyrcanian",
-          "horse_id": "hrs_35336413",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Ron Barr",
-          "trainer_id": "trn_6966",
-          "jockey": "Jack Nicholls(5)",
-          "jockey_id": "jky_308319",
-          "draw": 18,
-          "number": 17,
-          "lbs": 126,
-          "ofr": "45",
-          "last_run": 14,
-          "form": "85-808",
-          "headgear": "",
-          "_stored_at": "2026-07-01T13:17:49.946732+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ]
-    },
-    {
-      "horse": "Mister Sky Blue",
-      "horse_id": "hrs_43605611",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Thirsk",
-      "latest_time": "2:40",
-      "latest_race": "Army Benevolent Fund Handicap",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gemma Tutty",
-      "latest_jockey": "Connor Beasley",
-      "latest_draw": 7,
-      "latest_weight_lbs": 131,
-      "official_rating": "50",
-      "recent_form": "49-272",
-      "last_run_days": 21,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Thirsk": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Gemma Tutty": 1
-      },
-      "jockeys_seen": {
-        "Connor Beasley": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 61,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988626",
-          "course": "Thirsk",
-          "date": "2026-07-01",
-          "off_time": "2:40",
-          "off_dt": "2026-07-01T14:40:00+01:00",
-          "race_name": "Army Benevolent Fund Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Mister Sky Blue",
-          "horse_id": "hrs_43605611",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Gemma Tutty",
-          "trainer_id": "trn_354429",
-          "jockey": "Connor Beasley",
-          "jockey_id": "jky_272604",
-          "draw": 7,
-          "number": 7,
-          "lbs": 131,
-          "ofr": "50",
-          "last_run": 21,
-          "form": "49-272",
-          "headgear": "b",
-          "_stored_at": "2026-07-01T13:17:49.773114+00:00"
-        }
-      ],
-      "profile_notes": []
     },
     {
       "horse": "Mrs Trump",
@@ -1343,7 +1728,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 19,
           "horse": "Mrs Trump",
           "horse_id": "hrs_30908409",
           "age": 6,
@@ -1359,96 +1744,52 @@
           "last_run": 27,
           "form": "48-767",
           "headgear": "",
-          "_stored_at": "2026-07-01T13:17:49.715072+00:00"
+          "_stored_at": "2026-06-30T23:10:37.755829+00:00"
         }
       ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Night Emperor",
-      "horse_id": "hrs_41189575",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Thirsk",
-      "latest_time": "2:40",
-      "latest_race": "Army Benevolent Fund Handicap",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Tina Jackson",
-      "latest_jockey": "Joanna Mason",
-      "latest_draw": 6,
-      "latest_weight_lbs": 132,
-      "official_rating": "51",
-      "recent_form": "67/864",
-      "last_run_days": 34,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Thirsk": 1
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Thirsk",
+        "runs": 1
       },
-      "distances_seen": {
-        "6.0": 1
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
       },
-      "goings_seen": {
-        "Good To Firm": 1
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
       },
-      "classes_seen": {
-        "Class 6": 1
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
       },
-      "trainers_seen": {
-        "Tina Jackson": 1
-      },
-      "jockeys_seen": {
-        "Joanna Mason": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 53,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +1",
-        "Jockey bonus +2",
-        "Jockey in form +2 (1/3 last 14 days)"
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
       ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988626",
-          "course": "Thirsk",
-          "date": "2026-07-01",
-          "off_time": "2:40",
-          "off_dt": "2026-07-01T14:40:00+01:00",
-          "race_name": "Army Benevolent Fund Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Night Emperor",
-          "horse_id": "hrs_41189575",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Tina Jackson",
-          "trainer_id": "trn_54261",
-          "jockey": "Joanna Mason",
-          "jockey_id": "jky_257346",
-          "draw": 6,
-          "number": 3,
-          "lbs": 132,
-          "ofr": "51",
-          "last_run": 34,
-          "form": "67/864",
-          "headgear": "",
-          "_stored_at": "2026-07-01T13:17:49.691666+00:00"
-        }
+      "profile_cautions": [
+        "Limited stored profile data"
       ],
-      "profile_notes": []
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Thirsk",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 44,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     },
     {
       "horse": "Petes Diamond",
@@ -1513,7 +1854,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 19,
           "horse": "Petes Diamond",
           "horse_id": "hrs_58316356",
           "age": 3,
@@ -1529,16 +1870,58 @@
           "last_run": 29,
           "form": "580706",
           "headgear": "",
-          "_stored_at": "2026-07-01T13:17:49.988637+00:00"
+          "_stored_at": "2026-06-30T23:10:38.233624+00:00"
         }
       ],
-      "profile_notes": []
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Thirsk",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Thirsk",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 42,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     },
     {
-      "horse": "Stormy Pearl",
-      "horse_id": "hrs_30285465",
-      "age": 6,
-      "sex": "mare",
+      "horse": "Ellie's de Vega",
+      "horse_id": "hrs_52418114",
+      "age": 3,
+      "sex": "gelding",
       "latest_course": "Thirsk",
       "latest_time": "2:40",
       "latest_race": "Army Benevolent Fund Handicap",
@@ -1547,13 +1930,13 @@
       "latest_class": "Class 6",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "David Thompson",
-      "latest_jockey": "Mikey Sheehy",
-      "latest_draw": 5,
-      "latest_weight_lbs": 135,
-      "official_rating": "54",
-      "recent_form": "6-2543",
-      "last_run_days": 16,
+      "latest_trainer": "Noel Wilson",
+      "latest_jockey": "Ryan Sexton",
+      "latest_draw": 3,
+      "latest_weight_lbs": 127,
+      "official_rating": "52",
+      "recent_form": "-33433",
+      "last_run_days": 11,
       "profile_runs": 1,
       "courses_seen": {
         "Thirsk": 1
@@ -1568,21 +1951,20 @@
         "Class 6": 1
       },
       "trainers_seen": {
-        "David Thompson": 1
+        "Noel Wilson": 1
       },
       "jockeys_seen": {
-        "Mikey Sheehy": 1
+        "Ryan Sexton": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 71,
+      "latest_pulse_score": 41,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2",
         "Helpful draw",
-        "Trainer bonus +2",
-        "Jockey bonus +1"
+        "Non-runner risk",
+        "Trainer bonus +2"
       ],
       "runs": [
         {
@@ -1598,113 +1980,198 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 18,
-          "horse": "Stormy Pearl",
-          "horse_id": "hrs_30285465",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "David Thompson",
-          "trainer_id": "trn_132597",
-          "jockey": "Mikey Sheehy",
-          "jockey_id": "jky_298917",
-          "draw": 5,
-          "number": 1,
-          "lbs": 135,
-          "ofr": "54",
-          "last_run": 16,
-          "form": "6-2543",
-          "headgear": "p",
-          "_stored_at": "2026-07-01T13:17:49.652758+00:00"
-        }
-      ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Thehunnebelllegacy",
-      "horse_id": "hrs_53390288",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Thirsk",
-      "latest_time": "2:40",
-      "latest_race": "Army Benevolent Fund Handicap",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Richard & Peter Fahey",
-      "latest_jockey": "Warren Fentiman(3)",
-      "latest_draw": 1,
-      "latest_weight_lbs": 130,
-      "official_rating": "55",
-      "recent_form": "634-55",
-      "last_run_days": 9,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Thirsk": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Richard & Peter Fahey": 1
-      },
-      "jockeys_seen": {
-        "Warren Fentiman(3)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 61,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988626",
-          "course": "Thirsk",
-          "date": "2026-07-01",
-          "off_time": "2:40",
-          "off_dt": "2026-07-01T14:40:00+01:00",
-          "race_name": "Army Benevolent Fund Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Thehunnebelllegacy",
-          "horse_id": "hrs_53390288",
+          "field_size": 19,
+          "horse": "Ellie's de Vega",
+          "horse_id": "hrs_52418114",
           "age": 3,
-          "sex": "filly",
-          "trainer": "Richard & Peter Fahey",
-          "trainer_id": "trn_386964",
-          "jockey": "Warren Fentiman(3)",
-          "jockey_id": "jky_312057",
-          "draw": 1,
-          "number": 10,
-          "lbs": 130,
-          "ofr": "55",
-          "last_run": 9,
-          "form": "634-55",
-          "headgear": "",
-          "_stored_at": "2026-07-01T13:17:49.830266+00:00"
+          "sex": "gelding",
+          "trainer": "Noel Wilson",
+          "trainer_id": "trn_90063",
+          "jockey": "Ryan Sexton",
+          "jockey_id": "jky_301137",
+          "draw": 3,
+          "number": 13,
+          "lbs": 127,
+          "ofr": "52",
+          "last_run": 11,
+          "form": "-33433",
+          "headgear": "p",
+          "_stored_at": "2026-06-30T23:10:38.122077+00:00"
         }
       ],
       "profile_notes": [
         "Low draw today",
         "Recent run timing"
-      ]
+      ],
+      "favourite_course": {
+        "value": "Thirsk",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 45,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Thirsk",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 41,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Up The Monk",
+      "horse_id": "hrs_412693190",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Thirsk",
+      "latest_time": "2:40",
+      "latest_race": "Army Benevolent Fund Handicap",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Michael Appleby",
+      "latest_jockey": "Harry Davies",
+      "latest_draw": 14,
+      "latest_weight_lbs": 130,
+      "official_rating": "49",
+      "recent_form": "916487",
+      "last_run_days": 102,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Thirsk": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Michael Appleby": 1
+      },
+      "jockeys_seen": {
+        "Harry Davies": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 36,
+      "latest_notes": [
+        "Weak recent form",
+        "Trainer bonus +1",
+        "Stable in form +2 (1/2 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988626",
+          "course": "Thirsk",
+          "date": "2026-07-01",
+          "off_time": "2:40",
+          "off_dt": "2026-07-01T14:40:00+01:00",
+          "race_name": "Army Benevolent Fund Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 19,
+          "horse": "Up The Monk",
+          "horse_id": "hrs_412693190",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Michael Appleby",
+          "trainer_id": "trn_93267",
+          "jockey": "Harry Davies",
+          "jockey_id": "jky_304524",
+          "draw": 14,
+          "number": 11,
+          "lbs": 130,
+          "ofr": "49",
+          "last_run": 102,
+          "form": "916487",
+          "headgear": "v",
+          "_stored_at": "2026-06-30T23:10:38.022138+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Thirsk",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 43,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Thirsk",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 36,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     },
     {
       "horse": "The Floors Munky",
@@ -1768,7 +2235,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 19,
           "horse": "The Floors Munky",
           "horse_id": "hrs_55634110",
           "age": 3,
@@ -1784,185 +2251,58 @@
           "last_run": 44,
           "form": "5-7009",
           "headgear": "tp",
-          "_stored_at": "2026-07-01T13:17:49.968262+00:00"
+          "_stored_at": "2026-06-30T23:10:38.192920+00:00"
         }
       ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Uncle Sam",
-      "horse_id": "hrs_412652982",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Thirsk",
-      "latest_time": "2:40",
-      "latest_race": "Army Benevolent Fund Handicap",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ray Craggs",
-      "latest_jockey": "Tom Eaves",
-      "latest_draw": 10,
-      "latest_weight_lbs": 131,
-      "official_rating": "50",
-      "recent_form": "6820-2",
-      "last_run_days": 13,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Thirsk": 1
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Thirsk",
+        "runs": 1
       },
-      "distances_seen": {
-        "6.0": 1
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
       },
-      "goings_seen": {
-        "Good To Firm": 1
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
       },
-      "classes_seen": {
-        "Class 6": 1
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
       },
-      "trainers_seen": {
-        "Ray Craggs": 1
-      },
-      "jockeys_seen": {
-        "Tom Eaves": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 59,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Trainer bonus +1",
-        "Jockey in form +2 (1/2 last 14 days)"
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 41,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
       ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988626",
-          "course": "Thirsk",
-          "date": "2026-07-01",
-          "off_time": "2:40",
-          "off_dt": "2026-07-01T14:40:00+01:00",
-          "race_name": "Army Benevolent Fund Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Uncle Sam",
-          "horse_id": "hrs_412652982",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Ray Craggs",
-          "trainer_id": "trn_74457",
-          "jockey": "Tom Eaves",
-          "jockey_id": "jky_230493",
-          "draw": 10,
-          "number": 6,
-          "lbs": 131,
-          "ofr": "50",
-          "last_run": 13,
-          "form": "6820-2",
-          "headgear": "",
-          "_stored_at": "2026-07-01T13:17:49.753811+00:00"
-        }
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
       ],
-      "profile_notes": [
-        "Recent run timing"
-      ]
-    },
-    {
-      "horse": "Up The Monk",
-      "horse_id": "hrs_412693190",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Thirsk",
-      "latest_time": "2:40",
-      "latest_race": "Army Benevolent Fund Handicap",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Michael Appleby",
-      "latest_jockey": "Harry Davies",
-      "latest_draw": 14,
-      "latest_weight_lbs": 130,
-      "official_rating": "49",
-      "recent_form": "916487",
-      "last_run_days": 102,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Thirsk": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Michael Appleby": 1
-      },
-      "jockeys_seen": {
-        "Harry Davies": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 36,
-      "latest_notes": [
-        "Weak recent form",
-        "Trainer bonus +1",
-        "Stable in form +2 (1/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988626",
-          "course": "Thirsk",
-          "date": "2026-07-01",
-          "off_time": "2:40",
-          "off_dt": "2026-07-01T14:40:00+01:00",
-          "race_name": "Army Benevolent Fund Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Up The Monk",
-          "horse_id": "hrs_412693190",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Michael Appleby",
-          "trainer_id": "trn_93267",
-          "jockey": "Harry Davies",
-          "jockey_id": "jky_304524",
-          "draw": 14,
-          "number": 11,
-          "lbs": 130,
-          "ofr": "49",
-          "last_run": 102,
-          "form": "916487",
-          "headgear": "v",
-          "_stored_at": "2026-07-01T13:17:49.851822+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ]
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Thirsk",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 32,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     }
   ],
   "notes": [
-    "Desert Master is the top-rated Pulse IQ runner.",
+    "Stormy Pearl is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Dolly's Delight is flagged as a possible dark horse."
+    "Desert Master is flagged as a possible dark horse."
   ]
 }

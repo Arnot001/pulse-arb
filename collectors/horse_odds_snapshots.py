@@ -19,50 +19,84 @@ def get_today_file():
     return OUTPUT_DIR / f"{today}.jsonl"
 
 
-def minutes_until_race(race_time):
+def parse_race_date(race):
+    possible_dates = [
+        race.get("date"),
+        race.get("race_date"),
+        race.get("meeting_date"),
+        race.get("collection_date"),
+    ]
+
+    for value in possible_dates:
+        if not value:
+            continue
+
+        text = str(value).strip()[:10]
+
+        try:
+            return datetime.strptime(text, "%Y-%m-%d").date()
+        except Exception:
+            continue
+
+    return datetime.now().date()
+
+
+def build_race_datetime(race):
+    race_time = str(race.get("time") or "").strip()
+
+    if not race_time:
+        return None
+
     try:
-        now = datetime.now()
-        hour, minute = map(int, str(race_time).split(":"))
+        parts = race_time.split(":")
 
-        # Racecard times may use 12-hour format without AM/PM.
-        # During afternoon/evening racing, convert suitable hours.
-        if hour <= 12:
-            candidate = now.replace(
-                hour=hour,
-                minute=minute,
-                second=0,
-                microsecond=0,
-            )
+        if len(parts) != 2:
+            return None
 
-            afternoon_candidate = now.replace(
-                hour=(hour % 12) + 12,
-                minute=minute,
-                second=0,
-                microsecond=0,
-            )
+        hour = int(parts[0])
+        minute = int(parts[1])
 
-            # Pick whichever interpretation is closest to now.
-            if abs(
-                (afternoon_candidate - now).total_seconds()
-            ) < abs(
-                (candidate - now).total_seconds()
-            ):
-                race_dt = afternoon_candidate
-            else:
-                race_dt = candidate
+        if hour < 0 or hour > 23:
+            return None
 
-        else:
-            race_dt = now.replace(
-                hour=hour,
-                minute=minute,
-                second=0,
-                microsecond=0,
-            )
+        if minute < 0 or minute > 59:
+            return None
 
-        return int((race_dt - now).total_seconds() / 60)
+        # Pulse racecards commonly use 12-hour times without AM/PM.
+        #
+        # Racing shown as 1:30 through 9:59 is normally afternoon
+        # or evening racing, so convert it once and keep it stable.
+        #
+        # 10:00, 11:00 and 12:00 remain unchanged because morning
+        # and midday international meetings can genuinely use them.
+        if 1 <= hour <= 9:
+            hour += 12
+
+        race_date = parse_race_date(race)
+
+        return datetime.combine(
+            race_date,
+            datetime.min.time(),
+        ).replace(
+            hour=hour,
+            minute=minute,
+            second=0,
+            microsecond=0,
+        )
 
     except Exception:
         return None
+
+
+def minutes_until_race(race):
+    race_dt = build_race_datetime(race)
+
+    if race_dt is None:
+        return None
+
+    now = datetime.now()
+
+    return int((race_dt - now).total_seconds() / 60)
 
 
 def make_snapshot_key(course, race_time, horse):
@@ -145,22 +179,21 @@ def snapshot_pulse_picks():
         race_time = race.get("time")
         horse = pick.get("horse")
 
-        mins = minutes_until_race(race_time)
+        race_dt = build_race_datetime(race)
+        mins = minutes_until_race(race)
 
-        if mins is None:
+        if race_dt is None or mins is None:
             print(
-                f"Skipping invalid race time: "
+                f"Skipping invalid race datetime: "
                 f"{course} {race_time}"
             )
             invalid_time += 1
             continue
 
-        # Wait until the race is within the capture window.
         if mins > SNAPSHOT_WINDOW_MINUTES:
             too_early += 1
             continue
 
-        # Stop attempting once sufficiently past the scheduled off.
         if mins < -GRACE_AFTER_OFF_MINUTES:
             finished += 1
             continue
@@ -173,7 +206,7 @@ def snapshot_pulse_picks():
 
         existing = snapshot_index.get(snapshot_key)
 
-        # Once a valid price is captured, freeze that snapshot.
+        # Freeze the first valid pre-race price for ROI.
         if (
             existing
             and existing.get("odds_success") is True
@@ -188,6 +221,7 @@ def snapshot_pulse_picks():
                 "pick": pick,
                 "course": course,
                 "race_time": race_time,
+                "race_datetime": race_dt,
                 "horse": horse,
                 "minutes_before_off": mins,
                 "snapshot_key": snapshot_key,
@@ -208,6 +242,7 @@ def snapshot_pulse_picks():
             pick = item["pick"]
             course = item["course"]
             race_time = item["race_time"]
+            race_dt = item["race_datetime"]
             horse = item["horse"]
             mins = item["minutes_before_off"]
             snapshot_key = item["snapshot_key"]
@@ -235,12 +270,16 @@ def snapshot_pulse_picks():
                     "error": str(exc),
                 }
 
+            now = datetime.now()
+
             record = {
-                "snapshot_date": datetime.now().strftime(
-                    "%Y-%m-%d"
-                ),
-                "snapshot_time": datetime.now().isoformat(
+                "snapshot_date": now.strftime("%Y-%m-%d"),
+                "snapshot_time": now.isoformat(
                     timespec="seconds"
+                ),
+                "race_date": race_dt.strftime("%Y-%m-%d"),
+                "race_datetime": race_dt.isoformat(
+                    timespec="minutes"
                 ),
                 "course": course,
                 "race_time": race_time,
@@ -264,8 +303,8 @@ def snapshot_pulse_picks():
                 "minutes_before_off": mins,
             }
 
-            # Replace a failed attempt with the latest attempt,
-            # rather than endlessly appending duplicate rows.
+            # Failed captures are replaced next cycle.
+            # Successful captures remain frozen.
             snapshot_index[snapshot_key] = record
 
             if record["odds_success"]:
@@ -277,14 +316,13 @@ def snapshot_pulse_picks():
 
     final_rows = list(snapshot_index.values())
 
-    # Always save rows, including failed attempts, so every
-    # approaching Pulse pick can enter the bet ledger.
     save_snapshots(output_file, final_rows)
 
     print()
     print("=" * 60)
     print("HORSE ODDS SNAPSHOT SUMMARY")
     print("=" * 60)
+    print(f"Current time:          {datetime.now().isoformat(timespec='seconds')}")
     print(f"Races loaded:          {len(races)}")
     print(f"Eligible now:          {len(candidates)}")
     print(f"Odds captured:         {saved}")

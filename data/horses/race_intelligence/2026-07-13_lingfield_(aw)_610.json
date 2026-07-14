@@ -4,15 +4,167 @@
   "course": "Lingfield (AW)",
   "time": "6:10",
   "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
-  "field_size": 12,
-  "average_intelligence": 29.25,
-  "top_score": 50,
+  "field_size": 9,
+  "average_intelligence": 44.44,
+  "top_score": 51,
   "second_score": 50,
-  "gap": 0,
-  "confidence_score": 36,
+  "gap": 1,
+  "confidence_score": 41,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Norfolk Dream",
+    "horse_id": "hrs_66655435",
+    "age": 2,
+    "sex": "filly",
+    "latest_course": "Lingfield (AW)",
+    "latest_time": "6:10",
+    "latest_race": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+    "latest_date": "2026-07-13",
+    "latest_distance_f": 7.0,
+    "latest_class": "Class 4",
+    "latest_going": "Standard",
+    "latest_surface": "AW",
+    "latest_trainer": "William Knight",
+    "latest_jockey": "Taylor Fisher",
+    "latest_draw": 1,
+    "latest_weight_lbs": 128,
+    "official_rating": "-",
+    "recent_form": "",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Lingfield (AW)": 1
+    },
+    "distances_seen": {
+      "7.0": 1
+    },
+    "goings_seen": {
+      "Standard": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "William Knight": 1
+    },
+    "jockeys_seen": {
+      "Taylor Fisher": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 54,
+    "latest_notes": [
+      "Helpful draw",
+      "Race class strength +2",
+      "Stable flying +4 (6/11 last 14 days)",
+      "Jockey flying +4 (3/5 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12003888",
+        "course": "Lingfield (AW)",
+        "date": "2026-07-13",
+        "off_time": "6:10",
+        "off_dt": "2026-07-13T18:10:00+01:00",
+        "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+        "distance_f": 7.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Standard",
+        "surface": "AW",
+        "field_size": 9,
+        "horse": "Norfolk Dream",
+        "horse_id": "hrs_66655435",
+        "age": 2,
+        "sex": "filly",
+        "trainer": "William Knight",
+        "trainer_id": "trn_161694",
+        "jockey": "Taylor Fisher",
+        "jockey_id": "jky_305277",
+        "draw": 1,
+        "number": 10,
+        "lbs": 128,
+        "ofr": "-",
+        "last_run": null,
+        "form": "",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "latest_result": {
+      "source": "bbc_sport",
+      "result_date": "2026-07-13",
+      "course": "Lingfield",
+      "race_time": "18:10",
+      "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+      "race_id": "p-1574266",
+      "status": "PostEvent",
+      "finish_position": 8,
+      "sp": "16/1",
+      "favourite_position": 4,
+      "going": "Standard",
+      "distance": "7f 2y",
+      "field_size": 9,
+      "trainer": "W J Knight",
+      "jockey": "Taylor Fisher",
+      "distance_beaten": "26L",
+      "won": false,
+      "placed": false,
+      "attached_at": "2026-07-13T21:08:01"
+    },
+    "latest_result_position": 8,
+    "latest_result_sp": "16/1",
+    "latest_result_won": false,
+    "latest_result_placed": false,
+    "latest_result_date": "2026-07-13",
+    "favourite_course": {
+      "value": "Lingfield (AW)",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 7.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Standard",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 51,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Lingfield (AW)",
+      "latest_distance_f": 7.0,
+      "latest_going": "Standard",
+      "latest_class": "Class 4",
+      "latest_pulse_score": 54,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Ardad Steve",
     "horse_id": "hrs_63811062",
     "age": 2,
@@ -135,9 +287,35 @@
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
-    }
+    },
+    "latest_result": {
+      "source": "bbc_sport",
+      "result_date": "2026-07-13",
+      "course": "Lingfield",
+      "race_time": "18:10",
+      "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+      "race_id": "p-1574266",
+      "status": "PostEvent",
+      "finish_position": 1,
+      "sp": "5/2",
+      "favourite_position": 2,
+      "going": "Standard",
+      "distance": "7f 2y",
+      "field_size": 9,
+      "trainer": "Eve Johnson Houghton",
+      "jockey": "Charles Bishop",
+      "distance_beaten": "-",
+      "won": true,
+      "placed": true,
+      "attached_at": "2026-07-13T21:08:01"
+    },
+    "latest_result_position": 1,
+    "latest_result_sp": "5/2",
+    "latest_result_won": true,
+    "latest_result_placed": true,
+    "latest_result_date": "2026-07-13"
   },
-  "main_threat": {
+  "dark_horse": {
     "horse": "Cracking Idea",
     "horse_id": "hrs_66655407",
     "age": 2,
@@ -261,176 +439,187 @@
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Gravastar",
-    "horse_id": "hrs_65610314",
-    "age": 2,
-    "sex": "filly",
-    "latest_course": "Lingfield (AW)",
-    "latest_time": "6:10",
-    "latest_race": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
-    "latest_date": "2026-07-13",
-    "latest_distance_f": 7.0,
-    "latest_class": "Class 4",
-    "latest_going": "Standard",
-    "latest_surface": "AW",
-    "latest_trainer": "Richard Hannon",
-    "latest_jockey": "David Probert",
-    "latest_draw": 10,
-    "latest_weight_lbs": 125,
-    "official_rating": "-",
-    "recent_form": "40",
-    "last_run_days": 11,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Newbury": 1,
-      "Lingfield (AW)": 1
     },
-    "distances_seen": {
-      "6.0": 1,
-      "7.0": 1
+    "latest_result": {
+      "source": "bbc_sport",
+      "result_date": "2026-07-13",
+      "course": "Lingfield",
+      "race_time": "18:10",
+      "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+      "race_id": "p-1574266",
+      "status": "PostEvent",
+      "finish_position": 5,
+      "sp": "25/1",
+      "favourite_position": 6,
+      "going": "Standard",
+      "distance": "7f 2y",
+      "field_size": 9,
+      "trainer": "E A L Dunlop",
+      "jockey": "Billy Loughnane",
+      "distance_beaten": "4ÃÂ½L",
+      "won": false,
+      "placed": false,
+      "attached_at": "2026-07-13T21:08:01"
     },
-    "goings_seen": {
-      "Good To Firm": 1,
-      "Standard": 1
-    },
-    "classes_seen": {
-      "Class 4": 2
-    },
-    "trainers_seen": {
-      "Richard Hannon": 2
-    },
-    "jockeys_seen": {
-      "Sean Levey": 1,
-      "David Probert": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 66,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +3",
-      "Stable in form +2 (2/6 last 14 days)",
-      "Jockey bonus +3",
-      "Jockey in form +2 (2/4 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988665",
-        "course": "Newbury",
-        "date": "2026-07-02",
-        "off_time": "6:50",
-        "off_dt": "2026-07-02T18:50:00+01:00",
-        "race_name": "Gracelands EBF Fillies' Novice Stakes (GBB Race)",
-        "distance_f": 6.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 14,
-        "horse": "Gravastar",
-        "horse_id": "hrs_65610314",
-        "age": 2,
-        "sex": "filly",
-        "trainer": "Richard Hannon",
-        "trainer_id": "trn_259083",
-        "jockey": "Sean Levey",
-        "jockey_id": "jky_253908",
-        "draw": 5,
-        "number": 5,
-        "lbs": 128,
-        "ofr": "-",
-        "last_run": 20,
-        "form": "4",
-        "headgear": "",
-        "_stored_at": "2026-07-02T04:58:37.320355+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12003888",
-        "course": "Lingfield (AW)",
-        "date": "2026-07-13",
-        "off_time": "6:10",
-        "off_dt": "2026-07-13T18:10:00+01:00",
-        "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
-        "distance_f": 7.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Standard",
-        "surface": "AW",
-        "field_size": 9,
-        "horse": "Gravastar",
-        "horse_id": "hrs_65610314",
-        "age": 2,
-        "sex": "filly",
-        "trainer": "Richard Hannon",
-        "trainer_id": "trn_259083",
-        "jockey": "David Probert",
-        "jockey_id": "jky_258039",
-        "draw": 10,
-        "number": 12,
-        "lbs": 125,
-        "ofr": "-",
-        "last_run": 11,
-        "form": "40",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Newbury",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 6.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 2
-    },
-    "course_suitability_score": 55,
-    "distance_suitability_score": 55,
-    "going_suitability_score": 55,
-    "class_suitability_score": 90,
-    "suitability_score": 64,
-    "horse_intelligence_score": 49,
-    "profile_strengths": [
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Course does not strongly match stored profile",
-      "Distance not yet a clear profile strength",
-      "Going is not clearly proven from stored profile",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Lingfield (AW)",
-      "latest_distance_f": 7.0,
-      "latest_going": "Standard",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 66,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
+    "latest_result_position": 5,
+    "latest_result_sp": "25/1",
+    "latest_result_won": false,
+    "latest_result_placed": false,
+    "latest_result_date": "2026-07-13"
   },
   "runners": [
+    {
+      "horse": "Norfolk Dream",
+      "horse_id": "hrs_66655435",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Lingfield (AW)",
+      "latest_time": "6:10",
+      "latest_race": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+      "latest_date": "2026-07-13",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 4",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "William Knight",
+      "latest_jockey": "Taylor Fisher",
+      "latest_draw": 1,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Lingfield (AW)": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Standard": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "William Knight": 1
+      },
+      "jockeys_seen": {
+        "Taylor Fisher": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 54,
+      "latest_notes": [
+        "Helpful draw",
+        "Race class strength +2",
+        "Stable flying +4 (6/11 last 14 days)",
+        "Jockey flying +4 (3/5 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12003888",
+          "course": "Lingfield (AW)",
+          "date": "2026-07-13",
+          "off_time": "6:10",
+          "off_dt": "2026-07-13T18:10:00+01:00",
+          "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+          "distance_f": 7.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 9,
+          "horse": "Norfolk Dream",
+          "horse_id": "hrs_66655435",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "William Knight",
+          "trainer_id": "trn_161694",
+          "jockey": "Taylor Fisher",
+          "jockey_id": "jky_305277",
+          "draw": 1,
+          "number": 10,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Lingfield",
+        "race_time": "18:10",
+        "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+        "race_id": "p-1574266",
+        "status": "PostEvent",
+        "finish_position": 8,
+        "sp": "16/1",
+        "favourite_position": 4,
+        "going": "Standard",
+        "distance": "7f 2y",
+        "field_size": 9,
+        "trainer": "W J Knight",
+        "jockey": "Taylor Fisher",
+        "distance_beaten": "26L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-13T21:08:01"
+      },
+      "latest_result_position": 8,
+      "latest_result_sp": "16/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-13",
+      "favourite_course": {
+        "value": "Lingfield (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 51,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Lingfield (AW)",
+        "latest_distance_f": 7.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 54,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Ardad Steve",
       "horse_id": "hrs_63811062",
@@ -554,7 +743,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Lingfield",
+        "race_time": "18:10",
+        "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+        "race_id": "p-1574266",
+        "status": "PostEvent",
+        "finish_position": 1,
+        "sp": "5/2",
+        "favourite_position": 2,
+        "going": "Standard",
+        "distance": "7f 2y",
+        "field_size": 9,
+        "trainer": "Eve Johnson Houghton",
+        "jockey": "Charles Bishop",
+        "distance_beaten": "-",
+        "won": true,
+        "placed": true,
+        "attached_at": "2026-07-13T21:08:01"
+      },
+      "latest_result_position": 1,
+      "latest_result_sp": "5/2",
+      "latest_result_won": true,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-13"
     },
     {
       "horse": "Cracking Idea",
@@ -680,13 +895,39 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Lingfield",
+        "race_time": "18:10",
+        "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+        "race_id": "p-1574266",
+        "status": "PostEvent",
+        "finish_position": 5,
+        "sp": "25/1",
+        "favourite_position": 6,
+        "going": "Standard",
+        "distance": "7f 2y",
+        "field_size": 9,
+        "trainer": "E A L Dunlop",
+        "jockey": "Billy Loughnane",
+        "distance_beaten": "4ÃÂ½L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-13T21:08:01"
+      },
+      "latest_result_position": 5,
+      "latest_result_sp": "25/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-13"
     },
     {
-      "horse": "Gravastar",
-      "horse_id": "hrs_65610314",
+      "horse": "Nakila Sun",
+      "horse_id": "hrs_65190559",
       "age": 2,
-      "sex": "filly",
+      "sex": "colt",
       "latest_course": "Lingfield (AW)",
       "latest_time": "6:10",
       "latest_race": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
@@ -695,82 +936,43 @@
       "latest_class": "Class 4",
       "latest_going": "Standard",
       "latest_surface": "AW",
-      "latest_trainer": "Richard Hannon",
-      "latest_jockey": "David Probert",
-      "latest_draw": 10,
-      "latest_weight_lbs": 125,
+      "latest_trainer": "Andrew Balding",
+      "latest_jockey": "Callum Hutchinson",
+      "latest_draw": 11,
+      "latest_weight_lbs": 130,
       "official_rating": "-",
-      "recent_form": "40",
-      "last_run_days": 11,
-      "profile_runs": 2,
+      "recent_form": "6",
+      "last_run_days": 44,
+      "profile_runs": 1,
       "courses_seen": {
-        "Newbury": 1,
         "Lingfield (AW)": 1
       },
       "distances_seen": {
-        "6.0": 1,
         "7.0": 1
       },
       "goings_seen": {
-        "Good To Firm": 1,
         "Standard": 1
       },
       "classes_seen": {
-        "Class 4": 2
+        "Class 4": 1
       },
       "trainers_seen": {
-        "Richard Hannon": 2
+        "Andrew Balding": 1
       },
       "jockeys_seen": {
-        "Sean Levey": 1,
-        "David Probert": 1
+        "Callum Hutchinson": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 66,
+      "latest_pulse_score": 51,
       "latest_notes": [
-        "Positive recent form",
+        "Weak recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
         "Race class strength +2",
-        "Trainer bonus +3",
-        "Stable in form +2 (2/6 last 14 days)",
-        "Jockey bonus +3",
-        "Jockey in form +2 (2/4 last 14 days)"
+        "Stable flying +4 (8/14 last 14 days)",
+        "Jockey flying +4 (12/14 last 14 days)"
       ],
       "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988665",
-          "course": "Newbury",
-          "date": "2026-07-02",
-          "off_time": "6:50",
-          "off_dt": "2026-07-02T18:50:00+01:00",
-          "race_name": "Gracelands EBF Fillies' Novice Stakes (GBB Race)",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Gravastar",
-          "horse_id": "hrs_65610314",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Richard Hannon",
-          "trainer_id": "trn_259083",
-          "jockey": "Sean Levey",
-          "jockey_id": "jky_253908",
-          "draw": 5,
-          "number": 5,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 20,
-          "form": "4",
-          "headgear": "",
-          "_stored_at": "2026-07-02T04:58:37.320355+00:00"
-        },
         {
           "source": "the_racing_api",
           "race_id": "rac_12003888",
@@ -785,56 +987,79 @@
           "going": "Standard",
           "surface": "AW",
           "field_size": 9,
-          "horse": "Gravastar",
-          "horse_id": "hrs_65610314",
+          "horse": "Nakila Sun",
+          "horse_id": "hrs_65190559",
           "age": 2,
-          "sex": "filly",
-          "trainer": "Richard Hannon",
-          "trainer_id": "trn_259083",
-          "jockey": "David Probert",
-          "jockey_id": "jky_258039",
-          "draw": 10,
-          "number": 12,
-          "lbs": 125,
+          "sex": "colt",
+          "trainer": "Andrew Balding",
+          "trainer_id": "trn_140445",
+          "jockey": "Callum Hutchinson",
+          "jockey_id": "jky_301080",
+          "draw": 11,
+          "number": 7,
+          "lbs": 130,
           "ofr": "-",
-          "last_run": 11,
-          "form": "40",
+          "last_run": 44,
+          "form": "6",
           "headgear": ""
         }
       ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
+      "profile_notes": [],
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Lingfield",
+        "race_time": "18:10",
+        "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+        "race_id": "p-1574266",
+        "status": "PostEvent",
+        "finish_position": 2,
+        "sp": "10/1",
+        "favourite_position": 3,
+        "going": "Standard",
+        "distance": "7f 2y",
+        "field_size": 9,
+        "trainer": "A M Balding",
+        "jockey": "Callum Hutchinson",
+        "distance_beaten": "Nose",
+        "won": false,
+        "placed": true,
+        "attached_at": "2026-07-13T21:08:01"
+      },
+      "latest_result_position": 2,
+      "latest_result_sp": "10/1",
+      "latest_result_won": false,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-13",
       "favourite_course": {
-        "value": "Newbury",
+        "value": "Lingfield (AW)",
         "runs": 1
       },
       "favourite_distance": {
-        "value": 6.0,
+        "value": 7.0,
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good To Firm",
+        "value": "Standard",
         "runs": 1
       },
       "favourite_class": {
         "value": "Class 4",
-        "runs": 2
+        "runs": 1
       },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 55,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 64,
-      "horse_intelligence_score": 49,
+      "suitability_score": 90,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -843,10 +1068,10 @@
         "latest_distance_f": 7.0,
         "latest_going": "Standard",
         "latest_class": "Class 4",
-        "latest_pulse_score": 66,
+        "latest_pulse_score": 51,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 1,
+        "runs_count": 1
       }
     },
     {
@@ -970,13 +1195,39 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Lingfield",
+        "race_time": "18:10",
+        "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+        "race_id": "p-1574266",
+        "status": "PostEvent",
+        "finish_position": 7,
+        "sp": "18/1",
+        "favourite_position": 5,
+        "going": "Standard",
+        "distance": "7f 2y",
+        "field_size": 9,
+        "trainer": "Harry Eustace",
+        "jockey": "K Shoemark",
+        "distance_beaten": "7L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-13T21:08:01"
+      },
+      "latest_result_position": 7,
+      "latest_result_sp": "18/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-13"
     },
     {
-      "horse": "Aphra Behn",
-      "horse_id": "hrs_60821145",
+      "horse": "Taseem",
+      "horse_id": "hrs_63809473",
       "age": 2,
-      "sex": "filly",
+      "sex": "gelding",
       "latest_course": "Lingfield (AW)",
       "latest_time": "6:10",
       "latest_race": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
@@ -985,169 +1236,77 @@
       "latest_class": "Class 4",
       "latest_going": "Standard",
       "latest_surface": "AW",
-      "latest_trainer": "Ralph Beckett",
-      "latest_jockey": "Rossa Ryan",
-      "latest_draw": 4,
-      "latest_weight_lbs": 125,
-      "official_rating": "71",
-      "recent_form": "32",
-      "last_run_days": 18,
-      "profile_runs": 5,
+      "latest_trainer": "D Donovan",
+      "latest_jockey": "Paddy Bradley",
+      "latest_draw": 9,
+      "latest_weight_lbs": 130,
+      "official_rating": "32",
+      "recent_form": "607",
+      "last_run_days": 14,
+      "profile_runs": 2,
       "courses_seen": {
-        "Newcastle (AW)": 4,
+        "Kempton (AW)": 1,
         "Lingfield (AW)": 1
       },
       "distances_seen": {
-        "7.0": 5
+        "7.0": 2
       },
       "goings_seen": {
-        "Standard To Slow": 4,
+        "Standard To Slow": 1,
         "Standard": 1
       },
       "classes_seen": {
-        "Class 4": 5
+        "Class 4": 2
       },
       "trainers_seen": {
-        "Ralph Beckett": 5
+        "D Donovan": 2
       },
       "jockeys_seen": {
-        "Edward Greatrex": 4,
-        "Rossa Ryan": 1
+        "J F Egan": 1,
+        "Paddy Bradley": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 57,
+      "latest_pulse_score": 45,
       "latest_notes": [
-        "Positive recent form",
+        "Weak recent form",
         "Good recent run timing",
-        "Helpful draw",
+        "Ideal layoff profile +2",
         "Race class strength +2",
-        "Trainer concern -2"
+        "Trainer concern -2",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
           "source": "the_racing_api",
-          "race_id": "rac_11978590",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-25",
-          "off_time": "4:22",
-          "off_dt": "2026-06-25T16:22:00+01:00",
-          "race_name": "True Colours Charity Restricted Maiden Stakes (GBB Race) (Div 1)",
+          "race_id": "rac_12008867",
+          "course": "Kempton (AW)",
+          "date": "2026-06-29",
+          "off_time": "6:15",
+          "off_dt": "2026-06-29T18:15:00+01:00",
+          "race_name": "Unibet/EBF Restricted Novice Stakes (GBB Race) (Div 2)",
           "distance_f": 7.0,
           "race_class": "Class 4",
           "race_type": "Flat",
           "going": "Standard To Slow",
           "surface": "AW",
           "field_size": 10,
-          "horse": "Aphra Behn",
-          "horse_id": "hrs_60821145",
+          "horse": "Taseem",
+          "horse_id": "hrs_63809473",
           "age": 2,
-          "sex": "filly",
-          "trainer": "Ralph Beckett",
-          "trainer_id": "trn_125253",
-          "jockey": "Edward Greatrex",
-          "jockey_id": "jky_282474",
-          "draw": 3,
-          "number": 7,
-          "lbs": 128,
+          "sex": "gelding",
+          "trainer": "D Donovan",
+          "trainer_id": "trn_193950",
+          "jockey": "J F Egan",
+          "jockey_id": "jky_7368",
+          "draw": 9,
+          "number": 6,
+          "lbs": 127,
           "ofr": "-",
-          "last_run": 16,
-          "form": "3",
+          "last_run": 24,
+          "form": "60",
           "headgear": "",
-          "_stored_at": "2026-06-25T14:16:20.098532+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978590",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-25",
-          "off_time": "4:22",
-          "off_dt": "2026-06-25T16:22:00+01:00",
-          "race_name": "True Colours Charity Restricted Maiden Stakes (GBB Race) (Div 1)",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 10,
-          "horse": "Aphra Behn",
-          "horse_id": "hrs_60821145",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Ralph Beckett",
-          "trainer_id": "trn_125253",
-          "jockey": "Edward Greatrex",
-          "jockey_id": "jky_282474",
-          "draw": 3,
-          "number": 7,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 16,
-          "form": "3",
-          "headgear": "",
-          "_stored_at": "2026-06-25T17:11:29.832739+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978590",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-25",
-          "off_time": "4:22",
-          "off_dt": "2026-06-25T16:22:00+01:00",
-          "race_name": "True Colours Charity Restricted Maiden Stakes (GBB Race) (Div 1)",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 10,
-          "horse": "Aphra Behn",
-          "horse_id": "hrs_60821145",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Ralph Beckett",
-          "trainer_id": "trn_125253",
-          "jockey": "Edward Greatrex",
-          "jockey_id": "jky_282474",
-          "draw": 3,
-          "number": 7,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 16,
-          "form": "3",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:07.661195+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978590",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-25",
-          "off_time": "4:22",
-          "off_dt": "2026-06-25T16:22:00+01:00",
-          "race_name": "True Colours Charity Restricted Maiden Stakes (GBB Race) (Div 1)",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 10,
-          "horse": "Aphra Behn",
-          "horse_id": "hrs_60821145",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Ralph Beckett",
-          "trainer_id": "trn_125253",
-          "jockey": "Edward Greatrex",
-          "jockey_id": "jky_282474",
-          "draw": 3,
-          "number": 7,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 16,
-          "form": "3",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:17.210558+00:00"
+          "_stored_at": "2026-06-29T11:41:30.872038+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1163,55 +1322,82 @@
           "going": "Standard",
           "surface": "AW",
           "field_size": 9,
-          "horse": "Aphra Behn",
-          "horse_id": "hrs_60821145",
+          "horse": "Taseem",
+          "horse_id": "hrs_63809473",
           "age": 2,
-          "sex": "filly",
-          "trainer": "Ralph Beckett",
-          "trainer_id": "trn_125253",
-          "jockey": "Rossa Ryan",
-          "jockey_id": "jky_287232",
-          "draw": 4,
-          "number": 11,
-          "lbs": 125,
-          "ofr": "71",
-          "last_run": 18,
-          "form": "32",
-          "headgear": ""
+          "sex": "gelding",
+          "trainer": "D Donovan",
+          "trainer_id": "trn_193950",
+          "jockey": "Paddy Bradley",
+          "jockey_id": "jky_276828",
+          "draw": 9,
+          "number": 8,
+          "lbs": 130,
+          "ofr": "32",
+          "last_run": 14,
+          "form": "607",
+          "headgear": "h"
         }
       ],
       "profile_notes": [
-        "Profile has multiple stored runs"
+        "Recent run timing"
       ],
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Lingfield",
+        "race_time": "18:10",
+        "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+        "race_id": "p-1574266",
+        "status": "PostEvent",
+        "finish_position": 9,
+        "sp": "200/1",
+        "favourite_position": 9,
+        "going": "Standard",
+        "distance": "7f 2y",
+        "field_size": 9,
+        "trainer": "D Donovan",
+        "jockey": "Paddy Bradley",
+        "distance_beaten": "8L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-13T21:08:01"
+      },
+      "latest_result_position": 9,
+      "latest_result_sp": "200/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-13",
       "favourite_course": {
-        "value": "Newcastle (AW)",
-        "runs": 4
+        "value": "Kempton (AW)",
+        "runs": 1
       },
       "favourite_distance": {
         "value": 7.0,
-        "runs": 5
+        "runs": 2
       },
       "favourite_going": {
         "value": "Standard To Slow",
-        "runs": 4
+        "runs": 1
       },
       "favourite_class": {
         "value": "Class 4",
-        "runs": 5
+        "runs": 2
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
       "going_suitability_score": 55,
       "class_suitability_score": 90,
       "suitability_score": 72,
-      "horse_intelligence_score": 47,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
         "Today's distance matches strongest profile pattern",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile"
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -1219,17 +1405,17 @@
         "latest_distance_f": 7.0,
         "latest_going": "Standard",
         "latest_class": "Class 4",
-        "latest_pulse_score": 57,
+        "latest_pulse_score": 45,
         "average_pulse_score": 0,
-        "profile_runs": 5,
-        "runs_count": 5
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
-      "horse": "Crown Velocity",
-      "horse_id": "hrs_64555484",
+      "horse": "Quest For Glory",
+      "horse_id": "hrs_66160899",
       "age": 2,
-      "sex": "filly",
+      "sex": "gelding",
       "latest_course": "Lingfield (AW)",
       "latest_time": "6:10",
       "latest_race": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
@@ -1238,140 +1424,72 @@
       "latest_class": "Class 4",
       "latest_going": "Standard",
       "latest_surface": "AW",
-      "latest_trainer": "Charlie Fellowes",
-      "latest_jockey": "Paddy Bradley",
-      "latest_draw": 3,
-      "latest_weight_lbs": 128,
+      "latest_trainer": "Georgina Nicholls",
+      "latest_jockey": "Harry Vigors(5)",
+      "latest_draw": 5,
+      "latest_weight_lbs": 133,
       "official_rating": "-",
-      "recent_form": "8",
-      "last_run_days": 17,
-      "profile_runs": 4,
+      "recent_form": "4",
+      "last_run_days": 14,
+      "profile_runs": 2,
       "courses_seen": {
-        "Yarmouth": 2,
-        "Epsom Downs": 1,
+        "Kempton (AW)": 1,
         "Lingfield (AW)": 1
       },
       "distances_seen": {
-        "6.0": 2,
         "7.0": 2
       },
       "goings_seen": {
-        "Good To Firm": 3,
+        "Standard To Slow": 1,
         "Standard": 1
       },
       "classes_seen": {
-        "Class 5": 2,
         "Class 4": 2
       },
       "trainers_seen": {
-        "Charlie Fellowes": 4
+        "Georgina Nicholls": 2
       },
       "jockeys_seen": {
-        "Stevie Donohoe": 2,
-        "Paddy Bradley": 2
+        "Harry Vigors(5)": 2
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 50,
+      "latest_pulse_score": 44,
       "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Race class strength +2",
-        "Trainer bonus +1",
-        "Stable in form +2 (1/4 last 14 days)"
+        "Helpful draw",
+        "Race class strength +2"
       ],
       "runs": [
         {
           "source": "the_racing_api",
-          "race_id": "rac_11977628",
-          "course": "Yarmouth",
-          "date": "2026-06-26",
-          "off_time": "11:00",
-          "off_dt": "2026-06-26T11:00:00+01:00",
-          "race_name": "First Furnishings' Front Runners Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Crown Velocity",
-          "horse_id": "hrs_64555484",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Charlie Fellowes",
-          "trainer_id": "trn_260217",
-          "jockey": "Stevie Donohoe",
-          "jockey_id": "jky_241263",
-          "draw": 6,
-          "number": 3,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:11.944810+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977628",
-          "course": "Yarmouth",
-          "date": "2026-06-26",
-          "off_time": "11:00",
-          "off_dt": "2026-06-26T11:00:00+01:00",
-          "race_name": "First Furnishings' Front Runners Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Crown Velocity",
-          "horse_id": "hrs_64555484",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Charlie Fellowes",
-          "trainer_id": "trn_260217",
-          "jockey": "Stevie Donohoe",
-          "jockey_id": "jky_241263",
-          "draw": 6,
-          "number": 3,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:25.331117+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990589",
-          "course": "Epsom Downs",
-          "date": "2026-07-09",
-          "off_time": "6:40",
-          "off_dt": "2026-07-09T18:40:00+01:00",
-          "race_name": "Betfred 'The Classic Bookmaker' EBF Restricted Maiden Fillies' Stakes (GBB Race)",
+          "race_id": "rac_12008867",
+          "course": "Kempton (AW)",
+          "date": "2026-06-29",
+          "off_time": "6:15",
+          "off_dt": "2026-06-29T18:15:00+01:00",
+          "race_name": "Unibet/EBF Restricted Novice Stakes (GBB Race) (Div 2)",
           "distance_f": 7.0,
           "race_class": "Class 4",
           "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Crown Velocity",
-          "horse_id": "hrs_64555484",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 10,
+          "horse": "Quest For Glory",
+          "horse_id": "hrs_66160899",
           "age": 2,
-          "sex": "filly",
-          "trainer": "Charlie Fellowes",
-          "trainer_id": "trn_260217",
-          "jockey": "Paddy Bradley",
-          "jockey_id": "jky_276828",
-          "draw": 9,
-          "number": 3,
-          "lbs": 128,
+          "sex": "gelding",
+          "trainer": "Georgina Nicholls",
+          "trainer_id": "trn_131229",
+          "jockey": "Harry Vigors(5)",
+          "jockey_id": "jky_314370",
+          "draw": 4,
+          "number": 4,
+          "lbs": 130,
           "ofr": "-",
-          "last_run": 13,
-          "form": "8",
-          "headgear": ""
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-06-29T11:41:30.821881+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1387,54 +1505,82 @@
           "going": "Standard",
           "surface": "AW",
           "field_size": 9,
-          "horse": "Crown Velocity",
-          "horse_id": "hrs_64555484",
+          "horse": "Quest For Glory",
+          "horse_id": "hrs_66160899",
           "age": 2,
-          "sex": "filly",
-          "trainer": "Charlie Fellowes",
-          "trainer_id": "trn_260217",
-          "jockey": "Paddy Bradley",
-          "jockey_id": "jky_276828",
-          "draw": 3,
-          "number": null,
-          "lbs": 128,
+          "sex": "gelding",
+          "trainer": "Georgina Nicholls",
+          "trainer_id": "trn_131229",
+          "jockey": "Harry Vigors(5)",
+          "jockey_id": "jky_314370",
+          "draw": 5,
+          "number": 5,
+          "lbs": 133,
           "ofr": "-",
-          "last_run": 17,
-          "form": "8",
+          "last_run": 14,
+          "form": "4",
           "headgear": ""
         }
       ],
       "profile_notes": [
-        "Profile has multiple stored runs",
-        "Low draw today"
+        "Recent run timing"
       ],
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Lingfield",
+        "race_time": "18:10",
+        "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
+        "race_id": "p-1574266",
+        "status": "PostEvent",
+        "finish_position": 3,
+        "sp": "40/1",
+        "favourite_position": 7,
+        "going": "Standard",
+        "distance": "7f 2y",
+        "field_size": 9,
+        "trainer": "G Nicholls",
+        "jockey": "Harry Vigors",
+        "distance_beaten": "ÃÂ¾L",
+        "won": false,
+        "placed": true,
+        "attached_at": "2026-07-13T21:08:01"
+      },
+      "latest_result_position": 3,
+      "latest_result_sp": "40/1",
+      "latest_result_won": false,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-13",
       "favourite_course": {
-        "value": "Yarmouth",
-        "runs": 2
+        "value": "Kempton (AW)",
+        "runs": 1
       },
       "favourite_distance": {
-        "value": 6.0,
+        "value": 7.0,
         "runs": 2
       },
       "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 3
+        "value": "Standard To Slow",
+        "runs": 1
       },
       "favourite_class": {
-        "value": "Class 5",
+        "value": "Class 4",
         "runs": 2
       },
       "course_suitability_score": 55,
-      "distance_suitability_score": 55,
+      "distance_suitability_score": 90,
       "going_suitability_score": 55,
-      "class_suitability_score": 55,
-      "suitability_score": 55,
-      "horse_intelligence_score": 39,
-      "profile_strengths": [],
+      "class_suitability_score": 90,
+      "suitability_score": 72,
+      "horse_intelligence_score": 41,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile"
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -1442,10 +1588,10 @@
         "latest_distance_f": 7.0,
         "latest_going": "Standard",
         "latest_class": "Class 4",
-        "latest_pulse_score": 50,
+        "latest_pulse_score": 44,
         "average_pulse_score": 0,
-        "profile_runs": 4,
-        "runs_count": 4
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -1697,414 +1843,12 @@
         "profile_runs": 1,
         "runs_count": 1
       }
-    },
-    {
-      "horse": "Nakila Sun",
-      "horse_id": "hrs_65190559",
-      "age": 2,
-      "sex": "colt",
-      "latest_course": "Lingfield (AW)",
-      "latest_time": "6:10",
-      "latest_race": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 4",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Andrew Balding",
-      "latest_jockey": "Callum Hutchinson",
-      "latest_draw": 11,
-      "latest_weight_lbs": 130,
-      "official_rating": "-",
-      "recent_form": "6",
-      "last_run_days": 44,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Lingfield (AW)": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Andrew Balding": 1
-      },
-      "jockeys_seen": {
-        "Callum Hutchinson": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Race class strength +2",
-        "Stable flying +4 (8/14 last 14 days)",
-        "Jockey flying +4 (12/14 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12003888",
-          "course": "Lingfield (AW)",
-          "date": "2026-07-13",
-          "off_time": "6:10",
-          "off_dt": "2026-07-13T18:10:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 9,
-          "horse": "Nakila Sun",
-          "horse_id": "hrs_65190559",
-          "age": 2,
-          "sex": "colt",
-          "trainer": "Andrew Balding",
-          "trainer_id": "trn_140445",
-          "jockey": "Callum Hutchinson",
-          "jockey_id": "jky_301080",
-          "draw": 11,
-          "number": 7,
-          "lbs": 130,
-          "ofr": "-",
-          "last_run": 44,
-          "form": "6",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Norfolk Dream",
-      "horse_id": "hrs_66655435",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Lingfield (AW)",
-      "latest_time": "6:10",
-      "latest_race": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 4",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "William Knight",
-      "latest_jockey": "Taylor Fisher",
-      "latest_draw": 1,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Lingfield (AW)": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "William Knight": 1
-      },
-      "jockeys_seen": {
-        "Taylor Fisher": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Helpful draw",
-        "Race class strength +2",
-        "Stable flying +4 (6/11 last 14 days)",
-        "Jockey flying +4 (3/5 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12003888",
-          "course": "Lingfield (AW)",
-          "date": "2026-07-13",
-          "off_time": "6:10",
-          "off_dt": "2026-07-13T18:10:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 9,
-          "horse": "Norfolk Dream",
-          "horse_id": "hrs_66655435",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "William Knight",
-          "trainer_id": "trn_161694",
-          "jockey": "Taylor Fisher",
-          "jockey_id": "jky_305277",
-          "draw": 1,
-          "number": 10,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ]
-    },
-    {
-      "horse": "Quest For Glory",
-      "horse_id": "hrs_66160899",
-      "age": 2,
-      "sex": "gelding",
-      "latest_course": "Lingfield (AW)",
-      "latest_time": "6:10",
-      "latest_race": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 4",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Georgina Nicholls",
-      "latest_jockey": "Harry Vigors(5)",
-      "latest_draw": 5,
-      "latest_weight_lbs": 133,
-      "official_rating": "-",
-      "recent_form": "4",
-      "last_run_days": 14,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Kempton (AW)": 1,
-        "Lingfield (AW)": 1
-      },
-      "distances_seen": {
-        "7.0": 2
-      },
-      "goings_seen": {
-        "Standard To Slow": 1,
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 4": 2
-      },
-      "trainers_seen": {
-        "Georgina Nicholls": 2
-      },
-      "jockeys_seen": {
-        "Harry Vigors(5)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Helpful draw",
-        "Race class strength +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008867",
-          "course": "Kempton (AW)",
-          "date": "2026-06-29",
-          "off_time": "6:15",
-          "off_dt": "2026-06-29T18:15:00+01:00",
-          "race_name": "Unibet/EBF Restricted Novice Stakes (GBB Race) (Div 2)",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 10,
-          "horse": "Quest For Glory",
-          "horse_id": "hrs_66160899",
-          "age": 2,
-          "sex": "gelding",
-          "trainer": "Georgina Nicholls",
-          "trainer_id": "trn_131229",
-          "jockey": "Harry Vigors(5)",
-          "jockey_id": "jky_314370",
-          "draw": 4,
-          "number": 4,
-          "lbs": 130,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:30.821881+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12003888",
-          "course": "Lingfield (AW)",
-          "date": "2026-07-13",
-          "off_time": "6:10",
-          "off_dt": "2026-07-13T18:10:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 9,
-          "horse": "Quest For Glory",
-          "horse_id": "hrs_66160899",
-          "age": 2,
-          "sex": "gelding",
-          "trainer": "Georgina Nicholls",
-          "trainer_id": "trn_131229",
-          "jockey": "Harry Vigors(5)",
-          "jockey_id": "jky_314370",
-          "draw": 5,
-          "number": 5,
-          "lbs": 133,
-          "ofr": "-",
-          "last_run": 14,
-          "form": "4",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ]
-    },
-    {
-      "horse": "Taseem",
-      "horse_id": "hrs_63809473",
-      "age": 2,
-      "sex": "gelding",
-      "latest_course": "Lingfield (AW)",
-      "latest_time": "6:10",
-      "latest_race": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 4",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "D Donovan",
-      "latest_jockey": "Paddy Bradley",
-      "latest_draw": 9,
-      "latest_weight_lbs": 130,
-      "official_rating": "32",
-      "recent_form": "607",
-      "last_run_days": 14,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Kempton (AW)": 1,
-        "Lingfield (AW)": 1
-      },
-      "distances_seen": {
-        "7.0": 2
-      },
-      "goings_seen": {
-        "Standard To Slow": 1,
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 4": 2
-      },
-      "trainers_seen": {
-        "D Donovan": 2
-      },
-      "jockeys_seen": {
-        "J F Egan": 1,
-        "Paddy Bradley": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +2",
-        "Trainer concern -2",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008867",
-          "course": "Kempton (AW)",
-          "date": "2026-06-29",
-          "off_time": "6:15",
-          "off_dt": "2026-06-29T18:15:00+01:00",
-          "race_name": "Unibet/EBF Restricted Novice Stakes (GBB Race) (Div 2)",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 10,
-          "horse": "Taseem",
-          "horse_id": "hrs_63809473",
-          "age": 2,
-          "sex": "gelding",
-          "trainer": "D Donovan",
-          "trainer_id": "trn_193950",
-          "jockey": "J F Egan",
-          "jockey_id": "jky_7368",
-          "draw": 9,
-          "number": 6,
-          "lbs": 127,
-          "ofr": "-",
-          "last_run": 24,
-          "form": "60",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:30.872038+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12003888",
-          "course": "Lingfield (AW)",
-          "date": "2026-07-13",
-          "off_time": "6:10",
-          "off_dt": "2026-07-13T18:10:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 EBF Restricted Maiden Stakes (GBB Race)",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 9,
-          "horse": "Taseem",
-          "horse_id": "hrs_63809473",
-          "age": 2,
-          "sex": "gelding",
-          "trainer": "D Donovan",
-          "trainer_id": "trn_193950",
-          "jockey": "Paddy Bradley",
-          "jockey_id": "jky_276828",
-          "draw": 9,
-          "number": 8,
-          "lbs": 130,
-          "ofr": "32",
-          "last_run": 14,
-          "form": "607",
-          "headgear": "h"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ]
     }
   ],
   "notes": [
-    "Ardad Steve is the top-rated Pulse IQ runner.",
+    "Norfolk Dream is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Gravastar is flagged as a possible dark horse."
+    "Cracking Idea is flagged as a possible dark horse."
   ]
 }
