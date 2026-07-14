@@ -5,14 +5,171 @@
   "time": "4:00",
   "race_name": "Sun Racing Summer Jumps Championship Handicap Chase (GBB Race)",
   "field_size": 4,
-  "average_intelligence": 37.5,
-  "top_score": 62,
-  "second_score": 57,
-  "gap": 5,
-  "confidence_score": 52,
-  "confidence": "LOW",
+  "average_intelligence": 54.5,
+  "top_score": 68,
+  "second_score": 62,
+  "gap": 6,
+  "confidence_score": 61,
+  "confidence": "MEDIUM",
   "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
+    "horse": "Regal Renaissance",
+    "horse_id": "hrs_30138220",
+    "age": 8,
+    "sex": "mare",
+    "latest_course": "Market Rasen",
+    "latest_time": "4:00",
+    "latest_race": "Sun Racing Summer Jumps Championship Handicap Chase (GBB Race)",
+    "latest_date": "2026-07-05",
+    "latest_distance_f": 21.5,
+    "latest_class": "Class 3",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Jack Jones",
+    "latest_jockey": "Sean Bowen",
+    "latest_draw": 0,
+    "latest_weight_lbs": 159,
+    "official_rating": "118",
+    "recent_form": "F42-11",
+    "last_run_days": 31,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Market Rasen": 1
+    },
+    "distances_seen": {
+      "21.5": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 3": 1
+    },
+    "trainers_seen": {
+      "Jack Jones": 1
+    },
+    "jockeys_seen": {
+      "Sean Bowen": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 90,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +4",
+      "Trainer bonus +1",
+      "Jockey bonus +3",
+      "Jockey in form +2 (1/5 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11987521",
+        "course": "Market Rasen",
+        "date": "2026-07-05",
+        "off_time": "4:00",
+        "off_dt": "2026-07-05T16:00:00+01:00",
+        "race_name": "Sun Racing Summer Jumps Championship Handicap Chase (GBB Race)",
+        "distance_f": 21.5,
+        "race_class": "Class 3",
+        "race_type": "Chase",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 3,
+        "horse": "Regal Renaissance",
+        "horse_id": "hrs_30138220",
+        "age": 8,
+        "sex": "mare",
+        "trainer": "Jack Jones",
+        "trainer_id": "trn_355347",
+        "jockey": "Sean Bowen",
+        "jockey_id": "jky_279558",
+        "draw": 0,
+        "number": 3,
+        "lbs": 159,
+        "ofr": "118",
+        "last_run": 31,
+        "form": "F42-11",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
+    "latest_result": {
+      "source": "sporting_life_enriched",
+      "result_date": "2026-07-05",
+      "course": "Market Rasen",
+      "race_time": "15:00",
+      "race_name": "Sun Racing Summer Jumps Championship Handicap Chase (GBB Race)",
+      "race_id": "rac_11987521",
+      "status": null,
+      "finish_position": 1,
+      "sp": "2/1",
+      "favourite_position": null,
+      "going": "Good",
+      "distance": "2m 5f 89y",
+      "field_size": "3",
+      "trainer": "Jack Jones",
+      "jockey": "Sean Bowen",
+      "distance_beaten": null,
+      "won": true,
+      "placed": true,
+      "attached_at": "2026-07-13T21:08:00"
+    },
+    "latest_result_position": 1,
+    "latest_result_sp": "2/1",
+    "latest_result_won": true,
+    "latest_result_placed": true,
+    "latest_result_date": "2026-07-05",
+    "favourite_course": {
+      "value": "Market Rasen",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 21.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 3",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 68,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Market Rasen",
+      "latest_distance_f": 21.5,
+      "latest_going": "Good",
+      "latest_class": "Class 3",
+      "latest_pulse_score": 90,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Gateau De Miel",
     "horse_id": "hrs_23047969",
     "age": 10,
@@ -139,137 +296,10 @@
       "runs_count": 1
     }
   },
-  "main_threat": {
-    "horse": "Fringill Dike",
-    "horse_id": "hrs_24028739",
-    "age": 9,
-    "sex": "gelding",
-    "latest_course": "Market Rasen",
-    "latest_time": "4:00",
-    "latest_race": "Sun Racing Summer Jumps Championship Handicap Chase (GBB Race)",
-    "latest_date": "2026-07-05",
-    "latest_distance_f": 21.5,
-    "latest_class": "Class 3",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Jedd O'Keeffe",
-    "latest_jockey": "Sean Quinlan",
-    "latest_draw": 0,
-    "latest_weight_lbs": 168,
-    "official_rating": "127",
-    "recent_form": "544-61",
-    "last_run_days": 23,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Market Rasen": 1
-    },
-    "distances_seen": {
-      "21.5": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 3": 1
-    },
-    "trainers_seen": {
-      "Jedd O'Keeffe": 1
-    },
-    "jockeys_seen": {
-      "Sean Quinlan": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 67,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +4",
-      "Jockey bonus +1"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11987521",
-        "course": "Market Rasen",
-        "date": "2026-07-05",
-        "off_time": "4:00",
-        "off_dt": "2026-07-05T16:00:00+01:00",
-        "race_name": "Sun Racing Summer Jumps Championship Handicap Chase (GBB Race)",
-        "distance_f": 21.5,
-        "race_class": "Class 3",
-        "race_type": "Chase",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 3,
-        "horse": "Fringill Dike",
-        "horse_id": "hrs_24028739",
-        "age": 9,
-        "sex": "gelding",
-        "trainer": "Jedd O'Keeffe",
-        "trainer_id": "trn_129015",
-        "jockey": "Sean Quinlan",
-        "jockey_id": "jky_247455",
-        "draw": 0,
-        "number": 1,
-        "lbs": 168,
-        "ofr": "127",
-        "last_run": 23,
-        "form": "544-61",
-        "headgear": "b"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Market Rasen",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 21.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 3",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 57,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Market Rasen",
-      "latest_distance_f": 21.5,
-      "latest_going": "Good",
-      "latest_class": "Class 3",
-      "latest_pulse_score": 67,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
   "dark_horse": {
-    "horse": "Fringill Dike",
-    "horse_id": "hrs_24028739",
-    "age": 9,
+    "horse": "Gateau De Miel",
+    "horse_id": "hrs_23047969",
+    "age": 10,
     "sex": "gelding",
     "latest_course": "Market Rasen",
     "latest_time": "4:00",
@@ -279,13 +309,13 @@
     "latest_class": "Class 3",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Jedd O'Keeffe",
-    "latest_jockey": "Sean Quinlan",
+    "latest_trainer": "Fergal O'Brien",
+    "latest_jockey": "Tom Broughton(3)",
     "latest_draw": 0,
-    "latest_weight_lbs": 168,
-    "official_rating": "127",
-    "recent_form": "544-61",
-    "last_run_days": 23,
+    "latest_weight_lbs": 155,
+    "official_rating": "114",
+    "recent_form": "P34-13",
+    "last_run_days": 16,
     "profile_runs": 1,
     "courses_seen": {
       "Market Rasen": 1
@@ -300,16 +330,16 @@
       "Class 3": 1
     },
     "trainers_seen": {
-      "Jedd O'Keeffe": 1
+      "Fergal O'Brien": 1
     },
     "jockeys_seen": {
-      "Sean Quinlan": 1
+      "Tom Broughton(3)": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 67,
+    "latest_pulse_score": 78,
     "latest_notes": [
-      "Positive recent form",
+      "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
@@ -331,21 +361,21 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 3,
-        "horse": "Fringill Dike",
-        "horse_id": "hrs_24028739",
-        "age": 9,
+        "horse": "Gateau De Miel",
+        "horse_id": "hrs_23047969",
+        "age": 10,
         "sex": "gelding",
-        "trainer": "Jedd O'Keeffe",
-        "trainer_id": "trn_129015",
-        "jockey": "Sean Quinlan",
-        "jockey_id": "jky_247455",
+        "trainer": "Fergal O'Brien",
+        "trainer_id": "trn_125874",
+        "jockey": "Tom Broughton(3)",
+        "jockey_id": "jky_281214",
         "draw": 0,
-        "number": 1,
-        "lbs": 168,
-        "ofr": "127",
-        "last_run": 23,
-        "form": "544-61",
-        "headgear": "b"
+        "number": 4,
+        "lbs": 155,
+        "ofr": "114",
+        "last_run": 16,
+        "form": "P34-13",
+        "headgear": "t"
       }
     ],
     "profile_notes": [],
@@ -370,7 +400,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 57,
+    "horse_intelligence_score": 62,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -387,13 +417,170 @@
       "latest_distance_f": 21.5,
       "latest_going": "Good",
       "latest_class": "Class 3",
-      "latest_pulse_score": 67,
+      "latest_pulse_score": 78,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Regal Renaissance",
+      "horse_id": "hrs_30138220",
+      "age": 8,
+      "sex": "mare",
+      "latest_course": "Market Rasen",
+      "latest_time": "4:00",
+      "latest_race": "Sun Racing Summer Jumps Championship Handicap Chase (GBB Race)",
+      "latest_date": "2026-07-05",
+      "latest_distance_f": 21.5,
+      "latest_class": "Class 3",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jack Jones",
+      "latest_jockey": "Sean Bowen",
+      "latest_draw": 0,
+      "latest_weight_lbs": 159,
+      "official_rating": "118",
+      "recent_form": "F42-11",
+      "last_run_days": 31,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Market Rasen": 1
+      },
+      "distances_seen": {
+        "21.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Jack Jones": 1
+      },
+      "jockeys_seen": {
+        "Sean Bowen": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 90,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4",
+        "Trainer bonus +1",
+        "Jockey bonus +3",
+        "Jockey in form +2 (1/5 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987521",
+          "course": "Market Rasen",
+          "date": "2026-07-05",
+          "off_time": "4:00",
+          "off_dt": "2026-07-05T16:00:00+01:00",
+          "race_name": "Sun Racing Summer Jumps Championship Handicap Chase (GBB Race)",
+          "distance_f": 21.5,
+          "race_class": "Class 3",
+          "race_type": "Chase",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 3,
+          "horse": "Regal Renaissance",
+          "horse_id": "hrs_30138220",
+          "age": 8,
+          "sex": "mare",
+          "trainer": "Jack Jones",
+          "trainer_id": "trn_355347",
+          "jockey": "Sean Bowen",
+          "jockey_id": "jky_279558",
+          "draw": 0,
+          "number": 3,
+          "lbs": 159,
+          "ofr": "118",
+          "last_run": 31,
+          "form": "F42-11",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
+      "latest_result": {
+        "source": "sporting_life_enriched",
+        "result_date": "2026-07-05",
+        "course": "Market Rasen",
+        "race_time": "15:00",
+        "race_name": "Sun Racing Summer Jumps Championship Handicap Chase (GBB Race)",
+        "race_id": "rac_11987521",
+        "status": null,
+        "finish_position": 1,
+        "sp": "2/1",
+        "favourite_position": null,
+        "going": "Good",
+        "distance": "2m 5f 89y",
+        "field_size": "3",
+        "trainer": "Jack Jones",
+        "jockey": "Sean Bowen",
+        "distance_beaten": null,
+        "won": true,
+        "placed": true,
+        "attached_at": "2026-07-13T21:08:00"
+      },
+      "latest_result_position": 1,
+      "latest_result_sp": "2/1",
+      "latest_result_won": true,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-05",
+      "favourite_course": {
+        "value": "Market Rasen",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 21.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 68,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Market Rasen",
+        "latest_distance_f": 21.5,
+        "latest_going": "Good",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 90,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Gateau De Miel",
       "horse_id": "hrs_23047969",
@@ -778,99 +965,10 @@
         "profile_runs": 1,
         "runs_count": 1
       }
-    },
-    {
-      "horse": "Regal Renaissance",
-      "horse_id": "hrs_30138220",
-      "age": 8,
-      "sex": "mare",
-      "latest_course": "Market Rasen",
-      "latest_time": "4:00",
-      "latest_race": "Sun Racing Summer Jumps Championship Handicap Chase (GBB Race)",
-      "latest_date": "2026-07-05",
-      "latest_distance_f": 21.5,
-      "latest_class": "Class 3",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Jack Jones",
-      "latest_jockey": "Sean Bowen",
-      "latest_draw": 0,
-      "latest_weight_lbs": 159,
-      "official_rating": "118",
-      "recent_form": "F42-11",
-      "last_run_days": 31,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Market Rasen": 1
-      },
-      "distances_seen": {
-        "21.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "Jack Jones": 1
-      },
-      "jockeys_seen": {
-        "Sean Bowen": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 90,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +1",
-        "Jockey bonus +3",
-        "Jockey in form +2 (1/5 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987521",
-          "course": "Market Rasen",
-          "date": "2026-07-05",
-          "off_time": "4:00",
-          "off_dt": "2026-07-05T16:00:00+01:00",
-          "race_name": "Sun Racing Summer Jumps Championship Handicap Chase (GBB Race)",
-          "distance_f": 21.5,
-          "race_class": "Class 3",
-          "race_type": "Chase",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 3,
-          "horse": "Regal Renaissance",
-          "horse_id": "hrs_30138220",
-          "age": 8,
-          "sex": "mare",
-          "trainer": "Jack Jones",
-          "trainer_id": "trn_355347",
-          "jockey": "Sean Bowen",
-          "jockey_id": "jky_279558",
-          "draw": 0,
-          "number": 3,
-          "lbs": 159,
-          "ofr": "118",
-          "last_run": 31,
-          "form": "F42-11",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ]
     }
   ],
   "notes": [
-    "Gateau De Miel is the top-rated Pulse IQ runner.",
-    "This race has a generally weak profile strength.",
-    "Fringill Dike is flagged as a possible dark horse."
+    "Regal Renaissance is the top-rated Pulse IQ runner.",
+    "Gateau De Miel is flagged as a possible dark horse."
   ]
 }

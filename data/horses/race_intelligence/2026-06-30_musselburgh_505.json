@@ -4,14 +4,14 @@
   "course": "Musselburgh",
   "time": "5:05",
   "race_name": "Watch On Racing TV Handicap",
-  "field_size": 7,
-  "average_intelligence": 28.57,
+  "field_size": 8,
+  "average_intelligence": 49.12,
   "top_score": 57,
-  "second_score": 51,
-  "gap": 6,
+  "second_score": 54,
+  "gap": 3,
   "confidence_score": 49,
   "confidence": "LOW",
-  "race_shape": "COMPETITIVE EDGE",
+  "race_shape": "OPEN RACE",
   "top_runner": {
     "horse": "Auntie Jo",
     "horse_id": "hrs_41877675",
@@ -89,7 +89,7 @@
         "last_run": 10,
         "form": "449215",
         "headgear": "",
-        "_stored_at": "2026-06-30T05:14:26.313447+00:00"
+        "_stored_at": "2026-06-30T01:49:57.051316+00:00"
       }
     ],
     "profile_notes": [
@@ -140,6 +140,130 @@
     }
   },
   "main_threat": {
+    "horse": "Wee Mary",
+    "horse_id": "hrs_41629581",
+    "age": 4,
+    "sex": "filly",
+    "latest_course": "Musselburgh",
+    "latest_time": "5:05",
+    "latest_race": "Watch On Racing TV Handicap",
+    "latest_date": "2026-06-30",
+    "latest_distance_f": 5.0,
+    "latest_class": "Class 6",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Jim Goldie",
+    "latest_jockey": "Amie Waugh(3)",
+    "latest_draw": 8,
+    "latest_weight_lbs": 136,
+    "official_rating": "54",
+    "recent_form": "442162",
+    "last_run_days": 8,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Musselburgh": 1
+    },
+    "distances_seen": {
+      "5.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 6": 1
+    },
+    "trainers_seen": {
+      "Jim Goldie": 1
+    },
+    "jockeys_seen": {
+      "Amie Waugh(3)": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 61,
+    "latest_notes": [
+      "Strong recent form"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988379",
+        "course": "Musselburgh",
+        "date": "2026-06-30",
+        "off_time": "5:05",
+        "off_dt": "2026-06-30T17:05:00+01:00",
+        "race_name": "Watch On Racing TV Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 10,
+        "horse": "Wee Mary",
+        "horse_id": "hrs_41629581",
+        "age": 4,
+        "sex": "filly",
+        "trainer": "Jim Goldie",
+        "trainer_id": "trn_70155",
+        "jockey": "Amie Waugh(3)",
+        "jockey_id": "jky_260070",
+        "draw": 8,
+        "number": 3,
+        "lbs": 136,
+        "ofr": "54",
+        "last_run": 8,
+        "form": "442162",
+        "headgear": "h",
+        "_stored_at": "2026-06-30T01:49:57.066435+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Musselburgh",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 5.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 6",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 54,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Musselburgh",
+      "latest_distance_f": 5.0,
+      "latest_going": "Good",
+      "latest_class": "Class 6",
+      "latest_pulse_score": 61,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
     "horse": "Data Fata Secutus",
     "horse_id": "hrs_56591003",
     "age": 3,
@@ -219,7 +343,7 @@
         "last_run": 10,
         "form": "527378",
         "headgear": "p",
-        "_stored_at": "2026-06-30T05:14:26.353245+00:00"
+        "_stored_at": "2026-06-30T01:49:57.081123+00:00"
       }
     ],
     "profile_notes": [
@@ -264,130 +388,6 @@
       "latest_going": "Good",
       "latest_class": "Class 6",
       "latest_pulse_score": 53,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Gwen Tennyson",
-    "horse_id": "hrs_59831226",
-    "age": 3,
-    "sex": "filly",
-    "latest_course": "Musselburgh",
-    "latest_time": "5:05",
-    "latest_race": "Watch On Racing TV Handicap",
-    "latest_date": "2026-06-30",
-    "latest_distance_f": 5.0,
-    "latest_class": "Class 6",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Gemma Tutty",
-    "latest_jockey": "Joanna Mason",
-    "latest_draw": 7,
-    "latest_weight_lbs": 132,
-    "official_rating": "56",
-    "recent_form": "0-834",
-    "last_run_days": 19,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Musselburgh": 1
-    },
-    "distances_seen": {
-      "5.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 6": 1
-    },
-    "trainers_seen": {
-      "Gemma Tutty": 1
-    },
-    "jockeys_seen": {
-      "Joanna Mason": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 51,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988379",
-        "course": "Musselburgh",
-        "date": "2026-06-30",
-        "off_time": "5:05",
-        "off_dt": "2026-06-30T17:05:00+01:00",
-        "race_name": "Watch On Racing TV Handicap",
-        "distance_f": 5.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 10,
-        "horse": "Gwen Tennyson",
-        "horse_id": "hrs_59831226",
-        "age": 3,
-        "sex": "filly",
-        "trainer": "Gemma Tutty",
-        "trainer_id": "trn_354429",
-        "jockey": "Joanna Mason",
-        "jockey_id": "jky_257346",
-        "draw": 7,
-        "number": 5,
-        "lbs": 132,
-        "ofr": "56",
-        "last_run": 19,
-        "form": "0-834",
-        "headgear": "",
-        "_stored_at": "2026-06-30T05:14:26.373138+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Musselburgh",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 5.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 6",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 50,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Musselburgh",
-      "latest_distance_f": 5.0,
-      "latest_going": "Good",
-      "latest_class": "Class 6",
-      "latest_pulse_score": 51,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -471,7 +471,7 @@
           "last_run": 10,
           "form": "449215",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:26.313447+00:00"
+          "_stored_at": "2026-06-30T01:49:57.051316+00:00"
         }
       ],
       "profile_notes": [
@@ -516,6 +516,130 @@
         "latest_going": "Good",
         "latest_class": "Class 6",
         "latest_pulse_score": 66,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Wee Mary",
+      "horse_id": "hrs_41629581",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Musselburgh",
+      "latest_time": "5:05",
+      "latest_race": "Watch On Racing TV Handicap",
+      "latest_date": "2026-06-30",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jim Goldie",
+      "latest_jockey": "Amie Waugh(3)",
+      "latest_draw": 8,
+      "latest_weight_lbs": 136,
+      "official_rating": "54",
+      "recent_form": "442162",
+      "last_run_days": 8,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Musselburgh": 1
+      },
+      "distances_seen": {
+        "5.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Jim Goldie": 1
+      },
+      "jockeys_seen": {
+        "Amie Waugh(3)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 61,
+      "latest_notes": [
+        "Strong recent form"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988379",
+          "course": "Musselburgh",
+          "date": "2026-06-30",
+          "off_time": "5:05",
+          "off_dt": "2026-06-30T17:05:00+01:00",
+          "race_name": "Watch On Racing TV Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Wee Mary",
+          "horse_id": "hrs_41629581",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Jim Goldie",
+          "trainer_id": "trn_70155",
+          "jockey": "Amie Waugh(3)",
+          "jockey_id": "jky_260070",
+          "draw": 8,
+          "number": 3,
+          "lbs": 136,
+          "ofr": "54",
+          "last_run": 8,
+          "form": "442162",
+          "headgear": "h",
+          "_stored_at": "2026-06-30T01:49:57.066435+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Musselburgh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 54,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Musselburgh",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 61,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -601,7 +725,7 @@
           "last_run": 10,
           "form": "527378",
           "headgear": "p",
-          "_stored_at": "2026-06-30T05:14:26.353245+00:00"
+          "_stored_at": "2026-06-30T01:49:57.081123+00:00"
         }
       ],
       "profile_notes": [
@@ -728,7 +852,7 @@
           "last_run": 19,
           "form": "0-834",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:26.373138+00:00"
+          "_stored_at": "2026-06-30T01:49:57.100029+00:00"
         }
       ],
       "profile_notes": [],
@@ -774,349 +898,6 @@
         "profile_runs": 1,
         "runs_count": 1
       }
-    },
-    {
-      "horse": "Hard Nut",
-      "horse_id": "hrs_18882052",
-      "age": 9,
-      "sex": "gelding",
-      "latest_course": "Musselburgh",
-      "latest_time": "5:05",
-      "latest_race": "Watch On Racing TV Handicap",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Linda Perratt",
-      "latest_jockey": "Tom Kiely-Marshall(5)",
-      "latest_draw": 6,
-      "latest_weight_lbs": 127,
-      "official_rating": "45",
-      "recent_form": "440-77",
-      "last_run_days": 8,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Musselburgh": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Linda Perratt": 1
-      },
-      "jockeys_seen": {
-        "Tom Kiely-Marshall(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 33,
-      "latest_notes": [
-        "Weak recent form"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988379",
-          "course": "Musselburgh",
-          "date": "2026-06-30",
-          "off_time": "5:05",
-          "off_dt": "2026-06-30T17:05:00+01:00",
-          "race_name": "Watch On Racing TV Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Hard Nut",
-          "horse_id": "hrs_18882052",
-          "age": 9,
-          "sex": "gelding",
-          "trainer": "Linda Perratt",
-          "trainer_id": "trn_51552",
-          "jockey": "Tom Kiely-Marshall(5)",
-          "jockey_id": "jky_302325",
-          "draw": 6,
-          "number": 10,
-          "lbs": 127,
-          "ofr": "45",
-          "last_run": 8,
-          "form": "440-77",
-          "headgear": "",
-          "_stored_at": "2026-06-30T05:14:26.472630+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Musselburgh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 42,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Musselburgh",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 33,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Invincible Crown",
-      "horse_id": "hrs_41938680",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Musselburgh",
-      "latest_time": "5:05",
-      "latest_race": "Watch On Racing TV Handicap",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ruth Carr",
-      "latest_jockey": "James Sullivan",
-      "latest_draw": 5,
-      "latest_weight_lbs": 138,
-      "official_rating": "56",
-      "recent_form": "-64742",
-      "last_run_days": 5,
-      "profile_runs": 5,
-      "courses_seen": {
-        "Nottingham": 4,
-        "Musselburgh": 1
-      },
-      "distances_seen": {
-        "5.0": 5
-      },
-      "goings_seen": {
-        "Good To Firm": 4,
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 6": 5
-      },
-      "trainers_seen": {
-        "Ruth Carr": 5
-      },
-      "jockeys_seen": {
-        "James Sullivan": 5
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 52,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Sharp return concern -3",
-        "Helpful draw",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey concern -2",
-        "Jockey in form +2 (1/1 last 14 days)",
-        "Historical winner +3",
-        "Previous course winner +4",
-        "Proven on going +2 (1/1 on going)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977290",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "1:00",
-          "off_dt": "2026-06-25T13:00:00+01:00",
-          "race_name": "Martin Stonemans Final Furlong Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Invincible Crown",
-          "horse_id": "hrs_41938680",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Ruth Carr",
-          "trainer_id": "trn_180405",
-          "jockey": "James Sullivan",
-          "jockey_id": "jky_253623",
-          "draw": 6,
-          "number": 5,
-          "lbs": 134,
-          "ofr": "56",
-          "last_run": 9,
-          "form": "9-6474",
-          "headgear": "",
-          "_stored_at": "2026-06-25T14:16:21.304288+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977290",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "1:00",
-          "off_dt": "2026-06-25T13:00:00+01:00",
-          "race_name": "Martin Stonemans Final Furlong Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Invincible Crown",
-          "horse_id": "hrs_41938680",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Ruth Carr",
-          "trainer_id": "trn_180405",
-          "jockey": "James Sullivan",
-          "jockey_id": "jky_253623",
-          "draw": 6,
-          "number": 5,
-          "lbs": 134,
-          "ofr": "56",
-          "last_run": 9,
-          "form": "9-6474",
-          "headgear": "",
-          "_stored_at": "2026-06-25T17:11:31.080376+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977290",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "1:00",
-          "off_dt": "2026-06-25T13:00:00+01:00",
-          "race_name": "Martin Stonemans Final Furlong Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Invincible Crown",
-          "horse_id": "hrs_41938680",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Ruth Carr",
-          "trainer_id": "trn_180405",
-          "jockey": "James Sullivan",
-          "jockey_id": "jky_253623",
-          "draw": 6,
-          "number": 5,
-          "lbs": 134,
-          "ofr": "56",
-          "last_run": 9,
-          "form": "9-6474",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:08.894345+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977290",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "1:00",
-          "off_dt": "2026-06-25T13:00:00+01:00",
-          "race_name": "Martin Stonemans Final Furlong Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Invincible Crown",
-          "horse_id": "hrs_41938680",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Ruth Carr",
-          "trainer_id": "trn_180405",
-          "jockey": "James Sullivan",
-          "jockey_id": "jky_253623",
-          "draw": 6,
-          "number": 5,
-          "lbs": 134,
-          "ofr": "56",
-          "last_run": 9,
-          "form": "9-6474",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:19.742006+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988379",
-          "course": "Musselburgh",
-          "date": "2026-06-30",
-          "off_time": "5:05",
-          "off_dt": "2026-06-30T17:05:00+01:00",
-          "race_name": "Watch On Racing TV Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Invincible Crown",
-          "horse_id": "hrs_41938680",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Ruth Carr",
-          "trainer_id": "trn_180405",
-          "jockey": "James Sullivan",
-          "jockey_id": "jky_253623",
-          "draw": 5,
-          "number": 1,
-          "lbs": 138,
-          "ofr": "56",
-          "last_run": 5,
-          "form": "-64742",
-          "headgear": "",
-          "_stored_at": "2026-06-30T05:14:26.293579+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Profile has multiple stored runs",
-        "Recent run timing"
-      ]
     },
     {
       "horse": "Sands Of Seve",
@@ -1195,16 +976,58 @@
           "last_run": 57,
           "form": "-31649",
           "headgear": "v",
-          "_stored_at": "2026-06-30T05:14:26.393136+00:00"
+          "_stored_at": "2026-06-30T01:49:57.115709+00:00"
         }
       ],
-      "profile_notes": []
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Musselburgh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Musselburgh",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 52,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     },
     {
-      "horse": "What A Tahoo",
-      "horse_id": "hrs_54644800",
-      "age": 3,
-      "sex": "filly",
+      "horse": "Invincible Crown",
+      "horse_id": "hrs_41938680",
+      "age": 4,
+      "sex": "gelding",
       "latest_course": "Musselburgh",
       "latest_time": "5:05",
       "latest_race": "Watch On Racing TV Handicap",
@@ -1213,13 +1036,180 @@
       "latest_class": "Class 6",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Richard & Peter Fahey",
-      "latest_jockey": "Cam Hardie",
-      "latest_draw": 10,
+      "latest_trainer": "Ruth Carr",
+      "latest_jockey": "James Sullivan",
+      "latest_draw": 5,
+      "latest_weight_lbs": 138,
+      "official_rating": "56",
+      "recent_form": "-64742",
+      "last_run_days": 5,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Nottingham": 1,
+        "Musselburgh": 1
+      },
+      "distances_seen": {
+        "5.0": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 6": 2
+      },
+      "trainers_seen": {
+        "Mrs R Carr": 1,
+        "Ruth Carr": 1
+      },
+      "jockeys_seen": {
+        "J P Sullivan": 1,
+        "James Sullivan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 52,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Sharp return concern -3",
+        "Helpful draw",
+        "Stable in form +2 (1/1 last 14 days)",
+        "Jockey concern -2",
+        "Jockey in form +2 (1/1 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4",
+        "Proven on going +2 (1/1 on going)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Invincible Crown",
+          "horse_id": "hrs_41938680",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Mrs R Carr",
+          "trainer_id": "trn_180405",
+          "jockey": "J P Sullivan",
+          "jockey_id": "jky_253623",
+          "draw": 6,
+          "number": 5,
+          "lbs": 134,
+          "ofr": "56",
+          "last_run": 9,
+          "form": "9-6474",
+          "headgear": "",
+          "_stored_at": "2026-06-25T06:53:22.620522+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988379",
+          "course": "Musselburgh",
+          "date": "2026-06-30",
+          "off_time": "5:05",
+          "off_dt": "2026-06-30T17:05:00+01:00",
+          "race_name": "Watch On Racing TV Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Invincible Crown",
+          "horse_id": "hrs_41938680",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Ruth Carr",
+          "trainer_id": "trn_180405",
+          "jockey": "James Sullivan",
+          "jockey_id": "jky_253623",
+          "draw": 5,
+          "number": 1,
+          "lbs": 138,
+          "ofr": "56",
+          "last_run": 5,
+          "form": "-64742",
+          "headgear": "",
+          "_stored_at": "2026-06-30T01:49:56.999694+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Nottingham",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 81,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Musselburgh",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 52,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Hard Nut",
+      "horse_id": "hrs_18882052",
+      "age": 9,
+      "sex": "gelding",
+      "latest_course": "Musselburgh",
+      "latest_time": "5:05",
+      "latest_race": "Watch On Racing TV Handicap",
+      "latest_date": "2026-06-30",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Linda Perratt",
+      "latest_jockey": "Tom Kiely-Marshall(5)",
+      "latest_draw": 6,
       "latest_weight_lbs": 127,
-      "official_rating": "51",
-      "recent_form": "474331",
-      "last_run_days": 13,
+      "official_rating": "45",
+      "recent_form": "440-77",
+      "last_run_days": 8,
       "profile_runs": 1,
       "courses_seen": {
         "Musselburgh": 1
@@ -1234,19 +1224,16 @@
         "Class 6": 1
       },
       "trainers_seen": {
-        "Richard & Peter Fahey": 1
+        "Linda Perratt": 1
       },
       "jockeys_seen": {
-        "Cam Hardie": 1
+        "Tom Kiely-Marshall(5)": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 72,
+      "latest_pulse_score": 33,
       "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
+        "Weak recent form"
       ],
       "runs": [
         {
@@ -1263,32 +1250,201 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 10,
-          "horse": "What A Tahoo",
-          "horse_id": "hrs_54644800",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Richard & Peter Fahey",
-          "trainer_id": "trn_386964",
-          "jockey": "Cam Hardie",
-          "jockey_id": "jky_278196",
-          "draw": 10,
-          "number": 7,
+          "horse": "Hard Nut",
+          "horse_id": "hrs_18882052",
+          "age": 9,
+          "sex": "gelding",
+          "trainer": "Linda Perratt",
+          "trainer_id": "trn_51552",
+          "jockey": "Tom Kiely-Marshall(5)",
+          "jockey_id": "jky_302325",
+          "draw": 6,
+          "number": 10,
           "lbs": 127,
-          "ofr": "51",
-          "last_run": 13,
-          "form": "474331",
+          "ofr": "45",
+          "last_run": 8,
+          "form": "440-77",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:26.413652+00:00"
+          "_stored_at": "2026-06-30T01:49:57.166326+00:00"
         }
       ],
       "profile_notes": [
         "Recent run timing"
-      ]
+      ],
+      "favourite_course": {
+        "value": "Musselburgh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 42,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Musselburgh",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 33,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Bonito Cavalo",
+      "horse_id": "hrs_30850484",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Musselburgh",
+      "latest_time": "5:05",
+      "latest_race": "Watch On Racing TV Handicap",
+      "latest_date": "2026-06-30",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jim Goldie",
+      "latest_jockey": "Lauren Young(5)",
+      "latest_draw": 3,
+      "latest_weight_lbs": 127,
+      "official_rating": "45",
+      "recent_form": "0-0879",
+      "last_run_days": 78,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Musselburgh": 1
+      },
+      "distances_seen": {
+        "5.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Jim Goldie": 1
+      },
+      "jockeys_seen": {
+        "Lauren Young(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 32,
+      "latest_notes": [
+        "Weak recent form",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988379",
+          "course": "Musselburgh",
+          "date": "2026-06-30",
+          "off_time": "5:05",
+          "off_dt": "2026-06-30T17:05:00+01:00",
+          "race_name": "Watch On Racing TV Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Bonito Cavalo",
+          "horse_id": "hrs_30850484",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "Jim Goldie",
+          "trainer_id": "trn_70155",
+          "jockey": "Lauren Young(5)",
+          "jockey_id": "jky_311244",
+          "draw": 3,
+          "number": 8,
+          "lbs": 127,
+          "ofr": "45",
+          "last_run": 78,
+          "form": "0-0879",
+          "headgear": "",
+          "_stored_at": "2026-06-30T01:49:57.134242+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Musselburgh",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 41,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Musselburgh",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 32,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     }
   ],
   "notes": [
     "Auntie Jo is the top-rated Pulse IQ runner.",
-    "This race has a generally weak profile strength.",
-    "Gwen Tennyson is flagged as a possible dark horse."
+    "The race looks competitive with no clear standout.",
+    "Data Fata Secutus is flagged as a possible dark horse."
   ]
 }

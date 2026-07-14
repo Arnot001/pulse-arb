@@ -4,18 +4,18 @@
   "course": "Newton Abbot",
   "time": "8:20",
   "race_name": "Murray Group Gallop Handicap Hurdle",
-  "field_size": 5,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
+  "field_size": 8,
+  "average_intelligence": 38.25,
+  "top_score": 62,
+  "second_score": 59,
+  "gap": 3,
+  "confidence_score": 49,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Cinnodin",
-    "horse_id": "hrs_31698009",
-    "age": 6,
+    "horse": "I Am Spider Man",
+    "horse_id": "hrs_27684517",
+    "age": 9,
     "sex": "gelding",
     "latest_course": "Newton Abbot",
     "latest_time": "8:20",
@@ -25,13 +25,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Jamie Snowden",
-    "latest_jockey": "G Sheehan",
+    "latest_trainer": "Barry T Murphy",
+    "latest_jockey": "James Bowen",
     "latest_draw": 0,
-    "latest_weight_lbs": 166,
-    "official_rating": "104",
-    "recent_form": "325-12",
-    "last_run_days": 30,
+    "latest_weight_lbs": 162,
+    "official_rating": "100",
+    "recent_form": "P7-223",
+    "last_run_days": 27,
     "profile_runs": 2,
     "courses_seen": {
       "Newton Abbot": 2
@@ -46,15 +46,20 @@
       "Class 4": 2
     },
     "trainers_seen": {
-      "Jamie Snowden": 2
+      "Barry T Murphy": 2
     },
     "jockeys_seen": {
-      "G Sheehan": 2
+      "James Bowen": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 78,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -70,22 +75,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Cinnodin",
-        "horse_id": "hrs_31698009",
-        "age": 6,
+        "horse": "I Am Spider Man",
+        "horse_id": "hrs_27684517",
+        "age": 9,
         "sex": "gelding",
-        "trainer": "Jamie Snowden",
-        "trainer_id": "trn_187326",
-        "jockey": "G Sheehan",
-        "jockey_id": "jky_266721",
+        "trainer": "Barry T Murphy",
+        "trainer_id": "trn_283941",
+        "jockey": "James Bowen",
+        "jockey_id": "jky_290490",
         "draw": 0,
-        "number": 4,
-        "lbs": 166,
-        "ofr": "104",
-        "last_run": 30,
-        "form": "325-12",
-        "headgear": "p",
-        "_stored_at": "2026-06-23T21:32:41.814438+00:00"
+        "number": 6,
+        "lbs": 162,
+        "ofr": "100",
+        "last_run": 27,
+        "form": "P7-223",
+        "headgear": "",
+        "_stored_at": "2026-06-23T21:32:41.840619+00:00"
       },
       {
         "source": "the_racing_api",
@@ -101,22 +106,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Cinnodin",
-        "horse_id": "hrs_31698009",
-        "age": 6,
+        "horse": "I Am Spider Man",
+        "horse_id": "hrs_27684517",
+        "age": 9,
         "sex": "gelding",
-        "trainer": "Jamie Snowden",
-        "trainer_id": "trn_187326",
-        "jockey": "G Sheehan",
-        "jockey_id": "jky_266721",
+        "trainer": "Barry T Murphy",
+        "trainer_id": "trn_283941",
+        "jockey": "James Bowen",
+        "jockey_id": "jky_290490",
         "draw": 0,
-        "number": 4,
-        "lbs": 166,
-        "ofr": "104",
-        "last_run": 30,
-        "form": "325-12",
-        "headgear": "p",
-        "_stored_at": "2026-06-25T06:53:18.880172+00:00"
+        "number": 6,
+        "lbs": 162,
+        "ofr": "100",
+        "last_run": 27,
+        "form": "P7-223",
+        "headgear": "",
+        "_stored_at": "2026-06-25T06:53:18.909740+00:00"
       }
     ],
     "profile_notes": [],
@@ -141,15 +146,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 62,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -158,16 +163,16 @@
       "latest_distance_f": 26.5,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 78,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "main_threat": {
-    "horse": "Final Entry",
-    "horse_id": "hrs_40686520",
-    "age": 5,
+    "horse": "Belgarum",
+    "horse_id": "hrs_29691564",
+    "age": 8,
     "sex": "gelding",
     "latest_course": "Newton Abbot",
     "latest_time": "8:20",
@@ -177,13 +182,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "D Pipe",
-    "latest_jockey": "Jack Tudor",
+    "latest_trainer": "J Tizzard",
+    "latest_jockey": "Freddie Gingell",
     "latest_draw": 0,
-    "latest_weight_lbs": 156,
-    "official_rating": "94",
-    "recent_form": "7/64-3",
-    "last_run_days": 11,
+    "latest_weight_lbs": 168,
+    "official_rating": "106",
+    "recent_form": "5PP-12",
+    "last_run_days": 27,
     "profile_runs": 2,
     "courses_seen": {
       "Newton Abbot": 2
@@ -198,15 +203,21 @@
       "Class 4": 2
     },
     "trainers_seen": {
-      "D Pipe": 2
+      "J Tizzard": 2
     },
     "jockeys_seen": {
-      "Jack Tudor": 2
+      "Freddie Gingell": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 72,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -222,22 +233,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Final Entry",
-        "horse_id": "hrs_40686520",
-        "age": 5,
+        "horse": "Belgarum",
+        "horse_id": "hrs_29691564",
+        "age": 8,
         "sex": "gelding",
-        "trainer": "D Pipe",
-        "trainer_id": "trn_91413",
-        "jockey": "Jack Tudor",
-        "jockey_id": "jky_296019",
+        "trainer": "J Tizzard",
+        "trainer_id": "trn_355275",
+        "jockey": "Freddie Gingell",
+        "jockey_id": "jky_304638",
         "draw": 0,
-        "number": 8,
-        "lbs": 156,
-        "ofr": "94",
-        "last_run": 11,
-        "form": "7/64-3",
-        "headgear": "tv",
-        "_stored_at": "2026-06-23T21:32:41.865886+00:00"
+        "number": 1,
+        "lbs": 168,
+        "ofr": "106",
+        "last_run": 27,
+        "form": "5PP-12",
+        "headgear": "tp",
+        "_stored_at": "2026-06-23T21:32:41.786355+00:00"
       },
       {
         "source": "the_racing_api",
@@ -253,176 +264,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Final Entry",
-        "horse_id": "hrs_40686520",
-        "age": 5,
+        "horse": "Belgarum",
+        "horse_id": "hrs_29691564",
+        "age": 8,
         "sex": "gelding",
-        "trainer": "D Pipe",
-        "trainer_id": "trn_91413",
-        "jockey": "Jack Tudor",
-        "jockey_id": "jky_296019",
+        "trainer": "J Tizzard",
+        "trainer_id": "trn_355275",
+        "jockey": "Freddie Gingell",
+        "jockey_id": "jky_304638",
         "draw": 0,
-        "number": 8,
-        "lbs": 156,
-        "ofr": "94",
-        "last_run": 11,
-        "form": "7/64-3",
-        "headgear": "tv",
-        "_stored_at": "2026-06-25T06:53:18.930290+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Newton Abbot",
-      "runs": 2
-    },
-    "favourite_distance": {
-      "value": 26.5,
-      "runs": 2
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 2
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Newton Abbot",
-      "latest_distance_f": 26.5,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
-  },
-  "dark_horse": {
-    "horse": "Jafimgoso",
-    "horse_id": "hrs_38532319",
-    "age": 7,
-    "sex": "gelding",
-    "latest_course": "Newton Abbot",
-    "latest_time": "8:20",
-    "latest_race": "Murray Group Gallop Handicap Hurdle",
-    "latest_date": "2026-06-23",
-    "latest_distance_f": 26.5,
-    "latest_class": "Class 4",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Dan Skelton",
-    "latest_jockey": "Harry Skelton",
-    "latest_draw": 0,
-    "latest_weight_lbs": 163,
-    "official_rating": "101",
-    "recent_form": "9/7-12",
-    "last_run_days": 21,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Newton Abbot": 2
-    },
-    "distances_seen": {
-      "26.5": 2
-    },
-    "goings_seen": {
-      "Good": 2
-    },
-    "classes_seen": {
-      "Class 4": 2
-    },
-    "trainers_seen": {
-      "Dan Skelton": 2
-    },
-    "jockeys_seen": {
-      "Harry Skelton": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11973481",
-        "course": "Newton Abbot",
-        "date": "2026-06-23",
-        "off_time": "8:20",
-        "off_dt": "2026-06-23T20:20:00+01:00",
-        "race_name": "Murray Group Gallop Handicap Hurdle",
-        "distance_f": 26.5,
-        "race_class": "Class 4",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Jafimgoso",
-        "horse_id": "hrs_38532319",
-        "age": 7,
-        "sex": "gelding",
-        "trainer": "Dan Skelton",
-        "trainer_id": "trn_146430",
-        "jockey": "Harry Skelton",
-        "jockey_id": "jky_255654",
-        "draw": 0,
-        "number": 5,
-        "lbs": 163,
-        "ofr": "101",
-        "last_run": 21,
-        "form": "9/7-12",
-        "headgear": "",
-        "_stored_at": "2026-06-23T21:32:41.823468+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11973481",
-        "course": "Newton Abbot",
-        "date": "2026-06-23",
-        "off_time": "8:20",
-        "off_dt": "2026-06-23T20:20:00+01:00",
-        "race_name": "Murray Group Gallop Handicap Hurdle",
-        "distance_f": 26.5,
-        "race_class": "Class 4",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Jafimgoso",
-        "horse_id": "hrs_38532319",
-        "age": 7,
-        "sex": "gelding",
-        "trainer": "Dan Skelton",
-        "trainer_id": "trn_146430",
-        "jockey": "Harry Skelton",
-        "jockey_id": "jky_255654",
-        "draw": 0,
-        "number": 5,
-        "lbs": 163,
-        "ofr": "101",
-        "last_run": 21,
-        "form": "9/7-12",
-        "headgear": "",
-        "_stored_at": "2026-06-25T06:53:18.898218+00:00"
+        "number": 1,
+        "lbs": 168,
+        "ofr": "106",
+        "last_run": 27,
+        "form": "5PP-12",
+        "headgear": "tp",
+        "_stored_at": "2026-06-25T06:53:18.845605+00:00"
       }
     ],
     "profile_notes": [],
@@ -447,15 +304,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 59,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -464,13 +321,643 @@
       "latest_distance_f": 26.5,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 72,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "dark_horse": {
+    "horse": "Belgarum",
+    "horse_id": "hrs_29691564",
+    "age": 8,
+    "sex": "gelding",
+    "latest_course": "Newton Abbot",
+    "latest_time": "8:20",
+    "latest_race": "Murray Group Gallop Handicap Hurdle",
+    "latest_date": "2026-06-23",
+    "latest_distance_f": 26.5,
+    "latest_class": "Class 4",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "J Tizzard",
+    "latest_jockey": "Freddie Gingell",
+    "latest_draw": 0,
+    "latest_weight_lbs": 168,
+    "official_rating": "106",
+    "recent_form": "5PP-12",
+    "last_run_days": 27,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Newton Abbot": 2
+    },
+    "distances_seen": {
+      "26.5": 2
+    },
+    "goings_seen": {
+      "Good": 2
+    },
+    "classes_seen": {
+      "Class 4": 2
+    },
+    "trainers_seen": {
+      "J Tizzard": 2
+    },
+    "jockeys_seen": {
+      "Freddie Gingell": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 72,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11973481",
+        "course": "Newton Abbot",
+        "date": "2026-06-23",
+        "off_time": "8:20",
+        "off_dt": "2026-06-23T20:20:00+01:00",
+        "race_name": "Murray Group Gallop Handicap Hurdle",
+        "distance_f": 26.5,
+        "race_class": "Class 4",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 8,
+        "horse": "Belgarum",
+        "horse_id": "hrs_29691564",
+        "age": 8,
+        "sex": "gelding",
+        "trainer": "J Tizzard",
+        "trainer_id": "trn_355275",
+        "jockey": "Freddie Gingell",
+        "jockey_id": "jky_304638",
+        "draw": 0,
+        "number": 1,
+        "lbs": 168,
+        "ofr": "106",
+        "last_run": 27,
+        "form": "5PP-12",
+        "headgear": "tp",
+        "_stored_at": "2026-06-23T21:32:41.786355+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11973481",
+        "course": "Newton Abbot",
+        "date": "2026-06-23",
+        "off_time": "8:20",
+        "off_dt": "2026-06-23T20:20:00+01:00",
+        "race_name": "Murray Group Gallop Handicap Hurdle",
+        "distance_f": 26.5,
+        "race_class": "Class 4",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 8,
+        "horse": "Belgarum",
+        "horse_id": "hrs_29691564",
+        "age": 8,
+        "sex": "gelding",
+        "trainer": "J Tizzard",
+        "trainer_id": "trn_355275",
+        "jockey": "Freddie Gingell",
+        "jockey_id": "jky_304638",
+        "draw": 0,
+        "number": 1,
+        "lbs": 168,
+        "ofr": "106",
+        "last_run": 27,
+        "form": "5PP-12",
+        "headgear": "tp",
+        "_stored_at": "2026-06-25T06:53:18.845605+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Newton Abbot",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 26.5,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 59,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Newton Abbot",
+      "latest_distance_f": 26.5,
+      "latest_going": "Good",
+      "latest_class": "Class 4",
+      "latest_pulse_score": 72,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "runners": [
+    {
+      "horse": "I Am Spider Man",
+      "horse_id": "hrs_27684517",
+      "age": 9,
+      "sex": "gelding",
+      "latest_course": "Newton Abbot",
+      "latest_time": "8:20",
+      "latest_race": "Murray Group Gallop Handicap Hurdle",
+      "latest_date": "2026-06-23",
+      "latest_distance_f": 26.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Barry T Murphy",
+      "latest_jockey": "James Bowen",
+      "latest_draw": 0,
+      "latest_weight_lbs": 162,
+      "official_rating": "100",
+      "recent_form": "P7-223",
+      "last_run_days": 27,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newton Abbot": 2
+      },
+      "distances_seen": {
+        "26.5": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "Barry T Murphy": 2
+      },
+      "jockeys_seen": {
+        "James Bowen": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 78,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973481",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "8:20",
+          "off_dt": "2026-06-23T20:20:00+01:00",
+          "race_name": "Murray Group Gallop Handicap Hurdle",
+          "distance_f": 26.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "I Am Spider Man",
+          "horse_id": "hrs_27684517",
+          "age": 9,
+          "sex": "gelding",
+          "trainer": "Barry T Murphy",
+          "trainer_id": "trn_283941",
+          "jockey": "James Bowen",
+          "jockey_id": "jky_290490",
+          "draw": 0,
+          "number": 6,
+          "lbs": 162,
+          "ofr": "100",
+          "last_run": 27,
+          "form": "P7-223",
+          "headgear": "",
+          "_stored_at": "2026-06-23T21:32:41.840619+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973481",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "8:20",
+          "off_dt": "2026-06-23T20:20:00+01:00",
+          "race_name": "Murray Group Gallop Handicap Hurdle",
+          "distance_f": 26.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "I Am Spider Man",
+          "horse_id": "hrs_27684517",
+          "age": 9,
+          "sex": "gelding",
+          "trainer": "Barry T Murphy",
+          "trainer_id": "trn_283941",
+          "jockey": "James Bowen",
+          "jockey_id": "jky_290490",
+          "draw": 0,
+          "number": 6,
+          "lbs": 162,
+          "ofr": "100",
+          "last_run": 27,
+          "form": "P7-223",
+          "headgear": "",
+          "_stored_at": "2026-06-25T06:53:18.909740+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 26.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 62,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 26.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 78,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Belgarum",
+      "horse_id": "hrs_29691564",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Newton Abbot",
+      "latest_time": "8:20",
+      "latest_race": "Murray Group Gallop Handicap Hurdle",
+      "latest_date": "2026-06-23",
+      "latest_distance_f": 26.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "J Tizzard",
+      "latest_jockey": "Freddie Gingell",
+      "latest_draw": 0,
+      "latest_weight_lbs": 168,
+      "official_rating": "106",
+      "recent_form": "5PP-12",
+      "last_run_days": 27,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newton Abbot": 2
+      },
+      "distances_seen": {
+        "26.5": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "J Tizzard": 2
+      },
+      "jockeys_seen": {
+        "Freddie Gingell": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 72,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973481",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "8:20",
+          "off_dt": "2026-06-23T20:20:00+01:00",
+          "race_name": "Murray Group Gallop Handicap Hurdle",
+          "distance_f": 26.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Belgarum",
+          "horse_id": "hrs_29691564",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "J Tizzard",
+          "trainer_id": "trn_355275",
+          "jockey": "Freddie Gingell",
+          "jockey_id": "jky_304638",
+          "draw": 0,
+          "number": 1,
+          "lbs": 168,
+          "ofr": "106",
+          "last_run": 27,
+          "form": "5PP-12",
+          "headgear": "tp",
+          "_stored_at": "2026-06-23T21:32:41.786355+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973481",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "8:20",
+          "off_dt": "2026-06-23T20:20:00+01:00",
+          "race_name": "Murray Group Gallop Handicap Hurdle",
+          "distance_f": 26.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Belgarum",
+          "horse_id": "hrs_29691564",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "J Tizzard",
+          "trainer_id": "trn_355275",
+          "jockey": "Freddie Gingell",
+          "jockey_id": "jky_304638",
+          "draw": 0,
+          "number": 1,
+          "lbs": 168,
+          "ofr": "106",
+          "last_run": 27,
+          "form": "5PP-12",
+          "headgear": "tp",
+          "_stored_at": "2026-06-25T06:53:18.845605+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 26.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 59,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 26.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 72,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Balkardy",
+      "horse_id": "hrs_23241449",
+      "age": 9,
+      "sex": "gelding",
+      "latest_course": "Newton Abbot",
+      "latest_time": "8:20",
+      "latest_race": "Murray Group Gallop Handicap Hurdle",
+      "latest_date": "2026-06-23",
+      "latest_distance_f": 26.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Mrs C Williams",
+      "latest_jockey": "Miss Eleanor Williams",
+      "latest_draw": 0,
+      "latest_weight_lbs": 167,
+      "official_rating": "105",
+      "recent_form": "56P-U7",
+      "last_run_days": 17,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newton Abbot": 2
+      },
+      "distances_seen": {
+        "26.5": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "Mrs C Williams": 2
+      },
+      "jockeys_seen": {
+        "Miss Eleanor Williams": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 50,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973481",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "8:20",
+          "off_dt": "2026-06-23T20:20:00+01:00",
+          "race_name": "Murray Group Gallop Handicap Hurdle",
+          "distance_f": 26.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Balkardy",
+          "horse_id": "hrs_23241449",
+          "age": 9,
+          "sex": "gelding",
+          "trainer": "Mrs C Williams",
+          "trainer_id": "trn_146502",
+          "jockey": "Miss Eleanor Williams",
+          "jockey_id": "jky_299835",
+          "draw": 0,
+          "number": 3,
+          "lbs": 167,
+          "ofr": "105",
+          "last_run": 17,
+          "form": "56P-U7",
+          "headgear": "",
+          "_stored_at": "2026-06-23T21:32:41.805445+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973481",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "8:20",
+          "off_dt": "2026-06-23T20:20:00+01:00",
+          "race_name": "Murray Group Gallop Handicap Hurdle",
+          "distance_f": 26.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Balkardy",
+          "horse_id": "hrs_23241449",
+          "age": 9,
+          "sex": "gelding",
+          "trainer": "Mrs C Williams",
+          "trainer_id": "trn_146502",
+          "jockey": "Miss Eleanor Williams",
+          "jockey_id": "jky_299835",
+          "draw": 0,
+          "number": 3,
+          "lbs": 167,
+          "ofr": "105",
+          "last_run": 17,
+          "form": "56P-U7",
+          "headgear": "",
+          "_stored_at": "2026-06-25T06:53:18.865620+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 26.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 26.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 50,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
     {
       "horse": "Cinnodin",
       "horse_id": "hrs_31698009",
@@ -1235,9 +1722,9 @@
     }
   ],
   "notes": [
-    "Cinnodin is the top-rated Pulse IQ runner.",
+    "I Am Spider Man is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Jafimgoso is flagged as a possible dark horse."
+    "Belgarum is flagged as a possible dark horse."
   ]
 }

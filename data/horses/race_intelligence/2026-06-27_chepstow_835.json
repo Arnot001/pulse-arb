@@ -4,14 +4,14 @@
   "course": "Chepstow",
   "time": "8:35",
   "race_name": "Reecer Group Handicap",
-  "field_size": 4,
-  "average_intelligence": 6.75,
+  "field_size": 3,
+  "average_intelligence": 27.0,
   "top_score": 27,
-  "second_score": 0,
-  "gap": 27,
-  "confidence_score": 58,
-  "confidence": "MEDIUM",
-  "race_shape": "CLEAR STANDOUT",
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 22,
+  "confidence": "LOW",
+  "race_shape": "OPEN RACE",
   "top_runner": {
     "horse": "Autumn Angel",
     "horse_id": "hrs_25908827",
@@ -167,117 +167,6 @@
     }
   },
   "main_threat": {
-    "horse": "Marisitta",
-    "horse_id": "hrs_35015449",
-    "age": 6,
-    "sex": "mare",
-    "latest_course": "Chepstow",
-    "latest_time": "8:35",
-    "latest_race": "Reecer Group Handicap",
-    "latest_date": "2026-06-27",
-    "latest_distance_f": 6.0,
-    "latest_class": "Class 6",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "John O'Shea",
-    "latest_jockey": "William Carson",
-    "latest_draw": 2,
-    "latest_weight_lbs": 126,
-    "official_rating": "45",
-    "recent_form": "9-4756",
-    "last_run_days": 21,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Chepstow": 2
-    },
-    "distances_seen": {
-      "6.0": 2
-    },
-    "goings_seen": {
-      "Good To Firm": 2
-    },
-    "classes_seen": {
-      "Class 6": 2
-    },
-    "trainers_seen": {
-      "John O'Shea": 2
-    },
-    "jockeys_seen": {
-      "William Carson": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977693",
-        "course": "Chepstow",
-        "date": "2026-06-27",
-        "off_time": "8:35",
-        "off_dt": "2026-06-27T20:35:00+01:00",
-        "race_name": "Reecer Group Handicap",
-        "distance_f": 6.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Marisitta",
-        "horse_id": "hrs_35015449",
-        "age": 6,
-        "sex": "mare",
-        "trainer": "John O'Shea",
-        "trainer_id": "trn_37152",
-        "jockey": "William Carson",
-        "jockey_id": "jky_254646",
-        "draw": 2,
-        "number": 6,
-        "lbs": 126,
-        "ofr": "45",
-        "last_run": 21,
-        "form": "9-4756",
-        "headgear": "p",
-        "_stored_at": "2026-06-27T10:06:14.983050+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977693",
-        "course": "Chepstow",
-        "date": "2026-06-27",
-        "off_time": "8:35",
-        "off_dt": "2026-06-27T20:35:00+01:00",
-        "race_name": "Reecer Group Handicap",
-        "distance_f": 6.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Marisitta",
-        "horse_id": "hrs_35015449",
-        "age": 6,
-        "sex": "mare",
-        "trainer": "John O'Shea",
-        "trainer_id": "trn_37152",
-        "jockey": "William Carson",
-        "jockey_id": "jky_254646",
-        "draw": 2,
-        "number": 6,
-        "lbs": 126,
-        "ofr": "45",
-        "last_run": 21,
-        "form": "9-4756",
-        "headgear": "p",
-        "_stored_at": "2026-06-28T12:42:44.083449+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ]
-  },
-  "dark_horse": {
     "horse": "Ravenglass",
     "horse_id": "hrs_26050003",
     "age": 7,
@@ -386,7 +275,202 @@
     ],
     "profile_notes": [
       "Recent run timing"
-    ]
+    ],
+    "favourite_course": {
+      "value": "Chepstow",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 6.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 6",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Chepstow",
+      "latest_distance_f": 6.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 6",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "dark_horse": {
+    "horse": "Reidh",
+    "horse_id": "hrs_31492699",
+    "age": 6,
+    "sex": "gelding",
+    "latest_course": "Chepstow",
+    "latest_time": "8:35",
+    "latest_race": "Reecer Group Handicap",
+    "latest_date": "2026-06-27",
+    "latest_distance_f": 6.0,
+    "latest_class": "Class 6",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Adam Kirby",
+    "latest_jockey": "Tom Queally",
+    "latest_draw": 6,
+    "latest_weight_lbs": 134,
+    "official_rating": "53",
+    "recent_form": "00-097",
+    "last_run_days": 19,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Chepstow": 2
+    },
+    "distances_seen": {
+      "6.0": 2
+    },
+    "goings_seen": {
+      "Good To Firm": 2
+    },
+    "classes_seen": {
+      "Class 6": 2
+    },
+    "trainers_seen": {
+      "Adam Kirby": 2
+    },
+    "jockeys_seen": {
+      "Tom Queally": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977693",
+        "course": "Chepstow",
+        "date": "2026-06-27",
+        "off_time": "8:35",
+        "off_dt": "2026-06-27T20:35:00+01:00",
+        "race_name": "Reecer Group Handicap",
+        "distance_f": 6.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Reidh",
+        "horse_id": "hrs_31492699",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Adam Kirby",
+        "trainer_id": "trn_386289",
+        "jockey": "Tom Queally",
+        "jockey_id": "jky_236805",
+        "draw": 6,
+        "number": 3,
+        "lbs": 134,
+        "ofr": "53",
+        "last_run": 19,
+        "form": "00-097",
+        "headgear": "tb",
+        "_stored_at": "2026-06-27T10:06:14.937566+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977693",
+        "course": "Chepstow",
+        "date": "2026-06-27",
+        "off_time": "8:35",
+        "off_dt": "2026-06-27T20:35:00+01:00",
+        "race_name": "Reecer Group Handicap",
+        "distance_f": 6.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Reidh",
+        "horse_id": "hrs_31492699",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Adam Kirby",
+        "trainer_id": "trn_386289",
+        "jockey": "Tom Queally",
+        "jockey_id": "jky_236805",
+        "draw": 6,
+        "number": 3,
+        "lbs": 134,
+        "ofr": "53",
+        "last_run": 19,
+        "form": "00-097",
+        "headgear": "tb",
+        "_stored_at": "2026-06-28T12:42:44.033203+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Chepstow",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 6.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 6",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Chepstow",
+      "latest_distance_f": 6.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 6",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
   },
   "runners": [
     {
@@ -544,117 +628,6 @@
       }
     },
     {
-      "horse": "Marisitta",
-      "horse_id": "hrs_35015449",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "Chepstow",
-      "latest_time": "8:35",
-      "latest_race": "Reecer Group Handicap",
-      "latest_date": "2026-06-27",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "John O'Shea",
-      "latest_jockey": "William Carson",
-      "latest_draw": 2,
-      "latest_weight_lbs": 126,
-      "official_rating": "45",
-      "recent_form": "9-4756",
-      "last_run_days": 21,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Chepstow": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {
-        "Class 6": 2
-      },
-      "trainers_seen": {
-        "John O'Shea": 2
-      },
-      "jockeys_seen": {
-        "William Carson": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977693",
-          "course": "Chepstow",
-          "date": "2026-06-27",
-          "off_time": "8:35",
-          "off_dt": "2026-06-27T20:35:00+01:00",
-          "race_name": "Reecer Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Marisitta",
-          "horse_id": "hrs_35015449",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "John O'Shea",
-          "trainer_id": "trn_37152",
-          "jockey": "William Carson",
-          "jockey_id": "jky_254646",
-          "draw": 2,
-          "number": 6,
-          "lbs": 126,
-          "ofr": "45",
-          "last_run": 21,
-          "form": "9-4756",
-          "headgear": "p",
-          "_stored_at": "2026-06-27T10:06:14.983050+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977693",
-          "course": "Chepstow",
-          "date": "2026-06-27",
-          "off_time": "8:35",
-          "off_dt": "2026-06-27T20:35:00+01:00",
-          "race_name": "Reecer Group Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Marisitta",
-          "horse_id": "hrs_35015449",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "John O'Shea",
-          "trainer_id": "trn_37152",
-          "jockey": "William Carson",
-          "jockey_id": "jky_254646",
-          "draw": 2,
-          "number": 6,
-          "lbs": 126,
-          "ofr": "45",
-          "last_run": 21,
-          "form": "9-4756",
-          "headgear": "p",
-          "_stored_at": "2026-06-28T12:42:44.083449+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ]
-    },
-    {
       "horse": "Ravenglass",
       "horse_id": "hrs_26050003",
       "age": 7,
@@ -763,7 +736,50 @@
       ],
       "profile_notes": [
         "Recent run timing"
-      ]
+      ],
+      "favourite_course": {
+        "value": "Chepstow",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Chepstow",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
     },
     {
       "horse": "Reidh",
@@ -872,13 +888,56 @@
           "_stored_at": "2026-06-28T12:42:44.033203+00:00"
         }
       ],
-      "profile_notes": []
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Chepstow",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Chepstow",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
     }
   ],
   "notes": [
     "Autumn Angel is the top-rated Pulse IQ runner.",
-    "The top runner has a clear intelligence gap over the field.",
+    "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Ravenglass is flagged as a possible dark horse."
+    "Reidh is flagged as a possible dark horse."
   ]
 }

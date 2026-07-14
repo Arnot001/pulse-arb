@@ -4,15 +4,166 @@
   "course": "Newton Abbot",
   "time": "3:42",
   "race_name": "Racing Club Handicap Hurdle",
-  "field_size": 12,
-  "average_intelligence": 20.33,
-  "top_score": 56,
-  "second_score": 49,
-  "gap": 7,
+  "field_size": 6,
+  "average_intelligence": 51.5,
+  "top_score": 58,
+  "second_score": 56,
+  "gap": 2,
   "confidence_score": 48,
   "confidence": "LOW",
-  "race_shape": "COMPETITIVE EDGE",
+  "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Raffles Nobu",
+    "horse_id": "hrs_37380882",
+    "age": 6,
+    "sex": "gelding",
+    "latest_course": "Newton Abbot",
+    "latest_time": "3:42",
+    "latest_race": "Racing Club Handicap Hurdle",
+    "latest_date": "2026-07-13",
+    "latest_distance_f": 18.5,
+    "latest_class": "Class 5",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Nick Scholfield",
+    "latest_jockey": "Jack Quinlan",
+    "latest_draw": 0,
+    "latest_weight_lbs": 158,
+    "official_rating": "85",
+    "recent_form": "4-P342",
+    "last_run_days": 27,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Newton Abbot": 1
+    },
+    "distances_seen": {
+      "18.5": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 5": 1
+    },
+    "trainers_seen": {
+      "Nick Scholfield": 1
+    },
+    "jockeys_seen": {
+      "Jack Quinlan": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 68,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11998766",
+        "course": "Newton Abbot",
+        "date": "2026-07-13",
+        "off_time": "3:42",
+        "off_dt": "2026-07-13T15:42:00+01:00",
+        "race_name": "Racing Club Handicap Hurdle",
+        "distance_f": 18.5,
+        "race_class": "Class 5",
+        "race_type": "Hurdle",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 12,
+        "horse": "Raffles Nobu",
+        "horse_id": "hrs_37380882",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Nick Scholfield",
+        "trainer_id": "trn_383553",
+        "jockey": "Jack Quinlan",
+        "jockey_id": "jky_262584",
+        "draw": 0,
+        "number": 6,
+        "lbs": 158,
+        "ofr": "85",
+        "last_run": 27,
+        "form": "4-P342",
+        "headgear": "tb"
+      }
+    ],
+    "profile_notes": [],
+    "latest_result": {
+      "source": "bbc_sport",
+      "result_date": "2026-07-13",
+      "course": "Newton Abbot",
+      "race_time": "15:42",
+      "race_name": "Racing Club Handicap Hurdle",
+      "race_id": "p-1574254",
+      "status": "PostEvent",
+      "finish_position": 1,
+      "sp": "15/2",
+      "favourite_position": 5,
+      "going": "Good to Firm",
+      "distance": "2m 2f 110y",
+      "field_size": 12,
+      "trainer": "Nick Scholfield",
+      "jockey": "J M Quinlan",
+      "distance_beaten": "-",
+      "won": true,
+      "placed": true,
+      "attached_at": "2026-07-13T21:08:01"
+    },
+    "latest_result_position": 1,
+    "latest_result_sp": "15/2",
+    "latest_result_won": true,
+    "latest_result_placed": true,
+    "latest_result_date": "2026-07-13",
+    "favourite_course": {
+      "value": "Newton Abbot",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 18.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 58,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Newton Abbot",
+      "latest_distance_f": 18.5,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 5",
+      "latest_pulse_score": 68,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Coup De Gold",
     "horse_id": "hrs_15171009",
     "age": 10,
@@ -135,12 +286,38 @@
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
-    }
+    },
+    "latest_result": {
+      "source": "bbc_sport",
+      "result_date": "2026-07-13",
+      "course": "Newton Abbot",
+      "race_time": "15:42",
+      "race_name": "Racing Club Handicap Hurdle",
+      "race_id": "p-1574254",
+      "status": "PostEvent",
+      "finish_position": 6,
+      "sp": "12/1",
+      "favourite_position": 7,
+      "going": "Good to Firm",
+      "distance": "2m 2f 110y",
+      "field_size": 12,
+      "trainer": "Mrs C Williams",
+      "jockey": "Miss Eleanor Williams",
+      "distance_beaten": "5L",
+      "won": false,
+      "placed": false,
+      "attached_at": "2026-07-13T21:08:01"
+    },
+    "latest_result_position": 6,
+    "latest_result_sp": "12/1",
+    "latest_result_won": false,
+    "latest_result_placed": false,
+    "latest_result_date": "2026-07-13"
   },
-  "main_threat": {
-    "horse": "Bowling Shane",
-    "horse_id": "hrs_51766757",
-    "age": 4,
+  "dark_horse": {
+    "horse": "Coup De Gold",
+    "horse_id": "hrs_15171009",
+    "age": 10,
     "sex": "gelding",
     "latest_course": "Newton Abbot",
     "latest_time": "3:42",
@@ -150,13 +327,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Clive Boultbee-Brooks",
-    "latest_jockey": "Ned Fox(3)",
+    "latest_trainer": "Mrs C Williams",
+    "latest_jockey": "Miss Eleanor Williams(7)",
     "latest_draw": 0,
-    "latest_weight_lbs": 151,
-    "official_rating": "83",
-    "recent_form": "800-35",
-    "last_run_days": 39,
+    "latest_weight_lbs": 154,
+    "official_rating": "81",
+    "recent_form": "3457-1",
+    "last_run_days": 31,
     "profile_runs": 1,
     "courses_seen": {
       "Newton Abbot": 1
@@ -171,17 +348,18 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Clive Boultbee-Brooks": 1
+      "Mrs C Williams": 1
     },
     "jockeys_seen": {
-      "Ned Fox(3)": 1
+      "Miss Eleanor Williams(7)": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 49,
+    "latest_pulse_score": 65,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
+      "Ideal layoff profile +2",
       "Helpful draw"
     ],
     "runs": [
@@ -199,143 +377,20 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 12,
-        "horse": "Bowling Shane",
-        "horse_id": "hrs_51766757",
-        "age": 4,
+        "horse": "Coup De Gold",
+        "horse_id": "hrs_15171009",
+        "age": 10,
         "sex": "gelding",
-        "trainer": "Clive Boultbee-Brooks",
-        "trainer_id": "trn_342837",
-        "jockey": "Ned Fox(3)",
-        "jockey_id": "jky_299007",
+        "trainer": "Mrs C Williams",
+        "trainer_id": "trn_146502",
+        "jockey": "Miss Eleanor Williams(7)",
+        "jockey_id": "jky_299835",
         "draw": 0,
-        "number": 10,
-        "lbs": 151,
-        "ofr": "83",
-        "last_run": 39,
-        "form": "800-35",
-        "headgear": "t"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Newton Abbot",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 18.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 49,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Newton Abbot",
-      "latest_distance_f": 18.5,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 5",
-      "latest_pulse_score": 49,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Anothermanicmonday",
-    "horse_id": "hrs_52772209",
-    "age": 6,
-    "sex": "gelding",
-    "latest_course": "Newton Abbot",
-    "latest_time": "3:42",
-    "latest_race": "Racing Club Handicap Hurdle",
-    "latest_date": "2026-07-13",
-    "latest_distance_f": 18.5,
-    "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Sue Gardner",
-    "latest_jockey": "Sean Houlihan",
-    "latest_draw": 0,
-    "latest_weight_lbs": 145,
-    "official_rating": "72",
-    "recent_form": "0P06-5",
-    "last_run_days": 60,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Newton Abbot": 1
-    },
-    "distances_seen": {
-      "18.5": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 5": 1
-    },
-    "trainers_seen": {
-      "Sue Gardner": 1
-    },
-    "jockeys_seen": {
-      "Sean Houlihan": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 44,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Helpful draw"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11998766",
-        "course": "Newton Abbot",
-        "date": "2026-07-13",
-        "off_time": "3:42",
-        "off_dt": "2026-07-13T15:42:00+01:00",
-        "race_name": "Racing Club Handicap Hurdle",
-        "distance_f": 18.5,
-        "race_class": "Class 5",
-        "race_type": "Hurdle",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 12,
-        "horse": "Anothermanicmonday",
-        "horse_id": "hrs_52772209",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "Sue Gardner",
-        "trainer_id": "trn_55557",
-        "jockey": "Sean Houlihan",
-        "jockey_id": "jky_282387",
-        "draw": 0,
-        "number": 12,
-        "lbs": 145,
-        "ofr": "72",
-        "last_run": 60,
-        "form": "0P06-5",
+        "number": 8,
+        "lbs": 154,
+        "ofr": "81",
+        "last_run": 31,
+        "form": "3457-1",
         "headgear": ""
       }
     ],
@@ -361,12 +416,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 47,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Limited stored profile data"
@@ -377,13 +433,190 @@
       "latest_distance_f": 18.5,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": 44,
+      "latest_pulse_score": 65,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
-    }
+    },
+    "latest_result": {
+      "source": "bbc_sport",
+      "result_date": "2026-07-13",
+      "course": "Newton Abbot",
+      "race_time": "15:42",
+      "race_name": "Racing Club Handicap Hurdle",
+      "race_id": "p-1574254",
+      "status": "PostEvent",
+      "finish_position": 6,
+      "sp": "12/1",
+      "favourite_position": 7,
+      "going": "Good to Firm",
+      "distance": "2m 2f 110y",
+      "field_size": 12,
+      "trainer": "Mrs C Williams",
+      "jockey": "Miss Eleanor Williams",
+      "distance_beaten": "5L",
+      "won": false,
+      "placed": false,
+      "attached_at": "2026-07-13T21:08:01"
+    },
+    "latest_result_position": 6,
+    "latest_result_sp": "12/1",
+    "latest_result_won": false,
+    "latest_result_placed": false,
+    "latest_result_date": "2026-07-13"
   },
   "runners": [
+    {
+      "horse": "Raffles Nobu",
+      "horse_id": "hrs_37380882",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Newton Abbot",
+      "latest_time": "3:42",
+      "latest_race": "Racing Club Handicap Hurdle",
+      "latest_date": "2026-07-13",
+      "latest_distance_f": 18.5,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Nick Scholfield",
+      "latest_jockey": "Jack Quinlan",
+      "latest_draw": 0,
+      "latest_weight_lbs": 158,
+      "official_rating": "85",
+      "recent_form": "4-P342",
+      "last_run_days": 27,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newton Abbot": 1
+      },
+      "distances_seen": {
+        "18.5": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Nick Scholfield": 1
+      },
+      "jockeys_seen": {
+        "Jack Quinlan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 68,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11998766",
+          "course": "Newton Abbot",
+          "date": "2026-07-13",
+          "off_time": "3:42",
+          "off_dt": "2026-07-13T15:42:00+01:00",
+          "race_name": "Racing Club Handicap Hurdle",
+          "distance_f": 18.5,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Raffles Nobu",
+          "horse_id": "hrs_37380882",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Nick Scholfield",
+          "trainer_id": "trn_383553",
+          "jockey": "Jack Quinlan",
+          "jockey_id": "jky_262584",
+          "draw": 0,
+          "number": 6,
+          "lbs": 158,
+          "ofr": "85",
+          "last_run": 27,
+          "form": "4-P342",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [],
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Newton Abbot",
+        "race_time": "15:42",
+        "race_name": "Racing Club Handicap Hurdle",
+        "race_id": "p-1574254",
+        "status": "PostEvent",
+        "finish_position": 1,
+        "sp": "15/2",
+        "favourite_position": 5,
+        "going": "Good to Firm",
+        "distance": "2m 2f 110y",
+        "field_size": 12,
+        "trainer": "Nick Scholfield",
+        "jockey": "J M Quinlan",
+        "distance_beaten": "-",
+        "won": true,
+        "placed": true,
+        "attached_at": "2026-07-13T21:08:01"
+      },
+      "latest_result_position": 1,
+      "latest_result_sp": "15/2",
+      "latest_result_won": true,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-13",
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 18.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 18.5,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 68,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Coup De Gold",
       "horse_id": "hrs_15171009",
@@ -507,12 +740,38 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Newton Abbot",
+        "race_time": "15:42",
+        "race_name": "Racing Club Handicap Hurdle",
+        "race_id": "p-1574254",
+        "status": "PostEvent",
+        "finish_position": 6,
+        "sp": "12/1",
+        "favourite_position": 7,
+        "going": "Good to Firm",
+        "distance": "2m 2f 110y",
+        "field_size": 12,
+        "trainer": "Mrs C Williams",
+        "jockey": "Miss Eleanor Williams",
+        "distance_beaten": "5L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-13T21:08:01"
+      },
+      "latest_result_position": 6,
+      "latest_result_sp": "12/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-13"
     },
     {
-      "horse": "Bowling Shane",
-      "horse_id": "hrs_51766757",
-      "age": 4,
+      "horse": "Peace Motivator",
+      "horse_id": "hrs_44481332",
+      "age": 6,
       "sex": "gelding",
       "latest_course": "Newton Abbot",
       "latest_time": "3:42",
@@ -522,13 +781,13 @@
       "latest_class": "Class 5",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Clive Boultbee-Brooks",
-      "latest_jockey": "Ned Fox(3)",
+      "latest_trainer": "Barry John Murphy",
+      "latest_jockey": "Richie McLernon",
       "latest_draw": 0,
-      "latest_weight_lbs": 151,
-      "official_rating": "83",
-      "recent_form": "800-35",
-      "last_run_days": 39,
+      "latest_weight_lbs": 149,
+      "official_rating": "76",
+      "recent_form": "FP-PP8",
+      "last_run_days": 26,
       "profile_runs": 1,
       "courses_seen": {
         "Newton Abbot": 1
@@ -543,18 +802,20 @@
         "Class 5": 1
       },
       "trainers_seen": {
-        "Clive Boultbee-Brooks": 1
+        "Barry John Murphy": 1
       },
       "jockeys_seen": {
-        "Ned Fox(3)": 1
+        "Richie McLernon": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 49,
+      "latest_pulse_score": 53,
       "latest_notes": [
-        "Positive recent form",
+        "Weak recent form",
         "Good recent run timing",
-        "Helpful draw"
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Stable in form +2 (2/2 last 14 days)"
       ],
       "runs": [
         {
@@ -571,21 +832,21 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 12,
-          "horse": "Bowling Shane",
-          "horse_id": "hrs_51766757",
-          "age": 4,
+          "horse": "Peace Motivator",
+          "horse_id": "hrs_44481332",
+          "age": 6,
           "sex": "gelding",
-          "trainer": "Clive Boultbee-Brooks",
-          "trainer_id": "trn_342837",
-          "jockey": "Ned Fox(3)",
-          "jockey_id": "jky_299007",
+          "trainer": "Barry John Murphy",
+          "trainer_id": "trn_283941",
+          "jockey": "Richie McLernon",
+          "jockey_id": "jky_251094",
           "draw": 0,
-          "number": 10,
-          "lbs": 151,
-          "ofr": "83",
-          "last_run": 39,
-          "form": "800-35",
-          "headgear": "t"
+          "number": 11,
+          "lbs": 149,
+          "ofr": "76",
+          "last_run": 26,
+          "form": "FP-PP8",
+          "headgear": ""
         }
       ],
       "profile_notes": [],
@@ -610,7 +871,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 49,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -626,7 +887,156 @@
         "latest_distance_f": 18.5,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": 49,
+        "latest_pulse_score": 53,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Renoir",
+      "horse_id": "hrs_34961416",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Newton Abbot",
+      "latest_time": "3:42",
+      "latest_race": "Racing Club Handicap Hurdle",
+      "latest_date": "2026-07-13",
+      "latest_distance_f": 18.5,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ben Clarke",
+      "latest_jockey": "David Noonan",
+      "latest_draw": 0,
+      "latest_weight_lbs": 168,
+      "official_rating": "95",
+      "recent_form": "437-63",
+      "last_run_days": 47,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newton Abbot": 1
+      },
+      "distances_seen": {
+        "18.5": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Ben Clarke": 1
+      },
+      "jockeys_seen": {
+        "David Noonan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 52,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11998766",
+          "course": "Newton Abbot",
+          "date": "2026-07-13",
+          "off_time": "3:42",
+          "off_dt": "2026-07-13T15:42:00+01:00",
+          "race_name": "Racing Club Handicap Hurdle",
+          "distance_f": 18.5,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Renoir",
+          "horse_id": "hrs_34961416",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "Ben Clarke",
+          "trainer_id": "trn_59067",
+          "jockey": "David Noonan",
+          "jockey_id": "jky_274599",
+          "draw": 0,
+          "number": 1,
+          "lbs": 168,
+          "ofr": "95",
+          "last_run": 47,
+          "form": "437-63",
+          "headgear": "b"
+        }
+      ],
+      "profile_notes": [],
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Newton Abbot",
+        "race_time": "15:42",
+        "race_name": "Racing Club Handicap Hurdle",
+        "race_id": "p-1574254",
+        "status": "PostEvent",
+        "finish_position": 8,
+        "sp": "14/1",
+        "favourite_position": 10,
+        "going": "Good to Firm",
+        "distance": "2m 2f 110y",
+        "field_size": 12,
+        "trainer": "Ben Clarke",
+        "jockey": "David Noonan",
+        "distance_beaten": "1ÃÂ½L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-13T21:08:01"
+      },
+      "latest_result_position": 8,
+      "latest_result_sp": "14/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-13",
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 18.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 18.5,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 52,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -753,652 +1163,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
-    },
-    {
-      "horse": "Get The Value",
-      "horse_id": "hrs_30908507",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Newton Abbot",
-      "latest_time": "3:42",
-      "latest_race": "Racing Club Handicap Hurdle",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 18.5,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "John O'Shea",
-      "latest_jockey": "Kielan Woods",
-      "latest_draw": 0,
-      "latest_weight_lbs": 165,
-      "official_rating": "92",
-      "recent_form": "P7-7P3",
-      "last_run_days": 13,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Stratford": 1,
-        "Newton Abbot": 1
       },
-      "distances_seen": {
-        "18.5": 2
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Newton Abbot",
+        "race_time": "15:42",
+        "race_name": "Racing Club Handicap Hurdle",
+        "race_id": "p-1574254",
+        "status": "PostEvent",
+        "finish_position": 7,
+        "sp": "11/1",
+        "favourite_position": 6,
+        "going": "Good to Firm",
+        "distance": "2m 2f 110y",
+        "field_size": 12,
+        "trainer": "Mrs S Gardner",
+        "jockey": "Sean Houlihan",
+        "distance_beaten": "NK",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-13T21:08:01"
       },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {
-        "Class 5": 2
-      },
-      "trainers_seen": {
-        "John O'Shea": 2
-      },
-      "jockeys_seen": {
-        "Nick Slatter(3)": 1,
-        "Kielan Woods": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 48,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987261",
-          "course": "Stratford",
-          "date": "2026-06-30",
-          "off_time": "7:48",
-          "off_dt": "2026-06-30T19:48:00+01:00",
-          "race_name": "Davisons Law Moving You Forward Handicap Hurdle",
-          "distance_f": 18.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Get The Value",
-          "horse_id": "hrs_30908507",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "John O'Shea",
-          "trainer_id": "trn_37152",
-          "jockey": "Nick Slatter(3)",
-          "jockey_id": "jky_265353",
-          "draw": 0,
-          "number": 3,
-          "lbs": 163,
-          "ofr": "93",
-          "last_run": 27,
-          "form": "8P7-7P",
-          "headgear": "",
-          "_stored_at": "2026-06-30T05:14:27.891702+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11998766",
-          "course": "Newton Abbot",
-          "date": "2026-07-13",
-          "off_time": "3:42",
-          "off_dt": "2026-07-13T15:42:00+01:00",
-          "race_name": "Racing Club Handicap Hurdle",
-          "distance_f": 18.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Get The Value",
-          "horse_id": "hrs_30908507",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "John O'Shea",
-          "trainer_id": "trn_37152",
-          "jockey": "Kielan Woods",
-          "jockey_id": "jky_266652",
-          "draw": 0,
-          "number": 2,
-          "lbs": 165,
-          "ofr": "92",
-          "last_run": 13,
-          "form": "P7-7P3",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Stratford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 18.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 2
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 81,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newton Abbot",
-        "latest_distance_f": 18.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 48,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Hawa Jumeirah",
-      "horse_id": "hrs_36328985",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Newton Abbot",
-      "latest_time": "3:42",
-      "latest_race": "Racing Club Handicap Hurdle",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 18.5,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Helen Nelmes",
-      "latest_jockey": "Paul O'Brien",
-      "latest_draw": 0,
-      "latest_weight_lbs": 153,
-      "official_rating": "80",
-      "recent_form": "05-583",
-      "last_run_days": 10,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Newton Abbot": 2
-      },
-      "distances_seen": {
-        "18.5": 2
-      },
-      "goings_seen": {
-        "Good": 1,
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 5": 2
-      },
-      "trainers_seen": {
-        "Helen Nelmes": 2
-      },
-      "jockeys_seen": {
-        "Paul O'Brien": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 49,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987508",
-          "course": "Newton Abbot",
-          "date": "2026-07-03",
-          "off_time": "2:45",
-          "off_dt": "2026-07-03T14:45:00+01:00",
-          "race_name": "Sun Racing Free Tickets With Sun Club Novices' Handicap Hurdle",
-          "distance_f": 18.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Hawa Jumeirah",
-          "horse_id": "hrs_36328985",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Helen Nelmes",
-          "trainer_id": "trn_57024",
-          "jockey": "Paul O'Brien",
-          "jockey_id": "jky_276336",
-          "draw": 0,
-          "number": 6,
-          "lbs": 144,
-          "ofr": "81",
-          "last_run": 30,
-          "form": "05-58",
-          "headgear": "t",
-          "_stored_at": "2026-07-03T04:58:47.590683+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11998766",
-          "course": "Newton Abbot",
-          "date": "2026-07-13",
-          "off_time": "3:42",
-          "off_dt": "2026-07-13T15:42:00+01:00",
-          "race_name": "Racing Club Handicap Hurdle",
-          "distance_f": 18.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Hawa Jumeirah",
-          "horse_id": "hrs_36328985",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Helen Nelmes",
-          "trainer_id": "trn_57024",
-          "jockey": "Paul O'Brien",
-          "jockey_id": "jky_276336",
-          "draw": 0,
-          "number": 9,
-          "lbs": 153,
-          "ofr": "80",
-          "last_run": 10,
-          "form": "05-583",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Newton Abbot",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 18.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 55,
-      "class_suitability_score": 90,
-      "suitability_score": 81,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newton Abbot",
-        "latest_distance_f": 18.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 49,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Peace Motivator",
-      "horse_id": "hrs_44481332",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Newton Abbot",
-      "latest_time": "3:42",
-      "latest_race": "Racing Club Handicap Hurdle",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 18.5,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Barry John Murphy",
-      "latest_jockey": "Richie McLernon",
-      "latest_draw": 0,
-      "latest_weight_lbs": 149,
-      "official_rating": "76",
-      "recent_form": "FP-PP8",
-      "last_run_days": 26,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newton Abbot": 1
-      },
-      "distances_seen": {
-        "18.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Barry John Murphy": 1
-      },
-      "jockeys_seen": {
-        "Richie McLernon": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 53,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Stable in form +2 (2/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11998766",
-          "course": "Newton Abbot",
-          "date": "2026-07-13",
-          "off_time": "3:42",
-          "off_dt": "2026-07-13T15:42:00+01:00",
-          "race_name": "Racing Club Handicap Hurdle",
-          "distance_f": 18.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Peace Motivator",
-          "horse_id": "hrs_44481332",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Barry John Murphy",
-          "trainer_id": "trn_283941",
-          "jockey": "Richie McLernon",
-          "jockey_id": "jky_251094",
-          "draw": 0,
-          "number": 11,
-          "lbs": 149,
-          "ofr": "76",
-          "last_run": 26,
-          "form": "FP-PP8",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Privilege",
-      "horse_id": "hrs_22033641",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Newton Abbot",
-      "latest_time": "3:42",
-      "latest_race": "Racing Club Handicap Hurdle",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 18.5,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "John & Rhys Flint",
-      "latest_jockey": "Charlie Price",
-      "latest_draw": 0,
-      "latest_weight_lbs": 163,
-      "official_rating": "90",
-      "recent_form": "5226-4",
-      "last_run_days": 20,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newton Abbot": 1
-      },
-      "distances_seen": {
-        "18.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "John & Rhys Flint": 1
-      },
-      "jockeys_seen": {
-        "Charlie Price": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 67,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11998766",
-          "course": "Newton Abbot",
-          "date": "2026-07-13",
-          "off_time": "3:42",
-          "off_dt": "2026-07-13T15:42:00+01:00",
-          "race_name": "Racing Club Handicap Hurdle",
-          "distance_f": 18.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Privilege",
-          "horse_id": "hrs_22033641",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "John & Rhys Flint",
-          "trainer_id": "trn_370863",
-          "jockey": "Charlie Price",
-          "jockey_id": "jky_286938",
-          "draw": 0,
-          "number": 5,
-          "lbs": 163,
-          "ofr": "90",
-          "last_run": 20,
-          "form": "5226-4",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Raffles Nobu",
-      "horse_id": "hrs_37380882",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Newton Abbot",
-      "latest_time": "3:42",
-      "latest_race": "Racing Club Handicap Hurdle",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 18.5,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Nick Scholfield",
-      "latest_jockey": "Jack Quinlan",
-      "latest_draw": 0,
-      "latest_weight_lbs": 158,
-      "official_rating": "85",
-      "recent_form": "4-P342",
-      "last_run_days": 27,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newton Abbot": 1
-      },
-      "distances_seen": {
-        "18.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Nick Scholfield": 1
-      },
-      "jockeys_seen": {
-        "Jack Quinlan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 68,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11998766",
-          "course": "Newton Abbot",
-          "date": "2026-07-13",
-          "off_time": "3:42",
-          "off_dt": "2026-07-13T15:42:00+01:00",
-          "race_name": "Racing Club Handicap Hurdle",
-          "distance_f": 18.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Raffles Nobu",
-          "horse_id": "hrs_37380882",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Nick Scholfield",
-          "trainer_id": "trn_383553",
-          "jockey": "Jack Quinlan",
-          "jockey_id": "jky_262584",
-          "draw": 0,
-          "number": 6,
-          "lbs": 158,
-          "ofr": "85",
-          "last_run": 27,
-          "form": "4-P342",
-          "headgear": "tb"
-        }
-      ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Renoir",
-      "horse_id": "hrs_34961416",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Newton Abbot",
-      "latest_time": "3:42",
-      "latest_race": "Racing Club Handicap Hurdle",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 18.5,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ben Clarke",
-      "latest_jockey": "David Noonan",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "95",
-      "recent_form": "437-63",
-      "last_run_days": 47,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newton Abbot": 1
-      },
-      "distances_seen": {
-        "18.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Ben Clarke": 1
-      },
-      "jockeys_seen": {
-        "David Noonan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 52,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11998766",
-          "course": "Newton Abbot",
-          "date": "2026-07-13",
-          "off_time": "3:42",
-          "off_dt": "2026-07-13T15:42:00+01:00",
-          "race_name": "Racing Club Handicap Hurdle",
-          "distance_f": 18.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Renoir",
-          "horse_id": "hrs_34961416",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Ben Clarke",
-          "trainer_id": "trn_59067",
-          "jockey": "David Noonan",
-          "jockey_id": "jky_274599",
-          "draw": 0,
-          "number": 1,
-          "lbs": 168,
-          "ofr": "95",
-          "last_run": 47,
-          "form": "437-63",
-          "headgear": "b"
-        }
-      ],
-      "profile_notes": []
+      "latest_result_position": 7,
+      "latest_result_sp": "11/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-13"
     },
     {
       "horse": "Sam's Amour",
@@ -1479,214 +1270,80 @@
           "headgear": ""
         }
       ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Saucats",
-      "horse_id": "hrs_40312321",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Newton Abbot",
-      "latest_time": "3:42",
-      "latest_race": "Racing Club Handicap Hurdle",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 18.5,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Joe Tickle",
-      "latest_jockey": "Callum Pritchard",
-      "latest_draw": 0,
-      "latest_weight_lbs": 155,
-      "official_rating": "82",
-      "recent_form": "4-2551",
-      "last_run_days": 10,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Newton Abbot": 2
+      "profile_notes": [],
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-13",
+        "course": "Newton Abbot",
+        "race_time": "15:42",
+        "race_name": "Racing Club Handicap Hurdle",
+        "race_id": "p-1574254",
+        "status": "PostEvent",
+        "finish_position": 9,
+        "sp": "12/1",
+        "favourite_position": 7,
+        "going": "Good to Firm",
+        "distance": "2m 2f 110y",
+        "field_size": 12,
+        "trainer": "Kieran Burke",
+        "jockey": "Thomas Bellamy",
+        "distance_beaten": "20L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-13T21:08:01"
       },
-      "distances_seen": {
-        "18.5": 2
+      "latest_result_position": 9,
+      "latest_result_sp": "12/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-13",
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 1
       },
-      "goings_seen": {
-        "Good": 1,
-        "Good To Firm": 1
+      "favourite_distance": {
+        "value": 18.5,
+        "runs": 1
       },
-      "classes_seen": {
-        "Class 5": 2
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
       },
-      "trainers_seen": {
-        "Joe Tickle": 2
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
       },
-      "jockeys_seen": {
-        "Callum Pritchard": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 74,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +1",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey in form +2 (2/2 last 14 days)",
-        "Historical winner +3",
-        "Previous course winner +4"
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
       ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987508",
-          "course": "Newton Abbot",
-          "date": "2026-07-03",
-          "off_time": "2:45",
-          "off_dt": "2026-07-03T14:45:00+01:00",
-          "race_name": "Sun Racing Free Tickets With Sun Club Novices' Handicap Hurdle",
-          "distance_f": 18.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Saucats",
-          "horse_id": "hrs_40312321",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Joe Tickle",
-          "trainer_id": "trn_263574",
-          "jockey": "Callum Pritchard",
-          "jockey_id": "jky_307311",
-          "draw": 0,
-          "number": 7,
-          "lbs": 142,
-          "ofr": "79",
-          "last_run": 10,
-          "form": "54-255",
-          "headgear": "tp",
-          "_stored_at": "2026-07-03T04:58:47.614565+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11998766",
-          "course": "Newton Abbot",
-          "date": "2026-07-13",
-          "off_time": "3:42",
-          "off_dt": "2026-07-13T15:42:00+01:00",
-          "race_name": "Racing Club Handicap Hurdle",
-          "distance_f": 18.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Saucats",
-          "horse_id": "hrs_40312321",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Joe Tickle",
-          "trainer_id": "trn_263574",
-          "jockey": "Callum Pritchard",
-          "jockey_id": "jky_307311",
-          "draw": 0,
-          "number": 7,
-          "lbs": 155,
-          "ofr": "82",
-          "last_run": 10,
-          "form": "4-2551",
-          "headgear": "tp"
-        }
+      "profile_cautions": [
+        "Limited stored profile data"
       ],
-      "profile_notes": [
-        "Recent run timing"
-      ]
-    },
-    {
-      "horse": "Ugo Bingo",
-      "horse_id": "hrs_38884356",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Newton Abbot",
-      "latest_time": "3:42",
-      "latest_race": "Racing Club Handicap Hurdle",
-      "latest_date": "2026-07-13",
-      "latest_distance_f": 18.5,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Joe Tizzard",
-      "latest_jockey": "Brendan Powell",
-      "latest_draw": 0,
-      "latest_weight_lbs": 163,
-      "official_rating": "90",
-      "recent_form": "647-74",
-      "last_run_days": 20,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newton Abbot": 1
-      },
-      "distances_seen": {
-        "18.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Joe Tizzard": 1
-      },
-      "jockeys_seen": {
-        "Brendan Powell": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 52,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11998766",
-          "course": "Newton Abbot",
-          "date": "2026-07-13",
-          "off_time": "3:42",
-          "off_dt": "2026-07-13T15:42:00+01:00",
-          "race_name": "Racing Club Handicap Hurdle",
-          "distance_f": 18.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Ugo Bingo",
-          "horse_id": "hrs_38884356",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Joe Tizzard",
-          "trainer_id": "trn_355275",
-          "jockey": "Brendan Powell",
-          "jockey_id": "jky_271218",
-          "draw": 0,
-          "number": 4,
-          "lbs": 163,
-          "ofr": "90",
-          "last_run": 20,
-          "form": "647-74",
-          "headgear": "tp"
-        }
-      ],
-      "profile_notes": []
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 18.5,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 44,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     }
   ],
   "notes": [
-    "Coup De Gold is the top-rated Pulse IQ runner.",
-    "This race has a generally weak profile strength.",
-    "Anothermanicmonday is flagged as a possible dark horse."
+    "Raffles Nobu is the top-rated Pulse IQ runner.",
+    "The race looks competitive with no clear standout.",
+    "Coup De Gold is flagged as a possible dark horse."
   ]
 }

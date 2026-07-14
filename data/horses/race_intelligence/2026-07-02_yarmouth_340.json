@@ -5,14 +5,145 @@
   "time": "3:40",
   "race_name": "Weatherbys Racing Bank Fillies' Novice Stakes (GBB Race)",
   "field_size": 5,
-  "average_intelligence": 29.8,
-  "top_score": 50,
+  "average_intelligence": 50.8,
+  "top_score": 58,
   "second_score": 50,
-  "gap": 0,
-  "confidence_score": 36,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "gap": 8,
+  "confidence_score": 57,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
+    "horse": "Musical Times",
+    "horse_id": "hrs_65838178",
+    "age": 2,
+    "sex": "filly",
+    "latest_course": "Yarmouth",
+    "latest_time": "3:40",
+    "latest_race": "Weatherbys Racing Bank Fillies' Novice Stakes (GBB Race)",
+    "latest_date": "2026-07-02",
+    "latest_distance_f": 7.0,
+    "latest_class": "Class 3",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Charlie Appleby",
+    "latest_jockey": "William Buick",
+    "latest_draw": 1,
+    "latest_weight_lbs": 135,
+    "official_rating": "-",
+    "recent_form": "1",
+    "last_run_days": 13,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Yarmouth": 1
+    },
+    "distances_seen": {
+      "7.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 3": 1
+    },
+    "trainers_seen": {
+      "Charlie Appleby": 1
+    },
+    "jockeys_seen": {
+      "William Buick": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 68,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Race class strength +4",
+      "Trainer bonus +3",
+      "Jockey bonus +2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988717",
+        "course": "Yarmouth",
+        "date": "2026-07-02",
+        "off_time": "3:40",
+        "off_dt": "2026-07-02T15:40:00+01:00",
+        "race_name": "Weatherbys Racing Bank Fillies' Novice Stakes (GBB Race)",
+        "distance_f": 7.0,
+        "race_class": "Class 3",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Musical Times",
+        "horse_id": "hrs_65838178",
+        "age": 2,
+        "sex": "filly",
+        "trainer": "Charlie Appleby",
+        "trainer_id": "trn_255042",
+        "jockey": "William Buick",
+        "jockey_id": "jky_257379",
+        "draw": 1,
+        "number": 1,
+        "lbs": 135,
+        "ofr": "-",
+        "last_run": 13,
+        "form": "1",
+        "headgear": "",
+        "_stored_at": "2026-07-02T00:01:32.017893+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Low draw today",
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Yarmouth",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 7.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 3",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 58,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Yarmouth",
+      "latest_distance_f": 7.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 3",
+      "latest_pulse_score": 68,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Attack Attack",
     "horse_id": "hrs_65225265",
     "age": 2,
@@ -93,7 +224,7 @@
         "last_run": 14,
         "form": "00",
         "headgear": "h",
-        "_stored_at": "2026-07-02T04:58:41.227948+00:00"
+        "_stored_at": "2026-07-02T00:01:32.030253+00:00"
       }
     ],
     "profile_notes": [
@@ -143,7 +274,7 @@
       "runs_count": 1
     }
   },
-  "main_threat": {
+  "dark_horse": {
     "horse": "Aunty Patsy",
     "horse_id": "hrs_66305743",
     "age": 2,
@@ -221,7 +352,7 @@
         "last_run": null,
         "form": "",
         "headgear": "",
-        "_stored_at": "2026-07-02T04:58:41.249233+00:00"
+        "_stored_at": "2026-07-02T00:01:32.065257+00:00"
       }
     ],
     "profile_notes": [
@@ -270,131 +401,138 @@
       "runs_count": 1
     }
   },
-  "dark_horse": {
-    "horse": "Gracious Gift",
-    "horse_id": "hrs_66305820",
-    "age": 2,
-    "sex": "filly",
-    "latest_course": "Yarmouth",
-    "latest_time": "3:40",
-    "latest_race": "Weatherbys Racing Bank Fillies' Novice Stakes (GBB Race)",
-    "latest_date": "2026-07-02",
-    "latest_distance_f": 7.0,
-    "latest_class": "Class 3",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Charlie Appleby",
-    "latest_jockey": "Connor Planas",
-    "latest_draw": 5,
-    "latest_weight_lbs": 128,
-    "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Yarmouth": 1
-    },
-    "distances_seen": {
-      "7.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 3": 1
-    },
-    "trainers_seen": {
-      "Charlie Appleby": 1
-    },
-    "jockeys_seen": {
-      "Connor Planas": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 48,
-    "latest_notes": [
-      "Helpful draw",
-      "Race class strength +4",
-      "Trainer bonus +3"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988717",
-        "course": "Yarmouth",
-        "date": "2026-07-02",
-        "off_time": "3:40",
-        "off_dt": "2026-07-02T15:40:00+01:00",
-        "race_name": "Weatherbys Racing Bank Fillies' Novice Stakes (GBB Race)",
-        "distance_f": 7.0,
-        "race_class": "Class 3",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Gracious Gift",
-        "horse_id": "hrs_66305820",
-        "age": 2,
-        "sex": "filly",
-        "trainer": "Charlie Appleby",
-        "trainer_id": "trn_255042",
-        "jockey": "Connor Planas",
-        "jockey_id": "jky_305310",
-        "draw": 5,
-        "number": 4,
-        "lbs": 128,
-        "ofr": "-",
-        "last_run": null,
-        "form": "",
-        "headgear": "",
-        "_stored_at": "2026-07-02T04:58:41.270097+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Yarmouth",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 7.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 3",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 49,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Yarmouth",
-      "latest_distance_f": 7.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 3",
-      "latest_pulse_score": 48,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
   "runners": [
+    {
+      "horse": "Musical Times",
+      "horse_id": "hrs_65838178",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Yarmouth",
+      "latest_time": "3:40",
+      "latest_race": "Weatherbys Racing Bank Fillies' Novice Stakes (GBB Race)",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Charlie Appleby",
+      "latest_jockey": "William Buick",
+      "latest_draw": 1,
+      "latest_weight_lbs": 135,
+      "official_rating": "-",
+      "recent_form": "1",
+      "last_run_days": 13,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Yarmouth": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Charlie Appleby": 1
+      },
+      "jockeys_seen": {
+        "William Buick": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 68,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +4",
+        "Trainer bonus +3",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988717",
+          "course": "Yarmouth",
+          "date": "2026-07-02",
+          "off_time": "3:40",
+          "off_dt": "2026-07-02T15:40:00+01:00",
+          "race_name": "Weatherbys Racing Bank Fillies' Novice Stakes (GBB Race)",
+          "distance_f": 7.0,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Musical Times",
+          "horse_id": "hrs_65838178",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Charlie Appleby",
+          "trainer_id": "trn_255042",
+          "jockey": "William Buick",
+          "jockey_id": "jky_257379",
+          "draw": 1,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "-",
+          "last_run": 13,
+          "form": "1",
+          "headgear": "",
+          "_stored_at": "2026-07-02T00:01:32.017893+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Yarmouth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Yarmouth",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 68,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Attack Attack",
       "horse_id": "hrs_65225265",
@@ -476,7 +614,7 @@
           "last_run": 14,
           "form": "00",
           "headgear": "h",
-          "_stored_at": "2026-07-02T04:58:41.227948+00:00"
+          "_stored_at": "2026-07-02T00:01:32.030253+00:00"
         }
       ],
       "profile_notes": [
@@ -604,7 +742,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:41.249233+00:00"
+          "_stored_at": "2026-07-02T00:01:32.065257+00:00"
         }
       ],
       "profile_notes": [
@@ -730,7 +868,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:41.270097+00:00"
+          "_stored_at": "2026-07-02T00:01:32.103922+00:00"
         }
       ],
       "profile_notes": [],
@@ -776,94 +914,6 @@
         "profile_runs": 1,
         "runs_count": 1
       }
-    },
-    {
-      "horse": "Musical Times",
-      "horse_id": "hrs_65838178",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Yarmouth",
-      "latest_time": "3:40",
-      "latest_race": "Weatherbys Racing Bank Fillies' Novice Stakes (GBB Race)",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Charlie Appleby",
-      "latest_jockey": "William Buick",
-      "latest_draw": 1,
-      "latest_weight_lbs": 135,
-      "official_rating": "-",
-      "recent_form": "1",
-      "last_run_days": 13,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Yarmouth": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "Charlie Appleby": 1
-      },
-      "jockeys_seen": {
-        "William Buick": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 68,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +3",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988717",
-          "course": "Yarmouth",
-          "date": "2026-07-02",
-          "off_time": "3:40",
-          "off_dt": "2026-07-02T15:40:00+01:00",
-          "race_name": "Weatherbys Racing Bank Fillies' Novice Stakes (GBB Race)",
-          "distance_f": 7.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Musical Times",
-          "horse_id": "hrs_65838178",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Charlie Appleby",
-          "trainer_id": "trn_255042",
-          "jockey": "William Buick",
-          "jockey_id": "jky_257379",
-          "draw": 1,
-          "number": 1,
-          "lbs": 135,
-          "ofr": "-",
-          "last_run": 13,
-          "form": "1",
-          "headgear": "",
-          "_stored_at": "2026-07-02T04:58:41.207588+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ]
     },
     {
       "horse": "Skyglow",
@@ -941,16 +991,56 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:41.290992+00:00"
+          "_stored_at": "2026-07-02T00:01:32.124610+00:00"
         }
       ],
-      "profile_notes": []
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Yarmouth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Yarmouth",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 45,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     }
   ],
   "notes": [
-    "Attack Attack is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Gracious Gift is flagged as a possible dark horse."
+    "Musical Times is the top-rated Pulse IQ runner.",
+    "Aunty Patsy is flagged as a possible dark horse."
   ]
 }

@@ -5,14 +5,147 @@
   "time": "4:07",
   "race_name": "Madar Corporation EBF Maiden Stakes (GBB Race)",
   "field_size": 7,
-  "average_intelligence": 14.71,
-  "top_score": 54,
-  "second_score": 49,
-  "gap": 5,
-  "confidence_score": 43,
-  "confidence": "LOW",
+  "average_intelligence": 52.43,
+  "top_score": 63,
+  "second_score": 54,
+  "gap": 9,
+  "confidence_score": 62,
+  "confidence": "MEDIUM",
   "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
+    "horse": "Storming Point",
+    "horse_id": "hrs_50433600",
+    "age": 3,
+    "sex": "colt",
+    "latest_course": "Salisbury",
+    "latest_time": "4:07",
+    "latest_race": "Madar Corporation EBF Maiden Stakes (GBB Race)",
+    "latest_date": "2026-06-30",
+    "latest_distance_f": 10.0,
+    "latest_class": "Class 3",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Gary & Josh Moore",
+    "latest_jockey": "Jason Watson",
+    "latest_draw": 3,
+    "latest_weight_lbs": 130,
+    "official_rating": "87",
+    "recent_form": "2-32",
+    "last_run_days": 22,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Salisbury": 1
+    },
+    "distances_seen": {
+      "10.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 3": 1
+    },
+    "trainers_seen": {
+      "Gary & Josh Moore": 1
+    },
+    "jockeys_seen": {
+      "Jason Watson": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 81,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +4",
+      "Trainer bonus +1",
+      "Stable in form +2 (1/2 last 14 days)",
+      "Jockey bonus +1"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12006449",
+        "course": "Salisbury",
+        "date": "2026-06-30",
+        "off_time": "4:07",
+        "off_dt": "2026-06-30T16:07:00+01:00",
+        "race_name": "Madar Corporation EBF Maiden Stakes (GBB Race)",
+        "distance_f": 10.0,
+        "race_class": "Class 3",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Storming Point",
+        "horse_id": "hrs_50433600",
+        "age": 3,
+        "sex": "colt",
+        "trainer": "Gary & Josh Moore",
+        "trainer_id": "trn_372564",
+        "jockey": "Jason Watson",
+        "jockey_id": "jky_288666",
+        "draw": 3,
+        "number": 5,
+        "lbs": 130,
+        "ofr": "87",
+        "last_run": 22,
+        "form": "2-32",
+        "headgear": "",
+        "_stored_at": "2026-06-30T01:49:57.747900+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score",
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Salisbury",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 10.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 3",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 63,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Salisbury",
+      "latest_distance_f": 10.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 3",
+      "latest_pulse_score": 81,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Aleatrix",
     "horse_id": "hrs_65869671",
     "age": 3,
@@ -93,7 +226,7 @@
         "last_run": null,
         "form": "",
         "headgear": "",
-        "_stored_at": "2026-06-30T05:14:27.270171+00:00"
+        "_stored_at": "2026-06-30T01:49:57.796503+00:00"
       }
     ],
     "profile_notes": [],
@@ -140,11 +273,11 @@
       "runs_count": 1
     }
   },
-  "main_threat": {
-    "horse": "Al Qatem",
-    "horse_id": "hrs_57718696",
-    "age": 3,
-    "sex": "colt",
+  "dark_horse": {
+    "horse": "Zachary Hickes",
+    "horse_id": "hrs_47655377",
+    "age": 4,
+    "sex": "gelding",
     "latest_course": "Salisbury",
     "latest_time": "4:07",
     "latest_race": "Madar Corporation EBF Maiden Stakes (GBB Race)",
@@ -153,13 +286,13 @@
     "latest_class": "Class 3",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Saeed bin Suroor",
-    "latest_jockey": "Charles Bishop",
-    "latest_draw": 4,
-    "latest_weight_lbs": 130,
+    "latest_trainer": "Roger Varian",
+    "latest_jockey": "Ray Dawson",
+    "latest_draw": 5,
+    "latest_weight_lbs": 142,
     "official_rating": "-",
-    "recent_form": "8",
-    "last_run_days": 29,
+    "recent_form": "4/6",
+    "last_run_days": 22,
     "profile_runs": 1,
     "courses_seen": {
       "Salisbury": 1
@@ -174,20 +307,20 @@
       "Class 3": 1
     },
     "trainers_seen": {
-      "Saeed bin Suroor": 1
+      "Roger Varian": 1
     },
     "jockeys_seen": {
-      "Charles Bishop": 1
+      "Ray Dawson": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 49,
+    "latest_pulse_score": 55,
     "latest_notes": [
       "Weak recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Race class strength +4",
-      "Trainer concern -2"
+      "Jockey bonus +2"
     ],
     "runs": [
       {
@@ -204,22 +337,22 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 7,
-        "horse": "Al Qatem",
-        "horse_id": "hrs_57718696",
-        "age": 3,
-        "sex": "colt",
-        "trainer": "Saeed bin Suroor",
-        "trainer_id": "trn_85914",
-        "jockey": "Charles Bishop",
-        "jockey_id": "jky_268881",
-        "draw": 4,
-        "number": 4,
-        "lbs": 130,
+        "horse": "Zachary Hickes",
+        "horse_id": "hrs_47655377",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Roger Varian",
+        "trainer_id": "trn_224010",
+        "jockey": "Ray Dawson",
+        "jockey_id": "jky_266394",
+        "draw": 5,
+        "number": 3,
+        "lbs": 142,
         "ofr": "-",
-        "last_run": 29,
-        "form": "8",
+        "last_run": 22,
+        "form": "4/6",
         "headgear": "",
-        "_stored_at": "2026-06-30T05:14:27.207822+00:00"
+        "_stored_at": "2026-06-30T01:49:57.720301+00:00"
       }
     ],
     "profile_notes": [],
@@ -244,7 +377,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 49,
+    "horse_intelligence_score": 52,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -260,96 +393,146 @@
       "latest_distance_f": 10.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 3",
-      "latest_pulse_score": 49,
+      "latest_pulse_score": 55,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
-    "horse": "Paniolo Creek",
-    "horse_id": "hrs_65974489",
-    "age": 5,
-    "sex": "horse",
-    "latest_course": "Salisbury",
-    "latest_time": "4:07",
-    "latest_race": "Madar Corporation EBF Maiden Stakes (GBB Race)",
-    "latest_date": "2026-06-30",
-    "latest_distance_f": 10.0,
-    "latest_class": "Class 3",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Keiran Burke",
-    "latest_jockey": "Joe Leavy",
-    "latest_draw": 2,
-    "latest_weight_lbs": 142,
-    "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Salisbury": 1
-    },
-    "distances_seen": {
-      "10.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 3": 1
-    },
-    "trainers_seen": {
-      "Keiran Burke": 1
-    },
-    "jockeys_seen": {
-      "Joe Leavy": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 48,
-    "latest_notes": [
-      "Helpful draw",
-      "Race class strength +4"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12006449",
-        "course": "Salisbury",
-        "date": "2026-06-30",
-        "off_time": "4:07",
-        "off_dt": "2026-06-30T16:07:00+01:00",
-        "race_name": "Madar Corporation EBF Maiden Stakes (GBB Race)",
-        "distance_f": 10.0,
-        "race_class": "Class 3",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Paniolo Creek",
-        "horse_id": "hrs_65974489",
-        "age": 5,
-        "sex": "horse",
-        "trainer": "Keiran Burke",
-        "trainer_id": "trn_232713",
-        "jockey": "Joe Leavy",
-        "jockey_id": "jky_303777",
-        "draw": 2,
-        "number": 1,
-        "lbs": 142,
-        "ofr": "-",
-        "last_run": null,
-        "form": "",
-        "headgear": "",
-        "_stored_at": "2026-06-30T05:14:27.147090+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ]
-  },
   "runners": [
+    {
+      "horse": "Storming Point",
+      "horse_id": "hrs_50433600",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Salisbury",
+      "latest_time": "4:07",
+      "latest_race": "Madar Corporation EBF Maiden Stakes (GBB Race)",
+      "latest_date": "2026-06-30",
+      "latest_distance_f": 10.0,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gary & Josh Moore",
+      "latest_jockey": "Jason Watson",
+      "latest_draw": 3,
+      "latest_weight_lbs": 130,
+      "official_rating": "87",
+      "recent_form": "2-32",
+      "last_run_days": 22,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Salisbury": 1
+      },
+      "distances_seen": {
+        "10.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Gary & Josh Moore": 1
+      },
+      "jockeys_seen": {
+        "Jason Watson": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 81,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4",
+        "Trainer bonus +1",
+        "Stable in form +2 (1/2 last 14 days)",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006449",
+          "course": "Salisbury",
+          "date": "2026-06-30",
+          "off_time": "4:07",
+          "off_dt": "2026-06-30T16:07:00+01:00",
+          "race_name": "Madar Corporation EBF Maiden Stakes (GBB Race)",
+          "distance_f": 10.0,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Storming Point",
+          "horse_id": "hrs_50433600",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Gary & Josh Moore",
+          "trainer_id": "trn_372564",
+          "jockey": "Jason Watson",
+          "jockey_id": "jky_288666",
+          "draw": 3,
+          "number": 5,
+          "lbs": 130,
+          "ofr": "87",
+          "last_run": 22,
+          "form": "2-32",
+          "headgear": "",
+          "_stored_at": "2026-06-30T01:49:57.747900+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score",
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Salisbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 63,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Salisbury",
+        "latest_distance_f": 10.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 81,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Aleatrix",
       "horse_id": "hrs_65869671",
@@ -431,7 +614,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:27.270171+00:00"
+          "_stored_at": "2026-06-30T01:49:57.796503+00:00"
         }
       ],
       "profile_notes": [],
@@ -473,6 +656,261 @@
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
         "latest_pulse_score": 60,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Zachary Hickes",
+      "horse_id": "hrs_47655377",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Salisbury",
+      "latest_time": "4:07",
+      "latest_race": "Madar Corporation EBF Maiden Stakes (GBB Race)",
+      "latest_date": "2026-06-30",
+      "latest_distance_f": 10.0,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Roger Varian",
+      "latest_jockey": "Ray Dawson",
+      "latest_draw": 5,
+      "latest_weight_lbs": 142,
+      "official_rating": "-",
+      "recent_form": "4/6",
+      "last_run_days": 22,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Salisbury": 1
+      },
+      "distances_seen": {
+        "10.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Roger Varian": 1
+      },
+      "jockeys_seen": {
+        "Ray Dawson": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 55,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +4",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006449",
+          "course": "Salisbury",
+          "date": "2026-06-30",
+          "off_time": "4:07",
+          "off_dt": "2026-06-30T16:07:00+01:00",
+          "race_name": "Madar Corporation EBF Maiden Stakes (GBB Race)",
+          "distance_f": 10.0,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Zachary Hickes",
+          "horse_id": "hrs_47655377",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Roger Varian",
+          "trainer_id": "trn_224010",
+          "jockey": "Ray Dawson",
+          "jockey_id": "jky_266394",
+          "draw": 5,
+          "number": 3,
+          "lbs": 142,
+          "ofr": "-",
+          "last_run": 22,
+          "form": "4/6",
+          "headgear": "",
+          "_stored_at": "2026-06-30T01:49:57.720301+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Salisbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Salisbury",
+        "latest_distance_f": 10.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 55,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Virtue Diligence",
+      "horse_id": "hrs_57102815",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Salisbury",
+      "latest_time": "4:07",
+      "latest_race": "Madar Corporation EBF Maiden Stakes (GBB Race)",
+      "latest_date": "2026-06-30",
+      "latest_distance_f": 10.0,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Amanda Perrett",
+      "latest_jockey": "David Probert",
+      "latest_draw": 1,
+      "latest_weight_lbs": 130,
+      "official_rating": "-",
+      "recent_form": "9-8",
+      "last_run_days": 22,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Salisbury": 1
+      },
+      "distances_seen": {
+        "10.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Amanda Perrett": 1
+      },
+      "jockeys_seen": {
+        "David Probert": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 54,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006449",
+          "course": "Salisbury",
+          "date": "2026-06-30",
+          "off_time": "4:07",
+          "off_dt": "2026-06-30T16:07:00+01:00",
+          "race_name": "Madar Corporation EBF Maiden Stakes (GBB Race)",
+          "distance_f": 10.0,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Virtue Diligence",
+          "horse_id": "hrs_57102815",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Amanda Perrett",
+          "trainer_id": "trn_95967",
+          "jockey": "David Probert",
+          "jockey_id": "jky_258039",
+          "draw": 1,
+          "number": 6,
+          "lbs": 130,
+          "ofr": "-",
+          "last_run": 22,
+          "form": "9-8",
+          "headgear": "",
+          "_stored_at": "2026-06-30T01:49:57.780740+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Salisbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 51,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Salisbury",
+        "latest_distance_f": 10.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 54,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -557,7 +995,7 @@
           "last_run": 29,
           "form": "8",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:27.207822+00:00"
+          "_stored_at": "2026-06-30T01:49:57.731176+00:00"
         }
       ],
       "profile_notes": [],
@@ -680,12 +1118,54 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:27.147090+00:00"
+          "_stored_at": "2026-06-30T01:49:57.702917+00:00"
         }
       ],
       "profile_notes": [
         "Low draw today"
-      ]
+      ],
+      "favourite_course": {
+        "value": "Salisbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 49,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Salisbury",
+        "latest_distance_f": 10.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 48,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     },
     {
       "horse": "Sevenkingsmustdie",
@@ -766,276 +1246,56 @@
           "last_run": 22,
           "form": "0",
           "headgear": "h",
-          "_stored_at": "2026-06-30T05:14:27.167448+00:00"
+          "_stored_at": "2026-06-30T01:49:57.717087+00:00"
         }
       ],
-      "profile_notes": []
-    },
-    {
-      "horse": "Storming Point",
-      "horse_id": "hrs_50433600",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Salisbury",
-      "latest_time": "4:07",
-      "latest_race": "Madar Corporation EBF Maiden Stakes (GBB Race)",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 10.0,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gary & Josh Moore",
-      "latest_jockey": "Jason Watson",
-      "latest_draw": 3,
-      "latest_weight_lbs": 130,
-      "official_rating": "87",
-      "recent_form": "2-32",
-      "last_run_days": 22,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Salisbury": 1
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Salisbury",
+        "runs": 1
       },
-      "distances_seen": {
-        "10.0": 1
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
       },
-      "goings_seen": {
-        "Good To Firm": 1
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
       },
-      "classes_seen": {
-        "Class 3": 1
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
       },
-      "trainers_seen": {
-        "Gary & Josh Moore": 1
-      },
-      "jockeys_seen": {
-        "Jason Watson": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 81,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +1",
-        "Stable in form +2 (1/2 last 14 days)",
-        "Jockey bonus +1"
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 49,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
       ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006449",
-          "course": "Salisbury",
-          "date": "2026-06-30",
-          "off_time": "4:07",
-          "off_dt": "2026-06-30T16:07:00+01:00",
-          "race_name": "Madar Corporation EBF Maiden Stakes (GBB Race)",
-          "distance_f": 10.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Storming Point",
-          "horse_id": "hrs_50433600",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Gary & Josh Moore",
-          "trainer_id": "trn_372564",
-          "jockey": "Jason Watson",
-          "jockey_id": "jky_288666",
-          "draw": 3,
-          "number": 5,
-          "lbs": 130,
-          "ofr": "87",
-          "last_run": 22,
-          "form": "2-32",
-          "headgear": "",
-          "_stored_at": "2026-06-30T05:14:27.227867+00:00"
-        }
+      "profile_cautions": [
+        "Limited stored profile data"
       ],
-      "profile_notes": [
-        "Elite latest Pulse Score",
-        "Low draw today"
-      ]
-    },
-    {
-      "horse": "Virtue Diligence",
-      "horse_id": "hrs_57102815",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Salisbury",
-      "latest_time": "4:07",
-      "latest_race": "Madar Corporation EBF Maiden Stakes (GBB Race)",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 10.0,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Amanda Perrett",
-      "latest_jockey": "David Probert",
-      "latest_draw": 1,
-      "latest_weight_lbs": 130,
-      "official_rating": "-",
-      "recent_form": "9-8",
-      "last_run_days": 22,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Salisbury": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "Amanda Perrett": 1
-      },
-      "jockeys_seen": {
-        "David Probert": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +4",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006449",
-          "course": "Salisbury",
-          "date": "2026-06-30",
-          "off_time": "4:07",
-          "off_dt": "2026-06-30T16:07:00+01:00",
-          "race_name": "Madar Corporation EBF Maiden Stakes (GBB Race)",
-          "distance_f": 10.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Virtue Diligence",
-          "horse_id": "hrs_57102815",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Amanda Perrett",
-          "trainer_id": "trn_95967",
-          "jockey": "David Probert",
-          "jockey_id": "jky_258039",
-          "draw": 1,
-          "number": 6,
-          "lbs": 130,
-          "ofr": "-",
-          "last_run": 22,
-          "form": "9-8",
-          "headgear": "",
-          "_stored_at": "2026-06-30T05:14:27.249317+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ]
-    },
-    {
-      "horse": "Zachary Hickes",
-      "horse_id": "hrs_47655377",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Salisbury",
-      "latest_time": "4:07",
-      "latest_race": "Madar Corporation EBF Maiden Stakes (GBB Race)",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 10.0,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Roger Varian",
-      "latest_jockey": "Ray Dawson",
-      "latest_draw": 5,
-      "latest_weight_lbs": 142,
-      "official_rating": "-",
-      "recent_form": "4/6",
-      "last_run_days": 22,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Salisbury": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "Roger Varian": 1
-      },
-      "jockeys_seen": {
-        "Ray Dawson": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +4",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006449",
-          "course": "Salisbury",
-          "date": "2026-06-30",
-          "off_time": "4:07",
-          "off_dt": "2026-06-30T16:07:00+01:00",
-          "race_name": "Madar Corporation EBF Maiden Stakes (GBB Race)",
-          "distance_f": 10.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Zachary Hickes",
-          "horse_id": "hrs_47655377",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Roger Varian",
-          "trainer_id": "trn_224010",
-          "jockey": "Ray Dawson",
-          "jockey_id": "jky_266394",
-          "draw": 5,
-          "number": 3,
-          "lbs": 142,
-          "ofr": "-",
-          "last_run": 22,
-          "form": "4/6",
-          "headgear": "",
-          "_stored_at": "2026-06-30T05:14:27.187890+00:00"
-        }
-      ],
-      "profile_notes": []
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Salisbury",
+        "latest_distance_f": 10.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 49,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     }
   ],
   "notes": [
-    "Aleatrix is the top-rated Pulse IQ runner.",
-    "This race has a generally weak profile strength.",
-    "Paniolo Creek is flagged as a possible dark horse."
+    "Storming Point is the top-rated Pulse IQ runner.",
+    "Zachary Hickes is flagged as a possible dark horse."
   ]
 }
