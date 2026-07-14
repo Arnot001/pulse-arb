@@ -5,128 +5,14 @@
   "time": "6:10",
   "race_name": "Irish Examiner Handicap",
   "field_size": 14,
-  "average_intelligence": 37.57,
-  "top_score": 44,
-  "second_score": 43,
-  "gap": 1,
-  "confidence_score": 35,
+  "average_intelligence": 40.71,
+  "top_score": 46,
+  "second_score": 46,
+  "gap": 0,
+  "confidence_score": 36,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Concaire",
-    "horse_id": "hrs_56624939",
-    "age": 3,
-    "sex": "gelding",
-    "latest_course": "Killarney",
-    "latest_time": "6:10",
-    "latest_race": "Irish Examiner Handicap",
-    "latest_date": "2026-07-14",
-    "latest_distance_f": 8.0,
-    "latest_class": "",
-    "latest_going": "",
-    "latest_surface": "Turf",
-    "latest_trainer": "Richard John O'Brien",
-    "latest_jockey": "Ben Coen",
-    "latest_draw": 12,
-    "latest_weight_lbs": 138,
-    "official_rating": "58",
-    "recent_form": "708627",
-    "last_run_days": 25,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Killarney": 1
-    },
-    "distances_seen": {
-      "8.0": 1
-    },
-    "goings_seen": {},
-    "classes_seen": {},
-    "trainers_seen": {
-      "Richard John O'Brien": 1
-    },
-    "jockeys_seen": {
-      "Ben Coen": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 50,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Trainer concern -2",
-      "Jockey flying +4 (7/25 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000001027",
-        "course": "Killarney",
-        "date": "2026-07-14",
-        "off_time": "6:10",
-        "off_dt": "2026-07-14T18:10:00+01:00",
-        "race_name": "Irish Examiner Handicap",
-        "distance_f": 8.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "",
-        "surface": "Turf",
-        "field_size": 14,
-        "horse": "Concaire",
-        "horse_id": "hrs_56624939",
-        "age": 3,
-        "sex": "gelding",
-        "trainer": "Richard John O'Brien",
-        "trainer_id": "trn_295191",
-        "jockey": "Ben Coen",
-        "jockey_id": "jky_291093",
-        "draw": 12,
-        "number": 4,
-        "lbs": 138,
-        "ofr": "58",
-        "last_run": 25,
-        "form": "708627",
-        "headgear": "h"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Killarney",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 8.0,
-      "runs": 1
-    },
-    "favourite_going": null,
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 50,
-    "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 44,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
-    ],
-    "profile_cautions": [
-      "Going is not clearly proven from stored profile",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Killarney",
-      "latest_distance_f": 8.0,
-      "latest_going": "",
-      "latest_class": "",
-      "latest_pulse_score": 50,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Beau Army",
     "horse_id": "hrs_55545581",
     "age": 3,
@@ -137,7 +23,7 @@
     "latest_date": "2026-07-14",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "Adrian McGuinness",
     "latest_jockey": "Declan McDonogh",
@@ -155,7 +41,7 @@
       "8.0": 2
     },
     "goings_seen": {
-      "Good": 1
+      "Good": 2
     },
     "classes_seen": {},
     "trainers_seen": {
@@ -204,7 +90,7 @@
         "last_run": 22,
         "form": "662040",
         "headgear": "",
-        "_stored_at": "2026-07-02T00:01:33.160906+00:00"
+        "_stored_at": "2026-07-02T04:58:42.221405+00:00"
       },
       {
         "source": "the_racing_api",
@@ -217,9 +103,9 @@
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
-        "field_size": 14,
+        "field_size": 12,
         "horse": "Beau Army",
         "horse_id": "hrs_55545581",
         "age": 3,
@@ -250,33 +136,152 @@
     },
     "favourite_going": {
       "value": "Good",
-      "runs": 1
+      "runs": 2
     },
     "favourite_class": null,
     "course_suitability_score": 55,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 61,
-    "horse_intelligence_score": 43,
+    "suitability_score": 71,
+    "horse_intelligence_score": 46,
     "profile_strengths": [
-      "Today's distance matches strongest profile pattern"
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
       "Course does not strongly match stored profile",
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 8.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
       "latest_pulse_score": 55,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
+    }
+  },
+  "main_threat": {
+    "horse": "Concaire",
+    "horse_id": "hrs_56624939",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Killarney",
+    "latest_time": "6:10",
+    "latest_race": "Irish Examiner Handicap",
+    "latest_date": "2026-07-14",
+    "latest_distance_f": 8.0,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Richard John O'Brien",
+    "latest_jockey": "Ben Coen",
+    "latest_draw": 12,
+    "latest_weight_lbs": 138,
+    "official_rating": "58",
+    "recent_form": "708627",
+    "last_run_days": 25,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Killarney": 1
+    },
+    "distances_seen": {
+      "8.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Richard John O'Brien": 1
+    },
+    "jockeys_seen": {
+      "Ben Coen": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 50,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Trainer concern -2",
+      "Jockey flying +4 (7/25 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000001027",
+        "course": "Killarney",
+        "date": "2026-07-14",
+        "off_time": "6:10",
+        "off_dt": "2026-07-14T18:10:00+01:00",
+        "race_name": "Irish Examiner Handicap",
+        "distance_f": 8.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 12,
+        "horse": "Concaire",
+        "horse_id": "hrs_56624939",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Richard John O'Brien",
+        "trainer_id": "trn_295191",
+        "jockey": "Ben Coen",
+        "jockey_id": "jky_291093",
+        "draw": 12,
+        "number": null,
+        "lbs": 138,
+        "ofr": "58",
+        "last_run": 25,
+        "form": "708627",
+        "headgear": "h"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Killarney",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 8.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 46,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Killarney",
+      "latest_distance_f": 8.0,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": 50,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
     }
   },
   "dark_horse": {
@@ -290,7 +295,7 @@
     "latest_date": "2026-07-14",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "Richard Anthony Foley",
     "latest_jockey": "Shay Wallace(7)",
@@ -306,7 +311,9 @@
     "distances_seen": {
       "8.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "Richard Anthony Foley": 1
@@ -333,9 +340,9 @@
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
-        "field_size": 14,
+        "field_size": 12,
         "horse": "Ramair",
         "horse_id": "hrs_56338569",
         "age": 3,
@@ -364,27 +371,30 @@
       "value": 8.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 41,
+    "suitability_score": 80,
+    "horse_intelligence_score": 44,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 8.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
       "latest_pulse_score": 45,
       "average_pulse_score": 0,
@@ -393,120 +403,6 @@
     }
   },
   "runners": [
-    {
-      "horse": "Concaire",
-      "horse_id": "hrs_56624939",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Killarney",
-      "latest_time": "6:10",
-      "latest_race": "Irish Examiner Handicap",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Richard John O'Brien",
-      "latest_jockey": "Ben Coen",
-      "latest_draw": 12,
-      "latest_weight_lbs": 138,
-      "official_rating": "58",
-      "recent_form": "708627",
-      "last_run_days": 25,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Killarney": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "Richard John O'Brien": 1
-      },
-      "jockeys_seen": {
-        "Ben Coen": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Trainer concern -2",
-        "Jockey flying +4 (7/25 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001027",
-          "course": "Killarney",
-          "date": "2026-07-14",
-          "off_time": "6:10",
-          "off_dt": "2026-07-14T18:10:00+01:00",
-          "race_name": "Irish Examiner Handicap",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Concaire",
-          "horse_id": "hrs_56624939",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Richard John O'Brien",
-          "trainer_id": "trn_295191",
-          "jockey": "Ben Coen",
-          "jockey_id": "jky_291093",
-          "draw": 12,
-          "number": 4,
-          "lbs": 138,
-          "ofr": "58",
-          "last_run": 25,
-          "form": "708627",
-          "headgear": "h"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Killarney",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Killarney",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 50,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Beau Army",
       "horse_id": "hrs_55545581",
@@ -518,7 +414,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Adrian McGuinness",
       "latest_jockey": "Declan McDonogh",
@@ -536,7 +432,7 @@
         "8.0": 2
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -585,7 +481,7 @@
           "last_run": 22,
           "form": "662040",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:33.160906+00:00"
+          "_stored_at": "2026-07-02T04:58:42.221405+00:00"
         },
         {
           "source": "the_racing_api",
@@ -598,9 +494,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Beau Army",
           "horse_id": "hrs_55545581",
           "age": 3,
@@ -631,33 +527,152 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 61,
-      "horse_intelligence_score": 43,
+      "suitability_score": 71,
+      "horse_intelligence_score": 46,
       "profile_strengths": [
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 55,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
+      }
+    },
+    {
+      "horse": "Concaire",
+      "horse_id": "hrs_56624939",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Killarney",
+      "latest_time": "6:10",
+      "latest_race": "Irish Examiner Handicap",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Richard John O'Brien",
+      "latest_jockey": "Ben Coen",
+      "latest_draw": 12,
+      "latest_weight_lbs": 138,
+      "official_rating": "58",
+      "recent_form": "708627",
+      "last_run_days": 25,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Killarney": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Richard John O'Brien": 1
+      },
+      "jockeys_seen": {
+        "Ben Coen": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 50,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Trainer concern -2",
+        "Jockey flying +4 (7/25 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001027",
+          "course": "Killarney",
+          "date": "2026-07-14",
+          "off_time": "6:10",
+          "off_dt": "2026-07-14T18:10:00+01:00",
+          "race_name": "Irish Examiner Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Concaire",
+          "horse_id": "hrs_56624939",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Richard John O'Brien",
+          "trainer_id": "trn_295191",
+          "jockey": "Ben Coen",
+          "jockey_id": "jky_291093",
+          "draw": 12,
+          "number": null,
+          "lbs": 138,
+          "ofr": "58",
+          "last_run": 25,
+          "form": "708627",
+          "headgear": "h"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Killarney",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Killarney",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 50,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
       }
     },
     {
@@ -671,7 +686,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Richard Anthony Foley",
       "latest_jockey": "Shay Wallace(7)",
@@ -687,7 +702,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Richard Anthony Foley": 1
@@ -714,9 +731,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Ramair",
           "horse_id": "hrs_56338569",
           "age": 3,
@@ -745,27 +762,30 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 41,
+      "suitability_score": 80,
+      "horse_intelligence_score": 44,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 45,
         "average_pulse_score": 0,
@@ -784,7 +804,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Andrew McNamara",
       "latest_jockey": "Chris Hayes",
@@ -800,7 +820,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Andrew McNamara": 1
@@ -830,9 +852,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Garryowen Green",
           "horse_id": "hrs_59862446",
           "age": 3,
@@ -859,27 +881,30 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 40,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 43,
         "average_pulse_score": 0,
@@ -898,7 +923,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Michael Mulvany",
       "latest_jockey": "Wesley Joyce(3)",
@@ -916,7 +941,7 @@
         "8.0": 2
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -962,7 +987,7 @@
           "last_run": 10,
           "form": "054065",
           "headgear": "tp",
-          "_stored_at": "2026-07-02T00:01:33.190370+00:00"
+          "_stored_at": "2026-07-02T04:58:42.243694+00:00"
         },
         {
           "source": "the_racing_api",
@@ -975,9 +1000,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Cause I Like You",
           "horse_id": "hrs_58745134",
           "age": 3,
@@ -1008,28 +1033,28 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 61,
-      "horse_intelligence_score": 39,
+      "suitability_score": 71,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 46,
         "average_pulse_score": 0,
@@ -1048,7 +1073,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Andrew Slattery",
       "latest_jockey": "Andrew Slattery",
@@ -1064,7 +1089,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Andrew Slattery": 1
@@ -1092,9 +1119,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Sunrise Angel",
           "horse_id": "hrs_52931102",
           "age": 3,
@@ -1121,20 +1148,23 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 39,
+      "suitability_score": 80,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -1142,7 +1172,7 @@
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 39,
         "average_pulse_score": 0,
@@ -1161,7 +1191,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "K J Condon",
       "latest_jockey": "W J Lee",
@@ -1177,7 +1207,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "K J Condon": 1
@@ -1207,9 +1239,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Tavarua",
           "horse_id": "hrs_63422513",
           "age": 3,
@@ -1236,27 +1268,30 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 39,
+      "suitability_score": 80,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 41,
         "average_pulse_score": 0,
@@ -1275,7 +1310,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Andrew Slattery",
       "latest_jockey": "Adam Browne-Souza(7)",
@@ -1295,7 +1330,7 @@
         "6.5": 1
       },
       "goings_seen": {
-        "Good": 2
+        "Good": 3
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1343,7 +1378,7 @@
           "last_run": 8,
           "form": "8-5300",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:33.259928+00:00"
+          "_stored_at": "2026-07-02T04:58:42.308421+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1386,9 +1421,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Sayonara",
           "horse_id": "hrs_59246964",
           "age": 3,
@@ -1421,27 +1456,27 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 2
+        "runs": 3
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 61,
-      "horse_intelligence_score": 38,
+      "suitability_score": 71,
+      "horse_intelligence_score": 41,
       "profile_strengths": [
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile"
+        "Course does not strongly match stored profile"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 43,
         "average_pulse_score": 0,
@@ -1460,7 +1495,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Gavin Cromwell",
       "latest_jockey": "Gary Carroll",
@@ -1478,7 +1513,7 @@
         "8.0": 2
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1526,7 +1561,7 @@
           "last_run": 28,
           "form": "099-40",
           "headgear": "t",
-          "_stored_at": "2026-07-02T00:01:32.954276+00:00"
+          "_stored_at": "2026-07-02T04:58:41.976990+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1539,9 +1574,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Wicklow Gap",
           "horse_id": "hrs_54149907",
           "age": 3,
@@ -1572,28 +1607,28 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 61,
-      "horse_intelligence_score": 38,
+      "suitability_score": 71,
+      "horse_intelligence_score": 41,
       "profile_strengths": [
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 44,
         "average_pulse_score": 0,
@@ -1612,7 +1647,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Brendan W Duke",
       "latest_jockey": "Oisin Murphy",
@@ -1633,7 +1668,7 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good": 2
+        "Good": 3
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1681,7 +1716,7 @@
           "last_run": 16,
           "form": "0083-P",
           "headgear": "",
-          "_stored_at": "2026-06-30T01:49:59.311652+00:00"
+          "_stored_at": "2026-06-30T05:14:29.281774+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1724,9 +1759,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Zheleznaya Dama",
           "horse_id": "hrs_53602269",
           "age": 3,
@@ -1758,143 +1793,32 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 2
+        "runs": 3
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 38,
-      "profile_strengths": [],
+      "suitability_score": 62,
+      "horse_intelligence_score": 41,
+      "profile_strengths": [
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile"
+        "Distance not yet a clear profile strength"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 49,
         "average_pulse_score": 0,
         "profile_runs": 3,
         "runs_count": 3
-      }
-    },
-    {
-      "horse": "De Songbird",
-      "horse_id": "hrs_63650111",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Killarney",
-      "latest_time": "6:10",
-      "latest_race": "Irish Examiner Handicap",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "T G McCourt",
-      "latest_jockey": "Sadhbh Tormey(7)",
-      "latest_draw": 8,
-      "latest_weight_lbs": 138,
-      "official_rating": "58",
-      "recent_form": "7607",
-      "last_run_days": 40,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Killarney": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "T G McCourt": 1
-      },
-      "jockeys_seen": {
-        "Sadhbh Tormey(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 32,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001027",
-          "course": "Killarney",
-          "date": "2026-07-14",
-          "off_time": "6:10",
-          "off_dt": "2026-07-14T18:10:00+01:00",
-          "race_name": "Irish Examiner Handicap",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "De Songbird",
-          "horse_id": "hrs_63650111",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "T G McCourt",
-          "trainer_id": "trn_38196",
-          "jockey": "Sadhbh Tormey(7)",
-          "jockey_id": "jky_311451",
-          "draw": 8,
-          "number": 5,
-          "lbs": 138,
-          "ofr": "58",
-          "last_run": 40,
-          "form": "7607",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Killarney",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 35,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Killarney",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 32,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
       }
     },
     {
@@ -1908,7 +1832,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Paul Traynor",
       "latest_jockey": "Killian Leonard",
@@ -1917,23 +1841,24 @@
       "official_rating": "47",
       "recent_form": "9-6930",
       "last_run_days": 1,
-      "profile_runs": 2,
+      "profile_runs": 3,
       "courses_seen": {
-        "Bellewstown": 1,
-        "Killarney": 1
+        "Killarney": 2,
+        "Bellewstown": 1
       },
       "distances_seen": {
-        "8.0": 2
+        "8.0": 2,
+        "11.5": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 3
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Paul Traynor": 2
+        "Paul Traynor": 3
       },
       "jockeys_seen": {
-        "Killian Leonard": 2
+        "Killian Leonard": 3
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
@@ -1974,7 +1899,37 @@
           "last_run": 13,
           "form": "809-69",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:33.114954+00:00"
+          "_stored_at": "2026-07-02T04:58:42.154834+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000156",
+          "course": "Killarney",
+          "date": "2026-07-13",
+          "off_time": "8:30",
+          "off_dt": "2026-07-13T20:30:00+01:00",
+          "race_name": "Heights Hotel, Killarney Handicap",
+          "distance_f": 11.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Stonyfalls",
+          "horse_id": "hrs_55732005",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Paul Traynor",
+          "trainer_id": "trn_325656",
+          "jockey": "Killian Leonard",
+          "jockey_id": "jky_283821",
+          "draw": 15,
+          "number": 13,
+          "lbs": 127,
+          "ofr": "47",
+          "last_run": 11,
+          "form": "09-693",
+          "headgear": ""
         },
         {
           "source": "the_racing_api",
@@ -1987,9 +1942,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Stonyfalls",
           "horse_id": "hrs_55732005",
           "age": 3,
@@ -1999,7 +1954,7 @@
           "jockey": "Killian Leonard",
           "jockey_id": "jky_283821",
           "draw": 5,
-          "number": 10,
+          "number": null,
           "lbs": 127,
           "ofr": "47",
           "last_run": 1,
@@ -2008,11 +1963,12 @@
         }
       ],
       "profile_notes": [
+        "Profile has multiple stored runs",
         "Recent run timing"
       ],
       "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
+        "value": "Killarney",
+        "runs": 2
       },
       "favourite_distance": {
         "value": 8.0,
@@ -2020,21 +1976,137 @@
       },
       "favourite_going": {
         "value": "Good",
+        "runs": 3
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 40,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Killarney",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 36,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
+      }
+    },
+    {
+      "horse": "De Songbird",
+      "horse_id": "hrs_63650111",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Killarney",
+      "latest_time": "6:10",
+      "latest_race": "Irish Examiner Handicap",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "T G McCourt",
+      "latest_jockey": "Sadhbh Tormey(7)",
+      "latest_draw": 8,
+      "latest_weight_lbs": 138,
+      "official_rating": "58",
+      "recent_form": "7607",
+      "last_run_days": 40,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Killarney": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "T G McCourt": 1
+      },
+      "jockeys_seen": {
+        "Sadhbh Tormey(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 32,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001027",
+          "course": "Killarney",
+          "date": "2026-07-14",
+          "off_time": "6:10",
+          "off_dt": "2026-07-14T18:10:00+01:00",
+          "race_name": "Irish Examiner Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "De Songbird",
+          "horse_id": "hrs_63650111",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "T G McCourt",
+          "trainer_id": "trn_38196",
+          "jockey": "Sadhbh Tormey(7)",
+          "jockey_id": "jky_311451",
+          "draw": 8,
+          "number": 5,
+          "lbs": 138,
+          "ofr": "58",
+          "last_run": 40,
+          "form": "7607",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Killarney",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
         "runs": 1
       },
       "favourite_class": null,
-      "course_suitability_score": 55,
+      "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 61,
-      "horse_intelligence_score": 34,
+      "suitability_score": 80,
+      "horse_intelligence_score": 38,
       "profile_strengths": [
-        "Today's distance matches strongest profile pattern"
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -2042,12 +2114,12 @@
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 36,
+        "latest_pulse_score": 32,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 1,
+        "runs_count": 1
       }
     },
     {
@@ -2061,7 +2133,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Paul W Flynn",
       "latest_jockey": "Luke McAteer",
@@ -2080,7 +2152,7 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -2112,7 +2184,7 @@
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 16,
+          "field_size": 15,
           "horse": "Six Wings",
           "horse_id": "hrs_53602227",
           "age": 3,
@@ -2140,9 +2212,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Six Wings",
           "horse_id": "hrs_53602227",
           "age": 3,
@@ -2174,20 +2246,21 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 33,
-      "profile_strengths": [],
+      "suitability_score": 62,
+      "horse_intelligence_score": 36,
+      "profile_strengths": [
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -2195,7 +2268,7 @@
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 38,
         "average_pulse_score": 0,
@@ -2214,7 +2287,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Patrick Magee",
       "latest_jockey": "Patrick McGettigan(5)",
@@ -2233,12 +2306,11 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Gavin Cromwell": 1,
-        "Patrick Magee": 1
+        "Patrick Magee": 2
       },
       "jockeys_seen": {
         "Shane Foley": 1,
@@ -2269,13 +2341,13 @@
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 16,
+          "field_size": 15,
           "horse": "Wingit",
           "horse_id": "hrs_55700792",
           "age": 3,
           "sex": "filly",
-          "trainer": "Gavin Cromwell",
-          "trainer_id": "trn_160524",
+          "trainer": "Patrick Magee",
+          "trainer_id": "trn_331659",
           "jockey": "Shane Foley",
           "jockey_id": "jky_259047",
           "draw": 5,
@@ -2297,9 +2369,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 14,
+          "field_size": 12,
           "horse": "Wingit",
           "horse_id": "hrs_55700792",
           "age": 3,
@@ -2330,20 +2402,21 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 25,
-      "profile_strengths": [],
+      "suitability_score": 62,
+      "horse_intelligence_score": 28,
+      "profile_strengths": [
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -2351,7 +2424,7 @@
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 21,
         "average_pulse_score": 0,
@@ -2361,7 +2434,7 @@
     }
   ],
   "notes": [
-    "Concaire is the top-rated Pulse IQ runner.",
+    "Beau Army is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
     "Ramair is flagged as a possible dark horse."

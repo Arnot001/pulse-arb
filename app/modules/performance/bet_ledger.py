@@ -137,9 +137,39 @@ def get_bankroll_history(start_bank=100.0):
     bankroll = start_bank
     history = []
 
+    def history_sort_key(row):
+        race_date = str(
+            row.get("date") or ""
+        )[:10]
+
+        race_time = str(
+            row.get("race_time") or ""
+        ).strip()
+
+        try:
+            parts = race_time.split(":")
+
+            hour = int(parts[0])
+            minute = int(parts[1])
+
+            if 1 <= hour <= 9:
+                hour += 12
+
+            sortable_time = f"{hour:02d}:{minute:02d}"
+
+        except Exception:
+            sortable_time = "99:99"
+
+        return (
+            race_date,
+            sortable_time,
+            row.get("settled_at") or "",
+            row.get("bet_id") or "",
+        )
+
     settled = sorted(
         load_settled_bets(),
-        key=lambda row: row.get("settled_at", ""),
+        key=history_sort_key,
     )
 
     for index, bet in enumerate(settled, start=1):
@@ -147,6 +177,34 @@ def get_bankroll_history(start_bank=100.0):
 
         if profit is not None:
             bankroll += float(profit)
+
+        race_date = str(
+            bet.get("date") or ""
+        )[:10]
+
+        race_time = str(
+            bet.get("race_time") or ""
+        ).strip()
+
+        race_datetime = None
+
+        if race_date and race_time:
+            try:
+                parts = race_time.split(":")
+
+                hour = int(parts[0])
+                minute = int(parts[1])
+
+                if 1 <= hour <= 9:
+                    hour += 12
+
+                race_datetime = (
+                    f"{race_date}T"
+                    f"{hour:02d}:{minute:02d}:00"
+                )
+
+            except Exception:
+                race_datetime = None
 
         history.append({
             "x": index,
@@ -158,9 +216,14 @@ def get_bankroll_history(start_bank=100.0):
             ),
             "horse": bet.get("horse"),
             "course": bet.get("course"),
+            "date": race_date,
+            "race_time": race_time,
+            "race_datetime": race_datetime,
+            "settled_at": bet.get("settled_at"),
             "won": bet.get("won"),
             "odds_available": (
-                bet.get("best_odds_decimal") is not None
+                bet.get("best_odds_decimal")
+                is not None
             ),
         })
 

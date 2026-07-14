@@ -5,7 +5,7 @@
   "time": "8:37",
   "race_name": "BetVictor Still 100/1 On England Handicap",
   "field_size": 6,
-  "average_intelligence": 55.17,
+  "average_intelligence": 55.5,
   "top_score": 63,
   "second_score": 58,
   "gap": 5,
@@ -76,7 +76,7 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 5,
+        "field_size": 6,
         "horse": "Kakirra",
         "horse_id": "hrs_62068804",
         "age": 3,
@@ -207,7 +207,7 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 5,
+        "field_size": 6,
         "horse": "Aukus",
         "horse_id": "hrs_62876352",
         "age": 3,
@@ -338,7 +338,7 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 5,
+        "field_size": 6,
         "horse": "Aukus",
         "horse_id": "hrs_62876352",
         "age": 3,
@@ -468,7 +468,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 5,
+          "field_size": 6,
           "horse": "Kakirra",
           "horse_id": "hrs_62068804",
           "age": 3,
@@ -599,7 +599,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 5,
+          "field_size": 6,
           "horse": "Aukus",
           "horse_id": "hrs_62876352",
           "age": 3,
@@ -729,7 +729,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 5,
+          "field_size": 6,
           "horse": "La Peregrina",
           "horse_id": "hrs_58033563",
           "age": 3,
@@ -857,7 +857,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 5,
+          "field_size": 6,
           "horse": "Barrister",
           "horse_id": "hrs_57654324",
           "age": 3,
@@ -867,7 +867,7 @@
           "jockey": "Joe Leavy",
           "jockey_id": "jky_303777",
           "draw": 1,
-          "number": null,
+          "number": 3,
           "lbs": 132,
           "ofr": "69",
           "last_run": 28,
@@ -984,7 +984,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 5,
+          "field_size": 6,
           "horse": "Lusaka",
           "horse_id": "hrs_22033361",
           "age": 8,
@@ -1066,29 +1066,27 @@
       "official_rating": "60",
       "recent_form": "7-4142",
       "last_run_days": 14,
-      "profile_runs": 2,
+      "profile_runs": 5,
       "courses_seen": {
-        "Nottingham": 1,
+        "Nottingham": 4,
         "Newbury": 1
       },
       "distances_seen": {
-        "14.0": 1,
+        "14.0": 4,
         "13.5": 1
       },
       "goings_seen": {
-        "Good": 1,
-        "Good To Firm": 1
+        "Good To Firm": 5
       },
       "classes_seen": {
-        "Class 6": 1,
+        "Class 6": 4,
         "Class 5": 1
       },
       "trainers_seen": {
-        "Ed De Giles": 1,
-        "Ed de Giles": 1
+        "Ed de Giles": 5
       },
       "jockeys_seen": {
-        "Pat Cosgrave": 1,
+        "Pat Cosgrave": 4,
         "Darragh Keenan": 1
       },
       "average_pulse_score": 0,
@@ -1111,14 +1109,14 @@
           "distance_f": 14.0,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 4,
           "horse": "Two Plus Two",
           "horse_id": "hrs_35056035",
           "age": 6,
           "sex": "gelding",
-          "trainer": "Ed De Giles",
+          "trainer": "Ed de Giles",
           "trainer_id": "trn_65700",
           "jockey": "Pat Cosgrave",
           "jockey_id": "jky_43887",
@@ -1129,7 +1127,100 @@
           "last_run": 25,
           "form": "17-414",
           "headgear": "b",
-          "_stored_at": "2026-06-25T06:53:22.168768+00:00"
+          "_stored_at": "2026-06-25T14:16:20.920392+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977264",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "11:00",
+          "off_dt": "2026-06-25T11:00:00+01:00",
+          "race_name": "Martin Stonemans Lucky Last Handicap",
+          "distance_f": 14.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 4,
+          "horse": "Two Plus Two",
+          "horse_id": "hrs_35056035",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Ed de Giles",
+          "trainer_id": "trn_65700",
+          "jockey": "Pat Cosgrave",
+          "jockey_id": "jky_43887",
+          "draw": 2,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "60",
+          "last_run": 25,
+          "form": "17-414",
+          "headgear": "b",
+          "_stored_at": "2026-06-25T17:11:30.748779+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977264",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "11:00",
+          "off_dt": "2026-06-25T11:00:00+01:00",
+          "race_name": "Martin Stonemans Lucky Last Handicap",
+          "distance_f": 14.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 4,
+          "horse": "Two Plus Two",
+          "horse_id": "hrs_35056035",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Ed de Giles",
+          "trainer_id": "trn_65700",
+          "jockey": "Pat Cosgrave",
+          "jockey_id": "jky_43887",
+          "draw": 2,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "60",
+          "last_run": 25,
+          "form": "17-414",
+          "headgear": "b",
+          "_stored_at": "2026-06-26T08:14:08.574884+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977264",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "11:00",
+          "off_dt": "2026-06-25T11:00:00+01:00",
+          "race_name": "Martin Stonemans Lucky Last Handicap",
+          "distance_f": 14.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 4,
+          "horse": "Two Plus Two",
+          "horse_id": "hrs_35056035",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Ed de Giles",
+          "trainer_id": "trn_65700",
+          "jockey": "Pat Cosgrave",
+          "jockey_id": "jky_43887",
+          "draw": 2,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "60",
+          "last_run": 25,
+          "form": "17-414",
+          "headgear": "b",
+          "_stored_at": "2026-06-28T12:42:19.114311+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1144,7 +1235,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 5,
+          "field_size": 6,
           "horse": "Two Plus Two",
           "horse_id": "hrs_35056035",
           "age": 6,
@@ -1163,36 +1254,37 @@
         }
       ],
       "profile_notes": [
+        "Profile has multiple stored runs",
         "Recent run timing"
       ],
       "favourite_course": {
         "value": "Nottingham",
-        "runs": 1
+        "runs": 4
       },
       "favourite_distance": {
         "value": 14.0,
-        "runs": 1
+        "runs": 4
       },
       "favourite_going": {
-        "value": "Good",
-        "runs": 1
+        "value": "Good To Firm",
+        "runs": 5
       },
       "favourite_class": {
         "value": "Class 6",
-        "runs": 1
+        "runs": 4
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 55,
+      "going_suitability_score": 90,
       "class_suitability_score": 55,
-      "suitability_score": 55,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [],
+      "suitability_score": 64,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
+        "Distance not yet a clear profile strength"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -1202,8 +1294,8 @@
         "latest_class": "Class 5",
         "latest_pulse_score": 60,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 5,
+        "runs_count": 5
       }
     }
   ],

@@ -5,132 +5,14 @@
   "time": "7:10",
   "race_name": "Irish Stallion Farms EBF Fillies Handicap",
   "field_size": 10,
-  "average_intelligence": 45.2,
-  "top_score": 52,
-  "second_score": 52,
-  "gap": 0,
-  "confidence_score": 40,
+  "average_intelligence": 46.7,
+  "top_score": 55,
+  "second_score": 53,
+  "gap": 2,
+  "confidence_score": 45,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Diamond Exchange",
-    "horse_id": "hrs_43667253",
-    "age": 4,
-    "sex": "filly",
-    "latest_course": "Killarney",
-    "latest_time": "7:10",
-    "latest_race": "Irish Stallion Farms EBF Fillies Handicap",
-    "latest_date": "2026-07-14",
-    "latest_distance_f": 11.5,
-    "latest_class": "",
-    "latest_going": "",
-    "latest_surface": "Turf",
-    "latest_trainer": "Mrs John Harrington",
-    "latest_jockey": "Keithen Kennedy(5)",
-    "latest_draw": 3,
-    "latest_weight_lbs": 132,
-    "official_rating": "80",
-    "recent_form": "-13187",
-    "last_run_days": 17,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Killarney": 1
-    },
-    "distances_seen": {
-      "11.5": 1
-    },
-    "goings_seen": {},
-    "classes_seen": {},
-    "trainers_seen": {
-      "Mrs John Harrington": 1
-    },
-    "jockeys_seen": {
-      "Keithen Kennedy(5)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 69,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer bonus +2",
-      "Stable flying +4 (3/11 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000001053",
-        "course": "Killarney",
-        "date": "2026-07-14",
-        "off_time": "7:10",
-        "off_dt": "2026-07-14T19:10:00+01:00",
-        "race_name": "Irish Stallion Farms EBF Fillies Handicap",
-        "distance_f": 11.5,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "",
-        "surface": "Turf",
-        "field_size": 9,
-        "horse": "Diamond Exchange",
-        "horse_id": "hrs_43667253",
-        "age": 4,
-        "sex": "filly",
-        "trainer": "Mrs John Harrington",
-        "trainer_id": "trn_11565",
-        "jockey": "Keithen Kennedy(5)",
-        "jockey_id": "jky_309135",
-        "draw": 3,
-        "number": 3,
-        "lbs": 132,
-        "ofr": "80",
-        "last_run": 17,
-        "form": "-13187",
-        "headgear": "p"
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ],
-    "favourite_course": {
-      "value": "Killarney",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 11.5,
-      "runs": 1
-    },
-    "favourite_going": null,
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 50,
-    "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 52,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Going is not clearly proven from stored profile",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Killarney",
-      "latest_distance_f": 11.5,
-      "latest_going": "",
-      "latest_class": "",
-      "latest_pulse_score": 69,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Spanish Temptress",
     "horse_id": "hrs_47282368",
     "age": 4,
@@ -141,7 +23,7 @@
     "latest_date": "2026-07-14",
     "latest_distance_f": 11.5,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "Richard John O'Brien",
     "latest_jockey": "Chris Hayes",
@@ -157,7 +39,9 @@
     "distances_seen": {
       "11.5": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "Richard John O'Brien": 1
@@ -188,7 +72,7 @@
         "distance_f": 11.5,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
         "field_size": 9,
         "horse": "Spanish Temptress",
@@ -217,28 +101,31 @@
       "value": 11.5,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 52,
+    "suitability_score": 80,
+    "horse_intelligence_score": 55,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 11.5,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
       "latest_pulse_score": 69,
       "average_pulse_score": 0,
@@ -246,7 +133,7 @@
       "runs_count": 1
     }
   },
-  "dark_horse": {
+  "main_threat": {
     "horse": "My Girl Grace",
     "horse_id": "hrs_65068871",
     "age": 3,
@@ -257,7 +144,7 @@
     "latest_date": "2026-07-14",
     "latest_distance_f": 11.5,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "G M Lyons",
     "latest_jockey": "Gary Carroll",
@@ -273,7 +160,9 @@
     "distances_seen": {
       "11.5": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "G M Lyons": 1
@@ -303,7 +192,7 @@
         "distance_f": 11.5,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
         "field_size": 9,
         "horse": "My Girl Grace",
@@ -332,28 +221,31 @@
       "value": 11.5,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 53,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 11.5,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
       "latest_pulse_score": 65,
       "average_pulse_score": 0,
@@ -361,125 +253,127 @@
       "runs_count": 1
     }
   },
-  "runners": [
-    {
-      "horse": "Diamond Exchange",
-      "horse_id": "hrs_43667253",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Killarney",
-      "latest_time": "7:10",
-      "latest_race": "Irish Stallion Farms EBF Fillies Handicap",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 11.5,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mrs John Harrington",
-      "latest_jockey": "Keithen Kennedy(5)",
-      "latest_draw": 3,
-      "latest_weight_lbs": 132,
-      "official_rating": "80",
-      "recent_form": "-13187",
-      "last_run_days": 17,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Killarney": 1
-      },
-      "distances_seen": {
-        "11.5": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "Mrs John Harrington": 1
-      },
-      "jockeys_seen": {
-        "Keithen Kennedy(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 69,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable flying +4 (3/11 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001053",
-          "course": "Killarney",
-          "date": "2026-07-14",
-          "off_time": "7:10",
-          "off_dt": "2026-07-14T19:10:00+01:00",
-          "race_name": "Irish Stallion Farms EBF Fillies Handicap",
-          "distance_f": 11.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Diamond Exchange",
-          "horse_id": "hrs_43667253",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Mrs John Harrington",
-          "trainer_id": "trn_11565",
-          "jockey": "Keithen Kennedy(5)",
-          "jockey_id": "jky_309135",
-          "draw": 3,
-          "number": 3,
-          "lbs": 132,
-          "ofr": "80",
-          "last_run": 17,
-          "form": "-13187",
-          "headgear": "p"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Killarney",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 11.5,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Killarney",
-        "latest_distance_f": 11.5,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 69,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
+  "dark_horse": {
+    "horse": "Saga Gaga",
+    "horse_id": "hrs_64590813",
+    "age": 3,
+    "sex": "filly",
+    "latest_course": "Killarney",
+    "latest_time": "7:10",
+    "latest_race": "Irish Stallion Farms EBF Fillies Handicap",
+    "latest_date": "2026-07-14",
+    "latest_distance_f": 11.5,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "M D O'Callaghan",
+    "latest_jockey": "Oisin Murphy",
+    "latest_draw": 10,
+    "latest_weight_lbs": 131,
+    "official_rating": "90",
+    "recent_form": "71",
+    "last_run_days": 32,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Killarney": 1
     },
+    "distances_seen": {
+      "11.5": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "M D O'Callaghan": 1
+    },
+    "jockeys_seen": {
+      "Oisin Murphy": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 64,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Stable in form +2 (1/1 last 14 days)",
+      "Jockey bonus +3",
+      "Jockey in form +2 (5/28 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000001053",
+        "course": "Killarney",
+        "date": "2026-07-14",
+        "off_time": "7:10",
+        "off_dt": "2026-07-14T19:10:00+01:00",
+        "race_name": "Irish Stallion Farms EBF Fillies Handicap",
+        "distance_f": 11.5,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 9,
+        "horse": "Saga Gaga",
+        "horse_id": "hrs_64590813",
+        "age": 3,
+        "sex": "filly",
+        "trainer": "M D O'Callaghan",
+        "trainer_id": "trn_240543",
+        "jockey": "Oisin Murphy",
+        "jockey_id": "jky_278184",
+        "draw": 10,
+        "number": 4,
+        "lbs": 131,
+        "ofr": "90",
+        "last_run": 32,
+        "form": "71",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Killarney",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 11.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 53,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Killarney",
+      "latest_distance_f": 11.5,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": 64,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "runners": [
     {
       "horse": "Spanish Temptress",
       "horse_id": "hrs_47282368",
@@ -491,7 +385,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 11.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Richard John O'Brien",
       "latest_jockey": "Chris Hayes",
@@ -507,7 +401,9 @@
       "distances_seen": {
         "11.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Richard John O'Brien": 1
@@ -538,7 +434,7 @@
           "distance_f": 11.5,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 9,
           "horse": "Spanish Temptress",
@@ -567,28 +463,31 @@
         "value": 11.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 52,
+      "suitability_score": 80,
+      "horse_intelligence_score": 55,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 11.5,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 69,
         "average_pulse_score": 0,
@@ -607,7 +506,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 11.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "G M Lyons",
       "latest_jockey": "Gary Carroll",
@@ -623,7 +522,9 @@
       "distances_seen": {
         "11.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "G M Lyons": 1
@@ -653,7 +554,7 @@
           "distance_f": 11.5,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 9,
           "horse": "My Girl Grace",
@@ -682,28 +583,31 @@
         "value": 11.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 53,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 11.5,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 65,
         "average_pulse_score": 0,
@@ -722,7 +626,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 11.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "M D O'Callaghan",
       "latest_jockey": "Oisin Murphy",
@@ -738,7 +642,9 @@
       "distances_seen": {
         "11.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "M D O'Callaghan": 1
@@ -769,7 +675,7 @@
           "distance_f": 11.5,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 9,
           "horse": "Saga Gaga",
@@ -798,27 +704,30 @@
         "value": 11.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 53,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 11.5,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 64,
         "average_pulse_score": 0,
@@ -837,7 +746,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 11.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Denis Gerard Hogan",
       "latest_jockey": "Mel Sheridan(10)",
@@ -853,7 +762,9 @@
       "distances_seen": {
         "11.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Denis Gerard Hogan": 1
@@ -880,7 +791,7 @@
           "distance_f": 11.5,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 9,
           "horse": "Concert Party",
@@ -909,27 +820,30 @@
         "value": 11.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 49,
+      "suitability_score": 80,
+      "horse_intelligence_score": 52,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 11.5,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 63,
         "average_pulse_score": 0,
@@ -948,7 +862,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 11.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Joseph Patrick O'Brien",
       "latest_jockey": "Shay Wallace(7)",
@@ -964,7 +878,9 @@
       "distances_seen": {
         "11.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Joseph Patrick O'Brien": 1
@@ -992,7 +908,7 @@
           "distance_f": 11.5,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 9,
           "horse": "So Must I",
@@ -1021,27 +937,30 @@
         "value": 11.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 48,
+      "suitability_score": 80,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 11.5,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 59,
         "average_pulse_score": 0,
@@ -1060,7 +979,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 11.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "E McNamara",
       "latest_jockey": "Jamie Powell",
@@ -1076,7 +995,9 @@
       "distances_seen": {
         "11.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "E McNamara": 1
@@ -1105,7 +1026,7 @@
           "distance_f": 11.5,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 9,
           "horse": "Jeaniemacaroney",
@@ -1137,32 +1058,224 @@
         "value": 11.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 45,
+      "suitability_score": 80,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 11.5,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 53,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Diamond Exchange",
+      "horse_id": "hrs_43667253",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Killarney",
+      "latest_time": "7:10",
+      "latest_race": "Irish Stallion Farms EBF Fillies Handicap",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 11.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Mrs John Harrington",
+      "latest_jockey": "Keithen Kennedy(5)",
+      "latest_draw": 3,
+      "latest_weight_lbs": 132,
+      "official_rating": "80",
+      "recent_form": "-13187",
+      "last_run_days": 17,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Curragh": 2,
+        "Killarney": 1
+      },
+      "distances_seen": {
+        "10.0": 2,
+        "11.5": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 2,
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Mrs John Harrington": 3
+      },
+      "jockeys_seen": {
+        "Miss S A Carter(7)": 2,
+        "Keithen Kennedy(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 69,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable flying +4 (3/11 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006735",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "4:30",
+          "off_dt": "2026-06-27T16:30:00+01:00",
+          "race_name": "Reserve Ladies Derby Handicap",
+          "distance_f": 10.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Diamond Exchange",
+          "horse_id": "hrs_43667253",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Mrs John Harrington",
+          "trainer_id": "trn_11565",
+          "jockey": "Miss S A Carter(7)",
+          "jockey_id": "jky_303234",
+          "draw": 10,
+          "number": 4,
+          "lbs": 141,
+          "ofr": "81",
+          "last_run": 23,
+          "form": "3-1318",
+          "headgear": "p",
+          "_stored_at": "2026-06-27T10:06:26.065341+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006735",
+          "course": "Curragh",
+          "date": "2026-06-27",
+          "off_time": "4:30",
+          "off_dt": "2026-06-27T16:30:00+01:00",
+          "race_name": "Reserve Ladies Derby Handicap",
+          "distance_f": 10.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Diamond Exchange",
+          "horse_id": "hrs_43667253",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Mrs John Harrington",
+          "trainer_id": "trn_11565",
+          "jockey": "Miss S A Carter(7)",
+          "jockey_id": "jky_303234",
+          "draw": 10,
+          "number": 4,
+          "lbs": 141,
+          "ofr": "81",
+          "last_run": 23,
+          "form": "3-1318",
+          "headgear": "p",
+          "_stored_at": "2026-06-28T12:42:53.444892+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001053",
+          "course": "Killarney",
+          "date": "2026-07-14",
+          "off_time": "7:10",
+          "off_dt": "2026-07-14T19:10:00+01:00",
+          "race_name": "Irish Stallion Farms EBF Fillies Handicap",
+          "distance_f": 11.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Diamond Exchange",
+          "horse_id": "hrs_43667253",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Mrs John Harrington",
+          "trainer_id": "trn_11565",
+          "jockey": "Keithen Kennedy(5)",
+          "jockey_id": "jky_309135",
+          "draw": 3,
+          "number": 3,
+          "lbs": 132,
+          "ofr": "80",
+          "last_run": 17,
+          "form": "-13187",
+          "headgear": "p"
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 55,
+      "class_suitability_score": 50,
+      "suitability_score": 54,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
+        "Going is not clearly proven from stored profile"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Killarney",
+        "latest_distance_f": 11.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 69,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -1176,7 +1289,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 11.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Don Browne",
       "latest_jockey": "Julian Pietropaolo(7)",
@@ -1192,7 +1305,9 @@
       "distances_seen": {
         "11.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Don Browne": 1
@@ -1220,7 +1335,7 @@
           "distance_f": 11.5,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 9,
           "horse": "Speckled Meadow",
@@ -1249,27 +1364,30 @@
         "value": 11.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 40,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 11.5,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 43,
         "average_pulse_score": 0,
@@ -1288,7 +1406,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 11.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Joseph Patrick O'Brien",
       "latest_jockey": "Declan McDonogh",
@@ -1304,7 +1422,9 @@
       "distances_seen": {
         "11.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Joseph Patrick O'Brien": 1
@@ -1334,7 +1454,7 @@
           "distance_f": 11.5,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 9,
           "horse": "Ankara",
@@ -1365,20 +1485,23 @@
         "value": 11.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 35,
+      "suitability_score": 80,
+      "horse_intelligence_score": 38,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -1386,7 +1509,7 @@
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 11.5,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 32,
         "average_pulse_score": 0,
@@ -1405,7 +1528,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 11.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "P Twomey",
       "latest_jockey": "W J Lee",
@@ -1414,20 +1537,25 @@
       "official_rating": "73",
       "recent_form": "523-03",
       "last_run_days": 2,
-      "profile_runs": 1,
+      "profile_runs": 2,
       "courses_seen": {
+        "Dundalk (AW)": 1,
         "Killarney": 1
       },
       "distances_seen": {
+        "10.5": 1,
         "11.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Standard": 1,
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
-        "P Twomey": 1
+        "P Twomey": 2
       },
       "jockeys_seen": {
-        "W J Lee": 1
+        "W J Lee": 2
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
@@ -1445,6 +1573,36 @@
       "runs": [
         {
           "source": "the_racing_api",
+          "race_id": "rac_12018812",
+          "course": "Dundalk (AW)",
+          "date": "2026-07-12",
+          "off_time": "5:30",
+          "off_dt": "2026-07-12T17:30:00+01:00",
+          "race_name": "Family Funday At Dundalk Saturday 15th August Fillies Maiden",
+          "distance_f": 10.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 6,
+          "horse": "Forthill",
+          "horse_id": "hrs_46975138",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "P Twomey",
+          "trainer_id": "trn_238923",
+          "jockey": "W J Lee",
+          "jockey_id": "jky_244275",
+          "draw": 5,
+          "number": 3,
+          "lbs": 130,
+          "ofr": "73",
+          "last_run": 92,
+          "form": "523-0",
+          "headgear": ""
+        },
+        {
+          "source": "the_racing_api",
           "race_id": "rac_13000001053",
           "course": "Killarney",
           "date": "2026-07-14",
@@ -1454,7 +1612,7 @@
           "distance_f": 11.5,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 9,
           "horse": "Forthill",
@@ -1479,26 +1637,28 @@
         "Recent run timing"
       ],
       "favourite_course": {
-        "value": "Killarney",
+        "value": "Dundalk (AW)",
         "runs": 1
       },
       "favourite_distance": {
-        "value": 11.5,
+        "value": 10.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
       "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 55,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 31,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
+      "suitability_score": 54,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [],
       "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
         "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
@@ -1507,18 +1667,18 @@
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 11.5,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 23,
         "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
+        "profile_runs": 2,
+        "runs_count": 2
       }
     }
   ],
   "notes": [
-    "Diamond Exchange is the top-rated Pulse IQ runner.",
+    "Spanish Temptress is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "My Girl Grace is flagged as a possible dark horse."
+    "Saga Gaga is flagged as a possible dark horse."
   ]
 }

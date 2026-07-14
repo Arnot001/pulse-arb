@@ -8,11 +8,15 @@
 
     <div class="pulse-page-header module-header">
         <div class="module-title-row">
-            <img src="/static/glyphs_transparent/performance.png"
-                 class="hero-icon"
-                 alt="">
+            <img
+                src="/static/glyphs_transparent/performance.png"
+                class="hero-icon"
+                alt=""
+            >
+
             <div>
                 <h1>Performance Centre</h1>
+
                 <p class="muted">
                     Live performance tracking for every Pulse selection.
                 </p>
@@ -43,7 +47,16 @@
 
                 <div>
                     <span>Profit</span>
-                    <strong class="{% if official_stats.profit >= 0 %}profit-positive{% else %}profit-negative{% endif %}">
+
+                    <strong
+                        class="
+                            {% if official_stats.profit >= 0 %}
+                                profit-positive
+                            {% else %}
+                                profit-negative
+                            {% endif %}
+                        "
+                    >
                         {{ official_stats.profit }} pts
                     </strong>
                 </div>
@@ -71,7 +84,16 @@
 
                 <div>
                     <span>Profit</span>
-                    <strong class="{% if all_stats.profit >= 0 %}profit-positive{% else %}profit-negative{% endif %}">
+
+                    <strong
+                        class="
+                            {% if all_stats.profit >= 0 %}
+                                profit-positive
+                            {% else %}
+                                profit-negative
+                            {% endif %}
+                        "
+                    >
                         {{ all_stats.profit }} pts
                     </strong>
                 </div>
@@ -80,8 +102,53 @@
 
     </div>
 
-    <div class="dashboard-card pulse-performance-card">
-        <h2>Bankroll Performance</h2>
+    <div class="dashboard-card pulse-performance-card bankroll-card">
+
+        <div class="performance-chart-heading">
+
+            <div>
+                <h2>Bankroll Performance</h2>
+
+                <p class="muted chart-range-summary" id="chart-range-summary">
+                    Loading performance history...
+                </p>
+            </div>
+
+            <div class="chart-range-controls">
+                <button
+                    type="button"
+                    class="chart-range-button"
+                    data-range="today"
+                >
+                    Today
+                </button>
+
+                <button
+                    type="button"
+                    class="chart-range-button"
+                    data-range="7"
+                >
+                    7 Days
+                </button>
+
+                <button
+                    type="button"
+                    class="chart-range-button"
+                    data-range="30"
+                >
+                    30 Days
+                </button>
+
+                <button
+                    type="button"
+                    class="chart-range-button active"
+                    data-range="all"
+                >
+                    All
+                </button>
+            </div>
+
+        </div>
 
         <div class="performance-mini-row">
             <div>
@@ -95,56 +162,131 @@
             </div>
 
             <div>
-                <span>Settled Bets</span>
-                <strong>{{ all_stats.total }}</strong>
+                <span>Visible Bets</span>
+                <strong id="visible-bet-count">--</strong>
             </div>
         </div>
 
-        <div class="performance-chart">
-            <svg id="bankroll-chart" viewBox="0 0 1000 520" preserveAspectRatio="none">
-                <defs>
-                    <filter id="glow">
-                        <feGaussianBlur stdDeviation="4" result="blur"/>
-                        <feMerge>
-                            <feMergeNode in="blur"/>
-                            <feMergeNode in="SourceGraphic"/>
-                        </feMerge>
-                    </filter>
-                    <linearGradient id="bank-fill" x1="0" y1="0" x2="0" y2="1">
-                        <stop offset="0%" stop-color="#48f08a" stop-opacity="0.35"/>
-                        <stop offset="45%" stop-color="#00d8ff" stop-opacity="0.15"/>
-                        <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-                    </linearGradient>
-                </defs>
+        <div class="chart-toolbar">
 
-                <g id="grid-lines"></g>
-                <path
-                    id="bankroll-fill"
-                    fill="url(#bank-fill)"
-                    opacity="0.9"
-                />
-                <polyline
-                    id="bankroll-line"
-                    fill="none"
-                    stroke="#48f08a"
-                    stroke-width="5"
-                    stroke-linejoin="round"
-                    stroke-linecap="round"
-                    filter="url(#glow)"
-                    points=""
-                />
+            <div class="chart-legend">
+                <span>
+                    <i class="chart-legend-dot chart-legend-win"></i>
+                    Winner
+                </span>
 
-                <line
-                    id="pulse-scan-line"
-                    x1="-80"
-                    y1="0"
-                    x2="-80"
-                    y2="520"
-                />
+                <span>
+                    <i class="chart-legend-dot chart-legend-loss"></i>
+                    Loser
+                </span>
 
-                <g id="bankroll-points"></g>
-            </svg>
+                <span>
+                    <i class="chart-legend-dot chart-legend-unpriced"></i>
+                    Unpriced
+                </span>
+            </div>
+
+            <button
+                type="button"
+                id="scroll-latest-button"
+                class="chart-scroll-button"
+            >
+                Jump to Latest →
+            </button>
+
         </div>
+
+        <div class="performance-chart-scroll" id="performance-chart-scroll">
+
+            <div class="performance-chart" id="performance-chart">
+
+                <svg
+                    id="bankroll-chart"
+                    viewBox="0 0 1000 520"
+                    preserveAspectRatio="none"
+                >
+                    <defs>
+                        <filter id="glow">
+                            <feGaussianBlur
+                                stdDeviation="4"
+                                result="blur"
+                            />
+
+                            <feMerge>
+                                <feMergeNode in="blur"/>
+                                <feMergeNode in="SourceGraphic"/>
+                            </feMerge>
+                        </filter>
+
+                        <linearGradient
+                            id="bank-fill"
+                            x1="0"
+                            y1="0"
+                            x2="0"
+                            y2="1"
+                        >
+                            <stop
+                                offset="0%"
+                                stop-color="#48f08a"
+                                stop-opacity="0.35"
+                            />
+
+                            <stop
+                                offset="45%"
+                                stop-color="#00d8ff"
+                                stop-opacity="0.15"
+                            />
+
+                            <stop
+                                offset="100%"
+                                stop-color="#000000"
+                                stop-opacity="0"
+                            />
+                        </linearGradient>
+                    </defs>
+
+                    <g id="grid-lines"></g>
+
+                    <path
+                        id="bankroll-fill"
+                        fill="url(#bank-fill)"
+                        opacity="0.9"
+                    />
+
+                    <polyline
+                        id="bankroll-line"
+                        fill="none"
+                        stroke="#48f08a"
+                        stroke-width="5"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                        filter="url(#glow)"
+                        points=""
+                    />
+
+                    <line
+                        id="pulse-scan-line"
+                        x1="-80"
+                        y1="0"
+                        x2="-80"
+                        y2="520"
+                    />
+
+                    <g id="bankroll-points"></g>
+                </svg>
+
+                <div
+                    id="empty-chart-state"
+                    class="empty-chart-state"
+                    hidden
+                >
+                    No settled bets found for this period.
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
     <div class="dashboard-card pulse-performance-card">
@@ -166,100 +308,495 @@
                 <span>Best Win Run</span>
                 <strong>{{ insights.best_run }}</strong>
             </div>
+
         </div>
-    </div>
 
-    </div>
-
-</div>
-
-<p class="muted">
-    {{ insights.summary }}
-</p>
+        <p class="muted performance-summary">
+            {{ insights.summary }}
+        </p>
     </div>
 
 </div>
 
 <script>
+const fullHistory = {{ bankroll_history | tojson }};
 
-const history = {{ bankroll_history | tojson }};
+const STARTING_BANK = 100;
+const CHART_HEIGHT = 520;
+const MIN_CHART_WIDTH = 1000;
+const PIXELS_PER_BET = 30;
 
-const line = document.getElementById("bankroll-line");
-const currentBank = document.getElementById("current-bank");
-const grid = document.getElementById("grid-lines");
-const pointLayer = document.getElementById("bankroll-points");
+const chartScroll = document.getElementById(
+    "performance-chart-scroll"
+);
 
-if (history.length > 0) {
+const chartContainer = document.getElementById(
+    "performance-chart"
+);
 
-    const values = history.map(r => r.bankroll);
+const svg = document.getElementById(
+    "bankroll-chart"
+);
 
-    const min = Math.min(...values);
-    const max = Math.max(...values);
+const line = document.getElementById(
+    "bankroll-line"
+);
 
-    const width = 1000;
-    const height = 520;
+const fill = document.getElementById(
+    "bankroll-fill"
+);
 
-    const range = Math.max(max - min, 1);
+const currentBank = document.getElementById(
+    "current-bank"
+);
 
-    const points = history.map((row, i) => {
+const visibleBetCount = document.getElementById(
+    "visible-bet-count"
+);
 
-        const x = (i / Math.max(history.length - 1, 1)) * width;
+const rangeSummary = document.getElementById(
+    "chart-range-summary"
+);
 
-        const y =
-            height -
-            (((row.bankroll - min) / range) * (height - 28)) -
-            14;
+const grid = document.getElementById(
+    "grid-lines"
+);
 
-        return `${x},${y}`;
+const pointLayer = document.getElementById(
+    "bankroll-points"
+);
 
-    });
+const emptyState = document.getElementById(
+    "empty-chart-state"
+);
 
-    const fill = document.getElementById("bankroll-fill");
+const rangeButtons = document.querySelectorAll(
+    ".chart-range-button"
+);
 
-    const area =
-        "M0," + height +
-        " L" +
-        points.join(" L") +
-        " L" +
-        width +
-        "," +
-        height +
-        " Z";
+const scrollLatestButton = document.getElementById(
+    "scroll-latest-button"
+);
 
-    fill.setAttribute("d", area);
 
-    for (let i = 1; i < 6; i++) {
-        const y = (i / 6) * height;
+function parseHistoryDate(row) {
+    const value =
+        row.race_datetime
+        || (
+            row.date && row.race_time
+                ? `${row.date}T${row.race_time}`
+                : row.date
+        )
+        || row.settled_at;
 
-        grid.innerHTML += `
-            <line x1="0" y1="${y}" x2="${width}" y2="${y}"
-                  class="chart-grid-line" />
-        `;
+    if (!value) {
+        return null;
     }
 
-    history.forEach((row, i) => {
-        const [x, y] = points[i].split(",");
-        const cls = row.won ? "bankroll-dot win-dot" : "bankroll-dot loss-dot";
+    const parsed = new Date(value);
 
-        pointLayer.innerHTML += `
-            <circle class="${cls}"
-                    cx="${x}"
-                    cy="${y}"
-                    r="7">
-                <title>${row.horse} · ${row.course} · £${row.profit} · Bank £${row.bankroll}</title>
-            </circle>
-        `;
+    if (Number.isNaN(parsed.getTime())) {
+        return null;
+    }
+
+    return parsed;
+}
+
+
+function sortHistory(rows) {
+    return [...rows].sort((left, right) => {
+        const leftDate = parseHistoryDate(left);
+        const rightDate = parseHistoryDate(right);
+
+        if (!leftDate && !rightDate) {
+            return (left.x || 0) - (right.x || 0);
+        }
+
+        if (!leftDate) {
+            return 1;
+        }
+
+        if (!rightDate) {
+            return -1;
+        }
+
+        return leftDate - rightDate;
+    });
+}
+
+
+const orderedHistory = sortHistory(fullHistory);
+
+
+function getStartOfToday() {
+    const now = new Date();
+
+    return new Date(
+        now.getFullYear(),
+        now.getMonth(),
+        now.getDate()
+    );
+}
+
+
+function filterHistory(range) {
+    if (range === "all") {
+        return orderedHistory;
+    }
+
+    const startOfToday = getStartOfToday();
+    let cutoff;
+
+    if (range === "today") {
+        cutoff = startOfToday;
+    } else {
+        const days = Number(range);
+
+        cutoff = new Date(startOfToday);
+
+        cutoff.setDate(
+            cutoff.getDate() - (days - 1)
+        );
+    }
+
+    return orderedHistory.filter(row => {
+        const rowDate = parseHistoryDate(row);
+
+        return rowDate && rowDate >= cutoff;
+    });
+}
+
+
+function rebuildVisibleBankroll(rows) {
+    let bankroll = STARTING_BANK;
+
+    return rows.map((row, index) => {
+        const profit =
+            row.profit !== null
+            && row.profit !== undefined
+                ? Number(row.profit)
+                : null;
+
+        if (
+            profit !== null
+            && Number.isFinite(profit)
+        ) {
+            bankroll += profit;
+        }
+
+        return {
+            ...row,
+            visible_x: index + 1,
+            visible_bankroll: Number(
+                bankroll.toFixed(2)
+            ),
+        };
+    });
+}
+
+
+function formatDate(value) {
+    if (!value) {
+        return "Unknown date";
+    }
+
+    return value.toLocaleDateString(
+        "en-GB",
+        {
+            day: "2-digit",
+            month: "short",
+            year: "numeric",
+        }
+    );
+}
+
+
+function getRangeLabel(range, rows) {
+    if (rows.length === 0) {
+        return "No settled selections in this period.";
+    }
+
+    const firstDate = parseHistoryDate(rows[0]);
+    const lastDate = parseHistoryDate(
+        rows[rows.length - 1]
+    );
+
+    let name;
+
+    if (range === "today") {
+        name = "Today";
+    } else if (range === "7") {
+        name = "Last 7 days";
+    } else if (range === "30") {
+        name = "Last 30 days";
+    } else {
+        name = "All recorded history";
+    }
+
+    return (
+        `${name} · ${rows.length} settled selections · `
+        + `${formatDate(firstDate)} to ${formatDate(lastDate)}`
+    );
+}
+
+
+function clearChart() {
+    line.setAttribute("points", "");
+    fill.setAttribute("d", "");
+
+    grid.innerHTML = "";
+    pointLayer.innerHTML = "";
+}
+
+
+function renderChart(range) {
+    const filteredRows = filterHistory(range);
+    const rows = rebuildVisibleBankroll(
+        filteredRows
+    );
+
+    clearChart();
+
+    visibleBetCount.textContent = rows.length;
+
+    rangeSummary.textContent = getRangeLabel(
+        range,
+        rows
+    );
+
+    if (rows.length === 0) {
+        emptyState.hidden = false;
+
+        currentBank.textContent =
+            "£" + STARTING_BANK.toFixed(2);
+
+        chartContainer.style.width =
+            `${MIN_CHART_WIDTH}px`;
+
+        svg.setAttribute(
+            "viewBox",
+            `0 0 ${MIN_CHART_WIDTH} ${CHART_HEIGHT}`
+        );
+
+        return;
+    }
+
+    emptyState.hidden = true;
+
+    const chartWidth = Math.max(
+        MIN_CHART_WIDTH,
+        rows.length * PIXELS_PER_BET
+    );
+
+    /*Force both the chart wrapper and SVG to become physically widerthan the visible container. The outer wrapper can then scroll*/
+    chartScroll.style.width = "100%";
+    chartScroll.style.maxWidth = "100%";
+    chartScroll.style.overflowX = "auto";
+    chartScroll.style.overflowY = "hidden";
+    chartScroll.style.display = "block";
+
+    chartContainer.style.width = `${chartWidth}px`;
+    chartContainer.style.minWidth = `${chartWidth}px`;
+    chartContainer.style.maxWidth = "none";
+    chartContainer.style.flex = "0 0 auto";
+
+    svg.style.width = `${chartWidth}px`;
+    svg.style.minWidth = `${chartWidth}px`;
+    svg.style.maxWidth = "none";
+    svg.style.height = `${CHART_HEIGHT}px`;
+
+    svg.setAttribute(
+        "width",
+        chartWidth
+    );
+
+    svg.setAttribute(
+        "height",
+        CHART_HEIGHT
+    );
+
+    svg.setAttribute(
+        "viewBox",
+        `0 0 ${chartWidth} ${CHART_HEIGHT}`
+    );
+
+    const values = rows.map(
+    row => row.visible_bankroll
+    );
+
+    const rawMin = Math.min(...values);
+    const rawMax = Math.max(...values);
+
+    const padding = Math.max(
+        (rawMax - rawMin) * 0.12,
+        1
+    );
+
+    const min = rawMin - padding;
+    const max = rawMax + padding;
+    const valueRange = Math.max(max - min, 1);
+
+    const sidePadding = 20;
+
+    const usableWidth =
+        chartWidth - (sidePadding * 2);
+
+    const points = rows.map((row, index) => {
+        const x = (
+            sidePadding
+            + (
+                index
+                / Math.max(rows.length - 1, 1)
+            ) * usableWidth
+        );
+
+        const y = (
+            CHART_HEIGHT
+            - (
+                (
+                    row.visible_bankroll - min
+                ) / valueRange
+            ) * (CHART_HEIGHT - 40)
+            - 20
+        );
+
+        return {
+            x,
+            y,
+            row,
+        };
+    });
+
+    const pointString = points
+        .map(point => `${point.x},${point.y}`)
+        .join(" ");
+
+    line.setAttribute(
+        "points",
+        pointString
+    );
+
+    const areaPath = [
+        `M${points[0].x},${CHART_HEIGHT}`,
+        ...points.map(
+            point => `L${point.x},${point.y}`
+        ),
+        `L${points[points.length - 1].x},${CHART_HEIGHT}`,
+        "Z",
+    ].join(" ");
+
+    fill.setAttribute(
+        "d",
+        areaPath
+    );
+
+    for (let index = 1; index < 6; index++) {
+        const y = (
+            index / 6
+        ) * CHART_HEIGHT;
+
+        grid.insertAdjacentHTML(
+            "beforeend",
+            `
+                <line
+                    x1="0"
+                    y1="${y}"
+                    x2="${chartWidth}"
+                    y2="${y}"
+                    class="chart-grid-line"
+                />
+            `
+        );
+    }
+
+    points.forEach(point => {
+        const row = point.row;
+
+        let dotClass =
+            "bankroll-dot bankroll-dot-unpriced";
+
+        if (row.profit !== null) {
+            dotClass = row.won
+                ? "bankroll-dot win-dot"
+                : "bankroll-dot loss-dot";
+        }
+
+        const profitText =
+            row.profit !== null
+            && row.profit !== undefined
+                ? `${Number(row.profit) >= 0 ? "+" : ""}£${Number(row.profit).toFixed(2)}`
+                : "Unpriced";
+
+        const dateText = formatDate(
+            parseHistoryDate(row)
+        );
+
+        const safeHorse =
+            row.horse || "Unknown horse";
+
+        const safeCourse =
+            row.course || "Unknown course";
+
+        pointLayer.insertAdjacentHTML(
+            "beforeend",
+            `
+                <circle
+                    class="${dotClass}"
+                    cx="${point.x}"
+                    cy="${point.y}"
+                    r="7"
+                >
+                    <title>
+                        ${safeHorse} · ${safeCourse}
+                        · ${dateText}
+                        · ${profitText}
+                        · Bank £${row.visible_bankroll.toFixed(2)}
+                    </title>
+                </circle>
+            `
+        );
     });
 
     currentBank.textContent =
-        "£" + history[history.length - 1].bankroll.toFixed(2);
+        "£"
+        + rows[
+            rows.length - 1
+        ].visible_bankroll.toFixed(2);
 
-} else {
-
-    currentBank.textContent = "£100.00";
-
+    requestAnimationFrame(() => {
+        chartScroll.scrollLeft =
+            chartScroll.scrollWidth;
+    });
 }
 
+
+rangeButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        rangeButtons.forEach(item => {
+            item.classList.remove("active");
+        });
+
+        button.classList.add("active");
+
+        renderChart(
+            button.dataset.range
+        );
+    });
+});
+
+
+scrollLatestButton.addEventListener(
+    "click",
+    () => {
+        chartScroll.scrollTo({
+            left: chartScroll.scrollWidth,
+            behavior: "smooth",
+        });
+    }
+);
+
+
+renderChart("all");
 </script>
 
 {% endblock %}

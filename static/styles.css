@@ -2306,3 +2306,289 @@ white-space: nowrap;
     margin-top: 6px;
     font-size: 20px;
 }
+
+/* ===========================================
+   Performance Centre Scrollable Bankroll Chart
+=========================================== */
+
+.bankroll-card {
+    min-height: auto;
+    overflow: visible;
+}
+
+.performance-chart-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.performance-chart-heading h2 {
+    margin-bottom: 4px;
+}
+
+.chart-range-summary {
+    margin: 0;
+    font-size: 13px;
+}
+
+.chart-range-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.chart-range-button,
+.chart-scroll-button {
+    appearance: none;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(8, 10, 18, 0.92);
+    color: #aeb3c6;
+    border-radius: 999px;
+    padding: 9px 14px;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    transition:
+        border-color 0.2s ease,
+        background 0.2s ease,
+        color 0.2s ease,
+        box-shadow 0.2s ease,
+        transform 0.2s ease;
+}
+
+.chart-range-button:hover,
+.chart-scroll-button:hover {
+    color: #ffffff;
+    border-color: rgba(255, 0, 140, 0.45);
+    background: rgba(255, 0, 140, 0.08);
+    transform: translateY(-1px);
+}
+
+.chart-range-button.active {
+    color: #ffffff;
+    border-color: rgba(255, 0, 140, 0.65);
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255, 0, 140, 0.28),
+            rgba(120, 50, 255, 0.18)
+        );
+    box-shadow:
+        0 0 18px rgba(255, 0, 140, 0.18);
+}
+
+.chart-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-top: 18px;
+    flex-wrap: wrap;
+}
+
+.chart-legend {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    color: #aeb3c6;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.chart-legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.chart-legend-dot {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 999px;
+    box-shadow:
+        0 0 9px rgba(255, 255, 255, 0.22);
+}
+
+.chart-legend-win {
+    background: #48f08a;
+}
+
+.chart-legend-loss {
+    background: #ff4a6a;
+}
+
+.chart-legend-unpriced {
+    background: #8b8fa3;
+}
+
+.chart-scroll-button {
+    border-radius: 10px;
+}
+
+.performance-chart-scroll {
+    width: 100%;
+    margin-top: 14px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 22px;
+    scrollbar-width: thin;
+    scrollbar-color:
+        rgba(255, 0, 140, 0.7)
+        rgba(255, 255, 255, 0.05);
+}
+
+.performance-chart-scroll::-webkit-scrollbar {
+    height: 12px;
+}
+
+.performance-chart-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 999px;
+}
+
+.performance-chart-scroll::-webkit-scrollbar-thumb {
+    background:
+        linear-gradient(
+            90deg,
+            #ff008c,
+            #792cff
+        );
+    border: 3px solid #090b12;
+    border-radius: 999px;
+}
+
+.performance-chart-scroll::-webkit-scrollbar-thumb:hover {
+    background:
+        linear-gradient(
+            90deg,
+            #ff2aa0,
+            #9756ff
+        );
+}
+
+.performance-chart {
+    position: relative;
+    min-width: 1000px;
+    width: 1000px;
+    margin-top: 0;
+    flex-shrink: 0;
+}
+
+.performance-chart svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.bankroll-dot-unpriced {
+    fill: #8b8fa3;
+    stroke: #060811;
+    stroke-width: 3;
+    filter:
+        drop-shadow(
+            0 0 8px
+            rgba(139, 143, 163, 0.35)
+        );
+}
+
+.empty-chart-state {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8b8fa3;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.performance-summary {
+    margin-top: 18px;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+    .performance-chart-heading {
+        flex-direction: column;
+    }
+
+    .chart-range-controls {
+        width: 100%;
+    }
+
+    .chart-range-button {
+        flex: 1;
+        text-align: center;
+    }
+
+    .chart-toolbar {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .chart-scroll-button {
+        width: 100%;
+    }
+}
+
+/* Performance chart forced horizontal scrolling */
+
+.bankroll-card {
+    overflow: visible !important;
+}
+
+.performance-chart-scroll {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    padding-bottom: 12px;
+    scrollbar-gutter: stable;
+}
+
+.performance-chart {
+    position: relative;
+    flex: 0 0 auto !important;
+    max-width: none !important;
+    margin-top: 0;
+}
+
+.performance-chart svg {
+    display: block;
+    max-width: none !important;
+    flex: 0 0 auto;
+}
+
+.performance-chart-scroll::-webkit-scrollbar {
+    height: 12px;
+}
+
+.performance-chart-scroll::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 999px;
+}
+
+.performance-chart-scroll::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        90deg,
+        #ff008c,
+        #792cff
+    );
+    border-radius: 999px;
+}
+
+.performance-chart-scroll::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(
+        90deg,
+        #ff35a5,
+        #9b63ff
+    );
+}
