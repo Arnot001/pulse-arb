@@ -5,11 +5,11 @@
   "time": "2:10",
   "race_name": "Prix Label Equures (Prix Des Capucines)",
   "field_size": 13,
-  "average_intelligence": 42.08,
-  "top_score": 48,
-  "second_score": 45,
+  "average_intelligence": 44.92,
+  "top_score": 51,
+  "second_score": 48,
   "gap": 3,
-  "confidence_score": 42,
+  "confidence_score": 44,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -23,7 +23,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 18.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Soft",
     "latest_surface": "Turf",
     "latest_trainer": "Yannick Fouin",
     "latest_jockey": "Thomas Journiac",
@@ -39,7 +39,9 @@
     "distances_seen": {
       "18.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Soft": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "Yannick Fouin": 1
@@ -68,7 +70,7 @@
         "distance_f": 18.0,
         "race_class": "",
         "race_type": "Hurdle",
-        "going": "",
+        "going": "Soft",
         "surface": "Turf",
         "field_size": 13,
         "horse": "Rygia",
@@ -97,27 +99,30 @@
       "value": 18.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Soft",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 48,
+    "suitability_score": 80,
+    "horse_intelligence_score": 51,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Clairefontaine",
       "latest_distance_f": 18.0,
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_class": "",
       "latest_pulse_score": 60,
       "average_pulse_score": 0,
@@ -136,7 +141,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 18.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Soft",
     "latest_surface": "Turf",
     "latest_trainer": "C Lerner",
     "latest_jockey": "Kevin Ouvrier",
@@ -152,7 +157,9 @@
     "distances_seen": {
       "18.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Soft": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "C Lerner": 1
@@ -181,7 +188,7 @@
         "distance_f": 18.0,
         "race_class": "",
         "race_type": "Hurdle",
-        "going": "",
+        "going": "Soft",
         "surface": "Turf",
         "field_size": 13,
         "horse": "Monzon",
@@ -210,27 +217,30 @@
       "value": 18.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Soft",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 45,
+    "suitability_score": 80,
+    "horse_intelligence_score": 48,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Clairefontaine",
       "latest_distance_f": 18.0,
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_class": "",
       "latest_pulse_score": 53,
       "average_pulse_score": 0,
@@ -239,8 +249,8 @@
     }
   },
   "dark_horse": {
-    "horse": "Goldie Nolimit",
-    "horse_id": "hrs_63514759",
+    "horse": "Safura",
+    "horse_id": "hrs_7000004970",
     "age": 4,
     "sex": "filly",
     "latest_course": "Clairefontaine",
@@ -249,15 +259,15 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 18.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Soft",
     "latest_surface": "Turf",
-    "latest_trainer": "Mme A-S Pacault",
-    "latest_jockey": "Leo-Paul Brechet",
+    "latest_trainer": "Noel George & Amanda Zetterholm",
+    "latest_jockey": "Francesco Mula",
     "latest_draw": 0,
-    "latest_weight_lbs": 150,
+    "latest_weight_lbs": 158,
     "official_rating": "-",
-    "recent_form": "74P747",
-    "last_run_days": 27,
+    "recent_form": "0",
+    "last_run_days": 21,
     "profile_runs": 1,
     "courses_seen": {
       "Clairefontaine": 1
@@ -265,17 +275,19 @@
     "distances_seen": {
       "18.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Soft": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
-      "Mme A-S Pacault": 1
+      "Noel George & Amanda Zetterholm": 1
     },
     "jockeys_seen": {
-      "Leo-Paul Brechet": 1
+      "Francesco Mula": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 50,
+    "latest_pulse_score": 51,
     "latest_notes": [
       "Weak recent form",
       "Good recent run timing",
@@ -294,24 +306,24 @@
         "distance_f": 18.0,
         "race_class": "",
         "race_type": "Hurdle",
-        "going": "",
+        "going": "Soft",
         "surface": "Turf",
         "field_size": 13,
-        "horse": "Goldie Nolimit",
-        "horse_id": "hrs_63514759",
+        "horse": "Safura",
+        "horse_id": "hrs_7000004970",
         "age": 4,
         "sex": "filly",
-        "trainer": "Mme A-S Pacault",
-        "trainer_id": "trn_195588",
-        "jockey": "Leo-Paul Brechet",
-        "jockey_id": "jky_299349",
+        "trainer": "Noel George & Amanda Zetterholm",
+        "trainer_id": "trn_362196",
+        "jockey": "Francesco Mula",
+        "jockey_id": "jky_306228",
         "draw": 0,
-        "number": 8,
-        "lbs": 150,
+        "number": 1,
+        "lbs": 158,
         "ofr": "-",
-        "last_run": 27,
-        "form": "74P747",
-        "headgear": "t"
+        "last_run": 21,
+        "form": "0",
+        "headgear": "v"
       }
     ],
     "profile_notes": [],
@@ -323,29 +335,32 @@
       "value": 18.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Soft",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 44,
+    "suitability_score": 80,
+    "horse_intelligence_score": 47,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Clairefontaine",
       "latest_distance_f": 18.0,
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_class": "",
-      "latest_pulse_score": 50,
+      "latest_pulse_score": 51,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -363,7 +378,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Yannick Fouin",
       "latest_jockey": "Thomas Journiac",
@@ -379,7 +394,9 @@
       "distances_seen": {
         "18.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Yannick Fouin": 1
@@ -408,7 +425,7 @@
           "distance_f": 18.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Rygia",
@@ -437,27 +454,30 @@
         "value": 18.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 48,
+      "suitability_score": 80,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.0,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 60,
         "average_pulse_score": 0,
@@ -476,7 +496,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "C Lerner",
       "latest_jockey": "Kevin Ouvrier",
@@ -492,7 +512,9 @@
       "distances_seen": {
         "18.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "C Lerner": 1
@@ -521,7 +543,7 @@
           "distance_f": 18.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Monzon",
@@ -550,255 +572,32 @@
         "value": 18.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 45,
+      "suitability_score": 80,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.0,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 53,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Goldie Nolimit",
-      "horse_id": "hrs_63514759",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Clairefontaine",
-      "latest_time": "2:10",
-      "latest_race": "Prix Label Equures (Prix Des Capucines)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 18.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mme A-S Pacault",
-      "latest_jockey": "Leo-Paul Brechet",
-      "latest_draw": 0,
-      "latest_weight_lbs": 150,
-      "official_rating": "-",
-      "recent_form": "74P747",
-      "last_run_days": 27,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "18.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "Mme A-S Pacault": 1
-      },
-      "jockeys_seen": {
-        "Leo-Paul Brechet": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004004",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "2:10",
-          "off_dt": "2026-07-15T14:10:00+01:00",
-          "race_name": "Prix Label Equures (Prix Des Capucines)",
-          "distance_f": 18.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Goldie Nolimit",
-          "horse_id": "hrs_63514759",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Mme A-S Pacault",
-          "trainer_id": "trn_195588",
-          "jockey": "Leo-Paul Brechet",
-          "jockey_id": "jky_299349",
-          "draw": 0,
-          "number": 8,
-          "lbs": 150,
-          "ofr": "-",
-          "last_run": 27,
-          "form": "74P747",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 18.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 18.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 50,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Magot De L'Isle",
-      "horse_id": "hrs_62582114",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Clairefontaine",
-      "latest_time": "2:10",
-      "latest_race": "Prix Label Equures (Prix Des Capucines)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 18.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Giada Menato",
-      "latest_jockey": "Theo Chevillard",
-      "latest_draw": 0,
-      "latest_weight_lbs": 150,
-      "official_rating": "-",
-      "recent_form": "607P56",
-      "last_run_days": 16,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "18.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "Giada Menato": 1
-      },
-      "jockeys_seen": {
-        "Theo Chevillard": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004004",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "2:10",
-          "off_dt": "2026-07-15T14:10:00+01:00",
-          "race_name": "Prix Label Equures (Prix Des Capucines)",
-          "distance_f": 18.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Magot De L'Isle",
-          "horse_id": "hrs_62582114",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Giada Menato",
-          "trainer_id": "trn_341451",
-          "jockey": "Theo Chevillard",
-          "jockey_id": "jky_282816",
-          "draw": 0,
-          "number": 7,
-          "lbs": 150,
-          "ofr": "-",
-          "last_run": 16,
-          "form": "607P56",
-          "headgear": "tb"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 18.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 18.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 50,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -815,7 +614,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Noel George & Amanda Zetterholm",
       "latest_jockey": "Francesco Mula",
@@ -831,7 +630,9 @@
       "distances_seen": {
         "18.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Noel George & Amanda Zetterholm": 1
@@ -860,7 +661,7 @@
           "distance_f": 18.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Safura",
@@ -889,29 +690,268 @@
         "value": 18.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 44,
+      "suitability_score": 80,
+      "horse_intelligence_score": 47,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.0,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 51,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Goldie Nolimit",
+      "horse_id": "hrs_63514759",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Clairefontaine",
+      "latest_time": "2:10",
+      "latest_race": "Prix Label Equures (Prix Des Capucines)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 18.0,
+      "latest_class": "",
+      "latest_going": "Soft",
+      "latest_surface": "Turf",
+      "latest_trainer": "Mme A-S Pacault",
+      "latest_jockey": "Leo-Paul Brechet",
+      "latest_draw": 0,
+      "latest_weight_lbs": 150,
+      "official_rating": "-",
+      "recent_form": "74P747",
+      "last_run_days": 27,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "18.0": 1
+      },
+      "goings_seen": {
+        "Soft": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Mme A-S Pacault": 1
+      },
+      "jockeys_seen": {
+        "Leo-Paul Brechet": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 50,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004004",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "2:10",
+          "off_dt": "2026-07-15T14:10:00+01:00",
+          "race_name": "Prix Label Equures (Prix Des Capucines)",
+          "distance_f": 18.0,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Soft",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Goldie Nolimit",
+          "horse_id": "hrs_63514759",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Mme A-S Pacault",
+          "trainer_id": "trn_195588",
+          "jockey": "Leo-Paul Brechet",
+          "jockey_id": "jky_299349",
+          "draw": 0,
+          "number": 8,
+          "lbs": 150,
+          "ofr": "-",
+          "last_run": 27,
+          "form": "74P747",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 18.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 18.0,
+        "latest_going": "Soft",
+        "latest_class": "",
+        "latest_pulse_score": 50,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Magot De L'Isle",
+      "horse_id": "hrs_62582114",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Clairefontaine",
+      "latest_time": "2:10",
+      "latest_race": "Prix Label Equures (Prix Des Capucines)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 18.0,
+      "latest_class": "",
+      "latest_going": "Soft",
+      "latest_surface": "Turf",
+      "latest_trainer": "Giada Menato",
+      "latest_jockey": "Theo Chevillard",
+      "latest_draw": 0,
+      "latest_weight_lbs": 150,
+      "official_rating": "-",
+      "recent_form": "607P56",
+      "last_run_days": 16,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "18.0": 1
+      },
+      "goings_seen": {
+        "Soft": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Giada Menato": 1
+      },
+      "jockeys_seen": {
+        "Theo Chevillard": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 50,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004004",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "2:10",
+          "off_dt": "2026-07-15T14:10:00+01:00",
+          "race_name": "Prix Label Equures (Prix Des Capucines)",
+          "distance_f": 18.0,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Soft",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Magot De L'Isle",
+          "horse_id": "hrs_62582114",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Giada Menato",
+          "trainer_id": "trn_341451",
+          "jockey": "Theo Chevillard",
+          "jockey_id": "jky_282816",
+          "draw": 0,
+          "number": 7,
+          "lbs": 150,
+          "ofr": "-",
+          "last_run": 16,
+          "form": "607P56",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 18.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 18.0,
+        "latest_going": "Soft",
+        "latest_class": "",
+        "latest_pulse_score": 50,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -928,7 +968,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "M Seror",
       "latest_jockey": "Thomas Poteaux",
@@ -944,7 +984,9 @@
       "distances_seen": {
         "18.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "M Seror": 1
@@ -973,7 +1015,7 @@
           "distance_f": 18.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Minuit Du Seuil",
@@ -1002,27 +1044,30 @@
         "value": 18.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 43,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.0,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 48,
         "average_pulse_score": 0,
@@ -1041,7 +1086,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "C Lerner",
       "latest_jockey": "Clement Guitraud",
@@ -1057,7 +1102,9 @@
       "distances_seen": {
         "18.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "C Lerner": 1
@@ -1086,7 +1133,7 @@
           "distance_f": 18.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Looking For You",
@@ -1115,27 +1162,30 @@
         "value": 18.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 42,
+      "suitability_score": 80,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.0,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 47,
         "average_pulse_score": 0,
@@ -1154,7 +1204,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "F Bellemere",
       "latest_jockey": "Angelo Zuliani",
@@ -1170,7 +1220,9 @@
       "distances_seen": {
         "18.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "F Bellemere": 1
@@ -1197,7 +1249,7 @@
           "distance_f": 18.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Heart And Soul",
@@ -1228,27 +1280,30 @@
         "value": 18.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 41,
+      "suitability_score": 80,
+      "horse_intelligence_score": 44,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.0,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 45,
         "average_pulse_score": 0,
@@ -1267,7 +1322,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "F Bellemere",
       "latest_jockey": "Baptiste Le Clerc",
@@ -1283,7 +1338,9 @@
       "distances_seen": {
         "18.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "F Bellemere": 1
@@ -1310,7 +1367,7 @@
           "distance_f": 18.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Colo",
@@ -1341,27 +1398,30 @@
         "value": 18.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 40,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.0,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 43,
         "average_pulse_score": 0,
@@ -1380,7 +1440,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Giada Menato",
       "latest_jockey": "Tyson Ventadour",
@@ -1396,7 +1456,9 @@
       "distances_seen": {
         "18.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Giada Menato": 1
@@ -1425,7 +1487,7 @@
           "distance_f": 18.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Matcha De L'Isle",
@@ -1454,27 +1516,30 @@
         "value": 18.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 40,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.0,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 42,
         "average_pulse_score": 0,
@@ -1493,7 +1558,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Mme P Butel & J-L Beaunez",
       "latest_jockey": "Lucas Vandamme",
@@ -1509,7 +1574,9 @@
       "distances_seen": {
         "18.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Mme P Butel & J-L Beaunez": 1
@@ -1536,7 +1603,7 @@
           "distance_f": 18.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Sorengo",
@@ -1565,27 +1632,30 @@
         "value": 18.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 40,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.0,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 42,
         "average_pulse_score": 0,
@@ -1604,7 +1674,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Louisa Carberry",
       "latest_jockey": "Gauvain Faivre-Picon",
@@ -1620,7 +1690,9 @@
       "distances_seen": {
         "18.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Louisa Carberry": 1
@@ -1649,7 +1721,7 @@
           "distance_f": 18.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Malaca",
@@ -1680,27 +1752,30 @@
         "value": 18.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 39,
+      "suitability_score": 80,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.0,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 41,
         "average_pulse_score": 0,
@@ -1719,7 +1794,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Giada Menato",
       "latest_jockey": "Luigi Maceli",
@@ -1735,7 +1810,9 @@
       "distances_seen": {
         "18.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Giada Menato": 1
@@ -1764,7 +1841,7 @@
           "distance_f": 18.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Jumbalaya",
@@ -1795,20 +1872,23 @@
         "value": 18.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 37,
+      "suitability_score": 80,
+      "horse_intelligence_score": 40,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -1816,7 +1896,7 @@
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.0,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 36,
         "average_pulse_score": 0,
@@ -1829,6 +1909,6 @@
     "Rygia is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Goldie Nolimit is flagged as a possible dark horse."
+    "Safura is flagged as a possible dark horse."
   ]
 }

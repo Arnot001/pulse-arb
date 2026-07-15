@@ -4,14 +4,14 @@
   "course": "Stratford",
   "time": "2:25",
   "race_name": "Next Sunday Is Ladies Day Novices' Limited Handicap Hurdle",
-  "field_size": 7,
-  "average_intelligence": 30.29,
+  "field_size": 8,
+  "average_intelligence": 31.88,
   "top_score": 50,
-  "second_score": 27,
-  "gap": 23,
-  "confidence_score": 71,
-  "confidence": "GOOD",
-  "race_shape": "CLEAR STANDOUT",
+  "second_score": 43,
+  "gap": 7,
+  "confidence_score": 47,
+  "confidence": "LOW",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
     "horse": "French Diablo",
     "horse_id": "hrs_58596762",
@@ -170,35 +170,169 @@
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-12",
-      "course": "Stratford",
-      "race_time": "13:25",
-      "race_name": "Next Sunday Is Ladies Day Novices' Limited Handicap Hurdle",
-      "race_id": "rac_11987950",
-      "status": null,
-      "finish_position": 1,
-      "sp": "2/1",
-      "favourite_position": null,
-      "going": "Good to Firm",
-      "distance": "2m 6f 7y",
-      "field_size": "6",
-      "trainer": "Max Comley",
-      "jockey": "David Bass",
-      "distance_beaten": null,
-      "won": true,
-      "placed": true,
-      "attached_at": "2026-07-15T06:36:21"
-    },
-    "latest_result_position": 1,
-    "latest_result_sp": "2/1",
-    "latest_result_won": true,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-12"
+    }
   },
   "main_threat": {
+    "horse": "Stavanger Rose",
+    "horse_id": "hrs_50402520",
+    "age": 6,
+    "sex": "mare",
+    "latest_course": "Stratford",
+    "latest_time": "2:25",
+    "latest_race": "Next Sunday Is Ladies Day Novices' Limited Handicap Hurdle",
+    "latest_date": "2026-07-12",
+    "latest_distance_f": 22.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Harriet Dickin",
+    "latest_jockey": "Tabitha Worsley",
+    "latest_draw": 0,
+    "latest_weight_lbs": 160,
+    "official_rating": "85",
+    "recent_form": "UF-640",
+    "last_run_days": 11,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Worcester": 1,
+      "Stratford": 1
+    },
+    "distances_seen": {
+      "20.0": 1,
+      "22.0": 1
+    },
+    "goings_seen": {
+      "Good": 1,
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 5": 2
+    },
+    "trainers_seen": {
+      "Harriet Dickin": 2
+    },
+    "jockeys_seen": {
+      "Tabitha Worsley": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 53,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11987339",
+        "course": "Worcester",
+        "date": "2026-07-01",
+        "off_time": "4:25",
+        "off_dt": "2026-07-01T16:25:00+01:00",
+        "race_name": "M&E Global Defence Sector Solutions Experts Novices' Limited Handicap Hurdle",
+        "distance_f": 20.0,
+        "race_class": "Class 5",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 11,
+        "horse": "Stavanger Rose",
+        "horse_id": "hrs_50402520",
+        "age": 6,
+        "sex": "mare",
+        "trainer": "Harriet Dickin",
+        "trainer_id": "trn_355509",
+        "jockey": "Tabitha Worsley",
+        "jockey_id": "jky_275706",
+        "draw": 0,
+        "number": 2,
+        "lbs": 162,
+        "ofr": "90",
+        "last_run": 27,
+        "form": "FUF-64",
+        "headgear": "",
+        "_stored_at": "2026-07-01T13:17:52.358911+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11987950",
+        "course": "Stratford",
+        "date": "2026-07-12",
+        "off_time": "2:25",
+        "off_dt": "2026-07-12T14:25:00+01:00",
+        "race_name": "Next Sunday Is Ladies Day Novices' Limited Handicap Hurdle",
+        "distance_f": 22.0,
+        "race_class": "Class 5",
+        "race_type": "Hurdle",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Stavanger Rose",
+        "horse_id": "hrs_50402520",
+        "age": 6,
+        "sex": "mare",
+        "trainer": "Harriet Dickin",
+        "trainer_id": "trn_355509",
+        "jockey": "Tabitha Worsley",
+        "jockey_id": "jky_275706",
+        "draw": 0,
+        "number": null,
+        "lbs": 160,
+        "ofr": "85",
+        "last_run": 11,
+        "form": "UF-640",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Worcester",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 20.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 2
+    },
+    "course_suitability_score": 55,
+    "distance_suitability_score": 55,
+    "going_suitability_score": 55,
+    "class_suitability_score": 90,
+    "suitability_score": 64,
+    "horse_intelligence_score": 43,
+    "profile_strengths": [
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Course does not strongly match stored profile",
+      "Distance not yet a clear profile strength",
+      "Going is not clearly proven from stored profile",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Stratford",
+      "latest_distance_f": 22.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 5",
+      "latest_pulse_score": 53,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "dark_horse": {
     "horse": "Babychino",
     "horse_id": "hrs_56811391",
     "age": 4,
@@ -270,152 +404,6 @@
         "ofr": "78",
         "last_run": 29,
         "form": "73-P53",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Stratford",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 22.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Stratford",
-      "latest_distance_f": 22.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 5",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-12",
-      "course": "Stratford",
-      "race_time": "13:25",
-      "race_name": "Next Sunday Is Ladies Day Novices' Limited Handicap Hurdle",
-      "race_id": "rac_11987950",
-      "status": null,
-      "finish_position": 2,
-      "sp": "9/2",
-      "favourite_position": null,
-      "going": "Good to Firm",
-      "distance": "2m 6f 7y",
-      "field_size": "6",
-      "trainer": "Alexander Gibbons",
-      "jockey": "Ms Sophie Carter(7)",
-      "distance_beaten": null,
-      "won": false,
-      "placed": true,
-      "attached_at": "2026-07-15T06:36:21"
-    },
-    "latest_result_position": 2,
-    "latest_result_sp": "9/2",
-    "latest_result_won": false,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-12"
-  },
-  "dark_horse": {
-    "horse": "Bits Ballou",
-    "horse_id": "hrs_59895682",
-    "age": 5,
-    "sex": "mare",
-    "latest_course": "Stratford",
-    "latest_time": "2:25",
-    "latest_race": "Next Sunday Is Ladies Day Novices' Limited Handicap Hurdle",
-    "latest_date": "2026-07-12",
-    "latest_distance_f": 22.0,
-    "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Nigel & Willy Twiston-Davies",
-    "latest_jockey": "Sam Twiston-Davies",
-    "latest_draw": 0,
-    "latest_weight_lbs": 154,
-    "official_rating": "79",
-    "recent_form": "986-42",
-    "last_run_days": 30,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Stratford": 1
-    },
-    "distances_seen": {
-      "22.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 5": 1
-    },
-    "trainers_seen": {
-      "Nigel & Willy Twiston-Davies": 1
-    },
-    "jockeys_seen": {
-      "Sam Twiston-Davies": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11987950",
-        "course": "Stratford",
-        "date": "2026-07-12",
-        "off_time": "2:25",
-        "off_dt": "2026-07-12T14:25:00+01:00",
-        "race_name": "Next Sunday Is Ladies Day Novices' Limited Handicap Hurdle",
-        "distance_f": 22.0,
-        "race_class": "Class 5",
-        "race_type": "Hurdle",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Bits Ballou",
-        "horse_id": "hrs_59895682",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "Nigel & Willy Twiston-Davies",
-        "trainer_id": "trn_381060",
-        "jockey": "Sam Twiston-Davies",
-        "jockey_id": "jky_264069",
-        "draw": 0,
-        "number": 3,
-        "lbs": 154,
-        "ofr": "79",
-        "last_run": 30,
-        "form": "986-42",
         "headgear": ""
       }
     ],
@@ -623,33 +611,167 @@
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
+      }
+    },
+    {
+      "horse": "Stavanger Rose",
+      "horse_id": "hrs_50402520",
+      "age": 6,
+      "sex": "mare",
+      "latest_course": "Stratford",
+      "latest_time": "2:25",
+      "latest_race": "Next Sunday Is Ladies Day Novices' Limited Handicap Hurdle",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 22.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Harriet Dickin",
+      "latest_jockey": "Tabitha Worsley",
+      "latest_draw": 0,
+      "latest_weight_lbs": 160,
+      "official_rating": "85",
+      "recent_form": "UF-640",
+      "last_run_days": 11,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Worcester": 1,
+        "Stratford": 1
       },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-12",
-        "course": "Stratford",
-        "race_time": "13:25",
-        "race_name": "Next Sunday Is Ladies Day Novices' Limited Handicap Hurdle",
-        "race_id": "rac_11987950",
-        "status": null,
-        "finish_position": 1,
-        "sp": "2/1",
-        "favourite_position": null,
-        "going": "Good to Firm",
-        "distance": "2m 6f 7y",
-        "field_size": "6",
-        "trainer": "Max Comley",
-        "jockey": "David Bass",
-        "distance_beaten": null,
-        "won": true,
-        "placed": true,
-        "attached_at": "2026-07-15T06:36:21"
+      "distances_seen": {
+        "20.0": 1,
+        "22.0": 1
       },
-      "latest_result_position": 1,
-      "latest_result_sp": "2/1",
-      "latest_result_won": true,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-12"
+      "goings_seen": {
+        "Good": 1,
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "Harriet Dickin": 2
+      },
+      "jockeys_seen": {
+        "Tabitha Worsley": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 53,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987339",
+          "course": "Worcester",
+          "date": "2026-07-01",
+          "off_time": "4:25",
+          "off_dt": "2026-07-01T16:25:00+01:00",
+          "race_name": "M&E Global Defence Sector Solutions Experts Novices' Limited Handicap Hurdle",
+          "distance_f": 20.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Stavanger Rose",
+          "horse_id": "hrs_50402520",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Harriet Dickin",
+          "trainer_id": "trn_355509",
+          "jockey": "Tabitha Worsley",
+          "jockey_id": "jky_275706",
+          "draw": 0,
+          "number": 2,
+          "lbs": 162,
+          "ofr": "90",
+          "last_run": 27,
+          "form": "FUF-64",
+          "headgear": "",
+          "_stored_at": "2026-07-01T13:17:52.358911+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987950",
+          "course": "Stratford",
+          "date": "2026-07-12",
+          "off_time": "2:25",
+          "off_dt": "2026-07-12T14:25:00+01:00",
+          "race_name": "Next Sunday Is Ladies Day Novices' Limited Handicap Hurdle",
+          "distance_f": 22.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Stavanger Rose",
+          "horse_id": "hrs_50402520",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Harriet Dickin",
+          "trainer_id": "trn_355509",
+          "jockey": "Tabitha Worsley",
+          "jockey_id": "jky_275706",
+          "draw": 0,
+          "number": null,
+          "lbs": 160,
+          "ofr": "85",
+          "last_run": 11,
+          "form": "UF-640",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Worcester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 20.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 55,
+      "class_suitability_score": 90,
+      "suitability_score": 64,
+      "horse_intelligence_score": 43,
+      "profile_strengths": [
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Stratford",
+        "latest_distance_f": 22.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 53,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
     },
     {
       "horse": "Babychino",
@@ -769,33 +891,7 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-12",
-        "course": "Stratford",
-        "race_time": "13:25",
-        "race_name": "Next Sunday Is Ladies Day Novices' Limited Handicap Hurdle",
-        "race_id": "rac_11987950",
-        "status": null,
-        "finish_position": 2,
-        "sp": "9/2",
-        "favourite_position": null,
-        "going": "Good to Firm",
-        "distance": "2m 6f 7y",
-        "field_size": "6",
-        "trainer": "Alexander Gibbons",
-        "jockey": "Ms Sophie Carter(7)",
-        "distance_beaten": null,
-        "won": false,
-        "placed": true,
-        "attached_at": "2026-07-15T06:36:21"
-      },
-      "latest_result_position": 2,
-      "latest_result_sp": "9/2",
-      "latest_result_won": false,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-12"
+      }
     },
     {
       "horse": "Bits Ballou",
@@ -1402,8 +1498,7 @@
   ],
   "notes": [
     "French Diablo is the top-rated Pulse IQ runner.",
-    "The top runner has a clear intelligence gap over the field.",
     "This race has a generally weak profile strength.",
-    "Bits Ballou is flagged as a possible dark horse."
+    "Babychino is flagged as a possible dark horse."
   ]
 }

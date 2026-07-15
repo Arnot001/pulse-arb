@@ -133,6 +133,74 @@ def get_all_settled_stats():
     )
 
 
+def calculate_each_way_stats(bets):
+    eligible = [
+        bet
+        for bet in bets
+        if bet.get("ew_available") is True
+        and bet.get("ew_profit") is not None
+        and bet.get("ew_total_stake") is not None
+    ]
+
+    total = len(eligible)
+
+    placed = len([
+        bet
+        for bet in eligible
+        if bet.get("placed") is True
+    ])
+
+    unplaced = len([
+        bet
+        for bet in eligible
+        if bet.get("placed") is False
+    ])
+
+    stake = sum(
+        float(bet.get("ew_total_stake") or 0)
+        for bet in eligible
+    )
+
+    profit = sum(
+        float(bet.get("ew_profit") or 0)
+        for bet in eligible
+    )
+
+    place_rate = (
+        round((placed / total) * 100, 2)
+        if total
+        else 0
+    )
+
+    roi = (
+        round((profit / stake) * 100, 2)
+        if stake
+        else 0
+    )
+
+    return {
+        "total": total,
+        "placed": placed,
+        "unplaced": unplaced,
+        "stake": round(stake, 2),
+        "profit": round(profit, 2),
+        "place_rate": place_rate,
+        "roi": roi,
+    }
+
+
+def get_verified_official_each_way_stats():
+    return calculate_each_way_stats(
+        load_official_settled_bets()
+    )
+
+
+def get_all_settled_each_way_stats():
+    return calculate_each_way_stats(
+        load_settled_bets()
+    )
+
+
 def get_bankroll_history(start_bank=100.0):
     bankroll = start_bank
     history = []
@@ -224,6 +292,105 @@ def get_bankroll_history(start_bank=100.0):
             "odds_available": (
                 bet.get("best_odds_decimal")
                 is not None
+            ),
+        })
+
+    return history
+
+
+def get_each_way_bankroll_history(start_bank=100.0):
+    bankroll = start_bank
+    history = []
+
+    def history_sort_key(row):
+        race_date = str(
+            row.get("date") or ""
+        )[:10]
+
+        race_time = str(
+            row.get("race_time") or ""
+        ).strip()
+
+        try:
+            parts = race_time.split(":")
+
+            hour = int(parts[0])
+            minute = int(parts[1])
+
+            if 1 <= hour <= 9:
+                hour += 12
+
+            sortable_time = f"{hour:02d}:{minute:02d}"
+
+        except Exception:
+            sortable_time = "99:99"
+
+        return (
+            race_date,
+            sortable_time,
+            row.get("settled_at") or "",
+            row.get("bet_id") or "",
+        )
+
+    settled = sorted(
+        load_settled_bets(),
+        key=history_sort_key,
+    )
+
+    for index, bet in enumerate(settled, start=1):
+        profit = bet.get("ew_profit")
+
+        if profit is not None:
+            bankroll += float(profit)
+
+        race_date = str(
+            bet.get("date") or ""
+        )[:10]
+
+        race_time = str(
+            bet.get("race_time") or ""
+        ).strip()
+
+        race_datetime = None
+
+        if race_date and race_time:
+            try:
+                parts = race_time.split(":")
+
+                hour = int(parts[0])
+                minute = int(parts[1])
+
+                if 1 <= hour <= 9:
+                    hour += 12
+
+                race_datetime = (
+                    f"{race_date}T"
+                    f"{hour:02d}:{minute:02d}:00"
+                )
+
+            except Exception:
+                race_datetime = None
+
+        history.append({
+            "x": index,
+            "bankroll": round(bankroll, 2),
+            "profit": (
+                round(float(profit), 2)
+                if profit is not None
+                else None
+            ),
+            "horse": bet.get("horse"),
+            "course": bet.get("course"),
+            "date": race_date,
+            "race_time": race_time,
+            "race_datetime": race_datetime,
+            "settled_at": bet.get("settled_at"),
+            "won": bet.get("won"),
+            "placed": bet.get("placed"),
+            "ew_places_paid": bet.get("ew_places_paid"),
+            "ew_fraction": bet.get("ew_fraction"),
+            "odds_available": (
+                bet.get("ew_available") is True
             ),
         })
 
@@ -337,18 +504,29 @@ def load_odds_snapshots():
 
 
 def clean_decimal_odds(value):
+    """
+    Validate captured decimal horse-racing odds.
+
+    Valid decimal odds must be greater than 1.0. The upper guard
+    protects the ledger from obviously corrupted provider values
+    without rejecting legitimate outsiders.
+    """
+
     if value is None:
         return None
 
     try:
         value = float(value)
-    except Exception:
+    except (TypeError, ValueError):
         return None
 
-    if value < 1.5 or value > 10:
+    if value <= 1.0:
         return None
 
-    return value
+    if value > 1000:
+        return None
+
+    return round(value, 4)
 
 
 def rebuild_ledger_from_snapshots():

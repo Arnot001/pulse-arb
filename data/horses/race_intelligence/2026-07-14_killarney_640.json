@@ -5,11 +5,11 @@
   "time": "6:40",
   "race_name": "Killarney Plaza Hotel & Spa Handicap",
   "field_size": 14,
-  "average_intelligence": 44.07,
-  "top_score": 53,
+  "average_intelligence": 46.43,
+  "top_score": 56,
   "second_score": 53,
-  "gap": 0,
-  "confidence_score": 41,
+  "gap": 3,
+  "confidence_score": 47,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -23,7 +23,7 @@
     "latest_date": "2026-07-14",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "M A Molloy",
     "latest_jockey": "Oisin Murphy",
@@ -39,7 +39,9 @@
     "distances_seen": {
       "8.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "M A Molloy": 1
@@ -69,9 +71,9 @@
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
-        "field_size": 15,
+        "field_size": 14,
         "horse": "Elusive Duke",
         "horse_id": "hrs_45007424",
         "age": 4,
@@ -98,28 +100,31 @@
       "value": 8.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 53,
+    "suitability_score": 80,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 8.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
       "latest_pulse_score": 71,
       "average_pulse_score": 0,
@@ -128,125 +133,6 @@
     }
   },
   "main_threat": {
-    "horse": "Majestic King",
-    "horse_id": "hrs_52641358",
-    "age": 5,
-    "sex": "gelding",
-    "latest_course": "Killarney",
-    "latest_time": "6:40",
-    "latest_race": "Killarney Plaza Hotel & Spa Handicap",
-    "latest_date": "2026-07-14",
-    "latest_distance_f": 8.0,
-    "latest_class": "",
-    "latest_going": "",
-    "latest_surface": "Turf",
-    "latest_trainer": "Denis Gerard Hogan",
-    "latest_jockey": "Robbie Colgan",
-    "latest_draw": 1,
-    "latest_weight_lbs": 139,
-    "official_rating": "69",
-    "recent_form": "021200",
-    "last_run_days": 18,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Killarney": 1
-    },
-    "distances_seen": {
-      "8.0": 1
-    },
-    "goings_seen": {},
-    "classes_seen": {},
-    "trainers_seen": {
-      "Denis Gerard Hogan": 1
-    },
-    "jockeys_seen": {
-      "Robbie Colgan": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 71,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Stable flying +4 (3/11 last 14 days)",
-      "Jockey concern -2",
-      "Jockey flying +4 (12/12 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000001040",
-        "course": "Killarney",
-        "date": "2026-07-14",
-        "off_time": "6:40",
-        "off_dt": "2026-07-14T18:40:00+01:00",
-        "race_name": "Killarney Plaza Hotel & Spa Handicap",
-        "distance_f": 8.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "",
-        "surface": "Turf",
-        "field_size": 15,
-        "horse": "Majestic King",
-        "horse_id": "hrs_52641358",
-        "age": 5,
-        "sex": "gelding",
-        "trainer": "Denis Gerard Hogan",
-        "trainer_id": "trn_196911",
-        "jockey": "Robbie Colgan",
-        "jockey_id": "jky_226827",
-        "draw": 1,
-        "number": 3,
-        "lbs": 139,
-        "ofr": "69",
-        "last_run": 18,
-        "form": "021200",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ],
-    "favourite_course": {
-      "value": "Killarney",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 8.0,
-      "runs": 1
-    },
-    "favourite_going": null,
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 50,
-    "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 53,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Going is not clearly proven from stored profile",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Killarney",
-      "latest_distance_f": 8.0,
-      "latest_going": "",
-      "latest_class": "",
-      "latest_pulse_score": 71,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
     "horse": "Amemri",
     "horse_id": "hrs_30124689",
     "age": 6,
@@ -257,7 +143,7 @@
     "latest_date": "2026-07-14",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "David Marnane",
     "latest_jockey": "Luke McAteer",
@@ -273,7 +159,9 @@
     "distances_seen": {
       "8.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "David Marnane": 1
@@ -303,9 +191,9 @@
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
-        "field_size": 15,
+        "field_size": 14,
         "horse": "Amemri",
         "horse_id": "hrs_30124689",
         "age": 6,
@@ -332,33 +220,224 @@
       "value": 8.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 53,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 8.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
       "latest_pulse_score": 65,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Majestic King",
+    "horse_id": "hrs_52641358",
+    "age": 5,
+    "sex": "gelding",
+    "latest_course": "Killarney",
+    "latest_time": "6:40",
+    "latest_race": "Killarney Plaza Hotel & Spa Handicap",
+    "latest_date": "2026-07-14",
+    "latest_distance_f": 8.0,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Denis Gerard Hogan",
+    "latest_jockey": "Robbie Colgan",
+    "latest_draw": 1,
+    "latest_weight_lbs": 139,
+    "official_rating": "69",
+    "recent_form": "021200",
+    "last_run_days": 18,
+    "profile_runs": 3,
+    "courses_seen": {
+      "Curragh": 2,
+      "Killarney": 1
+    },
+    "distances_seen": {
+      "8.0": 3
+    },
+    "goings_seen": {
+      "Good": 3
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Denis Gerard Hogan": 3
+    },
+    "jockeys_seen": {
+      "Oisin Murphy": 2,
+      "Robbie Colgan": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 71,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Stable flying +4 (3/11 last 14 days)",
+      "Jockey concern -2",
+      "Jockey flying +4 (12/12 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12005864",
+        "course": "Curragh",
+        "date": "2026-06-26",
+        "off_time": "5:35",
+        "off_dt": "2026-06-26T17:35:00+01:00",
+        "race_name": "Silken Thomas And Lock 13 Handicap",
+        "distance_f": 8.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 22,
+        "horse": "Majestic King",
+        "horse_id": "hrs_52641358",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "Denis Gerard Hogan",
+        "trainer_id": "trn_196911",
+        "jockey": "Oisin Murphy",
+        "jockey_id": "jky_278184",
+        "draw": 2,
+        "number": 13,
+        "lbs": 132,
+        "ofr": "70",
+        "last_run": 22,
+        "form": "802120",
+        "headgear": "",
+        "_stored_at": "2026-06-26T08:14:12.892513+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12005864",
+        "course": "Curragh",
+        "date": "2026-06-26",
+        "off_time": "5:35",
+        "off_dt": "2026-06-26T17:35:00+01:00",
+        "race_name": "Silken Thomas And Lock 13 Handicap",
+        "distance_f": 8.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 22,
+        "horse": "Majestic King",
+        "horse_id": "hrs_52641358",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "Denis Gerard Hogan",
+        "trainer_id": "trn_196911",
+        "jockey": "Oisin Murphy",
+        "jockey_id": "jky_278184",
+        "draw": 2,
+        "number": 13,
+        "lbs": 132,
+        "ofr": "70",
+        "last_run": 22,
+        "form": "802120",
+        "headgear": "",
+        "_stored_at": "2026-06-28T12:42:27.096253+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000001040",
+        "course": "Killarney",
+        "date": "2026-07-14",
+        "off_time": "6:40",
+        "off_dt": "2026-07-14T18:40:00+01:00",
+        "race_name": "Killarney Plaza Hotel & Spa Handicap",
+        "distance_f": 8.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 14,
+        "horse": "Majestic King",
+        "horse_id": "hrs_52641358",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "Denis Gerard Hogan",
+        "trainer_id": "trn_196911",
+        "jockey": "Robbie Colgan",
+        "jockey_id": "jky_226827",
+        "draw": 1,
+        "number": 3,
+        "lbs": 139,
+        "ofr": "69",
+        "last_run": 18,
+        "form": "021200",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Profile has multiple stored runs",
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Curragh",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 8.0,
+      "runs": 3
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 3
+    },
+    "favourite_class": null,
+    "course_suitability_score": 55,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 71,
+    "horse_intelligence_score": 53,
+    "profile_strengths": [
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Course does not strongly match stored profile"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Killarney",
+      "latest_distance_f": 8.0,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": 71,
+      "average_pulse_score": 0,
+      "profile_runs": 3,
+      "runs_count": 3
     }
   },
   "runners": [
@@ -373,7 +452,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "M A Molloy",
       "latest_jockey": "Oisin Murphy",
@@ -389,7 +468,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "M A Molloy": 1
@@ -419,9 +500,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "Elusive Duke",
           "horse_id": "hrs_45007424",
           "age": 4,
@@ -448,147 +529,31 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 53,
+      "suitability_score": 80,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 71,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Majestic King",
-      "horse_id": "hrs_52641358",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Killarney",
-      "latest_time": "6:40",
-      "latest_race": "Killarney Plaza Hotel & Spa Handicap",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Denis Gerard Hogan",
-      "latest_jockey": "Robbie Colgan",
-      "latest_draw": 1,
-      "latest_weight_lbs": 139,
-      "official_rating": "69",
-      "recent_form": "021200",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Killarney": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "Denis Gerard Hogan": 1
-      },
-      "jockeys_seen": {
-        "Robbie Colgan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 71,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Stable flying +4 (3/11 last 14 days)",
-        "Jockey concern -2",
-        "Jockey flying +4 (12/12 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001040",
-          "course": "Killarney",
-          "date": "2026-07-14",
-          "off_time": "6:40",
-          "off_dt": "2026-07-14T18:40:00+01:00",
-          "race_name": "Killarney Plaza Hotel & Spa Handicap",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Majestic King",
-          "horse_id": "hrs_52641358",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Denis Gerard Hogan",
-          "trainer_id": "trn_196911",
-          "jockey": "Robbie Colgan",
-          "jockey_id": "jky_226827",
-          "draw": 1,
-          "number": 3,
-          "lbs": 139,
-          "ofr": "69",
-          "last_run": 18,
-          "form": "021200",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Killarney",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Killarney",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 71,
         "average_pulse_score": 0,
@@ -607,7 +572,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "David Marnane",
       "latest_jockey": "Luke McAteer",
@@ -623,7 +588,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "David Marnane": 1
@@ -653,9 +620,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "Amemri",
           "horse_id": "hrs_30124689",
           "age": 6,
@@ -682,33 +649,224 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 53,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 65,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Majestic King",
+      "horse_id": "hrs_52641358",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Killarney",
+      "latest_time": "6:40",
+      "latest_race": "Killarney Plaza Hotel & Spa Handicap",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Denis Gerard Hogan",
+      "latest_jockey": "Robbie Colgan",
+      "latest_draw": 1,
+      "latest_weight_lbs": 139,
+      "official_rating": "69",
+      "recent_form": "021200",
+      "last_run_days": 18,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Curragh": 2,
+        "Killarney": 1
+      },
+      "distances_seen": {
+        "8.0": 3
+      },
+      "goings_seen": {
+        "Good": 3
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Denis Gerard Hogan": 3
+      },
+      "jockeys_seen": {
+        "Oisin Murphy": 2,
+        "Robbie Colgan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 71,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Stable flying +4 (3/11 last 14 days)",
+        "Jockey concern -2",
+        "Jockey flying +4 (12/12 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12005864",
+          "course": "Curragh",
+          "date": "2026-06-26",
+          "off_time": "5:35",
+          "off_dt": "2026-06-26T17:35:00+01:00",
+          "race_name": "Silken Thomas And Lock 13 Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 22,
+          "horse": "Majestic King",
+          "horse_id": "hrs_52641358",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Denis Gerard Hogan",
+          "trainer_id": "trn_196911",
+          "jockey": "Oisin Murphy",
+          "jockey_id": "jky_278184",
+          "draw": 2,
+          "number": 13,
+          "lbs": 132,
+          "ofr": "70",
+          "last_run": 22,
+          "form": "802120",
+          "headgear": "",
+          "_stored_at": "2026-06-26T08:14:12.892513+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12005864",
+          "course": "Curragh",
+          "date": "2026-06-26",
+          "off_time": "5:35",
+          "off_dt": "2026-06-26T17:35:00+01:00",
+          "race_name": "Silken Thomas And Lock 13 Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 22,
+          "horse": "Majestic King",
+          "horse_id": "hrs_52641358",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Denis Gerard Hogan",
+          "trainer_id": "trn_196911",
+          "jockey": "Oisin Murphy",
+          "jockey_id": "jky_278184",
+          "draw": 2,
+          "number": 13,
+          "lbs": 132,
+          "ofr": "70",
+          "last_run": 22,
+          "form": "802120",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:27.096253+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001040",
+          "course": "Killarney",
+          "date": "2026-07-14",
+          "off_time": "6:40",
+          "off_dt": "2026-07-14T18:40:00+01:00",
+          "race_name": "Killarney Plaza Hotel & Spa Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Majestic King",
+          "horse_id": "hrs_52641358",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Denis Gerard Hogan",
+          "trainer_id": "trn_196911",
+          "jockey": "Robbie Colgan",
+          "jockey_id": "jky_226827",
+          "draw": 1,
+          "number": 3,
+          "lbs": 139,
+          "ofr": "69",
+          "last_run": 18,
+          "form": "021200",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 3
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 3
+      },
+      "favourite_class": null,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 71,
+      "horse_intelligence_score": 53,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Killarney",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 71,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -722,7 +880,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Adrian McGuinness",
       "latest_jockey": "Adam Caffrey",
@@ -731,20 +889,23 @@
       "official_rating": "69",
       "recent_form": "46-302",
       "last_run_days": 18,
-      "profile_runs": 1,
+      "profile_runs": 3,
       "courses_seen": {
+        "Curragh": 2,
         "Killarney": 1
       },
       "distances_seen": {
-        "8.0": 1
+        "8.0": 3
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 3
+      },
       "classes_seen": {},
       "trainers_seen": {
-        "Adrian McGuinness": 1
+        "Adrian McGuinness": 3
       },
       "jockeys_seen": {
-        "Adam Caffrey": 1
+        "Adam Caffrey": 3
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
@@ -760,6 +921,68 @@
       "runs": [
         {
           "source": "the_racing_api",
+          "race_id": "rac_12005864",
+          "course": "Curragh",
+          "date": "2026-06-26",
+          "off_time": "5:35",
+          "off_dt": "2026-06-26T17:35:00+01:00",
+          "race_name": "Silken Thomas And Lock 13 Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 22,
+          "horse": "No More Porter",
+          "horse_id": "hrs_22689310",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Adrian McGuinness",
+          "trainer_id": "trn_126792",
+          "jockey": "Adam Caffrey",
+          "jockey_id": "jky_302631",
+          "draw": 11,
+          "number": 15,
+          "lbs": 129,
+          "ofr": "67",
+          "last_run": 22,
+          "form": "446-30",
+          "headgear": "tp",
+          "_stored_at": "2026-06-26T08:14:12.914437+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12005864",
+          "course": "Curragh",
+          "date": "2026-06-26",
+          "off_time": "5:35",
+          "off_dt": "2026-06-26T17:35:00+01:00",
+          "race_name": "Silken Thomas And Lock 13 Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 22,
+          "horse": "No More Porter",
+          "horse_id": "hrs_22689310",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Adrian McGuinness",
+          "trainer_id": "trn_126792",
+          "jockey": "Adam Caffrey",
+          "jockey_id": "jky_302631",
+          "draw": 11,
+          "number": 15,
+          "lbs": 129,
+          "ofr": "67",
+          "last_run": 22,
+          "form": "446-30",
+          "headgear": "tp",
+          "_stored_at": "2026-06-28T12:42:27.130742+00:00"
+        },
+        {
+          "source": "the_racing_api",
           "race_id": "rac_13000001040",
           "course": "Killarney",
           "date": "2026-07-14",
@@ -769,9 +992,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "No More Porter",
           "horse_id": "hrs_22689310",
           "age": 8,
@@ -789,154 +1012,45 @@
           "headgear": "tp"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Profile has multiple stored runs"
+      ],
       "favourite_course": {
-        "value": "Killarney",
-        "runs": 1
+        "value": "Curragh",
+        "runs": 2
       },
       "favourite_distance": {
         "value": 8.0,
-        "runs": 1
+        "runs": 3
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 3
+      },
       "favourite_class": null,
-      "course_suitability_score": 90,
+      "course_suitability_score": 55,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
+      "suitability_score": 71,
       "horse_intelligence_score": 50,
       "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
+        "Course does not strongly match stored profile"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 64,
         "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Tofino",
-      "horse_id": "hrs_42615972",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Killarney",
-      "latest_time": "6:40",
-      "latest_race": "Killarney Plaza Hotel & Spa Handicap",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gavin Cromwell",
-      "latest_jockey": "Gary Carroll",
-      "latest_draw": 12,
-      "latest_weight_lbs": 135,
-      "official_rating": "65",
-      "recent_form": "9-7520",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Killarney": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "Gavin Cromwell": 1
-      },
-      "jockeys_seen": {
-        "Gary Carroll": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 57,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey flying +4 (6/22 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001040",
-          "course": "Killarney",
-          "date": "2026-07-14",
-          "off_time": "6:40",
-          "off_dt": "2026-07-14T18:40:00+01:00",
-          "race_name": "Killarney Plaza Hotel & Spa Handicap",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Tofino",
-          "horse_id": "hrs_42615972",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Gavin Cromwell",
-          "trainer_id": "trn_160524",
-          "jockey": "Gary Carroll",
-          "jockey_id": "jky_260544",
-          "draw": 12,
-          "number": 8,
-          "lbs": 135,
-          "ofr": "65",
-          "last_run": 18,
-          "form": "9-7520",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Killarney",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Killarney",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 57,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -950,7 +1064,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Adrian Sexton",
       "latest_jockey": "Wesley Joyce(3)",
@@ -966,7 +1080,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Adrian Sexton": 1
@@ -994,9 +1110,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "Spent All Me Money",
           "horse_id": "hrs_51308348",
           "age": 4,
@@ -1025,27 +1141,30 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 46,
+      "suitability_score": 80,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 56,
         "average_pulse_score": 0,
@@ -1064,7 +1183,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Denis Gerard Hogan",
       "latest_jockey": "Chris Hayes",
@@ -1082,7 +1201,7 @@
         "8.0": 2
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1132,7 +1251,7 @@
           "last_run": 15,
           "form": "782499",
           "headgear": "tp",
-          "_stored_at": "2026-07-03T00:37:03.953097+00:00"
+          "_stored_at": "2026-07-03T04:58:49.738527+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1145,9 +1264,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "Hexagonal",
           "horse_id": "hrs_56961548",
           "age": 5,
@@ -1178,28 +1297,28 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 61,
-      "horse_intelligence_score": 45,
+      "suitability_score": 71,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 59,
         "average_pulse_score": 0,
@@ -1218,7 +1337,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "C Byrnes",
       "latest_jockey": "Ben Coen",
@@ -1234,7 +1353,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "C Byrnes": 1
@@ -1264,9 +1385,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "Mythical Rock",
           "horse_id": "hrs_41379513",
           "age": 5,
@@ -1293,32 +1414,218 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 45,
+      "suitability_score": 80,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 54,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Tofino",
+      "horse_id": "hrs_42615972",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Killarney",
+      "latest_time": "6:40",
+      "latest_race": "Killarney Plaza Hotel & Spa Handicap",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gavin Cromwell",
+      "latest_jockey": "Gary Carroll",
+      "latest_draw": 12,
+      "latest_weight_lbs": 135,
+      "official_rating": "65",
+      "recent_form": "9-7520",
+      "last_run_days": 18,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Curragh": 2,
+        "Killarney": 1
+      },
+      "distances_seen": {
+        "8.0": 3
+      },
+      "goings_seen": {
+        "Good": 3
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Gavin Cromwell": 3
+      },
+      "jockeys_seen": {
+        "Jack Kearney(3)": 2,
+        "Gary Carroll": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 57,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Jockey flying +4 (6/22 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12005864",
+          "course": "Curragh",
+          "date": "2026-06-26",
+          "off_time": "5:35",
+          "off_dt": "2026-06-26T17:35:00+01:00",
+          "race_name": "Silken Thomas And Lock 13 Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 22,
+          "horse": "Tofino",
+          "horse_id": "hrs_42615972",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Gavin Cromwell",
+          "trainer_id": "trn_160524",
+          "jockey": "Jack Kearney(3)",
+          "jockey_id": "jky_303555",
+          "draw": 8,
+          "number": 19,
+          "lbs": 127,
+          "ofr": "65",
+          "last_run": 7,
+          "form": "09-752",
+          "headgear": "",
+          "_stored_at": "2026-06-26T08:14:12.957699+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12005864",
+          "course": "Curragh",
+          "date": "2026-06-26",
+          "off_time": "5:35",
+          "off_dt": "2026-06-26T17:35:00+01:00",
+          "race_name": "Silken Thomas And Lock 13 Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 22,
+          "horse": "Tofino",
+          "horse_id": "hrs_42615972",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Gavin Cromwell",
+          "trainer_id": "trn_160524",
+          "jockey": "Jack Kearney(3)",
+          "jockey_id": "jky_303555",
+          "draw": 8,
+          "number": 19,
+          "lbs": 127,
+          "ofr": "65",
+          "last_run": 7,
+          "form": "09-752",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:27.200579+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001040",
+          "course": "Killarney",
+          "date": "2026-07-14",
+          "off_time": "6:40",
+          "off_dt": "2026-07-14T18:40:00+01:00",
+          "race_name": "Killarney Plaza Hotel & Spa Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Tofino",
+          "horse_id": "hrs_42615972",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Gavin Cromwell",
+          "trainer_id": "trn_160524",
+          "jockey": "Gary Carroll",
+          "jockey_id": "jky_260544",
+          "draw": 12,
+          "number": 8,
+          "lbs": 135,
+          "ofr": "65",
+          "last_run": 18,
+          "form": "9-7520",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs"
+      ],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 3
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 3
+      },
+      "favourite_class": null,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 71,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Killarney",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 57,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -1332,7 +1639,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Gillian Scott",
       "latest_jockey": "Paddy Harnett(5)",
@@ -1348,7 +1655,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Gillian Scott": 1
@@ -1377,9 +1686,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "Red Hugh O'Donnell",
           "horse_id": "hrs_7000000448",
           "age": 5,
@@ -1406,27 +1715,30 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 42,
+      "suitability_score": 80,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 47,
         "average_pulse_score": 0,
@@ -1445,7 +1757,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Ian O'Connor",
       "latest_jockey": "Gavin Ryan",
@@ -1461,7 +1773,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Ian O'Connor": 1
@@ -1491,9 +1805,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "Mags",
           "horse_id": "hrs_37220071",
           "age": 5,
@@ -1503,7 +1817,7 @@
           "jockey": "Gavin Ryan",
           "jockey_id": "jky_289029",
           "draw": 4,
-          "number": 15,
+          "number": null,
           "lbs": 127,
           "ofr": "57",
           "last_run": 34,
@@ -1520,27 +1834,30 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 41,
+      "suitability_score": 80,
+      "horse_intelligence_score": 44,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 44,
         "average_pulse_score": 0,
@@ -1559,7 +1876,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Chris Timmons",
       "latest_jockey": "James Ryan",
@@ -1575,7 +1892,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Chris Timmons": 1
@@ -1604,9 +1923,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "Marambo",
           "horse_id": "hrs_53116280",
           "age": 4,
@@ -1636,20 +1955,23 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 38,
+      "suitability_score": 80,
+      "horse_intelligence_score": 41,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -1657,7 +1979,7 @@
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 38,
         "average_pulse_score": 0,
@@ -1676,7 +1998,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "W McCreery",
       "latest_jockey": "W J Lee",
@@ -1695,7 +2017,7 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good To Firm": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1725,9 +2047,9 @@
           "distance_f": 7.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 16,
           "horse": "Little Miss P",
           "horse_id": "hrs_52862614",
           "age": 4,
@@ -1743,7 +2065,7 @@
           "last_run": 44,
           "form": "555-00",
           "headgear": "v",
-          "_stored_at": "2026-06-30T23:10:49.638351+00:00"
+          "_stored_at": "2026-07-01T13:17:57.246965+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1756,9 +2078,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "Little Miss P",
           "horse_id": "hrs_52862614",
           "age": 4,
@@ -1788,28 +2110,29 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
+        "value": "Good",
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 36,
-      "profile_strengths": [],
+      "suitability_score": 62,
+      "horse_intelligence_score": 39,
+      "profile_strengths": [
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 46,
         "average_pulse_score": 0,
@@ -1828,7 +2151,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Ross O'Sullivan",
       "latest_jockey": "Donagh O'Connor",
@@ -1844,7 +2167,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Ross O'Sullivan": 1
@@ -1872,9 +2197,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "San Aer",
           "horse_id": "hrs_22914864",
           "age": 8,
@@ -1901,20 +2226,23 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 36,
+      "suitability_score": 80,
+      "horse_intelligence_score": 39,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -1922,7 +2250,7 @@
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 33,
         "average_pulse_score": 0,
@@ -1941,7 +2269,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "T J O'Mara",
       "latest_jockey": "Killian Leonard",
@@ -1957,7 +2285,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "T J O'Mara": 1
@@ -1986,9 +2316,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 14,
           "horse": "Galley Point",
           "horse_id": "hrs_56843675",
           "age": 4,
@@ -2018,20 +2348,23 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 35,
+      "suitability_score": 80,
+      "horse_intelligence_score": 38,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -2039,7 +2372,7 @@
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 32,
         "average_pulse_score": 0,
@@ -2051,7 +2384,6 @@
   "notes": [
     "Elusive Duke is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Amemri is flagged as a possible dark horse."
+    "Majestic King is flagged as a possible dark horse."
   ]
 }

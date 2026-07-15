@@ -4,15 +4,139 @@
   "course": "Wexford",
   "time": "2:20",
   "race_name": "Dunbrody Beginners Chase",
-  "field_size": 5,
-  "average_intelligence": 51.8,
-  "top_score": 59,
-  "second_score": 51,
-  "gap": 8,
-  "confidence_score": 58,
-  "confidence": "MEDIUM",
-  "race_shape": "COMPETITIVE EDGE",
+  "field_size": 6,
+  "average_intelligence": 53.17,
+  "top_score": 60,
+  "second_score": 59,
+  "gap": 1,
+  "confidence_score": 48,
+  "confidence": "LOW",
+  "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Scalpnagoon",
+    "horse_id": "hrs_412712048",
+    "age": 6,
+    "sex": "gelding",
+    "latest_course": "Wexford",
+    "latest_time": "2:20",
+    "latest_race": "Dunbrody Beginners Chase",
+    "latest_date": "2026-06-30",
+    "latest_distance_f": 16.0,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Gordon Elliott",
+    "latest_jockey": "Jack Kennedy",
+    "latest_draw": 0,
+    "latest_weight_lbs": 166,
+    "official_rating": "118",
+    "recent_form": "63-223",
+    "last_run_days": 22,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Wexford": 1
+    },
+    "distances_seen": {
+      "16.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Gordon Elliott": 1
+    },
+    "jockeys_seen": {
+      "Jack Kennedy": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 80,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Jockey bonus +3"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12007710",
+        "course": "Wexford",
+        "date": "2026-06-30",
+        "off_time": "2:20",
+        "off_dt": "2026-06-30T14:20:00+01:00",
+        "race_name": "Dunbrody Beginners Chase",
+        "distance_f": 16.0,
+        "race_class": "",
+        "race_type": "Chase",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 6,
+        "horse": "Scalpnagoon",
+        "horse_id": "hrs_412712048",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Gordon Elliott",
+        "trainer_id": "trn_163305",
+        "jockey": "Jack Kennedy",
+        "jockey_id": "jky_283509",
+        "draw": 0,
+        "number": 3,
+        "lbs": 166,
+        "ofr": "118",
+        "last_run": 22,
+        "form": "63-223",
+        "headgear": "t",
+        "_stored_at": "2026-06-30T05:14:30.310424+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
+    "favourite_course": {
+      "value": "Wexford",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 16.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 60,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Wexford",
+      "latest_distance_f": 16.0,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": 80,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Impero",
     "horse_id": "hrs_24064236",
     "age": 7,
@@ -91,7 +215,7 @@
         "last_run": 15,
         "form": "13-235",
         "headgear": "",
-        "_stored_at": "2026-06-30T01:50:00.048800+00:00"
+        "_stored_at": "2026-06-30T05:14:30.270177+00:00"
       }
     ],
     "profile_notes": [],
@@ -135,10 +259,10 @@
       "runs_count": 1
     }
   },
-  "main_threat": {
-    "horse": "Nadia's Boy",
-    "horse_id": "hrs_40352445",
-    "age": 6,
+  "dark_horse": {
+    "horse": "Impero",
+    "horse_id": "hrs_24064236",
+    "age": 7,
     "sex": "gelding",
     "latest_course": "Wexford",
     "latest_time": "2:20",
@@ -148,13 +272,13 @@
     "latest_class": "",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "W P Mullins",
-    "latest_jockey": "Brian Hayes",
+    "latest_trainer": "Cian Collins",
+    "latest_jockey": "Ben Harvey",
     "latest_draw": 0,
     "latest_weight_lbs": 166,
     "official_rating": "-",
-    "recent_form": "1/110-",
-    "last_run_days": 61,
+    "recent_form": "13-235",
+    "last_run_days": 15,
     "profile_runs": 1,
     "courses_seen": {
       "Wexford": 1
@@ -167,19 +291,22 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "W P Mullins": 1
+      "Cian Collins": 1
     },
     "jockeys_seen": {
-      "Brian Hayes": 1
+      "Ben Harvey": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 61,
+    "latest_pulse_score": 77,
     "latest_notes": [
       "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
       "Helpful draw",
-      "Stable in form +2 (1/2 last 14 days)",
-      "Jockey bonus +1"
+      "Trainer bonus +2",
+      "Jockey bonus +3",
+      "Jockey in form +2 (1/1 last 14 days)"
     ],
     "runs": [
       {
@@ -196,22 +323,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 6,
-        "horse": "Nadia's Boy",
-        "horse_id": "hrs_40352445",
-        "age": 6,
+        "horse": "Impero",
+        "horse_id": "hrs_24064236",
+        "age": 7,
         "sex": "gelding",
-        "trainer": "W P Mullins",
-        "trainer_id": "trn_13275",
-        "jockey": "Brian Hayes",
-        "jockey_id": "jky_251892",
+        "trainer": "Cian Collins",
+        "trainer_id": "trn_355860",
+        "jockey": "Ben Harvey",
+        "jockey_id": "jky_288771",
         "draw": 0,
-        "number": 2,
+        "number": 1,
         "lbs": 166,
         "ofr": "-",
-        "last_run": 61,
-        "form": "1/110-",
+        "last_run": 15,
+        "form": "13-235",
         "headgear": "",
-        "_stored_at": "2026-06-30T01:50:00.063858+00:00"
+        "_stored_at": "2026-06-30T05:14:30.270177+00:00"
       }
     ],
     "profile_notes": [],
@@ -233,11 +360,12 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 51,
+    "horse_intelligence_score": 59,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
+      "Today's going matches known profile preference",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Limited stored profile data"
@@ -248,135 +376,137 @@
       "latest_distance_f": 16.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 61,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Soir De Garde",
-    "horse_id": "hrs_38105053",
-    "age": 8,
-    "sex": "gelding",
-    "latest_course": "Wexford",
-    "latest_time": "2:20",
-    "latest_race": "Dunbrody Beginners Chase",
-    "latest_date": "2026-06-30",
-    "latest_distance_f": 16.0,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "W P Mullins",
-    "latest_jockey": "Sean O'Keeffe",
-    "latest_draw": 0,
-    "latest_weight_lbs": 166,
-    "official_rating": "-",
-    "recent_form": "1/2FP-",
-    "last_run_days": 62,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Wexford": 1
-    },
-    "distances_seen": {
-      "16.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "W P Mullins": 1
-    },
-    "jockeys_seen": {
-      "Sean O'Keeffe": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 60,
-    "latest_notes": [
-      "Positive recent form",
-      "Helpful draw",
-      "Trainer bonus +1",
-      "Stable in form +2 (1/2 last 14 days)",
-      "Jockey in form +2 (1/1 last 14 days)",
-      "Historical winner +3",
-      "Previous course winner +4"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12007710",
-        "course": "Wexford",
-        "date": "2026-06-30",
-        "off_time": "2:20",
-        "off_dt": "2026-06-30T14:20:00+01:00",
-        "race_name": "Dunbrody Beginners Chase",
-        "distance_f": 16.0,
-        "race_class": "",
-        "race_type": "Chase",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 6,
-        "horse": "Soir De Garde",
-        "horse_id": "hrs_38105053",
-        "age": 8,
-        "sex": "gelding",
-        "trainer": "W P Mullins",
-        "trainer_id": "trn_13275",
-        "jockey": "Sean O'Keeffe",
-        "jockey_id": "jky_295554",
-        "draw": 0,
-        "number": 4,
-        "lbs": 166,
-        "ofr": "-",
-        "last_run": 62,
-        "form": "1/2FP-",
-        "headgear": "",
-        "_stored_at": "2026-06-30T01:50:00.095321+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Wexford",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 16.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 51,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Wexford",
-      "latest_distance_f": 16.0,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 60,
+      "latest_pulse_score": 77,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Scalpnagoon",
+      "horse_id": "hrs_412712048",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "2:20",
+      "latest_race": "Dunbrody Beginners Chase",
+      "latest_date": "2026-06-30",
+      "latest_distance_f": 16.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gordon Elliott",
+      "latest_jockey": "Jack Kennedy",
+      "latest_draw": 0,
+      "latest_weight_lbs": 166,
+      "official_rating": "118",
+      "recent_form": "63-223",
+      "last_run_days": 22,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "16.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Gordon Elliott": 1
+      },
+      "jockeys_seen": {
+        "Jack Kennedy": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 80,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Jockey bonus +3"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007710",
+          "course": "Wexford",
+          "date": "2026-06-30",
+          "off_time": "2:20",
+          "off_dt": "2026-06-30T14:20:00+01:00",
+          "race_name": "Dunbrody Beginners Chase",
+          "distance_f": 16.0,
+          "race_class": "",
+          "race_type": "Chase",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Scalpnagoon",
+          "horse_id": "hrs_412712048",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Gordon Elliott",
+          "trainer_id": "trn_163305",
+          "jockey": "Jack Kennedy",
+          "jockey_id": "jky_283509",
+          "draw": 0,
+          "number": 3,
+          "lbs": 166,
+          "ofr": "118",
+          "last_run": 22,
+          "form": "63-223",
+          "headgear": "t",
+          "_stored_at": "2026-06-30T05:14:30.310424+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 60,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 16.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 80,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Impero",
       "horse_id": "hrs_24064236",
@@ -456,7 +586,7 @@
           "last_run": 15,
           "form": "13-235",
           "headgear": "",
-          "_stored_at": "2026-06-30T01:50:00.048800+00:00"
+          "_stored_at": "2026-06-30T05:14:30.270177+00:00"
         }
       ],
       "profile_notes": [],
@@ -576,7 +706,7 @@
           "last_run": 61,
           "form": "1/110-",
           "headgear": "",
-          "_stored_at": "2026-06-30T01:50:00.063858+00:00"
+          "_stored_at": "2026-06-30T05:14:30.290197+00:00"
         }
       ],
       "profile_notes": [],
@@ -698,7 +828,7 @@
           "last_run": 62,
           "form": "1/2FP-",
           "headgear": "",
-          "_stored_at": "2026-06-30T01:50:00.095321+00:00"
+          "_stored_at": "2026-06-30T05:14:30.330769+00:00"
         }
       ],
       "profile_notes": [],
@@ -819,7 +949,7 @@
           "last_run": 24,
           "form": "45P0-4",
           "headgear": "p",
-          "_stored_at": "2026-06-30T01:50:00.110948+00:00"
+          "_stored_at": "2026-06-30T05:14:30.351223+00:00"
         }
       ],
       "profile_notes": [],
@@ -940,7 +1070,7 @@
           "last_run": 23,
           "form": "116-97",
           "headgear": "t",
-          "_stored_at": "2026-06-30T01:50:00.128823+00:00"
+          "_stored_at": "2026-06-30T05:14:30.371155+00:00"
         }
       ],
       "profile_notes": [],
@@ -985,7 +1115,8 @@
     }
   ],
   "notes": [
-    "Impero is the top-rated Pulse IQ runner.",
-    "Soir De Garde is flagged as a possible dark horse."
+    "Scalpnagoon is the top-rated Pulse IQ runner.",
+    "The race looks competitive with no clear standout.",
+    "Impero is flagged as a possible dark horse."
   ]
 }

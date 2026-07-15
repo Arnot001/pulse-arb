@@ -4,7 +4,7 @@
   "course": "Sha Tin",
   "time": "2:20",
   "race_name": "All You Wish Handicap",
-  "field_size": 12,
+  "field_size": 14,
   "average_intelligence": 24.0,
   "top_score": 24,
   "second_score": 24,
@@ -240,33 +240,7 @@
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-12",
-      "course": "Sha Tin",
-      "race_time": "13:20",
-      "race_name": "All You Wish Handicap",
-      "race_id": "rac_13000001885",
-      "status": null,
-      "finish_position": 2,
-      "sp": "",
-      "favourite_position": null,
-      "going": "Good to Firm",
-      "distance": "7f",
-      "field_size": "16",
-      "trainer": "K H Ting",
-      "jockey": "Karis Teetan",
-      "distance_beaten": null,
-      "won": false,
-      "placed": true,
-      "attached_at": "2026-07-15T06:36:21"
-    },
-    "latest_result_position": 2,
-    "latest_result_sp": "",
-    "latest_result_won": false,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-12"
+    }
   },
   "dark_horse": {
     "horse": "Fortune Link",
@@ -611,33 +585,7 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-12",
-        "course": "Sha Tin",
-        "race_time": "13:20",
-        "race_name": "All You Wish Handicap",
-        "race_id": "rac_13000001885",
-        "status": null,
-        "finish_position": 2,
-        "sp": "",
-        "favourite_position": null,
-        "going": "Good to Firm",
-        "distance": "7f",
-        "field_size": "16",
-        "trainer": "K H Ting",
-        "jockey": "Karis Teetan",
-        "distance_beaten": null,
-        "won": false,
-        "placed": true,
-        "attached_at": "2026-07-15T06:36:21"
-      },
-      "latest_result_position": 2,
-      "latest_result_sp": "",
-      "latest_result_won": false,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-12"
+      }
     },
     {
       "horse": "Fortune Link",
@@ -709,6 +657,120 @@
           "ofr": "71",
           "last_run": 42,
           "form": "100",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Kempes",
+      "horse_id": "hrs_7000001085",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "2:20",
+      "latest_race": "All You Wish Handicap",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "D J Hall",
+      "latest_jockey": "Alexis Badel",
+      "latest_draw": 13,
+      "latest_weight_lbs": 118,
+      "official_rating": "61",
+      "recent_form": "50-849",
+      "last_run_days": 35,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "D J Hall": 1
+      },
+      "jockeys_seen": {
+        "Alexis Badel": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001885",
+          "course": "Sha Tin",
+          "date": "2026-07-12",
+          "off_time": "2:20",
+          "off_dt": "2026-07-12T14:20:00+01:00",
+          "race_name": "All You Wish Handicap",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Kempes",
+          "horse_id": "hrs_7000001085",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "D J Hall",
+          "trainer_id": "trn_211005",
+          "jockey": "Alexis Badel",
+          "jockey_id": "jky_256623",
+          "draw": 13,
+          "number": 13,
+          "lbs": 118,
+          "ofr": "61",
+          "last_run": 35,
+          "form": "50-849",
           "headgear": ""
         }
       ],
@@ -1326,6 +1388,120 @@
       }
     },
     {
+      "horse": "Perfectday",
+      "horse_id": "hrs_7000001414",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "2:20",
+      "latest_race": "All You Wish Handicap",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "W Y So",
+      "latest_jockey": "James Orman",
+      "latest_draw": 6,
+      "latest_weight_lbs": 130,
+      "official_rating": "73",
+      "recent_form": "957418",
+      "last_run_days": 29,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "W Y So": 1
+      },
+      "jockeys_seen": {
+        "James Orman": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001885",
+          "course": "Sha Tin",
+          "date": "2026-07-12",
+          "off_time": "2:20",
+          "off_dt": "2026-07-12T14:20:00+01:00",
+          "race_name": "All You Wish Handicap",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Perfectday",
+          "horse_id": "hrs_7000001414",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "W Y So",
+          "trainer_id": "trn_258057",
+          "jockey": "James Orman",
+          "jockey_id": "jky_283302",
+          "draw": 6,
+          "number": 3,
+          "lbs": 130,
+          "ofr": "73",
+          "last_run": 29,
+          "form": "957418",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
       "horse": "Super Express",
       "horse_id": "hrs_7000001365",
       "age": 4,
@@ -1551,33 +1727,7 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-12",
-        "course": "Sha Tin",
-        "race_time": "13:20",
-        "race_name": "All You Wish Handicap",
-        "race_id": "rac_13000001885",
-        "status": null,
-        "finish_position": 3,
-        "sp": "",
-        "favourite_position": null,
-        "going": "Good to Firm",
-        "distance": "7f",
-        "field_size": "16",
-        "trainer": "David Eustace",
-        "jockey": "Ethan Brown",
-        "distance_beaten": null,
-        "won": false,
-        "placed": true,
-        "attached_at": "2026-07-15T06:36:21"
-      },
-      "latest_result_position": 3,
-      "latest_result_sp": "",
-      "latest_result_won": false,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-12"
+      }
     },
     {
       "horse": "Vecu",

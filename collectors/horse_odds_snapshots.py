@@ -307,12 +307,14 @@ def snapshot_pulse_picks():
             # Successful captures remain frozen.
             snapshot_index[snapshot_key] = record
 
-            if record["odds_success"]:
-                saved += 1
-            else:
-                failed += 1
+            record["odds_success"] = (
+                odds.get("success")
+                and odds.get("best_odds_decimal") is not None
+            )
+        else:
+            failed += 1
 
-            time.sleep(0.25)
+        time.sleep(0.25)
 
     final_rows = list(snapshot_index.values())
 

@@ -1152,13 +1152,35 @@ white-space: nowrap;
 
 .pulse-hero-sports::after {
     content: "🏇  🐕  ⚽";
+
     position: absolute;
-    right: 44px;
-    top: 64px;
-    font-size: 86px;
+    right: 28px;
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    font-size: 58px;
     letter-spacing: 18px;
-    opacity: 0.38;
-    filter: drop-shadow(0 0 24px rgba(255,23,79,0.5));
+    opacity: 0.22;
+
+    filter:
+        drop-shadow(
+            0 0 18px
+            rgba(255, 23, 111, 0.36)
+        );
+
+    pointer-events: none;
+    z-index: 1;
+}
+
+.pulse-hero-overlay {
+    position: relative;
+    z-index: 2;
+    max-width: 52%;
+}
+
+.pulse-hero h1 {
+    font-size: 46px;
 }
 
 .central-actions {
@@ -2591,4 +2613,508 @@ white-space: nowrap;
         #ff35a5,
         #9b63ff
     );
+}
+
+/* ===========================================
+   Pulse IQ Notification Centre
+=========================================== */
+
+.notification-centre-card {
+    margin: 24px 0;
+    padding: 26px;
+    overflow: hidden;
+    border-color: rgba(255, 0, 140, 0.18);
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(255, 0, 140, 0.10),
+            transparent 38%
+        ),
+        rgba(13, 17, 27, 0.90);
+}
+
+.notification-centre-header,
+.notification-section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.notification-centre-header p,
+.notification-section-heading p {
+    margin: 4px 0 0;
+}
+
+.notification-channel-status {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.channel-status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,.09);
+    background: rgba(255,255,255,.035);
+    color: #8b8fa3;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: .5px;
+}
+
+.channel-status-pill::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #676b7a;
+}
+
+.channel-status-live {
+    color: #48f08a;
+    border-color: rgba(72,240,138,.28);
+    background: rgba(72,240,138,.07);
+}
+
+.channel-status-live::before {
+    background: #48f08a;
+    box-shadow: 0 0 10px rgba(72,240,138,.75);
+}
+
+.notification-settings-form {
+    margin-top: 22px;
+}
+
+.notification-channel-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.notification-channel-card {
+    padding: 19px;
+    border: 1px solid rgba(255,255,255,.08);
+    border-radius: 18px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.035),
+            rgba(255,255,255,.012)
+        ),
+        #090c14;
+}
+
+.notification-toggle-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.notification-toggle-heading > div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.notification-toggle-heading strong {
+    display: block;
+    font-size: 17px;
+}
+
+.notification-toggle-heading small {
+    display: block;
+    margin-top: 3px;
+    color: #8b8fa3;
+}
+
+.notification-channel-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    border-radius: 13px;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,0,140,.20),
+            rgba(120,50,255,.12)
+        );
+    border: 1px solid rgba(255,0,140,.22);
+    font-size: 20px;
+}
+
+.notification-field-label {
+    display: block;
+    margin: 13px 0 7px;
+    color: #aeb3c6;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.notification-secret-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 13px;
+    border-radius: 11px;
+    border: 1px solid rgba(255,255,255,.10);
+    background: #05070d;
+    color: #ffffff;
+    font-family: inherit;
+}
+
+.notification-secret-input:focus {
+    outline: none;
+    border-color: rgba(255,0,140,.62);
+    box-shadow: 0 0 0 3px rgba(255,0,140,.09);
+}
+
+.pulse-switch {
+    position: relative;
+    display: inline-flex;
+    flex-shrink: 0;
+}
+
+.pulse-switch input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.pulse-switch-track {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 28px;
+    border-radius: 999px;
+    background: #222734;
+    border: 1px solid rgba(255,255,255,.10);
+    transition: .2s ease;
+    cursor: pointer;
+}
+
+.pulse-switch-track::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #8b8fa3;
+    transition: .2s ease;
+}
+
+.pulse-switch input:checked + .pulse-switch-track {
+    background:
+        linear-gradient(
+            90deg,
+            #ff008c,
+            #792cff
+        );
+    border-color: rgba(255,0,140,.58);
+    box-shadow: 0 0 16px rgba(255,0,140,.22);
+}
+
+.pulse-switch input:checked
++ .pulse-switch-track::after {
+    transform: translateX(22px);
+    background: #ffffff;
+}
+
+.notification-routing-section {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,.07);
+    background: rgba(5,8,16,.66);
+}
+
+.notification-routing-section h3 {
+    margin: 0;
+    font-size: 19px;
+}
+
+.notification-module-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(5, minmax(145px, 1fr));
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.notification-module-option,
+.notification-option {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    cursor: pointer;
+}
+
+.notification-module-option {
+    min-height: 46px;
+    padding: 0 13px;
+    border-radius: 13px;
+    border: 1px solid rgba(255,255,255,.08);
+    background: rgba(255,255,255,.028);
+    color: #b9bdca;
+    transition: .18s ease;
+}
+
+.notification-module-option:hover {
+    border-color: rgba(255,0,140,.38);
+    background: rgba(255,0,140,.055);
+    transform: translateY(-1px);
+}
+
+.notification-module-option input,
+.notification-option input {
+    accent-color: #ff008c;
+    width: auto;
+    margin: 0;
+}
+
+.notification-module-option:has(input:checked) {
+    color: #ffffff;
+    border-color: rgba(255,0,140,.42);
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,0,140,.12),
+            rgba(120,50,255,.07)
+        );
+    box-shadow: 0 0 16px rgba(255,0,140,.07);
+}
+
+.official-only-option {
+    padding: 10px 13px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,.08);
+    background: rgba(255,255,255,.03);
+    color: #d6d9e6;
+    font-weight: 800;
+}
+
+.notification-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 18px;
+}
+
+.notification-save-button {
+    min-width: 230px;
+    margin: 0;
+}
+
+.notification-test-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+
+.notification-test-actions form {
+    margin: 0;
+}
+
+.notification-test-button {
+    border: 1px solid rgba(255,255,255,.10);
+    border-radius: 10px;
+    padding: 10px 14px;
+    background: rgba(255,255,255,.035);
+    color: #cbd0df;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    transition: .18s ease;
+}
+
+.notification-test-button:hover {
+    color: #ffffff;
+    border-color: rgba(255,0,140,.45);
+    background: rgba(255,0,140,.08);
+}
+
+.notification-flash {
+    margin-bottom: 20px;
+    padding: 14px 17px;
+    border-radius: 13px;
+    font-weight: 800;
+}
+
+.notification-flash-success {
+    color: #48f08a;
+    border: 1px solid rgba(72,240,138,.28);
+    background: rgba(72,240,138,.07);
+}
+
+.notification-flash-error {
+    color: #ff6c83;
+    border: 1px solid rgba(255,74,106,.30);
+    background: rgba(255,74,106,.08);
+}
+
+@media (max-width: 1050px) {
+    .notification-module-grid {
+        grid-template-columns:
+            repeat(3, minmax(145px, 1fr));
+    }
+}
+
+@media (max-width: 760px) {
+    .notification-channel-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .notification-module-grid {
+        grid-template-columns:
+            repeat(2, minmax(130px, 1fr));
+    }
+
+    .notification-actions {
+        justify-content: stretch;
+    }
+
+    .notification-save-button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 520px) {
+    .notification-module-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===========================================
+   Performance Centre Win / E-W / Compare
+=========================================== */
+
+.performance-mode-switch {
+    display: inline-flex;
+    gap: 8px;
+    padding: 7px;
+    margin-bottom: 22px;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,.08);
+    background: rgba(8,10,18,.92);
+}
+
+.performance-mode-button {
+    appearance: none;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    padding: 11px 18px;
+    background: transparent;
+    color: #9ea4b5;
+    font-family: inherit;
+    font-weight: 900;
+    cursor: pointer;
+    transition:
+        color .2s ease,
+        background .2s ease,
+        border-color .2s ease,
+        box-shadow .2s ease,
+        transform .2s ease;
+}
+
+.performance-mode-button:hover {
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.performance-mode-button.active {
+    color: #ffffff;
+    border-color: rgba(255,0,140,.48);
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,0,140,.24),
+            rgba(120,50,255,.18)
+        );
+    box-shadow: 0 0 18px rgba(255,0,140,.16);
+}
+
+.performance-compare-card {
+    min-height: auto;
+    padding: 22px;
+    margin-bottom: 22px;
+}
+
+.performance-compare-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.performance-compare-grid > div {
+    padding: 16px;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,.08);
+    background: #090912;
+}
+
+.performance-compare-grid span {
+    display: block;
+    color: #9ea4b5;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.performance-compare-grid strong {
+    display: block;
+    margin-top: 7px;
+    font-size: 23px;
+}
+
+.chart-legend-ew {
+    background: #00d8ff;
+}
+
+.chart-legend-win-line {
+    background: #48f08a;
+}
+
+.ew-place-dot {
+    fill: #00d8ff;
+}
+
+#each-way-line {
+    filter:
+        drop-shadow(0 0 8px rgba(0,216,255,.45))
+        drop-shadow(0 0 18px rgba(0,216,255,.18));
+}
+
+[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 820px) {
+    .performance-mode-switch {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .performance-compare-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 520px) {
+    .performance-compare-grid {
+        grid-template-columns: 1fr;
+    }
 }

@@ -4,12 +4,12 @@
   "course": "York",
   "time": "5:05",
   "race_name": "William Hill Keep Your Raceday Positive Handicap",
-  "field_size": 12,
-  "average_intelligence": 52.17,
+  "field_size": 5,
+  "average_intelligence": 53.8,
   "top_score": 58,
-  "second_score": 56,
-  "gap": 2,
-  "confidence_score": 48,
+  "second_score": 54,
+  "gap": 4,
+  "confidence_score": 52,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -138,13 +138,39 @@
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
-    }
+    },
+    "latest_result": {
+      "source": "sporting_life_enriched",
+      "result_date": "2026-07-10",
+      "course": "York",
+      "race_time": "16:05",
+      "race_name": "William Hill Keep Your Raceday Positive Handicap",
+      "race_id": null,
+      "status": null,
+      "finish_position": 2,
+      "sp": "8/1",
+      "favourite_position": null,
+      "going": "Good to Firm (Good in places)",
+      "distance": "5f",
+      "field_size": null,
+      "trainer": null,
+      "jockey": null,
+      "distance_beaten": null,
+      "won": false,
+      "placed": true,
+      "attached_at": "2026-07-15T14:49:15"
+    },
+    "latest_result_position": 2,
+    "latest_result_sp": "8/1",
+    "latest_result_won": false,
+    "latest_result_placed": true,
+    "latest_result_date": "2026-07-10"
   },
   "main_threat": {
-    "horse": "Emerald Harmony",
-    "horse_id": "hrs_40493796",
-    "age": 5,
-    "sex": "mare",
+    "horse": "Brazen Bolt",
+    "horse_id": "hrs_20425321",
+    "age": 9,
+    "sex": "gelding",
     "latest_course": "York",
     "latest_time": "5:05",
     "latest_race": "William Hill Keep Your Raceday Positive Handicap",
@@ -153,78 +179,45 @@
     "latest_class": "Class 4",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Paul Midgley",
-    "latest_jockey": "David Nolan",
-    "latest_draw": 1,
-    "latest_weight_lbs": 133,
-    "official_rating": "78",
-    "recent_form": "730312",
-    "last_run_days": 7,
-    "profile_runs": 2,
+    "latest_trainer": "Ruth Carr",
+    "latest_jockey": "Warren Fentiman(3)",
+    "latest_draw": 12,
+    "latest_weight_lbs": 139,
+    "official_rating": "84",
+    "recent_form": "06-270",
+    "last_run_days": 34,
+    "profile_runs": 1,
     "courses_seen": {
-      "Doncaster": 1,
       "York": 1
     },
     "distances_seen": {
-      "5.0": 2
+      "5.0": 1
     },
     "goings_seen": {
-      "Good To Firm": 2
+      "Good To Firm": 1
     },
     "classes_seen": {
-      "Class 3": 1,
       "Class 4": 1
     },
     "trainers_seen": {
-      "Paul Midgley": 2
+      "Ruth Carr": 1
     },
     "jockeys_seen": {
-      "David Nolan": 2
+      "Warren Fentiman(3)": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 76,
+    "latest_pulse_score": 59,
     "latest_notes": [
-      "Strong recent form",
+      "Weak recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Race class strength +4",
+      "Race class strength +2",
       "Trainer bonus +2",
-      "Jockey bonus +1",
-      "Jockey in form +2 (1/3 last 14 days)"
+      "Stable flying +4 (7/13 last 14 days)",
+      "Jockey bonus +3"
     ],
     "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11989055",
-        "course": "Doncaster",
-        "date": "2026-07-03",
-        "off_time": "3:10",
-        "off_dt": "2026-07-03T15:10:00+01:00",
-        "race_name": "Believe Money Group Handicap",
-        "distance_f": 5.0,
-        "race_class": "Class 3",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Emerald Harmony",
-        "horse_id": "hrs_40493796",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "Paul Midgley",
-        "trainer_id": "trn_143532",
-        "jockey": "David Nolan",
-        "jockey_id": "jky_42996",
-        "draw": 6,
-        "number": 4,
-        "lbs": 131,
-        "ofr": "78",
-        "last_run": 17,
-        "form": "273031",
-        "headgear": "",
-        "_stored_at": "2026-07-03T00:36:59.443478+00:00"
-      },
       {
         "source": "the_racing_api",
         "race_id": "rac_11991343",
@@ -239,56 +232,53 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 12,
-        "horse": "Emerald Harmony",
-        "horse_id": "hrs_40493796",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "Paul Midgley",
-        "trainer_id": "trn_143532",
-        "jockey": "David Nolan",
-        "jockey_id": "jky_42996",
-        "draw": 1,
-        "number": 8,
-        "lbs": 133,
-        "ofr": "78",
-        "last_run": 7,
-        "form": "730312",
+        "horse": "Brazen Bolt",
+        "horse_id": "hrs_20425321",
+        "age": 9,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "Warren Fentiman(3)",
+        "jockey_id": "jky_312057",
+        "draw": 12,
+        "number": 2,
+        "lbs": 139,
+        "ofr": "84",
+        "last_run": 34,
+        "form": "06-270",
         "headgear": ""
       }
     ],
-    "profile_notes": [
-      "Low draw today",
-      "Recent run timing"
-    ],
+    "profile_notes": [],
     "favourite_course": {
-      "value": "Doncaster",
+      "value": "York",
       "runs": 1
     },
     "favourite_distance": {
       "value": 5.0,
-      "runs": 2
+      "runs": 1
     },
     "favourite_going": {
       "value": "Good To Firm",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 3",
       "runs": 1
     },
-    "course_suitability_score": 55,
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
     "distance_suitability_score": 90,
     "going_suitability_score": 90,
-    "class_suitability_score": 55,
-    "suitability_score": 72,
-    "horse_intelligence_score": 56,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 54,
     "profile_strengths": [
+      "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Course does not strongly match stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -297,17 +287,43 @@
       "latest_distance_f": 5.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": 76,
+      "latest_pulse_score": 59,
       "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
+      "profile_runs": 1,
+      "runs_count": 1
+    },
+    "latest_result": {
+      "source": "bbc_sport",
+      "result_date": "2026-07-10",
+      "course": "York",
+      "race_time": "17:05",
+      "race_name": "William Hill Keep Your Raceday Positive Handicap",
+      "race_id": "p-1573198",
+      "status": "PostEvent",
+      "finish_position": 8,
+      "sp": "8/1",
+      "favourite_position": 4,
+      "going": "Good to Firm",
+      "distance": "5f",
+      "field_size": 12,
+      "trainer": "Mrs R Carr",
+      "jockey": "Warren Fentiman",
+      "distance_beaten": "2ÃÂ½L",
+      "won": false,
+      "placed": false,
+      "attached_at": "2026-07-15T14:31:28"
+    },
+    "latest_result_position": 8,
+    "latest_result_sp": "8/1",
+    "latest_result_won": false,
+    "latest_result_placed": false,
+    "latest_result_date": "2026-07-10"
   },
   "dark_horse": {
-    "horse": "Emerald Harmony",
-    "horse_id": "hrs_40493796",
-    "age": 5,
-    "sex": "mare",
+    "horse": "Castan",
+    "horse_id": "hrs_29918210",
+    "age": 6,
+    "sex": "gelding",
     "latest_course": "York",
     "latest_time": "5:05",
     "latest_race": "William Hill Keep Your Raceday Positive Handicap",
@@ -316,78 +332,43 @@
     "latest_class": "Class 4",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Paul Midgley",
-    "latest_jockey": "David Nolan",
-    "latest_draw": 1,
-    "latest_weight_lbs": 133,
-    "official_rating": "78",
-    "recent_form": "730312",
-    "last_run_days": 7,
-    "profile_runs": 2,
+    "latest_trainer": "Bryan Smart",
+    "latest_jockey": "Paul Mulrennan",
+    "latest_draw": 7,
+    "latest_weight_lbs": 132,
+    "official_rating": "77",
+    "recent_form": "228140",
+    "last_run_days": 55,
+    "profile_runs": 1,
     "courses_seen": {
-      "Doncaster": 1,
       "York": 1
     },
     "distances_seen": {
-      "5.0": 2
+      "5.0": 1
     },
     "goings_seen": {
-      "Good To Firm": 2
+      "Good To Firm": 1
     },
     "classes_seen": {
-      "Class 3": 1,
       "Class 4": 1
     },
     "trainers_seen": {
-      "Paul Midgley": 2
+      "Bryan Smart": 1
     },
     "jockeys_seen": {
-      "David Nolan": 2
+      "Paul Mulrennan": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 76,
+    "latest_pulse_score": 59,
     "latest_notes": [
-      "Strong recent form",
+      "Positive recent form",
       "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Race class strength +4",
-      "Trainer bonus +2",
-      "Jockey bonus +1",
-      "Jockey in form +2 (1/3 last 14 days)"
+      "Race class strength +2",
+      "Jockey bonus +3",
+      "Jockey flying +4 (5/19 last 14 days)"
     ],
     "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11989055",
-        "course": "Doncaster",
-        "date": "2026-07-03",
-        "off_time": "3:10",
-        "off_dt": "2026-07-03T15:10:00+01:00",
-        "race_name": "Believe Money Group Handicap",
-        "distance_f": 5.0,
-        "race_class": "Class 3",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Emerald Harmony",
-        "horse_id": "hrs_40493796",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "Paul Midgley",
-        "trainer_id": "trn_143532",
-        "jockey": "David Nolan",
-        "jockey_id": "jky_42996",
-        "draw": 6,
-        "number": 4,
-        "lbs": 131,
-        "ofr": "78",
-        "last_run": 17,
-        "form": "273031",
-        "headgear": "",
-        "_stored_at": "2026-07-03T00:36:59.443478+00:00"
-      },
       {
         "source": "the_racing_api",
         "race_id": "rac_11991343",
@@ -402,56 +383,53 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 12,
-        "horse": "Emerald Harmony",
-        "horse_id": "hrs_40493796",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "Paul Midgley",
-        "trainer_id": "trn_143532",
-        "jockey": "David Nolan",
-        "jockey_id": "jky_42996",
-        "draw": 1,
-        "number": 8,
-        "lbs": 133,
-        "ofr": "78",
-        "last_run": 7,
-        "form": "730312",
-        "headgear": ""
+        "horse": "Castan",
+        "horse_id": "hrs_29918210",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Bryan Smart",
+        "trainer_id": "trn_3357",
+        "jockey": "Paul Mulrennan",
+        "jockey_id": "jky_238113",
+        "draw": 7,
+        "number": 9,
+        "lbs": 132,
+        "ofr": "77",
+        "last_run": 55,
+        "form": "228140",
+        "headgear": "p"
       }
     ],
-    "profile_notes": [
-      "Low draw today",
-      "Recent run timing"
-    ],
+    "profile_notes": [],
     "favourite_course": {
-      "value": "Doncaster",
+      "value": "York",
       "runs": 1
     },
     "favourite_distance": {
       "value": 5.0,
-      "runs": 2
+      "runs": 1
     },
     "favourite_going": {
       "value": "Good To Firm",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 3",
       "runs": 1
     },
-    "course_suitability_score": 55,
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
     "distance_suitability_score": 90,
     "going_suitability_score": 90,
-    "class_suitability_score": 55,
-    "suitability_score": 72,
-    "horse_intelligence_score": 56,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 54,
     "profile_strengths": [
+      "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Course does not strongly match stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -460,11 +438,37 @@
       "latest_distance_f": 5.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": 76,
+      "latest_pulse_score": 59,
       "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
+      "profile_runs": 1,
+      "runs_count": 1
+    },
+    "latest_result": {
+      "source": "bbc_sport",
+      "result_date": "2026-07-10",
+      "course": "York",
+      "race_time": "17:05",
+      "race_name": "William Hill Keep Your Raceday Positive Handicap",
+      "race_id": "p-1573198",
+      "status": "PostEvent",
+      "finish_position": 9,
+      "sp": "22/1",
+      "favourite_position": 10,
+      "going": "Good to Firm",
+      "distance": "5f",
+      "field_size": 12,
+      "trainer": "B Smart",
+      "jockey": "P Mulrennan",
+      "distance_beaten": "2ÃÂ¼L",
+      "won": false,
+      "placed": false,
+      "attached_at": "2026-07-15T14:31:28"
+    },
+    "latest_result_position": 9,
+    "latest_result_sp": "22/1",
+    "latest_result_won": false,
+    "latest_result_placed": false,
+    "latest_result_date": "2026-07-10"
   },
   "runners": [
     {
@@ -593,584 +597,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
-    },
-    {
-      "horse": "Emerald Harmony",
-      "horse_id": "hrs_40493796",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "York",
-      "latest_time": "5:05",
-      "latest_race": "William Hill Keep Your Raceday Positive Handicap",
-      "latest_date": "2026-07-10",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Paul Midgley",
-      "latest_jockey": "David Nolan",
-      "latest_draw": 1,
-      "latest_weight_lbs": 133,
-      "official_rating": "78",
-      "recent_form": "730312",
-      "last_run_days": 7,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Doncaster": 1,
-        "York": 1
       },
-      "distances_seen": {
-        "5.0": 2
+      "latest_result": {
+        "source": "sporting_life_enriched",
+        "result_date": "2026-07-10",
+        "course": "York",
+        "race_time": "16:05",
+        "race_name": "William Hill Keep Your Raceday Positive Handicap",
+        "race_id": null,
+        "status": null,
+        "finish_position": 2,
+        "sp": "8/1",
+        "favourite_position": null,
+        "going": "Good to Firm (Good in places)",
+        "distance": "5f",
+        "field_size": null,
+        "trainer": null,
+        "jockey": null,
+        "distance_beaten": null,
+        "won": false,
+        "placed": true,
+        "attached_at": "2026-07-15T14:49:15"
       },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {
-        "Class 3": 1,
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Paul Midgley": 2
-      },
-      "jockeys_seen": {
-        "David Nolan": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 76,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +4",
-        "Trainer bonus +2",
-        "Jockey bonus +1",
-        "Jockey in form +2 (1/3 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989055",
-          "course": "Doncaster",
-          "date": "2026-07-03",
-          "off_time": "3:10",
-          "off_dt": "2026-07-03T15:10:00+01:00",
-          "race_name": "Believe Money Group Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Emerald Harmony",
-          "horse_id": "hrs_40493796",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Paul Midgley",
-          "trainer_id": "trn_143532",
-          "jockey": "David Nolan",
-          "jockey_id": "jky_42996",
-          "draw": 6,
-          "number": 4,
-          "lbs": 131,
-          "ofr": "78",
-          "last_run": 17,
-          "form": "273031",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:36:59.443478+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991343",
-          "course": "York",
-          "date": "2026-07-10",
-          "off_time": "5:05",
-          "off_dt": "2026-07-10T17:05:00+01:00",
-          "race_name": "William Hill Keep Your Raceday Positive Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Emerald Harmony",
-          "horse_id": "hrs_40493796",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Paul Midgley",
-          "trainer_id": "trn_143532",
-          "jockey": "David Nolan",
-          "jockey_id": "jky_42996",
-          "draw": 1,
-          "number": 8,
-          "lbs": 133,
-          "ofr": "78",
-          "last_run": 7,
-          "form": "730312",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Doncaster",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 55,
-      "suitability_score": 72,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "York",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 76,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Counsel",
-      "horse_id": "hrs_23166087",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "York",
-      "latest_time": "5:05",
-      "latest_race": "William Hill Keep Your Raceday Positive Handicap",
-      "latest_date": "2026-07-10",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Michael Appleby",
-      "latest_jockey": "Conor Whiteley(5)",
-      "latest_draw": 9,
-      "latest_weight_lbs": 134,
-      "official_rating": "79",
-      "recent_form": "-71679",
-      "last_run_days": 34,
-      "profile_runs": 1,
-      "courses_seen": {
-        "York": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Michael Appleby": 1
-      },
-      "jockeys_seen": {
-        "Conor Whiteley(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 63,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +2",
-        "Trainer bonus +1",
-        "Stable in form +2 (1/5 last 14 days)",
-        "Jockey bonus +3",
-        "Jockey flying +4 (6/9 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991343",
-          "course": "York",
-          "date": "2026-07-10",
-          "off_time": "5:05",
-          "off_dt": "2026-07-10T17:05:00+01:00",
-          "race_name": "William Hill Keep Your Raceday Positive Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Counsel",
-          "horse_id": "hrs_23166087",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Michael Appleby",
-          "trainer_id": "trn_93267",
-          "jockey": "Conor Whiteley(5)",
-          "jockey_id": "jky_310359",
-          "draw": 9,
-          "number": 7,
-          "lbs": 134,
-          "ofr": "79",
-          "last_run": 34,
-          "form": "-71679",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "York",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 55,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "York",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 63,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Rotokura Belle",
-      "horse_id": "hrs_51557751",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "York",
-      "latest_time": "5:05",
-      "latest_race": "William Hill Keep Your Raceday Positive Handicap",
-      "latest_date": "2026-07-10",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ivan Furtado",
-      "latest_jockey": "Cam Hardie",
-      "latest_draw": 5,
-      "latest_weight_lbs": 125,
-      "official_rating": "75",
-      "recent_form": "616417",
-      "last_run_days": 13,
-      "profile_runs": 1,
-      "courses_seen": {
-        "York": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Ivan Furtado": 1
-      },
-      "jockeys_seen": {
-        "Cam Hardie": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 63,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Jockey bonus +1",
-        "Jockey flying +4 (6/7 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991343",
-          "course": "York",
-          "date": "2026-07-10",
-          "off_time": "5:05",
-          "off_dt": "2026-07-10T17:05:00+01:00",
-          "race_name": "William Hill Keep Your Raceday Positive Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Rotokura Belle",
-          "horse_id": "hrs_51557751",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Ivan Furtado",
-          "trainer_id": "trn_277803",
-          "jockey": "Cam Hardie",
-          "jockey_id": "jky_278196",
-          "draw": 5,
-          "number": 12,
-          "lbs": 125,
-          "ofr": "75",
-          "last_run": 13,
-          "form": "616417",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "York",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 55,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "York",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 63,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Al Hussar",
-      "horse_id": "hrs_39961117",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "York",
-      "latest_time": "5:05",
-      "latest_race": "William Hill Keep Your Raceday Positive Handicap",
-      "latest_date": "2026-07-10",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Grant Tuer",
-      "latest_jockey": "Oliver Stammers",
-      "latest_draw": 13,
-      "latest_weight_lbs": 137,
-      "official_rating": "82",
-      "recent_form": "325164",
-      "last_run_days": 15,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Hamilton": 1,
-        "York": 1
-      },
-      "distances_seen": {
-        "5.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {
-        "Class 3": 1,
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Grant Tuer": 2
-      },
-      "jockeys_seen": {
-        "Oliver Stammers": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 72,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Race class strength +4",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977056",
-          "course": "Hamilton",
-          "date": "2026-06-25",
-          "off_time": "7:30",
-          "off_dt": "2026-06-25T19:30:00+01:00",
-          "race_name": "Patersons Of Greenoakhill Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Al Hussar",
-          "horse_id": "hrs_39961117",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Grant Tuer",
-          "trainer_id": "trn_136422",
-          "jockey": "Oliver Stammers",
-          "jockey_id": "jky_292752",
-          "draw": 7,
-          "number": 5,
-          "lbs": 137,
-          "ofr": "83",
-          "last_run": 12,
-          "form": "432516",
-          "headgear": "",
-          "_stored_at": "2026-06-25T06:53:19.421415+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991343",
-          "course": "York",
-          "date": "2026-07-10",
-          "off_time": "5:05",
-          "off_dt": "2026-07-10T17:05:00+01:00",
-          "race_name": "William Hill Keep Your Raceday Positive Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Al Hussar",
-          "horse_id": "hrs_39961117",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Grant Tuer",
-          "trainer_id": "trn_136422",
-          "jockey": "Oliver Stammers",
-          "jockey_id": "jky_292752",
-          "draw": 13,
-          "number": 6,
-          "lbs": 137,
-          "ofr": "82",
-          "last_run": 15,
-          "form": "325164",
-          "headgear": "b"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Hamilton",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 55,
-      "suitability_score": 72,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "York",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 72,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+      "latest_result_position": 2,
+      "latest_result_sp": "8/1",
+      "latest_result_won": false,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-10"
     },
     {
       "horse": "Brazen Bolt",
@@ -1297,7 +750,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-10",
+        "course": "York",
+        "race_time": "17:05",
+        "race_name": "William Hill Keep Your Raceday Positive Handicap",
+        "race_id": "p-1573198",
+        "status": "PostEvent",
+        "finish_position": 8,
+        "sp": "8/1",
+        "favourite_position": 4,
+        "going": "Good to Firm",
+        "distance": "5f",
+        "field_size": 12,
+        "trainer": "Mrs R Carr",
+        "jockey": "Warren Fentiman",
+        "distance_beaten": "2ÃÂ½L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-15T14:31:28"
+      },
+      "latest_result_position": 8,
+      "latest_result_sp": "8/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-10"
     },
     {
       "horse": "Castan",
@@ -1422,167 +901,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
-    },
-    {
-      "horse": "I'm Dan Dare",
-      "horse_id": "hrs_56094871",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "York",
-      "latest_time": "5:05",
-      "latest_race": "William Hill Keep Your Raceday Positive Handicap",
-      "latest_date": "2026-07-10",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mark Walford",
-      "latest_jockey": "Rhys Elliott(5)",
-      "latest_draw": 6,
-      "latest_weight_lbs": 124,
-      "official_rating": "74",
-      "recent_form": "025121",
-      "last_run_days": 15,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Newcastle": 1,
-        "York": 1
       },
-      "distances_seen": {
-        "5.0": 2
+      "latest_result": {
+        "source": "bbc_sport",
+        "result_date": "2026-07-10",
+        "course": "York",
+        "race_time": "17:05",
+        "race_name": "William Hill Keep Your Raceday Positive Handicap",
+        "race_id": "p-1573198",
+        "status": "PostEvent",
+        "finish_position": 9,
+        "sp": "22/1",
+        "favourite_position": 10,
+        "going": "Good to Firm",
+        "distance": "5f",
+        "field_size": 12,
+        "trainer": "B Smart",
+        "jockey": "P Mulrennan",
+        "distance_beaten": "2ÃÂ¼L",
+        "won": false,
+        "placed": false,
+        "attached_at": "2026-07-15T14:31:28"
       },
-      "goings_seen": {
-        "Standard To Slow": 1,
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 5": 1,
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "M Walford": 1,
-        "Mark Walford": 1
-      },
-      "jockeys_seen": {
-        "J Garritty": 1,
-        "Rhys Elliott(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 76,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Jockey concern -2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978603",
-          "course": "Newcastle",
-          "date": "2026-06-25",
-          "off_time": "5:32",
-          "off_dt": "2026-06-25T17:32:00+01:00",
-          "race_name": "JenningsBet In Allerdene Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 12,
-          "horse": "I'm Dan Dare",
-          "horse_id": "hrs_56094871",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "M Walford",
-          "trainer_id": "trn_259884",
-          "jockey": "J Garritty",
-          "jockey_id": "jky_278205",
-          "draw": 2,
-          "number": 5,
-          "lbs": 133,
-          "ofr": "68",
-          "last_run": 13,
-          "form": "-02512",
-          "headgear": "p",
-          "_stored_at": "2026-06-25T06:53:21.235106+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991343",
-          "course": "York",
-          "date": "2026-07-10",
-          "off_time": "5:05",
-          "off_dt": "2026-07-10T17:05:00+01:00",
-          "race_name": "William Hill Keep Your Raceday Positive Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "I'm Dan Dare",
-          "horse_id": "hrs_56094871",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Mark Walford",
-          "trainer_id": "trn_259884",
-          "jockey": "Rhys Elliott(5)",
-          "jockey_id": "jky_308601",
-          "draw": 6,
-          "number": 13,
-          "lbs": 124,
-          "ofr": "74",
-          "last_run": 15,
-          "form": "025121",
-          "headgear": "p"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Newcastle",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard To Slow",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 55,
-      "class_suitability_score": 55,
-      "suitability_score": 64,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "York",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 76,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+      "latest_result_position": 9,
+      "latest_result_sp": "22/1",
+      "latest_result_won": false,
+      "latest_result_placed": false,
+      "latest_result_date": "2026-07-10"
     },
     {
       "horse": "Ziggy's Triton",
@@ -1713,7 +1058,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "sporting_life_enriched",
+        "result_date": "2026-07-10",
+        "course": "York",
+        "race_time": "16:05",
+        "race_name": "William Hill Keep Your Raceday Positive Handicap",
+        "race_id": null,
+        "status": null,
+        "finish_position": 1,
+        "sp": "13/2",
+        "favourite_position": null,
+        "going": "Good to Firm (Good in places)",
+        "distance": "5f",
+        "field_size": null,
+        "trainer": null,
+        "jockey": null,
+        "distance_beaten": null,
+        "won": true,
+        "placed": true,
+        "attached_at": "2026-07-15T14:49:15"
+      },
+      "latest_result_position": 1,
+      "latest_result_sp": "13/2",
+      "latest_result_won": true,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-10"
     },
     {
       "horse": "Equity Law",
@@ -1846,330 +1217,11 @@
         "profile_runs": 1,
         "runs_count": 1
       }
-    },
-    {
-      "horse": "Eternal Sunshine",
-      "horse_id": "hrs_37164267",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "York",
-      "latest_time": "5:05",
-      "latest_race": "William Hill Keep Your Raceday Positive Handicap",
-      "latest_date": "2026-07-10",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Jim Goldie",
-      "latest_jockey": "Lauren Young(5)",
-      "latest_draw": 8,
-      "latest_weight_lbs": 137,
-      "official_rating": "82",
-      "recent_form": "000942",
-      "last_run_days": 7,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Doncaster": 1,
-        "York": 1
-      },
-      "distances_seen": {
-        "5.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {
-        "Class 4": 2
-      },
-      "trainers_seen": {
-        "Jim Goldie": 2
-      },
-      "jockeys_seen": {
-        "Lauren Young(5)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Race class strength +2",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989081",
-          "course": "Doncaster",
-          "date": "2026-07-03",
-          "off_time": "4:55",
-          "off_dt": "2026-07-03T16:55:00+01:00",
-          "race_name": "Free Bets On attheraces.com Fillies' Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Eternal Sunshine",
-          "horse_id": "hrs_37164267",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "Jim Goldie",
-          "trainer_id": "trn_70155",
-          "jockey": "Lauren Young(5)",
-          "jockey_id": "jky_311244",
-          "draw": 6,
-          "number": 1,
-          "lbs": 142,
-          "ofr": "82",
-          "last_run": 13,
-          "form": "000094",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:37:00.353594+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991343",
-          "course": "York",
-          "date": "2026-07-10",
-          "off_time": "5:05",
-          "off_dt": "2026-07-10T17:05:00+01:00",
-          "race_name": "William Hill Keep Your Raceday Positive Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Eternal Sunshine",
-          "horse_id": "hrs_37164267",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "Jim Goldie",
-          "trainer_id": "trn_70155",
-          "jockey": "Lauren Young(5)",
-          "jockey_id": "jky_311244",
-          "draw": 8,
-          "number": 5,
-          "lbs": 137,
-          "ofr": "82",
-          "last_run": 7,
-          "form": "000942",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Doncaster",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 2
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 81,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "York",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 45,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Muker",
-      "horse_id": "hrs_21649495",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "York",
-      "latest_time": "5:05",
-      "latest_race": "William Hill Keep Your Raceday Positive Handicap",
-      "latest_date": "2026-07-10",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Nigel Tinkler",
-      "latest_jockey": "Alex Jary(3)",
-      "latest_draw": 11,
-      "latest_weight_lbs": 128,
-      "official_rating": "73",
-      "recent_form": "-80064",
-      "last_run_days": 8,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Nottingham": 1,
-        "York": 1
-      },
-      "distances_seen": {
-        "5.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {
-        "Class 5": 1,
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Nigel Tinkler": 2
-      },
-      "jockeys_seen": {
-        "Finlay Bassett(7)": 1,
-        "Alex Jary(3)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 39,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Trainer bonus +1",
-        "Stable in form +2 (1/5 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11995932",
-          "course": "Nottingham",
-          "date": "2026-07-02",
-          "off_time": "5:15",
-          "off_dt": "2026-07-02T17:15:00+01:00",
-          "race_name": "Events At Nottingham Racecourse Training Series Apprentice Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Muker",
-          "horse_id": "hrs_21649495",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Nigel Tinkler",
-          "trainer_id": "trn_7785",
-          "jockey": "Finlay Bassett(7)",
-          "jockey_id": "jky_314883",
-          "draw": 4,
-          "number": 3,
-          "lbs": 136,
-          "ofr": "73",
-          "last_run": 12,
-          "form": "9-8006",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:30.578688+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991343",
-          "course": "York",
-          "date": "2026-07-10",
-          "off_time": "5:05",
-          "off_dt": "2026-07-10T17:05:00+01:00",
-          "race_name": "William Hill Keep Your Raceday Positive Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Muker",
-          "horse_id": "hrs_21649495",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Nigel Tinkler",
-          "trainer_id": "trn_7785",
-          "jockey": "Alex Jary(3)",
-          "jockey_id": "jky_299634",
-          "draw": 11,
-          "number": 11,
-          "lbs": 128,
-          "ofr": "73",
-          "last_run": 8,
-          "form": "-80064",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Nottingham",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 55,
-      "suitability_score": 72,
-      "horse_intelligence_score": 39,
-      "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "York",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 39,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
     }
   ],
   "notes": [
     "Spring Is Sprung is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Emerald Harmony is flagged as a possible dark horse."
+    "Castan is flagged as a possible dark horse."
   ]
 }

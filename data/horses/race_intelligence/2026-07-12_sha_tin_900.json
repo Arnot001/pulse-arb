@@ -4,15 +4,169 @@
   "course": "Sha Tin",
   "time": "9:00",
   "race_name": "Miraculous Handicap",
-  "field_size": 10,
-  "average_intelligence": 24.0,
-  "top_score": 24,
+  "field_size": 15,
+  "average_intelligence": 25.13,
+  "top_score": 41,
   "second_score": 24,
-  "gap": 0,
-  "confidence_score": 19,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "gap": 17,
+  "confidence_score": 55,
+  "confidence": "MEDIUM",
+  "race_shape": "PULSE EDGE",
   "top_runner": {
+    "horse": "Harry's Hero",
+    "horse_id": "hrs_30123527",
+    "age": 6,
+    "sex": "gelding",
+    "latest_course": "Sha Tin",
+    "latest_time": "9:00",
+    "latest_race": "Miraculous Handicap",
+    "latest_date": "2026-07-12",
+    "latest_distance_f": 9.0,
+    "latest_class": "",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "P F Yiu",
+    "latest_jockey": "H T Mo(2)",
+    "latest_draw": 10,
+    "latest_weight_lbs": 115,
+    "official_rating": "19",
+    "recent_form": "266350",
+    "last_run_days": 11,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Sha Tin": 2
+    },
+    "distances_seen": {
+      "8.0": 1,
+      "9.0": 1
+    },
+    "goings_seen": {
+      "Good": 1,
+      "Good To Firm": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "P F Yiu": 2
+    },
+    "jockeys_seen": {
+      "Karis Teetan": 1,
+      "H T Mo(2)": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 49,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Trainer bonus +3",
+      "Jockey bonus +1"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12009244",
+        "course": "Sha Tin",
+        "date": "2026-07-01",
+        "off_time": "9:00",
+        "off_dt": "2026-07-01T09:00:00+01:00",
+        "race_name": "Racing Goes On Handicap (Class 5) (Course C) (Turf)",
+        "distance_f": 8.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 14,
+        "horse": "Harry's Hero",
+        "horse_id": "hrs_30123527",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "P F Yiu",
+        "trainer_id": "trn_125424",
+        "jockey": "Karis Teetan",
+        "jockey_id": "jky_265902",
+        "draw": 9,
+        "number": 12,
+        "lbs": 115,
+        "ofr": "20",
+        "last_run": 38,
+        "form": "226635",
+        "headgear": "h",
+        "_stored_at": "2026-07-01T13:17:52.962020+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000001755",
+        "course": "Sha Tin",
+        "date": "2026-07-12",
+        "off_time": "9:00",
+        "off_dt": "2026-07-12T09:00:00+01:00",
+        "race_name": "Miraculous Handicap",
+        "distance_f": 9.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 14,
+        "horse": "Harry's Hero",
+        "horse_id": "hrs_30123527",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "P F Yiu",
+        "trainer_id": "trn_125424",
+        "jockey": "H T Mo(2)",
+        "jockey_id": "jky_286911",
+        "draw": 10,
+        "number": 14,
+        "lbs": 115,
+        "ofr": "19",
+        "last_run": 11,
+        "form": "266350",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Sha Tin",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 8.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 55,
+    "going_suitability_score": 55,
+    "class_suitability_score": 50,
+    "suitability_score": 62,
+    "horse_intelligence_score": 41,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern"
+    ],
+    "profile_cautions": [
+      "Distance not yet a clear profile strength",
+      "Going is not clearly proven from stored profile",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Sha Tin",
+      "latest_distance_f": 9.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "",
+      "latest_pulse_score": 49,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "main_threat": {
     "horse": "Beauty Missile",
     "horse_id": "hrs_7000000896",
     "age": 6,
@@ -126,35 +280,9 @@
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-12",
-      "course": "Sha Tin",
-      "race_time": "08:00",
-      "race_name": "Miraculous Handicap",
-      "race_id": "rac_13000001755",
-      "status": null,
-      "finish_position": 1,
-      "sp": "",
-      "favourite_position": null,
-      "going": "Good to Firm",
-      "distance": "1m 1f",
-      "field_size": "14",
-      "trainer": "Brett Crawford",
-      "jockey": "A Badel",
-      "distance_beaten": null,
-      "won": true,
-      "placed": true,
-      "attached_at": "2026-07-15T06:36:21"
-    },
-    "latest_result_position": 1,
-    "latest_result_sp": "",
-    "latest_result_won": true,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-12"
+    }
   },
-  "main_threat": {
+  "dark_horse": {
     "horse": "Carryon Smiling",
     "horse_id": "hrs_7000001148",
     "age": 5,
@@ -268,147 +396,161 @@
       "runs_count": 1
     }
   },
-  "dark_horse": {
-    "horse": "Dragon Sunrise",
-    "horse_id": "hrs_7000001176",
-    "age": 5,
-    "sex": "gelding",
-    "latest_course": "Sha Tin",
-    "latest_time": "9:00",
-    "latest_race": "Miraculous Handicap",
-    "latest_date": "2026-07-12",
-    "latest_distance_f": 9.0,
-    "latest_class": "",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "K W Lui",
-    "latest_jockey": "L Hewitson",
-    "latest_draw": 5,
-    "latest_weight_lbs": 118,
-    "official_rating": "22",
-    "recent_form": "636033",
-    "last_run_days": 18,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Sha Tin": 1
-    },
-    "distances_seen": {
-      "9.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "K W Lui": 1
-    },
-    "jockeys_seen": {
-      "L Hewitson": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000001755",
-        "course": "Sha Tin",
-        "date": "2026-07-12",
-        "off_time": "9:00",
-        "off_dt": "2026-07-12T09:00:00+01:00",
-        "race_name": "Miraculous Handicap",
-        "distance_f": 9.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 14,
-        "horse": "Dragon Sunrise",
-        "horse_id": "hrs_7000001176",
-        "age": 5,
-        "sex": "gelding",
-        "trainer": "K W Lui",
-        "trainer_id": "trn_114858",
-        "jockey": "L Hewitson",
-        "jockey_id": "jky_286149",
-        "draw": 5,
-        "number": 11,
-        "lbs": 118,
-        "ofr": "22",
-        "last_run": 18,
-        "form": "636033",
-        "headgear": "b"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Sha Tin",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 9.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 24,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Sha Tin",
-      "latest_distance_f": 9.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-12",
-      "course": "Sha Tin",
-      "race_time": "08:00",
-      "race_name": "Miraculous Handicap",
-      "race_id": "rac_13000001755",
-      "status": null,
-      "finish_position": 2,
-      "sp": "",
-      "favourite_position": null,
-      "going": "Good to Firm",
-      "distance": "1m 1f",
-      "field_size": "14",
-      "trainer": "K W Lui",
-      "jockey": "L Hewitson",
-      "distance_beaten": null,
-      "won": false,
-      "placed": true,
-      "attached_at": "2026-07-15T06:36:21"
-    },
-    "latest_result_position": 2,
-    "latest_result_sp": "",
-    "latest_result_won": false,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-12"
-  },
   "runners": [
+    {
+      "horse": "Harry's Hero",
+      "horse_id": "hrs_30123527",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "9:00",
+      "latest_race": "Miraculous Handicap",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 9.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "P F Yiu",
+      "latest_jockey": "H T Mo(2)",
+      "latest_draw": 10,
+      "latest_weight_lbs": 115,
+      "official_rating": "19",
+      "recent_form": "266350",
+      "last_run_days": 11,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "8.0": 1,
+        "9.0": 1
+      },
+      "goings_seen": {
+        "Good": 1,
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "P F Yiu": 2
+      },
+      "jockeys_seen": {
+        "Karis Teetan": 1,
+        "H T Mo(2)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Trainer bonus +3",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009244",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "9:00",
+          "off_dt": "2026-07-01T09:00:00+01:00",
+          "race_name": "Racing Goes On Handicap (Class 5) (Course C) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Harry's Hero",
+          "horse_id": "hrs_30123527",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "P F Yiu",
+          "trainer_id": "trn_125424",
+          "jockey": "Karis Teetan",
+          "jockey_id": "jky_265902",
+          "draw": 9,
+          "number": 12,
+          "lbs": 115,
+          "ofr": "20",
+          "last_run": 38,
+          "form": "226635",
+          "headgear": "h",
+          "_stored_at": "2026-07-01T13:17:52.962020+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001755",
+          "course": "Sha Tin",
+          "date": "2026-07-12",
+          "off_time": "9:00",
+          "off_dt": "2026-07-12T09:00:00+01:00",
+          "race_name": "Miraculous Handicap",
+          "distance_f": 9.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Harry's Hero",
+          "horse_id": "hrs_30123527",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "P F Yiu",
+          "trainer_id": "trn_125424",
+          "jockey": "H T Mo(2)",
+          "jockey_id": "jky_286911",
+          "draw": 10,
+          "number": 14,
+          "lbs": 115,
+          "ofr": "19",
+          "last_run": 11,
+          "form": "266350",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 55,
+      "class_suitability_score": 50,
+      "suitability_score": 62,
+      "horse_intelligence_score": 41,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Distance not yet a clear profile strength",
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 9.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": 49,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
     {
       "horse": "Beauty Missile",
       "horse_id": "hrs_7000000896",
@@ -523,33 +665,7 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-12",
-        "course": "Sha Tin",
-        "race_time": "08:00",
-        "race_name": "Miraculous Handicap",
-        "race_id": "rac_13000001755",
-        "status": null,
-        "finish_position": 1,
-        "sp": "",
-        "favourite_position": null,
-        "going": "Good to Firm",
-        "distance": "1m 1f",
-        "field_size": "14",
-        "trainer": "Brett Crawford",
-        "jockey": "A Badel",
-        "distance_beaten": null,
-        "won": true,
-        "placed": true,
-        "attached_at": "2026-07-15T06:36:21"
-      },
-      "latest_result_position": 1,
-      "latest_result_sp": "",
-      "latest_result_won": true,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-12"
+      }
     },
     {
       "horse": "Carryon Smiling",
@@ -777,33 +893,7 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-12",
-        "course": "Sha Tin",
-        "race_time": "08:00",
-        "race_name": "Miraculous Handicap",
-        "race_id": "rac_13000001755",
-        "status": null,
-        "finish_position": 2,
-        "sp": "",
-        "favourite_position": null,
-        "going": "Good to Firm",
-        "distance": "1m 1f",
-        "field_size": "14",
-        "trainer": "K W Lui",
-        "jockey": "L Hewitson",
-        "distance_beaten": null,
-        "won": false,
-        "placed": true,
-        "attached_at": "2026-07-15T06:36:21"
-      },
-      "latest_result_position": 2,
-      "latest_result_sp": "",
-      "latest_result_won": false,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-12"
+      }
     },
     {
       "horse": "Golden Fortune",
@@ -879,6 +969,123 @@
         }
       ],
       "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 9.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 9.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Gold Tack",
+      "horse_id": "hrs_7000000882",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "9:00",
+      "latest_race": "Miraculous Handicap",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 9.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "D J Hall",
+      "latest_jockey": "M F Poon",
+      "latest_draw": 2,
+      "latest_weight_lbs": 115,
+      "official_rating": "19",
+      "recent_form": "467096",
+      "last_run_days": 11,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "9.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "D J Hall": 1
+      },
+      "jockeys_seen": {
+        "M F Poon": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001755",
+          "course": "Sha Tin",
+          "date": "2026-07-12",
+          "off_time": "9:00",
+          "off_dt": "2026-07-12T09:00:00+01:00",
+          "race_name": "Miraculous Handicap",
+          "distance_f": 9.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Gold Tack",
+          "horse_id": "hrs_7000000882",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "D J Hall",
+          "trainer_id": "trn_211005",
+          "jockey": "M F Poon",
+          "jockey_id": "jky_287175",
+          "draw": 2,
+          "number": 13,
+          "lbs": 115,
+          "ofr": "19",
+          "last_run": 11,
+          "form": "467096",
+          "headgear": "b"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today",
+        "Recent run timing"
+      ],
       "favourite_course": {
         "value": "Sha Tin",
         "runs": 1
@@ -1031,33 +1238,7 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-12",
-        "course": "Sha Tin",
-        "race_time": "08:00",
-        "race_name": "Miraculous Handicap",
-        "race_id": "rac_13000001755",
-        "status": null,
-        "finish_position": 3,
-        "sp": "",
-        "favourite_position": null,
-        "going": "Good to Firm",
-        "distance": "1m 1f",
-        "field_size": "14",
-        "trainer": "D Eustace",
-        "jockey": "L Ferraris",
-        "distance_beaten": null,
-        "won": false,
-        "placed": true,
-        "attached_at": "2026-07-15T06:36:21"
-      },
-      "latest_result_position": 3,
-      "latest_result_sp": "",
-      "latest_result_won": false,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-12"
+      }
     },
     {
       "horse": "Happy Buddies",
@@ -1129,6 +1310,120 @@
           "ofr": "31",
           "last_run": 39,
           "form": "006070",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 9.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 9.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Kasa Papa",
+      "horse_id": "hrs_7000000868",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "9:00",
+      "latest_race": "Miraculous Handicap",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 9.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "A S Cruz",
+      "latest_jockey": "Reserve 1",
+      "latest_draw": 0,
+      "latest_weight_lbs": 128,
+      "official_rating": "32",
+      "recent_form": "-90456",
+      "last_run_days": 46,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "9.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "A S Cruz": 1
+      },
+      "jockeys_seen": {
+        "Reserve 1": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001755",
+          "course": "Sha Tin",
+          "date": "2026-07-12",
+          "off_time": "9:00",
+          "off_dt": "2026-07-12T09:00:00+01:00",
+          "race_name": "Miraculous Handicap",
+          "distance_f": 9.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Kasa Papa",
+          "horse_id": "hrs_7000000868",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "A S Cruz",
+          "trainer_id": "trn_114903",
+          "jockey": "Reserve 1",
+          "jockey_id": "",
+          "draw": 0,
+          "number": null,
+          "lbs": 128,
+          "ofr": "32",
+          "last_run": 46,
+          "form": "-90456",
           "headgear": ""
         }
       ],
@@ -1247,6 +1542,122 @@
         }
       ],
       "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 9.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 9.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Mega Force",
+      "horse_id": "hrs_7000001330",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "9:00",
+      "latest_race": "Miraculous Handicap",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 9.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "P C Ng",
+      "latest_jockey": "C Y Ho",
+      "latest_draw": 9,
+      "latest_weight_lbs": 124,
+      "official_rating": "28",
+      "recent_form": "586097",
+      "last_run_days": 11,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "9.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "P C Ng": 1
+      },
+      "jockeys_seen": {
+        "C Y Ho": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001755",
+          "course": "Sha Tin",
+          "date": "2026-07-12",
+          "off_time": "9:00",
+          "off_dt": "2026-07-12T09:00:00+01:00",
+          "race_name": "Miraculous Handicap",
+          "distance_f": 9.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Mega Force",
+          "horse_id": "hrs_7000001330",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "P C Ng",
+          "trainer_id": "trn_357858",
+          "jockey": "C Y Ho",
+          "jockey_id": "jky_272061",
+          "draw": 9,
+          "number": 8,
+          "lbs": 124,
+          "ofr": "28",
+          "last_run": 11,
+          "form": "586097",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
       "favourite_course": {
         "value": "Sha Tin",
         "runs": 1
@@ -1632,12 +2043,128 @@
         "profile_runs": 1,
         "runs_count": 1
       }
+    },
+    {
+      "horse": "Zetta Force",
+      "horse_id": "hrs_7000001232",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "9:00",
+      "latest_race": "Miraculous Handicap",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 9.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "C H Yip",
+      "latest_jockey": "C L Chau(2)",
+      "latest_draw": 12,
+      "latest_weight_lbs": 124,
+      "official_rating": "28",
+      "recent_form": "-35907",
+      "last_run_days": 11,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "9.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "C H Yip": 1
+      },
+      "jockeys_seen": {
+        "C L Chau(2)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001755",
+          "course": "Sha Tin",
+          "date": "2026-07-12",
+          "off_time": "9:00",
+          "off_dt": "2026-07-12T09:00:00+01:00",
+          "race_name": "Miraculous Handicap",
+          "distance_f": 9.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Zetta Force",
+          "horse_id": "hrs_7000001232",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "C H Yip",
+          "trainer_id": "trn_142704",
+          "jockey": "C L Chau(2)",
+          "jockey_id": "jky_297369",
+          "draw": 12,
+          "number": 9,
+          "lbs": 124,
+          "ofr": "28",
+          "last_run": 11,
+          "form": "-35907",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 9.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 9.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     }
   ],
   "notes": [
-    "Beauty Missile is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
+    "Harry's Hero is the top-rated Pulse IQ runner.",
+    "The top runner has a clear intelligence gap over the field.",
     "This race has a generally weak profile strength.",
-    "Dragon Sunrise is flagged as a possible dark horse."
+    "Carryon Smiling is flagged as a possible dark horse."
   ]
 }

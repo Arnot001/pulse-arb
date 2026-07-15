@@ -5,12 +5,12 @@
   "time": "1:00",
   "race_name": "Prix \"Au Galop, Une Saison A Cheval\" (Prix Du Casino)",
   "field_size": 9,
-  "average_intelligence": 52.67,
-  "top_score": 62,
-  "second_score": 59,
+  "average_intelligence": 55.67,
+  "top_score": 65,
+  "second_score": 62,
   "gap": 3,
-  "confidence_score": 52,
-  "confidence": "LOW",
+  "confidence_score": 55,
+  "confidence": "MEDIUM",
   "race_shape": "OPEN RACE",
   "top_runner": {
     "horse": "Mentalo De Grez",
@@ -23,7 +23,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 18.5,
     "latest_class": "Class 3",
-    "latest_going": "",
+    "latest_going": "Soft",
     "latest_surface": "Turf",
     "latest_trainer": "A Chaille-Chaille & F Pamart",
     "latest_jockey": "Florent Bayle",
@@ -39,7 +39,9 @@
     "distances_seen": {
       "18.5": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Soft": 1
+    },
     "classes_seen": {
       "Class 3": 1
     },
@@ -72,9 +74,9 @@
         "distance_f": 18.5,
         "race_class": "Class 3",
         "race_type": "Chase",
-        "going": "",
+        "going": "Soft",
         "surface": "Turf",
-        "field_size": 9,
+        "field_size": 8,
         "horse": "Mentalo De Grez",
         "horse_id": "hrs_7000004564",
         "age": 4,
@@ -103,32 +105,35 @@
       "value": 18.5,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Soft",
+      "runs": 1
+    },
     "favourite_class": {
       "value": "Class 3",
       "runs": 1
     },
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 90,
-    "suitability_score": 80,
-    "horse_intelligence_score": 62,
+    "suitability_score": 90,
+    "horse_intelligence_score": 65,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Clairefontaine",
       "latest_distance_f": 18.5,
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_class": "Class 3",
       "latest_pulse_score": 85,
       "average_pulse_score": 0,
@@ -147,10 +152,10 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 18.5,
     "latest_class": "Class 3",
-    "latest_going": "",
+    "latest_going": "Soft",
     "latest_surface": "Turf",
     "latest_trainer": "Sourdeau Sourdeau De Beauregard",
-    "latest_jockey": "Baptiste Le Clerc",
+    "latest_jockey": "James Reveley",
     "latest_draw": 0,
     "latest_weight_lbs": 152,
     "official_rating": "-",
@@ -163,7 +168,9 @@
     "distances_seen": {
       "18.5": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Soft": 1
+    },
     "classes_seen": {
       "Class 3": 1
     },
@@ -171,7 +178,7 @@
       "Sourdeau Sourdeau De Beauregard": 1
     },
     "jockeys_seen": {
-      "Baptiste Le Clerc": 1
+      "James Reveley": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
@@ -195,17 +202,17 @@
         "distance_f": 18.5,
         "race_class": "Class 3",
         "race_type": "Chase",
-        "going": "",
+        "going": "Soft",
         "surface": "Turf",
-        "field_size": 9,
+        "field_size": 8,
         "horse": "Missile Raffles",
         "horse_id": "hrs_7000004116",
         "age": 4,
         "sex": "gelding",
         "trainer": "Sourdeau Sourdeau De Beauregard",
         "trainer_id": "trn_9000000198",
-        "jockey": "Baptiste Le Clerc",
-        "jockey_id": "jky_296157",
+        "jockey": "James Reveley",
+        "jockey_id": "jky_253794",
         "draw": 0,
         "number": 3,
         "lbs": 152,
@@ -224,32 +231,35 @@
       "value": 18.5,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Soft",
+      "runs": 1
+    },
     "favourite_class": {
       "value": "Class 3",
       "runs": 1
     },
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 90,
-    "suitability_score": 80,
-    "horse_intelligence_score": 59,
+    "suitability_score": 90,
+    "horse_intelligence_score": 62,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Clairefontaine",
       "latest_distance_f": 18.5,
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_class": "Class 3",
       "latest_pulse_score": 77,
       "average_pulse_score": 0,
@@ -268,10 +278,10 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 18.5,
     "latest_class": "Class 3",
-    "latest_going": "",
+    "latest_going": "Soft",
     "latest_surface": "Turf",
     "latest_trainer": "Sourdeau Sourdeau De Beauregard",
-    "latest_jockey": "Baptiste Le Clerc",
+    "latest_jockey": "James Reveley",
     "latest_draw": 0,
     "latest_weight_lbs": 152,
     "official_rating": "-",
@@ -284,7 +294,9 @@
     "distances_seen": {
       "18.5": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Soft": 1
+    },
     "classes_seen": {
       "Class 3": 1
     },
@@ -292,7 +304,7 @@
       "Sourdeau Sourdeau De Beauregard": 1
     },
     "jockeys_seen": {
-      "Baptiste Le Clerc": 1
+      "James Reveley": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
@@ -316,17 +328,17 @@
         "distance_f": 18.5,
         "race_class": "Class 3",
         "race_type": "Chase",
-        "going": "",
+        "going": "Soft",
         "surface": "Turf",
-        "field_size": 9,
+        "field_size": 8,
         "horse": "Missile Raffles",
         "horse_id": "hrs_7000004116",
         "age": 4,
         "sex": "gelding",
         "trainer": "Sourdeau Sourdeau De Beauregard",
         "trainer_id": "trn_9000000198",
-        "jockey": "Baptiste Le Clerc",
-        "jockey_id": "jky_296157",
+        "jockey": "James Reveley",
+        "jockey_id": "jky_253794",
         "draw": 0,
         "number": 3,
         "lbs": 152,
@@ -345,32 +357,35 @@
       "value": 18.5,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Soft",
+      "runs": 1
+    },
     "favourite_class": {
       "value": "Class 3",
       "runs": 1
     },
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 90,
-    "suitability_score": 80,
-    "horse_intelligence_score": 59,
+    "suitability_score": 90,
+    "horse_intelligence_score": 62,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Clairefontaine",
       "latest_distance_f": 18.5,
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_class": "Class 3",
       "latest_pulse_score": 77,
       "average_pulse_score": 0,
@@ -390,7 +405,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "A Chaille-Chaille & F Pamart",
       "latest_jockey": "Florent Bayle",
@@ -406,7 +421,9 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {
         "Class 3": 1
       },
@@ -439,9 +456,9 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 8,
           "horse": "Mentalo De Grez",
           "horse_id": "hrs_7000004564",
           "age": 4,
@@ -470,32 +487,35 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 62,
+      "suitability_score": 90,
+      "horse_intelligence_score": 65,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level",
         "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "Class 3",
         "latest_pulse_score": 85,
         "average_pulse_score": 0,
@@ -514,10 +534,10 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Sourdeau Sourdeau De Beauregard",
-      "latest_jockey": "Baptiste Le Clerc",
+      "latest_jockey": "James Reveley",
       "latest_draw": 0,
       "latest_weight_lbs": 152,
       "official_rating": "-",
@@ -530,7 +550,9 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {
         "Class 3": 1
       },
@@ -538,7 +560,7 @@
         "Sourdeau Sourdeau De Beauregard": 1
       },
       "jockeys_seen": {
-        "Baptiste Le Clerc": 1
+        "James Reveley": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
@@ -562,17 +584,17 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 8,
           "horse": "Missile Raffles",
           "horse_id": "hrs_7000004116",
           "age": 4,
           "sex": "gelding",
           "trainer": "Sourdeau Sourdeau De Beauregard",
           "trainer_id": "trn_9000000198",
-          "jockey": "Baptiste Le Clerc",
-          "jockey_id": "jky_296157",
+          "jockey": "James Reveley",
+          "jockey_id": "jky_253794",
           "draw": 0,
           "number": 3,
           "lbs": 152,
@@ -591,32 +613,35 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 59,
+      "suitability_score": 90,
+      "horse_intelligence_score": 62,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "Class 3",
         "latest_pulse_score": 77,
         "average_pulse_score": 0,
@@ -635,7 +660,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Louis Baudron",
       "latest_jockey": "Theo Chevillard",
@@ -651,7 +676,9 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {
         "Class 3": 1
       },
@@ -684,9 +711,9 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 8,
           "horse": "La Chocolatine",
           "horse_id": "hrs_64167558",
           "age": 4,
@@ -713,32 +740,35 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 57,
+      "suitability_score": 90,
+      "horse_intelligence_score": 60,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "Class 3",
         "latest_pulse_score": 73,
         "average_pulse_score": 0,
@@ -757,7 +787,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Lageneste Macaire",
       "latest_jockey": "Quentin Defontaine",
@@ -773,7 +803,9 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {
         "Class 3": 1
       },
@@ -805,9 +837,9 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 8,
           "horse": "Rose Corbon",
           "horse_id": "hrs_7000004291",
           "age": 4,
@@ -834,32 +866,35 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 55,
+      "suitability_score": 90,
+      "horse_intelligence_score": 58,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "Class 3",
         "latest_pulse_score": 69,
         "average_pulse_score": 0,
@@ -878,10 +913,10 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Yannick Fouin",
-      "latest_jockey": "Felix De Giles",
+      "latest_jockey": "Thomas Journiac",
       "latest_draw": 0,
       "latest_weight_lbs": 145,
       "official_rating": "-",
@@ -894,7 +929,9 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {
         "Class 3": 1
       },
@@ -902,7 +939,7 @@
         "Yannick Fouin": 1
       },
       "jockeys_seen": {
-        "Felix De Giles": 1
+        "Thomas Journiac": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
@@ -926,17 +963,17 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 8,
           "horse": "Chelsea Star",
           "horse_id": "hrs_52297056",
           "age": 4,
           "sex": "filly",
           "trainer": "Yannick Fouin",
           "trainer_id": "trn_122085",
-          "jockey": "Felix De Giles",
-          "jockey_id": "jky_249879",
+          "jockey": "Thomas Journiac",
+          "jockey_id": "jky_301677",
           "draw": 0,
           "number": 8,
           "lbs": 145,
@@ -955,31 +992,34 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 51,
+      "suitability_score": 90,
+      "horse_intelligence_score": 54,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "Class 3",
         "latest_pulse_score": 59,
         "average_pulse_score": 0,
@@ -998,7 +1038,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Francois Nicolle",
       "latest_jockey": "Angelo Zuliani",
@@ -1014,7 +1054,9 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {
         "Class 3": 1
       },
@@ -1045,9 +1087,9 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 8,
           "horse": "Nicos Invicta",
           "horse_id": "hrs_50935885",
           "age": 4,
@@ -1074,31 +1116,34 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 51,
+      "suitability_score": 90,
+      "horse_intelligence_score": 54,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "Class 3",
         "latest_pulse_score": 61,
         "average_pulse_score": 0,
@@ -1117,7 +1162,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "D Bressou",
       "latest_jockey": "Maxime Behocaray",
@@ -1133,7 +1178,9 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {
         "Class 3": 1
       },
@@ -1164,9 +1211,9 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 8,
           "horse": "Killing Bid",
           "horse_id": "hrs_50935843",
           "age": 4,
@@ -1193,31 +1240,34 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 49,
+      "suitability_score": 90,
+      "horse_intelligence_score": 52,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "Class 3",
         "latest_pulse_score": 56,
         "average_pulse_score": 0,
@@ -1236,7 +1286,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "M Seror",
       "latest_jockey": "Baptiste Le Clerc",
@@ -1252,7 +1302,9 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {
         "Class 3": 1
       },
@@ -1282,9 +1334,9 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 8,
           "horse": "Film Director",
           "horse_id": "hrs_46816378",
           "age": 4,
@@ -1311,31 +1363,34 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 47,
+      "suitability_score": 90,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "Class 3",
         "latest_pulse_score": 52,
         "average_pulse_score": 0,
@@ -1354,7 +1409,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Josef Vana Jr",
       "latest_jockey": "Jan Kratochvil",
@@ -1370,7 +1425,9 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {
         "Class 3": 1
       },
@@ -1402,9 +1459,9 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 8,
           "horse": "Belle Etincelle",
           "horse_id": "hrs_61781972",
           "age": 4,
@@ -1414,7 +1471,7 @@
           "jockey": "Jan Kratochvil",
           "jockey_id": "jky_279108",
           "draw": 0,
-          "number": 9,
+          "number": null,
           "lbs": 145,
           "ofr": "-",
           "last_run": 142,
@@ -1433,31 +1490,34 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 43,
+      "suitability_score": 90,
+      "horse_intelligence_score": 46,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "Class 3",
         "latest_pulse_score": 42,
         "average_pulse_score": 0,

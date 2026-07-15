@@ -18,16 +18,43 @@
                 <h1>Performance Centre</h1>
 
                 <p class="muted">
-                    Live performance tracking for every Pulse selection.
+                    Compare Win Only and Each-Way performance across every
+                    settled Pulse selection.
                 </p>
             </div>
         </div>
     </div>
 
-    <div class="performance-kpi-grid">
+    <div class="performance-mode-switch" role="tablist">
+        <button
+            type="button"
+            class="performance-mode-button active"
+            data-mode="win"
+        >
+            Win Only
+        </button>
+
+        <button
+            type="button"
+            class="performance-mode-button"
+            data-mode="ew"
+        >
+            Each-Way
+        </button>
+
+        <button
+            type="button"
+            class="performance-mode-button"
+            data-mode="compare"
+        >
+            Compare
+        </button>
+    </div>
+
+    <div class="performance-kpi-grid" id="win-kpis">
 
         <div class="dashboard-card pulse-performance-card">
-            <h2>Official Pulse</h2>
+            <h2>Official Pulse · Win Only</h2>
 
             <div class="performance-stat">
                 <div>
@@ -47,7 +74,6 @@
 
                 <div>
                     <span>Profit</span>
-
                     <strong
                         class="
                             {% if official_stats.profit >= 0 %}
@@ -64,7 +90,7 @@
         </div>
 
         <div class="dashboard-card pulse-performance-card">
-            <h2>All Pulse Picks</h2>
+            <h2>All Pulse Picks · Win Only</h2>
 
             <div class="performance-stat">
                 <div>
@@ -84,7 +110,6 @@
 
                 <div>
                     <span>Profit</span>
-
                     <strong
                         class="
                             {% if all_stats.profit >= 0 %}
@@ -102,14 +127,143 @@
 
     </div>
 
+    <div
+        class="performance-kpi-grid"
+        id="ew-kpis"
+        hidden
+    >
+
+        <div class="dashboard-card pulse-performance-card">
+            <h2>Official Pulse · Each-Way</h2>
+
+            <div class="performance-stat">
+                <div>
+                    <span>Settled</span>
+                    <strong>{{ official_ew_stats.total }}</strong>
+                </div>
+
+                <div>
+                    <span>ROI</span>
+                    <strong>{{ official_ew_stats.roi }}%</strong>
+                </div>
+
+                <div>
+                    <span>Place Rate</span>
+                    <strong>{{ official_ew_stats.place_rate }}%</strong>
+                </div>
+
+                <div>
+                    <span>Profit</span>
+                    <strong
+                        class="
+                            {% if official_ew_stats.profit >= 0 %}
+                                profit-positive
+                            {% else %}
+                                profit-negative
+                            {% endif %}
+                        "
+                    >
+                        {{ official_ew_stats.profit }} pts
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-card pulse-performance-card">
+            <h2>All Pulse Picks · Each-Way</h2>
+
+            <div class="performance-stat">
+                <div>
+                    <span>Settled</span>
+                    <strong>{{ all_ew_stats.total }}</strong>
+                </div>
+
+                <div>
+                    <span>ROI</span>
+                    <strong>{{ all_ew_stats.roi }}%</strong>
+                </div>
+
+                <div>
+                    <span>Place Rate</span>
+                    <strong>{{ all_ew_stats.place_rate }}%</strong>
+                </div>
+
+                <div>
+                    <span>Profit</span>
+                    <strong
+                        class="
+                            {% if all_ew_stats.profit >= 0 %}
+                                profit-positive
+                            {% else %}
+                                profit-negative
+                            {% endif %}
+                        "
+                    >
+                        {{ all_ew_stats.profit }} pts
+                    </strong>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div
+        class="dashboard-card pulse-performance-card performance-compare-card"
+        id="compare-kpis"
+        hidden
+    >
+        <div class="performance-compare-grid">
+            <div>
+                <span>Win Profit</span>
+                <strong>{{ all_stats.profit }} pts</strong>
+            </div>
+
+            <div>
+                <span>E/W Profit</span>
+                <strong>{{ all_ew_stats.profit }} pts</strong>
+            </div>
+
+            <div>
+                <span>Difference</span>
+                {% set profit_difference = all_ew_stats.profit - all_stats.profit %}
+                <strong
+                    class="
+                        {% if profit_difference >= 0 %}
+                            profit-positive
+                        {% else %}
+                            profit-negative
+                        {% endif %}
+                    "
+                >
+                    {{ profit_difference | round(2) }} pts
+                </strong>
+            </div>
+
+            <div>
+                <span>Best Mode</span>
+                <strong>
+                    {% if all_ew_stats.profit > all_stats.profit %}
+                        Each-Way
+                    {% elif all_ew_stats.profit < all_stats.profit %}
+                        Win Only
+                    {% else %}
+                        Level
+                    {% endif %}
+                </strong>
+            </div>
+        </div>
+    </div>
+
     <div class="dashboard-card pulse-performance-card bankroll-card">
 
         <div class="performance-chart-heading">
-
             <div>
-                <h2>Bankroll Performance</h2>
+                <h2 id="chart-title">Win-Only Bankroll</h2>
 
-                <p class="muted chart-range-summary" id="chart-range-summary">
+                <p
+                    class="muted chart-range-summary"
+                    id="chart-range-summary"
+                >
                     Loading performance history...
                 </p>
             </div>
@@ -147,7 +301,6 @@
                     All
                 </button>
             </div>
-
         </div>
 
         <div class="performance-mini-row">
@@ -169,18 +322,28 @@
 
         <div class="chart-toolbar">
 
-            <div class="chart-legend">
-                <span>
+            <div class="chart-legend" id="chart-legend">
+                <span data-legend="win-outcome">
                     <i class="chart-legend-dot chart-legend-win"></i>
                     Winner
                 </span>
 
-                <span>
+                <span data-legend="loss-outcome">
                     <i class="chart-legend-dot chart-legend-loss"></i>
                     Loser
                 </span>
 
-                <span>
+                <span data-legend="ew-line" hidden>
+                    <i class="chart-legend-dot chart-legend-ew"></i>
+                    Each-Way
+                </span>
+
+                <span data-legend="win-line" hidden>
+                    <i class="chart-legend-dot chart-legend-win-line"></i>
+                    Win Only
+                </span>
+
+                <span data-legend="unpriced">
                     <i class="chart-legend-dot chart-legend-unpriced"></i>
                     Unpriced
                 </span>
@@ -193,13 +356,11 @@
             >
                 Jump to Latest →
             </button>
-
         </div>
 
         <div class="performance-chart-scroll" id="performance-chart-scroll">
 
             <div class="performance-chart" id="performance-chart">
-
                 <svg
                     id="bankroll-chart"
                     viewBox="0 0 1000 520"
@@ -264,6 +425,18 @@
                         points=""
                     />
 
+                    <polyline
+                        id="each-way-line"
+                        fill="none"
+                        stroke="#00d8ff"
+                        stroke-width="5"
+                        stroke-linejoin="round"
+                        stroke-linecap="round"
+                        filter="url(#glow)"
+                        points=""
+                        hidden
+                    />
+
                     <line
                         id="pulse-scan-line"
                         x1="-80"
@@ -273,6 +446,7 @@
                     />
 
                     <g id="bankroll-points"></g>
+                    <g id="each-way-points"></g>
                 </svg>
 
                 <div
@@ -282,18 +456,14 @@
                 >
                     No settled bets found for this period.
                 </div>
-
             </div>
-
         </div>
-
     </div>
 
     <div class="dashboard-card pulse-performance-card">
         <h2>Pulse Intelligence</h2>
 
         <div class="performance-mini-row">
-
             <div>
                 <span>Overall Health</span>
                 <strong>{{ insights.health }}</strong>
@@ -308,7 +478,6 @@
                 <span>Best Win Run</span>
                 <strong>{{ insights.best_run }}</strong>
             </div>
-
         </div>
 
         <p class="muted performance-summary">
@@ -319,12 +488,16 @@
 </div>
 
 <script>
-const fullHistory = {{ bankroll_history | tojson }};
+const winHistory = {{ bankroll_history | tojson }};
+const eachWayHistory = {{ each_way_bankroll_history | tojson }};
 
 const STARTING_BANK = 100;
 const CHART_HEIGHT = 520;
 const MIN_CHART_WIDTH = 1000;
 const PIXELS_PER_BET = 30;
+
+let activeMode = "win";
+let activeRange = "all";
 
 const chartScroll = document.getElementById(
     "performance-chart-scroll"
@@ -340,6 +513,10 @@ const svg = document.getElementById(
 
 const line = document.getElementById(
     "bankroll-line"
+);
+
+const eachWayLine = document.getElementById(
+    "each-way-line"
 );
 
 const fill = document.getElementById(
@@ -358,12 +535,20 @@ const rangeSummary = document.getElementById(
     "chart-range-summary"
 );
 
+const chartTitle = document.getElementById(
+    "chart-title"
+);
+
 const grid = document.getElementById(
     "grid-lines"
 );
 
 const pointLayer = document.getElementById(
     "bankroll-points"
+);
+
+const eachWayPointLayer = document.getElementById(
+    "each-way-points"
 );
 
 const emptyState = document.getElementById(
@@ -374,8 +559,24 @@ const rangeButtons = document.querySelectorAll(
     ".chart-range-button"
 );
 
+const modeButtons = document.querySelectorAll(
+    ".performance-mode-button"
+);
+
 const scrollLatestButton = document.getElementById(
     "scroll-latest-button"
+);
+
+const winKpis = document.getElementById(
+    "win-kpis"
+);
+
+const ewKpis = document.getElementById(
+    "ew-kpis"
+);
+
+const compareKpis = document.getElementById(
+    "compare-kpis"
 );
 
 
@@ -425,7 +626,8 @@ function sortHistory(rows) {
 }
 
 
-const orderedHistory = sortHistory(fullHistory);
+const orderedWinHistory = sortHistory(winHistory);
+const orderedEachWayHistory = sortHistory(eachWayHistory);
 
 
 function getStartOfToday() {
@@ -439,9 +641,9 @@ function getStartOfToday() {
 }
 
 
-function filterHistory(range) {
+function filterRows(rows, range) {
     if (range === "all") {
-        return orderedHistory;
+        return rows;
     }
 
     const startOfToday = getStartOfToday();
@@ -451,17 +653,14 @@ function filterHistory(range) {
         cutoff = startOfToday;
     } else {
         const days = Number(range);
-
         cutoff = new Date(startOfToday);
-
         cutoff.setDate(
             cutoff.getDate() - (days - 1)
         );
     }
 
-    return orderedHistory.filter(row => {
+    return rows.filter(row => {
         const rowDate = parseHistoryDate(row);
-
         return rowDate && rowDate >= cutoff;
     });
 }
@@ -511,7 +710,7 @@ function formatDate(value) {
 }
 
 
-function getRangeLabel(range, rows) {
+function getRangeLabel(range, rows, mode) {
     if (rows.length === 0) {
         return "No settled selections in this period.";
     }
@@ -521,20 +720,29 @@ function getRangeLabel(range, rows) {
         rows[rows.length - 1]
     );
 
-    let name;
+    let rangeName;
 
     if (range === "today") {
-        name = "Today";
+        rangeName = "Today";
     } else if (range === "7") {
-        name = "Last 7 days";
+        rangeName = "Last 7 days";
     } else if (range === "30") {
-        name = "Last 30 days";
+        rangeName = "Last 30 days";
     } else {
-        name = "All recorded history";
+        rangeName = "All recorded history";
+    }
+
+    let modeName = "Win Only";
+
+    if (mode === "ew") {
+        modeName = "Each-Way";
+    } else if (mode === "compare") {
+        modeName = "Win vs Each-Way";
     }
 
     return (
-        `${name} · ${rows.length} settled selections · `
+        `${modeName} · ${rangeName} · `
+        + `${rows.length} selections · `
         + `${formatDate(firstDate)} to ${formatDate(lastDate)}`
     );
 }
@@ -542,106 +750,20 @@ function getRangeLabel(range, rows) {
 
 function clearChart() {
     line.setAttribute("points", "");
+    eachWayLine.setAttribute("points", "");
     fill.setAttribute("d", "");
 
     grid.innerHTML = "";
     pointLayer.innerHTML = "";
+    eachWayPointLayer.innerHTML = "";
 }
 
 
-function renderChart(range) {
-    const filteredRows = filterHistory(range);
-    const rows = rebuildVisibleBankroll(
-        filteredRows
-    );
-
-    clearChart();
-
-    visibleBetCount.textContent = rows.length;
-
-    rangeSummary.textContent = getRangeLabel(
-        range,
-        rows
-    );
-
-    if (rows.length === 0) {
-        emptyState.hidden = false;
-
-        currentBank.textContent =
-            "£" + STARTING_BANK.toFixed(2);
-
-        chartContainer.style.width =
-            `${MIN_CHART_WIDTH}px`;
-
-        svg.setAttribute(
-            "viewBox",
-            `0 0 ${MIN_CHART_WIDTH} ${CHART_HEIGHT}`
-        );
-
-        return;
-    }
-
-    emptyState.hidden = true;
-
-    const chartWidth = Math.max(
-        MIN_CHART_WIDTH,
-        rows.length * PIXELS_PER_BET
-    );
-
-    /*Force both the chart wrapper and SVG to become physically widerthan the visible container. The outer wrapper can then scroll*/
-    chartScroll.style.width = "100%";
-    chartScroll.style.maxWidth = "100%";
-    chartScroll.style.overflowX = "auto";
-    chartScroll.style.overflowY = "hidden";
-    chartScroll.style.display = "block";
-
-    chartContainer.style.width = `${chartWidth}px`;
-    chartContainer.style.minWidth = `${chartWidth}px`;
-    chartContainer.style.maxWidth = "none";
-    chartContainer.style.flex = "0 0 auto";
-
-    svg.style.width = `${chartWidth}px`;
-    svg.style.minWidth = `${chartWidth}px`;
-    svg.style.maxWidth = "none";
-    svg.style.height = `${CHART_HEIGHT}px`;
-
-    svg.setAttribute(
-        "width",
-        chartWidth
-    );
-
-    svg.setAttribute(
-        "height",
-        CHART_HEIGHT
-    );
-
-    svg.setAttribute(
-        "viewBox",
-        `0 0 ${chartWidth} ${CHART_HEIGHT}`
-    );
-
-    const values = rows.map(
-    row => row.visible_bankroll
-    );
-
-    const rawMin = Math.min(...values);
-    const rawMax = Math.max(...values);
-
-    const padding = Math.max(
-        (rawMax - rawMin) * 0.12,
-        1
-    );
-
-    const min = rawMin - padding;
-    const max = rawMax + padding;
-    const valueRange = Math.max(max - min, 1);
-
+function buildPoints(rows, chartWidth, min, valueRange) {
     const sidePadding = 20;
+    const usableWidth = chartWidth - (sidePadding * 2);
 
-    const usableWidth =
-        chartWidth - (sidePadding * 2);
-
-    const points = rows.map((row, index) => {
+    return rows.map((row, index) => {
         const x = (
             sidePadding
             + (
@@ -666,29 +788,241 @@ function renderChart(range) {
             row,
         };
     });
+}
 
-    const pointString = points
-        .map(point => `${point.x},${point.y}`)
-        .join(" ");
 
-    line.setAttribute(
-        "points",
-        pointString
+function drawPoints(points, layer, mode) {
+    points.forEach(point => {
+        const row = point.row;
+        let dotClass = "bankroll-dot bankroll-dot-unpriced";
+
+        if (row.profit !== null) {
+            if (mode === "ew") {
+                dotClass = row.placed
+                    ? "bankroll-dot ew-place-dot"
+                    : "bankroll-dot loss-dot";
+            } else {
+                dotClass = row.won
+                    ? "bankroll-dot win-dot"
+                    : "bankroll-dot loss-dot";
+            }
+        }
+
+        const profitText =
+            row.profit !== null
+            && row.profit !== undefined
+                ? `${Number(row.profit) >= 0 ? "+" : ""}£${Number(row.profit).toFixed(2)}`
+                : "Unpriced";
+
+        const dateText = formatDate(
+            parseHistoryDate(row)
+        );
+
+        const outcomeText = mode === "ew"
+            ? (
+                row.placed === true
+                    ? "Placed"
+                    : row.placed === false
+                        ? "Unplaced"
+                        : "Unknown"
+            )
+            : (
+                row.won
+                    ? "Winner"
+                    : "Loser"
+            );
+
+        layer.insertAdjacentHTML(
+            "beforeend",
+            `
+                <circle
+                    class="${dotClass}"
+                    cx="${point.x}"
+                    cy="${point.y}"
+                    r="7"
+                >
+                    <title>
+                        ${row.horse || "Unknown horse"}
+                        · ${row.course || "Unknown course"}
+                        · ${dateText}
+                        · ${outcomeText}
+                        · ${profitText}
+                        · Bank £${row.visible_bankroll.toFixed(2)}
+                    </title>
+                </circle>
+            `
+        );
+    });
+}
+
+
+function setLegend(mode) {
+    document.querySelectorAll(
+        "[data-legend]"
+    ).forEach(item => {
+        item.hidden = true;
+    });
+
+    if (mode === "compare") {
+        document.querySelector(
+            '[data-legend="win-line"]'
+        ).hidden = false;
+
+        document.querySelector(
+            '[data-legend="ew-line"]'
+        ).hidden = false;
+    } else {
+        document.querySelector(
+            '[data-legend="unpriced"]'
+        ).hidden = false;
+
+        if (mode === "ew") {
+            document.querySelector(
+                '[data-legend="win-outcome"]'
+            ).hidden = false;
+
+            document.querySelector(
+                '[data-legend="win-outcome"]'
+            ).innerHTML = `
+                <i class="chart-legend-dot chart-legend-ew"></i>
+                Placed
+            `;
+
+            document.querySelector(
+                '[data-legend="loss-outcome"]'
+            ).hidden = false;
+
+            document.querySelector(
+                '[data-legend="loss-outcome"]'
+            ).innerHTML = `
+                <i class="chart-legend-dot chart-legend-loss"></i>
+                Unplaced
+            `;
+        } else {
+            document.querySelector(
+                '[data-legend="win-outcome"]'
+            ).hidden = false;
+
+            document.querySelector(
+                '[data-legend="win-outcome"]'
+            ).innerHTML = `
+                <i class="chart-legend-dot chart-legend-win"></i>
+                Winner
+            `;
+
+            document.querySelector(
+                '[data-legend="loss-outcome"]'
+            ).hidden = false;
+
+            document.querySelector(
+                '[data-legend="loss-outcome"]'
+            ).innerHTML = `
+                <i class="chart-legend-dot chart-legend-loss"></i>
+                Loser
+            `;
+        }
+    }
+}
+
+
+function renderChart() {
+    const filteredWin = filterRows(
+        orderedWinHistory,
+        activeRange
     );
 
-    const areaPath = [
-        `M${points[0].x},${CHART_HEIGHT}`,
-        ...points.map(
-            point => `L${point.x},${point.y}`
-        ),
-        `L${points[points.length - 1].x},${CHART_HEIGHT}`,
-        "Z",
-    ].join(" ");
-
-    fill.setAttribute(
-        "d",
-        areaPath
+    const filteredEw = filterRows(
+        orderedEachWayHistory,
+        activeRange
     );
+
+    const visibleWin = rebuildVisibleBankroll(
+        filteredWin
+    );
+
+    const visibleEw = rebuildVisibleBankroll(
+        filteredEw
+    );
+
+    clearChart();
+    setLegend(activeMode);
+
+    let primaryRows = visibleWin;
+
+    if (activeMode === "ew") {
+        primaryRows = visibleEw;
+    }
+
+    const displayCount = activeMode === "compare"
+        ? Math.max(visibleWin.length, visibleEw.length)
+        : primaryRows.length;
+
+    visibleBetCount.textContent = displayCount;
+
+    rangeSummary.textContent = getRangeLabel(
+        activeRange,
+        primaryRows.length ? primaryRows : visibleWin,
+        activeMode
+    );
+
+    if (displayCount === 0) {
+        emptyState.hidden = false;
+        emptyState.style.display = "flex";
+
+        currentBank.textContent =
+            "£" + STARTING_BANK.toFixed(2);
+
+        return;
+    }
+
+    emptyState.hidden = true;
+    emptyState.style.display = "none";
+
+    const chartWidth = Math.max(
+        MIN_CHART_WIDTH,
+        displayCount * PIXELS_PER_BET
+    );
+
+    chartContainer.style.width = `${chartWidth}px`;
+    chartContainer.style.minWidth = `${chartWidth}px`;
+    chartContainer.style.maxWidth = "none";
+
+    svg.style.width = `${chartWidth}px`;
+    svg.style.minWidth = `${chartWidth}px`;
+    svg.style.maxWidth = "none";
+    svg.style.height = `${CHART_HEIGHT}px`;
+
+    svg.setAttribute("width", chartWidth);
+    svg.setAttribute("height", CHART_HEIGHT);
+    svg.setAttribute(
+        "viewBox",
+        `0 0 ${chartWidth} ${CHART_HEIGHT}`
+    );
+
+    let valueRows = primaryRows;
+
+    if (activeMode === "compare") {
+        valueRows = [
+            ...visibleWin,
+            ...visibleEw,
+        ];
+    }
+
+    const values = valueRows.map(
+        row => row.visible_bankroll
+    );
+
+    const rawMin = Math.min(...values);
+    const rawMax = Math.max(...values);
+
+    const padding = Math.max(
+        (rawMax - rawMin) * 0.12,
+        1
+    );
+
+    const min = rawMin - padding;
+    const max = rawMax + padding;
+    const valueRange = Math.max(max - min, 1);
 
     for (let index = 1; index < 6; index++) {
         const y = (
@@ -709,65 +1043,151 @@ function renderChart(range) {
         );
     }
 
-    points.forEach(point => {
-        const row = point.row;
+    const winPoints = buildPoints(
+        visibleWin,
+        chartWidth,
+        min,
+        valueRange
+    );
 
-        let dotClass =
-            "bankroll-dot bankroll-dot-unpriced";
+    const ewPoints = buildPoints(
+        visibleEw,
+        chartWidth,
+        min,
+        valueRange
+    );
 
-        if (row.profit !== null) {
-            dotClass = row.won
-                ? "bankroll-dot win-dot"
-                : "bankroll-dot loss-dot";
+    if (activeMode === "win") {
+        chartTitle.textContent = "Win-Only Bankroll";
+
+        line.hidden = false;
+        eachWayLine.hidden = true;
+        fill.hidden = false;
+
+        line.setAttribute(
+            "points",
+            winPoints
+                .map(point => `${point.x},${point.y}`)
+                .join(" ")
+        );
+
+        if (winPoints.length) {
+            const areaPath = [
+                `M${winPoints[0].x},${CHART_HEIGHT}`,
+                ...winPoints.map(
+                    point => `L${point.x},${point.y}`
+                ),
+                `L${winPoints[winPoints.length - 1].x},${CHART_HEIGHT}`,
+                "Z",
+            ].join(" ");
+
+            fill.setAttribute("d", areaPath);
         }
 
-        const profitText =
-            row.profit !== null
-            && row.profit !== undefined
-                ? `${Number(row.profit) >= 0 ? "+" : ""}£${Number(row.profit).toFixed(2)}`
-                : "Unpriced";
+        drawPoints(winPoints, pointLayer, "win");
 
-        const dateText = formatDate(
-            parseHistoryDate(row)
+        currentBank.textContent =
+            "£"
+            + visibleWin[
+                visibleWin.length - 1
+            ].visible_bankroll.toFixed(2);
+
+    } else if (activeMode === "ew") {
+        chartTitle.textContent = "Each-Way Bankroll";
+
+        line.hidden = true;
+        eachWayLine.hidden = false;
+        fill.hidden = true;
+
+        eachWayLine.setAttribute(
+            "points",
+            ewPoints
+                .map(point => `${point.x},${point.y}`)
+                .join(" ")
         );
 
-        const safeHorse =
-            row.horse || "Unknown horse";
-
-        const safeCourse =
-            row.course || "Unknown course";
-
-        pointLayer.insertAdjacentHTML(
-            "beforeend",
-            `
-                <circle
-                    class="${dotClass}"
-                    cx="${point.x}"
-                    cy="${point.y}"
-                    r="7"
-                >
-                    <title>
-                        ${safeHorse} · ${safeCourse}
-                        · ${dateText}
-                        · ${profitText}
-                        · Bank £${row.visible_bankroll.toFixed(2)}
-                    </title>
-                </circle>
-            `
+        drawPoints(
+            ewPoints,
+            eachWayPointLayer,
+            "ew"
         );
-    });
 
-    currentBank.textContent =
-        "£"
-        + rows[
-            rows.length - 1
-        ].visible_bankroll.toFixed(2);
+        currentBank.textContent =
+            "£"
+            + visibleEw[
+                visibleEw.length - 1
+            ].visible_bankroll.toFixed(2);
+
+    } else {
+        chartTitle.textContent = "Win vs Each-Way";
+
+        line.hidden = false;
+        eachWayLine.hidden = false;
+        fill.hidden = true;
+
+        line.setAttribute(
+            "points",
+            winPoints
+                .map(point => `${point.x},${point.y}`)
+                .join(" ")
+        );
+
+        eachWayLine.setAttribute(
+            "points",
+            ewPoints
+                .map(point => `${point.x},${point.y}`)
+                .join(" ")
+        );
+
+        drawPoints(winPoints, pointLayer, "win");
+        drawPoints(
+            ewPoints,
+            eachWayPointLayer,
+            "ew"
+        );
+
+        const winBank = visibleWin.length
+            ? visibleWin[visibleWin.length - 1].visible_bankroll
+            : STARTING_BANK;
+
+        const ewBank = visibleEw.length
+            ? visibleEw[visibleEw.length - 1].visible_bankroll
+            : STARTING_BANK;
+
+        currentBank.textContent =
+            `W £${winBank.toFixed(2)} · E/W £${ewBank.toFixed(2)}`;
+    }
 
     requestAnimationFrame(() => {
         chartScroll.scrollLeft =
             chartScroll.scrollWidth;
     });
 }
+
+
+function setMode(mode) {
+    activeMode = mode;
+
+    modeButtons.forEach(button => {
+        button.classList.toggle(
+            "active",
+            button.dataset.mode === mode
+        );
+    });
+
+    winKpis.hidden = mode !== "win";
+    ewKpis.hidden = mode !== "ew";
+    compareKpis.hidden = mode !== "compare";
+
+    renderChart();
+}
+
+
+modeButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        setMode(button.dataset.mode);
+    });
+});
 
 
 rangeButtons.forEach(button => {
@@ -777,10 +1197,9 @@ rangeButtons.forEach(button => {
         });
 
         button.classList.add("active");
+        activeRange = button.dataset.range;
 
-        renderChart(
-            button.dataset.range
-        );
+        renderChart();
     });
 });
 
@@ -796,7 +1215,7 @@ scrollLatestButton.addEventListener(
 );
 
 
-renderChart("all");
+setMode("win");
 </script>
 
 {% endblock %}

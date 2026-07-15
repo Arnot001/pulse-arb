@@ -7,8 +7,20 @@ import threading
 import requests
 import time
 
+from typing import Optional
+from app.modules.notifications import (load_notification_settings,save_notification_settings,test_discord_notification,test_telegram_notification,)
 from app.modules.performance.profit_engine import simulate_level_stakes
-from app.modules.performance.bet_ledger import (load_jsonl,LEDGER_FILE,get_verified_official_stats,get_all_settled_stats,get_bankroll_history,get_performance_insights,)
+from app.modules.performance.bet_ledger import (
+    load_jsonl,
+    LEDGER_FILE,
+    get_verified_official_stats,
+    get_all_settled_stats,
+    get_verified_official_each_way_stats,
+    get_all_settled_each_way_stats,
+    get_bankroll_history,
+    get_each_way_bankroll_history,
+    get_performance_insights,
+)
 from app.modules.race_intelligence.output import (get_race_intelligence_dashboard,)
 from app.modules.strategy.engine import get_strategy_lab_data
 from app.modules.dashboard import get_dashboard_data
@@ -492,7 +504,16 @@ def performance(request: Request):
             "active_page": "performance",
             "official_stats": get_verified_official_stats(),
             "all_stats": get_all_settled_stats(),
+            "official_ew_stats": (
+                get_verified_official_each_way_stats()
+            ),
+            "all_ew_stats": (
+                get_all_settled_each_way_stats()
+            ),
             "bankroll_history": get_bankroll_history(),
+            "each_way_bankroll_history": (
+                get_each_way_bankroll_history()
+            ),
             "insights": get_performance_insights(),
         },
     )
@@ -912,7 +933,11 @@ def shutdown():
     return html
 
 @app.get("/", response_class=HTMLResponse)
-def pulse_home(request: Request):
+def pulse_home(
+    request: Request,
+    notification_status: str = Query(""),
+    notification_message: str = Query(""),
+):
     dashboard = get_dashboard_data()
 
     return templates.TemplateResponse(
@@ -921,9 +946,304 @@ def pulse_home(request: Request):
         {
             "active_page": "home",
             **dashboard,
-            "official_stats": get_verified_official_stats(),
-            "all_settled_stats": get_all_settled_stats(),
+            "official_stats": (
+                get_verified_official_stats()
+            ),
+            "all_settled_stats": (
+                get_all_settled_stats()
+            ),
+            "notification_settings": (
+                load_notification_settings()
+            ),
+            "notification_status": (
+                notification_status
+            ),
+            "notification_message": (
+                notification_message
+            ),
         },
+    )
+
+@app.post("/notifications/save")
+def save_notifications_route(
+    discord_enabled: Optional[str] = Form(None),
+    discord_webhook: str = Form(""),
+    telegram_enabled: Optional[str] = Form(None),
+    telegram_bot_token: str = Form(""),
+    telegram_chat_id: str = Form(""),
+    official_only: Optional[str] = Form(None),
+
+    notify_horses: Optional[str] = Form(None),
+    notify_dogs: Optional[str] = Form(None),
+    notify_football: Optional[str] = Form(None),
+    notify_arb: Optional[str] = Form(None),
+    notify_market_movers: Optional[str] = Form(None),
+    notify_settlements: Optional[str] = Form(None),
+    notify_performance: Optional[str] = Form(None),
+    notify_learning: Optional[str] = Form(None),
+    notify_strategy: Optional[str] = Form(None),
+    notify_system: Optional[str] = Form(None),
+):
+    current = load_notification_settings()
+
+    current.update(
+        {
+            "discord_enabled": (
+                discord_enabled is not None
+            ),
+            "discord_webhook": (
+                discord_webhook.strip()
+            ),
+            "telegram_enabled": (
+                telegram_enabled is not None
+            ),
+            "telegram_bot_token": (
+                telegram_bot_token.strip()
+            ),
+            "telegram_chat_id": (
+                telegram_chat_id.strip()
+            ),
+            "official_only": (
+                official_only is not None
+            ),
+            "modules": {
+                "horses": (
+                    notify_horses is not None
+                ),
+                "dogs": (
+                    notify_dogs is not None
+                ),
+                "football": (
+                    notify_football is not None
+                ),
+                "arb": (
+                    notify_arb is not None
+                ),
+                "market_movers": (
+                    notify_market_movers
+                    is not None
+                ),
+                "settlements": (
+                    notify_settlements
+                    is not None
+                ),
+                "performance": (
+                    notify_performance
+                    is not None
+                ),
+                "learning": (
+                    notify_learning
+                    is not None
+                ),
+                "strategy": (
+                    notify_strategy
+                    is not None
+                ),
+                "system": (
+                    notify_system is not None
+                ),
+            },
+        }
+    )
+
+    save_notification_settings(
+        current
+    )
+
+    return RedirectResponse(
+        url=(
+            "/?notification_status=success"
+            "&notification_message="
+            "Notification+settings+saved"
+        ),
+        status_code=303,
+    )
+
+
+@app.post("/notifications/test-discord")
+def test_discord_route():
+    result = test_discord_notification()
+
+    status = (
+        "success"
+        if result["success"]
+        else "error"
+    )
+
+    message = requests.utils.quote(
+        result["message"]
+    )
+
+    return RedirectResponse(
+        url=(
+            f"/?notification_status={status}"
+            f"&notification_message={message}"
+        ),
+        status_code=303,
+    )
+
+
+@app.post("/notifications/test-telegram")
+def test_telegram_route():
+    result = test_telegram_notification()
+
+    status = (
+        "success"
+        if result["success"]
+        else "error"
+    )
+
+    message = requests.utils.quote(
+        result["message"]
+    )
+
+    return RedirectResponse(
+        url=(
+            f"/?notification_status={status}"
+            f"&notification_message={message}"
+        ),
+        status_code=303,
+    )
+
+@app.post("/notifications/save")
+def save_notifications_route(
+    discord_enabled: Optional[str] = Form(None),
+    discord_webhook: str = Form(""),
+    telegram_enabled: Optional[str] = Form(None),
+    telegram_bot_token: str = Form(""),
+    telegram_chat_id: str = Form(""),
+    official_only: Optional[str] = Form(None),
+
+    notify_horses: Optional[str] = Form(None),
+    notify_dogs: Optional[str] = Form(None),
+    notify_football: Optional[str] = Form(None),
+    notify_arb: Optional[str] = Form(None),
+    notify_market_movers: Optional[str] = Form(None),
+    notify_settlements: Optional[str] = Form(None),
+    notify_performance: Optional[str] = Form(None),
+    notify_learning: Optional[str] = Form(None),
+    notify_strategy: Optional[str] = Form(None),
+    notify_system: Optional[str] = Form(None),
+):
+    current = load_notification_settings()
+
+    current.update(
+        {
+            "discord_enabled": (
+                discord_enabled is not None
+            ),
+            "discord_webhook": (
+                discord_webhook.strip()
+            ),
+            "telegram_enabled": (
+                telegram_enabled is not None
+            ),
+            "telegram_bot_token": (
+                telegram_bot_token.strip()
+            ),
+            "telegram_chat_id": (
+                telegram_chat_id.strip()
+            ),
+            "official_only": (
+                official_only is not None
+            ),
+            "modules": {
+                "horses": (
+                    notify_horses is not None
+                ),
+                "dogs": (
+                    notify_dogs is not None
+                ),
+                "football": (
+                    notify_football is not None
+                ),
+                "arb": (
+                    notify_arb is not None
+                ),
+                "market_movers": (
+                    notify_market_movers
+                    is not None
+                ),
+                "settlements": (
+                    notify_settlements
+                    is not None
+                ),
+                "performance": (
+                    notify_performance
+                    is not None
+                ),
+                "learning": (
+                    notify_learning
+                    is not None
+                ),
+                "strategy": (
+                    notify_strategy
+                    is not None
+                ),
+                "system": (
+                    notify_system is not None
+                ),
+            },
+        }
+    )
+
+    save_notification_settings(
+        current
+    )
+
+    return RedirectResponse(
+        url=(
+            "/?notification_status=success"
+            "&notification_message="
+            "Notification+settings+saved"
+        ),
+        status_code=303,
+    )
+
+
+@app.post("/notifications/test-discord")
+def test_discord_route():
+    result = test_discord_notification()
+
+    status = (
+        "success"
+        if result["success"]
+        else "error"
+    )
+
+    message = requests.utils.quote(
+        result["message"]
+    )
+
+    return RedirectResponse(
+        url=(
+            f"/?notification_status={status}"
+            f"&notification_message={message}"
+        ),
+        status_code=303,
+    )
+
+
+@app.post("/notifications/test-telegram")
+def test_telegram_route():
+    result = test_telegram_notification()
+
+    status = (
+        "success"
+        if result["success"]
+        else "error"
+    )
+
+    message = requests.utils.quote(
+        result["message"]
+    )
+
+    return RedirectResponse(
+        url=(
+            f"/?notification_status={status}"
+            f"&notification_message={message}"
+        ),
+        status_code=303,
     )
 
 @app.get("/arb", response_class=HTMLResponse)

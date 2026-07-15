@@ -1,284 +1,569 @@
 {% extends "base.html" %}
 
-{% block title %}Pulse IQ{% endblock %}
+{% block title %}
+Pulse IQ Central
+{% endblock %}
 
 {% block content %}
 
 <div class="pulse-page pulse-central-page">
 
-    <div class="pulse-page-header pulse-central-header">
-        <div class="pulse-wordmark-wrap">
-            <img src="/static/pulse-logo.svg" class="pulse-wordmark" alt="Pulse IQ">
-        </div>
+    <div class="pulse-hero pulse-hero-sports">
+        <div class="pulse-hero-overlay">
+            <p class="muted">
+                Good afternoon, Tim.
+            </p>
 
-        <div class="pulse-platform-tagline">
-            Sports Intelligence Operating System
-        </div>
-    </div>
+            <h1>🧠 Pulse IQ Central</h1>
 
-    <div class="dashboard-card mission-status-card">
-        <h2>
-            <img src="/static/glyphs_transparent/engine.png" class="card-icon" alt="">
-            Mission Status
-        </h2>
-
-        <div class="mission-status-list">
-            <div class="mission-row">
-                <span>Today's Data</span>
-                <strong id="mission-data-status" class="status-ready">READY</strong>
-            </div>
-
-            <div class="mission-row">
-                <span>Modules</span>
-                <strong class="status-ready">ONLINE</strong>
-            </div>
-
-            <div class="mission-row">
-                <span>Market Monitoring</span>
-                <strong class="status-live">ACTIVE</strong>
-            </div>
-
-            <div class="mission-row">
-                <span>Last Update</span>
-                <strong id="mission-last-update">--:--</strong>
-            </div>
+            <p>
+                Real data. Real learning. Real edge.
+            </p>
         </div>
     </div>
 
-    <div class="dashboard-card update-progress-box">
-        <h2>
-            <img src="/static/glyphs_transparent/engine.png" class="card-icon" alt="">
-            Today's Data
-        </h2>
+    {% if notification_message %}
+        <div
+            class="
+                notification-flash
+                {% if notification_status == 'success' %}
+                    notification-flash-success
+                {% else %}
+                    notification-flash-error
+                {% endif %}
+            "
+        >
+            {{ notification_message }}
+        </div>
+    {% endif %}
 
-        <div id="update-status-title">Ready</div>
+    <div class="dashboard-grid">
 
-        <div class="update-progress-row">
-            <div class="update-progress">
-                <div id="update-progress-fill" class="update-progress-fill" style="width: 0%;"></div>
+        <div class="dashboard-card strategy-card">
+            <h2>🟢 Intelligence Engine</h2>
+
+            <div class="strategy-meta">
+                🏇 Horse Intelligence
+                <strong>READY</strong><br>
+
+                🐕 Dog Intelligence
+                <strong>READY</strong><br>
+
+                ⚽ Football Intelligence
+                <strong>READY</strong><br>
+
+                🧠 Learning Engine
+                <strong>READY</strong><br>
+
+                🧪 Discovery Engine
+                <strong>READY</strong><br>
+
+                ✅ Verification Engine
+                <strong>READY</strong><br>
+
+                📈 Trend Engine
+                <strong>READY</strong><br>
+
+                ⭐ Recommendation Engine
+                <strong>READY</strong>
             </div>
-            <div id="update-percent" class="update-percent">0%</div>
         </div>
 
-        <div id="update-current" class="muted">Waiting for update...</div>
-        <div id="update-completed"></div>
+        <div class="dashboard-card strategy-card">
+            <h2>⚡ Quick Actions</h2>
+
+            <div class="central-actions">
+
+                <form
+                    method="post"
+                    action="/update/all"
+                >
+                    <button
+                        class="
+                            button
+                            central-main-action
+                        "
+                        type="submit"
+                    >
+                        🧠 Run Pulse IQ
+                    </button>
+                </form>
+
+                <form
+                    method="post"
+                    action="/update/horses"
+                >
+                    <button
+                        class="button"
+                        type="submit"
+                    >
+                        🏇 Update Horses
+                    </button>
+                </form>
+
+                <form
+                    method="post"
+                    action="/update/dogs"
+                >
+                    <button
+                        class="button"
+                        type="submit"
+                    >
+                        🐕 Update Dogs
+                    </button>
+                </form>
+
+                <form
+                    method="post"
+                    action="/update/football"
+                >
+                    <button
+                        class="button"
+                        type="submit"
+                    >
+                        ⚽ Update Football
+                    </button>
+                </form>
+
+                <a
+                    class="button"
+                    href="/performance/analyse-yesterday"
+                >
+                    📊 Analyse Yesterday
+                </a>
+
+                <a
+                    class="button"
+                    href="/strategy"
+                >
+                    🧪 Strategy Lab
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div
+        class="
+            dashboard-card
+            notification-centre-card
+        "
+    >
+
+        <div class="notification-centre-header">
+
+            <div>
+                <h2>📡 Notification Centre</h2>
+
+                <p class="muted">
+                    Route Pulse intelligence to Discord
+                    and Telegram.
+                </p>
+            </div>
+
+            <div class="notification-channel-status">
+
+                <span
+                    class="
+                        channel-status-pill
+                        {% if notification_settings.discord_enabled %}
+                            channel-status-live
+                        {% endif %}
+                    "
+                >
+                    Discord
+                </span>
+
+                <span
+                    class="
+                        channel-status-pill
+                        {% if notification_settings.telegram_enabled %}
+                            channel-status-live
+                        {% endif %}
+                    "
+                >
+                    Telegram
+                </span>
+
+            </div>
+
+        </div>
+
+        <form
+            method="post"
+            action="/notifications/save"
+            class="notification-settings-form"
+        >
+
+            <div class="notification-channel-grid">
+
+                <section class="notification-channel-card">
+
+                    <div class="notification-toggle-heading">
+
+                        <div>
+                            <span class="notification-channel-icon">
+                                💬
+                            </span>
+
+                            <div>
+                                <strong>Discord</strong>
+                                <small>
+                                    Webhook delivery
+                                </small>
+                            </div>
+                        </div>
+
+                        <label class="pulse-switch">
+                            <input
+                                type="checkbox"
+                                name="discord_enabled"
+                                {% if notification_settings.discord_enabled %}
+                                    checked
+                                {% endif %}
+                            >
+
+                            <span class="pulse-switch-track"></span>
+                        </label>
+
+                    </div>
+
+                    <label
+                        class="notification-field-label"
+                        for="discord-webhook"
+                    >
+                        Discord webhook
+                    </label>
+
+                    <input
+                        id="discord-webhook"
+                        class="notification-secret-input"
+                        type="password"
+                        name="discord_webhook"
+                        value="{{ notification_settings.discord_webhook }}"
+                        placeholder="Paste Discord webhook URL"
+                        autocomplete="off"
+                    >
+
+                </section>
+
+                <section class="notification-channel-card">
+
+                    <div class="notification-toggle-heading">
+
+                        <div>
+                            <span class="notification-channel-icon">
+                                ✈️
+                            </span>
+
+                            <div>
+                                <strong>Telegram</strong>
+                                <small>
+                                    Bot delivery
+                                </small>
+                            </div>
+                        </div>
+
+                        <label class="pulse-switch">
+                            <input
+                                type="checkbox"
+                                name="telegram_enabled"
+                                {% if notification_settings.telegram_enabled %}
+                                    checked
+                                {% endif %}
+                            >
+
+                            <span class="pulse-switch-track"></span>
+                        </label>
+
+                    </div>
+
+                    <label
+                        class="notification-field-label"
+                        for="telegram-token"
+                    >
+                        Bot token
+                    </label>
+
+                    <input
+                        id="telegram-token"
+                        class="notification-secret-input"
+                        type="password"
+                        name="telegram_bot_token"
+                        value="{{ notification_settings.telegram_bot_token }}"
+                        placeholder="Telegram bot token"
+                        autocomplete="off"
+                    >
+
+                    <label
+                        class="notification-field-label"
+                        for="telegram-chat-id"
+                    >
+                        Chat ID
+                    </label>
+
+                    <input
+                        id="telegram-chat-id"
+                        class="notification-secret-input"
+                        type="text"
+                        name="telegram_chat_id"
+                        value="{{ notification_settings.telegram_chat_id }}"
+                        placeholder="Telegram chat ID"
+                        autocomplete="off"
+                    >
+
+                </section>
+
+            </div>
+
+            <div class="notification-routing-section">
+
+                <div class="notification-section-heading">
+                    <div>
+                        <h3>Notification Routing</h3>
+
+                        <p class="muted">
+                            Choose which Pulse modules are
+                            allowed to send alerts.
+                        </p>
+                    </div>
+
+                    <label class="notification-option official-only-option">
+                        <input
+                            type="checkbox"
+                            name="official_only"
+                            {% if notification_settings.official_only %}
+                                checked
+                            {% endif %}
+                        >
+
+                        <span>
+                            Official bets only
+                        </span>
+                    </label>
+                </div>
+
+                <div class="notification-module-grid">
+
+                    {% set modules = notification_settings.modules %}
+
+                    <label class="notification-module-option">
+                        <input
+                            type="checkbox"
+                            name="notify_horses"
+                            {% if modules.horses %}
+                                checked
+                            {% endif %}
+                        >
+                        <span>🏇 Horses</span>
+                    </label>
+
+                    <label class="notification-module-option">
+                        <input
+                            type="checkbox"
+                            name="notify_dogs"
+                            {% if modules.dogs %}
+                                checked
+                            {% endif %}
+                        >
+                        <span>🐕 Dogs</span>
+                    </label>
+
+                    <label class="notification-module-option">
+                        <input
+                            type="checkbox"
+                            name="notify_football"
+                            {% if modules.football %}
+                                checked
+                            {% endif %}
+                        >
+                        <span>⚽ Football</span>
+                    </label>
+
+                    <label class="notification-module-option">
+                        <input
+                            type="checkbox"
+                            name="notify_arb"
+                            {% if modules.arb %}
+                                checked
+                            {% endif %}
+                        >
+                        <span>⚖️ Pulse Arb</span>
+                    </label>
+
+                    <label class="notification-module-option">
+                        <input
+                            type="checkbox"
+                            name="notify_market_movers"
+                            {% if modules.market_movers %}
+                                checked
+                            {% endif %}
+                        >
+                        <span>📉 Market Movers</span>
+                    </label>
+
+                    <label class="notification-module-option">
+                        <input
+                            type="checkbox"
+                            name="notify_settlements"
+                            {% if modules.settlements %}
+                                checked
+                            {% endif %}
+                        >
+                        <span>✅ Settlements</span>
+                    </label>
+
+                    <label class="notification-module-option">
+                        <input
+                            type="checkbox"
+                            name="notify_performance"
+                            {% if modules.performance %}
+                                checked
+                            {% endif %}
+                        >
+                        <span>📈 Performance</span>
+                    </label>
+
+                    <label class="notification-module-option">
+                        <input
+                            type="checkbox"
+                            name="notify_learning"
+                            {% if modules.learning %}
+                                checked
+                            {% endif %}
+                        >
+                        <span>🧠 Learning Engine</span>
+                    </label>
+
+                    <label class="notification-module-option">
+                        <input
+                            type="checkbox"
+                            name="notify_strategy"
+                            {% if modules.strategy %}
+                                checked
+                            {% endif %}
+                        >
+                        <span>🧪 Strategy Lab</span>
+                    </label>
+
+                    <label class="notification-module-option">
+                        <input
+                            type="checkbox"
+                            name="notify_system"
+                            {% if modules.system %}
+                                checked
+                            {% endif %}
+                        >
+                        <span>🛠 System Alerts</span>
+                    </label>
+
+                </div>
+
+            </div>
+
+            <div class="notification-actions">
+
+                <button
+                    type="submit"
+                    class="button notification-save-button"
+                >
+                    Save Notification Centre
+                </button>
+
+            </div>
+
+        </form>
+
+        <div class="notification-test-actions">
+
+            <form
+                method="post"
+                action="/notifications/test-discord"
+            >
+                <button
+                    type="submit"
+                    class="notification-test-button"
+                >
+                    Send Discord Test
+                </button>
+            </form>
+
+            <form
+                method="post"
+                action="/notifications/test-telegram"
+            >
+                <button
+                    type="submit"
+                    class="notification-test-button"
+                >
+                    Send Telegram Test
+                </button>
+            </form>
+
+        </div>
+
     </div>
 
     <div class="dashboard-grid">
-       <div class="dashboard-card pulse-performance-card">
-            <h2>
-                <img src="/static/glyphs_transparent/performance.png" class="card-icon" alt="">
-                Pulse Performance
-            </h2>
 
-            <div class="performance-split-grid">
-                <div class="performance-record-box {% if official_stats.profit >= 0 %}record-positive{% else %}record-negative{% endif %}">
-                    <span>Official Record</span>
-                    <strong>{{ official_stats.profit }} pts</strong>
-                    <small>{{ official_stats.total }} settled · ROI {{ official_stats.roi }}%</small>
+        <div class="dashboard-card strategy-card">
+            <h2>⭐ Today’s Intelligence</h2>
+
+            <div class="strategy-item">
+                <div class="strategy-title-row">
+
+                    <div class="strategy-name">
+                        Top Pick Score 80+
+                    </div>
+
+                    <span
+                        class="
+                            strategy-badge
+                            badge-watch
+                        "
+                    >
+                        ★★ MONITOR
+                    </span>
+
                 </div>
 
-                <div class="performance-record-box {% if all_settled_stats.profit >= 0 %}record-positive{% else %}record-negative{% endif %}">
-                    <span>All Pulse Picks</span>
-                    <strong>{{ all_settled_stats.profit }} pts</strong>
-                    <small>{{ all_settled_stats.winners }} / {{ all_settled_stats.total }} winners · ROI {{ all_settled_stats.roi }}%</small>
+                <div class="strategy-meta">
+                    Trust:
+                    <span class="trust-score">
+                        46.7
+                    </span><br>
+
+                    Trend: STABLE<br>
+                    Status: EXPERIMENTAL<br>
+                    Reason: Still collecting evidence.
                 </div>
             </div>
-
-            <div class="performance-pulse-line">
-                <span></span>
-            </div>
-
-            <div class="performance-mini-row">
-                <div><span>Wins</span><strong>{{ all_settled_stats.winners }}</strong></div>
-                <div><span>Losses</span><strong>{{ all_settled_stats.losers }}</strong></div>
-                <div><span>Strike</span><strong>{{ all_settled_stats.strike_rate }}%</strong></div>
-            </div>
-
-            <a class="button performance-button" href="/bet-ledger">Open Bet Ledger →</a>
-        </div>
-        <div class="dashboard-card">
-            <h2><img src="/static/glyphs_transparent/verify.png" class="card-icon" alt=""> Update Centre</h2>
-
-            <div class="operation-buttons">
-                <form method="post" action="/update/all">
-                    <button class="button primary-operation" type="submit">Update Today's Data</button>
-                </form>
-                <form method="post" action="/update/horses">
-                    <button class="button" type="submit">Update Horses</button>
-                </form>
-                <form method="post" action="/update/dogs">
-                    <button class="button" type="submit">Update Dogs</button>
-                </form>
-                <form method="post" action="/update/football">
-                    <button class="button" type="submit">Update Football</button>
-                </form>
-                <form method="post" action="/update/performance">
-                    <button class="button" type="submit">Analyse Yesterday</button>
-                </form>
-            </div>
         </div>
 
-        <div class="dashboard-card">
-            <h2><img src="/static/glyphs_transparent/engine.png" class="card-icon" alt=""> Today's Data</h2>
+        <div class="dashboard-card strategy-card">
+            <h2>📈 What Changed Today</h2>
 
-            <div class="stat-list">
-                <div><span>Today's Horse Picks</span><strong>{{ horse_intelligence_count }}</strong></div>
-                <div><span>Runner History</span><strong>{{ runner_record_count }}</strong></div>
-                <div><span>Horse Database</span><strong>{{ horse_profile_count }}</strong></div>
-                <div><span>Market Movers</span><strong>{{ market_event_count }}</strong></div>
-                <div><span>Betting Insights</span><strong>{{ learning_report_count }}</strong></div>
-                <div><span>Dogs</span><strong class="status-ready">READY</strong></div>
-                <div><span>Football</span><strong class="status-ready">READY</strong></div>
-                <div><span>Pulse Arb</span><strong class="status-live">RUNNING</strong></div>
+            <div class="strategy-meta">
+                Horse Profiles:
+                <strong>3083</strong><br>
+
+                Runner Records:
+                <strong>5205</strong><br>
+
+                Race Reviews:
+                <strong>74</strong><br>
+
+                Strategies Tracked:
+                <strong>5</strong><br>
+
+                Strategy Snapshots:
+                <strong>LIVE</strong>
             </div>
-        </div>
-
-        <div class="dashboard-card">
-            <h2><img src="/static/glyphs_transparent/horses.png" class="card-icon" alt=""> Top IQ Picks</h2>
-
-            {% for horse in top_horses %}
-                <div class="mini-data-card">
-                    <strong>{{ horse.horse }}</strong>
-                    <span>{{ horse.course }} · {{ horse.off_time }}</span>
-                    <strong>IQ {{ horse.pulse_score }}</strong>
-                </div>
-            {% endfor %}
-
-            <a class="button" href="/horses">View Today's Picks →</a>
-        </div>
-
-        <div class="dashboard-card">
-            <h2><img src="/static/glyphs_transparent/market.png" class="card-icon" alt=""> Market Movers</h2>
-
-            {% if not market_events %}
-                <p class="muted">No market movers yet.</p>
-            {% endif %}
-
-            {% for event in market_events %}
-                <div class="mini-data-card">
-                    <strong>{{ event.horse }}</strong>
-                    <span>{{ event.event_type }}</span>
-                    <span>{{ event.previous_decimal }} → {{ event.current_decimal }}</span>
-                    <strong>{{ event.movement_pct }}%</strong>
-                </div>
-            {% endfor %}
-
-            <a class="button" href="/horses/market-events">View Market Movers →</a>
-        </div>
-
-        <div class="dashboard-card">
-            <h2><img src="/static/glyphs_transparent/arb.png" class="card-icon" alt=""> Pulse Arb</h2>
-
-            <div class="stat-list">
-                <div><span>Live Monitoring</span><strong class="status-live">RUNNING</strong></div>
-                <div><span>True Arbs</span><strong>ACTIVE</strong></div>
-                <div><span>Exchange Watchlist</span><strong>ACTIVE</strong></div>
-            </div>
-
-            <a class="button" href="/arb">Open Arb →</a>
-        </div>
-
-        <div class="dashboard-card">
-            <h2><img src="/static/glyphs_transparent/performance.png" class="card-icon" alt=""> Platform Status</h2>
-
-            <div class="stat-list">
-                <div><span>Platform</span><strong>v0.5</strong></div>
-                <div><span>Dashboard</span><strong class="status-ready">ONLINE</strong></div>
-                <div><span>Data Updates</span><strong class="status-live">ACTIVE</strong></div>
-            </div>
-
-            <p class="muted">Pulse IQ is online and ready.</p>
         </div>
 
     </div>
 
 </div>
 
-<script>
-async function refreshUpdateStatus() {
-    const response = await fetch("/update/status");
-    const data = await response.json();
-
-    const title = document.getElementById("update-status-title");
-    const fill = document.getElementById("update-progress-fill");
-    const percent = document.getElementById("update-percent");
-    const current = document.getElementById("update-current");
-    const completed = document.getElementById("update-completed");
-    const missionDataStatus = document.getElementById("mission-data-status");
-    const missionLastUpdate = document.getElementById("mission-last-update");
-
-    if (!title || !fill || !percent || !current || !completed) return;
-
-    fill.style.width = data.percent + "%";
-    percent.textContent = data.percent + "%";
-
-    current.textContent = data.running
-        ? "Updating: " + data.current_task
-        : "Status: " + data.current_task;
-
-    if (data.running) {
-        title.textContent = "Updating Today's Data...";
-
-        if (missionDataStatus) {
-            missionDataStatus.textContent = "UPDATING";
-            missionDataStatus.className = "status-live";
-        }
-    } else if (data.percent === 100) {
-        title.textContent = "Today's Data Is Ready";
-
-        if (missionDataStatus) {
-            missionDataStatus.textContent = "READY";
-            missionDataStatus.className = "status-ready";
-        }
-
-        if (missionLastUpdate) {
-            missionLastUpdate.textContent = new Date().toLocaleTimeString([], {
-                hour: "2-digit",
-                minute: "2-digit"
-            });
-        }
-    } else {
-        title.textContent = "Ready";
-
-        if (missionDataStatus) {
-            missionDataStatus.textContent = "READY";
-            missionDataStatus.className = "status-ready";
-        }
-    }
-
-    completed.innerHTML = "<div class='update-task-grid'></div>";
-    const grid = completed.querySelector(".update-task-grid");
-
-    data.completed.forEach(function(item) {
-        grid.innerHTML += "<div class='update-task update-task-done'>✓ " + item + "</div>";
-    });
-
-    data.failed.forEach(function(item) {
-        grid.innerHTML += "<div class='update-task update-task-failed'>✖ " + item + "</div>";
-    });
-
-    const updateStarted =
-        new URLSearchParams(window.location.search).get("update") === "started";
-
-    if (updateStarted && data.running) {
-        sessionStorage.setItem("pulseUpdateInProgress", "1");
-    }
-
-    if (
-        sessionStorage.getItem("pulseUpdateInProgress") === "1" &&
-        !data.running &&
-        data.current_task === "Complete"
-    ) {
-        sessionStorage.removeItem("pulseUpdateInProgress");
-
-        setTimeout(() => {
-            window.location.href = "/";
-        }, 1500);
-    }
-}
-
-setInterval(refreshUpdateStatus, 1000);
-refreshUpdateStatus();
-</script>
 {% endblock %}

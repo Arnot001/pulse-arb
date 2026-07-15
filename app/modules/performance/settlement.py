@@ -4,6 +4,11 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from app.modules.performance.each_way import (
+    build_racecard_index,
+    enrich_bet_with_each_way,
+)
+
 
 LEDGER_FILE = Path("data/betting/bet_ledger.jsonl")
 SETTLED_FILE = Path("data/betting/bet_ledger_settled.jsonl")
@@ -513,6 +518,7 @@ def settle_bets(stake=1.0):
     bets = load_jsonl(LEDGER_FILE)
 
     runner_index, race_index = build_result_indexes()
+    racecard_index = build_racecard_index()
 
     loose_runner_index = build_loose_runner_index(
         runner_index
@@ -658,6 +664,14 @@ def settle_bets(stake=1.0):
 
         settled_bet["race_winner"] = (
             result.get("winner")
+        )
+
+        # Add a separate simulated each-way result without altering
+        # the established win-only stake, return, profit or ROI.
+        settled_bet = enrich_bet_with_each_way(
+            settled_bet,
+            racecard_index=racecard_index,
+            unit_stake=bet_stake,
         )
 
         settled_rows.append(settled_bet)

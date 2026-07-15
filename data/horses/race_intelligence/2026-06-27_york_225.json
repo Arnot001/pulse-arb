@@ -4,19 +4,19 @@
   "course": "York",
   "time": "2:25",
   "race_name": "Al Basti Equiworld Dubai Dash Handicap",
-  "field_size": 9,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 11,
+  "average_intelligence": 32.82,
+  "top_score": 63,
+  "second_score": 55,
+  "gap": 8,
+  "confidence_score": 56,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
-    "horse": "Allsortz",
-    "horse_id": "hrs_52526082",
+    "horse": "Our Cody",
+    "horse_id": "hrs_52451994",
     "age": 3,
-    "sex": "gelding",
+    "sex": "filly",
     "latest_course": "York",
     "latest_time": "2:25",
     "latest_race": "Al Basti Equiworld Dubai Dash Handicap",
@@ -25,13 +25,13 @@
     "latest_class": "Class 2",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "David Marnane",
-    "latest_jockey": "Robbie Colgan",
-    "latest_draw": 2,
-    "latest_weight_lbs": 125,
-    "official_rating": "84",
-    "recent_form": "-21313",
-    "last_run_days": 24,
+    "latest_trainer": "Richard Hughes",
+    "latest_jockey": "Neil Callan",
+    "latest_draw": 6,
+    "latest_weight_lbs": 129,
+    "official_rating": "88",
+    "recent_form": "529-34",
+    "last_run_days": 14,
     "profile_runs": 2,
     "courses_seen": {
       "York": 2
@@ -46,15 +46,24 @@
       "Class 2": 2
     },
     "trainers_seen": {
-      "David Marnane": 2
+      "Richard Hughes": 2
     },
     "jockeys_seen": {
-      "Robbie Colgan": 2
+      "Neil Callan": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 80,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Race class strength +4",
+      "Trainer bonus +3",
+      "Stable flying +4 (4/10 last 14 days)",
+      "Jockey bonus +4",
+      "Jockey flying +4 (6/9 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -70,22 +79,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 15,
-        "horse": "Allsortz",
-        "horse_id": "hrs_52526082",
+        "horse": "Our Cody",
+        "horse_id": "hrs_52451994",
         "age": 3,
-        "sex": "gelding",
-        "trainer": "David Marnane",
-        "trainer_id": "trn_155772",
-        "jockey": "Robbie Colgan",
-        "jockey_id": "jky_226827",
-        "draw": 2,
-        "number": 10,
-        "lbs": 125,
-        "ofr": "84",
-        "last_run": 24,
-        "form": "-21313",
+        "sex": "filly",
+        "trainer": "Richard Hughes",
+        "trainer_id": "trn_280692",
+        "jockey": "Neil Callan",
+        "jockey_id": "jky_41097",
+        "draw": 6,
+        "number": 6,
+        "lbs": 129,
+        "ofr": "88",
+        "last_run": 14,
+        "form": "529-34",
         "headgear": "",
-        "_stored_at": "2026-06-27T10:06:21.565545+00:00"
+        "_stored_at": "2026-06-27T10:06:21.479316+00:00"
       },
       {
         "source": "the_racing_api",
@@ -101,26 +110,27 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 15,
-        "horse": "Allsortz",
-        "horse_id": "hrs_52526082",
+        "horse": "Our Cody",
+        "horse_id": "hrs_52451994",
         "age": 3,
-        "sex": "gelding",
-        "trainer": "David Marnane",
-        "trainer_id": "trn_155772",
-        "jockey": "Robbie Colgan",
-        "jockey_id": "jky_226827",
-        "draw": 2,
-        "number": 10,
-        "lbs": 125,
-        "ofr": "84",
-        "last_run": 24,
-        "form": "-21313",
+        "sex": "filly",
+        "trainer": "Richard Hughes",
+        "trainer_id": "trn_280692",
+        "jockey": "Neil Callan",
+        "jockey_id": "jky_41097",
+        "draw": 6,
+        "number": 6,
+        "lbs": 129,
+        "ofr": "88",
+        "last_run": 14,
+        "form": "529-34",
         "headgear": "",
-        "_stored_at": "2026-06-28T12:42:48.994603+00:00"
+        "_stored_at": "2026-06-28T12:42:48.929547+00:00"
       }
     ],
     "profile_notes": [
-      "Low draw today"
+      "Elite latest Pulse Score",
+      "Recent run timing"
     ],
     "favourite_course": {
       "value": "York",
@@ -143,15 +153,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 63,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -160,17 +170,17 @@
       "latest_distance_f": 5.0,
       "latest_going": "Good",
       "latest_class": "Class 2",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 80,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "main_threat": {
-    "horse": "Boston Dan",
-    "horse_id": "hrs_52452015",
+    "horse": "Rotokura Belle",
+    "horse_id": "hrs_51557751",
     "age": 3,
-    "sex": "colt",
+    "sex": "filly",
     "latest_course": "York",
     "latest_time": "2:25",
     "latest_race": "Al Basti Equiworld Dubai Dash Handicap",
@@ -179,13 +189,13 @@
     "latest_class": "Class 2",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Richard & Peter Fahey",
-    "latest_jockey": "Oisin Orr",
-    "latest_draw": 12,
-    "latest_weight_lbs": 131,
-    "official_rating": "90",
-    "recent_form": "27-900",
-    "last_run_days": 14,
+    "latest_trainer": "Ivan Furtado",
+    "latest_jockey": "Cam Hardie",
+    "latest_draw": 15,
+    "latest_weight_lbs": 116,
+    "official_rating": "75",
+    "recent_form": "561641",
+    "last_run_days": 15,
     "profile_runs": 2,
     "courses_seen": {
       "York": 2
@@ -200,15 +210,22 @@
       "Class 2": 2
     },
     "trainers_seen": {
-      "Richard & Peter Fahey": 2
+      "Ivan Furtado": 2
     },
     "jockeys_seen": {
-      "Oisin Orr": 2
+      "Cam Hardie": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 63,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Race class strength +2",
+      "Jockey bonus +1",
+      "Jockey flying +4 (6/7 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -224,22 +241,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 15,
-        "horse": "Boston Dan",
-        "horse_id": "hrs_52452015",
+        "horse": "Rotokura Belle",
+        "horse_id": "hrs_51557751",
         "age": 3,
-        "sex": "colt",
-        "trainer": "Richard & Peter Fahey",
-        "trainer_id": "trn_386964",
-        "jockey": "Oisin Orr",
-        "jockey_id": "jky_281652",
-        "draw": 12,
-        "number": 2,
-        "lbs": 131,
-        "ofr": "90",
-        "last_run": 14,
-        "form": "27-900",
+        "sex": "filly",
+        "trainer": "Ivan Furtado",
+        "trainer_id": "trn_277803",
+        "jockey": "Cam Hardie",
+        "jockey_id": "jky_278196",
+        "draw": 15,
+        "number": 15,
+        "lbs": 116,
+        "ofr": "75",
+        "last_run": 15,
+        "form": "561641",
         "headgear": "",
-        "_stored_at": "2026-06-27T10:06:21.413379+00:00"
+        "_stored_at": "2026-06-27T10:06:21.668633+00:00"
       },
       {
         "source": "the_racing_api",
@@ -255,27 +272,25 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 15,
-        "horse": "Boston Dan",
-        "horse_id": "hrs_52452015",
+        "horse": "Rotokura Belle",
+        "horse_id": "hrs_51557751",
         "age": 3,
-        "sex": "colt",
-        "trainer": "Richard & Peter Fahey",
-        "trainer_id": "trn_386964",
-        "jockey": "Oisin Orr",
-        "jockey_id": "jky_281652",
-        "draw": 12,
-        "number": 2,
-        "lbs": 131,
-        "ofr": "90",
-        "last_run": 14,
-        "form": "27-900",
+        "sex": "filly",
+        "trainer": "Ivan Furtado",
+        "trainer_id": "trn_277803",
+        "jockey": "Cam Hardie",
+        "jockey_id": "jky_278196",
+        "draw": 15,
+        "number": 15,
+        "lbs": 116,
+        "ofr": "75",
+        "last_run": 15,
+        "form": "561641",
         "headgear": "",
-        "_stored_at": "2026-06-28T12:42:48.864104+00:00"
+        "_stored_at": "2026-06-28T12:42:49.077909+00:00"
       }
     ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "York",
       "runs": 2
@@ -297,7 +312,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 55,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -305,7 +320,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -314,17 +328,17 @@
       "latest_distance_f": 5.0,
       "latest_going": "Good",
       "latest_class": "Class 2",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 63,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "dark_horse": {
-    "horse": "Fortification",
-    "horse_id": "hrs_53052209",
+    "horse": "Rotokura Belle",
+    "horse_id": "hrs_51557751",
     "age": 3,
-    "sex": "gelding",
+    "sex": "filly",
     "latest_course": "York",
     "latest_time": "2:25",
     "latest_race": "Al Basti Equiworld Dubai Dash Handicap",
@@ -333,13 +347,13 @@
     "latest_class": "Class 2",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Brian Ellison",
-    "latest_jockey": "Ben Robinson",
-    "latest_draw": 11,
-    "latest_weight_lbs": 129,
-    "official_rating": "88",
-    "recent_form": "324143",
-    "last_run_days": 14,
+    "latest_trainer": "Ivan Furtado",
+    "latest_jockey": "Cam Hardie",
+    "latest_draw": 15,
+    "latest_weight_lbs": 116,
+    "official_rating": "75",
+    "recent_form": "561641",
+    "last_run_days": 15,
     "profile_runs": 2,
     "courses_seen": {
       "York": 2
@@ -354,15 +368,22 @@
       "Class 2": 2
     },
     "trainers_seen": {
-      "Brian Ellison": 2
+      "Ivan Furtado": 2
     },
     "jockeys_seen": {
-      "Ben Robinson": 2
+      "Cam Hardie": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 63,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Race class strength +2",
+      "Jockey bonus +1",
+      "Jockey flying +4 (6/7 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -378,22 +399,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 15,
-        "horse": "Fortification",
-        "horse_id": "hrs_53052209",
+        "horse": "Rotokura Belle",
+        "horse_id": "hrs_51557751",
         "age": 3,
-        "sex": "gelding",
-        "trainer": "Brian Ellison",
-        "trainer_id": "trn_39879",
-        "jockey": "Ben Robinson",
-        "jockey_id": "jky_285837",
-        "draw": 11,
-        "number": 5,
-        "lbs": 129,
-        "ofr": "88",
-        "last_run": 14,
-        "form": "324143",
+        "sex": "filly",
+        "trainer": "Ivan Furtado",
+        "trainer_id": "trn_277803",
+        "jockey": "Cam Hardie",
+        "jockey_id": "jky_278196",
+        "draw": 15,
+        "number": 15,
+        "lbs": 116,
+        "ofr": "75",
+        "last_run": 15,
+        "form": "561641",
         "headgear": "",
-        "_stored_at": "2026-06-27T10:06:21.464482+00:00"
+        "_stored_at": "2026-06-27T10:06:21.668633+00:00"
       },
       {
         "source": "the_racing_api",
@@ -409,27 +430,25 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 15,
-        "horse": "Fortification",
-        "horse_id": "hrs_53052209",
+        "horse": "Rotokura Belle",
+        "horse_id": "hrs_51557751",
         "age": 3,
-        "sex": "gelding",
-        "trainer": "Brian Ellison",
-        "trainer_id": "trn_39879",
-        "jockey": "Ben Robinson",
-        "jockey_id": "jky_285837",
-        "draw": 11,
-        "number": 5,
-        "lbs": 129,
-        "ofr": "88",
-        "last_run": 14,
-        "form": "324143",
+        "sex": "filly",
+        "trainer": "Ivan Furtado",
+        "trainer_id": "trn_277803",
+        "jockey": "Cam Hardie",
+        "jockey_id": "jky_278196",
+        "draw": 15,
+        "number": 15,
+        "lbs": 116,
+        "ofr": "75",
+        "last_run": 15,
+        "form": "561641",
         "headgear": "",
-        "_stored_at": "2026-06-28T12:42:48.913433+00:00"
+        "_stored_at": "2026-06-28T12:42:49.077909+00:00"
       }
     ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "York",
       "runs": 2
@@ -451,7 +470,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 55,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -459,7 +478,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -468,13 +486,335 @@
       "latest_distance_f": 5.0,
       "latest_going": "Good",
       "latest_class": "Class 2",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 63,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "runners": [
+    {
+      "horse": "Our Cody",
+      "horse_id": "hrs_52451994",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "York",
+      "latest_time": "2:25",
+      "latest_race": "Al Basti Equiworld Dubai Dash Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Richard Hughes",
+      "latest_jockey": "Neil Callan",
+      "latest_draw": 6,
+      "latest_weight_lbs": 129,
+      "official_rating": "88",
+      "recent_form": "529-34",
+      "last_run_days": 14,
+      "profile_runs": 2,
+      "courses_seen": {
+        "York": 2
+      },
+      "distances_seen": {
+        "5.0": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 2": 2
+      },
+      "trainers_seen": {
+        "Richard Hughes": 2
+      },
+      "jockeys_seen": {
+        "Neil Callan": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 80,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +4",
+        "Trainer bonus +3",
+        "Stable flying +4 (4/10 last 14 days)",
+        "Jockey bonus +4",
+        "Jockey flying +4 (6/9 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978044",
+          "course": "York",
+          "date": "2026-06-27",
+          "off_time": "2:25",
+          "off_dt": "2026-06-27T14:25:00+01:00",
+          "race_name": "Al Basti Equiworld Dubai Dash Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Our Cody",
+          "horse_id": "hrs_52451994",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Richard Hughes",
+          "trainer_id": "trn_280692",
+          "jockey": "Neil Callan",
+          "jockey_id": "jky_41097",
+          "draw": 6,
+          "number": 6,
+          "lbs": 129,
+          "ofr": "88",
+          "last_run": 14,
+          "form": "529-34",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:21.479316+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978044",
+          "course": "York",
+          "date": "2026-06-27",
+          "off_time": "2:25",
+          "off_dt": "2026-06-27T14:25:00+01:00",
+          "race_name": "Al Basti Equiworld Dubai Dash Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Our Cody",
+          "horse_id": "hrs_52451994",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Richard Hughes",
+          "trainer_id": "trn_280692",
+          "jockey": "Neil Callan",
+          "jockey_id": "jky_41097",
+          "draw": 6,
+          "number": 6,
+          "lbs": 129,
+          "ofr": "88",
+          "last_run": 14,
+          "form": "529-34",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:48.929547+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "York",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 63,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "York",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 80,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Rotokura Belle",
+      "horse_id": "hrs_51557751",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "York",
+      "latest_time": "2:25",
+      "latest_race": "Al Basti Equiworld Dubai Dash Handicap",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 2",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ivan Furtado",
+      "latest_jockey": "Cam Hardie",
+      "latest_draw": 15,
+      "latest_weight_lbs": 116,
+      "official_rating": "75",
+      "recent_form": "561641",
+      "last_run_days": 15,
+      "profile_runs": 2,
+      "courses_seen": {
+        "York": 2
+      },
+      "distances_seen": {
+        "5.0": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 2": 2
+      },
+      "trainers_seen": {
+        "Ivan Furtado": 2
+      },
+      "jockeys_seen": {
+        "Cam Hardie": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 63,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2",
+        "Jockey bonus +1",
+        "Jockey flying +4 (6/7 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978044",
+          "course": "York",
+          "date": "2026-06-27",
+          "off_time": "2:25",
+          "off_dt": "2026-06-27T14:25:00+01:00",
+          "race_name": "Al Basti Equiworld Dubai Dash Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Rotokura Belle",
+          "horse_id": "hrs_51557751",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Ivan Furtado",
+          "trainer_id": "trn_277803",
+          "jockey": "Cam Hardie",
+          "jockey_id": "jky_278196",
+          "draw": 15,
+          "number": 15,
+          "lbs": 116,
+          "ofr": "75",
+          "last_run": 15,
+          "form": "561641",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:21.668633+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978044",
+          "course": "York",
+          "date": "2026-06-27",
+          "off_time": "2:25",
+          "off_dt": "2026-06-27T14:25:00+01:00",
+          "race_name": "Al Basti Equiworld Dubai Dash Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 2",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Rotokura Belle",
+          "horse_id": "hrs_51557751",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Ivan Furtado",
+          "trainer_id": "trn_277803",
+          "jockey": "Cam Hardie",
+          "jockey_id": "jky_278196",
+          "draw": 15,
+          "number": 15,
+          "lbs": 116,
+          "ofr": "75",
+          "last_run": 15,
+          "form": "561641",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:49.077909+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "York",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 2",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 55,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "York",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good",
+        "latest_class": "Class 2",
+        "latest_pulse_score": 63,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
     {
       "horse": "Allsortz",
       "horse_id": "hrs_52526082",
@@ -1861,9 +2201,8 @@
     }
   ],
   "notes": [
-    "Allsortz is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
+    "Our Cody is the top-rated Pulse IQ runner.",
     "This race has a generally weak profile strength.",
-    "Fortification is flagged as a possible dark horse."
+    "Rotokura Belle is flagged as a possible dark horse."
   ]
 }
