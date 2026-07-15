@@ -4,18 +4,18 @@
   "course": "Newton Abbot",
   "time": "7:15",
   "race_name": "EBCS Hideout Novices' Limited Handicap Hurdle",
-  "field_size": 7,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
+  "field_size": 10,
+  "average_intelligence": 35.3,
+  "top_score": 58,
+  "second_score": 57,
+  "gap": 1,
+  "confidence_score": 43,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Chartwell Jock",
-    "horse_id": "hrs_47655412",
-    "age": 4,
+    "horse": "Makinbecon",
+    "horse_id": "hrs_41378393",
+    "age": 6,
     "sex": "gelding",
     "latest_course": "Newton Abbot",
     "latest_time": "7:15",
@@ -25,13 +25,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Nick Scholfield",
-    "latest_jockey": "S Bowen",
+    "latest_trainer": "Barry T Murphy",
+    "latest_jockey": "Callum Pritchard",
     "latest_draw": 0,
-    "latest_weight_lbs": 158,
-    "official_rating": "93",
-    "recent_form": "6F93-4",
-    "last_run_days": 30,
+    "latest_weight_lbs": 151,
+    "official_rating": "80",
+    "recent_form": "649-51",
+    "last_run_days": 27,
     "profile_runs": 2,
     "courses_seen": {
       "Newton Abbot": 2
@@ -46,15 +46,20 @@
       "Class 5": 2
     },
     "trainers_seen": {
-      "Nick Scholfield": 2
+      "Barry T Murphy": 2
     },
     "jockeys_seen": {
-      "S Bowen": 2
+      "Callum Pritchard": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 70,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Jockey flying +4 (3/3 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -70,22 +75,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Chartwell Jock",
-        "horse_id": "hrs_47655412",
-        "age": 4,
+        "horse": "Makinbecon",
+        "horse_id": "hrs_41378393",
+        "age": 6,
         "sex": "gelding",
-        "trainer": "Nick Scholfield",
-        "trainer_id": "trn_383553",
-        "jockey": "S Bowen",
-        "jockey_id": "jky_279558",
+        "trainer": "Barry T Murphy",
+        "trainer_id": "trn_283941",
+        "jockey": "Callum Pritchard",
+        "jockey_id": "jky_307311",
         "draw": 0,
-        "number": 5,
-        "lbs": 158,
-        "ofr": "93",
-        "last_run": 30,
-        "form": "6F93-4",
+        "number": 7,
+        "lbs": 151,
+        "ofr": "80",
+        "last_run": 27,
+        "form": "649-51",
         "headgear": "p",
-        "_stored_at": "2026-06-23T21:32:41.530845+00:00"
+        "_stored_at": "2026-06-23T21:32:41.577071+00:00"
       },
       {
         "source": "the_racing_api",
@@ -101,22 +106,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Chartwell Jock",
-        "horse_id": "hrs_47655412",
-        "age": 4,
+        "horse": "Makinbecon",
+        "horse_id": "hrs_41378393",
+        "age": 6,
         "sex": "gelding",
-        "trainer": "Nick Scholfield",
-        "trainer_id": "trn_383553",
-        "jockey": "S Bowen",
-        "jockey_id": "jky_279558",
+        "trainer": "Barry T Murphy",
+        "trainer_id": "trn_283941",
+        "jockey": "Callum Pritchard",
+        "jockey_id": "jky_307311",
         "draw": 0,
-        "number": 5,
-        "lbs": 158,
-        "ofr": "93",
-        "last_run": 30,
-        "form": "6F93-4",
+        "number": 7,
+        "lbs": 151,
+        "ofr": "80",
+        "last_run": 27,
+        "form": "649-51",
         "headgear": "p",
-        "_stored_at": "2026-06-25T06:53:18.640726+00:00"
+        "_stored_at": "2026-06-25T06:53:18.661762+00:00"
       }
     ],
     "profile_notes": [],
@@ -141,15 +146,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 58,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -158,16 +163,16 @@
       "latest_distance_f": 18.5,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 70,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "main_threat": {
-    "horse": "Crab Road",
-    "horse_id": "hrs_51155944",
-    "age": 5,
+    "horse": "Privilege",
+    "horse_id": "hrs_22033641",
+    "age": 8,
     "sex": "gelding",
     "latest_course": "Newton Abbot",
     "latest_time": "7:15",
@@ -177,13 +182,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "S Hosie",
-    "latest_jockey": "Paddy Hanlon",
+    "latest_trainer": "J L Flint",
+    "latest_jockey": "Charlie Price",
     "latest_draw": 0,
-    "latest_weight_lbs": 154,
-    "official_rating": "83",
-    "recent_form": "00PF-P",
-    "last_run_days": 11,
+    "latest_weight_lbs": 162,
+    "official_rating": "91",
+    "recent_form": "/5226-",
+    "last_run_days": null,
     "profile_runs": 2,
     "courses_seen": {
       "Newton Abbot": 2
@@ -198,15 +203,20 @@
       "Class 5": 2
     },
     "trainers_seen": {
-      "S Hosie": 2
+      "J L Flint": 2
     },
     "jockeys_seen": {
-      "Paddy Hanlon": 2
+      "Charlie Price": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 67,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -222,22 +232,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Crab Road",
-        "horse_id": "hrs_51155944",
-        "age": 5,
+        "horse": "Privilege",
+        "horse_id": "hrs_22033641",
+        "age": 8,
         "sex": "gelding",
-        "trainer": "S Hosie",
-        "trainer_id": "trn_353889",
-        "jockey": "Paddy Hanlon",
-        "jockey_id": "jky_308520",
+        "trainer": "J L Flint",
+        "trainer_id": "trn_370863",
+        "jockey": "Charlie Price",
+        "jockey_id": "jky_286938",
         "draw": 0,
-        "number": 6,
-        "lbs": 154,
-        "ofr": "83",
-        "last_run": 11,
-        "form": "00PF-P",
+        "number": 4,
+        "lbs": 162,
+        "ofr": "91",
+        "last_run": null,
+        "form": "/5226-",
         "headgear": "",
-        "_stored_at": "2026-06-23T21:32:41.552872+00:00"
+        "_stored_at": "2026-06-23T21:32:41.504191+00:00"
       },
       {
         "source": "the_racing_api",
@@ -253,27 +263,25 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Crab Road",
-        "horse_id": "hrs_51155944",
-        "age": 5,
+        "horse": "Privilege",
+        "horse_id": "hrs_22033641",
+        "age": 8,
         "sex": "gelding",
-        "trainer": "S Hosie",
-        "trainer_id": "trn_353889",
-        "jockey": "Paddy Hanlon",
-        "jockey_id": "jky_308520",
+        "trainer": "J L Flint",
+        "trainer_id": "trn_370863",
+        "jockey": "Charlie Price",
+        "jockey_id": "jky_286938",
         "draw": 0,
-        "number": 6,
-        "lbs": 154,
-        "ofr": "83",
-        "last_run": 11,
-        "form": "00PF-P",
+        "number": 4,
+        "lbs": 162,
+        "ofr": "91",
+        "last_run": null,
+        "form": "/5226-",
         "headgear": "",
-        "_stored_at": "2026-06-25T06:53:18.650705+00:00"
+        "_stored_at": "2026-06-25T06:53:18.629182+00:00"
       }
     ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Newton Abbot",
       "runs": 2
@@ -295,15 +303,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 57,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -312,16 +320,16 @@
       "latest_distance_f": 18.5,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 67,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "dark_horse": {
-    "horse": "Katana",
-    "horse_id": "hrs_40553604",
-    "age": 6,
+    "horse": "Privilege",
+    "horse_id": "hrs_22033641",
+    "age": 8,
     "sex": "gelding",
     "latest_course": "Newton Abbot",
     "latest_time": "7:15",
@@ -331,13 +339,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "R Stephens",
-    "latest_jockey": "C Gethings",
+    "latest_trainer": "J L Flint",
+    "latest_jockey": "Charlie Price",
     "latest_draw": 0,
     "latest_weight_lbs": 162,
     "official_rating": "91",
-    "recent_form": "6635-2",
-    "last_run_days": 12,
+    "recent_form": "/5226-",
+    "last_run_days": null,
     "profile_runs": 2,
     "courses_seen": {
       "Newton Abbot": 2
@@ -352,15 +360,20 @@
       "Class 5": 2
     },
     "trainers_seen": {
-      "R Stephens": 2
+      "J L Flint": 2
     },
     "jockeys_seen": {
-      "C Gethings": 2
+      "Charlie Price": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 67,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -376,22 +389,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Katana",
-        "horse_id": "hrs_40553604",
-        "age": 6,
+        "horse": "Privilege",
+        "horse_id": "hrs_22033641",
+        "age": 8,
         "sex": "gelding",
-        "trainer": "R Stephens",
-        "trainer_id": "trn_254385",
-        "jockey": "C Gethings",
-        "jockey_id": "jky_277692",
+        "trainer": "J L Flint",
+        "trainer_id": "trn_370863",
+        "jockey": "Charlie Price",
+        "jockey_id": "jky_286938",
         "draw": 0,
-        "number": 3,
+        "number": 4,
         "lbs": 162,
         "ofr": "91",
-        "last_run": 12,
-        "form": "6635-2",
+        "last_run": null,
+        "form": "/5226-",
         "headgear": "",
-        "_stored_at": "2026-06-23T21:32:41.481261+00:00"
+        "_stored_at": "2026-06-23T21:32:41.504191+00:00"
       },
       {
         "source": "the_racing_api",
@@ -407,27 +420,25 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Katana",
-        "horse_id": "hrs_40553604",
-        "age": 6,
+        "horse": "Privilege",
+        "horse_id": "hrs_22033641",
+        "age": 8,
         "sex": "gelding",
-        "trainer": "R Stephens",
-        "trainer_id": "trn_254385",
-        "jockey": "C Gethings",
-        "jockey_id": "jky_277692",
+        "trainer": "J L Flint",
+        "trainer_id": "trn_370863",
+        "jockey": "Charlie Price",
+        "jockey_id": "jky_286938",
         "draw": 0,
-        "number": 3,
+        "number": 4,
         "lbs": 162,
         "ofr": "91",
-        "last_run": 12,
-        "form": "6635-2",
+        "last_run": null,
+        "form": "/5226-",
         "headgear": "",
-        "_stored_at": "2026-06-25T06:53:18.617650+00:00"
+        "_stored_at": "2026-06-25T06:53:18.629182+00:00"
       }
     ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Newton Abbot",
       "runs": 2
@@ -449,15 +460,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 57,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -466,13 +477,482 @@
       "latest_distance_f": 18.5,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 67,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
   "runners": [
+    {
+      "horse": "Makinbecon",
+      "horse_id": "hrs_41378393",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Newton Abbot",
+      "latest_time": "7:15",
+      "latest_race": "EBCS Hideout Novices' Limited Handicap Hurdle",
+      "latest_date": "2026-06-23",
+      "latest_distance_f": 18.5,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Barry T Murphy",
+      "latest_jockey": "Callum Pritchard",
+      "latest_draw": 0,
+      "latest_weight_lbs": 151,
+      "official_rating": "80",
+      "recent_form": "649-51",
+      "last_run_days": 27,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newton Abbot": 2
+      },
+      "distances_seen": {
+        "18.5": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "Barry T Murphy": 2
+      },
+      "jockeys_seen": {
+        "Callum Pritchard": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 70,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey flying +4 (3/3 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973559",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "7:15",
+          "off_dt": "2026-06-23T19:15:00+01:00",
+          "race_name": "EBCS Hideout Novices' Limited Handicap Hurdle",
+          "distance_f": 18.5,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Makinbecon",
+          "horse_id": "hrs_41378393",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Barry T Murphy",
+          "trainer_id": "trn_283941",
+          "jockey": "Callum Pritchard",
+          "jockey_id": "jky_307311",
+          "draw": 0,
+          "number": 7,
+          "lbs": 151,
+          "ofr": "80",
+          "last_run": 27,
+          "form": "649-51",
+          "headgear": "p",
+          "_stored_at": "2026-06-23T21:32:41.577071+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973559",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "7:15",
+          "off_dt": "2026-06-23T19:15:00+01:00",
+          "race_name": "EBCS Hideout Novices' Limited Handicap Hurdle",
+          "distance_f": 18.5,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Makinbecon",
+          "horse_id": "hrs_41378393",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Barry T Murphy",
+          "trainer_id": "trn_283941",
+          "jockey": "Callum Pritchard",
+          "jockey_id": "jky_307311",
+          "draw": 0,
+          "number": 7,
+          "lbs": 151,
+          "ofr": "80",
+          "last_run": 27,
+          "form": "649-51",
+          "headgear": "p",
+          "_stored_at": "2026-06-25T06:53:18.661762+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 18.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 18.5,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 70,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Privilege",
+      "horse_id": "hrs_22033641",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Newton Abbot",
+      "latest_time": "7:15",
+      "latest_race": "EBCS Hideout Novices' Limited Handicap Hurdle",
+      "latest_date": "2026-06-23",
+      "latest_distance_f": 18.5,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "J L Flint",
+      "latest_jockey": "Charlie Price",
+      "latest_draw": 0,
+      "latest_weight_lbs": 162,
+      "official_rating": "91",
+      "recent_form": "/5226-",
+      "last_run_days": null,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newton Abbot": 2
+      },
+      "distances_seen": {
+        "18.5": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "J L Flint": 2
+      },
+      "jockeys_seen": {
+        "Charlie Price": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 67,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973559",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "7:15",
+          "off_dt": "2026-06-23T19:15:00+01:00",
+          "race_name": "EBCS Hideout Novices' Limited Handicap Hurdle",
+          "distance_f": 18.5,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Privilege",
+          "horse_id": "hrs_22033641",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "J L Flint",
+          "trainer_id": "trn_370863",
+          "jockey": "Charlie Price",
+          "jockey_id": "jky_286938",
+          "draw": 0,
+          "number": 4,
+          "lbs": 162,
+          "ofr": "91",
+          "last_run": null,
+          "form": "/5226-",
+          "headgear": "",
+          "_stored_at": "2026-06-23T21:32:41.504191+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973559",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "7:15",
+          "off_dt": "2026-06-23T19:15:00+01:00",
+          "race_name": "EBCS Hideout Novices' Limited Handicap Hurdle",
+          "distance_f": 18.5,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Privilege",
+          "horse_id": "hrs_22033641",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "J L Flint",
+          "trainer_id": "trn_370863",
+          "jockey": "Charlie Price",
+          "jockey_id": "jky_286938",
+          "draw": 0,
+          "number": 4,
+          "lbs": 162,
+          "ofr": "91",
+          "last_run": null,
+          "form": "/5226-",
+          "headgear": "",
+          "_stored_at": "2026-06-25T06:53:18.629182+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 18.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 57,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 18.5,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 67,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Bowling Shane",
+      "horse_id": "hrs_51766757",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Newton Abbot",
+      "latest_time": "7:15",
+      "latest_race": "EBCS Hideout Novices' Limited Handicap Hurdle",
+      "latest_date": "2026-06-23",
+      "latest_distance_f": 18.5,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "C Boultbee-Brooks",
+      "latest_jockey": "Ned Fox",
+      "latest_draw": 0,
+      "latest_weight_lbs": 148,
+      "official_rating": "83",
+      "recent_form": "800-35",
+      "last_run_days": 19,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newton Abbot": 2
+      },
+      "distances_seen": {
+        "18.5": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "C Boultbee-Brooks": 2
+      },
+      "jockeys_seen": {
+        "Ned Fox": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973559",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "7:15",
+          "off_dt": "2026-06-23T19:15:00+01:00",
+          "race_name": "EBCS Hideout Novices' Limited Handicap Hurdle",
+          "distance_f": 18.5,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Bowling Shane",
+          "horse_id": "hrs_51766757",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "C Boultbee-Brooks",
+          "trainer_id": "trn_342837",
+          "jockey": "Ned Fox",
+          "jockey_id": "jky_299007",
+          "draw": 0,
+          "number": null,
+          "lbs": 148,
+          "ofr": "83",
+          "last_run": 19,
+          "form": "800-35",
+          "headgear": "t",
+          "_stored_at": "2026-06-23T21:32:41.686321+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973559",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "7:15",
+          "off_dt": "2026-06-23T19:15:00+01:00",
+          "race_name": "EBCS Hideout Novices' Limited Handicap Hurdle",
+          "distance_f": 18.5,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Bowling Shane",
+          "horse_id": "hrs_51766757",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "C Boultbee-Brooks",
+          "trainer_id": "trn_342837",
+          "jockey": "Ned Fox",
+          "jockey_id": "jky_299007",
+          "draw": 0,
+          "number": null,
+          "lbs": 148,
+          "ofr": "83",
+          "last_run": 19,
+          "form": "800-35",
+          "headgear": "t",
+          "_stored_at": "2026-06-25T06:53:18.744715+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 18.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 49,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 18.5,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 49,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
     {
       "horse": "Chartwell Jock",
       "horse_id": "hrs_47655412",
@@ -1543,9 +2023,9 @@
     }
   ],
   "notes": [
-    "Chartwell Jock is the top-rated Pulse IQ runner.",
+    "Makinbecon is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Katana is flagged as a possible dark horse."
+    "Privilege is flagged as a possible dark horse."
   ]
 }

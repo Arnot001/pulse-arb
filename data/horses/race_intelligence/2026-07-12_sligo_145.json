@@ -4,134 +4,15 @@
   "course": "Sligo",
   "time": "1:45",
   "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-  "field_size": 14,
-  "average_intelligence": 34.93,
-  "top_score": 59,
-  "second_score": 54,
-  "gap": 5,
-  "confidence_score": 50,
-  "confidence": "LOW",
-  "race_shape": "COMPETITIVE EDGE",
+  "field_size": 8,
+  "average_intelligence": 27.75,
+  "top_score": 54,
+  "second_score": 24,
+  "gap": 30,
+  "confidence_score": 83,
+  "confidence": "GOOD",
+  "race_shape": "CLEAR STANDOUT",
   "top_runner": {
-    "horse": "Hygge",
-    "horse_id": "hrs_57654499",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Sligo",
-    "latest_time": "1:45",
-    "latest_race": "Durkin Bros. Electrical Maiden Hurdle",
-    "latest_date": "2026-07-12",
-    "latest_distance_f": 17.5,
-    "latest_class": "",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Gordon Elliott",
-    "latest_jockey": "",
-    "latest_draw": 0,
-    "latest_weight_lbs": null,
-    "official_rating": "115",
-    "recent_form": "3333-",
-    "last_run_days": null,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Sligo": 1
-    },
-    "distances_seen": {
-      "17.5": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Gordon Elliott": 1
-    },
-    "jockeys_seen": {},
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 77,
-    "latest_notes": [
-      "Strong recent form",
-      "Helpful draw",
-      "Trainer bonus +2",
-      "Stable flying +4 (15/15 last 14 days)",
-      "Jockey bonus +3",
-      "Jockey flying +4 (3/6 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12018474",
-        "course": "Sligo",
-        "date": "2026-07-12",
-        "off_time": "1:45",
-        "off_dt": "2026-07-12T13:45:00+01:00",
-        "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-        "distance_f": 17.5,
-        "race_class": "",
-        "race_type": "Hurdle",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 14,
-        "horse": "Hygge",
-        "horse_id": "hrs_57654499",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Gordon Elliott",
-        "trainer_id": "trn_163305",
-        "jockey": "",
-        "jockey_id": "",
-        "draw": 0,
-        "number": 6,
-        "lbs": null,
-        "ofr": "115",
-        "last_run": null,
-        "form": "3333-",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Sligo",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 17.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 59,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Sligo",
-      "latest_distance_f": 17.5,
-      "latest_going": "Good To Firm",
-      "latest_class": "",
-      "latest_pulse_score": 77,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Manoir De Mirande",
     "horse_id": "hrs_58411192",
     "age": 4,
@@ -347,11 +228,37 @@
       "average_pulse_score": 0,
       "profile_runs": 4,
       "runs_count": 4
-    }
+    },
+    "latest_result": {
+      "source": "sporting_life_enriched",
+      "result_date": "2026-07-12",
+      "course": "Sligo",
+      "race_time": "12:10",
+      "race_name": "Durkin Bros. Electrical Maiden Hurdle",
+      "race_id": "rac_12018474",
+      "status": null,
+      "finish_position": 1,
+      "sp": "3/1",
+      "favourite_position": null,
+      "going": "Good",
+      "distance": "2m 1f 90y",
+      "field_size": "14",
+      "trainer": "Gordon Elliott",
+      "jockey": "",
+      "distance_beaten": null,
+      "won": true,
+      "placed": true,
+      "attached_at": "2026-07-15T06:36:21"
+    },
+    "latest_result_position": 1,
+    "latest_result_sp": "3/1",
+    "latest_result_won": true,
+    "latest_result_placed": true,
+    "latest_result_date": "2026-07-12"
   },
-  "dark_horse": {
-    "horse": "Whats New",
-    "horse_id": "hrs_45413158",
+  "main_threat": {
+    "horse": "Beat The Devil",
+    "horse_id": "hrs_51650298",
     "age": 4,
     "sex": "gelding",
     "latest_course": "Sligo",
@@ -362,75 +269,35 @@
     "latest_class": "",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Andrew Slattery",
+    "latest_trainer": "Patrick Magee",
     "latest_jockey": "",
     "latest_draw": 0,
     "latest_weight_lbs": null,
-    "official_rating": "107",
-    "recent_form": "64-3O2",
-    "last_run_days": 8,
-    "profile_runs": 3,
+    "official_rating": "-",
+    "recent_form": "P-9",
+    "last_run_days": 28,
+    "profile_runs": 2,
     "courses_seen": {
-      "Sligo": 2,
-      "Bellewstown": 1
+      "Sligo": 2
     },
     "distances_seen": {
-      "17.5": 2,
-      "17.0": 1
+      "17.5": 2
     },
     "goings_seen": {
-      "Good": 1,
       "Good To Firm": 1
     },
     "classes_seen": {},
     "trainers_seen": {
-      "Andrew Slattery": 3
+      "Patrick Magee": 2
     },
     "jockeys_seen": {
-      "Cian Quirke": 2
+      "Eoghan Finegan(5)": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 61,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Stable in form +2 (1/1 last 14 days)",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12010271",
-        "course": "Bellewstown",
-        "date": "2026-07-04",
-        "off_time": "5:48",
-        "off_dt": "2026-07-04T17:48:00+01:00",
-        "race_name": "Grimme Ireland Maiden Hurdle",
-        "distance_f": 17.0,
-        "race_class": "",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 16,
-        "horse": "Whats New",
-        "horse_id": "hrs_45413158",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Andrew Slattery",
-        "trainer_id": "trn_95292",
-        "jockey": "Cian Quirke",
-        "jockey_id": "jky_298452",
-        "draw": 0,
-        "number": 4,
-        "lbs": 162,
-        "ofr": "105",
-        "last_run": 29,
-        "form": "564-3O",
-        "headgear": ""
-      },
       {
         "source": "the_racing_api",
         "race_id": "rac_13000001300",
@@ -445,21 +312,21 @@
         "going": "",
         "surface": "Turf",
         "field_size": 12,
-        "horse": "Whats New",
-        "horse_id": "hrs_45413158",
+        "horse": "Beat The Devil",
+        "horse_id": "hrs_51650298",
         "age": 4,
         "sex": "gelding",
-        "trainer": "Andrew Slattery",
-        "trainer_id": "trn_95292",
-        "jockey": "Cian Quirke",
-        "jockey_id": "jky_298452",
+        "trainer": "Patrick Magee",
+        "trainer_id": "trn_331659",
+        "jockey": "Eoghan Finegan(5)",
+        "jockey_id": "jky_302619",
         "draw": 0,
-        "number": 3,
+        "number": 1,
         "lbs": 161,
-        "ofr": "107",
-        "last_run": 8,
-        "form": "64-3R2",
-        "headgear": ""
+        "ofr": "",
+        "last_run": 28,
+        "form": "P-9",
+        "headgear": "ht"
       },
       {
         "source": "the_racing_api",
@@ -475,27 +342,24 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 14,
-        "horse": "Whats New",
-        "horse_id": "hrs_45413158",
+        "horse": "Beat The Devil",
+        "horse_id": "hrs_51650298",
         "age": 4,
         "sex": "gelding",
-        "trainer": "Andrew Slattery",
-        "trainer_id": "trn_95292",
+        "trainer": "Patrick Magee",
+        "trainer_id": "trn_331659",
         "jockey": "",
         "jockey_id": "",
         "draw": 0,
-        "number": 14,
+        "number": 1,
         "lbs": null,
-        "ofr": "107",
-        "last_run": 8,
-        "form": "64-3O2",
+        "ofr": "-",
+        "last_run": 28,
+        "form": "P-9",
         "headgear": ""
       }
     ],
-    "profile_notes": [
-      "Profile has multiple stored runs",
-      "Recent run timing"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Sligo",
       "runs": 2
@@ -505,22 +369,24 @@
       "runs": 2
     },
     "favourite_going": {
-      "value": "Good",
+      "value": "Good To Firm",
       "runs": 1
     },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 55,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 71,
-    "horse_intelligence_score": 49,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile"
+      "Low latest Pulse Score",
+      "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
@@ -528,132 +394,183 @@
       "latest_distance_f": 17.5,
       "latest_going": "Good To Firm",
       "latest_class": "",
-      "latest_pulse_score": 61,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
-      "profile_runs": 3,
-      "runs_count": 3
+      "profile_runs": 2,
+      "runs_count": 2
     }
   },
-  "runners": [
-    {
-      "horse": "Hygge",
-      "horse_id": "hrs_57654499",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sligo",
-      "latest_time": "1:45",
-      "latest_race": "Durkin Bros. Electrical Maiden Hurdle",
-      "latest_date": "2026-07-12",
-      "latest_distance_f": 17.5,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gordon Elliott",
-      "latest_jockey": "",
-      "latest_draw": 0,
-      "latest_weight_lbs": null,
-      "official_rating": "115",
-      "recent_form": "3333-",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sligo": 1
-      },
-      "distances_seen": {
-        "17.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Gordon Elliott": 1
-      },
-      "jockeys_seen": {},
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 77,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable flying +4 (15/15 last 14 days)",
-        "Jockey bonus +3",
-        "Jockey flying +4 (3/6 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12018474",
-          "course": "Sligo",
-          "date": "2026-07-12",
-          "off_time": "1:45",
-          "off_dt": "2026-07-12T13:45:00+01:00",
-          "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-          "distance_f": 17.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Hygge",
-          "horse_id": "hrs_57654499",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 0,
-          "number": 6,
-          "lbs": null,
-          "ofr": "115",
-          "last_run": null,
-          "form": "3333-",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sligo",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 59,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sligo",
-        "latest_distance_f": 17.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 77,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
+  "dark_horse": {
+    "horse": "Bobby Kirova",
+    "horse_id": "hrs_57286803",
+    "age": 4,
+    "sex": "gelding",
+    "latest_course": "Sligo",
+    "latest_time": "1:45",
+    "latest_race": "Durkin Bros. Electrical Maiden Hurdle",
+    "latest_date": "2026-07-12",
+    "latest_distance_f": 17.5,
+    "latest_class": "",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Michael Butler",
+    "latest_jockey": "",
+    "latest_draw": 0,
+    "latest_weight_lbs": null,
+    "official_rating": "-",
+    "recent_form": "",
+    "last_run_days": null,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Sligo": 2
     },
+    "distances_seen": {
+      "17.5": 2
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Michael Butler": 2
+    },
+    "jockeys_seen": {
+      "Joshua Halford(7)": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000001300",
+        "course": "Sligo",
+        "date": "2026-07-12",
+        "off_time": "1:10",
+        "off_dt": "2026-07-12T13:10:00+01:00",
+        "race_name": "Durkin Bros. Electrical Maiden Hurdle",
+        "distance_f": 17.5,
+        "race_class": "",
+        "race_type": "Hurdle",
+        "going": "",
+        "surface": "Turf",
+        "field_size": 12,
+        "horse": "Bobby Kirova",
+        "horse_id": "hrs_57286803",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Michael Butler",
+        "trainer_id": "trn_40797",
+        "jockey": "Joshua Halford(7)",
+        "jockey_id": "jky_304809",
+        "draw": 0,
+        "number": 5,
+        "lbs": 153,
+        "ofr": "",
+        "last_run": 30,
+        "form": "",
+        "headgear": "t"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12018474",
+        "course": "Sligo",
+        "date": "2026-07-12",
+        "off_time": "1:45",
+        "off_dt": "2026-07-12T13:45:00+01:00",
+        "race_name": "Durkin Bros. Electrical Maiden Hurdle",
+        "distance_f": 17.5,
+        "race_class": "",
+        "race_type": "Hurdle",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 14,
+        "horse": "Bobby Kirova",
+        "horse_id": "hrs_57286803",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Michael Butler",
+        "trainer_id": "trn_40797",
+        "jockey": "",
+        "jockey_id": "",
+        "draw": 0,
+        "number": 2,
+        "lbs": null,
+        "ofr": "-",
+        "last_run": null,
+        "form": "",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Sligo",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 17.5,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Sligo",
+      "latest_distance_f": 17.5,
+      "latest_going": "Good To Firm",
+      "latest_class": "",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    },
+    "latest_result": {
+      "source": "sporting_life_enriched",
+      "result_date": "2026-07-12",
+      "course": "Sligo",
+      "race_time": "12:10",
+      "race_name": "Durkin Bros. Electrical Maiden Hurdle",
+      "race_id": "rac_12018474",
+      "status": null,
+      "finish_position": 3,
+      "sp": "50/1",
+      "favourite_position": null,
+      "going": "Good",
+      "distance": "2m 1f 90y",
+      "field_size": "14",
+      "trainer": "Michael Butler",
+      "jockey": "",
+      "distance_beaten": null,
+      "won": false,
+      "placed": true,
+      "attached_at": "2026-07-15T06:36:21"
+    },
+    "latest_result_position": 3,
+    "latest_result_sp": "50/1",
+    "latest_result_won": false,
+    "latest_result_placed": true,
+    "latest_result_date": "2026-07-12"
+  },
+  "runners": [
     {
       "horse": "Manoir De Mirande",
       "horse_id": "hrs_58411192",
@@ -870,793 +787,33 @@
         "average_pulse_score": 0,
         "profile_runs": 4,
         "runs_count": 4
-      }
-    },
-    {
-      "horse": "Whats New",
-      "horse_id": "hrs_45413158",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sligo",
-      "latest_time": "1:45",
-      "latest_race": "Durkin Bros. Electrical Maiden Hurdle",
-      "latest_date": "2026-07-12",
-      "latest_distance_f": 17.5,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Andrew Slattery",
-      "latest_jockey": "",
-      "latest_draw": 0,
-      "latest_weight_lbs": null,
-      "official_rating": "107",
-      "recent_form": "64-3O2",
-      "last_run_days": 8,
-      "profile_runs": 3,
-      "courses_seen": {
-        "Sligo": 2,
-        "Bellewstown": 1
       },
-      "distances_seen": {
-        "17.5": 2,
-        "17.0": 1
+      "latest_result": {
+        "source": "sporting_life_enriched",
+        "result_date": "2026-07-12",
+        "course": "Sligo",
+        "race_time": "12:10",
+        "race_name": "Durkin Bros. Electrical Maiden Hurdle",
+        "race_id": "rac_12018474",
+        "status": null,
+        "finish_position": 1,
+        "sp": "3/1",
+        "favourite_position": null,
+        "going": "Good",
+        "distance": "2m 1f 90y",
+        "field_size": "14",
+        "trainer": "Gordon Elliott",
+        "jockey": "",
+        "distance_beaten": null,
+        "won": true,
+        "placed": true,
+        "attached_at": "2026-07-15T06:36:21"
       },
-      "goings_seen": {
-        "Good": 1,
-        "Good To Firm": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Andrew Slattery": 3
-      },
-      "jockeys_seen": {
-        "Cian Quirke": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 61,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010271",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "5:48",
-          "off_dt": "2026-07-04T17:48:00+01:00",
-          "race_name": "Grimme Ireland Maiden Hurdle",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Whats New",
-          "horse_id": "hrs_45413158",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Andrew Slattery",
-          "trainer_id": "trn_95292",
-          "jockey": "Cian Quirke",
-          "jockey_id": "jky_298452",
-          "draw": 0,
-          "number": 4,
-          "lbs": 162,
-          "ofr": "105",
-          "last_run": 29,
-          "form": "564-3O",
-          "headgear": ""
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001300",
-          "course": "Sligo",
-          "date": "2026-07-12",
-          "off_time": "1:10",
-          "off_dt": "2026-07-12T13:10:00+01:00",
-          "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-          "distance_f": 17.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Whats New",
-          "horse_id": "hrs_45413158",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Andrew Slattery",
-          "trainer_id": "trn_95292",
-          "jockey": "Cian Quirke",
-          "jockey_id": "jky_298452",
-          "draw": 0,
-          "number": 3,
-          "lbs": 161,
-          "ofr": "107",
-          "last_run": 8,
-          "form": "64-3R2",
-          "headgear": ""
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12018474",
-          "course": "Sligo",
-          "date": "2026-07-12",
-          "off_time": "1:45",
-          "off_dt": "2026-07-12T13:45:00+01:00",
-          "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-          "distance_f": 17.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Whats New",
-          "horse_id": "hrs_45413158",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Andrew Slattery",
-          "trainer_id": "trn_95292",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 0,
-          "number": 14,
-          "lbs": null,
-          "ofr": "107",
-          "last_run": 8,
-          "form": "64-3O2",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Profile has multiple stored runs",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Sligo",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 17.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 55,
-      "class_suitability_score": 50,
-      "suitability_score": 71,
-      "horse_intelligence_score": 49,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sligo",
-        "latest_distance_f": 17.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 61,
-        "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
-      }
-    },
-    {
-      "horse": "Georg Zhukov",
-      "horse_id": "hrs_41379471",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sligo",
-      "latest_time": "1:45",
-      "latest_race": "Durkin Bros. Electrical Maiden Hurdle",
-      "latest_date": "2026-07-12",
-      "latest_distance_f": 17.5,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Eamonn O'Connell",
-      "latest_jockey": "",
-      "latest_draw": 0,
-      "latest_weight_lbs": null,
-      "official_rating": "97",
-      "recent_form": "555-",
-      "last_run_days": 98,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sligo": 1
-      },
-      "distances_seen": {
-        "17.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Eamonn O'Connell": 1
-      },
-      "jockeys_seen": {},
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12018474",
-          "course": "Sligo",
-          "date": "2026-07-12",
-          "off_time": "1:45",
-          "off_dt": "2026-07-12T13:45:00+01:00",
-          "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-          "distance_f": 17.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Georg Zhukov",
-          "horse_id": "hrs_41379471",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Eamonn O'Connell",
-          "trainer_id": "trn_186300",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 0,
-          "number": 5,
-          "lbs": null,
-          "ofr": "97",
-          "last_run": 98,
-          "form": "555-",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Sligo",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sligo",
-        "latest_distance_f": 17.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 50,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "I'm All In",
-      "horse_id": "hrs_57718759",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Sligo",
-      "latest_time": "1:45",
-      "latest_race": "Durkin Bros. Electrical Maiden Hurdle",
-      "latest_date": "2026-07-12",
-      "latest_distance_f": 17.5,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gordon Elliott",
-      "latest_jockey": "",
-      "latest_draw": 0,
-      "latest_weight_lbs": null,
-      "official_rating": "-",
-      "recent_form": "UU0-",
-      "last_run_days": 209,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sligo": 2
-      },
-      "distances_seen": {
-        "17.5": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Gordon Elliott": 2
-      },
-      "jockeys_seen": {
-        "Sam Ewing": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 35,
-      "latest_notes": [
-        "Weak recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable flying +4 (15/15 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001300",
-          "course": "Sligo",
-          "date": "2026-07-12",
-          "off_time": "1:10",
-          "off_dt": "2026-07-12T13:10:00+01:00",
-          "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-          "distance_f": 17.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "I'm All In",
-          "horse_id": "hrs_57718759",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "Sam Ewing",
-          "jockey_id": "jky_301095",
-          "draw": 0,
-          "number": 6,
-          "lbs": 153,
-          "ofr": "",
-          "last_run": 209,
-          "form": "UU0-",
-          "headgear": ""
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12018474",
-          "course": "Sligo",
-          "date": "2026-07-12",
-          "off_time": "1:45",
-          "off_dt": "2026-07-12T13:45:00+01:00",
-          "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-          "distance_f": 17.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "I'm All In",
-          "horse_id": "hrs_57718759",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 0,
-          "number": 7,
-          "lbs": null,
-          "ofr": "-",
-          "last_run": 209,
-          "form": "UU0-",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Sligo",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 17.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 40,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sligo",
-        "latest_distance_f": 17.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 35,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Pebble Island",
-      "horse_id": "hrs_48414142",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sligo",
-      "latest_time": "1:45",
-      "latest_race": "Durkin Bros. Electrical Maiden Hurdle",
-      "latest_date": "2026-07-12",
-      "latest_distance_f": 17.5,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "John C McConnell",
-      "latest_jockey": "",
-      "latest_draw": 0,
-      "latest_weight_lbs": null,
-      "official_rating": "-",
-      "recent_form": "6U-4",
-      "last_run_days": 8,
-      "profile_runs": 3,
-      "courses_seen": {
-        "Sligo": 2,
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.5": 2,
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1,
-        "Good To Firm": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "John C McConnell": 3
-      },
-      "jockeys_seen": {
-        "Dylan Kidd(7)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 41,
-      "latest_notes": [
-        "Weak recent form",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010258",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "5:15",
-          "off_dt": "2026-07-04T17:15:00+01:00",
-          "race_name": "Dickie McGuinness Novice Hurdle",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Pebble Island",
-          "horse_id": "hrs_48414142",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "John C McConnell",
-          "trainer_id": "trn_132759",
-          "jockey": "Dylan Kidd(7)",
-          "jockey_id": "jky_305829",
-          "draw": 0,
-          "number": 5,
-          "lbs": 154,
-          "ofr": "-",
-          "last_run": null,
-          "form": "6U-",
-          "headgear": "t"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001300",
-          "course": "Sligo",
-          "date": "2026-07-12",
-          "off_time": "1:10",
-          "off_dt": "2026-07-12T13:10:00+01:00",
-          "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-          "distance_f": 17.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Pebble Island",
-          "horse_id": "hrs_48414142",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "John C McConnell",
-          "trainer_id": "trn_132759",
-          "jockey": "Dylan Kidd(7)",
-          "jockey_id": "jky_305829",
-          "draw": 0,
-          "number": 8,
-          "lbs": 153,
-          "ofr": "",
-          "last_run": 8,
-          "form": "6U-4",
-          "headgear": "tp"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12018474",
-          "course": "Sligo",
-          "date": "2026-07-12",
-          "off_time": "1:45",
-          "off_dt": "2026-07-12T13:45:00+01:00",
-          "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-          "distance_f": 17.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Pebble Island",
-          "horse_id": "hrs_48414142",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "John C McConnell",
-          "trainer_id": "trn_132759",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 0,
-          "number": 11,
-          "lbs": null,
-          "ofr": "-",
-          "last_run": 8,
-          "form": "6U-4",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Profile has multiple stored runs",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Sligo",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 17.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 55,
-      "class_suitability_score": 50,
-      "suitability_score": 71,
-      "horse_intelligence_score": 40,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sligo",
-        "latest_distance_f": 17.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 41,
-        "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
-      }
-    },
-    {
-      "horse": "Noble Rocco",
-      "horse_id": "hrs_63171339",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Sligo",
-      "latest_time": "1:45",
-      "latest_race": "Durkin Bros. Electrical Maiden Hurdle",
-      "latest_date": "2026-07-12",
-      "latest_distance_f": 17.5,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gordon Elliott",
-      "latest_jockey": "",
-      "latest_draw": 0,
-      "latest_weight_lbs": null,
-      "official_rating": "-",
-      "recent_form": "7",
-      "last_run_days": 48,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Sligo": 2
-      },
-      "distances_seen": {
-        "17.5": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Gordon Elliott": 2
-      },
-      "jockeys_seen": {
-        "Danny Gilligan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 21,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Non-runner risk",
-        "Trainer bonus +2",
-        "Stable flying +4 (15/15 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001300",
-          "course": "Sligo",
-          "date": "2026-07-12",
-          "off_time": "1:10",
-          "off_dt": "2026-07-12T13:10:00+01:00",
-          "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-          "distance_f": 17.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Noble Rocco",
-          "horse_id": "hrs_63171339",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "Danny Gilligan",
-          "jockey_id": "jky_304860",
-          "draw": 0,
-          "number": 11,
-          "lbs": 146,
-          "ofr": "",
-          "last_run": 48,
-          "form": "7",
-          "headgear": ""
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12018474",
-          "course": "Sligo",
-          "date": "2026-07-12",
-          "off_time": "1:45",
-          "off_dt": "2026-07-12T13:45:00+01:00",
-          "race_name": "Durkin Bros. Electrical Maiden Hurdle",
-          "distance_f": 17.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Noble Rocco",
-          "horse_id": "hrs_63171339",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 0,
-          "number": 10,
-          "lbs": null,
-          "ofr": "-",
-          "last_run": 48,
-          "form": "7",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sligo",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 17.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 33,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sligo",
-        "latest_distance_f": 17.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": 21,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+      "latest_result_position": 1,
+      "latest_result_sp": "3/1",
+      "latest_result_won": true,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-12"
     },
     {
       "horse": "Beat The Devil",
@@ -1944,7 +1101,33 @@
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
-      }
+      },
+      "latest_result": {
+        "source": "sporting_life_enriched",
+        "result_date": "2026-07-12",
+        "course": "Sligo",
+        "race_time": "12:10",
+        "race_name": "Durkin Bros. Electrical Maiden Hurdle",
+        "race_id": "rac_12018474",
+        "status": null,
+        "finish_position": 3,
+        "sp": "50/1",
+        "favourite_position": null,
+        "going": "Good",
+        "distance": "2m 1f 90y",
+        "field_size": "14",
+        "trainer": "Michael Butler",
+        "jockey": "",
+        "distance_beaten": null,
+        "won": false,
+        "placed": true,
+        "attached_at": "2026-07-15T06:36:21"
+      },
+      "latest_result_position": 3,
+      "latest_result_sp": "50/1",
+      "latest_result_won": false,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-12"
     },
     {
       "horse": "Casheldale Lass",
@@ -2668,8 +1851,9 @@
     }
   ],
   "notes": [
-    "Hygge is the top-rated Pulse IQ runner.",
+    "Manoir De Mirande is the top-rated Pulse IQ runner.",
+    "The top runner has a clear intelligence gap over the field.",
     "This race has a generally weak profile strength.",
-    "Whats New is flagged as a possible dark horse."
+    "Bobby Kirova is flagged as a possible dark horse."
   ]
 }

@@ -15,7 +15,7 @@ from app.modules.dashboard import get_dashboard_data
 from app.modules.betting.builder import build_bets
 from app.modules.football.routes import get_football_leaderboard
 from collectors.daily_update import run_jobs
-from collectors.pulse_live_engine import run_loop as run_pulse_live_engine
+from collectors.pulse_live_engine import (LIVE_ENGINE_BUSY,run_loop as run_pulse_live_engine,)
 from fastapi import FastAPI, Query, HTTPException, Form, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
@@ -65,42 +65,20 @@ logging.basicConfig(level=logging.INFO)
 PULSE_LIVE_THREAD = None
 PULSE_LIVE_ENABLED = os.getenv("PULSE_LIVE_ENABLED", "1") == "1"
 
-
-@app.on_event("startup")
-def start_pulse_live_engine():
-    global PULSE_LIVE_THREAD
-
-    if not PULSE_LIVE_ENABLED:
-        print("Pulse Live Engine disabled.")
-        return
-
-    if PULSE_LIVE_THREAD and PULSE_LIVE_THREAD.is_alive():
-        return
-
-    PULSE_LIVE_THREAD = threading.Thread(
-        target=run_pulse_live_engine,
-        daemon=True,
-    )
-
-    PULSE_LIVE_THREAD.start()
-
-    print("Pulse Live Engine plugged in ✅")
-
 UPDATE_LOCK = threading.Lock()
 
 UPDATE_STATUS = {
     "running": False,
-    "mode": None,
-    "current_task": "Ready",
+    "mode": "",
+    "current_task": "",
     "percent": 0,
-    "bar": "░░░░░░░░░░░░░░░░░░░░ 0%",
+    "bar": "",
     "completed": [],
     "failed": [],
     "started_at": None,
     "finished_at": None,
     "runtime": None,
 }
-
 
 def build_progress_bar(percent):
     filled = int(percent / 5)
@@ -153,6 +131,37 @@ def run_update_job(mode):
         UPDATE_STATUS["finished_at"] = finished_at
         UPDATE_STATUS["runtime"] = summary["runtime"]
 
+def is_manual_update_running():
+    with UPDATE_LOCK:
+        return bool(UPDATE_STATUS["running"])
+
+def has_manual_update_completed():
+    with UPDATE_LOCK:
+        return UPDATE_STATUS["finished_at"] is not None
+
+@app.on_event("startup")
+def start_pulse_live_engine():
+    global PULSE_LIVE_THREAD
+
+    if not PULSE_LIVE_ENABLED:
+        print("Pulse Live Engine disabled.")
+        return
+
+    if PULSE_LIVE_THREAD and PULSE_LIVE_THREAD.is_alive():
+        return
+
+    PULSE_LIVE_THREAD = threading.Thread(
+        target=run_pulse_live_engine,
+        kwargs={
+            "is_manual_update_running": is_manual_update_running,
+            "has_manual_update_completed": has_manual_update_completed,
+        },
+        daemon=True,
+    )
+
+    PULSE_LIVE_THREAD.start()
+
+    print("Pulse Live Engine plugged in ✅")
 
 def start_update(mode, redirect_url="/"):
     with UPDATE_LOCK:
@@ -161,6 +170,18 @@ def start_update(mode, redirect_url="/"):
                 url=f"{redirect_url}?update=already-running",
                 status_code=303,
             )
+
+        if LIVE_ENGINE_BUSY.is_set():
+            return RedirectResponse(
+                url=f"{redirect_url}?update=live-engine-running",
+                status_code=303,
+            )
+
+        # Reserve the update slot before starting the thread so the
+        # live engine cannot begin during this small transition.
+        UPDATE_STATUS["running"] = True
+        UPDATE_STATUS["mode"] = mode
+        UPDATE_STATUS["current_task"] = "Queued..."
 
     thread = threading.Thread(
         target=run_update_job,

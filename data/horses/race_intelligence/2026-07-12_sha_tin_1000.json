@@ -4,7 +4,7 @@
   "course": "Sha Tin",
   "time": "10:00",
   "race_name": "Pingwu Spark Handicap",
-  "field_size": 16,
+  "field_size": 12,
   "average_intelligence": 24.0,
   "top_score": 24,
   "second_score": 24,
@@ -928,122 +928,6 @@
       }
     },
     {
-      "horse": "Flying Sniper",
-      "horse_id": "hrs_7000001771",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "10:00",
-      "latest_race": "Pingwu Spark Handicap",
-      "latest_date": "2026-07-12",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "D J Hall",
-      "latest_jockey": "Zac Purton",
-      "latest_draw": 4,
-      "latest_weight_lbs": 120,
-      "official_rating": "43",
-      "recent_form": "576845",
-      "last_run_days": 11,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "D J Hall": 1
-      },
-      "jockeys_seen": {
-        "Zac Purton": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001781",
-          "course": "Sha Tin",
-          "date": "2026-07-12",
-          "off_time": "10:00",
-          "off_dt": "2026-07-12T10:00:00+01:00",
-          "race_name": "Pingwu Spark Handicap",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Flying Sniper",
-          "horse_id": "hrs_7000001771",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "D J Hall",
-          "trainer_id": "trn_211005",
-          "jockey": "Zac Purton",
-          "jockey_id": "jky_247017",
-          "draw": 4,
-          "number": 13,
-          "lbs": 120,
-          "ofr": "43",
-          "last_run": 11,
-          "form": "576845",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
       "horse": "Goldentronicmighty",
       "horse_id": "hrs_7000001183",
       "age": 5,
@@ -1271,7 +1155,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "sporting_life_enriched",
+        "result_date": "2026-07-12",
+        "course": "Sha Tin",
+        "race_time": "09:00",
+        "race_name": "Pingwu Spark Handicap",
+        "race_id": "rac_13000001781",
+        "status": null,
+        "finish_position": 1,
+        "sp": "",
+        "favourite_position": null,
+        "going": "Good to Firm",
+        "distance": "7f",
+        "field_size": "14",
+        "trainer": "K Man",
+        "jockey": "C Y Ho",
+        "distance_beaten": null,
+        "won": true,
+        "placed": true,
+        "attached_at": "2026-07-15T06:36:21"
+      },
+      "latest_result_position": 1,
+      "latest_result_sp": "",
+      "latest_result_won": true,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-12"
     },
     {
       "horse": "Green Autumn",
@@ -1502,122 +1412,6 @@
       }
     },
     {
-      "horse": "Ka Ying Glory",
-      "horse_id": "hrs_7000001379",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "10:00",
-      "latest_race": "Pingwu Spark Handicap",
-      "latest_date": "2026-07-12",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "D Hayes",
-      "latest_jockey": "M F Poon",
-      "latest_draw": 9,
-      "latest_weight_lbs": 124,
-      "official_rating": "47",
-      "recent_form": "080-05",
-      "last_run_days": 165,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "D Hayes": 1
-      },
-      "jockeys_seen": {
-        "M F Poon": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001781",
-          "course": "Sha Tin",
-          "date": "2026-07-12",
-          "off_time": "10:00",
-          "off_dt": "2026-07-12T10:00:00+01:00",
-          "race_name": "Pingwu Spark Handicap",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Ka Ying Glory",
-          "horse_id": "hrs_7000001379",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "D Hayes",
-          "trainer_id": "trn_31950",
-          "jockey": "M F Poon",
-          "jockey_id": "jky_287175",
-          "draw": 9,
-          "number": 9,
-          "lbs": 124,
-          "ofr": "47",
-          "last_run": 165,
-          "form": "080-05",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
       "horse": "Lady's Love",
       "horse_id": "hrs_7000001750",
       "age": 3,
@@ -1687,120 +1481,6 @@
           "ofr": "56",
           "last_run": 29,
           "form": "50060",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Light Years Glory",
-      "horse_id": "hrs_7000001428",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "10:00",
-      "latest_race": "Pingwu Spark Handicap",
-      "latest_date": "2026-07-12",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "D Eustace",
-      "latest_jockey": "Reserve 2",
-      "latest_draw": 0,
-      "latest_weight_lbs": 131,
-      "official_rating": "54",
-      "recent_form": "274336",
-      "last_run_days": 15,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "D Eustace": 1
-      },
-      "jockeys_seen": {
-        "Reserve 2": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001781",
-          "course": "Sha Tin",
-          "date": "2026-07-12",
-          "off_time": "10:00",
-          "off_dt": "2026-07-12T10:00:00+01:00",
-          "race_name": "Pingwu Spark Handicap",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Light Years Glory",
-          "horse_id": "hrs_7000001428",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "D Eustace",
-          "trainer_id": "trn_375849",
-          "jockey": "Reserve 2",
-          "jockey_id": "",
-          "draw": 0,
-          "number": null,
-          "lbs": 131,
-          "ofr": "54",
-          "last_run": 15,
-          "form": "274336",
           "headgear": ""
         }
       ],
@@ -1960,120 +1640,6 @@
       }
     },
     {
-      "horse": "Sky Deep",
-      "horse_id": "hrs_7000001190",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "10:00",
-      "latest_race": "Pingwu Spark Handicap",
-      "latest_date": "2026-07-12",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "C Fownes",
-      "latest_jockey": "Reserve 1",
-      "latest_draw": 0,
-      "latest_weight_lbs": 135,
-      "official_rating": "58",
-      "recent_form": "21-625",
-      "last_run_days": 21,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "C Fownes": 1
-      },
-      "jockeys_seen": {
-        "Reserve 1": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000001781",
-          "course": "Sha Tin",
-          "date": "2026-07-12",
-          "off_time": "10:00",
-          "off_dt": "2026-07-12T10:00:00+01:00",
-          "race_name": "Pingwu Spark Handicap",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Sky Deep",
-          "horse_id": "hrs_7000001190",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "C Fownes",
-          "trainer_id": "trn_144855",
-          "jockey": "Reserve 1",
-          "jockey_id": "",
-          "draw": 0,
-          "number": null,
-          "lbs": 135,
-          "ofr": "58",
-          "last_run": 21,
-          "form": "21-625",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
       "horse": "Voyage Boss",
       "horse_id": "hrs_7000001435",
       "age": 4,
@@ -2187,7 +1753,33 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
+      },
+      "latest_result": {
+        "source": "sporting_life_enriched",
+        "result_date": "2026-07-12",
+        "course": "Sha Tin",
+        "race_time": "09:00",
+        "race_name": "Pingwu Spark Handicap",
+        "race_id": "rac_13000001781",
+        "status": null,
+        "finish_position": 3,
+        "sp": "",
+        "favourite_position": null,
+        "going": "Good to Firm",
+        "distance": "7f",
+        "field_size": "14",
+        "trainer": "F C Lor",
+        "jockey": "Nichola Yuen(10)",
+        "distance_beaten": null,
+        "won": false,
+        "placed": true,
+        "attached_at": "2026-07-15T06:36:21"
+      },
+      "latest_result_position": 3,
+      "latest_result_sp": "",
+      "latest_result_won": false,
+      "latest_result_placed": true,
+      "latest_result_date": "2026-07-12"
     }
   ],
   "notes": [

@@ -14,21 +14,35 @@ from app.modules.performance.settlement import settle_bets
 
 
 def run_module(label, module):
-    print(f"\nRunning: {label}")
-
-    result = subprocess.run(
-        [sys.executable, "-m", module],
-        text=True,
-        capture_output=True,
+    print(
+        f"\nRunning: {label}",
+        flush=True,
     )
 
-    if result.stdout:
-        print(result.stdout)
+    process = subprocess.Popen(
+        [
+            sys.executable,
+            "-u",
+            "-m",
+            module,
+        ],
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        bufsize=1,
+    )
 
-    if result.stderr:
-        print(result.stderr)
+    if process.stdout:
+        for line in process.stdout:
+            print(
+                line,
+                end="",
+                flush=True,
+            )
 
-    return result.returncode == 0
+    return_code = process.wait()
+
+    return return_code == 0
 
 
 def get_bet_key(bet):
@@ -69,7 +83,7 @@ def run():
     # can be detected over time.
     market_ok = run_module(
         "Live Market Movers",
-        "collectors.live_oddschecker",
+        "collectors.live_oddschecker_once",
     )
 
     if not market_ok:

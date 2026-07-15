@@ -16,7 +16,19 @@ from playwright.sync_api import (
 load_dotenv()
 
 
-def env_flag(name: str, default: bool = False) -> bool:
+DEBUG_WINDOW_WIDTH = 520
+DEBUG_WINDOW_HEIGHT = 420
+DEBUG_WINDOW_X = 1350
+DEBUG_WINDOW_Y = 20
+
+NORMAL_VIEWPORT_WIDTH = 1440
+NORMAL_VIEWPORT_HEIGHT = 1000
+
+
+def env_flag(
+    name: str,
+    default: bool = False,
+) -> bool:
     value = os.getenv(name)
 
     if value is None:
@@ -76,6 +88,50 @@ class SharedBrowserManager:
             default=True,
         )
 
+    def _build_launch_args(
+        self,
+        resolved_headless: bool,
+    ) -> list[str]:
+        args = [
+            "--disable-blink-features=AutomationControlled",
+            "--disable-dev-shm-usage",
+            "--no-sandbox",
+        ]
+
+        if not resolved_headless:
+            args.extend(
+                [
+                    (
+                        "--window-size="
+                        f"{DEBUG_WINDOW_WIDTH},"
+                        f"{DEBUG_WINDOW_HEIGHT}"
+                    ),
+                    (
+                        "--window-position="
+                        f"{DEBUG_WINDOW_X},"
+                        f"{DEBUG_WINDOW_Y}"
+                    ),
+                ]
+            )
+
+        return args
+
+    def _build_viewport(
+        self,
+        resolved_headless: bool,
+    ) -> dict:
+        """
+        Keep every collector on the normal desktop page layout.
+
+        The visible Chromium window may be compact, but the webpage viewport
+        remains large so responsive/mobile layouts are not triggered.
+        """
+
+        return {
+            "width": NORMAL_VIEWPORT_WIDTH,
+            "height": NORMAL_VIEWPORT_HEIGHT,
+        }
+
     def start(
         self,
         headless: Optional[bool] = None,
@@ -91,20 +147,19 @@ class SharedBrowserManager:
             self.playwright = sync_playwright().start()
 
             try:
+                launch_args = self._build_launch_args(
+                    resolved_headless
+                )
+
                 self.browser = self.playwright.chromium.launch(
                     headless=resolved_headless,
-                    args=[
-                        "--disable-blink-features=AutomationControlled",
-                        "--disable-dev-shm-usage",
-                        "--no-sandbox",
-                    ],
+                    args=launch_args,
                 )
 
                 self.context = self.browser.new_context(
-                    viewport={
-                        "width": 1440,
-                        "height": 1000,
-                    },
+                    viewport=self._build_viewport(
+                        resolved_headless
+                    ),
                     user_agent=(
                         "Mozilla/5.0 "
                         "(Windows NT 10.0; Win64; x64) "
@@ -123,6 +178,16 @@ class SharedBrowserManager:
                     "Shared Playwright browser started "
                     f"| headless={resolved_headless}"
                 )
+
+                if not resolved_headless:
+                    print(
+                        "Debug browser window "
+                        f"| {DEBUG_WINDOW_WIDTH}x"
+                        f"{DEBUG_WINDOW_HEIGHT} "
+                        f"| position "
+                        f"{DEBUG_WINDOW_X},"
+                        f"{DEBUG_WINDOW_Y}"
+                    )
 
             except Exception:
                 self._cleanup_failed_start()
@@ -159,7 +224,9 @@ class SharedBrowserManager:
         headless: Optional[bool] = None,
     ) -> Page:
         with self._lock:
-            self.start(headless=headless)
+            self.start(
+                headless=headless
+            )
 
             if not self.context:
                 raise RuntimeError(
@@ -239,4 +306,6 @@ def stop_shared_browser():
     browser_manager.stop()
 
 
-atexit.register(stop_shared_browser)
+atexit.register(
+    stop_shared_browser
+)
