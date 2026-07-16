@@ -2,6 +2,10 @@
 
 {% block title %}
 Pulse IQ Central
+
+
+
+
 {% endblock %}
 
 {% block content %}
@@ -36,6 +40,330 @@ Pulse IQ Central
             {{ notification_message }}
         </div>
     {% endif %}
+
+
+    <style>
+        .daily-update-console {
+            margin: 0 0 24px;
+            padding: 22px;
+            overflow: hidden;
+            border-color: rgba(255,0,140,.18);
+            background:
+                radial-gradient(
+                    circle at top right,
+                    rgba(255,0,140,.10),
+                    transparent 38%
+                ),
+                rgba(13,17,27,.92);
+        }
+
+        .daily-update-console-header,
+        .daily-update-console-summary {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .daily-update-console-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .daily-update-status-dot {
+            width: 11px;
+            height: 11px;
+            border-radius: 999px;
+            background: #8b8fa3;
+            box-shadow: 0 0 12px rgba(139,143,163,.35);
+        }
+
+        .daily-update-status-dot.running {
+            background: #00d8ff;
+            box-shadow: 0 0 14px rgba(0,216,255,.65);
+            animation: dailyUpdatePulse 1.3s infinite;
+        }
+
+        .daily-update-status-dot.complete {
+            background: #48f08a;
+            box-shadow: 0 0 14px rgba(72,240,138,.65);
+        }
+
+        .daily-update-status-dot.failed {
+            background: #ff4a6a;
+            box-shadow: 0 0 14px rgba(255,74,106,.60);
+        }
+
+        @keyframes dailyUpdatePulse {
+            50% { opacity: .38; transform: scale(.82); }
+        }
+
+        .daily-update-console h2 {
+            margin: 0;
+        }
+
+        .daily-update-status-text {
+            margin: 5px 0 0;
+            color: #9ea4b5;
+        }
+
+        .daily-update-badge {
+            padding: 8px 12px;
+            border: 1px solid rgba(255,255,255,.09);
+            border-radius: 999px;
+            background: rgba(255,255,255,.035);
+            color: #aeb3c6;
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: .8px;
+            text-transform: uppercase;
+        }
+
+        .daily-update-progress {
+            height: 12px;
+            margin: 18px 0 14px;
+            overflow: hidden;
+            border: 1px solid rgba(255,255,255,.07);
+            border-radius: 999px;
+            background: #060811;
+        }
+
+        .daily-update-progress-fill {
+            display: block;
+            width: 0;
+            height: 100%;
+            border-radius: inherit;
+            background:
+                linear-gradient(
+                    90deg,
+                    #ff008c,
+                    #792cff,
+                    #00d8ff
+                );
+            box-shadow: 0 0 18px rgba(255,0,140,.35);
+            transition: width .35s ease;
+        }
+
+        .daily-update-metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .daily-update-metric {
+            padding: 12px;
+            border: 1px solid rgba(255,255,255,.07);
+            border-radius: 13px;
+            background: rgba(5,8,16,.72);
+        }
+
+        .daily-update-metric span {
+            display: block;
+            color: #8f94a8;
+            font-size: 10px;
+            font-weight: 900;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .daily-update-metric strong {
+            display: block;
+            margin-top: 6px;
+            font-size: 18px;
+        }
+
+        .daily-update-details {
+            margin-top: 14px;
+            border-top: 1px solid rgba(255,255,255,.06);
+            padding-top: 12px;
+        }
+
+        .daily-update-details summary {
+            cursor: pointer;
+            color: #b9bdca;
+            font-size: 12px;
+            font-weight: 900;
+        }
+
+        .daily-update-detail-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 7px;
+            margin-top: 12px;
+        }
+
+        .daily-update-detail-item {
+            padding: 8px 10px;
+            border-radius: 10px;
+            background: rgba(255,255,255,.025);
+            color: #9ea4b5;
+            font-size: 12px;
+        }
+
+        .daily-update-detail-item.ok {
+            color: #48f08a;
+        }
+
+        .daily-update-detail-item.failed {
+            color: #ff6c83;
+        }
+
+        @media (max-width: 760px) {
+            .daily-update-console-header,
+            .daily-update-console-summary {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+
+            .daily-update-metrics {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .daily-update-detail-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <div
+        class="dashboard-card daily-update-console"
+        id="daily-update-console"
+    >
+        <div class="daily-update-console-header">
+            <div>
+                <div class="daily-update-console-title">
+                    <span
+                        class="
+                            daily-update-status-dot
+                            {% if updated_today %}
+                                complete
+                            {% endif %}
+                        "
+                        id="daily-update-status-dot"
+                    ></span>
+
+                    <h2>Pulse Daily Update</h2>
+                </div>
+
+                <p
+                    class="daily-update-status-text"
+                    id="daily-update-status-text"
+                >
+                    {% if updated_today and daily_update_state %}
+                        Updated today at
+                        {{ daily_update_state.completed_at[11:16] }}.
+                        Reopening Pulse will use this data.
+                    {% elif daily_update_state %}
+                        Last full update:
+                        {{ daily_update_state.date }}.
+                        Today still needs an update.
+                    {% else %}
+                        No completed daily update has been recorded yet.
+                    {% endif %}
+                </p>
+            </div>
+
+            <span
+                class="daily-update-badge"
+                id="daily-update-badge"
+            >
+                {% if updated_today %}
+                    Ready Today
+                {% else %}
+                    Update Required
+                {% endif %}
+            </span>
+        </div>
+
+        <div class="daily-update-progress">
+            <span
+                class="daily-update-progress-fill"
+                id="daily-update-progress-fill"
+                style="
+                    width:
+                    {% if updated_today %}
+                        100%
+                    {% else %}
+                        0%
+                    {% endif %}
+                "
+            ></span>
+        </div>
+
+        <div class="daily-update-metrics">
+            <div class="daily-update-metric">
+                <span>Current Task</span>
+                <strong id="daily-update-current-task">
+                    {% if updated_today %}
+                        Complete
+                    {% else %}
+                        Waiting
+                    {% endif %}
+                </strong>
+            </div>
+
+            <div class="daily-update-metric">
+                <span>Completed</span>
+                <strong id="daily-update-completed">
+                    {% if daily_update_state %}
+                        {{ daily_update_state.completed_count }}
+                    {% else %}
+                        0
+                    {% endif %}
+                </strong>
+            </div>
+
+            <div class="daily-update-metric">
+                <span>Failed</span>
+                <strong id="daily-update-failed">
+                    {% if daily_update_state %}
+                        {{ daily_update_state.failed_count }}
+                    {% else %}
+                        0
+                    {% endif %}
+                </strong>
+            </div>
+
+            <div class="daily-update-metric">
+                <span>Runtime</span>
+                <strong id="daily-update-runtime">
+                    {% if daily_update_state and daily_update_state.runtime %}
+                        {{ daily_update_state.runtime }}s
+                    {% else %}
+                        --
+                    {% endif %}
+                </strong>
+            </div>
+        </div>
+
+        <details class="daily-update-details">
+            <summary>View update report</summary>
+
+            <div
+                class="daily-update-detail-list"
+                id="daily-update-detail-list"
+            >
+                {% if daily_update_state %}
+                    {% for label in daily_update_state.completed %}
+                        <div class="daily-update-detail-item ok">
+                            ✓ {{ label }}
+                        </div>
+                    {% endfor %}
+
+                    {% for label in daily_update_state.failed %}
+                        <div class="daily-update-detail-item failed">
+                            ✕ {{ label }}
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="daily-update-detail-item">
+                        Run Pulse IQ to create the first report.
+                    </div>
+                {% endif %}
+            </div>
+        </details>
+    </div>
 
     <div class="dashboard-grid">
 
@@ -565,5 +893,185 @@ Pulse IQ Central
     </div>
 
 </div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+(() => {
+    const consoleCard = document.getElementById(
+        "daily-update-console"
+    );
+
+    if (!consoleCard) {
+        return;
+    }
+
+    const statusDot = document.getElementById(
+        "daily-update-status-dot"
+    );
+    const statusText = document.getElementById(
+        "daily-update-status-text"
+    );
+    const badge = document.getElementById(
+        "daily-update-badge"
+    );
+    const progressFill = document.getElementById(
+        "daily-update-progress-fill"
+    );
+    const currentTask = document.getElementById(
+        "daily-update-current-task"
+    );
+    const completed = document.getElementById(
+        "daily-update-completed"
+    );
+    const failed = document.getElementById(
+        "daily-update-failed"
+    );
+    const runtime = document.getElementById(
+        "daily-update-runtime"
+    );
+    const detailList = document.getElementById(
+        "daily-update-detail-list"
+    );
+
+    function renderDetails(status) {
+        const done = status.completed || [];
+        const errors = status.failed || [];
+
+        const rows = [
+            ...done.map(label => (
+                `<div class="daily-update-detail-item ok">`
+                + `✓ ${label}</div>`
+            )),
+            ...errors.map(label => (
+                `<div class="daily-update-detail-item failed">`
+                + `✕ ${label}</div>`
+            )),
+        ];
+
+        if (!rows.length && status.all_update) {
+            const savedDone =
+                status.all_update.completed || [];
+            const savedErrors =
+                status.all_update.failed || [];
+
+            rows.push(
+                ...savedDone.map(label => (
+                    `<div class="daily-update-detail-item ok">`
+                    + `✓ ${label}</div>`
+                )),
+                ...savedErrors.map(label => (
+                    `<div class="daily-update-detail-item failed">`
+                    + `✕ ${label}</div>`
+                )),
+            );
+        }
+
+        detailList.innerHTML = rows.length
+            ? rows.join("")
+            : (
+                '<div class="daily-update-detail-item">'
+                + 'No task report yet.</div>'
+            );
+    }
+
+    function renderStatus(status) {
+        const percent = Number(status.percent || 0);
+        const failedCount = Number(
+            status.failed_count || 0
+        );
+        const completedCount = Number(
+            status.completed_count || 0
+        );
+
+        progressFill.style.width = `${percent}%`;
+        currentTask.textContent =
+            status.current_task || "Waiting";
+        completed.textContent = completedCount;
+        failed.textContent = failedCount;
+        runtime.textContent = status.runtime
+            ? `${status.runtime}s`
+            : "--";
+
+        statusDot.classList.remove(
+            "running",
+            "complete",
+            "failed"
+        );
+
+        if (status.running) {
+            statusDot.classList.add("running");
+            badge.textContent = `${percent}% Running`;
+            statusText.textContent =
+                `Running ${status.mode || "update"} · `
+                + `${completedCount} completed · `
+                + `${failedCount} failed`;
+        } else if (failedCount > 0) {
+            statusDot.classList.add("failed");
+            badge.textContent = "Needs Attention";
+            statusText.textContent =
+                "Update finished with errors. "
+                + "Open the report for details.";
+        } else if (status.updated_today) {
+            statusDot.classList.add("complete");
+            badge.textContent = "Ready Today";
+
+            const saved = status.all_update;
+
+            if (saved && saved.completed_at) {
+                statusText.textContent =
+                    "Updated today at "
+                    + saved.completed_at.slice(11, 16)
+                    + ". Reopening Pulse will use this data.";
+            } else {
+                statusText.textContent =
+                    "Today's full update is complete.";
+            }
+        } else {
+            badge.textContent = "Update Required";
+            statusText.textContent =
+                "Today still needs a full Pulse update.";
+        }
+
+        renderDetails(status);
+    }
+
+    async function pollUpdateStatus() {
+        try {
+            const response = await fetch(
+                "/update/status",
+                {cache: "no-store"}
+            );
+
+            if (!response.ok) {
+                return;
+            }
+
+            const status = await response.json();
+            renderStatus(status);
+
+            if (status.running) {
+                setTimeout(pollUpdateStatus, 1200);
+            }
+        } catch (error) {
+            console.error(
+                "Update status check failed:",
+                error
+            );
+        }
+    }
+
+    pollUpdateStatus();
+
+    document.querySelectorAll(
+        'form[action^="/update/"]'
+    ).forEach(form => {
+        form.addEventListener("submit", () => {
+            setTimeout(pollUpdateStatus, 500);
+        });
+    });
+})();
+});
+</script>
 
 {% endblock %}

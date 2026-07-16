@@ -64,6 +64,84 @@ def load_official_settled_bets():
     ]
 
 
+def filter_performance_bets(
+    bets,
+    min_score=None,
+    bet_group="all",
+):
+    """
+    Filter settled bets for Performance Centre analysis.
+
+    bet_group values:
+        all         - every settled Pulse selection
+        official    - official Pulse bets only
+        watchlist   - non-official selections scoring 80+
+        predictions - non-official selections scoring below 80
+    """
+
+    filtered = []
+
+    try:
+        parsed_min_score = (
+            int(min_score)
+            if min_score is not None
+            else None
+        )
+    except (TypeError, ValueError):
+        parsed_min_score = None
+
+    valid_groups = {
+        "all",
+        "official",
+        "watchlist",
+        "predictions",
+    }
+
+    if bet_group not in valid_groups:
+        bet_group = "all"
+
+    for bet in bets:
+        try:
+            pulse_score = int(
+                float(bet.get("pulse_score") or 0)
+            )
+        except (TypeError, ValueError):
+            pulse_score = 0
+
+        if (
+            parsed_min_score is not None
+            and pulse_score < parsed_min_score
+        ):
+            continue
+
+        is_official = bet.get("official_bet") is True
+
+        if bet_group == "official" and not is_official:
+            continue
+
+        if (
+            bet_group == "watchlist"
+            and (
+                is_official
+                or pulse_score < 80
+            )
+        ):
+            continue
+
+        if (
+            bet_group == "predictions"
+            and (
+                is_official
+                or pulse_score >= 80
+            )
+        ):
+            continue
+
+        filtered.append(bet)
+
+    return filtered
+
+
 def calculate_ledger_stats(bets):
     total = len(bets)
 
@@ -121,15 +199,26 @@ def calculate_ledger_stats(bets):
     }
 
 
-def get_verified_official_stats():
+def get_verified_official_stats(min_score=None):
     return calculate_ledger_stats(
-        load_official_settled_bets()
+        filter_performance_bets(
+            load_official_settled_bets(),
+            min_score=min_score,
+            bet_group="official",
+        )
     )
 
 
-def get_all_settled_stats():
+def get_all_settled_stats(
+    min_score=None,
+    bet_group="all",
+):
     return calculate_ledger_stats(
-        load_settled_bets()
+        filter_performance_bets(
+            load_settled_bets(),
+            min_score=min_score,
+            bet_group=bet_group,
+        )
     )
 
 
@@ -189,19 +278,36 @@ def calculate_each_way_stats(bets):
     }
 
 
-def get_verified_official_each_way_stats():
+def get_verified_official_each_way_stats(
+    min_score=None,
+):
     return calculate_each_way_stats(
-        load_official_settled_bets()
+        filter_performance_bets(
+            load_official_settled_bets(),
+            min_score=min_score,
+            bet_group="official",
+        )
     )
 
 
-def get_all_settled_each_way_stats():
+def get_all_settled_each_way_stats(
+    min_score=None,
+    bet_group="all",
+):
     return calculate_each_way_stats(
-        load_settled_bets()
+        filter_performance_bets(
+            load_settled_bets(),
+            min_score=min_score,
+            bet_group=bet_group,
+        )
     )
 
 
-def get_bankroll_history(start_bank=100.0):
+def get_bankroll_history(
+    start_bank=100.0,
+    min_score=None,
+    bet_group="all",
+):
     bankroll = start_bank
     history = []
 
@@ -236,7 +342,11 @@ def get_bankroll_history(start_bank=100.0):
         )
 
     settled = sorted(
-        load_settled_bets(),
+        filter_performance_bets(
+            load_settled_bets(),
+            min_score=min_score,
+            bet_group=bet_group,
+        ),
         key=history_sort_key,
     )
 
@@ -289,6 +399,9 @@ def get_bankroll_history(start_bank=100.0):
             "race_datetime": race_datetime,
             "settled_at": bet.get("settled_at"),
             "won": bet.get("won"),
+            "pulse_score": bet.get("pulse_score"),
+            "official_bet": bet.get("official_bet"),
+            "bet_type": bet.get("bet_type"),
             "odds_available": (
                 bet.get("best_odds_decimal")
                 is not None
@@ -298,7 +411,11 @@ def get_bankroll_history(start_bank=100.0):
     return history
 
 
-def get_each_way_bankroll_history(start_bank=100.0):
+def get_each_way_bankroll_history(
+    start_bank=100.0,
+    min_score=None,
+    bet_group="all",
+):
     bankroll = start_bank
     history = []
 
@@ -333,7 +450,11 @@ def get_each_way_bankroll_history(start_bank=100.0):
         )
 
     settled = sorted(
-        load_settled_bets(),
+        filter_performance_bets(
+            load_settled_bets(),
+            min_score=min_score,
+            bet_group=bet_group,
+        ),
         key=history_sort_key,
     )
 
@@ -389,6 +510,9 @@ def get_each_way_bankroll_history(start_bank=100.0):
             "placed": bet.get("placed"),
             "ew_places_paid": bet.get("ew_places_paid"),
             "ew_fraction": bet.get("ew_fraction"),
+            "pulse_score": bet.get("pulse_score"),
+            "official_bet": bet.get("official_bet"),
+            "bet_type": bet.get("bet_type"),
             "odds_available": (
                 bet.get("ew_available") is True
             ),
@@ -397,9 +521,19 @@ def get_each_way_bankroll_history(start_bank=100.0):
     return history
 
 
-def get_performance_insights():
-    settled = load_settled_bets()
-    stats = get_all_settled_stats()
+def get_performance_insights(
+    min_score=None,
+    bet_group="all",
+):
+    settled = filter_performance_bets(
+        load_settled_bets(),
+        min_score=min_score,
+        bet_group=bet_group,
+    )
+    stats = get_all_settled_stats(
+        min_score=min_score,
+        bet_group=bet_group,
+    )
 
     if not settled:
         return {

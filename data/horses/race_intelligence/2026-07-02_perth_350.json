@@ -4,12 +4,12 @@
   "course": "Perth",
   "time": "3:50",
   "race_name": "PWA Architecture Handicap Hurdle",
-  "field_size": 10,
-  "average_intelligence": 52.5,
-  "top_score": 63,
-  "second_score": 60,
-  "gap": 3,
-  "confidence_score": 53,
+  "field_size": 9,
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 22,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -53,15 +53,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 79,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Trainer bonus +1",
-      "Stable in form +2 (1/1 last 14 days)",
-      "Jockey bonus +2"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -92,7 +85,7 @@
         "last_run": 11,
         "form": "75-313",
         "headgear": "",
-        "_stored_at": "2026-07-02T00:01:31.274451+00:00"
+        "_stored_at": "2026-07-02T04:58:40.491012+00:00"
       }
     ],
     "profile_notes": [
@@ -119,15 +112,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 63,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -136,17 +129,17 @@
       "latest_distance_f": 20.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 79,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Malangen",
-    "horse_id": "hrs_14471653",
-    "age": 11,
-    "sex": "gelding",
+    "horse": "Breaking Ground",
+    "horse_id": "hrs_52267201",
+    "age": 5,
+    "sex": "mare",
     "latest_course": "Perth",
     "latest_time": "3:50",
     "latest_race": "PWA Architecture Handicap Hurdle",
@@ -155,13 +148,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Lisa Harrison",
-    "latest_jockey": "Peter Kavanagh",
+    "latest_trainer": "R Mike Smith",
+    "latest_jockey": "Bruce Lynn",
     "latest_draw": 0,
-    "latest_weight_lbs": 150,
-    "official_rating": "81",
-    "recent_form": "3232U2",
-    "last_run_days": 11,
+    "latest_weight_lbs": 148,
+    "official_rating": "79",
+    "recent_form": "P50-08",
+    "last_run_days": 25,
     "profile_runs": 1,
     "courses_seen": {
       "Perth": 1
@@ -176,21 +169,15 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Lisa Harrison": 1
+      "R Mike Smith": 1
     },
     "jockeys_seen": {
-      "Peter Kavanagh": 1
+      "Bruce Lynn": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 73,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Trainer bonus +1",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -206,27 +193,25 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 11,
-        "horse": "Malangen",
-        "horse_id": "hrs_14471653",
-        "age": 11,
-        "sex": "gelding",
-        "trainer": "Lisa Harrison",
-        "trainer_id": "trn_134757",
-        "jockey": "Peter Kavanagh",
-        "jockey_id": "jky_238497",
+        "horse": "Breaking Ground",
+        "horse_id": "hrs_52267201",
+        "age": 5,
+        "sex": "mare",
+        "trainer": "R Mike Smith",
+        "trainer_id": "trn_92169",
+        "jockey": "Bruce Lynn",
+        "jockey_id": "jky_286512",
         "draw": 0,
-        "number": 9,
-        "lbs": 150,
-        "ofr": "81",
-        "last_run": 11,
-        "form": "3232U2",
-        "headgear": "",
-        "_stored_at": "2026-07-02T00:01:31.359788+00:00"
+        "number": 10,
+        "lbs": 148,
+        "ofr": "79",
+        "last_run": 25,
+        "form": "P50-08",
+        "headgear": "h",
+        "_stored_at": "2026-07-02T04:58:40.616383+00:00"
       }
     ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Perth",
       "runs": 1
@@ -248,15 +233,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 60,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -265,16 +250,16 @@
       "latest_distance_f": 20.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 73,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Malangen",
-    "horse_id": "hrs_14471653",
-    "age": 11,
+    "horse": "Dreamings Free",
+    "horse_id": "hrs_34282101",
+    "age": 6,
     "sex": "gelding",
     "latest_course": "Perth",
     "latest_time": "3:50",
@@ -284,13 +269,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Lisa Harrison",
-    "latest_jockey": "Peter Kavanagh",
+    "latest_trainer": "Maurice Barnes",
+    "latest_jockey": "Charlie Price",
     "latest_draw": 0,
-    "latest_weight_lbs": 150,
-    "official_rating": "81",
-    "recent_form": "3232U2",
-    "last_run_days": 11,
+    "latest_weight_lbs": 144,
+    "official_rating": "75",
+    "recent_form": "/2380-",
+    "last_run_days": 192,
     "profile_runs": 1,
     "courses_seen": {
       "Perth": 1
@@ -305,21 +290,15 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Lisa Harrison": 1
+      "Maurice Barnes": 1
     },
     "jockeys_seen": {
-      "Peter Kavanagh": 1
+      "Charlie Price": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 73,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Trainer bonus +1",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -335,26 +314,26 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 11,
-        "horse": "Malangen",
-        "horse_id": "hrs_14471653",
-        "age": 11,
+        "horse": "Dreamings Free",
+        "horse_id": "hrs_34282101",
+        "age": 6,
         "sex": "gelding",
-        "trainer": "Lisa Harrison",
-        "trainer_id": "trn_134757",
-        "jockey": "Peter Kavanagh",
-        "jockey_id": "jky_238497",
+        "trainer": "Maurice Barnes",
+        "trainer_id": "trn_36783",
+        "jockey": "Charlie Price",
+        "jockey_id": "jky_286938",
         "draw": 0,
-        "number": 9,
-        "lbs": 150,
-        "ofr": "81",
-        "last_run": 11,
-        "form": "3232U2",
-        "headgear": "",
-        "_stored_at": "2026-07-02T00:01:31.359788+00:00"
+        "number": 11,
+        "lbs": 144,
+        "ofr": "75",
+        "last_run": 192,
+        "form": "/2380-",
+        "headgear": "h",
+        "_stored_at": "2026-07-02T04:58:40.636984+00:00"
       }
     ],
     "profile_notes": [
-      "Recent run timing"
+      "Returning from a break"
     ],
     "favourite_course": {
       "value": "Perth",
@@ -377,15 +356,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 60,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -394,7 +373,7 @@
       "latest_distance_f": 20.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 73,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -442,15 +421,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 79,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +1",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -481,7 +453,7 @@
           "last_run": 11,
           "form": "75-313",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:31.274451+00:00"
+          "_stored_at": "2026-07-02T04:58:40.491012+00:00"
         }
       ],
       "profile_notes": [
@@ -508,390 +480,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 63,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Perth",
-        "latest_distance_f": 20.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 79,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Malangen",
-      "horse_id": "hrs_14471653",
-      "age": 11,
-      "sex": "gelding",
-      "latest_course": "Perth",
-      "latest_time": "3:50",
-      "latest_race": "PWA Architecture Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 20.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Lisa Harrison",
-      "latest_jockey": "Peter Kavanagh",
-      "latest_draw": 0,
-      "latest_weight_lbs": 150,
-      "official_rating": "81",
-      "recent_form": "3232U2",
-      "last_run_days": 11,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Perth": 1
-      },
-      "distances_seen": {
-        "20.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Lisa Harrison": 1
-      },
-      "jockeys_seen": {
-        "Peter Kavanagh": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 73,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987417",
-          "course": "Perth",
-          "date": "2026-07-02",
-          "off_time": "3:50",
-          "off_dt": "2026-07-02T15:50:00+01:00",
-          "race_name": "PWA Architecture Handicap Hurdle",
-          "distance_f": 20.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Malangen",
-          "horse_id": "hrs_14471653",
-          "age": 11,
-          "sex": "gelding",
-          "trainer": "Lisa Harrison",
-          "trainer_id": "trn_134757",
-          "jockey": "Peter Kavanagh",
-          "jockey_id": "jky_238497",
-          "draw": 0,
-          "number": 9,
-          "lbs": 150,
-          "ofr": "81",
-          "last_run": 11,
-          "form": "3232U2",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:31.359788+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Perth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 60,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Perth",
-        "latest_distance_f": 20.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 73,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Fairly Fulling",
-      "horse_id": "hrs_35054866",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Perth",
-      "latest_time": "3:50",
-      "latest_race": "PWA Architecture Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 20.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Susan Corbett",
-      "latest_jockey": "Nathan Moscrop",
-      "latest_draw": 0,
-      "latest_weight_lbs": 153,
-      "official_rating": "84",
-      "recent_form": "441-P4",
-      "last_run_days": 23,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Perth": 1
-      },
-      "distances_seen": {
-        "20.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Susan Corbett": 1
-      },
-      "jockeys_seen": {
-        "Nathan Moscrop": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 68,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987417",
-          "course": "Perth",
-          "date": "2026-07-02",
-          "off_time": "3:50",
-          "off_dt": "2026-07-02T15:50:00+01:00",
-          "race_name": "PWA Architecture Handicap Hurdle",
-          "distance_f": 20.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Fairly Fulling",
-          "horse_id": "hrs_35054866",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Susan Corbett",
-          "trainer_id": "trn_97254",
-          "jockey": "Nathan Moscrop",
-          "jockey_id": "jky_259071",
-          "draw": 0,
-          "number": 7,
-          "lbs": 153,
-          "ofr": "84",
-          "last_run": 23,
-          "form": "441-P4",
-          "headgear": "tp",
-          "_stored_at": "2026-07-02T00:01:31.325332+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Perth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 58,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Perth",
-        "latest_distance_f": 20.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 68,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "King Kodiak",
-      "horse_id": "hrs_47162108",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Perth",
-      "latest_time": "3:50",
-      "latest_race": "PWA Architecture Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 20.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "George Bewley",
-      "latest_jockey": "Jonathon Bewley",
-      "latest_draw": 0,
-      "latest_weight_lbs": 150,
-      "official_rating": "81",
-      "recent_form": "539-72",
-      "last_run_days": 25,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Perth": 1
-      },
-      "distances_seen": {
-        "20.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "George Bewley": 1
-      },
-      "jockeys_seen": {
-        "Jonathon Bewley": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 64,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987417",
-          "course": "Perth",
-          "date": "2026-07-02",
-          "off_time": "3:50",
-          "off_dt": "2026-07-02T15:50:00+01:00",
-          "race_name": "PWA Architecture Handicap Hurdle",
-          "distance_f": 20.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "King Kodiak",
-          "horse_id": "hrs_47162108",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "George Bewley",
-          "trainer_id": "trn_57159",
-          "jockey": "Jonathon Bewley",
-          "jockey_id": "jky_257349",
-          "draw": 0,
-          "number": 8,
-          "lbs": 150,
-          "ofr": "81",
-          "last_run": 25,
-          "form": "539-72",
-          "headgear": "tp",
-          "_stored_at": "2026-07-02T00:01:31.344777+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Perth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 56,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -899,6 +488,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -907,261 +497,7 @@
         "latest_distance_f": 20.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 64,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Sonyourastar",
-      "horse_id": "hrs_51124269",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Perth",
-      "latest_time": "3:50",
-      "latest_race": "PWA Architecture Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 20.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Olly Murphy",
-      "latest_jockey": "Sean Bowen",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "99",
-      "recent_form": "344-88",
-      "last_run_days": 41,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Perth": 1
-      },
-      "distances_seen": {
-        "20.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Olly Murphy": 1
-      },
-      "jockeys_seen": {
-        "Sean Bowen": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 53,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Jockey bonus +3",
-        "Jockey in form +2 (1/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987417",
-          "course": "Perth",
-          "date": "2026-07-02",
-          "off_time": "3:50",
-          "off_dt": "2026-07-02T15:50:00+01:00",
-          "race_name": "PWA Architecture Handicap Hurdle",
-          "distance_f": 20.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Sonyourastar",
-          "horse_id": "hrs_51124269",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Olly Murphy",
-          "trainer_id": "trn_301977",
-          "jockey": "Sean Bowen",
-          "jockey_id": "jky_279558",
-          "draw": 0,
-          "number": 1,
-          "lbs": 168,
-          "ofr": "99",
-          "last_run": 41,
-          "form": "344-88",
-          "headgear": "t",
-          "_stored_at": "2026-07-02T00:01:31.208823+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Perth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Perth",
-        "latest_distance_f": 20.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 53,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Top Flight Century",
-      "horse_id": "hrs_37889866",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Perth",
-      "latest_time": "3:50",
-      "latest_race": "PWA Architecture Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 20.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "David Thompson",
-      "latest_jockey": "Joshua Thompson(5)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 158,
-      "official_rating": "89",
-      "recent_form": "1P6-45",
-      "last_run_days": 11,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Perth": 1
-      },
-      "distances_seen": {
-        "20.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "David Thompson": 1
-      },
-      "jockeys_seen": {
-        "Joshua Thompson(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987417",
-          "course": "Perth",
-          "date": "2026-07-02",
-          "off_time": "3:50",
-          "off_dt": "2026-07-02T15:50:00+01:00",
-          "race_name": "PWA Architecture Handicap Hurdle",
-          "distance_f": 20.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Top Flight Century",
-          "horse_id": "hrs_37889866",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "David Thompson",
-          "trainer_id": "trn_132597",
-          "jockey": "Joshua Thompson(5)",
-          "jockey_id": "jky_303561",
-          "draw": 0,
-          "number": 5,
-          "lbs": 158,
-          "ofr": "89",
-          "last_run": 11,
-          "form": "1P6-45",
-          "headgear": "p",
-          "_stored_at": "2026-07-02T00:01:31.294698+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Perth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Perth",
-        "latest_distance_f": 20.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 54,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1208,15 +544,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +1",
-        "Stable in form +2 (1/1 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1247,7 +576,7 @@
           "last_run": 25,
           "form": "P50-08",
           "headgear": "h",
-          "_stored_at": "2026-07-02T00:01:31.375423+00:00"
+          "_stored_at": "2026-07-02T04:58:40.616383+00:00"
         }
       ],
       "profile_notes": [],
@@ -1272,7 +601,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 50,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1280,6 +609,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1288,260 +618,7 @@
         "latest_distance_f": 20.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 50,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Lenko",
-      "horse_id": "hrs_61456220",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Perth",
-      "latest_time": "3:50",
-      "latest_race": "PWA Architecture Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 20.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gordon Elliott",
-      "latest_jockey": "Danny McMenamin",
-      "latest_draw": 0,
-      "latest_weight_lbs": 153,
-      "official_rating": "89",
-      "recent_form": "60-0",
-      "last_run_days": 48,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Perth": 1
-      },
-      "distances_seen": {
-        "20.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Gordon Elliott": 1
-      },
-      "jockeys_seen": {
-        "Danny McMenamin": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987417",
-          "course": "Perth",
-          "date": "2026-07-02",
-          "off_time": "3:50",
-          "off_dt": "2026-07-02T15:50:00+01:00",
-          "race_name": "PWA Architecture Handicap Hurdle",
-          "distance_f": 20.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Lenko",
-          "horse_id": "hrs_61456220",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "Danny McMenamin",
-          "jockey_id": "jky_293565",
-          "draw": 0,
-          "number": 6,
-          "lbs": 153,
-          "ofr": "89",
-          "last_run": 48,
-          "form": "60-0",
-          "headgear": "p",
-          "_stored_at": "2026-07-02T00:01:31.309702+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Perth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Perth",
-        "latest_distance_f": 20.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 44,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Fourofakind",
-      "horse_id": "hrs_27140015",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Perth",
-      "latest_time": "3:50",
-      "latest_race": "PWA Architecture Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 20.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Lizzie Quinlan",
-      "latest_jockey": "Sean Quinlan",
-      "latest_draw": 0,
-      "latest_weight_lbs": 166,
-      "official_rating": "97",
-      "recent_form": "956P7-",
-      "last_run_days": 102,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Perth": 1
-      },
-      "distances_seen": {
-        "20.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Lizzie Quinlan": 1
-      },
-      "jockeys_seen": {
-        "Sean Quinlan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 41,
-      "latest_notes": [
-        "Weak recent form",
-        "Helpful draw",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987417",
-          "course": "Perth",
-          "date": "2026-07-02",
-          "off_time": "3:50",
-          "off_dt": "2026-07-02T15:50:00+01:00",
-          "race_name": "PWA Architecture Handicap Hurdle",
-          "distance_f": 20.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Fourofakind",
-          "horse_id": "hrs_27140015",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Lizzie Quinlan",
-          "trainer_id": "trn_358677",
-          "jockey": "Sean Quinlan",
-          "jockey_id": "jky_247455",
-          "draw": 0,
-          "number": 2,
-          "lbs": 166,
-          "ofr": "97",
-          "last_run": 102,
-          "form": "956P7-",
-          "headgear": "p",
-          "_stored_at": "2026-07-02T00:01:31.228086+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Perth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Perth",
-        "latest_distance_f": 20.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 41,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1588,13 +665,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 38,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1625,7 +697,7 @@
           "last_run": 192,
           "form": "/2380-",
           "headgear": "h",
-          "_stored_at": "2026-07-02T00:01:31.394822+00:00"
+          "_stored_at": "2026-07-02T04:58:40.636984+00:00"
         }
       ],
       "profile_notes": [
@@ -1652,7 +724,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 44,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1669,7 +741,737 @@
         "latest_distance_f": 20.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 38,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Fairly Fulling",
+      "horse_id": "hrs_35054866",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Perth",
+      "latest_time": "3:50",
+      "latest_race": "PWA Architecture Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 20.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Susan Corbett",
+      "latest_jockey": "Nathan Moscrop",
+      "latest_draw": 0,
+      "latest_weight_lbs": 153,
+      "official_rating": "84",
+      "recent_form": "441-P4",
+      "last_run_days": 23,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Perth": 1
+      },
+      "distances_seen": {
+        "20.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Susan Corbett": 1
+      },
+      "jockeys_seen": {
+        "Nathan Moscrop": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987417",
+          "course": "Perth",
+          "date": "2026-07-02",
+          "off_time": "3:50",
+          "off_dt": "2026-07-02T15:50:00+01:00",
+          "race_name": "PWA Architecture Handicap Hurdle",
+          "distance_f": 20.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Fairly Fulling",
+          "horse_id": "hrs_35054866",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Susan Corbett",
+          "trainer_id": "trn_97254",
+          "jockey": "Nathan Moscrop",
+          "jockey_id": "jky_259071",
+          "draw": 0,
+          "number": 7,
+          "lbs": 153,
+          "ofr": "84",
+          "last_run": 23,
+          "form": "441-P4",
+          "headgear": "tp",
+          "_stored_at": "2026-07-02T04:58:40.554536+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Perth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 20.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Perth",
+        "latest_distance_f": 20.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Fourofakind",
+      "horse_id": "hrs_27140015",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Perth",
+      "latest_time": "3:50",
+      "latest_race": "PWA Architecture Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 20.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Lizzie Quinlan",
+      "latest_jockey": "Sean Quinlan",
+      "latest_draw": 0,
+      "latest_weight_lbs": 166,
+      "official_rating": "97",
+      "recent_form": "956P7-",
+      "last_run_days": 102,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Perth": 1
+      },
+      "distances_seen": {
+        "20.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Lizzie Quinlan": 1
+      },
+      "jockeys_seen": {
+        "Sean Quinlan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987417",
+          "course": "Perth",
+          "date": "2026-07-02",
+          "off_time": "3:50",
+          "off_dt": "2026-07-02T15:50:00+01:00",
+          "race_name": "PWA Architecture Handicap Hurdle",
+          "distance_f": 20.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Fourofakind",
+          "horse_id": "hrs_27140015",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "Lizzie Quinlan",
+          "trainer_id": "trn_358677",
+          "jockey": "Sean Quinlan",
+          "jockey_id": "jky_247455",
+          "draw": 0,
+          "number": 2,
+          "lbs": 166,
+          "ofr": "97",
+          "last_run": 102,
+          "form": "956P7-",
+          "headgear": "p",
+          "_stored_at": "2026-07-02T04:58:40.450053+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Perth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 20.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Perth",
+        "latest_distance_f": 20.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "King Kodiak",
+      "horse_id": "hrs_47162108",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Perth",
+      "latest_time": "3:50",
+      "latest_race": "PWA Architecture Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 20.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "George Bewley",
+      "latest_jockey": "Jonathon Bewley",
+      "latest_draw": 0,
+      "latest_weight_lbs": 150,
+      "official_rating": "81",
+      "recent_form": "539-72",
+      "last_run_days": 25,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Perth": 1
+      },
+      "distances_seen": {
+        "20.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "George Bewley": 1
+      },
+      "jockeys_seen": {
+        "Jonathon Bewley": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987417",
+          "course": "Perth",
+          "date": "2026-07-02",
+          "off_time": "3:50",
+          "off_dt": "2026-07-02T15:50:00+01:00",
+          "race_name": "PWA Architecture Handicap Hurdle",
+          "distance_f": 20.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "King Kodiak",
+          "horse_id": "hrs_47162108",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "George Bewley",
+          "trainer_id": "trn_57159",
+          "jockey": "Jonathon Bewley",
+          "jockey_id": "jky_257349",
+          "draw": 0,
+          "number": 8,
+          "lbs": 150,
+          "ofr": "81",
+          "last_run": 25,
+          "form": "539-72",
+          "headgear": "tp",
+          "_stored_at": "2026-07-02T04:58:40.575353+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Perth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 20.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Perth",
+        "latest_distance_f": 20.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Lenko",
+      "horse_id": "hrs_61456220",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Perth",
+      "latest_time": "3:50",
+      "latest_race": "PWA Architecture Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 20.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gordon Elliott",
+      "latest_jockey": "Danny McMenamin",
+      "latest_draw": 0,
+      "latest_weight_lbs": 153,
+      "official_rating": "89",
+      "recent_form": "60-0",
+      "last_run_days": 48,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Perth": 1
+      },
+      "distances_seen": {
+        "20.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Gordon Elliott": 1
+      },
+      "jockeys_seen": {
+        "Danny McMenamin": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987417",
+          "course": "Perth",
+          "date": "2026-07-02",
+          "off_time": "3:50",
+          "off_dt": "2026-07-02T15:50:00+01:00",
+          "race_name": "PWA Architecture Handicap Hurdle",
+          "distance_f": 20.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Lenko",
+          "horse_id": "hrs_61456220",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Gordon Elliott",
+          "trainer_id": "trn_163305",
+          "jockey": "Danny McMenamin",
+          "jockey_id": "jky_293565",
+          "draw": 0,
+          "number": 6,
+          "lbs": 153,
+          "ofr": "89",
+          "last_run": 48,
+          "form": "60-0",
+          "headgear": "p",
+          "_stored_at": "2026-07-02T04:58:40.533559+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Perth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 20.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Perth",
+        "latest_distance_f": 20.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Sonyourastar",
+      "horse_id": "hrs_51124269",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Perth",
+      "latest_time": "3:50",
+      "latest_race": "PWA Architecture Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 20.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Olly Murphy",
+      "latest_jockey": "Sean Bowen",
+      "latest_draw": 0,
+      "latest_weight_lbs": 168,
+      "official_rating": "99",
+      "recent_form": "344-88",
+      "last_run_days": 41,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Perth": 1
+      },
+      "distances_seen": {
+        "20.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Olly Murphy": 1
+      },
+      "jockeys_seen": {
+        "Sean Bowen": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987417",
+          "course": "Perth",
+          "date": "2026-07-02",
+          "off_time": "3:50",
+          "off_dt": "2026-07-02T15:50:00+01:00",
+          "race_name": "PWA Architecture Handicap Hurdle",
+          "distance_f": 20.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Sonyourastar",
+          "horse_id": "hrs_51124269",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Olly Murphy",
+          "trainer_id": "trn_301977",
+          "jockey": "Sean Bowen",
+          "jockey_id": "jky_279558",
+          "draw": 0,
+          "number": 1,
+          "lbs": 168,
+          "ofr": "99",
+          "last_run": 41,
+          "form": "344-88",
+          "headgear": "t",
+          "_stored_at": "2026-07-02T04:58:40.429370+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Perth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 20.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Perth",
+        "latest_distance_f": 20.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Top Flight Century",
+      "horse_id": "hrs_37889866",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Perth",
+      "latest_time": "3:50",
+      "latest_race": "PWA Architecture Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 20.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "David Thompson",
+      "latest_jockey": "Joshua Thompson(5)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 158,
+      "official_rating": "89",
+      "recent_form": "1P6-45",
+      "last_run_days": 11,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Perth": 1
+      },
+      "distances_seen": {
+        "20.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "David Thompson": 1
+      },
+      "jockeys_seen": {
+        "Joshua Thompson(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987417",
+          "course": "Perth",
+          "date": "2026-07-02",
+          "off_time": "3:50",
+          "off_dt": "2026-07-02T15:50:00+01:00",
+          "race_name": "PWA Architecture Handicap Hurdle",
+          "distance_f": 20.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Top Flight Century",
+          "horse_id": "hrs_37889866",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "David Thompson",
+          "trainer_id": "trn_132597",
+          "jockey": "Joshua Thompson(5)",
+          "jockey_id": "jky_303561",
+          "draw": 0,
+          "number": 5,
+          "lbs": 158,
+          "ofr": "89",
+          "last_run": 11,
+          "form": "1P6-45",
+          "headgear": "p",
+          "_stored_at": "2026-07-02T04:58:40.512745+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Perth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 20.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Perth",
+        "latest_distance_f": 20.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1679,6 +1481,7 @@
   "notes": [
     "Betteryouthanme is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Malangen is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Dreamings Free is flagged as a possible dark horse."
   ]
 }

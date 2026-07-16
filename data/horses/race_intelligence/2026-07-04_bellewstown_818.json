@@ -4,15 +4,129 @@
   "course": "Bellewstown",
   "time": "8:18",
   "race_name": "J.H. McLoughlin Oil Flat Race",
-  "field_size": 16,
-  "average_intelligence": 46.62,
-  "top_score": 54,
-  "second_score": 53,
-  "gap": 1,
-  "confidence_score": 43,
+  "field_size": 15,
+  "average_intelligence": 24.0,
+  "top_score": 24,
+  "second_score": 24,
+  "gap": 0,
+  "confidence_score": 19,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Begorrah Boy",
+    "horse_id": "hrs_65069074",
+    "age": 6,
+    "sex": "gelding",
+    "latest_course": "Bellewstown",
+    "latest_time": "8:18",
+    "latest_race": "J.H. McLoughlin Oil Flat Race",
+    "latest_date": "2026-07-04",
+    "latest_distance_f": 17.0,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "D M Christie",
+    "latest_jockey": "Ms L A Byrne(7)",
+    "latest_draw": 0,
+    "latest_weight_lbs": 161,
+    "official_rating": "-",
+    "recent_form": "",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Bellewstown": 1
+    },
+    "distances_seen": {
+      "17.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "D M Christie": 1
+    },
+    "jockeys_seen": {
+      "Ms L A Byrne(7)": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12010336",
+        "course": "Bellewstown",
+        "date": "2026-07-04",
+        "off_time": "8:18",
+        "off_dt": "2026-07-04T20:18:00+01:00",
+        "race_name": "J.H. McLoughlin Oil Flat Race",
+        "distance_f": 17.0,
+        "race_class": "",
+        "race_type": "NH Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 16,
+        "horse": "Begorrah Boy",
+        "horse_id": "hrs_65069074",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "D M Christie",
+        "trainer_id": "trn_120897",
+        "jockey": "Ms L A Byrne(7)",
+        "jockey_id": "jky_311745",
+        "draw": 0,
+        "number": 5,
+        "lbs": 161,
+        "ofr": "-",
+        "last_run": null,
+        "form": "",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Bellewstown",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 17.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Bellewstown",
+      "latest_distance_f": 17.0,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Caman Hill",
     "horse_id": "hrs_53148564",
     "age": 5,
@@ -51,13 +165,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 66,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -109,14 +218,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 54,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -125,13 +234,13 @@
       "latest_distance_f": 17.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 66,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "main_threat": {
+  "dark_horse": {
     "horse": "Dee Bee Zed",
     "horse_id": "hrs_65451372",
     "age": 5,
@@ -170,13 +279,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 64,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -228,13 +332,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 53,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -243,1197 +348,13 @@
       "latest_distance_f": 17.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 64,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Fortysixnchange",
-    "horse_id": "hrs_61276432",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Bellewstown",
-    "latest_time": "8:18",
-    "latest_race": "J.H. McLoughlin Oil Flat Race",
-    "latest_date": "2026-07-04",
-    "latest_distance_f": 17.0,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Gordon Elliott",
-    "latest_jockey": "Mr H C Swan",
-    "latest_draw": 0,
-    "latest_weight_lbs": 164,
-    "official_rating": "-",
-    "recent_form": "3-1",
-    "last_run_days": 58,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Bellewstown": 1
-    },
-    "distances_seen": {
-      "17.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Gordon Elliott": 1
-    },
-    "jockeys_seen": {
-      "Mr H C Swan": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 65,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Trainer bonus +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12010336",
-        "course": "Bellewstown",
-        "date": "2026-07-04",
-        "off_time": "8:18",
-        "off_dt": "2026-07-04T20:18:00+01:00",
-        "race_name": "J.H. McLoughlin Oil Flat Race",
-        "distance_f": 17.0,
-        "race_class": "",
-        "race_type": "NH Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 16,
-        "horse": "Fortysixnchange",
-        "horse_id": "hrs_61276432",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Gordon Elliott",
-        "trainer_id": "trn_163305",
-        "jockey": "Mr H C Swan",
-        "jockey_id": "jky_294975",
-        "draw": 0,
-        "number": 4,
-        "lbs": 164,
-        "ofr": "-",
-        "last_run": 58,
-        "form": "3-1",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Bellewstown",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 17.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 53,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Bellewstown",
-      "latest_distance_f": 17.0,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 65,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Caman Hill",
-      "horse_id": "hrs_53148564",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "8:18",
-      "latest_race": "J.H. McLoughlin Oil Flat Race",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Una Corcoran",
-      "latest_jockey": "Mr A P Ryan(5)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "-",
-      "recent_form": "1-4",
-      "last_run_days": 33,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Una Corcoran": 1
-      },
-      "jockeys_seen": {
-        "Mr A P Ryan(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 66,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010336",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "8:18",
-          "off_dt": "2026-07-04T20:18:00+01:00",
-          "race_name": "J.H. McLoughlin Oil Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Caman Hill",
-          "horse_id": "hrs_53148564",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Una Corcoran",
-          "trainer_id": "trn_317961",
-          "jockey": "Mr A P Ryan(5)",
-          "jockey_id": "jky_300354",
-          "draw": 0,
-          "number": 1,
-          "lbs": 168,
-          "ofr": "-",
-          "last_run": 33,
-          "form": "1-4",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 66,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Dee Bee Zed",
-      "horse_id": "hrs_65451372",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "8:18",
-      "latest_race": "J.H. McLoughlin Oil Flat Race",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "T G McCourt",
-      "latest_jockey": "Mr L P Shanahan(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "-",
-      "recent_form": "1",
-      "last_run_days": 28,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "T G McCourt": 1
-      },
-      "jockeys_seen": {
-        "Mr L P Shanahan(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 64,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010336",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "8:18",
-          "off_dt": "2026-07-04T20:18:00+01:00",
-          "race_name": "J.H. McLoughlin Oil Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Dee Bee Zed",
-          "horse_id": "hrs_65451372",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "T G McCourt",
-          "trainer_id": "trn_38196",
-          "jockey": "Mr L P Shanahan(7)",
-          "jockey_id": "jky_296334",
-          "draw": 0,
-          "number": 2,
-          "lbs": 168,
-          "ofr": "-",
-          "last_run": 28,
-          "form": "1",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 64,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Fortysixnchange",
-      "horse_id": "hrs_61276432",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "8:18",
-      "latest_race": "J.H. McLoughlin Oil Flat Race",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gordon Elliott",
-      "latest_jockey": "Mr H C Swan",
-      "latest_draw": 0,
-      "latest_weight_lbs": 164,
-      "official_rating": "-",
-      "recent_form": "3-1",
-      "last_run_days": 58,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Gordon Elliott": 1
-      },
-      "jockeys_seen": {
-        "Mr H C Swan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 65,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010336",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "8:18",
-          "off_dt": "2026-07-04T20:18:00+01:00",
-          "race_name": "J.H. McLoughlin Oil Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Fortysixnchange",
-          "horse_id": "hrs_61276432",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "Mr H C Swan",
-          "jockey_id": "jky_294975",
-          "draw": 0,
-          "number": 4,
-          "lbs": 164,
-          "ofr": "-",
-          "last_run": 58,
-          "form": "3-1",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 65,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Sir Vinny",
-      "horse_id": "hrs_54304565",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "8:18",
-      "latest_race": "J.H. McLoughlin Oil Flat Race",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "David Harry Kelly",
-      "latest_jockey": "Mr P W Mullins",
-      "latest_draw": 0,
-      "latest_weight_lbs": 161,
-      "official_rating": "-",
-      "recent_form": "3",
-      "last_run_days": 28,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "David Harry Kelly": 1
-      },
-      "jockeys_seen": {
-        "Mr P W Mullins": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 63,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010336",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "8:18",
-          "off_dt": "2026-07-04T20:18:00+01:00",
-          "race_name": "J.H. McLoughlin Oil Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Sir Vinny",
-          "horse_id": "hrs_54304565",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "David Harry Kelly",
-          "trainer_id": "trn_240876",
-          "jockey": "Mr P W Mullins",
-          "jockey_id": "jky_255345",
-          "draw": 0,
-          "number": 8,
-          "lbs": 161,
-          "ofr": "-",
-          "last_run": 28,
-          "form": "3",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 63,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Rokanako",
-      "horse_id": "hrs_54304558",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "8:18",
-      "latest_race": "J.H. McLoughlin Oil Flat Race",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "James Kieran King",
-      "latest_jockey": "Mr P A King(3)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "-",
-      "recent_form": "0-1",
-      "last_run_days": 34,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "James Kieran King": 1
-      },
-      "jockeys_seen": {
-        "Mr P A King(3)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 61,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010336",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "8:18",
-          "off_dt": "2026-07-04T20:18:00+01:00",
-          "race_name": "J.H. McLoughlin Oil Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Rokanako",
-          "horse_id": "hrs_54304558",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "James Kieran King",
-          "trainer_id": "trn_289377",
-          "jockey": "Mr P A King(3)",
-          "jockey_id": "jky_251193",
-          "draw": 0,
-          "number": 3,
-          "lbs": 168,
-          "ofr": "-",
-          "last_run": 34,
-          "form": "0-1",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 61,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Kingside Lady",
-      "horse_id": "hrs_64780730",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Bellewstown",
-      "latest_time": "8:18",
-      "latest_race": "J.H. McLoughlin Oil Flat Race",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "John C McConnell",
-      "latest_jockey": "Mr B T Stone(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 150,
-      "official_rating": "-",
-      "recent_form": "1",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "John C McConnell": 1
-      },
-      "jockeys_seen": {
-        "Mr B T Stone(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010336",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "8:18",
-          "off_dt": "2026-07-04T20:18:00+01:00",
-          "race_name": "J.H. McLoughlin Oil Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Kingside Lady",
-          "horse_id": "hrs_64780730",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "John C McConnell",
-          "trainer_id": "trn_132759",
-          "jockey": "Mr B T Stone(7)",
-          "jockey_id": "jky_300690",
-          "draw": 0,
-          "number": 16,
-          "lbs": 150,
-          "ofr": "-",
-          "last_run": null,
-          "form": "1",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 48,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 54,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Woodie Wiley",
-      "horse_id": "hrs_51831598",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "8:18",
-      "latest_race": "J.H. McLoughlin Oil Flat Race",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Conor Houlihan",
-      "latest_jockey": "Mr J L Gleeson",
-      "latest_draw": 0,
-      "latest_weight_lbs": 161,
-      "official_rating": "-",
-      "recent_form": "P/PS",
-      "last_run_days": 28,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Conor Houlihan": 1
-      },
-      "jockeys_seen": {
-        "Mr J L Gleeson": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010336",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "8:18",
-          "off_dt": "2026-07-04T20:18:00+01:00",
-          "race_name": "J.H. McLoughlin Oil Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Woodie Wiley",
-          "horse_id": "hrs_51831598",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Conor Houlihan",
-          "trainer_id": "trn_384453",
-          "jockey": "Mr J L Gleeson",
-          "jockey_id": "jky_301617",
-          "draw": 0,
-          "number": 9,
-          "lbs": 161,
-          "ofr": "-",
-          "last_run": 28,
-          "form": "P/PS",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 48,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 54,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Go Loud",
-      "horse_id": "hrs_58963282",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "8:18",
-      "latest_race": "J.H. McLoughlin Oil Flat Race",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Cian Collins",
-      "latest_jockey": "Mr A J Lord(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 161,
-      "official_rating": "-",
-      "recent_form": "5P65-6",
-      "last_run_days": 28,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Cian Collins": 1
-      },
-      "jockeys_seen": {
-        "Mr A J Lord(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 52,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010336",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "8:18",
-          "off_dt": "2026-07-04T20:18:00+01:00",
-          "race_name": "J.H. McLoughlin Oil Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Go Loud",
-          "horse_id": "hrs_58963282",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Cian Collins",
-          "trainer_id": "trn_355860",
-          "jockey": "Mr A J Lord(7)",
-          "jockey_id": "jky_309717",
-          "draw": 0,
-          "number": 6,
-          "lbs": 161,
-          "ofr": "-",
-          "last_run": 28,
-          "form": "5P65-6",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 52,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Silk Buds",
-      "horse_id": "hrs_63388864",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Bellewstown",
-      "latest_time": "8:18",
-      "latest_race": "J.H. McLoughlin Oil Flat Race",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Peter John Flood",
-      "latest_jockey": "Miss Georgie Benson(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 154,
-      "official_rating": "-",
-      "recent_form": "P-3",
-      "last_run_days": 59,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Peter John Flood": 1
-      },
-      "jockeys_seen": {
-        "Miss Georgie Benson(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 49,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer concern -2",
-        "Jockey concern -2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010336",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "8:18",
-          "off_dt": "2026-07-04T20:18:00+01:00",
-          "race_name": "J.H. McLoughlin Oil Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Silk Buds",
-          "horse_id": "hrs_63388864",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Peter John Flood",
-          "trainer_id": "trn_341361",
-          "jockey": "Miss Georgie Benson(7)",
-          "jockey_id": "jky_298092",
-          "draw": 0,
-          "number": 15,
-          "lbs": 154,
-          "ofr": "-",
-          "last_run": 59,
-          "form": "P-3",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 49,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Begorrah Boy",
       "horse_id": "hrs_65069074",
@@ -1473,11 +394,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Helpful draw",
-        "Trainer bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1529,13 +447,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 45,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1544,133 +463,16 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 46,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Mila Ballerina",
-      "horse_id": "hrs_64036763",
+      "horse": "Caman Hill",
+      "horse_id": "hrs_53148564",
       "age": 5,
-      "sex": "mare",
-      "latest_course": "Bellewstown",
-      "latest_time": "8:18",
-      "latest_race": "J.H. McLoughlin Oil Flat Race",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Conor O'Dwyer",
-      "latest_jockey": "Mr Finian Maguire",
-      "latest_draw": 0,
-      "latest_weight_lbs": 154,
-      "official_rating": "-",
-      "recent_form": "0",
-      "last_run_days": 52,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Conor O'Dwyer": 1
-      },
-      "jockeys_seen": {
-        "Mr Finian Maguire": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010336",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "8:18",
-          "off_dt": "2026-07-04T20:18:00+01:00",
-          "race_name": "J.H. McLoughlin Oil Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Mila Ballerina",
-          "horse_id": "hrs_64036763",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Conor O'Dwyer",
-          "trainer_id": "trn_176184",
-          "jockey": "Mr Finian Maguire",
-          "jockey_id": "jky_290544",
-          "draw": 0,
-          "number": 13,
-          "lbs": 154,
-          "ofr": "-",
-          "last_run": 52,
-          "form": "0",
-          "headgear": "v"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 45,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Mr Enigma",
-      "horse_id": "hrs_66432142",
-      "age": 4,
       "sex": "gelding",
       "latest_course": "Bellewstown",
       "latest_time": "8:18",
@@ -1680,13 +482,13 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Conor David Maxwell",
-      "latest_jockey": "Mr D McGill(7)",
+      "latest_trainer": "Una Corcoran",
+      "latest_jockey": "Mr A P Ryan(5)",
       "latest_draw": 0,
-      "latest_weight_lbs": 157,
+      "latest_weight_lbs": 168,
       "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
+      "recent_form": "1-4",
+      "last_run_days": 33,
       "profile_runs": 1,
       "courses_seen": {
         "Bellewstown": 1
@@ -1699,19 +501,15 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Conor David Maxwell": 1
+        "Una Corcoran": 1
       },
       "jockeys_seen": {
-        "Mr D McGill(7)": 1
+        "Mr A P Ryan(5)": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Helpful draw",
-        "Trainer concern -2",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1727,20 +525,20 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 16,
-          "horse": "Mr Enigma",
-          "horse_id": "hrs_66432142",
-          "age": 4,
+          "horse": "Caman Hill",
+          "horse_id": "hrs_53148564",
+          "age": 5,
           "sex": "gelding",
-          "trainer": "Conor David Maxwell",
-          "trainer_id": "trn_362502",
-          "jockey": "Mr D McGill(7)",
-          "jockey_id": "jky_301134",
+          "trainer": "Una Corcoran",
+          "trainer_id": "trn_317961",
+          "jockey": "Mr A P Ryan(5)",
+          "jockey_id": "jky_300354",
           "draw": 0,
-          "number": 12,
-          "lbs": 157,
+          "number": 1,
+          "lbs": 168,
           "ofr": "-",
-          "last_run": null,
-          "form": "",
+          "last_run": 33,
+          "form": "1-4",
           "headgear": ""
         }
       ],
@@ -1763,13 +561,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 44,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1778,7 +577,349 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Dee Bee Zed",
+      "horse_id": "hrs_65451372",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "8:18",
+      "latest_race": "J.H. McLoughlin Oil Flat Race",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "T G McCourt",
+      "latest_jockey": "Mr L P Shanahan(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 168,
+      "official_rating": "-",
+      "recent_form": "1",
+      "last_run_days": 28,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "T G McCourt": 1
+      },
+      "jockeys_seen": {
+        "Mr L P Shanahan(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010336",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "8:18",
+          "off_dt": "2026-07-04T20:18:00+01:00",
+          "race_name": "J.H. McLoughlin Oil Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Dee Bee Zed",
+          "horse_id": "hrs_65451372",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "T G McCourt",
+          "trainer_id": "trn_38196",
+          "jockey": "Mr L P Shanahan(7)",
+          "jockey_id": "jky_296334",
+          "draw": 0,
+          "number": 2,
+          "lbs": 168,
+          "ofr": "-",
+          "last_run": 28,
+          "form": "1",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Fortysixnchange",
+      "horse_id": "hrs_61276432",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "8:18",
+      "latest_race": "J.H. McLoughlin Oil Flat Race",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gordon Elliott",
+      "latest_jockey": "Mr H C Swan",
+      "latest_draw": 0,
+      "latest_weight_lbs": 164,
+      "official_rating": "-",
+      "recent_form": "3-1",
+      "last_run_days": 58,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Gordon Elliott": 1
+      },
+      "jockeys_seen": {
+        "Mr H C Swan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010336",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "8:18",
+          "off_dt": "2026-07-04T20:18:00+01:00",
+          "race_name": "J.H. McLoughlin Oil Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Fortysixnchange",
+          "horse_id": "hrs_61276432",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Gordon Elliott",
+          "trainer_id": "trn_163305",
+          "jockey": "Mr H C Swan",
+          "jockey_id": "jky_294975",
+          "draw": 0,
+          "number": 4,
+          "lbs": 164,
+          "ofr": "-",
+          "last_run": 58,
+          "form": "3-1",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Go Loud",
+      "horse_id": "hrs_58963282",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "8:18",
+      "latest_race": "J.H. McLoughlin Oil Flat Race",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Cian Collins",
+      "latest_jockey": "Mr A J Lord(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 161,
+      "official_rating": "-",
+      "recent_form": "5P65-6",
+      "last_run_days": 28,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Cian Collins": 1
+      },
+      "jockeys_seen": {
+        "Mr A J Lord(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010336",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "8:18",
+          "off_dt": "2026-07-04T20:18:00+01:00",
+          "race_name": "J.H. McLoughlin Oil Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Go Loud",
+          "horse_id": "hrs_58963282",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Cian Collins",
+          "trainer_id": "trn_355860",
+          "jockey": "Mr A J Lord(7)",
+          "jockey_id": "jky_309717",
+          "draw": 0,
+          "number": 6,
+          "lbs": 161,
+          "ofr": "-",
+          "last_run": 28,
+          "form": "5P65-6",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1823,12 +964,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 42,
-      "latest_notes": [
-        "Weak recent form",
-        "Helpful draw",
-        "Trainer bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1880,13 +1017,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 43,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1895,7 +1033,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 42,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1940,13 +1078,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 43,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1998,13 +1131,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 43,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -2013,7 +1147,235 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 43,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Kingside Lady",
+      "horse_id": "hrs_64780730",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Bellewstown",
+      "latest_time": "8:18",
+      "latest_race": "J.H. McLoughlin Oil Flat Race",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "John C McConnell",
+      "latest_jockey": "Mr B T Stone(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 150,
+      "official_rating": "-",
+      "recent_form": "1",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "John C McConnell": 1
+      },
+      "jockeys_seen": {
+        "Mr B T Stone(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010336",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "8:18",
+          "off_dt": "2026-07-04T20:18:00+01:00",
+          "race_name": "J.H. McLoughlin Oil Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Kingside Lady",
+          "horse_id": "hrs_64780730",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "John C McConnell",
+          "trainer_id": "trn_132759",
+          "jockey": "Mr B T Stone(7)",
+          "jockey_id": "jky_300690",
+          "draw": 0,
+          "number": 16,
+          "lbs": 150,
+          "ofr": "-",
+          "last_run": null,
+          "form": "1",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Mr Enigma",
+      "horse_id": "hrs_66432142",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "8:18",
+      "latest_race": "J.H. McLoughlin Oil Flat Race",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Conor David Maxwell",
+      "latest_jockey": "Mr D McGill(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 157,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Conor David Maxwell": 1
+      },
+      "jockeys_seen": {
+        "Mr D McGill(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010336",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "8:18",
+          "off_dt": "2026-07-04T20:18:00+01:00",
+          "race_name": "J.H. McLoughlin Oil Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Mr Enigma",
+          "horse_id": "hrs_66432142",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Conor David Maxwell",
+          "trainer_id": "trn_362502",
+          "jockey": "Mr D McGill(7)",
+          "jockey_id": "jky_301134",
+          "draw": 0,
+          "number": 12,
+          "lbs": 157,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -2058,15 +1420,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 33,
-      "latest_notes": [
-        "Weak recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2120,7 +1475,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 39,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2136,7 +1491,463 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 33,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Rokanako",
+      "horse_id": "hrs_54304558",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "8:18",
+      "latest_race": "J.H. McLoughlin Oil Flat Race",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "James Kieran King",
+      "latest_jockey": "Mr P A King(3)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 168,
+      "official_rating": "-",
+      "recent_form": "0-1",
+      "last_run_days": 34,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "James Kieran King": 1
+      },
+      "jockeys_seen": {
+        "Mr P A King(3)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010336",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "8:18",
+          "off_dt": "2026-07-04T20:18:00+01:00",
+          "race_name": "J.H. McLoughlin Oil Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Rokanako",
+          "horse_id": "hrs_54304558",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "James Kieran King",
+          "trainer_id": "trn_289377",
+          "jockey": "Mr P A King(3)",
+          "jockey_id": "jky_251193",
+          "draw": 0,
+          "number": 3,
+          "lbs": 168,
+          "ofr": "-",
+          "last_run": 34,
+          "form": "0-1",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Silk Buds",
+      "horse_id": "hrs_63388864",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Bellewstown",
+      "latest_time": "8:18",
+      "latest_race": "J.H. McLoughlin Oil Flat Race",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Peter John Flood",
+      "latest_jockey": "Miss Georgie Benson(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 154,
+      "official_rating": "-",
+      "recent_form": "P-3",
+      "last_run_days": 59,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Peter John Flood": 1
+      },
+      "jockeys_seen": {
+        "Miss Georgie Benson(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010336",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "8:18",
+          "off_dt": "2026-07-04T20:18:00+01:00",
+          "race_name": "J.H. McLoughlin Oil Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Silk Buds",
+          "horse_id": "hrs_63388864",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Peter John Flood",
+          "trainer_id": "trn_341361",
+          "jockey": "Miss Georgie Benson(7)",
+          "jockey_id": "jky_298092",
+          "draw": 0,
+          "number": 15,
+          "lbs": 154,
+          "ofr": "-",
+          "last_run": 59,
+          "form": "P-3",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Sir Vinny",
+      "horse_id": "hrs_54304565",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "8:18",
+      "latest_race": "J.H. McLoughlin Oil Flat Race",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "David Harry Kelly",
+      "latest_jockey": "Mr P W Mullins",
+      "latest_draw": 0,
+      "latest_weight_lbs": 161,
+      "official_rating": "-",
+      "recent_form": "3",
+      "last_run_days": 28,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "David Harry Kelly": 1
+      },
+      "jockeys_seen": {
+        "Mr P W Mullins": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010336",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "8:18",
+          "off_dt": "2026-07-04T20:18:00+01:00",
+          "race_name": "J.H. McLoughlin Oil Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Sir Vinny",
+          "horse_id": "hrs_54304565",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "David Harry Kelly",
+          "trainer_id": "trn_240876",
+          "jockey": "Mr P W Mullins",
+          "jockey_id": "jky_255345",
+          "draw": 0,
+          "number": 8,
+          "lbs": 161,
+          "ofr": "-",
+          "last_run": 28,
+          "form": "3",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Woodie Wiley",
+      "horse_id": "hrs_51831598",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "8:18",
+      "latest_race": "J.H. McLoughlin Oil Flat Race",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Conor Houlihan",
+      "latest_jockey": "Mr J L Gleeson",
+      "latest_draw": 0,
+      "latest_weight_lbs": 161,
+      "official_rating": "-",
+      "recent_form": "P/PS",
+      "last_run_days": 28,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Conor Houlihan": 1
+      },
+      "jockeys_seen": {
+        "Mr J L Gleeson": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010336",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "8:18",
+          "off_dt": "2026-07-04T20:18:00+01:00",
+          "race_name": "J.H. McLoughlin Oil Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Woodie Wiley",
+          "horse_id": "hrs_51831598",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Conor Houlihan",
+          "trainer_id": "trn_384453",
+          "jockey": "Mr J L Gleeson",
+          "jockey_id": "jky_301617",
+          "draw": 0,
+          "number": 9,
+          "lbs": 161,
+          "ofr": "-",
+          "last_run": 28,
+          "form": "P/PS",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -2181,13 +1992,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 26,
-      "latest_notes": [
-        "Weak recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2241,7 +2047,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 36,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2257,7 +2063,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 26,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -2265,8 +2071,9 @@
     }
   ],
   "notes": [
-    "Caman Hill is the top-rated Pulse IQ runner.",
+    "Begorrah Boy is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Fortysixnchange is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Dee Bee Zed is flagged as a possible dark horse."
   ]
 }

@@ -4,15 +4,136 @@
   "course": "Perth",
   "time": "3:18",
   "race_name": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
-  "field_size": 6,
-  "average_intelligence": 52.17,
-  "top_score": 58,
-  "second_score": 54,
-  "gap": 4,
-  "confidence_score": 51,
+  "field_size": 3,
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 22,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Button Rock",
+    "horse_id": "hrs_47345389",
+    "age": 6,
+    "sex": "gelding",
+    "latest_course": "Perth",
+    "latest_time": "3:18",
+    "latest_race": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
+    "latest_date": "2026-07-02",
+    "latest_distance_f": 20.0,
+    "latest_class": "Class 4",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Gordon Elliott",
+    "latest_jockey": "Derek Fox",
+    "latest_draw": 0,
+    "latest_weight_lbs": 151,
+    "official_rating": "93",
+    "recent_form": "8050-6",
+    "last_run_days": 51,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Perth": 1
+    },
+    "distances_seen": {
+      "20.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Gordon Elliott": 1
+    },
+    "jockeys_seen": {
+      "Derek Fox": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11987365",
+        "course": "Perth",
+        "date": "2026-07-02",
+        "off_time": "3:18",
+        "off_dt": "2026-07-02T15:18:00+01:00",
+        "race_name": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
+        "distance_f": 20.0,
+        "race_class": "Class 4",
+        "race_type": "Chase",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 6,
+        "horse": "Button Rock",
+        "horse_id": "hrs_47345389",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Gordon Elliott",
+        "trainer_id": "trn_163305",
+        "jockey": "Derek Fox",
+        "jockey_id": "jky_265413",
+        "draw": 0,
+        "number": 7,
+        "lbs": 151,
+        "ofr": "93",
+        "last_run": 51,
+        "form": "8050-6",
+        "headgear": "",
+        "_stored_at": "2026-07-02T04:58:40.385274+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Perth",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 20.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Perth",
+      "latest_distance_f": 20.0,
+      "latest_going": "Good",
+      "latest_class": "Class 4",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Gunnery Sergeant",
     "horse_id": "hrs_40095629",
     "age": 6,
@@ -53,18 +174,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 70,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +2",
-      "Stable in form +2 (2/2 last 14 days)",
-      "Jockey bonus +3",
-      "Jockey in form +2 (1/4 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -95,7 +206,7 @@
         "last_run": 32,
         "form": "225-85",
         "headgear": "tp",
-        "_stored_at": "2026-07-02T00:01:31.109376+00:00"
+        "_stored_at": "2026-07-02T04:58:40.300921+00:00"
       }
     ],
     "profile_notes": [],
@@ -120,134 +231,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 58,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Perth",
-      "latest_distance_f": 20.0,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 70,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Garde Des Champs",
-    "horse_id": "hrs_21327824",
-    "age": 10,
-    "sex": "gelding",
-    "latest_course": "Perth",
-    "latest_time": "3:18",
-    "latest_race": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
-    "latest_date": "2026-07-02",
-    "latest_distance_f": 20.0,
-    "latest_class": "Class 4",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Lucinda Russell & Michael Scudamore",
-    "latest_jockey": "Alan Doyle(3)",
-    "latest_draw": 0,
-    "latest_weight_lbs": 164,
-    "official_rating": "106",
-    "recent_form": "448-43",
-    "last_run_days": 25,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Perth": 1
-    },
-    "distances_seen": {
-      "20.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "Lucinda Russell & Michael Scudamore": 1
-    },
-    "jockeys_seen": {
-      "Alan Doyle(3)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 59,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11987365",
-        "course": "Perth",
-        "date": "2026-07-02",
-        "off_time": "3:18",
-        "off_dt": "2026-07-02T15:18:00+01:00",
-        "race_name": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
-        "distance_f": 20.0,
-        "race_class": "Class 4",
-        "race_type": "Chase",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 6,
-        "horse": "Garde Des Champs",
-        "horse_id": "hrs_21327824",
-        "age": 10,
-        "sex": "gelding",
-        "trainer": "Lucinda Russell & Michael Scudamore",
-        "trainer_id": "trn_382410",
-        "jockey": "Alan Doyle(3)",
-        "jockey_id": "jky_285558",
-        "draw": 0,
-        "number": 4,
-        "lbs": 164,
-        "ofr": "106",
-        "last_run": 25,
-        "form": "448-43",
-        "headgear": "tp",
-        "_stored_at": "2026-07-02T00:01:31.145641+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Perth",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 20.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 54,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -255,6 +239,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -263,7 +248,7 @@
       "latest_distance_f": 20.0,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": 59,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -310,15 +295,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 57,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +1",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -349,7 +327,7 @@
         "last_run": 11,
         "form": "1P-643",
         "headgear": "p",
-        "_stored_at": "2026-07-02T00:01:31.128528+00:00"
+        "_stored_at": "2026-07-02T04:58:40.322607+00:00"
       }
     ],
     "profile_notes": [
@@ -376,7 +354,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 53,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -384,6 +362,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -392,13 +371,134 @@
       "latest_distance_f": 20.0,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": 57,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Button Rock",
+      "horse_id": "hrs_47345389",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Perth",
+      "latest_time": "3:18",
+      "latest_race": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 20.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gordon Elliott",
+      "latest_jockey": "Derek Fox",
+      "latest_draw": 0,
+      "latest_weight_lbs": 151,
+      "official_rating": "93",
+      "recent_form": "8050-6",
+      "last_run_days": 51,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Perth": 1
+      },
+      "distances_seen": {
+        "20.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Gordon Elliott": 1
+      },
+      "jockeys_seen": {
+        "Derek Fox": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987365",
+          "course": "Perth",
+          "date": "2026-07-02",
+          "off_time": "3:18",
+          "off_dt": "2026-07-02T15:18:00+01:00",
+          "race_name": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
+          "distance_f": 20.0,
+          "race_class": "Class 4",
+          "race_type": "Chase",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Button Rock",
+          "horse_id": "hrs_47345389",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Gordon Elliott",
+          "trainer_id": "trn_163305",
+          "jockey": "Derek Fox",
+          "jockey_id": "jky_265413",
+          "draw": 0,
+          "number": 7,
+          "lbs": 151,
+          "ofr": "93",
+          "last_run": 51,
+          "form": "8050-6",
+          "headgear": "",
+          "_stored_at": "2026-07-02T04:58:40.385274+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Perth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 20.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Perth",
+        "latest_distance_f": 20.0,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Gunnery Sergeant",
       "horse_id": "hrs_40095629",
@@ -440,18 +540,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 70,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +2",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey bonus +3",
-        "Jockey in form +2 (1/4 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -482,7 +572,7 @@
           "last_run": 32,
           "form": "225-85",
           "headgear": "tp",
-          "_stored_at": "2026-07-02T00:01:31.109376+00:00"
+          "_stored_at": "2026-07-02T04:58:40.300921+00:00"
         }
       ],
       "profile_notes": [],
@@ -507,134 +597,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 58,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Perth",
-        "latest_distance_f": 20.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 70,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Garde Des Champs",
-      "horse_id": "hrs_21327824",
-      "age": 10,
-      "sex": "gelding",
-      "latest_course": "Perth",
-      "latest_time": "3:18",
-      "latest_race": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 20.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Lucinda Russell & Michael Scudamore",
-      "latest_jockey": "Alan Doyle(3)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 164,
-      "official_rating": "106",
-      "recent_form": "448-43",
-      "last_run_days": 25,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Perth": 1
-      },
-      "distances_seen": {
-        "20.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Lucinda Russell & Michael Scudamore": 1
-      },
-      "jockeys_seen": {
-        "Alan Doyle(3)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 59,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987365",
-          "course": "Perth",
-          "date": "2026-07-02",
-          "off_time": "3:18",
-          "off_dt": "2026-07-02T15:18:00+01:00",
-          "race_name": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
-          "distance_f": 20.0,
-          "race_class": "Class 4",
-          "race_type": "Chase",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Garde Des Champs",
-          "horse_id": "hrs_21327824",
-          "age": 10,
-          "sex": "gelding",
-          "trainer": "Lucinda Russell & Michael Scudamore",
-          "trainer_id": "trn_382410",
-          "jockey": "Alan Doyle(3)",
-          "jockey_id": "jky_285558",
-          "draw": 0,
-          "number": 4,
-          "lbs": 164,
-          "ofr": "106",
-          "last_run": 25,
-          "form": "448-43",
-          "headgear": "tp",
-          "_stored_at": "2026-07-02T00:01:31.145641+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Perth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -642,6 +605,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -650,7 +614,7 @@
         "latest_distance_f": 20.0,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": 59,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -697,15 +661,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 57,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -736,7 +693,7 @@
           "last_run": 11,
           "form": "1P-643",
           "headgear": "p",
-          "_stored_at": "2026-07-02T00:01:31.128528+00:00"
+          "_stored_at": "2026-07-02T04:58:40.322607+00:00"
         }
       ],
       "profile_notes": [
@@ -763,7 +720,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 53,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -771,6 +728,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -779,388 +737,7 @@
         "latest_distance_f": 20.0,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": 57,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Wasdell Dundalk",
-      "horse_id": "hrs_18602626",
-      "age": 11,
-      "sex": "gelding",
-      "latest_course": "Perth",
-      "latest_time": "3:18",
-      "latest_race": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 20.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Lisa Harrison",
-      "latest_jockey": "Danny McMenamin",
-      "latest_draw": 0,
-      "latest_weight_lbs": 169,
-      "official_rating": "111",
-      "recent_form": "P84-64",
-      "last_run_days": 25,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Perth": 1
-      },
-      "distances_seen": {
-        "20.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Lisa Harrison": 1
-      },
-      "jockeys_seen": {
-        "Danny McMenamin": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 53,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987365",
-          "course": "Perth",
-          "date": "2026-07-02",
-          "off_time": "3:18",
-          "off_dt": "2026-07-02T15:18:00+01:00",
-          "race_name": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
-          "distance_f": 20.0,
-          "race_class": "Class 4",
-          "race_type": "Chase",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Wasdell Dundalk",
-          "horse_id": "hrs_18602626",
-          "age": 11,
-          "sex": "gelding",
-          "trainer": "Lisa Harrison",
-          "trainer_id": "trn_134757",
-          "jockey": "Danny McMenamin",
-          "jockey_id": "jky_293565",
-          "draw": 0,
-          "number": 1,
-          "lbs": 169,
-          "ofr": "111",
-          "last_run": 25,
-          "form": "P84-64",
-          "headgear": "p",
-          "_stored_at": "2026-07-02T00:01:31.087450+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Perth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Perth",
-        "latest_distance_f": 20.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 53,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Kinbara Firstdraft",
-      "horse_id": "hrs_34373773",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Perth",
-      "latest_time": "3:18",
-      "latest_race": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 20.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Leonard Kerr",
-      "latest_jockey": "Conor Rabbitt(3)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 161,
-      "official_rating": "103",
-      "recent_form": "874-57",
-      "last_run_days": 25,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Perth": 1
-      },
-      "distances_seen": {
-        "20.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Leonard Kerr": 1
-      },
-      "jockeys_seen": {
-        "Conor Rabbitt(3)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987365",
-          "course": "Perth",
-          "date": "2026-07-02",
-          "off_time": "3:18",
-          "off_dt": "2026-07-02T15:18:00+01:00",
-          "race_name": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
-          "distance_f": 20.0,
-          "race_class": "Class 4",
-          "race_type": "Chase",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Kinbara Firstdraft",
-          "horse_id": "hrs_34373773",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Leonard Kerr",
-          "trainer_id": "trn_236466",
-          "jockey": "Conor Rabbitt(3)",
-          "jockey_id": "jky_297963",
-          "draw": 0,
-          "number": 6,
-          "lbs": 161,
-          "ofr": "103",
-          "last_run": 25,
-          "form": "874-57",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:31.162104+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Perth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 50,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Perth",
-        "latest_distance_f": 20.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 51,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Button Rock",
-      "horse_id": "hrs_47345389",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Perth",
-      "latest_time": "3:18",
-      "latest_race": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 20.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gordon Elliott",
-      "latest_jockey": "Derek Fox",
-      "latest_draw": 0,
-      "latest_weight_lbs": 151,
-      "official_rating": "93",
-      "recent_form": "8050-6",
-      "last_run_days": 51,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Perth": 1
-      },
-      "distances_seen": {
-        "20.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Gordon Elliott": 1
-      },
-      "jockeys_seen": {
-        "Derek Fox": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +2",
-        "Stable in form +2 (2/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987365",
-          "course": "Perth",
-          "date": "2026-07-02",
-          "off_time": "3:18",
-          "off_dt": "2026-07-02T15:18:00+01:00",
-          "race_name": "Secure Air Parks Edinburgh Airport Parking Handicap Chase (GBB Race)",
-          "distance_f": 20.0,
-          "race_class": "Class 4",
-          "race_type": "Chase",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Button Rock",
-          "horse_id": "hrs_47345389",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "Derek Fox",
-          "jockey_id": "jky_265413",
-          "draw": 0,
-          "number": 7,
-          "lbs": 151,
-          "ofr": "93",
-          "last_run": 51,
-          "form": "8050-6",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:31.178124+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Perth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Perth",
-        "latest_distance_f": 20.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1168,8 +745,9 @@
     }
   ],
   "notes": [
-    "Gunnery Sergeant is the top-rated Pulse IQ runner.",
+    "Button Rock is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
+    "This race has a generally weak profile strength.",
     "Moodofthemoment is flagged as a possible dark horse."
   ]
 }

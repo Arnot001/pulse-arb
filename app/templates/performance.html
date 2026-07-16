@@ -25,6 +25,78 @@
         </div>
     </div>
 
+    <div class="performance-filter-panel">
+        <div class="performance-filter-group">
+            <span class="performance-filter-label">
+                Minimum Pulse IQ
+            </span>
+
+            <div class="performance-filter-buttons">
+                {% for score_option in score_options %}
+                    <a
+                        class="
+                            performance-filter-button
+                            {% if selected_score == score_option %}
+                                active
+                            {% endif %}
+                        "
+                        href="/performance?group={{ selected_group }}{% if score_option is not none %}&score={{ score_option }}{% endif %}"
+                    >
+                        {% if score_option is none %}
+                            All
+                        {% else %}
+                            {{ score_option }}+
+                        {% endif %}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="performance-filter-group">
+            <span class="performance-filter-label">
+                Selection Group
+            </span>
+
+            <div class="performance-filter-buttons">
+                {% for group_value, group_label in group_options %}
+                    <a
+                        class="
+                            performance-filter-button
+                            {% if selected_group == group_value %}
+                                active
+                            {% endif %}
+                        "
+                        href="/performance?group={{ group_value }}{% if selected_score is not none %}&score={{ selected_score }}{% endif %}"
+                    >
+                        {{ group_label }}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="performance-filter-summary">
+            Showing
+            <strong>
+                {% if selected_group == "all" %}
+                    all Pulse picks
+                {% elif selected_group == "official" %}
+                    Official Pulse bets
+                {% elif selected_group == "watchlist" %}
+                    watchlist selections
+                {% else %}
+                    prediction-only selections
+                {% endif %}
+            </strong>
+
+            {% if selected_score is not none %}
+                with Pulse IQ
+                <strong>{{ selected_score }}+</strong>
+            {% else %}
+                at every Pulse IQ score
+            {% endif %}
+        </div>
+    </div>
+
     <div class="performance-mode-switch" role="tablist">
         <button
             type="button"
@@ -54,7 +126,12 @@
     <div class="performance-kpi-grid" id="win-kpis">
 
         <div class="dashboard-card pulse-performance-card">
-            <h2>Official Pulse · Win Only</h2>
+            <h2>
+                Official Pulse · Win Only
+                {% if selected_score is not none %}
+                    · {{ selected_score }}+
+                {% endif %}
+            </h2>
 
             <div class="performance-stat">
                 <div>
@@ -90,7 +167,12 @@
         </div>
 
         <div class="dashboard-card pulse-performance-card">
-            <h2>All Pulse Picks · Win Only</h2>
+            <h2>
+                {{ dict(group_options)[selected_group] }} · Win Only
+                {% if selected_score is not none %}
+                    · {{ selected_score }}+
+                {% endif %}
+            </h2>
 
             <div class="performance-stat">
                 <div>
@@ -134,7 +216,12 @@
     >
 
         <div class="dashboard-card pulse-performance-card">
-            <h2>Official Pulse · Each-Way</h2>
+            <h2>
+                Official Pulse · Each-Way
+                {% if selected_score is not none %}
+                    · {{ selected_score }}+
+                {% endif %}
+            </h2>
 
             <div class="performance-stat">
                 <div>
@@ -170,7 +257,12 @@
         </div>
 
         <div class="dashboard-card pulse-performance-card">
-            <h2>All Pulse Picks · Each-Way</h2>
+            <h2>
+                {{ dict(group_options)[selected_group] }} · Each-Way
+                {% if selected_score is not none %}
+                    · {{ selected_score }}+
+                {% endif %}
+            </h2>
 
             <div class="performance-stat">
                 <div>
@@ -491,6 +583,9 @@
 const winHistory = {{ bankroll_history | tojson }};
 const eachWayHistory = {{ each_way_bankroll_history | tojson }};
 
+const selectedScore = {{ selected_score | tojson }};
+const selectedGroup = {{ selected_group | tojson }};
+
 const STARTING_BANK = 100;
 const CHART_HEIGHT = 520;
 const MIN_CHART_WIDTH = 1000;
@@ -740,9 +835,20 @@ function getRangeLabel(range, rows, mode) {
         modeName = "Win vs Each-Way";
     }
 
+    const scoreLabel = selectedScore === null
+        ? "All IQ scores"
+        : `IQ ${selectedScore}+`;
+
+    const groupLabels = {
+        all: "All Picks",
+        official: "Official",
+        watchlist: "Watchlist",
+        predictions: "Predictions",
+    };
+
     return (
-        `${modeName} · ${rangeName} · `
-        + `${rows.length} selections · `
+        `${modeName} · ${groupLabels[selectedGroup]} · ${scoreLabel} · `
+        + `${rangeName} · ${rows.length} selections · `
         + `${formatDate(firstDate)} to ${formatDate(lastDate)}`
     );
 }
@@ -845,6 +951,7 @@ function drawPoints(points, layer, mode) {
                         ${row.horse || "Unknown horse"}
                         · ${row.course || "Unknown course"}
                         · ${dateText}
+                        · IQ ${row.pulse_score ?? "?"}
                         · ${outcomeText}
                         · ${profitText}
                         · Bank £${row.visible_bankroll.toFixed(2)}

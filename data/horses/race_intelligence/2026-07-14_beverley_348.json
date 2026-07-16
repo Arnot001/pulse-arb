@@ -5,12 +5,12 @@
   "time": "3:48",
   "race_name": "Beverley Annual Badgeholders Handicap Stakes",
   "field_size": 9,
-  "average_intelligence": 50.56,
+  "average_intelligence": 50.33,
   "top_score": 67,
-  "second_score": 56,
-  "gap": 11,
-  "confidence_score": 67,
-  "confidence": "MEDIUM",
+  "second_score": 53,
+  "gap": 14,
+  "confidence_score": 71,
+  "confidence": "GOOD",
   "race_shape": "PULSE EDGE",
   "top_runner": {
     "horse": "Bradbury",
@@ -58,7 +58,7 @@
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Stable flying +4 (16/29 last 14 days)"
+      "Trainer bonus +4"
     ],
     "runs": [
       {
@@ -159,37 +159,104 @@
     "official_rating": "57",
     "recent_form": "334260",
     "last_run_days": 18,
-    "profile_runs": 1,
+    "profile_runs": 3,
     "courses_seen": {
+      "Newcastle (AW)": 2,
       "Beverley": 1
     },
     "distances_seen": {
-      "10.0": 1
+      "10.0": 3
     },
     "goings_seen": {
+      "Standard To Slow": 2,
       "Good To Firm": 1
     },
     "classes_seen": {
-      "Class 6": 1
+      "Class 6": 3
     },
     "trainers_seen": {
-      "Tim Easterby": 1
+      "Tim Easterby": 3
     },
     "jockeys_seen": {
+      "Mr Thomas Easterby(3)": 2,
       "David Allan": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 65,
+    "latest_pulse_score": 70,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
-      "Stable flying +4 (11/40 last 14 days)",
-      "Jockey flying +4 (8/29 last 14 days)"
+      "Trainer bonus +3",
+      "Jockey bonus +3",
+      "Historical winner +3",
+      "Previous course winner +4"
     ],
     "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11978720",
+        "course": "Newcastle (AW)",
+        "date": "2026-06-26",
+        "off_time": "5:10",
+        "off_dt": "2026-06-26T17:10:00+01:00",
+        "race_name": "JenningsBet In Newcastle Amateur Jockeys' Handicap",
+        "distance_f": 10.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Standard To Slow",
+        "surface": "AW",
+        "field_size": 14,
+        "horse": "Kitsune Power",
+        "horse_id": "hrs_26145924",
+        "age": 7,
+        "sex": "gelding",
+        "trainer": "Tim Easterby",
+        "trainer_id": "trn_91368",
+        "jockey": "Mr Thomas Easterby(3)",
+        "jockey_id": "jky_305583",
+        "draw": 1,
+        "number": 2,
+        "lbs": 155,
+        "ofr": "59",
+        "last_run": 8,
+        "form": "-33426",
+        "headgear": "p",
+        "_stored_at": "2026-06-26T08:14:10.536964+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11978720",
+        "course": "Newcastle (AW)",
+        "date": "2026-06-26",
+        "off_time": "5:10",
+        "off_dt": "2026-06-26T17:10:00+01:00",
+        "race_name": "JenningsBet In Newcastle Amateur Jockeys' Handicap",
+        "distance_f": 10.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Standard To Slow",
+        "surface": "AW",
+        "field_size": 14,
+        "horse": "Kitsune Power",
+        "horse_id": "hrs_26145924",
+        "age": 7,
+        "sex": "gelding",
+        "trainer": "Tim Easterby",
+        "trainer_id": "trn_91368",
+        "jockey": "Mr Thomas Easterby(3)",
+        "jockey_id": "jky_305583",
+        "draw": 1,
+        "number": 2,
+        "lbs": 155,
+        "ofr": "59",
+        "last_run": 8,
+        "form": "-33426",
+        "headgear": "p",
+        "_stored_at": "2026-06-28T12:42:23.031234+00:00"
+      },
       {
         "source": "the_racing_api",
         "race_id": "rac_13000000208",
@@ -222,39 +289,39 @@
       }
     ],
     "profile_notes": [
+      "Profile has multiple stored runs",
       "Low draw today"
     ],
     "favourite_course": {
-      "value": "Beverley",
-      "runs": 1
+      "value": "Newcastle (AW)",
+      "runs": 2
     },
     "favourite_distance": {
       "value": 10.0,
-      "runs": 1
+      "runs": 3
     },
     "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
+      "value": "Standard To Slow",
+      "runs": 2
     },
     "favourite_class": {
       "value": "Class 6",
-      "runs": 1
+      "runs": 3
     },
-    "course_suitability_score": 90,
+    "course_suitability_score": 55,
     "distance_suitability_score": 90,
-    "going_suitability_score": 90,
+    "going_suitability_score": 55,
     "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 56,
+    "suitability_score": 72,
+    "horse_intelligence_score": 53,
     "profile_strengths": [
-      "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Limited stored profile data"
+      "Course does not strongly match stored profile",
+      "Going is not clearly proven from stored profile"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
@@ -262,16 +329,16 @@
       "latest_distance_f": 10.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": 65,
+      "latest_pulse_score": 70,
       "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
+      "profile_runs": 3,
+      "runs_count": 3
     }
   },
   "dark_horse": {
-    "horse": "Kitsune Power",
-    "horse_id": "hrs_26145924",
-    "age": 7,
+    "horse": "Lever Up",
+    "horse_id": "hrs_44384571",
+    "age": 4,
     "sex": "gelding",
     "latest_course": "Beverley",
     "latest_time": "3:48",
@@ -281,13 +348,13 @@
     "latest_class": "Class 6",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Tim Easterby",
-    "latest_jockey": "David Allan",
-    "latest_draw": 1,
-    "latest_weight_lbs": 134,
-    "official_rating": "57",
-    "recent_form": "334260",
-    "last_run_days": 18,
+    "latest_trainer": "Michael & David Easterby",
+    "latest_jockey": "Joanna Mason",
+    "latest_draw": 4,
+    "latest_weight_lbs": 142,
+    "official_rating": "65",
+    "recent_form": "844-63",
+    "last_run_days": 46,
     "profile_runs": 1,
     "courses_seen": {
       "Beverley": 1
@@ -302,21 +369,19 @@
       "Class 6": 1
     },
     "trainers_seen": {
-      "Tim Easterby": 1
+      "Michael & David Easterby": 1
     },
     "jockeys_seen": {
-      "David Allan": 1
+      "Joanna Mason": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 65,
+    "latest_pulse_score": 55,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
-      "Ideal layoff profile +2",
       "Helpful draw",
-      "Stable flying +4 (11/40 last 14 days)",
-      "Jockey flying +4 (8/29 last 14 days)"
+      "Jockey bonus +3"
     ],
     "runs": [
       {
@@ -333,26 +398,24 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 9,
-        "horse": "Kitsune Power",
-        "horse_id": "hrs_26145924",
-        "age": 7,
+        "horse": "Lever Up",
+        "horse_id": "hrs_44384571",
+        "age": 4,
         "sex": "gelding",
-        "trainer": "Tim Easterby",
-        "trainer_id": "trn_91368",
-        "jockey": "David Allan",
-        "jockey_id": "jky_234669",
-        "draw": 1,
-        "number": 4,
-        "lbs": 134,
-        "ofr": "57",
-        "last_run": 18,
-        "form": "334260",
-        "headgear": "p"
+        "trainer": "Michael & David Easterby",
+        "trainer_id": "trn_346887",
+        "jockey": "Joanna Mason",
+        "jockey_id": "jky_257346",
+        "draw": 4,
+        "number": 1,
+        "lbs": 142,
+        "ofr": "65",
+        "last_run": 46,
+        "form": "844-63",
+        "headgear": "t"
       }
     ],
-    "profile_notes": [
-      "Low draw today"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Beverley",
       "runs": 1
@@ -374,13 +437,12 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 56,
+    "horse_intelligence_score": 52,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
       "Limited stored profile data"
@@ -391,7 +453,7 @@
       "latest_distance_f": 10.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": 65,
+      "latest_pulse_score": 55,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -444,7 +506,7 @@
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Stable flying +4 (16/29 last 14 days)"
+        "Trainer bonus +4"
       ],
       "runs": [
         {
@@ -545,37 +607,104 @@
       "official_rating": "57",
       "recent_form": "334260",
       "last_run_days": 18,
-      "profile_runs": 1,
+      "profile_runs": 3,
       "courses_seen": {
+        "Newcastle (AW)": 2,
         "Beverley": 1
       },
       "distances_seen": {
-        "10.0": 1
+        "10.0": 3
       },
       "goings_seen": {
+        "Standard To Slow": 2,
         "Good To Firm": 1
       },
       "classes_seen": {
-        "Class 6": 1
+        "Class 6": 3
       },
       "trainers_seen": {
-        "Tim Easterby": 1
+        "Tim Easterby": 3
       },
       "jockeys_seen": {
+        "Mr Thomas Easterby(3)": 2,
         "David Allan": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 65,
+      "latest_pulse_score": 70,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
-        "Stable flying +4 (11/40 last 14 days)",
-        "Jockey flying +4 (8/29 last 14 days)"
+        "Trainer bonus +3",
+        "Jockey bonus +3",
+        "Historical winner +3",
+        "Previous course winner +4"
       ],
       "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978720",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-26",
+          "off_time": "5:10",
+          "off_dt": "2026-06-26T17:10:00+01:00",
+          "race_name": "JenningsBet In Newcastle Amateur Jockeys' Handicap",
+          "distance_f": 10.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Kitsune Power",
+          "horse_id": "hrs_26145924",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "Tim Easterby",
+          "trainer_id": "trn_91368",
+          "jockey": "Mr Thomas Easterby(3)",
+          "jockey_id": "jky_305583",
+          "draw": 1,
+          "number": 2,
+          "lbs": 155,
+          "ofr": "59",
+          "last_run": 8,
+          "form": "-33426",
+          "headgear": "p",
+          "_stored_at": "2026-06-26T08:14:10.536964+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978720",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-26",
+          "off_time": "5:10",
+          "off_dt": "2026-06-26T17:10:00+01:00",
+          "race_name": "JenningsBet In Newcastle Amateur Jockeys' Handicap",
+          "distance_f": 10.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Kitsune Power",
+          "horse_id": "hrs_26145924",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "Tim Easterby",
+          "trainer_id": "trn_91368",
+          "jockey": "Mr Thomas Easterby(3)",
+          "jockey_id": "jky_305583",
+          "draw": 1,
+          "number": 2,
+          "lbs": 155,
+          "ofr": "59",
+          "last_run": 8,
+          "form": "-33426",
+          "headgear": "p",
+          "_stored_at": "2026-06-28T12:42:23.031234+00:00"
+        },
         {
           "source": "the_racing_api",
           "race_id": "rac_13000000208",
@@ -608,39 +737,39 @@
         }
       ],
       "profile_notes": [
+        "Profile has multiple stored runs",
         "Low draw today"
       ],
       "favourite_course": {
-        "value": "Beverley",
-        "runs": 1
+        "value": "Newcastle (AW)",
+        "runs": 2
       },
       "favourite_distance": {
         "value": 10.0,
-        "runs": 1
+        "runs": 3
       },
       "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
+        "value": "Standard To Slow",
+        "runs": 2
       },
       "favourite_class": {
         "value": "Class 6",
-        "runs": 1
+        "runs": 3
       },
-      "course_suitability_score": 90,
+      "course_suitability_score": 55,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 55,
       "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 56,
+      "suitability_score": 72,
+      "horse_intelligence_score": 53,
       "profile_strengths": [
-        "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
         "Race class matches common profile level",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Limited stored profile data"
+        "Course does not strongly match stored profile",
+        "Going is not clearly proven from stored profile"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -648,10 +777,10 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 65,
+        "latest_pulse_score": 70,
         "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -695,13 +824,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 60,
+      "latest_pulse_score": 55,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Helpful draw",
-        "Stable flying +4 (3/3 last 14 days)",
-        "Jockey flying +4 (9/24 last 14 days)"
+        "Jockey bonus +3"
       ],
       "runs": [
         {
@@ -757,7 +885,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 52,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -773,16 +901,16 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 60,
+        "latest_pulse_score": 55,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Dr Rio",
-      "horse_id": "hrs_15498721",
-      "age": 10,
+      "horse": "Sunny Orange",
+      "horse_id": "hrs_29889923",
+      "age": 6,
       "sex": "gelding",
       "latest_course": "Beverley",
       "latest_time": "3:48",
@@ -792,12 +920,12 @@
       "latest_class": "Class 6",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Declan Carroll",
-      "latest_jockey": "Zak Wheatley",
-      "latest_draw": 5,
-      "latest_weight_lbs": 138,
-      "official_rating": "61",
-      "recent_form": "-54387",
+      "latest_trainer": "Tim Easterby",
+      "latest_jockey": "Duran Fentiman",
+      "latest_draw": 2,
+      "latest_weight_lbs": 135,
+      "official_rating": "58",
+      "recent_form": "307444",
       "last_run_days": 11,
       "profile_runs": 2,
       "courses_seen": {
@@ -814,20 +942,20 @@
         "Class 6": 2
       },
       "trainers_seen": {
-        "Declan Carroll": 2
+        "Tim Easterby": 2
       },
       "jockeys_seen": {
-        "Zak Wheatley": 2
+        "David Allan": 1,
+        "Duran Fentiman": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 60,
+      "latest_pulse_score": 58,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey in form +2 (1/1 last 14 days)"
+        "Helpful draw",
+        "Trainer bonus +3"
       ],
       "runs": [
         {
@@ -844,22 +972,22 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 11,
-          "horse": "Dr Rio",
-          "horse_id": "hrs_15498721",
-          "age": 10,
+          "horse": "Sunny Orange",
+          "horse_id": "hrs_29889923",
+          "age": 6,
           "sex": "gelding",
-          "trainer": "Declan Carroll",
-          "trainer_id": "trn_29673",
-          "jockey": "Zak Wheatley",
-          "jockey_id": "jky_290007",
-          "draw": 11,
-          "number": 6,
-          "lbs": 132,
-          "ofr": "62",
-          "last_run": 24,
-          "form": "5-5438",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:36:56.094002+00:00"
+          "trainer": "Tim Easterby",
+          "trainer_id": "trn_91368",
+          "jockey": "David Allan",
+          "jockey_id": "jky_234669",
+          "draw": 9,
+          "number": 8,
+          "lbs": 129,
+          "ofr": "59",
+          "last_run": 10,
+          "form": "130744",
+          "headgear": "p",
+          "_stored_at": "2026-07-03T04:58:44.397359+00:00"
         },
         {
           "source": "the_racing_api",
@@ -875,24 +1003,25 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 9,
-          "horse": "Dr Rio",
-          "horse_id": "hrs_15498721",
-          "age": 10,
+          "horse": "Sunny Orange",
+          "horse_id": "hrs_29889923",
+          "age": 6,
           "sex": "gelding",
-          "trainer": "Declan Carroll",
-          "trainer_id": "trn_29673",
-          "jockey": "Zak Wheatley",
-          "jockey_id": "jky_290007",
-          "draw": 5,
-          "number": 2,
-          "lbs": 138,
-          "ofr": "61",
+          "trainer": "Tim Easterby",
+          "trainer_id": "trn_91368",
+          "jockey": "Duran Fentiman",
+          "jockey_id": "jky_246366",
+          "draw": 2,
+          "number": 3,
+          "lbs": 135,
+          "ofr": "58",
           "last_run": 11,
-          "form": "-54387",
-          "headgear": ""
+          "form": "307444",
+          "headgear": "p"
         }
       ],
       "profile_notes": [
+        "Low draw today",
         "Recent run timing"
       ],
       "favourite_course": {
@@ -916,7 +1045,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 81,
-      "horse_intelligence_score": 51,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's going matches known profile preference",
@@ -932,136 +1061,10 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 60,
+        "latest_pulse_score": 58,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
-      }
-    },
-    {
-      "horse": "Wicklow Way",
-      "horse_id": "hrs_52205307",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Beverley",
-      "latest_time": "3:48",
-      "latest_race": "Beverley Annual Badgeholders Handicap Stakes",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 10.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mark Walford",
-      "latest_jockey": "Jack Garritty",
-      "latest_draw": 3,
-      "latest_weight_lbs": 128,
-      "official_rating": "51",
-      "recent_form": "-10993",
-      "last_run_days": 28,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Beverley": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Mark Walford": 1
-      },
-      "jockeys_seen": {
-        "Jack Garritty": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000208",
-          "course": "Beverley",
-          "date": "2026-07-14",
-          "off_time": "3:48",
-          "off_dt": "2026-07-14T15:48:00+01:00",
-          "race_name": "Beverley Annual Badgeholders Handicap Stakes",
-          "distance_f": 10.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Wicklow Way",
-          "horse_id": "hrs_52205307",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Mark Walford",
-          "trainer_id": "trn_259884",
-          "jockey": "Jack Garritty",
-          "jockey_id": "jky_278205",
-          "draw": 3,
-          "number": 8,
-          "lbs": 128,
-          "ofr": "51",
-          "last_run": 28,
-          "form": "-10993",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Beverley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 50,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Beverley",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 50,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
       }
     },
     {
@@ -1110,7 +1113,7 @@
         "Weak recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Stable in form +2 (2/4 last 14 days)"
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -1189,6 +1192,164 @@
       }
     },
     {
+      "horse": "Dr Rio",
+      "horse_id": "hrs_15498721",
+      "age": 10,
+      "sex": "gelding",
+      "latest_course": "Beverley",
+      "latest_time": "3:48",
+      "latest_race": "Beverley Annual Badgeholders Handicap Stakes",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 10.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Declan Carroll",
+      "latest_jockey": "Zak Wheatley",
+      "latest_draw": 5,
+      "latest_weight_lbs": 138,
+      "official_rating": "61",
+      "recent_form": "-54387",
+      "last_run_days": 11,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Beverley": 2
+      },
+      "distances_seen": {
+        "7.5": 1,
+        "10.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {
+        "Class 6": 2
+      },
+      "trainers_seen": {
+        "Declan Carroll": 2
+      },
+      "jockeys_seen": {
+        "Zak Wheatley": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 53,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Trainer bonus +2",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989185",
+          "course": "Beverley",
+          "date": "2026-07-03",
+          "off_time": "8:40",
+          "off_dt": "2026-07-03T20:40:00+01:00",
+          "race_name": "Churchill Tyres Handicap",
+          "distance_f": 7.5,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Dr Rio",
+          "horse_id": "hrs_15498721",
+          "age": 10,
+          "sex": "gelding",
+          "trainer": "Declan Carroll",
+          "trainer_id": "trn_29673",
+          "jockey": "Zak Wheatley",
+          "jockey_id": "jky_290007",
+          "draw": 11,
+          "number": 6,
+          "lbs": 132,
+          "ofr": "62",
+          "last_run": 24,
+          "form": "5-5438",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:44.343506+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000208",
+          "course": "Beverley",
+          "date": "2026-07-14",
+          "off_time": "3:48",
+          "off_dt": "2026-07-14T15:48:00+01:00",
+          "race_name": "Beverley Annual Badgeholders Handicap Stakes",
+          "distance_f": 10.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Dr Rio",
+          "horse_id": "hrs_15498721",
+          "age": 10,
+          "sex": "gelding",
+          "trainer": "Declan Carroll",
+          "trainer_id": "trn_29673",
+          "jockey": "Zak Wheatley",
+          "jockey_id": "jky_290007",
+          "draw": 5,
+          "number": 2,
+          "lbs": 138,
+          "ofr": "61",
+          "last_run": 11,
+          "form": "-54387",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Beverley",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 7.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 81,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Distance not yet a clear profile strength",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Beverley",
+        "latest_distance_f": 10.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 53,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
       "horse": "Star Start",
       "horse_id": "hrs_31259200",
       "age": 6,
@@ -1208,34 +1369,71 @@
       "official_rating": "55",
       "recent_form": "-95385",
       "last_run_days": 15,
-      "profile_runs": 1,
+      "profile_runs": 2,
       "courses_seen": {
+        "Pontefract": 1,
         "Beverley": 1
       },
       "distances_seen": {
-        "10.0": 1
+        "10.0": 2
       },
       "goings_seen": {
+        "Good": 1,
         "Good To Firm": 1
       },
       "classes_seen": {
+        "Class 5": 1,
         "Class 6": 1
       },
       "trainers_seen": {
-        "Ruth Carr": 1
+        "Ruth Carr": 2
       },
       "jockeys_seen": {
+        "Miss Charli Parker(5)": 1,
         "James Sullivan": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 47,
+      "latest_pulse_score": 61,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
-        "Stable in form +2 (1/1 last 14 days)"
+        "Ideal layoff profile +2",
+        "Trainer bonus +3",
+        "Jockey bonus +2"
       ],
       "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988015",
+          "course": "Pontefract",
+          "date": "2026-06-29",
+          "off_time": "2:30",
+          "off_dt": "2026-06-29T14:30:00+01:00",
+          "race_name": "Racing TV Amateur Jockeys' Handicap",
+          "distance_f": 10.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Star Start",
+          "horse_id": "hrs_31259200",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Ruth Carr",
+          "trainer_id": "trn_180405",
+          "jockey": "Miss Charli Parker(5)",
+          "jockey_id": "jky_311592",
+          "draw": 8,
+          "number": 6,
+          "lbs": 145,
+          "ofr": "57",
+          "last_run": 51,
+          "form": "6-9538",
+          "headgear": "",
+          "_stored_at": "2026-06-29T11:41:32.326327+00:00"
+        },
         {
           "source": "the_racing_api",
           "race_id": "rac_13000000208",
@@ -1269,34 +1467,33 @@
       ],
       "profile_notes": [],
       "favourite_course": {
-        "value": "Beverley",
+        "value": "Pontefract",
         "runs": 1
       },
       "favourite_distance": {
         "value": 10.0,
-        "runs": 1
+        "runs": 2
       },
       "favourite_going": {
-        "value": "Good To Firm",
+        "value": "Good",
         "runs": 1
       },
       "favourite_class": {
-        "value": "Class 6",
+        "value": "Class 5",
         "runs": 1
       },
-      "course_suitability_score": 90,
+      "course_suitability_score": 55,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 48,
+      "going_suitability_score": 55,
+      "class_suitability_score": 55,
+      "suitability_score": 64,
+      "horse_intelligence_score": 47,
       "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1305,16 +1502,16 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 47,
+        "latest_pulse_score": 61,
         "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
-      "horse": "Sunny Orange",
-      "horse_id": "hrs_29889923",
-      "age": 6,
+      "horse": "Wicklow Way",
+      "horse_id": "hrs_52205307",
+      "age": 4,
       "sex": "gelding",
       "latest_course": "Beverley",
       "latest_time": "3:48",
@@ -1324,140 +1521,108 @@
       "latest_class": "Class 6",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Tim Easterby",
-      "latest_jockey": "Duran Fentiman",
-      "latest_draw": 2,
-      "latest_weight_lbs": 135,
-      "official_rating": "58",
-      "recent_form": "307444",
-      "last_run_days": 11,
-      "profile_runs": 4,
+      "latest_trainer": "Mark Walford",
+      "latest_jockey": "Jack Garritty",
+      "latest_draw": 3,
+      "latest_weight_lbs": 128,
+      "official_rating": "51",
+      "recent_form": "-10993",
+      "last_run_days": 28,
+      "profile_runs": 3,
       "courses_seen": {
-        "Beverley": 4
+        "Newcastle (AW)": 2,
+        "Beverley": 1
       },
       "distances_seen": {
-        "7.5": 3,
-        "10.0": 1
+        "10.0": 3
       },
       "goings_seen": {
-        "Good": 2,
-        "Good To Firm": 2
+        "Standard To Slow": 2,
+        "Good To Firm": 1
       },
       "classes_seen": {
-        "Class 5": 2,
-        "Class 6": 2
+        "Class 6": 3
       },
       "trainers_seen": {
-        "T D Easterby": 2,
-        "Tim Easterby": 2
+        "Mark Walford": 3
       },
       "jockeys_seen": {
-        "D Fentiman": 2,
-        "David Allan": 1,
-        "Duran Fentiman": 1
+        "Mr Felix Foster(7)": 2,
+        "Jack Garritty": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 54,
+      "latest_pulse_score": 52,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
-        "Stable flying +4 (4/7 last 14 days)",
-        "Jockey flying +4 (4/6 last 14 days)"
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
           "source": "the_racing_api",
-          "race_id": "rac_11976562",
-          "course": "Beverley",
-          "date": "2026-06-23",
-          "off_time": "2:45",
-          "off_dt": "2026-06-23T14:45:00+01:00",
-          "race_name": "Beverley Racecourse Supporting Racing Staff Week Handicap",
-          "distance_f": 7.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Sunny Orange",
-          "horse_id": "hrs_29889923",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "T D Easterby",
-          "trainer_id": "trn_91368",
-          "jockey": "D Fentiman",
-          "jockey_id": "jky_246366",
-          "draw": 2,
-          "number": 7,
-          "lbs": 127,
-          "ofr": "60",
-          "last_run": 8,
-          "form": "613074",
-          "headgear": "p",
-          "_stored_at": "2026-06-23T21:32:38.927690+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11976562",
-          "course": "Beverley",
-          "date": "2026-06-23",
-          "off_time": "2:45",
-          "off_dt": "2026-06-23T14:45:00+01:00",
-          "race_name": "Beverley Racecourse Supporting Racing Staff Week Handicap",
-          "distance_f": 7.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Sunny Orange",
-          "horse_id": "hrs_29889923",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "T D Easterby",
-          "trainer_id": "trn_91368",
-          "jockey": "D Fentiman",
-          "jockey_id": "jky_246366",
-          "draw": 2,
-          "number": 7,
-          "lbs": 127,
-          "ofr": "60",
-          "last_run": 8,
-          "form": "613074",
-          "headgear": "p",
-          "_stored_at": "2026-06-25T06:53:16.363659+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989185",
-          "course": "Beverley",
-          "date": "2026-07-03",
-          "off_time": "8:40",
-          "off_dt": "2026-07-03T20:40:00+01:00",
-          "race_name": "Churchill Tyres Handicap",
-          "distance_f": 7.5,
+          "race_id": "rac_11978720",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-26",
+          "off_time": "5:10",
+          "off_dt": "2026-06-26T17:10:00+01:00",
+          "race_name": "JenningsBet In Newcastle Amateur Jockeys' Handicap",
+          "distance_f": 10.0,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Sunny Orange",
-          "horse_id": "hrs_29889923",
-          "age": 6,
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Wicklow Way",
+          "horse_id": "hrs_52205307",
+          "age": 4,
           "sex": "gelding",
-          "trainer": "Tim Easterby",
-          "trainer_id": "trn_91368",
-          "jockey": "David Allan",
-          "jockey_id": "jky_234669",
-          "draw": 9,
-          "number": 8,
-          "lbs": 129,
-          "ofr": "59",
+          "trainer": "Mark Walford",
+          "trainer_id": "trn_259884",
+          "jockey": "Mr Felix Foster(7)",
+          "jockey_id": "jky_313368",
+          "draw": 5,
+          "number": 7,
+          "lbs": 148,
+          "ofr": "52",
           "last_run": 10,
-          "form": "130744",
-          "headgear": "p",
-          "_stored_at": "2026-07-03T00:36:56.175402+00:00"
+          "form": "-10993",
+          "headgear": "",
+          "_stored_at": "2026-06-26T08:14:10.590857+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978720",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-26",
+          "off_time": "5:10",
+          "off_dt": "2026-06-26T17:10:00+01:00",
+          "race_name": "JenningsBet In Newcastle Amateur Jockeys' Handicap",
+          "distance_f": 10.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Wicklow Way",
+          "horse_id": "hrs_52205307",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Mark Walford",
+          "trainer_id": "trn_259884",
+          "jockey": "Mr Felix Foster(7)",
+          "jockey_id": "jky_313368",
+          "draw": 5,
+          "number": 7,
+          "lbs": 148,
+          "ofr": "52",
+          "last_run": 10,
+          "form": "-10993",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:23.107993+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1473,55 +1638,55 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 9,
-          "horse": "Sunny Orange",
-          "horse_id": "hrs_29889923",
-          "age": 6,
+          "horse": "Wicklow Way",
+          "horse_id": "hrs_52205307",
+          "age": 4,
           "sex": "gelding",
-          "trainer": "Tim Easterby",
-          "trainer_id": "trn_91368",
-          "jockey": "Duran Fentiman",
-          "jockey_id": "jky_246366",
-          "draw": 2,
-          "number": 3,
-          "lbs": 135,
-          "ofr": "58",
-          "last_run": 11,
-          "form": "307444",
-          "headgear": "p"
+          "trainer": "Mark Walford",
+          "trainer_id": "trn_259884",
+          "jockey": "Jack Garritty",
+          "jockey_id": "jky_278205",
+          "draw": 3,
+          "number": 8,
+          "lbs": 128,
+          "ofr": "51",
+          "last_run": 28,
+          "form": "-10993",
+          "headgear": ""
         }
       ],
       "profile_notes": [
         "Profile has multiple stored runs",
-        "Low draw today",
-        "Recent run timing"
+        "Low draw today"
       ],
       "favourite_course": {
-        "value": "Beverley",
-        "runs": 4
+        "value": "Newcastle (AW)",
+        "runs": 2
       },
       "favourite_distance": {
-        "value": 7.5,
+        "value": 10.0,
         "runs": 3
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Standard To Slow",
         "runs": 2
       },
       "favourite_class": {
-        "value": "Class 5",
-        "runs": 2
+        "value": "Class 6",
+        "runs": 3
       },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 55,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
       "going_suitability_score": 55,
-      "class_suitability_score": 55,
-      "suitability_score": 64,
-      "horse_intelligence_score": 44,
+      "class_suitability_score": 90,
+      "suitability_score": 72,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
-        "Today's course matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Distance not yet a clear profile strength",
+        "Course does not strongly match stored profile",
         "Going is not clearly proven from stored profile"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1530,10 +1695,10 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 54,
+        "latest_pulse_score": 52,
         "average_pulse_score": 0,
-        "profile_runs": 4,
-        "runs_count": 4
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -1556,41 +1721,43 @@
       "official_rating": "46",
       "recent_form": "-70720",
       "last_run_days": 19,
-      "profile_runs": 2,
+      "profile_runs": 5,
       "courses_seen": {
-        "Newcastle": 1,
+        "Newcastle (AW)": 4,
         "Beverley": 1
       },
       "distances_seen": {
-        "8.0": 1,
+        "8.0": 4,
         "10.0": 1
       },
       "goings_seen": {
-        "Standard To Slow": 1,
+        "Standard To Slow": 4,
         "Good To Firm": 1
       },
       "classes_seen": {
-        "Class 6": 2
+        "Class 6": 5
       },
       "trainers_seen": {
-        "A D Brown": 1,
-        "Alan Brown": 1
+        "Alan Brown": 5
       },
       "jockeys_seen": {
-        "Jason Hart": 1,
+        "Jason Hart": 4,
         "P J McDonald": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 38,
+      "latest_pulse_score": 51,
       "latest_notes": [
-        "Weak recent form"
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Jockey bonus +3"
       ],
       "runs": [
         {
           "source": "the_racing_api",
           "race_id": "rac_11978629",
-          "course": "Newcastle",
+          "course": "Newcastle (AW)",
           "date": "2026-06-25",
           "off_time": "6:07",
           "off_dt": "2026-06-25T18:07:00+01:00",
@@ -1605,7 +1772,7 @@
           "horse_id": "hrs_42042147",
           "age": 4,
           "sex": "filly",
-          "trainer": "A D Brown",
+          "trainer": "Alan Brown",
           "trainer_id": "trn_702",
           "jockey": "Jason Hart",
           "jockey_id": "jky_270729",
@@ -1616,7 +1783,100 @@
           "last_run": 9,
           "form": "5-7072",
           "headgear": "v",
-          "_stored_at": "2026-06-25T06:53:21.473798+00:00"
+          "_stored_at": "2026-06-25T14:16:20.428544+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978629",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-25",
+          "off_time": "6:07",
+          "off_dt": "2026-06-25T18:07:00+01:00",
+          "race_name": "Fly From Newcastle Airport Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 13,
+          "horse": "Mavetheforcebewivu",
+          "horse_id": "hrs_42042147",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Alan Brown",
+          "trainer_id": "trn_702",
+          "jockey": "Jason Hart",
+          "jockey_id": "jky_270729",
+          "draw": 7,
+          "number": 11,
+          "lbs": 129,
+          "ofr": "46",
+          "last_run": 9,
+          "form": "5-7072",
+          "headgear": "v",
+          "_stored_at": "2026-06-25T17:11:30.196018+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978629",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-25",
+          "off_time": "6:07",
+          "off_dt": "2026-06-25T18:07:00+01:00",
+          "race_name": "Fly From Newcastle Airport Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 13,
+          "horse": "Mavetheforcebewivu",
+          "horse_id": "hrs_42042147",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Alan Brown",
+          "trainer_id": "trn_702",
+          "jockey": "Jason Hart",
+          "jockey_id": "jky_270729",
+          "draw": 7,
+          "number": 11,
+          "lbs": 129,
+          "ofr": "46",
+          "last_run": 9,
+          "form": "5-7072",
+          "headgear": "v",
+          "_stored_at": "2026-06-26T08:14:08.020802+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11978629",
+          "course": "Newcastle (AW)",
+          "date": "2026-06-25",
+          "off_time": "6:07",
+          "off_dt": "2026-06-25T18:07:00+01:00",
+          "race_name": "Fly From Newcastle Airport Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 13,
+          "horse": "Mavetheforcebewivu",
+          "horse_id": "hrs_42042147",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Alan Brown",
+          "trainer_id": "trn_702",
+          "jockey": "Jason Hart",
+          "jockey_id": "jky_270729",
+          "draw": 7,
+          "number": 11,
+          "lbs": 129,
+          "ofr": "46",
+          "last_run": 9,
+          "form": "5-7072",
+          "headgear": "v",
+          "_stored_at": "2026-06-28T12:42:17.968085+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1649,38 +1909,38 @@
           "headgear": "v"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Profile has multiple stored runs"
+      ],
       "favourite_course": {
-        "value": "Newcastle",
-        "runs": 1
+        "value": "Newcastle (AW)",
+        "runs": 4
       },
       "favourite_distance": {
         "value": 8.0,
-        "runs": 1
+        "runs": 4
       },
       "favourite_going": {
         "value": "Standard To Slow",
-        "runs": 1
+        "runs": 4
       },
       "favourite_class": {
         "value": "Class 6",
-        "runs": 2
+        "runs": 5
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
       "going_suitability_score": 55,
       "class_suitability_score": 90,
       "suitability_score": 64,
-      "horse_intelligence_score": 36,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
         "Race class matches common profile level"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
+        "Going is not clearly proven from stored profile"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -1688,16 +1948,16 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 38,
+        "latest_pulse_score": 51,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 5,
+        "runs_count": 5
       }
     }
   ],
   "notes": [
     "Bradbury is the top-rated Pulse IQ runner.",
     "The top runner has a clear intelligence gap over the field.",
-    "Kitsune Power is flagged as a possible dark horse."
+    "Lever Up is flagged as a possible dark horse."
   ]
 }

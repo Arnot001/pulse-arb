@@ -5,14 +5,130 @@
   "time": "9:15",
   "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
   "field_size": 9,
-  "average_intelligence": 54.56,
-  "top_score": 61,
-  "second_score": 61,
+  "average_intelligence": 24.0,
+  "top_score": 24,
+  "second_score": 24,
   "gap": 0,
-  "confidence_score": 48,
+  "confidence_score": 19,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Estaquilla",
+    "horse_id": "hrs_66305218",
+    "age": 2,
+    "sex": "filly",
+    "latest_course": "Club Hipico de Santiago",
+    "latest_time": "9:15",
+    "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+    "latest_date": "2026-06-29",
+    "latest_distance_f": 8.0,
+    "latest_class": "Class 1",
+    "latest_going": "",
+    "latest_surface": "Turf",
+    "latest_trainer": "Jose Alvarez",
+    "latest_jockey": "Gustavo Aros",
+    "latest_draw": 4,
+    "latest_weight_lbs": 121,
+    "official_rating": "-",
+    "recent_form": "14",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Club Hipico de Santiago": 1
+    },
+    "distances_seen": {
+      "8.0": 1
+    },
+    "goings_seen": {},
+    "classes_seen": {
+      "Class 1": 1
+    },
+    "trainers_seen": {
+      "Jose Alvarez": 1
+    },
+    "jockeys_seen": {
+      "Gustavo Aros": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12008490",
+        "course": "Club Hipico de Santiago",
+        "date": "2026-06-29",
+        "off_time": "9:15",
+        "off_dt": "2026-06-29T21:15:00+01:00",
+        "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+        "distance_f": 8.0,
+        "race_class": "Class 1",
+        "race_type": "Flat",
+        "going": "",
+        "surface": "Turf",
+        "field_size": 9,
+        "horse": "Estaquilla",
+        "horse_id": "hrs_66305218",
+        "age": 2,
+        "sex": "filly",
+        "trainer": "Jose Alvarez",
+        "trainer_id": "trn_218754",
+        "jockey": "Gustavo Aros",
+        "jockey_id": "jky_296469",
+        "draw": 4,
+        "number": 4,
+        "lbs": 121,
+        "ofr": "-",
+        "last_run": null,
+        "form": "14",
+        "headgear": "",
+        "_stored_at": "2026-06-30T05:14:13.769507+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Club Hipico de Santiago",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 8.0,
+      "runs": 1
+    },
+    "favourite_going": null,
+    "favourite_class": {
+      "value": "Class 1",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 50,
+    "class_suitability_score": 90,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Club Hipico de Santiago",
+      "latest_distance_f": 8.0,
+      "latest_going": "",
+      "latest_class": "Class 1",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Joy Vanny",
     "horse_id": "hrs_66305239",
     "age": 2,
@@ -51,11 +167,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 82,
-    "latest_notes": [
-      "Strong recent form",
-      "Race class strength +8"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -89,9 +202,7 @@
         "_stored_at": "2026-06-30T05:14:13.808447+00:00"
       }
     ],
-    "profile_notes": [
-      "Elite latest Pulse Score"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Club Hipico de Santiago",
       "runs": 1
@@ -110,15 +221,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 61,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level",
-      "Elite latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -127,136 +238,15 @@
       "latest_distance_f": 8.0,
       "latest_going": "",
       "latest_class": "Class 1",
-      "latest_pulse_score": 82,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Maga Brava",
-    "horse_id": "hrs_66305253",
-    "age": 2,
-    "sex": "filly",
-    "latest_course": "Club Hipico de Santiago",
-    "latest_time": "9:15",
-    "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-    "latest_date": "2026-06-29",
-    "latest_distance_f": 8.0,
-    "latest_class": "Class 1",
-    "latest_going": "",
-    "latest_surface": "Turf",
-    "latest_trainer": "Patricio Baeza",
-    "latest_jockey": "Hugo Ochoa",
-    "latest_draw": 7,
-    "latest_weight_lbs": 121,
-    "official_rating": "-",
-    "recent_form": "2211",
-    "last_run_days": null,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Club Hipico de Santiago": 1
-    },
-    "distances_seen": {
-      "8.0": 1
-    },
-    "goings_seen": {},
-    "classes_seen": {
-      "Class 1": 1
-    },
-    "trainers_seen": {
-      "Patricio Baeza": 1
-    },
-    "jockeys_seen": {
-      "Hugo Ochoa": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 82,
-    "latest_notes": [
-      "Strong recent form",
-      "Race class strength +8"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12008490",
-        "course": "Club Hipico de Santiago",
-        "date": "2026-06-29",
-        "off_time": "9:15",
-        "off_dt": "2026-06-29T21:15:00+01:00",
-        "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-        "distance_f": 8.0,
-        "race_class": "Class 1",
-        "race_type": "Flat",
-        "going": "",
-        "surface": "Turf",
-        "field_size": 9,
-        "horse": "Maga Brava",
-        "horse_id": "hrs_66305253",
-        "age": 2,
-        "sex": "filly",
-        "trainer": "Patricio Baeza",
-        "trainer_id": "trn_87057",
-        "jockey": "Hugo Ochoa",
-        "jockey_id": "jky_304413",
-        "draw": 7,
-        "number": 7,
-        "lbs": 121,
-        "ofr": "-",
-        "last_run": null,
-        "form": "2211",
-        "headgear": "",
-        "_stored_at": "2026-06-30T05:14:13.827846+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Elite latest Pulse Score"
-    ],
-    "favourite_course": {
-      "value": "Club Hipico de Santiago",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 8.0,
-      "runs": 1
-    },
-    "favourite_going": null,
-    "favourite_class": {
-      "value": "Class 1",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 50,
-    "class_suitability_score": 90,
-    "suitability_score": 80,
-    "horse_intelligence_score": 61,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level",
-      "Elite latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Going is not clearly proven from stored profile",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Club Hipico de Santiago",
-      "latest_distance_f": 8.0,
-      "latest_going": "",
-      "latest_class": "Class 1",
-      "latest_pulse_score": 82,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Maga Brava",
-    "horse_id": "hrs_66305253",
+    "horse": "Kerouac",
+    "horse_id": "hrs_66305260",
     "age": 2,
     "sex": "filly",
     "latest_course": "Club Hipico de Santiago",
@@ -267,12 +257,12 @@
     "latest_class": "Class 1",
     "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "Patricio Baeza",
-    "latest_jockey": "Hugo Ochoa",
-    "latest_draw": 7,
+    "latest_trainer": "Juan G Silva",
+    "latest_jockey": "Joaquin Herrera",
+    "latest_draw": 8,
     "latest_weight_lbs": 121,
     "official_rating": "-",
-    "recent_form": "2211",
+    "recent_form": "1",
     "last_run_days": null,
     "profile_runs": 1,
     "courses_seen": {
@@ -286,18 +276,15 @@
       "Class 1": 1
     },
     "trainers_seen": {
-      "Patricio Baeza": 1
+      "Juan G Silva": 1
     },
     "jockeys_seen": {
-      "Hugo Ochoa": 1
+      "Joaquin Herrera": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 82,
-    "latest_notes": [
-      "Strong recent form",
-      "Race class strength +8"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -313,27 +300,25 @@
         "going": "",
         "surface": "Turf",
         "field_size": 9,
-        "horse": "Maga Brava",
-        "horse_id": "hrs_66305253",
+        "horse": "Kerouac",
+        "horse_id": "hrs_66305260",
         "age": 2,
         "sex": "filly",
-        "trainer": "Patricio Baeza",
-        "trainer_id": "trn_87057",
-        "jockey": "Hugo Ochoa",
-        "jockey_id": "jky_304413",
-        "draw": 7,
-        "number": 7,
+        "trainer": "Juan G Silva",
+        "trainer_id": "trn_218817",
+        "jockey": "Joaquin Herrera",
+        "jockey_id": "jky_292149",
+        "draw": 8,
+        "number": 8,
         "lbs": 121,
         "ofr": "-",
         "last_run": null,
-        "form": "2211",
+        "form": "1",
         "headgear": "",
-        "_stored_at": "2026-06-30T05:14:13.827846+00:00"
+        "_stored_at": "2026-06-30T05:14:13.847390+00:00"
       }
     ],
-    "profile_notes": [
-      "Elite latest Pulse Score"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Club Hipico de Santiago",
       "runs": 1
@@ -352,15 +337,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 61,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level",
-      "Elite latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -369,499 +354,13 @@
       "latest_distance_f": 8.0,
       "latest_going": "",
       "latest_class": "Class 1",
-      "latest_pulse_score": 82,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Joy Vanny",
-      "horse_id": "hrs_66305239",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Club Hipico de Santiago",
-      "latest_time": "9:15",
-      "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 1",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Patricio Baeza",
-      "latest_jockey": "Oscar Ulloa",
-      "latest_draw": 6,
-      "latest_weight_lbs": 123,
-      "official_rating": "-",
-      "recent_form": "2-112",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Club Hipico de Santiago": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 1": 1
-      },
-      "trainers_seen": {
-        "Patricio Baeza": 1
-      },
-      "jockeys_seen": {
-        "Oscar Ulloa": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 82,
-      "latest_notes": [
-        "Strong recent form",
-        "Race class strength +8"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008490",
-          "course": "Club Hipico de Santiago",
-          "date": "2026-06-29",
-          "off_time": "9:15",
-          "off_dt": "2026-06-29T21:15:00+01:00",
-          "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Joy Vanny",
-          "horse_id": "hrs_66305239",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Patricio Baeza",
-          "trainer_id": "trn_87057",
-          "jockey": "Oscar Ulloa",
-          "jockey_id": "jky_264039",
-          "draw": 6,
-          "number": 6,
-          "lbs": 123,
-          "ofr": "-",
-          "last_run": null,
-          "form": "2-112",
-          "headgear": "",
-          "_stored_at": "2026-06-30T05:14:13.808447+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ],
-      "favourite_course": {
-        "value": "Club Hipico de Santiago",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 61,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Club Hipico de Santiago",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 82,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Maga Brava",
-      "horse_id": "hrs_66305253",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Club Hipico de Santiago",
-      "latest_time": "9:15",
-      "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 1",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Patricio Baeza",
-      "latest_jockey": "Hugo Ochoa",
-      "latest_draw": 7,
-      "latest_weight_lbs": 121,
-      "official_rating": "-",
-      "recent_form": "2211",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Club Hipico de Santiago": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 1": 1
-      },
-      "trainers_seen": {
-        "Patricio Baeza": 1
-      },
-      "jockeys_seen": {
-        "Hugo Ochoa": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 82,
-      "latest_notes": [
-        "Strong recent form",
-        "Race class strength +8"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008490",
-          "course": "Club Hipico de Santiago",
-          "date": "2026-06-29",
-          "off_time": "9:15",
-          "off_dt": "2026-06-29T21:15:00+01:00",
-          "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Maga Brava",
-          "horse_id": "hrs_66305253",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Patricio Baeza",
-          "trainer_id": "trn_87057",
-          "jockey": "Hugo Ochoa",
-          "jockey_id": "jky_304413",
-          "draw": 7,
-          "number": 7,
-          "lbs": 121,
-          "ofr": "-",
-          "last_run": null,
-          "form": "2211",
-          "headgear": "",
-          "_stored_at": "2026-06-30T05:14:13.827846+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ],
-      "favourite_course": {
-        "value": "Club Hipico de Santiago",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 61,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Club Hipico de Santiago",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 82,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Siendo Coqueta",
-      "horse_id": "hrs_66305204",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Club Hipico de Santiago",
-      "latest_time": "9:15",
-      "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 1",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Patricio Baeza",
-      "latest_jockey": "Rodolfo Fuenzalida",
-      "latest_draw": 3,
-      "latest_weight_lbs": 121,
-      "official_rating": "-",
-      "recent_form": "2133",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Club Hipico de Santiago": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 1": 1
-      },
-      "trainers_seen": {
-        "Patricio Baeza": 1
-      },
-      "jockeys_seen": {
-        "Rodolfo Fuenzalida": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 79,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Race class strength +8"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008490",
-          "course": "Club Hipico de Santiago",
-          "date": "2026-06-29",
-          "off_time": "9:15",
-          "off_dt": "2026-06-29T21:15:00+01:00",
-          "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Siendo Coqueta",
-          "horse_id": "hrs_66305204",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Patricio Baeza",
-          "trainer_id": "trn_87057",
-          "jockey": "Rodolfo Fuenzalida",
-          "jockey_id": "jky_270936",
-          "draw": 3,
-          "number": 3,
-          "lbs": 121,
-          "ofr": "-",
-          "last_run": null,
-          "form": "2133",
-          "headgear": "",
-          "_stored_at": "2026-06-30T05:14:13.750182+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Club Hipico de Santiago",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 60,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Club Hipico de Santiago",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 79,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Sulis",
-      "horse_id": "hrs_66305190",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Club Hipico de Santiago",
-      "latest_time": "9:15",
-      "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 1",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Patricio Baeza",
-      "latest_jockey": "Jorge A Gonzalez",
-      "latest_draw": 2,
-      "latest_weight_lbs": 121,
-      "official_rating": "-",
-      "recent_form": "31",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Club Hipico de Santiago": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 1": 1
-      },
-      "trainers_seen": {
-        "Patricio Baeza": 1
-      },
-      "jockeys_seen": {
-        "Jorge A Gonzalez": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 67,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Race class strength +8"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008490",
-          "course": "Club Hipico de Santiago",
-          "date": "2026-06-29",
-          "off_time": "9:15",
-          "off_dt": "2026-06-29T21:15:00+01:00",
-          "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Sulis",
-          "horse_id": "hrs_66305190",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Patricio Baeza",
-          "trainer_id": "trn_87057",
-          "jockey": "Jorge A Gonzalez",
-          "jockey_id": "jky_272301",
-          "draw": 2,
-          "number": 2,
-          "lbs": 121,
-          "ofr": "-",
-          "last_run": null,
-          "form": "31",
-          "headgear": "",
-          "_stored_at": "2026-06-30T05:14:13.730762+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Club Hipico de Santiago",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Club Hipico de Santiago",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 67,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Estaquilla",
       "horse_id": "hrs_66305218",
@@ -901,12 +400,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 62,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Race class strength +8"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -959,7 +454,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -967,6 +462,7 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -975,7 +471,239 @@
         "latest_distance_f": 8.0,
         "latest_going": "",
         "latest_class": "Class 1",
-        "latest_pulse_score": 62,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Joy Vanny",
+      "horse_id": "hrs_66305239",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Club Hipico de Santiago",
+      "latest_time": "9:15",
+      "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 1",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Patricio Baeza",
+      "latest_jockey": "Oscar Ulloa",
+      "latest_draw": 6,
+      "latest_weight_lbs": 123,
+      "official_rating": "-",
+      "recent_form": "2-112",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Club Hipico de Santiago": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 1": 1
+      },
+      "trainers_seen": {
+        "Patricio Baeza": 1
+      },
+      "jockeys_seen": {
+        "Oscar Ulloa": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008490",
+          "course": "Club Hipico de Santiago",
+          "date": "2026-06-29",
+          "off_time": "9:15",
+          "off_dt": "2026-06-29T21:15:00+01:00",
+          "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Joy Vanny",
+          "horse_id": "hrs_66305239",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Patricio Baeza",
+          "trainer_id": "trn_87057",
+          "jockey": "Oscar Ulloa",
+          "jockey_id": "jky_264039",
+          "draw": 6,
+          "number": 6,
+          "lbs": 123,
+          "ofr": "-",
+          "last_run": null,
+          "form": "2-112",
+          "headgear": "",
+          "_stored_at": "2026-06-30T05:14:13.808447+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Club Hipico de Santiago",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Club Hipico de Santiago",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Kerouac",
+      "horse_id": "hrs_66305260",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Club Hipico de Santiago",
+      "latest_time": "9:15",
+      "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 1",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Juan G Silva",
+      "latest_jockey": "Joaquin Herrera",
+      "latest_draw": 8,
+      "latest_weight_lbs": 121,
+      "official_rating": "-",
+      "recent_form": "1",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Club Hipico de Santiago": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 1": 1
+      },
+      "trainers_seen": {
+        "Juan G Silva": 1
+      },
+      "jockeys_seen": {
+        "Joaquin Herrera": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008490",
+          "course": "Club Hipico de Santiago",
+          "date": "2026-06-29",
+          "off_time": "9:15",
+          "off_dt": "2026-06-29T21:15:00+01:00",
+          "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Kerouac",
+          "horse_id": "hrs_66305260",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Juan G Silva",
+          "trainer_id": "trn_218817",
+          "jockey": "Joaquin Herrera",
+          "jockey_id": "jky_292149",
+          "draw": 8,
+          "number": 8,
+          "lbs": 121,
+          "ofr": "-",
+          "last_run": null,
+          "form": "1",
+          "headgear": "",
+          "_stored_at": "2026-06-30T05:14:13.847390+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Club Hipico de Santiago",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Club Hipico de Santiago",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1020,12 +748,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 62,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw",
-        "Race class strength +8"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1080,7 +804,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1088,6 +812,7 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1096,15 +821,15 @@
         "latest_distance_f": 8.0,
         "latest_going": "",
         "latest_class": "Class 1",
-        "latest_pulse_score": 62,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Paperinna",
-      "horse_id": "hrs_66305267",
+      "horse": "Maga Brava",
+      "horse_id": "hrs_66305253",
       "age": 2,
       "sex": "filly",
       "latest_course": "Club Hipico de Santiago",
@@ -1116,11 +841,11 @@
       "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Patricio Baeza",
-      "latest_jockey": "Benjamin Rodrigo Troncoso",
-      "latest_draw": 9,
+      "latest_jockey": "Hugo Ochoa",
+      "latest_draw": 7,
       "latest_weight_lbs": 121,
       "official_rating": "-",
-      "recent_form": "41",
+      "recent_form": "2211",
       "last_run_days": null,
       "profile_runs": 1,
       "courses_seen": {
@@ -1137,15 +862,12 @@
         "Patricio Baeza": 1
       },
       "jockeys_seen": {
-        "Benjamin Rodrigo Troncoso": 1
+        "Hugo Ochoa": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Strong recent form",
-        "Race class strength +8"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1161,22 +883,22 @@
           "going": "",
           "surface": "Turf",
           "field_size": 9,
-          "horse": "Paperinna",
-          "horse_id": "hrs_66305267",
+          "horse": "Maga Brava",
+          "horse_id": "hrs_66305253",
           "age": 2,
           "sex": "filly",
           "trainer": "Patricio Baeza",
           "trainer_id": "trn_87057",
-          "jockey": "Benjamin Rodrigo Troncoso",
-          "jockey_id": "jky_314181",
-          "draw": 9,
-          "number": 9,
+          "jockey": "Hugo Ochoa",
+          "jockey_id": "jky_304413",
+          "draw": 7,
+          "number": 7,
           "lbs": 121,
           "ofr": "-",
           "last_run": null,
-          "form": "41",
+          "form": "2211",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:13.868060+00:00"
+          "_stored_at": "2026-06-30T05:14:13.827846+00:00"
         }
       ],
       "profile_notes": [],
@@ -1198,7 +920,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 51,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1206,6 +928,7 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1214,125 +937,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "",
         "latest_class": "Class 1",
-        "latest_pulse_score": 60,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Kerouac",
-      "horse_id": "hrs_66305260",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Club Hipico de Santiago",
-      "latest_time": "9:15",
-      "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 1",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Juan G Silva",
-      "latest_jockey": "Joaquin Herrera",
-      "latest_draw": 8,
-      "latest_weight_lbs": 121,
-      "official_rating": "-",
-      "recent_form": "1",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Club Hipico de Santiago": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 1": 1
-      },
-      "trainers_seen": {
-        "Juan G Silva": 1
-      },
-      "jockeys_seen": {
-        "Joaquin Herrera": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 58,
-      "latest_notes": [
-        "Positive recent form",
-        "Race class strength +8"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008490",
-          "course": "Club Hipico de Santiago",
-          "date": "2026-06-29",
-          "off_time": "9:15",
-          "off_dt": "2026-06-29T21:15:00+01:00",
-          "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "Class 1",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Kerouac",
-          "horse_id": "hrs_66305260",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Juan G Silva",
-          "trainer_id": "trn_218817",
-          "jockey": "Joaquin Herrera",
-          "jockey_id": "jky_292149",
-          "draw": 8,
-          "number": 8,
-          "lbs": 121,
-          "ofr": "-",
-          "last_run": null,
-          "form": "1",
-          "headgear": "",
-          "_stored_at": "2026-06-30T05:14:13.847390+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Club Hipico de Santiago",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 1",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 50,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Club Hipico de Santiago",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 1",
-        "latest_pulse_score": 58,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1377,11 +982,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 58,
-      "latest_notes": [
-        "Positive recent form",
-        "Race class strength +8"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1434,7 +1036,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 50,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1442,6 +1044,7 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1450,7 +1053,359 @@
         "latest_distance_f": 8.0,
         "latest_going": "",
         "latest_class": "Class 1",
-        "latest_pulse_score": 58,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Paperinna",
+      "horse_id": "hrs_66305267",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Club Hipico de Santiago",
+      "latest_time": "9:15",
+      "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 1",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Patricio Baeza",
+      "latest_jockey": "Benjamin Rodrigo Troncoso",
+      "latest_draw": 9,
+      "latest_weight_lbs": 121,
+      "official_rating": "-",
+      "recent_form": "41",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Club Hipico de Santiago": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 1": 1
+      },
+      "trainers_seen": {
+        "Patricio Baeza": 1
+      },
+      "jockeys_seen": {
+        "Benjamin Rodrigo Troncoso": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008490",
+          "course": "Club Hipico de Santiago",
+          "date": "2026-06-29",
+          "off_time": "9:15",
+          "off_dt": "2026-06-29T21:15:00+01:00",
+          "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Paperinna",
+          "horse_id": "hrs_66305267",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Patricio Baeza",
+          "trainer_id": "trn_87057",
+          "jockey": "Benjamin Rodrigo Troncoso",
+          "jockey_id": "jky_314181",
+          "draw": 9,
+          "number": 9,
+          "lbs": 121,
+          "ofr": "-",
+          "last_run": null,
+          "form": "41",
+          "headgear": "",
+          "_stored_at": "2026-06-30T05:14:13.868060+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Club Hipico de Santiago",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Club Hipico de Santiago",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Siendo Coqueta",
+      "horse_id": "hrs_66305204",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Club Hipico de Santiago",
+      "latest_time": "9:15",
+      "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 1",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Patricio Baeza",
+      "latest_jockey": "Rodolfo Fuenzalida",
+      "latest_draw": 3,
+      "latest_weight_lbs": 121,
+      "official_rating": "-",
+      "recent_form": "2133",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Club Hipico de Santiago": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 1": 1
+      },
+      "trainers_seen": {
+        "Patricio Baeza": 1
+      },
+      "jockeys_seen": {
+        "Rodolfo Fuenzalida": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008490",
+          "course": "Club Hipico de Santiago",
+          "date": "2026-06-29",
+          "off_time": "9:15",
+          "off_dt": "2026-06-29T21:15:00+01:00",
+          "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Siendo Coqueta",
+          "horse_id": "hrs_66305204",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Patricio Baeza",
+          "trainer_id": "trn_87057",
+          "jockey": "Rodolfo Fuenzalida",
+          "jockey_id": "jky_270936",
+          "draw": 3,
+          "number": 3,
+          "lbs": 121,
+          "ofr": "-",
+          "last_run": null,
+          "form": "2133",
+          "headgear": "",
+          "_stored_at": "2026-06-30T05:14:13.750182+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Club Hipico de Santiago",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Club Hipico de Santiago",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Sulis",
+      "horse_id": "hrs_66305190",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Club Hipico de Santiago",
+      "latest_time": "9:15",
+      "latest_race": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 1",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Patricio Baeza",
+      "latest_jockey": "Jorge A Gonzalez",
+      "latest_draw": 2,
+      "latest_weight_lbs": 121,
+      "official_rating": "-",
+      "recent_form": "31",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Club Hipico de Santiago": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 1": 1
+      },
+      "trainers_seen": {
+        "Patricio Baeza": 1
+      },
+      "jockeys_seen": {
+        "Jorge A Gonzalez": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008490",
+          "course": "Club Hipico de Santiago",
+          "date": "2026-06-29",
+          "off_time": "9:15",
+          "off_dt": "2026-06-29T21:15:00+01:00",
+          "race_name": "Arturo Lyon Pena Stakes (Group 1) (Fillies) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "Class 1",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Sulis",
+          "horse_id": "hrs_66305190",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Patricio Baeza",
+          "trainer_id": "trn_87057",
+          "jockey": "Jorge A Gonzalez",
+          "jockey_id": "jky_272301",
+          "draw": 2,
+          "number": 2,
+          "lbs": 121,
+          "ofr": "-",
+          "last_run": null,
+          "form": "31",
+          "headgear": "",
+          "_stored_at": "2026-06-30T05:14:13.730762+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Club Hipico de Santiago",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 1",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Club Hipico de Santiago",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 1",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1458,8 +1413,9 @@
     }
   ],
   "notes": [
-    "Joy Vanny is the top-rated Pulse IQ runner.",
+    "Estaquilla is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Maga Brava is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Kerouac is flagged as a possible dark horse."
   ]
 }

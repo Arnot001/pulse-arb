@@ -7,40 +7,16 @@
   "course": "Killarney",
   "time": "18:00",
   "top_pick": "Venetian Power",
-  "top_pick_score": 73,
+  "top_pick_score": 77,
   "winner_score": null,
   "signals": [
-    {
-      "signal": "Favourite course matched",
-      "reason": "Winner ran at its most common course: Killarney"
-    },
-    {
-      "signal": "Favourite distance matched",
-      "reason": "Winner ran at its most common distance: 8.0f"
-    },
-    {
-      "signal": "Favourite going matched",
-      "reason": "Winner ran on its most common going: "
-    },
     {
       "signal": "Favourite class matched",
       "reason": "Winner ran at its most common class: Class 1"
     },
     {
-      "signal": "Strong horse intelligence profile",
-      "reason": "Horse Intelligence was 69"
-    },
-    {
-      "signal": "Strong suitability profile",
-      "reason": "Suitability Score was 80"
-    },
-    {
-      "signal": "Profile strength existed",
-      "reason": "Today's course matches strongest profile pattern"
-    },
-    {
-      "signal": "Profile strength existed",
-      "reason": "Today's distance matches strongest profile pattern"
+      "signal": "Stored history available",
+      "reason": "Profile had 3 stored runs"
     },
     {
       "signal": "Profile strength existed",
@@ -54,25 +30,29 @@
   "profile_snapshot": {
     "average_pulse_score": 0,
     "latest_pulse_score": 100,
-    "horse_intelligence_score": 69,
-    "suitability_score": 80,
-    "profile_runs": 1,
+    "horse_intelligence_score": 64,
+    "suitability_score": 64,
+    "profile_runs": 3,
     "favourite_course": {
-      "value": "Killarney",
-      "runs": 1
+      "value": "Curragh",
+      "runs": 2
     },
     "favourite_distance": {
-      "value": 8.0,
-      "runs": 1
+      "value": 7.0,
+      "runs": 2
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 2
+    },
     "favourite_class": {
       "value": "Class 1",
       "runs": 1
     }
   },
   "cautions": [
-    "Going is not clearly proven from stored profile",
-    "Limited stored profile data"
+    "Course does not strongly match stored profile",
+    "Distance not yet a clear profile strength",
+    "Going is not clearly proven from stored profile"
   ]
 }

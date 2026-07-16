@@ -5,14 +5,129 @@
   "time": "4:10",
   "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
   "field_size": 10,
-  "average_intelligence": 45.2,
-  "top_score": 47,
-  "second_score": 47,
+  "average_intelligence": 24.0,
+  "top_score": 24,
+  "second_score": 24,
   "gap": 0,
-  "confidence_score": 37,
+  "confidence_score": 19,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Balance Of Trade",
+    "horse_id": "hrs_52236191",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Limerick",
+    "latest_time": "4:10",
+    "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+    "latest_date": "2026-07-02",
+    "latest_distance_f": 16.5,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Paul Mulligan",
+    "latest_jockey": "Alex Harvey",
+    "latest_draw": 0,
+    "latest_weight_lbs": 154,
+    "official_rating": "-",
+    "recent_form": "",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Limerick": 1
+    },
+    "distances_seen": {
+      "16.5": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Paul Mulligan": 1
+    },
+    "jockeys_seen": {
+      "Alex Harvey": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12008061",
+        "course": "Limerick",
+        "date": "2026-07-02",
+        "off_time": "4:10",
+        "off_dt": "2026-07-02T16:10:00+01:00",
+        "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+        "distance_f": 16.5,
+        "race_class": "",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 10,
+        "horse": "Balance Of Trade",
+        "horse_id": "hrs_52236191",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Paul Mulligan",
+        "trainer_id": "trn_355995",
+        "jockey": "Alex Harvey",
+        "jockey_id": "jky_26976",
+        "draw": 0,
+        "number": 1,
+        "lbs": 154,
+        "ofr": "-",
+        "last_run": null,
+        "form": "",
+        "headgear": "",
+        "_stored_at": "2026-07-02T04:58:43.453360+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Limerick",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 16.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Limerick",
+      "latest_distance_f": 16.5,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Boston Benjamin",
     "horse_id": "hrs_56525378",
     "age": 3,
@@ -51,13 +166,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 51,
-    "latest_notes": [
-      "Helpful draw",
-      "Trainer bonus +2",
-      "Stable in form +2 (2/2 last 14 days)",
-      "Jockey bonus +3"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -88,7 +198,7 @@
         "last_run": null,
         "form": "",
         "headgear": "ht",
-        "_stored_at": "2026-07-02T00:01:34.475614+00:00"
+        "_stored_at": "2026-07-02T04:58:43.475450+00:00"
       }
     ],
     "profile_notes": [],
@@ -110,13 +220,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 47,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -125,136 +236,17 @@
       "latest_distance_f": 16.5,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 51,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Sofi's Gift",
-    "horse_id": "hrs_62813135",
-    "age": 3,
-    "sex": "filly",
-    "latest_course": "Limerick",
-    "latest_time": "4:10",
-    "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-    "latest_date": "2026-07-02",
-    "latest_distance_f": 16.5,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Ciaran Murphy",
-    "latest_jockey": "Josh Williamson(5)",
-    "latest_draw": 0,
-    "latest_weight_lbs": 147,
-    "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Limerick": 1
-    },
-    "distances_seen": {
-      "16.5": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Ciaran Murphy": 1
-    },
-    "jockeys_seen": {
-      "Josh Williamson(5)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 51,
-    "latest_notes": [
-      "Helpful draw",
-      "Stable in form +2 (2/2 last 14 days)",
-      "Jockey bonus +3",
-      "Jockey in form +2 (1/3 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12008061",
-        "course": "Limerick",
-        "date": "2026-07-02",
-        "off_time": "4:10",
-        "off_dt": "2026-07-02T16:10:00+01:00",
-        "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-        "distance_f": 16.5,
-        "race_class": "",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 10,
-        "horse": "Sofi's Gift",
-        "horse_id": "hrs_62813135",
-        "age": 3,
-        "sex": "filly",
-        "trainer": "Ciaran Murphy",
-        "trainer_id": "trn_342693",
-        "jockey": "Josh Williamson(5)",
-        "jockey_id": "jky_307062",
-        "draw": 0,
-        "number": 10,
-        "lbs": 147,
-        "ofr": "-",
-        "last_run": null,
-        "form": "",
-        "headgear": "",
-        "_stored_at": "2026-07-02T00:01:34.677555+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Limerick",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 16.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 47,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Limerick",
-      "latest_distance_f": 16.5,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 51,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Nicky Larson",
-    "horse_id": "hrs_56338534",
+    "horse": "Connor Of Mali",
+    "horse_id": "hrs_57504202",
     "age": 3,
-    "sex": "gelding",
+    "sex": "colt",
     "latest_course": "Limerick",
     "latest_time": "4:10",
     "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
@@ -263,8 +255,8 @@
     "latest_class": "",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Paul Nolan",
-    "latest_jockey": "Sean O'Keeffe",
+    "latest_trainer": "L J Archdeacon",
+    "latest_jockey": "Luke Burke Ott(7)",
     "latest_draw": 0,
     "latest_weight_lbs": 154,
     "official_rating": "-",
@@ -282,19 +274,15 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "Paul Nolan": 1
+      "L J Archdeacon": 1
     },
     "jockeys_seen": {
-      "Sean O'Keeffe": 1
+      "Luke Burke Ott(7)": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 48,
-    "latest_notes": [
-      "Helpful draw",
-      "Stable in form +2 (1/3 last 14 days)",
-      "Jockey in form +2 (1/1 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -310,22 +298,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Nicky Larson",
-        "horse_id": "hrs_56338534",
+        "horse": "Connor Of Mali",
+        "horse_id": "hrs_57504202",
         "age": 3,
-        "sex": "gelding",
-        "trainer": "Paul Nolan",
-        "trainer_id": "trn_86823",
-        "jockey": "Sean O'Keeffe",
-        "jockey_id": "jky_295554",
+        "sex": "colt",
+        "trainer": "L J Archdeacon",
+        "trainer_id": "trn_104256",
+        "jockey": "Luke Burke Ott(7)",
+        "jockey_id": "jky_305454",
         "draw": 0,
-        "number": 6,
+        "number": 3,
         "lbs": 154,
         "ofr": "-",
         "last_run": null,
         "form": "",
         "headgear": "",
-        "_stored_at": "2026-07-02T00:01:34.578688+00:00"
+        "_stored_at": "2026-07-02T04:58:43.500400+00:00"
       }
     ],
     "profile_notes": [],
@@ -347,13 +335,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 46,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -362,13 +351,128 @@
       "latest_distance_f": 16.5,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 48,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Balance Of Trade",
+      "horse_id": "hrs_52236191",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Limerick",
+      "latest_time": "4:10",
+      "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Paul Mulligan",
+      "latest_jockey": "Alex Harvey",
+      "latest_draw": 0,
+      "latest_weight_lbs": 154,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Limerick": 1
+      },
+      "distances_seen": {
+        "16.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Paul Mulligan": 1
+      },
+      "jockeys_seen": {
+        "Alex Harvey": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008061",
+          "course": "Limerick",
+          "date": "2026-07-02",
+          "off_time": "4:10",
+          "off_dt": "2026-07-02T16:10:00+01:00",
+          "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+          "distance_f": 16.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Balance Of Trade",
+          "horse_id": "hrs_52236191",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Paul Mulligan",
+          "trainer_id": "trn_355995",
+          "jockey": "Alex Harvey",
+          "jockey_id": "jky_26976",
+          "draw": 0,
+          "number": 1,
+          "lbs": 154,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-02T04:58:43.453360+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Limerick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Limerick",
+        "latest_distance_f": 16.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Boston Benjamin",
       "horse_id": "hrs_56525378",
@@ -408,13 +512,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey bonus +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -445,7 +544,7 @@
           "last_run": null,
           "form": "",
           "headgear": "ht",
-          "_stored_at": "2026-07-02T00:01:34.475614+00:00"
+          "_stored_at": "2026-07-02T04:58:43.475450+00:00"
         }
       ],
       "profile_notes": [],
@@ -467,13 +566,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 47,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -482,598 +582,7 @@
         "latest_distance_f": 16.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 51,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Sofi's Gift",
-      "horse_id": "hrs_62813135",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Limerick",
-      "latest_time": "4:10",
-      "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 16.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ciaran Murphy",
-      "latest_jockey": "Josh Williamson(5)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 147,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "16.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Ciaran Murphy": 1
-      },
-      "jockeys_seen": {
-        "Josh Williamson(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Helpful draw",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey bonus +3",
-        "Jockey in form +2 (1/3 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008061",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "4:10",
-          "off_dt": "2026-07-02T16:10:00+01:00",
-          "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-          "distance_f": 16.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Sofi's Gift",
-          "horse_id": "hrs_62813135",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Ciaran Murphy",
-          "trainer_id": "trn_342693",
-          "jockey": "Josh Williamson(5)",
-          "jockey_id": "jky_307062",
-          "draw": 0,
-          "number": 10,
-          "lbs": 147,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.677555+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 16.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 51,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Nicky Larson",
-      "horse_id": "hrs_56338534",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Limerick",
-      "latest_time": "4:10",
-      "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 16.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Paul Nolan",
-      "latest_jockey": "Sean O'Keeffe",
-      "latest_draw": 0,
-      "latest_weight_lbs": 154,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "16.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Paul Nolan": 1
-      },
-      "jockeys_seen": {
-        "Sean O'Keeffe": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 48,
-      "latest_notes": [
-        "Helpful draw",
-        "Stable in form +2 (1/3 last 14 days)",
-        "Jockey in form +2 (1/1 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008061",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "4:10",
-          "off_dt": "2026-07-02T16:10:00+01:00",
-          "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-          "distance_f": 16.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Nicky Larson",
-          "horse_id": "hrs_56338534",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Paul Nolan",
-          "trainer_id": "trn_86823",
-          "jockey": "Sean O'Keeffe",
-          "jockey_id": "jky_295554",
-          "draw": 0,
-          "number": 6,
-          "lbs": 154,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.578688+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 16.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 48,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Swinging The World",
-      "horse_id": "hrs_52236219",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Limerick",
-      "latest_time": "4:10",
-      "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 16.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mrs Denise Foster",
-      "latest_jockey": "Danny Gilligan",
-      "latest_draw": 0,
-      "latest_weight_lbs": 154,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "16.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Mrs Denise Foster": 1
-      },
-      "jockeys_seen": {
-        "Danny Gilligan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 49,
-      "latest_notes": [
-        "Helpful draw",
-        "Jockey bonus +1",
-        "Jockey flying +4 (4/6 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008061",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "4:10",
-          "off_dt": "2026-07-02T16:10:00+01:00",
-          "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-          "distance_f": 16.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Swinging The World",
-          "horse_id": "hrs_52236219",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Mrs Denise Foster",
-          "trainer_id": "trn_116100",
-          "jockey": "Danny Gilligan",
-          "jockey_id": "jky_304860",
-          "draw": 0,
-          "number": 8,
-          "lbs": 154,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.629648+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 16.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 49,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Words Unspoken",
-      "horse_id": "hrs_66272416",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Limerick",
-      "latest_time": "4:10",
-      "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 16.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "S Curling",
-      "latest_jockey": "Phillip Enright",
-      "latest_draw": 0,
-      "latest_weight_lbs": 154,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "16.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "S Curling": 1
-      },
-      "jockeys_seen": {
-        "Phillip Enright": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey in form +2 (2/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008061",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "4:10",
-          "off_dt": "2026-07-02T16:10:00+01:00",
-          "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-          "distance_f": 16.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Words Unspoken",
-          "horse_id": "hrs_66272416",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "S Curling",
-          "trainer_id": "trn_201789",
-          "jockey": "Phillip Enright",
-          "jockey_id": "jky_248040",
-          "draw": 0,
-          "number": 9,
-          "lbs": 154,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.656301+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 16.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 50,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Minella Rockett",
-      "horse_id": "hrs_54304362",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Limerick",
-      "latest_time": "4:10",
-      "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 16.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "John J Nallen",
-      "latest_jockey": "Daniel King",
-      "latest_draw": 0,
-      "latest_weight_lbs": 154,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "16.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "John J Nallen": 1
-      },
-      "jockeys_seen": {
-        "Daniel King": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Helpful draw",
-        "Jockey in form +2 (2/4 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008061",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "4:10",
-          "off_dt": "2026-07-02T16:10:00+01:00",
-          "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
-          "distance_f": 16.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Minella Rockett",
-          "horse_id": "hrs_54304362",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "John J Nallen",
-          "trainer_id": "trn_90684",
-          "jockey": "Daniel King",
-          "jockey_id": "jky_303180",
-          "draw": 0,
-          "number": 5,
-          "lbs": 154,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.545899+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 16.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 46,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1118,10 +627,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1152,7 +659,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.497357+00:00"
+          "_stored_at": "2026-07-02T04:58:43.500400+00:00"
         }
       ],
       "profile_notes": [],
@@ -1174,13 +681,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 44,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1189,7 +697,7 @@
         "latest_distance_f": 16.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1234,10 +742,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1268,7 +774,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.530350+00:00"
+          "_stored_at": "2026-07-02T04:58:43.520796+00:00"
         }
       ],
       "profile_notes": [],
@@ -1290,13 +796,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 44,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1305,7 +812,237 @@
         "latest_distance_f": 16.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Minella Rockett",
+      "horse_id": "hrs_54304362",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Limerick",
+      "latest_time": "4:10",
+      "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "John J Nallen",
+      "latest_jockey": "Daniel King",
+      "latest_draw": 0,
+      "latest_weight_lbs": 154,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Limerick": 1
+      },
+      "distances_seen": {
+        "16.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "John J Nallen": 1
+      },
+      "jockeys_seen": {
+        "Daniel King": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008061",
+          "course": "Limerick",
+          "date": "2026-07-02",
+          "off_time": "4:10",
+          "off_dt": "2026-07-02T16:10:00+01:00",
+          "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+          "distance_f": 16.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Minella Rockett",
+          "horse_id": "hrs_54304362",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "John J Nallen",
+          "trainer_id": "trn_90684",
+          "jockey": "Daniel King",
+          "jockey_id": "jky_303180",
+          "draw": 0,
+          "number": 5,
+          "lbs": 154,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-02T04:58:43.541430+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Limerick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Limerick",
+        "latest_distance_f": 16.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Nicky Larson",
+      "horse_id": "hrs_56338534",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Limerick",
+      "latest_time": "4:10",
+      "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Paul Nolan",
+      "latest_jockey": "Sean O'Keeffe",
+      "latest_draw": 0,
+      "latest_weight_lbs": 154,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Limerick": 1
+      },
+      "distances_seen": {
+        "16.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Paul Nolan": 1
+      },
+      "jockeys_seen": {
+        "Sean O'Keeffe": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008061",
+          "course": "Limerick",
+          "date": "2026-07-02",
+          "off_time": "4:10",
+          "off_dt": "2026-07-02T16:10:00+01:00",
+          "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+          "distance_f": 16.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Nicky Larson",
+          "horse_id": "hrs_56338534",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Paul Nolan",
+          "trainer_id": "trn_86823",
+          "jockey": "Sean O'Keeffe",
+          "jockey_id": "jky_295554",
+          "draw": 0,
+          "number": 6,
+          "lbs": 154,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-02T04:58:43.562222+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Limerick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Limerick",
+        "latest_distance_f": 16.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1350,10 +1087,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1384,7 +1119,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.595107+00:00"
+          "_stored_at": "2026-07-02T04:58:43.583334+00:00"
         }
       ],
       "profile_notes": [],
@@ -1406,13 +1141,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 44,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1421,15 +1157,130 @@
         "latest_distance_f": 16.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Balance Of Trade",
-      "horse_id": "hrs_52236191",
+      "horse": "Sofi's Gift",
+      "horse_id": "hrs_62813135",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Limerick",
+      "latest_time": "4:10",
+      "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ciaran Murphy",
+      "latest_jockey": "Josh Williamson(5)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 147,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Limerick": 1
+      },
+      "distances_seen": {
+        "16.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Ciaran Murphy": 1
+      },
+      "jockeys_seen": {
+        "Josh Williamson(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008061",
+          "course": "Limerick",
+          "date": "2026-07-02",
+          "off_time": "4:10",
+          "off_dt": "2026-07-02T16:10:00+01:00",
+          "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+          "distance_f": 16.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Sofi's Gift",
+          "horse_id": "hrs_62813135",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Ciaran Murphy",
+          "trainer_id": "trn_342693",
+          "jockey": "Josh Williamson(5)",
+          "jockey_id": "jky_307062",
+          "draw": 0,
+          "number": 10,
+          "lbs": 147,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-02T04:58:43.645602+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Limerick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Limerick",
+        "latest_distance_f": 16.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Swinging The World",
+      "horse_id": "hrs_52236219",
       "age": 3,
       "sex": "gelding",
       "latest_course": "Limerick",
@@ -1440,8 +1291,8 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Paul Mulligan",
-      "latest_jockey": "Alex Harvey",
+      "latest_trainer": "Mrs Denise Foster",
+      "latest_jockey": "Danny Gilligan",
       "latest_draw": 0,
       "latest_weight_lbs": 154,
       "official_rating": "-",
@@ -1459,18 +1310,15 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Paul Mulligan": 1
+        "Mrs Denise Foster": 1
       },
       "jockeys_seen": {
-        "Alex Harvey": 1
+        "Danny Gilligan": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 42,
-      "latest_notes": [
-        "Helpful draw",
-        "Jockey concern -2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1486,22 +1334,22 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 10,
-          "horse": "Balance Of Trade",
-          "horse_id": "hrs_52236191",
+          "horse": "Swinging The World",
+          "horse_id": "hrs_52236219",
           "age": 3,
           "sex": "gelding",
-          "trainer": "Paul Mulligan",
-          "trainer_id": "trn_355995",
-          "jockey": "Alex Harvey",
-          "jockey_id": "jky_26976",
+          "trainer": "Mrs Denise Foster",
+          "trainer_id": "trn_116100",
+          "jockey": "Danny Gilligan",
+          "jockey_id": "jky_304860",
           "draw": 0,
-          "number": 1,
+          "number": 8,
           "lbs": 154,
           "ofr": "-",
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.428570+00:00"
+          "_stored_at": "2026-07-02T04:58:43.604477+00:00"
         }
       ],
       "profile_notes": [],
@@ -1523,13 +1371,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 43,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1538,7 +1387,122 @@
         "latest_distance_f": 16.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 42,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Words Unspoken",
+      "horse_id": "hrs_66272416",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Limerick",
+      "latest_time": "4:10",
+      "latest_race": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "S Curling",
+      "latest_jockey": "Phillip Enright",
+      "latest_draw": 0,
+      "latest_weight_lbs": 154,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Limerick": 1
+      },
+      "distances_seen": {
+        "16.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "S Curling": 1
+      },
+      "jockeys_seen": {
+        "Phillip Enright": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008061",
+          "course": "Limerick",
+          "date": "2026-07-02",
+          "off_time": "4:10",
+          "off_dt": "2026-07-02T16:10:00+01:00",
+          "race_name": "Cappawhite Civil Engineering 3-Y-O Maiden Hurdle",
+          "distance_f": 16.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Words Unspoken",
+          "horse_id": "hrs_66272416",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "S Curling",
+          "trainer_id": "trn_201789",
+          "jockey": "Phillip Enright",
+          "jockey_id": "jky_248040",
+          "draw": 0,
+          "number": 9,
+          "lbs": 154,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-02T04:58:43.625085+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Limerick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Limerick",
+        "latest_distance_f": 16.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1546,8 +1510,9 @@
     }
   ],
   "notes": [
-    "Boston Benjamin is the top-rated Pulse IQ runner.",
+    "Balance Of Trade is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Nicky Larson is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Connor Of Mali is flagged as a possible dark horse."
   ]
 }

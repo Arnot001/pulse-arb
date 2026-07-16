@@ -5,11 +5,11 @@
   "time": "4:40",
   "race_name": "Racing Again 22nd July Handicap Stakes",
   "field_size": 9,
-  "average_intelligence": 50.89,
-  "top_score": 60,
+  "average_intelligence": 50.78,
+  "top_score": 59,
   "second_score": 58,
-  "gap": 2,
-  "confidence_score": 49,
+  "gap": 1,
+  "confidence_score": 47,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -53,13 +53,13 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 74,
+    "latest_pulse_score": 72,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Stable flying +4 (11/40 last 14 days)",
-      "Jockey flying +4 (8/29 last 14 days)"
+      "Trainer bonus +3",
+      "Jockey bonus +3"
     ],
     "runs": [
       {
@@ -115,7 +115,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 60,
+    "horse_intelligence_score": 59,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -125,6 +125,292 @@
     ],
     "profile_cautions": [
       "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Catterick",
+      "latest_distance_f": 5.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 6",
+      "latest_pulse_score": 72,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "Invincible Crown",
+    "horse_id": "hrs_41938680",
+    "age": 4,
+    "sex": "gelding",
+    "latest_course": "Catterick",
+    "latest_time": "4:40",
+    "latest_race": "Racing Again 22nd July Handicap Stakes",
+    "latest_date": "2026-07-15",
+    "latest_distance_f": 5.0,
+    "latest_class": "Class 6",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Ruth Carr",
+    "latest_jockey": "James Sullivan",
+    "latest_draw": 6,
+    "latest_weight_lbs": 137,
+    "official_rating": "60",
+    "recent_form": "647421",
+    "last_run_days": 15,
+    "profile_runs": 6,
+    "courses_seen": {
+      "Nottingham": 4,
+      "Musselburgh": 1,
+      "Catterick": 1
+    },
+    "distances_seen": {
+      "5.0": 6
+    },
+    "goings_seen": {
+      "Good To Firm": 5,
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 6": 6
+    },
+    "trainers_seen": {
+      "Ruth Carr": 6
+    },
+    "jockeys_seen": {
+      "James Sullivan": 6
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 74,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Trainer bonus +3",
+      "Jockey bonus +2",
+      "Historical winner +3"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977290",
+        "course": "Nottingham",
+        "date": "2026-06-25",
+        "off_time": "1:00",
+        "off_dt": "2026-06-25T13:00:00+01:00",
+        "race_name": "Martin Stonemans Final Furlong Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 6,
+        "number": 5,
+        "lbs": 134,
+        "ofr": "56",
+        "last_run": 9,
+        "form": "9-6474",
+        "headgear": "",
+        "_stored_at": "2026-06-25T14:16:21.304288+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977290",
+        "course": "Nottingham",
+        "date": "2026-06-25",
+        "off_time": "1:00",
+        "off_dt": "2026-06-25T13:00:00+01:00",
+        "race_name": "Martin Stonemans Final Furlong Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 6,
+        "number": 5,
+        "lbs": 134,
+        "ofr": "56",
+        "last_run": 9,
+        "form": "9-6474",
+        "headgear": "",
+        "_stored_at": "2026-06-25T17:11:31.080376+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977290",
+        "course": "Nottingham",
+        "date": "2026-06-25",
+        "off_time": "1:00",
+        "off_dt": "2026-06-25T13:00:00+01:00",
+        "race_name": "Martin Stonemans Final Furlong Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 6,
+        "number": 5,
+        "lbs": 134,
+        "ofr": "56",
+        "last_run": 9,
+        "form": "9-6474",
+        "headgear": "",
+        "_stored_at": "2026-06-26T08:14:08.894345+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977290",
+        "course": "Nottingham",
+        "date": "2026-06-25",
+        "off_time": "1:00",
+        "off_dt": "2026-06-25T13:00:00+01:00",
+        "race_name": "Martin Stonemans Final Furlong Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 6,
+        "number": 5,
+        "lbs": 134,
+        "ofr": "56",
+        "last_run": 9,
+        "form": "9-6474",
+        "headgear": "",
+        "_stored_at": "2026-06-28T12:42:19.742006+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988379",
+        "course": "Musselburgh",
+        "date": "2026-06-30",
+        "off_time": "5:05",
+        "off_dt": "2026-06-30T17:05:00+01:00",
+        "race_name": "Watch On Racing TV Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 10,
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 5,
+        "number": 1,
+        "lbs": 138,
+        "ofr": "56",
+        "last_run": 5,
+        "form": "-64742",
+        "headgear": "",
+        "_stored_at": "2026-06-30T05:14:26.293579+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000000650",
+        "course": "Catterick",
+        "date": "2026-07-15",
+        "off_time": "4:40",
+        "off_dt": "2026-07-15T16:40:00+01:00",
+        "race_name": "Racing Again 22nd July Handicap Stakes",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 9,
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 6,
+        "number": 3,
+        "lbs": 137,
+        "ofr": "60",
+        "last_run": 15,
+        "form": "647421",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Profile has multiple stored runs"
+    ],
+    "favourite_course": {
+      "value": "Nottingham",
+      "runs": 4
+    },
+    "favourite_distance": {
+      "value": 5.0,
+      "runs": 6
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 5
+    },
+    "favourite_class": {
+      "value": "Class 6",
+      "runs": 6
+    },
+    "course_suitability_score": 55,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 81,
+    "horse_intelligence_score": 58,
+    "profile_strengths": [
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Course does not strongly match stored profile"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
@@ -134,141 +420,13 @@
       "latest_class": "Class 6",
       "latest_pulse_score": 74,
       "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Lucius Aurelius",
-    "horse_id": "hrs_41629595",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Catterick",
-    "latest_time": "4:40",
-    "latest_race": "Racing Again 22nd July Handicap Stakes",
-    "latest_date": "2026-07-15",
-    "latest_distance_f": 5.0,
-    "latest_class": "Class 6",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Kevin Ryan",
-    "latest_jockey": "Jack Nicholls(5)",
-    "latest_draw": 9,
-    "latest_weight_lbs": 135,
-    "official_rating": "58",
-    "recent_form": "901038",
-    "last_run_days": 16,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Catterick": 1
-    },
-    "distances_seen": {
-      "5.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 6": 1
-    },
-    "trainers_seen": {
-      "Kevin Ryan": 1
-    },
-    "jockeys_seen": {
-      "Jack Nicholls(5)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 68,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer bonus +1",
-      "Jockey bonus +2",
-      "Jockey in form +2 (1/1 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000000650",
-        "course": "Catterick",
-        "date": "2026-07-15",
-        "off_time": "4:40",
-        "off_dt": "2026-07-15T16:40:00+01:00",
-        "race_name": "Racing Again 22nd July Handicap Stakes",
-        "distance_f": 5.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 9,
-        "horse": "Lucius Aurelius",
-        "horse_id": "hrs_41629595",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Kevin Ryan",
-        "trainer_id": "trn_202725",
-        "jockey": "Jack Nicholls(5)",
-        "jockey_id": "jky_308319",
-        "draw": 9,
-        "number": 6,
-        "lbs": 135,
-        "ofr": "58",
-        "last_run": 16,
-        "form": "901038",
-        "headgear": "p"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Catterick",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 5.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 6",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 58,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Catterick",
-      "latest_distance_f": 5.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 6",
-      "latest_pulse_score": 68,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
+      "profile_runs": 6,
+      "runs_count": 6
     }
   },
   "dark_horse": {
-    "horse": "Lucius Aurelius",
-    "horse_id": "hrs_41629595",
+    "horse": "Invincible Crown",
+    "horse_id": "hrs_41938680",
     "age": 4,
     "sex": "gelding",
     "latest_course": "Catterick",
@@ -279,45 +437,202 @@
     "latest_class": "Class 6",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Kevin Ryan",
-    "latest_jockey": "Jack Nicholls(5)",
-    "latest_draw": 9,
-    "latest_weight_lbs": 135,
-    "official_rating": "58",
-    "recent_form": "901038",
-    "last_run_days": 16,
-    "profile_runs": 1,
+    "latest_trainer": "Ruth Carr",
+    "latest_jockey": "James Sullivan",
+    "latest_draw": 6,
+    "latest_weight_lbs": 137,
+    "official_rating": "60",
+    "recent_form": "647421",
+    "last_run_days": 15,
+    "profile_runs": 6,
     "courses_seen": {
+      "Nottingham": 4,
+      "Musselburgh": 1,
       "Catterick": 1
     },
     "distances_seen": {
-      "5.0": 1
+      "5.0": 6
     },
     "goings_seen": {
-      "Good To Firm": 1
+      "Good To Firm": 5,
+      "Good": 1
     },
     "classes_seen": {
-      "Class 6": 1
+      "Class 6": 6
     },
     "trainers_seen": {
-      "Kevin Ryan": 1
+      "Ruth Carr": 6
     },
     "jockeys_seen": {
-      "Jack Nicholls(5)": 1
+      "James Sullivan": 6
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 68,
+    "latest_pulse_score": 74,
     "latest_notes": [
-      "Positive recent form",
+      "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer bonus +1",
+      "Trainer bonus +3",
       "Jockey bonus +2",
-      "Jockey in form +2 (1/1 last 14 days)"
+      "Historical winner +3"
     ],
     "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977290",
+        "course": "Nottingham",
+        "date": "2026-06-25",
+        "off_time": "1:00",
+        "off_dt": "2026-06-25T13:00:00+01:00",
+        "race_name": "Martin Stonemans Final Furlong Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 6,
+        "number": 5,
+        "lbs": 134,
+        "ofr": "56",
+        "last_run": 9,
+        "form": "9-6474",
+        "headgear": "",
+        "_stored_at": "2026-06-25T14:16:21.304288+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977290",
+        "course": "Nottingham",
+        "date": "2026-06-25",
+        "off_time": "1:00",
+        "off_dt": "2026-06-25T13:00:00+01:00",
+        "race_name": "Martin Stonemans Final Furlong Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 6,
+        "number": 5,
+        "lbs": 134,
+        "ofr": "56",
+        "last_run": 9,
+        "form": "9-6474",
+        "headgear": "",
+        "_stored_at": "2026-06-25T17:11:31.080376+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977290",
+        "course": "Nottingham",
+        "date": "2026-06-25",
+        "off_time": "1:00",
+        "off_dt": "2026-06-25T13:00:00+01:00",
+        "race_name": "Martin Stonemans Final Furlong Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 6,
+        "number": 5,
+        "lbs": 134,
+        "ofr": "56",
+        "last_run": 9,
+        "form": "9-6474",
+        "headgear": "",
+        "_stored_at": "2026-06-26T08:14:08.894345+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977290",
+        "course": "Nottingham",
+        "date": "2026-06-25",
+        "off_time": "1:00",
+        "off_dt": "2026-06-25T13:00:00+01:00",
+        "race_name": "Martin Stonemans Final Furlong Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 6,
+        "number": 5,
+        "lbs": 134,
+        "ofr": "56",
+        "last_run": 9,
+        "form": "9-6474",
+        "headgear": "",
+        "_stored_at": "2026-06-28T12:42:19.742006+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988379",
+        "course": "Musselburgh",
+        "date": "2026-06-30",
+        "off_time": "5:05",
+        "off_dt": "2026-06-30T17:05:00+01:00",
+        "race_name": "Watch On Racing TV Handicap",
+        "distance_f": 5.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 10,
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 5,
+        "number": 1,
+        "lbs": 138,
+        "ofr": "56",
+        "last_run": 5,
+        "form": "-64742",
+        "headgear": "",
+        "_stored_at": "2026-06-30T05:14:26.293579+00:00"
+      },
       {
         "source": "the_racing_api",
         "race_id": "rac_13000000650",
@@ -332,55 +647,56 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 9,
-        "horse": "Lucius Aurelius",
-        "horse_id": "hrs_41629595",
+        "horse": "Invincible Crown",
+        "horse_id": "hrs_41938680",
         "age": 4,
         "sex": "gelding",
-        "trainer": "Kevin Ryan",
-        "trainer_id": "trn_202725",
-        "jockey": "Jack Nicholls(5)",
-        "jockey_id": "jky_308319",
-        "draw": 9,
-        "number": 6,
-        "lbs": 135,
-        "ofr": "58",
-        "last_run": 16,
-        "form": "901038",
-        "headgear": "p"
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 6,
+        "number": 3,
+        "lbs": 137,
+        "ofr": "60",
+        "last_run": 15,
+        "form": "647421",
+        "headgear": ""
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Profile has multiple stored runs"
+    ],
     "favourite_course": {
-      "value": "Catterick",
-      "runs": 1
+      "value": "Nottingham",
+      "runs": 4
     },
     "favourite_distance": {
       "value": 5.0,
-      "runs": 1
+      "runs": 6
     },
     "favourite_going": {
       "value": "Good To Firm",
-      "runs": 1
+      "runs": 5
     },
     "favourite_class": {
       "value": "Class 6",
-      "runs": 1
+      "runs": 6
     },
-    "course_suitability_score": 90,
+    "course_suitability_score": 55,
     "distance_suitability_score": 90,
     "going_suitability_score": 90,
     "class_suitability_score": 90,
-    "suitability_score": 90,
+    "suitability_score": 81,
     "horse_intelligence_score": 58,
     "profile_strengths": [
-      "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Limited stored profile data"
+      "Course does not strongly match stored profile"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
@@ -388,10 +704,10 @@
       "latest_distance_f": 5.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": 68,
+      "latest_pulse_score": 74,
       "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
+      "profile_runs": 6,
+      "runs_count": 6
     }
   },
   "runners": [
@@ -436,13 +752,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 74,
+      "latest_pulse_score": 72,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Stable flying +4 (11/40 last 14 days)",
-        "Jockey flying +4 (8/29 last 14 days)"
+        "Trainer bonus +3",
+        "Jockey bonus +3"
       ],
       "runs": [
         {
@@ -498,7 +814,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 60,
+      "horse_intelligence_score": 59,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -515,15 +831,15 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 74,
+        "latest_pulse_score": 72,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Lucius Aurelius",
-      "horse_id": "hrs_41629595",
+      "horse": "Invincible Crown",
+      "horse_id": "hrs_41938680",
       "age": 4,
       "sex": "gelding",
       "latest_course": "Catterick",
@@ -534,45 +850,202 @@
       "latest_class": "Class 6",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Kevin Ryan",
-      "latest_jockey": "Jack Nicholls(5)",
-      "latest_draw": 9,
-      "latest_weight_lbs": 135,
-      "official_rating": "58",
-      "recent_form": "901038",
-      "last_run_days": 16,
-      "profile_runs": 1,
+      "latest_trainer": "Ruth Carr",
+      "latest_jockey": "James Sullivan",
+      "latest_draw": 6,
+      "latest_weight_lbs": 137,
+      "official_rating": "60",
+      "recent_form": "647421",
+      "last_run_days": 15,
+      "profile_runs": 6,
       "courses_seen": {
+        "Nottingham": 4,
+        "Musselburgh": 1,
         "Catterick": 1
       },
       "distances_seen": {
-        "5.0": 1
+        "5.0": 6
       },
       "goings_seen": {
-        "Good To Firm": 1
+        "Good To Firm": 5,
+        "Good": 1
       },
       "classes_seen": {
-        "Class 6": 1
+        "Class 6": 6
       },
       "trainers_seen": {
-        "Kevin Ryan": 1
+        "Ruth Carr": 6
       },
       "jockeys_seen": {
-        "Jack Nicholls(5)": 1
+        "James Sullivan": 6
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 68,
+      "latest_pulse_score": 74,
       "latest_notes": [
-        "Positive recent form",
+        "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +1",
+        "Trainer bonus +3",
         "Jockey bonus +2",
-        "Jockey in form +2 (1/1 last 14 days)"
+        "Historical winner +3"
       ],
       "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Invincible Crown",
+          "horse_id": "hrs_41938680",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Ruth Carr",
+          "trainer_id": "trn_180405",
+          "jockey": "James Sullivan",
+          "jockey_id": "jky_253623",
+          "draw": 6,
+          "number": 5,
+          "lbs": 134,
+          "ofr": "56",
+          "last_run": 9,
+          "form": "9-6474",
+          "headgear": "",
+          "_stored_at": "2026-06-25T14:16:21.304288+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Invincible Crown",
+          "horse_id": "hrs_41938680",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Ruth Carr",
+          "trainer_id": "trn_180405",
+          "jockey": "James Sullivan",
+          "jockey_id": "jky_253623",
+          "draw": 6,
+          "number": 5,
+          "lbs": 134,
+          "ofr": "56",
+          "last_run": 9,
+          "form": "9-6474",
+          "headgear": "",
+          "_stored_at": "2026-06-25T17:11:31.080376+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Invincible Crown",
+          "horse_id": "hrs_41938680",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Ruth Carr",
+          "trainer_id": "trn_180405",
+          "jockey": "James Sullivan",
+          "jockey_id": "jky_253623",
+          "draw": 6,
+          "number": 5,
+          "lbs": 134,
+          "ofr": "56",
+          "last_run": 9,
+          "form": "9-6474",
+          "headgear": "",
+          "_stored_at": "2026-06-26T08:14:08.894345+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Invincible Crown",
+          "horse_id": "hrs_41938680",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Ruth Carr",
+          "trainer_id": "trn_180405",
+          "jockey": "James Sullivan",
+          "jockey_id": "jky_253623",
+          "draw": 6,
+          "number": 5,
+          "lbs": 134,
+          "ofr": "56",
+          "last_run": 9,
+          "form": "9-6474",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:19.742006+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988379",
+          "course": "Musselburgh",
+          "date": "2026-06-30",
+          "off_time": "5:05",
+          "off_dt": "2026-06-30T17:05:00+01:00",
+          "race_name": "Watch On Racing TV Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Invincible Crown",
+          "horse_id": "hrs_41938680",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Ruth Carr",
+          "trainer_id": "trn_180405",
+          "jockey": "James Sullivan",
+          "jockey_id": "jky_253623",
+          "draw": 5,
+          "number": 1,
+          "lbs": 138,
+          "ofr": "56",
+          "last_run": 5,
+          "form": "-64742",
+          "headgear": "",
+          "_stored_at": "2026-06-30T05:14:26.293579+00:00"
+        },
         {
           "source": "the_racing_api",
           "race_id": "rac_13000000650",
@@ -587,55 +1060,56 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 9,
-          "horse": "Lucius Aurelius",
-          "horse_id": "hrs_41629595",
+          "horse": "Invincible Crown",
+          "horse_id": "hrs_41938680",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Kevin Ryan",
-          "trainer_id": "trn_202725",
-          "jockey": "Jack Nicholls(5)",
-          "jockey_id": "jky_308319",
-          "draw": 9,
-          "number": 6,
-          "lbs": 135,
-          "ofr": "58",
-          "last_run": 16,
-          "form": "901038",
-          "headgear": "p"
+          "trainer": "Ruth Carr",
+          "trainer_id": "trn_180405",
+          "jockey": "James Sullivan",
+          "jockey_id": "jky_253623",
+          "draw": 6,
+          "number": 3,
+          "lbs": 137,
+          "ofr": "60",
+          "last_run": 15,
+          "form": "647421",
+          "headgear": ""
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Profile has multiple stored runs"
+      ],
       "favourite_course": {
-        "value": "Catterick",
-        "runs": 1
+        "value": "Nottingham",
+        "runs": 4
       },
       "favourite_distance": {
         "value": 5.0,
-        "runs": 1
+        "runs": 6
       },
       "favourite_going": {
         "value": "Good To Firm",
-        "runs": 1
+        "runs": 5
       },
       "favourite_class": {
         "value": "Class 6",
-        "runs": 1
+        "runs": 6
       },
-      "course_suitability_score": 90,
+      "course_suitability_score": 55,
       "distance_suitability_score": 90,
       "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 90,
+      "suitability_score": 81,
       "horse_intelligence_score": 58,
       "profile_strengths": [
-        "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
         "Race class matches common profile level",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Limited stored profile data"
+        "Course does not strongly match stored profile"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -643,137 +1117,10 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 68,
+        "latest_pulse_score": 74,
         "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Our Absent Friends",
-      "horse_id": "hrs_20977796",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Catterick",
-      "latest_time": "4:40",
-      "latest_race": "Racing Again 22nd July Handicap Stakes",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Tristan Davidson",
-      "latest_jockey": "Jason Hart",
-      "latest_draw": 2,
-      "latest_weight_lbs": 140,
-      "official_rating": "63",
-      "recent_form": "206379",
-      "last_run_days": 2,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Catterick": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Tristan Davidson": 1
-      },
-      "jockeys_seen": {
-        "Jason Hart": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000650",
-          "course": "Catterick",
-          "date": "2026-07-15",
-          "off_time": "4:40",
-          "off_dt": "2026-07-15T16:40:00+01:00",
-          "race_name": "Racing Again 22nd July Handicap Stakes",
-          "distance_f": 5.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Our Absent Friends",
-          "horse_id": "hrs_20977796",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Tristan Davidson",
-          "trainer_id": "trn_201609",
-          "jockey": "Jason Hart",
-          "jockey_id": "jky_270729",
-          "draw": 2,
-          "number": 2,
-          "lbs": 140,
-          "ofr": "63",
-          "last_run": 2,
-          "form": "206379",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Catterick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Catterick",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 60,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
+        "profile_runs": 6,
+        "runs_count": 6
       }
     },
     {
@@ -796,36 +1143,130 @@
       "official_rating": "62",
       "recent_form": "645311",
       "last_run_days": 9,
-      "profile_runs": 1,
+      "profile_runs": 4,
       "courses_seen": {
+        "Wolverhampton (AW)": 2,
+        "Windsor": 1,
         "Catterick": 1
       },
       "distances_seen": {
-        "5.0": 1
+        "5.0": 4
       },
       "goings_seen": {
-        "Good To Firm": 1
+        "Good To Firm": 2,
+        "Standard": 2
       },
       "classes_seen": {
-        "Class 6": 1
+        "Class 6": 4
       },
       "trainers_seen": {
-        "Robert Cowell": 1
+        "Robert Cowell": 3,
+        "Ruth Carr": 1
       },
       "jockeys_seen": {
-        "Marco Ghiani": 1
+        "Marco Ghiani": 4
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 61,
+      "latest_pulse_score": 74,
       "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey bonus +3"
+        "Strong recent form",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Historical winner +3"
       ],
       "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988132",
+          "course": "Windsor",
+          "date": "2026-06-29",
+          "off_time": "7:30",
+          "off_dt": "2026-06-29T19:30:00+01:00",
+          "race_name": "Distro Design Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "South Shore",
+          "horse_id": "hrs_35321048",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Ruth Carr",
+          "trainer_id": "trn_180405",
+          "jockey": "Marco Ghiani",
+          "jockey_id": "jky_294903",
+          "draw": 9,
+          "number": 6,
+          "lbs": 133,
+          "ofr": "55",
+          "last_run": 33,
+          "form": "5-6453",
+          "headgear": "",
+          "_stored_at": "2026-06-29T11:41:35.007563+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992058",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "6:30",
+          "off_dt": "2026-07-06T18:30:00+01:00",
+          "race_name": "Free Tips On attheraces.com Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 9,
+          "horse": "South Shore",
+          "horse_id": "hrs_35321048",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Robert Cowell",
+          "trainer_id": "trn_108513",
+          "jockey": "Marco Ghiani",
+          "jockey_id": "jky_294903",
+          "draw": 7,
+          "number": 2,
+          "lbs": 140,
+          "ofr": "60",
+          "last_run": 7,
+          "form": "-64531",
+          "headgear": ""
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992058",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "6:30",
+          "off_dt": "2026-07-06T18:30:00+01:00",
+          "race_name": "Free Tips On attheraces.com Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 9,
+          "horse": "South Shore",
+          "horse_id": "hrs_35321048",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Robert Cowell",
+          "trainer_id": "trn_108513",
+          "jockey": "Marco Ghiani",
+          "jockey_id": "jky_294903",
+          "draw": 7,
+          "number": 2,
+          "lbs": 140,
+          "ofr": "55",
+          "last_run": 7,
+          "form": "-64531",
+          "headgear": ""
+        },
         {
           "source": "the_racing_api",
           "race_id": "rac_13000000650",
@@ -858,38 +1299,39 @@
         }
       ],
       "profile_notes": [
+        "Profile has multiple stored runs",
         "Recent run timing"
       ],
       "favourite_course": {
-        "value": "Catterick",
-        "runs": 1
+        "value": "Wolverhampton (AW)",
+        "runs": 2
       },
       "favourite_distance": {
         "value": 5.0,
-        "runs": 1
+        "runs": 4
       },
       "favourite_going": {
         "value": "Good To Firm",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": {
         "value": "Class 6",
-        "runs": 1
+        "runs": 4
       },
-      "course_suitability_score": 90,
+      "course_suitability_score": 55,
       "distance_suitability_score": 90,
       "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "suitability_score": 81,
+      "horse_intelligence_score": 58,
       "profile_strengths": [
-        "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Limited stored profile data"
+        "Course does not strongly match stored profile"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -897,10 +1339,262 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 61,
+        "latest_pulse_score": 74,
         "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
+        "profile_runs": 4,
+        "runs_count": 4
+      }
+    },
+    {
+      "horse": "Irish Dancer",
+      "horse_id": "hrs_31149125",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Catterick",
+      "latest_time": "4:40",
+      "latest_race": "Racing Again 22nd July Handicap Stakes",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Declan Carroll",
+      "latest_jockey": "Zak Wheatley",
+      "latest_draw": 8,
+      "latest_weight_lbs": 135,
+      "official_rating": "58",
+      "recent_form": "731823",
+      "last_run_days": 20,
+      "profile_runs": 5,
+      "courses_seen": {
+        "Nottingham": 4,
+        "Catterick": 1
+      },
+      "distances_seen": {
+        "5.0": 5
+      },
+      "goings_seen": {
+        "Good To Firm": 5
+      },
+      "classes_seen": {
+        "Class 6": 5
+      },
+      "trainers_seen": {
+        "Declan Carroll": 5
+      },
+      "jockeys_seen": {
+        "Zak Wheatley": 5
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 73,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Trainer bonus +2",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Irish Dancer",
+          "horse_id": "hrs_31149125",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Declan Carroll",
+          "trainer_id": "trn_29673",
+          "jockey": "Zak Wheatley",
+          "jockey_id": "jky_290007",
+          "draw": 2,
+          "number": 4,
+          "lbs": 135,
+          "ofr": "57",
+          "last_run": 9,
+          "form": "273182",
+          "headgear": "tb",
+          "_stored_at": "2026-06-25T14:16:21.293934+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Irish Dancer",
+          "horse_id": "hrs_31149125",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Declan Carroll",
+          "trainer_id": "trn_29673",
+          "jockey": "Zak Wheatley",
+          "jockey_id": "jky_290007",
+          "draw": 2,
+          "number": 4,
+          "lbs": 135,
+          "ofr": "57",
+          "last_run": 9,
+          "form": "273182",
+          "headgear": "tb",
+          "_stored_at": "2026-06-25T17:11:31.069944+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Irish Dancer",
+          "horse_id": "hrs_31149125",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Declan Carroll",
+          "trainer_id": "trn_29673",
+          "jockey": "Zak Wheatley",
+          "jockey_id": "jky_290007",
+          "draw": 2,
+          "number": 4,
+          "lbs": 135,
+          "ofr": "57",
+          "last_run": 9,
+          "form": "273182",
+          "headgear": "tb",
+          "_stored_at": "2026-06-26T08:14:08.883670+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977290",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "1:00",
+          "off_dt": "2026-06-25T13:00:00+01:00",
+          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Irish Dancer",
+          "horse_id": "hrs_31149125",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Declan Carroll",
+          "trainer_id": "trn_29673",
+          "jockey": "Zak Wheatley",
+          "jockey_id": "jky_290007",
+          "draw": 2,
+          "number": 4,
+          "lbs": 135,
+          "ofr": "57",
+          "last_run": 9,
+          "form": "273182",
+          "headgear": "tb",
+          "_stored_at": "2026-06-28T12:42:19.725682+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000650",
+          "course": "Catterick",
+          "date": "2026-07-15",
+          "off_time": "4:40",
+          "off_dt": "2026-07-15T16:40:00+01:00",
+          "race_name": "Racing Again 22nd July Handicap Stakes",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Irish Dancer",
+          "horse_id": "hrs_31149125",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Declan Carroll",
+          "trainer_id": "trn_29673",
+          "jockey": "Zak Wheatley",
+          "jockey_id": "jky_290007",
+          "draw": 8,
+          "number": 7,
+          "lbs": 135,
+          "ofr": "58",
+          "last_run": 20,
+          "form": "731823",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs"
+      ],
+      "favourite_course": {
+        "value": "Nottingham",
+        "runs": 4
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 5
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 5
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 5
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 81,
+      "horse_intelligence_score": 57,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Catterick",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 73,
+        "average_pulse_score": 0,
+        "profile_runs": 5,
+        "runs_count": 5
       }
     },
     {
@@ -944,13 +1638,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 56,
+      "latest_pulse_score": 53,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
-        "Jockey flying +4 (4/8 last 14 days)"
+        "Trainer bonus +1"
       ],
       "runs": [
         {
@@ -1008,7 +1702,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1024,166 +1718,10 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 56,
+        "latest_pulse_score": 53,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
-    },
-    {
-      "horse": "Irish Dancer",
-      "horse_id": "hrs_31149125",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Catterick",
-      "latest_time": "4:40",
-      "latest_race": "Racing Again 22nd July Handicap Stakes",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Declan Carroll",
-      "latest_jockey": "Zak Wheatley",
-      "latest_draw": 8,
-      "latest_weight_lbs": 135,
-      "official_rating": "58",
-      "recent_form": "731823",
-      "last_run_days": 20,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Nottingham": 1,
-        "Catterick": 1
-      },
-      "distances_seen": {
-        "5.0": 2
-      },
-      "goings_seen": {
-        "Good": 1,
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 2
-      },
-      "trainers_seen": {
-        "D Carroll": 1,
-        "Declan Carroll": 1
-      },
-      "jockeys_seen": {
-        "Zak Wheatley": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977290",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "1:00",
-          "off_dt": "2026-06-25T13:00:00+01:00",
-          "race_name": "Martin Stonemans Final Furlong Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Irish Dancer",
-          "horse_id": "hrs_31149125",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "D Carroll",
-          "trainer_id": "trn_29673",
-          "jockey": "Zak Wheatley",
-          "jockey_id": "jky_290007",
-          "draw": 2,
-          "number": 4,
-          "lbs": 135,
-          "ofr": "57",
-          "last_run": 9,
-          "form": "273182",
-          "headgear": "tb",
-          "_stored_at": "2026-06-25T06:53:22.609422+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000650",
-          "course": "Catterick",
-          "date": "2026-07-15",
-          "off_time": "4:40",
-          "off_dt": "2026-07-15T16:40:00+01:00",
-          "race_name": "Racing Again 22nd July Handicap Stakes",
-          "distance_f": 5.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Irish Dancer",
-          "horse_id": "hrs_31149125",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Declan Carroll",
-          "trainer_id": "trn_29673",
-          "jockey": "Zak Wheatley",
-          "jockey_id": "jky_290007",
-          "draw": 8,
-          "number": 7,
-          "lbs": 135,
-          "ofr": "58",
-          "last_run": 20,
-          "form": "731823",
-          "headgear": "tb"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Nottingham",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 2
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 55,
-      "class_suitability_score": 90,
-      "suitability_score": 72,
-      "horse_intelligence_score": 49,
-      "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Catterick",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 60,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
       }
     },
     {
@@ -1230,11 +1768,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 51,
+      "latest_pulse_score": 58,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2"
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey bonus +3"
       ],
       "runs": [
         {
@@ -1266,7 +1806,7 @@
           "last_run": 19,
           "form": "0-834",
           "headgear": "",
-          "_stored_at": "2026-06-30T01:49:57.100029+00:00"
+          "_stored_at": "2026-06-30T05:14:26.373138+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1323,7 +1863,7 @@
       "going_suitability_score": 55,
       "class_suitability_score": 90,
       "suitability_score": 72,
-      "horse_intelligence_score": 45,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's distance matches strongest profile pattern",
         "Race class matches common profile level"
@@ -1339,15 +1879,15 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 51,
+        "latest_pulse_score": 58,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
       }
     },
     {
-      "horse": "Invincible Crown",
-      "horse_id": "hrs_41938680",
+      "horse": "Lucius Aurelius",
+      "horse_id": "hrs_41629595",
       "age": 4,
       "sex": "gelding",
       "latest_course": "Catterick",
@@ -1358,114 +1898,76 @@
       "latest_class": "Class 6",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Ruth Carr",
-      "latest_jockey": "James Sullivan",
-      "latest_draw": 6,
-      "latest_weight_lbs": 137,
-      "official_rating": "60",
-      "recent_form": "647421",
-      "last_run_days": 15,
-      "profile_runs": 3,
+      "latest_trainer": "Kevin Ryan",
+      "latest_jockey": "Jack Nicholls(5)",
+      "latest_draw": 9,
+      "latest_weight_lbs": 135,
+      "official_rating": "58",
+      "recent_form": "901038",
+      "last_run_days": 16,
+      "profile_runs": 2,
       "courses_seen": {
-        "Nottingham": 1,
-        "Musselburgh": 1,
+        "Pontefract": 1,
         "Catterick": 1
       },
       "distances_seen": {
-        "5.0": 3
+        "5.0": 2
       },
       "goings_seen": {
-        "Good": 2,
+        "Good": 1,
         "Good To Firm": 1
       },
       "classes_seen": {
-        "Class 6": 3
+        "Class 5": 1,
+        "Class 6": 1
       },
       "trainers_seen": {
-        "Ruth Carr": 2,
-        "Mrs R Carr": 1
+        "Kevin Ryan": 2
       },
       "jockeys_seen": {
-        "James Sullivan": 2,
-        "J P Sullivan": 1
+        "Jack Nicholls(5)": 2
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 52,
+      "latest_pulse_score": 64,
       "latest_notes": [
         "Positive recent form",
-        "Questionable run timing",
-        "Sharp return concern -3",
-        "Helpful draw",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey concern -2",
-        "Jockey in form +2 (1/1 last 14 days)",
-        "Historical winner +3",
-        "Previous course winner +4",
-        "Proven on going +2 (1/1 on going)"
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Trainer bonus +1",
+        "Jockey bonus +4"
       ],
       "runs": [
         {
           "source": "the_racing_api",
-          "race_id": "rac_11977290",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "1:00",
-          "off_dt": "2026-06-25T13:00:00+01:00",
-          "race_name": "Martin Stonemans Final Furlong Handicap",
+          "race_id": "rac_11988002",
+          "course": "Pontefract",
+          "date": "2026-06-29",
+          "off_time": "4:30",
+          "off_dt": "2026-06-29T16:30:00+01:00",
+          "race_name": "Pontefract Ladies Day Wednesday 5th August Handicap",
           "distance_f": 5.0,
-          "race_class": "Class 6",
+          "race_class": "Class 5",
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 6,
-          "horse": "Invincible Crown",
-          "horse_id": "hrs_41938680",
+          "field_size": 8,
+          "horse": "Lucius Aurelius",
+          "horse_id": "hrs_41629595",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Mrs R Carr",
-          "trainer_id": "trn_180405",
-          "jockey": "J P Sullivan",
-          "jockey_id": "jky_253623",
-          "draw": 6,
-          "number": 5,
-          "lbs": 134,
-          "ofr": "56",
-          "last_run": 9,
-          "form": "9-6474",
-          "headgear": "",
-          "_stored_at": "2026-06-25T06:53:22.620522+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988379",
-          "course": "Musselburgh",
-          "date": "2026-06-30",
-          "off_time": "5:05",
-          "off_dt": "2026-06-30T17:05:00+01:00",
-          "race_name": "Watch On Racing TV Handicap",
-          "distance_f": 5.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Invincible Crown",
-          "horse_id": "hrs_41938680",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Ruth Carr",
-          "trainer_id": "trn_180405",
-          "jockey": "James Sullivan",
-          "jockey_id": "jky_253623",
-          "draw": 5,
-          "number": 1,
-          "lbs": 138,
-          "ofr": "56",
-          "last_run": 5,
-          "form": "-64742",
-          "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.999694+00:00"
+          "trainer": "Kevin Ryan",
+          "trainer_id": "trn_202725",
+          "jockey": "Jack Nicholls(5)",
+          "jockey_id": "jky_308319",
+          "draw": 3,
+          "number": 7,
+          "lbs": 132,
+          "ofr": "60",
+          "last_run": 18,
+          "form": "590103",
+          "headgear": "b",
+          "_stored_at": "2026-06-29T11:41:32.903231+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1481,55 +1983,53 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 9,
-          "horse": "Invincible Crown",
-          "horse_id": "hrs_41938680",
+          "horse": "Lucius Aurelius",
+          "horse_id": "hrs_41629595",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Ruth Carr",
-          "trainer_id": "trn_180405",
-          "jockey": "James Sullivan",
-          "jockey_id": "jky_253623",
-          "draw": 6,
-          "number": 3,
-          "lbs": 137,
-          "ofr": "60",
-          "last_run": 15,
-          "form": "647421",
-          "headgear": ""
+          "trainer": "Kevin Ryan",
+          "trainer_id": "trn_202725",
+          "jockey": "Jack Nicholls(5)",
+          "jockey_id": "jky_308319",
+          "draw": 9,
+          "number": 6,
+          "lbs": 135,
+          "ofr": "58",
+          "last_run": 16,
+          "form": "901038",
+          "headgear": "p"
         }
       ],
-      "profile_notes": [
-        "Profile has multiple stored runs"
-      ],
+      "profile_notes": [],
       "favourite_course": {
-        "value": "Nottingham",
+        "value": "Pontefract",
         "runs": 1
       },
       "favourite_distance": {
         "value": 5.0,
-        "runs": 3
+        "runs": 2
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 2
+        "runs": 1
       },
       "favourite_class": {
-        "value": "Class 6",
-        "runs": 3
+        "value": "Class 5",
+        "runs": 1
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
       "going_suitability_score": 55,
-      "class_suitability_score": 90,
-      "suitability_score": 72,
-      "horse_intelligence_score": 45,
+      "class_suitability_score": 55,
+      "suitability_score": 64,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile"
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -1537,10 +2037,10 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 52,
+        "latest_pulse_score": 64,
         "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -1584,10 +2084,11 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 32,
+      "latest_pulse_score": 30,
       "latest_notes": [
         "Weak recent form",
-        "Stable flying +4 (16/29 last 14 days)"
+        "Trainer bonus +4",
+        "Jockey concern -2"
       ],
       "runs": [
         {
@@ -1643,7 +2144,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 41,
+      "horse_intelligence_score": 40,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1660,16 +2161,206 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 32,
+        "latest_pulse_score": 30,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Our Absent Friends",
+      "horse_id": "hrs_20977796",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Catterick",
+      "latest_time": "4:40",
+      "latest_race": "Racing Again 22nd July Handicap Stakes",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Tristan Davidson",
+      "latest_jockey": "Jason Hart",
+      "latest_draw": 2,
+      "latest_weight_lbs": 140,
+      "official_rating": "63",
+      "recent_form": "206379",
+      "last_run_days": 2,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Ayr": 2,
+        "Catterick": 1
+      },
+      "distances_seen": {
+        "5.0": 3
+      },
+      "goings_seen": {
+        "Good To Firm": 2,
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 2,
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Tristan Davidson": 3
+      },
+      "jockeys_seen": {
+        "Miss Amy Collier": 1,
+        "Shane Gray": 1,
+        "Jason Hart": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 37,
+      "latest_notes": [
+        "Weak recent form",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989783",
+          "course": "Ayr",
+          "date": "2026-07-05",
+          "off_time": "2:11",
+          "off_dt": "2026-07-05T14:11:00+01:00",
+          "race_name": "Hadley's 'Hello My Wee China' Amateur Jockeys' Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Our Absent Friends",
+          "horse_id": "hrs_20977796",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Tristan Davidson",
+          "trainer_id": "trn_201609",
+          "jockey": "Miss Amy Collier",
+          "jockey_id": "jky_289095",
+          "draw": 3,
+          "number": 5,
+          "lbs": 149,
+          "ofr": "63",
+          "last_run": 13,
+          "form": "342063",
+          "headgear": "t"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11999715",
+          "course": "Ayr",
+          "date": "2026-07-13",
+          "off_time": "2:30",
+          "off_dt": "2026-07-13T14:30:00+01:00",
+          "race_name": "25% Off Lunch At Western House Hotel Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Our Absent Friends",
+          "horse_id": "hrs_20977796",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Tristan Davidson",
+          "trainer_id": "trn_201609",
+          "jockey": "Shane Gray",
+          "jockey_id": "jky_270309",
+          "draw": 6,
+          "number": 9,
+          "lbs": 131,
+          "ofr": "63",
+          "last_run": 8,
+          "form": "420637",
+          "headgear": ""
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000650",
+          "course": "Catterick",
+          "date": "2026-07-15",
+          "off_time": "4:40",
+          "off_dt": "2026-07-15T16:40:00+01:00",
+          "race_name": "Racing Again 22nd July Handicap Stakes",
+          "distance_f": 5.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Our Absent Friends",
+          "horse_id": "hrs_20977796",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Tristan Davidson",
+          "trainer_id": "trn_201609",
+          "jockey": "Jason Hart",
+          "jockey_id": "jky_270729",
+          "draw": 2,
+          "number": 2,
+          "lbs": 140,
+          "ofr": "63",
+          "last_run": 2,
+          "form": "206379",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Ayr",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 3
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 55,
+      "suitability_score": 72,
+      "horse_intelligence_score": 38,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Low latest Pulse Score"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Catterick",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 37,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
       }
     }
   ],
   "notes": [
     "Albegone is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Lucius Aurelius is flagged as a possible dark horse."
+    "Invincible Crown is flagged as a possible dark horse."
   ]
 }

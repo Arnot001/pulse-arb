@@ -26,7 +26,11 @@ from app.modules.strategy.engine import get_strategy_lab_data
 from app.modules.dashboard import get_dashboard_data
 from app.modules.betting.builder import build_bets
 from app.modules.football.routes import get_football_leaderboard
-from collectors.daily_update import run_jobs
+from collectors.daily_update import (
+    get_mode_update_state,
+    is_mode_complete_today,
+    run_jobs,
+)
 from collectors.pulse_live_engine import (LIVE_ENGINE_BUSY,run_loop as run_pulse_live_engine,)
 from fastapi import FastAPI, Query, HTTPException, Form, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
@@ -87,6 +91,9 @@ UPDATE_STATUS = {
     "bar": "",
     "completed": [],
     "failed": [],
+    "total_tasks": 0,
+    "completed_count": 0,
+    "failed_count": 0,
     "started_at": None,
     "finished_at": None,
     "runtime": None,
@@ -107,28 +114,52 @@ def run_update_job(mode):
         UPDATE_STATUS["bar"] = build_progress_bar(0)
         UPDATE_STATUS["completed"] = []
         UPDATE_STATUS["failed"] = []
+        UPDATE_STATUS["total_tasks"] = 0
+        UPDATE_STATUS["completed_count"] = 0
+        UPDATE_STATUS["failed_count"] = 0
         UPDATE_STATUS["started_at"] = time.time()
         UPDATE_STATUS["finished_at"] = None
         UPDATE_STATUS["runtime"] = None
 
     def progress(update_event):
+        total = update_event.get("total") or 0
+
         if update_event["event"] == "start":
             with UPDATE_LOCK:
-                UPDATE_STATUS["current_task"] = update_event["label"]
+                UPDATE_STATUS["current_task"] = (
+                    update_event["label"]
+                )
+                UPDATE_STATUS["total_tasks"] = total
 
         elif update_event["event"] == "finish":
             percent = int(
-                (update_event["index"] / update_event["total"]) * 100
+                (
+                    update_event["index"]
+                    / max(total, 1)
+                ) * 100
             )
 
             with UPDATE_LOCK:
                 UPDATE_STATUS["percent"] = percent
-                UPDATE_STATUS["bar"] = build_progress_bar(percent)
+                UPDATE_STATUS["bar"] = (
+                    build_progress_bar(percent)
+                )
 
                 if update_event["success"]:
-                    UPDATE_STATUS["completed"].append(update_event["label"])
+                    UPDATE_STATUS["completed"].append(
+                        update_event["label"]
+                    )
                 else:
-                    UPDATE_STATUS["failed"].append(update_event["label"])
+                    UPDATE_STATUS["failed"].append(
+                        update_event["label"]
+                    )
+
+                UPDATE_STATUS["completed_count"] = len(
+                    UPDATE_STATUS["completed"]
+                )
+                UPDATE_STATUS["failed_count"] = len(
+                    UPDATE_STATUS["failed"]
+                )
 
     summary = run_jobs(
         mode,
@@ -136,20 +167,41 @@ def run_update_job(mode):
     )
 
     finished_at = time.time()
+    failed_count = len([
+        result
+        for result in summary["results"]
+        if result.get("success") is not True
+    ])
 
     with UPDATE_LOCK:
         UPDATE_STATUS["running"] = False
-        UPDATE_STATUS["current_task"] = "Complete"
+        UPDATE_STATUS["current_task"] = (
+            "Complete"
+            if failed_count == 0
+            else "Completed with errors"
+        )
+        UPDATE_STATUS["percent"] = 100
+        UPDATE_STATUS["bar"] = build_progress_bar(100)
         UPDATE_STATUS["finished_at"] = finished_at
         UPDATE_STATUS["runtime"] = summary["runtime"]
+        UPDATE_STATUS["total_tasks"] = summary["total"]
+        UPDATE_STATUS["completed_count"] = (
+            summary["total"] - failed_count
+        )
+        UPDATE_STATUS["failed_count"] = failed_count
+
 
 def is_manual_update_running():
+
     with UPDATE_LOCK:
         return bool(UPDATE_STATUS["running"])
 
 def has_manual_update_completed():
     with UPDATE_LOCK:
-        return UPDATE_STATUS["finished_at"] is not None
+        if UPDATE_STATUS["finished_at"] is not None:
+            return True
+
+    return is_mode_complete_today("all")
 
 @app.on_event("startup")
 def start_pulse_live_engine():
@@ -210,7 +262,21 @@ def start_update(mode, redirect_url="/"):
 @app.get("/update/status")
 def update_status():
     with UPDATE_LOCK:
-        return dict(UPDATE_STATUS)
+        status = dict(UPDATE_STATUS)
+
+    persistent = get_mode_update_state(
+        status.get("mode") or "all"
+    )
+
+    all_state = get_mode_update_state("all")
+
+    status["persistent"] = persistent
+    status["all_update"] = all_state
+    status["updated_today"] = (
+        is_mode_complete_today("all")
+    )
+
+    return status
 
 
 @app.post("/update/horses")
@@ -242,13 +308,106 @@ def update_settlement():
     return start_update("settlement", "/bet-builder")
 
 @app.get("/horses", response_class=HTMLResponse)
-def horses(request: Request):
+def horses(
+    request: Request,
+    iq_band: Optional[list[str]] = Query(None),
+):
+    cards = get_horse_dashboard()
+
+    iq_options = [
+        {
+            "key": "under_70",
+            "label": "Below 70",
+            "minimum": None,
+            "maximum": 69,
+        },
+        {
+            "key": "70_74",
+            "label": "70–74",
+            "minimum": 70,
+            "maximum": 74,
+        },
+        {
+            "key": "75_79",
+            "label": "75–79",
+            "minimum": 75,
+            "maximum": 79,
+        },
+        {
+            "key": "80_84",
+            "label": "80–84",
+            "minimum": 80,
+            "maximum": 84,
+        },
+        {
+            "key": "85_89",
+            "label": "85–89",
+            "minimum": 85,
+            "maximum": 89,
+        },
+        {
+            "key": "90_plus",
+            "label": "90+",
+            "minimum": 90,
+            "maximum": None,
+        },
+    ]
+
+    allowed_bands = {
+        option["key"]
+        for option in iq_options
+    }
+
+    selected_iq_bands = [
+        band
+        for band in (iq_band or [])
+        if band in allowed_bands
+    ]
+
+    total_cards = len(cards)
+
+    if selected_iq_bands:
+        selected_options = [
+            option
+            for option in iq_options
+            if option["key"] in selected_iq_bands
+        ]
+
+        filtered_cards = []
+
+        for card in cards:
+            try:
+                score = int(float(card.get("score") or 0))
+            except (TypeError, ValueError):
+                score = 0
+
+            matches_band = any(
+                (
+                    option["minimum"] is None
+                    or score >= option["minimum"]
+                )
+                and (
+                    option["maximum"] is None
+                    or score <= option["maximum"]
+                )
+                for option in selected_options
+            )
+
+            if matches_band:
+                filtered_cards.append(card)
+
+        cards = filtered_cards
+
     return templates.TemplateResponse(
         request,
         "horses.html",
         {
-            "cards": get_horse_dashboard(),
+            "cards": cards,
             "active_page": "horses",
+            "iq_options": iq_options,
+            "selected_iq_bands": selected_iq_bands,
+            "visible_card_count": len(cards),
+            "total_card_count": total_cards,
         },
     )
     
@@ -495,26 +654,89 @@ def bet_ledger(request: Request, stake: float = Query(1.0)):
     )
 
 @app.get("/performance", response_class=HTMLResponse)
-def performance(request: Request):
+def performance(
+    request: Request,
+    score: Optional[int] = Query(None),
+    group: str = Query("all"),
+):
+    allowed_scores = {
+        None,
+        70,
+        75,
+        80,
+        85,
+        90,
+    }
+
+    if score not in allowed_scores:
+        score = None
+
+    allowed_groups = {
+        "all",
+        "official",
+        "watchlist",
+        "predictions",
+    }
+
+    if group not in allowed_groups:
+        group = "all"
+
     return templates.TemplateResponse(
         request,
         "performance.html",
         {
             "request": request,
             "active_page": "performance",
-            "official_stats": get_verified_official_stats(),
-            "all_stats": get_all_settled_stats(),
+            "selected_score": score,
+            "selected_group": group,
+            "score_options": [
+                None,
+                70,
+                75,
+                80,
+                85,
+                90,
+            ],
+            "group_options": [
+                ("all", "All Picks"),
+                ("official", "Official"),
+                ("watchlist", "Watchlist"),
+                ("predictions", "Predictions"),
+            ],
+            "official_stats": (
+                get_verified_official_stats(
+                    min_score=score,
+                )
+            ),
+            "all_stats": get_all_settled_stats(
+                min_score=score,
+                bet_group=group,
+            ),
             "official_ew_stats": (
-                get_verified_official_each_way_stats()
+                get_verified_official_each_way_stats(
+                    min_score=score,
+                )
             ),
             "all_ew_stats": (
-                get_all_settled_each_way_stats()
+                get_all_settled_each_way_stats(
+                    min_score=score,
+                    bet_group=group,
+                )
             ),
-            "bankroll_history": get_bankroll_history(),
+            "bankroll_history": get_bankroll_history(
+                min_score=score,
+                bet_group=group,
+            ),
             "each_way_bankroll_history": (
-                get_each_way_bankroll_history()
+                get_each_way_bankroll_history(
+                    min_score=score,
+                    bet_group=group,
+                )
             ),
-            "insights": get_performance_insights(),
+            "insights": get_performance_insights(
+                min_score=score,
+                bet_group=group,
+            ),
         },
     )
     
@@ -960,6 +1182,12 @@ def pulse_home(
             ),
             "notification_message": (
                 notification_message
+            ),
+            "daily_update_state": (
+                get_mode_update_state("all")
+            ),
+            "updated_today": (
+                is_mode_complete_today("all")
             ),
         },
     )

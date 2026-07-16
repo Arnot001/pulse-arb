@@ -4,18 +4,18 @@
   "course": "Sha Tin",
   "time": "1:10",
   "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-  "field_size": 15,
-  "average_intelligence": 48.8,
-  "top_score": 62,
-  "second_score": 58,
-  "gap": 4,
-  "confidence_score": 53,
+  "field_size": 14,
+  "average_intelligence": 24.0,
+  "top_score": 24,
+  "second_score": 24,
+  "gap": 0,
+  "confidence_score": 19,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Family Fortune",
-    "horse_id": "hrs_39391730",
-    "age": 5,
+    "horse": "Ace",
+    "horse_id": "hrs_51865429",
+    "age": 4,
     "sex": "gelding",
     "latest_course": "Sha Tin",
     "latest_time": "1:10",
@@ -23,15 +23,15 @@
     "latest_date": "2026-07-01",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "Good",
+    "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "C Fownes",
-    "latest_jockey": "Ellis Wong(3)",
-    "latest_draw": 3,
-    "latest_weight_lbs": 119,
-    "official_rating": "43",
-    "recent_form": "751341",
-    "last_run_days": 28,
+    "latest_trainer": "Mark Newnham",
+    "latest_jockey": "Jerry Chau(2)",
+    "latest_draw": 6,
+    "latest_weight_lbs": 130,
+    "official_rating": "54",
+    "recent_form": "681471",
+    "last_run_days": 24,
     "profile_runs": 1,
     "courses_seen": {
       "Sha Tin": 1
@@ -40,26 +40,19 @@
       "8.0": 1
     },
     "goings_seen": {
-      "Good": 1
+      "Good To Firm": 1
     },
     "classes_seen": {},
     "trainers_seen": {
-      "C Fownes": 1
+      "Mark Newnham": 1
     },
     "jockeys_seen": {
-      "Ellis Wong(3)": 1
+      "Jerry Chau(2)": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 85,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer bonus +2",
-      "Jockey bonus +2"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -72,29 +65,143 @@
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 14,
-        "horse": "Family Fortune",
-        "horse_id": "hrs_39391730",
-        "age": 5,
+        "horse": "Ace",
+        "horse_id": "hrs_51865429",
+        "age": 4,
         "sex": "gelding",
-        "trainer": "C Fownes",
-        "trainer_id": "trn_144855",
-        "jockey": "Ellis Wong(3)",
-        "jockey_id": "jky_305655",
-        "draw": 3,
-        "number": 13,
+        "trainer": "Mark Newnham",
+        "trainer_id": "trn_290223",
+        "jockey": "Jerry Chau(2)",
+        "jockey_id": "jky_297369",
+        "draw": 6,
+        "number": 6,
+        "lbs": 130,
+        "ofr": "54",
+        "last_run": 24,
+        "form": "681471",
+        "headgear": "tb",
+        "_stored_at": "2026-07-01T13:17:55.415398+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Sha Tin",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 8.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Sha Tin",
+      "latest_distance_f": 8.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "Amazing Duck",
+    "horse_id": "hrs_37504474",
+    "age": 6,
+    "sex": "gelding",
+    "latest_course": "Sha Tin",
+    "latest_time": "1:10",
+    "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+    "latest_date": "2026-07-01",
+    "latest_distance_f": 8.0,
+    "latest_class": "",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Jimmy Ting",
+    "latest_jockey": "Zac Purton",
+    "latest_draw": 1,
+    "latest_weight_lbs": 119,
+    "official_rating": "43",
+    "recent_form": "625934",
+    "last_run_days": 24,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Sha Tin": 1
+    },
+    "distances_seen": {
+      "8.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Jimmy Ting": 1
+    },
+    "jockeys_seen": {
+      "Zac Purton": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12009361",
+        "course": "Sha Tin",
+        "date": "2026-07-01",
+        "off_time": "1:10",
+        "off_dt": "2026-07-01T13:10:00+01:00",
+        "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+        "distance_f": 8.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 14,
+        "horse": "Amazing Duck",
+        "horse_id": "hrs_37504474",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Jimmy Ting",
+        "trainer_id": "trn_315315",
+        "jockey": "Zac Purton",
+        "jockey_id": "jky_247017",
+        "draw": 1,
+        "number": 12,
         "lbs": 119,
         "ofr": "43",
-        "last_run": 28,
-        "form": "751341",
+        "last_run": 24,
+        "form": "625934",
         "headgear": "t",
-        "_stored_at": "2026-06-30T23:10:46.898759+00:00"
+        "_stored_at": "2026-07-01T13:17:55.569179+00:00"
       }
     ],
     "profile_notes": [
-      "Elite latest Pulse Score",
       "Low draw today"
     ],
     "favourite_course": {
@@ -106,7 +213,7 @@
       "runs": 1
     },
     "favourite_going": {
-      "value": "Good",
+      "value": "Good To Firm",
       "runs": 1
     },
     "favourite_class": null,
@@ -115,154 +222,32 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 62,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Elite latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Sha Tin",
       "latest_distance_f": 8.0,
-      "latest_going": "Good",
+      "latest_going": "Good To Firm",
       "latest_class": "",
-      "latest_pulse_score": 85,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Ace",
-    "horse_id": "hrs_51865429",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Sha Tin",
-    "latest_time": "1:10",
-    "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-    "latest_date": "2026-07-01",
-    "latest_distance_f": 8.0,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Mark Newnham",
-    "latest_jockey": "Jerry Chau(2)",
-    "latest_draw": 6,
-    "latest_weight_lbs": 130,
-    "official_rating": "54",
-    "recent_form": "681471",
-    "last_run_days": 24,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Sha Tin": 1
-    },
-    "distances_seen": {
-      "8.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Mark Newnham": 1
-    },
-    "jockeys_seen": {
-      "Jerry Chau(2)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 75,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Jockey bonus +2",
-      "Jockey in form +2 (1/2 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12009361",
-        "course": "Sha Tin",
-        "date": "2026-07-01",
-        "off_time": "1:10",
-        "off_dt": "2026-07-01T13:10:00+01:00",
-        "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-        "distance_f": 8.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 14,
-        "horse": "Ace",
-        "horse_id": "hrs_51865429",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Mark Newnham",
-        "trainer_id": "trn_290223",
-        "jockey": "Jerry Chau(2)",
-        "jockey_id": "jky_297369",
-        "draw": 6,
-        "number": 6,
-        "lbs": 130,
-        "ofr": "54",
-        "last_run": 24,
-        "form": "681471",
-        "headgear": "tb",
-        "_stored_at": "2026-06-30T23:10:46.717742+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Sha Tin",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 8.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 58,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Sha Tin",
-      "latest_distance_f": 8.0,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 75,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Ace",
-    "horse_id": "hrs_51865429",
-    "age": 4,
+    "horse": "Beauty Viva",
+    "horse_id": "hrs_36328992",
+    "age": 5,
     "sex": "gelding",
     "latest_course": "Sha Tin",
     "latest_time": "1:10",
@@ -270,15 +255,15 @@
     "latest_date": "2026-07-01",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "Good",
+    "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Mark Newnham",
-    "latest_jockey": "Jerry Chau(2)",
-    "latest_draw": 6,
+    "latest_trainer": "A S Cruz",
+    "latest_jockey": "Andrea Atzeni",
+    "latest_draw": 10,
     "latest_weight_lbs": 130,
     "official_rating": "54",
-    "recent_form": "681471",
-    "last_run_days": 24,
+    "recent_form": "917787",
+    "last_run_days": 35,
     "profile_runs": 1,
     "courses_seen": {
       "Sha Tin": 1
@@ -287,26 +272,19 @@
       "8.0": 1
     },
     "goings_seen": {
-      "Good": 1
+      "Good To Firm": 1
     },
     "classes_seen": {},
     "trainers_seen": {
-      "Mark Newnham": 1
+      "A S Cruz": 1
     },
     "jockeys_seen": {
-      "Jerry Chau(2)": 1
+      "Andrea Atzeni": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 75,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Jockey bonus +2",
-      "Jockey in form +2 (1/2 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -319,25 +297,25 @@
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 14,
-        "horse": "Ace",
-        "horse_id": "hrs_51865429",
-        "age": 4,
+        "horse": "Beauty Viva",
+        "horse_id": "hrs_36328992",
+        "age": 5,
         "sex": "gelding",
-        "trainer": "Mark Newnham",
-        "trainer_id": "trn_290223",
-        "jockey": "Jerry Chau(2)",
-        "jockey_id": "jky_297369",
-        "draw": 6,
-        "number": 6,
+        "trainer": "A S Cruz",
+        "trainer_id": "trn_114903",
+        "jockey": "Andrea Atzeni",
+        "jockey_id": "jky_262047",
+        "draw": 10,
+        "number": 7,
         "lbs": 130,
         "ofr": "54",
-        "last_run": 24,
-        "form": "681471",
-        "headgear": "tb",
-        "_stored_at": "2026-06-30T23:10:46.717742+00:00"
+        "last_run": 35,
+        "form": "917787",
+        "headgear": "tp",
+        "_stored_at": "2026-07-01T13:17:55.446523+00:00"
       }
     ],
     "profile_notes": [],
@@ -350,7 +328,7 @@
       "runs": 1
     },
     "favourite_going": {
-      "value": "Good",
+      "value": "Good To Firm",
       "runs": 1
     },
     "favourite_class": null,
@@ -359,154 +337,29 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 58,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Sha Tin",
       "latest_distance_f": 8.0,
-      "latest_going": "Good",
+      "latest_going": "Good To Firm",
       "latest_class": "",
-      "latest_pulse_score": 75,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Family Fortune",
-      "horse_id": "hrs_39391730",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:10",
-      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "C Fownes",
-      "latest_jockey": "Ellis Wong(3)",
-      "latest_draw": 3,
-      "latest_weight_lbs": 119,
-      "official_rating": "43",
-      "recent_form": "751341",
-      "last_run_days": 28,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "C Fownes": 1
-      },
-      "jockeys_seen": {
-        "Ellis Wong(3)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 85,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009361",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "1:10",
-          "off_dt": "2026-07-01T13:10:00+01:00",
-          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Family Fortune",
-          "horse_id": "hrs_39391730",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "C Fownes",
-          "trainer_id": "trn_144855",
-          "jockey": "Ellis Wong(3)",
-          "jockey_id": "jky_305655",
-          "draw": 3,
-          "number": 13,
-          "lbs": 119,
-          "ofr": "43",
-          "last_run": 28,
-          "form": "751341",
-          "headgear": "t",
-          "_stored_at": "2026-06-30T23:10:46.898759+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score",
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 62,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 85,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Ace",
       "horse_id": "hrs_51865429",
@@ -518,7 +371,7 @@
       "latest_date": "2026-07-01",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Firm",
       "latest_surface": "Turf",
       "latest_trainer": "Mark Newnham",
       "latest_jockey": "Jerry Chau(2)",
@@ -535,7 +388,7 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Firm": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -546,15 +399,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 75,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey bonus +2",
-        "Jockey in form +2 (1/2 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -567,7 +413,7 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 14,
           "horse": "Ace",
@@ -585,7 +431,7 @@
           "last_run": 24,
           "form": "681471",
           "headgear": "tb",
-          "_stored_at": "2026-06-30T23:10:46.717742+00:00"
+          "_stored_at": "2026-07-01T13:17:55.415398+00:00"
         }
       ],
       "profile_notes": [],
@@ -598,7 +444,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Firm",
         "runs": 1
       },
       "favourite_class": null,
@@ -607,142 +453,23 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 58,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 75,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Mega Mastermind",
-      "horse_id": "hrs_59961104",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:10",
-      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Jamie Richards",
-      "latest_jockey": "Alexis Badel",
-      "latest_draw": 14,
-      "latest_weight_lbs": 132,
-      "official_rating": "56",
-      "recent_form": "631298",
-      "last_run_days": 24,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Jamie Richards": 1
-      },
-      "jockeys_seen": {
-        "Alexis Badel": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 62,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009361",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "1:10",
-          "off_dt": "2026-07-01T13:10:00+01:00",
-          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Mega Mastermind",
-          "horse_id": "hrs_59961104",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Jamie Richards",
-          "trainer_id": "trn_315387",
-          "jockey": "Alexis Badel",
-          "jockey_id": "jky_256623",
-          "draw": 14,
-          "number": 4,
-          "lbs": 132,
-          "ofr": "56",
-          "last_run": 24,
-          "form": "631298",
-          "headgear": "tv",
-          "_stored_at": "2026-06-30T23:10:46.628728+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 8.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Firm",
         "latest_class": "",
-        "latest_pulse_score": 62,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -759,7 +486,7 @@
       "latest_date": "2026-07-01",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Firm",
       "latest_surface": "Turf",
       "latest_trainer": "Jimmy Ting",
       "latest_jockey": "Zac Purton",
@@ -776,7 +503,7 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Firm": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -787,14 +514,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 61,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -807,7 +528,7 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 14,
           "horse": "Amazing Duck",
@@ -825,7 +546,7 @@
           "last_run": 24,
           "form": "625934",
           "headgear": "t",
-          "_stored_at": "2026-06-30T23:10:46.874570+00:00"
+          "_stored_at": "2026-07-01T13:17:55.569179+00:00"
         }
       ],
       "profile_notes": [
@@ -840,7 +561,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Firm",
         "runs": 1
       },
       "favourite_class": null,
@@ -849,982 +570,23 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 51,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 8.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Firm",
         "latest_class": "",
-        "latest_pulse_score": 61,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Jolly Brilliant",
-      "horse_id": "hrs_58810997",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:10",
-      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "P F Yiu",
-      "latest_jockey": "Hugh Bowman",
-      "latest_draw": 7,
-      "latest_weight_lbs": 129,
-      "official_rating": "53",
-      "recent_form": "-56324",
-      "last_run_days": 38,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "P F Yiu": 1
-      },
-      "jockeys_seen": {
-        "Hugh Bowman": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 61,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +3",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009361",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "1:10",
-          "off_dt": "2026-07-01T13:10:00+01:00",
-          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Jolly Brilliant",
-          "horse_id": "hrs_58810997",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "P F Yiu",
-          "trainer_id": "trn_125424",
-          "jockey": "Hugh Bowman",
-          "jockey_id": "jky_238587",
-          "draw": 7,
-          "number": 8,
-          "lbs": 129,
-          "ofr": "53",
-          "last_run": 38,
-          "form": "-56324",
-          "headgear": "b",
-          "_stored_at": "2026-06-30T23:10:46.763239+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 61,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Chill Partners",
-      "horse_id": "hrs_60158917",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:10",
-      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "K W Lui",
-      "latest_jockey": "L J Ferraris",
-      "latest_draw": 2,
-      "latest_weight_lbs": 133,
-      "official_rating": "57",
-      "recent_form": "621000",
-      "last_run_days": 24,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "K W Lui": 1
-      },
-      "jockeys_seen": {
-        "L J Ferraris": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 57,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009361",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "1:10",
-          "off_dt": "2026-07-01T13:10:00+01:00",
-          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Chill Partners",
-          "horse_id": "hrs_60158917",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "K W Lui",
-          "trainer_id": "trn_114858",
-          "jockey": "L J Ferraris",
-          "jockey_id": "jky_294588",
-          "draw": 2,
-          "number": 2,
-          "lbs": 133,
-          "ofr": "57",
-          "last_run": 24,
-          "form": "621000",
-          "headgear": "v",
-          "_stored_at": "2026-06-30T23:10:46.538482+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 50,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 57,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Ninja Derby",
-      "horse_id": "hrs_30016749",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:10",
-      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Brett Crawford",
-      "latest_jockey": "Lyle Hewitson",
-      "latest_draw": 9,
-      "latest_weight_lbs": 118,
-      "official_rating": "42",
-      "recent_form": "31-040",
-      "last_run_days": 24,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Brett Crawford": 1
-      },
-      "jockeys_seen": {
-        "Lyle Hewitson": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 58,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey in form +2 (1/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009361",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "1:10",
-          "off_dt": "2026-07-01T13:10:00+01:00",
-          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Ninja Derby",
-          "horse_id": "hrs_30016749",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Brett Crawford",
-          "trainer_id": "trn_236142",
-          "jockey": "Lyle Hewitson",
-          "jockey_id": "jky_286149",
-          "draw": 9,
-          "number": 14,
-          "lbs": 118,
-          "ofr": "42",
-          "last_run": 24,
-          "form": "31-040",
-          "headgear": "",
-          "_stored_at": "2026-06-30T23:10:46.939339+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 50,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 58,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Prestige Hall",
-      "horse_id": "hrs_53389882",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:10",
-      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "D J Hall",
-      "latest_jockey": "Ethan Brown",
-      "latest_draw": 8,
-      "latest_weight_lbs": 132,
-      "official_rating": "56",
-      "recent_form": "226841",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "D J Hall": 1
-      },
-      "jockeys_seen": {
-        "Ethan Brown": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 58,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey in form +2 (2/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009361",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "1:10",
-          "off_dt": "2026-07-01T13:10:00+01:00",
-          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Prestige Hall",
-          "horse_id": "hrs_53389882",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "D J Hall",
-          "trainer_id": "trn_211005",
-          "jockey": "Ethan Brown",
-          "jockey_id": "jky_284742",
-          "draw": 8,
-          "number": 5,
-          "lbs": 132,
-          "ofr": "56",
-          "last_run": 18,
-          "form": "226841",
-          "headgear": "het",
-          "_stored_at": "2026-06-30T23:10:46.692386+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 50,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 58,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Flying Boom",
-      "horse_id": "hrs_58164505",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:10",
-      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "C W Chang",
-      "latest_jockey": "K C Leung",
-      "latest_draw": 11,
-      "latest_weight_lbs": 126,
-      "official_rating": "50",
-      "recent_form": "613005",
-      "last_run_days": 24,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "C W Chang": 1
-      },
-      "jockeys_seen": {
-        "K C Leung": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009361",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "1:10",
-          "off_dt": "2026-07-01T13:10:00+01:00",
-          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Flying Boom",
-          "horse_id": "hrs_58164505",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "C W Chang",
-          "trainer_id": "trn_180099",
-          "jockey": "K C Leung",
-          "jockey_id": "jky_265608",
-          "draw": 11,
-          "number": 10,
-          "lbs": 126,
-          "ofr": "50",
-          "last_run": 24,
-          "form": "613005",
-          "headgear": "",
-          "_stored_at": "2026-06-30T23:10:46.818413+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 51,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Best World",
-      "horse_id": "hrs_64589924",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:10",
-      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "David A Hayes",
-      "latest_jockey": "Brenton Avdulla",
-      "latest_draw": 5,
-      "latest_weight_lbs": 126,
-      "official_rating": "50",
-      "recent_form": "57",
-      "last_run_days": 38,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "David A Hayes": 1
-      },
-      "jockeys_seen": {
-        "Brenton Avdulla": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 49,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Stable in form +2 (1/2 last 14 days)",
-        "Jockey in form +2 (1/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009361",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "1:10",
-          "off_dt": "2026-07-01T13:10:00+01:00",
-          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Best World",
-          "horse_id": "hrs_64589924",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "David A Hayes",
-          "trainer_id": "trn_31950",
-          "jockey": "Brenton Avdulla",
-          "jockey_id": "jky_266817",
-          "draw": 5,
-          "number": 9,
-          "lbs": 126,
-          "ofr": "50",
-          "last_run": 38,
-          "form": "57",
-          "headgear": "p",
-          "_stored_at": "2026-06-30T23:10:46.794495+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 49,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Jumbo Steps",
-      "horse_id": "hrs_62908321",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:10",
-      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "P C Ng",
-      "latest_jockey": "C Y Ho",
-      "latest_draw": 4,
-      "latest_weight_lbs": 135,
-      "official_rating": "59",
-      "recent_form": "0-9570",
-      "last_run_days": 10,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "P C Ng": 1
-      },
-      "jockeys_seen": {
-        "C Y Ho": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 49,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey bonus +2",
-        "Jockey in form +2 (1/1 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009361",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "1:10",
-          "off_dt": "2026-07-01T13:10:00+01:00",
-          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Jumbo Steps",
-          "horse_id": "hrs_62908321",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "P C Ng",
-          "trainer_id": "trn_357858",
-          "jockey": "C Y Ho",
-          "jockey_id": "jky_272061",
-          "draw": 4,
-          "number": 1,
-          "lbs": 135,
-          "ofr": "59",
-          "last_run": 10,
-          "form": "0-9570",
-          "headgear": "b",
-          "_stored_at": "2026-06-30T23:10:46.461946+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 49,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Lucky Balerion",
-      "horse_id": "hrs_61078171",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Sha Tin",
-      "latest_time": "1:10",
-      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "F C Lor",
-      "latest_jockey": "Matthew Poon",
-      "latest_draw": 12,
-      "latest_weight_lbs": 126,
-      "official_rating": "50",
-      "recent_form": "6962",
-      "last_run_days": 38,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Sha Tin": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "F C Lor": 1
-      },
-      "jockeys_seen": {
-        "Matthew Poon": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Trainer bonus +1",
-        "Stable in form +2 (1/1 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009361",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "1:10",
-          "off_dt": "2026-07-01T13:10:00+01:00",
-          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Lucky Balerion",
-          "horse_id": "hrs_61078171",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "F C Lor",
-          "trainer_id": "trn_303201",
-          "jockey": "Matthew Poon",
-          "jockey_id": "jky_287175",
-          "draw": 12,
-          "number": 11,
-          "lbs": 126,
-          "ofr": "50",
-          "last_run": 38,
-          "form": "6962",
-          "headgear": "tp",
-          "_stored_at": "2026-06-30T23:10:46.842482+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Sha Tin",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Sha Tin",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 45,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1841,7 +603,7 @@
       "latest_date": "2026-07-01",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Firm",
       "latest_surface": "Turf",
       "latest_trainer": "A S Cruz",
       "latest_jockey": "Andrea Atzeni",
@@ -1858,7 +620,7 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Firm": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1869,14 +631,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 40,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1889,7 +645,7 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 14,
           "horse": "Beauty Viva",
@@ -1907,7 +663,7 @@
           "last_run": 35,
           "form": "917787",
           "headgear": "tp",
-          "_stored_at": "2026-06-30T23:10:46.733079+00:00"
+          "_stored_at": "2026-07-01T13:17:55.446523+00:00"
         }
       ],
       "profile_notes": [],
@@ -1920,7 +676,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Firm",
         "runs": 1
       },
       "favourite_class": null,
@@ -1929,7 +685,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 42,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1943,9 +699,705 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 8.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Firm",
         "latest_class": "",
-        "latest_pulse_score": 40,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Best World",
+      "horse_id": "hrs_64589924",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:10",
+      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "David A Hayes",
+      "latest_jockey": "Brenton Avdulla",
+      "latest_draw": 5,
+      "latest_weight_lbs": 126,
+      "official_rating": "50",
+      "recent_form": "57",
+      "last_run_days": 38,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "David A Hayes": 1
+      },
+      "jockeys_seen": {
+        "Brenton Avdulla": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009361",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "1:10",
+          "off_dt": "2026-07-01T13:10:00+01:00",
+          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Best World",
+          "horse_id": "hrs_64589924",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "David A Hayes",
+          "trainer_id": "trn_31950",
+          "jockey": "Brenton Avdulla",
+          "jockey_id": "jky_266817",
+          "draw": 5,
+          "number": 9,
+          "lbs": 126,
+          "ofr": "50",
+          "last_run": 38,
+          "form": "57",
+          "headgear": "p",
+          "_stored_at": "2026-07-01T13:17:55.490911+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Chill Partners",
+      "horse_id": "hrs_60158917",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:10",
+      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "K W Lui",
+      "latest_jockey": "L J Ferraris",
+      "latest_draw": 2,
+      "latest_weight_lbs": 133,
+      "official_rating": "57",
+      "recent_form": "621000",
+      "last_run_days": 24,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "K W Lui": 1
+      },
+      "jockeys_seen": {
+        "L J Ferraris": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009361",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "1:10",
+          "off_dt": "2026-07-01T13:10:00+01:00",
+          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Chill Partners",
+          "horse_id": "hrs_60158917",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "K W Lui",
+          "trainer_id": "trn_114858",
+          "jockey": "L J Ferraris",
+          "jockey_id": "jky_294588",
+          "draw": 2,
+          "number": 2,
+          "lbs": 133,
+          "ofr": "57",
+          "last_run": 24,
+          "form": "621000",
+          "headgear": "v",
+          "_stored_at": "2026-07-01T13:17:55.332024+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Family Fortune",
+      "horse_id": "hrs_39391730",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:10",
+      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "C Fownes",
+      "latest_jockey": "Ellis Wong(3)",
+      "latest_draw": 3,
+      "latest_weight_lbs": 119,
+      "official_rating": "43",
+      "recent_form": "751341",
+      "last_run_days": 28,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "C Fownes": 1
+      },
+      "jockeys_seen": {
+        "Ellis Wong(3)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009361",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "1:10",
+          "off_dt": "2026-07-01T13:10:00+01:00",
+          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Family Fortune",
+          "horse_id": "hrs_39391730",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "C Fownes",
+          "trainer_id": "trn_144855",
+          "jockey": "Ellis Wong(3)",
+          "jockey_id": "jky_305655",
+          "draw": 3,
+          "number": 13,
+          "lbs": 119,
+          "ofr": "43",
+          "last_run": 28,
+          "form": "751341",
+          "headgear": "t",
+          "_stored_at": "2026-07-01T13:17:55.598192+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Flying Boom",
+      "horse_id": "hrs_58164505",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:10",
+      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "C W Chang",
+      "latest_jockey": "K C Leung",
+      "latest_draw": 11,
+      "latest_weight_lbs": 126,
+      "official_rating": "50",
+      "recent_form": "613005",
+      "last_run_days": 24,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "C W Chang": 1
+      },
+      "jockeys_seen": {
+        "K C Leung": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009361",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "1:10",
+          "off_dt": "2026-07-01T13:10:00+01:00",
+          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Flying Boom",
+          "horse_id": "hrs_58164505",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "C W Chang",
+          "trainer_id": "trn_180099",
+          "jockey": "K C Leung",
+          "jockey_id": "jky_265608",
+          "draw": 11,
+          "number": 10,
+          "lbs": 126,
+          "ofr": "50",
+          "last_run": 24,
+          "form": "613005",
+          "headgear": "",
+          "_stored_at": "2026-07-01T13:17:55.516476+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Jolly Brilliant",
+      "horse_id": "hrs_58810997",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:10",
+      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "P F Yiu",
+      "latest_jockey": "Hugh Bowman",
+      "latest_draw": 7,
+      "latest_weight_lbs": 129,
+      "official_rating": "53",
+      "recent_form": "-56324",
+      "last_run_days": 38,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "P F Yiu": 1
+      },
+      "jockeys_seen": {
+        "Hugh Bowman": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009361",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "1:10",
+          "off_dt": "2026-07-01T13:10:00+01:00",
+          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Jolly Brilliant",
+          "horse_id": "hrs_58810997",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "P F Yiu",
+          "trainer_id": "trn_125424",
+          "jockey": "Hugh Bowman",
+          "jockey_id": "jky_238587",
+          "draw": 7,
+          "number": 8,
+          "lbs": 129,
+          "ofr": "53",
+          "last_run": 38,
+          "form": "-56324",
+          "headgear": "b",
+          "_stored_at": "2026-07-01T13:17:55.469399+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Jumbo Steps",
+      "horse_id": "hrs_62908321",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:10",
+      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "P C Ng",
+      "latest_jockey": "C Y Ho",
+      "latest_draw": 4,
+      "latest_weight_lbs": 135,
+      "official_rating": "59",
+      "recent_form": "0-9570",
+      "last_run_days": 10,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "P C Ng": 1
+      },
+      "jockeys_seen": {
+        "C Y Ho": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009361",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "1:10",
+          "off_dt": "2026-07-01T13:10:00+01:00",
+          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Jumbo Steps",
+          "horse_id": "hrs_62908321",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "P C Ng",
+          "trainer_id": "trn_357858",
+          "jockey": "C Y Ho",
+          "jockey_id": "jky_272061",
+          "draw": 4,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "59",
+          "last_run": 10,
+          "form": "0-9570",
+          "headgear": "b",
+          "_stored_at": "2026-07-01T13:17:55.307464+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1962,7 +1414,7 @@
       "latest_date": "2026-07-01",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Firm",
       "latest_surface": "Turf",
       "latest_trainer": "W K Mo",
       "latest_jockey": "Matthew Chadwick",
@@ -1979,7 +1431,7 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Firm": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1990,13 +1442,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 39,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Trainer bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2009,7 +1456,7 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 14,
           "horse": "Ka Ying Superb",
@@ -2027,7 +1474,7 @@
           "last_run": 31,
           "form": "0-0968",
           "headgear": "h",
-          "_stored_at": "2026-06-30T23:10:46.573251+00:00"
+          "_stored_at": "2026-07-01T13:17:55.353448+00:00"
         }
       ],
       "profile_notes": [],
@@ -2040,7 +1487,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Firm",
         "runs": 1
       },
       "favourite_class": null,
@@ -2049,7 +1496,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 42,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2063,18 +1510,18 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 8.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Firm",
         "latest_class": "",
-        "latest_pulse_score": 39,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Derrynblue",
-      "horse_id": "hrs_59961111",
-      "age": 4,
+      "horse": "Lucky Balerion",
+      "horse_id": "hrs_61078171",
+      "age": 3,
       "sex": "gelding",
       "latest_course": "Sha Tin",
       "latest_time": "1:10",
@@ -2082,15 +1529,15 @@
       "latest_date": "2026-07-01",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "C H Yip",
-      "latest_jockey": "",
-      "latest_draw": 16,
-      "latest_weight_lbs": 116,
-      "official_rating": "40",
-      "recent_form": "099007",
-      "last_run_days": 18,
+      "latest_trainer": "F C Lor",
+      "latest_jockey": "Matthew Poon",
+      "latest_draw": 12,
+      "latest_weight_lbs": 126,
+      "official_rating": "50",
+      "recent_form": "6962",
+      "last_run_days": 38,
       "profile_runs": 1,
       "courses_seen": {
         "Sha Tin": 1
@@ -2099,21 +1546,19 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Firm": 1
       },
       "classes_seen": {},
       "trainers_seen": {
-        "C H Yip": 1
+        "F C Lor": 1
       },
-      "jockeys_seen": {},
+      "jockeys_seen": {
+        "Matthew Poon": 1
+      },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 38,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2126,25 +1571,25 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 14,
-          "horse": "Derrynblue",
-          "horse_id": "hrs_59961111",
-          "age": 4,
+          "horse": "Lucky Balerion",
+          "horse_id": "hrs_61078171",
+          "age": 3,
           "sex": "gelding",
-          "trainer": "C H Yip",
-          "trainer_id": "trn_142704",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 16,
-          "number": 16,
-          "lbs": 116,
-          "ofr": "40",
-          "last_run": 18,
-          "form": "099007",
-          "headgear": "ht",
-          "_stored_at": "2026-06-30T23:10:47.082093+00:00"
+          "trainer": "F C Lor",
+          "trainer_id": "trn_303201",
+          "jockey": "Matthew Poon",
+          "jockey_id": "jky_287175",
+          "draw": 12,
+          "number": 11,
+          "lbs": 126,
+          "ofr": "50",
+          "last_run": 38,
+          "form": "6962",
+          "headgear": "tp",
+          "_stored_at": "2026-07-01T13:17:55.543824+00:00"
         }
       ],
       "profile_notes": [],
@@ -2157,7 +1602,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Firm",
         "runs": 1
       },
       "favourite_class": null,
@@ -2166,7 +1611,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 41,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2180,9 +1625,354 @@
       "enrich_signature": {
         "latest_course": "Sha Tin",
         "latest_distance_f": 8.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Firm",
         "latest_class": "",
-        "latest_pulse_score": 38,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Mega Mastermind",
+      "horse_id": "hrs_59961104",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:10",
+      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jamie Richards",
+      "latest_jockey": "Alexis Badel",
+      "latest_draw": 14,
+      "latest_weight_lbs": 132,
+      "official_rating": "56",
+      "recent_form": "631298",
+      "last_run_days": 24,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Jamie Richards": 1
+      },
+      "jockeys_seen": {
+        "Alexis Badel": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009361",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "1:10",
+          "off_dt": "2026-07-01T13:10:00+01:00",
+          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Mega Mastermind",
+          "horse_id": "hrs_59961104",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Jamie Richards",
+          "trainer_id": "trn_315387",
+          "jockey": "Alexis Badel",
+          "jockey_id": "jky_256623",
+          "draw": 14,
+          "number": 4,
+          "lbs": 132,
+          "ofr": "56",
+          "last_run": 24,
+          "form": "631298",
+          "headgear": "tv",
+          "_stored_at": "2026-07-01T13:17:55.374643+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Ninja Derby",
+      "horse_id": "hrs_30016749",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:10",
+      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Brett Crawford",
+      "latest_jockey": "Lyle Hewitson",
+      "latest_draw": 9,
+      "latest_weight_lbs": 118,
+      "official_rating": "42",
+      "recent_form": "31-040",
+      "last_run_days": 24,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Brett Crawford": 1
+      },
+      "jockeys_seen": {
+        "Lyle Hewitson": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009361",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "1:10",
+          "off_dt": "2026-07-01T13:10:00+01:00",
+          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Ninja Derby",
+          "horse_id": "hrs_30016749",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Brett Crawford",
+          "trainer_id": "trn_236142",
+          "jockey": "Lyle Hewitson",
+          "jockey_id": "jky_286149",
+          "draw": 9,
+          "number": 14,
+          "lbs": 118,
+          "ofr": "42",
+          "last_run": 24,
+          "form": "31-040",
+          "headgear": "",
+          "_stored_at": "2026-07-01T13:17:55.624219+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Prestige Hall",
+      "horse_id": "hrs_53389882",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "1:10",
+      "latest_race": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "D J Hall",
+      "latest_jockey": "Ethan Brown",
+      "latest_draw": 8,
+      "latest_weight_lbs": 132,
+      "official_rating": "56",
+      "recent_form": "226841",
+      "last_run_days": 18,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "D J Hall": 1
+      },
+      "jockeys_seen": {
+        "Ethan Brown": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009361",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "1:10",
+          "off_dt": "2026-07-01T13:10:00+01:00",
+          "race_name": "Riding High Together Handicap (Class 4) (Course C) (Turf)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Prestige Hall",
+          "horse_id": "hrs_53389882",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "D J Hall",
+          "trainer_id": "trn_211005",
+          "jockey": "Ethan Brown",
+          "jockey_id": "jky_284742",
+          "draw": 8,
+          "number": 5,
+          "lbs": 132,
+          "ofr": "56",
+          "last_run": 18,
+          "form": "226841",
+          "headgear": "het",
+          "_stored_at": "2026-07-01T13:17:55.394538+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -2190,8 +1980,9 @@
     }
   ],
   "notes": [
-    "Family Fortune is the top-rated Pulse IQ runner.",
+    "Ace is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Ace is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Beauty Viva is flagged as a possible dark horse."
   ]
 }

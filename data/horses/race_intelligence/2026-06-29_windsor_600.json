@@ -5,18 +5,18 @@
   "time": "6:00",
   "race_name": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
   "field_size": 8,
-  "average_intelligence": 51.38,
-  "top_score": 59,
-  "second_score": 57,
-  "gap": 2,
-  "confidence_score": 49,
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 22,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Hapiness",
-    "horse_id": "hrs_64812972",
+    "horse": "Arklan",
+    "horse_id": "hrs_65938628",
     "age": 3,
-    "sex": "filly",
+    "sex": "gelding",
     "latest_course": "Windsor",
     "latest_time": "6:00",
     "latest_race": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
@@ -25,13 +25,13 @@
     "latest_class": "Class 3",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Ralph Beckett",
-    "latest_jockey": "Rossa Ryan",
-    "latest_draw": 9,
-    "latest_weight_lbs": 124,
+    "latest_trainer": "Eve Johnson Houghton",
+    "latest_jockey": "Callum Hutchinson",
+    "latest_draw": 2,
+    "latest_weight_lbs": 129,
     "official_rating": "-",
-    "recent_form": "23",
-    "last_run_days": 13,
+    "recent_form": "",
+    "last_run_days": null,
     "profile_runs": 1,
     "courses_seen": {
       "Windsor": 1
@@ -46,22 +46,15 @@
       "Class 3": 1
     },
     "trainers_seen": {
-      "Ralph Beckett": 1
+      "Eve Johnson Houghton": 1
     },
     "jockeys_seen": {
-      "Rossa Ryan": 1
+      "Callum Hutchinson": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 72,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Race class strength +4",
-      "Trainer bonus +3",
-      "Stable in form +2 (2/4 last 14 days)",
-      "Jockey bonus +3"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -77,22 +70,145 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Hapiness",
-        "horse_id": "hrs_64812972",
+        "horse": "Arklan",
+        "horse_id": "hrs_65938628",
         "age": 3,
-        "sex": "filly",
-        "trainer": "Ralph Beckett",
-        "trainer_id": "trn_125253",
-        "jockey": "Rossa Ryan",
-        "jockey_id": "jky_287232",
-        "draw": 9,
-        "number": 9,
-        "lbs": 124,
+        "sex": "gelding",
+        "trainer": "Eve Johnson Houghton",
+        "trainer_id": "trn_170280",
+        "jockey": "Callum Hutchinson",
+        "jockey_id": "jky_301080",
+        "draw": 2,
+        "number": 6,
+        "lbs": 129,
         "ofr": "-",
-        "last_run": 13,
-        "form": "23",
+        "last_run": null,
+        "form": "",
         "headgear": "",
-        "_stored_at": "2026-06-29T11:41:34.379940+00:00"
+        "_stored_at": "2026-06-29T11:41:34.315154+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Windsor",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 11.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 3",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Windsor",
+      "latest_distance_f": 11.5,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 3",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "Digger One",
+    "horse_id": "hrs_46265527",
+    "age": 5,
+    "sex": "gelding",
+    "latest_course": "Windsor",
+    "latest_time": "6:00",
+    "latest_race": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
+    "latest_date": "2026-06-29",
+    "latest_distance_f": 11.5,
+    "latest_class": "Class 3",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Keiran Burke",
+    "latest_jockey": "Josephine Gordon",
+    "latest_draw": 7,
+    "latest_weight_lbs": 142,
+    "official_rating": "-",
+    "recent_form": "9",
+    "last_run_days": 14,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Windsor": 1
+    },
+    "distances_seen": {
+      "11.5": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 3": 1
+    },
+    "trainers_seen": {
+      "Keiran Burke": 1
+    },
+    "jockeys_seen": {
+      "Josephine Gordon": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988080",
+        "course": "Windsor",
+        "date": "2026-06-29",
+        "off_time": "6:00",
+        "off_dt": "2026-06-29T18:00:00+01:00",
+        "race_name": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
+        "distance_f": 11.5,
+        "race_class": "Class 3",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 8,
+        "horse": "Digger One",
+        "horse_id": "hrs_46265527",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "Keiran Burke",
+        "trainer_id": "trn_232713",
+        "jockey": "Josephine Gordon",
+        "jockey_id": "jky_278403",
+        "draw": 7,
+        "number": 2,
+        "lbs": 142,
+        "ofr": "-",
+        "last_run": 14,
+        "form": "9",
+        "headgear": "",
+        "_stored_at": "2026-06-29T11:41:34.232794+00:00"
       }
     ],
     "profile_notes": [
@@ -119,15 +235,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 59,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -136,146 +252,15 @@
       "latest_distance_f": 11.5,
       "latest_going": "Good To Firm",
       "latest_class": "Class 3",
-      "latest_pulse_score": 72,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Tropbien",
-    "horse_id": "hrs_64102269",
-    "age": 3,
-    "sex": "colt",
-    "latest_course": "Windsor",
-    "latest_time": "6:00",
-    "latest_race": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
-    "latest_date": "2026-06-29",
-    "latest_distance_f": 11.5,
-    "latest_class": "Class 3",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "John & Thady Gosden",
-    "latest_jockey": "Oisin Murphy",
-    "latest_draw": 4,
-    "latest_weight_lbs": 129,
-    "official_rating": "-",
-    "recent_form": "94",
-    "last_run_days": 16,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Windsor": 1
-    },
-    "distances_seen": {
-      "11.5": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 3": 1
-    },
-    "trainers_seen": {
-      "John & Thady Gosden": 1
-    },
-    "jockeys_seen": {
-      "Oisin Murphy": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 66,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +4",
-      "Trainer bonus +4",
-      "Stable in form +2 (2/2 last 14 days)",
-      "Jockey bonus +3",
-      "Jockey in form +2 (2/8 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988080",
-        "course": "Windsor",
-        "date": "2026-06-29",
-        "off_time": "6:00",
-        "off_dt": "2026-06-29T18:00:00+01:00",
-        "race_name": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
-        "distance_f": 11.5,
-        "race_class": "Class 3",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Tropbien",
-        "horse_id": "hrs_64102269",
-        "age": 3,
-        "sex": "colt",
-        "trainer": "John & Thady Gosden",
-        "trainer_id": "trn_344619",
-        "jockey": "Oisin Murphy",
-        "jockey_id": "jky_278184",
-        "draw": 4,
-        "number": 8,
-        "lbs": 129,
-        "ofr": "-",
-        "last_run": 16,
-        "form": "94",
-        "headgear": "",
-        "_stored_at": "2026-06-29T11:41:34.359391+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Windsor",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 11.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 3",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 57,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Windsor",
-      "latest_distance_f": 11.5,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 3",
-      "latest_pulse_score": 66,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Tropbien",
-    "horse_id": "hrs_64102269",
+    "horse": "Far Far Out",
+    "horse_id": "hrs_56811433",
     "age": 3,
     "sex": "colt",
     "latest_course": "Windsor",
@@ -286,13 +271,13 @@
     "latest_class": "Class 3",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "John & Thady Gosden",
-    "latest_jockey": "Oisin Murphy",
-    "latest_draw": 4,
+    "latest_trainer": "Roger Varian",
+    "latest_jockey": "William Carson",
+    "latest_draw": 1,
     "latest_weight_lbs": 129,
     "official_rating": "-",
-    "recent_form": "94",
-    "last_run_days": 16,
+    "recent_form": "58",
+    "last_run_days": 56,
     "profile_runs": 1,
     "courses_seen": {
       "Windsor": 1
@@ -307,25 +292,15 @@
       "Class 3": 1
     },
     "trainers_seen": {
-      "John & Thady Gosden": 1
+      "Roger Varian": 1
     },
     "jockeys_seen": {
-      "Oisin Murphy": 1
+      "William Carson": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 66,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +4",
-      "Trainer bonus +4",
-      "Stable in form +2 (2/2 last 14 days)",
-      "Jockey bonus +3",
-      "Jockey in form +2 (2/8 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -341,25 +316,27 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Tropbien",
-        "horse_id": "hrs_64102269",
+        "horse": "Far Far Out",
+        "horse_id": "hrs_56811433",
         "age": 3,
         "sex": "colt",
-        "trainer": "John & Thady Gosden",
-        "trainer_id": "trn_344619",
-        "jockey": "Oisin Murphy",
-        "jockey_id": "jky_278184",
-        "draw": 4,
-        "number": 8,
+        "trainer": "Roger Varian",
+        "trainer_id": "trn_224010",
+        "jockey": "William Carson",
+        "jockey_id": "jky_254646",
+        "draw": 1,
+        "number": 7,
         "lbs": 129,
         "ofr": "-",
-        "last_run": 16,
-        "form": "94",
+        "last_run": 56,
+        "form": "58",
         "headgear": "",
-        "_stored_at": "2026-06-29T11:41:34.359391+00:00"
+        "_stored_at": "2026-06-29T11:41:34.337013+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Low draw today"
+    ],
     "favourite_course": {
       "value": "Windsor",
       "runs": 1
@@ -381,15 +358,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 57,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -398,274 +375,13 @@
       "latest_distance_f": 11.5,
       "latest_going": "Good To Firm",
       "latest_class": "Class 3",
-      "latest_pulse_score": 66,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Hapiness",
-      "horse_id": "hrs_64812972",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Windsor",
-      "latest_time": "6:00",
-      "latest_race": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 11.5,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ralph Beckett",
-      "latest_jockey": "Rossa Ryan",
-      "latest_draw": 9,
-      "latest_weight_lbs": 124,
-      "official_rating": "-",
-      "recent_form": "23",
-      "last_run_days": 13,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Windsor": 1
-      },
-      "distances_seen": {
-        "11.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "Ralph Beckett": 1
-      },
-      "jockeys_seen": {
-        "Rossa Ryan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 72,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Race class strength +4",
-        "Trainer bonus +3",
-        "Stable in form +2 (2/4 last 14 days)",
-        "Jockey bonus +3"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988080",
-          "course": "Windsor",
-          "date": "2026-06-29",
-          "off_time": "6:00",
-          "off_dt": "2026-06-29T18:00:00+01:00",
-          "race_name": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
-          "distance_f": 11.5,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Hapiness",
-          "horse_id": "hrs_64812972",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Ralph Beckett",
-          "trainer_id": "trn_125253",
-          "jockey": "Rossa Ryan",
-          "jockey_id": "jky_287232",
-          "draw": 9,
-          "number": 9,
-          "lbs": 124,
-          "ofr": "-",
-          "last_run": 13,
-          "form": "23",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:34.379940+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Windsor",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 11.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 59,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Windsor",
-        "latest_distance_f": 11.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 3",
-        "latest_pulse_score": 72,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Tropbien",
-      "horse_id": "hrs_64102269",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Windsor",
-      "latest_time": "6:00",
-      "latest_race": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 11.5,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "John & Thady Gosden",
-      "latest_jockey": "Oisin Murphy",
-      "latest_draw": 4,
-      "latest_weight_lbs": 129,
-      "official_rating": "-",
-      "recent_form": "94",
-      "last_run_days": 16,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Windsor": 1
-      },
-      "distances_seen": {
-        "11.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "John & Thady Gosden": 1
-      },
-      "jockeys_seen": {
-        "Oisin Murphy": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 66,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +4",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey bonus +3",
-        "Jockey in form +2 (2/8 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988080",
-          "course": "Windsor",
-          "date": "2026-06-29",
-          "off_time": "6:00",
-          "off_dt": "2026-06-29T18:00:00+01:00",
-          "race_name": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
-          "distance_f": 11.5,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Tropbien",
-          "horse_id": "hrs_64102269",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "John & Thady Gosden",
-          "trainer_id": "trn_344619",
-          "jockey": "Oisin Murphy",
-          "jockey_id": "jky_278184",
-          "draw": 4,
-          "number": 8,
-          "lbs": 129,
-          "ofr": "-",
-          "last_run": 16,
-          "form": "94",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:34.359391+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Windsor",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 11.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 57,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Windsor",
-        "latest_distance_f": 11.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 3",
-        "latest_pulse_score": 66,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Arklan",
       "horse_id": "hrs_65938628",
@@ -707,15 +423,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 59,
-      "latest_notes": [
-        "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +1",
-        "Stable flying +4 (4/5 last 14 days)",
-        "Jockey bonus +2",
-        "Jockey flying +4 (4/4 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -773,7 +482,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -781,6 +490,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -789,261 +499,7 @@
         "latest_distance_f": 11.5,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": 59,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Far Far Out",
-      "horse_id": "hrs_56811433",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Windsor",
-      "latest_time": "6:00",
-      "latest_race": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 11.5,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Roger Varian",
-      "latest_jockey": "William Carson",
-      "latest_draw": 1,
-      "latest_weight_lbs": 129,
-      "official_rating": "-",
-      "recent_form": "58",
-      "last_run_days": 56,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Windsor": 1
-      },
-      "distances_seen": {
-        "11.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "Roger Varian": 1
-      },
-      "jockeys_seen": {
-        "William Carson": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 56,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +3",
-        "Stable in form +2 (2/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988080",
-          "course": "Windsor",
-          "date": "2026-06-29",
-          "off_time": "6:00",
-          "off_dt": "2026-06-29T18:00:00+01:00",
-          "race_name": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
-          "distance_f": 11.5,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Far Far Out",
-          "horse_id": "hrs_56811433",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Roger Varian",
-          "trainer_id": "trn_224010",
-          "jockey": "William Carson",
-          "jockey_id": "jky_254646",
-          "draw": 1,
-          "number": 7,
-          "lbs": 129,
-          "ofr": "-",
-          "last_run": 56,
-          "form": "58",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:34.337013+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Windsor",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 11.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Windsor",
-        "latest_distance_f": 11.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 3",
-        "latest_pulse_score": 56,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Frank Stamper",
-      "horse_id": "hrs_47985707",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Windsor",
-      "latest_time": "6:00",
-      "latest_race": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 11.5,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Warren Greatrex",
-      "latest_jockey": "Marco Ghiani",
-      "latest_draw": 5,
-      "latest_weight_lbs": 142,
-      "official_rating": "72",
-      "recent_form": "5344-",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Windsor": 1
-      },
-      "distances_seen": {
-        "11.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "Warren Greatrex": 1
-      },
-      "jockeys_seen": {
-        "Marco Ghiani": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 56,
-      "latest_notes": [
-        "Positive recent form",
-        "Race class strength +4",
-        "Trainer concern -2",
-        "Jockey bonus +3"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988080",
-          "course": "Windsor",
-          "date": "2026-06-29",
-          "off_time": "6:00",
-          "off_dt": "2026-06-29T18:00:00+01:00",
-          "race_name": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
-          "distance_f": 11.5,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Frank Stamper",
-          "horse_id": "hrs_47985707",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Warren Greatrex",
-          "trainer_id": "trn_198099",
-          "jockey": "Marco Ghiani",
-          "jockey_id": "jky_294903",
-          "draw": 5,
-          "number": 3,
-          "lbs": 142,
-          "ofr": "72",
-          "last_run": null,
-          "form": "5344-",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:34.253018+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Windsor",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 11.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Windsor",
-        "latest_distance_f": 11.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 3",
-        "latest_pulse_score": 56,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1090,14 +546,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 53,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +4",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1155,7 +605,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 51,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1163,6 +613,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1171,7 +622,374 @@
         "latest_distance_f": 11.5,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": 53,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Far Far Out",
+      "horse_id": "hrs_56811433",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Windsor",
+      "latest_time": "6:00",
+      "latest_race": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 11.5,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Roger Varian",
+      "latest_jockey": "William Carson",
+      "latest_draw": 1,
+      "latest_weight_lbs": 129,
+      "official_rating": "-",
+      "recent_form": "58",
+      "last_run_days": 56,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Windsor": 1
+      },
+      "distances_seen": {
+        "11.5": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Roger Varian": 1
+      },
+      "jockeys_seen": {
+        "William Carson": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988080",
+          "course": "Windsor",
+          "date": "2026-06-29",
+          "off_time": "6:00",
+          "off_dt": "2026-06-29T18:00:00+01:00",
+          "race_name": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
+          "distance_f": 11.5,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Far Far Out",
+          "horse_id": "hrs_56811433",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Roger Varian",
+          "trainer_id": "trn_224010",
+          "jockey": "William Carson",
+          "jockey_id": "jky_254646",
+          "draw": 1,
+          "number": 7,
+          "lbs": 129,
+          "ofr": "-",
+          "last_run": 56,
+          "form": "58",
+          "headgear": "",
+          "_stored_at": "2026-06-29T11:41:34.337013+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Windsor",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 11.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Windsor",
+        "latest_distance_f": 11.5,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Frank Stamper",
+      "horse_id": "hrs_47985707",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Windsor",
+      "latest_time": "6:00",
+      "latest_race": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 11.5,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Warren Greatrex",
+      "latest_jockey": "Marco Ghiani",
+      "latest_draw": 5,
+      "latest_weight_lbs": 142,
+      "official_rating": "72",
+      "recent_form": "5344-",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Windsor": 1
+      },
+      "distances_seen": {
+        "11.5": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Warren Greatrex": 1
+      },
+      "jockeys_seen": {
+        "Marco Ghiani": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988080",
+          "course": "Windsor",
+          "date": "2026-06-29",
+          "off_time": "6:00",
+          "off_dt": "2026-06-29T18:00:00+01:00",
+          "race_name": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
+          "distance_f": 11.5,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Frank Stamper",
+          "horse_id": "hrs_47985707",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Warren Greatrex",
+          "trainer_id": "trn_198099",
+          "jockey": "Marco Ghiani",
+          "jockey_id": "jky_294903",
+          "draw": 5,
+          "number": 3,
+          "lbs": 142,
+          "ofr": "72",
+          "last_run": null,
+          "form": "5344-",
+          "headgear": "",
+          "_stored_at": "2026-06-29T11:41:34.253018+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Windsor",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 11.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Windsor",
+        "latest_distance_f": 11.5,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Hapiness",
+      "horse_id": "hrs_64812972",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Windsor",
+      "latest_time": "6:00",
+      "latest_race": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 11.5,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ralph Beckett",
+      "latest_jockey": "Rossa Ryan",
+      "latest_draw": 9,
+      "latest_weight_lbs": 124,
+      "official_rating": "-",
+      "recent_form": "23",
+      "last_run_days": 13,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Windsor": 1
+      },
+      "distances_seen": {
+        "11.5": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Ralph Beckett": 1
+      },
+      "jockeys_seen": {
+        "Rossa Ryan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988080",
+          "course": "Windsor",
+          "date": "2026-06-29",
+          "off_time": "6:00",
+          "off_dt": "2026-06-29T18:00:00+01:00",
+          "race_name": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
+          "distance_f": 11.5,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Hapiness",
+          "horse_id": "hrs_64812972",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Ralph Beckett",
+          "trainer_id": "trn_125253",
+          "jockey": "Rossa Ryan",
+          "jockey_id": "jky_287232",
+          "draw": 9,
+          "number": 9,
+          "lbs": 124,
+          "ofr": "-",
+          "last_run": 13,
+          "form": "23",
+          "headgear": "",
+          "_stored_at": "2026-06-29T11:41:34.379940+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Windsor",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 11.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Windsor",
+        "latest_distance_f": 11.5,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1218,14 +1036,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +4",
-        "Jockey in form +2 (1/6 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1283,7 +1095,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 50,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1291,6 +1103,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1299,7 +1112,7 @@
         "latest_distance_f": 11.5,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": 50,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1346,16 +1159,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 20,
-      "latest_notes": [
-        "Strong recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Non-runner risk",
-        "Race class strength +4",
-        "Trainer bonus +3",
-        "Jockey bonus +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1413,7 +1218,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 36,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1430,7 +1235,128 @@
         "latest_distance_f": 11.5,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": 20,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Tropbien",
+      "horse_id": "hrs_64102269",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Windsor",
+      "latest_time": "6:00",
+      "latest_race": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 11.5,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "John & Thady Gosden",
+      "latest_jockey": "Oisin Murphy",
+      "latest_draw": 4,
+      "latest_weight_lbs": 129,
+      "official_rating": "-",
+      "recent_form": "94",
+      "last_run_days": 16,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Windsor": 1
+      },
+      "distances_seen": {
+        "11.5": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "John & Thady Gosden": 1
+      },
+      "jockeys_seen": {
+        "Oisin Murphy": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988080",
+          "course": "Windsor",
+          "date": "2026-06-29",
+          "off_time": "6:00",
+          "off_dt": "2026-06-29T18:00:00+01:00",
+          "race_name": "Ronald Fletcher Baker Novice Stakes (GBB/GBBPlus Race)",
+          "distance_f": 11.5,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Tropbien",
+          "horse_id": "hrs_64102269",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "John & Thady Gosden",
+          "trainer_id": "trn_344619",
+          "jockey": "Oisin Murphy",
+          "jockey_id": "jky_278184",
+          "draw": 4,
+          "number": 8,
+          "lbs": 129,
+          "ofr": "-",
+          "last_run": 16,
+          "form": "94",
+          "headgear": "",
+          "_stored_at": "2026-06-29T11:41:34.359391+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Windsor",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 11.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Windsor",
+        "latest_distance_f": 11.5,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1438,8 +1364,9 @@
     }
   ],
   "notes": [
-    "Hapiness is the top-rated Pulse IQ runner.",
+    "Arklan is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Tropbien is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Far Far Out is flagged as a possible dark horse."
   ]
 }

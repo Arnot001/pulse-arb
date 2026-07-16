@@ -5,11 +5,11 @@
   "time": "6:30",
   "race_name": "Irish Stallion Farms EBF (C & G) Maiden",
   "field_size": 10,
-  "average_intelligence": 45.2,
-  "top_score": 54,
-  "second_score": 53,
-  "gap": 1,
-  "confidence_score": 43,
+  "average_intelligence": 45.4,
+  "top_score": 56,
+  "second_score": 52,
+  "gap": 4,
+  "confidence_score": 49,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -23,7 +23,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "G M Lyons",
     "latest_jockey": "Colin Keane",
@@ -39,7 +39,9 @@
     "distances_seen": {
       "8.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "G M Lyons": 1
@@ -49,14 +51,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 74,
+    "latest_pulse_score": 72,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
-      "Stable flying +4 (8/10 last 14 days)",
-      "Jockey flying +4 (22/35 last 14 days)"
+      "Trainer bonus +3",
+      "Jockey bonus +3"
     ],
     "runs": [
       {
@@ -70,9 +72,9 @@
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
-        "field_size": 10,
+        "field_size": 9,
         "horse": "Elusive Path",
         "horse_id": "hrs_65414412",
         "age": 3,
@@ -101,30 +103,33 @@
       "value": 8.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 54,
+    "suitability_score": 80,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 8.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 74,
+      "latest_pulse_score": 72,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -141,7 +146,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "D K Weld",
     "latest_jockey": "Chris Hayes",
@@ -157,7 +162,9 @@
     "distances_seen": {
       "8.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "D K Weld": 1
@@ -167,14 +174,12 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 72,
+    "latest_pulse_score": 63,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Jockey flying +4 (3/6 last 14 days)",
-      "Historical winner +3",
-      "Previous course winner +4"
+      "Jockey bonus +2"
     ],
     "runs": [
       {
@@ -188,9 +193,9 @@
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
-        "field_size": 10,
+        "field_size": 9,
         "horse": "Kalir",
         "horse_id": "hrs_55545658",
         "age": 3,
@@ -217,54 +222,56 @@
       "value": 8.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 53,
+    "suitability_score": 80,
+    "horse_intelligence_score": 52,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Positive latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 8.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 72,
+      "latest_pulse_score": 63,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Transcript",
-    "horse_id": "hrs_65974440",
+    "horse": "Cello Sonata",
+    "horse_id": "hrs_57439137",
     "age": 3,
-    "sex": "gelding",
+    "sex": "colt",
     "latest_course": "Killarney",
     "latest_time": "6:30",
     "latest_race": "Irish Stallion Farms EBF (C & G) Maiden",
     "latest_date": "2026-07-15",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Donnacha Aidan O'Brien",
-    "latest_jockey": "Paddy Harnett(5)",
-    "latest_draw": 2,
+    "latest_trainer": "M D O'Callaghan",
+    "latest_jockey": "Dylan Browne McMonagle",
+    "latest_draw": 5,
     "latest_weight_lbs": 134,
     "official_rating": "-",
-    "recent_form": "2",
+    "recent_form": "5",
     "last_run_days": 21,
     "profile_runs": 1,
     "courses_seen": {
@@ -273,24 +280,25 @@
     "distances_seen": {
       "8.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
-      "Donnacha Aidan O'Brien": 1
+      "M D O'Callaghan": 1
     },
     "jockeys_seen": {
-      "Paddy Harnett(5)": 1
+      "Dylan Browne McMonagle": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 69,
+    "latest_pulse_score": 55,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Helpful draw",
-      "Stable flying +4 (3/9 last 14 days)",
-      "Jockey flying +4 (6/6 last 14 days)"
+      "Trainer bonus +1",
+      "Jockey bonus +2"
     ],
     "runs": [
       {
@@ -304,29 +312,27 @@
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
-        "field_size": 10,
-        "horse": "Transcript",
-        "horse_id": "hrs_65974440",
+        "field_size": 9,
+        "horse": "Cello Sonata",
+        "horse_id": "hrs_57439137",
         "age": 3,
-        "sex": "gelding",
-        "trainer": "Donnacha Aidan O'Brien",
-        "trainer_id": "trn_331254",
-        "jockey": "Paddy Harnett(5)",
-        "jockey_id": "jky_296208",
-        "draw": 2,
-        "number": 9,
+        "sex": "colt",
+        "trainer": "M D O'Callaghan",
+        "trainer_id": "trn_240543",
+        "jockey": "Dylan Browne McMonagle",
+        "jockey_id": "jky_299181",
+        "draw": 5,
+        "number": 1,
         "lbs": 134,
         "ofr": "-",
         "last_run": 21,
-        "form": "2",
-        "headgear": "t"
+        "form": "5",
+        "headgear": ""
       }
     ],
-    "profile_notes": [
-      "Low draw today"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Killarney",
       "runs": 1
@@ -335,30 +341,32 @@
       "value": 8.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 52,
+    "suitability_score": 80,
+    "horse_intelligence_score": 49,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Positive latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 8.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 69,
+      "latest_pulse_score": 55,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -376,7 +384,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "G M Lyons",
       "latest_jockey": "Colin Keane",
@@ -392,7 +400,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "G M Lyons": 1
@@ -402,14 +412,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 74,
+      "latest_pulse_score": 72,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
-        "Stable flying +4 (8/10 last 14 days)",
-        "Jockey flying +4 (22/35 last 14 days)"
+        "Trainer bonus +3",
+        "Jockey bonus +3"
       ],
       "runs": [
         {
@@ -423,9 +433,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Elusive Path",
           "horse_id": "hrs_65414412",
           "age": 3,
@@ -454,30 +464,33 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 54,
+      "suitability_score": 80,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 74,
+        "latest_pulse_score": 72,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -494,7 +507,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "D K Weld",
       "latest_jockey": "Chris Hayes",
@@ -510,7 +523,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "D K Weld": 1
@@ -520,14 +535,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 72,
+      "latest_pulse_score": 63,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Jockey flying +4 (3/6 last 14 days)",
-        "Historical winner +3",
-        "Previous course winner +4"
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -541,9 +554,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Kalir",
           "horse_id": "hrs_55545658",
           "age": 3,
@@ -570,148 +583,32 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Killarney",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 72,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Transcript",
-      "horse_id": "hrs_65974440",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Killarney",
-      "latest_time": "6:30",
-      "latest_race": "Irish Stallion Farms EBF (C & G) Maiden",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Donnacha Aidan O'Brien",
-      "latest_jockey": "Paddy Harnett(5)",
-      "latest_draw": 2,
-      "latest_weight_lbs": 134,
-      "official_rating": "-",
-      "recent_form": "2",
-      "last_run_days": 21,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Killarney": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "Donnacha Aidan O'Brien": 1
-      },
-      "jockeys_seen": {
-        "Paddy Harnett(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 69,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Stable flying +4 (3/9 last 14 days)",
-        "Jockey flying +4 (6/6 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000936",
-          "course": "Killarney",
-          "date": "2026-07-15",
-          "off_time": "6:30",
-          "off_dt": "2026-07-15T18:30:00+01:00",
-          "race_name": "Irish Stallion Farms EBF (C & G) Maiden",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Transcript",
-          "horse_id": "hrs_65974440",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Donnacha Aidan O'Brien",
-          "trainer_id": "trn_331254",
-          "jockey": "Paddy Harnett(5)",
-          "jockey_id": "jky_296208",
-          "draw": 2,
-          "number": 9,
-          "lbs": 134,
-          "ofr": "-",
-          "last_run": 21,
-          "form": "2",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Killarney",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
+      "suitability_score": 80,
       "horse_intelligence_score": 52,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Positive latest Pulse Score"
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 69,
+        "latest_pulse_score": 63,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -728,7 +625,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "M D O'Callaghan",
       "latest_jockey": "Dylan Browne McMonagle",
@@ -744,7 +641,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "M D O'Callaghan": 1
@@ -754,14 +653,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 60,
+      "latest_pulse_score": 55,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey flying +4 (6/17 last 14 days)"
+        "Trainer bonus +1",
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -775,9 +673,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Cello Sonata",
           "horse_id": "hrs_57439137",
           "age": 3,
@@ -804,29 +702,32 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 48,
+      "suitability_score": 80,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 60,
+        "latest_pulse_score": 55,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -843,7 +744,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Gavin Cromwell",
       "latest_jockey": "Gary Carroll",
@@ -859,7 +760,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Gavin Cromwell": 1
@@ -869,12 +772,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 51,
+      "latest_pulse_score": 49,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Jockey flying +4 (6/22 last 14 days)"
+        "Trainer bonus +1",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
@@ -888,9 +792,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Pinoroyale",
           "horse_id": "hrs_65254721",
           "age": 3,
@@ -917,29 +821,32 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 44,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 51,
+        "latest_pulse_score": 49,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -956,7 +863,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Liam P Cusack",
       "latest_jockey": "Luke McAteer",
@@ -972,7 +879,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Liam P Cusack": 1
@@ -982,12 +891,11 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 51,
+      "latest_pulse_score": 47,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey flying +4 (6/15 last 14 days)"
+        "Ideal layoff profile +2"
       ],
       "runs": [
         {
@@ -1001,9 +909,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Winston's Promise",
           "horse_id": "hrs_64847489",
           "age": 3,
@@ -1030,140 +938,32 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 44,
+      "suitability_score": 80,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 51,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Holy Lettuce",
-      "horse_id": "hrs_7000000441",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Killarney",
-      "latest_time": "6:30",
-      "latest_race": "Irish Stallion Farms EBF (C & G) Maiden",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "K J Condon",
-      "latest_jockey": "W J Lee",
-      "latest_draw": 4,
-      "latest_weight_lbs": 134,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Killarney": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "K J Condon": 1
-      },
-      "jockeys_seen": {
-        "W J Lee": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Helpful draw",
-        "Jockey in form +2 (6/25 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000936",
-          "course": "Killarney",
-          "date": "2026-07-15",
-          "off_time": "6:30",
-          "off_dt": "2026-07-15T18:30:00+01:00",
-          "race_name": "Irish Stallion Farms EBF (C & G) Maiden",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Holy Lettuce",
-          "horse_id": "hrs_7000000441",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "K J Condon",
-          "trainer_id": "trn_137160",
-          "jockey": "W J Lee",
-          "jockey_id": "jky_244275",
-          "draw": 4,
-          "number": 3,
-          "lbs": 134,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Killarney",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 41,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Killarney",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": 47,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1180,7 +980,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Eoin Griffin",
       "latest_jockey": "Declan McDonogh",
@@ -1196,7 +996,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Eoin Griffin": 1
@@ -1206,11 +1008,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
+      "latest_pulse_score": 45,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2"
+        "Ideal layoff profile +2",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
@@ -1224,9 +1027,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Omissions",
           "horse_id": "hrs_57718045",
           "age": 3,
@@ -1253,29 +1056,148 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 41,
+      "suitability_score": 80,
+      "horse_intelligence_score": 44,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": 45,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Holy Lettuce",
+      "horse_id": "hrs_7000000441",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Killarney",
+      "latest_time": "6:30",
+      "latest_race": "Irish Stallion Farms EBF (C & G) Maiden",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "K J Condon",
+      "latest_jockey": "W J Lee",
+      "latest_draw": 4,
+      "latest_weight_lbs": 134,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Killarney": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "K J Condon": 1
+      },
+      "jockeys_seen": {
+        "W J Lee": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 43,
+      "latest_notes": [
+        "Helpful draw",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000936",
+          "course": "Killarney",
+          "date": "2026-07-15",
+          "off_time": "6:30",
+          "off_dt": "2026-07-15T18:30:00+01:00",
+          "race_name": "Irish Stallion Farms EBF (C & G) Maiden",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Holy Lettuce",
+          "horse_id": "hrs_7000000441",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "K J Condon",
+          "trainer_id": "trn_137160",
+          "jockey": "W J Lee",
+          "jockey_id": "jky_244275",
+          "draw": 4,
+          "number": 3,
+          "lbs": 134,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Killarney",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Killarney",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 43,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1292,7 +1214,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "E McNamara",
       "latest_jockey": "Shane Foley",
@@ -1308,7 +1230,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "E McNamara": 1
@@ -1318,9 +1242,9 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
+      "latest_pulse_score": 42,
       "latest_notes": [
-        "Jockey flying +4 (3/9 last 14 days)"
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -1334,9 +1258,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Private Peaceful",
           "horse_id": "hrs_66655281",
           "age": 3,
@@ -1363,29 +1287,156 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 41,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": 42,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Transcript",
+      "horse_id": "hrs_65974440",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Killarney",
+      "latest_time": "6:30",
+      "latest_race": "Irish Stallion Farms EBF (C & G) Maiden",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Donnacha Aidan O'Brien",
+      "latest_jockey": "Paddy Harnett(5)",
+      "latest_draw": 2,
+      "latest_weight_lbs": 134,
+      "official_rating": "-",
+      "recent_form": "2",
+      "last_run_days": 21,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Killarney": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Donnacha Aidan O'Brien": 1
+      },
+      "jockeys_seen": {
+        "Paddy Harnett(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 34,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Non-runner risk",
+        "Trainer bonus +2",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000936",
+          "course": "Killarney",
+          "date": "2026-07-15",
+          "off_time": "6:30",
+          "off_dt": "2026-07-15T18:30:00+01:00",
+          "race_name": "Irish Stallion Farms EBF (C & G) Maiden",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Transcript",
+          "horse_id": "hrs_65974440",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Donnacha Aidan O'Brien",
+          "trainer_id": "trn_331254",
+          "jockey": "Paddy Harnett(5)",
+          "jockey_id": "jky_296208",
+          "draw": 2,
+          "number": null,
+          "lbs": 134,
+          "ofr": "-",
+          "last_run": 21,
+          "form": "2",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Killarney",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 39,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Killarney",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 34,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1402,7 +1453,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "David Marnane",
       "latest_jockey": "Nathan Crosse",
@@ -1418,7 +1469,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "David Marnane": 1
@@ -1428,12 +1481,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 30,
+      "latest_pulse_score": 28,
       "latest_notes": [
         "Positive recent form",
         "Questionable run timing",
         "Very long absence concern -7",
-        "Helpful draw"
+        "Helpful draw",
+        "Jockey concern -2"
       ],
       "runs": [
         {
@@ -1447,9 +1501,9 @@
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Strikewhileitshot",
           "horse_id": "hrs_54998090",
           "age": 3,
@@ -1479,20 +1533,23 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 34,
+      "suitability_score": 80,
+      "horse_intelligence_score": 37,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -1500,9 +1557,9 @@
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 30,
+        "latest_pulse_score": 28,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1512,6 +1569,6 @@
   "notes": [
     "Elusive Path is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Transcript is flagged as a possible dark horse."
+    "Cello Sonata is flagged as a possible dark horse."
   ]
 }

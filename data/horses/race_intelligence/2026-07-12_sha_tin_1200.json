@@ -4,8 +4,8 @@
   "course": "Sha Tin",
   "time": "12:00",
   "race_name": "Solar Hei Hei Handicap",
-  "field_size": 10,
-  "average_intelligence": 24.0,
+  "field_size": 14,
+  "average_intelligence": 23.07,
   "top_score": 24,
   "second_score": 24,
   "gap": 0,
@@ -124,35 +124,123 @@
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-12",
-      "course": "Sha Tin",
-      "race_time": "11:00",
-      "race_name": "Solar Hei Hei Handicap",
-      "race_id": "rac_13000001833",
-      "status": null,
-      "finish_position": 3,
-      "sp": "",
-      "favourite_position": null,
-      "going": "Good to Firm",
-      "distance": "1m",
-      "field_size": "16",
-      "trainer": "F C Lor",
-      "jockey": "Andrea Atzeni",
-      "distance_beaten": null,
-      "won": false,
-      "placed": true,
-      "attached_at": "2026-07-15T19:52:09"
-    },
-    "latest_result_position": 3,
-    "latest_result_sp": "",
-    "latest_result_won": false,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-12"
+    }
   },
   "main_threat": {
+    "horse": "Amo Ergo Sum",
+    "horse_id": "hrs_7000001568",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Sha Tin",
+    "latest_time": "12:00",
+    "latest_race": "Solar Hei Hei Handicap",
+    "latest_date": "2026-07-12",
+    "latest_distance_f": 8.0,
+    "latest_class": "",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Brett Crawford",
+    "latest_jockey": "Karis Teetan",
+    "latest_draw": 7,
+    "latest_weight_lbs": 119,
+    "official_rating": "44",
+    "recent_form": "0-8906",
+    "last_run_days": 29,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Sha Tin": 1
+    },
+    "distances_seen": {
+      "8.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Brett Crawford": 1
+    },
+    "jockeys_seen": {
+      "Karis Teetan": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000001833",
+        "course": "Sha Tin",
+        "date": "2026-07-12",
+        "off_time": "12:00",
+        "off_dt": "2026-07-12T12:00:00+01:00",
+        "race_name": "Solar Hei Hei Handicap",
+        "distance_f": 8.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 16,
+        "horse": "Amo Ergo Sum",
+        "horse_id": "hrs_7000001568",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Brett Crawford",
+        "trainer_id": "trn_236142",
+        "jockey": "Karis Teetan",
+        "jockey_id": "jky_265902",
+        "draw": 7,
+        "number": 13,
+        "lbs": 119,
+        "ofr": "44",
+        "last_run": 29,
+        "form": "0-8906",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Sha Tin",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 8.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Sha Tin",
+      "latest_distance_f": 8.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
     "horse": "Automated",
     "horse_id": "hrs_7000001337",
     "age": 4,
@@ -222,146 +310,6 @@
         "ofr": "48",
         "last_run": 29,
         "form": "079085",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Sha Tin",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 8.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 24,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Sha Tin",
-      "latest_distance_f": 8.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-12",
-      "course": "Sha Tin",
-      "race_time": "11:00",
-      "race_name": "Solar Hei Hei Handicap",
-      "race_id": "rac_13000001833",
-      "status": null,
-      "finish_position": 2,
-      "sp": "",
-      "favourite_position": null,
-      "going": "Good to Firm",
-      "distance": "1m",
-      "field_size": "16",
-      "trainer": "W Y So",
-      "jockey": "Richard Kingscote",
-      "distance_beaten": null,
-      "won": false,
-      "placed": true,
-      "attached_at": "2026-07-15T19:52:09"
-    },
-    "latest_result_position": 2,
-    "latest_result_sp": "",
-    "latest_result_won": false,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-12"
-  },
-  "dark_horse": {
-    "horse": "Family Knight",
-    "horse_id": "hrs_45475654",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Sha Tin",
-    "latest_time": "12:00",
-    "latest_race": "Solar Hei Hei Handicap",
-    "latest_date": "2026-07-12",
-    "latest_distance_f": 8.0,
-    "latest_class": "",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Douglas Whyte",
-    "latest_jockey": "Brenton Avdulla",
-    "latest_draw": 8,
-    "latest_weight_lbs": 123,
-    "official_rating": "48",
-    "recent_form": "785404",
-    "last_run_days": 21,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Sha Tin": 1
-    },
-    "distances_seen": {
-      "8.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Douglas Whyte": 1
-    },
-    "jockeys_seen": {
-      "Brenton Avdulla": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000001833",
-        "course": "Sha Tin",
-        "date": "2026-07-12",
-        "off_time": "12:00",
-        "off_dt": "2026-07-12T12:00:00+01:00",
-        "race_name": "Solar Hei Hei Handicap",
-        "distance_f": 8.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 16,
-        "horse": "Family Knight",
-        "horse_id": "hrs_45475654",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Douglas Whyte",
-        "trainer_id": "trn_327177",
-        "jockey": "Brenton Avdulla",
-        "jockey_id": "jky_266817",
-        "draw": 8,
-        "number": 7,
-        "lbs": 123,
-        "ofr": "48",
-        "last_run": 21,
-        "form": "785404",
         "headgear": ""
       }
     ],
@@ -519,33 +467,121 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Amo Ergo Sum",
+      "horse_id": "hrs_7000001568",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "12:00",
+      "latest_race": "Solar Hei Hei Handicap",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Brett Crawford",
+      "latest_jockey": "Karis Teetan",
+      "latest_draw": 7,
+      "latest_weight_lbs": 119,
+      "official_rating": "44",
+      "recent_form": "0-8906",
+      "last_run_days": 29,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
       },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-12",
-        "course": "Sha Tin",
-        "race_time": "11:00",
-        "race_name": "Solar Hei Hei Handicap",
-        "race_id": "rac_13000001833",
-        "status": null,
-        "finish_position": 3,
-        "sp": "",
-        "favourite_position": null,
-        "going": "Good to Firm",
-        "distance": "1m",
-        "field_size": "16",
-        "trainer": "F C Lor",
-        "jockey": "Andrea Atzeni",
-        "distance_beaten": null,
-        "won": false,
-        "placed": true,
-        "attached_at": "2026-07-15T19:52:09"
+      "distances_seen": {
+        "8.0": 1
       },
-      "latest_result_position": 3,
-      "latest_result_sp": "",
-      "latest_result_won": false,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-12"
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Brett Crawford": 1
+      },
+      "jockeys_seen": {
+        "Karis Teetan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001833",
+          "course": "Sha Tin",
+          "date": "2026-07-12",
+          "off_time": "12:00",
+          "off_dt": "2026-07-12T12:00:00+01:00",
+          "race_name": "Solar Hei Hei Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Amo Ergo Sum",
+          "horse_id": "hrs_7000001568",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Brett Crawford",
+          "trainer_id": "trn_236142",
+          "jockey": "Karis Teetan",
+          "jockey_id": "jky_265902",
+          "draw": 7,
+          "number": 13,
+          "lbs": 119,
+          "ofr": "44",
+          "last_run": 29,
+          "form": "0-8906",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
     },
     {
       "horse": "Automated",
@@ -659,33 +695,7 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-12",
-        "course": "Sha Tin",
-        "race_time": "11:00",
-        "race_name": "Solar Hei Hei Handicap",
-        "race_id": "rac_13000001833",
-        "status": null,
-        "finish_position": 2,
-        "sp": "",
-        "favourite_position": null,
-        "going": "Good to Firm",
-        "distance": "1m",
-        "field_size": "16",
-        "trainer": "W Y So",
-        "jockey": "Richard Kingscote",
-        "distance_beaten": null,
-        "won": false,
-        "placed": true,
-        "attached_at": "2026-07-15T19:52:09"
-      },
-      "latest_result_position": 2,
-      "latest_result_sp": "",
-      "latest_result_won": false,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-12"
+      }
     },
     {
       "horse": "Family Knight",
@@ -1141,33 +1151,7 @@
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-12",
-        "course": "Sha Tin",
-        "race_time": "11:00",
-        "race_name": "Solar Hei Hei Handicap",
-        "race_id": "rac_13000001833",
-        "status": null,
-        "finish_position": 1,
-        "sp": "",
-        "favourite_position": null,
-        "going": "Good to Firm",
-        "distance": "1m",
-        "field_size": "16",
-        "trainer": "C S Shum",
-        "jockey": "Zac Purton",
-        "distance_beaten": null,
-        "won": true,
-        "placed": true,
-        "attached_at": "2026-07-15T19:52:09"
-      },
-      "latest_result_position": 1,
-      "latest_result_sp": "",
-      "latest_result_won": true,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-12"
+      }
     },
     {
       "horse": "Pearl Of Pang's",
@@ -1359,6 +1343,122 @@
         }
       ],
       "profile_notes": [],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Smart Fat Cat",
+      "horse_id": "hrs_7000001449",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "12:00",
+      "latest_race": "Solar Hei Hei Handicap",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "W K Mo",
+      "latest_jockey": "Alexis Badel",
+      "latest_draw": 4,
+      "latest_weight_lbs": 121,
+      "official_rating": "46",
+      "recent_form": "595224",
+      "last_run_days": 8,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "W K Mo": 1
+      },
+      "jockeys_seen": {
+        "Alexis Badel": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001833",
+          "course": "Sha Tin",
+          "date": "2026-07-12",
+          "off_time": "12:00",
+          "off_dt": "2026-07-12T12:00:00+01:00",
+          "race_name": "Solar Hei Hei Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Smart Fat Cat",
+          "horse_id": "hrs_7000001449",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "W K Mo",
+          "trainer_id": "trn_366579",
+          "jockey": "Alexis Badel",
+          "jockey_id": "jky_256623",
+          "draw": 4,
+          "number": 10,
+          "lbs": 121,
+          "ofr": "46",
+          "last_run": 8,
+          "form": "595224",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
       "favourite_course": {
         "value": "Sha Tin",
         "runs": 1
@@ -1626,12 +1726,311 @@
         "profile_runs": 1,
         "runs_count": 1
       }
+    },
+    {
+      "horse": "Ariel",
+      "horse_id": "hrs_22739801",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "12:00",
+      "latest_race": "Solar Hei Hei Handicap",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "David A Hayes",
+      "latest_jockey": "M L Yeung",
+      "latest_draw": 1,
+      "latest_weight_lbs": 119,
+      "official_rating": "44",
+      "recent_form": "097308",
+      "last_run_days": 11,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 2
+      },
+      "distances_seen": {
+        "7.0": 1,
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good": 1,
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "David A Hayes": 2
+      },
+      "jockeys_seen": {
+        "Richard Kingscote": 1,
+        "M L Yeung": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009270",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "10:00",
+          "off_dt": "2026-07-01T10:00:00+01:00",
+          "race_name": "The Friends Of Hong Kong Association Cup (Handicap) (Class 4) (Course C) (Turf)",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Ariel",
+          "horse_id": "hrs_22739801",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "David A Hayes",
+          "trainer_id": "trn_31950",
+          "jockey": "Richard Kingscote",
+          "jockey_id": "jky_250662",
+          "draw": 11,
+          "number": 10,
+          "lbs": 122,
+          "ofr": "46",
+          "last_run": 24,
+          "form": "009730",
+          "headgear": "tb",
+          "_stored_at": "2026-07-01T13:17:53.549234+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001833",
+          "course": "Sha Tin",
+          "date": "2026-07-12",
+          "off_time": "12:00",
+          "off_dt": "2026-07-12T12:00:00+01:00",
+          "race_name": "Solar Hei Hei Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Ariel",
+          "horse_id": "hrs_22739801",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "David A Hayes",
+          "trainer_id": "trn_31950",
+          "jockey": "M L Yeung",
+          "jockey_id": "jky_264900",
+          "draw": 1,
+          "number": 14,
+          "lbs": 119,
+          "ofr": "44",
+          "last_run": 11,
+          "form": "097308",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 55,
+      "class_suitability_score": 50,
+      "suitability_score": 62,
+      "horse_intelligence_score": 19,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Distance not yet a clear profile strength",
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Mighty Steed",
+      "horse_id": "hrs_42944349",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Sha Tin",
+      "latest_time": "12:00",
+      "latest_race": "Solar Hei Hei Handicap",
+      "latest_date": "2026-07-12",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "K W Lui",
+      "latest_jockey": "Lyle Hewitson",
+      "latest_draw": 3,
+      "latest_weight_lbs": 135,
+      "official_rating": "60",
+      "recent_form": "752202",
+      "last_run_days": 18,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Happy Valley": 1,
+        "Sha Tin": 1
+      },
+      "distances_seen": {
+        "8.5": 1,
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Yielding": 1,
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "K W Lui": 2
+      },
+      "jockeys_seen": {
+        "Lyle Hewitson": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12017577",
+          "course": "Happy Valley",
+          "date": "2026-07-08",
+          "off_time": "1:10",
+          "off_dt": "2026-07-08T13:10:00+01:00",
+          "race_name": "Eight To Glory, Presented By Lenovo Handicap (Class 4) (Course B) (Turf)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Yielding",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Mighty Steed",
+          "horse_id": "hrs_42944349",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "K W Lui",
+          "trainer_id": "trn_114858",
+          "jockey": "",
+          "jockey_id": "",
+          "draw": 9,
+          "number": 9,
+          "lbs": 135,
+          "ofr": "60",
+          "last_run": 14,
+          "form": "752202",
+          "headgear": "p"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000001833",
+          "course": "Sha Tin",
+          "date": "2026-07-12",
+          "off_time": "12:00",
+          "off_dt": "2026-07-12T12:00:00+01:00",
+          "race_name": "Solar Hei Hei Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Mighty Steed",
+          "horse_id": "hrs_42944349",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "K W Lui",
+          "trainer_id": "trn_114858",
+          "jockey": "Lyle Hewitson",
+          "jockey_id": "jky_286149",
+          "draw": 3,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "60",
+          "last_run": 18,
+          "form": "752202",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Happy Valley",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Yielding",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 55,
+      "class_suitability_score": 50,
+      "suitability_score": 54,
+      "horse_intelligence_score": 16,
+      "profile_strengths": [],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Sha Tin",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
     }
   ],
   "notes": [
     "Absolute Honour is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Family Knight is flagged as a possible dark horse."
+    "Automated is flagged as a possible dark horse."
   ]
 }

@@ -5,12 +5,12 @@
   "time": "4:30",
   "race_name": "Pontefract Ladies Day Wednesday 5th August Handicap",
   "field_size": 1,
-  "average_intelligence": 54.0,
-  "top_score": 54,
+  "average_intelligence": 27.0,
+  "top_score": 27,
   "second_score": 0,
-  "gap": 54,
-  "confidence_score": 100,
-  "confidence": "HIGH",
+  "gap": 27,
+  "confidence_score": 62,
+  "confidence": "MEDIUM",
   "race_shape": "CLEAR STANDOUT",
   "top_runner": {
     "horse": "Soca Star",
@@ -53,12 +53,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 61,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -114,7 +110,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 54,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -122,6 +118,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -130,7 +127,7 @@
       "latest_distance_f": 5.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 61,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -180,12 +177,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 61,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -241,7 +234,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -249,6 +242,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -257,7 +251,7 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 61,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -266,6 +260,7 @@
   ],
   "notes": [
     "Soca Star is the top-rated Pulse IQ runner.",
-    "The top runner has a clear intelligence gap over the field."
+    "The top runner has a clear intelligence gap over the field.",
+    "This race has a generally weak profile strength."
   ]
 }

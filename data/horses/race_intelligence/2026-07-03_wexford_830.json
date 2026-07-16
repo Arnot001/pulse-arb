@@ -5,16 +5,16 @@
   "time": "8:30",
   "race_name": "Racing Again 22nd July Flat Race",
   "field_size": 15,
-  "average_intelligence": 47.4,
-  "top_score": 58,
-  "second_score": 53,
-  "gap": 5,
-  "confidence_score": 52,
+  "average_intelligence": 24.0,
+  "top_score": 24,
+  "second_score": 24,
+  "gap": 0,
+  "confidence_score": 19,
   "confidence": "LOW",
-  "race_shape": "COMPETITIVE EDGE",
+  "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Highlander Addict",
-    "horse_id": "hrs_55241690",
+    "horse": "Ballybollen",
+    "horse_id": "hrs_66399354",
     "age": 5,
     "sex": "gelding",
     "latest_course": "Wexford",
@@ -25,13 +25,13 @@
     "latest_class": "",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Patrick J Flynn",
-    "latest_jockey": "Mr D Doyle(7)",
+    "latest_trainer": "Henry De Bromhead",
+    "latest_jockey": "Mr J L Gleeson",
     "latest_draw": 0,
     "latest_weight_lbs": 168,
     "official_rating": "-",
-    "recent_form": "727-3",
-    "last_run_days": 35,
+    "recent_form": "",
+    "last_run_days": null,
     "profile_runs": 1,
     "courses_seen": {
       "Wexford": 1
@@ -44,26 +44,15 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "Patrick J Flynn": 1
+      "Henry De Bromhead": 1
     },
     "jockeys_seen": {
-      "Mr D Doyle(7)": 1
+      "Mr J L Gleeson": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 76,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Stable in form +2 (2/2 last 14 days)",
-      "Jockey bonus +1",
-      "Jockey in form +2 (2/3 last 14 days)",
-      "Historical winner +3",
-      "Previous course winner +4",
-      "Going specialist +4 (2/2 on going)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -79,22 +68,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 14,
-        "horse": "Highlander Addict",
-        "horse_id": "hrs_55241690",
+        "horse": "Ballybollen",
+        "horse_id": "hrs_66399354",
         "age": 5,
         "sex": "gelding",
-        "trainer": "Patrick J Flynn",
-        "trainer_id": "trn_37566",
-        "jockey": "Mr D Doyle(7)",
-        "jockey_id": "jky_304854",
+        "trainer": "Henry De Bromhead",
+        "trainer_id": "trn_11241",
+        "jockey": "Mr J L Gleeson",
+        "jockey_id": "jky_301617",
         "draw": 0,
-        "number": 3,
+        "number": 15,
         "lbs": 168,
         "ofr": "-",
-        "last_run": 35,
-        "form": "727-3",
+        "last_run": null,
+        "form": "",
         "headgear": "",
-        "_stored_at": "2026-07-03T00:37:11.253947+00:00"
+        "_stored_at": "2026-07-03T04:58:55.650338+00:00"
       }
     ],
     "profile_notes": [],
@@ -116,14 +105,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 58,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -132,13 +121,128 @@
       "latest_distance_f": 17.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 76,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
+    "horse": "Boston Common",
+    "horse_id": "hrs_47345431",
+    "age": 6,
+    "sex": "gelding",
+    "latest_course": "Wexford",
+    "latest_time": "8:30",
+    "latest_race": "Racing Again 22nd July Flat Race",
+    "latest_date": "2026-07-03",
+    "latest_distance_f": 17.0,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Seamus Neville",
+    "latest_jockey": "Mr Finian Maguire",
+    "latest_draw": 0,
+    "latest_weight_lbs": 168,
+    "official_rating": "-",
+    "recent_form": "UP62/",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Wexford": 1
+    },
+    "distances_seen": {
+      "17.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Seamus Neville": 1
+    },
+    "jockeys_seen": {
+      "Mr Finian Maguire": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12009504",
+        "course": "Wexford",
+        "date": "2026-07-03",
+        "off_time": "8:30",
+        "off_dt": "2026-07-03T20:30:00+01:00",
+        "race_name": "Racing Again 22nd July Flat Race",
+        "distance_f": 17.0,
+        "race_class": "",
+        "race_type": "NH Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 14,
+        "horse": "Boston Common",
+        "horse_id": "hrs_47345431",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Seamus Neville",
+        "trainer_id": "trn_70488",
+        "jockey": "Mr Finian Maguire",
+        "jockey_id": "jky_290544",
+        "draw": 0,
+        "number": 1,
+        "lbs": 168,
+        "ofr": "-",
+        "last_run": null,
+        "form": "UP62/",
+        "headgear": "",
+        "_stored_at": "2026-07-03T04:58:55.163869+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Wexford",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 17.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Wexford",
+      "latest_distance_f": 17.0,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
     "horse": "Cotswold Blue",
     "horse_id": "hrs_58565479",
     "age": 6,
@@ -177,15 +281,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 64,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer bonus +1",
-      "Jockey bonus +2"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -216,7 +313,7 @@
         "last_run": 34,
         "form": "2",
         "headgear": "h",
-        "_stored_at": "2026-07-03T00:37:11.556565+00:00"
+        "_stored_at": "2026-07-03T04:58:55.510627+00:00"
       }
     ],
     "profile_notes": [],
@@ -238,13 +335,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 53,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -253,979 +351,13 @@
       "latest_distance_f": 17.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 64,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Mistakenforanother",
-    "horse_id": "hrs_64036735",
-    "age": 5,
-    "sex": "mare",
-    "latest_course": "Wexford",
-    "latest_time": "8:30",
-    "latest_race": "Racing Again 22nd July Flat Race",
-    "latest_date": "2026-07-03",
-    "latest_distance_f": 17.0,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "John Patrick Ryan",
-    "latest_jockey": "Mr D McGill(7)",
-    "latest_draw": 0,
-    "latest_weight_lbs": 161,
-    "official_rating": "-",
-    "recent_form": "42",
-    "last_run_days": 18,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Wexford": 1
-    },
-    "distances_seen": {
-      "17.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "John Patrick Ryan": 1
-    },
-    "jockeys_seen": {
-      "Mr D McGill(7)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 64,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer bonus +1"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12009504",
-        "course": "Wexford",
-        "date": "2026-07-03",
-        "off_time": "8:30",
-        "off_dt": "2026-07-03T20:30:00+01:00",
-        "race_name": "Racing Again 22nd July Flat Race",
-        "distance_f": 17.0,
-        "race_class": "",
-        "race_type": "NH Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 14,
-        "horse": "Mistakenforanother",
-        "horse_id": "hrs_64036735",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "John Patrick Ryan",
-        "trainer_id": "trn_74304",
-        "jockey": "Mr D McGill(7)",
-        "jockey_id": "jky_301134",
-        "draw": 0,
-        "number": 11,
-        "lbs": 161,
-        "ofr": "-",
-        "last_run": 18,
-        "form": "42",
-        "headgear": "",
-        "_stored_at": "2026-07-03T00:37:11.612314+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Wexford",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 17.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 53,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Wexford",
-      "latest_distance_f": 17.0,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 64,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Highlander Addict",
-      "horse_id": "hrs_55241690",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Wexford",
-      "latest_time": "8:30",
-      "latest_race": "Racing Again 22nd July Flat Race",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Patrick J Flynn",
-      "latest_jockey": "Mr D Doyle(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "-",
-      "recent_form": "727-3",
-      "last_run_days": 35,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Patrick J Flynn": 1
-      },
-      "jockeys_seen": {
-        "Mr D Doyle(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 76,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey bonus +1",
-        "Jockey in form +2 (2/3 last 14 days)",
-        "Historical winner +3",
-        "Previous course winner +4",
-        "Going specialist +4 (2/2 on going)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009504",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "8:30",
-          "off_dt": "2026-07-03T20:30:00+01:00",
-          "race_name": "Racing Again 22nd July Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Highlander Addict",
-          "horse_id": "hrs_55241690",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Patrick J Flynn",
-          "trainer_id": "trn_37566",
-          "jockey": "Mr D Doyle(7)",
-          "jockey_id": "jky_304854",
-          "draw": 0,
-          "number": 3,
-          "lbs": 168,
-          "ofr": "-",
-          "last_run": 35,
-          "form": "727-3",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.253947+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 58,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 76,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Cotswold Blue",
-      "horse_id": "hrs_58565479",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "Wexford",
-      "latest_time": "8:30",
-      "latest_race": "Racing Again 22nd July Flat Race",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "W P Mullins",
-      "latest_jockey": "Mr P W Mullins",
-      "latest_draw": 0,
-      "latest_weight_lbs": 161,
-      "official_rating": "-",
-      "recent_form": "2",
-      "last_run_days": 34,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "W P Mullins": 1
-      },
-      "jockeys_seen": {
-        "Mr P W Mullins": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 64,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +1",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009504",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "8:30",
-          "off_dt": "2026-07-03T20:30:00+01:00",
-          "race_name": "Racing Again 22nd July Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Cotswold Blue",
-          "horse_id": "hrs_58565479",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "W P Mullins",
-          "trainer_id": "trn_13275",
-          "jockey": "Mr P W Mullins",
-          "jockey_id": "jky_255345",
-          "draw": 0,
-          "number": 10,
-          "lbs": 161,
-          "ofr": "-",
-          "last_run": 34,
-          "form": "2",
-          "headgear": "h",
-          "_stored_at": "2026-07-03T00:37:11.556565+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 64,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Mistakenforanother",
-      "horse_id": "hrs_64036735",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Wexford",
-      "latest_time": "8:30",
-      "latest_race": "Racing Again 22nd July Flat Race",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "John Patrick Ryan",
-      "latest_jockey": "Mr D McGill(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 161,
-      "official_rating": "-",
-      "recent_form": "42",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "John Patrick Ryan": 1
-      },
-      "jockeys_seen": {
-        "Mr D McGill(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 64,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009504",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "8:30",
-          "off_dt": "2026-07-03T20:30:00+01:00",
-          "race_name": "Racing Again 22nd July Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Mistakenforanother",
-          "horse_id": "hrs_64036735",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "John Patrick Ryan",
-          "trainer_id": "trn_74304",
-          "jockey": "Mr D McGill(7)",
-          "jockey_id": "jky_301134",
-          "draw": 0,
-          "number": 11,
-          "lbs": 161,
-          "ofr": "-",
-          "last_run": 18,
-          "form": "42",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.612314+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 64,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "False Dawn",
-      "horse_id": "hrs_65451680",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Wexford",
-      "latest_time": "8:30",
-      "latest_race": "Racing Again 22nd July Flat Race",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Brendan Oliver Walsh",
-      "latest_jockey": "Mr J J Berry(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 157,
-      "official_rating": "-",
-      "recent_form": "3",
-      "last_run_days": 26,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Brendan Oliver Walsh": 1
-      },
-      "jockeys_seen": {
-        "Mr J J Berry(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 62,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +3"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009504",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "8:30",
-          "off_dt": "2026-07-03T20:30:00+01:00",
-          "race_name": "Racing Again 22nd July Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "False Dawn",
-          "horse_id": "hrs_65451680",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Brendan Oliver Walsh",
-          "trainer_id": "trn_344295",
-          "jockey": "Mr J J Berry(7)",
-          "jockey_id": "jky_311169",
-          "draw": 0,
-          "number": 14,
-          "lbs": 157,
-          "ofr": "-",
-          "last_run": 26,
-          "form": "3",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.716451+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 62,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Martymill",
-      "horse_id": "hrs_59186106",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Wexford",
-      "latest_time": "8:30",
-      "latest_race": "Racing Again 22nd July Flat Race",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Anthony McCann",
-      "latest_jockey": "Miss A B O'Connor",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "-",
-      "recent_form": "46-62",
-      "last_run_days": 32,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Anthony McCann": 1
-      },
-      "jockeys_seen": {
-        "Miss A B O'Connor": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 59,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009504",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "8:30",
-          "off_dt": "2026-07-03T20:30:00+01:00",
-          "race_name": "Racing Again 22nd July Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Martymill",
-          "horse_id": "hrs_59186106",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Anthony McCann",
-          "trainer_id": "trn_268344",
-          "jockey": "Miss A B O'Connor",
-          "jockey_id": "jky_292242",
-          "draw": 0,
-          "number": 5,
-          "lbs": 168,
-          "ofr": "-",
-          "last_run": 32,
-          "form": "46-62",
-          "headgear": "p",
-          "_stored_at": "2026-07-03T00:37:11.318196+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 59,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Minnatrix",
-      "horse_id": "hrs_57223488",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Wexford",
-      "latest_time": "8:30",
-      "latest_race": "Racing Again 22nd July Flat Race",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Eoin Christopher McCarthy",
-      "latest_jockey": "Mr O McGill(5)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "-",
-      "recent_form": "2-FS",
-      "last_run_days": 32,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Eoin Christopher McCarthy": 1
-      },
-      "jockeys_seen": {
-        "Mr O McGill(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 61,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009504",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "8:30",
-          "off_dt": "2026-07-03T20:30:00+01:00",
-          "race_name": "Racing Again 22nd July Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Minnatrix",
-          "horse_id": "hrs_57223488",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Eoin Christopher McCarthy",
-          "trainer_id": "trn_235116",
-          "jockey": "Mr O McGill(5)",
-          "jockey_id": "jky_297411",
-          "draw": 0,
-          "number": 6,
-          "lbs": 168,
-          "ofr": "-",
-          "last_run": 32,
-          "form": "2-FS",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.351757+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 61,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Tale Of Intrigue",
-      "horse_id": "hrs_64258054",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Wexford",
-      "latest_time": "8:30",
-      "latest_race": "Racing Again 22nd July Flat Race",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "D Buckley",
-      "latest_jockey": "Mr T A Halford(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "-",
-      "recent_form": "0-03",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "D Buckley": 1
-      },
-      "jockeys_seen": {
-        "Mr T A Halford(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer concern -2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009504",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "8:30",
-          "off_dt": "2026-07-03T20:30:00+01:00",
-          "race_name": "Racing Again 22nd July Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Tale Of Intrigue",
-          "horse_id": "hrs_64258054",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "D Buckley",
-          "trainer_id": "trn_19152",
-          "jockey": "Mr T A Halford(7)",
-          "jockey_id": "jky_308721",
-          "draw": 0,
-          "number": 8,
-          "lbs": 168,
-          "ofr": "-",
-          "last_run": 18,
-          "form": "0-03",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.436883+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 51,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Ballybollen",
       "horse_id": "hrs_66399354",
@@ -1265,12 +397,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable flying +4 (3/10 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1301,7 +429,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.766129+00:00"
+          "_stored_at": "2026-07-03T04:58:55.650338+00:00"
         }
       ],
       "profile_notes": [],
@@ -1323,13 +451,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 46,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1338,7 +467,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 50,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1383,11 +512,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 48,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1418,7 +544,7 @@
           "last_run": null,
           "form": "UP62/",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.164051+00:00"
+          "_stored_at": "2026-07-03T04:58:55.163869+00:00"
         }
       ],
       "profile_notes": [],
@@ -1440,13 +566,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 46,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1455,16 +582,16 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 48,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Perfect Order",
-      "horse_id": "hrs_66399375",
-      "age": 5,
+      "horse": "Cotswold Blue",
+      "horse_id": "hrs_58565479",
+      "age": 6,
       "sex": "mare",
       "latest_course": "Wexford",
       "latest_time": "8:30",
@@ -1474,13 +601,13 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Gordon Elliott",
-      "latest_jockey": "Mr H C Swan",
+      "latest_trainer": "W P Mullins",
+      "latest_jockey": "Mr P W Mullins",
       "latest_draw": 0,
       "latest_weight_lbs": 161,
       "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
+      "recent_form": "2",
+      "last_run_days": 34,
       "profile_runs": 1,
       "courses_seen": {
         "Wexford": 1
@@ -1493,20 +620,15 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Gordon Elliott": 1
+        "W P Mullins": 1
       },
       "jockeys_seen": {
-        "Mr H C Swan": 1
+        "Mr P W Mullins": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 49,
-      "latest_notes": [
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1522,22 +644,22 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 14,
-          "horse": "Perfect Order",
-          "horse_id": "hrs_66399375",
-          "age": 5,
+          "horse": "Cotswold Blue",
+          "horse_id": "hrs_58565479",
+          "age": 6,
           "sex": "mare",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "Mr H C Swan",
-          "jockey_id": "jky_294975",
+          "trainer": "W P Mullins",
+          "trainer_id": "trn_13275",
+          "jockey": "Mr P W Mullins",
+          "jockey_id": "jky_255345",
           "draw": 0,
-          "number": 12,
+          "number": 10,
           "lbs": 161,
           "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.648132+00:00"
+          "last_run": 34,
+          "form": "2",
+          "headgear": "h",
+          "_stored_at": "2026-07-03T04:58:55.510627+00:00"
         }
       ],
       "profile_notes": [],
@@ -1559,13 +681,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 46,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1574,7 +697,122 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 49,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "False Dawn",
+      "horse_id": "hrs_65451680",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Wexford",
+      "latest_time": "8:30",
+      "latest_race": "Racing Again 22nd July Flat Race",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Brendan Oliver Walsh",
+      "latest_jockey": "Mr J J Berry(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 157,
+      "official_rating": "-",
+      "recent_form": "3",
+      "last_run_days": 26,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Brendan Oliver Walsh": 1
+      },
+      "jockeys_seen": {
+        "Mr J J Berry(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009504",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "8:30",
+          "off_dt": "2026-07-03T20:30:00+01:00",
+          "race_name": "Racing Again 22nd July Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "False Dawn",
+          "horse_id": "hrs_65451680",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Brendan Oliver Walsh",
+          "trainer_id": "trn_344295",
+          "jockey": "Mr J J Berry(7)",
+          "jockey_id": "jky_311169",
+          "draw": 0,
+          "number": 14,
+          "lbs": 157,
+          "ofr": "-",
+          "last_run": 26,
+          "form": "3",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:55.622738+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1619,10 +857,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1653,7 +889,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.213506+00:00"
+          "_stored_at": "2026-07-03T04:58:55.192744+00:00"
         }
       ],
       "profile_notes": [],
@@ -1675,364 +911,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 44,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Orderly Conduct",
-      "horse_id": "hrs_66399368",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Wexford",
-      "latest_time": "8:30",
-      "latest_race": "Racing Again 22nd July Flat Race",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gavin Cromwell",
-      "latest_jockey": "Mr D G Lavery",
-      "latest_draw": 0,
-      "latest_weight_lbs": 164,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Gavin Cromwell": 1
-      },
-      "jockeys_seen": {
-        "Mr D G Lavery": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Helpful draw",
-        "Trainer bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009504",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "8:30",
-          "off_dt": "2026-07-03T20:30:00+01:00",
-          "race_name": "Racing Again 22nd July Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Orderly Conduct",
-          "horse_id": "hrs_66399368",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Gavin Cromwell",
-          "trainer_id": "trn_160524",
-          "jockey": "Mr D G Lavery",
-          "jockey_id": "jky_271176",
-          "draw": 0,
-          "number": 9,
-          "lbs": 164,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.491511+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 45,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Poet's Sonnet",
-      "horse_id": "hrs_58565346",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Wexford",
-      "latest_time": "8:30",
-      "latest_race": "Racing Again 22nd July Flat Race",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Paul Cashman",
-      "latest_jockey": "Mr A P Ryan(5)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "-",
-      "recent_form": "7-",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Paul Cashman": 1
-      },
-      "jockeys_seen": {
-        "Mr A P Ryan(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 42,
-      "latest_notes": [
-        "Weak recent form",
-        "Helpful draw",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009504",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "8:30",
-          "off_dt": "2026-07-03T20:30:00+01:00",
-          "race_name": "Racing Again 22nd July Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Poet's Sonnet",
-          "horse_id": "hrs_58565346",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Paul Cashman",
-          "trainer_id": "trn_45000",
-          "jockey": "Mr A P Ryan(5)",
-          "jockey_id": "jky_300354",
-          "draw": 0,
-          "number": 7,
-          "lbs": 168,
-          "ofr": "-",
-          "last_run": null,
-          "form": "7-",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.385115+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 43,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 42,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Speisialta",
-      "horse_id": "hrs_50188964",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "Wexford",
-      "latest_time": "8:30",
-      "latest_race": "Racing Again 22nd July Flat Race",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Anthony John Black",
-      "latest_jockey": "Mr B T Stone(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 161,
-      "official_rating": "-",
-      "recent_form": "4-",
-      "last_run_days": 172,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Anthony John Black": 1
-      },
-      "jockeys_seen": {
-        "Mr B T Stone(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 35,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009504",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "8:30",
-          "off_dt": "2026-07-03T20:30:00+01:00",
-          "race_name": "Racing Again 22nd July Flat Race",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "NH Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Speisialta",
-          "horse_id": "hrs_50188964",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "Anthony John Black",
-          "trainer_id": "trn_126243",
-          "jockey": "Mr B T Stone(7)",
-          "jockey_id": "jky_300690",
-          "draw": 0,
-          "number": 13,
-          "lbs": 161,
-          "ofr": "-",
-          "last_run": 172,
-          "form": "4-",
-          "headgear": "h",
-          "_stored_at": "2026-07-03T00:37:11.666215+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 40,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2048,7 +927,122 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 35,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Highlander Addict",
+      "horse_id": "hrs_55241690",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "8:30",
+      "latest_race": "Racing Again 22nd July Flat Race",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Patrick J Flynn",
+      "latest_jockey": "Mr D Doyle(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 168,
+      "official_rating": "-",
+      "recent_form": "727-3",
+      "last_run_days": 35,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Patrick J Flynn": 1
+      },
+      "jockeys_seen": {
+        "Mr D Doyle(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009504",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "8:30",
+          "off_dt": "2026-07-03T20:30:00+01:00",
+          "race_name": "Racing Again 22nd July Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Highlander Addict",
+          "horse_id": "hrs_55241690",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Patrick J Flynn",
+          "trainer_id": "trn_37566",
+          "jockey": "Mr D Doyle(7)",
+          "jockey_id": "jky_304854",
+          "draw": 0,
+          "number": 3,
+          "lbs": 168,
+          "ofr": "-",
+          "last_run": 35,
+          "form": "727-3",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:55.220878+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -2093,13 +1087,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 29,
-      "latest_notes": [
-        "Weak recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2130,7 +1119,7 @@
           "last_run": 200,
           "form": "P0-",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:37:11.285186+00:00"
+          "_stored_at": "2026-07-03T04:58:55.246705+00:00"
         }
       ],
       "profile_notes": [
@@ -2154,7 +1143,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 37,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2170,7 +1159,929 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 29,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Martymill",
+      "horse_id": "hrs_59186106",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "8:30",
+      "latest_race": "Racing Again 22nd July Flat Race",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Anthony McCann",
+      "latest_jockey": "Miss A B O'Connor",
+      "latest_draw": 0,
+      "latest_weight_lbs": 168,
+      "official_rating": "-",
+      "recent_form": "46-62",
+      "last_run_days": 32,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Anthony McCann": 1
+      },
+      "jockeys_seen": {
+        "Miss A B O'Connor": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009504",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "8:30",
+          "off_dt": "2026-07-03T20:30:00+01:00",
+          "race_name": "Racing Again 22nd July Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Martymill",
+          "horse_id": "hrs_59186106",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Anthony McCann",
+          "trainer_id": "trn_268344",
+          "jockey": "Miss A B O'Connor",
+          "jockey_id": "jky_292242",
+          "draw": 0,
+          "number": 5,
+          "lbs": 168,
+          "ofr": "-",
+          "last_run": 32,
+          "form": "46-62",
+          "headgear": "p",
+          "_stored_at": "2026-07-03T04:58:55.274206+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Minnatrix",
+      "horse_id": "hrs_57223488",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "8:30",
+      "latest_race": "Racing Again 22nd July Flat Race",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Eoin Christopher McCarthy",
+      "latest_jockey": "Mr O McGill(5)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 168,
+      "official_rating": "-",
+      "recent_form": "2-FS",
+      "last_run_days": 32,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Eoin Christopher McCarthy": 1
+      },
+      "jockeys_seen": {
+        "Mr O McGill(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009504",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "8:30",
+          "off_dt": "2026-07-03T20:30:00+01:00",
+          "race_name": "Racing Again 22nd July Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Minnatrix",
+          "horse_id": "hrs_57223488",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Eoin Christopher McCarthy",
+          "trainer_id": "trn_235116",
+          "jockey": "Mr O McGill(5)",
+          "jockey_id": "jky_297411",
+          "draw": 0,
+          "number": 6,
+          "lbs": 168,
+          "ofr": "-",
+          "last_run": 32,
+          "form": "2-FS",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:55.302694+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Mistakenforanother",
+      "horse_id": "hrs_64036735",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Wexford",
+      "latest_time": "8:30",
+      "latest_race": "Racing Again 22nd July Flat Race",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "John Patrick Ryan",
+      "latest_jockey": "Mr D McGill(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 161,
+      "official_rating": "-",
+      "recent_form": "42",
+      "last_run_days": 18,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "John Patrick Ryan": 1
+      },
+      "jockeys_seen": {
+        "Mr D McGill(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009504",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "8:30",
+          "off_dt": "2026-07-03T20:30:00+01:00",
+          "race_name": "Racing Again 22nd July Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Mistakenforanother",
+          "horse_id": "hrs_64036735",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "John Patrick Ryan",
+          "trainer_id": "trn_74304",
+          "jockey": "Mr D McGill(7)",
+          "jockey_id": "jky_301134",
+          "draw": 0,
+          "number": 11,
+          "lbs": 161,
+          "ofr": "-",
+          "last_run": 18,
+          "form": "42",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:55.540071+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Orderly Conduct",
+      "horse_id": "hrs_66399368",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "8:30",
+      "latest_race": "Racing Again 22nd July Flat Race",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gavin Cromwell",
+      "latest_jockey": "Mr D G Lavery",
+      "latest_draw": 0,
+      "latest_weight_lbs": 164,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Gavin Cromwell": 1
+      },
+      "jockeys_seen": {
+        "Mr D G Lavery": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009504",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "8:30",
+          "off_dt": "2026-07-03T20:30:00+01:00",
+          "race_name": "Racing Again 22nd July Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Orderly Conduct",
+          "horse_id": "hrs_66399368",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Gavin Cromwell",
+          "trainer_id": "trn_160524",
+          "jockey": "Mr D G Lavery",
+          "jockey_id": "jky_271176",
+          "draw": 0,
+          "number": 9,
+          "lbs": 164,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:55.420437+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Perfect Order",
+      "horse_id": "hrs_66399375",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Wexford",
+      "latest_time": "8:30",
+      "latest_race": "Racing Again 22nd July Flat Race",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gordon Elliott",
+      "latest_jockey": "Mr H C Swan",
+      "latest_draw": 0,
+      "latest_weight_lbs": 161,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Gordon Elliott": 1
+      },
+      "jockeys_seen": {
+        "Mr H C Swan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009504",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "8:30",
+          "off_dt": "2026-07-03T20:30:00+01:00",
+          "race_name": "Racing Again 22nd July Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Perfect Order",
+          "horse_id": "hrs_66399375",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Gordon Elliott",
+          "trainer_id": "trn_163305",
+          "jockey": "Mr H C Swan",
+          "jockey_id": "jky_294975",
+          "draw": 0,
+          "number": 12,
+          "lbs": 161,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:55.566276+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Poet's Sonnet",
+      "horse_id": "hrs_58565346",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "8:30",
+      "latest_race": "Racing Again 22nd July Flat Race",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Paul Cashman",
+      "latest_jockey": "Mr A P Ryan(5)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 168,
+      "official_rating": "-",
+      "recent_form": "7-",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Paul Cashman": 1
+      },
+      "jockeys_seen": {
+        "Mr A P Ryan(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009504",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "8:30",
+          "off_dt": "2026-07-03T20:30:00+01:00",
+          "race_name": "Racing Again 22nd July Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Poet's Sonnet",
+          "horse_id": "hrs_58565346",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Paul Cashman",
+          "trainer_id": "trn_45000",
+          "jockey": "Mr A P Ryan(5)",
+          "jockey_id": "jky_300354",
+          "draw": 0,
+          "number": 7,
+          "lbs": 168,
+          "ofr": "-",
+          "last_run": null,
+          "form": "7-",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:55.329667+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Speisialta",
+      "horse_id": "hrs_50188964",
+      "age": 6,
+      "sex": "mare",
+      "latest_course": "Wexford",
+      "latest_time": "8:30",
+      "latest_race": "Racing Again 22nd July Flat Race",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Anthony John Black",
+      "latest_jockey": "Mr B T Stone(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 161,
+      "official_rating": "-",
+      "recent_form": "4-",
+      "last_run_days": 172,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Anthony John Black": 1
+      },
+      "jockeys_seen": {
+        "Mr B T Stone(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009504",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "8:30",
+          "off_dt": "2026-07-03T20:30:00+01:00",
+          "race_name": "Racing Again 22nd July Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Speisialta",
+          "horse_id": "hrs_50188964",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Anthony John Black",
+          "trainer_id": "trn_126243",
+          "jockey": "Mr B T Stone(7)",
+          "jockey_id": "jky_300690",
+          "draw": 0,
+          "number": 13,
+          "lbs": 161,
+          "ofr": "-",
+          "last_run": 172,
+          "form": "4-",
+          "headgear": "h",
+          "_stored_at": "2026-07-03T04:58:55.594120+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Tale Of Intrigue",
+      "horse_id": "hrs_64258054",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "8:30",
+      "latest_race": "Racing Again 22nd July Flat Race",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "D Buckley",
+      "latest_jockey": "Mr T A Halford(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 168,
+      "official_rating": "-",
+      "recent_form": "0-03",
+      "last_run_days": 18,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "D Buckley": 1
+      },
+      "jockeys_seen": {
+        "Mr T A Halford(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009504",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "8:30",
+          "off_dt": "2026-07-03T20:30:00+01:00",
+          "race_name": "Racing Again 22nd July Flat Race",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "NH Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Tale Of Intrigue",
+          "horse_id": "hrs_64258054",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "D Buckley",
+          "trainer_id": "trn_19152",
+          "jockey": "Mr T A Halford(7)",
+          "jockey_id": "jky_308721",
+          "draw": 0,
+          "number": 8,
+          "lbs": 168,
+          "ofr": "-",
+          "last_run": 18,
+          "form": "0-03",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:55.356965+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -2178,7 +2089,9 @@
     }
   ],
   "notes": [
-    "Highlander Addict is the top-rated Pulse IQ runner.",
-    "Mistakenforanother is flagged as a possible dark horse."
+    "Ballybollen is the top-rated Pulse IQ runner.",
+    "The race looks competitive with no clear standout.",
+    "This race has a generally weak profile strength.",
+    "Cotswold Blue is flagged as a possible dark horse."
   ]
 }

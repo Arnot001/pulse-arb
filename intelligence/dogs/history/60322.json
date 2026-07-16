@@ -4,25 +4,25 @@
   "sex": "b",
   "colour": "bef",
   "birth_date": "2023-04-13",
-  "trainer": "I Zivkovic",
-  "owner": "Mr M Lewis",
+  "trainer": null,
+  "owner": null,
   "sire": "Ballymac Anton",
   "dam": "Elite Crystal",
-  "current_form": "14355",
+  "current_form": "25143",
   "overall": {
-    "runs": 95,
+    "runs": 96,
     "wins": 15,
     "seconds": 10,
-    "thirds": 8,
-    "places": 33
+    "thirds": 9,
+    "places": 34
   },
   "tracks": {
     "Kinsley": {
-      "runs": 79,
+      "runs": 80,
       "wins": 13,
       "seconds": 8,
-      "thirds": 7,
-      "places": 28
+      "thirds": 8,
+      "places": 29
     },
     "Yarmouth": {
       "runs": 4,
@@ -40,19 +40,19 @@
     }
   },
   "distances": {
+    "462": {
+      "runs": 78,
+      "wins": 13,
+      "seconds": 9,
+      "thirds": 8,
+      "places": 30
+    },
     "268": {
       "runs": 6,
       "wins": 0,
       "seconds": 0,
       "thirds": 0,
       "places": 0
-    },
-    "462": {
-      "runs": 77,
-      "wins": 13,
-      "seconds": 9,
-      "thirds": 7,
-      "places": 29
     },
     "450": {
       "runs": 11,
@@ -70,19 +70,19 @@
     }
   },
   "traps": {
-    "3": {
-      "runs": 38,
-      "wins": 4,
-      "seconds": 5,
-      "thirds": 4,
-      "places": 13
-    },
     "2": {
       "runs": 9,
       "wins": 1,
       "seconds": 1,
       "thirds": 1,
       "places": 3
+    },
+    "3": {
+      "runs": 39,
+      "wins": 4,
+      "seconds": 5,
+      "thirds": 5,
+      "places": 14
     },
     "4": {
       "runs": 47,
@@ -100,26 +100,12 @@
     }
   },
   "classes": {
-    "D4": {
-      "runs": 2,
-      "wins": 0,
-      "seconds": 0,
-      "thirds": 0,
-      "places": 0
-    },
-    "HP": {
-      "runs": 2,
-      "wins": 0,
-      "seconds": 0,
-      "thirds": 0,
-      "places": 0
-    },
     "A8": {
-      "runs": 11,
+      "runs": 12,
       "wins": 4,
       "seconds": 1,
-      "thirds": 2,
-      "places": 7
+      "thirds": 3,
+      "places": 8
     },
     "A7": {
       "runs": 27,
@@ -127,6 +113,13 @@
       "seconds": 4,
       "thirds": 3,
       "places": 12
+    },
+    "D4": {
+      "runs": 2,
+      "wins": 0,
+      "seconds": 0,
+      "thirds": 0,
+      "places": 0
     },
     "D3": {
       "runs": 5,
@@ -148,11 +141,18 @@
       "seconds": 2,
       "thirds": 1,
       "places": 4
+    },
+    "HP": {
+      "runs": 2,
+      "wins": 0,
+      "seconds": 0,
+      "thirds": 0,
+      "places": 0
     }
   },
   "best_time": 16.0,
-  "average_time": 28.03,
-  "last_seen": "2026-07-09",
-  "win_rate": 15.79,
-  "place_rate": 34.74
+  "average_time": 28.04,
+  "last_seen": "2026-07-16",
+  "win_rate": 15.62,
+  "place_rate": 35.42
 }

@@ -1,14 +1,14 @@
 {
-  "race_id": "Executive Helicopters Handicap (0-60)",
+  "race_id": "Executive Helicopters Handicap",
   "date": "2026-07-15",
   "course": "Killarney",
   "time": "7:30",
-  "race_name": "Executive Helicopters Handicap (0-60)",
+  "race_name": "Executive Helicopters Handicap",
   "field_size": 13,
-  "average_intelligence": 38.15,
-  "top_score": 47,
-  "second_score": 46,
-  "gap": 1,
+  "average_intelligence": 41.31,
+  "top_score": 48,
+  "second_score": 48,
+  "gap": 0,
   "confidence_score": 37,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
@@ -19,11 +19,11 @@
     "sex": "gelding",
     "latest_course": "Killarney",
     "latest_time": "7:30",
-    "latest_race": "Executive Helicopters Handicap (0-60)",
+    "latest_race": "Executive Helicopters Handicap",
     "latest_date": "2026-07-15",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "Eoin Christopher McCarthy",
     "latest_jockey": "Gavin Ryan",
@@ -39,7 +39,9 @@
     "distances_seen": {
       "8.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "Eoin Christopher McCarthy": 1
@@ -49,12 +51,11 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 58,
+    "latest_pulse_score": 54,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Jockey flying +4 (6/11 last 14 days)"
+      "Ideal layoff profile +2"
     ],
     "runs": [
       {
@@ -64,11 +65,11 @@
         "date": "2026-07-15",
         "off_time": "7:30",
         "off_dt": "2026-07-15T19:30:00+01:00",
-        "race_name": "Executive Helicopters Handicap (0-60)",
+        "race_name": "Executive Helicopters Handicap",
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
         "field_size": 13,
         "horse": "James Henry",
@@ -97,29 +98,32 @@
       "value": 8.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 47,
+    "suitability_score": 80,
+    "horse_intelligence_score": 48,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 8.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 58,
+      "latest_pulse_score": 54,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -132,11 +136,11 @@
     "sex": "gelding",
     "latest_course": "Killarney",
     "latest_time": "7:30",
-    "latest_race": "Executive Helicopters Handicap (0-60)",
+    "latest_race": "Executive Helicopters Handicap",
     "latest_date": "2026-07-15",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "Brendan Maurice Walsh",
     "latest_jockey": "Paddy Harnett(5)",
@@ -152,7 +156,9 @@
     "distances_seen": {
       "8.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "Brendan Maurice Walsh": 1
@@ -162,12 +168,13 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 56,
+    "latest_pulse_score": 54,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
       "Helpful draw",
-      "Jockey flying +4 (6/6 last 14 days)"
+      "Trainer bonus +1",
+      "Jockey bonus +1"
     ],
     "runs": [
       {
@@ -177,11 +184,11 @@
         "date": "2026-07-15",
         "off_time": "7:30",
         "off_dt": "2026-07-15T19:30:00+01:00",
-        "race_name": "Executive Helicopters Handicap (0-60)",
+        "race_name": "Executive Helicopters Handicap",
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
         "field_size": 13,
         "horse": "Liamo",
@@ -210,114 +217,117 @@
       "value": 8.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 46,
+    "suitability_score": 80,
+    "horse_intelligence_score": 48,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 8.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 56,
+      "latest_pulse_score": 54,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Bella Colombia",
-    "horse_id": "hrs_36738478",
-    "age": 5,
-    "sex": "mare",
+    "horse": "Tortola",
+    "horse_id": "hrs_43667351",
+    "age": 4,
+    "sex": "filly",
     "latest_course": "Killarney",
     "latest_time": "7:30",
-    "latest_race": "Executive Helicopters Handicap (0-60)",
+    "latest_race": "Executive Helicopters Handicap",
     "latest_date": "2026-07-15",
     "latest_distance_f": 8.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "W McCreery",
-    "latest_jockey": "Sam Coen(5)",
-    "latest_draw": 1,
-    "latest_weight_lbs": 142,
-    "official_rating": "60",
-    "recent_form": "713523",
-    "last_run_days": 3,
+    "latest_trainer": "Eoin Griffin",
+    "latest_jockey": "Dylan Browne McMonagle",
+    "latest_draw": 3,
+    "latest_weight_lbs": 135,
+    "official_rating": "53",
+    "recent_form": "3-5702",
+    "last_run_days": 13,
     "profile_runs": 2,
     "courses_seen": {
-      "Fairyhouse": 1,
+      "Bellewstown": 1,
       "Killarney": 1
     },
     "distances_seen": {
-      "8.5": 1,
-      "8.0": 1
+      "8.0": 2
     },
     "goings_seen": {
-      "Good To Firm": 1
+      "Good": 2
     },
     "classes_seen": {},
     "trainers_seen": {
-      "W McCreery": 2
+      "Andrew Slattery": 1,
+      "Eoin Griffin": 1
     },
     "jockeys_seen": {
-      "W J Lee": 1,
-      "Sam Coen(5)": 1
+      "Luke McAteer": 1,
+      "Dylan Browne McMonagle": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 62,
+    "latest_pulse_score": 57,
     "latest_notes": [
-      "Strong recent form",
+      "Positive recent form",
       "Good recent run timing",
-      "Stable in form +2 (2/4 last 14 days)",
-      "Jockey in form +2 (1/2 last 14 days)"
+      "Helpful draw",
+      "Jockey bonus +2"
     ],
     "runs": [
       {
         "source": "the_racing_api",
-        "race_id": "rac_12007866",
-        "course": "Fairyhouse",
-        "date": "2026-07-01",
-        "off_time": "7:55",
-        "off_dt": "2026-07-01T19:55:00+01:00",
-        "race_name": "Early Bird Winter Festival Tickets At Fairyhouse.ie Handicap (0-60)",
-        "distance_f": 8.5,
+        "race_id": "rac_12007996",
+        "course": "Bellewstown",
+        "date": "2026-07-02",
+        "off_time": "6:10",
+        "off_dt": "2026-07-02T18:10:00+01:00",
+        "race_name": "Ploughman Bar And Grill Handicap (0-60)",
+        "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good To Firm",
+        "going": "Good",
         "surface": "Turf",
-        "field_size": 13,
-        "horse": "Bella Colombia",
-        "horse_id": "hrs_36738478",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "W McCreery",
-        "trainer_id": "trn_183681",
-        "jockey": "W J Lee",
-        "jockey_id": "jky_244275",
-        "draw": 10,
-        "number": 1,
-        "lbs": 142,
-        "ofr": "60",
-        "last_run": 44,
-        "form": "267135",
+        "field_size": 15,
+        "horse": "Tortola",
+        "horse_id": "hrs_43667351",
+        "age": 4,
+        "sex": "filly",
+        "trainer": "Andrew Slattery",
+        "trainer_id": "trn_95292",
+        "jockey": "Luke McAteer",
+        "jockey_id": "jky_289707",
+        "draw": 11,
+        "number": 10,
+        "lbs": 134,
+        "ofr": "52",
+        "last_run": 139,
+        "form": "83-570",
         "headgear": "",
-        "_stored_at": "2026-06-30T23:10:50.984904+00:00"
+        "_stored_at": "2026-07-02T04:58:42.524873+00:00"
       },
       {
         "source": "the_racing_api",
@@ -326,27 +336,27 @@
         "date": "2026-07-15",
         "off_time": "7:30",
         "off_dt": "2026-07-15T19:30:00+01:00",
-        "race_name": "Executive Helicopters Handicap (0-60)",
+        "race_name": "Executive Helicopters Handicap",
         "distance_f": 8.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
         "field_size": 13,
-        "horse": "Bella Colombia",
-        "horse_id": "hrs_36738478",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "W McCreery",
-        "trainer_id": "trn_183681",
-        "jockey": "Sam Coen(5)",
-        "jockey_id": "jky_311643",
-        "draw": 1,
-        "number": 1,
-        "lbs": 142,
-        "ofr": "60",
-        "last_run": 3,
-        "form": "713523",
+        "horse": "Tortola",
+        "horse_id": "hrs_43667351",
+        "age": 4,
+        "sex": "filly",
+        "trainer": "Eoin Griffin",
+        "trainer_id": "trn_72864",
+        "jockey": "Dylan Browne McMonagle",
+        "jockey_id": "jky_299181",
+        "draw": 3,
+        "number": 9,
+        "lbs": 135,
+        "ofr": "53",
+        "last_run": 13,
+        "form": "3-5702",
         "headgear": ""
       }
     ],
@@ -355,38 +365,39 @@
       "Recent run timing"
     ],
     "favourite_course": {
-      "value": "Fairyhouse",
+      "value": "Bellewstown",
       "runs": 1
     },
     "favourite_distance": {
-      "value": 8.5,
-      "runs": 1
+      "value": 8.0,
+      "runs": 2
     },
     "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
+      "value": "Good",
+      "runs": 2
     },
     "favourite_class": null,
     "course_suitability_score": 55,
-    "distance_suitability_score": 55,
-    "going_suitability_score": 50,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 52,
-    "horse_intelligence_score": 44,
-    "profile_strengths": [],
+    "suitability_score": 71,
+    "horse_intelligence_score": 47,
+    "profile_strengths": [
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
     "profile_cautions": [
       "Course does not strongly match stored profile",
-      "Distance not yet a clear profile strength",
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Killarney",
       "latest_distance_f": 8.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 62,
+      "latest_pulse_score": 57,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
@@ -400,11 +411,11 @@
       "sex": "gelding",
       "latest_course": "Killarney",
       "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
+      "latest_race": "Executive Helicopters Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Eoin Christopher McCarthy",
       "latest_jockey": "Gavin Ryan",
@@ -420,7 +431,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Eoin Christopher McCarthy": 1
@@ -430,12 +443,11 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 58,
+      "latest_pulse_score": 54,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey flying +4 (6/11 last 14 days)"
+        "Ideal layoff profile +2"
       ],
       "runs": [
         {
@@ -445,11 +457,11 @@
           "date": "2026-07-15",
           "off_time": "7:30",
           "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
+          "race_name": "Executive Helicopters Handicap",
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 13,
           "horse": "James Henry",
@@ -478,29 +490,32 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 47,
+      "suitability_score": 80,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 58,
+        "latest_pulse_score": 54,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -513,11 +528,11 @@
       "sex": "gelding",
       "latest_course": "Killarney",
       "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
+      "latest_race": "Executive Helicopters Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Brendan Maurice Walsh",
       "latest_jockey": "Paddy Harnett(5)",
@@ -533,7 +548,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Brendan Maurice Walsh": 1
@@ -543,12 +560,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 56,
+      "latest_pulse_score": 54,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Helpful draw",
-        "Jockey flying +4 (6/6 last 14 days)"
+        "Trainer bonus +1",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
@@ -558,11 +576,11 @@
           "date": "2026-07-15",
           "off_time": "7:30",
           "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
+          "race_name": "Executive Helicopters Handicap",
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Liamo",
@@ -591,32 +609,190 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 46,
+      "suitability_score": 80,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 56,
+        "latest_pulse_score": 54,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Tortola",
+      "horse_id": "hrs_43667351",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Killarney",
+      "latest_time": "7:30",
+      "latest_race": "Executive Helicopters Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Eoin Griffin",
+      "latest_jockey": "Dylan Browne McMonagle",
+      "latest_draw": 3,
+      "latest_weight_lbs": 135,
+      "official_rating": "53",
+      "recent_form": "3-5702",
+      "last_run_days": 13,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Bellewstown": 1,
+        "Killarney": 1
+      },
+      "distances_seen": {
+        "8.0": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Andrew Slattery": 1,
+        "Eoin Griffin": 1
+      },
+      "jockeys_seen": {
+        "Luke McAteer": 1,
+        "Dylan Browne McMonagle": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 57,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007996",
+          "course": "Bellewstown",
+          "date": "2026-07-02",
+          "off_time": "6:10",
+          "off_dt": "2026-07-02T18:10:00+01:00",
+          "race_name": "Ploughman Bar And Grill Handicap (0-60)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Tortola",
+          "horse_id": "hrs_43667351",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Andrew Slattery",
+          "trainer_id": "trn_95292",
+          "jockey": "Luke McAteer",
+          "jockey_id": "jky_289707",
+          "draw": 11,
+          "number": 10,
+          "lbs": 134,
+          "ofr": "52",
+          "last_run": 139,
+          "form": "83-570",
+          "headgear": "",
+          "_stored_at": "2026-07-02T04:58:42.524873+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000962",
+          "course": "Killarney",
+          "date": "2026-07-15",
+          "off_time": "7:30",
+          "off_dt": "2026-07-15T19:30:00+01:00",
+          "race_name": "Executive Helicopters Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Tortola",
+          "horse_id": "hrs_43667351",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Eoin Griffin",
+          "trainer_id": "trn_72864",
+          "jockey": "Dylan Browne McMonagle",
+          "jockey_id": "jky_299181",
+          "draw": 3,
+          "number": 9,
+          "lbs": 135,
+          "ofr": "53",
+          "last_run": 13,
+          "form": "3-5702",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 71,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Killarney",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 57,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -626,11 +802,11 @@
       "sex": "mare",
       "latest_course": "Killarney",
       "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
+      "latest_race": "Executive Helicopters Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "W McCreery",
       "latest_jockey": "Sam Coen(5)",
@@ -639,34 +815,36 @@
       "official_rating": "60",
       "recent_form": "713523",
       "last_run_days": 3,
-      "profile_runs": 2,
+      "profile_runs": 3,
       "courses_seen": {
         "Fairyhouse": 1,
+        "Dundalk (AW)": 1,
         "Killarney": 1
       },
       "distances_seen": {
-        "8.5": 1,
-        "8.0": 1
+        "8.0": 2,
+        "8.5": 1
       },
       "goings_seen": {
-        "Good To Firm": 1
+        "Good": 2,
+        "Standard": 1
       },
       "classes_seen": {},
       "trainers_seen": {
-        "W McCreery": 2
+        "W McCreery": 3
       },
       "jockeys_seen": {
-        "W J Lee": 1,
+        "W J Lee": 2,
         "Sam Coen(5)": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 62,
+      "latest_pulse_score": 54,
       "latest_notes": [
         "Strong recent form",
-        "Good recent run timing",
-        "Stable in form +2 (2/4 last 14 days)",
-        "Jockey in form +2 (1/2 last 14 days)"
+        "Questionable run timing",
+        "Sharp return concern -3",
+        "Helpful draw"
       ],
       "runs": [
         {
@@ -680,9 +858,9 @@
           "distance_f": 8.5,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 13,
+          "field_size": 12,
           "horse": "Bella Colombia",
           "horse_id": "hrs_36738478",
           "age": 5,
@@ -698,7 +876,37 @@
           "last_run": 44,
           "form": "267135",
           "headgear": "",
-          "_stored_at": "2026-06-30T23:10:50.984904+00:00"
+          "_stored_at": "2026-07-01T13:17:58.074806+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12018773",
+          "course": "Dundalk (AW)",
+          "date": "2026-07-12",
+          "off_time": "3:45",
+          "off_dt": "2026-07-12T15:45:00+01:00",
+          "race_name": "QuinnBet Handicap (0-60)",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 17,
+          "horse": "Bella Colombia",
+          "horse_id": "hrs_36738478",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "W McCreery",
+          "trainer_id": "trn_183681",
+          "jockey": "W J Lee",
+          "jockey_id": "jky_244275",
+          "draw": 15,
+          "number": 1,
+          "lbs": 142,
+          "ofr": "60",
+          "last_run": 11,
+          "form": "671352",
+          "headgear": ""
         },
         {
           "source": "the_racing_api",
@@ -707,11 +915,11 @@
           "date": "2026-07-15",
           "off_time": "7:30",
           "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
+          "race_name": "Executive Helicopters Handicap",
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Bella Colombia",
@@ -732,7 +940,159 @@
         }
       ],
       "profile_notes": [
+        "Profile has multiple stored runs",
         "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Fairyhouse",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 71,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Killarney",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 54,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
+      }
+    },
+    {
+      "horse": "Pete's Dream",
+      "horse_id": "hrs_52677331",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Killarney",
+      "latest_time": "7:30",
+      "latest_race": "Executive Helicopters Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Andrew Slattery",
+      "latest_jockey": "Jimmy Dalton(7)",
+      "latest_draw": 10,
+      "latest_weight_lbs": 140,
+      "official_rating": "58",
+      "recent_form": "6-8941",
+      "last_run_days": 14,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Fairyhouse": 1,
+        "Killarney": 1
+      },
+      "distances_seen": {
+        "8.5": 1,
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Andrew Slattery": 2
+      },
+      "jockeys_seen": {
+        "Jimmy Dalton(7)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 56,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007866",
+          "course": "Fairyhouse",
+          "date": "2026-07-01",
+          "off_time": "7:55",
+          "off_dt": "2026-07-01T19:55:00+01:00",
+          "race_name": "Early Bird Winter Festival Tickets At Fairyhouse.ie Handicap (0-60)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Pete's Dream",
+          "horse_id": "hrs_52677331",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Andrew Slattery",
+          "trainer_id": "trn_95292",
+          "jockey": "Jimmy Dalton(7)",
+          "jockey_id": "jky_311652",
+          "draw": 12,
+          "number": 5,
+          "lbs": 135,
+          "ofr": "53",
+          "last_run": 12,
+          "form": "06-894",
+          "headgear": "",
+          "_stored_at": "2026-07-01T13:17:58.252441+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000962",
+          "course": "Killarney",
+          "date": "2026-07-15",
+          "off_time": "7:30",
+          "off_dt": "2026-07-15T19:30:00+01:00",
+          "race_name": "Executive Helicopters Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Pete's Dream",
+          "horse_id": "hrs_52677331",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Andrew Slattery",
+          "trainer_id": "trn_95292",
+          "jockey": "Jimmy Dalton(7)",
+          "jockey_id": "jky_311652",
+          "draw": 10,
+          "number": 5,
+          "lbs": 140,
+          "ofr": "58",
+          "last_run": 14,
+          "form": "6-8941",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
         "Recent run timing"
       ],
       "favourite_course": {
@@ -744,80 +1104,117 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
+        "value": "Good",
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
+      "suitability_score": 62,
       "horse_intelligence_score": 44,
-      "profile_strengths": [],
+      "profile_strengths": [
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 62,
+        "latest_pulse_score": 56,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
       }
     },
     {
-      "horse": "Convincing",
-      "horse_id": "hrs_42715358",
-      "age": 5,
-      "sex": "gelding",
+      "horse": "Jasmine Affanalis",
+      "horse_id": "hrs_47985735",
+      "age": 4,
+      "sex": "filly",
       "latest_course": "Killarney",
       "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
+      "latest_race": "Executive Helicopters Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Ciaran Murphy",
-      "latest_jockey": "Ben Coen",
-      "latest_draw": 2,
-      "latest_weight_lbs": 140,
-      "official_rating": "58",
-      "recent_form": "390-95",
-      "last_run_days": 107,
-      "profile_runs": 1,
+      "latest_trainer": "David Marnane",
+      "latest_jockey": "Luke McAteer",
+      "latest_draw": 4,
+      "latest_weight_lbs": 142,
+      "official_rating": "60",
+      "recent_form": "075200",
+      "last_run_days": 14,
+      "profile_runs": 2,
       "courses_seen": {
+        "Fairyhouse": 1,
         "Killarney": 1
       },
       "distances_seen": {
+        "7.0": 1,
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 2
+      },
       "classes_seen": {},
       "trainers_seen": {
-        "Ciaran Murphy": 1
+        "David Marnane": 2
       },
       "jockeys_seen": {
-        "Ben Coen": 1
+        "Darragh O'Sullivan(7)": 1,
+        "Luke McAteer": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 45,
+      "latest_pulse_score": 55,
       "latest_notes": [
-        "Weak recent form",
-        "Helpful draw",
-        "Stable flying +4 (3/3 last 14 days)",
-        "Jockey flying +4 (7/25 last 14 days)"
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
       ],
       "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007840",
+          "course": "Fairyhouse",
+          "date": "2026-07-01",
+          "off_time": "6:45",
+          "off_dt": "2026-07-01T18:45:00+01:00",
+          "race_name": "Racing Again July 8th Fillies Handicap",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Jasmine Affanalis",
+          "horse_id": "hrs_47985735",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "David Marnane",
+          "trainer_id": "trn_155772",
+          "jockey": "Darragh O'Sullivan(7)",
+          "jockey_id": "jky_310275",
+          "draw": 3,
+          "number": 10,
+          "lbs": 134,
+          "ofr": "61",
+          "last_run": 21,
+          "form": "-07520",
+          "headgear": "p",
+          "_stored_at": "2026-07-01T13:17:57.423029+00:00"
+        },
         {
           "source": "the_racing_api",
           "race_id": "rac_13000000962",
@@ -825,68 +1222,70 @@
           "date": "2026-07-15",
           "off_time": "7:30",
           "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
+          "race_name": "Executive Helicopters Handicap",
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 13,
-          "horse": "Convincing",
-          "horse_id": "hrs_42715358",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Ciaran Murphy",
-          "trainer_id": "trn_342693",
-          "jockey": "Ben Coen",
-          "jockey_id": "jky_291093",
-          "draw": 2,
-          "number": 4,
-          "lbs": 140,
-          "ofr": "58",
-          "last_run": 107,
-          "form": "390-95",
+          "horse": "Jasmine Affanalis",
+          "horse_id": "hrs_47985735",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "David Marnane",
+          "trainer_id": "trn_155772",
+          "jockey": "Luke McAteer",
+          "jockey_id": "jky_289707",
+          "draw": 4,
+          "number": 2,
+          "lbs": 142,
+          "ofr": "60",
+          "last_run": 14,
+          "form": "075200",
           "headgear": ""
         }
       ],
       "profile_notes": [
-        "Low draw today",
-        "Returning from a break"
+        "Recent run timing"
       ],
       "favourite_course": {
-        "value": "Killarney",
+        "value": "Fairyhouse",
         "runs": 1
       },
       "favourite_distance": {
-        "value": 8.0,
+        "value": 7.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
       "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 41,
+      "suitability_score": 62,
+      "horse_intelligence_score": 43,
       "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 45,
+        "latest_pulse_score": 55,
         "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -896,11 +1295,11 @@
       "sex": "gelding",
       "latest_course": "Killarney",
       "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
+      "latest_race": "Executive Helicopters Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Martin Hassett",
       "latest_jockey": "Colin Keane",
@@ -918,7 +1317,7 @@
         "8.0": 2
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -930,13 +1329,11 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 48,
+      "latest_pulse_score": 47,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer concern -2"
+        "Jockey bonus +3"
       ],
       "runs": [
         {
@@ -968,7 +1365,7 @@
           "last_run": 21,
           "form": "080307",
           "headgear": "b",
-          "_stored_at": "2026-07-02T00:01:33.424342+00:00"
+          "_stored_at": "2026-07-02T04:58:42.482359+00:00"
         },
         {
           "source": "the_racing_api",
@@ -977,11 +1374,11 @@
           "date": "2026-07-15",
           "off_time": "7:30",
           "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
+          "race_name": "Executive Helicopters Handicap",
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Secret Magician",
@@ -1014,118 +1411,80 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 61,
-      "horse_intelligence_score": 40,
+      "suitability_score": 71,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 48,
+        "latest_pulse_score": 47,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
       }
     },
     {
-      "horse": "Jasmine Affanalis",
-      "horse_id": "hrs_47985735",
-      "age": 4,
-      "sex": "filly",
+      "horse": "Convincing",
+      "horse_id": "hrs_42715358",
+      "age": 5,
+      "sex": "gelding",
       "latest_course": "Killarney",
       "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
+      "latest_race": "Executive Helicopters Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "David Marnane",
-      "latest_jockey": "Luke McAteer",
-      "latest_draw": 4,
-      "latest_weight_lbs": 142,
-      "official_rating": "60",
-      "recent_form": "075200",
-      "last_run_days": 14,
-      "profile_runs": 2,
+      "latest_trainer": "Ciaran Murphy",
+      "latest_jockey": "Ben Coen",
+      "latest_draw": 2,
+      "latest_weight_lbs": 140,
+      "official_rating": "58",
+      "recent_form": "390-95",
+      "last_run_days": 107,
+      "profile_runs": 1,
       "courses_seen": {
-        "Fairyhouse": 1,
         "Killarney": 1
       },
       "distances_seen": {
-        "7.0": 1,
         "8.0": 1
       },
       "goings_seen": {
-        "Good To Firm": 1
+        "Good": 1
       },
       "classes_seen": {},
       "trainers_seen": {
-        "David Marnane": 2
+        "Ciaran Murphy": 1
       },
       "jockeys_seen": {
-        "Darragh O'Sullivan(7)": 1,
-        "Luke McAteer": 1
+        "Ben Coen": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 53,
+      "latest_pulse_score": 37,
       "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer concern -2",
-        "Jockey concern -2"
+        "Weak recent form",
+        "Helpful draw"
       ],
       "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007840",
-          "course": "Fairyhouse",
-          "date": "2026-07-01",
-          "off_time": "6:45",
-          "off_dt": "2026-07-01T18:45:00+01:00",
-          "race_name": "Racing Again July 8th Fillies Handicap",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Jasmine Affanalis",
-          "horse_id": "hrs_47985735",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "David Marnane",
-          "trainer_id": "trn_155772",
-          "jockey": "Darragh O'Sullivan(7)",
-          "jockey_id": "jky_310275",
-          "draw": 3,
-          "number": 10,
-          "lbs": 134,
-          "ofr": "61",
-          "last_run": 21,
-          "form": "-07520",
-          "headgear": "p",
-          "_stored_at": "2026-06-30T23:10:49.940944+00:00"
-        },
         {
           "source": "the_racing_api",
           "race_id": "rac_13000000962",
@@ -1133,69 +1492,72 @@
           "date": "2026-07-15",
           "off_time": "7:30",
           "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
+          "race_name": "Executive Helicopters Handicap",
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 13,
-          "horse": "Jasmine Affanalis",
-          "horse_id": "hrs_47985735",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "David Marnane",
-          "trainer_id": "trn_155772",
-          "jockey": "Luke McAteer",
-          "jockey_id": "jky_289707",
-          "draw": 4,
-          "number": 2,
-          "lbs": 142,
-          "ofr": "60",
-          "last_run": 14,
-          "form": "075200",
+          "horse": "Convincing",
+          "horse_id": "hrs_42715358",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Ciaran Murphy",
+          "trainer_id": "trn_342693",
+          "jockey": "Ben Coen",
+          "jockey_id": "jky_291093",
+          "draw": 2,
+          "number": 4,
+          "lbs": 140,
+          "ofr": "58",
+          "last_run": 107,
+          "form": "390-95",
           "headgear": ""
         }
       ],
       "profile_notes": [
-        "Recent run timing"
+        "Low draw today",
+        "Returning from a break"
       ],
       "favourite_course": {
-        "value": "Fairyhouse",
+        "value": "Killarney",
         "runs": 1
       },
       "favourite_distance": {
-        "value": 7.0,
+        "value": 8.0,
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good To Firm",
+        "value": "Good",
         "runs": 1
       },
       "favourite_class": null,
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 39,
-      "profile_strengths": [],
+      "suitability_score": 80,
+      "horse_intelligence_score": 41,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 53,
+        "latest_pulse_score": 37,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 1,
+        "runs_count": 1
       }
     },
     {
@@ -1205,11 +1567,11 @@
       "sex": "gelding",
       "latest_course": "Killarney",
       "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
+      "latest_race": "Executive Helicopters Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "R P Burns",
       "latest_jockey": "Nicola Burns(5)",
@@ -1228,7 +1590,7 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1243,9 +1605,7 @@
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey concern -2"
+        "Ideal layoff profile +2"
       ],
       "runs": [
         {
@@ -1277,7 +1637,7 @@
           "last_run": 30,
           "form": "145-00",
           "headgear": "p",
-          "_stored_at": "2026-06-30T01:49:59.165878+00:00"
+          "_stored_at": "2026-06-30T05:14:29.081280+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1286,11 +1646,11 @@
           "date": "2026-07-15",
           "off_time": "7:30",
           "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
+          "race_name": "Executive Helicopters Handicap",
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 13,
           "horse": "The Blue Panther",
@@ -1321,32 +1681,222 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 37,
-      "profile_strengths": [],
+      "suitability_score": 62,
+      "horse_intelligence_score": 40,
+      "profile_strengths": [
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 48,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
+      }
+    },
+    {
+      "horse": "William F Browne",
+      "horse_id": "hrs_41051871",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Killarney",
+      "latest_time": "7:30",
+      "latest_race": "Executive Helicopters Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Paul W Flynn",
+      "latest_jockey": "W J Lee",
+      "latest_draw": 9,
+      "latest_weight_lbs": 141,
+      "official_rating": "59",
+      "recent_form": "97-037",
+      "last_run_days": 14,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Fairyhouse": 1,
+        "Leopardstown": 1,
+        "Killarney": 1
+      },
+      "distances_seen": {
+        "8.5": 1,
+        "9.0": 1,
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good": 2,
+        "Good To Firm": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Paul W Flynn": 3
+      },
+      "jockeys_seen": {
+        "Robert Whearty": 1,
+        "Dylan Browne McMonagle": 1,
+        "W J Lee": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Trainer bonus +1",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007866",
+          "course": "Fairyhouse",
+          "date": "2026-07-01",
+          "off_time": "7:55",
+          "off_dt": "2026-07-01T19:55:00+01:00",
+          "race_name": "Early Bird Winter Festival Tickets At Fairyhouse.ie Handicap (0-60)",
+          "distance_f": 8.5,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "William F Browne",
+          "horse_id": "hrs_41051871",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Paul W Flynn",
+          "trainer_id": "trn_171756",
+          "jockey": "Robert Whearty",
+          "jockey_id": "jky_302925",
+          "draw": 11,
+          "number": 3,
+          "lbs": 141,
+          "ofr": "59",
+          "last_run": 13,
+          "form": "097-03",
+          "headgear": "tp",
+          "_stored_at": "2026-07-01T13:17:58.133371+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12016277",
+          "course": "Leopardstown",
+          "date": "2026-07-09",
+          "off_time": "7:38",
+          "off_dt": "2026-07-09T19:38:00+01:00",
+          "race_name": "Mervue Equine Handicap (0-60)",
+          "distance_f": 9.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 22,
+          "horse": "William F Browne",
+          "horse_id": "hrs_41051871",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Paul W Flynn",
+          "trainer_id": "trn_171756",
+          "jockey": "Dylan Browne McMonagle",
+          "jockey_id": "jky_299181",
+          "draw": 24,
+          "number": 3,
+          "lbs": 141,
+          "ofr": "59",
+          "last_run": 8,
+          "form": "97-037",
+          "headgear": "v"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000962",
+          "course": "Killarney",
+          "date": "2026-07-15",
+          "off_time": "7:30",
+          "off_dt": "2026-07-15T19:30:00+01:00",
+          "race_name": "Executive Helicopters Handicap",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "William F Browne",
+          "horse_id": "hrs_41051871",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Paul W Flynn",
+          "trainer_id": "trn_171756",
+          "jockey": "W J Lee",
+          "jockey_id": "jky_244275",
+          "draw": 9,
+          "number": 3,
+          "lbs": 141,
+          "ofr": "59",
+          "last_run": 14,
+          "form": "97-037",
+          "headgear": "v"
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Fairyhouse",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 62,
+      "horse_intelligence_score": 40,
+      "profile_strengths": [
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Killarney",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 48,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -1356,11 +1906,11 @@
       "sex": "gelding",
       "latest_course": "Killarney",
       "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
+      "latest_race": "Executive Helicopters Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "T J O'Mara",
       "latest_jockey": "Wayne Lordan",
@@ -1376,7 +1926,9 @@
       "distances_seen": {
         "8.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "T J O'Mara": 1
@@ -1386,13 +1938,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 32,
+      "latest_pulse_score": 29,
       "latest_notes": [
         "Positive recent form",
         "Questionable run timing",
         "Very long absence concern -7",
         "Helpful draw",
-        "Jockey flying +4 (3/7 last 14 days)"
+        "Trainer concern -2",
+        "Jockey bonus +3"
       ],
       "runs": [
         {
@@ -1402,11 +1955,11 @@
           "date": "2026-07-15",
           "off_time": "7:30",
           "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
+          "race_name": "Executive Helicopters Handicap",
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Draiocht",
@@ -1437,20 +1990,23 @@
         "value": 8.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 35,
+      "suitability_score": 80,
+      "horse_intelligence_score": 37,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -1458,9 +2014,9 @@
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 32,
+        "latest_pulse_score": 29,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1473,11 +2029,11 @@
       "sex": "gelding",
       "latest_course": "Killarney",
       "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
+      "latest_race": "Executive Helicopters Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Denis Gerard Hogan",
       "latest_jockey": "Chris Hayes",
@@ -1498,7 +2054,8 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good": 2
+        "Good": 2,
+        "Good To Firm": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1510,12 +2067,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
+      "latest_pulse_score": 36,
       "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer concern -2"
+        "Positive recent form",
+        "Questionable run timing",
+        "Sharp return concern -3",
+        "Trainer bonus +2",
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -1547,7 +2105,7 @@
           "last_run": 12,
           "form": "-08083",
           "headgear": "tp",
-          "_stored_at": "2026-06-30T01:49:59.165878+00:00"
+          "_stored_at": "2026-06-30T05:14:29.061288+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1560,7 +2118,7 @@
           "distance_f": 9.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 22,
           "horse": "Medieval Night",
@@ -1586,11 +2144,11 @@
           "date": "2026-07-15",
           "off_time": "7:30",
           "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
+          "race_name": "Executive Helicopters Handicap",
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Medieval Night",
@@ -1629,518 +2187,28 @@
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
+      "suitability_score": 62,
       "horse_intelligence_score": 35,
-      "profile_strengths": [],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Killarney",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 44,
-        "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
-      }
-    },
-    {
-      "horse": "Pete's Dream",
-      "horse_id": "hrs_52677331",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Killarney",
-      "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Andrew Slattery",
-      "latest_jockey": "Jimmy Dalton(7)",
-      "latest_draw": 10,
-      "latest_weight_lbs": 140,
-      "official_rating": "58",
-      "recent_form": "6-8941",
-      "last_run_days": 14,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Fairyhouse": 1,
-        "Killarney": 1
-      },
-      "distances_seen": {
-        "8.5": 1,
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Andrew Slattery": 2
-      },
-      "jockeys_seen": {
-        "Jimmy Dalton(7)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 43,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Stable in form +2 (1/1 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007866",
-          "course": "Fairyhouse",
-          "date": "2026-07-01",
-          "off_time": "7:55",
-          "off_dt": "2026-07-01T19:55:00+01:00",
-          "race_name": "Early Bird Winter Festival Tickets At Fairyhouse.ie Handicap (0-60)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Pete's Dream",
-          "horse_id": "hrs_52677331",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Andrew Slattery",
-          "trainer_id": "trn_95292",
-          "jockey": "Jimmy Dalton(7)",
-          "jockey_id": "jky_311652",
-          "draw": 12,
-          "number": 5,
-          "lbs": 135,
-          "ofr": "53",
-          "last_run": 12,
-          "form": "06-894",
-          "headgear": "",
-          "_stored_at": "2026-06-30T23:10:51.158609+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000962",
-          "course": "Killarney",
-          "date": "2026-07-15",
-          "off_time": "7:30",
-          "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Pete's Dream",
-          "horse_id": "hrs_52677331",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Andrew Slattery",
-          "trainer_id": "trn_95292",
-          "jockey": "Jimmy Dalton(7)",
-          "jockey_id": "jky_311652",
-          "draw": 10,
-          "number": 5,
-          "lbs": 140,
-          "ofr": "58",
-          "last_run": 14,
-          "form": "6-8941",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Fairyhouse",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 35,
-      "profile_strengths": [],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Killarney",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 43,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "William F Browne",
-      "horse_id": "hrs_41051871",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Killarney",
-      "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Paul W Flynn",
-      "latest_jockey": "W J Lee",
-      "latest_draw": 9,
-      "latest_weight_lbs": 141,
-      "official_rating": "59",
-      "recent_form": "97-037",
-      "last_run_days": 14,
-      "profile_runs": 3,
-      "courses_seen": {
-        "Fairyhouse": 1,
-        "Leopardstown": 1,
-        "Killarney": 1
-      },
-      "distances_seen": {
-        "8.5": 1,
-        "9.0": 1,
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1,
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Paul W Flynn": 3
-      },
-      "jockeys_seen": {
-        "Robert Whearty": 1,
-        "Dylan Browne McMonagle": 1,
-        "W J Lee": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007866",
-          "course": "Fairyhouse",
-          "date": "2026-07-01",
-          "off_time": "7:55",
-          "off_dt": "2026-07-01T19:55:00+01:00",
-          "race_name": "Early Bird Winter Festival Tickets At Fairyhouse.ie Handicap (0-60)",
-          "distance_f": 8.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "William F Browne",
-          "horse_id": "hrs_41051871",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Paul W Flynn",
-          "trainer_id": "trn_171756",
-          "jockey": "Robert Whearty",
-          "jockey_id": "jky_302925",
-          "draw": 11,
-          "number": 3,
-          "lbs": 141,
-          "ofr": "59",
-          "last_run": 13,
-          "form": "097-03",
-          "headgear": "tp",
-          "_stored_at": "2026-06-30T23:10:51.063199+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12016277",
-          "course": "Leopardstown",
-          "date": "2026-07-09",
-          "off_time": "7:38",
-          "off_dt": "2026-07-09T19:38:00+01:00",
-          "race_name": "Mervue Equine Handicap (0-60)",
-          "distance_f": 9.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 22,
-          "horse": "William F Browne",
-          "horse_id": "hrs_41051871",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Paul W Flynn",
-          "trainer_id": "trn_171756",
-          "jockey": "Dylan Browne McMonagle",
-          "jockey_id": "jky_299181",
-          "draw": 24,
-          "number": null,
-          "lbs": 141,
-          "ofr": "59",
-          "last_run": 8,
-          "form": "97-037",
-          "headgear": "v"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000962",
-          "course": "Killarney",
-          "date": "2026-07-15",
-          "off_time": "7:30",
-          "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "William F Browne",
-          "horse_id": "hrs_41051871",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Paul W Flynn",
-          "trainer_id": "trn_171756",
-          "jockey": "W J Lee",
-          "jockey_id": "jky_244275",
-          "draw": 9,
-          "number": 3,
-          "lbs": 141,
-          "ofr": "59",
-          "last_run": 14,
-          "form": "97-037",
-          "headgear": "v"
-        }
-      ],
-      "profile_notes": [
-        "Profile has multiple stored runs",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Fairyhouse",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 35,
-      "profile_strengths": [],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Killarney",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 44,
-        "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
-      }
-    },
-    {
-      "horse": "Tortola",
-      "horse_id": "hrs_43667351",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Killarney",
-      "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Eoin Griffin",
-      "latest_jockey": "Dylan Browne McMonagle",
-      "latest_draw": 3,
-      "latest_weight_lbs": 135,
-      "official_rating": "53",
-      "recent_form": "3-5702",
-      "last_run_days": 13,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Bellewstown": 1,
-        "Killarney": 1
-      },
-      "distances_seen": {
-        "8.0": 2
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Andrew Slattery": 1,
-        "Eoin Griffin": 1
-      },
-      "jockeys_seen": {
-        "Luke McAteer": 1,
-        "Dylan Browne McMonagle": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 31,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Stable in form +2 (1/1 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007996",
-          "course": "Bellewstown",
-          "date": "2026-07-02",
-          "off_time": "6:10",
-          "off_dt": "2026-07-02T18:10:00+01:00",
-          "race_name": "Ploughman Bar And Grill Handicap (0-60)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Tortola",
-          "horse_id": "hrs_43667351",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Andrew Slattery",
-          "trainer_id": "trn_95292",
-          "jockey": "Luke McAteer",
-          "jockey_id": "jky_289707",
-          "draw": 11,
-          "number": 10,
-          "lbs": 134,
-          "ofr": "52",
-          "last_run": 139,
-          "form": "83-570",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:33.469311+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000962",
-          "course": "Killarney",
-          "date": "2026-07-15",
-          "off_time": "7:30",
-          "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Tortola",
-          "horse_id": "hrs_43667351",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Eoin Griffin",
-          "trainer_id": "trn_72864",
-          "jockey": "Dylan Browne McMonagle",
-          "jockey_id": "jky_299181",
-          "draw": 3,
-          "number": 9,
-          "lbs": 135,
-          "ofr": "53",
-          "last_run": 13,
-          "form": "3-5702",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 61,
-      "horse_intelligence_score": 32,
       "profile_strengths": [
-        "Today's distance matches strongest profile pattern"
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
+        "Distance not yet a clear profile strength",
+        "Low latest Pulse Score"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 31,
+        "latest_pulse_score": 36,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -2150,11 +2218,11 @@
       "sex": "filly",
       "latest_course": "Killarney",
       "latest_time": "7:30",
-      "latest_race": "Executive Helicopters Handicap (0-60)",
+      "latest_race": "Executive Helicopters Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 8.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Andrew Slattery",
       "latest_jockey": "Feenagh Moran(10)",
@@ -2175,7 +2243,8 @@
         "8.0": 1
       },
       "goings_seen": {
-        "Good": 2
+        "Good": 2,
+        "Good To Firm": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -2187,10 +2256,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 32,
+      "latest_pulse_score": 17,
       "latest_notes": [
         "Weak recent form",
-        "Good recent run timing"
+        "Questionable run timing",
+        "Sharp return concern -3",
+        "Jockey concern -2"
       ],
       "runs": [
         {
@@ -2222,7 +2293,7 @@
           "last_run": 56,
           "form": "18-699",
           "headgear": "",
-          "_stored_at": "2026-06-30T01:49:59.187993+00:00"
+          "_stored_at": "2026-06-30T05:14:29.101205+00:00"
         },
         {
           "source": "the_racing_api",
@@ -2235,7 +2306,7 @@
           "distance_f": 9.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 22,
           "horse": "Shahada Ace",
@@ -2261,11 +2332,11 @@
           "date": "2026-07-15",
           "off_time": "7:30",
           "off_dt": "2026-07-15T19:30:00+01:00",
-          "race_name": "Executive Helicopters Handicap (0-60)",
+          "race_name": "Executive Helicopters Handicap",
           "distance_f": 8.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 13,
           "horse": "Shahada Ace",
@@ -2304,24 +2375,25 @@
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 30,
-      "profile_strengths": [],
+      "suitability_score": 62,
+      "horse_intelligence_score": 26,
+      "profile_strengths": [
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Killarney",
         "latest_distance_f": 8.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 32,
+        "latest_pulse_score": 17,
         "average_pulse_score": 0,
         "profile_runs": 3,
         "runs_count": 3
@@ -2332,6 +2404,6 @@
     "James Henry is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Bella Colombia is flagged as a possible dark horse."
+    "Tortola is flagged as a possible dark horse."
   ]
 }

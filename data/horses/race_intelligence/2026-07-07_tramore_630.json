@@ -5,134 +5,14 @@
   "time": "6:30",
   "race_name": "Irish Stallion Farms EBF Fillies Handicap",
   "field_size": 6,
-  "average_intelligence": 48.33,
-  "top_score": 56,
-  "second_score": 52,
-  "gap": 4,
-  "confidence_score": 49,
+  "average_intelligence": 24.0,
+  "top_score": 24,
+  "second_score": 24,
+  "gap": 0,
+  "confidence_score": 19,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Kashel Spring",
-    "horse_id": "hrs_52087168",
-    "age": 4,
-    "sex": "filly",
-    "latest_course": "Tramore",
-    "latest_time": "6:30",
-    "latest_race": "Irish Stallion Farms EBF Fillies Handicap",
-    "latest_date": "2026-07-07",
-    "latest_distance_f": 12.0,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Denis Gerard Hogan",
-    "latest_jockey": "Alan Casey(7)",
-    "latest_draw": 2,
-    "latest_weight_lbs": 144,
-    "official_rating": "79",
-    "recent_form": "81414-",
-    "last_run_days": null,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Tramore": 1
-    },
-    "distances_seen": {
-      "12.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Denis Gerard Hogan": 1
-    },
-    "jockeys_seen": {
-      "Alan Casey(7)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 72,
-    "latest_notes": [
-      "Strong recent form",
-      "Helpful draw",
-      "Stable flying +4 (3/9 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12016173",
-        "course": "Tramore",
-        "date": "2026-07-07",
-        "off_time": "6:30",
-        "off_dt": "2026-07-07T18:30:00+01:00",
-        "race_name": "Irish Stallion Farms EBF Fillies Handicap",
-        "distance_f": 12.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 6,
-        "horse": "Kashel Spring",
-        "horse_id": "hrs_52087168",
-        "age": 4,
-        "sex": "filly",
-        "trainer": "Denis Gerard Hogan",
-        "trainer_id": "trn_196911",
-        "jockey": "Alan Casey(7)",
-        "jockey_id": "jky_311247",
-        "draw": 2,
-        "number": 1,
-        "lbs": 144,
-        "ofr": "79",
-        "last_run": null,
-        "form": "81414-",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ],
-    "favourite_course": {
-      "value": "Tramore",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 12.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 56,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Tramore",
-      "latest_distance_f": 12.0,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 72,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Daboya",
     "horse_id": "hrs_40646753",
     "age": 5,
@@ -171,13 +51,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 63,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Jockey in form +2 (3/15 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -192,7 +67,7 @@
         "race_type": "Flat",
         "going": "Good",
         "surface": "Turf",
-        "field_size": 6,
+        "field_size": 7,
         "horse": "Daboya",
         "horse_id": "hrs_40646753",
         "age": 5,
@@ -229,13 +104,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 52,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -244,13 +120,13 @@
       "latest_distance_f": 12.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 63,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
+  "main_threat": {
     "horse": "Justenzia",
     "horse_id": "hrs_45982377",
     "age": 4,
@@ -289,14 +165,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 56,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Stable flying +4 (3/9 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -311,7 +181,7 @@
         "race_type": "Flat",
         "going": "Good",
         "surface": "Turf",
-        "field_size": 6,
+        "field_size": 7,
         "horse": "Justenzia",
         "horse_id": "hrs_45982377",
         "age": 4,
@@ -321,7 +191,7 @@
         "jockey": "J M Sheridan",
         "jockey_id": "jky_297513",
         "draw": 1,
-        "number": null,
+        "number": 5,
         "lbs": 135,
         "ofr": "70",
         "last_run": 15,
@@ -350,13 +220,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 49,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -365,133 +236,129 @@
       "latest_distance_f": 12.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 56,
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Kashel Spring",
+    "horse_id": "hrs_52087168",
+    "age": 4,
+    "sex": "filly",
+    "latest_course": "Tramore",
+    "latest_time": "6:30",
+    "latest_race": "Irish Stallion Farms EBF Fillies Handicap",
+    "latest_date": "2026-07-07",
+    "latest_distance_f": 12.0,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Denis Gerard Hogan",
+    "latest_jockey": "Alan Casey(7)",
+    "latest_draw": 2,
+    "latest_weight_lbs": 144,
+    "official_rating": "79",
+    "recent_form": "81414-",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Tramore": 1
+    },
+    "distances_seen": {
+      "12.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Denis Gerard Hogan": 1
+    },
+    "jockeys_seen": {
+      "Alan Casey(7)": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12016173",
+        "course": "Tramore",
+        "date": "2026-07-07",
+        "off_time": "6:30",
+        "off_dt": "2026-07-07T18:30:00+01:00",
+        "race_name": "Irish Stallion Farms EBF Fillies Handicap",
+        "distance_f": 12.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Kashel Spring",
+        "horse_id": "hrs_52087168",
+        "age": 4,
+        "sex": "filly",
+        "trainer": "Denis Gerard Hogan",
+        "trainer_id": "trn_196911",
+        "jockey": "Alan Casey(7)",
+        "jockey_id": "jky_311247",
+        "draw": 2,
+        "number": 1,
+        "lbs": 144,
+        "ofr": "79",
+        "last_run": null,
+        "form": "81414-",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Tramore",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 12.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Tramore",
+      "latest_distance_f": 12.0,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Kashel Spring",
-      "horse_id": "hrs_52087168",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Tramore",
-      "latest_time": "6:30",
-      "latest_race": "Irish Stallion Farms EBF Fillies Handicap",
-      "latest_date": "2026-07-07",
-      "latest_distance_f": 12.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Denis Gerard Hogan",
-      "latest_jockey": "Alan Casey(7)",
-      "latest_draw": 2,
-      "latest_weight_lbs": 144,
-      "official_rating": "79",
-      "recent_form": "81414-",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Tramore": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Denis Gerard Hogan": 1
-      },
-      "jockeys_seen": {
-        "Alan Casey(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 72,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Stable flying +4 (3/9 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12016173",
-          "course": "Tramore",
-          "date": "2026-07-07",
-          "off_time": "6:30",
-          "off_dt": "2026-07-07T18:30:00+01:00",
-          "race_name": "Irish Stallion Farms EBF Fillies Handicap",
-          "distance_f": 12.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Kashel Spring",
-          "horse_id": "hrs_52087168",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Denis Gerard Hogan",
-          "trainer_id": "trn_196911",
-          "jockey": "Alan Casey(7)",
-          "jockey_id": "jky_311247",
-          "draw": 2,
-          "number": 1,
-          "lbs": 144,
-          "ofr": "79",
-          "last_run": null,
-          "form": "81414-",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Tramore",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Tramore",
-        "latest_distance_f": 12.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 72,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Daboya",
       "horse_id": "hrs_40646753",
@@ -531,13 +398,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 63,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey in form +2 (3/15 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -552,7 +414,7 @@
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 6,
+          "field_size": 7,
           "horse": "Daboya",
           "horse_id": "hrs_40646753",
           "age": 5,
@@ -589,13 +451,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -604,7 +467,7 @@
         "latest_distance_f": 12.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 63,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -649,14 +512,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 56,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Stable flying +4 (3/9 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -671,7 +528,7 @@
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 6,
+          "field_size": 7,
           "horse": "Justenzia",
           "horse_id": "hrs_45982377",
           "age": 4,
@@ -681,7 +538,7 @@
           "jockey": "J M Sheridan",
           "jockey_id": "jky_297513",
           "draw": 1,
-          "number": null,
+          "number": 5,
           "lbs": 135,
           "ofr": "70",
           "last_run": 15,
@@ -710,13 +567,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 49,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -725,17 +583,17 @@
         "latest_distance_f": 12.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 56,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Questionable",
-      "horse_id": "hrs_40592202",
-      "age": 5,
-      "sex": "mare",
+      "horse": "Kashel Spring",
+      "horse_id": "hrs_52087168",
+      "age": 4,
+      "sex": "filly",
       "latest_course": "Tramore",
       "latest_time": "6:30",
       "latest_race": "Irish Stallion Farms EBF Fillies Handicap",
@@ -744,12 +602,12 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Eamonn O'Connell",
-      "latest_jockey": "Hugo Tavares Oliveira",
-      "latest_draw": 3,
-      "latest_weight_lbs": 132,
-      "official_rating": "67",
-      "recent_form": "/9554-",
+      "latest_trainer": "Denis Gerard Hogan",
+      "latest_jockey": "Alan Casey(7)",
+      "latest_draw": 2,
+      "latest_weight_lbs": 144,
+      "official_rating": "79",
+      "recent_form": "81414-",
       "last_run_days": null,
       "profile_runs": 1,
       "courses_seen": {
@@ -763,18 +621,15 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Eamonn O'Connell": 1
+        "Denis Gerard Hogan": 1
       },
       "jockeys_seen": {
-        "Hugo Tavares Oliveira": 1
+        "Alan Casey(7)": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 47,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -789,22 +644,22 @@
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 6,
-          "horse": "Questionable",
-          "horse_id": "hrs_40592202",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Eamonn O'Connell",
-          "trainer_id": "trn_186300",
-          "jockey": "Hugo Tavares Oliveira",
-          "jockey_id": "jky_304347",
-          "draw": 3,
-          "number": 7,
-          "lbs": 132,
-          "ofr": "67",
+          "field_size": 7,
+          "horse": "Kashel Spring",
+          "horse_id": "hrs_52087168",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Denis Gerard Hogan",
+          "trainer_id": "trn_196911",
+          "jockey": "Alan Casey(7)",
+          "jockey_id": "jky_311247",
+          "draw": 2,
+          "number": 1,
+          "lbs": 144,
+          "ofr": "79",
           "last_run": null,
-          "form": "/9554-",
-          "headgear": "t"
+          "form": "81414-",
+          "headgear": ""
         }
       ],
       "profile_notes": [
@@ -828,13 +683,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 45,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -843,124 +699,7 @@
         "latest_distance_f": 12.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 47,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Sea Coral",
-      "horse_id": "hrs_45007480",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Tramore",
-      "latest_time": "6:30",
-      "latest_race": "Irish Stallion Farms EBF Fillies Handicap",
-      "latest_date": "2026-07-07",
-      "latest_distance_f": 12.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mrs John Harrington",
-      "latest_jockey": "Keithen Kennedy(5)",
-      "latest_draw": 5,
-      "latest_weight_lbs": 144,
-      "official_rating": "79",
-      "recent_form": "620-00",
-      "last_run_days": 44,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Tramore": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Mrs John Harrington": 1
-      },
-      "jockeys_seen": {
-        "Keithen Kennedy(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Stable flying +4 (3/9 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12016173",
-          "course": "Tramore",
-          "date": "2026-07-07",
-          "off_time": "6:30",
-          "off_dt": "2026-07-07T18:30:00+01:00",
-          "race_name": "Irish Stallion Farms EBF Fillies Handicap",
-          "distance_f": 12.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Sea Coral",
-          "horse_id": "hrs_45007480",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Mrs John Harrington",
-          "trainer_id": "trn_11565",
-          "jockey": "Keithen Kennedy(5)",
-          "jockey_id": "jky_309135",
-          "draw": 5,
-          "number": 2,
-          "lbs": 144,
-          "ofr": "79",
-          "last_run": 44,
-          "form": "620-00",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Tramore",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Tramore",
-        "latest_distance_f": 12.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 46,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1005,12 +744,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 43,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1025,7 +760,7 @@
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 6,
+          "field_size": 7,
           "horse": "La Dame Blanche",
           "horse_id": "hrs_29919085",
           "age": 7,
@@ -1062,13 +797,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 43,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1077,7 +813,237 @@
         "latest_distance_f": 12.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 43,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Questionable",
+      "horse_id": "hrs_40592202",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Tramore",
+      "latest_time": "6:30",
+      "latest_race": "Irish Stallion Farms EBF Fillies Handicap",
+      "latest_date": "2026-07-07",
+      "latest_distance_f": 12.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Eamonn O'Connell",
+      "latest_jockey": "Hugo Tavares Oliveira",
+      "latest_draw": 3,
+      "latest_weight_lbs": 132,
+      "official_rating": "67",
+      "recent_form": "/9554-",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Tramore": 1
+      },
+      "distances_seen": {
+        "12.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Eamonn O'Connell": 1
+      },
+      "jockeys_seen": {
+        "Hugo Tavares Oliveira": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12016173",
+          "course": "Tramore",
+          "date": "2026-07-07",
+          "off_time": "6:30",
+          "off_dt": "2026-07-07T18:30:00+01:00",
+          "race_name": "Irish Stallion Farms EBF Fillies Handicap",
+          "distance_f": 12.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Questionable",
+          "horse_id": "hrs_40592202",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Eamonn O'Connell",
+          "trainer_id": "trn_186300",
+          "jockey": "Hugo Tavares Oliveira",
+          "jockey_id": "jky_304347",
+          "draw": 3,
+          "number": 7,
+          "lbs": 132,
+          "ofr": "67",
+          "last_run": null,
+          "form": "/9554-",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Tramore",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Tramore",
+        "latest_distance_f": 12.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Sea Coral",
+      "horse_id": "hrs_45007480",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Tramore",
+      "latest_time": "6:30",
+      "latest_race": "Irish Stallion Farms EBF Fillies Handicap",
+      "latest_date": "2026-07-07",
+      "latest_distance_f": 12.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Mrs John Harrington",
+      "latest_jockey": "Keithen Kennedy(5)",
+      "latest_draw": 5,
+      "latest_weight_lbs": 144,
+      "official_rating": "79",
+      "recent_form": "620-00",
+      "last_run_days": 44,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Tramore": 1
+      },
+      "distances_seen": {
+        "12.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Mrs John Harrington": 1
+      },
+      "jockeys_seen": {
+        "Keithen Kennedy(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12016173",
+          "course": "Tramore",
+          "date": "2026-07-07",
+          "off_time": "6:30",
+          "off_dt": "2026-07-07T18:30:00+01:00",
+          "race_name": "Irish Stallion Farms EBF Fillies Handicap",
+          "distance_f": 12.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Sea Coral",
+          "horse_id": "hrs_45007480",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Mrs John Harrington",
+          "trainer_id": "trn_11565",
+          "jockey": "Keithen Kennedy(5)",
+          "jockey_id": "jky_309135",
+          "draw": 5,
+          "number": 2,
+          "lbs": 144,
+          "ofr": "79",
+          "last_run": 44,
+          "form": "620-00",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Tramore",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Tramore",
+        "latest_distance_f": 12.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1085,8 +1051,9 @@
     }
   ],
   "notes": [
-    "Kashel Spring is the top-rated Pulse IQ runner.",
+    "Daboya is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Justenzia is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Kashel Spring is flagged as a possible dark horse."
   ]
 }

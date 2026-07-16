@@ -5,11 +5,11 @@
   "time": "4:22",
   "race_name": "Preventapest Handicap",
   "field_size": 5,
-  "average_intelligence": 54.0,
-  "top_score": 60,
-  "second_score": 60,
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
   "gap": 0,
-  "confidence_score": 47,
+  "confidence_score": 22,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -53,14 +53,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 73,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Jockey bonus +3"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -118,15 +112,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 60,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -135,7 +129,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 73,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -182,16 +176,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 73,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer concern -2",
-      "Jockey bonus +3",
-      "Jockey in form +2 (2/5 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -249,15 +235,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 60,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -266,16 +252,16 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 73,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Orchard",
-    "horse_id": "hrs_44199162",
-    "age": 4,
+    "horse": "Port Erin",
+    "horse_id": "hrs_32472741",
+    "age": 6,
     "sex": "gelding",
     "latest_course": "Ffos Las",
     "latest_time": "4:22",
@@ -285,13 +271,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Warren Greatrex",
-    "latest_jockey": "Edward Greatrex",
-    "latest_draw": 3,
-    "latest_weight_lbs": 134,
-    "official_rating": "73",
-    "recent_form": "/210-3",
-    "last_run_days": 25,
+    "latest_trainer": "Tony Carroll",
+    "latest_jockey": "Billy Loughnane",
+    "latest_draw": 1,
+    "latest_weight_lbs": 133,
+    "official_rating": "72",
+    "recent_form": "109-08",
+    "last_run_days": 24,
     "profile_runs": 1,
     "courses_seen": {
       "Ffos Las": 1
@@ -306,23 +292,15 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Warren Greatrex": 1
+      "Tony Carroll": 1
     },
     "jockeys_seen": {
-      "Edward Greatrex": 1
+      "Billy Loughnane": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 73,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer concern -2",
-      "Jockey bonus +3",
-      "Jockey in form +2 (2/5 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -338,22 +316,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 6,
-        "horse": "Orchard",
-        "horse_id": "hrs_44199162",
-        "age": 4,
+        "horse": "Port Erin",
+        "horse_id": "hrs_32472741",
+        "age": 6,
         "sex": "gelding",
-        "trainer": "Warren Greatrex",
-        "trainer_id": "trn_198099",
-        "jockey": "Edward Greatrex",
-        "jockey_id": "jky_282474",
-        "draw": 3,
-        "number": 3,
-        "lbs": 134,
-        "ofr": "73",
-        "last_run": 25,
-        "form": "/210-3",
+        "trainer": "Tony Carroll",
+        "trainer_id": "trn_87426",
+        "jockey": "Billy Loughnane",
+        "jockey_id": "jky_233301",
+        "draw": 1,
+        "number": 5,
+        "lbs": 133,
+        "ofr": "72",
+        "last_run": 24,
+        "form": "109-08",
         "headgear": "",
-        "_stored_at": "2026-06-29T11:41:30.190636+00:00"
+        "_stored_at": "2026-06-29T11:41:30.228429+00:00"
       }
     ],
     "profile_notes": [
@@ -380,15 +358,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 60,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -397,7 +375,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 73,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -445,14 +423,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 73,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey bonus +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -510,15 +482,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 60,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -527,7 +499,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 73,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -574,16 +546,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 73,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer concern -2",
-        "Jockey bonus +3",
-        "Jockey in form +2 (2/5 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -641,15 +605,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 60,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -658,136 +622,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 73,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Pulsar Star",
-      "horse_id": "hrs_55454140",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Ffos Las",
-      "latest_time": "4:22",
-      "latest_race": "Preventapest Handicap",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Thomas Faulkner",
-      "latest_jockey": "David Egan",
-      "latest_draw": 6,
-      "latest_weight_lbs": 133,
-      "official_rating": "72",
-      "recent_form": "4-2296",
-      "last_run_days": 15,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Ffos Las": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Thomas Faulkner": 1
-      },
-      "jockeys_seen": {
-        "David Egan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 65,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey bonus +2",
-        "Jockey in form +2 (2/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006358",
-          "course": "Ffos Las",
-          "date": "2026-06-29",
-          "off_time": "4:22",
-          "off_dt": "2026-06-29T16:22:00+01:00",
-          "race_name": "Preventapest Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Pulsar Star",
-          "horse_id": "hrs_55454140",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Thomas Faulkner",
-          "trainer_id": "trn_374697",
-          "jockey": "David Egan",
-          "jockey_id": "jky_286164",
-          "draw": 6,
-          "number": 4,
-          "lbs": 133,
-          "ofr": "72",
-          "last_run": 15,
-          "form": "4-2296",
-          "headgear": "p",
-          "_stored_at": "2026-06-29T11:41:30.210286+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Ffos Las",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Ffos Las",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 65,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -834,15 +669,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey bonus +3",
-        "Jockey flying +4 (5/6 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -900,7 +728,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 48,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -908,6 +736,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -916,7 +745,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 46,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -963,12 +792,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 43,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1024,7 +849,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 46,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1032,6 +857,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1040,7 +866,128 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 43,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Pulsar Star",
+      "horse_id": "hrs_55454140",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Ffos Las",
+      "latest_time": "4:22",
+      "latest_race": "Preventapest Handicap",
+      "latest_date": "2026-06-29",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Thomas Faulkner",
+      "latest_jockey": "David Egan",
+      "latest_draw": 6,
+      "latest_weight_lbs": 133,
+      "official_rating": "72",
+      "recent_form": "4-2296",
+      "last_run_days": 15,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Ffos Las": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Thomas Faulkner": 1
+      },
+      "jockeys_seen": {
+        "David Egan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006358",
+          "course": "Ffos Las",
+          "date": "2026-06-29",
+          "off_time": "4:22",
+          "off_dt": "2026-06-29T16:22:00+01:00",
+          "race_name": "Preventapest Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Pulsar Star",
+          "horse_id": "hrs_55454140",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Thomas Faulkner",
+          "trainer_id": "trn_374697",
+          "jockey": "David Egan",
+          "jockey_id": "jky_286164",
+          "draw": 6,
+          "number": 4,
+          "lbs": 133,
+          "ofr": "72",
+          "last_run": 15,
+          "form": "4-2296",
+          "headgear": "p",
+          "_stored_at": "2026-06-29T11:41:30.210286+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Ffos Las",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Ffos Las",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1050,6 +997,7 @@
   "notes": [
     "Grey Soul is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Orchard is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Port Erin is flagged as a possible dark horse."
   ]
 }

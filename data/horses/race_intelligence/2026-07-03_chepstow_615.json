@@ -5,14 +5,135 @@
   "time": "6:15",
   "race_name": "Fairplay Daily Price Boosts Novice Stakes (GBB Race)",
   "field_size": 5,
-  "average_intelligence": 52.4,
-  "top_score": 60,
-  "second_score": 58,
-  "gap": 2,
-  "confidence_score": 49,
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 22,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Flagraiser",
+    "horse_id": "hrs_64847069",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Chepstow",
+    "latest_time": "6:15",
+    "latest_race": "Fairplay Daily Price Boosts Novice Stakes (GBB Race)",
+    "latest_date": "2026-07-03",
+    "latest_distance_f": 7.0,
+    "latest_class": "Class 4",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Daisy Hitchins",
+    "latest_jockey": "J F Egan",
+    "latest_draw": 4,
+    "latest_weight_lbs": 133,
+    "official_rating": "-",
+    "recent_form": "",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Chepstow": 1
+    },
+    "distances_seen": {
+      "7.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Daisy Hitchins": 1
+    },
+    "jockeys_seen": {
+      "J F Egan": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11997310",
+        "course": "Chepstow",
+        "date": "2026-07-03",
+        "off_time": "6:15",
+        "off_dt": "2026-07-03T18:15:00+01:00",
+        "race_name": "Fairplay Daily Price Boosts Novice Stakes (GBB Race)",
+        "distance_f": 7.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Flagraiser",
+        "horse_id": "hrs_64847069",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Daisy Hitchins",
+        "trainer_id": "trn_371358",
+        "jockey": "J F Egan",
+        "jockey_id": "jky_7368",
+        "draw": 4,
+        "number": 3,
+        "lbs": 133,
+        "ofr": "-",
+        "last_run": null,
+        "form": "",
+        "headgear": "",
+        "_stored_at": "2026-07-03T04:58:44.973422+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Chepstow",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 7.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Chepstow",
+      "latest_distance_f": 7.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 4",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Fractional",
     "horse_id": "hrs_56713272",
     "age": 3,
@@ -53,15 +174,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 74,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Race class strength +2",
-      "Trainer bonus +3",
-      "Jockey bonus +3"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -92,7 +206,7 @@
         "last_run": 22,
         "form": "53-52",
         "headgear": "h",
-        "_stored_at": "2026-07-03T00:36:57.253907+00:00"
+        "_stored_at": "2026-07-03T04:58:45.052779+00:00"
       }
     ],
     "profile_notes": [],
@@ -117,15 +231,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 60,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -134,139 +248,7 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": 74,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Name The Day",
-    "horse_id": "hrs_62394367",
-    "age": 3,
-    "sex": "filly",
-    "latest_course": "Chepstow",
-    "latest_time": "6:15",
-    "latest_race": "Fairplay Daily Price Boosts Novice Stakes (GBB Race)",
-    "latest_date": "2026-07-03",
-    "latest_distance_f": 7.0,
-    "latest_class": "Class 4",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Eve Johnson Houghton",
-    "latest_jockey": "Callum Hutchinson",
-    "latest_draw": 6,
-    "latest_weight_lbs": 128,
-    "official_rating": "-",
-    "recent_form": "49",
-    "last_run_days": 15,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Chepstow": 1
-    },
-    "distances_seen": {
-      "7.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "Eve Johnson Houghton": 1
-    },
-    "jockeys_seen": {
-      "Callum Hutchinson": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 69,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Race class strength +2",
-      "Trainer bonus +1",
-      "Stable flying +4 (4/5 last 14 days)",
-      "Jockey bonus +2",
-      "Jockey flying +4 (4/4 last 14 days)",
-      "Historical winner +3",
-      "Previous course winner +4"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11997310",
-        "course": "Chepstow",
-        "date": "2026-07-03",
-        "off_time": "6:15",
-        "off_dt": "2026-07-03T18:15:00+01:00",
-        "race_name": "Fairplay Daily Price Boosts Novice Stakes (GBB Race)",
-        "distance_f": 7.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Name The Day",
-        "horse_id": "hrs_62394367",
-        "age": 3,
-        "sex": "filly",
-        "trainer": "Eve Johnson Houghton",
-        "trainer_id": "trn_170280",
-        "jockey": "Callum Hutchinson",
-        "jockey_id": "jky_301080",
-        "draw": 6,
-        "number": 7,
-        "lbs": 128,
-        "ofr": "-",
-        "last_run": 15,
-        "form": "49",
-        "headgear": "",
-        "_stored_at": "2026-07-03T00:36:57.294690+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Chepstow",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 7.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 58,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Chepstow",
-      "latest_distance_f": 7.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 69,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -313,19 +295,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 69,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Race class strength +2",
-      "Trainer bonus +1",
-      "Stable flying +4 (4/5 last 14 days)",
-      "Jockey bonus +2",
-      "Jockey flying +4 (4/4 last 14 days)",
-      "Historical winner +3",
-      "Previous course winner +4"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -356,7 +327,7 @@
         "last_run": 15,
         "form": "49",
         "headgear": "",
-        "_stored_at": "2026-07-03T00:36:57.294690+00:00"
+        "_stored_at": "2026-07-03T04:58:45.077854+00:00"
       }
     ],
     "profile_notes": [],
@@ -381,15 +352,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 58,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -398,13 +369,134 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": 69,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Flagraiser",
+      "horse_id": "hrs_64847069",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Chepstow",
+      "latest_time": "6:15",
+      "latest_race": "Fairplay Daily Price Boosts Novice Stakes (GBB Race)",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Daisy Hitchins",
+      "latest_jockey": "J F Egan",
+      "latest_draw": 4,
+      "latest_weight_lbs": 133,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Chepstow": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Daisy Hitchins": 1
+      },
+      "jockeys_seen": {
+        "J F Egan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11997310",
+          "course": "Chepstow",
+          "date": "2026-07-03",
+          "off_time": "6:15",
+          "off_dt": "2026-07-03T18:15:00+01:00",
+          "race_name": "Fairplay Daily Price Boosts Novice Stakes (GBB Race)",
+          "distance_f": 7.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Flagraiser",
+          "horse_id": "hrs_64847069",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Daisy Hitchins",
+          "trainer_id": "trn_371358",
+          "jockey": "J F Egan",
+          "jockey_id": "jky_7368",
+          "draw": 4,
+          "number": 3,
+          "lbs": 133,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-03T04:58:44.973422+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Chepstow",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Chepstow",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Fractional",
       "horse_id": "hrs_56713272",
@@ -446,15 +538,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 74,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +2",
-        "Trainer bonus +3",
-        "Jockey bonus +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -485,7 +570,7 @@
           "last_run": 22,
           "form": "53-52",
           "headgear": "h",
-          "_stored_at": "2026-07-03T00:36:57.253907+00:00"
+          "_stored_at": "2026-07-03T04:58:45.052779+00:00"
         }
       ],
       "profile_notes": [],
@@ -510,15 +595,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 60,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -527,7 +612,7 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": 74,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -574,19 +659,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 69,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +2",
-        "Trainer bonus +1",
-        "Stable flying +4 (4/5 last 14 days)",
-        "Jockey bonus +2",
-        "Jockey flying +4 (4/4 last 14 days)",
-        "Historical winner +3",
-        "Previous course winner +4"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -617,7 +691,7 @@
           "last_run": 15,
           "form": "49",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:36:57.294690+00:00"
+          "_stored_at": "2026-07-03T04:58:45.077854+00:00"
         }
       ],
       "profile_notes": [],
@@ -642,133 +716,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 58,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Chepstow",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 69,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Vastern",
-      "horse_id": "hrs_56591038",
-      "age": 2,
-      "sex": "gelding",
-      "latest_course": "Chepstow",
-      "latest_time": "6:15",
-      "latest_race": "Fairplay Daily Price Boosts Novice Stakes (GBB Race)",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "George Boughey",
-      "latest_jockey": "Oisin Murphy",
-      "latest_draw": 7,
-      "latest_weight_lbs": 133,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Chepstow": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "George Boughey": 1
-      },
-      "jockeys_seen": {
-        "Oisin Murphy": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 49,
-      "latest_notes": [
-        "Race class strength +2",
-        "Trainer bonus +2",
-        "Jockey bonus +3",
-        "Jockey in form +2 (2/8 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11997310",
-          "course": "Chepstow",
-          "date": "2026-07-03",
-          "off_time": "6:15",
-          "off_dt": "2026-07-03T18:15:00+01:00",
-          "race_name": "Fairplay Daily Price Boosts Novice Stakes (GBB Race)",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Vastern",
-          "horse_id": "hrs_56591038",
-          "age": 2,
-          "sex": "gelding",
-          "trainer": "George Boughey",
-          "trainer_id": "trn_325899",
-          "jockey": "Oisin Murphy",
-          "jockey_id": "jky_278184",
-          "draw": 7,
-          "number": 5,
-          "lbs": 133,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-07-03T00:36:57.227874+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Chepstow",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 49,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -776,6 +724,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -784,7 +733,7 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": 49,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -831,13 +780,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -868,7 +812,7 @@
           "last_run": 44,
           "form": "407",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:36:57.192448+00:00"
+          "_stored_at": "2026-07-03T04:58:45.001451+00:00"
         }
       ],
       "profile_notes": [
@@ -895,7 +839,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 48,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -903,6 +847,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -911,16 +856,16 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": 46,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Flagraiser",
-      "horse_id": "hrs_64847069",
-      "age": 3,
+      "horse": "Vastern",
+      "horse_id": "hrs_56591038",
+      "age": 2,
       "sex": "gelding",
       "latest_course": "Chepstow",
       "latest_time": "6:15",
@@ -930,9 +875,9 @@
       "latest_class": "Class 4",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Daisy Hitchins",
-      "latest_jockey": "J F Egan",
-      "latest_draw": 4,
+      "latest_trainer": "George Boughey",
+      "latest_jockey": "Oisin Murphy",
+      "latest_draw": 7,
       "latest_weight_lbs": 133,
       "official_rating": "-",
       "recent_form": "",
@@ -951,18 +896,15 @@
         "Class 4": 1
       },
       "trainers_seen": {
-        "Daisy Hitchins": 1
+        "George Boughey": 1
       },
       "jockeys_seen": {
-        "J F Egan": 1
+        "Oisin Murphy": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Race class strength +2",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -978,22 +920,22 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 7,
-          "horse": "Flagraiser",
-          "horse_id": "hrs_64847069",
-          "age": 3,
+          "horse": "Vastern",
+          "horse_id": "hrs_56591038",
+          "age": 2,
           "sex": "gelding",
-          "trainer": "Daisy Hitchins",
-          "trainer_id": "trn_371358",
-          "jockey": "J F Egan",
-          "jockey_id": "jky_7368",
-          "draw": 4,
-          "number": 3,
+          "trainer": "George Boughey",
+          "trainer_id": "trn_325899",
+          "jockey": "Oisin Murphy",
+          "jockey_id": "jky_278184",
+          "draw": 7,
+          "number": 5,
           "lbs": 133,
           "ofr": "-",
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-03T00:36:57.137518+00:00"
+          "_stored_at": "2026-07-03T04:58:45.026960+00:00"
         }
       ],
       "profile_notes": [],
@@ -1018,7 +960,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 47,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1026,6 +968,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1034,7 +977,7 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1042,8 +985,9 @@
     }
   ],
   "notes": [
-    "Fractional is the top-rated Pulse IQ runner.",
+    "Flagraiser is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
+    "This race has a generally weak profile strength.",
     "Name The Day is flagged as a possible dark horse."
   ]
 }

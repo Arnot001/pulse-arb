@@ -1,6 +1,15 @@
 {% extends "base.html" %}
 
-{% block title %}Pulse Horses{% endblock %}
+{% block title %}Pulse Horses<script>
+const iqFilterForm = document.getElementById("horse-iq-filter-form");
+if (iqFilterForm) {
+    iqFilterForm.querySelectorAll('input[name="iq_band"]').forEach(input => {
+        input.addEventListener("change", () => iqFilterForm.submit());
+    });
+}
+</script>
+
+{% endblock %}
 
 {% block content %}
 
@@ -8,10 +17,17 @@
 
     <div class="pulse-page-header module-header">
         <div class="module-title-row">
-            <img src="/static/glyphs_transparent/horses.png" class="hero-icon" alt="">
+            <img
+                src="/static/glyphs_transparent/horses.png"
+                class="hero-icon"
+                alt=""
+            >
+
             <div>
                 <h1>Horse Picks</h1>
-                <p class="muted">Real Racing API data ranked by Pulse Score.</p>
+                <p class="muted">
+                    Real Racing API data ranked by Pulse Score.
+                </p>
             </div>
         </div>
     </div>
@@ -19,8 +35,65 @@
     <div class="horses-subnav">
         <a class="button" href="/horses/races">Today's Races</a>
         <a class="button" href="/horses/leaderboards">Leaderboards</a>
-        <a class="button" href="/horses/market-events">Market Intelligence</a>
-        <a class="button" href="/results-intelligence">Performance</a>
+        <a class="button" href="/horses/market-events">
+            Market Intelligence
+        </a>
+        <a class="button" href="/results-intelligence">
+            Performance
+        </a>
+    </div>
+
+    <div class="dashboard-card horse-iq-filter-card">
+        <div class="horse-iq-filter-heading">
+            <div>
+                <span class="horse-iq-filter-kicker">IQ Spectrum</span>
+                <h2>Choose Pulse IQ Bands</h2>
+                <p class="muted">Tap one or more score bands to build today’s shortlist.</p>
+            </div>
+            <div class="horse-iq-filter-count">
+                <span>Visible Picks</span>
+                <strong>{{ visible_card_count }} <small>/ {{ total_card_count }}</small></strong>
+            </div>
+        </div>
+
+        <form method="get" action="/horses" class="horse-iq-filter-form" id="horse-iq-filter-form">
+            <div class="horse-iq-spectrum">
+                {% for option in iq_options %}
+                    <label class="horse-iq-spectrum-card horse-iq-spectrum-{{ option.key }}">
+                        <input type="checkbox" name="iq_band" value="{{ option.key }}" {% if option.key in selected_iq_bands %}checked{% endif %}>
+                        <span class="horse-iq-spectrum-card-inner">
+                            <span class="horse-iq-spectrum-topline">
+                                <strong>{{ option.label }}</strong>
+                                <i class="horse-iq-check">✓</i>
+                            </span>
+                            <small>
+                                {% if option.key == "under_70" %}Deadwood
+                                {% elif option.key == "70_74" %}Entry Band
+                                {% elif option.key == "75_79" %}Competitive
+                                {% elif option.key == "80_84" %}Strong
+                                {% elif option.key == "85_89" %}High Confidence
+                                {% else %}Elite{% endif %}
+                            </small>
+                            <span class="horse-iq-spectrum-bar"><i></i></span>
+                        </span>
+                    </label>
+                {% endfor %}
+            </div>
+
+            <div class="horse-iq-filter-footer">
+                <div class="horse-iq-filter-summary">
+                    {% if selected_iq_bands %}
+                        Active:
+                        {% for option in iq_options %}
+                            {% if option.key in selected_iq_bands %}<strong>{{ option.label }}</strong>{% endif %}
+                        {% endfor %}
+                    {% else %}
+                        <strong>All IQ bands are visible.</strong>
+                    {% endif %}
+                </div>
+                <a class="horse-iq-reset-button" href="/horses">Reset</a>
+            </div>
+        </form>
     </div>
 
     <div class="dashboard-card module-status-card">
@@ -36,79 +109,140 @@
         </form>
     </div>
 
-    {% for card in cards %}
-        <div class="dashboard-card horse-intel-card">
+    {% if cards %}
+        {% for card in cards %}
+            <div class="dashboard-card horse-intel-card">
 
-            <div class="horse-card-top">
+                <div class="horse-card-top">
 
-                <div class="horse-card-info">
+                    <div class="horse-card-info">
 
-                    <div class="horse-name">
-                        <span class="horse-rank">#{{ card.rank }}</span>
-                        {{ card.horse }}
+                        <div class="horse-name">
+                            <span class="horse-rank">
+                                #{{ card.rank }}
+                            </span>
+
+                            {{ card.horse }}
+                        </div>
+
+                        <div class="race-meta">
+                            {{ card.course }} ·
+                            {{ card.time }} ·
+                            Form: {{ card.form }}
+                        </div>
+
+                        <div
+                            class="
+                                horse-confidence
+                                confidence-{{ card.confidence_colour }}
+                            "
+                        >
+                            {{ card.confidence }}
+                        </div>
+
                     </div>
 
-                    <div class="race-meta">
-                        {{ card.course }} · {{ card.time }} · Form: {{ card.form }}
-                    </div>
-
-                    <div class="horse-confidence confidence-{{ card.confidence_colour }}">
-                        {{ card.confidence }}
+                    <div
+                        class="
+                            horse-score-pill
+                            {{ card.score_class }}
+                        "
+                    >
+                        <span>IQ</span>
+                        <strong>{{ card.score }}</strong>
                     </div>
 
                 </div>
 
-                <div class="horse-score-pill {{ card.score_class }}">
-                    <span>IQ</span>
-                    <strong>{{ card.score }}</strong>
+                <div class="horse-intel-grid">
+
+                    <div class="intel-box">
+                        <span class="intel-label">
+                            Win Chance
+                        </span>
+
+                        <strong>{{ card.win_chance }}</strong>
+                    </div>
+
+                    <div class="intel-box">
+                        <span class="intel-label">
+                            Place Chance
+                        </span>
+
+                        <strong>{{ card.place_chance }}</strong>
+                    </div>
+
+                    <div class="intel-box">
+                        <span class="intel-label">
+                            Market Signal
+                        </span>
+
+                        <strong>{{ card.market_signal }}</strong>
+                    </div>
+
                 </div>
+
+                {% if card.notes %}
+                    <div class="notes">
+                        {% for note in card.notes %}
+                            <span class="badge">{{ note }}</span>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
+                {% if card.warnings %}
+                    <div class="notes note-block">
+                        <strong>Watch Outs</strong><br>
+
+                        {% for warning in card.warnings %}
+                            <span class="badge badge-avoid">
+                                {{ warning }}
+                            </span>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+
+                <a
+                    class="button"
+                    href="/horses/profile/{{ card.horse }}"
+                >
+                    Intelligence Profile →
+                </a>
 
             </div>
-
-            <div class="horse-intel-grid">
-
-                <div class="intel-box">
-                    <span class="intel-label">Win Chance</span>
-                    <strong>{{ card.win_chance }}</strong>
-                </div>
-
-                <div class="intel-box">
-                    <span class="intel-label">Place Chance</span>
-                    <strong>{{ card.place_chance }}</strong>
-                </div>
-
-                <div class="intel-box">
-                    <span class="intel-label">Market Signal</span>
-                    <strong>{{ card.market_signal }}</strong>
-                </div>
-
-            </div>
-
-            {% if card.notes %}
-                <div class="notes">
-                    {% for note in card.notes %}
-                        <span class="badge">{{ note }}</span>
-                    {% endfor %}
-                </div>
-            {% endif %}
-
-            {% if card.warnings %}
-                <div class="notes note-block">
-                    <strong>Watch Outs</strong><br>
-
-                    {% for warning in card.warnings %}
-                        <span class="badge badge-avoid">{{ warning }}</span>
-                    {% endfor %}
-                </div>
-            {% endif %}
-
-            <a class="button" href="/horses/profile/{{ card.horse }}">
-                Intelligence Profile →
-            </a>
-
+        {% endfor %}
+    {% else %}
+        <div class="dashboard-card horse-iq-empty-state">
+            <span class="horse-iq-empty-icon">◎</span>
+            <h2>No picks match those IQ bands</h2>
+            <p class="muted">
+                Select another band combination or show every horse pick.
+            </p>
+            <a class="button" href="/horses">Show All Picks</a>
         </div>
-    {% endfor %}
+    {% endif %}
 
 </div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const iqFilterForm = document.getElementById(
+        "horse-iq-filter-form"
+    );
+
+    if (!iqFilterForm) {
+        return;
+    }
+
+    iqFilterForm.querySelectorAll(
+        'input[name="iq_band"]'
+    ).forEach(input => {
+        input.addEventListener("change", () => {
+            iqFilterForm.submit();
+        });
+    });
+});
+</script>
 
 {% endblock %}

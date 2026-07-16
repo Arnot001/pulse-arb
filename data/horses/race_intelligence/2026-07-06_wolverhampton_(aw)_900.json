@@ -5,14 +5,164 @@
   "time": "9:00",
   "race_name": "Download The At The Races App Handicap",
   "field_size": 11,
-  "average_intelligence": 51.0,
-  "top_score": 64,
-  "second_score": 57,
-  "gap": 7,
-  "confidence_score": 59,
-  "confidence": "MEDIUM",
-  "race_shape": "COMPETITIVE EDGE",
+  "average_intelligence": 26.27,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 21,
+  "confidence": "LOW",
+  "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Barry's Boy",
+    "horse_id": "hrs_42452466",
+    "age": 4,
+    "sex": "gelding",
+    "latest_course": "Wolverhampton (AW)",
+    "latest_time": "9:00",
+    "latest_race": "Download The At The Races App Handicap",
+    "latest_date": "2026-07-06",
+    "latest_distance_f": 9.5,
+    "latest_class": "Class 5",
+    "latest_going": "Standard",
+    "latest_surface": "AW",
+    "latest_trainer": "Denis Coakley",
+    "latest_jockey": "George Bass",
+    "latest_draw": 5,
+    "latest_weight_lbs": 139,
+    "official_rating": "72",
+    "recent_form": "42-159",
+    "last_run_days": 34,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Wolverhampton (AW)": 2
+    },
+    "distances_seen": {
+      "9.5": 2
+    },
+    "goings_seen": {
+      "Standard": 2
+    },
+    "classes_seen": {
+      "Class 5": 2
+    },
+    "trainers_seen": {
+      "Denis Coakley": 2
+    },
+    "jockeys_seen": {
+      "George Bass": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11992032",
+        "course": "Wolverhampton (AW)",
+        "date": "2026-07-06",
+        "off_time": "9:00",
+        "off_dt": "2026-07-06T21:00:00+01:00",
+        "race_name": "Download The At The Races App Handicap",
+        "distance_f": 9.5,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Standard",
+        "surface": "AW",
+        "field_size": 12,
+        "horse": "Barry's Boy",
+        "horse_id": "hrs_42452466",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Denis Coakley",
+        "trainer_id": "trn_121302",
+        "jockey": "George Bass",
+        "jockey_id": "jky_290508",
+        "draw": 5,
+        "number": 6,
+        "lbs": 139,
+        "ofr": "72",
+        "last_run": 34,
+        "form": "42-159",
+        "headgear": ""
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11992032",
+        "course": "Wolverhampton (AW)",
+        "date": "2026-07-06",
+        "off_time": "9:00",
+        "off_dt": "2026-07-06T21:00:00+01:00",
+        "race_name": "Download The At The Races App Handicap",
+        "distance_f": 9.5,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Standard",
+        "surface": "AW",
+        "field_size": 10,
+        "horse": "Barry's Boy",
+        "horse_id": "hrs_42452466",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Denis Coakley",
+        "trainer_id": "trn_121302",
+        "jockey": "George Bass",
+        "jockey_id": "jky_290508",
+        "draw": 5,
+        "number": 6,
+        "lbs": 139,
+        "ofr": "72",
+        "last_run": 34,
+        "form": "42-159",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Wolverhampton (AW)",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 9.5,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Standard",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Wolverhampton (AW)",
+      "latest_distance_f": 9.5,
+      "latest_going": "Standard",
+      "latest_class": "Class 5",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "main_threat": {
     "horse": "Galaxy Wonder",
     "horse_id": "hrs_49939155",
     "age": 4,
@@ -53,15 +203,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 83,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Trainer bonus +1",
-      "Jockey bonus +2",
-      "Jockey flying +4 (3/4 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -121,11 +264,162 @@
         "ofr": "71",
         "last_run": 17,
         "form": "311225",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Wolverhampton (AW)",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 9.5,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Standard",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Wolverhampton (AW)",
+      "latest_distance_f": 9.5,
+      "latest_going": "Standard",
+      "latest_class": "Class 5",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "dark_horse": {
+    "horse": "Guitar Solo",
+    "horse_id": "hrs_57102843",
+    "age": 3,
+    "sex": "filly",
+    "latest_course": "Wolverhampton (AW)",
+    "latest_time": "9:00",
+    "latest_race": "Download The At The Races App Handicap",
+    "latest_date": "2026-07-06",
+    "latest_distance_f": 9.5,
+    "latest_class": "Class 5",
+    "latest_going": "Standard",
+    "latest_surface": "AW",
+    "latest_trainer": "Richard Hannon",
+    "latest_jockey": "Joe Leavy",
+    "latest_draw": 1,
+    "latest_weight_lbs": 129,
+    "official_rating": "72",
+    "recent_form": "5635",
+    "last_run_days": 14,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Wolverhampton (AW)": 2
+    },
+    "distances_seen": {
+      "9.5": 2
+    },
+    "goings_seen": {
+      "Standard": 2
+    },
+    "classes_seen": {
+      "Class 5": 2
+    },
+    "trainers_seen": {
+      "Richard Hannon": 2
+    },
+    "jockeys_seen": {
+      "Joe Leavy": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11992032",
+        "course": "Wolverhampton (AW)",
+        "date": "2026-07-06",
+        "off_time": "9:00",
+        "off_dt": "2026-07-06T21:00:00+01:00",
+        "race_name": "Download The At The Races App Handicap",
+        "distance_f": 9.5,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Standard",
+        "surface": "AW",
+        "field_size": 12,
+        "horse": "Guitar Solo",
+        "horse_id": "hrs_57102843",
+        "age": 3,
+        "sex": "filly",
+        "trainer": "Richard Hannon",
+        "trainer_id": "trn_259083",
+        "jockey": "Joe Leavy",
+        "jockey_id": "jky_303777",
+        "draw": 1,
+        "number": 11,
+        "lbs": 129,
+        "ofr": "72",
+        "last_run": 14,
+        "form": "5635",
+        "headgear": ""
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11992032",
+        "course": "Wolverhampton (AW)",
+        "date": "2026-07-06",
+        "off_time": "9:00",
+        "off_dt": "2026-07-06T21:00:00+01:00",
+        "race_name": "Download The At The Races App Handicap",
+        "distance_f": 9.5,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Standard",
+        "surface": "AW",
+        "field_size": 10,
+        "horse": "Guitar Solo",
+        "horse_id": "hrs_57102843",
+        "age": 3,
+        "sex": "filly",
+        "trainer": "Richard Hannon",
+        "trainer_id": "trn_259083",
+        "jockey": "Joe Leavy",
+        "jockey_id": "jky_303777",
+        "draw": 1,
+        "number": 11,
+        "lbs": 129,
+        "ofr": "72",
+        "last_run": 14,
+        "form": "5635",
         "headgear": ""
       }
     ],
     "profile_notes": [
-      "Elite latest Pulse Score"
+      "Low draw today",
+      "Recent run timing"
     ],
     "favourite_course": {
       "value": "Wolverhampton (AW)",
@@ -148,15 +442,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 64,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Elite latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -165,588 +459,13 @@
       "latest_distance_f": 9.5,
       "latest_going": "Standard",
       "latest_class": "Class 5",
-      "latest_pulse_score": 83,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-06",
-      "course": "Wolverhampton",
-      "race_time": "20:00",
-      "race_name": "Download The At The Races App Handicap",
-      "race_id": null,
-      "status": null,
-      "finish_position": 3,
-      "sp": "11/2",
-      "favourite_position": null,
-      "going": "Standard",
-      "distance": "1m 1f 104y",
-      "field_size": null,
-      "trainer": null,
-      "jockey": null,
-      "distance_beaten": null,
-      "won": false,
-      "placed": true,
-      "attached_at": "2026-07-15T19:52:08"
-    },
-    "latest_result_position": 3,
-    "latest_result_sp": "11/2",
-    "latest_result_won": false,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-06"
-  },
-  "main_threat": {
-    "horse": "Barry's Boy",
-    "horse_id": "hrs_42452466",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Wolverhampton (AW)",
-    "latest_time": "9:00",
-    "latest_race": "Download The At The Races App Handicap",
-    "latest_date": "2026-07-06",
-    "latest_distance_f": 9.5,
-    "latest_class": "Class 5",
-    "latest_going": "Standard",
-    "latest_surface": "AW",
-    "latest_trainer": "Denis Coakley",
-    "latest_jockey": "George Bass",
-    "latest_draw": 5,
-    "latest_weight_lbs": 139,
-    "official_rating": "72",
-    "recent_form": "42-159",
-    "last_run_days": 34,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Wolverhampton (AW)": 2
-    },
-    "distances_seen": {
-      "9.5": 2
-    },
-    "goings_seen": {
-      "Standard": 2
-    },
-    "classes_seen": {
-      "Class 5": 2
-    },
-    "trainers_seen": {
-      "Denis Coakley": 2
-    },
-    "jockeys_seen": {
-      "George Bass": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 66,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer concern -2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11992032",
-        "course": "Wolverhampton (AW)",
-        "date": "2026-07-06",
-        "off_time": "9:00",
-        "off_dt": "2026-07-06T21:00:00+01:00",
-        "race_name": "Download The At The Races App Handicap",
-        "distance_f": 9.5,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Standard",
-        "surface": "AW",
-        "field_size": 12,
-        "horse": "Barry's Boy",
-        "horse_id": "hrs_42452466",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Denis Coakley",
-        "trainer_id": "trn_121302",
-        "jockey": "George Bass",
-        "jockey_id": "jky_290508",
-        "draw": 5,
-        "number": 6,
-        "lbs": 139,
-        "ofr": "72",
-        "last_run": 34,
-        "form": "42-159",
-        "headgear": ""
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11992032",
-        "course": "Wolverhampton (AW)",
-        "date": "2026-07-06",
-        "off_time": "9:00",
-        "off_dt": "2026-07-06T21:00:00+01:00",
-        "race_name": "Download The At The Races App Handicap",
-        "distance_f": 9.5,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Standard",
-        "surface": "AW",
-        "field_size": 10,
-        "horse": "Barry's Boy",
-        "horse_id": "hrs_42452466",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Denis Coakley",
-        "trainer_id": "trn_121302",
-        "jockey": "George Bass",
-        "jockey_id": "jky_290508",
-        "draw": 5,
-        "number": 6,
-        "lbs": 139,
-        "ofr": "72",
-        "last_run": 34,
-        "form": "42-159",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Wolverhampton (AW)",
-      "runs": 2
-    },
-    "favourite_distance": {
-      "value": 9.5,
-      "runs": 2
-    },
-    "favourite_going": {
-      "value": "Standard",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 2
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 57,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Wolverhampton (AW)",
-      "latest_distance_f": 9.5,
-      "latest_going": "Standard",
-      "latest_class": "Class 5",
-      "latest_pulse_score": 66,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-06",
-      "course": "Wolverhampton",
-      "race_time": "20:00",
-      "race_name": "Download The At The Races App Handicap",
-      "race_id": null,
-      "status": null,
-      "finish_position": 2,
-      "sp": "5/1",
-      "favourite_position": null,
-      "going": "Standard",
-      "distance": "1m 1f 104y",
-      "field_size": null,
-      "trainer": null,
-      "jockey": null,
-      "distance_beaten": null,
-      "won": false,
-      "placed": true,
-      "attached_at": "2026-07-15T19:52:08"
-    },
-    "latest_result_position": 2,
-    "latest_result_sp": "5/1",
-    "latest_result_won": false,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-06"
-  },
-  "dark_horse": {
-    "horse": "Barry's Boy",
-    "horse_id": "hrs_42452466",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Wolverhampton (AW)",
-    "latest_time": "9:00",
-    "latest_race": "Download The At The Races App Handicap",
-    "latest_date": "2026-07-06",
-    "latest_distance_f": 9.5,
-    "latest_class": "Class 5",
-    "latest_going": "Standard",
-    "latest_surface": "AW",
-    "latest_trainer": "Denis Coakley",
-    "latest_jockey": "George Bass",
-    "latest_draw": 5,
-    "latest_weight_lbs": 139,
-    "official_rating": "72",
-    "recent_form": "42-159",
-    "last_run_days": 34,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Wolverhampton (AW)": 2
-    },
-    "distances_seen": {
-      "9.5": 2
-    },
-    "goings_seen": {
-      "Standard": 2
-    },
-    "classes_seen": {
-      "Class 5": 2
-    },
-    "trainers_seen": {
-      "Denis Coakley": 2
-    },
-    "jockeys_seen": {
-      "George Bass": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 66,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer concern -2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11992032",
-        "course": "Wolverhampton (AW)",
-        "date": "2026-07-06",
-        "off_time": "9:00",
-        "off_dt": "2026-07-06T21:00:00+01:00",
-        "race_name": "Download The At The Races App Handicap",
-        "distance_f": 9.5,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Standard",
-        "surface": "AW",
-        "field_size": 12,
-        "horse": "Barry's Boy",
-        "horse_id": "hrs_42452466",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Denis Coakley",
-        "trainer_id": "trn_121302",
-        "jockey": "George Bass",
-        "jockey_id": "jky_290508",
-        "draw": 5,
-        "number": 6,
-        "lbs": 139,
-        "ofr": "72",
-        "last_run": 34,
-        "form": "42-159",
-        "headgear": ""
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11992032",
-        "course": "Wolverhampton (AW)",
-        "date": "2026-07-06",
-        "off_time": "9:00",
-        "off_dt": "2026-07-06T21:00:00+01:00",
-        "race_name": "Download The At The Races App Handicap",
-        "distance_f": 9.5,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Standard",
-        "surface": "AW",
-        "field_size": 10,
-        "horse": "Barry's Boy",
-        "horse_id": "hrs_42452466",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Denis Coakley",
-        "trainer_id": "trn_121302",
-        "jockey": "George Bass",
-        "jockey_id": "jky_290508",
-        "draw": 5,
-        "number": 6,
-        "lbs": 139,
-        "ofr": "72",
-        "last_run": 34,
-        "form": "42-159",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Wolverhampton (AW)",
-      "runs": 2
-    },
-    "favourite_distance": {
-      "value": 9.5,
-      "runs": 2
-    },
-    "favourite_going": {
-      "value": "Standard",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 2
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 57,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Wolverhampton (AW)",
-      "latest_distance_f": 9.5,
-      "latest_going": "Standard",
-      "latest_class": "Class 5",
-      "latest_pulse_score": 66,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    },
-    "latest_result": {
-      "source": "sporting_life_enriched",
-      "result_date": "2026-07-06",
-      "course": "Wolverhampton",
-      "race_time": "20:00",
-      "race_name": "Download The At The Races App Handicap",
-      "race_id": null,
-      "status": null,
-      "finish_position": 2,
-      "sp": "5/1",
-      "favourite_position": null,
-      "going": "Standard",
-      "distance": "1m 1f 104y",
-      "field_size": null,
-      "trainer": null,
-      "jockey": null,
-      "distance_beaten": null,
-      "won": false,
-      "placed": true,
-      "attached_at": "2026-07-15T19:52:08"
-    },
-    "latest_result_position": 2,
-    "latest_result_sp": "5/1",
-    "latest_result_won": false,
-    "latest_result_placed": true,
-    "latest_result_date": "2026-07-06"
+    }
   },
   "runners": [
-    {
-      "horse": "Galaxy Wonder",
-      "horse_id": "hrs_49939155",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "9:00",
-      "latest_race": "Download The At The Races App Handicap",
-      "latest_date": "2026-07-06",
-      "latest_distance_f": 9.5,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Tony Carroll",
-      "latest_jockey": "Cieren Fallon",
-      "latest_draw": 8,
-      "latest_weight_lbs": 138,
-      "official_rating": "71",
-      "recent_form": "311225",
-      "last_run_days": 17,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Wolverhampton (AW)": 2
-      },
-      "distances_seen": {
-        "9.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {
-        "Class 5": 2
-      },
-      "trainers_seen": {
-        "Tony Carroll": 2
-      },
-      "jockeys_seen": {
-        "Cieren Fallon": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 83,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Trainer bonus +1",
-        "Jockey bonus +2",
-        "Jockey flying +4 (3/4 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992032",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "9:00",
-          "off_dt": "2026-07-06T21:00:00+01:00",
-          "race_name": "Download The At The Races App Handicap",
-          "distance_f": 9.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 12,
-          "horse": "Galaxy Wonder",
-          "horse_id": "hrs_49939155",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Tony Carroll",
-          "trainer_id": "trn_87426",
-          "jockey": "Cieren Fallon",
-          "jockey_id": "jky_295557",
-          "draw": 8,
-          "number": 8,
-          "lbs": 138,
-          "ofr": "71",
-          "last_run": 17,
-          "form": "311225",
-          "headgear": ""
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992032",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "9:00",
-          "off_dt": "2026-07-06T21:00:00+01:00",
-          "race_name": "Download The At The Races App Handicap",
-          "distance_f": 9.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 10,
-          "horse": "Galaxy Wonder",
-          "horse_id": "hrs_49939155",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Tony Carroll",
-          "trainer_id": "trn_87426",
-          "jockey": "Cieren Fallon",
-          "jockey_id": "jky_295557",
-          "draw": 8,
-          "number": 8,
-          "lbs": 138,
-          "ofr": "71",
-          "last_run": 17,
-          "form": "311225",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 9.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 64,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 9.5,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 83,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "20:00",
-        "race_name": "Download The At The Races App Handicap",
-        "race_id": null,
-        "status": null,
-        "finish_position": 3,
-        "sp": "11/2",
-        "favourite_position": null,
-        "going": "Standard",
-        "distance": "1m 1f 104y",
-        "field_size": null,
-        "trainer": null,
-        "jockey": null,
-        "distance_beaten": null,
-        "won": false,
-        "placed": true,
-        "attached_at": "2026-07-15T19:52:08"
-      },
-      "latest_result_position": 3,
-      "latest_result_sp": "11/2",
-      "latest_result_won": false,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-06"
-    },
     {
       "horse": "Barry's Boy",
       "horse_id": "hrs_42452466",
@@ -788,14 +507,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 66,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer concern -2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -880,15 +593,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 57,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
+        "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -897,37 +610,161 @@
         "latest_distance_f": 9.5,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": 66,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
+      }
+    },
+    {
+      "horse": "Galaxy Wonder",
+      "horse_id": "hrs_49939155",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "9:00",
+      "latest_race": "Download The At The Races App Handicap",
+      "latest_date": "2026-07-06",
+      "latest_distance_f": 9.5,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Tony Carroll",
+      "latest_jockey": "Cieren Fallon",
+      "latest_draw": 8,
+      "latest_weight_lbs": 138,
+      "official_rating": "71",
+      "recent_form": "311225",
+      "last_run_days": 17,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Wolverhampton (AW)": 2
       },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "20:00",
-        "race_name": "Download The At The Races App Handicap",
-        "race_id": null,
-        "status": null,
-        "finish_position": 2,
-        "sp": "5/1",
-        "favourite_position": null,
-        "going": "Standard",
-        "distance": "1m 1f 104y",
-        "field_size": null,
-        "trainer": null,
-        "jockey": null,
-        "distance_beaten": null,
-        "won": false,
-        "placed": true,
-        "attached_at": "2026-07-15T19:52:08"
+      "distances_seen": {
+        "9.5": 2
       },
-      "latest_result_position": 2,
-      "latest_result_sp": "5/1",
-      "latest_result_won": false,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-06"
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "Tony Carroll": 2
+      },
+      "jockeys_seen": {
+        "Cieren Fallon": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992032",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "9:00",
+          "off_dt": "2026-07-06T21:00:00+01:00",
+          "race_name": "Download The At The Races App Handicap",
+          "distance_f": 9.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 12,
+          "horse": "Galaxy Wonder",
+          "horse_id": "hrs_49939155",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Tony Carroll",
+          "trainer_id": "trn_87426",
+          "jockey": "Cieren Fallon",
+          "jockey_id": "jky_295557",
+          "draw": 8,
+          "number": 8,
+          "lbs": 138,
+          "ofr": "71",
+          "last_run": 17,
+          "form": "311225",
+          "headgear": ""
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992032",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "9:00",
+          "off_dt": "2026-07-06T21:00:00+01:00",
+          "race_name": "Download The At The Races App Handicap",
+          "distance_f": 9.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 10,
+          "horse": "Galaxy Wonder",
+          "horse_id": "hrs_49939155",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Tony Carroll",
+          "trainer_id": "trn_87426",
+          "jockey": "Cieren Fallon",
+          "jockey_id": "jky_295557",
+          "draw": 8,
+          "number": 8,
+          "lbs": 138,
+          "ofr": "71",
+          "last_run": 17,
+          "form": "311225",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 9.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 9.5,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
     },
     {
       "horse": "Guitar Solo",
@@ -970,15 +807,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 67,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +3",
-        "Stable flying +4 (9/15 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1066,190 +896,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 57,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 9.5,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 67,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      },
-      "latest_result": {
-        "source": "bbc_sport",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "21:00",
-        "race_name": "Download The At The Races App Handicap",
-        "race_id": "p-1571221",
-        "status": "PostEvent",
-        "finish_position": 8,
-        "sp": "40/1",
-        "favourite_position": 10,
-        "going": "Standard",
-        "distance": "1m 1f 104y",
-        "field_size": 10,
-        "trainer": "R Hannon",
-        "jockey": "Joe Leavy",
-        "distance_beaten": "SH",
-        "won": false,
-        "placed": false,
-        "attached_at": "2026-07-15T19:52:08"
-      },
-      "latest_result_position": 8,
-      "latest_result_sp": "40/1",
-      "latest_result_won": false,
-      "latest_result_placed": false,
-      "latest_result_date": "2026-07-06"
-    },
-    {
-      "horse": "Serious Look",
-      "horse_id": "hrs_31117814",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "9:00",
-      "latest_race": "Download The At The Races App Handicap",
-      "latest_date": "2026-07-06",
-      "latest_distance_f": 9.5,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Thomas Faulkner",
-      "latest_jockey": "Zoe Lewis(7)",
-      "latest_draw": 6,
-      "latest_weight_lbs": 139,
-      "official_rating": "72",
-      "recent_form": "262-15",
-      "last_run_days": 98,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Wolverhampton (AW)": 2
-      },
-      "distances_seen": {
-        "9.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {
-        "Class 5": 2
-      },
-      "trainers_seen": {
-        "Thomas Faulkner": 2
-      },
-      "jockeys_seen": {
-        "Zoe Lewis(7)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 62,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey in form +2 (1/1 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992032",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "9:00",
-          "off_dt": "2026-07-06T21:00:00+01:00",
-          "race_name": "Download The At The Races App Handicap",
-          "distance_f": 9.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 12,
-          "horse": "Serious Look",
-          "horse_id": "hrs_31117814",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Thomas Faulkner",
-          "trainer_id": "trn_374697",
-          "jockey": "Zoe Lewis(7)",
-          "jockey_id": "jky_303243",
-          "draw": 6,
-          "number": 4,
-          "lbs": 139,
-          "ofr": "72",
-          "last_run": 98,
-          "form": "262-15",
-          "headgear": ""
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992032",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "9:00",
-          "off_dt": "2026-07-06T21:00:00+01:00",
-          "race_name": "Download The At The Races App Handicap",
-          "distance_f": 9.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 10,
-          "horse": "Serious Look",
-          "horse_id": "hrs_31117814",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Thomas Faulkner",
-          "trainer_id": "trn_374697",
-          "jockey": "Zoe Lewis(7)",
-          "jockey_id": "jky_303243",
-          "draw": 6,
-          "number": 4,
-          "lbs": 139,
-          "ofr": "72",
-          "last_run": 98,
-          "form": "262-15",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 9.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 55,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1257,6 +904,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1265,400 +913,11 @@
         "latest_distance_f": 9.5,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": 62,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
-      },
-      "latest_result": {
-        "source": "bbc_sport",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "21:00",
-        "race_name": "Download The At The Races App Handicap",
-        "race_id": "p-1571221",
-        "status": "PostEvent",
-        "finish_position": 5,
-        "sp": "16/1",
-        "favourite_position": 9,
-        "going": "Standard",
-        "distance": "1m 1f 104y",
-        "field_size": 10,
-        "trainer": "T Faulkner",
-        "jockey": "Zoe Lewis",
-        "distance_beaten": "NK",
-        "won": false,
-        "placed": false,
-        "attached_at": "2026-07-15T19:52:08"
-      },
-      "latest_result_position": 5,
-      "latest_result_sp": "16/1",
-      "latest_result_won": false,
-      "latest_result_placed": false,
-      "latest_result_date": "2026-07-06"
-    },
-    {
-      "horse": "Primo Lara",
-      "horse_id": "hrs_37208038",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "9:00",
-      "latest_race": "Download The At The Races App Handicap",
-      "latest_date": "2026-07-06",
-      "latest_distance_f": 9.5,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Jack Morland",
-      "latest_jockey": "George Wood",
-      "latest_draw": 3,
-      "latest_weight_lbs": 142,
-      "official_rating": "75",
-      "recent_form": "9-9625",
-      "last_run_days": 22,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Wolverhampton (AW)": 2
-      },
-      "distances_seen": {
-        "9.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {
-        "Class 5": 2
-      },
-      "trainers_seen": {
-        "Jack Morland": 2
-      },
-      "jockeys_seen": {
-        "George Wood": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 59,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey in form +2 (1/5 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992032",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "9:00",
-          "off_dt": "2026-07-06T21:00:00+01:00",
-          "race_name": "Download The At The Races App Handicap",
-          "distance_f": 9.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 12,
-          "horse": "Primo Lara",
-          "horse_id": "hrs_37208038",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Jack Morland",
-          "trainer_id": "trn_376524",
-          "jockey": "George Wood",
-          "jockey_id": "jky_283725",
-          "draw": 3,
-          "number": 2,
-          "lbs": 142,
-          "ofr": "75",
-          "last_run": 22,
-          "form": "9-9625",
-          "headgear": "tb"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992032",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "9:00",
-          "off_dt": "2026-07-06T21:00:00+01:00",
-          "race_name": "Download The At The Races App Handicap",
-          "distance_f": 9.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 10,
-          "horse": "Primo Lara",
-          "horse_id": "hrs_37208038",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Jack Morland",
-          "trainer_id": "trn_376524",
-          "jockey": "George Wood",
-          "jockey_id": "jky_283725",
-          "draw": 3,
-          "number": 2,
-          "lbs": 142,
-          "ofr": "75",
-          "last_run": 22,
-          "form": "9-9625",
-          "headgear": "tb"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 9.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 9.5,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 59,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      },
-      "latest_result": {
-        "source": "sporting_life_enriched",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "20:00",
-        "race_name": "Download The At The Races App Handicap",
-        "race_id": null,
-        "status": null,
-        "finish_position": 1,
-        "sp": "13/2",
-        "favourite_position": null,
-        "going": "Standard",
-        "distance": "1m 1f 104y",
-        "field_size": null,
-        "trainer": null,
-        "jockey": null,
-        "distance_beaten": null,
-        "won": true,
-        "placed": true,
-        "attached_at": "2026-07-15T19:52:08"
-      },
-      "latest_result_position": 1,
-      "latest_result_sp": "13/2",
-      "latest_result_won": true,
-      "latest_result_placed": true,
-      "latest_result_date": "2026-07-06"
-    },
-    {
-      "horse": "Joseph",
-      "horse_id": "hrs_47250987",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "9:00",
-      "latest_race": "Download The At The Races App Handicap",
-      "latest_date": "2026-07-06",
-      "latest_distance_f": 9.5,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "John Butler",
-      "latest_jockey": "Jack Callan(3)",
-      "latest_draw": 10,
-      "latest_weight_lbs": 137,
-      "official_rating": "70",
-      "recent_form": "412010",
-      "last_run_days": 40,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Wolverhampton (AW)": 2
-      },
-      "distances_seen": {
-        "9.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {
-        "Class 5": 2
-      },
-      "trainers_seen": {
-        "John Butler": 2
-      },
-      "jockeys_seen": {
-        "Jack Callan(3)": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 58,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Trainer bonus +1",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992032",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "9:00",
-          "off_dt": "2026-07-06T21:00:00+01:00",
-          "race_name": "Download The At The Races App Handicap",
-          "distance_f": 9.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 12,
-          "horse": "Joseph",
-          "horse_id": "hrs_47250987",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "John Butler",
-          "trainer_id": "trn_235593",
-          "jockey": "Jack Callan(3)",
-          "jockey_id": "jky_307578",
-          "draw": 10,
-          "number": 9,
-          "lbs": 137,
-          "ofr": "70",
-          "last_run": 40,
-          "form": "412010",
-          "headgear": "p"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992032",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "9:00",
-          "off_dt": "2026-07-06T21:00:00+01:00",
-          "race_name": "Download The At The Races App Handicap",
-          "distance_f": 9.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 10,
-          "horse": "Joseph",
-          "horse_id": "hrs_47250987",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "John Butler",
-          "trainer_id": "trn_235593",
-          "jockey": "Jack Callan(3)",
-          "jockey_id": "jky_307578",
-          "draw": 10,
-          "number": 9,
-          "lbs": 137,
-          "ofr": "70",
-          "last_run": 40,
-          "form": "412010",
-          "headgear": "p"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 9.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 53,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 9.5,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 58,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      },
-      "latest_result": {
-        "source": "bbc_sport",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "21:00",
-        "race_name": "Download The At The Races App Handicap",
-        "race_id": "p-1571221",
-        "status": "PostEvent",
-        "finish_position": 4,
-        "sp": "14/1",
-        "favourite_position": 8,
-        "going": "Standard",
-        "distance": "1m 1f 104y",
-        "field_size": 10,
-        "trainer": "J Butler",
-        "jockey": "Jack Callan",
-        "distance_beaten": "1ÃÂ½L",
-        "won": false,
-        "placed": false,
-        "attached_at": "2026-07-15T19:52:08"
-      },
-      "latest_result_position": 4,
-      "latest_result_sp": "14/1",
-      "latest_result_won": false,
-      "latest_result_placed": false,
-      "latest_result_date": "2026-07-06"
+      }
     },
     {
       "horse": "Harbour Vision",
@@ -1703,12 +962,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 49,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw",
-        "Stable flying +4 (3/9 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1828,24 +1083,479 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 49,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
-      "profile_cautions": [],
+      "profile_cautions": [
+        "Low latest Pulse Score"
+      ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Wolverhampton (AW)",
         "latest_distance_f": 9.5,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": 49,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 3,
         "runs_count": 3
+      }
+    },
+    {
+      "horse": "Joseph",
+      "horse_id": "hrs_47250987",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "9:00",
+      "latest_race": "Download The At The Races App Handicap",
+      "latest_date": "2026-07-06",
+      "latest_distance_f": 9.5,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "John Butler",
+      "latest_jockey": "Jack Callan(3)",
+      "latest_draw": 10,
+      "latest_weight_lbs": 137,
+      "official_rating": "70",
+      "recent_form": "412010",
+      "last_run_days": 40,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Wolverhampton (AW)": 2
+      },
+      "distances_seen": {
+        "9.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "John Butler": 2
+      },
+      "jockeys_seen": {
+        "Jack Callan(3)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992032",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "9:00",
+          "off_dt": "2026-07-06T21:00:00+01:00",
+          "race_name": "Download The At The Races App Handicap",
+          "distance_f": 9.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 12,
+          "horse": "Joseph",
+          "horse_id": "hrs_47250987",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "John Butler",
+          "trainer_id": "trn_235593",
+          "jockey": "Jack Callan(3)",
+          "jockey_id": "jky_307578",
+          "draw": 10,
+          "number": 9,
+          "lbs": 137,
+          "ofr": "70",
+          "last_run": 40,
+          "form": "412010",
+          "headgear": "p"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992032",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "9:00",
+          "off_dt": "2026-07-06T21:00:00+01:00",
+          "race_name": "Download The At The Races App Handicap",
+          "distance_f": 9.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 10,
+          "horse": "Joseph",
+          "horse_id": "hrs_47250987",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "John Butler",
+          "trainer_id": "trn_235593",
+          "jockey": "Jack Callan(3)",
+          "jockey_id": "jky_307578",
+          "draw": 10,
+          "number": 9,
+          "lbs": 137,
+          "ofr": "70",
+          "last_run": 40,
+          "form": "412010",
+          "headgear": "p"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 9.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 9.5,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Phone Tag",
+      "horse_id": "hrs_35445459",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "9:00",
+      "latest_race": "Download The At The Races App Handicap",
+      "latest_date": "2026-07-06",
+      "latest_distance_f": 9.5,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Kevin & Lauren Frost",
+      "latest_jockey": "NON-RUNNER",
+      "latest_draw": 13,
+      "latest_weight_lbs": 142,
+      "official_rating": "75",
+      "recent_form": "0012-0",
+      "last_run_days": 51,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Wolverhampton (AW)": 2
+      },
+      "distances_seen": {
+        "9.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "Kevin Frost": 1,
+        "Kevin & Lauren Frost": 1
+      },
+      "jockeys_seen": {
+        "NON-RUNNER": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992032",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "9:00",
+          "off_dt": "2026-07-06T21:00:00+01:00",
+          "race_name": "Download The At The Races App Handicap",
+          "distance_f": 9.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 12,
+          "horse": "Phone Tag",
+          "horse_id": "hrs_35445459",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Kevin Frost",
+          "trainer_id": "trn_257130",
+          "jockey": "NON-RUNNER",
+          "jockey_id": "jky_224913",
+          "draw": 13,
+          "number": null,
+          "lbs": 142,
+          "ofr": "75",
+          "last_run": 51,
+          "form": "0012-0",
+          "headgear": ""
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992032",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "9:00",
+          "off_dt": "2026-07-06T21:00:00+01:00",
+          "race_name": "Download The At The Races App Handicap",
+          "distance_f": 9.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 10,
+          "horse": "Phone Tag",
+          "horse_id": "hrs_35445459",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Kevin & Lauren Frost",
+          "trainer_id": "trn_388557",
+          "jockey": "NON-RUNNER",
+          "jockey_id": "jky_224913",
+          "draw": 13,
+          "number": null,
+          "lbs": 142,
+          "ofr": "75",
+          "last_run": 51,
+          "form": "0012-0",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 9.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 9.5,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Primo Lara",
+      "horse_id": "hrs_37208038",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "9:00",
+      "latest_race": "Download The At The Races App Handicap",
+      "latest_date": "2026-07-06",
+      "latest_distance_f": 9.5,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Jack Morland",
+      "latest_jockey": "George Wood",
+      "latest_draw": 3,
+      "latest_weight_lbs": 142,
+      "official_rating": "75",
+      "recent_form": "9-9625",
+      "last_run_days": 22,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Wolverhampton (AW)": 2
+      },
+      "distances_seen": {
+        "9.5": 2
+      },
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "Jack Morland": 2
+      },
+      "jockeys_seen": {
+        "George Wood": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992032",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "9:00",
+          "off_dt": "2026-07-06T21:00:00+01:00",
+          "race_name": "Download The At The Races App Handicap",
+          "distance_f": 9.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 12,
+          "horse": "Primo Lara",
+          "horse_id": "hrs_37208038",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Jack Morland",
+          "trainer_id": "trn_376524",
+          "jockey": "George Wood",
+          "jockey_id": "jky_283725",
+          "draw": 3,
+          "number": 2,
+          "lbs": 142,
+          "ofr": "75",
+          "last_run": 22,
+          "form": "9-9625",
+          "headgear": "tb"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992032",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "9:00",
+          "off_dt": "2026-07-06T21:00:00+01:00",
+          "race_name": "Download The At The Races App Handicap",
+          "distance_f": 9.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 10,
+          "horse": "Primo Lara",
+          "horse_id": "hrs_37208038",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Jack Morland",
+          "trainer_id": "trn_376524",
+          "jockey": "George Wood",
+          "jockey_id": "jky_283725",
+          "draw": 3,
+          "number": 2,
+          "lbs": 142,
+          "ofr": "75",
+          "last_run": 22,
+          "form": "9-9625",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 9.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 9.5,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -1889,15 +1599,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 43,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Trainer bonus +1",
-        "Jockey bonus +2",
-        "Jockey in form +2 (2/2 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1982,7 +1685,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 46,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1990,6 +1693,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1998,37 +1702,163 @@
         "latest_distance_f": 9.5,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": 43,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
+      }
+    },
+    {
+      "horse": "Serious Look",
+      "horse_id": "hrs_31117814",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "9:00",
+      "latest_race": "Download The At The Races App Handicap",
+      "latest_date": "2026-07-06",
+      "latest_distance_f": 9.5,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Thomas Faulkner",
+      "latest_jockey": "Zoe Lewis(7)",
+      "latest_draw": 6,
+      "latest_weight_lbs": 139,
+      "official_rating": "72",
+      "recent_form": "262-15",
+      "last_run_days": 98,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Wolverhampton (AW)": 2
       },
-      "latest_result": {
-        "source": "bbc_sport",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "21:00",
-        "race_name": "Download The At The Races App Handicap",
-        "race_id": "p-1571221",
-        "status": "PostEvent",
-        "finish_position": 7,
-        "sp": "9/1",
-        "favourite_position": 7,
-        "going": "Standard",
-        "distance": "1m 1f 104y",
-        "field_size": 10,
-        "trainer": "J Butler",
-        "jockey": "D Egan",
-        "distance_beaten": "1L",
-        "won": false,
-        "placed": false,
-        "attached_at": "2026-07-15T19:52:08"
+      "distances_seen": {
+        "9.5": 2
       },
-      "latest_result_position": 7,
-      "latest_result_sp": "9/1",
-      "latest_result_won": false,
-      "latest_result_placed": false,
-      "latest_result_date": "2026-07-06"
+      "goings_seen": {
+        "Standard": 2
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "Thomas Faulkner": 2
+      },
+      "jockeys_seen": {
+        "Zoe Lewis(7)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992032",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "9:00",
+          "off_dt": "2026-07-06T21:00:00+01:00",
+          "race_name": "Download The At The Races App Handicap",
+          "distance_f": 9.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 12,
+          "horse": "Serious Look",
+          "horse_id": "hrs_31117814",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Thomas Faulkner",
+          "trainer_id": "trn_374697",
+          "jockey": "Zoe Lewis(7)",
+          "jockey_id": "jky_303243",
+          "draw": 6,
+          "number": 4,
+          "lbs": 139,
+          "ofr": "72",
+          "last_run": 98,
+          "form": "262-15",
+          "headgear": ""
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992032",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-06",
+          "off_time": "9:00",
+          "off_dt": "2026-07-06T21:00:00+01:00",
+          "race_name": "Download The At The Races App Handicap",
+          "distance_f": 9.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 10,
+          "horse": "Serious Look",
+          "horse_id": "hrs_31117814",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Thomas Faulkner",
+          "trainer_id": "trn_374697",
+          "jockey": "Zoe Lewis(7)",
+          "jockey_id": "jky_303243",
+          "draw": 6,
+          "number": 4,
+          "lbs": 139,
+          "ofr": "72",
+          "last_run": 98,
+          "form": "262-15",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 9.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 9.5,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
     },
     {
       "horse": "Turku",
@@ -2071,15 +1901,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 40,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Trainer bonus +3",
-        "Stable flying +4 (3/3 last 14 days)",
-        "Jockey flying +4 (3/6 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2166,7 +1989,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 45,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2183,37 +2006,11 @@
         "latest_distance_f": 9.5,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": 40,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
-      },
-      "latest_result": {
-        "source": "bbc_sport",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "21:00",
-        "race_name": "Download The At The Races App Handicap",
-        "race_id": "p-1571221",
-        "status": "PostEvent",
-        "finish_position": 10,
-        "sp": "4/1 Fav",
-        "favourite_position": 1,
-        "going": "Standard",
-        "distance": "1m 1f 104y",
-        "field_size": 10,
-        "trainer": "S & E Crisford",
-        "jockey": "S De Sousa",
-        "distance_beaten": "6L",
-        "won": false,
-        "placed": false,
-        "attached_at": "2026-07-15T19:52:08"
-      },
-      "latest_result_position": 10,
-      "latest_result_sp": "4/1 Fav",
-      "latest_result_won": false,
-      "latest_result_placed": false,
-      "latest_result_date": "2026-07-06"
+      }
     },
     {
       "horse": "Oman",
@@ -2260,12 +2057,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Positive recent form",
-        "Trainer bonus +1",
-        "Jockey bonus +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2415,14 +2208,15 @@
       "going_suitability_score": 55,
       "class_suitability_score": 90,
       "suitability_score": 64,
-      "horse_intelligence_score": 44,
+      "horse_intelligence_score": 19,
       "profile_strengths": [
         "Race class matches common profile level"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile"
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -2430,197 +2224,17 @@
         "latest_distance_f": 9.5,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": 55,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 4,
         "runs_count": 4
-      },
-      "latest_result": {
-        "source": "bbc_sport",
-        "result_date": "2026-07-06",
-        "course": "Wolverhampton",
-        "race_time": "21:00",
-        "race_name": "Download The At The Races App Handicap",
-        "race_id": "p-1571221",
-        "status": "PostEvent",
-        "finish_position": 9,
-        "sp": "5/1",
-        "favourite_position": 2,
-        "going": "Standard",
-        "distance": "1m 1f 104y",
-        "field_size": 10,
-        "trainer": "A W Carroll",
-        "jockey": "Marco Ghiani",
-        "distance_beaten": "SH",
-        "won": false,
-        "placed": false,
-        "attached_at": "2026-07-15T19:52:08"
-      },
-      "latest_result_position": 9,
-      "latest_result_sp": "5/1",
-      "latest_result_won": false,
-      "latest_result_placed": false,
-      "latest_result_date": "2026-07-06"
-    },
-    {
-      "horse": "Phone Tag",
-      "horse_id": "hrs_35445459",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "9:00",
-      "latest_race": "Download The At The Races App Handicap",
-      "latest_date": "2026-07-06",
-      "latest_distance_f": 9.5,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Kevin & Lauren Frost",
-      "latest_jockey": "NON-RUNNER",
-      "latest_draw": 13,
-      "latest_weight_lbs": 142,
-      "official_rating": "75",
-      "recent_form": "0012-0",
-      "last_run_days": 51,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Wolverhampton (AW)": 2
-      },
-      "distances_seen": {
-        "9.5": 2
-      },
-      "goings_seen": {
-        "Standard": 2
-      },
-      "classes_seen": {
-        "Class 5": 2
-      },
-      "trainers_seen": {
-        "Kevin Frost": 1,
-        "Kevin & Lauren Frost": 1
-      },
-      "jockeys_seen": {
-        "NON-RUNNER": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 23,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Non-runner risk",
-        "Jockey concern -2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992032",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "9:00",
-          "off_dt": "2026-07-06T21:00:00+01:00",
-          "race_name": "Download The At The Races App Handicap",
-          "distance_f": 9.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 12,
-          "horse": "Phone Tag",
-          "horse_id": "hrs_35445459",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Kevin Frost",
-          "trainer_id": "trn_257130",
-          "jockey": "NON-RUNNER",
-          "jockey_id": "jky_224913",
-          "draw": 13,
-          "number": null,
-          "lbs": 142,
-          "ofr": "75",
-          "last_run": 51,
-          "form": "0012-0",
-          "headgear": ""
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992032",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-06",
-          "off_time": "9:00",
-          "off_dt": "2026-07-06T21:00:00+01:00",
-          "race_name": "Download The At The Races App Handicap",
-          "distance_f": 9.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 10,
-          "horse": "Phone Tag",
-          "horse_id": "hrs_35445459",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Kevin & Lauren Frost",
-          "trainer_id": "trn_388557",
-          "jockey": "NON-RUNNER",
-          "jockey_id": "jky_224913",
-          "draw": 13,
-          "number": null,
-          "lbs": 142,
-          "ofr": "75",
-          "last_run": 51,
-          "form": "0012-0",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 9.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 37,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 9.5,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 23,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
       }
     }
   ],
   "notes": [
-    "Galaxy Wonder is the top-rated Pulse IQ runner.",
-    "Barry's Boy is flagged as a possible dark horse."
+    "Barry's Boy is the top-rated Pulse IQ runner.",
+    "The race looks competitive with no clear standout.",
+    "This race has a generally weak profile strength.",
+    "Guitar Solo is flagged as a possible dark horse."
   ]
 }
