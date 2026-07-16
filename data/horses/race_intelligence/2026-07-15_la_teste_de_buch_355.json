@@ -5,18 +5,18 @@
   "time": "3:55",
   "race_name": "Prix Louis Du Cheyron Handicap",
   "field_size": 16,
-  "average_intelligence": 24.0,
-  "top_score": 24,
-  "second_score": 24,
-  "gap": 0,
-  "confidence_score": 19,
+  "average_intelligence": 45.88,
+  "top_score": 58,
+  "second_score": 56,
+  "gap": 2,
+  "confidence_score": 47,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Boeza",
-    "horse_id": "hrs_7000003626",
-    "age": 4,
-    "sex": "filly",
+    "horse": "Rising Up",
+    "horse_id": "hrs_32154451",
+    "age": 6,
+    "sex": "horse",
     "latest_course": "La Teste De Buch",
     "latest_time": "3:55",
     "latest_race": "Prix Louis Du Cheyron Handicap",
@@ -25,13 +25,13 @@
     "latest_class": "Class 4",
     "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "Roberto Avial Sanchez",
-    "latest_jockey": "Romain Dubord",
-    "latest_draw": 3,
-    "latest_weight_lbs": 120,
+    "latest_trainer": "Frederic Sanchez",
+    "latest_jockey": "Martin Protti",
+    "latest_draw": 1,
+    "latest_weight_lbs": 121,
     "official_rating": "-",
-    "recent_form": "-97550",
-    "last_run_days": 12,
+    "recent_form": "883451",
+    "last_run_days": 34,
     "profile_runs": 1,
     "courses_seen": {
       "La Teste De Buch": 1
@@ -44,15 +44,21 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Roberto Avial Sanchez": 1
+      "Frederic Sanchez": 1
     },
     "jockeys_seen": {
-      "Romain Dubord": 1
+      "Martin Protti": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 75,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -68,26 +74,25 @@
         "going": "",
         "surface": "Turf",
         "field_size": 15,
-        "horse": "Boeza",
-        "horse_id": "hrs_7000003626",
-        "age": 4,
-        "sex": "filly",
-        "trainer": "Roberto Avial Sanchez",
-        "trainer_id": "trn_319833",
-        "jockey": "Romain Dubord",
-        "jockey_id": "jky_307944",
-        "draw": 3,
-        "number": 15,
-        "lbs": 120,
+        "horse": "Rising Up",
+        "horse_id": "hrs_32154451",
+        "age": 6,
+        "sex": "horse",
+        "trainer": "Frederic Sanchez",
+        "trainer_id": "trn_87111",
+        "jockey": "Martin Protti",
+        "jockey_id": "jky_312255",
+        "draw": 1,
+        "number": 14,
+        "lbs": 121,
         "ofr": "-",
-        "last_run": 12,
-        "form": "-97550",
-        "headgear": ""
+        "last_run": 34,
+        "form": "883451",
+        "headgear": "tb"
       }
     ],
     "profile_notes": [
-      "Low draw today",
-      "Recent run timing"
+      "Low draw today"
     ],
     "favourite_course": {
       "value": "La Teste De Buch",
@@ -107,15 +112,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 58,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -124,7 +129,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 75,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -169,8 +174,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 70,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -222,15 +233,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -239,17 +250,17 @@
       "latest_distance_f": 8.0,
       "latest_going": "",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 70,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Cite Malesherbes",
-    "horse_id": "hrs_59645397",
-    "age": 5,
-    "sex": "filly",
+    "horse": "Burning Heart",
+    "horse_id": "hrs_7000003682",
+    "age": 4,
+    "sex": "colt",
     "latest_course": "La Teste De Buch",
     "latest_time": "3:55",
     "latest_race": "Prix Louis Du Cheyron Handicap",
@@ -258,13 +269,13 @@
     "latest_class": "Class 4",
     "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "Stephane Chevalier",
-    "latest_jockey": "Non Runner",
-    "latest_draw": 98,
-    "latest_weight_lbs": 119,
+    "latest_trainer": "M Alonso Roldan",
+    "latest_jockey": "Alejandro Gutierrez Val",
+    "latest_draw": 7,
+    "latest_weight_lbs": 132,
     "official_rating": "-",
-    "recent_form": "1604-5",
-    "last_run_days": 55,
+    "recent_form": "932732",
+    "last_run_days": 16,
     "profile_runs": 1,
     "courses_seen": {
       "La Teste De Buch": 1
@@ -277,15 +288,21 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Stephane Chevalier": 1
+      "M Alonso Roldan": 1
     },
     "jockeys_seen": {
-      "Non Runner": 1
+      "Alejandro Gutierrez Val": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 70,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -301,20 +318,20 @@
         "going": "",
         "surface": "Turf",
         "field_size": 15,
-        "horse": "Cite Malesherbes",
-        "horse_id": "hrs_59645397",
-        "age": 5,
-        "sex": "filly",
-        "trainer": "Stephane Chevalier",
-        "trainer_id": "trn_182232",
-        "jockey": "Non Runner",
-        "jockey_id": "",
-        "draw": 98,
-        "number": null,
-        "lbs": 119,
+        "horse": "Burning Heart",
+        "horse_id": "hrs_7000003682",
+        "age": 4,
+        "sex": "colt",
+        "trainer": "M Alonso Roldan",
+        "trainer_id": "trn_80181",
+        "jockey": "Alejandro Gutierrez Val",
+        "jockey_id": "jky_287202",
+        "draw": 7,
+        "number": 1,
+        "lbs": 132,
         "ofr": "-",
-        "last_run": 55,
-        "form": "1604-5",
+        "last_run": 16,
+        "form": "932732",
         "headgear": "t"
       }
     ],
@@ -337,15 +354,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -354,13 +371,736 @@
       "latest_distance_f": 8.0,
       "latest_going": "",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 70,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Rising Up",
+      "horse_id": "hrs_32154451",
+      "age": 6,
+      "sex": "horse",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:55",
+      "latest_race": "Prix Louis Du Cheyron Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Frederic Sanchez",
+      "latest_jockey": "Martin Protti",
+      "latest_draw": 1,
+      "latest_weight_lbs": 121,
+      "official_rating": "-",
+      "recent_form": "883451",
+      "last_run_days": 34,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Frederic Sanchez": 1
+      },
+      "jockeys_seen": {
+        "Martin Protti": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 75,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004043",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:55",
+          "off_dt": "2026-07-15T15:55:00+01:00",
+          "race_name": "Prix Louis Du Cheyron Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Rising Up",
+          "horse_id": "hrs_32154451",
+          "age": 6,
+          "sex": "horse",
+          "trainer": "Frederic Sanchez",
+          "trainer_id": "trn_87111",
+          "jockey": "Martin Protti",
+          "jockey_id": "jky_312255",
+          "draw": 1,
+          "number": 14,
+          "lbs": 121,
+          "ofr": "-",
+          "last_run": 34,
+          "form": "883451",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 75,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Burning Heart",
+      "horse_id": "hrs_7000003682",
+      "age": 4,
+      "sex": "colt",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:55",
+      "latest_race": "Prix Louis Du Cheyron Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "M Alonso Roldan",
+      "latest_jockey": "Alejandro Gutierrez Val",
+      "latest_draw": 7,
+      "latest_weight_lbs": 132,
+      "official_rating": "-",
+      "recent_form": "932732",
+      "last_run_days": 16,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "M Alonso Roldan": 1
+      },
+      "jockeys_seen": {
+        "Alejandro Gutierrez Val": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 70,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004043",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:55",
+          "off_dt": "2026-07-15T15:55:00+01:00",
+          "race_name": "Prix Louis Du Cheyron Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Burning Heart",
+          "horse_id": "hrs_7000003682",
+          "age": 4,
+          "sex": "colt",
+          "trainer": "M Alonso Roldan",
+          "trainer_id": "trn_80181",
+          "jockey": "Alejandro Gutierrez Val",
+          "jockey_id": "jky_287202",
+          "draw": 7,
+          "number": 1,
+          "lbs": 132,
+          "ofr": "-",
+          "last_run": 16,
+          "form": "932732",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 56,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 70,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Monte Linas",
+      "horse_id": "hrs_31740975",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:55",
+      "latest_race": "Prix Louis Du Cheyron Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Amy Murphy",
+      "latest_jockey": "Ebbe Verhestraeten",
+      "latest_draw": 6,
+      "latest_weight_lbs": 131,
+      "official_rating": "-",
+      "recent_form": "-51041",
+      "last_run_days": 42,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Amy Murphy": 1
+      },
+      "jockeys_seen": {
+        "Ebbe Verhestraeten": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 67,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004043",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:55",
+          "off_dt": "2026-07-15T15:55:00+01:00",
+          "race_name": "Prix Louis Du Cheyron Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Monte Linas",
+          "horse_id": "hrs_31740975",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Amy Murphy",
+          "trainer_id": "trn_290925",
+          "jockey": "Ebbe Verhestraeten",
+          "jockey_id": "jky_297627",
+          "draw": 6,
+          "number": 2,
+          "lbs": 131,
+          "ofr": "-",
+          "last_run": 42,
+          "form": "-51041",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 54,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 67,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Sinnerman",
+      "horse_id": "hrs_35176323",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:55",
+      "latest_race": "Prix Louis Du Cheyron Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "D De Watrigant",
+      "latest_jockey": "Ioritz Mendizabal",
+      "latest_draw": 11,
+      "latest_weight_lbs": 131,
+      "official_rating": "-",
+      "recent_form": "5/32-4",
+      "last_run_days": 42,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "D De Watrigant": 1
+      },
+      "jockeys_seen": {
+        "Ioritz Mendizabal": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 67,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Race class strength +2",
+        "Historical winner +3",
+        "Previous course winner +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004043",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:55",
+          "off_dt": "2026-07-15T15:55:00+01:00",
+          "race_name": "Prix Louis Du Cheyron Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Sinnerman",
+          "horse_id": "hrs_35176323",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "D De Watrigant",
+          "trainer_id": "trn_139248",
+          "jockey": "Ioritz Mendizabal",
+          "jockey_id": "jky_226617",
+          "draw": 11,
+          "number": 4,
+          "lbs": 131,
+          "ofr": "-",
+          "last_run": 42,
+          "form": "5/32-4",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 54,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 67,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Mana Maha",
+      "horse_id": "hrs_23606842",
+      "age": 8,
+      "sex": "mare",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:55",
+      "latest_race": "Prix Louis Du Cheyron Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Mme S Gavilan",
+      "latest_jockey": "Guillaume Guedj-Gay",
+      "latest_draw": 13,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "022934",
+      "last_run_days": 16,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Mme S Gavilan": 1
+      },
+      "jockeys_seen": {
+        "Guillaume Guedj-Gay": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 63,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004043",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:55",
+          "off_dt": "2026-07-15T15:55:00+01:00",
+          "race_name": "Prix Louis Du Cheyron Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Mana Maha",
+          "horse_id": "hrs_23606842",
+          "age": 8,
+          "sex": "mare",
+          "trainer": "Mme S Gavilan",
+          "trainer_id": "trn_313479",
+          "jockey": "Guillaume Guedj-Gay",
+          "jockey_id": "jky_294747",
+          "draw": 13,
+          "number": 6,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 16,
+          "form": "022934",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 63,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Dariya Ka De Saon",
+      "horse_id": "hrs_47033609",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:55",
+      "latest_race": "Prix Louis Du Cheyron Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Mme Armony Tinchon",
+      "latest_jockey": "Warren Levesque",
+      "latest_draw": 8,
+      "latest_weight_lbs": 125,
+      "official_rating": "-",
+      "recent_form": "0-0160",
+      "last_run_days": 16,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Mme Armony Tinchon": 1
+      },
+      "jockeys_seen": {
+        "Warren Levesque": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 53,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004043",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:55",
+          "off_dt": "2026-07-15T15:55:00+01:00",
+          "race_name": "Prix Louis Du Cheyron Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Dariya Ka De Saon",
+          "horse_id": "hrs_47033609",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Mme Armony Tinchon",
+          "trainer_id": "trn_371862",
+          "jockey": "Warren Levesque",
+          "jockey_id": "jky_307110",
+          "draw": 8,
+          "number": 11,
+          "lbs": 125,
+          "ofr": "-",
+          "last_run": 16,
+          "form": "0-0160",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 53,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Boeza",
       "horse_id": "hrs_7000003626",
@@ -400,8 +1140,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 52,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -456,7 +1201,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 47,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -464,7 +1209,6 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -473,697 +1217,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Burning Heart",
-      "horse_id": "hrs_7000003682",
-      "age": 4,
-      "sex": "colt",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:55",
-      "latest_race": "Prix Louis Du Cheyron Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "M Alonso Roldan",
-      "latest_jockey": "Alejandro Gutierrez Val",
-      "latest_draw": 7,
-      "latest_weight_lbs": 132,
-      "official_rating": "-",
-      "recent_form": "932732",
-      "last_run_days": 16,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "M Alonso Roldan": 1
-      },
-      "jockeys_seen": {
-        "Alejandro Gutierrez Val": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004043",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:55",
-          "off_dt": "2026-07-15T15:55:00+01:00",
-          "race_name": "Prix Louis Du Cheyron Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Burning Heart",
-          "horse_id": "hrs_7000003682",
-          "age": 4,
-          "sex": "colt",
-          "trainer": "M Alonso Roldan",
-          "trainer_id": "trn_80181",
-          "jockey": "Alejandro Gutierrez Val",
-          "jockey_id": "jky_287202",
-          "draw": 7,
-          "number": 1,
-          "lbs": 132,
-          "ofr": "-",
-          "last_run": 16,
-          "form": "932732",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Cite Malesherbes",
-      "horse_id": "hrs_59645397",
-      "age": 5,
-      "sex": "filly",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:55",
-      "latest_race": "Prix Louis Du Cheyron Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Stephane Chevalier",
-      "latest_jockey": "Non Runner",
-      "latest_draw": 98,
-      "latest_weight_lbs": 119,
-      "official_rating": "-",
-      "recent_form": "1604-5",
-      "last_run_days": 55,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Stephane Chevalier": 1
-      },
-      "jockeys_seen": {
-        "Non Runner": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004043",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:55",
-          "off_dt": "2026-07-15T15:55:00+01:00",
-          "race_name": "Prix Louis Du Cheyron Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Cite Malesherbes",
-          "horse_id": "hrs_59645397",
-          "age": 5,
-          "sex": "filly",
-          "trainer": "Stephane Chevalier",
-          "trainer_id": "trn_182232",
-          "jockey": "Non Runner",
-          "jockey_id": "",
-          "draw": 98,
-          "number": null,
-          "lbs": 119,
-          "ofr": "-",
-          "last_run": 55,
-          "form": "1604-5",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Dariya Ka De Saon",
-      "horse_id": "hrs_47033609",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:55",
-      "latest_race": "Prix Louis Du Cheyron Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mme Armony Tinchon",
-      "latest_jockey": "Warren Levesque",
-      "latest_draw": 8,
-      "latest_weight_lbs": 125,
-      "official_rating": "-",
-      "recent_form": "0-0160",
-      "last_run_days": 16,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Mme Armony Tinchon": 1
-      },
-      "jockeys_seen": {
-        "Warren Levesque": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004043",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:55",
-          "off_dt": "2026-07-15T15:55:00+01:00",
-          "race_name": "Prix Louis Du Cheyron Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Dariya Ka De Saon",
-          "horse_id": "hrs_47033609",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Mme Armony Tinchon",
-          "trainer_id": "trn_371862",
-          "jockey": "Warren Levesque",
-          "jockey_id": "jky_307110",
-          "draw": 8,
-          "number": 11,
-          "lbs": 125,
-          "ofr": "-",
-          "last_run": 16,
-          "form": "0-0160",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Gondolo",
-      "horse_id": "hrs_42452298",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:55",
-      "latest_race": "Prix Louis Du Cheyron Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "P Dufreche",
-      "latest_jockey": "Antoine Werle",
-      "latest_draw": 12,
-      "latest_weight_lbs": 131,
-      "official_rating": "-",
-      "recent_form": "-00369",
-      "last_run_days": 55,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "P Dufreche": 1
-      },
-      "jockeys_seen": {
-        "Antoine Werle": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004043",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:55",
-          "off_dt": "2026-07-15T15:55:00+01:00",
-          "race_name": "Prix Louis Du Cheyron Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Gondolo",
-          "horse_id": "hrs_42452298",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "P Dufreche",
-          "trainer_id": "trn_80118",
-          "jockey": "Antoine Werle",
-          "jockey_id": "jky_274212",
-          "draw": 12,
-          "number": 3,
-          "lbs": 131,
-          "ofr": "-",
-          "last_run": 55,
-          "form": "-00369",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Grecian Ruler",
-      "horse_id": "hrs_7000003402",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:55",
-      "latest_race": "Prix Louis Du Cheyron Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "A Silva",
-      "latest_jockey": "Hugo Besnier",
-      "latest_draw": 4,
-      "latest_weight_lbs": 124,
-      "official_rating": "-",
-      "recent_form": "-06750",
-      "last_run_days": 27,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "A Silva": 1
-      },
-      "jockeys_seen": {
-        "Hugo Besnier": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004043",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:55",
-          "off_dt": "2026-07-15T15:55:00+01:00",
-          "race_name": "Prix Louis Du Cheyron Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Grecian Ruler",
-          "horse_id": "hrs_7000003402",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "A Silva",
-          "trainer_id": "trn_256032",
-          "jockey": "Hugo Besnier",
-          "jockey_id": "jky_293802",
-          "draw": 4,
-          "number": 12,
-          "lbs": 124,
-          "ofr": "-",
-          "last_run": 27,
-          "form": "-06750",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Gyp Sea",
-      "horse_id": "hrs_48789132",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:55",
-      "latest_race": "Prix Louis Du Cheyron Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Amy Murphy",
-      "latest_jockey": "Fabrice Veron",
-      "latest_draw": 16,
-      "latest_weight_lbs": 125,
-      "official_rating": "-",
-      "recent_form": "-98647",
-      "last_run_days": 42,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Amy Murphy": 1
-      },
-      "jockeys_seen": {
-        "Fabrice Veron": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004043",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:55",
-          "off_dt": "2026-07-15T15:55:00+01:00",
-          "race_name": "Prix Louis Du Cheyron Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Gyp Sea",
-          "horse_id": "hrs_48789132",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Amy Murphy",
-          "trainer_id": "trn_290925",
-          "jockey": "Fabrice Veron",
-          "jockey_id": "jky_241953",
-          "draw": 16,
-          "number": 9,
-          "lbs": 125,
-          "ofr": "-",
-          "last_run": 42,
-          "form": "-98647",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 52,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1208,8 +1262,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1261,7 +1320,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 46,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1269,7 +1328,6 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1278,362 +1336,15 @@
         "latest_distance_f": 8.0,
         "latest_going": "",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 48,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Hot In Front",
-      "horse_id": "hrs_7000003332",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:55",
-      "latest_race": "Prix Louis Du Cheyron Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "O Trigodet",
-      "latest_jockey": "Nuno Lopes Duarte",
-      "latest_draw": 10,
-      "latest_weight_lbs": 127,
-      "official_rating": "-",
-      "recent_form": "056P5-",
-      "last_run_days": 301,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "O Trigodet": 1
-      },
-      "jockeys_seen": {
-        "Nuno Lopes Duarte": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004043",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:55",
-          "off_dt": "2026-07-15T15:55:00+01:00",
-          "race_name": "Prix Louis Du Cheyron Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Hot In Front",
-          "horse_id": "hrs_7000003332",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "O Trigodet",
-          "trainer_id": "trn_309951",
-          "jockey": "Nuno Lopes Duarte",
-          "jockey_id": "jky_302625",
-          "draw": 10,
-          "number": 8,
-          "lbs": 127,
-          "ofr": "-",
-          "last_run": 301,
-          "form": "056P5-",
-          "headgear": "tv"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Mana Maha",
-      "horse_id": "hrs_23606842",
-      "age": 8,
-      "sex": "mare",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:55",
-      "latest_race": "Prix Louis Du Cheyron Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mme S Gavilan",
-      "latest_jockey": "Guillaume Guedj-Gay",
-      "latest_draw": 13,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "022934",
-      "last_run_days": 16,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Mme S Gavilan": 1
-      },
-      "jockeys_seen": {
-        "Guillaume Guedj-Gay": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004043",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:55",
-          "off_dt": "2026-07-15T15:55:00+01:00",
-          "race_name": "Prix Louis Du Cheyron Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Mana Maha",
-          "horse_id": "hrs_23606842",
-          "age": 8,
-          "sex": "mare",
-          "trainer": "Mme S Gavilan",
-          "trainer_id": "trn_313479",
-          "jockey": "Guillaume Guedj-Gay",
-          "jockey_id": "jky_294747",
-          "draw": 13,
-          "number": 6,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 16,
-          "form": "022934",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Monte Linas",
-      "horse_id": "hrs_31740975",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:55",
-      "latest_race": "Prix Louis Du Cheyron Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Amy Murphy",
-      "latest_jockey": "Ebbe Verhestraeten",
-      "latest_draw": 6,
-      "latest_weight_lbs": 131,
-      "official_rating": "-",
-      "recent_form": "-51041",
-      "last_run_days": 42,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Amy Murphy": 1
-      },
-      "jockeys_seen": {
-        "Ebbe Verhestraeten": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004043",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:55",
-          "off_dt": "2026-07-15T15:55:00+01:00",
-          "race_name": "Prix Louis Du Cheyron Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Monte Linas",
-          "horse_id": "hrs_31740975",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Amy Murphy",
-          "trainer_id": "trn_290925",
-          "jockey": "Ebbe Verhestraeten",
-          "jockey_id": "jky_297627",
-          "draw": 6,
-          "number": 2,
-          "lbs": 131,
-          "ofr": "-",
-          "last_run": 42,
-          "form": "-51041",
-          "headgear": "tb"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Paint Chop",
-      "horse_id": "hrs_52994466",
+      "horse": "Grecian Ruler",
+      "horse_id": "hrs_7000003402",
       "age": 4,
       "sex": "gelding",
       "latest_course": "La Teste De Buch",
@@ -1644,13 +1355,13 @@
       "latest_class": "Class 4",
       "latest_going": "",
       "latest_surface": "Turf",
-      "latest_trainer": "Amy Murphy",
-      "latest_jockey": "Mme Anaelle Mekouche",
-      "latest_draw": 9,
-      "latest_weight_lbs": 122,
+      "latest_trainer": "A Silva",
+      "latest_jockey": "Hugo Besnier",
+      "latest_draw": 4,
+      "latest_weight_lbs": 124,
       "official_rating": "-",
-      "recent_form": "00506-",
-      "last_run_days": 312,
+      "recent_form": "-06750",
+      "last_run_days": 27,
       "profile_runs": 1,
       "courses_seen": {
         "La Teste De Buch": 1
@@ -1663,15 +1374,21 @@
         "Class 4": 1
       },
       "trainers_seen": {
-        "Amy Murphy": 1
+        "A Silva": 1
       },
       "jockeys_seen": {
-        "Mme Anaelle Mekouche": 1
+        "Hugo Besnier": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 47,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1687,26 +1404,24 @@
           "going": "",
           "surface": "Turf",
           "field_size": 15,
-          "horse": "Paint Chop",
-          "horse_id": "hrs_52994466",
+          "horse": "Grecian Ruler",
+          "horse_id": "hrs_7000003402",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Amy Murphy",
-          "trainer_id": "trn_290925",
-          "jockey": "Mme Anaelle Mekouche",
-          "jockey_id": "jky_295929",
-          "draw": 9,
-          "number": 13,
-          "lbs": 122,
+          "trainer": "A Silva",
+          "trainer_id": "trn_256032",
+          "jockey": "Hugo Besnier",
+          "jockey_id": "jky_293802",
+          "draw": 4,
+          "number": 12,
+          "lbs": 124,
           "ofr": "-",
-          "last_run": 312,
-          "form": "00506-",
-          "headgear": "tb"
+          "last_run": 27,
+          "form": "-06750",
+          "headgear": ""
         }
       ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
+      "profile_notes": [],
       "favourite_course": {
         "value": "La Teste De Buch",
         "runs": 1
@@ -1725,7 +1440,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1733,7 +1448,6 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1742,124 +1456,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Rising Up",
-      "horse_id": "hrs_32154451",
-      "age": 6,
-      "sex": "horse",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:55",
-      "latest_race": "Prix Louis Du Cheyron Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Frederic Sanchez",
-      "latest_jockey": "Martin Protti",
-      "latest_draw": 1,
-      "latest_weight_lbs": 121,
-      "official_rating": "-",
-      "recent_form": "883451",
-      "last_run_days": 34,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Frederic Sanchez": 1
-      },
-      "jockeys_seen": {
-        "Martin Protti": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004043",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:55",
-          "off_dt": "2026-07-15T15:55:00+01:00",
-          "race_name": "Prix Louis Du Cheyron Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Rising Up",
-          "horse_id": "hrs_32154451",
-          "age": 6,
-          "sex": "horse",
-          "trainer": "Frederic Sanchez",
-          "trainer_id": "trn_87111",
-          "jockey": "Martin Protti",
-          "jockey_id": "jky_312255",
-          "draw": 1,
-          "number": 14,
-          "lbs": 121,
-          "ofr": "-",
-          "last_run": 34,
-          "form": "883451",
-          "headgear": "tb"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 47,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1904,8 +1501,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 47,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1959,7 +1562,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1967,7 +1570,6 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1976,122 +1578,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Sinnerman",
-      "horse_id": "hrs_35176323",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:55",
-      "latest_race": "Prix Louis Du Cheyron Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "D De Watrigant",
-      "latest_jockey": "Ioritz Mendizabal",
-      "latest_draw": 11,
-      "latest_weight_lbs": 131,
-      "official_rating": "-",
-      "recent_form": "5/32-4",
-      "last_run_days": 42,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "D De Watrigant": 1
-      },
-      "jockeys_seen": {
-        "Ioritz Mendizabal": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004043",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:55",
-          "off_dt": "2026-07-15T15:55:00+01:00",
-          "race_name": "Prix Louis Du Cheyron Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Sinnerman",
-          "horse_id": "hrs_35176323",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "D De Watrigant",
-          "trainer_id": "trn_139248",
-          "jockey": "Ioritz Mendizabal",
-          "jockey_id": "jky_226617",
-          "draw": 11,
-          "number": 4,
-          "lbs": 131,
-          "ofr": "-",
-          "last_run": 42,
-          "form": "5/32-4",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 47,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -2136,8 +1623,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 44,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -2191,7 +1684,243 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 44,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 44,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Gondolo",
+      "horse_id": "hrs_42452298",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:55",
+      "latest_race": "Prix Louis Du Cheyron Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "P Dufreche",
+      "latest_jockey": "Antoine Werle",
+      "latest_draw": 12,
+      "latest_weight_lbs": 131,
+      "official_rating": "-",
+      "recent_form": "-00369",
+      "last_run_days": 55,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "P Dufreche": 1
+      },
+      "jockeys_seen": {
+        "Antoine Werle": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 42,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004043",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:55",
+          "off_dt": "2026-07-15T15:55:00+01:00",
+          "race_name": "Prix Louis Du Cheyron Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Gondolo",
+          "horse_id": "hrs_42452298",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "P Dufreche",
+          "trainer_id": "trn_80118",
+          "jockey": "Antoine Werle",
+          "jockey_id": "jky_274212",
+          "draw": 12,
+          "number": 3,
+          "lbs": 131,
+          "ofr": "-",
+          "last_run": 55,
+          "form": "-00369",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 42,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Gyp Sea",
+      "horse_id": "hrs_48789132",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:55",
+      "latest_race": "Prix Louis Du Cheyron Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Amy Murphy",
+      "latest_jockey": "Fabrice Veron",
+      "latest_draw": 16,
+      "latest_weight_lbs": 125,
+      "official_rating": "-",
+      "recent_form": "-98647",
+      "last_run_days": 42,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Amy Murphy": 1
+      },
+      "jockeys_seen": {
+        "Fabrice Veron": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 39,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004043",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:55",
+          "off_dt": "2026-07-15T15:55:00+01:00",
+          "race_name": "Prix Louis Du Cheyron Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Gyp Sea",
+          "horse_id": "hrs_48789132",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Amy Murphy",
+          "trainer_id": "trn_290925",
+          "jockey": "Fabrice Veron",
+          "jockey_id": "jky_241953",
+          "draw": 16,
+          "number": 9,
+          "lbs": 125,
+          "ofr": "-",
+          "last_run": 42,
+          "form": "-98647",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -2208,7 +1937,371 @@
         "latest_distance_f": 8.0,
         "latest_going": "",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 39,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Hot In Front",
+      "horse_id": "hrs_7000003332",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:55",
+      "latest_race": "Prix Louis Du Cheyron Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "O Trigodet",
+      "latest_jockey": "Nuno Lopes Duarte",
+      "latest_draw": 10,
+      "latest_weight_lbs": 127,
+      "official_rating": "-",
+      "recent_form": "056P5-",
+      "last_run_days": 301,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "O Trigodet": 1
+      },
+      "jockeys_seen": {
+        "Nuno Lopes Duarte": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 28,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Very long absence concern -7",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004043",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:55",
+          "off_dt": "2026-07-15T15:55:00+01:00",
+          "race_name": "Prix Louis Du Cheyron Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Hot In Front",
+          "horse_id": "hrs_7000003332",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "O Trigodet",
+          "trainer_id": "trn_309951",
+          "jockey": "Nuno Lopes Duarte",
+          "jockey_id": "jky_302625",
+          "draw": 10,
+          "number": 8,
+          "lbs": 127,
+          "ofr": "-",
+          "last_run": 301,
+          "form": "056P5-",
+          "headgear": "tv"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 37,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 28,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Paint Chop",
+      "horse_id": "hrs_52994466",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:55",
+      "latest_race": "Prix Louis Du Cheyron Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Amy Murphy",
+      "latest_jockey": "Mme Anaelle Mekouche",
+      "latest_draw": 9,
+      "latest_weight_lbs": 122,
+      "official_rating": "-",
+      "recent_form": "00506-",
+      "last_run_days": 312,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Amy Murphy": 1
+      },
+      "jockeys_seen": {
+        "Mme Anaelle Mekouche": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 20,
+      "latest_notes": [
+        "Weak recent form",
+        "Questionable run timing",
+        "Very long absence concern -7",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004043",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:55",
+          "off_dt": "2026-07-15T15:55:00+01:00",
+          "race_name": "Prix Louis Du Cheyron Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Paint Chop",
+          "horse_id": "hrs_52994466",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Amy Murphy",
+          "trainer_id": "trn_290925",
+          "jockey": "Mme Anaelle Mekouche",
+          "jockey_id": "jky_295929",
+          "draw": 9,
+          "number": 13,
+          "lbs": 122,
+          "ofr": "-",
+          "last_run": 312,
+          "form": "00506-",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 33,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 20,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Cite Malesherbes",
+      "horse_id": "hrs_59645397",
+      "age": 5,
+      "sex": "filly",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:55",
+      "latest_race": "Prix Louis Du Cheyron Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Stephane Chevalier",
+      "latest_jockey": "Non Runner",
+      "latest_draw": 98,
+      "latest_weight_lbs": 119,
+      "official_rating": "-",
+      "recent_form": "1604-5",
+      "last_run_days": 55,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Stephane Chevalier": 1
+      },
+      "jockeys_seen": {
+        "Non Runner": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 14,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Non-runner risk",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004043",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:55",
+          "off_dt": "2026-07-15T15:55:00+01:00",
+          "race_name": "Prix Louis Du Cheyron Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Cite Malesherbes",
+          "horse_id": "hrs_59645397",
+          "age": 5,
+          "sex": "filly",
+          "trainer": "Stephane Chevalier",
+          "trainer_id": "trn_182232",
+          "jockey": "Non Runner",
+          "jockey_id": "",
+          "draw": 98,
+          "number": null,
+          "lbs": 119,
+          "ofr": "-",
+          "last_run": 55,
+          "form": "1604-5",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 30,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 14,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -2216,9 +2309,8 @@
     }
   ],
   "notes": [
-    "Boeza is the top-rated Pulse IQ runner.",
+    "Rising Up is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Cite Malesherbes is flagged as a possible dark horse."
+    "Burning Heart is flagged as a possible dark horse."
   ]
 }

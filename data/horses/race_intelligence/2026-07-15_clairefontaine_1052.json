@@ -5,16 +5,16 @@
   "time": "10:52",
   "race_name": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
   "field_size": 7,
-  "average_intelligence": 24.0,
-  "top_score": 24,
-  "second_score": 24,
-  "gap": 0,
-  "confidence_score": 19,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "average_intelligence": 49.86,
+  "top_score": 60,
+  "second_score": 51,
+  "gap": 9,
+  "confidence_score": 59,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
-    "horse": "Barcida",
-    "horse_id": "hrs_7000005131",
+    "horse": "La Genette",
+    "horse_id": "hrs_62361117",
     "age": 3,
     "sex": "filly",
     "latest_course": "Clairefontaine",
@@ -25,13 +25,13 @@
     "latest_class": "Class 3",
     "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "Davide Satalia",
-    "latest_jockey": "Elouan Meunier",
+    "latest_trainer": "P & C Peltier",
+    "latest_jockey": "Leo-Paul Brechet",
     "latest_draw": 0,
-    "latest_weight_lbs": 147,
+    "latest_weight_lbs": 152,
     "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
+    "recent_form": "90412",
+    "last_run_days": 15,
     "profile_runs": 1,
     "courses_seen": {
       "Clairefontaine": 1
@@ -44,15 +44,23 @@
       "Class 3": 1
     },
     "trainers_seen": {
-      "Davide Satalia": 1
+      "P & C Peltier": 1
     },
     "jockeys_seen": {
-      "Elouan Meunier": 1
+      "Leo-Paul Brechet": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 81,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +4",
+      "Historical winner +3",
+      "Previous course winner +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -68,24 +76,26 @@
         "going": "",
         "surface": "Turf",
         "field_size": 7,
-        "horse": "Barcida",
-        "horse_id": "hrs_7000005131",
+        "horse": "La Genette",
+        "horse_id": "hrs_62361117",
         "age": 3,
         "sex": "filly",
-        "trainer": "Davide Satalia",
-        "trainer_id": "trn_310689",
-        "jockey": "Elouan Meunier",
-        "jockey_id": "jky_300828",
+        "trainer": "P & C Peltier",
+        "trainer_id": "trn_356517",
+        "jockey": "Leo-Paul Brechet",
+        "jockey_id": "jky_299349",
         "draw": 0,
-        "number": 5,
-        "lbs": 147,
+        "number": 2,
+        "lbs": 152,
         "ofr": "-",
-        "last_run": null,
-        "form": "",
+        "last_run": 15,
+        "form": "90412",
         "headgear": "t"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
     "favourite_course": {
       "value": "Clairefontaine",
       "runs": 1
@@ -104,15 +114,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 60,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -121,7 +131,7 @@
       "latest_distance_f": 17.0,
       "latest_going": "",
       "latest_class": "Class 3",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 81,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -166,8 +176,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 60,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -219,7 +235,7 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 51,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -227,7 +243,6 @@
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -236,7 +251,7 @@
       "latest_distance_f": 17.0,
       "latest_going": "",
       "latest_class": "Class 3",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 60,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -281,8 +296,12 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 58,
+    "latest_notes": [
+      "Positive recent form",
+      "Helpful draw",
+      "Race class strength +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -334,7 +353,7 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 50,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -342,7 +361,6 @@
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -351,7 +369,7 @@
       "latest_distance_f": 17.0,
       "latest_going": "",
       "latest_class": "Class 3",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 58,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -359,8 +377,8 @@
   },
   "runners": [
     {
-      "horse": "Barcida",
-      "horse_id": "hrs_7000005131",
+      "horse": "La Genette",
+      "horse_id": "hrs_62361117",
       "age": 3,
       "sex": "filly",
       "latest_course": "Clairefontaine",
@@ -371,13 +389,13 @@
       "latest_class": "Class 3",
       "latest_going": "",
       "latest_surface": "Turf",
-      "latest_trainer": "Davide Satalia",
-      "latest_jockey": "Elouan Meunier",
+      "latest_trainer": "P & C Peltier",
+      "latest_jockey": "Leo-Paul Brechet",
       "latest_draw": 0,
-      "latest_weight_lbs": 147,
+      "latest_weight_lbs": 152,
       "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
+      "recent_form": "90412",
+      "last_run_days": 15,
       "profile_runs": 1,
       "courses_seen": {
         "Clairefontaine": 1
@@ -390,15 +408,23 @@
         "Class 3": 1
       },
       "trainers_seen": {
-        "Davide Satalia": 1
+        "P & C Peltier": 1
       },
       "jockeys_seen": {
-        "Elouan Meunier": 1
+        "Leo-Paul Brechet": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 81,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4",
+        "Historical winner +3",
+        "Previous course winner +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -414,24 +440,26 @@
           "going": "",
           "surface": "Turf",
           "field_size": 7,
-          "horse": "Barcida",
-          "horse_id": "hrs_7000005131",
+          "horse": "La Genette",
+          "horse_id": "hrs_62361117",
           "age": 3,
           "sex": "filly",
-          "trainer": "Davide Satalia",
-          "trainer_id": "trn_310689",
-          "jockey": "Elouan Meunier",
-          "jockey_id": "jky_300828",
+          "trainer": "P & C Peltier",
+          "trainer_id": "trn_356517",
+          "jockey": "Leo-Paul Brechet",
+          "jockey_id": "jky_299349",
           "draw": 0,
-          "number": 5,
-          "lbs": 147,
+          "number": 2,
+          "lbs": 152,
           "ofr": "-",
-          "last_run": null,
-          "form": "",
+          "last_run": 15,
+          "form": "90412",
           "headgear": "t"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
       "favourite_course": {
         "value": "Clairefontaine",
         "runs": 1
@@ -450,15 +478,15 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 60,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -467,7 +495,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 81,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -512,8 +540,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 60,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -565,7 +599,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -573,7 +607,6 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -582,7 +615,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 60,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -627,8 +660,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 58,
+      "latest_notes": [
+        "Positive recent form",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -680,7 +717,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -688,7 +725,6 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -697,352 +733,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "La Genette",
-      "horse_id": "hrs_62361117",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Clairefontaine",
-      "latest_time": "10:52",
-      "latest_race": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 17.0,
-      "latest_class": "Class 3",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "P & C Peltier",
-      "latest_jockey": "Leo-Paul Brechet",
-      "latest_draw": 0,
-      "latest_weight_lbs": 152,
-      "official_rating": "-",
-      "recent_form": "90412",
-      "last_run_days": 15,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "P & C Peltier": 1
-      },
-      "jockeys_seen": {
-        "Leo-Paul Brechet": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000003926",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "10:52",
-          "off_dt": "2026-07-15T10:52:00+01:00",
-          "race_name": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
-          "distance_f": 17.0,
-          "race_class": "Class 3",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "La Genette",
-          "horse_id": "hrs_62361117",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "P & C Peltier",
-          "trainer_id": "trn_356517",
-          "jockey": "Leo-Paul Brechet",
-          "jockey_id": "jky_299349",
-          "draw": 0,
-          "number": 2,
-          "lbs": 152,
-          "ofr": "-",
-          "last_run": 15,
-          "form": "90412",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 17.0,
-        "latest_going": "",
-        "latest_class": "Class 3",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Naerobi Sibey",
-      "horse_id": "hrs_7000005124",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Clairefontaine",
-      "latest_time": "10:52",
-      "latest_race": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 17.0,
-      "latest_class": "Class 3",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Francois Nicolle",
-      "latest_jockey": "Angelo Zuliani",
-      "latest_draw": 0,
-      "latest_weight_lbs": 147,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "Francois Nicolle": 1
-      },
-      "jockeys_seen": {
-        "Angelo Zuliani": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000003926",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "10:52",
-          "off_dt": "2026-07-15T10:52:00+01:00",
-          "race_name": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
-          "distance_f": 17.0,
-          "race_class": "Class 3",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Naerobi Sibey",
-          "horse_id": "hrs_7000005124",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Francois Nicolle",
-          "trainer_id": "trn_283203",
-          "jockey": "Angelo Zuliani",
-          "jockey_id": "jky_286659",
-          "draw": 0,
-          "number": 3,
-          "lbs": 147,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 17.0,
-        "latest_going": "",
-        "latest_class": "Class 3",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Nausicaa Karwin",
-      "horse_id": "hrs_7000004879",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Clairefontaine",
-      "latest_time": "10:52",
-      "latest_race": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 17.0,
-      "latest_class": "Class 3",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "D Cottin",
-      "latest_jockey": "Anthony Renard",
-      "latest_draw": 0,
-      "latest_weight_lbs": 147,
-      "official_rating": "-",
-      "recent_form": "P",
-      "last_run_days": 44,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "D Cottin": 1
-      },
-      "jockeys_seen": {
-        "Anthony Renard": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000003926",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "10:52",
-          "off_dt": "2026-07-15T10:52:00+01:00",
-          "race_name": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
-          "distance_f": 17.0,
-          "race_class": "Class 3",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Nausicaa Karwin",
-          "horse_id": "hrs_7000004879",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "D Cottin",
-          "trainer_id": "trn_303255",
-          "jockey": "Anthony Renard",
-          "jockey_id": "jky_272781",
-          "draw": 0,
-          "number": 7,
-          "lbs": 147,
-          "ofr": "-",
-          "last_run": 44,
-          "form": "P",
-          "headgear": "tv"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 17.0,
-        "latest_going": "",
-        "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 58,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1087,8 +778,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 55,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1140,7 +837,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1148,7 +845,6 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1157,7 +853,359 @@
         "latest_distance_f": 17.0,
         "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 55,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Nausicaa Karwin",
+      "horse_id": "hrs_7000004879",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Clairefontaine",
+      "latest_time": "10:52",
+      "latest_race": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 17.0,
+      "latest_class": "Class 3",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "D Cottin",
+      "latest_jockey": "Anthony Renard",
+      "latest_draw": 0,
+      "latest_weight_lbs": 147,
+      "official_rating": "-",
+      "recent_form": "P",
+      "last_run_days": 44,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "D Cottin": 1
+      },
+      "jockeys_seen": {
+        "Anthony Renard": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 52,
+      "latest_notes": [
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000003926",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "10:52",
+          "off_dt": "2026-07-15T10:52:00+01:00",
+          "race_name": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
+          "distance_f": 17.0,
+          "race_class": "Class 3",
+          "race_type": "Hurdle",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Nausicaa Karwin",
+          "horse_id": "hrs_7000004879",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "D Cottin",
+          "trainer_id": "trn_303255",
+          "jockey": "Anthony Renard",
+          "jockey_id": "jky_272781",
+          "draw": 0,
+          "number": 7,
+          "lbs": 147,
+          "ofr": "-",
+          "last_run": 44,
+          "form": "P",
+          "headgear": "tv"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 17.0,
+        "latest_going": "",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 52,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Barcida",
+      "horse_id": "hrs_7000005131",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Clairefontaine",
+      "latest_time": "10:52",
+      "latest_race": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 17.0,
+      "latest_class": "Class 3",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Davide Satalia",
+      "latest_jockey": "Elouan Meunier",
+      "latest_draw": 0,
+      "latest_weight_lbs": 147,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Davide Satalia": 1
+      },
+      "jockeys_seen": {
+        "Elouan Meunier": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Helpful draw",
+        "Race class strength +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000003926",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "10:52",
+          "off_dt": "2026-07-15T10:52:00+01:00",
+          "race_name": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
+          "distance_f": 17.0,
+          "race_class": "Class 3",
+          "race_type": "Hurdle",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Barcida",
+          "horse_id": "hrs_7000005131",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Davide Satalia",
+          "trainer_id": "trn_310689",
+          "jockey": "Elouan Meunier",
+          "jockey_id": "jky_300828",
+          "draw": 0,
+          "number": 5,
+          "lbs": 147,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 17.0,
+        "latest_going": "",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 48,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Naerobi Sibey",
+      "horse_id": "hrs_7000005124",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Clairefontaine",
+      "latest_time": "10:52",
+      "latest_race": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 17.0,
+      "latest_class": "Class 3",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Francois Nicolle",
+      "latest_jockey": "Angelo Zuliani",
+      "latest_draw": 0,
+      "latest_weight_lbs": 147,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Francois Nicolle": 1
+      },
+      "jockeys_seen": {
+        "Angelo Zuliani": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Helpful draw",
+        "Race class strength +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000003926",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "10:52",
+          "off_dt": "2026-07-15T10:52:00+01:00",
+          "race_name": "Prix Initiation Au Polo Au Pic Longines (Prix D'anglet)",
+          "distance_f": 17.0,
+          "race_class": "Class 3",
+          "race_type": "Hurdle",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Naerobi Sibey",
+          "horse_id": "hrs_7000005124",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Francois Nicolle",
+          "trainer_id": "trn_283203",
+          "jockey": "Angelo Zuliani",
+          "jockey_id": "jky_286659",
+          "draw": 0,
+          "number": 3,
+          "lbs": 147,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 17.0,
+        "latest_going": "",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 48,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1165,9 +1213,7 @@
     }
   ],
   "notes": [
-    "Barcida is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
+    "La Genette is the top-rated Pulse IQ runner.",
     "Kanaga is flagged as a possible dark horse."
   ]
 }

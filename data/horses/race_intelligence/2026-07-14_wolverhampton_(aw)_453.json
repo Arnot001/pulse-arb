@@ -5,179 +5,14 @@
   "time": "4:53",
   "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
   "field_size": 9,
-  "average_intelligence": 29.33,
-  "top_score": 48,
-  "second_score": 27,
-  "gap": 21,
-  "confidence_score": 66,
-  "confidence": "MEDIUM",
-  "race_shape": "CLEAR STANDOUT",
+  "average_intelligence": 53.0,
+  "top_score": 62,
+  "second_score": 61,
+  "gap": 1,
+  "confidence_score": 49,
+  "confidence": "LOW",
+  "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Post Rider",
-    "horse_id": "hrs_37988020",
-    "age": 5,
-    "sex": "mare",
-    "latest_course": "Wolverhampton (AW)",
-    "latest_time": "4:53",
-    "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-    "latest_date": "2026-07-14",
-    "latest_distance_f": 12.0,
-    "latest_class": "Class 5",
-    "latest_going": "Standard",
-    "latest_surface": "AW",
-    "latest_trainer": "Oliver Cole",
-    "latest_jockey": "Cieren Fallon",
-    "latest_draw": 7,
-    "latest_weight_lbs": 141,
-    "official_rating": "73",
-    "recent_form": "82-735",
-    "last_run_days": 13,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Bath": 1,
-      "Wolverhampton (AW)": 1
-    },
-    "distances_seen": {
-      "8.0": 1,
-      "12.0": 1
-    },
-    "goings_seen": {
-      "Firm": 1,
-      "Standard": 1
-    },
-    "classes_seen": {
-      "Class 5": 2
-    },
-    "trainers_seen": {
-      "Oliver Cole": 2
-    },
-    "jockeys_seen": {
-      "Lewis Edmunds": 1,
-      "Cieren Fallon": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 65,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer bonus +2",
-      "Jockey bonus +1",
-      "Jockey in form +2 (1/4 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988392",
-        "course": "Bath",
-        "date": "2026-07-01",
-        "off_time": "8:18",
-        "off_dt": "2026-07-01T20:18:00+01:00",
-        "race_name": "MJ Church Handicap",
-        "distance_f": 8.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Firm",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Post Rider",
-        "horse_id": "hrs_37988020",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "Oliver Cole",
-        "trainer_id": "trn_382131",
-        "jockey": "Lewis Edmunds",
-        "jockey_id": "jky_283989",
-        "draw": 2,
-        "number": 1,
-        "lbs": 142,
-        "ofr": "75",
-        "last_run": 19,
-        "form": "182-73",
-        "headgear": "",
-        "_stored_at": "2026-06-30T23:10:34.346587+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000002470",
-        "course": "Wolverhampton (AW)",
-        "date": "2026-07-14",
-        "off_time": "4:53",
-        "off_dt": "2026-07-14T16:53:00+01:00",
-        "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-        "distance_f": 12.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Standard",
-        "surface": "AW",
-        "field_size": 9,
-        "horse": "Post Rider",
-        "horse_id": "hrs_37988020",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "Oliver Cole",
-        "trainer_id": "trn_382131",
-        "jockey": "Cieren Fallon",
-        "jockey_id": "jky_295557",
-        "draw": 7,
-        "number": 2,
-        "lbs": 141,
-        "ofr": "73",
-        "last_run": 13,
-        "form": "82-735",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Bath",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 8.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 2
-    },
-    "course_suitability_score": 55,
-    "distance_suitability_score": 55,
-    "going_suitability_score": 55,
-    "class_suitability_score": 90,
-    "suitability_score": 64,
-    "horse_intelligence_score": 48,
-    "profile_strengths": [
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Course does not strongly match stored profile",
-      "Distance not yet a clear profile strength",
-      "Going is not clearly proven from stored profile",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Wolverhampton (AW)",
-      "latest_distance_f": 12.0,
-      "latest_going": "Standard",
-      "latest_class": "Class 5",
-      "latest_pulse_score": 65,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
-  },
-  "main_threat": {
     "horse": "Desert Belle",
     "horse_id": "hrs_62743569",
     "age": 3,
@@ -218,8 +53,13 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 78,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -276,15 +116,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 62,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -293,17 +133,17 @@
       "latest_distance_f": 12.0,
       "latest_going": "Standard",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 78,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
-    "horse": "Five Moons",
-    "horse_id": "hrs_59862551",
-    "age": 3,
-    "sex": "filly",
+  "main_threat": {
+    "horse": "Ghost Story",
+    "horse_id": "hrs_41263670",
+    "age": 5,
+    "sex": "mare",
     "latest_course": "Wolverhampton (AW)",
     "latest_time": "4:53",
     "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
@@ -312,13 +152,13 @@
     "latest_class": "Class 5",
     "latest_going": "Standard",
     "latest_surface": "AW",
-    "latest_trainer": "Simon & Ed Crisford",
-    "latest_jockey": "Harry Davies",
-    "latest_draw": 5,
-    "latest_weight_lbs": 124,
-    "official_rating": "68",
-    "recent_form": "7-444",
-    "last_run_days": 120,
+    "latest_trainer": "John Butler",
+    "latest_jockey": "Billy Loughnane",
+    "latest_draw": 2,
+    "latest_weight_lbs": 134,
+    "official_rating": "66",
+    "recent_form": "123-33",
+    "last_run_days": 40,
     "profile_runs": 1,
     "courses_seen": {
       "Wolverhampton (AW)": 1
@@ -333,15 +173,21 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Simon & Ed Crisford": 1
+      "John Butler": 1
     },
     "jockeys_seen": {
-      "Harry Davies": 1
+      "Billy Loughnane": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 76,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Stable in form +2 (2/2 last 14 days)",
+      "Jockey flying +4 (17/31 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -357,25 +203,25 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 9,
-        "horse": "Five Moons",
-        "horse_id": "hrs_59862551",
-        "age": 3,
-        "sex": "filly",
-        "trainer": "Simon & Ed Crisford",
-        "trainer_id": "trn_337302",
-        "jockey": "Harry Davies",
-        "jockey_id": "jky_304524",
-        "draw": 5,
-        "number": 8,
-        "lbs": 124,
-        "ofr": "68",
-        "last_run": 120,
-        "form": "7-444",
+        "horse": "Ghost Story",
+        "horse_id": "hrs_41263670",
+        "age": 5,
+        "sex": "mare",
+        "trainer": "John Butler",
+        "trainer_id": "trn_235593",
+        "jockey": "Billy Loughnane",
+        "jockey_id": "jky_233301",
+        "draw": 2,
+        "number": 4,
+        "lbs": 134,
+        "ofr": "66",
+        "last_run": 40,
+        "form": "123-33",
         "headgear": ""
       }
     ],
     "profile_notes": [
-      "Returning from a break"
+      "Low draw today"
     ],
     "favourite_course": {
       "value": "Wolverhampton (AW)",
@@ -398,15 +244,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 61,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -415,13 +261,897 @@
       "latest_distance_f": 12.0,
       "latest_going": "Standard",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 76,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Ghost Story",
+    "horse_id": "hrs_41263670",
+    "age": 5,
+    "sex": "mare",
+    "latest_course": "Wolverhampton (AW)",
+    "latest_time": "4:53",
+    "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+    "latest_date": "2026-07-14",
+    "latest_distance_f": 12.0,
+    "latest_class": "Class 5",
+    "latest_going": "Standard",
+    "latest_surface": "AW",
+    "latest_trainer": "John Butler",
+    "latest_jockey": "Billy Loughnane",
+    "latest_draw": 2,
+    "latest_weight_lbs": 134,
+    "official_rating": "66",
+    "recent_form": "123-33",
+    "last_run_days": 40,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Wolverhampton (AW)": 1
+    },
+    "distances_seen": {
+      "12.0": 1
+    },
+    "goings_seen": {
+      "Standard": 1
+    },
+    "classes_seen": {
+      "Class 5": 1
+    },
+    "trainers_seen": {
+      "John Butler": 1
+    },
+    "jockeys_seen": {
+      "Billy Loughnane": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 76,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Stable in form +2 (2/2 last 14 days)",
+      "Jockey flying +4 (17/31 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000002470",
+        "course": "Wolverhampton (AW)",
+        "date": "2026-07-14",
+        "off_time": "4:53",
+        "off_dt": "2026-07-14T16:53:00+01:00",
+        "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+        "distance_f": 12.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Standard",
+        "surface": "AW",
+        "field_size": 9,
+        "horse": "Ghost Story",
+        "horse_id": "hrs_41263670",
+        "age": 5,
+        "sex": "mare",
+        "trainer": "John Butler",
+        "trainer_id": "trn_235593",
+        "jockey": "Billy Loughnane",
+        "jockey_id": "jky_233301",
+        "draw": 2,
+        "number": 4,
+        "lbs": 134,
+        "ofr": "66",
+        "last_run": 40,
+        "form": "123-33",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Wolverhampton (AW)",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 12.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Standard",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 61,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Wolverhampton (AW)",
+      "latest_distance_f": 12.0,
+      "latest_going": "Standard",
+      "latest_class": "Class 5",
+      "latest_pulse_score": 76,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Desert Belle",
+      "horse_id": "hrs_62743569",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "4:53",
+      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 12.0,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Sir Mark Prescott Bt",
+      "latest_jockey": "Luke Morris",
+      "latest_draw": 3,
+      "latest_weight_lbs": 123,
+      "official_rating": "67",
+      "recent_form": "2143",
+      "last_run_days": 34,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wolverhampton (AW)": 1
+      },
+      "distances_seen": {
+        "12.0": 1
+      },
+      "goings_seen": {
+        "Standard": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Sir Mark Prescott Bt": 1
+      },
+      "jockeys_seen": {
+        "Luke Morris": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 78,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000002470",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-14",
+          "off_time": "4:53",
+          "off_dt": "2026-07-14T16:53:00+01:00",
+          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+          "distance_f": 12.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 9,
+          "horse": "Desert Belle",
+          "horse_id": "hrs_62743569",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Sir Mark Prescott Bt",
+          "trainer_id": "trn_603",
+          "jockey": "Luke Morris",
+          "jockey_id": "jky_254571",
+          "draw": 3,
+          "number": 9,
+          "lbs": 123,
+          "ofr": "67",
+          "last_run": 34,
+          "form": "2143",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 62,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 12.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 78,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Ghost Story",
+      "horse_id": "hrs_41263670",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "4:53",
+      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 12.0,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "John Butler",
+      "latest_jockey": "Billy Loughnane",
+      "latest_draw": 2,
+      "latest_weight_lbs": 134,
+      "official_rating": "66",
+      "recent_form": "123-33",
+      "last_run_days": 40,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wolverhampton (AW)": 1
+      },
+      "distances_seen": {
+        "12.0": 1
+      },
+      "goings_seen": {
+        "Standard": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "John Butler": 1
+      },
+      "jockeys_seen": {
+        "Billy Loughnane": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 76,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey flying +4 (17/31 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000002470",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-14",
+          "off_time": "4:53",
+          "off_dt": "2026-07-14T16:53:00+01:00",
+          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+          "distance_f": 12.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 9,
+          "horse": "Ghost Story",
+          "horse_id": "hrs_41263670",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "John Butler",
+          "trainer_id": "trn_235593",
+          "jockey": "Billy Loughnane",
+          "jockey_id": "jky_233301",
+          "draw": 2,
+          "number": 4,
+          "lbs": 134,
+          "ofr": "66",
+          "last_run": 40,
+          "form": "123-33",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 61,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 12.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 76,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Lady Magu",
+      "horse_id": "hrs_52709727",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "4:53",
+      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 12.0,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Roger Varian",
+      "latest_jockey": "Ray Dawson",
+      "latest_draw": 9,
+      "latest_weight_lbs": 131,
+      "official_rating": "75",
+      "recent_form": "551",
+      "last_run_days": 27,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wolverhampton (AW)": 1
+      },
+      "distances_seen": {
+        "12.0": 1
+      },
+      "goings_seen": {
+        "Standard": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Roger Varian": 1
+      },
+      "jockeys_seen": {
+        "Ray Dawson": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 72,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Stable flying +4 (9/13 last 14 days)",
+        "Jockey flying +4 (9/14 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000002470",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-14",
+          "off_time": "4:53",
+          "off_dt": "2026-07-14T16:53:00+01:00",
+          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+          "distance_f": 12.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 9,
+          "horse": "Lady Magu",
+          "horse_id": "hrs_52709727",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Roger Varian",
+          "trainer_id": "trn_224010",
+          "jockey": "Ray Dawson",
+          "jockey_id": "jky_266394",
+          "draw": 9,
+          "number": 5,
+          "lbs": 131,
+          "ofr": "75",
+          "last_run": 27,
+          "form": "551",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 59,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 12.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 72,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Rose Cotton",
+      "horse_id": "hrs_53081343",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "4:53",
+      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 12.0,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Tom Clover",
+      "latest_jockey": "Jack Mitchell",
+      "latest_draw": 4,
+      "latest_weight_lbs": 142,
+      "official_rating": "74",
+      "recent_form": "7-1227",
+      "last_run_days": 60,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wolverhampton (AW)": 1
+      },
+      "distances_seen": {
+        "12.0": 1
+      },
+      "goings_seen": {
+        "Standard": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Tom Clover": 1
+      },
+      "jockeys_seen": {
+        "Jack Mitchell": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 69,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey in form +2 (2/2 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000002470",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-14",
+          "off_time": "4:53",
+          "off_dt": "2026-07-14T16:53:00+01:00",
+          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+          "distance_f": 12.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 9,
+          "horse": "Rose Cotton",
+          "horse_id": "hrs_53081343",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Tom Clover",
+          "trainer_id": "trn_294885",
+          "jockey": "Jack Mitchell",
+          "jockey_id": "jky_253248",
+          "draw": 4,
+          "number": 1,
+          "lbs": 142,
+          "ofr": "74",
+          "last_run": 60,
+          "form": "7-1227",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 12.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 69,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Sound Janet",
+      "horse_id": "hrs_48082559",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "4:53",
+      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 12.0,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Julie Camacho",
+      "latest_jockey": "Ryan Sexton",
+      "latest_draw": 1,
+      "latest_weight_lbs": 137,
+      "official_rating": "69",
+      "recent_form": "225-06",
+      "last_run_days": 27,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wolverhampton (AW)": 1
+      },
+      "distances_seen": {
+        "12.0": 1
+      },
+      "goings_seen": {
+        "Standard": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Julie Camacho": 1
+      },
+      "jockeys_seen": {
+        "Ryan Sexton": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 57,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000002470",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-14",
+          "off_time": "4:53",
+          "off_dt": "2026-07-14T16:53:00+01:00",
+          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+          "distance_f": 12.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 9,
+          "horse": "Sound Janet",
+          "horse_id": "hrs_48082559",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Julie Camacho",
+          "trainer_id": "trn_110025",
+          "jockey": "Ryan Sexton",
+          "jockey_id": "jky_301137",
+          "draw": 1,
+          "number": 3,
+          "lbs": 137,
+          "ofr": "69",
+          "last_run": 27,
+          "form": "225-06",
+          "headgear": "p"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 53,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 12.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 57,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Five Moons",
+      "horse_id": "hrs_59862551",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "4:53",
+      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 12.0,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Simon & Ed Crisford",
+      "latest_jockey": "Harry Davies",
+      "latest_draw": 5,
+      "latest_weight_lbs": 124,
+      "official_rating": "68",
+      "recent_form": "7-444",
+      "last_run_days": 120,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wolverhampton (AW)": 1
+      },
+      "distances_seen": {
+        "12.0": 1
+      },
+      "goings_seen": {
+        "Standard": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Simon & Ed Crisford": 1
+      },
+      "jockeys_seen": {
+        "Harry Davies": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 47,
+      "latest_notes": [
+        "Positive recent form",
+        "Stable flying +4 (5/5 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000002470",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-14",
+          "off_time": "4:53",
+          "off_dt": "2026-07-14T16:53:00+01:00",
+          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
+          "distance_f": 12.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 9,
+          "horse": "Five Moons",
+          "horse_id": "hrs_59862551",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Simon & Ed Crisford",
+          "trainer_id": "trn_337302",
+          "jockey": "Harry Davies",
+          "jockey_id": "jky_304524",
+          "draw": 5,
+          "number": 8,
+          "lbs": 124,
+          "ofr": "68",
+          "last_run": 120,
+          "form": "7-444",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 12.0,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 47,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Post Rider",
       "horse_id": "hrs_37988020",
@@ -588,732 +1318,6 @@
       }
     },
     {
-      "horse": "Desert Belle",
-      "horse_id": "hrs_62743569",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "4:53",
-      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 12.0,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Sir Mark Prescott Bt",
-      "latest_jockey": "Luke Morris",
-      "latest_draw": 3,
-      "latest_weight_lbs": 123,
-      "official_rating": "67",
-      "recent_form": "2143",
-      "last_run_days": 34,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wolverhampton (AW)": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Sir Mark Prescott Bt": 1
-      },
-      "jockeys_seen": {
-        "Luke Morris": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000002470",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-14",
-          "off_time": "4:53",
-          "off_dt": "2026-07-14T16:53:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-          "distance_f": 12.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 9,
-          "horse": "Desert Belle",
-          "horse_id": "hrs_62743569",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Sir Mark Prescott Bt",
-          "trainer_id": "trn_603",
-          "jockey": "Luke Morris",
-          "jockey_id": "jky_254571",
-          "draw": 3,
-          "number": 9,
-          "lbs": 123,
-          "ofr": "67",
-          "last_run": 34,
-          "form": "2143",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 12.0,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Five Moons",
-      "horse_id": "hrs_59862551",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "4:53",
-      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 12.0,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Simon & Ed Crisford",
-      "latest_jockey": "Harry Davies",
-      "latest_draw": 5,
-      "latest_weight_lbs": 124,
-      "official_rating": "68",
-      "recent_form": "7-444",
-      "last_run_days": 120,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wolverhampton (AW)": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Simon & Ed Crisford": 1
-      },
-      "jockeys_seen": {
-        "Harry Davies": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000002470",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-14",
-          "off_time": "4:53",
-          "off_dt": "2026-07-14T16:53:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-          "distance_f": 12.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 9,
-          "horse": "Five Moons",
-          "horse_id": "hrs_59862551",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Simon & Ed Crisford",
-          "trainer_id": "trn_337302",
-          "jockey": "Harry Davies",
-          "jockey_id": "jky_304524",
-          "draw": 5,
-          "number": 8,
-          "lbs": 124,
-          "ofr": "68",
-          "last_run": 120,
-          "form": "7-444",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 12.0,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Ghost Story",
-      "horse_id": "hrs_41263670",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "4:53",
-      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 12.0,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "John Butler",
-      "latest_jockey": "Billy Loughnane",
-      "latest_draw": 2,
-      "latest_weight_lbs": 134,
-      "official_rating": "66",
-      "recent_form": "123-33",
-      "last_run_days": 40,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wolverhampton (AW)": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "John Butler": 1
-      },
-      "jockeys_seen": {
-        "Billy Loughnane": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000002470",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-14",
-          "off_time": "4:53",
-          "off_dt": "2026-07-14T16:53:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-          "distance_f": 12.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 9,
-          "horse": "Ghost Story",
-          "horse_id": "hrs_41263670",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "John Butler",
-          "trainer_id": "trn_235593",
-          "jockey": "Billy Loughnane",
-          "jockey_id": "jky_233301",
-          "draw": 2,
-          "number": 4,
-          "lbs": 134,
-          "ofr": "66",
-          "last_run": 40,
-          "form": "123-33",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 12.0,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Guendolen",
-      "horse_id": "hrs_40941320",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "4:53",
-      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 12.0,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Harry Eustace",
-      "latest_jockey": "Kaiya Fraser",
-      "latest_draw": 6,
-      "latest_weight_lbs": 126,
-      "official_rating": "58",
-      "recent_form": "4467-6",
-      "last_run_days": 75,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wolverhampton (AW)": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Harry Eustace": 1
-      },
-      "jockeys_seen": {
-        "Kaiya Fraser": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000002470",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-14",
-          "off_time": "4:53",
-          "off_dt": "2026-07-14T16:53:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-          "distance_f": 12.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 9,
-          "horse": "Guendolen",
-          "horse_id": "hrs_40941320",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Harry Eustace",
-          "trainer_id": "trn_344736",
-          "jockey": "Kaiya Fraser",
-          "jockey_id": "jky_303564",
-          "draw": 6,
-          "number": 7,
-          "lbs": 126,
-          "ofr": "58",
-          "last_run": 75,
-          "form": "4467-6",
-          "headgear": "h"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 12.0,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Lady Magu",
-      "horse_id": "hrs_52709727",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "4:53",
-      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 12.0,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Roger Varian",
-      "latest_jockey": "Ray Dawson",
-      "latest_draw": 9,
-      "latest_weight_lbs": 131,
-      "official_rating": "75",
-      "recent_form": "551",
-      "last_run_days": 27,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wolverhampton (AW)": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Roger Varian": 1
-      },
-      "jockeys_seen": {
-        "Ray Dawson": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000002470",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-14",
-          "off_time": "4:53",
-          "off_dt": "2026-07-14T16:53:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-          "distance_f": 12.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 9,
-          "horse": "Lady Magu",
-          "horse_id": "hrs_52709727",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Roger Varian",
-          "trainer_id": "trn_224010",
-          "jockey": "Ray Dawson",
-          "jockey_id": "jky_266394",
-          "draw": 9,
-          "number": 5,
-          "lbs": 131,
-          "ofr": "75",
-          "last_run": 27,
-          "form": "551",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 12.0,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Rose Cotton",
-      "horse_id": "hrs_53081343",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "4:53",
-      "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 12.0,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Tom Clover",
-      "latest_jockey": "Jack Mitchell",
-      "latest_draw": 4,
-      "latest_weight_lbs": 142,
-      "official_rating": "74",
-      "recent_form": "7-1227",
-      "last_run_days": 60,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wolverhampton (AW)": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Tom Clover": 1
-      },
-      "jockeys_seen": {
-        "Jack Mitchell": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000002470",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-14",
-          "off_time": "4:53",
-          "off_dt": "2026-07-14T16:53:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
-          "distance_f": 12.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 9,
-          "horse": "Rose Cotton",
-          "horse_id": "hrs_53081343",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Tom Clover",
-          "trainer_id": "trn_294885",
-          "jockey": "Jack Mitchell",
-          "jockey_id": "jky_253248",
-          "draw": 4,
-          "number": 1,
-          "lbs": 142,
-          "ofr": "74",
-          "last_run": 60,
-          "form": "7-1227",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 12.0,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
       "horse": "Shangri La",
       "horse_id": "hrs_56713307",
       "age": 3,
@@ -1354,8 +1358,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 39,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Long layoff concern -4",
+        "Jockey in form +2 (2/4 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1412,7 +1421,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1429,17 +1438,17 @@
         "latest_distance_f": 12.0,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 39,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Sound Janet",
-      "horse_id": "hrs_48082559",
-      "age": 4,
-      "sex": "filly",
+      "horse": "Guendolen",
+      "horse_id": "hrs_40941320",
+      "age": 5,
+      "sex": "mare",
       "latest_course": "Wolverhampton (AW)",
       "latest_time": "4:53",
       "latest_race": "Sky Sports Racing Sky 415 Fillies' Handicap Stakes",
@@ -1448,13 +1457,13 @@
       "latest_class": "Class 5",
       "latest_going": "Standard",
       "latest_surface": "AW",
-      "latest_trainer": "Julie Camacho",
-      "latest_jockey": "Ryan Sexton",
-      "latest_draw": 1,
-      "latest_weight_lbs": 137,
-      "official_rating": "69",
-      "recent_form": "225-06",
-      "last_run_days": 27,
+      "latest_trainer": "Harry Eustace",
+      "latest_jockey": "Kaiya Fraser",
+      "latest_draw": 6,
+      "latest_weight_lbs": 126,
+      "official_rating": "58",
+      "recent_form": "4467-6",
+      "last_run_days": 75,
       "profile_runs": 1,
       "courses_seen": {
         "Wolverhampton (AW)": 1
@@ -1469,15 +1478,18 @@
         "Class 5": 1
       },
       "trainers_seen": {
-        "Julie Camacho": 1
+        "Harry Eustace": 1
       },
       "jockeys_seen": {
-        "Ryan Sexton": 1
+        "Kaiya Fraser": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 35,
+      "latest_notes": [
+        "Weak recent form",
+        "Stable in form +2 (2/2 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1493,26 +1505,24 @@
           "going": "Standard",
           "surface": "AW",
           "field_size": 9,
-          "horse": "Sound Janet",
-          "horse_id": "hrs_48082559",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Julie Camacho",
-          "trainer_id": "trn_110025",
-          "jockey": "Ryan Sexton",
-          "jockey_id": "jky_301137",
-          "draw": 1,
-          "number": 3,
-          "lbs": 137,
-          "ofr": "69",
-          "last_run": 27,
-          "form": "225-06",
-          "headgear": "p"
+          "horse": "Guendolen",
+          "horse_id": "hrs_40941320",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Harry Eustace",
+          "trainer_id": "trn_344736",
+          "jockey": "Kaiya Fraser",
+          "jockey_id": "jky_303564",
+          "draw": 6,
+          "number": 7,
+          "lbs": 126,
+          "ofr": "58",
+          "last_run": 75,
+          "form": "4467-6",
+          "headgear": "h"
         }
       ],
-      "profile_notes": [
-        "Low draw today"
-      ],
+      "profile_notes": [],
       "favourite_course": {
         "value": "Wolverhampton (AW)",
         "runs": 1
@@ -1534,7 +1544,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 43,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1551,7 +1561,7 @@
         "latest_distance_f": 12.0,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 35,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1559,9 +1569,8 @@
     }
   ],
   "notes": [
-    "Post Rider is the top-rated Pulse IQ runner.",
-    "The top runner has a clear intelligence gap over the field.",
-    "This race has a generally weak profile strength.",
-    "Five Moons is flagged as a possible dark horse."
+    "Desert Belle is the top-rated Pulse IQ runner.",
+    "The race looks competitive with no clear standout.",
+    "Ghost Story is flagged as a possible dark horse."
   ]
 }

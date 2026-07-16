@@ -5,131 +5,14 @@
   "time": "11:56",
   "race_name": "Prix Genybet (Prix Christian De L'hermite)",
   "field_size": 8,
-  "average_intelligence": 24.0,
-  "top_score": 24,
-  "second_score": 24,
+  "average_intelligence": 52.5,
+  "top_score": 58,
+  "second_score": 58,
   "gap": 0,
-  "confidence_score": 19,
+  "confidence_score": 45,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "It's Great",
-    "horse_id": "hrs_7000003892",
-    "age": 4,
-    "sex": "filly",
-    "latest_course": "Clairefontaine",
-    "latest_time": "11:56",
-    "latest_race": "Prix Genybet (Prix Christian De L'hermite)",
-    "latest_date": "2026-07-15",
-    "latest_distance_f": 18.0,
-    "latest_class": "Class 3",
-    "latest_going": "",
-    "latest_surface": "Turf",
-    "latest_trainer": "Lageneste Macaire",
-    "latest_jockey": "Quentin Defontaine",
-    "latest_draw": 0,
-    "latest_weight_lbs": 147,
-    "official_rating": "-",
-    "recent_form": "411-11",
-    "last_run_days": 391,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Clairefontaine": 1
-    },
-    "distances_seen": {
-      "18.0": 1
-    },
-    "goings_seen": {},
-    "classes_seen": {
-      "Class 3": 1
-    },
-    "trainers_seen": {
-      "Lageneste Macaire": 1
-    },
-    "jockeys_seen": {
-      "Quentin Defontaine": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000003952",
-        "course": "Clairefontaine",
-        "date": "2026-07-15",
-        "off_time": "11:56",
-        "off_dt": "2026-07-15T11:56:00+01:00",
-        "race_name": "Prix Genybet (Prix Christian De L'hermite)",
-        "distance_f": 18.0,
-        "race_class": "Class 3",
-        "race_type": "Hurdle",
-        "going": "",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "It's Great",
-        "horse_id": "hrs_7000003892",
-        "age": 4,
-        "sex": "filly",
-        "trainer": "Lageneste Macaire",
-        "trainer_id": "trn_9000000144",
-        "jockey": "Quentin Defontaine",
-        "jockey_id": "jky_300900",
-        "draw": 0,
-        "number": 6,
-        "lbs": 147,
-        "ofr": "-",
-        "last_run": 391,
-        "form": "411-11",
-        "headgear": "t"
-      }
-    ],
-    "profile_notes": [
-      "Returning from a break"
-    ],
-    "favourite_course": {
-      "value": "Clairefontaine",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 18.0,
-      "runs": 1
-    },
-    "favourite_going": null,
-    "favourite_class": {
-      "value": "Class 3",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 50,
-    "class_suitability_score": 90,
-    "suitability_score": 80,
-    "horse_intelligence_score": 24,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Clairefontaine",
-      "latest_distance_f": 18.0,
-      "latest_going": "",
-      "latest_class": "Class 3",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Loubraltar",
     "horse_id": "hrs_7000005047",
     "age": 4,
@@ -168,8 +51,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 75,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +4",
+      "Historical winner +3",
+      "Previous course winner +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -221,15 +112,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 58,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -238,17 +129,17 @@
       "latest_distance_f": 18.0,
       "latest_going": "",
       "latest_class": "Class 3",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 75,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
-    "horse": "Magie Des Obeaux",
-    "horse_id": "hrs_52204439",
+  "main_threat": {
+    "horse": "Rainbow Dance",
+    "horse_id": "hrs_52267285",
     "age": 4,
-    "sex": "filly",
+    "sex": "gelding",
     "latest_course": "Clairefontaine",
     "latest_time": "11:56",
     "latest_race": "Prix Genybet (Prix Christian De L'hermite)",
@@ -257,13 +148,13 @@
     "latest_class": "Class 3",
     "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "D Bressou",
-    "latest_jockey": "Maxime Behocaray",
+    "latest_trainer": "J Delaunay",
+    "latest_jockey": "Anthony Renard",
     "latest_draw": 0,
-    "latest_weight_lbs": 145,
+    "latest_weight_lbs": 152,
     "official_rating": "-",
-    "recent_form": "5-253P",
-    "last_run_days": 60,
+    "recent_form": "067331",
+    "last_run_days": 21,
     "profile_runs": 1,
     "courses_seen": {
       "Clairefontaine": 1
@@ -276,15 +167,21 @@
       "Class 3": 1
     },
     "trainers_seen": {
-      "D Bressou": 1
+      "J Delaunay": 1
     },
     "jockeys_seen": {
-      "Maxime Behocaray": 1
+      "Anthony Renard": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 75,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -300,21 +197,21 @@
         "going": "",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Magie Des Obeaux",
-        "horse_id": "hrs_52204439",
+        "horse": "Rainbow Dance",
+        "horse_id": "hrs_52267285",
         "age": 4,
-        "sex": "filly",
-        "trainer": "D Bressou",
-        "trainer_id": "trn_146592",
-        "jockey": "Maxime Behocaray",
-        "jockey_id": "jky_300843",
+        "sex": "gelding",
+        "trainer": "J Delaunay",
+        "trainer_id": "trn_229995",
+        "jockey": "Anthony Renard",
+        "jockey_id": "jky_272781",
         "draw": 0,
-        "number": 7,
-        "lbs": 145,
+        "number": 3,
+        "lbs": 152,
         "ofr": "-",
-        "last_run": 60,
-        "form": "5-253P",
-        "headgear": "v"
+        "last_run": 21,
+        "form": "067331",
+        "headgear": "t"
       }
     ],
     "profile_notes": [],
@@ -336,15 +233,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 58,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -353,13 +250,378 @@
       "latest_distance_f": 18.0,
       "latest_going": "",
       "latest_class": "Class 3",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 75,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Rainbow Dance",
+    "horse_id": "hrs_52267285",
+    "age": 4,
+    "sex": "gelding",
+    "latest_course": "Clairefontaine",
+    "latest_time": "11:56",
+    "latest_race": "Prix Genybet (Prix Christian De L'hermite)",
+    "latest_date": "2026-07-15",
+    "latest_distance_f": 18.0,
+    "latest_class": "Class 3",
+    "latest_going": "",
+    "latest_surface": "Turf",
+    "latest_trainer": "J Delaunay",
+    "latest_jockey": "Anthony Renard",
+    "latest_draw": 0,
+    "latest_weight_lbs": 152,
+    "official_rating": "-",
+    "recent_form": "067331",
+    "last_run_days": 21,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Clairefontaine": 1
+    },
+    "distances_seen": {
+      "18.0": 1
+    },
+    "goings_seen": {},
+    "classes_seen": {
+      "Class 3": 1
+    },
+    "trainers_seen": {
+      "J Delaunay": 1
+    },
+    "jockeys_seen": {
+      "Anthony Renard": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 75,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +4"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000003952",
+        "course": "Clairefontaine",
+        "date": "2026-07-15",
+        "off_time": "11:56",
+        "off_dt": "2026-07-15T11:56:00+01:00",
+        "race_name": "Prix Genybet (Prix Christian De L'hermite)",
+        "distance_f": 18.0,
+        "race_class": "Class 3",
+        "race_type": "Hurdle",
+        "going": "",
+        "surface": "Turf",
+        "field_size": 8,
+        "horse": "Rainbow Dance",
+        "horse_id": "hrs_52267285",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "J Delaunay",
+        "trainer_id": "trn_229995",
+        "jockey": "Anthony Renard",
+        "jockey_id": "jky_272781",
+        "draw": 0,
+        "number": 3,
+        "lbs": 152,
+        "ofr": "-",
+        "last_run": 21,
+        "form": "067331",
+        "headgear": "t"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Clairefontaine",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 18.0,
+      "runs": 1
+    },
+    "favourite_going": null,
+    "favourite_class": {
+      "value": "Class 3",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 50,
+    "class_suitability_score": 90,
+    "suitability_score": 80,
+    "horse_intelligence_score": 58,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Clairefontaine",
+      "latest_distance_f": 18.0,
+      "latest_going": "",
+      "latest_class": "Class 3",
+      "latest_pulse_score": 75,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Loubraltar",
+      "horse_id": "hrs_7000005047",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Clairefontaine",
+      "latest_time": "11:56",
+      "latest_race": "Prix Genybet (Prix Christian De L'hermite)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 18.0,
+      "latest_class": "Class 3",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "A Chaille-Chaille & F Pamart",
+      "latest_jockey": "Florent Bayle",
+      "latest_draw": 0,
+      "latest_weight_lbs": 150,
+      "official_rating": "-",
+      "recent_form": "F-D1",
+      "last_run_days": 16,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "18.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "A Chaille-Chaille & F Pamart": 1
+      },
+      "jockeys_seen": {
+        "Florent Bayle": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 75,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4",
+        "Historical winner +3",
+        "Previous course winner +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000003952",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "11:56",
+          "off_dt": "2026-07-15T11:56:00+01:00",
+          "race_name": "Prix Genybet (Prix Christian De L'hermite)",
+          "distance_f": 18.0,
+          "race_class": "Class 3",
+          "race_type": "Hurdle",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Loubraltar",
+          "horse_id": "hrs_7000005047",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "A Chaille-Chaille & F Pamart",
+          "trainer_id": "trn_379440",
+          "jockey": "Florent Bayle",
+          "jockey_id": "jky_289722",
+          "draw": 0,
+          "number": 5,
+          "lbs": 150,
+          "ofr": "-",
+          "last_run": 16,
+          "form": "F-D1",
+          "headgear": "tv"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 18.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 18.0,
+        "latest_going": "",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 75,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Rainbow Dance",
+      "horse_id": "hrs_52267285",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Clairefontaine",
+      "latest_time": "11:56",
+      "latest_race": "Prix Genybet (Prix Christian De L'hermite)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 18.0,
+      "latest_class": "Class 3",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "J Delaunay",
+      "latest_jockey": "Anthony Renard",
+      "latest_draw": 0,
+      "latest_weight_lbs": 152,
+      "official_rating": "-",
+      "recent_form": "067331",
+      "last_run_days": 21,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "18.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "J Delaunay": 1
+      },
+      "jockeys_seen": {
+        "Anthony Renard": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 75,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000003952",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "11:56",
+          "off_dt": "2026-07-15T11:56:00+01:00",
+          "race_name": "Prix Genybet (Prix Christian De L'hermite)",
+          "distance_f": 18.0,
+          "race_class": "Class 3",
+          "race_type": "Hurdle",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Rainbow Dance",
+          "horse_id": "hrs_52267285",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "J Delaunay",
+          "trainer_id": "trn_229995",
+          "jockey": "Anthony Renard",
+          "jockey_id": "jky_272781",
+          "draw": 0,
+          "number": 3,
+          "lbs": 152,
+          "ofr": "-",
+          "last_run": 21,
+          "form": "067331",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 18.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 18.0,
+        "latest_going": "",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 75,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "It's Great",
       "horse_id": "hrs_7000003892",
@@ -399,8 +661,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 73,
+      "latest_notes": [
+        "Strong recent form",
+        "Questionable run timing",
+        "Very long absence concern -7",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -454,15 +722,15 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 57,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -471,122 +739,7 @@
         "latest_distance_f": 18.0,
         "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Loubraltar",
-      "horse_id": "hrs_7000005047",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Clairefontaine",
-      "latest_time": "11:56",
-      "latest_race": "Prix Genybet (Prix Christian De L'hermite)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 18.0,
-      "latest_class": "Class 3",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "A Chaille-Chaille & F Pamart",
-      "latest_jockey": "Florent Bayle",
-      "latest_draw": 0,
-      "latest_weight_lbs": 150,
-      "official_rating": "-",
-      "recent_form": "F-D1",
-      "last_run_days": 16,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "18.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "A Chaille-Chaille & F Pamart": 1
-      },
-      "jockeys_seen": {
-        "Florent Bayle": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000003952",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "11:56",
-          "off_dt": "2026-07-15T11:56:00+01:00",
-          "race_name": "Prix Genybet (Prix Christian De L'hermite)",
-          "distance_f": 18.0,
-          "race_class": "Class 3",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Loubraltar",
-          "horse_id": "hrs_7000005047",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "A Chaille-Chaille & F Pamart",
-          "trainer_id": "trn_379440",
-          "jockey": "Florent Bayle",
-          "jockey_id": "jky_289722",
-          "draw": 0,
-          "number": 5,
-          "lbs": 150,
-          "ofr": "-",
-          "last_run": 16,
-          "form": "F-D1",
-          "headgear": "tv"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 18.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 18.0,
-        "latest_going": "",
-        "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 73,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -631,8 +784,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 66,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -684,15 +842,15 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 54,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -701,7 +859,7 @@
         "latest_distance_f": 18.0,
         "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 66,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -746,8 +904,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 59,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -799,7 +963,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -807,7 +971,6 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -816,354 +979,7 @@
         "latest_distance_f": 18.0,
         "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Miss Des Boullats",
-      "horse_id": "hrs_57041404",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Clairefontaine",
-      "latest_time": "11:56",
-      "latest_race": "Prix Genybet (Prix Christian De L'hermite)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 18.0,
-      "latest_class": "Class 3",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "M Seror",
-      "latest_jockey": "Baptiste Le Clerc",
-      "latest_draw": 0,
-      "latest_weight_lbs": 165,
-      "official_rating": "-",
-      "recent_form": "734P80",
-      "last_run_days": 16,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "18.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "M Seror": 1
-      },
-      "jockeys_seen": {
-        "Baptiste Le Clerc": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000003952",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "11:56",
-          "off_dt": "2026-07-15T11:56:00+01:00",
-          "race_name": "Prix Genybet (Prix Christian De L'hermite)",
-          "distance_f": 18.0,
-          "race_class": "Class 3",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Miss Des Boullats",
-          "horse_id": "hrs_57041404",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "M Seror",
-          "trainer_id": "trn_204525",
-          "jockey": "Baptiste Le Clerc",
-          "jockey_id": "jky_296157",
-          "draw": 0,
-          "number": 1,
-          "lbs": 165,
-          "ofr": "-",
-          "last_run": 16,
-          "form": "734P80",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 18.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 18.0,
-        "latest_going": "",
-        "latest_class": "Class 3",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "My Gemme",
-      "horse_id": "hrs_7000003990",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Clairefontaine",
-      "latest_time": "11:56",
-      "latest_race": "Prix Genybet (Prix Christian De L'hermite)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 18.0,
-      "latest_class": "Class 3",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Sourdeau Sourdeau De Beauregard",
-      "latest_jockey": "Angelo Zuliani",
-      "latest_draw": 0,
-      "latest_weight_lbs": 143,
-      "official_rating": "-",
-      "recent_form": "623-",
-      "last_run_days": 320,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "18.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "Sourdeau Sourdeau De Beauregard": 1
-      },
-      "jockeys_seen": {
-        "Angelo Zuliani": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000003952",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "11:56",
-          "off_dt": "2026-07-15T11:56:00+01:00",
-          "race_name": "Prix Genybet (Prix Christian De L'hermite)",
-          "distance_f": 18.0,
-          "race_class": "Class 3",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "My Gemme",
-          "horse_id": "hrs_7000003990",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Sourdeau Sourdeau De Beauregard",
-          "trainer_id": "trn_9000000198",
-          "jockey": "Angelo Zuliani",
-          "jockey_id": "jky_286659",
-          "draw": 0,
-          "number": 8,
-          "lbs": 143,
-          "ofr": "-",
-          "last_run": 320,
-          "form": "623-",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 18.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 18.0,
-        "latest_going": "",
-        "latest_class": "Class 3",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Rainbow Dance",
-      "horse_id": "hrs_52267285",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Clairefontaine",
-      "latest_time": "11:56",
-      "latest_race": "Prix Genybet (Prix Christian De L'hermite)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 18.0,
-      "latest_class": "Class 3",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "J Delaunay",
-      "latest_jockey": "Anthony Renard",
-      "latest_draw": 0,
-      "latest_weight_lbs": 152,
-      "official_rating": "-",
-      "recent_form": "067331",
-      "last_run_days": 21,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "18.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "J Delaunay": 1
-      },
-      "jockeys_seen": {
-        "Anthony Renard": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000003952",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "11:56",
-          "off_dt": "2026-07-15T11:56:00+01:00",
-          "race_name": "Prix Genybet (Prix Christian De L'hermite)",
-          "distance_f": 18.0,
-          "race_class": "Class 3",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Rainbow Dance",
-          "horse_id": "hrs_52267285",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "J Delaunay",
-          "trainer_id": "trn_229995",
-          "jockey": "Anthony Renard",
-          "jockey_id": "jky_272781",
-          "draw": 0,
-          "number": 3,
-          "lbs": 152,
-          "ofr": "-",
-          "last_run": 21,
-          "form": "067331",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 18.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 18.0,
-        "latest_going": "",
-        "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 59,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1208,8 +1024,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 60,
+      "latest_notes": [
+        "Strong recent form",
+        "Questionable run timing",
+        "Very long absence concern -7",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1263,7 +1085,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1271,7 +1093,6 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1280,7 +1101,249 @@
         "latest_distance_f": 18.0,
         "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 60,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Miss Des Boullats",
+      "horse_id": "hrs_57041404",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Clairefontaine",
+      "latest_time": "11:56",
+      "latest_race": "Prix Genybet (Prix Christian De L'hermite)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 18.0,
+      "latest_class": "Class 3",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "M Seror",
+      "latest_jockey": "Baptiste Le Clerc",
+      "latest_draw": 0,
+      "latest_weight_lbs": 165,
+      "official_rating": "-",
+      "recent_form": "734P80",
+      "last_run_days": 16,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "18.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "M Seror": 1
+      },
+      "jockeys_seen": {
+        "Baptiste Le Clerc": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 54,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000003952",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "11:56",
+          "off_dt": "2026-07-15T11:56:00+01:00",
+          "race_name": "Prix Genybet (Prix Christian De L'hermite)",
+          "distance_f": 18.0,
+          "race_class": "Class 3",
+          "race_type": "Hurdle",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Miss Des Boullats",
+          "horse_id": "hrs_57041404",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "M Seror",
+          "trainer_id": "trn_204525",
+          "jockey": "Baptiste Le Clerc",
+          "jockey_id": "jky_296157",
+          "draw": 0,
+          "number": 1,
+          "lbs": 165,
+          "ofr": "-",
+          "last_run": 16,
+          "form": "734P80",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 18.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 18.0,
+        "latest_going": "",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 54,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "My Gemme",
+      "horse_id": "hrs_7000003990",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Clairefontaine",
+      "latest_time": "11:56",
+      "latest_race": "Prix Genybet (Prix Christian De L'hermite)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 18.0,
+      "latest_class": "Class 3",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Sourdeau Sourdeau De Beauregard",
+      "latest_jockey": "Angelo Zuliani",
+      "latest_draw": 0,
+      "latest_weight_lbs": 143,
+      "official_rating": "-",
+      "recent_form": "623-",
+      "last_run_days": 320,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "18.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Sourdeau Sourdeau De Beauregard": 1
+      },
+      "jockeys_seen": {
+        "Angelo Zuliani": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 42,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Very long absence concern -7",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000003952",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "11:56",
+          "off_dt": "2026-07-15T11:56:00+01:00",
+          "race_name": "Prix Genybet (Prix Christian De L'hermite)",
+          "distance_f": 18.0,
+          "race_class": "Class 3",
+          "race_type": "Hurdle",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "My Gemme",
+          "horse_id": "hrs_7000003990",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Sourdeau Sourdeau De Beauregard",
+          "trainer_id": "trn_9000000198",
+          "jockey": "Angelo Zuliani",
+          "jockey_id": "jky_286659",
+          "draw": 0,
+          "number": 8,
+          "lbs": 143,
+          "ofr": "-",
+          "last_run": 320,
+          "form": "623-",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 18.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 18.0,
+        "latest_going": "",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 42,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1288,9 +1351,8 @@
     }
   ],
   "notes": [
-    "It's Great is the top-rated Pulse IQ runner.",
+    "Loubraltar is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Magie Des Obeaux is flagged as a possible dark horse."
+    "Rainbow Dance is flagged as a possible dark horse."
   ]
 }

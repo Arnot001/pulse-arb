@@ -5,14 +5,133 @@
   "time": "3:10",
   "race_name": "Lucky Patch Handicap",
   "field_size": 11,
-  "average_intelligence": 24.09,
-  "top_score": 55,
-  "second_score": 21,
-  "gap": 34,
-  "confidence_score": 89,
-  "confidence": "HIGH",
-  "race_shape": "CLEAR STANDOUT",
+  "average_intelligence": 49.91,
+  "top_score": 58,
+  "second_score": 55,
+  "gap": 3,
+  "confidence_score": 49,
+  "confidence": "LOW",
+  "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Bottomuptogether",
+    "horse_id": "hrs_41211016",
+    "age": 5,
+    "sex": "gelding",
+    "latest_course": "Happy Valley",
+    "latest_time": "3:10",
+    "latest_race": "Lucky Patch Handicap",
+    "latest_date": "2026-07-15",
+    "latest_distance_f": 6.0,
+    "latest_class": "",
+    "latest_going": "",
+    "latest_surface": "Turf",
+    "latest_trainer": "F C Lor",
+    "latest_jockey": "J Moreira",
+    "latest_draw": 1,
+    "latest_weight_lbs": 133,
+    "official_rating": "-",
+    "recent_form": "7-4133",
+    "last_run_days": 18,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Happy Valley": 1
+    },
+    "distances_seen": {
+      "6.0": 1
+    },
+    "goings_seen": {},
+    "classes_seen": {},
+    "trainers_seen": {
+      "F C Lor": 1
+    },
+    "jockeys_seen": {
+      "J Moreira": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 82,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Stable flying +4 (3/5 last 14 days)",
+      "Jockey in form +2 (3/13 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_32291815530",
+        "course": "Happy Valley",
+        "date": "2026-07-15",
+        "off_time": "3:10",
+        "off_dt": "2026-07-15T15:10:00+01:00",
+        "race_name": "Lucky Patch Handicap",
+        "distance_f": 6.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "",
+        "surface": "Turf",
+        "field_size": 11,
+        "horse": "Bottomuptogether",
+        "horse_id": "hrs_41211016",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "F C Lor",
+        "trainer_id": "trn_303201",
+        "jockey": "J Moreira",
+        "jockey_id": "jky_254763",
+        "draw": 1,
+        "number": 2,
+        "lbs": 133,
+        "ofr": "-",
+        "last_run": 18,
+        "form": "7-4133",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score",
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Happy Valley",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 6.0,
+      "runs": 1
+    },
+    "favourite_going": null,
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 50,
+    "class_suitability_score": 50,
+    "suitability_score": 70,
+    "horse_intelligence_score": 58,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Happy Valley",
+      "latest_distance_f": 6.0,
+      "latest_going": "",
+      "latest_class": "",
+      "latest_pulse_score": 82,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Turquoise Velocity",
     "horse_id": "hrs_59961139",
     "age": 4,
@@ -167,10 +286,10 @@
       "runs_count": 2
     }
   },
-  "main_threat": {
-    "horse": "Bottomuptogether",
-    "horse_id": "hrs_41211016",
-    "age": 5,
+  "dark_horse": {
+    "horse": "Crimson Flash",
+    "horse_id": "hrs_43352253",
+    "age": 4,
     "sex": "gelding",
     "latest_course": "Happy Valley",
     "latest_time": "3:10",
@@ -180,13 +299,13 @@
     "latest_class": "",
     "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "F C Lor",
-    "latest_jockey": "J Moreira",
-    "latest_draw": 1,
+    "latest_trainer": "M Newnham",
+    "latest_jockey": "Andrea Atzeni",
+    "latest_draw": 3,
     "latest_weight_lbs": 133,
     "official_rating": "-",
-    "recent_form": "7-4133",
-    "last_run_days": 18,
+    "recent_form": "011266",
+    "last_run_days": 24,
     "profile_runs": 1,
     "courses_seen": {
       "Happy Valley": 1
@@ -197,15 +316,21 @@
     "goings_seen": {},
     "classes_seen": {},
     "trainers_seen": {
-      "F C Lor": 1
+      "M Newnham": 1
     },
     "jockeys_seen": {
-      "J Moreira": 1
+      "Andrea Atzeni": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 69,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Jockey flying +4 (3/10 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -221,21 +346,21 @@
         "going": "",
         "surface": "Turf",
         "field_size": 11,
-        "horse": "Bottomuptogether",
-        "horse_id": "hrs_41211016",
-        "age": 5,
+        "horse": "Crimson Flash",
+        "horse_id": "hrs_43352253",
+        "age": 4,
         "sex": "gelding",
-        "trainer": "F C Lor",
-        "trainer_id": "trn_303201",
-        "jockey": "J Moreira",
-        "jockey_id": "jky_254763",
-        "draw": 1,
-        "number": 2,
+        "trainer": "M Newnham",
+        "trainer_id": "trn_290223",
+        "jockey": "Andrea Atzeni",
+        "jockey_id": "jky_262047",
+        "draw": 3,
+        "number": 3,
         "lbs": 133,
         "ofr": "-",
-        "last_run": 18,
-        "form": "7-4133",
-        "headgear": ""
+        "last_run": 24,
+        "form": "011266",
+        "headgear": "b"
       }
     ],
     "profile_notes": [
@@ -256,14 +381,14 @@
     "going_suitability_score": 50,
     "class_suitability_score": 50,
     "suitability_score": 70,
-    "horse_intelligence_score": 21,
+    "horse_intelligence_score": 52,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
+      "Today's distance matches strongest profile pattern",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -272,122 +397,132 @@
       "latest_distance_f": 6.0,
       "latest_going": "",
       "latest_class": "",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Brave Star",
-    "horse_id": "hrs_30953776",
-    "age": 7,
-    "sex": "gelding",
-    "latest_course": "Happy Valley",
-    "latest_time": "3:10",
-    "latest_race": "Lucky Patch Handicap",
-    "latest_date": "2026-07-15",
-    "latest_distance_f": 6.0,
-    "latest_class": "",
-    "latest_going": "",
-    "latest_surface": "Turf",
-    "latest_trainer": "K W Lui",
-    "latest_jockey": "C Y Ho",
-    "latest_draw": 8,
-    "latest_weight_lbs": 119,
-    "official_rating": "-",
-    "recent_form": "-33280",
-    "last_run_days": 18,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Happy Valley": 1
-    },
-    "distances_seen": {
-      "6.0": 1
-    },
-    "goings_seen": {},
-    "classes_seen": {},
-    "trainers_seen": {
-      "K W Lui": 1
-    },
-    "jockeys_seen": {
-      "C Y Ho": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_32291815530",
-        "course": "Happy Valley",
-        "date": "2026-07-15",
-        "off_time": "3:10",
-        "off_dt": "2026-07-15T15:10:00+01:00",
-        "race_name": "Lucky Patch Handicap",
-        "distance_f": 6.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "",
-        "surface": "Turf",
-        "field_size": 11,
-        "horse": "Brave Star",
-        "horse_id": "hrs_30953776",
-        "age": 7,
-        "sex": "gelding",
-        "trainer": "K W Lui",
-        "trainer_id": "trn_114858",
-        "jockey": "C Y Ho",
-        "jockey_id": "jky_272061",
-        "draw": 8,
-        "number": 8,
-        "lbs": 119,
-        "ofr": "-",
-        "last_run": 18,
-        "form": "-33280",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Happy Valley",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 6.0,
-      "runs": 1
-    },
-    "favourite_going": null,
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 50,
-    "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 21,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
-    ],
-    "profile_cautions": [
-      "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Happy Valley",
-      "latest_distance_f": 6.0,
-      "latest_going": "",
-      "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 69,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Bottomuptogether",
+      "horse_id": "hrs_41211016",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Happy Valley",
+      "latest_time": "3:10",
+      "latest_race": "Lucky Patch Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "F C Lor",
+      "latest_jockey": "J Moreira",
+      "latest_draw": 1,
+      "latest_weight_lbs": 133,
+      "official_rating": "-",
+      "recent_form": "7-4133",
+      "last_run_days": 18,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Happy Valley": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "F C Lor": 1
+      },
+      "jockeys_seen": {
+        "J Moreira": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 82,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Stable flying +4 (3/5 last 14 days)",
+        "Jockey in form +2 (3/13 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_32291815530",
+          "course": "Happy Valley",
+          "date": "2026-07-15",
+          "off_time": "3:10",
+          "off_dt": "2026-07-15T15:10:00+01:00",
+          "race_name": "Lucky Patch Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Bottomuptogether",
+          "horse_id": "hrs_41211016",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "F C Lor",
+          "trainer_id": "trn_303201",
+          "jockey": "J Moreira",
+          "jockey_id": "jky_254763",
+          "draw": 1,
+          "number": 2,
+          "lbs": 133,
+          "ofr": "-",
+          "last_run": 18,
+          "form": "7-4133",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score",
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Happy Valley",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Happy Valley",
+        "latest_distance_f": 6.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": 82,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Turquoise Velocity",
       "horse_id": "hrs_59961139",
@@ -544,226 +679,6 @@
       }
     },
     {
-      "horse": "Bottomuptogether",
-      "horse_id": "hrs_41211016",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Happy Valley",
-      "latest_time": "3:10",
-      "latest_race": "Lucky Patch Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "F C Lor",
-      "latest_jockey": "J Moreira",
-      "latest_draw": 1,
-      "latest_weight_lbs": 133,
-      "official_rating": "-",
-      "recent_form": "7-4133",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Happy Valley": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "F C Lor": 1
-      },
-      "jockeys_seen": {
-        "J Moreira": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_32291815530",
-          "course": "Happy Valley",
-          "date": "2026-07-15",
-          "off_time": "3:10",
-          "off_dt": "2026-07-15T15:10:00+01:00",
-          "race_name": "Lucky Patch Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Bottomuptogether",
-          "horse_id": "hrs_41211016",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "F C Lor",
-          "trainer_id": "trn_303201",
-          "jockey": "J Moreira",
-          "jockey_id": "jky_254763",
-          "draw": 1,
-          "number": 2,
-          "lbs": 133,
-          "ofr": "-",
-          "last_run": 18,
-          "form": "7-4133",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Happy Valley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 21,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Happy Valley",
-        "latest_distance_f": 6.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Brave Star",
-      "horse_id": "hrs_30953776",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Happy Valley",
-      "latest_time": "3:10",
-      "latest_race": "Lucky Patch Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "K W Lui",
-      "latest_jockey": "C Y Ho",
-      "latest_draw": 8,
-      "latest_weight_lbs": 119,
-      "official_rating": "-",
-      "recent_form": "-33280",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Happy Valley": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "K W Lui": 1
-      },
-      "jockeys_seen": {
-        "C Y Ho": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_32291815530",
-          "course": "Happy Valley",
-          "date": "2026-07-15",
-          "off_time": "3:10",
-          "off_dt": "2026-07-15T15:10:00+01:00",
-          "race_name": "Lucky Patch Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Brave Star",
-          "horse_id": "hrs_30953776",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "K W Lui",
-          "trainer_id": "trn_114858",
-          "jockey": "C Y Ho",
-          "jockey_id": "jky_272061",
-          "draw": 8,
-          "number": 8,
-          "lbs": 119,
-          "ofr": "-",
-          "last_run": 18,
-          "form": "-33280",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Happy Valley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 21,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Happy Valley",
-        "latest_distance_f": 6.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
       "horse": "Crimson Flash",
       "horse_id": "hrs_43352253",
       "age": 4,
@@ -800,8 +715,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 69,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey flying +4 (3/10 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -852,14 +773,14 @@
       "going_suitability_score": 50,
       "class_suitability_score": 50,
       "suitability_score": 70,
-      "horse_intelligence_score": 21,
+      "horse_intelligence_score": 52,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -868,16 +789,16 @@
         "latest_distance_f": 6.0,
         "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 69,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Lucky With You",
-      "horse_id": "hrs_25251247",
-      "age": 8,
+      "horse": "Brave Star",
+      "horse_id": "hrs_30953776",
+      "age": 7,
       "sex": "gelding",
       "latest_course": "Happy Valley",
       "latest_time": "3:10",
@@ -887,13 +808,13 @@
       "latest_class": "",
       "latest_going": "",
       "latest_surface": "Turf",
-      "latest_trainer": "F C Lor",
-      "latest_jockey": "L Ferraris",
-      "latest_draw": 6,
-      "latest_weight_lbs": 135,
+      "latest_trainer": "K W Lui",
+      "latest_jockey": "C Y Ho",
+      "latest_draw": 8,
+      "latest_weight_lbs": 119,
       "official_rating": "-",
-      "recent_form": "604583",
-      "last_run_days": 24,
+      "recent_form": "-33280",
+      "last_run_days": 18,
       "profile_runs": 1,
       "courses_seen": {
         "Happy Valley": 1
@@ -904,15 +825,21 @@
       "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
-        "F C Lor": 1
+        "K W Lui": 1
       },
       "jockeys_seen": {
-        "L Ferraris": 1
+        "C Y Ho": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 64,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Stable flying +4 (6/9 last 14 days)",
+        "Jockey flying +4 (4/4 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -928,20 +855,20 @@
           "going": "",
           "surface": "Turf",
           "field_size": 11,
-          "horse": "Lucky With You",
-          "horse_id": "hrs_25251247",
-          "age": 8,
+          "horse": "Brave Star",
+          "horse_id": "hrs_30953776",
+          "age": 7,
           "sex": "gelding",
-          "trainer": "F C Lor",
-          "trainer_id": "trn_303201",
-          "jockey": "L Ferraris",
-          "jockey_id": "jky_294588",
-          "draw": 6,
-          "number": 1,
-          "lbs": 135,
+          "trainer": "K W Lui",
+          "trainer_id": "trn_114858",
+          "jockey": "C Y Ho",
+          "jockey_id": "jky_272061",
+          "draw": 8,
+          "number": 8,
+          "lbs": 119,
           "ofr": "-",
-          "last_run": 24,
-          "form": "604583",
+          "last_run": 18,
+          "form": "-33280",
           "headgear": ""
         }
       ],
@@ -961,14 +888,13 @@
       "going_suitability_score": 50,
       "class_suitability_score": 50,
       "suitability_score": 70,
-      "horse_intelligence_score": 21,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -977,7 +903,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 64,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1020,8 +946,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 63,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1070,14 +1000,13 @@
       "going_suitability_score": 50,
       "class_suitability_score": 50,
       "suitability_score": 70,
-      "horse_intelligence_score": 21,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1086,227 +1015,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Romantic Son",
-      "horse_id": "hrs_46514923",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Happy Valley",
-      "latest_time": "3:10",
-      "latest_race": "Lucky Patch Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "D Hayes",
-      "latest_jockey": "M L Yeung",
-      "latest_draw": 5,
-      "latest_weight_lbs": 118,
-      "official_rating": "-",
-      "recent_form": "143074",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Happy Valley": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "D Hayes": 1
-      },
-      "jockeys_seen": {
-        "M L Yeung": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_32291815530",
-          "course": "Happy Valley",
-          "date": "2026-07-15",
-          "off_time": "3:10",
-          "off_dt": "2026-07-15T15:10:00+01:00",
-          "race_name": "Lucky Patch Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Romantic Son",
-          "horse_id": "hrs_46514923",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "D Hayes",
-          "trainer_id": "trn_31950",
-          "jockey": "M L Yeung",
-          "jockey_id": "jky_264900",
-          "draw": 5,
-          "number": 9,
-          "lbs": 118,
-          "ofr": "-",
-          "last_run": 18,
-          "form": "143074",
-          "headgear": "b"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Happy Valley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 21,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Happy Valley",
-        "latest_distance_f": 6.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Sing Dragon",
-      "horse_id": "hrs_30175474",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Happy Valley",
-      "latest_time": "3:10",
-      "latest_race": "Lucky Patch Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "W Y So",
-      "latest_jockey": "A Badel",
-      "latest_draw": 2,
-      "latest_weight_lbs": 122,
-      "official_rating": "-",
-      "recent_form": "172-87",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Happy Valley": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "W Y So": 1
-      },
-      "jockeys_seen": {
-        "A Badel": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_32291815530",
-          "course": "Happy Valley",
-          "date": "2026-07-15",
-          "off_time": "3:10",
-          "off_dt": "2026-07-15T15:10:00+01:00",
-          "race_name": "Lucky Patch Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Sing Dragon",
-          "horse_id": "hrs_30175474",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "W Y So",
-          "trainer_id": "trn_258057",
-          "jockey": "A Badel",
-          "jockey_id": "jky_256623",
-          "draw": 2,
-          "number": 6,
-          "lbs": 122,
-          "ofr": "-",
-          "last_run": 18,
-          "form": "172-87",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Happy Valley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 21,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Happy Valley",
-        "latest_distance_f": 6.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 63,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1349,8 +1058,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 62,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Jockey in form +2 (1/2 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1399,14 +1112,13 @@
       "going_suitability_score": 50,
       "class_suitability_score": 50,
       "suitability_score": 70,
-      "horse_intelligence_score": 21,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1415,116 +1127,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Victor The Winner",
-      "horse_id": "hrs_31981488",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Happy Valley",
-      "latest_time": "3:10",
-      "latest_race": "Lucky Patch Handicap",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 6.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "P C Ng",
-      "latest_jockey": "Zac Purton",
-      "latest_draw": 7,
-      "latest_weight_lbs": 123,
-      "official_rating": "-",
-      "recent_form": "007814",
-      "last_run_days": 38,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Happy Valley": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "P C Ng": 1
-      },
-      "jockeys_seen": {
-        "Zac Purton": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_32291815530",
-          "course": "Happy Valley",
-          "date": "2026-07-15",
-          "off_time": "3:10",
-          "off_dt": "2026-07-15T15:10:00+01:00",
-          "race_name": "Lucky Patch Handicap",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Victor The Winner",
-          "horse_id": "hrs_31981488",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "P C Ng",
-          "trainer_id": "trn_357858",
-          "jockey": "Zac Purton",
-          "jockey_id": "jky_247017",
-          "draw": 7,
-          "number": 5,
-          "lbs": 123,
-          "ofr": "-",
-          "last_run": 38,
-          "form": "007814",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Happy Valley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 21,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Happy Valley",
-        "latest_distance_f": 6.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 62,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1567,8 +1170,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 62,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Stable flying +4 (6/13 last 14 days)",
+        "Jockey flying +4 (3/9 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1619,14 +1228,13 @@
       "going_suitability_score": 50,
       "class_suitability_score": 50,
       "suitability_score": 70,
-      "horse_intelligence_score": 21,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1635,7 +1243,463 @@
         "latest_distance_f": 6.0,
         "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 62,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Lucky With You",
+      "horse_id": "hrs_25251247",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Happy Valley",
+      "latest_time": "3:10",
+      "latest_race": "Lucky Patch Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "F C Lor",
+      "latest_jockey": "L Ferraris",
+      "latest_draw": 6,
+      "latest_weight_lbs": 135,
+      "official_rating": "-",
+      "recent_form": "604583",
+      "last_run_days": 24,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Happy Valley": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "F C Lor": 1
+      },
+      "jockeys_seen": {
+        "L Ferraris": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 60,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Stable flying +4 (3/5 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_32291815530",
+          "course": "Happy Valley",
+          "date": "2026-07-15",
+          "off_time": "3:10",
+          "off_dt": "2026-07-15T15:10:00+01:00",
+          "race_name": "Lucky Patch Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Lucky With You",
+          "horse_id": "hrs_25251247",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "F C Lor",
+          "trainer_id": "trn_303201",
+          "jockey": "L Ferraris",
+          "jockey_id": "jky_294588",
+          "draw": 6,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "-",
+          "last_run": 24,
+          "form": "604583",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Happy Valley",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Happy Valley",
+        "latest_distance_f": 6.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": 60,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Romantic Son",
+      "horse_id": "hrs_46514923",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Happy Valley",
+      "latest_time": "3:10",
+      "latest_race": "Lucky Patch Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "D Hayes",
+      "latest_jockey": "M L Yeung",
+      "latest_draw": 5,
+      "latest_weight_lbs": 118,
+      "official_rating": "-",
+      "recent_form": "143074",
+      "last_run_days": 18,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Happy Valley": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "D Hayes": 1
+      },
+      "jockeys_seen": {
+        "M L Yeung": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 57,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Stable flying +4 (3/7 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_32291815530",
+          "course": "Happy Valley",
+          "date": "2026-07-15",
+          "off_time": "3:10",
+          "off_dt": "2026-07-15T15:10:00+01:00",
+          "race_name": "Lucky Patch Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Romantic Son",
+          "horse_id": "hrs_46514923",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "D Hayes",
+          "trainer_id": "trn_31950",
+          "jockey": "M L Yeung",
+          "jockey_id": "jky_264900",
+          "draw": 5,
+          "number": 9,
+          "lbs": 118,
+          "ofr": "-",
+          "last_run": 18,
+          "form": "143074",
+          "headgear": "b"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Happy Valley",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Happy Valley",
+        "latest_distance_f": 6.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": 57,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Victor The Winner",
+      "horse_id": "hrs_31981488",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Happy Valley",
+      "latest_time": "3:10",
+      "latest_race": "Lucky Patch Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "P C Ng",
+      "latest_jockey": "Zac Purton",
+      "latest_draw": 7,
+      "latest_weight_lbs": 123,
+      "official_rating": "-",
+      "recent_form": "007814",
+      "last_run_days": 38,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Happy Valley": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "P C Ng": 1
+      },
+      "jockeys_seen": {
+        "Zac Purton": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 58,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Stable flying +4 (4/4 last 14 days)",
+        "Jockey flying +4 (8/20 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_32291815530",
+          "course": "Happy Valley",
+          "date": "2026-07-15",
+          "off_time": "3:10",
+          "off_dt": "2026-07-15T15:10:00+01:00",
+          "race_name": "Lucky Patch Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Victor The Winner",
+          "horse_id": "hrs_31981488",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "P C Ng",
+          "trainer_id": "trn_357858",
+          "jockey": "Zac Purton",
+          "jockey_id": "jky_247017",
+          "draw": 7,
+          "number": 5,
+          "lbs": 123,
+          "ofr": "-",
+          "last_run": 38,
+          "form": "007814",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Happy Valley",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Happy Valley",
+        "latest_distance_f": 6.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": 58,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Sing Dragon",
+      "horse_id": "hrs_30175474",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Happy Valley",
+      "latest_time": "3:10",
+      "latest_race": "Lucky Patch Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 6.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "W Y So",
+      "latest_jockey": "A Badel",
+      "latest_draw": 2,
+      "latest_weight_lbs": 122,
+      "official_rating": "-",
+      "recent_form": "172-87",
+      "last_run_days": 18,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Happy Valley": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "W Y So": 1
+      },
+      "jockeys_seen": {
+        "A Badel": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 54,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey in form +2 (3/13 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_32291815530",
+          "course": "Happy Valley",
+          "date": "2026-07-15",
+          "off_time": "3:10",
+          "off_dt": "2026-07-15T15:10:00+01:00",
+          "race_name": "Lucky Patch Handicap",
+          "distance_f": 6.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Sing Dragon",
+          "horse_id": "hrs_30175474",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "W Y So",
+          "trainer_id": "trn_258057",
+          "jockey": "A Badel",
+          "jockey_id": "jky_256623",
+          "draw": 2,
+          "number": 6,
+          "lbs": 122,
+          "ofr": "-",
+          "last_run": 18,
+          "form": "172-87",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Happy Valley",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 45,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Happy Valley",
+        "latest_distance_f": 6.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": 54,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1643,9 +1707,8 @@
     }
   ],
   "notes": [
-    "Turquoise Velocity is the top-rated Pulse IQ runner.",
-    "The top runner has a clear intelligence gap over the field.",
-    "This race has a generally weak profile strength.",
-    "Brave Star is flagged as a possible dark horse."
+    "Bottomuptogether is the top-rated Pulse IQ runner.",
+    "The race looks competitive with no clear standout.",
+    "Crimson Flash is flagged as a possible dark horse."
   ]
 }

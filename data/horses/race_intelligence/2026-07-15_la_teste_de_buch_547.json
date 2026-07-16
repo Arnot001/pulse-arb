@@ -5,16 +5,16 @@
   "time": "5:47",
   "race_name": "Prix Clear Nettoyage",
   "field_size": 7,
-  "average_intelligence": 21.0,
-  "top_score": 21,
-  "second_score": 21,
-  "gap": 0,
-  "confidence_score": 17,
+  "average_intelligence": 46.43,
+  "top_score": 52,
+  "second_score": 51,
+  "gap": 1,
+  "confidence_score": 42,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Adicta",
-    "horse_id": "hrs_7000004172",
+    "horse": "Unfollow",
+    "horse_id": "hrs_7000004914",
     "age": 3,
     "sex": "filly",
     "latest_course": "La Teste De Buch",
@@ -25,13 +25,13 @@
     "latest_class": "",
     "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "V H Santos",
-    "latest_jockey": "Aurelien Lemaitre",
-    "latest_draw": 5,
+    "latest_trainer": "Darwin Fernandez",
+    "latest_jockey": "R Aguilera Puente",
+    "latest_draw": 1,
     "latest_weight_lbs": 124,
     "official_rating": "-",
-    "recent_form": "422-7",
-    "last_run_days": 75,
+    "recent_form": "225",
+    "last_run_days": 34,
     "profile_runs": 1,
     "courses_seen": {
       "La Teste De Buch": 1
@@ -42,15 +42,20 @@
     "goings_seen": {},
     "classes_seen": {},
     "trainers_seen": {
-      "V H Santos": 1
+      "Darwin Fernandez": 1
     },
     "jockeys_seen": {
-      "Aurelien Lemaitre": 1
+      "R Aguilera Puente": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 70,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -66,24 +71,26 @@
         "going": "",
         "surface": "Turf",
         "field_size": 7,
-        "horse": "Adicta",
-        "horse_id": "hrs_7000004172",
+        "horse": "Unfollow",
+        "horse_id": "hrs_7000004914",
         "age": 3,
         "sex": "filly",
-        "trainer": "V H Santos",
-        "trainer_id": "trn_9000000189",
-        "jockey": "Aurelien Lemaitre",
-        "jockey_id": "jky_254853",
-        "draw": 5,
-        "number": 6,
+        "trainer": "Darwin Fernandez",
+        "trainer_id": "trn_303894",
+        "jockey": "R Aguilera Puente",
+        "jockey_id": "jky_3000000018",
+        "draw": 1,
+        "number": 5,
         "lbs": 124,
         "ofr": "-",
-        "last_run": 75,
-        "form": "422-7",
-        "headgear": "v"
+        "last_run": 34,
+        "form": "225",
+        "headgear": ""
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Low draw today"
+    ],
     "favourite_course": {
       "value": "La Teste De Buch",
       "runs": 1
@@ -99,14 +106,14 @@
     "going_suitability_score": 50,
     "class_suitability_score": 50,
     "suitability_score": 70,
-    "horse_intelligence_score": 21,
+    "horse_intelligence_score": 52,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
+      "Today's distance matches strongest profile pattern",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -115,122 +122,13 @@
       "latest_distance_f": 8.0,
       "latest_going": "",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 70,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Bleu Nuit",
-    "horse_id": "hrs_59928512",
-    "age": 3,
-    "sex": "gelding",
-    "latest_course": "La Teste De Buch",
-    "latest_time": "5:47",
-    "latest_race": "Prix Clear Nettoyage",
-    "latest_date": "2026-07-15",
-    "latest_distance_f": 8.0,
-    "latest_class": "",
-    "latest_going": "",
-    "latest_surface": "Turf",
-    "latest_trainer": "F Pardon",
-    "latest_jockey": "Guillaume Guedj-Gay",
-    "latest_draw": 4,
-    "latest_weight_lbs": 128,
-    "official_rating": "-",
-    "recent_form": "449233",
-    "last_run_days": 30,
-    "profile_runs": 1,
-    "courses_seen": {
-      "La Teste De Buch": 1
-    },
-    "distances_seen": {
-      "8.0": 1
-    },
-    "goings_seen": {},
-    "classes_seen": {},
-    "trainers_seen": {
-      "F Pardon": 1
-    },
-    "jockeys_seen": {
-      "Guillaume Guedj-Gay": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000004082",
-        "course": "La Teste De Buch",
-        "date": "2026-07-15",
-        "off_time": "5:47",
-        "off_dt": "2026-07-15T17:47:00+01:00",
-        "race_name": "Prix Clear Nettoyage",
-        "distance_f": 8.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Bleu Nuit",
-        "horse_id": "hrs_59928512",
-        "age": 3,
-        "sex": "gelding",
-        "trainer": "F Pardon",
-        "trainer_id": "trn_138609",
-        "jockey": "Guillaume Guedj-Gay",
-        "jockey_id": "jky_294747",
-        "draw": 4,
-        "number": 2,
-        "lbs": 128,
-        "ofr": "-",
-        "last_run": 30,
-        "form": "449233",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "La Teste De Buch",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 8.0,
-      "runs": 1
-    },
-    "favourite_going": null,
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 50,
-    "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 21,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
-    ],
-    "profile_cautions": [
-      "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "La Teste De Buch",
-      "latest_distance_f": 8.0,
-      "latest_going": "",
-      "latest_class": "",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
     "horse": "Celestial Rose",
     "horse_id": "hrs_7000004725",
     "age": 3,
@@ -267,8 +165,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 67,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Historical winner +3",
+      "Previous course winner +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -319,14 +223,14 @@
     "going_suitability_score": 50,
     "class_suitability_score": 50,
     "suitability_score": 70,
-    "horse_intelligence_score": 21,
+    "horse_intelligence_score": 51,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern"
+      "Today's distance matches strongest profile pattern",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -335,671 +239,125 @@
       "latest_distance_f": 8.0,
       "latest_going": "",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 67,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Bleu Nuit",
+    "horse_id": "hrs_59928512",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "La Teste De Buch",
+    "latest_time": "5:47",
+    "latest_race": "Prix Clear Nettoyage",
+    "latest_date": "2026-07-15",
+    "latest_distance_f": 8.0,
+    "latest_class": "",
+    "latest_going": "",
+    "latest_surface": "Turf",
+    "latest_trainer": "F Pardon",
+    "latest_jockey": "Guillaume Guedj-Gay",
+    "latest_draw": 4,
+    "latest_weight_lbs": 128,
+    "official_rating": "-",
+    "recent_form": "449233",
+    "last_run_days": 30,
+    "profile_runs": 1,
+    "courses_seen": {
+      "La Teste De Buch": 1
+    },
+    "distances_seen": {
+      "8.0": 1
+    },
+    "goings_seen": {},
+    "classes_seen": {},
+    "trainers_seen": {
+      "F Pardon": 1
+    },
+    "jockeys_seen": {
+      "Guillaume Guedj-Gay": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 64,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000004082",
+        "course": "La Teste De Buch",
+        "date": "2026-07-15",
+        "off_time": "5:47",
+        "off_dt": "2026-07-15T17:47:00+01:00",
+        "race_name": "Prix Clear Nettoyage",
+        "distance_f": 8.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Bleu Nuit",
+        "horse_id": "hrs_59928512",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "F Pardon",
+        "trainer_id": "trn_138609",
+        "jockey": "Guillaume Guedj-Gay",
+        "jockey_id": "jky_294747",
+        "draw": 4,
+        "number": 2,
+        "lbs": 128,
+        "ofr": "-",
+        "last_run": 30,
+        "form": "449233",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "La Teste De Buch",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 8.0,
+      "runs": 1
+    },
+    "favourite_going": null,
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 50,
+    "class_suitability_score": 50,
+    "suitability_score": 70,
+    "horse_intelligence_score": 50,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern"
+    ],
+    "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "La Teste De Buch",
+      "latest_distance_f": 8.0,
+      "latest_going": "",
+      "latest_class": "",
+      "latest_pulse_score": 64,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Adicta",
-      "horse_id": "hrs_7000004172",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "5:47",
-      "latest_race": "Prix Clear Nettoyage",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "V H Santos",
-      "latest_jockey": "Aurelien Lemaitre",
-      "latest_draw": 5,
-      "latest_weight_lbs": 124,
-      "official_rating": "-",
-      "recent_form": "422-7",
-      "last_run_days": 75,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "V H Santos": 1
-      },
-      "jockeys_seen": {
-        "Aurelien Lemaitre": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004082",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "5:47",
-          "off_dt": "2026-07-15T17:47:00+01:00",
-          "race_name": "Prix Clear Nettoyage",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Adicta",
-          "horse_id": "hrs_7000004172",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "V H Santos",
-          "trainer_id": "trn_9000000189",
-          "jockey": "Aurelien Lemaitre",
-          "jockey_id": "jky_254853",
-          "draw": 5,
-          "number": 6,
-          "lbs": 124,
-          "ofr": "-",
-          "last_run": 75,
-          "form": "422-7",
-          "headgear": "v"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 21,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Bleu Nuit",
-      "horse_id": "hrs_59928512",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "5:47",
-      "latest_race": "Prix Clear Nettoyage",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "F Pardon",
-      "latest_jockey": "Guillaume Guedj-Gay",
-      "latest_draw": 4,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "449233",
-      "last_run_days": 30,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "F Pardon": 1
-      },
-      "jockeys_seen": {
-        "Guillaume Guedj-Gay": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004082",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "5:47",
-          "off_dt": "2026-07-15T17:47:00+01:00",
-          "race_name": "Prix Clear Nettoyage",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Bleu Nuit",
-          "horse_id": "hrs_59928512",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "F Pardon",
-          "trainer_id": "trn_138609",
-          "jockey": "Guillaume Guedj-Gay",
-          "jockey_id": "jky_294747",
-          "draw": 4,
-          "number": 2,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 30,
-          "form": "449233",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 21,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Celestial Rose",
-      "horse_id": "hrs_7000004725",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "5:47",
-      "latest_race": "Prix Clear Nettoyage",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "J Reynier",
-      "latest_jockey": "Antonio Orani",
-      "latest_draw": 3,
-      "latest_weight_lbs": 124,
-      "official_rating": "-",
-      "recent_form": "23",
-      "last_run_days": 46,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "J Reynier": 1
-      },
-      "jockeys_seen": {
-        "Antonio Orani": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004082",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "5:47",
-          "off_dt": "2026-07-15T17:47:00+01:00",
-          "race_name": "Prix Clear Nettoyage",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Celestial Rose",
-          "horse_id": "hrs_7000004725",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "J Reynier",
-          "trainer_id": "trn_214623",
-          "jockey": "Antonio Orani",
-          "jockey_id": "jky_286020",
-          "draw": 3,
-          "number": 3,
-          "lbs": 124,
-          "ofr": "-",
-          "last_run": 46,
-          "form": "23",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 21,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Kingstride",
-      "horse_id": "hrs_64036588",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "5:47",
-      "latest_race": "Prix Clear Nettoyage",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gavin Hernon",
-      "latest_jockey": "Cristian Demuro",
-      "latest_draw": 6,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "643",
-      "last_run_days": 56,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "Gavin Hernon": 1
-      },
-      "jockeys_seen": {
-        "Cristian Demuro": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004082",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "5:47",
-          "off_dt": "2026-07-15T17:47:00+01:00",
-          "race_name": "Prix Clear Nettoyage",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Kingstride",
-          "horse_id": "hrs_64036588",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Gavin Hernon",
-          "trainer_id": "trn_315009",
-          "jockey": "Cristian Demuro",
-          "jockey_id": "jky_266550",
-          "draw": 6,
-          "number": 1,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 56,
-          "form": "643",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 21,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Ocala",
-      "horse_id": "hrs_59215884",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "5:47",
-      "latest_race": "Prix Clear Nettoyage",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "P Cottier",
-      "latest_jockey": "Hugo Besnier",
-      "latest_draw": 2,
-      "latest_weight_lbs": 124,
-      "official_rating": "-",
-      "recent_form": "223-67",
-      "last_run_days": 41,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "P Cottier": 1
-      },
-      "jockeys_seen": {
-        "Hugo Besnier": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004082",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "5:47",
-          "off_dt": "2026-07-15T17:47:00+01:00",
-          "race_name": "Prix Clear Nettoyage",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Ocala",
-          "horse_id": "hrs_59215884",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "P Cottier",
-          "trainer_id": "trn_217890",
-          "jockey": "Hugo Besnier",
-          "jockey_id": "jky_293802",
-          "draw": 2,
-          "number": 4,
-          "lbs": 124,
-          "ofr": "-",
-          "last_run": 41,
-          "form": "223-67",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 21,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Raise The Point",
-      "horse_id": "hrs_7000005166",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "5:47",
-      "latest_race": "Prix Clear Nettoyage",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "F Rohaut",
-      "latest_jockey": "Damien Morin",
-      "latest_draw": 7,
-      "latest_weight_lbs": 123,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "F Rohaut": 1
-      },
-      "jockeys_seen": {
-        "Damien Morin": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004082",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "5:47",
-          "off_dt": "2026-07-15T17:47:00+01:00",
-          "race_name": "Prix Clear Nettoyage",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Raise The Point",
-          "horse_id": "hrs_7000005166",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "F Rohaut",
-          "trainer_id": "trn_105129",
-          "jockey": "Damien Morin",
-          "jockey_id": "jky_285783",
-          "draw": 7,
-          "number": 7,
-          "lbs": 123,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "v"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 21,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 8.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Unfollow",
       "horse_id": "hrs_7000004914",
@@ -1037,8 +395,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 70,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1089,7 +452,680 @@
       "going_suitability_score": 50,
       "class_suitability_score": 50,
       "suitability_score": 70,
-      "horse_intelligence_score": 21,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": 70,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Celestial Rose",
+      "horse_id": "hrs_7000004725",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "5:47",
+      "latest_race": "Prix Clear Nettoyage",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "J Reynier",
+      "latest_jockey": "Antonio Orani",
+      "latest_draw": 3,
+      "latest_weight_lbs": 124,
+      "official_rating": "-",
+      "recent_form": "23",
+      "last_run_days": 46,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "J Reynier": 1
+      },
+      "jockeys_seen": {
+        "Antonio Orani": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 67,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Historical winner +3",
+        "Previous course winner +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004082",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "5:47",
+          "off_dt": "2026-07-15T17:47:00+01:00",
+          "race_name": "Prix Clear Nettoyage",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Celestial Rose",
+          "horse_id": "hrs_7000004725",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "J Reynier",
+          "trainer_id": "trn_214623",
+          "jockey": "Antonio Orani",
+          "jockey_id": "jky_286020",
+          "draw": 3,
+          "number": 3,
+          "lbs": 124,
+          "ofr": "-",
+          "last_run": 46,
+          "form": "23",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 51,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": 67,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Bleu Nuit",
+      "horse_id": "hrs_59928512",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "5:47",
+      "latest_race": "Prix Clear Nettoyage",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "F Pardon",
+      "latest_jockey": "Guillaume Guedj-Gay",
+      "latest_draw": 4,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "449233",
+      "last_run_days": 30,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "F Pardon": 1
+      },
+      "jockeys_seen": {
+        "Guillaume Guedj-Gay": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 64,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004082",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "5:47",
+          "off_dt": "2026-07-15T17:47:00+01:00",
+          "race_name": "Prix Clear Nettoyage",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Bleu Nuit",
+          "horse_id": "hrs_59928512",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "F Pardon",
+          "trainer_id": "trn_138609",
+          "jockey": "Guillaume Guedj-Gay",
+          "jockey_id": "jky_294747",
+          "draw": 4,
+          "number": 2,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 30,
+          "form": "449233",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": 64,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Adicta",
+      "horse_id": "hrs_7000004172",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "5:47",
+      "latest_race": "Prix Clear Nettoyage",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "V H Santos",
+      "latest_jockey": "Aurelien Lemaitre",
+      "latest_draw": 5,
+      "latest_weight_lbs": 124,
+      "official_rating": "-",
+      "recent_form": "422-7",
+      "last_run_days": 75,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "V H Santos": 1
+      },
+      "jockeys_seen": {
+        "Aurelien Lemaitre": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 53,
+      "latest_notes": [
+        "Strong recent form"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004082",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "5:47",
+          "off_dt": "2026-07-15T17:47:00+01:00",
+          "race_name": "Prix Clear Nettoyage",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Adicta",
+          "horse_id": "hrs_7000004172",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "V H Santos",
+          "trainer_id": "trn_9000000189",
+          "jockey": "Aurelien Lemaitre",
+          "jockey_id": "jky_254853",
+          "draw": 5,
+          "number": 6,
+          "lbs": 124,
+          "ofr": "-",
+          "last_run": 75,
+          "form": "422-7",
+          "headgear": "v"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 45,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": 53,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Ocala",
+      "horse_id": "hrs_59215884",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "5:47",
+      "latest_race": "Prix Clear Nettoyage",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "P Cottier",
+      "latest_jockey": "Hugo Besnier",
+      "latest_draw": 2,
+      "latest_weight_lbs": 124,
+      "official_rating": "-",
+      "recent_form": "223-67",
+      "last_run_days": 41,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "P Cottier": 1
+      },
+      "jockeys_seen": {
+        "Hugo Besnier": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 54,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004082",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "5:47",
+          "off_dt": "2026-07-15T17:47:00+01:00",
+          "race_name": "Prix Clear Nettoyage",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Ocala",
+          "horse_id": "hrs_59215884",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "P Cottier",
+          "trainer_id": "trn_217890",
+          "jockey": "Hugo Besnier",
+          "jockey_id": "jky_293802",
+          "draw": 2,
+          "number": 4,
+          "lbs": 124,
+          "ofr": "-",
+          "last_run": 41,
+          "form": "223-67",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 45,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": 54,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Kingstride",
+      "horse_id": "hrs_64036588",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "5:47",
+      "latest_race": "Prix Clear Nettoyage",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gavin Hernon",
+      "latest_jockey": "Cristian Demuro",
+      "latest_draw": 6,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "643",
+      "last_run_days": 56,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "Gavin Hernon": 1
+      },
+      "jockeys_seen": {
+        "Cristian Demuro": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004082",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "5:47",
+          "off_dt": "2026-07-15T17:47:00+01:00",
+          "race_name": "Prix Clear Nettoyage",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Kingstride",
+          "horse_id": "hrs_64036588",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Gavin Hernon",
+          "trainer_id": "trn_315009",
+          "jockey": "Cristian Demuro",
+          "jockey_id": "jky_266550",
+          "draw": 6,
+          "number": 1,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 56,
+          "form": "643",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 43,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 8.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": 48,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Raise The Point",
+      "horse_id": "hrs_7000005166",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "5:47",
+      "latest_race": "Prix Clear Nettoyage",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "F Rohaut",
+      "latest_jockey": "Damien Morin",
+      "latest_draw": 7,
+      "latest_weight_lbs": 123,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "F Rohaut": 1
+      },
+      "jockeys_seen": {
+        "Damien Morin": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 40,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004082",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "5:47",
+          "off_dt": "2026-07-15T17:47:00+01:00",
+          "race_name": "Prix Clear Nettoyage",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Raise The Point",
+          "horse_id": "hrs_7000005166",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "F Rohaut",
+          "trainer_id": "trn_105129",
+          "jockey": "Damien Morin",
+          "jockey_id": "jky_285783",
+          "draw": 7,
+          "number": 7,
+          "lbs": 123,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "v"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 39,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern"
@@ -1105,7 +1141,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 40,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1113,9 +1149,8 @@
     }
   ],
   "notes": [
-    "Adicta is the top-rated Pulse IQ runner.",
+    "Unfollow is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Celestial Rose is flagged as a possible dark horse."
+    "Bleu Nuit is flagged as a possible dark horse."
   ]
 }

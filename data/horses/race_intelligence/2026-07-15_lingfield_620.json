@@ -5,129 +5,14 @@
   "time": "6:20",
   "race_name": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
   "field_size": 7,
-  "average_intelligence": 24.0,
-  "top_score": 24,
-  "second_score": 24,
-  "gap": 0,
-  "confidence_score": 19,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "average_intelligence": 48.0,
+  "top_score": 62,
+  "second_score": 51,
+  "gap": 11,
+  "confidence_score": 63,
+  "confidence": "MEDIUM",
+  "race_shape": "PULSE EDGE",
   "top_runner": {
-    "horse": "Deja Vu Diva",
-    "horse_id": "hrs_64590757",
-    "age": 2,
-    "sex": "filly",
-    "latest_course": "Lingfield",
-    "latest_time": "6:20",
-    "latest_race": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
-    "latest_date": "2026-07-15",
-    "latest_distance_f": 6.0,
-    "latest_class": "Class 4",
-    "latest_going": "",
-    "latest_surface": "Turf",
-    "latest_trainer": "Clare Hobson",
-    "latest_jockey": "Saffie Osborne",
-    "latest_draw": 6,
-    "latest_weight_lbs": 128,
-    "official_rating": "-",
-    "recent_form": "89",
-    "last_run_days": 41,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Lingfield": 1
-    },
-    "distances_seen": {
-      "6.0": 1
-    },
-    "goings_seen": {},
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "Clare Hobson": 1
-    },
-    "jockeys_seen": {
-      "Saffie Osborne": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000000689",
-        "course": "Lingfield",
-        "date": "2026-07-15",
-        "off_time": "6:20",
-        "off_dt": "2026-07-15T18:20:00+01:00",
-        "race_name": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
-        "distance_f": 6.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Deja Vu Diva",
-        "horse_id": "hrs_64590757",
-        "age": 2,
-        "sex": "filly",
-        "trainer": "Clare Hobson",
-        "trainer_id": "trn_191619",
-        "jockey": "Saffie Osborne",
-        "jockey_id": "jky_301050",
-        "draw": 6,
-        "number": 1,
-        "lbs": 128,
-        "ofr": "-",
-        "last_run": 41,
-        "form": "89",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Lingfield",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 6.0,
-      "runs": 1
-    },
-    "favourite_going": null,
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 50,
-    "class_suitability_score": 90,
-    "suitability_score": 80,
-    "horse_intelligence_score": 24,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Lingfield",
-      "latest_distance_f": 6.0,
-      "latest_going": "",
-      "latest_class": "Class 4",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Fire Thunder",
     "horse_id": "hrs_64460256",
     "age": 2,
@@ -166,8 +51,17 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 84,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Race class strength +2",
+      "Jockey in form +2 (3/13 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4",
+      "Distance specialist +4 (2/2 at trip)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -201,6 +95,7 @@
       }
     ],
     "profile_notes": [
+      "Elite latest Pulse Score",
       "Low draw today"
     ],
     "favourite_course": {
@@ -221,15 +116,15 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 62,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -238,15 +133,15 @@
       "latest_distance_f": 6.0,
       "latest_going": "",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 84,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
-    "horse": "Langdale Lass",
-    "horse_id": "hrs_7000000364",
+  "main_threat": {
+    "horse": "Mrs Mole",
+    "horse_id": "hrs_65451491",
     "age": 2,
     "sex": "filly",
     "latest_course": "Lingfield",
@@ -257,13 +152,13 @@
     "latest_class": "Class 4",
     "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "David Simcock",
-    "latest_jockey": "Sean Levey",
-    "latest_draw": 7,
+    "latest_trainer": "Steph Hollinshead",
+    "latest_jockey": "David Probert",
+    "latest_draw": 2,
     "latest_weight_lbs": 128,
     "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
+    "recent_form": "49",
+    "last_run_days": 21,
     "profile_runs": 1,
     "courses_seen": {
       "Lingfield": 1
@@ -276,15 +171,22 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "David Simcock": 1
+      "Steph Hollinshead": 1
     },
     "jockeys_seen": {
-      "Sean Levey": 1
+      "David Probert": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 59,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Jockey flying +4 (6/11 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -300,24 +202,26 @@
         "going": "",
         "surface": "Turf",
         "field_size": 7,
-        "horse": "Langdale Lass",
-        "horse_id": "hrs_7000000364",
+        "horse": "Mrs Mole",
+        "horse_id": "hrs_65451491",
         "age": 2,
         "sex": "filly",
-        "trainer": "David Simcock",
-        "trainer_id": "trn_145287",
-        "jockey": "Sean Levey",
-        "jockey_id": "jky_253908",
-        "draw": 7,
-        "number": 3,
+        "trainer": "Steph Hollinshead",
+        "trainer_id": "trn_258858",
+        "jockey": "David Probert",
+        "jockey_id": "jky_258039",
+        "draw": 2,
+        "number": 4,
         "lbs": 128,
         "ofr": "-",
-        "last_run": null,
-        "form": "",
+        "last_run": 21,
+        "form": "49",
         "headgear": ""
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Low draw today"
+    ],
     "favourite_course": {
       "value": "Lingfield",
       "runs": 1
@@ -336,7 +240,7 @@
     "going_suitability_score": 50,
     "class_suitability_score": 90,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 51,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -344,7 +248,6 @@
     ],
     "profile_cautions": [
       "Going is not clearly proven from stored profile",
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -353,128 +256,133 @@
       "latest_distance_f": 6.0,
       "latest_going": "",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 59,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Mystic Ballistic",
+    "horse_id": "hrs_7000000378",
+    "age": 2,
+    "sex": "filly",
+    "latest_course": "Lingfield",
+    "latest_time": "6:20",
+    "latest_race": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
+    "latest_date": "2026-07-15",
+    "latest_distance_f": 6.0,
+    "latest_class": "Class 4",
+    "latest_going": "",
+    "latest_surface": "Turf",
+    "latest_trainer": "Hilal Kobeissi",
+    "latest_jockey": "Kieran Shoemark",
+    "latest_draw": 3,
+    "latest_weight_lbs": 128,
+    "official_rating": "-",
+    "recent_form": "",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Lingfield": 1
+    },
+    "distances_seen": {
+      "6.0": 1
+    },
+    "goings_seen": {},
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Hilal Kobeissi": 1
+    },
+    "jockeys_seen": {
+      "Kieran Shoemark": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 48,
+    "latest_notes": [
+      "Helpful draw",
+      "Race class strength +2",
+      "Jockey in form +2 (3/16 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000000689",
+        "course": "Lingfield",
+        "date": "2026-07-15",
+        "off_time": "6:20",
+        "off_dt": "2026-07-15T18:20:00+01:00",
+        "race_name": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
+        "distance_f": 6.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Mystic Ballistic",
+        "horse_id": "hrs_7000000378",
+        "age": 2,
+        "sex": "filly",
+        "trainer": "Hilal Kobeissi",
+        "trainer_id": "trn_286065",
+        "jockey": "Kieran Shoemark",
+        "jockey_id": "jky_279711",
+        "draw": 3,
+        "number": 5,
+        "lbs": 128,
+        "ofr": "-",
+        "last_run": null,
+        "form": "",
+        "headgear": "h"
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Lingfield",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 6.0,
+      "runs": 1
+    },
+    "favourite_going": null,
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 50,
+    "class_suitability_score": 90,
+    "suitability_score": 80,
+    "horse_intelligence_score": 46,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Lingfield",
+      "latest_distance_f": 6.0,
+      "latest_going": "",
+      "latest_class": "Class 4",
+      "latest_pulse_score": 48,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Deja Vu Diva",
-      "horse_id": "hrs_64590757",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Lingfield",
-      "latest_time": "6:20",
-      "latest_race": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Clare Hobson",
-      "latest_jockey": "Saffie Osborne",
-      "latest_draw": 6,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "89",
-      "last_run_days": 41,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Lingfield": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Clare Hobson": 1
-      },
-      "jockeys_seen": {
-        "Saffie Osborne": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000689",
-          "course": "Lingfield",
-          "date": "2026-07-15",
-          "off_time": "6:20",
-          "off_dt": "2026-07-15T18:20:00+01:00",
-          "race_name": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Deja Vu Diva",
-          "horse_id": "hrs_64590757",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Clare Hobson",
-          "trainer_id": "trn_191619",
-          "jockey": "Saffie Osborne",
-          "jockey_id": "jky_301050",
-          "draw": 6,
-          "number": 1,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 41,
-          "form": "89",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Lingfield",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Lingfield",
-        "latest_distance_f": 6.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Fire Thunder",
       "horse_id": "hrs_64460256",
@@ -514,8 +422,17 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 84,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2",
+        "Jockey in form +2 (3/13 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4",
+        "Distance specialist +4 (2/2 at trip)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -549,6 +466,7 @@
         }
       ],
       "profile_notes": [
+        "Elite latest Pulse Score",
         "Low draw today"
       ],
       "favourite_course": {
@@ -569,15 +487,15 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 62,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -586,122 +504,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Langdale Lass",
-      "horse_id": "hrs_7000000364",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Lingfield",
-      "latest_time": "6:20",
-      "latest_race": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "David Simcock",
-      "latest_jockey": "Sean Levey",
-      "latest_draw": 7,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Lingfield": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "David Simcock": 1
-      },
-      "jockeys_seen": {
-        "Sean Levey": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000689",
-          "course": "Lingfield",
-          "date": "2026-07-15",
-          "off_time": "6:20",
-          "off_dt": "2026-07-15T18:20:00+01:00",
-          "race_name": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Langdale Lass",
-          "horse_id": "hrs_7000000364",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "David Simcock",
-          "trainer_id": "trn_145287",
-          "jockey": "Sean Levey",
-          "jockey_id": "jky_253908",
-          "draw": 7,
-          "number": 3,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Lingfield",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Lingfield",
-        "latest_distance_f": 6.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 84,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -746,8 +549,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 59,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Jockey flying +4 (6/11 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -801,7 +611,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -809,7 +619,6 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -818,7 +627,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 59,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -863,8 +672,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Helpful draw",
+        "Race class strength +2",
+        "Jockey in form +2 (3/16 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -918,7 +731,7 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 46,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -926,7 +739,6 @@
       ],
       "profile_cautions": [
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -935,122 +747,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Nightspell",
-      "horse_id": "hrs_65322362",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Lingfield",
-      "latest_time": "6:20",
-      "latest_race": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 4",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ross Burdon",
-      "latest_jockey": "Jack Mitchell",
-      "latest_draw": 4,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Lingfield": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Ross Burdon": 1
-      },
-      "jockeys_seen": {
-        "Jack Mitchell": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000689",
-          "course": "Lingfield",
-          "date": "2026-07-15",
-          "off_time": "6:20",
-          "off_dt": "2026-07-15T18:20:00+01:00",
-          "race_name": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Nightspell",
-          "horse_id": "hrs_65322362",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Ross Burdon",
-          "trainer_id": "trn_380655",
-          "jockey": "Jack Mitchell",
-          "jockey_id": "jky_253248",
-          "draw": 4,
-          "number": 6,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Lingfield",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 90,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Lingfield",
-        "latest_distance_f": 6.0,
-        "latest_going": "",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 48,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1095,8 +792,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 50,
+      "latest_notes": [
+        "Race class strength +2",
+        "Stable flying +4 (4/7 last 14 days)",
+        "Jockey flying +4 (5/10 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1148,7 +849,359 @@
       "going_suitability_score": 50,
       "class_suitability_score": 90,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Lingfield",
+        "latest_distance_f": 6.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 50,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Langdale Lass",
+      "horse_id": "hrs_7000000364",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Lingfield",
+      "latest_time": "6:20",
+      "latest_race": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "David Simcock",
+      "latest_jockey": "Sean Levey",
+      "latest_draw": 7,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Lingfield": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "David Simcock": 1
+      },
+      "jockeys_seen": {
+        "Sean Levey": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 46,
+      "latest_notes": [
+        "Race class strength +2",
+        "Jockey flying +4 (4/7 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000689",
+          "course": "Lingfield",
+          "date": "2026-07-15",
+          "off_time": "6:20",
+          "off_dt": "2026-07-15T18:20:00+01:00",
+          "race_name": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Langdale Lass",
+          "horse_id": "hrs_7000000364",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "David Simcock",
+          "trainer_id": "trn_145287",
+          "jockey": "Sean Levey",
+          "jockey_id": "jky_253908",
+          "draw": 7,
+          "number": 3,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Lingfield",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 45,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Lingfield",
+        "latest_distance_f": 6.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 46,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Nightspell",
+      "horse_id": "hrs_65322362",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Lingfield",
+      "latest_time": "6:20",
+      "latest_race": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ross Burdon",
+      "latest_jockey": "Jack Mitchell",
+      "latest_draw": 4,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Lingfield": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Ross Burdon": 1
+      },
+      "jockeys_seen": {
+        "Jack Mitchell": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 44,
+      "latest_notes": [
+        "Race class strength +2",
+        "Jockey in form +2 (2/2 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000689",
+          "course": "Lingfield",
+          "date": "2026-07-15",
+          "off_time": "6:20",
+          "off_dt": "2026-07-15T18:20:00+01:00",
+          "race_name": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Nightspell",
+          "horse_id": "hrs_65322362",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Ross Burdon",
+          "trainer_id": "trn_380655",
+          "jockey": "Jack Mitchell",
+          "jockey_id": "jky_253248",
+          "draw": 4,
+          "number": 6,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Lingfield",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 44,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Lingfield",
+        "latest_distance_f": 6.0,
+        "latest_going": "",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 44,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Deja Vu Diva",
+      "horse_id": "hrs_64590757",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Lingfield",
+      "latest_time": "6:20",
+      "latest_race": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Clare Hobson",
+      "latest_jockey": "Saffie Osborne",
+      "latest_draw": 6,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "89",
+      "last_run_days": 41,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Lingfield": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Clare Hobson": 1
+      },
+      "jockeys_seen": {
+        "Saffie Osborne": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 40,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000689",
+          "course": "Lingfield",
+          "date": "2026-07-15",
+          "off_time": "6:20",
+          "off_dt": "2026-07-15T18:20:00+01:00",
+          "race_name": "Hamways Ebf Restricted Maiden Fillies' Stakes (For Horses In Band D) (Ebf Restricted Race Qualifier) (GBB Race)",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Deja Vu Diva",
+          "horse_id": "hrs_64590757",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Clare Hobson",
+          "trainer_id": "trn_191619",
+          "jockey": "Saffie Osborne",
+          "jockey_id": "jky_301050",
+          "draw": 6,
+          "number": 1,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 41,
+          "form": "89",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Lingfield",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1165,7 +1218,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 40,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1173,9 +1226,8 @@
     }
   ],
   "notes": [
-    "Deja Vu Diva is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Langdale Lass is flagged as a possible dark horse."
+    "Fire Thunder is the top-rated Pulse IQ runner.",
+    "The top runner has a clear intelligence gap over the field.",
+    "Mystic Ballistic is flagged as a possible dark horse."
   ]
 }
