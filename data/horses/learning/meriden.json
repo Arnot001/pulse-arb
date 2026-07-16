@@ -1,30 +1,34 @@
 {
-  "date": "2026-06-27",
+  "date": "2026-07-15",
   "horse": "Meriden",
   "pulse_rank": null,
   "winner": true,
-  "sp": "7/2",
-  "course": "Curragh",
-  "time": "13:45",
-  "top_pick": "Bull Shark",
-  "top_pick_score": 66,
+  "sp": "11/2",
+  "course": "Killarney",
+  "time": "18:00",
+  "top_pick": "Celtic Moon",
+  "top_pick_score": 71,
   "winner_score": null,
   "signals": [
     {
       "signal": "Favourite course matched",
-      "reason": "Winner ran at its most common course: Curragh"
+      "reason": "Winner ran at its most common course: Killarney"
     },
     {
       "signal": "Favourite distance matched",
-      "reason": "Winner ran at its most common distance: 7.0f"
+      "reason": "Winner ran at its most common distance: 8.0f"
     },
     {
       "signal": "Favourite going matched",
-      "reason": "Winner ran on its most common going: Good To Firm"
+      "reason": "Winner ran on its most common going: "
     },
     {
       "signal": "Favourite class matched",
-      "reason": "Winner ran at its most common class: "
+      "reason": "Winner ran at its most common class: Class 1"
+    },
+    {
+      "signal": "Strong horse intelligence profile",
+      "reason": "Horse Intelligence was 69"
     },
     {
       "signal": "Strong suitability profile",
@@ -40,34 +44,35 @@
     },
     {
       "signal": "Profile strength existed",
-      "reason": "Today's going matches known profile preference"
+      "reason": "Race class matches common profile level"
     },
     {
       "signal": "Profile strength existed",
-      "reason": "Positive latest Pulse Score"
+      "reason": "Elite latest Pulse Score"
     }
   ],
   "profile_snapshot": {
     "average_pulse_score": 0,
-    "latest_pulse_score": 79,
-    "horse_intelligence_score": 60,
+    "latest_pulse_score": 100,
+    "horse_intelligence_score": 69,
     "suitability_score": 80,
-    "profile_runs": 2,
+    "profile_runs": 1,
     "favourite_course": {
-      "value": "Curragh",
-      "runs": 2
+      "value": "Killarney",
+      "runs": 1
     },
     "favourite_distance": {
-      "value": 7.0,
-      "runs": 2
+      "value": 8.0,
+      "runs": 1
     },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 2
-    },
-    "favourite_class": null
+    "favourite_going": null,
+    "favourite_class": {
+      "value": "Class 1",
+      "runs": 1
+    }
   },
   "cautions": [
+    "Going is not clearly proven from stored profile",
     "Limited stored profile data"
   ]
 }

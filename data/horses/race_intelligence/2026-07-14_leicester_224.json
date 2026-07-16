@@ -5,18 +5,18 @@
   "time": "2:24",
   "race_name": "British EBF Novice Stakes (GBB/GBBPlus Race)",
   "field_size": 6,
-  "average_intelligence": 50.83,
-  "top_score": 58,
-  "second_score": 55,
-  "gap": 3,
-  "confidence_score": 49,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "average_intelligence": 30.83,
+  "top_score": 50,
+  "second_score": 27,
+  "gap": 23,
+  "confidence_score": 71,
+  "confidence": "GOOD",
+  "race_shape": "CLEAR STANDOUT",
   "top_runner": {
-    "horse": "White Storm",
-    "horse_id": "hrs_62169870",
+    "horse": "Knight Of Storms",
+    "horse_id": "hrs_63809452",
     "age": 3,
-    "sex": "gelding",
+    "sex": "colt",
     "latest_course": "Leicester",
     "latest_time": "2:24",
     "latest_race": "British EBF Novice Stakes (GBB/GBBPlus Race)",
@@ -25,13 +25,13 @@
     "latest_class": "Class 3",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Simon & Ed Crisford",
-    "latest_jockey": "Ross Coakley",
-    "latest_draw": 5,
+    "latest_trainer": "David Simcock",
+    "latest_jockey": "Sean Levey",
+    "latest_draw": 2,
     "latest_weight_lbs": 130,
     "official_rating": "-",
-    "recent_form": "25",
-    "last_run_days": 30,
+    "recent_form": "04",
+    "last_run_days": 15,
     "profile_runs": 1,
     "courses_seen": {
       "Leicester": 1
@@ -46,22 +46,22 @@
       "Class 3": 1
     },
     "trainers_seen": {
-      "Simon & Ed Crisford": 1
+      "David Simcock": 1
     },
     "jockeys_seen": {
-      "Ross Coakley": 1
+      "Sean Levey": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 69,
+    "latest_pulse_score": 51,
     "latest_notes": [
-      "Positive recent form",
+      "Weak recent form",
       "Good recent run timing",
-      "Ideal layoff profile +2",
       "Helpful draw",
       "Race class strength +4",
       "Trainer bonus +1",
-      "Stable flying +4 (5/5 last 14 days)"
+      "Jockey bonus +2",
+      "Jockey in form +2 (2/6 last 14 days)"
     ],
     "runs": [
       {
@@ -78,20 +78,141 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 6,
-        "horse": "White Storm",
-        "horse_id": "hrs_62169870",
+        "horse": "Knight Of Storms",
+        "horse_id": "hrs_63809452",
         "age": 3,
-        "sex": "gelding",
-        "trainer": "Simon & Ed Crisford",
-        "trainer_id": "trn_337302",
-        "jockey": "Ross Coakley",
-        "jockey_id": "jky_269919",
-        "draw": 5,
-        "number": 6,
+        "sex": "colt",
+        "trainer": "David Simcock",
+        "trainer_id": "trn_145287",
+        "jockey": "Sean Levey",
+        "jockey_id": "jky_253908",
+        "draw": 2,
+        "number": 3,
         "lbs": 130,
         "ofr": "-",
-        "last_run": 30,
-        "form": "25",
+        "last_run": 15,
+        "form": "04",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Leicester",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 10.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 3",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 50,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Leicester",
+      "latest_distance_f": 10.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 3",
+      "latest_pulse_score": 51,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "Amazonica",
+    "horse_id": "hrs_7000000266",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Leicester",
+    "latest_time": "2:24",
+    "latest_race": "British EBF Novice Stakes (GBB/GBBPlus Race)",
+    "latest_date": "2026-07-14",
+    "latest_distance_f": 10.0,
+    "latest_class": "Class 3",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Owen Burrows",
+    "latest_jockey": "David Probert",
+    "latest_draw": 4,
+    "latest_weight_lbs": 130,
+    "official_rating": "-",
+    "recent_form": "",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Leicester": 1
+    },
+    "distances_seen": {
+      "10.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 3": 1
+    },
+    "trainers_seen": {
+      "Owen Burrows": 1
+    },
+    "jockeys_seen": {
+      "David Probert": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000000260",
+        "course": "Leicester",
+        "date": "2026-07-14",
+        "off_time": "2:24",
+        "off_dt": "2026-07-14T14:24:00+01:00",
+        "race_name": "British EBF Novice Stakes (GBB/GBBPlus Race)",
+        "distance_f": 10.0,
+        "race_class": "Class 3",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 6,
+        "horse": "Amazonica",
+        "horse_id": "hrs_7000000266",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Owen Burrows",
+        "trainer_id": "trn_286011",
+        "jockey": "David Probert",
+        "jockey_id": "jky_258039",
+        "draw": 4,
+        "number": 2,
+        "lbs": 130,
+        "ofr": "-",
+        "last_run": null,
+        "form": "",
         "headgear": ""
       }
     ],
@@ -117,137 +238,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 58,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Leicester",
-      "latest_distance_f": 10.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 3",
-      "latest_pulse_score": 69,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Kudos Too",
-    "horse_id": "hrs_65642535",
-    "age": 3,
-    "sex": "gelding",
-    "latest_course": "Leicester",
-    "latest_time": "2:24",
-    "latest_race": "British EBF Novice Stakes (GBB/GBBPlus Race)",
-    "latest_date": "2026-07-14",
-    "latest_distance_f": 10.0,
-    "latest_class": "Class 3",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "William Muir & Chris Grassick",
-    "latest_jockey": "Lewis Edmunds",
-    "latest_draw": 1,
-    "latest_weight_lbs": 130,
-    "official_rating": "-",
-    "recent_form": "5",
-    "last_run_days": 31,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Leicester": 1
-    },
-    "distances_seen": {
-      "10.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 3": 1
-    },
-    "trainers_seen": {
-      "William Muir & Chris Grassick": 1
-    },
-    "jockeys_seen": {
-      "Lewis Edmunds": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 62,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +4",
-      "Stable flying +4 (3/10 last 14 days)",
-      "Jockey bonus +1"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000000260",
-        "course": "Leicester",
-        "date": "2026-07-14",
-        "off_time": "2:24",
-        "off_dt": "2026-07-14T14:24:00+01:00",
-        "race_name": "British EBF Novice Stakes (GBB/GBBPlus Race)",
-        "distance_f": 10.0,
-        "race_class": "Class 3",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 6,
-        "horse": "Kudos Too",
-        "horse_id": "hrs_65642535",
-        "age": 3,
-        "sex": "gelding",
-        "trainer": "William Muir & Chris Grassick",
-        "trainer_id": "trn_345150",
-        "jockey": "Lewis Edmunds",
-        "jockey_id": "jky_283989",
-        "draw": 1,
-        "number": 4,
-        "lbs": 130,
-        "ofr": "-",
-        "last_run": 31,
-        "form": "5",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ],
-    "favourite_course": {
-      "value": "Leicester",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 10.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 3",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 55,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -255,6 +246,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -263,16 +255,16 @@
       "latest_distance_f": 10.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 3",
-      "latest_pulse_score": 62,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Kudos Too",
-    "horse_id": "hrs_65642535",
-    "age": 3,
+    "horse": "Cloud Forest",
+    "horse_id": "hrs_64556240",
+    "age": 4,
     "sex": "gelding",
     "latest_course": "Leicester",
     "latest_time": "2:24",
@@ -282,13 +274,13 @@
     "latest_class": "Class 3",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "William Muir & Chris Grassick",
-    "latest_jockey": "Lewis Edmunds",
-    "latest_draw": 1,
-    "latest_weight_lbs": 130,
+    "latest_trainer": "Saeed bin Suroor",
+    "latest_jockey": "William Carson",
+    "latest_draw": 3,
+    "latest_weight_lbs": 140,
     "official_rating": "-",
-    "recent_form": "5",
-    "last_run_days": 31,
+    "recent_form": "6",
+    "last_run_days": 56,
     "profile_runs": 1,
     "courses_seen": {
       "Leicester": 1
@@ -303,23 +295,15 @@
       "Class 3": 1
     },
     "trainers_seen": {
-      "William Muir & Chris Grassick": 1
+      "Saeed bin Suroor": 1
     },
     "jockeys_seen": {
-      "Lewis Edmunds": 1
+      "William Carson": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 62,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +4",
-      "Stable flying +4 (3/10 last 14 days)",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -335,20 +319,20 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 6,
-        "horse": "Kudos Too",
-        "horse_id": "hrs_65642535",
-        "age": 3,
+        "horse": "Cloud Forest",
+        "horse_id": "hrs_64556240",
+        "age": 4,
         "sex": "gelding",
-        "trainer": "William Muir & Chris Grassick",
-        "trainer_id": "trn_345150",
-        "jockey": "Lewis Edmunds",
-        "jockey_id": "jky_283989",
-        "draw": 1,
-        "number": 4,
-        "lbs": 130,
+        "trainer": "Saeed bin Suroor",
+        "trainer_id": "trn_85914",
+        "jockey": "William Carson",
+        "jockey_id": "jky_254646",
+        "draw": 3,
+        "number": 1,
+        "lbs": 140,
         "ofr": "-",
-        "last_run": 31,
-        "form": "5",
+        "last_run": 56,
+        "form": "6",
         "headgear": ""
       }
     ],
@@ -376,7 +360,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 55,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -384,6 +368,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -392,7 +377,7 @@
       "latest_distance_f": 10.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 3",
-      "latest_pulse_score": 62,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -400,10 +385,10 @@
   },
   "runners": [
     {
-      "horse": "White Storm",
-      "horse_id": "hrs_62169870",
+      "horse": "Knight Of Storms",
+      "horse_id": "hrs_63809452",
       "age": 3,
-      "sex": "gelding",
+      "sex": "colt",
       "latest_course": "Leicester",
       "latest_time": "2:24",
       "latest_race": "British EBF Novice Stakes (GBB/GBBPlus Race)",
@@ -412,13 +397,13 @@
       "latest_class": "Class 3",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Simon & Ed Crisford",
-      "latest_jockey": "Ross Coakley",
-      "latest_draw": 5,
+      "latest_trainer": "David Simcock",
+      "latest_jockey": "Sean Levey",
+      "latest_draw": 2,
       "latest_weight_lbs": 130,
       "official_rating": "-",
-      "recent_form": "25",
-      "last_run_days": 30,
+      "recent_form": "04",
+      "last_run_days": 15,
       "profile_runs": 1,
       "courses_seen": {
         "Leicester": 1
@@ -433,22 +418,22 @@
         "Class 3": 1
       },
       "trainers_seen": {
-        "Simon & Ed Crisford": 1
+        "David Simcock": 1
       },
       "jockeys_seen": {
-        "Ross Coakley": 1
+        "Sean Levey": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 69,
+      "latest_pulse_score": 51,
       "latest_notes": [
-        "Positive recent form",
+        "Weak recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2",
         "Helpful draw",
         "Race class strength +4",
         "Trainer bonus +1",
-        "Stable flying +4 (5/5 last 14 days)"
+        "Jockey bonus +2",
+        "Jockey in form +2 (2/6 last 14 days)"
       ],
       "runs": [
         {
@@ -465,148 +450,20 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 6,
-          "horse": "White Storm",
-          "horse_id": "hrs_62169870",
+          "horse": "Knight Of Storms",
+          "horse_id": "hrs_63809452",
           "age": 3,
-          "sex": "gelding",
-          "trainer": "Simon & Ed Crisford",
-          "trainer_id": "trn_337302",
-          "jockey": "Ross Coakley",
-          "jockey_id": "jky_269919",
-          "draw": 5,
-          "number": 6,
+          "sex": "colt",
+          "trainer": "David Simcock",
+          "trainer_id": "trn_145287",
+          "jockey": "Sean Levey",
+          "jockey_id": "jky_253908",
+          "draw": 2,
+          "number": 3,
           "lbs": 130,
           "ofr": "-",
-          "last_run": 30,
-          "form": "25",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Leicester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 58,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Leicester",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 3",
-        "latest_pulse_score": 69,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Kudos Too",
-      "horse_id": "hrs_65642535",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Leicester",
-      "latest_time": "2:24",
-      "latest_race": "British EBF Novice Stakes (GBB/GBBPlus Race)",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 10.0,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "William Muir & Chris Grassick",
-      "latest_jockey": "Lewis Edmunds",
-      "latest_draw": 1,
-      "latest_weight_lbs": 130,
-      "official_rating": "-",
-      "recent_form": "5",
-      "last_run_days": 31,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Leicester": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "William Muir & Chris Grassick": 1
-      },
-      "jockeys_seen": {
-        "Lewis Edmunds": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 62,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +4",
-        "Stable flying +4 (3/10 last 14 days)",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000260",
-          "course": "Leicester",
-          "date": "2026-07-14",
-          "off_time": "2:24",
-          "off_dt": "2026-07-14T14:24:00+01:00",
-          "race_name": "British EBF Novice Stakes (GBB/GBBPlus Race)",
-          "distance_f": 10.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Kudos Too",
-          "horse_id": "hrs_65642535",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "William Muir & Chris Grassick",
-          "trainer_id": "trn_345150",
-          "jockey": "Lewis Edmunds",
-          "jockey_id": "jky_283989",
-          "draw": 1,
-          "number": 4,
-          "lbs": 130,
-          "ofr": "-",
-          "last_run": 31,
-          "form": "5",
+          "last_run": 15,
+          "form": "04",
           "headgear": ""
         }
       ],
@@ -634,7 +491,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 55,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -650,131 +507,7 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": 62,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Siwa Oasis",
-      "horse_id": "hrs_57504230",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Leicester",
-      "latest_time": "2:24",
-      "latest_race": "British EBF Novice Stakes (GBB/GBBPlus Race)",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 10.0,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Charles Hills",
-      "latest_jockey": "Saffie Osborne",
-      "latest_draw": 6,
-      "latest_weight_lbs": 130,
-      "official_rating": "77",
-      "recent_form": "2-75",
-      "last_run_days": 60,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Leicester": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "Charles Hills": 1
-      },
-      "jockeys_seen": {
-        "Saffie Osborne": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +4"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000260",
-          "course": "Leicester",
-          "date": "2026-07-14",
-          "off_time": "2:24",
-          "off_dt": "2026-07-14T14:24:00+01:00",
-          "race_name": "British EBF Novice Stakes (GBB/GBBPlus Race)",
-          "distance_f": 10.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Siwa Oasis",
-          "horse_id": "hrs_57504230",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Charles Hills",
-          "trainer_id": "trn_230652",
-          "jockey": "Saffie Osborne",
-          "jockey_id": "jky_301050",
-          "draw": 6,
-          "number": 5,
-          "lbs": 130,
-          "ofr": "77",
-          "last_run": 60,
-          "form": "2-75",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Leicester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Leicester",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 3",
-        "latest_pulse_score": 55,
+        "latest_pulse_score": 51,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -821,13 +554,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Helpful draw",
-        "Race class strength +4",
-        "Stable in form +2 (1/6 last 14 days)",
-        "Jockey flying +4 (6/11 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -882,7 +610,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 50,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -890,6 +618,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -898,7 +627,7 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": 51,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -945,13 +674,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +4"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1008,7 +732,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 48,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1016,6 +740,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1024,17 +749,17 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": 46,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Knight Of Storms",
-      "horse_id": "hrs_63809452",
+      "horse": "Kudos Too",
+      "horse_id": "hrs_65642535",
       "age": 3,
-      "sex": "colt",
+      "sex": "gelding",
       "latest_course": "Leicester",
       "latest_time": "2:24",
       "latest_race": "British EBF Novice Stakes (GBB/GBBPlus Race)",
@@ -1043,80 +768,37 @@
       "latest_class": "Class 3",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "David Simcock",
-      "latest_jockey": "Sean Levey",
-      "latest_draw": 2,
+      "latest_trainer": "William Muir & Chris Grassick",
+      "latest_jockey": "Lewis Edmunds",
+      "latest_draw": 1,
       "latest_weight_lbs": 130,
       "official_rating": "-",
-      "recent_form": "04",
-      "last_run_days": 15,
-      "profile_runs": 2,
+      "recent_form": "5",
+      "last_run_days": 31,
+      "profile_runs": 1,
       "courses_seen": {
-        "Pontefract": 1,
         "Leicester": 1
       },
       "distances_seen": {
-        "12.0": 1,
         "10.0": 1
       },
       "goings_seen": {
-        "Good": 1,
         "Good To Firm": 1
       },
       "classes_seen": {
-        "Class 3": 2
+        "Class 3": 1
       },
       "trainers_seen": {
-        "David Simcock": 2
+        "William Muir & Chris Grassick": 1
       },
       "jockeys_seen": {
-        "Oisin Orr": 1,
-        "Sean Levey": 1
+        "Lewis Edmunds": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +1",
-        "Jockey bonus +2",
-        "Jockey in form +2 (2/6 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987976",
-          "course": "Pontefract",
-          "date": "2026-06-29",
-          "off_time": "3:00",
-          "off_dt": "2026-06-29T15:00:00+01:00",
-          "race_name": "Danny O'Neill Birthday 'Confined' Maiden Stakes (GBB/GBBPlus Race)",
-          "distance_f": 12.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Knight Of Storms",
-          "horse_id": "hrs_63809452",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "David Simcock",
-          "trainer_id": "trn_145287",
-          "jockey": "Oisin Orr",
-          "jockey_id": "jky_281652",
-          "draw": 5,
-          "number": 4,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 45,
-          "form": "0",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:32.458568+00:00"
-        },
         {
           "source": "the_racing_api",
           "race_id": "rac_13000000260",
@@ -1131,20 +813,20 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 6,
-          "horse": "Knight Of Storms",
-          "horse_id": "hrs_63809452",
+          "horse": "Kudos Too",
+          "horse_id": "hrs_65642535",
           "age": 3,
-          "sex": "colt",
-          "trainer": "David Simcock",
-          "trainer_id": "trn_145287",
-          "jockey": "Sean Levey",
-          "jockey_id": "jky_253908",
-          "draw": 2,
-          "number": 3,
+          "sex": "gelding",
+          "trainer": "William Muir & Chris Grassick",
+          "trainer_id": "trn_345150",
+          "jockey": "Lewis Edmunds",
+          "jockey_id": "jky_283989",
+          "draw": 1,
+          "number": 4,
           "lbs": 130,
           "ofr": "-",
-          "last_run": 15,
-          "form": "04",
+          "last_run": 31,
+          "form": "5",
           "headgear": ""
         }
       ],
@@ -1152,34 +834,35 @@
         "Low draw today"
       ],
       "favourite_course": {
-        "value": "Pontefract",
+        "value": "Leicester",
         "runs": 1
       },
       "favourite_distance": {
-        "value": 12.0,
+        "value": 10.0,
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Firm",
         "runs": 1
       },
       "favourite_class": {
         "value": "Class 3",
-        "runs": 2
+        "runs": 1
       },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 55,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 64,
-      "horse_intelligence_score": 42,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1188,16 +871,257 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": 51,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Siwa Oasis",
+      "horse_id": "hrs_57504230",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Leicester",
+      "latest_time": "2:24",
+      "latest_race": "British EBF Novice Stakes (GBB/GBBPlus Race)",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 10.0,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Charles Hills",
+      "latest_jockey": "Saffie Osborne",
+      "latest_draw": 6,
+      "latest_weight_lbs": 130,
+      "official_rating": "77",
+      "recent_form": "2-75",
+      "last_run_days": 60,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Leicester": 1
+      },
+      "distances_seen": {
+        "10.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Charles Hills": 1
+      },
+      "jockeys_seen": {
+        "Saffie Osborne": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000260",
+          "course": "Leicester",
+          "date": "2026-07-14",
+          "off_time": "2:24",
+          "off_dt": "2026-07-14T14:24:00+01:00",
+          "race_name": "British EBF Novice Stakes (GBB/GBBPlus Race)",
+          "distance_f": 10.0,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Siwa Oasis",
+          "horse_id": "hrs_57504230",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Charles Hills",
+          "trainer_id": "trn_230652",
+          "jockey": "Saffie Osborne",
+          "jockey_id": "jky_301050",
+          "draw": 6,
+          "number": 5,
+          "lbs": 130,
+          "ofr": "77",
+          "last_run": 60,
+          "form": "2-75",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Leicester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Leicester",
+        "latest_distance_f": 10.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "White Storm",
+      "horse_id": "hrs_62169870",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Leicester",
+      "latest_time": "2:24",
+      "latest_race": "British EBF Novice Stakes (GBB/GBBPlus Race)",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 10.0,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Simon & Ed Crisford",
+      "latest_jockey": "Ross Coakley",
+      "latest_draw": 5,
+      "latest_weight_lbs": 130,
+      "official_rating": "-",
+      "recent_form": "25",
+      "last_run_days": 30,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Leicester": 1
+      },
+      "distances_seen": {
+        "10.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Simon & Ed Crisford": 1
+      },
+      "jockeys_seen": {
+        "Ross Coakley": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000260",
+          "course": "Leicester",
+          "date": "2026-07-14",
+          "off_time": "2:24",
+          "off_dt": "2026-07-14T14:24:00+01:00",
+          "race_name": "British EBF Novice Stakes (GBB/GBBPlus Race)",
+          "distance_f": 10.0,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "White Storm",
+          "horse_id": "hrs_62169870",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Simon & Ed Crisford",
+          "trainer_id": "trn_337302",
+          "jockey": "Ross Coakley",
+          "jockey_id": "jky_269919",
+          "draw": 5,
+          "number": 6,
+          "lbs": 130,
+          "ofr": "-",
+          "last_run": 30,
+          "form": "25",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Leicester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Leicester",
+        "latest_distance_f": 10.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
       }
     }
   ],
   "notes": [
-    "White Storm is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "Kudos Too is flagged as a possible dark horse."
+    "Knight Of Storms is the top-rated Pulse IQ runner.",
+    "The top runner has a clear intelligence gap over the field.",
+    "This race has a generally weak profile strength.",
+    "Cloud Forest is flagged as a possible dark horse."
   ]
 }

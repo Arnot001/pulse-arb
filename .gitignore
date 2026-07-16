@@ -1,4 +1,4 @@
-# ==========================================
+## ==========================================
 # Environment
 # ==========================================
 
@@ -37,40 +37,102 @@ dist/
 *.egg-info/
 
 # ==========================================
-# Logs
+# Logs / Backups
 # ==========================================
 
 *.log
+*.bak
+*.backup
+*.tmp
 
 # ==========================================
-# Generated Output
+# Generated Application Output
 # ==========================================
 
 app/output/
 uk_arb_scanner_web/app/output/
 
 # ==========================================
-# Generated Raw Data
+# Local Settings / Secrets
 # ==========================================
 
-data/cache/
+data/settings/
+!data/settings/.gitkeep
+
+# ==========================================
+# Horse Runtime Data
+# ==========================================
 
 data/horses/racecards/
 data/horses/results/
 data/horses/runner_records/
+data/horses/runner_results/
 data/horses/race_reviews/
 data/horses/sporting_life_results/
 data/horses/sporting_life_results_raw/
 
+data/horses/profiles/
+data/horses/learning/
+data/horses/pulse_scores/
+data/horses/race_intelligence/
+data/horses/race_intelligence_leaderboard.json
+
+data/horses/odds_snapshots/
+data/horses/live_market/
+data/horses/market_events/
+data/horses/performance_reports/
+
+data/horses/trainer_rankings/
+data/horses/jockey_rankings/
+
+# ==========================================
+# Betting / Settlement Runtime Data
+# ==========================================
+
+data/betting/
+
+# ==========================================
+# Dog Runtime Data
+# ==========================================
+
 data/dogs/racecards/
 data/dogs/results/
 data/dogs/runner_records/
+data/dogs/history/
+
+intelligence/dogs/history/
+
+# ==========================================
+# Football Runtime Data
+# ==========================================
 
 data/football/fixtures/
 data/football/results/
+data/football/history/
 
-# Generated strategy history
+# ==========================================
+# Generated Strategy Data
+# ==========================================
+
 data/strategy/history/
+data/strategy/discoveries.json
+data/strategy/verified_strategies.json
+data/strategy/trends.json
+
+# ==========================================
+# Cache / Debug Data
+# ==========================================
+
+data/cache/
+data/debug/
+
+# ==========================================
+# Browser Runtime Data
+# ==========================================
+
+browser_profile/
+playwright_profile/
+user_data_dir/
 
 # ==========================================
 # OS
@@ -78,5 +140,3 @@ data/strategy/history/
 
 Thumbs.db
 .DS_Store
-
-data/settings/notifications.json

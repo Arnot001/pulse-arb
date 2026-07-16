@@ -4,19 +4,19 @@
   "course": "Epsom",
   "time": "8:42",
   "race_name": "Betfred 'Matchday Turbo Boosts' Handicap",
-  "field_size": 9,
-  "average_intelligence": 54.56,
-  "top_score": 60,
-  "second_score": 59,
+  "field_size": 8,
+  "average_intelligence": 53.88,
+  "top_score": 59,
+  "second_score": 58,
   "gap": 1,
   "confidence_score": 48,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Musical Angel",
-    "horse_id": "hrs_43508381",
+    "horse": "Padua",
+    "horse_id": "hrs_46974935",
     "age": 4,
-    "sex": "filly",
+    "sex": "gelding",
     "latest_course": "Epsom",
     "latest_time": "8:42",
     "latest_race": "Betfred 'Matchday Turbo Boosts' Handicap",
@@ -25,13 +25,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Simon Dow",
-    "latest_jockey": "Paddy Bradley",
-    "latest_draw": 1,
-    "latest_weight_lbs": 138,
-    "official_rating": "81",
-    "recent_form": "321-58",
-    "last_run_days": 26,
+    "latest_trainer": "Hughie Morrison",
+    "latest_jockey": "Hector Crouch",
+    "latest_draw": 5,
+    "latest_weight_lbs": 136,
+    "official_rating": "79",
+    "recent_form": "5414-0",
+    "last_run_days": 21,
     "profile_runs": 1,
     "courses_seen": {
       "Epsom": 1
@@ -46,21 +46,23 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Simon Dow": 1
+      "Hughie Morrison": 1
     },
     "jockeys_seen": {
-      "Paddy Bradley": 1
+      "Hector Crouch": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 74,
+    "latest_pulse_score": 72,
     "latest_notes": [
-      "Strong recent form",
+      "Positive recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
       "Race class strength +2",
-      "Jockey in form +2 (1/1 last 14 days)"
+      "Trainer bonus +2",
+      "Jockey bonus +3",
+      "Jockey in form +2 (2/2 last 14 days)"
     ],
     "runs": [
       {
@@ -77,22 +79,150 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Musical Angel",
-        "horse_id": "hrs_43508381",
+        "horse": "Padua",
+        "horse_id": "hrs_46974935",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Hughie Morrison",
+        "trainer_id": "trn_96336",
+        "jockey": "Hector Crouch",
+        "jockey_id": "jky_278418",
+        "draw": 5,
+        "number": 4,
+        "lbs": 136,
+        "ofr": "79",
+        "last_run": 21,
+        "form": "5414-0",
+        "headgear": "t",
+        "_stored_at": "2026-06-30T23:10:36.438823+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Epsom",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 7.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 59,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Epsom",
+      "latest_distance_f": 7.0,
+      "latest_going": "Good",
+      "latest_class": "Class 4",
+      "latest_pulse_score": 72,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "Bella Perla",
+    "horse_id": "hrs_50187795",
+    "age": 4,
+    "sex": "filly",
+    "latest_course": "Epsom",
+    "latest_time": "8:42",
+    "latest_race": "Betfred 'Matchday Turbo Boosts' Handicap",
+    "latest_date": "2026-07-01",
+    "latest_distance_f": 7.0,
+    "latest_class": "Class 4",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Tom Clover",
+    "latest_jockey": "Jack Mitchell",
+    "latest_draw": 2,
+    "latest_weight_lbs": 141,
+    "official_rating": "84",
+    "recent_form": "113-97",
+    "last_run_days": 21,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Epsom": 1
+    },
+    "distances_seen": {
+      "7.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Tom Clover": 1
+    },
+    "jockeys_seen": {
+      "Jack Mitchell": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 68,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +3"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988483",
+        "course": "Epsom",
+        "date": "2026-07-01",
+        "off_time": "8:42",
+        "off_dt": "2026-07-01T20:42:00+01:00",
+        "race_name": "Betfred 'Matchday Turbo Boosts' Handicap",
+        "distance_f": 7.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 10,
+        "horse": "Bella Perla",
+        "horse_id": "hrs_50187795",
         "age": 4,
         "sex": "filly",
-        "trainer": "Simon Dow",
-        "trainer_id": "trn_7830",
-        "jockey": "Paddy Bradley",
-        "jockey_id": "jky_276828",
-        "draw": 1,
-        "number": 3,
-        "lbs": 138,
-        "ofr": "81",
-        "last_run": 26,
-        "form": "321-58",
+        "trainer": "Tom Clover",
+        "trainer_id": "trn_294885",
+        "jockey": "Jack Mitchell",
+        "jockey_id": "jky_253248",
+        "draw": 2,
+        "number": 1,
+        "lbs": 141,
+        "ofr": "84",
+        "last_run": 21,
+        "form": "113-97",
         "headgear": "",
-        "_stored_at": "2026-07-01T13:17:48.847592+00:00"
+        "_stored_at": "2026-06-30T23:10:36.328458+00:00"
       }
     ],
     "profile_notes": [
@@ -119,7 +249,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 60,
+    "horse_intelligence_score": 58,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -136,147 +266,17 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": 74,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Padua",
-    "horse_id": "hrs_46974935",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Epsom",
-    "latest_time": "8:42",
-    "latest_race": "Betfred 'Matchday Turbo Boosts' Handicap",
-    "latest_date": "2026-07-01",
-    "latest_distance_f": 7.0,
-    "latest_class": "Class 4",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Hughie Morrison",
-    "latest_jockey": "Hector Crouch",
-    "latest_draw": 5,
-    "latest_weight_lbs": 136,
-    "official_rating": "79",
-    "recent_form": "5414-0",
-    "last_run_days": 21,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Epsom": 1
-    },
-    "distances_seen": {
-      "7.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "Hughie Morrison": 1
-    },
-    "jockeys_seen": {
-      "Hector Crouch": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 72,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +2",
-      "Jockey bonus +3",
-      "Jockey in form +2 (2/2 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988483",
-        "course": "Epsom",
-        "date": "2026-07-01",
-        "off_time": "8:42",
-        "off_dt": "2026-07-01T20:42:00+01:00",
-        "race_name": "Betfred 'Matchday Turbo Boosts' Handicap",
-        "distance_f": 7.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 10,
-        "horse": "Padua",
-        "horse_id": "hrs_46974935",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Hughie Morrison",
-        "trainer_id": "trn_96336",
-        "jockey": "Hector Crouch",
-        "jockey_id": "jky_278418",
-        "draw": 5,
-        "number": 4,
-        "lbs": 136,
-        "ofr": "79",
-        "last_run": 21,
-        "form": "5414-0",
-        "headgear": "t",
-        "_stored_at": "2026-07-01T13:17:48.868280+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Epsom",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 7.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 59,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Epsom",
-      "latest_distance_f": 7.0,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 72,
+      "latest_pulse_score": 68,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Padua",
-    "horse_id": "hrs_46974935",
+    "horse": "Bella Perla",
+    "horse_id": "hrs_50187795",
     "age": 4,
-    "sex": "gelding",
+    "sex": "filly",
     "latest_course": "Epsom",
     "latest_time": "8:42",
     "latest_race": "Betfred 'Matchday Turbo Boosts' Handicap",
@@ -285,12 +285,12 @@
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Hughie Morrison",
-    "latest_jockey": "Hector Crouch",
-    "latest_draw": 5,
-    "latest_weight_lbs": 136,
-    "official_rating": "79",
-    "recent_form": "5414-0",
+    "latest_trainer": "Tom Clover",
+    "latest_jockey": "Jack Mitchell",
+    "latest_draw": 2,
+    "latest_weight_lbs": 141,
+    "official_rating": "84",
+    "recent_form": "113-97",
     "last_run_days": 21,
     "profile_runs": 1,
     "courses_seen": {
@@ -306,23 +306,21 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Hughie Morrison": 1
+      "Tom Clover": 1
     },
     "jockeys_seen": {
-      "Hector Crouch": 1
+      "Jack Mitchell": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 72,
+    "latest_pulse_score": 68,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
       "Race class strength +2",
-      "Trainer bonus +2",
-      "Jockey bonus +3",
-      "Jockey in form +2 (2/2 last 14 days)"
+      "Trainer bonus +3"
     ],
     "runs": [
       {
@@ -339,25 +337,27 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Padua",
-        "horse_id": "hrs_46974935",
+        "horse": "Bella Perla",
+        "horse_id": "hrs_50187795",
         "age": 4,
-        "sex": "gelding",
-        "trainer": "Hughie Morrison",
-        "trainer_id": "trn_96336",
-        "jockey": "Hector Crouch",
-        "jockey_id": "jky_278418",
-        "draw": 5,
-        "number": 4,
-        "lbs": 136,
-        "ofr": "79",
+        "sex": "filly",
+        "trainer": "Tom Clover",
+        "trainer_id": "trn_294885",
+        "jockey": "Jack Mitchell",
+        "jockey_id": "jky_253248",
+        "draw": 2,
+        "number": 1,
+        "lbs": 141,
+        "ofr": "84",
         "last_run": 21,
-        "form": "5414-0",
-        "headgear": "t",
-        "_stored_at": "2026-07-01T13:17:48.868280+00:00"
+        "form": "113-97",
+        "headgear": "",
+        "_stored_at": "2026-06-30T23:10:36.328458+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Low draw today"
+    ],
     "favourite_course": {
       "value": "Epsom",
       "runs": 1
@@ -379,7 +379,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 59,
+    "horse_intelligence_score": 58,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -396,143 +396,13 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": 72,
+      "latest_pulse_score": 68,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Musical Angel",
-      "horse_id": "hrs_43508381",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Epsom",
-      "latest_time": "8:42",
-      "latest_race": "Betfred 'Matchday Turbo Boosts' Handicap",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Simon Dow",
-      "latest_jockey": "Paddy Bradley",
-      "latest_draw": 1,
-      "latest_weight_lbs": 138,
-      "official_rating": "81",
-      "recent_form": "321-58",
-      "last_run_days": 26,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Epsom": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Simon Dow": 1
-      },
-      "jockeys_seen": {
-        "Paddy Bradley": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 74,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +2",
-        "Jockey in form +2 (1/1 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988483",
-          "course": "Epsom",
-          "date": "2026-07-01",
-          "off_time": "8:42",
-          "off_dt": "2026-07-01T20:42:00+01:00",
-          "race_name": "Betfred 'Matchday Turbo Boosts' Handicap",
-          "distance_f": 7.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Musical Angel",
-          "horse_id": "hrs_43508381",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Simon Dow",
-          "trainer_id": "trn_7830",
-          "jockey": "Paddy Bradley",
-          "jockey_id": "jky_276828",
-          "draw": 1,
-          "number": 3,
-          "lbs": 138,
-          "ofr": "81",
-          "last_run": 26,
-          "form": "321-58",
-          "headgear": "",
-          "_stored_at": "2026-07-01T13:17:48.847592+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Epsom",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 60,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Epsom",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 74,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Padua",
       "horse_id": "hrs_46974935",
@@ -615,7 +485,7 @@
           "last_run": 21,
           "form": "5414-0",
           "headgear": "t",
-          "_stored_at": "2026-07-01T13:17:48.868280+00:00"
+          "_stored_at": "2026-06-30T23:10:36.438823+00:00"
         }
       ],
       "profile_notes": [],
@@ -743,7 +613,7 @@
           "last_run": 21,
           "form": "113-97",
           "headgear": "",
-          "_stored_at": "2026-07-01T13:17:48.808447+00:00"
+          "_stored_at": "2026-06-30T23:10:36.328458+00:00"
         }
       ],
       "profile_notes": [
@@ -872,7 +742,7 @@
           "last_run": 39,
           "form": "59-110",
           "headgear": "",
-          "_stored_at": "2026-07-01T13:17:48.925277+00:00"
+          "_stored_at": "2026-06-30T23:10:36.560239+00:00"
         }
       ],
       "profile_notes": [],
@@ -999,7 +869,7 @@
           "last_run": 23,
           "form": "71-090",
           "headgear": "",
-          "_stored_at": "2026-07-01T13:17:48.963535+00:00"
+          "_stored_at": "2026-06-30T23:10:36.591669+00:00"
         }
       ],
       "profile_notes": [],
@@ -1126,7 +996,7 @@
           "last_run": 35,
           "form": "2-1080",
           "headgear": "",
-          "_stored_at": "2026-07-01T13:17:48.983338+00:00"
+          "_stored_at": "2026-06-30T23:10:36.607296+00:00"
         }
       ],
       "profile_notes": [
@@ -1256,7 +1126,7 @@
           "last_run": 18,
           "form": "114605",
           "headgear": "ht",
-          "_stored_at": "2026-07-01T13:17:48.888197+00:00"
+          "_stored_at": "2026-06-30T23:10:36.472661+00:00"
         }
       ],
       "profile_notes": [],
@@ -1383,7 +1253,7 @@
           "last_run": 32,
           "form": "179638",
           "headgear": "p",
-          "_stored_at": "2026-07-01T13:17:48.827190+00:00"
+          "_stored_at": "2026-06-30T23:10:36.376928+00:00"
         }
       ],
       "profile_notes": [],
@@ -1509,7 +1379,7 @@
           "last_run": 53,
           "form": "337-65",
           "headgear": "",
-          "_stored_at": "2026-07-01T13:17:48.945159+00:00"
+          "_stored_at": "2026-06-30T23:10:36.576000+00:00"
         }
       ],
       "profile_notes": [],
@@ -1558,8 +1428,8 @@
     }
   ],
   "notes": [
-    "Musical Angel is the top-rated Pulse IQ runner.",
+    "Padua is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Padua is flagged as a possible dark horse."
+    "Bella Perla is flagged as a possible dark horse."
   ]
 }

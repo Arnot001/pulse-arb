@@ -5,14 +5,123 @@
   "time": "7:23",
   "race_name": "Prix Reverdy",
   "field_size": 8,
-  "average_intelligence": 51.12,
-  "top_score": 58,
-  "second_score": 55,
-  "gap": 3,
-  "confidence_score": 50,
+  "average_intelligence": 21.0,
+  "top_score": 21,
+  "second_score": 21,
+  "gap": 0,
+  "confidence_score": 17,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Espronceda",
+    "horse_id": "hrs_61684560",
+    "age": 3,
+    "sex": "colt",
+    "latest_course": "La Teste De Buch",
+    "latest_time": "7:23",
+    "latest_race": "Prix Reverdy",
+    "latest_date": "2026-07-15",
+    "latest_distance_f": 10.0,
+    "latest_class": "",
+    "latest_going": "",
+    "latest_surface": "Turf",
+    "latest_trainer": "Roberto-Carlos Montenegro",
+    "latest_jockey": "M Romary",
+    "latest_draw": 4,
+    "latest_weight_lbs": 123,
+    "official_rating": "-",
+    "recent_form": "254261",
+    "last_run_days": 19,
+    "profile_runs": 1,
+    "courses_seen": {
+      "La Teste De Buch": 1
+    },
+    "distances_seen": {
+      "10.0": 1
+    },
+    "goings_seen": {},
+    "classes_seen": {},
+    "trainers_seen": {
+      "Roberto-Carlos Montenegro": 1
+    },
+    "jockeys_seen": {
+      "M Romary": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000004121",
+        "course": "La Teste De Buch",
+        "date": "2026-07-15",
+        "off_time": "7:23",
+        "off_dt": "2026-07-15T19:23:00+01:00",
+        "race_name": "Prix Reverdy",
+        "distance_f": 10.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "",
+        "surface": "Turf",
+        "field_size": 8,
+        "horse": "Espronceda",
+        "horse_id": "hrs_61684560",
+        "age": 3,
+        "sex": "colt",
+        "trainer": "Roberto-Carlos Montenegro",
+        "trainer_id": "trn_339381",
+        "jockey": "M Romary",
+        "jockey_id": "",
+        "draw": 4,
+        "number": 5,
+        "lbs": 123,
+        "ofr": "-",
+        "last_run": 19,
+        "form": "254261",
+        "headgear": "t"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "La Teste De Buch",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 10.0,
+      "runs": 1
+    },
+    "favourite_going": null,
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 50,
+    "class_suitability_score": 50,
+    "suitability_score": 70,
+    "horse_intelligence_score": 21,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern"
+    ],
+    "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "La Teste De Buch",
+      "latest_distance_f": 10.0,
+      "latest_going": "",
+      "latest_class": "",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Ile Aux Roses",
     "horse_id": "hrs_52055206",
     "age": 3,
@@ -23,7 +132,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 10.0,
     "latest_class": "",
-    "latest_going": "Good",
+    "latest_going": "",
     "latest_surface": "Turf",
     "latest_trainer": "G Arizkorreta Elosegui",
     "latest_jockey": "Ioritz Mendizabal",
@@ -39,9 +148,7 @@
     "distances_seen": {
       "10.0": 1
     },
-    "goings_seen": {
-      "Good": 1
-    },
+    "goings_seen": {},
     "classes_seen": {},
     "trainers_seen": {
       "G Arizkorreta Elosegui": 1
@@ -51,13 +158,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 75,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Jockey bonus +3",
-      "Historical winner +3"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -70,7 +172,7 @@
         "distance_f": 10.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "",
         "surface": "Turf",
         "field_size": 8,
         "horse": "Ile Aux Roses",
@@ -101,177 +203,55 @@
       "value": 10.0,
       "runs": 1
     },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
+    "favourite_going": null,
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 90,
+    "going_suitability_score": 50,
     "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 58,
+    "suitability_score": 70,
+    "horse_intelligence_score": 21,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Today's distance matches strongest profile pattern"
     ],
     "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "La Teste De Buch",
       "latest_distance_f": 10.0,
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_class": "",
-      "latest_pulse_score": 75,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Espronceda",
-    "horse_id": "hrs_61684560",
-    "age": 3,
-    "sex": "colt",
-    "latest_course": "La Teste De Buch",
-    "latest_time": "7:23",
-    "latest_race": "Prix Reverdy",
-    "latest_date": "2026-07-15",
-    "latest_distance_f": 10.0,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Roberto-Carlos Montenegro",
-    "latest_jockey": "M Romary",
-    "latest_draw": 4,
-    "latest_weight_lbs": 123,
-    "official_rating": "-",
-    "recent_form": "254261",
-    "last_run_days": 19,
-    "profile_runs": 1,
-    "courses_seen": {
-      "La Teste De Buch": 1
-    },
-    "distances_seen": {
-      "10.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Roberto-Carlos Montenegro": 1
-    },
-    "jockeys_seen": {
-      "M Romary": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 68,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000004121",
-        "course": "La Teste De Buch",
-        "date": "2026-07-15",
-        "off_time": "7:23",
-        "off_dt": "2026-07-15T19:23:00+01:00",
-        "race_name": "Prix Reverdy",
-        "distance_f": 10.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Espronceda",
-        "horse_id": "hrs_61684560",
-        "age": 3,
-        "sex": "colt",
-        "trainer": "Roberto-Carlos Montenegro",
-        "trainer_id": "trn_339381",
-        "jockey": "M Romary",
-        "jockey_id": "",
-        "draw": 4,
-        "number": 5,
-        "lbs": 123,
-        "ofr": "-",
-        "last_run": 19,
-        "form": "254261",
-        "headgear": "t"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "La Teste De Buch",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 10.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 55,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "La Teste De Buch",
-      "latest_distance_f": 10.0,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 68,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Espronceda",
-    "horse_id": "hrs_61684560",
+    "horse": "Lady Franca Rosa",
+    "horse_id": "hrs_58504103",
     "age": 3,
-    "sex": "colt",
+    "sex": "filly",
     "latest_course": "La Teste De Buch",
     "latest_time": "7:23",
     "latest_race": "Prix Reverdy",
     "latest_date": "2026-07-15",
     "latest_distance_f": 10.0,
     "latest_class": "",
-    "latest_going": "Good",
+    "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "Roberto-Carlos Montenegro",
-    "latest_jockey": "M Romary",
-    "latest_draw": 4,
-    "latest_weight_lbs": 123,
+    "latest_trainer": "H-A Pantall",
+    "latest_jockey": "Martin Protti",
+    "latest_draw": 6,
+    "latest_weight_lbs": 128,
     "official_rating": "-",
-    "recent_form": "254261",
-    "last_run_days": 19,
+    "recent_form": "983615",
+    "last_run_days": 23,
     "profile_runs": 1,
     "courses_seen": {
       "La Teste De Buch": 1
@@ -279,25 +259,18 @@
     "distances_seen": {
       "10.0": 1
     },
-    "goings_seen": {
-      "Good": 1
-    },
+    "goings_seen": {},
     "classes_seen": {},
     "trainers_seen": {
-      "Roberto-Carlos Montenegro": 1
+      "H-A Pantall": 1
     },
     "jockeys_seen": {
-      "M Romary": 1
+      "Martin Protti": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 68,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -310,24 +283,24 @@
         "distance_f": 10.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Espronceda",
-        "horse_id": "hrs_61684560",
+        "horse": "Lady Franca Rosa",
+        "horse_id": "hrs_58504103",
         "age": 3,
-        "sex": "colt",
-        "trainer": "Roberto-Carlos Montenegro",
-        "trainer_id": "trn_339381",
-        "jockey": "M Romary",
-        "jockey_id": "",
-        "draw": 4,
-        "number": 5,
-        "lbs": 123,
+        "sex": "filly",
+        "trainer": "H-A Pantall",
+        "trainer_id": "trn_102267",
+        "jockey": "Martin Protti",
+        "jockey_id": "jky_312255",
+        "draw": 6,
+        "number": 3,
+        "lbs": 128,
         "ofr": "-",
-        "last_run": 19,
-        "form": "254261",
-        "headgear": "t"
+        "last_run": 23,
+        "form": "983615",
+        "headgear": ""
       }
     ],
     "profile_notes": [],
@@ -339,39 +312,145 @@
       "value": 10.0,
       "runs": 1
     },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
+    "favourite_going": null,
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 90,
+    "going_suitability_score": 50,
     "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 55,
+    "suitability_score": 70,
+    "horse_intelligence_score": 21,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
+      "Today's distance matches strongest profile pattern"
     ],
     "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "La Teste De Buch",
       "latest_distance_f": 10.0,
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_class": "",
-      "latest_pulse_score": 68,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Espronceda",
+      "horse_id": "hrs_61684560",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "7:23",
+      "latest_race": "Prix Reverdy",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 10.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Roberto-Carlos Montenegro",
+      "latest_jockey": "M Romary",
+      "latest_draw": 4,
+      "latest_weight_lbs": 123,
+      "official_rating": "-",
+      "recent_form": "254261",
+      "last_run_days": 19,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "10.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "Roberto-Carlos Montenegro": 1
+      },
+      "jockeys_seen": {
+        "M Romary": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004121",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "7:23",
+          "off_dt": "2026-07-15T19:23:00+01:00",
+          "race_name": "Prix Reverdy",
+          "distance_f": 10.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Espronceda",
+          "horse_id": "hrs_61684560",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Roberto-Carlos Montenegro",
+          "trainer_id": "trn_339381",
+          "jockey": "M Romary",
+          "jockey_id": "",
+          "draw": 4,
+          "number": 5,
+          "lbs": 123,
+          "ofr": "-",
+          "last_run": 19,
+          "form": "254261",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 10.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Ile Aux Roses",
       "horse_id": "hrs_52055206",
@@ -383,7 +462,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 10.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "G Arizkorreta Elosegui",
       "latest_jockey": "Ioritz Mendizabal",
@@ -399,9 +478,7 @@
       "distances_seen": {
         "10.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
         "G Arizkorreta Elosegui": 1
@@ -411,13 +488,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 75,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Jockey bonus +3",
-        "Historical winner +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -430,7 +502,7 @@
           "distance_f": 10.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 8,
           "horse": "Ile Aux Roses",
@@ -461,391 +533,30 @@
         "value": 10.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 58,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 10.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 75,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Espronceda",
-      "horse_id": "hrs_61684560",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "7:23",
-      "latest_race": "Prix Reverdy",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 10.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Roberto-Carlos Montenegro",
-      "latest_jockey": "M Romary",
-      "latest_draw": 4,
-      "latest_weight_lbs": 123,
-      "official_rating": "-",
-      "recent_form": "254261",
-      "last_run_days": 19,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Roberto-Carlos Montenegro": 1
-      },
-      "jockeys_seen": {
-        "M Romary": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 68,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004121",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "7:23",
-          "off_dt": "2026-07-15T19:23:00+01:00",
-          "race_name": "Prix Reverdy",
-          "distance_f": 10.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Espronceda",
-          "horse_id": "hrs_61684560",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Roberto-Carlos Montenegro",
-          "trainer_id": "trn_339381",
-          "jockey": "M Romary",
-          "jockey_id": "",
-          "draw": 4,
-          "number": 5,
-          "lbs": 123,
-          "ofr": "-",
-          "last_run": 19,
-          "form": "254261",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 55,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 68,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Lovatree Paris",
-      "horse_id": "hrs_7000004025",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "7:23",
-      "latest_race": "Prix Reverdy",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 10.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mme S Gavilan",
-      "latest_jockey": "Guillaume Guedj-Gay",
-      "latest_draw": 8,
-      "latest_weight_lbs": 130,
-      "official_rating": "-",
-      "recent_form": "373144",
-      "last_run_days": 19,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Mme S Gavilan": 1
-      },
-      "jockeys_seen": {
-        "Guillaume Guedj-Gay": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 69,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004121",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "7:23",
-          "off_dt": "2026-07-15T19:23:00+01:00",
-          "race_name": "Prix Reverdy",
-          "distance_f": 10.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Lovatree Paris",
-          "horse_id": "hrs_7000004025",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Mme S Gavilan",
-          "trainer_id": "trn_313479",
-          "jockey": "Guillaume Guedj-Gay",
-          "jockey_id": "jky_294747",
-          "draw": 8,
-          "number": 2,
-          "lbs": 130,
-          "ofr": "-",
-          "last_run": 19,
-          "form": "373144",
-          "headgear": "tb"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 55,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 69,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Valtrada",
-      "horse_id": "hrs_7000004200",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "7:23",
-      "latest_race": "Prix Reverdy",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 10.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "P Sogorb",
-      "latest_jockey": "Cristian Demuro",
-      "latest_draw": 2,
-      "latest_weight_lbs": 132,
-      "official_rating": "-",
-      "recent_form": "-56412",
-      "last_run_days": 37,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "P Sogorb": 1
-      },
-      "jockeys_seen": {
-        "Cristian Demuro": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 67,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Jockey bonus +3"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004121",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "7:23",
-          "off_dt": "2026-07-15T19:23:00+01:00",
-          "race_name": "Prix Reverdy",
-          "distance_f": 10.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Valtrada",
-          "horse_id": "hrs_7000004200",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "P Sogorb",
-          "trainer_id": "trn_223920",
-          "jockey": "Cristian Demuro",
-          "jockey_id": "jky_266550",
-          "draw": 2,
-          "number": 1,
-          "lbs": 132,
-          "ofr": "-",
-          "last_run": 37,
-          "form": "-56412",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 67,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -862,7 +573,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 10.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "H-A Pantall",
       "latest_jockey": "Martin Protti",
@@ -878,9 +589,7 @@
       "distances_seen": {
         "10.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
         "H-A Pantall": 1
@@ -890,13 +599,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 65,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Trainer bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -909,7 +613,7 @@
           "distance_f": 10.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 8,
           "horse": "Lady Franca Rosa",
@@ -938,33 +642,30 @@
         "value": 10.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 53,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 10.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 65,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -981,7 +682,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 10.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "A Sanchez-Martin",
       "latest_jockey": "Fabrice Veron",
@@ -997,9 +698,7 @@
       "distances_seen": {
         "10.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
         "A Sanchez-Martin": 1
@@ -1009,10 +708,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Positive recent form"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1025,7 +722,7 @@
           "distance_f": 10.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 8,
           "horse": "La Almadia",
@@ -1056,151 +753,30 @@
         "value": 10.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 47,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 10.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 51,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Padova",
-      "horse_id": "hrs_7000004732",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "7:23",
-      "latest_race": "Prix Reverdy",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 10.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "F Rohaut",
-      "latest_jockey": "Mickael Forest",
-      "latest_draw": 1,
-      "latest_weight_lbs": 124,
-      "official_rating": "-",
-      "recent_form": "576",
-      "last_run_days": 53,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "F Rohaut": 1
-      },
-      "jockeys_seen": {
-        "Mickael Forest": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004121",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "7:23",
-          "off_dt": "2026-07-15T19:23:00+01:00",
-          "race_name": "Prix Reverdy",
-          "distance_f": 10.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Padova",
-          "horse_id": "hrs_7000004732",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "F Rohaut",
-          "trainer_id": "trn_105129",
-          "jockey": "Mickael Forest",
-          "jockey_id": "jky_254898",
-          "draw": 1,
-          "number": 4,
-          "lbs": 124,
-          "ofr": "-",
-          "last_run": 53,
-          "form": "576",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1217,7 +793,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 10.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Amy Murphy",
       "latest_jockey": "Ebbe Verhestraeten",
@@ -1233,9 +809,7 @@
       "distances_seen": {
         "10.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
         "Amy Murphy": 1
@@ -1245,13 +819,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 42,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1264,7 +833,7 @@
           "distance_f": 10.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 8,
           "horse": "Lightning Bonnie",
@@ -1295,32 +864,361 @@
         "value": 10.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 43,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 10.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 42,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Lovatree Paris",
+      "horse_id": "hrs_7000004025",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "7:23",
+      "latest_race": "Prix Reverdy",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 10.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Mme S Gavilan",
+      "latest_jockey": "Guillaume Guedj-Gay",
+      "latest_draw": 8,
+      "latest_weight_lbs": 130,
+      "official_rating": "-",
+      "recent_form": "373144",
+      "last_run_days": 19,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "10.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "Mme S Gavilan": 1
+      },
+      "jockeys_seen": {
+        "Guillaume Guedj-Gay": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004121",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "7:23",
+          "off_dt": "2026-07-15T19:23:00+01:00",
+          "race_name": "Prix Reverdy",
+          "distance_f": 10.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Lovatree Paris",
+          "horse_id": "hrs_7000004025",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Mme S Gavilan",
+          "trainer_id": "trn_313479",
+          "jockey": "Guillaume Guedj-Gay",
+          "jockey_id": "jky_294747",
+          "draw": 8,
+          "number": 2,
+          "lbs": 130,
+          "ofr": "-",
+          "last_run": 19,
+          "form": "373144",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 10.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Padova",
+      "horse_id": "hrs_7000004732",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "7:23",
+      "latest_race": "Prix Reverdy",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 10.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "F Rohaut",
+      "latest_jockey": "Mickael Forest",
+      "latest_draw": 1,
+      "latest_weight_lbs": 124,
+      "official_rating": "-",
+      "recent_form": "576",
+      "last_run_days": 53,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "10.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "F Rohaut": 1
+      },
+      "jockeys_seen": {
+        "Mickael Forest": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004121",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "7:23",
+          "off_dt": "2026-07-15T19:23:00+01:00",
+          "race_name": "Prix Reverdy",
+          "distance_f": 10.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Padova",
+          "horse_id": "hrs_7000004732",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "F Rohaut",
+          "trainer_id": "trn_105129",
+          "jockey": "Mickael Forest",
+          "jockey_id": "jky_254898",
+          "draw": 1,
+          "number": 4,
+          "lbs": 124,
+          "ofr": "-",
+          "last_run": 53,
+          "form": "576",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 10.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Valtrada",
+      "horse_id": "hrs_7000004200",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "7:23",
+      "latest_race": "Prix Reverdy",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 10.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "P Sogorb",
+      "latest_jockey": "Cristian Demuro",
+      "latest_draw": 2,
+      "latest_weight_lbs": 132,
+      "official_rating": "-",
+      "recent_form": "-56412",
+      "last_run_days": 37,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "10.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "P Sogorb": 1
+      },
+      "jockeys_seen": {
+        "Cristian Demuro": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004121",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "7:23",
+          "off_dt": "2026-07-15T19:23:00+01:00",
+          "race_name": "Prix Reverdy",
+          "distance_f": 10.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Valtrada",
+          "horse_id": "hrs_7000004200",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "P Sogorb",
+          "trainer_id": "trn_223920",
+          "jockey": "Cristian Demuro",
+          "jockey_id": "jky_266550",
+          "draw": 2,
+          "number": 1,
+          "lbs": 132,
+          "ofr": "-",
+          "last_run": 37,
+          "form": "-56412",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 10.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1328,8 +1226,9 @@
     }
   ],
   "notes": [
-    "Ile Aux Roses is the top-rated Pulse IQ runner.",
+    "Espronceda is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Espronceda is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Lady Franca Rosa is flagged as a possible dark horse."
   ]
 }

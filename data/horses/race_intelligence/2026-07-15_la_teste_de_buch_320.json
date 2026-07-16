@@ -5,33 +5,33 @@
   "time": "3:20",
   "race_name": "Prix Arcachon Reception",
   "field_size": 12,
-  "average_intelligence": 45.83,
-  "top_score": 49,
-  "second_score": 49,
+  "average_intelligence": 21.0,
+  "top_score": 21,
+  "second_score": 21,
   "gap": 0,
-  "confidence_score": 39,
+  "confidence_score": 17,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Reve De Nuit",
-    "horse_id": "hrs_7000004788",
+    "horse": "Diciamo",
+    "horse_id": "hrs_7000005152",
     "age": 2,
-    "sex": "colt",
+    "sex": "filly",
     "latest_course": "La Teste De Buch",
     "latest_time": "3:20",
     "latest_race": "Prix Arcachon Reception",
     "latest_date": "2026-07-15",
     "latest_distance_f": 7.0,
     "latest_class": "",
-    "latest_going": "Good",
+    "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "Guillemin (s)",
-    "latest_jockey": "Clement Merille",
-    "latest_draw": 7,
-    "latest_weight_lbs": 123,
+    "latest_trainer": "Tim Donworth",
+    "latest_jockey": "Cristian Demuro",
+    "latest_draw": 6,
+    "latest_weight_lbs": 121,
     "official_rating": "-",
-    "recent_form": "652",
-    "last_run_days": 19,
+    "recent_form": "",
+    "last_run_days": null,
     "profile_runs": 1,
     "courses_seen": {
       "La Teste De Buch": 1
@@ -39,24 +39,18 @@
     "distances_seen": {
       "7.0": 1
     },
-    "goings_seen": {
-      "Good": 1
-    },
+    "goings_seen": {},
     "classes_seen": {},
     "trainers_seen": {
-      "Guillemin (s)": 1
+      "Tim Donworth": 1
     },
     "jockeys_seen": {
-      "Clement Merille": 1
+      "Cristian Demuro": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 56,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -69,23 +63,23 @@
         "distance_f": 7.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "",
         "surface": "Turf",
         "field_size": 12,
-        "horse": "Reve De Nuit",
-        "horse_id": "hrs_7000004788",
+        "horse": "Diciamo",
+        "horse_id": "hrs_7000005152",
         "age": 2,
-        "sex": "colt",
-        "trainer": "Guillemin (s)",
-        "trainer_id": "trn_9000000135",
-        "jockey": "Clement Merille",
-        "jockey_id": "jky_294891",
-        "draw": 7,
-        "number": 3,
-        "lbs": 123,
+        "sex": "filly",
+        "trainer": "Tim Donworth",
+        "trainer_id": "trn_349938",
+        "jockey": "Cristian Demuro",
+        "jockey_id": "jky_266550",
+        "draw": 6,
+        "number": 5,
+        "lbs": 121,
         "ofr": "-",
-        "last_run": 19,
-        "form": "652",
+        "last_run": null,
+        "form": "",
         "headgear": ""
       }
     ],
@@ -98,160 +92,38 @@
       "value": 7.0,
       "runs": 1
     },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
+    "favourite_going": null,
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 90,
+    "going_suitability_score": 50,
     "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 49,
+    "suitability_score": 70,
+    "horse_intelligence_score": 21,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
+      "Today's distance matches strongest profile pattern"
     ],
     "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "La Teste De Buch",
       "latest_distance_f": 7.0,
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_class": "",
-      "latest_pulse_score": 56,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Sire Chop",
-    "horse_id": "hrs_7000004655",
-    "age": 2,
-    "sex": "colt",
-    "latest_course": "La Teste De Buch",
-    "latest_time": "3:20",
-    "latest_race": "Prix Arcachon Reception",
-    "latest_date": "2026-07-15",
-    "latest_distance_f": 7.0,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Mme S Gavilan",
-    "latest_jockey": "Martin Protti",
-    "latest_draw": 4,
-    "latest_weight_lbs": 127,
-    "official_rating": "-",
-    "recent_form": "438",
-    "last_run_days": 14,
-    "profile_runs": 1,
-    "courses_seen": {
-      "La Teste De Buch": 1
-    },
-    "distances_seen": {
-      "7.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Mme S Gavilan": 1
-    },
-    "jockeys_seen": {
-      "Martin Protti": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 56,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000004030",
-        "course": "La Teste De Buch",
-        "date": "2026-07-15",
-        "off_time": "3:20",
-        "off_dt": "2026-07-15T15:20:00+01:00",
-        "race_name": "Prix Arcachon Reception",
-        "distance_f": 7.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 12,
-        "horse": "Sire Chop",
-        "horse_id": "hrs_7000004655",
-        "age": 2,
-        "sex": "colt",
-        "trainer": "Mme S Gavilan",
-        "trainer_id": "trn_313479",
-        "jockey": "Martin Protti",
-        "jockey_id": "jky_312255",
-        "draw": 4,
-        "number": 1,
-        "lbs": 127,
-        "ofr": "-",
-        "last_run": 14,
-        "form": "438",
-        "headgear": "t"
-      }
-    ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "La Teste De Buch",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 7.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 49,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "La Teste De Buch",
-      "latest_distance_f": 7.0,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 56,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "It's Only Love",
-    "horse_id": "hrs_7000005026",
+    "horse": "Dreams Chope",
+    "horse_id": "hrs_7000005012",
     "age": 2,
     "sex": "filly",
     "latest_course": "La Teste De Buch",
@@ -260,14 +132,14 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 7.0,
     "latest_class": "",
-    "latest_going": "Good",
+    "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "Jane Soubagne",
-    "latest_jockey": "Ioritz Mendizabal",
-    "latest_draw": 3,
-    "latest_weight_lbs": 123,
+    "latest_trainer": "O Trigodet",
+    "latest_jockey": "Fabrice Veron",
+    "latest_draw": 12,
+    "latest_weight_lbs": 117,
     "official_rating": "-",
-    "recent_form": "9",
+    "recent_form": "0",
     "last_run_days": 14,
     "profile_runs": 1,
     "courses_seen": {
@@ -276,26 +148,18 @@
     "distances_seen": {
       "7.0": 1
     },
-    "goings_seen": {
-      "Good": 1
-    },
+    "goings_seen": {},
     "classes_seen": {},
     "trainers_seen": {
-      "Jane Soubagne": 1
+      "O Trigodet": 1
     },
     "jockeys_seen": {
-      "Ioritz Mendizabal": 1
+      "Fabrice Veron": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 54,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Jockey bonus +3"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -308,28 +172,27 @@
         "distance_f": 7.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "",
         "surface": "Turf",
         "field_size": 12,
-        "horse": "It's Only Love",
-        "horse_id": "hrs_7000005026",
+        "horse": "Dreams Chope",
+        "horse_id": "hrs_7000005012",
         "age": 2,
         "sex": "filly",
-        "trainer": "Jane Soubagne",
-        "trainer_id": "trn_289062",
-        "jockey": "Ioritz Mendizabal",
-        "jockey_id": "jky_226617",
-        "draw": 3,
-        "number": 4,
-        "lbs": 123,
+        "trainer": "O Trigodet",
+        "trainer_id": "trn_309951",
+        "jockey": "Fabrice Veron",
+        "jockey_id": "jky_241953",
+        "draw": 12,
+        "number": 11,
+        "lbs": 117,
         "ofr": "-",
         "last_run": 14,
-        "form": "9",
-        "headgear": "b"
+        "form": "0",
+        "headgear": ""
       }
     ],
     "profile_notes": [
-      "Low draw today",
       "Recent run timing"
     ],
     "favourite_course": {
@@ -340,32 +203,139 @@
       "value": 7.0,
       "runs": 1
     },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
+    "favourite_going": null,
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 90,
+    "going_suitability_score": 50,
     "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 48,
+    "suitability_score": 70,
+    "horse_intelligence_score": 21,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
+      "Today's distance matches strongest profile pattern"
     ],
     "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "La Teste De Buch",
       "latest_distance_f": 7.0,
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_class": "",
-      "latest_pulse_score": 54,
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "El Diablo",
+    "horse_id": "hrs_7000004893",
+    "age": 2,
+    "sex": "colt",
+    "latest_course": "La Teste De Buch",
+    "latest_time": "3:20",
+    "latest_race": "Prix Arcachon Reception",
+    "latest_date": "2026-07-15",
+    "latest_distance_f": 7.0,
+    "latest_class": "",
+    "latest_going": "",
+    "latest_surface": "Turf",
+    "latest_trainer": "B Montzey De",
+    "latest_jockey": "Romain Dubord",
+    "latest_draw": 11,
+    "latest_weight_lbs": 120,
+    "official_rating": "-",
+    "recent_form": "959",
+    "last_run_days": 19,
+    "profile_runs": 1,
+    "courses_seen": {
+      "La Teste De Buch": 1
+    },
+    "distances_seen": {
+      "7.0": 1
+    },
+    "goings_seen": {},
+    "classes_seen": {},
+    "trainers_seen": {
+      "B Montzey De": 1
+    },
+    "jockeys_seen": {
+      "Romain Dubord": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000004030",
+        "course": "La Teste De Buch",
+        "date": "2026-07-15",
+        "off_time": "3:20",
+        "off_dt": "2026-07-15T15:20:00+01:00",
+        "race_name": "Prix Arcachon Reception",
+        "distance_f": 7.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "",
+        "surface": "Turf",
+        "field_size": 12,
+        "horse": "El Diablo",
+        "horse_id": "hrs_7000004893",
+        "age": 2,
+        "sex": "colt",
+        "trainer": "B Montzey De",
+        "trainer_id": "trn_9000000162",
+        "jockey": "Romain Dubord",
+        "jockey_id": "jky_307944",
+        "draw": 11,
+        "number": 7,
+        "lbs": 120,
+        "ofr": "-",
+        "last_run": 19,
+        "form": "959",
+        "headgear": "b"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "La Teste De Buch",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 7.0,
+      "runs": 1
+    },
+    "favourite_going": null,
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 50,
+    "class_suitability_score": 50,
+    "suitability_score": 70,
+    "horse_intelligence_score": 21,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern"
+    ],
+    "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "La Teste De Buch",
+      "latest_distance_f": 7.0,
+      "latest_going": "",
+      "latest_class": "",
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -373,25 +343,25 @@
   },
   "runners": [
     {
-      "horse": "Reve De Nuit",
-      "horse_id": "hrs_7000004788",
+      "horse": "Diciamo",
+      "horse_id": "hrs_7000005152",
       "age": 2,
-      "sex": "colt",
+      "sex": "filly",
       "latest_course": "La Teste De Buch",
       "latest_time": "3:20",
       "latest_race": "Prix Arcachon Reception",
       "latest_date": "2026-07-15",
       "latest_distance_f": 7.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
-      "latest_trainer": "Guillemin (s)",
-      "latest_jockey": "Clement Merille",
-      "latest_draw": 7,
-      "latest_weight_lbs": 123,
+      "latest_trainer": "Tim Donworth",
+      "latest_jockey": "Cristian Demuro",
+      "latest_draw": 6,
+      "latest_weight_lbs": 121,
       "official_rating": "-",
-      "recent_form": "652",
-      "last_run_days": 19,
+      "recent_form": "",
+      "last_run_days": null,
       "profile_runs": 1,
       "courses_seen": {
         "La Teste De Buch": 1
@@ -399,24 +369,18 @@
       "distances_seen": {
         "7.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
-        "Guillemin (s)": 1
+        "Tim Donworth": 1
       },
       "jockeys_seen": {
-        "Clement Merille": 1
+        "Cristian Demuro": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 56,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -429,23 +393,23 @@
           "distance_f": 7.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 12,
-          "horse": "Reve De Nuit",
-          "horse_id": "hrs_7000004788",
+          "horse": "Diciamo",
+          "horse_id": "hrs_7000005152",
           "age": 2,
-          "sex": "colt",
-          "trainer": "Guillemin (s)",
-          "trainer_id": "trn_9000000135",
-          "jockey": "Clement Merille",
-          "jockey_id": "jky_294891",
-          "draw": 7,
-          "number": 3,
-          "lbs": 123,
+          "sex": "filly",
+          "trainer": "Tim Donworth",
+          "trainer_id": "trn_349938",
+          "jockey": "Cristian Demuro",
+          "jockey_id": "jky_266550",
+          "draw": 6,
+          "number": 5,
+          "lbs": 121,
           "ofr": "-",
-          "last_run": 19,
-          "form": "652",
+          "last_run": null,
+          "form": "",
           "headgear": ""
         }
       ],
@@ -458,56 +422,54 @@
         "value": 7.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 49,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 7.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 56,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Sire Chop",
-      "horse_id": "hrs_7000004655",
+      "horse": "Dreams Chope",
+      "horse_id": "hrs_7000005012",
       "age": 2,
-      "sex": "colt",
+      "sex": "filly",
       "latest_course": "La Teste De Buch",
       "latest_time": "3:20",
       "latest_race": "Prix Arcachon Reception",
       "latest_date": "2026-07-15",
       "latest_distance_f": 7.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
-      "latest_trainer": "Mme S Gavilan",
-      "latest_jockey": "Martin Protti",
-      "latest_draw": 4,
-      "latest_weight_lbs": 127,
+      "latest_trainer": "O Trigodet",
+      "latest_jockey": "Fabrice Veron",
+      "latest_draw": 12,
+      "latest_weight_lbs": 117,
       "official_rating": "-",
-      "recent_form": "438",
+      "recent_form": "0",
       "last_run_days": 14,
       "profile_runs": 1,
       "courses_seen": {
@@ -516,25 +478,18 @@
       "distances_seen": {
         "7.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
-        "Mme S Gavilan": 1
+        "O Trigodet": 1
       },
       "jockeys_seen": {
-        "Martin Protti": 1
+        "Fabrice Veron": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 56,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -547,24 +502,24 @@
           "distance_f": 7.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 12,
-          "horse": "Sire Chop",
-          "horse_id": "hrs_7000004655",
+          "horse": "Dreams Chope",
+          "horse_id": "hrs_7000005012",
           "age": 2,
-          "sex": "colt",
-          "trainer": "Mme S Gavilan",
-          "trainer_id": "trn_313479",
-          "jockey": "Martin Protti",
-          "jockey_id": "jky_312255",
-          "draw": 4,
-          "number": 1,
-          "lbs": 127,
+          "sex": "filly",
+          "trainer": "O Trigodet",
+          "trainer_id": "trn_309951",
+          "jockey": "Fabrice Veron",
+          "jockey_id": "jky_241953",
+          "draw": 12,
+          "number": 11,
+          "lbs": 117,
           "ofr": "-",
           "last_run": 14,
-          "form": "438",
-          "headgear": "t"
+          "form": "0",
+          "headgear": ""
         }
       ],
       "profile_notes": [
@@ -578,32 +533,357 @@
         "value": 7.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 49,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 7.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 56,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "El Diablo",
+      "horse_id": "hrs_7000004893",
+      "age": 2,
+      "sex": "colt",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:20",
+      "latest_race": "Prix Arcachon Reception",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "B Montzey De",
+      "latest_jockey": "Romain Dubord",
+      "latest_draw": 11,
+      "latest_weight_lbs": 120,
+      "official_rating": "-",
+      "recent_form": "959",
+      "last_run_days": 19,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "B Montzey De": 1
+      },
+      "jockeys_seen": {
+        "Romain Dubord": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004030",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:20",
+          "off_dt": "2026-07-15T15:20:00+01:00",
+          "race_name": "Prix Arcachon Reception",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "El Diablo",
+          "horse_id": "hrs_7000004893",
+          "age": 2,
+          "sex": "colt",
+          "trainer": "B Montzey De",
+          "trainer_id": "trn_9000000162",
+          "jockey": "Romain Dubord",
+          "jockey_id": "jky_307944",
+          "draw": 11,
+          "number": 7,
+          "lbs": 120,
+          "ofr": "-",
+          "last_run": 19,
+          "form": "959",
+          "headgear": "b"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 7.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Fardela",
+      "horse_id": "hrs_7000004900",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:20",
+      "latest_race": "Prix Arcachon Reception",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "R Avial Lopez",
+      "latest_jockey": "S Topin",
+      "latest_draw": 10,
+      "latest_weight_lbs": 117,
+      "official_rating": "-",
+      "recent_form": "98",
+      "last_run_days": 19,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "R Avial Lopez": 1
+      },
+      "jockeys_seen": {
+        "S Topin": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004030",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:20",
+          "off_dt": "2026-07-15T15:20:00+01:00",
+          "race_name": "Prix Arcachon Reception",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Fardela",
+          "horse_id": "hrs_7000004900",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "R Avial Lopez",
+          "trainer_id": "trn_115263",
+          "jockey": "S Topin",
+          "jockey_id": "jky_3000000012",
+          "draw": 10,
+          "number": 12,
+          "lbs": 117,
+          "ofr": "-",
+          "last_run": 19,
+          "form": "98",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 7.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Fathiyya",
+      "horse_id": "hrs_7000005159",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "La Teste De Buch",
+      "latest_time": "3:20",
+      "latest_race": "Prix Arcachon Reception",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "David Morisson",
+      "latest_jockey": "Valentin Seguy",
+      "latest_draw": 5,
+      "latest_weight_lbs": 118,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "La Teste De Buch": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {},
+      "trainers_seen": {
+        "David Morisson": 1
+      },
+      "jockeys_seen": {
+        "Valentin Seguy": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004030",
+          "course": "La Teste De Buch",
+          "date": "2026-07-15",
+          "off_time": "3:20",
+          "off_dt": "2026-07-15T15:20:00+01:00",
+          "race_name": "Prix Arcachon Reception",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Fathiyya",
+          "horse_id": "hrs_7000005159",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "David Morisson",
+          "trainer_id": "trn_310779",
+          "jockey": "Valentin Seguy",
+          "jockey_id": "jky_274203",
+          "draw": 5,
+          "number": 10,
+          "lbs": 118,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "La Teste De Buch",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 50,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "La Teste De Buch",
+        "latest_distance_f": 7.0,
+        "latest_going": "",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -620,7 +900,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 7.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Jane Soubagne",
       "latest_jockey": "Ioritz Mendizabal",
@@ -636,9 +916,7 @@
       "distances_seen": {
         "7.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
         "Jane Soubagne": 1
@@ -648,14 +926,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey bonus +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -668,7 +940,7 @@
           "distance_f": 7.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 12,
           "horse": "It's Only Love",
@@ -700,32 +972,30 @@
         "value": 7.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 48,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 7.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 54,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -742,7 +1012,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 7.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Mathieu Pelletan",
       "latest_jockey": "Alexandre Gavilan",
@@ -758,9 +1028,7 @@
       "distances_seen": {
         "7.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
         "Mathieu Pelletan": 1
@@ -770,13 +1038,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -789,7 +1052,7 @@
           "distance_f": 7.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Kasa Amore",
@@ -821,385 +1084,30 @@
         "value": 7.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 47,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 7.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 51,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Petit Genie",
-      "horse_id": "hrs_7000004753",
-      "age": 2,
-      "sex": "colt",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:20",
-      "latest_race": "Prix Arcachon Reception",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "J-C Rouget",
-      "latest_jockey": "Samy Le Quilleuc",
-      "latest_draw": 8,
-      "latest_weight_lbs": 123,
-      "official_rating": "-",
-      "recent_form": "30",
-      "last_run_days": 30,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "J-C Rouget": 1
-      },
-      "jockeys_seen": {
-        "Samy Le Quilleuc": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 52,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004030",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:20",
-          "off_dt": "2026-07-15T15:20:00+01:00",
-          "race_name": "Prix Arcachon Reception",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Petit Genie",
-          "horse_id": "hrs_7000004753",
-          "age": 2,
-          "sex": "colt",
-          "trainer": "J-C Rouget",
-          "trainer_id": "trn_75222",
-          "jockey": "Samy Le Quilleuc",
-          "jockey_id": "jky_286998",
-          "draw": 8,
-          "number": 2,
-          "lbs": 123,
-          "ofr": "-",
-          "last_run": 30,
-          "form": "30",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 52,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Dreams Chope",
-      "horse_id": "hrs_7000005012",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:20",
-      "latest_race": "Prix Arcachon Reception",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "O Trigodet",
-      "latest_jockey": "Fabrice Veron",
-      "latest_draw": 12,
-      "latest_weight_lbs": 117,
-      "official_rating": "-",
-      "recent_form": "0",
-      "last_run_days": 14,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "O Trigodet": 1
-      },
-      "jockeys_seen": {
-        "Fabrice Veron": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 47,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004030",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:20",
-          "off_dt": "2026-07-15T15:20:00+01:00",
-          "race_name": "Prix Arcachon Reception",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Dreams Chope",
-          "horse_id": "hrs_7000005012",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "O Trigodet",
-          "trainer_id": "trn_309951",
-          "jockey": "Fabrice Veron",
-          "jockey_id": "jky_241953",
-          "draw": 12,
-          "number": 11,
-          "lbs": 117,
-          "ofr": "-",
-          "last_run": 14,
-          "form": "0",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 47,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "El Diablo",
-      "horse_id": "hrs_7000004893",
-      "age": 2,
-      "sex": "colt",
-      "latest_course": "La Teste De Buch",
-      "latest_time": "3:20",
-      "latest_race": "Prix Arcachon Reception",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "B Montzey De",
-      "latest_jockey": "Romain Dubord",
-      "latest_draw": 11,
-      "latest_weight_lbs": 120,
-      "official_rating": "-",
-      "recent_form": "959",
-      "last_run_days": 19,
-      "profile_runs": 1,
-      "courses_seen": {
-        "La Teste De Buch": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "B Montzey De": 1
-      },
-      "jockeys_seen": {
-        "Romain Dubord": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004030",
-          "course": "La Teste De Buch",
-          "date": "2026-07-15",
-          "off_time": "3:20",
-          "off_dt": "2026-07-15T15:20:00+01:00",
-          "race_name": "Prix Arcachon Reception",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "El Diablo",
-          "horse_id": "hrs_7000004893",
-          "age": 2,
-          "sex": "colt",
-          "trainer": "B Montzey De",
-          "trainer_id": "trn_9000000162",
-          "jockey": "Romain Dubord",
-          "jockey_id": "jky_307944",
-          "draw": 11,
-          "number": 7,
-          "lbs": 120,
-          "ofr": "-",
-          "last_run": 19,
-          "form": "959",
-          "headgear": "b"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "La Teste De Buch",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "La Teste De Buch",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 46,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1216,7 +1124,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 7.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Amy Murphy",
       "latest_jockey": "Aurelien Lemaitre",
@@ -1232,9 +1140,7 @@
       "distances_seen": {
         "7.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
         "Amy Murphy": 1
@@ -1244,12 +1150,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1262,7 +1164,7 @@
           "distance_f": 7.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 12,
           "horse": "King Fierce",
@@ -1291,57 +1193,55 @@
         "value": 7.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 45,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 7.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 46,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Diciamo",
-      "horse_id": "hrs_7000005152",
+      "horse": "Petit Genie",
+      "horse_id": "hrs_7000004753",
       "age": 2,
-      "sex": "filly",
+      "sex": "colt",
       "latest_course": "La Teste De Buch",
       "latest_time": "3:20",
       "latest_race": "Prix Arcachon Reception",
       "latest_date": "2026-07-15",
       "latest_distance_f": 7.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
-      "latest_trainer": "Tim Donworth",
-      "latest_jockey": "Cristian Demuro",
-      "latest_draw": 6,
-      "latest_weight_lbs": 121,
+      "latest_trainer": "J-C Rouget",
+      "latest_jockey": "Samy Le Quilleuc",
+      "latest_draw": 8,
+      "latest_weight_lbs": 123,
       "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
+      "recent_form": "30",
+      "last_run_days": 30,
       "profile_runs": 1,
       "courses_seen": {
         "La Teste De Buch": 1
@@ -1349,23 +1249,18 @@
       "distances_seen": {
         "7.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
-        "Tim Donworth": 1
+        "J-C Rouget": 1
       },
       "jockeys_seen": {
-        "Cristian Demuro": 1
+        "Samy Le Quilleuc": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Helpful draw",
-        "Jockey bonus +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1378,23 +1273,23 @@
           "distance_f": 7.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 12,
-          "horse": "Diciamo",
-          "horse_id": "hrs_7000005152",
+          "horse": "Petit Genie",
+          "horse_id": "hrs_7000004753",
           "age": 2,
-          "sex": "filly",
-          "trainer": "Tim Donworth",
-          "trainer_id": "trn_349938",
-          "jockey": "Cristian Demuro",
-          "jockey_id": "jky_266550",
-          "draw": 6,
-          "number": 5,
-          "lbs": 121,
+          "sex": "colt",
+          "trainer": "J-C Rouget",
+          "trainer_id": "trn_75222",
+          "jockey": "Samy Le Quilleuc",
+          "jockey_id": "jky_286998",
+          "draw": 8,
+          "number": 2,
+          "lbs": 123,
           "ofr": "-",
-          "last_run": null,
-          "form": "",
+          "last_run": 30,
+          "form": "30",
           "headgear": ""
         }
       ],
@@ -1407,56 +1302,54 @@
         "value": 7.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 44,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 7.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 45,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Fardela",
-      "horse_id": "hrs_7000004900",
+      "horse": "Reve De Nuit",
+      "horse_id": "hrs_7000004788",
       "age": 2,
-      "sex": "filly",
+      "sex": "colt",
       "latest_course": "La Teste De Buch",
       "latest_time": "3:20",
       "latest_race": "Prix Arcachon Reception",
       "latest_date": "2026-07-15",
       "latest_distance_f": 7.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
-      "latest_trainer": "R Avial Lopez",
-      "latest_jockey": "S Topin",
-      "latest_draw": 10,
-      "latest_weight_lbs": 117,
+      "latest_trainer": "Guillemin (s)",
+      "latest_jockey": "Clement Merille",
+      "latest_draw": 7,
+      "latest_weight_lbs": 123,
       "official_rating": "-",
-      "recent_form": "98",
+      "recent_form": "652",
       "last_run_days": 19,
       "profile_runs": 1,
       "courses_seen": {
@@ -1465,24 +1358,18 @@
       "distances_seen": {
         "7.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
-        "R Avial Lopez": 1
+        "Guillemin (s)": 1
       },
       "jockeys_seen": {
-        "S Topin": 1
+        "Clement Merille": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1495,23 +1382,23 @@
           "distance_f": 7.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 12,
-          "horse": "Fardela",
-          "horse_id": "hrs_7000004900",
+          "horse": "Reve De Nuit",
+          "horse_id": "hrs_7000004788",
           "age": 2,
-          "sex": "filly",
-          "trainer": "R Avial Lopez",
-          "trainer_id": "trn_115263",
-          "jockey": "S Topin",
-          "jockey_id": "jky_3000000012",
-          "draw": 10,
-          "number": 12,
-          "lbs": 117,
+          "sex": "colt",
+          "trainer": "Guillemin (s)",
+          "trainer_id": "trn_9000000135",
+          "jockey": "Clement Merille",
+          "jockey_id": "jky_294891",
+          "draw": 7,
+          "number": 3,
+          "lbs": 123,
           "ofr": "-",
           "last_run": 19,
-          "form": "98",
+          "form": "652",
           "headgear": ""
         }
       ],
@@ -1524,32 +1411,30 @@
         "value": 7.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 44,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 7.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1566,7 +1451,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 7.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Guillaume Soulie",
       "latest_jockey": "Mlle Adeline Merou",
@@ -1582,9 +1467,7 @@
       "distances_seen": {
         "7.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
         "Guillaume Soulie": 1
@@ -1594,13 +1477,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1613,7 +1491,7 @@
           "distance_f": 7.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Sealisky",
@@ -1645,57 +1523,55 @@
         "value": 7.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 44,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 7.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 45,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Fathiyya",
-      "horse_id": "hrs_7000005159",
+      "horse": "Sire Chop",
+      "horse_id": "hrs_7000004655",
       "age": 2,
-      "sex": "filly",
+      "sex": "colt",
       "latest_course": "La Teste De Buch",
       "latest_time": "3:20",
       "latest_race": "Prix Arcachon Reception",
       "latest_date": "2026-07-15",
       "latest_distance_f": 7.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "",
       "latest_surface": "Turf",
-      "latest_trainer": "David Morisson",
-      "latest_jockey": "Valentin Seguy",
-      "latest_draw": 5,
-      "latest_weight_lbs": 118,
+      "latest_trainer": "Mme S Gavilan",
+      "latest_jockey": "Martin Protti",
+      "latest_draw": 4,
+      "latest_weight_lbs": 127,
       "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
+      "recent_form": "438",
+      "last_run_days": 14,
       "profile_runs": 1,
       "courses_seen": {
         "La Teste De Buch": 1
@@ -1703,22 +1579,18 @@
       "distances_seen": {
         "7.0": 1
       },
-      "goings_seen": {
-        "Good": 1
-      },
+      "goings_seen": {},
       "classes_seen": {},
       "trainers_seen": {
-        "David Morisson": 1
+        "Mme S Gavilan": 1
       },
       "jockeys_seen": {
-        "Valentin Seguy": 1
+        "Martin Protti": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 42,
-      "latest_notes": [
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1731,27 +1603,29 @@
           "distance_f": 7.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "",
           "surface": "Turf",
           "field_size": 12,
-          "horse": "Fathiyya",
-          "horse_id": "hrs_7000005159",
+          "horse": "Sire Chop",
+          "horse_id": "hrs_7000004655",
           "age": 2,
-          "sex": "filly",
-          "trainer": "David Morisson",
-          "trainer_id": "trn_310779",
-          "jockey": "Valentin Seguy",
-          "jockey_id": "jky_274203",
-          "draw": 5,
-          "number": 10,
-          "lbs": 118,
+          "sex": "colt",
+          "trainer": "Mme S Gavilan",
+          "trainer_id": "trn_313479",
+          "jockey": "Martin Protti",
+          "jockey_id": "jky_312255",
+          "draw": 4,
+          "number": 1,
+          "lbs": 127,
           "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": ""
+          "last_run": 14,
+          "form": "438",
+          "headgear": "t"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Recent run timing"
+      ],
       "favourite_course": {
         "value": "La Teste De Buch",
         "runs": 1
@@ -1760,32 +1634,30 @@
         "value": 7.0,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 43,
+      "suitability_score": 70,
+      "horse_intelligence_score": 21,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "La Teste De Buch",
         "latest_distance_f": 7.0,
-        "latest_going": "Good",
+        "latest_going": "",
         "latest_class": "",
-        "latest_pulse_score": 42,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1793,8 +1665,9 @@
     }
   ],
   "notes": [
-    "Reve De Nuit is the top-rated Pulse IQ runner.",
+    "Diciamo is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "It's Only Love is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "El Diablo is flagged as a possible dark horse."
   ]
 }
