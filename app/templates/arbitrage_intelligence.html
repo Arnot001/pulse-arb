@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Arbitrage Intelligence | Pulse IQ{% endblock %}
+{% block content %}
+<div class="arb-intel-page pulse-page">
+<header class="arb-intel-hero">
+<div class="arb-intel-title-row"><img src="/static/glyphs_transparent/arb.png" class="hero-icon" alt=""><div><span class="arb-intel-kicker">Pulse IQ Trading Systems</span><h1>Arbitrage Intelligence</h1><p>Monitor. Detect. Verify. Execute.</p></div></div>
+<div class="arb-intel-system-status"><span class="arb-intel-live-dot"></span>{{ arb_dashboard.status or "WAITING" }}</div>
+</header>
+{% if arb_dashboard.error %}<div class="arb-intel-alert">{{ arb_dashboard.error }}</div>{% endif %}
+<section class="arb-intel-kpi-grid">
+<article class="arb-intel-kpi"><span>Markets Analysed</span><strong>{{ market_summary.markets or 0 }}</strong><small>Latest discovery set</small></article>
+<article class="arb-intel-kpi positive"><span>Verified Opportunities</span><strong>{{ stats.execute or market_summary.guaranteed_arbs or 0 }}</strong><small>Ready or guaranteed</small></article>
+<article class="arb-intel-kpi review"><span>Review Queue</span><strong>{{ stats.review or market_summary.almost_there or 0 }}</strong><small>Not yet cleared</small></article>
+<article class="arb-intel-kpi value"><span>Highest ROI</span><strong>{{ "%.2f"|format(stats.highest_roi or 0) }}%</strong><small>Current ranked set</small></article>
+<article class="arb-intel-kpi"><span>Bookmakers</span><strong>{{ stats.bookmakers or 0 }}</strong><small>Across calculated legs</small></article>
+</section>
+<section class="arb-intel-section"><div class="arb-intel-section-heading"><div><span>Engine Matrix</span><h2>Opportunity Engines</h2><p>Each strategy gets its own scanner, validator, history and learning path.</p></div></div>
+<div class="arb-intel-engine-grid">{% for engine in engine_cards %}<article class="arb-intel-engine-card engine-{{ engine.key }}"><div class="arb-intel-engine-top"><div><span class="arb-intel-engine-eyebrow">{{ engine.eyebrow }}</span><h3>{{ engine.title }}</h3></div><span class="arb-intel-engine-status status-{{ engine.status|lower }}">{{ engine.status }}</span></div><p>{{ engine.description }}</p><div class="arb-intel-engine-footer"><div><strong>{{ engine.metric }}</strong><span>{{ engine.metric_label }}</span></div>{% if engine.status in ["LIVE", "FOUNDATION"] %}<a href="{{ engine.href }}" class="arb-intel-open-link">Open Engine →</a>{% else %}<span class="arb-intel-coming-soon">Queued</span>{% endif %}</div></article>{% endfor %}</div></section>
+<section class="arb-intel-section"><div class="arb-intel-section-heading"><div><span>Live Feed</span><h2>Current Market Intelligence</h2><p>Horse Arb is the first live engine feeding this platform.</p></div><a href="/horse-arb" class="arb-intel-view-all">Open Horse Arb →</a></div>
+<div class="arb-intel-feed-grid"><article class="arb-intel-feed-card guaranteed"><span>Guaranteed Arbs</span><strong>{{ market_summary.guaranteed_arbs or 0 }}</strong><small>Below 100%</small></article><article class="arb-intel-feed-card almost"><span>Almost There</span><strong>{{ market_summary.almost_there or 0 }}</strong><small>Near threshold</small></article><article class="arb-intel-feed-card value"><span>Best Value</span><strong>{{ market_summary.best_value or 0 }}</strong><small>Strong pricing</small></article><article class="arb-intel-feed-card watching"><span>Worth Watching</span><strong>{{ market_summary.worth_watching or 0 }}</strong><small>Moving markets</small></article></div></section>
+</div>
+{% endblock %}

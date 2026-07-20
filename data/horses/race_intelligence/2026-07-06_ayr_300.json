@@ -4,8 +4,8 @@
   "course": "Ayr",
   "time": "3:00",
   "race_name": "racingtv.com/freetrial Handicap",
-  "field_size": 11,
-  "average_intelligence": 25.82,
+  "field_size": 9,
+  "average_intelligence": 25.56,
   "top_score": 27,
   "second_score": 27,
   "gap": 0,
@@ -13,156 +13,6 @@
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Falcon Nine",
-    "horse_id": "hrs_30908514",
-    "age": 6,
-    "sex": "gelding",
-    "latest_course": "Ayr",
-    "latest_time": "3:00",
-    "latest_race": "racingtv.com/freetrial Handicap",
-    "latest_date": "2026-07-06",
-    "latest_distance_f": 10.0,
-    "latest_class": "Class 6",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Iain Jardine",
-    "latest_jockey": "Billy Garritty",
-    "latest_draw": 12,
-    "latest_weight_lbs": 140,
-    "official_rating": "60",
-    "recent_form": "4-7724",
-    "last_run_days": 19,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Ayr": 2
-    },
-    "distances_seen": {
-      "10.0": 2
-    },
-    "goings_seen": {
-      "Good": 2
-    },
-    "classes_seen": {
-      "Class 6": 2
-    },
-    "trainers_seen": {
-      "Iain Jardine": 2
-    },
-    "jockeys_seen": {
-      "Billy Garritty": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11989900",
-        "course": "Ayr",
-        "date": "2026-07-06",
-        "off_time": "3:00",
-        "off_dt": "2026-07-06T15:00:00+01:00",
-        "race_name": "racingtv.com/freetrial Handicap",
-        "distance_f": 10.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 12,
-        "horse": "Falcon Nine",
-        "horse_id": "hrs_30908514",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "Iain Jardine",
-        "trainer_id": "trn_193644",
-        "jockey": "Billy Garritty",
-        "jockey_id": "jky_285456",
-        "draw": 12,
-        "number": 3,
-        "lbs": 140,
-        "ofr": "60",
-        "last_run": 19,
-        "form": "4-7724",
-        "headgear": "b"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11989900",
-        "course": "Ayr",
-        "date": "2026-07-06",
-        "off_time": "3:00",
-        "off_dt": "2026-07-06T15:00:00+01:00",
-        "race_name": "racingtv.com/freetrial Handicap",
-        "distance_f": 10.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 12,
-        "horse": "Falcon Nine",
-        "horse_id": "hrs_30908514",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "Iain Jardine",
-        "trainer_id": "trn_193644",
-        "jockey": "Billy Garritty",
-        "jockey_id": "jky_285456",
-        "draw": 12,
-        "number": 3,
-        "lbs": 140,
-        "ofr": "60",
-        "last_run": 19,
-        "form": "4-7724",
-        "headgear": "b"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Ayr",
-      "runs": 2
-    },
-    "favourite_distance": {
-      "value": 10.0,
-      "runs": 2
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 6",
-      "runs": 2
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Ayr",
-      "latest_distance_f": 10.0,
-      "latest_going": "Good",
-      "latest_class": "Class 6",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
-  },
-  "main_threat": {
     "horse": "Hill O Rue",
     "horse_id": "hrs_45256743",
     "age": 4,
@@ -312,7 +162,7 @@
       "runs_count": 2
     }
   },
-  "dark_horse": {
+  "main_threat": {
     "horse": "Naturalia",
     "horse_id": "hrs_35881223",
     "age": 5,
@@ -465,157 +315,157 @@
       "runs_count": 2
     }
   },
-  "runners": [
-    {
-      "horse": "Falcon Nine",
-      "horse_id": "hrs_30908514",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Ayr",
-      "latest_time": "3:00",
-      "latest_race": "racingtv.com/freetrial Handicap",
-      "latest_date": "2026-07-06",
-      "latest_distance_f": 10.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Iain Jardine",
-      "latest_jockey": "Billy Garritty",
-      "latest_draw": 12,
-      "latest_weight_lbs": 140,
-      "official_rating": "60",
-      "recent_form": "4-7724",
-      "last_run_days": 19,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Ayr": 2
-      },
-      "distances_seen": {
-        "10.0": 2
-      },
-      "goings_seen": {
-        "Good": 2
-      },
-      "classes_seen": {
-        "Class 6": 2
-      },
-      "trainers_seen": {
-        "Iain Jardine": 2
-      },
-      "jockeys_seen": {
-        "Billy Garritty": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989900",
-          "course": "Ayr",
-          "date": "2026-07-06",
-          "off_time": "3:00",
-          "off_dt": "2026-07-06T15:00:00+01:00",
-          "race_name": "racingtv.com/freetrial Handicap",
-          "distance_f": 10.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Falcon Nine",
-          "horse_id": "hrs_30908514",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Iain Jardine",
-          "trainer_id": "trn_193644",
-          "jockey": "Billy Garritty",
-          "jockey_id": "jky_285456",
-          "draw": 12,
-          "number": 3,
-          "lbs": 140,
-          "ofr": "60",
-          "last_run": 19,
-          "form": "4-7724",
-          "headgear": "b"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989900",
-          "course": "Ayr",
-          "date": "2026-07-06",
-          "off_time": "3:00",
-          "off_dt": "2026-07-06T15:00:00+01:00",
-          "race_name": "racingtv.com/freetrial Handicap",
-          "distance_f": 10.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Falcon Nine",
-          "horse_id": "hrs_30908514",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Iain Jardine",
-          "trainer_id": "trn_193644",
-          "jockey": "Billy Garritty",
-          "jockey_id": "jky_285456",
-          "draw": 12,
-          "number": 3,
-          "lbs": 140,
-          "ofr": "60",
-          "last_run": 19,
-          "form": "4-7724",
-          "headgear": "b"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Ayr",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Ayr",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good",
-        "latest_class": "Class 6",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
+  "dark_horse": {
+    "horse": "Parole Officer",
+    "horse_id": "hrs_49141393",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Ayr",
+    "latest_time": "3:00",
+    "latest_race": "racingtv.com/freetrial Handicap",
+    "latest_date": "2026-07-06",
+    "latest_distance_f": 10.0,
+    "latest_class": "Class 6",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Ewan Whillans",
+    "latest_jockey": "Greg Fairley",
+    "latest_draw": 9,
+    "latest_weight_lbs": 128,
+    "official_rating": "58",
+    "recent_form": "654-99",
+    "last_run_days": 52,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Ayr": 2
     },
+    "distances_seen": {
+      "10.0": 2
+    },
+    "goings_seen": {
+      "Good": 2
+    },
+    "classes_seen": {
+      "Class 6": 2
+    },
+    "trainers_seen": {
+      "Ewan Whillans": 2
+    },
+    "jockeys_seen": {
+      "Greg Fairley": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11989900",
+        "course": "Ayr",
+        "date": "2026-07-06",
+        "off_time": "3:00",
+        "off_dt": "2026-07-06T15:00:00+01:00",
+        "race_name": "racingtv.com/freetrial Handicap",
+        "distance_f": 10.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 12,
+        "horse": "Parole Officer",
+        "horse_id": "hrs_49141393",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Ewan Whillans",
+        "trainer_id": "trn_348426",
+        "jockey": "Greg Fairley",
+        "jockey_id": "jky_252060",
+        "draw": 9,
+        "number": 12,
+        "lbs": 128,
+        "ofr": "58",
+        "last_run": 52,
+        "form": "654-99",
+        "headgear": "p"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11989900",
+        "course": "Ayr",
+        "date": "2026-07-06",
+        "off_time": "3:00",
+        "off_dt": "2026-07-06T15:00:00+01:00",
+        "race_name": "racingtv.com/freetrial Handicap",
+        "distance_f": 10.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 12,
+        "horse": "Parole Officer",
+        "horse_id": "hrs_49141393",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Ewan Whillans",
+        "trainer_id": "trn_348426",
+        "jockey": "Greg Fairley",
+        "jockey_id": "jky_252060",
+        "draw": 9,
+        "number": 12,
+        "lbs": 128,
+        "ofr": "58",
+        "last_run": 52,
+        "form": "654-99",
+        "headgear": "p"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Ayr",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 10.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 6",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Ayr",
+      "latest_distance_f": 10.0,
+      "latest_going": "Good",
+      "latest_class": "Class 6",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "runners": [
     {
       "horse": "Hill O Rue",
       "horse_id": "hrs_45256743",
@@ -1229,188 +1079,6 @@
       "favourite_class": {
         "value": "Class 6",
         "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Ayr",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good",
-        "latest_class": "Class 6",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
-      }
-    },
-    {
-      "horse": "Shifter",
-      "horse_id": "hrs_28078008",
-      "age": 7,
-      "sex": "mare",
-      "latest_course": "Ayr",
-      "latest_time": "3:00",
-      "latest_race": "racingtv.com/freetrial Handicap",
-      "latest_date": "2026-07-06",
-      "latest_distance_f": 10.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Wilf Storey",
-      "latest_jockey": "Paula Muir(3)",
-      "latest_draw": 11,
-      "latest_weight_lbs": 129,
-      "official_rating": "49",
-      "recent_form": "985423",
-      "last_run_days": 1,
-      "profile_runs": 3,
-      "courses_seen": {
-        "Ayr": 3
-      },
-      "distances_seen": {
-        "10.0": 3
-      },
-      "goings_seen": {
-        "Good": 3
-      },
-      "classes_seen": {
-        "Class 6": 3
-      },
-      "trainers_seen": {
-        "Wilf Storey": 3
-      },
-      "jockeys_seen": {
-        "Paula Muir(3)": 3
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989796",
-          "course": "Ayr",
-          "date": "2026-07-05",
-          "off_time": "4:25",
-          "off_dt": "2026-07-05T16:25:00+01:00",
-          "race_name": "Glasgow Fair Family Raceday 20 July Handicap",
-          "distance_f": 10.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Shifter",
-          "horse_id": "hrs_28078008",
-          "age": 7,
-          "sex": "mare",
-          "trainer": "Wilf Storey",
-          "trainer_id": "trn_5454",
-          "jockey": "Paula Muir(3)",
-          "jockey_id": "jky_280338",
-          "draw": 8,
-          "number": 6,
-          "lbs": 132,
-          "ofr": "49",
-          "last_run": 16,
-          "form": "-98542",
-          "headgear": ""
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989900",
-          "course": "Ayr",
-          "date": "2026-07-06",
-          "off_time": "3:00",
-          "off_dt": "2026-07-06T15:00:00+01:00",
-          "race_name": "racingtv.com/freetrial Handicap",
-          "distance_f": 10.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Shifter",
-          "horse_id": "hrs_28078008",
-          "age": 7,
-          "sex": "mare",
-          "trainer": "Wilf Storey",
-          "trainer_id": "trn_5454",
-          "jockey": "Paula Muir(3)",
-          "jockey_id": "jky_280338",
-          "draw": 11,
-          "number": 11,
-          "lbs": 129,
-          "ofr": "49",
-          "last_run": 1,
-          "form": "985423",
-          "headgear": ""
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989900",
-          "course": "Ayr",
-          "date": "2026-07-06",
-          "off_time": "3:00",
-          "off_dt": "2026-07-06T15:00:00+01:00",
-          "race_name": "racingtv.com/freetrial Handicap",
-          "distance_f": 10.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Shifter",
-          "horse_id": "hrs_28078008",
-          "age": 7,
-          "sex": "mare",
-          "trainer": "Wilf Storey",
-          "trainer_id": "trn_5454",
-          "jockey": "Paula Muir(3)",
-          "jockey_id": "jky_280338",
-          "draw": 11,
-          "number": 11,
-          "lbs": 129,
-          "ofr": "49",
-          "last_run": 1,
-          "form": "985423",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Profile has multiple stored runs",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Ayr",
-        "runs": 3
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 3
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 3
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 3
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
@@ -2361,9 +2029,9 @@
     }
   ],
   "notes": [
-    "Falcon Nine is the top-rated Pulse IQ runner.",
+    "Hill O Rue is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Naturalia is flagged as a possible dark horse."
+    "Parole Officer is flagged as a possible dark horse."
   ]
 }

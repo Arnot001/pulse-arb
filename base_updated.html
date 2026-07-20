@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}Pulse IQ{% endblock %}</title>
+
+    <link rel="stylesheet" href="/static/styles.css">
+
+    {% block head %}{% endblock %}
+</head>
+
+<body>
+
+<div id="pulse-background" aria-hidden="true">
+    <canvas id="pulse-canvas"></canvas>
+</div>
+
+<div class="pulse-layout">
+
+    <aside class="pulse-sidebar">
+
+        <div class="pulse-logo">
+            <img src="/static/glyphs_transparent/engine.png" class="sidebar-logo" alt="">
+        </div>
+
+        <nav class="pulse-nav">
+
+            <a href="/performance"
+                class="{% if active_page == 'performance' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/performance.png" class="nav-icon" alt="">
+                <span>Performance</span>
+            </a>
+
+            <a href="/" class="{% if active_page == 'home' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/home.png" class="nav-icon" alt="">
+                <span>Home</span>
+            </a>
+
+            <div class="nav-section-title">Intelligence</div>
+
+            <a href="/bet-builder" class="{% if active_page == 'bet_builder' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/strategy.png" class="nav-icon" alt="">
+                <span>Bet Builder</span>
+            </a>
+
+            <a href="/strategy" class="{% if active_page == 'strategy' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/strategy.png" class="nav-icon" alt="">
+                <span>Betting Lab</span>
+            </a>
+
+            <div class="nav-section-title">Sports</div>
+
+            <a href="/horses" class="{% if active_page == 'horses' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/horses.png" class="nav-icon" alt="">
+                <span>Horse Picks</span>
+            </a>
+
+            <a href="/horse-arb" class="{% if active_page == 'horse_arb' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/arb.png" class="nav-icon" alt="">
+                <span>Horse Arb</span>
+            </a>
+
+            <a href="/dogs" class="{% if active_page == 'dogs' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/dogs.png" class="nav-icon" alt="">
+                <span>Dogs</span>
+            </a>
+
+            <a href="/football" class="{% if active_page == 'football' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/football.png" class="nav-icon" alt="">
+                <span>Football</span>
+            </a>
+
+            <a href="/arb" class="{% if active_page == 'arb' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/arb.png" class="nav-icon" alt="">
+                <span>Pulse Arb</span>
+            </a>
+
+            <div class="nav-section-title">Data</div>
+
+            <a href="/bet-ledger" class="{% if active_page == 'bet_ledger' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/performance.png" class="nav-icon" alt="">
+                <span>Bet Ledger</span>
+            </a>
+
+            <a href="/race-intelligence" class="{% if active_page == 'race_intelligence' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/brain.png" class="nav-icon" alt="">
+                <span>Race Intelligence</span>
+            </a>
+
+            <a href="/horses/races" class="{% if active_page == 'racecards' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/races.png" class="nav-icon" alt="">
+                <span>Racecards</span>
+            </a>
+
+            <a href="/horses/market-events" class="{% if active_page == 'market_events' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/market.png" class="nav-icon" alt="">
+                <span>Market Movers</span>
+            </a>
+
+            <a href="/results-intelligence" class="{% if active_page == 'results_intelligence' %}active{% endif %}">
+                <img src="/static/glyphs_transparent/performance.png" class="nav-icon" alt="">
+                <span>Results</span>
+            </a>
+
+        </nav>
+
+    </aside>
+
+    <main class="pulse-content">
+
+        {% block content %}
+        {% endblock %}
+
+    </main>
+
+</div>
+
+{% block scripts %}
+<script src="/static/background.js"></script>
+{% endblock %}
+
+</body>
+</html>

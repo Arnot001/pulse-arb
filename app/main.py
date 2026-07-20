@@ -22,6 +22,9 @@ from app.modules.performance.bet_ledger import (
     get_performance_insights,
 )
 from app.modules.race_intelligence.output import (get_race_intelligence_dashboard,)
+from app.modules.arbitrage.dashboard import (
+    get_dashboard as get_horse_arb_dashboard,
+)
 from app.modules.strategy.engine import get_strategy_lab_data
 from app.modules.dashboard import get_dashboard_data
 from app.modules.betting.builder import build_bets
@@ -433,6 +436,48 @@ def race_intelligence(request: Request):
         },
     )
     
+
+@app.get("/horse-arb", response_class=HTMLResponse)
+def horse_arb(request: Request):
+    return templates.TemplateResponse(
+        request,
+        "horse_arb.html",
+        {
+            "active_page": "horse_arb",
+            **get_horse_arb_dashboard(),
+        },
+    )
+
+
+@app.get("/arbitrage-intelligence", response_class=HTMLResponse)
+def arbitrage_intelligence(request: Request):
+    dashboard = get_horse_arb_dashboard()
+    stats = dashboard.get("stats") or {}
+    market_summary = dashboard.get("market_summary") or {}
+
+    engine_cards = [
+        {"key": "back_back", "title": "Back ↔ Back", "eyebrow": "Guaranteed", "description": "Best sportsbook price on every runner, verified as one complete market.", "href": "/horse-arb", "status": "LIVE", "metric": market_summary.get("guaranteed_arbs", 0), "metric_label": "verified arbs"},
+        {"key": "back_lay", "title": "Back ↔ Lay", "eyebrow": "Exchange", "description": "Compare sportsbook back odds with exchange lay prices, commission and liability.", "href": "/lay-calculator", "status": "FOUNDATION", "metric": 0, "metric_label": "live opportunities"},
+        {"key": "each_way", "title": "Each-Way Arbitrage", "eyebrow": "Win + Place", "description": "Detect win and place pricing mismatches across bookmakers and place terms.", "href": "#", "status": "PLANNED", "metric": 0, "metric_label": "opportunities"},
+        {"key": "extra_places", "title": "Extra Places", "eyebrow": "Enhanced Terms", "description": "Identify bookmakers paying deeper places than the standard market.", "href": "#", "status": "PLANNED", "metric": 0, "metric_label": "offers"},
+        {"key": "dutching", "title": "Dutching Studio", "eyebrow": "Portfolio", "description": "Build multi-runner coverage with balanced stakes, returns and portfolio risk.", "href": "#", "status": "PLANNED", "metric": 0, "metric_label": "portfolios"},
+        {"key": "cross_market", "title": "Cross-Market", "eyebrow": "Market Links", "description": "Compare winner, without favourite, place and related derivative markets.", "href": "#", "status": "PLANNED", "metric": 0, "metric_label": "opportunities"},
+        {"key": "boosts", "title": "Boost Finder", "eyebrow": "Enhanced Odds", "description": "Rank bookmaker boosts against the true market and Pulse fair-price estimates.", "href": "#", "status": "PLANNED", "metric": 0, "metric_label": "boosts"},
+        {"key": "value", "title": "Value Engine", "eyebrow": "Positive EV", "description": "Find prices above Pulse fair value and track whether the edge is profitable.", "href": "#", "status": "FOUNDATION", "metric": market_summary.get("best_value", 0), "metric_label": "value markets"},
+    ]
+
+    return templates.TemplateResponse(
+        request,
+        "arbitrage_intelligence.html",
+        {
+            "active_page": "arbitrage_intelligence",
+            "engine_cards": engine_cards,
+            "arb_dashboard": dashboard,
+            "stats": stats,
+            "market_summary": market_summary,
+        },
+    )
+
 @app.get("/horses/profile/{horse_name}", response_class=HTMLResponse)
 def horse_profile(request: Request, horse_name: str):
     horse = get_horse_profile(horse_name)

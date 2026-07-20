@@ -1,22 +1,18 @@
 {
-  "date": "2026-07-08",
+  "date": "2026-07-16",
   "horse": "Aravalli",
   "pulse_rank": 4,
   "winner": true,
-  "sp": "33/1",
+  "sp": "7/2",
   "course": "Chepstow",
-  "time": "19:46",
-  "top_pick": "Atalanta Mist",
-  "top_pick_score": 79,
-  "winner_score": 57,
+  "time": "16:30",
+  "top_pick": "Bumaan",
+  "top_pick_score": 66,
+  "winner_score": 60,
   "signals": [
     {
       "signal": "Favourite course matched",
       "reason": "Winner ran at its most common course: Chepstow"
-    },
-    {
-      "signal": "Favourite distance matched",
-      "reason": "Winner ran at its most common distance: 12.0f"
     },
     {
       "signal": "Favourite going matched",
@@ -28,15 +24,11 @@
     },
     {
       "signal": "Strong suitability profile",
-      "reason": "Suitability Score was 90"
+      "reason": "Suitability Score was 81"
     },
     {
       "signal": "Profile strength existed",
       "reason": "Today's course matches strongest profile pattern"
-    },
-    {
-      "signal": "Profile strength existed",
-      "reason": "Today's distance matches strongest profile pattern"
     },
     {
       "signal": "Profile strength existed",
@@ -49,13 +41,13 @@
   ],
   "profile_snapshot": {
     "average_pulse_score": 0,
-    "latest_pulse_score": 54,
+    "latest_pulse_score": 60,
     "horse_intelligence_score": 51,
-    "suitability_score": 90,
-    "profile_runs": 1,
+    "suitability_score": 81,
+    "profile_runs": 2,
     "favourite_course": {
       "value": "Chepstow",
-      "runs": 1
+      "runs": 2
     },
     "favourite_distance": {
       "value": 12.0,
@@ -63,14 +55,15 @@
     },
     "favourite_going": {
       "value": "Good To Firm",
-      "runs": 1
+      "runs": 2
     },
     "favourite_class": {
       "value": "Class 6",
-      "runs": 1
+      "runs": 2
     }
   },
   "cautions": [
+    "Distance not yet a clear profile strength",
     "Limited stored profile data"
   ]
 }

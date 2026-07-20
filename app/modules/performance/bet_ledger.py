@@ -449,12 +449,23 @@ def get_each_way_bankroll_history(
             row.get("bet_id") or "",
         )
 
+    filtered_bets = filter_performance_bets(
+        load_settled_bets(),
+        min_score=min_score,
+        bet_group=bet_group,
+    )
+
+    eligible_bets = [
+        bet
+        for bet in filtered_bets
+        if bet.get("ew_available") is True
+        and bet.get("ew_profit") is not None
+        and bet.get("ew_total_stake") is not None
+        and bet.get("placed") in {True, False}
+    ]
+
     settled = sorted(
-        filter_performance_bets(
-            load_settled_bets(),
-            min_score=min_score,
-            bet_group=bet_group,
-        ),
+        eligible_bets,
         key=history_sort_key,
     )
 
