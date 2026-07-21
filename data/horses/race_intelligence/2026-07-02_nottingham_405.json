@@ -5,18 +5,18 @@
   "time": "4:05",
   "race_name": "Watch Racing TV Now Handicap",
   "field_size": 7,
-  "average_intelligence": 26.29,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 21,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "average_intelligence": 50.43,
+  "top_score": 65,
+  "second_score": 55,
+  "gap": 10,
+  "confidence_score": 64,
+  "confidence": "MEDIUM",
+  "race_shape": "PULSE EDGE",
   "top_runner": {
-    "horse": "Empirical",
-    "horse_id": "hrs_58380259",
+    "horse": "Mereside Princess",
+    "horse_id": "hrs_56746382",
     "age": 3,
-    "sex": "gelding",
+    "sex": "filly",
     "latest_course": "Nottingham",
     "latest_time": "4:05",
     "latest_race": "Watch Racing TV Now Handicap",
@@ -25,13 +25,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Ed Walker",
-    "latest_jockey": "Cieren Fallon",
-    "latest_draw": 8,
-    "latest_weight_lbs": 132,
-    "official_rating": "66",
-    "recent_form": "73-83",
-    "last_run_days": 54,
+    "latest_trainer": "David & Nicola Barron",
+    "latest_jockey": "William Pyle",
+    "latest_draw": 7,
+    "latest_weight_lbs": 128,
+    "official_rating": "62",
+    "recent_form": "643112",
+    "last_run_days": 10,
     "profile_runs": 1,
     "courses_seen": {
       "Nottingham": 1
@@ -46,15 +46,20 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Ed Walker": 1
+      "David & Nicola Barron": 1
     },
     "jockeys_seen": {
-      "Cieren Fallon": 1
+      "William Pyle": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 85,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Trainer bonus +2",
+      "Jockey bonus +3"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -70,22 +75,152 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Empirical",
-        "horse_id": "hrs_58380259",
+        "horse": "Mereside Princess",
+        "horse_id": "hrs_56746382",
+        "age": 3,
+        "sex": "filly",
+        "trainer": "David & Nicola Barron",
+        "trainer_id": "trn_354483",
+        "jockey": "William Pyle",
+        "jockey_id": "jky_301428",
+        "draw": 7,
+        "number": 7,
+        "lbs": 128,
+        "ofr": "62",
+        "last_run": 10,
+        "form": "643112",
+        "headgear": "b",
+        "_stored_at": "2026-07-02T00:01:30.278184+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score",
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Nottingham",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 8.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 65,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Nottingham",
+      "latest_distance_f": 8.5,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 5",
+      "latest_pulse_score": 85,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "Mayflower Billy",
+    "horse_id": "hrs_54090876",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Nottingham",
+    "latest_time": "4:05",
+    "latest_race": "Watch Racing TV Now Handicap",
+    "latest_date": "2026-07-02",
+    "latest_distance_f": 8.5,
+    "latest_class": "Class 5",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Jessica Macey",
+    "latest_jockey": "Sam James",
+    "latest_draw": 4,
+    "latest_weight_lbs": 134,
+    "official_rating": "68",
+    "recent_form": "0-4825",
+    "last_run_days": 21,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Nottingham": 1
+    },
+    "distances_seen": {
+      "8.5": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 5": 1
+    },
+    "trainers_seen": {
+      "Jessica Macey": 1
+    },
+    "jockeys_seen": {
+      "Sam James": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 62,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11995893",
+        "course": "Nottingham",
+        "date": "2026-07-02",
+        "off_time": "4:05",
+        "off_dt": "2026-07-02T16:05:00+01:00",
+        "race_name": "Watch Racing TV Now Handicap",
+        "distance_f": 8.5,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 8,
+        "horse": "Mayflower Billy",
+        "horse_id": "hrs_54090876",
         "age": 3,
         "sex": "gelding",
-        "trainer": "Ed Walker",
-        "trainer_id": "trn_215334",
-        "jockey": "Cieren Fallon",
-        "jockey_id": "jky_295557",
-        "draw": 8,
-        "number": 4,
-        "lbs": 132,
-        "ofr": "66",
-        "last_run": 54,
-        "form": "73-83",
+        "trainer": "Jessica Macey",
+        "trainer_id": "trn_340317",
+        "jockey": "Sam James",
+        "jockey_id": "jky_261870",
+        "draw": 4,
+        "number": 2,
+        "lbs": 134,
+        "ofr": "68",
+        "last_run": 21,
+        "form": "0-4825",
         "headgear": "p",
-        "_stored_at": "2026-07-02T04:58:39.140620+00:00"
+        "_stored_at": "2026-07-02T00:01:30.156674+00:00"
       }
     ],
     "profile_notes": [],
@@ -110,7 +245,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 55,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -118,7 +253,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -127,131 +261,7 @@
       "latest_distance_f": 8.5,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Kameko Fever",
-    "horse_id": "hrs_59399634",
-    "age": 3,
-    "sex": "gelding",
-    "latest_course": "Nottingham",
-    "latest_time": "4:05",
-    "latest_race": "Watch Racing TV Now Handicap",
-    "latest_date": "2026-07-02",
-    "latest_distance_f": 8.5,
-    "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Richard & Peter Fahey",
-    "latest_jockey": "Oisin Orr",
-    "latest_draw": 1,
-    "latest_weight_lbs": 128,
-    "official_rating": "62",
-    "recent_form": "424407",
-    "last_run_days": 10,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Nottingham": 1
-    },
-    "distances_seen": {
-      "8.5": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 5": 1
-    },
-    "trainers_seen": {
-      "Richard & Peter Fahey": 1
-    },
-    "jockeys_seen": {
-      "Oisin Orr": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11995893",
-        "course": "Nottingham",
-        "date": "2026-07-02",
-        "off_time": "4:05",
-        "off_dt": "2026-07-02T16:05:00+01:00",
-        "race_name": "Watch Racing TV Now Handicap",
-        "distance_f": 8.5,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Kameko Fever",
-        "horse_id": "hrs_59399634",
-        "age": 3,
-        "sex": "gelding",
-        "trainer": "Richard & Peter Fahey",
-        "trainer_id": "trn_386964",
-        "jockey": "Oisin Orr",
-        "jockey_id": "jky_281652",
-        "draw": 1,
-        "number": 8,
-        "lbs": 128,
-        "ofr": "62",
-        "last_run": 10,
-        "form": "424407",
-        "headgear": "p",
-        "_stored_at": "2026-07-02T04:58:39.227604+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Low draw today",
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Nottingham",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 8.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Nottingham",
-      "latest_distance_f": 8.5,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 62,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -298,8 +308,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 62,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -330,7 +346,7 @@
         "last_run": 21,
         "form": "0-4825",
         "headgear": "p",
-        "_stored_at": "2026-07-02T04:58:39.095422+00:00"
+        "_stored_at": "2026-07-02T00:01:30.156674+00:00"
       }
     ],
     "profile_notes": [],
@@ -355,7 +371,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 55,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -363,7 +379,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -372,7 +387,7 @@
       "latest_distance_f": 8.5,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 62,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -380,10 +395,10 @@
   },
   "runners": [
     {
-      "horse": "Empirical",
-      "horse_id": "hrs_58380259",
+      "horse": "Mereside Princess",
+      "horse_id": "hrs_56746382",
       "age": 3,
-      "sex": "gelding",
+      "sex": "filly",
       "latest_course": "Nottingham",
       "latest_time": "4:05",
       "latest_race": "Watch Racing TV Now Handicap",
@@ -392,133 +407,12 @@
       "latest_class": "Class 5",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Ed Walker",
-      "latest_jockey": "Cieren Fallon",
-      "latest_draw": 8,
-      "latest_weight_lbs": 132,
-      "official_rating": "66",
-      "recent_form": "73-83",
-      "last_run_days": 54,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Nottingham": 1
-      },
-      "distances_seen": {
-        "8.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Ed Walker": 1
-      },
-      "jockeys_seen": {
-        "Cieren Fallon": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11995893",
-          "course": "Nottingham",
-          "date": "2026-07-02",
-          "off_time": "4:05",
-          "off_dt": "2026-07-02T16:05:00+01:00",
-          "race_name": "Watch Racing TV Now Handicap",
-          "distance_f": 8.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Empirical",
-          "horse_id": "hrs_58380259",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Ed Walker",
-          "trainer_id": "trn_215334",
-          "jockey": "Cieren Fallon",
-          "jockey_id": "jky_295557",
-          "draw": 8,
-          "number": 4,
-          "lbs": 132,
-          "ofr": "66",
-          "last_run": 54,
-          "form": "73-83",
-          "headgear": "p",
-          "_stored_at": "2026-07-02T04:58:39.140620+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Nottingham",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Nottingham",
-        "latest_distance_f": 8.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Kameko Fever",
-      "horse_id": "hrs_59399634",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Nottingham",
-      "latest_time": "4:05",
-      "latest_race": "Watch Racing TV Now Handicap",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 8.5,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Richard & Peter Fahey",
-      "latest_jockey": "Oisin Orr",
-      "latest_draw": 1,
+      "latest_trainer": "David & Nicola Barron",
+      "latest_jockey": "William Pyle",
+      "latest_draw": 7,
       "latest_weight_lbs": 128,
       "official_rating": "62",
-      "recent_form": "424407",
+      "recent_form": "643112",
       "last_run_days": 10,
       "profile_runs": 1,
       "courses_seen": {
@@ -534,15 +428,20 @@
         "Class 5": 1
       },
       "trainers_seen": {
-        "Richard & Peter Fahey": 1
+        "David & Nicola Barron": 1
       },
       "jockeys_seen": {
-        "Oisin Orr": 1
+        "William Pyle": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 85,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Trainer bonus +2",
+        "Jockey bonus +3"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -558,26 +457,26 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 8,
-          "horse": "Kameko Fever",
-          "horse_id": "hrs_59399634",
+          "horse": "Mereside Princess",
+          "horse_id": "hrs_56746382",
           "age": 3,
-          "sex": "gelding",
-          "trainer": "Richard & Peter Fahey",
-          "trainer_id": "trn_386964",
-          "jockey": "Oisin Orr",
-          "jockey_id": "jky_281652",
-          "draw": 1,
-          "number": 8,
+          "sex": "filly",
+          "trainer": "David & Nicola Barron",
+          "trainer_id": "trn_354483",
+          "jockey": "William Pyle",
+          "jockey_id": "jky_301428",
+          "draw": 7,
+          "number": 7,
           "lbs": 128,
           "ofr": "62",
           "last_run": 10,
-          "form": "424407",
-          "headgear": "p",
-          "_stored_at": "2026-07-02T04:58:39.227604+00:00"
+          "form": "643112",
+          "headgear": "b",
+          "_stored_at": "2026-07-02T00:01:30.278184+00:00"
         }
       ],
       "profile_notes": [
-        "Low draw today",
+        "Elite latest Pulse Score",
         "Recent run timing"
       ],
       "favourite_course": {
@@ -601,15 +500,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 65,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -618,7 +517,7 @@
         "latest_distance_f": 8.5,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 85,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -665,8 +564,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 62,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -697,7 +602,7 @@
           "last_run": 21,
           "form": "0-4825",
           "headgear": "p",
-          "_stored_at": "2026-07-02T04:58:39.095422+00:00"
+          "_stored_at": "2026-07-02T00:01:30.156674+00:00"
         }
       ],
       "profile_notes": [],
@@ -722,7 +627,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 55,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -730,7 +635,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -739,17 +643,17 @@
         "latest_distance_f": 8.5,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 62,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Mereside Princess",
-      "horse_id": "hrs_56746382",
+      "horse": "Kameko Fever",
+      "horse_id": "hrs_59399634",
       "age": 3,
-      "sex": "filly",
+      "sex": "gelding",
       "latest_course": "Nottingham",
       "latest_time": "4:05",
       "latest_race": "Watch Racing TV Now Handicap",
@@ -758,12 +662,12 @@
       "latest_class": "Class 5",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "David & Nicola Barron",
-      "latest_jockey": "William Pyle",
-      "latest_draw": 7,
+      "latest_trainer": "Richard & Peter Fahey",
+      "latest_jockey": "Oisin Orr",
+      "latest_draw": 1,
       "latest_weight_lbs": 128,
       "official_rating": "62",
-      "recent_form": "643112",
+      "recent_form": "424407",
       "last_run_days": 10,
       "profile_runs": 1,
       "courses_seen": {
@@ -779,15 +683,23 @@
         "Class 5": 1
       },
       "trainers_seen": {
-        "David & Nicola Barron": 1
+        "Richard & Peter Fahey": 1
       },
       "jockeys_seen": {
-        "William Pyle": 1
+        "Oisin Orr": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 58,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey in form +2 (2/6 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -803,25 +715,26 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 8,
-          "horse": "Mereside Princess",
-          "horse_id": "hrs_56746382",
+          "horse": "Kameko Fever",
+          "horse_id": "hrs_59399634",
           "age": 3,
-          "sex": "filly",
-          "trainer": "David & Nicola Barron",
-          "trainer_id": "trn_354483",
-          "jockey": "William Pyle",
-          "jockey_id": "jky_301428",
-          "draw": 7,
-          "number": 7,
+          "sex": "gelding",
+          "trainer": "Richard & Peter Fahey",
+          "trainer_id": "trn_386964",
+          "jockey": "Oisin Orr",
+          "jockey_id": "jky_281652",
+          "draw": 1,
+          "number": 8,
           "lbs": 128,
           "ofr": "62",
           "last_run": 10,
-          "form": "643112",
-          "headgear": "b",
-          "_stored_at": "2026-07-02T04:58:39.207000+00:00"
+          "form": "424407",
+          "headgear": "p",
+          "_stored_at": "2026-07-02T00:01:30.304138+00:00"
         }
       ],
       "profile_notes": [
+        "Low draw today",
         "Recent run timing"
       ],
       "favourite_course": {
@@ -845,7 +758,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 53,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -853,7 +766,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -862,17 +774,17 @@
         "latest_distance_f": 8.5,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 58,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Sahara Magic",
-      "horse_id": "hrs_49143409",
+      "horse": "Empirical",
+      "horse_id": "hrs_58380259",
       "age": 3,
-      "sex": "filly",
+      "sex": "gelding",
       "latest_course": "Nottingham",
       "latest_time": "4:05",
       "latest_race": "Watch Racing TV Now Handicap",
@@ -881,13 +793,13 @@
       "latest_class": "Class 5",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Michael Appleby",
-      "latest_jockey": "Jason Hart",
-      "latest_draw": 2,
-      "latest_weight_lbs": 130,
-      "official_rating": "64",
-      "recent_form": "77-767",
-      "last_run_days": 17,
+      "latest_trainer": "Ed Walker",
+      "latest_jockey": "Cieren Fallon",
+      "latest_draw": 8,
+      "latest_weight_lbs": 132,
+      "official_rating": "66",
+      "recent_form": "73-83",
+      "last_run_days": 54,
       "profile_runs": 1,
       "courses_seen": {
         "Nottingham": 1
@@ -902,15 +814,20 @@
         "Class 5": 1
       },
       "trainers_seen": {
-        "Michael Appleby": 1
+        "Ed Walker": 1
       },
       "jockeys_seen": {
-        "Jason Hart": 1
+        "Cieren Fallon": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 51,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Stable in form +2 (2/4 last 14 days)",
+        "Jockey bonus +1"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -926,27 +843,25 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 8,
-          "horse": "Sahara Magic",
-          "horse_id": "hrs_49143409",
+          "horse": "Empirical",
+          "horse_id": "hrs_58380259",
           "age": 3,
-          "sex": "filly",
-          "trainer": "Michael Appleby",
-          "trainer_id": "trn_93267",
-          "jockey": "Jason Hart",
-          "jockey_id": "jky_270729",
-          "draw": 2,
-          "number": 5,
-          "lbs": 130,
-          "ofr": "64",
-          "last_run": 17,
-          "form": "77-767",
-          "headgear": "",
-          "_stored_at": "2026-07-02T04:58:39.164603+00:00"
+          "sex": "gelding",
+          "trainer": "Ed Walker",
+          "trainer_id": "trn_215334",
+          "jockey": "Cieren Fallon",
+          "jockey_id": "jky_295557",
+          "draw": 8,
+          "number": 4,
+          "lbs": 132,
+          "ofr": "66",
+          "last_run": 54,
+          "form": "73-83",
+          "headgear": "p",
+          "_stored_at": "2026-07-02T00:01:30.194635+00:00"
         }
       ],
-      "profile_notes": [
-        "Low draw today"
-      ],
+      "profile_notes": [],
       "favourite_course": {
         "value": "Nottingham",
         "runs": 1
@@ -968,7 +883,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -976,7 +891,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -985,7 +899,7 @@
         "latest_distance_f": 8.5,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 51,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1032,8 +946,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Stable flying +4 (4/7 last 14 days)",
+        "Jockey flying +4 (4/6 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1064,7 +983,7 @@
           "last_run": 12,
           "form": "1-7085",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:39.115845+00:00"
+          "_stored_at": "2026-07-02T00:01:30.178707+00:00"
         }
       ],
       "profile_notes": [
@@ -1091,7 +1010,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1099,7 +1018,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1108,7 +1026,137 @@
         "latest_distance_f": 8.5,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 49,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Sahara Magic",
+      "horse_id": "hrs_49143409",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Nottingham",
+      "latest_time": "4:05",
+      "latest_race": "Watch Racing TV Now Handicap",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 8.5,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Michael Appleby",
+      "latest_jockey": "Jason Hart",
+      "latest_draw": 2,
+      "latest_weight_lbs": 130,
+      "official_rating": "64",
+      "recent_form": "77-767",
+      "last_run_days": 17,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Nottingham": 1
+      },
+      "distances_seen": {
+        "8.5": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Michael Appleby": 1
+      },
+      "jockeys_seen": {
+        "Jason Hart": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 47,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Stable in form +2 (1/4 last 14 days)",
+        "Jockey in form +2 (2/4 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11995893",
+          "course": "Nottingham",
+          "date": "2026-07-02",
+          "off_time": "4:05",
+          "off_dt": "2026-07-02T16:05:00+01:00",
+          "race_name": "Watch Racing TV Now Handicap",
+          "distance_f": 8.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Sahara Magic",
+          "horse_id": "hrs_49143409",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Michael Appleby",
+          "trainer_id": "trn_93267",
+          "jockey": "Jason Hart",
+          "jockey_id": "jky_270729",
+          "draw": 2,
+          "number": 5,
+          "lbs": 130,
+          "ofr": "64",
+          "last_run": 17,
+          "form": "77-767",
+          "headgear": "",
+          "_stored_at": "2026-07-02T00:01:30.225883+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Nottingham",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Nottingham",
+        "latest_distance_f": 8.5,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 47,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1134,32 +1182,40 @@
       "official_rating": "63",
       "recent_form": "860-",
       "last_run_days": 218,
-      "profile_runs": 5,
+      "profile_runs": 2,
       "courses_seen": {
-        "Leicester": 4,
+        "Leicester": 1,
         "Nottingham": 1
       },
       "distances_seen": {
-        "8.0": 4,
+        "8.0": 1,
         "8.5": 1
       },
       "goings_seen": {
-        "Good To Firm": 5
+        "Good To Firm": 2
       },
       "classes_seen": {
-        "Class 5": 5
+        "Class 5": 2
       },
       "trainers_seen": {
-        "Alan King": 5
+        "A King": 1,
+        "Alan King": 1
       },
       "jockeys_seen": {
-        "NON-RUNNER": 4,
+        "Non Runner": 1,
         "Clifford Lee": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 25,
+      "latest_notes": [
+        "Weak recent form",
+        "Questionable run timing",
+        "Long layoff concern -4",
+        "Trainer bonus +1",
+        "Jockey bonus +3",
+        "Jockey in form +2 (2/3 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1174,14 +1230,14 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 2,
+          "field_size": 4,
           "horse": "Albertini Star",
           "horse_id": "hrs_55516041",
           "age": 3,
           "sex": "filly",
-          "trainer": "Alan King",
+          "trainer": "A King",
           "trainer_id": "trn_125352",
-          "jockey": "NON-RUNNER",
+          "jockey": "Non Runner",
           "jockey_id": "jky_224913",
           "draw": 2,
           "number": null,
@@ -1190,100 +1246,7 @@
           "last_run": 211,
           "form": "860-",
           "headgear": "h",
-          "_stored_at": "2026-06-25T14:16:19.612964+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977212",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "8:45",
-          "off_dt": "2026-06-25T20:45:00+01:00",
-          "race_name": "Dr T B Connors Memorial Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 2,
-          "horse": "Albertini Star",
-          "horse_id": "hrs_55516041",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Alan King",
-          "trainer_id": "trn_125352",
-          "jockey": "NON-RUNNER",
-          "jockey_id": "jky_224913",
-          "draw": 2,
-          "number": null,
-          "lbs": 129,
-          "ofr": "63",
-          "last_run": 211,
-          "form": "860-",
-          "headgear": "h",
-          "_stored_at": "2026-06-25T17:11:29.292124+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977212",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "8:45",
-          "off_dt": "2026-06-25T20:45:00+01:00",
-          "race_name": "Dr T B Connors Memorial Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 2,
-          "horse": "Albertini Star",
-          "horse_id": "hrs_55516041",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Alan King",
-          "trainer_id": "trn_125352",
-          "jockey": "NON-RUNNER",
-          "jockey_id": "jky_224913",
-          "draw": 2,
-          "number": null,
-          "lbs": 129,
-          "ofr": "63",
-          "last_run": 211,
-          "form": "860-",
-          "headgear": "h",
-          "_stored_at": "2026-06-26T08:14:07.156520+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977212",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "8:45",
-          "off_dt": "2026-06-25T20:45:00+01:00",
-          "race_name": "Dr T B Connors Memorial Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 2,
-          "horse": "Albertini Star",
-          "horse_id": "hrs_55516041",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Alan King",
-          "trainer_id": "trn_125352",
-          "jockey": "NON-RUNNER",
-          "jockey_id": "jky_224913",
-          "draw": 2,
-          "number": null,
-          "lbs": 129,
-          "ofr": "63",
-          "last_run": 211,
-          "form": "860-",
-          "headgear": "h",
-          "_stored_at": "2026-06-28T12:42:16.140890+00:00"
+          "_stored_at": "2026-06-25T06:53:20.341464+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1314,35 +1277,34 @@
           "last_run": 218,
           "form": "860-",
           "headgear": "h",
-          "_stored_at": "2026-07-02T04:58:39.186559+00:00"
+          "_stored_at": "2026-07-02T00:01:30.245363+00:00"
         }
       ],
       "profile_notes": [
-        "Profile has multiple stored runs",
         "Returning from a break"
       ],
       "favourite_course": {
         "value": "Leicester",
-        "runs": 4
+        "runs": 1
       },
       "favourite_distance": {
         "value": 8.0,
-        "runs": 4
+        "runs": 1
       },
       "favourite_going": {
         "value": "Good To Firm",
-        "runs": 5
+        "runs": 2
       },
       "favourite_class": {
         "value": "Class 5",
-        "runs": 5
+        "runs": 2
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 72,
-      "horse_intelligence_score": 22,
+      "horse_intelligence_score": 33,
       "profile_strengths": [
         "Today's going matches known profile preference",
         "Race class matches common profile level"
@@ -1350,7 +1312,8 @@
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Low latest Pulse Score"
+        "Low latest Pulse Score",
+        "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -1358,17 +1321,16 @@
         "latest_distance_f": 8.5,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 25,
         "average_pulse_score": 0,
-        "profile_runs": 5,
-        "runs_count": 5
+        "profile_runs": 2,
+        "runs_count": 2
       }
     }
   ],
   "notes": [
-    "Empirical is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
+    "Mereside Princess is the top-rated Pulse IQ runner.",
+    "The top runner has a clear intelligence gap over the field.",
     "Mayflower Billy is flagged as a possible dark horse."
   ]
 }

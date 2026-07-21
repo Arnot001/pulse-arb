@@ -4,12 +4,12 @@
   "course": "Yarmouth",
   "time": "7:10",
   "race_name": "Doublebase Classified Stakes",
-  "field_size": 7,
-  "average_intelligence": 45.71,
-  "top_score": 63,
-  "second_score": 47,
-  "gap": 16,
-  "confidence_score": 71,
+  "field_size": 6,
+  "average_intelligence": 46.0,
+  "top_score": 64,
+  "second_score": 46,
+  "gap": 18,
+  "confidence_score": 75,
   "confidence": "GOOD",
   "race_shape": "PULSE EDGE",
   "top_runner": {
@@ -23,7 +23,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 11.5,
     "latest_class": "Class 6",
-    "latest_going": "Good To Firm",
+    "latest_going": "",
     "latest_surface": "Turf",
     "latest_trainer": "Gihan Arnolda",
     "latest_jockey": "Ray Dawson",
@@ -39,9 +39,7 @@
     "distances_seen": {
       "11.5": 1
     },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
+    "goings_seen": {},
     "classes_seen": {
       "Class 6": 1
     },
@@ -53,14 +51,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 80,
+    "latest_pulse_score": 90,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
-      "Trainer bonus +2",
-      "Jockey bonus +3"
+      "Stable flying +4 (3/5 last 14 days)",
+      "Jockey flying +4 (9/14 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4"
     ],
     "runs": [
       {
@@ -74,7 +74,7 @@
         "distance_f": 11.5,
         "race_class": "Class 6",
         "race_type": "Flat",
-        "going": "Good To Firm",
+        "going": "",
         "surface": "Turf",
         "field_size": 7,
         "horse": "Highland Harvey",
@@ -106,37 +106,34 @@
       "value": 11.5,
       "runs": 1
     },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
+    "favourite_going": null,
     "favourite_class": {
       "value": "Class 6",
       "runs": 1
     },
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 90,
+    "going_suitability_score": 50,
     "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 63,
+    "suitability_score": 80,
+    "horse_intelligence_score": 64,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Elite latest Pulse Score"
     ],
     "profile_cautions": [
+      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Yarmouth",
       "latest_distance_f": 11.5,
-      "latest_going": "Good To Firm",
+      "latest_going": "",
       "latest_class": "Class 6",
-      "latest_pulse_score": 80,
+      "latest_pulse_score": 90,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -153,7 +150,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 11.5,
     "latest_class": "Class 6",
-    "latest_going": "Good To Firm",
+    "latest_going": "",
     "latest_surface": "Turf",
     "latest_trainer": "John Berry",
     "latest_jockey": "David Egan",
@@ -169,9 +166,7 @@
     "distances_seen": {
       "11.5": 1
     },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
+    "goings_seen": {},
     "classes_seen": {
       "Class 6": 1
     },
@@ -183,13 +178,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 44,
+    "latest_pulse_score": 50,
     "latest_notes": [
       "Weak recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
-      "Jockey bonus +2"
+      "Stable flying +4 (3/3 last 14 days)",
+      "Jockey flying +4 (14/20 last 14 days)"
     ],
     "runs": [
       {
@@ -203,7 +199,7 @@
         "distance_f": 11.5,
         "race_class": "Class 6",
         "race_type": "Flat",
-        "going": "Good To Firm",
+        "going": "",
         "surface": "Turf",
         "field_size": 7,
         "horse": "Suitcase Smith",
@@ -234,45 +230,42 @@
       "value": 11.5,
       "runs": 1
     },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
+    "favourite_going": null,
     "favourite_class": {
       "value": "Class 6",
       "runs": 1
     },
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 90,
+    "going_suitability_score": 50,
     "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 47,
+    "suitability_score": 80,
+    "horse_intelligence_score": 46,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Yarmouth",
       "latest_distance_f": 11.5,
-      "latest_going": "Good To Firm",
+      "latest_going": "",
       "latest_class": "Class 6",
-      "latest_pulse_score": 44,
+      "latest_pulse_score": 50,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Duke Orsino",
-    "horse_id": "hrs_40918906",
-    "age": 4,
+    "horse": "Ten Ten Twenty",
+    "horse_id": "hrs_22674428",
+    "age": 8,
     "sex": "gelding",
     "latest_course": "Yarmouth",
     "latest_time": "7:10",
@@ -280,173 +273,40 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 11.5,
     "latest_class": "Class 6",
-    "latest_going": "Good To Firm",
+    "latest_going": "",
     "latest_surface": "Turf",
-    "latest_trainer": "J. R. Jenkins",
-    "latest_jockey": "Jonny Peate",
-    "latest_draw": 6,
+    "latest_trainer": "D J Jeffreys",
+    "latest_jockey": "Cieren Fallon",
+    "latest_draw": 5,
     "latest_weight_lbs": 135,
-    "official_rating": "44",
-    "recent_form": "-90445",
-    "last_run_days": 20,
-    "profile_runs": 5,
+    "official_rating": "49",
+    "recent_form": "/6563-",
+    "last_run_days": 74,
+    "profile_runs": 1,
     "courses_seen": {
-      "Leicester": 4,
       "Yarmouth": 1
     },
     "distances_seen": {
-      "12.0": 4,
       "11.5": 1
     },
-    "goings_seen": {
-      "Good To Firm": 5
-    },
+    "goings_seen": {},
     "classes_seen": {
-      "Class 6": 5
+      "Class 6": 1
     },
     "trainers_seen": {
-      "J R Jenkins": 4,
-      "J. R. Jenkins": 1
+      "D J Jeffreys": 1
     },
     "jockeys_seen": {
-      "Oliver Carmichael(7)": 4,
-      "Jonny Peate": 1
+      "Cieren Fallon": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 55,
+    "latest_pulse_score": 45,
     "latest_notes": [
       "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Trainer bonus +1",
-      "Jockey bonus +1"
+      "Jockey flying +4 (5/7 last 14 days)"
     ],
     "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977173",
-        "course": "Leicester",
-        "date": "2026-06-25",
-        "off_time": "7:15",
-        "off_dt": "2026-06-25T19:15:00+01:00",
-        "race_name": "Global Harvester Handicap",
-        "distance_f": 12.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Duke Orsino",
-        "horse_id": "hrs_40918906",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "J R Jenkins",
-        "trainer_id": "trn_315",
-        "jockey": "Oliver Carmichael(7)",
-        "jockey_id": "jky_309381",
-        "draw": 2,
-        "number": 8,
-        "lbs": 127,
-        "ofr": "45",
-        "last_run": 26,
-        "form": "0-9044",
-        "headgear": "",
-        "_stored_at": "2026-06-25T14:16:19.412775+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977173",
-        "course": "Leicester",
-        "date": "2026-06-25",
-        "off_time": "7:15",
-        "off_dt": "2026-06-25T19:15:00+01:00",
-        "race_name": "Global Harvester Handicap",
-        "distance_f": 12.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Duke Orsino",
-        "horse_id": "hrs_40918906",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "J R Jenkins",
-        "trainer_id": "trn_315",
-        "jockey": "Oliver Carmichael(7)",
-        "jockey_id": "jky_309381",
-        "draw": 2,
-        "number": 8,
-        "lbs": 127,
-        "ofr": "45",
-        "last_run": 26,
-        "form": "0-9044",
-        "headgear": "",
-        "_stored_at": "2026-06-25T17:11:29.084607+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977173",
-        "course": "Leicester",
-        "date": "2026-06-25",
-        "off_time": "7:15",
-        "off_dt": "2026-06-25T19:15:00+01:00",
-        "race_name": "Global Harvester Handicap",
-        "distance_f": 12.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Duke Orsino",
-        "horse_id": "hrs_40918906",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "J R Jenkins",
-        "trainer_id": "trn_315",
-        "jockey": "Oliver Carmichael(7)",
-        "jockey_id": "jky_309381",
-        "draw": 2,
-        "number": 8,
-        "lbs": 127,
-        "ofr": "45",
-        "last_run": 26,
-        "form": "0-9044",
-        "headgear": "",
-        "_stored_at": "2026-06-26T08:14:06.942155+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977173",
-        "course": "Leicester",
-        "date": "2026-06-25",
-        "off_time": "7:15",
-        "off_dt": "2026-06-25T19:15:00+01:00",
-        "race_name": "Global Harvester Handicap",
-        "distance_f": 12.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Duke Orsino",
-        "horse_id": "hrs_40918906",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "J R Jenkins",
-        "trainer_id": "trn_315",
-        "jockey": "Oliver Carmichael(7)",
-        "jockey_id": "jky_309381",
-        "draw": 2,
-        "number": 8,
-        "lbs": 127,
-        "ofr": "45",
-        "last_run": 26,
-        "form": "0-9044",
-        "headgear": "",
-        "_stored_at": "2026-06-28T12:42:15.699715+00:00"
-      },
       {
         "source": "the_racing_api",
         "race_id": "rac_13000000884",
@@ -458,69 +318,65 @@
         "distance_f": 11.5,
         "race_class": "Class 6",
         "race_type": "Flat",
-        "going": "Good To Firm",
+        "going": "",
         "surface": "Turf",
         "field_size": 7,
-        "horse": "Duke Orsino",
-        "horse_id": "hrs_40918906",
-        "age": 4,
+        "horse": "Ten Ten Twenty",
+        "horse_id": "hrs_22674428",
+        "age": 8,
         "sex": "gelding",
-        "trainer": "J. R. Jenkins",
-        "trainer_id": "trn_315",
-        "jockey": "Jonny Peate",
-        "jockey_id": "jky_302349",
-        "draw": 6,
-        "number": 1,
+        "trainer": "D J Jeffreys",
+        "trainer_id": "trn_323622",
+        "jockey": "Cieren Fallon",
+        "jockey_id": "jky_295557",
+        "draw": 5,
+        "number": 5,
         "lbs": 135,
-        "ofr": "44",
-        "last_run": 20,
-        "form": "-90445",
-        "headgear": ""
+        "ofr": "49",
+        "last_run": 74,
+        "form": "/6563-",
+        "headgear": "tp"
       }
     ],
-    "profile_notes": [
-      "Profile has multiple stored runs"
-    ],
+    "profile_notes": [],
     "favourite_course": {
-      "value": "Leicester",
-      "runs": 4
+      "value": "Yarmouth",
+      "runs": 1
     },
     "favourite_distance": {
-      "value": 12.0,
-      "runs": 4
+      "value": 11.5,
+      "runs": 1
     },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 5
-    },
+    "favourite_going": null,
     "favourite_class": {
       "value": "Class 6",
-      "runs": 5
+      "runs": 1
     },
-    "course_suitability_score": 55,
-    "distance_suitability_score": 55,
-    "going_suitability_score": 90,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 50,
     "class_suitability_score": 90,
-    "suitability_score": 72,
-    "horse_intelligence_score": 46,
+    "suitability_score": 80,
+    "horse_intelligence_score": 44,
     "profile_strengths": [
-      "Today's going matches known profile preference",
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Course does not strongly match stored profile",
-      "Distance not yet a clear profile strength"
+      "Going is not clearly proven from stored profile",
+      "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Yarmouth",
       "latest_distance_f": 11.5,
-      "latest_going": "Good To Firm",
+      "latest_going": "",
       "latest_class": "Class 6",
-      "latest_pulse_score": 55,
+      "latest_pulse_score": 45,
       "average_pulse_score": 0,
-      "profile_runs": 5,
-      "runs_count": 5
+      "profile_runs": 1,
+      "runs_count": 1
     }
   },
   "runners": [
@@ -535,7 +391,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 11.5,
       "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Gihan Arnolda",
       "latest_jockey": "Ray Dawson",
@@ -551,9 +407,7 @@
       "distances_seen": {
         "11.5": 1
       },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
+      "goings_seen": {},
       "classes_seen": {
         "Class 6": 1
       },
@@ -565,14 +419,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 80,
+      "latest_pulse_score": 90,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
-        "Trainer bonus +2",
-        "Jockey bonus +3"
+        "Stable flying +4 (3/5 last 14 days)",
+        "Jockey flying +4 (9/14 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4"
       ],
       "runs": [
         {
@@ -586,7 +442,7 @@
           "distance_f": 11.5,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "",
           "surface": "Turf",
           "field_size": 7,
           "horse": "Highland Harvey",
@@ -618,37 +474,34 @@
         "value": 11.5,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": {
         "value": "Class 6",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 63,
+      "suitability_score": 80,
+      "horse_intelligence_score": 64,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
         "Race class matches common profile level",
         "Elite latest Pulse Score"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Yarmouth",
         "latest_distance_f": 11.5,
-        "latest_going": "Good To Firm",
+        "latest_going": "",
         "latest_class": "Class 6",
-        "latest_pulse_score": 80,
+        "latest_pulse_score": 90,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -665,7 +518,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 11.5,
       "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "John Berry",
       "latest_jockey": "David Egan",
@@ -681,9 +534,7 @@
       "distances_seen": {
         "11.5": 1
       },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
+      "goings_seen": {},
       "classes_seen": {
         "Class 6": 1
       },
@@ -695,13 +546,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
+      "latest_pulse_score": 50,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
-        "Jockey bonus +2"
+        "Stable flying +4 (3/3 last 14 days)",
+        "Jockey flying +4 (14/20 last 14 days)"
       ],
       "runs": [
         {
@@ -715,7 +567,7 @@
           "distance_f": 11.5,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "",
           "surface": "Turf",
           "field_size": 7,
           "horse": "Suitcase Smith",
@@ -746,293 +598,36 @@
         "value": 11.5,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": {
         "value": "Class 6",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 47,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Yarmouth",
         "latest_distance_f": 11.5,
-        "latest_going": "Good To Firm",
+        "latest_going": "",
         "latest_class": "Class 6",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": 50,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
-    },
-    {
-      "horse": "Duke Orsino",
-      "horse_id": "hrs_40918906",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Yarmouth",
-      "latest_time": "7:10",
-      "latest_race": "Doublebase Classified Stakes",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 11.5,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "J. R. Jenkins",
-      "latest_jockey": "Jonny Peate",
-      "latest_draw": 6,
-      "latest_weight_lbs": 135,
-      "official_rating": "44",
-      "recent_form": "-90445",
-      "last_run_days": 20,
-      "profile_runs": 5,
-      "courses_seen": {
-        "Leicester": 4,
-        "Yarmouth": 1
-      },
-      "distances_seen": {
-        "12.0": 4,
-        "11.5": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 5
-      },
-      "classes_seen": {
-        "Class 6": 5
-      },
-      "trainers_seen": {
-        "J R Jenkins": 4,
-        "J. R. Jenkins": 1
-      },
-      "jockeys_seen": {
-        "Oliver Carmichael(7)": 4,
-        "Jonny Peate": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977173",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "7:15",
-          "off_dt": "2026-06-25T19:15:00+01:00",
-          "race_name": "Global Harvester Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Duke Orsino",
-          "horse_id": "hrs_40918906",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "J R Jenkins",
-          "trainer_id": "trn_315",
-          "jockey": "Oliver Carmichael(7)",
-          "jockey_id": "jky_309381",
-          "draw": 2,
-          "number": 8,
-          "lbs": 127,
-          "ofr": "45",
-          "last_run": 26,
-          "form": "0-9044",
-          "headgear": "",
-          "_stored_at": "2026-06-25T14:16:19.412775+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977173",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "7:15",
-          "off_dt": "2026-06-25T19:15:00+01:00",
-          "race_name": "Global Harvester Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Duke Orsino",
-          "horse_id": "hrs_40918906",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "J R Jenkins",
-          "trainer_id": "trn_315",
-          "jockey": "Oliver Carmichael(7)",
-          "jockey_id": "jky_309381",
-          "draw": 2,
-          "number": 8,
-          "lbs": 127,
-          "ofr": "45",
-          "last_run": 26,
-          "form": "0-9044",
-          "headgear": "",
-          "_stored_at": "2026-06-25T17:11:29.084607+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977173",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "7:15",
-          "off_dt": "2026-06-25T19:15:00+01:00",
-          "race_name": "Global Harvester Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Duke Orsino",
-          "horse_id": "hrs_40918906",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "J R Jenkins",
-          "trainer_id": "trn_315",
-          "jockey": "Oliver Carmichael(7)",
-          "jockey_id": "jky_309381",
-          "draw": 2,
-          "number": 8,
-          "lbs": 127,
-          "ofr": "45",
-          "last_run": 26,
-          "form": "0-9044",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:06.942155+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977173",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "7:15",
-          "off_dt": "2026-06-25T19:15:00+01:00",
-          "race_name": "Global Harvester Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Duke Orsino",
-          "horse_id": "hrs_40918906",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "J R Jenkins",
-          "trainer_id": "trn_315",
-          "jockey": "Oliver Carmichael(7)",
-          "jockey_id": "jky_309381",
-          "draw": 2,
-          "number": 8,
-          "lbs": 127,
-          "ofr": "45",
-          "last_run": 26,
-          "form": "0-9044",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:15.699715+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000884",
-          "course": "Yarmouth",
-          "date": "2026-07-15",
-          "off_time": "7:10",
-          "off_dt": "2026-07-15T19:10:00+01:00",
-          "race_name": "Doublebase Classified Stakes",
-          "distance_f": 11.5,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Duke Orsino",
-          "horse_id": "hrs_40918906",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "J. R. Jenkins",
-          "trainer_id": "trn_315",
-          "jockey": "Jonny Peate",
-          "jockey_id": "jky_302349",
-          "draw": 6,
-          "number": 1,
-          "lbs": 135,
-          "ofr": "44",
-          "last_run": 20,
-          "form": "-90445",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Profile has multiple stored runs"
-      ],
-      "favourite_course": {
-        "value": "Leicester",
-        "runs": 4
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 4
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 5
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 5
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 72,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Yarmouth",
-        "latest_distance_f": 11.5,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 55,
-        "average_pulse_score": 0,
-        "profile_runs": 5,
-        "runs_count": 5
       }
     },
     {
@@ -1046,7 +641,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 11.5,
       "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "D J Jeffreys",
       "latest_jockey": "Cieren Fallon",
@@ -1062,9 +657,7 @@
       "distances_seen": {
         "11.5": 1
       },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
+      "goings_seen": {},
       "classes_seen": {
         "Class 6": 1
       },
@@ -1076,9 +669,10 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 41,
+      "latest_pulse_score": 45,
       "latest_notes": [
-        "Positive recent form"
+        "Positive recent form",
+        "Jockey flying +4 (5/7 last 14 days)"
       ],
       "runs": [
         {
@@ -1092,7 +686,7 @@
           "distance_f": 11.5,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "",
           "surface": "Turf",
           "field_size": 7,
           "horse": "Ten Ten Twenty",
@@ -1121,44 +715,41 @@
         "value": 11.5,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": {
         "value": "Class 6",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 45,
+      "suitability_score": 80,
+      "horse_intelligence_score": 44,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Yarmouth",
         "latest_distance_f": 11.5,
-        "latest_going": "Good To Firm",
+        "latest_going": "",
         "latest_class": "Class 6",
-        "latest_pulse_score": 41,
+        "latest_pulse_score": 45,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Spaceage Love Song",
-      "horse_id": "hrs_43352092",
+      "horse": "Duke Orsino",
+      "horse_id": "hrs_40918906",
       "age": 4,
       "sex": "gelding",
       "latest_course": "Yarmouth",
@@ -1167,73 +758,77 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 11.5,
       "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
+      "latest_going": "",
       "latest_surface": "Turf",
-      "latest_trainer": "Michael Bell",
-      "latest_jockey": "Oisin Murphy",
-      "latest_draw": 7,
+      "latest_trainer": "J. R. Jenkins",
+      "latest_jockey": "Jonny Peate",
+      "latest_draw": 6,
       "latest_weight_lbs": 135,
-      "official_rating": "49",
-      "recent_form": "517752",
-      "last_run_days": 7,
+      "official_rating": "44",
+      "recent_form": "-90445",
+      "last_run_days": 20,
       "profile_runs": 2,
       "courses_seen": {
-        "Yarmouth": 2
+        "Leicester": 1,
+        "Yarmouth": 1
       },
       "distances_seen": {
-        "10.0": 1,
+        "12.0": 1,
         "11.5": 1
       },
       "goings_seen": {
-        "Good To Firm": 2
+        "Good To Firm": 1
       },
       "classes_seen": {
         "Class 6": 2
       },
       "trainers_seen": {
-        "Michael Bell": 2
+        "J R Jenkins": 1,
+        "J. R. Jenkins": 1
       },
       "jockeys_seen": {
-        "Kieran Shoemark": 1,
-        "Oisin Murphy": 1
+        "Oliver Carmichael": 1,
+        "Jonny Peate": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
+      "latest_pulse_score": 50,
       "latest_notes": [
-        "Positive recent form",
-        "Jockey bonus +1"
+        "Weak recent form",
+        "Good recent run timing",
+        "Helpful draw"
       ],
       "runs": [
         {
           "source": "the_racing_api",
-          "race_id": "rac_11990381",
-          "course": "Yarmouth",
-          "date": "2026-07-08",
-          "off_time": "4:45",
-          "off_dt": "2026-07-08T16:45:00+01:00",
-          "race_name": "Haven Handicap",
-          "distance_f": 10.0,
+          "race_id": "rac_11977173",
+          "course": "Leicester",
+          "date": "2026-06-25",
+          "off_time": "7:15",
+          "off_dt": "2026-06-25T19:15:00+01:00",
+          "race_name": "Global Harvester Handicap",
+          "distance_f": 12.0,
           "race_class": "Class 6",
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 7,
-          "horse": "Spaceage Love Song",
-          "horse_id": "hrs_43352092",
+          "field_size": 9,
+          "horse": "Duke Orsino",
+          "horse_id": "hrs_40918906",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Michael Bell",
-          "trainer_id": "trn_37017",
-          "jockey": "Kieran Shoemark",
-          "jockey_id": "jky_279711",
-          "draw": 5,
-          "number": 4,
+          "trainer": "J R Jenkins",
+          "trainer_id": "trn_315",
+          "jockey": "Oliver Carmichael",
+          "jockey_id": "jky_309381",
+          "draw": 2,
+          "number": 8,
           "lbs": 127,
-          "ofr": "49",
-          "last_run": 105,
-          "form": "351775",
-          "headgear": "v"
+          "ofr": "45",
+          "last_run": 26,
+          "form": "0-9044",
+          "headgear": "",
+          "_stored_at": "2026-06-25T06:53:20.068749+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1246,67 +841,65 @@
           "distance_f": 11.5,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "",
           "surface": "Turf",
           "field_size": 7,
-          "horse": "Spaceage Love Song",
-          "horse_id": "hrs_43352092",
+          "horse": "Duke Orsino",
+          "horse_id": "hrs_40918906",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Michael Bell",
-          "trainer_id": "trn_37017",
-          "jockey": "Oisin Murphy",
-          "jockey_id": "jky_278184",
-          "draw": 7,
-          "number": 3,
+          "trainer": "J. R. Jenkins",
+          "trainer_id": "trn_315",
+          "jockey": "Jonny Peate",
+          "jockey_id": "jky_302349",
+          "draw": 6,
+          "number": 1,
           "lbs": 135,
-          "ofr": "49",
-          "last_run": 7,
-          "form": "517752",
-          "headgear": "v"
+          "ofr": "44",
+          "last_run": 20,
+          "form": "-90445",
+          "headgear": ""
         }
       ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
+      "profile_notes": [],
       "favourite_course": {
-        "value": "Yarmouth",
-        "runs": 2
+        "value": "Leicester",
+        "runs": 1
       },
       "favourite_distance": {
-        "value": 10.0,
+        "value": 12.0,
         "runs": 1
       },
       "favourite_going": {
         "value": "Good To Firm",
-        "runs": 2
+        "runs": 1
       },
       "favourite_class": {
         "value": "Class 6",
         "runs": 2
       },
-      "course_suitability_score": 90,
+      "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 90,
-      "suitability_score": 81,
-      "horse_intelligence_score": 44,
+      "suitability_score": 62,
+      "horse_intelligence_score": 41,
       "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
+        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Yarmouth",
         "latest_distance_f": 11.5,
-        "latest_going": "Good To Firm",
+        "latest_going": "",
         "latest_class": "Class 6",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": 50,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1323,7 +916,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 11.5,
       "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Jim Boyle",
       "latest_jockey": "Pat Cosgrave",
@@ -1342,8 +935,7 @@
         "11.5": 1
       },
       "goings_seen": {
-        "Good": 1,
-        "Good To Firm": 1
+        "Good": 1
       },
       "classes_seen": {
         "Class 6": 2
@@ -1357,12 +949,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 47,
+      "latest_pulse_score": 49,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw"
+        "Helpful draw",
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -1378,7 +971,7 @@
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 8,
+          "field_size": 9,
           "horse": "Fletcher",
           "horse_id": "hrs_54304789",
           "age": 3,
@@ -1394,7 +987,7 @@
           "last_run": 23,
           "form": "00-476",
           "headgear": "",
-          "_stored_at": "2026-07-01T13:17:48.746724+00:00"
+          "_stored_at": "2026-06-30T23:10:36.273053+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1407,7 +1000,7 @@
           "distance_f": 11.5,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "",
           "surface": "Turf",
           "field_size": 7,
           "horse": "Fletcher",
@@ -1449,10 +1042,10 @@
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 55,
+      "going_suitability_score": 50,
       "class_suitability_score": 90,
-      "suitability_score": 64,
-      "horse_intelligence_score": 40,
+      "suitability_score": 62,
+      "horse_intelligence_score": 41,
       "profile_strengths": [
         "Race class matches common profile level"
       ],
@@ -1466,9 +1059,9 @@
       "enrich_signature": {
         "latest_course": "Yarmouth",
         "latest_distance_f": 11.5,
-        "latest_going": "Good To Firm",
+        "latest_going": "",
         "latest_class": "Class 6",
-        "latest_pulse_score": 47,
+        "latest_pulse_score": 49,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1485,7 +1078,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 11.5,
       "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Jim Boyle",
       "latest_jockey": "Tyler Heard",
@@ -1504,7 +1097,7 @@
         "11.5": 1
       },
       "goings_seen": {
-        "Good To Firm": 2
+        "Good To Firm": 1
       },
       "classes_seen": {
         "Class 6": 2
@@ -1517,11 +1110,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 29,
+      "latest_pulse_score": 48,
       "latest_notes": [
         "Weak recent form",
-        "Questionable run timing",
-        "Sharp return concern -3"
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey concern -2"
       ],
       "runs": [
         {
@@ -1565,7 +1160,7 @@
           "distance_f": 11.5,
           "race_class": "Class 6",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "",
           "surface": "Turf",
           "field_size": 7,
           "horse": "Cormorant Rock",
@@ -1598,7 +1193,7 @@
       },
       "favourite_going": {
         "value": "Good To Firm",
-        "runs": 2
+        "runs": 1
       },
       "favourite_class": {
         "value": "Class 6",
@@ -1606,27 +1201,26 @@
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 90,
-      "suitability_score": 72,
-      "horse_intelligence_score": 35,
+      "suitability_score": 62,
+      "horse_intelligence_score": 40,
       "profile_strengths": [
-        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Low latest Pulse Score",
+        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Yarmouth",
         "latest_distance_f": 11.5,
-        "latest_going": "Good To Firm",
+        "latest_going": "",
         "latest_class": "Class 6",
-        "latest_pulse_score": 29,
+        "latest_pulse_score": 48,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1636,6 +1230,6 @@
   "notes": [
     "Highland Harvey is the top-rated Pulse IQ runner.",
     "The top runner has a clear intelligence gap over the field.",
-    "Duke Orsino is flagged as a possible dark horse."
+    "Ten Ten Twenty is flagged as a possible dark horse."
   ]
 }

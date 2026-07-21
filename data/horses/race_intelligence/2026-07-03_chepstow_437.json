@@ -4,138 +4,15 @@
   "course": "Chepstow",
   "time": "4:37",
   "race_name": "LSL Racing Horse Sales Syndication Leasing Handicap",
-  "field_size": 4,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 5,
+  "average_intelligence": 60.2,
+  "top_score": 67,
+  "second_score": 61,
+  "gap": 6,
+  "confidence_score": 61,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
-    "horse": "Battosai",
-    "horse_id": "hrs_55303668",
-    "age": 3,
-    "sex": "colt",
-    "latest_course": "Chepstow",
-    "latest_time": "4:37",
-    "latest_race": "LSL Racing Horse Sales Syndication Leasing Handicap",
-    "latest_date": "2026-07-03",
-    "latest_distance_f": 12.0,
-    "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Brian Meehan",
-    "latest_jockey": "Jack Nicholls(5)",
-    "latest_draw": 5,
-    "latest_weight_lbs": 131,
-    "official_rating": "71",
-    "recent_form": "-05245",
-    "last_run_days": 14,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Chepstow": 1
-    },
-    "distances_seen": {
-      "12.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 5": 1
-    },
-    "trainers_seen": {
-      "Brian Meehan": 1
-    },
-    "jockeys_seen": {
-      "Jack Nicholls(5)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11997271",
-        "course": "Chepstow",
-        "date": "2026-07-03",
-        "off_time": "4:37",
-        "off_dt": "2026-07-03T16:37:00+01:00",
-        "race_name": "LSL Racing Horse Sales Syndication Leasing Handicap",
-        "distance_f": 12.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Battosai",
-        "horse_id": "hrs_55303668",
-        "age": 3,
-        "sex": "colt",
-        "trainer": "Brian Meehan",
-        "trainer_id": "trn_64989",
-        "jockey": "Jack Nicholls(5)",
-        "jockey_id": "jky_308319",
-        "draw": 5,
-        "number": 4,
-        "lbs": 131,
-        "ofr": "71",
-        "last_run": 14,
-        "form": "-05245",
-        "headgear": "p",
-        "_stored_at": "2026-07-03T04:58:44.574822+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Chepstow",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 12.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Chepstow",
-      "latest_distance_f": 12.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 5",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Eloquencia",
     "horse_id": "hrs_63680505",
     "age": 3,
@@ -176,8 +53,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 88,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +3",
+      "Stable in form +2 (1/1 last 14 days)",
+      "Jockey bonus +3"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -208,10 +93,11 @@
         "last_run": 16,
         "form": "3221",
         "headgear": "p",
-        "_stored_at": "2026-07-03T04:58:44.524607+00:00"
+        "_stored_at": "2026-07-03T00:36:56.380878+00:00"
       }
     ],
     "profile_notes": [
+      "Elite latest Pulse Score",
       "Low draw today"
     ],
     "favourite_course": {
@@ -235,15 +121,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 67,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -252,7 +138,139 @@
       "latest_distance_f": 12.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 88,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "Last Verse",
+    "horse_id": "hrs_53052293",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Chepstow",
+    "latest_time": "4:37",
+    "latest_race": "LSL Racing Horse Sales Syndication Leasing Handicap",
+    "latest_date": "2026-07-03",
+    "latest_distance_f": 12.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Andrew Balding",
+    "latest_jockey": "Oisin Murphy",
+    "latest_draw": 4,
+    "latest_weight_lbs": 131,
+    "official_rating": "71",
+    "recent_form": "353-8",
+    "last_run_days": 15,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Chepstow": 1
+    },
+    "distances_seen": {
+      "12.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 5": 1
+    },
+    "trainers_seen": {
+      "Andrew Balding": 1
+    },
+    "jockeys_seen": {
+      "Oisin Murphy": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 76,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Stable in form +2 (2/2 last 14 days)",
+      "Jockey bonus +3",
+      "Jockey in form +2 (2/8 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11997271",
+        "course": "Chepstow",
+        "date": "2026-07-03",
+        "off_time": "4:37",
+        "off_dt": "2026-07-03T16:37:00+01:00",
+        "race_name": "LSL Racing Horse Sales Syndication Leasing Handicap",
+        "distance_f": 12.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Last Verse",
+        "horse_id": "hrs_53052293",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Andrew Balding",
+        "trainer_id": "trn_140445",
+        "jockey": "Oisin Murphy",
+        "jockey_id": "jky_278184",
+        "draw": 4,
+        "number": 3,
+        "lbs": 131,
+        "ofr": "71",
+        "last_run": 15,
+        "form": "353-8",
+        "headgear": "p",
+        "_stored_at": "2026-07-03T00:36:56.428034+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Chepstow",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 12.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 61,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Chepstow",
+      "latest_distance_f": 12.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 5",
+      "latest_pulse_score": 76,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -299,8 +317,19 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 76,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Stable in form +2 (2/2 last 14 days)",
+      "Jockey bonus +3",
+      "Jockey in form +2 (2/8 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -331,7 +360,7 @@
         "last_run": 15,
         "form": "353-8",
         "headgear": "p",
-        "_stored_at": "2026-07-03T04:58:44.549751+00:00"
+        "_stored_at": "2026-07-03T00:36:56.428034+00:00"
       }
     ],
     "profile_notes": [],
@@ -356,15 +385,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 61,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -373,136 +402,13 @@
       "latest_distance_f": 12.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 76,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Battosai",
-      "horse_id": "hrs_55303668",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Chepstow",
-      "latest_time": "4:37",
-      "latest_race": "LSL Racing Horse Sales Syndication Leasing Handicap",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 12.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Brian Meehan",
-      "latest_jockey": "Jack Nicholls(5)",
-      "latest_draw": 5,
-      "latest_weight_lbs": 131,
-      "official_rating": "71",
-      "recent_form": "-05245",
-      "last_run_days": 14,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Chepstow": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Brian Meehan": 1
-      },
-      "jockeys_seen": {
-        "Jack Nicholls(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11997271",
-          "course": "Chepstow",
-          "date": "2026-07-03",
-          "off_time": "4:37",
-          "off_dt": "2026-07-03T16:37:00+01:00",
-          "race_name": "LSL Racing Horse Sales Syndication Leasing Handicap",
-          "distance_f": 12.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Battosai",
-          "horse_id": "hrs_55303668",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Brian Meehan",
-          "trainer_id": "trn_64989",
-          "jockey": "Jack Nicholls(5)",
-          "jockey_id": "jky_308319",
-          "draw": 5,
-          "number": 4,
-          "lbs": 131,
-          "ofr": "71",
-          "last_run": 14,
-          "form": "-05245",
-          "headgear": "p",
-          "_stored_at": "2026-07-03T04:58:44.574822+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Chepstow",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Chepstow",
-        "latest_distance_f": 12.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Eloquencia",
       "horse_id": "hrs_63680505",
@@ -544,8 +450,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 88,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +3",
+        "Stable in form +2 (1/1 last 14 days)",
+        "Jockey bonus +3"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -576,10 +490,11 @@
           "last_run": 16,
           "form": "3221",
           "headgear": "p",
-          "_stored_at": "2026-07-03T04:58:44.524607+00:00"
+          "_stored_at": "2026-07-03T00:36:56.380878+00:00"
         }
       ],
       "profile_notes": [
+        "Elite latest Pulse Score",
         "Low draw today"
       ],
       "favourite_course": {
@@ -603,15 +518,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 67,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -620,7 +535,7 @@
         "latest_distance_f": 12.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 88,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -667,8 +582,19 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 76,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey in form +2 (2/8 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -699,7 +625,7 @@
           "last_run": 15,
           "form": "353-8",
           "headgear": "p",
-          "_stored_at": "2026-07-03T04:58:44.549751+00:00"
+          "_stored_at": "2026-07-03T00:36:56.428034+00:00"
         }
       ],
       "profile_notes": [],
@@ -724,15 +650,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 61,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -741,7 +667,138 @@
         "latest_distance_f": 12.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 76,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Battosai",
+      "horse_id": "hrs_55303668",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Chepstow",
+      "latest_time": "4:37",
+      "latest_race": "LSL Racing Horse Sales Syndication Leasing Handicap",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 12.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Brian Meehan",
+      "latest_jockey": "Jack Nicholls(5)",
+      "latest_draw": 5,
+      "latest_weight_lbs": 131,
+      "official_rating": "71",
+      "recent_form": "-05245",
+      "last_run_days": 14,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Chepstow": 1
+      },
+      "distances_seen": {
+        "12.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Brian Meehan": 1
+      },
+      "jockeys_seen": {
+        "Jack Nicholls(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 69,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Jockey bonus +2",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11997271",
+          "course": "Chepstow",
+          "date": "2026-07-03",
+          "off_time": "4:37",
+          "off_dt": "2026-07-03T16:37:00+01:00",
+          "race_name": "LSL Racing Horse Sales Syndication Leasing Handicap",
+          "distance_f": 12.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Battosai",
+          "horse_id": "hrs_55303668",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Brian Meehan",
+          "trainer_id": "trn_64989",
+          "jockey": "Jack Nicholls(5)",
+          "jockey_id": "jky_308319",
+          "draw": 5,
+          "number": 4,
+          "lbs": 131,
+          "ofr": "71",
+          "last_run": 14,
+          "form": "-05245",
+          "headgear": "p",
+          "_stored_at": "2026-07-03T00:36:56.489102+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Chepstow",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Chepstow",
+        "latest_distance_f": 12.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 69,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -788,8 +845,17 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 68,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Stable flying +4 (4/5 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey flying +4 (4/4 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -820,7 +886,7 @@
           "last_run": 21,
           "form": "741-98",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:44.499135+00:00"
+          "_stored_at": "2026-07-03T00:36:56.326321+00:00"
         }
       ],
       "profile_notes": [
@@ -847,15 +913,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 58,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -864,7 +930,138 @@
         "latest_distance_f": 12.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 68,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Rumbustious",
+      "horse_id": "hrs_58843813",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Chepstow",
+      "latest_time": "4:37",
+      "latest_race": "LSL Racing Horse Sales Syndication Leasing Handicap",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 12.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Charlie Johnston",
+      "latest_jockey": "Rob Hornby",
+      "latest_draw": 3,
+      "latest_weight_lbs": 126,
+      "official_rating": "66",
+      "recent_form": "-34424",
+      "last_run_days": 11,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Chepstow": 1
+      },
+      "distances_seen": {
+        "12.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Charlie Johnston": 1
+      },
+      "jockeys_seen": {
+        "Rob Hornby": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 67,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/3 last 14 days)",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11997271",
+          "course": "Chepstow",
+          "date": "2026-07-03",
+          "off_time": "4:37",
+          "off_dt": "2026-07-03T16:37:00+01:00",
+          "race_name": "LSL Racing Horse Sales Syndication Leasing Handicap",
+          "distance_f": 12.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Rumbustious",
+          "horse_id": "hrs_58843813",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Charlie Johnston",
+          "trainer_id": "trn_361179",
+          "jockey": "Rob Hornby",
+          "jockey_id": "jky_278322",
+          "draw": 3,
+          "number": 5,
+          "lbs": 126,
+          "ofr": "66",
+          "last_run": 11,
+          "form": "-34424",
+          "headgear": "",
+          "_stored_at": "2026-07-03T00:36:56.539626+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Chepstow",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 57,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Chepstow",
+        "latest_distance_f": 12.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 67,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -872,9 +1069,7 @@
     }
   ],
   "notes": [
-    "Battosai is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
+    "Eloquencia is the top-rated Pulse IQ runner.",
     "Last Verse is flagged as a possible dark horse."
   ]
 }

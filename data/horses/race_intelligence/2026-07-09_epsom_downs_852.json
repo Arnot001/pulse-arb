@@ -4,15 +4,143 @@
   "course": "Epsom Downs",
   "time": "8:52",
   "race_name": "Betfred Play Fred's 5 Million Pound Handicap",
-  "field_size": 6,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 5,
+  "average_intelligence": 52.4,
+  "top_score": 66,
+  "second_score": 52,
+  "gap": 14,
+  "confidence_score": 71,
+  "confidence": "GOOD",
+  "race_shape": "PULSE EDGE",
   "top_runner": {
+    "horse": "Sail On Sailor",
+    "horse_id": "hrs_55700834",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Epsom Downs",
+    "latest_time": "8:52",
+    "latest_race": "Betfred Play Fred's 5 Million Pound Handicap",
+    "latest_date": "2026-07-09",
+    "latest_distance_f": 10.0,
+    "latest_class": "Class 6",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Simon Dow",
+    "latest_jockey": "Paddy Bradley",
+    "latest_draw": 3,
+    "latest_weight_lbs": 133,
+    "official_rating": "63",
+    "recent_form": "7-2311",
+    "last_run_days": 35,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Epsom Downs": 1
+    },
+    "distances_seen": {
+      "10.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 6": 1
+    },
+    "trainers_seen": {
+      "Simon Dow": 1
+    },
+    "jockeys_seen": {
+      "Paddy Bradley": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 86,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11990641",
+        "course": "Epsom Downs",
+        "date": "2026-07-09",
+        "off_time": "8:52",
+        "off_dt": "2026-07-09T20:52:00+01:00",
+        "race_name": "Betfred Play Fred's 5 Million Pound Handicap",
+        "distance_f": 10.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Sail On Sailor",
+        "horse_id": "hrs_55700834",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Simon Dow",
+        "trainer_id": "trn_7830",
+        "jockey": "Paddy Bradley",
+        "jockey_id": "jky_276828",
+        "draw": 3,
+        "number": 2,
+        "lbs": 133,
+        "ofr": "63",
+        "last_run": 35,
+        "form": "7-2311",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score",
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Epsom Downs",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 10.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 6",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 66,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Epsom Downs",
+      "latest_distance_f": 10.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 6",
+      "latest_pulse_score": 86,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Don Pablo Colina",
     "horse_id": "hrs_58843421",
     "age": 3,
@@ -53,8 +181,15 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 55,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Trainer bonus +2",
+      "Jockey bonus +3",
+      "Jockey flying +4 (3/3 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -109,7 +244,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 52,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -117,7 +252,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -126,13 +260,13 @@
       "latest_distance_f": 10.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 55,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "main_threat": {
+  "dark_horse": {
     "horse": "Living In Hope",
     "horse_id": "hrs_58843414",
     "age": 3,
@@ -173,8 +307,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 56,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Jockey bonus +1",
+      "Jockey flying +4 (6/6 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -229,7 +369,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 52,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -237,7 +377,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -246,133 +385,141 @@
       "latest_distance_f": 10.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Minerality",
-    "horse_id": "hrs_64488081",
-    "age": 3,
-    "sex": "gelding",
-    "latest_course": "Epsom Downs",
-    "latest_time": "8:52",
-    "latest_race": "Betfred Play Fred's 5 Million Pound Handicap",
-    "latest_date": "2026-07-09",
-    "latest_distance_f": 10.0,
-    "latest_class": "Class 6",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Dr Richard Newland & Jamie Insole",
-    "latest_jockey": "Jack Doughty",
-    "latest_draw": 7,
-    "latest_weight_lbs": 132,
-    "official_rating": "62",
-    "recent_form": "896",
-    "last_run_days": 31,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Epsom Downs": 1
-    },
-    "distances_seen": {
-      "10.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 6": 1
-    },
-    "trainers_seen": {
-      "Dr Richard Newland & Jamie Insole": 1
-    },
-    "jockeys_seen": {
-      "Jack Doughty": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11990641",
-        "course": "Epsom Downs",
-        "date": "2026-07-09",
-        "off_time": "8:52",
-        "off_dt": "2026-07-09T20:52:00+01:00",
-        "race_name": "Betfred Play Fred's 5 Million Pound Handicap",
-        "distance_f": 10.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Minerality",
-        "horse_id": "hrs_64488081",
-        "age": 3,
-        "sex": "gelding",
-        "trainer": "Dr Richard Newland & Jamie Insole",
-        "trainer_id": "trn_368685",
-        "jockey": "Jack Doughty",
-        "jockey_id": "jky_309594",
-        "draw": 7,
-        "number": 4,
-        "lbs": 132,
-        "ofr": "62",
-        "last_run": 31,
-        "form": "896",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Epsom Downs",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 10.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 6",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Epsom Downs",
-      "latest_distance_f": 10.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 6",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 56,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Sail On Sailor",
+      "horse_id": "hrs_55700834",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Epsom Downs",
+      "latest_time": "8:52",
+      "latest_race": "Betfred Play Fred's 5 Million Pound Handicap",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 10.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Simon Dow",
+      "latest_jockey": "Paddy Bradley",
+      "latest_draw": 3,
+      "latest_weight_lbs": 133,
+      "official_rating": "63",
+      "recent_form": "7-2311",
+      "last_run_days": 35,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Epsom Downs": 1
+      },
+      "distances_seen": {
+        "10.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Simon Dow": 1
+      },
+      "jockeys_seen": {
+        "Paddy Bradley": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 86,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990641",
+          "course": "Epsom Downs",
+          "date": "2026-07-09",
+          "off_time": "8:52",
+          "off_dt": "2026-07-09T20:52:00+01:00",
+          "race_name": "Betfred Play Fred's 5 Million Pound Handicap",
+          "distance_f": 10.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Sail On Sailor",
+          "horse_id": "hrs_55700834",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Simon Dow",
+          "trainer_id": "trn_7830",
+          "jockey": "Paddy Bradley",
+          "jockey_id": "jky_276828",
+          "draw": 3,
+          "number": 2,
+          "lbs": 133,
+          "ofr": "63",
+          "last_run": 35,
+          "form": "7-2311",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score",
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Epsom Downs",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 66,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Epsom Downs",
+        "latest_distance_f": 10.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 86,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Don Pablo Colina",
       "horse_id": "hrs_58843421",
@@ -414,8 +561,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 55,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Trainer bonus +2",
+        "Jockey bonus +3",
+        "Jockey flying +4 (3/3 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -470,7 +624,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 52,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -478,7 +632,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -487,7 +640,7 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 55,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -534,8 +687,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 56,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Jockey bonus +1",
+        "Jockey flying +4 (6/6 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -590,7 +749,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 52,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -598,7 +757,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -607,7 +765,7 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 56,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -654,8 +812,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 47,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Trainer bonus +2",
+        "Jockey flying +4 (8/8 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -710,7 +874,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -718,7 +882,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -727,129 +890,7 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Sail On Sailor",
-      "horse_id": "hrs_55700834",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Epsom Downs",
-      "latest_time": "8:52",
-      "latest_race": "Betfred Play Fred's 5 Million Pound Handicap",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 10.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Simon Dow",
-      "latest_jockey": "Paddy Bradley",
-      "latest_draw": 3,
-      "latest_weight_lbs": 133,
-      "official_rating": "63",
-      "recent_form": "7-2311",
-      "last_run_days": 35,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Epsom Downs": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Simon Dow": 1
-      },
-      "jockeys_seen": {
-        "Paddy Bradley": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990641",
-          "course": "Epsom Downs",
-          "date": "2026-07-09",
-          "off_time": "8:52",
-          "off_dt": "2026-07-09T20:52:00+01:00",
-          "race_name": "Betfred Play Fred's 5 Million Pound Handicap",
-          "distance_f": 10.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Sail On Sailor",
-          "horse_id": "hrs_55700834",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Simon Dow",
-          "trainer_id": "trn_7830",
-          "jockey": "Paddy Bradley",
-          "jockey_id": "jky_276828",
-          "draw": 3,
-          "number": 2,
-          "lbs": 133,
-          "ofr": "63",
-          "last_run": 35,
-          "form": "7-2311",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Epsom Downs",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Epsom Downs",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 47,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -896,8 +937,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 38,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Long layoff concern -4",
+        "Helpful draw",
+        "Jockey bonus +1",
+        "Jockey flying +4 (6/6 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -955,7 +1003,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 44,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -972,127 +1020,7 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Takeitorleaveit",
-      "horse_id": "hrs_49143934",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Epsom Downs",
-      "latest_time": "8:52",
-      "latest_race": "Betfred Play Fred's 5 Million Pound Handicap",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 10.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Jonathan Portman",
-      "latest_jockey": "Donagh Murphy(7)",
-      "latest_draw": 6,
-      "latest_weight_lbs": 128,
-      "official_rating": "58",
-      "recent_form": "4-1722",
-      "last_run_days": 17,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Epsom Downs": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Jonathan Portman": 1
-      },
-      "jockeys_seen": {
-        "Donagh Murphy(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990641",
-          "course": "Epsom Downs",
-          "date": "2026-07-09",
-          "off_time": "8:52",
-          "off_dt": "2026-07-09T20:52:00+01:00",
-          "race_name": "Betfred Play Fred's 5 Million Pound Handicap",
-          "distance_f": 10.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Takeitorleaveit",
-          "horse_id": "hrs_49143934",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Jonathan Portman",
-          "trainer_id": "trn_113409",
-          "jockey": "Donagh Murphy(7)",
-          "jockey_id": "jky_310608",
-          "draw": 6,
-          "number": 6,
-          "lbs": 128,
-          "ofr": "58",
-          "last_run": 17,
-          "form": "4-1722",
-          "headgear": "p"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Epsom Downs",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Epsom Downs",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 38,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1100,9 +1028,8 @@
     }
   ],
   "notes": [
-    "Don Pablo Colina is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Minerality is flagged as a possible dark horse."
+    "Sail On Sailor is the top-rated Pulse IQ runner.",
+    "The top runner has a clear intelligence gap over the field.",
+    "Living In Hope is flagged as a possible dark horse."
   ]
 }

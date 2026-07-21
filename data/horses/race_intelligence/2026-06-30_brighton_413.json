@@ -5,13 +5,13 @@
   "time": "4:13",
   "race_name": "Fairplay Daily Price Boosts Handicap",
   "field_size": 5,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "average_intelligence": 52.2,
+  "top_score": 61,
+  "second_score": 54,
+  "gap": 7,
+  "confidence_score": 58,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
     "horse": "Bohemian Breeze",
     "horse_id": "hrs_32180862",
@@ -53,8 +53,18 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 75,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +1",
+      "Stable in form +2 (1/2 last 14 days)",
+      "Jockey in form +2 (1/1 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -85,7 +95,7 @@
         "last_run": 21,
         "form": "704491",
         "headgear": "p",
-        "_stored_at": "2026-06-30T05:14:23.810707+00:00"
+        "_stored_at": "2026-06-30T01:49:55.141948+00:00"
       }
     ],
     "profile_notes": [],
@@ -110,15 +120,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 61,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -127,134 +137,13 @@
       "latest_distance_f": 10.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 75,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Cartwheel",
-    "horse_id": "hrs_44975595",
-    "age": 4,
-    "sex": "filly",
-    "latest_course": "Brighton",
-    "latest_time": "4:13",
-    "latest_race": "Fairplay Daily Price Boosts Handicap",
-    "latest_date": "2026-06-30",
-    "latest_distance_f": 10.0,
-    "latest_class": "Class 6",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Dylan Cunha",
-    "latest_jockey": "Saffie Osborne",
-    "latest_draw": 8,
-    "latest_weight_lbs": 131,
-    "official_rating": "56",
-    "recent_form": "060638",
-    "last_run_days": 17,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Brighton": 1
-    },
-    "distances_seen": {
-      "10.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 6": 1
-    },
-    "trainers_seen": {
-      "Dylan Cunha": 1
-    },
-    "jockeys_seen": {
-      "Saffie Osborne": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988158",
-        "course": "Brighton",
-        "date": "2026-06-30",
-        "off_time": "4:13",
-        "off_dt": "2026-06-30T16:13:00+01:00",
-        "race_name": "Fairplay Daily Price Boosts Handicap",
-        "distance_f": 10.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Cartwheel",
-        "horse_id": "hrs_44975595",
-        "age": 4,
-        "sex": "filly",
-        "trainer": "Dylan Cunha",
-        "trainer_id": "trn_354717",
-        "jockey": "Saffie Osborne",
-        "jockey_id": "jky_301050",
-        "draw": 8,
-        "number": 5,
-        "lbs": 131,
-        "ofr": "56",
-        "last_run": 17,
-        "form": "060638",
-        "headgear": "ht",
-        "_stored_at": "2026-06-30T05:14:23.888213+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Brighton",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 10.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 6",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Brighton",
-      "latest_distance_f": 10.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 6",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
     "horse": "Little She",
     "horse_id": "hrs_43385342",
     "age": 4,
@@ -295,8 +184,12 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 61,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -327,7 +220,7 @@
         "last_run": 15,
         "form": "2-6532",
         "headgear": "t",
-        "_stored_at": "2026-06-30T05:14:23.927781+00:00"
+        "_stored_at": "2026-06-30T01:49:55.233167+00:00"
       }
     ],
     "profile_notes": [],
@@ -352,7 +245,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 54,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -360,7 +253,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -369,7 +261,132 @@
       "latest_distance_f": 10.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 61,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Cartwheel",
+    "horse_id": "hrs_44975595",
+    "age": 4,
+    "sex": "filly",
+    "latest_course": "Brighton",
+    "latest_time": "4:13",
+    "latest_race": "Fairplay Daily Price Boosts Handicap",
+    "latest_date": "2026-06-30",
+    "latest_distance_f": 10.0,
+    "latest_class": "Class 6",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Dylan Cunha",
+    "latest_jockey": "Saffie Osborne",
+    "latest_draw": 8,
+    "latest_weight_lbs": 131,
+    "official_rating": "56",
+    "recent_form": "060638",
+    "last_run_days": 17,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Brighton": 1
+    },
+    "distances_seen": {
+      "10.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 6": 1
+    },
+    "trainers_seen": {
+      "Dylan Cunha": 1
+    },
+    "jockeys_seen": {
+      "Saffie Osborne": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 48,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Jockey in form +2 (2/4 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988158",
+        "course": "Brighton",
+        "date": "2026-06-30",
+        "off_time": "4:13",
+        "off_dt": "2026-06-30T16:13:00+01:00",
+        "race_name": "Fairplay Daily Price Boosts Handicap",
+        "distance_f": 10.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 8,
+        "horse": "Cartwheel",
+        "horse_id": "hrs_44975595",
+        "age": 4,
+        "sex": "filly",
+        "trainer": "Dylan Cunha",
+        "trainer_id": "trn_354717",
+        "jockey": "Saffie Osborne",
+        "jockey_id": "jky_301050",
+        "draw": 8,
+        "number": 5,
+        "lbs": 131,
+        "ofr": "56",
+        "last_run": 17,
+        "form": "060638",
+        "headgear": "ht",
+        "_stored_at": "2026-06-30T01:49:55.210038+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Brighton",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 10.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 6",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 49,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Brighton",
+      "latest_distance_f": 10.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 6",
+      "latest_pulse_score": 48,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -417,8 +434,18 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 75,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Stable in form +2 (1/2 last 14 days)",
+        "Jockey in form +2 (1/1 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -449,7 +476,7 @@
           "last_run": 21,
           "form": "704491",
           "headgear": "p",
-          "_stored_at": "2026-06-30T05:14:23.810707+00:00"
+          "_stored_at": "2026-06-30T01:49:55.141948+00:00"
         }
       ],
       "profile_notes": [],
@@ -474,15 +501,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 61,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -491,128 +518,7 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Cartwheel",
-      "horse_id": "hrs_44975595",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Brighton",
-      "latest_time": "4:13",
-      "latest_race": "Fairplay Daily Price Boosts Handicap",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 10.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Dylan Cunha",
-      "latest_jockey": "Saffie Osborne",
-      "latest_draw": 8,
-      "latest_weight_lbs": 131,
-      "official_rating": "56",
-      "recent_form": "060638",
-      "last_run_days": 17,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Brighton": 1
-      },
-      "distances_seen": {
-        "10.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Dylan Cunha": 1
-      },
-      "jockeys_seen": {
-        "Saffie Osborne": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988158",
-          "course": "Brighton",
-          "date": "2026-06-30",
-          "off_time": "4:13",
-          "off_dt": "2026-06-30T16:13:00+01:00",
-          "race_name": "Fairplay Daily Price Boosts Handicap",
-          "distance_f": 10.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Cartwheel",
-          "horse_id": "hrs_44975595",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Dylan Cunha",
-          "trainer_id": "trn_354717",
-          "jockey": "Saffie Osborne",
-          "jockey_id": "jky_301050",
-          "draw": 8,
-          "number": 5,
-          "lbs": 131,
-          "ofr": "56",
-          "last_run": 17,
-          "form": "060638",
-          "headgear": "ht",
-          "_stored_at": "2026-06-30T05:14:23.888213+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Brighton",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 10.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Brighton",
-        "latest_distance_f": 10.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 75,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -659,8 +565,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 61,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -691,7 +601,7 @@
           "last_run": 15,
           "form": "2-6532",
           "headgear": "t",
-          "_stored_at": "2026-06-30T05:14:23.927781+00:00"
+          "_stored_at": "2026-06-30T01:49:55.233167+00:00"
         }
       ],
       "profile_notes": [],
@@ -716,7 +626,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 54,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -724,7 +634,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -733,7 +642,132 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 61,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Cartwheel",
+      "horse_id": "hrs_44975595",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Brighton",
+      "latest_time": "4:13",
+      "latest_race": "Fairplay Daily Price Boosts Handicap",
+      "latest_date": "2026-06-30",
+      "latest_distance_f": 10.0,
+      "latest_class": "Class 6",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Dylan Cunha",
+      "latest_jockey": "Saffie Osborne",
+      "latest_draw": 8,
+      "latest_weight_lbs": 131,
+      "official_rating": "56",
+      "recent_form": "060638",
+      "last_run_days": 17,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Brighton": 1
+      },
+      "distances_seen": {
+        "10.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 6": 1
+      },
+      "trainers_seen": {
+        "Dylan Cunha": 1
+      },
+      "jockeys_seen": {
+        "Saffie Osborne": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Jockey in form +2 (2/4 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988158",
+          "course": "Brighton",
+          "date": "2026-06-30",
+          "off_time": "4:13",
+          "off_dt": "2026-06-30T16:13:00+01:00",
+          "race_name": "Fairplay Daily Price Boosts Handicap",
+          "distance_f": 10.0,
+          "race_class": "Class 6",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Cartwheel",
+          "horse_id": "hrs_44975595",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Dylan Cunha",
+          "trainer_id": "trn_354717",
+          "jockey": "Saffie Osborne",
+          "jockey_id": "jky_301050",
+          "draw": 8,
+          "number": 5,
+          "lbs": 131,
+          "ofr": "56",
+          "last_run": 17,
+          "form": "060638",
+          "headgear": "ht",
+          "_stored_at": "2026-06-30T01:49:55.210038+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Brighton",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 6",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 49,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Brighton",
+        "latest_distance_f": 10.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 6",
+        "latest_pulse_score": 48,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -780,8 +814,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -812,7 +852,7 @@
           "last_run": 15,
           "form": "240-77",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:23.907737+00:00"
+          "_stored_at": "2026-06-30T01:49:55.222168+00:00"
         }
       ],
       "profile_notes": [
@@ -839,7 +879,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -847,7 +887,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -856,7 +895,7 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 49,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -903,8 +942,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 47,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -935,7 +979,7 @@
           "last_run": 21,
           "form": "-55076",
           "headgear": "p",
-          "_stored_at": "2026-06-30T05:14:23.947692+00:00"
+          "_stored_at": "2026-06-30T01:49:55.251476+00:00"
         }
       ],
       "profile_notes": [
@@ -962,7 +1006,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -970,7 +1014,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -979,7 +1022,7 @@
         "latest_distance_f": 10.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 47,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -988,8 +1031,6 @@
   ],
   "notes": [
     "Bohemian Breeze is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Little She is flagged as a possible dark horse."
+    "Cartwheel is flagged as a possible dark horse."
   ]
 }

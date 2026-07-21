@@ -4,14 +4,14 @@
   "course": "Leicester",
   "time": "2:46",
   "race_name": "Smooth Radio EBF Novice Stakes (GBB Race)",
-  "field_size": 6,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 5,
+  "average_intelligence": 52.4,
+  "top_score": 61,
+  "second_score": 51,
+  "gap": 10,
+  "confidence_score": 62,
+  "confidence": "MEDIUM",
+  "race_shape": "PULSE EDGE",
   "top_runner": {
     "horse": "Anyasi",
     "horse_id": "hrs_55665995",
@@ -53,8 +53,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 75,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +2",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -69,7 +77,7 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 6,
+        "field_size": 7,
         "horse": "Anyasi",
         "horse_id": "hrs_55665995",
         "age": 3,
@@ -111,15 +119,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 61,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -128,15 +136,15 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 75,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Baby G",
-    "horse_id": "hrs_65710904",
+    "horse": "Material Girl",
+    "horse_id": "hrs_52054681",
     "age": 3,
     "sex": "filly",
     "latest_course": "Leicester",
@@ -147,13 +155,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Tony Carroll",
-    "latest_jockey": "Jack Doughty",
-    "latest_draw": 7,
+    "latest_trainer": "Archie Watson",
+    "latest_jockey": "James Sullivan",
+    "latest_draw": 5,
     "latest_weight_lbs": 125,
     "official_rating": "-",
-    "recent_form": "8",
-    "last_run_days": 18,
+    "recent_form": "75",
+    "last_run_days": 16,
     "profile_runs": 1,
     "courses_seen": {
       "Leicester": 1
@@ -168,15 +176,21 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Tony Carroll": 1
+      "Archie Watson": 1
     },
     "jockeys_seen": {
-      "Jack Doughty": 1
+      "James Sullivan": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 53,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Race class strength +2",
+      "Jockey in form +2 (1/1 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -191,21 +205,21 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 6,
-        "horse": "Baby G",
-        "horse_id": "hrs_65710904",
+        "field_size": 7,
+        "horse": "Material Girl",
+        "horse_id": "hrs_52054681",
         "age": 3,
         "sex": "filly",
-        "trainer": "Tony Carroll",
-        "trainer_id": "trn_87426",
-        "jockey": "Jack Doughty",
-        "jockey_id": "jky_309594",
-        "draw": 7,
-        "number": 5,
+        "trainer": "Archie Watson",
+        "trainer_id": "trn_290484",
+        "jockey": "James Sullivan",
+        "jockey_id": "jky_253623",
+        "draw": 5,
+        "number": 6,
         "lbs": 125,
         "ofr": "-",
-        "last_run": 18,
-        "form": "8",
+        "last_run": 16,
+        "form": "75",
         "headgear": ""
       }
     ],
@@ -231,7 +245,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 51,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -239,7 +253,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -248,15 +261,15 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 53,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Bucklow Hill",
-    "horse_id": "hrs_54494398",
+    "horse": "Retro Rocket",
+    "horse_id": "hrs_65225328",
     "age": 3,
     "sex": "gelding",
     "latest_course": "Leicester",
@@ -267,13 +280,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Charles Hills",
-    "latest_jockey": "Sean D Bowen",
-    "latest_draw": 4,
-    "latest_weight_lbs": 137,
-    "official_rating": "77",
-    "recent_form": "10",
-    "last_run_days": 71,
+    "latest_trainer": "Martin Keighley",
+    "latest_jockey": "George Wood",
+    "latest_draw": 3,
+    "latest_weight_lbs": 130,
+    "official_rating": "-",
+    "recent_form": "07",
+    "last_run_days": 19,
     "profile_runs": 1,
     "courses_seen": {
       "Leicester": 1
@@ -288,15 +301,22 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Charles Hills": 1
+      "Martin Keighley": 1
     },
     "jockeys_seen": {
-      "Sean D Bowen": 1
+      "George Wood": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 53,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +3"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -311,25 +331,27 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 6,
-        "horse": "Bucklow Hill",
-        "horse_id": "hrs_54494398",
+        "field_size": 7,
+        "horse": "Retro Rocket",
+        "horse_id": "hrs_65225328",
         "age": 3,
         "sex": "gelding",
-        "trainer": "Charles Hills",
-        "trainer_id": "trn_230652",
-        "jockey": "Sean D Bowen",
-        "jockey_id": "jky_303900",
-        "draw": 4,
-        "number": 2,
-        "lbs": 137,
-        "ofr": "77",
-        "last_run": 71,
-        "form": "10",
-        "headgear": "t"
+        "trainer": "Martin Keighley",
+        "trainer_id": "trn_140778",
+        "jockey": "George Wood",
+        "jockey_id": "jky_283725",
+        "draw": 3,
+        "number": 4,
+        "lbs": 130,
+        "ofr": "-",
+        "last_run": 19,
+        "form": "07",
+        "headgear": ""
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Low draw today"
+    ],
     "favourite_course": {
       "value": "Leicester",
       "runs": 1
@@ -351,7 +373,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 51,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -359,7 +381,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -368,7 +389,7 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 53,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -416,8 +437,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 75,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -432,7 +461,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 6,
+          "field_size": 7,
           "horse": "Anyasi",
           "horse_id": "hrs_55665995",
           "age": 3,
@@ -474,15 +503,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 61,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -491,247 +520,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Baby G",
-      "horse_id": "hrs_65710904",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Leicester",
-      "latest_time": "2:46",
-      "latest_race": "Smooth Radio EBF Novice Stakes (GBB Race)",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Tony Carroll",
-      "latest_jockey": "Jack Doughty",
-      "latest_draw": 7,
-      "latest_weight_lbs": 125,
-      "official_rating": "-",
-      "recent_form": "8",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Leicester": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Tony Carroll": 1
-      },
-      "jockeys_seen": {
-        "Jack Doughty": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989588",
-          "course": "Leicester",
-          "date": "2026-07-04",
-          "off_time": "2:46",
-          "off_dt": "2026-07-04T14:46:00+01:00",
-          "race_name": "Smooth Radio EBF Novice Stakes (GBB Race)",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Baby G",
-          "horse_id": "hrs_65710904",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Tony Carroll",
-          "trainer_id": "trn_87426",
-          "jockey": "Jack Doughty",
-          "jockey_id": "jky_309594",
-          "draw": 7,
-          "number": 5,
-          "lbs": 125,
-          "ofr": "-",
-          "last_run": 18,
-          "form": "8",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Leicester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Leicester",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Bucklow Hill",
-      "horse_id": "hrs_54494398",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Leicester",
-      "latest_time": "2:46",
-      "latest_race": "Smooth Radio EBF Novice Stakes (GBB Race)",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Charles Hills",
-      "latest_jockey": "Sean D Bowen",
-      "latest_draw": 4,
-      "latest_weight_lbs": 137,
-      "official_rating": "77",
-      "recent_form": "10",
-      "last_run_days": 71,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Leicester": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Charles Hills": 1
-      },
-      "jockeys_seen": {
-        "Sean D Bowen": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989588",
-          "course": "Leicester",
-          "date": "2026-07-04",
-          "off_time": "2:46",
-          "off_dt": "2026-07-04T14:46:00+01:00",
-          "race_name": "Smooth Radio EBF Novice Stakes (GBB Race)",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Bucklow Hill",
-          "horse_id": "hrs_54494398",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Charles Hills",
-          "trainer_id": "trn_230652",
-          "jockey": "Sean D Bowen",
-          "jockey_id": "jky_303900",
-          "draw": 4,
-          "number": 2,
-          "lbs": 137,
-          "ofr": "77",
-          "last_run": 71,
-          "form": "10",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Leicester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Leicester",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 75,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -778,8 +567,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 53,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -794,7 +589,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 6,
+          "field_size": 7,
           "horse": "Material Girl",
           "horse_id": "hrs_52054681",
           "age": 3,
@@ -834,7 +629,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -842,7 +637,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -851,129 +645,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Red Legs",
-      "horse_id": "hrs_64295042",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Leicester",
-      "latest_time": "2:46",
-      "latest_race": "Smooth Radio EBF Novice Stakes (GBB Race)",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Martin Dunne",
-      "latest_jockey": "Tyler Heard",
-      "latest_draw": 1,
-      "latest_weight_lbs": 125,
-      "official_rating": "-",
-      "recent_form": "87",
-      "last_run_days": 23,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Leicester": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Martin Dunne": 1
-      },
-      "jockeys_seen": {
-        "Tyler Heard": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989588",
-          "course": "Leicester",
-          "date": "2026-07-04",
-          "off_time": "2:46",
-          "off_dt": "2026-07-04T14:46:00+01:00",
-          "race_name": "Smooth Radio EBF Novice Stakes (GBB Race)",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Red Legs",
-          "horse_id": "hrs_64295042",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Martin Dunne",
-          "trainer_id": "trn_365301",
-          "jockey": "Tyler Heard",
-          "jockey_id": "jky_299172",
-          "draw": 1,
-          "number": null,
-          "lbs": 125,
-          "ofr": "-",
-          "last_run": 23,
-          "form": "87",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Leicester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Leicester",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 53,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1020,8 +692,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 53,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +3"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1036,7 +715,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 6,
+          "field_size": 7,
           "horse": "Retro Rocket",
           "horse_id": "hrs_65225328",
           "age": 3,
@@ -1078,7 +757,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1086,7 +765,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1095,7 +773,256 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 53,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Red Legs",
+      "horse_id": "hrs_64295042",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Leicester",
+      "latest_time": "2:46",
+      "latest_race": "Smooth Radio EBF Novice Stakes (GBB Race)",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Martin Dunne",
+      "latest_jockey": "Tyler Heard",
+      "latest_draw": 1,
+      "latest_weight_lbs": 125,
+      "official_rating": "-",
+      "recent_form": "87",
+      "last_run_days": 23,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Leicester": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Martin Dunne": 1
+      },
+      "jockeys_seen": {
+        "Tyler Heard": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 50,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989588",
+          "course": "Leicester",
+          "date": "2026-07-04",
+          "off_time": "2:46",
+          "off_dt": "2026-07-04T14:46:00+01:00",
+          "race_name": "Smooth Radio EBF Novice Stakes (GBB Race)",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Red Legs",
+          "horse_id": "hrs_64295042",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Martin Dunne",
+          "trainer_id": "trn_365301",
+          "jockey": "Tyler Heard",
+          "jockey_id": "jky_299172",
+          "draw": 1,
+          "number": 7,
+          "lbs": 125,
+          "ofr": "-",
+          "last_run": 23,
+          "form": "87",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Leicester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Leicester",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 50,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Bucklow Hill",
+      "horse_id": "hrs_54494398",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Leicester",
+      "latest_time": "2:46",
+      "latest_race": "Smooth Radio EBF Novice Stakes (GBB Race)",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Charles Hills",
+      "latest_jockey": "Sean D Bowen",
+      "latest_draw": 4,
+      "latest_weight_lbs": 137,
+      "official_rating": "77",
+      "recent_form": "10",
+      "last_run_days": 71,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Leicester": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Charles Hills": 1
+      },
+      "jockeys_seen": {
+        "Sean D Bowen": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Positive recent form",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989588",
+          "course": "Leicester",
+          "date": "2026-07-04",
+          "off_time": "2:46",
+          "off_dt": "2026-07-04T14:46:00+01:00",
+          "race_name": "Smooth Radio EBF Novice Stakes (GBB Race)",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Bucklow Hill",
+          "horse_id": "hrs_54494398",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Charles Hills",
+          "trainer_id": "trn_230652",
+          "jockey": "Sean D Bowen",
+          "jockey_id": "jky_303900",
+          "draw": 4,
+          "number": 2,
+          "lbs": 137,
+          "ofr": "77",
+          "last_run": 71,
+          "form": "10",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Leicester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 49,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Leicester",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 49,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1104,8 +1031,7 @@
   ],
   "notes": [
     "Anyasi is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Bucklow Hill is flagged as a possible dark horse."
+    "The top runner has a clear intelligence gap over the field.",
+    "Retro Rocket is flagged as a possible dark horse."
   ]
 }

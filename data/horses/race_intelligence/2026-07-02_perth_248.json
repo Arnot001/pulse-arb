@@ -4,15 +4,144 @@
   "course": "Perth",
   "time": "2:48",
   "race_name": "Kettle Produce Handicap Hurdle",
-  "field_size": 2,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 5,
+  "average_intelligence": 51.2,
+  "top_score": 61,
+  "second_score": 54,
+  "gap": 7,
+  "confidence_score": 57,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
+    "horse": "Pergamon",
+    "horse_id": "hrs_41091148",
+    "age": 5,
+    "sex": "gelding",
+    "latest_course": "Perth",
+    "latest_time": "2:48",
+    "latest_race": "Kettle Produce Handicap Hurdle",
+    "latest_date": "2026-07-02",
+    "latest_distance_f": 16.0,
+    "latest_class": "Class 4",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Jennie Candlish",
+    "latest_jockey": "William Shanahan(5)",
+    "latest_draw": 0,
+    "latest_weight_lbs": 168,
+    "official_rating": "113",
+    "recent_form": "4561-1",
+    "last_run_days": 53,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Perth": 1
+    },
+    "distances_seen": {
+      "16.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Jennie Candlish": 1
+    },
+    "jockeys_seen": {
+      "William Shanahan(5)": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 75,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +3",
+      "Stable flying +4 (3/3 last 14 days)",
+      "Jockey bonus +2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11987391",
+        "course": "Perth",
+        "date": "2026-07-02",
+        "off_time": "2:48",
+        "off_dt": "2026-07-02T14:48:00+01:00",
+        "race_name": "Kettle Produce Handicap Hurdle",
+        "distance_f": 16.0,
+        "race_class": "Class 4",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 6,
+        "horse": "Pergamon",
+        "horse_id": "hrs_41091148",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "Jennie Candlish",
+        "trainer_id": "trn_139968",
+        "jockey": "William Shanahan(5)",
+        "jockey_id": "jky_274719",
+        "draw": 0,
+        "number": 1,
+        "lbs": 168,
+        "ofr": "113",
+        "last_run": 53,
+        "form": "4561-1",
+        "headgear": "tp",
+        "_stored_at": "2026-07-02T00:01:30.942157+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Perth",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 16.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 61,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Perth",
+      "latest_distance_f": 16.0,
+      "latest_going": "Good",
+      "latest_class": "Class 4",
+      "latest_pulse_score": 75,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Just Dottie",
     "horse_id": "hrs_28916804",
     "age": 8,
@@ -53,8 +182,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 61,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Stable in form +2 (1/1 last 14 days)",
+      "Jockey bonus +3"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -85,7 +222,7 @@
         "last_run": 25,
         "form": "3546-5",
         "headgear": "",
-        "_stored_at": "2026-07-02T04:58:40.217522+00:00"
+        "_stored_at": "2026-07-02T00:01:31.008758+00:00"
       }
     ],
     "profile_notes": [],
@@ -110,7 +247,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 54,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -118,7 +255,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -127,17 +263,17 @@
       "latest_distance_f": 16.0,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 61,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "main_threat": {
-    "horse": "Ravenscraig Castle",
-    "horse_id": "hrs_22354626",
-    "age": 8,
-    "sex": "gelding",
+  "dark_horse": {
+    "horse": "Pure Gold",
+    "horse_id": "hrs_30865618",
+    "age": 6,
+    "sex": "mare",
     "latest_course": "Perth",
     "latest_time": "2:48",
     "latest_race": "Kettle Produce Handicap Hurdle",
@@ -146,13 +282,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Iain Jardine",
-    "latest_jockey": "Danny McMenamin",
+    "latest_trainer": "Lisa Harrison",
+    "latest_jockey": "Peter Kavanagh",
     "latest_draw": 0,
-    "latest_weight_lbs": 160,
-    "official_rating": "105",
-    "recent_form": "3549-3",
-    "last_run_days": 25,
+    "latest_weight_lbs": 161,
+    "official_rating": "106",
+    "recent_form": "1F75-4",
+    "last_run_days": 49,
     "profile_runs": 1,
     "courses_seen": {
       "Perth": 1
@@ -167,15 +303,22 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Iain Jardine": 1
+      "Lisa Harrison": 1
     },
     "jockeys_seen": {
-      "Danny McMenamin": 1
+      "Peter Kavanagh": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 50,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +1",
+      "Jockey bonus +1"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -191,22 +334,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 6,
-        "horse": "Ravenscraig Castle",
-        "horse_id": "hrs_22354626",
-        "age": 8,
-        "sex": "gelding",
-        "trainer": "Iain Jardine",
-        "trainer_id": "trn_193644",
-        "jockey": "Danny McMenamin",
-        "jockey_id": "jky_293565",
+        "horse": "Pure Gold",
+        "horse_id": "hrs_30865618",
+        "age": 6,
+        "sex": "mare",
+        "trainer": "Lisa Harrison",
+        "trainer_id": "trn_134757",
+        "jockey": "Peter Kavanagh",
+        "jockey_id": "jky_238497",
         "draw": 0,
-        "number": 3,
-        "lbs": 160,
-        "ofr": "105",
-        "last_run": 25,
-        "form": "3549-3",
-        "headgear": "b",
-        "_stored_at": "2026-07-02T04:58:40.132062+00:00"
+        "number": 2,
+        "lbs": 161,
+        "ofr": "106",
+        "last_run": 49,
+        "form": "1F75-4",
+        "headgear": "",
+        "_stored_at": "2026-07-02T00:01:30.976678+00:00"
       }
     ],
     "profile_notes": [],
@@ -231,7 +374,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 50,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -239,7 +382,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -248,14 +390,142 @@
       "latest_distance_f": 16.0,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 50,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": null,
   "runners": [
+    {
+      "horse": "Pergamon",
+      "horse_id": "hrs_41091148",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Perth",
+      "latest_time": "2:48",
+      "latest_race": "Kettle Produce Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jennie Candlish",
+      "latest_jockey": "William Shanahan(5)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 168,
+      "official_rating": "113",
+      "recent_form": "4561-1",
+      "last_run_days": 53,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Perth": 1
+      },
+      "distances_seen": {
+        "16.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Jennie Candlish": 1
+      },
+      "jockeys_seen": {
+        "William Shanahan(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 75,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +3",
+        "Stable flying +4 (3/3 last 14 days)",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987391",
+          "course": "Perth",
+          "date": "2026-07-02",
+          "off_time": "2:48",
+          "off_dt": "2026-07-02T14:48:00+01:00",
+          "race_name": "Kettle Produce Handicap Hurdle",
+          "distance_f": 16.0,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Pergamon",
+          "horse_id": "hrs_41091148",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Jennie Candlish",
+          "trainer_id": "trn_139968",
+          "jockey": "William Shanahan(5)",
+          "jockey_id": "jky_274719",
+          "draw": 0,
+          "number": 1,
+          "lbs": 168,
+          "ofr": "113",
+          "last_run": 53,
+          "form": "4561-1",
+          "headgear": "tp",
+          "_stored_at": "2026-07-02T00:01:30.942157+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Perth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 61,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Perth",
+        "latest_distance_f": 16.0,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 75,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Just Dottie",
       "horse_id": "hrs_28916804",
@@ -297,8 +567,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 61,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Stable in form +2 (1/1 last 14 days)",
+        "Jockey bonus +3"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -329,7 +607,7 @@
           "last_run": 25,
           "form": "3546-5",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:40.217522+00:00"
+          "_stored_at": "2026-07-02T00:01:31.008758+00:00"
         }
       ],
       "profile_notes": [],
@@ -354,7 +632,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 54,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -362,7 +640,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -371,17 +648,17 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 61,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Ravenscraig Castle",
-      "horse_id": "hrs_22354626",
-      "age": 8,
-      "sex": "gelding",
+      "horse": "Pure Gold",
+      "horse_id": "hrs_30865618",
+      "age": 6,
+      "sex": "mare",
       "latest_course": "Perth",
       "latest_time": "2:48",
       "latest_race": "Kettle Produce Handicap Hurdle",
@@ -390,13 +667,13 @@
       "latest_class": "Class 4",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Iain Jardine",
-      "latest_jockey": "Danny McMenamin",
+      "latest_trainer": "Lisa Harrison",
+      "latest_jockey": "Peter Kavanagh",
       "latest_draw": 0,
-      "latest_weight_lbs": 160,
-      "official_rating": "105",
-      "recent_form": "3549-3",
-      "last_run_days": 25,
+      "latest_weight_lbs": 161,
+      "official_rating": "106",
+      "recent_form": "1F75-4",
+      "last_run_days": 49,
       "profile_runs": 1,
       "courses_seen": {
         "Perth": 1
@@ -411,15 +688,22 @@
         "Class 4": 1
       },
       "trainers_seen": {
-        "Iain Jardine": 1
+        "Lisa Harrison": 1
       },
       "jockeys_seen": {
-        "Danny McMenamin": 1
+        "Peter Kavanagh": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 50,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Jockey bonus +1"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -435,22 +719,22 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 6,
-          "horse": "Ravenscraig Castle",
-          "horse_id": "hrs_22354626",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Iain Jardine",
-          "trainer_id": "trn_193644",
-          "jockey": "Danny McMenamin",
-          "jockey_id": "jky_293565",
+          "horse": "Pure Gold",
+          "horse_id": "hrs_30865618",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Lisa Harrison",
+          "trainer_id": "trn_134757",
+          "jockey": "Peter Kavanagh",
+          "jockey_id": "jky_238497",
           "draw": 0,
-          "number": 3,
-          "lbs": 160,
-          "ofr": "105",
-          "last_run": 25,
-          "form": "3549-3",
-          "headgear": "b",
-          "_stored_at": "2026-07-02T04:58:40.132062+00:00"
+          "number": 2,
+          "lbs": 161,
+          "ofr": "106",
+          "last_run": 49,
+          "form": "1F75-4",
+          "headgear": "",
+          "_stored_at": "2026-07-02T00:01:30.976678+00:00"
         }
       ],
       "profile_notes": [],
@@ -475,7 +759,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -483,7 +767,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -492,7 +775,258 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 50,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Interchangeable",
+      "horse_id": "hrs_37096087",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Perth",
+      "latest_time": "2:48",
+      "latest_race": "Kettle Produce Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "John Dixon",
+      "latest_jockey": "Mr John Dixon(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 144,
+      "official_rating": "89",
+      "recent_form": "4603-6",
+      "last_run_days": 44,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Perth": 1
+      },
+      "distances_seen": {
+        "16.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "John Dixon": 1
+      },
+      "jockeys_seen": {
+        "Mr John Dixon(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 43,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987391",
+          "course": "Perth",
+          "date": "2026-07-02",
+          "off_time": "2:48",
+          "off_dt": "2026-07-02T14:48:00+01:00",
+          "race_name": "Kettle Produce Handicap Hurdle",
+          "distance_f": 16.0,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Interchangeable",
+          "horse_id": "hrs_37096087",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "John Dixon",
+          "trainer_id": "trn_5859",
+          "jockey": "Mr John Dixon(7)",
+          "jockey_id": "jky_274026",
+          "draw": 0,
+          "number": 6,
+          "lbs": 144,
+          "ofr": "89",
+          "last_run": 44,
+          "form": "4603-6",
+          "headgear": "",
+          "_stored_at": "2026-07-02T00:01:31.058808+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Perth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Perth",
+        "latest_distance_f": 16.0,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 43,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Tigress Lilly",
+      "horse_id": "hrs_53960137",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Perth",
+      "latest_time": "2:48",
+      "latest_race": "Kettle Produce Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Lucinda Russell & Michael Scudamore",
+      "latest_jockey": "Alan Doyle(3)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 148,
+      "official_rating": "93",
+      "recent_form": "5700-6",
+      "last_run_days": 25,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Perth": 1
+      },
+      "distances_seen": {
+        "16.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Lucinda Russell & Michael Scudamore": 1
+      },
+      "jockeys_seen": {
+        "Alan Doyle(3)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 41,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987391",
+          "course": "Perth",
+          "date": "2026-07-02",
+          "off_time": "2:48",
+          "off_dt": "2026-07-02T14:48:00+01:00",
+          "race_name": "Kettle Produce Handicap Hurdle",
+          "distance_f": 16.0,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Tigress Lilly",
+          "horse_id": "hrs_53960137",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Lucinda Russell & Michael Scudamore",
+          "trainer_id": "trn_382410",
+          "jockey": "Alan Doyle(3)",
+          "jockey_id": "jky_285558",
+          "draw": 0,
+          "number": 5,
+          "lbs": 148,
+          "ofr": "93",
+          "last_run": 25,
+          "form": "5700-6",
+          "headgear": "t",
+          "_stored_at": "2026-07-02T00:01:31.043178+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Perth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 45,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Perth",
+        "latest_distance_f": 16.0,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 41,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -500,8 +1034,7 @@
     }
   ],
   "notes": [
-    "Just Dottie is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength."
+    "Pergamon is the top-rated Pulse IQ runner.",
+    "Pure Gold is flagged as a possible dark horse."
   ]
 }

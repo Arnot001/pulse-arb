@@ -4,15 +4,327 @@
   "course": "Newbury",
   "time": "7:00",
   "race_name": "Venture Security Handicap",
-  "field_size": 2,
-  "average_intelligence": 27.0,
-  "top_score": 27,
+  "field_size": 4,
+  "average_intelligence": 34.0,
+  "top_score": 55,
   "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "gap": 28,
+  "confidence_score": 82,
+  "confidence": "GOOD",
+  "race_shape": "CLEAR STANDOUT",
   "top_runner": {
+    "horse": "White Ladder",
+    "horse_id": "hrs_52054611",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Newbury",
+    "latest_time": "7:00",
+    "latest_race": "Venture Security Handicap",
+    "latest_date": "2026-06-23",
+    "latest_distance_f": 7.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "J Ryan",
+    "latest_jockey": "Harry Vigors(5)",
+    "latest_draw": 11,
+    "latest_weight_lbs": 118,
+    "official_rating": "60",
+    "recent_form": "272-33",
+    "last_run_days": 13,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Newbury": 2
+    },
+    "distances_seen": {
+      "7.0": 2
+    },
+    "goings_seen": {
+      "Good To Firm": 2
+    },
+    "classes_seen": {
+      "Class 5": 2
+    },
+    "trainers_seen": {
+      "J Ryan": 2
+    },
+    "jockeys_seen": {
+      "Harry Vigors(5)": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 62,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Trainer concern -2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976679",
+        "course": "Newbury",
+        "date": "2026-06-23",
+        "off_time": "7:00",
+        "off_dt": "2026-06-23T19:00:00+01:00",
+        "race_name": "Venture Security Handicap",
+        "distance_f": 7.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 13,
+        "horse": "White Ladder",
+        "horse_id": "hrs_52054611",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "J Ryan",
+        "trainer_id": "trn_160758",
+        "jockey": "Harry Vigors(5)",
+        "jockey_id": "jky_314370",
+        "draw": 11,
+        "number": null,
+        "lbs": 118,
+        "ofr": "60",
+        "last_run": 13,
+        "form": "272-33",
+        "headgear": "",
+        "_stored_at": "2026-06-23T21:32:40.724105+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976679",
+        "course": "Newbury",
+        "date": "2026-06-23",
+        "off_time": "7:00",
+        "off_dt": "2026-06-23T19:00:00+01:00",
+        "race_name": "Venture Security Handicap",
+        "distance_f": 7.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 13,
+        "horse": "White Ladder",
+        "horse_id": "hrs_52054611",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "J Ryan",
+        "trainer_id": "trn_160758",
+        "jockey": "Harry Vigors(5)",
+        "jockey_id": "jky_314370",
+        "draw": 11,
+        "number": null,
+        "lbs": 118,
+        "ofr": "60",
+        "last_run": 13,
+        "form": "272-33",
+        "headgear": "",
+        "_stored_at": "2026-06-25T06:53:17.978117+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Newbury",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 7.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 55,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Newbury",
+      "latest_distance_f": 7.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 5",
+      "latest_pulse_score": 62,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "main_threat": {
+    "horse": "Havana Halo",
+    "horse_id": "hrs_43508346",
+    "age": 4,
+    "sex": "filly",
+    "latest_course": "Newbury",
+    "latest_time": "7:00",
+    "latest_race": "Venture Security Handicap",
+    "latest_date": "2026-06-23",
+    "latest_distance_f": 7.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "D J S Ffrench Davis",
+    "latest_jockey": "J F Egan",
+    "latest_draw": 6,
+    "latest_weight_lbs": 135,
+    "official_rating": "68",
+    "recent_form": "55647-",
+    "last_run_days": 259,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Newbury": 2
+    },
+    "distances_seen": {
+      "7.0": 2
+    },
+    "goings_seen": {
+      "Good To Firm": 2
+    },
+    "classes_seen": {
+      "Class 5": 2
+    },
+    "trainers_seen": {
+      "D J S Ffrench Davis": 2
+    },
+    "jockeys_seen": {
+      "J F Egan": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976679",
+        "course": "Newbury",
+        "date": "2026-06-23",
+        "off_time": "7:00",
+        "off_dt": "2026-06-23T19:00:00+01:00",
+        "race_name": "Venture Security Handicap",
+        "distance_f": 7.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 13,
+        "horse": "Havana Halo",
+        "horse_id": "hrs_43508346",
+        "age": 4,
+        "sex": "filly",
+        "trainer": "D J S Ffrench Davis",
+        "trainer_id": "trn_78147",
+        "jockey": "J F Egan",
+        "jockey_id": "jky_7368",
+        "draw": 6,
+        "number": 6,
+        "lbs": 135,
+        "ofr": "68",
+        "last_run": 259,
+        "form": "55647-",
+        "headgear": "",
+        "_stored_at": "2026-06-23T21:32:40.574261+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11976679",
+        "course": "Newbury",
+        "date": "2026-06-23",
+        "off_time": "7:00",
+        "off_dt": "2026-06-23T19:00:00+01:00",
+        "race_name": "Venture Security Handicap",
+        "distance_f": 7.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 13,
+        "horse": "Havana Halo",
+        "horse_id": "hrs_43508346",
+        "age": 4,
+        "sex": "filly",
+        "trainer": "D J S Ffrench Davis",
+        "trainer_id": "trn_78147",
+        "jockey": "J F Egan",
+        "jockey_id": "jky_7368",
+        "draw": 6,
+        "number": 6,
+        "lbs": 135,
+        "ofr": "68",
+        "last_run": 259,
+        "form": "55647-",
+        "headgear": "",
+        "_stored_at": "2026-06-25T06:53:17.868199+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Returning from a break"
+    ],
+    "favourite_course": {
+      "value": "Newbury",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 7.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Newbury",
+      "latest_distance_f": 7.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 5",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "dark_horse": {
     "horse": "Lahan Kingman",
     "horse_id": "hrs_55454084",
     "age": 3,
@@ -164,160 +476,319 @@
       "runs_count": 2
     }
   },
-  "main_threat": {
-    "horse": "Noodle Mission",
-    "horse_id": "hrs_32030761",
-    "age": 6,
-    "sex": "gelding",
-    "latest_course": "Newbury",
-    "latest_time": "7:00",
-    "latest_race": "Venture Security Handicap",
-    "latest_date": "2026-06-23",
-    "latest_distance_f": 7.0,
-    "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Edward Smyth-osbourne",
-    "latest_jockey": "Alistair Rawlinson",
-    "latest_draw": 9,
-    "latest_weight_lbs": 141,
-    "official_rating": "74",
-    "recent_form": "040-00",
-    "last_run_days": 22,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Newbury": 2
-    },
-    "distances_seen": {
-      "7.0": 2
-    },
-    "goings_seen": {
-      "Good To Firm": 2
-    },
-    "classes_seen": {
-      "Class 5": 2
-    },
-    "trainers_seen": {
-      "Edward Smyth-osbourne": 2
-    },
-    "jockeys_seen": {
-      "Alistair Rawlinson": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11976679",
-        "course": "Newbury",
-        "date": "2026-06-23",
-        "off_time": "7:00",
-        "off_dt": "2026-06-23T19:00:00+01:00",
-        "race_name": "Venture Security Handicap",
-        "distance_f": 7.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 13,
-        "horse": "Noodle Mission",
-        "horse_id": "hrs_32030761",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "Edward Smyth-osbourne",
-        "trainer_id": "trn_370962",
-        "jockey": "Alistair Rawlinson",
-        "jockey_id": "jky_279633",
-        "draw": 9,
-        "number": 2,
-        "lbs": 141,
-        "ofr": "74",
-        "last_run": 22,
-        "form": "040-00",
-        "headgear": "b",
-        "_stored_at": "2026-06-23T21:32:40.510592+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11976679",
-        "course": "Newbury",
-        "date": "2026-06-23",
-        "off_time": "7:00",
-        "off_dt": "2026-06-23T19:00:00+01:00",
-        "race_name": "Venture Security Handicap",
-        "distance_f": 7.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 13,
-        "horse": "Noodle Mission",
-        "horse_id": "hrs_32030761",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "Edward Smyth-osbourne",
-        "trainer_id": "trn_370962",
-        "jockey": "Alistair Rawlinson",
-        "jockey_id": "jky_279633",
-        "draw": 9,
-        "number": 2,
-        "lbs": 141,
-        "ofr": "74",
-        "last_run": 22,
-        "form": "040-00",
-        "headgear": "b",
-        "_stored_at": "2026-06-25T06:53:17.788309+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Newbury",
-      "runs": 2
-    },
-    "favourite_distance": {
-      "value": 7.0,
-      "runs": 2
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 2
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Newbury",
-      "latest_distance_f": 7.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 5",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
-  },
-  "dark_horse": null,
   "runners": [
+    {
+      "horse": "White Ladder",
+      "horse_id": "hrs_52054611",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Newbury",
+      "latest_time": "7:00",
+      "latest_race": "Venture Security Handicap",
+      "latest_date": "2026-06-23",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "J Ryan",
+      "latest_jockey": "Harry Vigors(5)",
+      "latest_draw": 11,
+      "latest_weight_lbs": 118,
+      "official_rating": "60",
+      "recent_form": "272-33",
+      "last_run_days": 13,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newbury": 2
+      },
+      "distances_seen": {
+        "7.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "J Ryan": 2
+      },
+      "jockeys_seen": {
+        "Harry Vigors(5)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 62,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Trainer concern -2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "White Ladder",
+          "horse_id": "hrs_52054611",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "J Ryan",
+          "trainer_id": "trn_160758",
+          "jockey": "Harry Vigors(5)",
+          "jockey_id": "jky_314370",
+          "draw": 11,
+          "number": null,
+          "lbs": 118,
+          "ofr": "60",
+          "last_run": 13,
+          "form": "272-33",
+          "headgear": "",
+          "_stored_at": "2026-06-23T21:32:40.724105+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "White Ladder",
+          "horse_id": "hrs_52054611",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "J Ryan",
+          "trainer_id": "trn_160758",
+          "jockey": "Harry Vigors(5)",
+          "jockey_id": "jky_314370",
+          "draw": 11,
+          "number": null,
+          "lbs": 118,
+          "ofr": "60",
+          "last_run": 13,
+          "form": "272-33",
+          "headgear": "",
+          "_stored_at": "2026-06-25T06:53:17.978117+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 55,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 62,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Havana Halo",
+      "horse_id": "hrs_43508346",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Newbury",
+      "latest_time": "7:00",
+      "latest_race": "Venture Security Handicap",
+      "latest_date": "2026-06-23",
+      "latest_distance_f": 7.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "D J S Ffrench Davis",
+      "latest_jockey": "J F Egan",
+      "latest_draw": 6,
+      "latest_weight_lbs": 135,
+      "official_rating": "68",
+      "recent_form": "55647-",
+      "last_run_days": 259,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newbury": 2
+      },
+      "distances_seen": {
+        "7.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {
+        "Class 5": 2
+      },
+      "trainers_seen": {
+        "D J S Ffrench Davis": 2
+      },
+      "jockeys_seen": {
+        "J F Egan": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Havana Halo",
+          "horse_id": "hrs_43508346",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "D J S Ffrench Davis",
+          "trainer_id": "trn_78147",
+          "jockey": "J F Egan",
+          "jockey_id": "jky_7368",
+          "draw": 6,
+          "number": 6,
+          "lbs": 135,
+          "ofr": "68",
+          "last_run": 259,
+          "form": "55647-",
+          "headgear": "",
+          "_stored_at": "2026-06-23T21:32:40.574261+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Havana Halo",
+          "horse_id": "hrs_43508346",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "D J S Ffrench Davis",
+          "trainer_id": "trn_78147",
+          "jockey": "J F Egan",
+          "jockey_id": "jky_7368",
+          "draw": 6,
+          "number": 6,
+          "lbs": 135,
+          "ofr": "68",
+          "last_run": 259,
+          "form": "55647-",
+          "headgear": "",
+          "_stored_at": "2026-06-25T06:53:17.868199+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
     {
       "horse": "Lahan Kingman",
       "horse_id": "hrs_55454084",
@@ -624,8 +1095,9 @@
     }
   ],
   "notes": [
-    "Lahan Kingman is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength."
+    "White Ladder is the top-rated Pulse IQ runner.",
+    "The top runner has a clear intelligence gap over the field.",
+    "This race has a generally weak profile strength.",
+    "Lahan Kingman is flagged as a possible dark horse."
   ]
 }

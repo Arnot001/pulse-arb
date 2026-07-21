@@ -4,12 +4,12 @@
   "course": "Newton Abbot",
   "time": "2:10",
   "race_name": "Sky Sports Racing Mares' Maiden Hurdle (GBB Race)",
-  "field_size": 5,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
+  "field_size": 8,
+  "average_intelligence": 57.75,
+  "top_score": 64,
+  "second_score": 63,
+  "gap": 1,
+  "confidence_score": 51,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -53,8 +53,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 82,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +2",
+      "Jockey bonus +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -85,10 +93,12 @@
         "last_run": 23,
         "form": "533-33",
         "headgear": "p",
-        "_stored_at": "2026-07-03T04:58:47.300606+00:00"
+        "_stored_at": "2026-07-03T00:37:01.059026+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
     "favourite_course": {
       "value": "Newton Abbot",
       "runs": 1
@@ -110,15 +120,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 64,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -127,17 +137,17 @@
       "latest_distance_f": 17.0,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 82,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "For Her Glory",
-    "horse_id": "hrs_64522962",
-    "age": 4,
-    "sex": "filly",
+    "horse": "Getmyfriend",
+    "horse_id": "hrs_62326397",
+    "age": 5,
+    "sex": "mare",
     "latest_course": "Newton Abbot",
     "latest_time": "2:10",
     "latest_race": "Sky Sports Racing Mares' Maiden Hurdle (GBB Race)",
@@ -146,13 +156,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Olly Murphy",
-    "latest_jockey": "Sean Bowen",
+    "latest_trainer": "Dan Skelton",
+    "latest_jockey": "Harry Skelton",
     "latest_draw": 0,
-    "latest_weight_lbs": 158,
+    "latest_weight_lbs": 162,
     "official_rating": "-",
-    "recent_form": "13",
-    "last_run_days": 31,
+    "recent_form": "3-14",
+    "last_run_days": 38,
     "profile_runs": 1,
     "courses_seen": {
       "Newton Abbot": 1
@@ -167,15 +177,24 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Olly Murphy": 1
+      "Dan Skelton": 1
     },
     "jockeys_seen": {
-      "Sean Bowen": 1
+      "Harry Skelton": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 79,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +2",
+      "Stable flying +4 (3/7 last 14 days)",
+      "Jockey bonus +2",
+      "Jockey flying +4 (3/6 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -191,22 +210,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "For Her Glory",
-        "horse_id": "hrs_64522962",
-        "age": 4,
-        "sex": "filly",
-        "trainer": "Olly Murphy",
-        "trainer_id": "trn_301977",
-        "jockey": "Sean Bowen",
-        "jockey_id": "jky_279558",
+        "horse": "Getmyfriend",
+        "horse_id": "hrs_62326397",
+        "age": 5,
+        "sex": "mare",
+        "trainer": "Dan Skelton",
+        "trainer_id": "trn_146430",
+        "jockey": "Harry Skelton",
+        "jockey_id": "jky_255654",
         "draw": 0,
-        "number": 4,
-        "lbs": 158,
+        "number": 2,
+        "lbs": 162,
         "ofr": "-",
-        "last_run": 31,
-        "form": "13",
-        "headgear": "h",
-        "_stored_at": "2026-07-03T04:58:47.372308+00:00"
+        "last_run": 38,
+        "form": "3-14",
+        "headgear": "",
+        "_stored_at": "2026-07-03T00:37:01.091420+00:00"
       }
     ],
     "profile_notes": [],
@@ -231,15 +250,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 63,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -248,17 +267,17 @@
       "latest_distance_f": 17.0,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 79,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Likewhatyousee",
-    "horse_id": "hrs_54178467",
-    "age": 4,
-    "sex": "filly",
+    "horse": "Getmyfriend",
+    "horse_id": "hrs_62326397",
+    "age": 5,
+    "sex": "mare",
     "latest_course": "Newton Abbot",
     "latest_time": "2:10",
     "latest_race": "Sky Sports Racing Mares' Maiden Hurdle (GBB Race)",
@@ -267,13 +286,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Jonjo & A J O'Neill",
-    "latest_jockey": "Jonjo O'Neill Jr",
+    "latest_trainer": "Dan Skelton",
+    "latest_jockey": "Harry Skelton",
     "latest_draw": 0,
-    "latest_weight_lbs": 158,
+    "latest_weight_lbs": 162,
     "official_rating": "-",
-    "recent_form": "2",
-    "last_run_days": 21,
+    "recent_form": "3-14",
+    "last_run_days": 38,
     "profile_runs": 1,
     "courses_seen": {
       "Newton Abbot": 1
@@ -288,15 +307,24 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Jonjo & A J O'Neill": 1
+      "Dan Skelton": 1
     },
     "jockeys_seen": {
-      "Jonjo O'Neill Jr": 1
+      "Harry Skelton": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 79,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +2",
+      "Stable flying +4 (3/7 last 14 days)",
+      "Jockey bonus +2",
+      "Jockey flying +4 (3/6 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -312,22 +340,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Likewhatyousee",
-        "horse_id": "hrs_54178467",
-        "age": 4,
-        "sex": "filly",
-        "trainer": "Jonjo & A J O'Neill",
-        "trainer_id": "trn_372456",
-        "jockey": "Jonjo O'Neill Jr",
-        "jockey_id": "jky_289365",
+        "horse": "Getmyfriend",
+        "horse_id": "hrs_62326397",
+        "age": 5,
+        "sex": "mare",
+        "trainer": "Dan Skelton",
+        "trainer_id": "trn_146430",
+        "jockey": "Harry Skelton",
+        "jockey_id": "jky_255654",
         "draw": 0,
-        "number": 5,
-        "lbs": 158,
+        "number": 2,
+        "lbs": 162,
         "ofr": "-",
-        "last_run": 21,
-        "form": "2",
+        "last_run": 38,
+        "form": "3-14",
         "headgear": "",
-        "_stored_at": "2026-07-03T04:58:47.396214+00:00"
+        "_stored_at": "2026-07-03T00:37:01.091420+00:00"
       }
     ],
     "profile_notes": [],
@@ -352,15 +380,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 63,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -369,7 +397,7 @@
       "latest_distance_f": 17.0,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 79,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -417,8 +445,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 82,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Jockey bonus +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -449,7 +485,139 @@
           "last_run": 23,
           "form": "533-33",
           "headgear": "p",
-          "_stored_at": "2026-07-03T04:58:47.300606+00:00"
+          "_stored_at": "2026-07-03T00:37:01.059026+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 64,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 82,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Getmyfriend",
+      "horse_id": "hrs_62326397",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Newton Abbot",
+      "latest_time": "2:10",
+      "latest_race": "Sky Sports Racing Mares' Maiden Hurdle (GBB Race)",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Dan Skelton",
+      "latest_jockey": "Harry Skelton",
+      "latest_draw": 0,
+      "latest_weight_lbs": 162,
+      "official_rating": "-",
+      "recent_form": "3-14",
+      "last_run_days": 38,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newton Abbot": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Dan Skelton": 1
+      },
+      "jockeys_seen": {
+        "Harry Skelton": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 79,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Stable flying +4 (3/7 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey flying +4 (3/6 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987469",
+          "course": "Newton Abbot",
+          "date": "2026-07-03",
+          "off_time": "2:10",
+          "off_dt": "2026-07-03T14:10:00+01:00",
+          "race_name": "Sky Sports Racing Mares' Maiden Hurdle (GBB Race)",
+          "distance_f": 17.0,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Getmyfriend",
+          "horse_id": "hrs_62326397",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Dan Skelton",
+          "trainer_id": "trn_146430",
+          "jockey": "Harry Skelton",
+          "jockey_id": "jky_255654",
+          "draw": 0,
+          "number": 2,
+          "lbs": 162,
+          "ofr": "-",
+          "last_run": 38,
+          "form": "3-14",
+          "headgear": "",
+          "_stored_at": "2026-07-03T00:37:01.091420+00:00"
         }
       ],
       "profile_notes": [],
@@ -474,15 +642,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 63,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -491,7 +659,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 79,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -538,8 +706,17 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 78,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Jockey bonus +3",
+        "Jockey in form +2 (1/2 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -570,7 +747,7 @@
           "last_run": 31,
           "form": "13",
           "headgear": "h",
-          "_stored_at": "2026-07-03T04:58:47.372308+00:00"
+          "_stored_at": "2026-07-03T00:37:01.156147+00:00"
         }
       ],
       "profile_notes": [],
@@ -595,15 +772,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 62,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -612,7 +789,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 78,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -659,8 +836,20 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 78,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey in form +2 (2/2 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -691,7 +880,7 @@
           "last_run": 21,
           "form": "2",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.396214+00:00"
+          "_stored_at": "2026-07-03T00:37:01.190544+00:00"
         }
       ],
       "profile_notes": [],
@@ -716,15 +905,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 62,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -733,7 +922,138 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 78,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Steal A Glance",
+      "horse_id": "hrs_59710868",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Newton Abbot",
+      "latest_time": "2:10",
+      "latest_race": "Sky Sports Racing Mares' Maiden Hurdle (GBB Race)",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Anthony Honeyball",
+      "latest_jockey": "Sam Twiston-Davies",
+      "latest_draw": 0,
+      "latest_weight_lbs": 158,
+      "official_rating": "-",
+      "recent_form": "273-9",
+      "last_run_days": 21,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newton Abbot": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Anthony Honeyball": 1
+      },
+      "jockeys_seen": {
+        "Sam Twiston-Davies": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 70,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey in form +2 (2/2 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987469",
+          "course": "Newton Abbot",
+          "date": "2026-07-03",
+          "off_time": "2:10",
+          "off_dt": "2026-07-03T14:10:00+01:00",
+          "race_name": "Sky Sports Racing Mares' Maiden Hurdle (GBB Race)",
+          "distance_f": 17.0,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Steal A Glance",
+          "horse_id": "hrs_59710868",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Anthony Honeyball",
+          "trainer_id": "trn_167751",
+          "jockey": "Sam Twiston-Davies",
+          "jockey_id": "jky_264069",
+          "draw": 0,
+          "number": 8,
+          "lbs": 158,
+          "ofr": "-",
+          "last_run": 21,
+          "form": "273-9",
+          "headgear": "t",
+          "_stored_at": "2026-07-03T00:37:01.291179+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 70,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -780,8 +1100,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 65,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Jockey bonus +3",
+        "Jockey in form +2 (2/2 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -812,7 +1140,7 @@
           "last_run": 21,
           "form": "353-U6",
           "headgear": "h",
-          "_stored_at": "2026-07-03T04:58:47.444265+00:00"
+          "_stored_at": "2026-07-03T00:37:01.270545+00:00"
         }
       ],
       "profile_notes": [],
@@ -837,15 +1165,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -854,7 +1182,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 65,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -901,8 +1229,17 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 52,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey in form +2 (2/2 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -933,7 +1270,7 @@
           "last_run": 16,
           "form": "7/8-8",
           "headgear": "t",
-          "_stored_at": "2026-07-03T04:58:47.348068+00:00"
+          "_stored_at": "2026-07-03T00:37:01.107879+00:00"
         }
       ],
       "profile_notes": [],
@@ -958,7 +1295,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -966,7 +1303,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -975,7 +1311,132 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 52,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Lundy View",
+      "horse_id": "hrs_63323610",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Newton Abbot",
+      "latest_time": "2:10",
+      "latest_race": "Sky Sports Racing Mares' Maiden Hurdle (GBB Race)",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 17.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Nigel Hawke",
+      "latest_jockey": "James Davies",
+      "latest_draw": 0,
+      "latest_weight_lbs": 158,
+      "official_rating": "-",
+      "recent_form": "7-6",
+      "last_run_days": 51,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newton Abbot": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Nigel Hawke": 1
+      },
+      "jockeys_seen": {
+        "James Davies": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 44,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987469",
+          "course": "Newton Abbot",
+          "date": "2026-07-03",
+          "off_time": "2:10",
+          "off_dt": "2026-07-03T14:10:00+01:00",
+          "race_name": "Sky Sports Racing Mares' Maiden Hurdle (GBB Race)",
+          "distance_f": 17.0,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Lundy View",
+          "horse_id": "hrs_63323610",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Nigel Hawke",
+          "trainer_id": "trn_92313",
+          "jockey": "James Davies",
+          "jockey_id": "jky_238989",
+          "draw": 0,
+          "number": 6,
+          "lbs": 158,
+          "ofr": "-",
+          "last_run": 51,
+          "form": "7-6",
+          "headgear": "",
+          "_stored_at": "2026-07-03T00:37:01.238453+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 44,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -985,7 +1446,6 @@
   "notes": [
     "Elated is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Likewhatyousee is flagged as a possible dark horse."
+    "Getmyfriend is flagged as a possible dark horse."
   ]
 }

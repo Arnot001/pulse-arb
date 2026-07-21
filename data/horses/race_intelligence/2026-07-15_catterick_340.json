@@ -1,25 +1,157 @@
 {
-  "race_id": "Le Veinard 2026. Racing And Info Handicap Stakes",
+  "race_id": "Le Veinard 2026. Racing And Info Handicap",
   "date": "2026-07-15",
   "course": "Catterick",
   "time": "3:40",
-  "race_name": "Le Veinard 2026. Racing And Info Handicap Stakes",
-  "field_size": 7,
-  "average_intelligence": 50.57,
-  "top_score": 62,
-  "second_score": 58,
-  "gap": 4,
-  "confidence_score": 53,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "race_name": "Le Veinard 2026. Racing And Info Handicap",
+  "field_size": 8,
+  "average_intelligence": 51.75,
+  "top_score": 63,
+  "second_score": 57,
+  "gap": 6,
+  "confidence_score": 57,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
+    "horse": "The Good Biscuit",
+    "horse_id": "hrs_35881272",
+    "age": 5,
+    "sex": "gelding",
+    "latest_course": "Catterick",
+    "latest_time": "3:40",
+    "latest_race": "Le Veinard 2026. Racing And Info Handicap",
+    "latest_date": "2026-07-15",
+    "latest_distance_f": 6.0,
+    "latest_class": "Class 4",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Ruth Carr",
+    "latest_jockey": "Joanna Mason",
+    "latest_draw": 2,
+    "latest_weight_lbs": 138,
+    "official_rating": "75",
+    "recent_form": "322844",
+    "last_run_days": 24,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Catterick": 1
+    },
+    "distances_seen": {
+      "6.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Ruth Carr": 1
+    },
+    "jockeys_seen": {
+      "Joanna Mason": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 79,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Stable flying +4 (6/12 last 14 days)",
+      "Jockey flying +4 (9/24 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000000624",
+        "course": "Catterick",
+        "date": "2026-07-15",
+        "off_time": "3:40",
+        "off_dt": "2026-07-15T15:40:00+01:00",
+        "race_name": "Le Veinard 2026. Racing And Info Handicap",
+        "distance_f": 6.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 8,
+        "horse": "The Good Biscuit",
+        "horse_id": "hrs_35881272",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "Ruth Carr",
+        "trainer_id": "trn_180405",
+        "jockey": "Joanna Mason",
+        "jockey_id": "jky_257346",
+        "draw": 2,
+        "number": 3,
+        "lbs": 138,
+        "ofr": "75",
+        "last_run": 24,
+        "form": "322844",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Catterick",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 6.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 63,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Catterick",
+      "latest_distance_f": 6.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 4",
+      "latest_pulse_score": 79,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Two Commanders",
     "horse_id": "hrs_64744603",
     "age": 3,
     "sex": "gelding",
     "latest_course": "Catterick",
     "latest_time": "3:40",
-    "latest_race": "Le Veinard 2026. Racing And Info Handicap Stakes",
+    "latest_race": "Le Veinard 2026. Racing And Info Handicap",
     "latest_date": "2026-07-15",
     "latest_distance_f": 6.0,
     "latest_class": "Class 4",
@@ -55,14 +187,15 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 83,
+    "latest_pulse_score": 73,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
-      "Helpful draw",
+      "Ideal layoff profile +2",
       "Race class strength +2",
-      "Trainer bonus +4",
-      "Jockey bonus +3"
+      "Trainer bonus +2",
+      "Stable in form +2 (2/2 last 14 days)",
+      "Jockey bonus +2"
     ],
     "runs": [
       {
@@ -78,7 +211,7 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 6,
+        "field_size": 7,
         "horse": "Two Commanders",
         "horse_id": "hrs_64744603",
         "age": 3,
@@ -102,7 +235,7 @@
         "date": "2026-07-15",
         "off_time": "3:40",
         "off_dt": "2026-07-15T15:40:00+01:00",
-        "race_name": "Le Veinard 2026. Racing And Info Handicap Stakes",
+        "race_name": "Le Veinard 2026. Racing And Info Handicap",
         "distance_f": 6.0,
         "race_class": "Class 4",
         "race_type": "Flat",
@@ -127,7 +260,6 @@
       }
     ],
     "profile_notes": [
-      "Elite latest Pulse Score",
       "Low draw today",
       "Recent run timing"
     ],
@@ -152,12 +284,12 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 81,
-    "horse_intelligence_score": 62,
+    "horse_intelligence_score": 57,
     "profile_strengths": [
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
       "Race class matches common profile level",
-      "Elite latest Pulse Score"
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
       "Course does not strongly match stored profile",
@@ -169,194 +301,96 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": 83,
+      "latest_pulse_score": 73,
       "average_pulse_score": 0,
       "profile_runs": 2,
       "runs_count": 2
     }
   },
-  "main_threat": {
-    "horse": "The Good Biscuit",
-    "horse_id": "hrs_35881272",
-    "age": 5,
-    "sex": "gelding",
-    "latest_course": "Catterick",
-    "latest_time": "3:40",
-    "latest_race": "Le Veinard 2026. Racing And Info Handicap Stakes",
-    "latest_date": "2026-07-15",
-    "latest_distance_f": 6.0,
-    "latest_class": "Class 4",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Ruth Carr",
-    "latest_jockey": "Joanna Mason",
-    "latest_draw": 2,
-    "latest_weight_lbs": 138,
-    "official_rating": "75",
-    "recent_form": "322844",
-    "last_run_days": 24,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Catterick": 1
-    },
-    "distances_seen": {
-      "6.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "Ruth Carr": 1
-    },
-    "jockeys_seen": {
-      "Joanna Mason": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 70,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +2",
-      "Trainer bonus +3",
-      "Jockey bonus +3"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000000624",
-        "course": "Catterick",
-        "date": "2026-07-15",
-        "off_time": "3:40",
-        "off_dt": "2026-07-15T15:40:00+01:00",
-        "race_name": "Le Veinard 2026. Racing And Info Handicap Stakes",
-        "distance_f": 6.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "The Good Biscuit",
-        "horse_id": "hrs_35881272",
-        "age": 5,
-        "sex": "gelding",
-        "trainer": "Ruth Carr",
-        "trainer_id": "trn_180405",
-        "jockey": "Joanna Mason",
-        "jockey_id": "jky_257346",
-        "draw": 2,
-        "number": 3,
-        "lbs": 138,
-        "ofr": "75",
-        "last_run": 24,
-        "form": "322844",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ],
-    "favourite_course": {
-      "value": "Catterick",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 6.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 58,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Catterick",
-      "latest_distance_f": 6.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 4",
-      "latest_pulse_score": 70,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
   "dark_horse": {
-    "horse": "The Good Biscuit",
-    "horse_id": "hrs_35881272",
-    "age": 5,
+    "horse": "Two Commanders",
+    "horse_id": "hrs_64744603",
+    "age": 3,
     "sex": "gelding",
     "latest_course": "Catterick",
     "latest_time": "3:40",
-    "latest_race": "Le Veinard 2026. Racing And Info Handicap Stakes",
+    "latest_race": "Le Veinard 2026. Racing And Info Handicap",
     "latest_date": "2026-07-15",
     "latest_distance_f": 6.0,
     "latest_class": "Class 4",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Ruth Carr",
-    "latest_jockey": "Joanna Mason",
-    "latest_draw": 2,
-    "latest_weight_lbs": 138,
-    "official_rating": "75",
-    "recent_form": "322844",
-    "last_run_days": 24,
-    "profile_runs": 1,
+    "latest_trainer": "Edward Bethell",
+    "latest_jockey": "Connor Beasley",
+    "latest_draw": 1,
+    "latest_weight_lbs": 135,
+    "official_rating": "78",
+    "recent_form": "312",
+    "last_run_days": 11,
+    "profile_runs": 2,
     "courses_seen": {
+      "Leicester": 1,
       "Catterick": 1
     },
     "distances_seen": {
-      "6.0": 1
+      "6.0": 2
     },
     "goings_seen": {
-      "Good To Firm": 1
+      "Good To Firm": 2
     },
     "classes_seen": {
-      "Class 4": 1
+      "Class 4": 2
     },
     "trainers_seen": {
-      "Ruth Carr": 1
+      "Edward Bethell": 2
     },
     "jockeys_seen": {
-      "Joanna Mason": 1
+      "Cian Horgan(5)": 1,
+      "Connor Beasley": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 70,
+    "latest_pulse_score": 73,
     "latest_notes": [
-      "Positive recent form",
+      "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Helpful draw",
       "Race class strength +2",
-      "Trainer bonus +3",
-      "Jockey bonus +3"
+      "Trainer bonus +2",
+      "Stable in form +2 (2/2 last 14 days)",
+      "Jockey bonus +2"
     ],
     "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11989588",
+        "course": "Leicester",
+        "date": "2026-07-04",
+        "off_time": "2:46",
+        "off_dt": "2026-07-04T14:46:00+01:00",
+        "race_name": "Smooth Radio EBF Novice Stakes (GBB Race)",
+        "distance_f": 6.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Two Commanders",
+        "horse_id": "hrs_64744603",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Edward Bethell",
+        "trainer_id": "trn_342657",
+        "jockey": "Cian Horgan(5)",
+        "jockey_id": "jky_303567",
+        "draw": 6,
+        "number": 3,
+        "lbs": 137,
+        "ofr": "78",
+        "last_run": 23,
+        "form": "31",
+        "headgear": ""
+      },
       {
         "source": "the_racing_api",
         "race_id": "rac_13000000624",
@@ -364,63 +398,64 @@
         "date": "2026-07-15",
         "off_time": "3:40",
         "off_dt": "2026-07-15T15:40:00+01:00",
-        "race_name": "Le Veinard 2026. Racing And Info Handicap Stakes",
+        "race_name": "Le Veinard 2026. Racing And Info Handicap",
         "distance_f": 6.0,
         "race_class": "Class 4",
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "The Good Biscuit",
-        "horse_id": "hrs_35881272",
-        "age": 5,
+        "horse": "Two Commanders",
+        "horse_id": "hrs_64744603",
+        "age": 3,
         "sex": "gelding",
-        "trainer": "Ruth Carr",
-        "trainer_id": "trn_180405",
-        "jockey": "Joanna Mason",
-        "jockey_id": "jky_257346",
-        "draw": 2,
-        "number": 3,
-        "lbs": 138,
-        "ofr": "75",
-        "last_run": 24,
-        "form": "322844",
+        "trainer": "Edward Bethell",
+        "trainer_id": "trn_342657",
+        "jockey": "Connor Beasley",
+        "jockey_id": "jky_272604",
+        "draw": 1,
+        "number": 4,
+        "lbs": 135,
+        "ofr": "78",
+        "last_run": 11,
+        "form": "312",
         "headgear": ""
       }
     ],
     "profile_notes": [
-      "Low draw today"
+      "Low draw today",
+      "Recent run timing"
     ],
     "favourite_course": {
-      "value": "Catterick",
+      "value": "Leicester",
       "runs": 1
     },
     "favourite_distance": {
       "value": 6.0,
-      "runs": 1
+      "runs": 2
     },
     "favourite_going": {
       "value": "Good To Firm",
-      "runs": 1
+      "runs": 2
     },
     "favourite_class": {
       "value": "Class 4",
-      "runs": 1
+      "runs": 2
     },
-    "course_suitability_score": 90,
+    "course_suitability_score": 55,
     "distance_suitability_score": 90,
     "going_suitability_score": 90,
     "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 58,
+    "suitability_score": 81,
+    "horse_intelligence_score": 57,
     "profile_strengths": [
-      "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
+      "Course does not strongly match stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -429,176 +464,13 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": 70,
+      "latest_pulse_score": 73,
       "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
+      "profile_runs": 2,
+      "runs_count": 2
     }
   },
   "runners": [
-    {
-      "horse": "Two Commanders",
-      "horse_id": "hrs_64744603",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Catterick",
-      "latest_time": "3:40",
-      "latest_race": "Le Veinard 2026. Racing And Info Handicap Stakes",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Edward Bethell",
-      "latest_jockey": "Connor Beasley",
-      "latest_draw": 1,
-      "latest_weight_lbs": 135,
-      "official_rating": "78",
-      "recent_form": "312",
-      "last_run_days": 11,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Leicester": 1,
-        "Catterick": 1
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {
-        "Class 4": 2
-      },
-      "trainers_seen": {
-        "Edward Bethell": 2
-      },
-      "jockeys_seen": {
-        "Cian Horgan(5)": 1,
-        "Connor Beasley": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 83,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +4",
-        "Jockey bonus +3"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989588",
-          "course": "Leicester",
-          "date": "2026-07-04",
-          "off_time": "2:46",
-          "off_dt": "2026-07-04T14:46:00+01:00",
-          "race_name": "Smooth Radio EBF Novice Stakes (GBB Race)",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Two Commanders",
-          "horse_id": "hrs_64744603",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Edward Bethell",
-          "trainer_id": "trn_342657",
-          "jockey": "Cian Horgan(5)",
-          "jockey_id": "jky_303567",
-          "draw": 6,
-          "number": 3,
-          "lbs": 137,
-          "ofr": "78",
-          "last_run": 23,
-          "form": "31",
-          "headgear": ""
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000624",
-          "course": "Catterick",
-          "date": "2026-07-15",
-          "off_time": "3:40",
-          "off_dt": "2026-07-15T15:40:00+01:00",
-          "race_name": "Le Veinard 2026. Racing And Info Handicap Stakes",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Two Commanders",
-          "horse_id": "hrs_64744603",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Edward Bethell",
-          "trainer_id": "trn_342657",
-          "jockey": "Connor Beasley",
-          "jockey_id": "jky_272604",
-          "draw": 1,
-          "number": 4,
-          "lbs": 135,
-          "ofr": "78",
-          "last_run": 11,
-          "form": "312",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score",
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Leicester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 2
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 81,
-      "horse_intelligence_score": 62,
-      "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Catterick",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 83,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
     {
       "horse": "The Good Biscuit",
       "horse_id": "hrs_35881272",
@@ -606,7 +478,7 @@
       "sex": "gelding",
       "latest_course": "Catterick",
       "latest_time": "3:40",
-      "latest_race": "Le Veinard 2026. Racing And Info Handicap Stakes",
+      "latest_race": "Le Veinard 2026. Racing And Info Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 6.0,
       "latest_class": "Class 4",
@@ -640,15 +512,17 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 70,
+      "latest_pulse_score": 79,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
         "Race class strength +2",
-        "Trainer bonus +3",
-        "Jockey bonus +3"
+        "Stable flying +4 (6/12 last 14 days)",
+        "Jockey flying +4 (9/24 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4"
       ],
       "runs": [
         {
@@ -658,7 +532,7 @@
           "date": "2026-07-15",
           "off_time": "3:40",
           "off_dt": "2026-07-15T15:40:00+01:00",
-          "race_name": "Le Veinard 2026. Racing And Info Handicap Stakes",
+          "race_name": "Le Veinard 2026. Racing And Info Handicap",
           "distance_f": 6.0,
           "race_class": "Class 4",
           "race_type": "Flat",
@@ -706,7 +580,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 58,
+      "horse_intelligence_score": 63,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -723,10 +597,337 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": 70,
+        "latest_pulse_score": 79,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Two Commanders",
+      "horse_id": "hrs_64744603",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Catterick",
+      "latest_time": "3:40",
+      "latest_race": "Le Veinard 2026. Racing And Info Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Edward Bethell",
+      "latest_jockey": "Connor Beasley",
+      "latest_draw": 1,
+      "latest_weight_lbs": 135,
+      "official_rating": "78",
+      "recent_form": "312",
+      "last_run_days": 11,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Leicester": 1,
+        "Catterick": 1
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "Edward Bethell": 2
+      },
+      "jockeys_seen": {
+        "Cian Horgan(5)": 1,
+        "Connor Beasley": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 73,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989588",
+          "course": "Leicester",
+          "date": "2026-07-04",
+          "off_time": "2:46",
+          "off_dt": "2026-07-04T14:46:00+01:00",
+          "race_name": "Smooth Radio EBF Novice Stakes (GBB Race)",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Two Commanders",
+          "horse_id": "hrs_64744603",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Edward Bethell",
+          "trainer_id": "trn_342657",
+          "jockey": "Cian Horgan(5)",
+          "jockey_id": "jky_303567",
+          "draw": 6,
+          "number": 3,
+          "lbs": 137,
+          "ofr": "78",
+          "last_run": 23,
+          "form": "31",
+          "headgear": ""
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000624",
+          "course": "Catterick",
+          "date": "2026-07-15",
+          "off_time": "3:40",
+          "off_dt": "2026-07-15T15:40:00+01:00",
+          "race_name": "Le Veinard 2026. Racing And Info Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Two Commanders",
+          "horse_id": "hrs_64744603",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Edward Bethell",
+          "trainer_id": "trn_342657",
+          "jockey": "Connor Beasley",
+          "jockey_id": "jky_272604",
+          "draw": 1,
+          "number": 4,
+          "lbs": 135,
+          "ofr": "78",
+          "last_run": 11,
+          "form": "312",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Leicester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 81,
+      "horse_intelligence_score": 57,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Catterick",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 73,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Aberama Gold",
+      "horse_id": "hrs_18518801",
+      "age": 9,
+      "sex": "gelding",
+      "latest_course": "Catterick",
+      "latest_time": "3:40",
+      "latest_race": "Le Veinard 2026. Racing And Info Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "David O'Meara",
+      "latest_jockey": "Daniel Tudhope",
+      "latest_draw": 6,
+      "latest_weight_lbs": 140,
+      "official_rating": "77",
+      "recent_form": "160352",
+      "last_run_days": 6,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Epsom Downs": 1,
+        "Catterick": 1
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "David O'Meara": 2
+      },
+      "jockeys_seen": {
+        "Daniel Muscutt": 1,
+        "Daniel Tudhope": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 65,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +3",
+        "Stable in form +2 (3/15 last 14 days)",
+        "Jockey bonus +1",
+        "Jockey flying +4 (6/6 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990576",
+          "course": "Epsom Downs",
+          "date": "2026-07-09",
+          "off_time": "7:50",
+          "off_dt": "2026-07-09T19:50:00+01:00",
+          "race_name": "Robert Dyas Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Aberama Gold",
+          "horse_id": "hrs_18518801",
+          "age": 9,
+          "sex": "gelding",
+          "trainer": "David O'Meara",
+          "trainer_id": "trn_205551",
+          "jockey": "Daniel Muscutt",
+          "jockey_id": "jky_275571",
+          "draw": 4,
+          "number": 1,
+          "lbs": 142,
+          "ofr": "77",
+          "last_run": 19,
+          "form": "416035",
+          "headgear": "v"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000624",
+          "course": "Catterick",
+          "date": "2026-07-15",
+          "off_time": "3:40",
+          "off_dt": "2026-07-15T15:40:00+01:00",
+          "race_name": "Le Veinard 2026. Racing And Info Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Aberama Gold",
+          "horse_id": "hrs_18518801",
+          "age": 9,
+          "sex": "gelding",
+          "trainer": "David O'Meara",
+          "trainer_id": "trn_205551",
+          "jockey": "Daniel Tudhope",
+          "jockey_id": "jky_246693",
+          "draw": 6,
+          "number": 1,
+          "lbs": 140,
+          "ofr": "77",
+          "last_run": 6,
+          "form": "160352",
+          "headgear": "v"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Epsom Downs",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 81,
+      "horse_intelligence_score": 54,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Catterick",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 65,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -736,7 +937,7 @@
       "sex": "gelding",
       "latest_course": "Catterick",
       "latest_time": "3:40",
-      "latest_race": "Le Veinard 2026. Racing And Info Handicap Stakes",
+      "latest_race": "Le Veinard 2026. Racing And Info Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 6.0,
       "latest_class": "Class 4",
@@ -770,13 +971,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 57,
+      "latest_pulse_score": 56,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Helpful draw",
-        "Race class strength +2",
-        "Jockey bonus +1"
+        "Race class strength +2"
       ],
       "runs": [
         {
@@ -786,7 +986,7 @@
           "date": "2026-07-15",
           "off_time": "3:40",
           "off_dt": "2026-07-15T15:40:00+01:00",
-          "race_name": "Le Veinard 2026. Racing And Info Handicap Stakes",
+          "race_name": "Le Veinard 2026. Racing And Info Handicap",
           "distance_f": 6.0,
           "race_class": "Class 4",
           "race_type": "Flat",
@@ -834,7 +1034,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 53,
+      "horse_intelligence_score": 52,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -850,10 +1050,172 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": 57,
+        "latest_pulse_score": 56,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Kody B",
+      "horse_id": "hrs_56127701",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Catterick",
+      "latest_time": "3:40",
+      "latest_race": "Le Veinard 2026. Racing And Info Handicap",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Craig Lidster",
+      "latest_jockey": "Tom Eaves",
+      "latest_draw": 4,
+      "latest_weight_lbs": 134,
+      "official_rating": "77",
+      "recent_form": "71-045",
+      "last_run_days": 4,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Chester": 1,
+        "Catterick": 1
+      },
+      "distances_seen": {
+        "6.0": 2
+      },
+      "goings_seen": {
+        "Good": 1,
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "Craig Lidster": 2
+      },
+      "jockeys_seen": {
+        "David Allan": 1,
+        "Tom Eaves": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 62,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Jockey bonus +3",
+        "Jockey flying +4 (8/29 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11991239",
+          "course": "Chester",
+          "date": "2026-07-11",
+          "off_time": "4:24",
+          "off_dt": "2026-07-11T16:24:00+01:00",
+          "race_name": "Excell Supply Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Kody B",
+          "horse_id": "hrs_56127701",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Craig Lidster",
+          "trainer_id": "trn_351099",
+          "jockey": "David Allan",
+          "jockey_id": "jky_234669",
+          "draw": 5,
+          "number": 7,
+          "lbs": 127,
+          "ofr": "77",
+          "last_run": 55,
+          "form": "271-04",
+          "headgear": "t"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000624",
+          "course": "Catterick",
+          "date": "2026-07-15",
+          "off_time": "3:40",
+          "off_dt": "2026-07-15T15:40:00+01:00",
+          "race_name": "Le Veinard 2026. Racing And Info Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Kody B",
+          "horse_id": "hrs_56127701",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Craig Lidster",
+          "trainer_id": "trn_351099",
+          "jockey": "Tom Eaves",
+          "jockey_id": "jky_230493",
+          "draw": 4,
+          "number": 5,
+          "lbs": 134,
+          "ofr": "77",
+          "last_run": 4,
+          "form": "71-045",
+          "headgear": "tp"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Chester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 55,
+      "class_suitability_score": 90,
+      "suitability_score": 72,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Catterick",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 62,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -863,7 +1225,7 @@
       "sex": "gelding",
       "latest_course": "Catterick",
       "latest_time": "3:40",
-      "latest_race": "Le Veinard 2026. Racing And Info Handicap Stakes",
+      "latest_race": "Le Veinard 2026. Racing And Info Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 6.0,
       "latest_class": "Class 4",
@@ -912,7 +1274,7 @@
           "date": "2026-07-15",
           "off_time": "3:40",
           "off_dt": "2026-07-15T15:40:00+01:00",
-          "race_name": "Le Veinard 2026. Racing And Info Handicap Stakes",
+          "race_name": "Le Veinard 2026. Racing And Info Handicap",
           "distance_f": 6.0,
           "race_class": "Class 4",
           "race_type": "Flat",
@@ -981,172 +1343,13 @@
       }
     },
     {
-      "horse": "Aberama Gold",
-      "horse_id": "hrs_18518801",
-      "age": 9,
-      "sex": "gelding",
-      "latest_course": "Catterick",
-      "latest_time": "3:40",
-      "latest_race": "Le Veinard 2026. Racing And Info Handicap Stakes",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "David O'Meara",
-      "latest_jockey": "Daniel Tudhope",
-      "latest_draw": 6,
-      "latest_weight_lbs": 140,
-      "official_rating": "77",
-      "recent_form": "160352",
-      "last_run_days": 6,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Epsom Downs": 1,
-        "Catterick": 1
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {
-        "Class 4": 2
-      },
-      "trainers_seen": {
-        "David O'Meara": 2
-      },
-      "jockeys_seen": {
-        "Daniel Muscutt": 1,
-        "Daniel Tudhope": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Sharp return concern -3",
-        "Race class strength +2",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990576",
-          "course": "Epsom Downs",
-          "date": "2026-07-09",
-          "off_time": "7:50",
-          "off_dt": "2026-07-09T19:50:00+01:00",
-          "race_name": "Robert Dyas Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Aberama Gold",
-          "horse_id": "hrs_18518801",
-          "age": 9,
-          "sex": "gelding",
-          "trainer": "David O'Meara",
-          "trainer_id": "trn_205551",
-          "jockey": "Daniel Muscutt",
-          "jockey_id": "jky_275571",
-          "draw": 4,
-          "number": 1,
-          "lbs": 142,
-          "ofr": "77",
-          "last_run": 19,
-          "form": "416035",
-          "headgear": "v"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000624",
-          "course": "Catterick",
-          "date": "2026-07-15",
-          "off_time": "3:40",
-          "off_dt": "2026-07-15T15:40:00+01:00",
-          "race_name": "Le Veinard 2026. Racing And Info Handicap Stakes",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Aberama Gold",
-          "horse_id": "hrs_18518801",
-          "age": 9,
-          "sex": "gelding",
-          "trainer": "David O'Meara",
-          "trainer_id": "trn_205551",
-          "jockey": "Daniel Tudhope",
-          "jockey_id": "jky_246693",
-          "draw": 6,
-          "number": 1,
-          "lbs": 140,
-          "ofr": "77",
-          "last_run": 6,
-          "form": "160352",
-          "headgear": "v"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Epsom Downs",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 2
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 81,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Catterick",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 46,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
       "horse": "Awraad",
       "horse_id": "hrs_51800490",
       "age": 3,
       "sex": "filly",
       "latest_course": "Catterick",
       "latest_time": "3:40",
-      "latest_race": "Le Veinard 2026. Racing And Info Handicap Stakes",
+      "latest_race": "Le Veinard 2026. Racing And Info Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 6.0,
       "latest_class": "Class 4",
@@ -1180,10 +1383,11 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 40,
+      "latest_pulse_score": 44,
       "latest_notes": [
         "Weak recent form",
-        "Race class strength +2"
+        "Race class strength +2",
+        "Jockey flying +4 (4/8 last 14 days)"
       ],
       "runs": [
         {
@@ -1193,7 +1397,7 @@
           "date": "2026-07-15",
           "off_time": "3:40",
           "off_dt": "2026-07-15T15:40:00+01:00",
-          "race_name": "Le Veinard 2026. Racing And Info Handicap Stakes",
+          "race_name": "Le Veinard 2026. Racing And Info Handicap",
           "distance_f": 6.0,
           "race_class": "Class 4",
           "race_type": "Flat",
@@ -1239,7 +1443,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 45,
+      "horse_intelligence_score": 47,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1247,7 +1451,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1256,94 +1459,94 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": 40,
+        "latest_pulse_score": 44,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Kody B",
-      "horse_id": "hrs_56127701",
-      "age": 3,
-      "sex": "colt",
+      "horse": "Dream Deal",
+      "horse_id": "hrs_26369812",
+      "age": 7,
+      "sex": "gelding",
       "latest_course": "Catterick",
       "latest_time": "3:40",
-      "latest_race": "Le Veinard 2026. Racing And Info Handicap Stakes",
+      "latest_race": "Le Veinard 2026. Racing And Info Handicap",
       "latest_date": "2026-07-15",
       "latest_distance_f": 6.0,
       "latest_class": "Class 4",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Craig Lidster",
-      "latest_jockey": "Tom Eaves",
-      "latest_draw": 4,
-      "latest_weight_lbs": 134,
-      "official_rating": "77",
-      "recent_form": "71-045",
-      "last_run_days": 4,
+      "latest_trainer": "Tim Easterby",
+      "latest_jockey": "David Allan",
+      "latest_draw": 8,
+      "latest_weight_lbs": 126,
+      "official_rating": "63",
+      "recent_form": "-06122",
+      "last_run_days": 8,
       "profile_runs": 2,
       "courses_seen": {
-        "Chester": 1,
+        "Pontefract": 1,
         "Catterick": 1
       },
       "distances_seen": {
-        "6.0": 2
+        "5.0": 1,
+        "6.0": 1
       },
       "goings_seen": {
         "Good": 1,
         "Good To Firm": 1
       },
       "classes_seen": {
-        "Class 4": 2
+        "Class 5": 1,
+        "Class 4": 1
       },
       "trainers_seen": {
-        "Craig Lidster": 2
+        "Tim Easterby": 2
       },
       "jockeys_seen": {
-        "David Allan": 1,
-        "Tom Eaves": 1
+        "David Allan": 2
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 46,
+      "latest_pulse_score": 57,
       "latest_notes": [
         "Positive recent form",
-        "Questionable run timing",
-        "Sharp return concern -3",
-        "Helpful draw",
-        "Race class strength +2"
+        "Good recent run timing",
+        "Stable flying +4 (4/7 last 14 days)",
+        "Jockey flying +4 (4/6 last 14 days)"
       ],
       "runs": [
         {
           "source": "the_racing_api",
-          "race_id": "rac_11991239",
-          "course": "Chester",
-          "date": "2026-07-11",
-          "off_time": "4:24",
-          "off_dt": "2026-07-11T16:24:00+01:00",
-          "race_name": "Excell Supply Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
+          "race_id": "rac_11990134",
+          "course": "Pontefract",
+          "date": "2026-07-07",
+          "off_time": "4:48",
+          "off_dt": "2026-07-07T16:48:00+01:00",
+          "race_name": "Tallbaldybloke Three Score And Ten Birthday Handicap",
+          "distance_f": 5.0,
+          "race_class": "Class 5",
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 6,
-          "horse": "Kody B",
-          "horse_id": "hrs_56127701",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Craig Lidster",
-          "trainer_id": "trn_351099",
+          "field_size": 7,
+          "horse": "Dream Deal",
+          "horse_id": "hrs_26369812",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "Tim Easterby",
+          "trainer_id": "trn_91368",
           "jockey": "David Allan",
           "jockey_id": "jky_234669",
-          "draw": 5,
-          "number": 7,
-          "lbs": 127,
-          "ofr": "77",
-          "last_run": 55,
-          "form": "271-04",
-          "headgear": "t"
+          "draw": 6,
+          "number": 5,
+          "lbs": 133,
+          "ofr": "62",
+          "last_run": 8,
+          "form": "9-0612",
+          "headgear": "tb"
         },
         {
           "source": "the_racing_api",
@@ -1352,61 +1555,59 @@
           "date": "2026-07-15",
           "off_time": "3:40",
           "off_dt": "2026-07-15T15:40:00+01:00",
-          "race_name": "Le Veinard 2026. Racing And Info Handicap Stakes",
+          "race_name": "Le Veinard 2026. Racing And Info Handicap",
           "distance_f": 6.0,
           "race_class": "Class 4",
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 8,
-          "horse": "Kody B",
-          "horse_id": "hrs_56127701",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Craig Lidster",
-          "trainer_id": "trn_351099",
-          "jockey": "Tom Eaves",
-          "jockey_id": "jky_230493",
-          "draw": 4,
-          "number": 5,
-          "lbs": 134,
-          "ofr": "77",
-          "last_run": 4,
-          "form": "71-045",
-          "headgear": "tp"
+          "horse": "Dream Deal",
+          "horse_id": "hrs_26369812",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "Tim Easterby",
+          "trainer_id": "trn_91368",
+          "jockey": "David Allan",
+          "jockey_id": "jky_234669",
+          "draw": 8,
+          "number": 8,
+          "lbs": 126,
+          "ofr": "63",
+          "last_run": 8,
+          "form": "-06122",
+          "headgear": "tb"
         }
       ],
       "profile_notes": [
         "Recent run timing"
       ],
       "favourite_course": {
-        "value": "Chester",
+        "value": "Pontefract",
         "runs": 1
       },
       "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
+        "value": 5.0,
+        "runs": 1
       },
       "favourite_going": {
         "value": "Good",
         "runs": 1
       },
       "favourite_class": {
-        "value": "Class 4",
-        "runs": 2
+        "value": "Class 5",
+        "runs": 1
       },
       "course_suitability_score": 55,
-      "distance_suitability_score": 90,
+      "distance_suitability_score": 55,
       "going_suitability_score": 55,
-      "class_suitability_score": 90,
-      "suitability_score": 72,
+      "class_suitability_score": 55,
+      "suitability_score": 55,
       "horse_intelligence_score": 42,
-      "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
-      ],
+      "profile_strengths": [],
       "profile_cautions": [
         "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
         "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
@@ -1416,7 +1617,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": 46,
+        "latest_pulse_score": 57,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1424,8 +1625,7 @@
     }
   ],
   "notes": [
-    "Two Commanders is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "The Good Biscuit is flagged as a possible dark horse."
+    "The Good Biscuit is the top-rated Pulse IQ runner.",
+    "Two Commanders is flagged as a possible dark horse."
   ]
 }

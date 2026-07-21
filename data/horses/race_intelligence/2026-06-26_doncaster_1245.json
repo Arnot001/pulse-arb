@@ -4,7 +4,7 @@
   "course": "Doncaster",
   "time": "12:45",
   "race_name": "Sky Sports Racing Sky 415 Handicap",
-  "field_size": 5,
+  "field_size": 4,
   "average_intelligence": 27.0,
   "top_score": 27,
   "second_score": 27,
@@ -319,10 +319,10 @@
     }
   },
   "dark_horse": {
-    "horse": "Pennine Way",
-    "horse_id": "hrs_57439249",
+    "horse": "Sprinting Speed",
+    "horse_id": "hrs_55061937",
     "age": 3,
-    "sex": "filly",
+    "sex": "colt",
     "latest_course": "Doncaster",
     "latest_time": "12:45",
     "latest_race": "Sky Sports Racing Sky 415 Handicap",
@@ -331,13 +331,13 @@
     "latest_class": "Class 6",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Jack Channon",
-    "latest_jockey": "George Bass",
-    "latest_draw": 6,
-    "latest_weight_lbs": 128,
-    "official_rating": "58",
-    "recent_form": "54-67",
-    "last_run_days": 16,
+    "latest_trainer": "Jennie Candlish",
+    "latest_jockey": "Paul Mulrennan",
+    "latest_draw": 1,
+    "latest_weight_lbs": 133,
+    "official_rating": "63",
+    "recent_form": "68-058",
+    "last_run_days": 39,
     "profile_runs": 2,
     "courses_seen": {
       "Doncaster": 2
@@ -352,10 +352,10 @@
       "Class 6": 2
     },
     "trainers_seen": {
-      "Jack Channon": 2
+      "Jennie Candlish": 2
     },
     "jockeys_seen": {
-      "George Bass": 2
+      "Paul Mulrennan": 2
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
@@ -376,22 +376,22 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 9,
-        "horse": "Pennine Way",
-        "horse_id": "hrs_57439249",
+        "horse": "Sprinting Speed",
+        "horse_id": "hrs_55061937",
         "age": 3,
-        "sex": "filly",
-        "trainer": "Jack Channon",
-        "trainer_id": "trn_361449",
-        "jockey": "George Bass",
-        "jockey_id": "jky_290508",
-        "draw": 6,
-        "number": 8,
-        "lbs": 128,
-        "ofr": "58",
-        "last_run": 16,
-        "form": "54-67",
-        "headgear": "",
-        "_stored_at": "2026-06-26T08:14:10.474834+00:00"
+        "sex": "colt",
+        "trainer": "Jennie Candlish",
+        "trainer_id": "trn_139968",
+        "jockey": "Paul Mulrennan",
+        "jockey_id": "jky_238113",
+        "draw": 1,
+        "number": 5,
+        "lbs": 133,
+        "ofr": "63",
+        "last_run": 39,
+        "form": "68-058",
+        "headgear": "tp",
+        "_stored_at": "2026-06-26T08:14:10.444495+00:00"
       },
       {
         "source": "the_racing_api",
@@ -407,25 +407,27 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 9,
-        "horse": "Pennine Way",
-        "horse_id": "hrs_57439249",
+        "horse": "Sprinting Speed",
+        "horse_id": "hrs_55061937",
         "age": 3,
-        "sex": "filly",
-        "trainer": "Jack Channon",
-        "trainer_id": "trn_361449",
-        "jockey": "George Bass",
-        "jockey_id": "jky_290508",
-        "draw": 6,
-        "number": 8,
-        "lbs": 128,
-        "ofr": "58",
-        "last_run": 16,
-        "form": "54-67",
-        "headgear": "",
-        "_stored_at": "2026-06-28T12:42:22.934404+00:00"
+        "sex": "colt",
+        "trainer": "Jennie Candlish",
+        "trainer_id": "trn_139968",
+        "jockey": "Paul Mulrennan",
+        "jockey_id": "jky_238113",
+        "draw": 1,
+        "number": 5,
+        "lbs": 133,
+        "ofr": "63",
+        "last_run": 39,
+        "form": "68-058",
+        "headgear": "tp",
+        "_stored_at": "2026-06-28T12:42:22.885792+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Low draw today"
+    ],
     "favourite_course": {
       "value": "Doncaster",
       "runs": 2
@@ -733,158 +735,6 @@
       "profile_notes": [
         "Recent run timing"
       ],
-      "favourite_course": {
-        "value": "Doncaster",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 2
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Doncaster",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
-    },
-    {
-      "horse": "Pennine Way",
-      "horse_id": "hrs_57439249",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Doncaster",
-      "latest_time": "12:45",
-      "latest_race": "Sky Sports Racing Sky 415 Handicap",
-      "latest_date": "2026-06-26",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Jack Channon",
-      "latest_jockey": "George Bass",
-      "latest_draw": 6,
-      "latest_weight_lbs": 128,
-      "official_rating": "58",
-      "recent_form": "54-67",
-      "last_run_days": 16,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Doncaster": 2
-      },
-      "distances_seen": {
-        "6.0": 2
-      },
-      "goings_seen": {
-        "Good To Firm": 2
-      },
-      "classes_seen": {
-        "Class 6": 2
-      },
-      "trainers_seen": {
-        "Jack Channon": 2
-      },
-      "jockeys_seen": {
-        "George Bass": 2
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977563",
-          "course": "Doncaster",
-          "date": "2026-06-26",
-          "off_time": "12:45",
-          "off_dt": "2026-06-26T12:45:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Pennine Way",
-          "horse_id": "hrs_57439249",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Jack Channon",
-          "trainer_id": "trn_361449",
-          "jockey": "George Bass",
-          "jockey_id": "jky_290508",
-          "draw": 6,
-          "number": 8,
-          "lbs": 128,
-          "ofr": "58",
-          "last_run": 16,
-          "form": "54-67",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:10.474834+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977563",
-          "course": "Doncaster",
-          "date": "2026-06-26",
-          "off_time": "12:45",
-          "off_dt": "2026-06-26T12:45:00+01:00",
-          "race_name": "Sky Sports Racing Sky 415 Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Pennine Way",
-          "horse_id": "hrs_57439249",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Jack Channon",
-          "trainer_id": "trn_361449",
-          "jockey": "George Bass",
-          "jockey_id": "jky_290508",
-          "draw": 6,
-          "number": 8,
-          "lbs": 128,
-          "ofr": "58",
-          "last_run": 16,
-          "form": "54-67",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:22.934404+00:00"
-        }
-      ],
-      "profile_notes": [],
       "favourite_course": {
         "value": "Doncaster",
         "runs": 2
@@ -1242,6 +1092,6 @@
     "Maximum Velocity is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Pennine Way is flagged as a possible dark horse."
+    "Sprinting Speed is flagged as a possible dark horse."
   ]
 }

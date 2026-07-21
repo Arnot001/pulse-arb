@@ -5,11 +5,11 @@
   "time": "5:10",
   "race_name": "Irish EBF Median Sires Series Fillies Maiden",
   "field_size": 6,
-  "average_intelligence": 23.17,
-  "top_score": 24,
-  "second_score": 24,
-  "gap": 0,
-  "confidence_score": 19,
+  "average_intelligence": 45.0,
+  "top_score": 50,
+  "second_score": 48,
+  "gap": 2,
+  "confidence_score": 42,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -51,8 +51,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 57,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +1"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -83,7 +89,7 @@
         "last_run": 21,
         "form": "5",
         "headgear": "",
-        "_stored_at": "2026-07-02T04:58:41.787171+00:00"
+        "_stored_at": "2026-07-02T00:01:32.757078+00:00"
       }
     ],
     "profile_notes": [
@@ -107,14 +113,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 50,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -123,15 +128,15 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 57,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Ippy",
-    "horse_id": "hrs_66272171",
+    "horse": "Sister Nancy",
+    "horse_id": "hrs_65225132",
     "age": 2,
     "sex": "filly",
     "latest_course": "Bellewstown",
@@ -142,13 +147,13 @@
     "latest_class": "",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "John S O'Donoghue",
-    "latest_jockey": "Ronan Whelan",
-    "latest_draw": 9,
-    "latest_weight_lbs": 129,
+    "latest_trainer": "Daniel McLoughlin",
+    "latest_jockey": "Nathan Crosse",
+    "latest_draw": 6,
+    "latest_weight_lbs": 127,
     "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
+    "recent_form": "4",
+    "last_run_days": 32,
     "profile_runs": 1,
     "courses_seen": {
       "Bellewstown": 1
@@ -161,15 +166,20 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "John S O'Donoghue": 1
+      "Daniel McLoughlin": 1
     },
     "jockeys_seen": {
-      "Ronan Whelan": 1
+      "Nathan Crosse": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 54,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Stable in form +2 (1/1 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -185,22 +195,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 9,
-        "horse": "Ippy",
-        "horse_id": "hrs_66272171",
+        "horse": "Sister Nancy",
+        "horse_id": "hrs_65225132",
         "age": 2,
         "sex": "filly",
-        "trainer": "John S O'Donoghue",
-        "trainer_id": "trn_351711",
-        "jockey": "Ronan Whelan",
-        "jockey_id": "jky_265689",
-        "draw": 9,
-        "number": 2,
-        "lbs": 129,
+        "trainer": "Daniel McLoughlin",
+        "trainer_id": "trn_371457",
+        "jockey": "Nathan Crosse",
+        "jockey_id": "jky_288798",
+        "draw": 6,
+        "number": 7,
+        "lbs": 127,
         "ofr": "-",
-        "last_run": null,
-        "form": "",
-        "headgear": "h",
-        "_stored_at": "2026-07-02T04:58:41.807758+00:00"
+        "last_run": 32,
+        "form": "4",
+        "headgear": "",
+        "_stored_at": "2026-07-02T00:01:32.891518+00:00"
       }
     ],
     "profile_notes": [],
@@ -222,14 +232,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 48,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -238,7 +247,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 54,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -283,8 +292,12 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 50,
+    "latest_notes": [
+      "Helpful draw",
+      "Stable flying +4 (4/6 last 14 days)",
+      "Jockey in form +2 (2/13 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -315,7 +328,7 @@
         "last_run": null,
         "form": "",
         "headgear": "",
-        "_stored_at": "2026-07-02T04:58:41.892879+00:00"
+        "_stored_at": "2026-07-02T00:01:32.867913+00:00"
       }
     ],
     "profile_notes": [
@@ -339,14 +352,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 46,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -355,7 +367,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 50,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -401,8 +413,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 57,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -433,7 +451,7 @@
           "last_run": 21,
           "form": "5",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:41.787171+00:00"
+          "_stored_at": "2026-07-02T00:01:32.757078+00:00"
         }
       ],
       "profile_notes": [
@@ -457,14 +475,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -473,239 +490,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Ippy",
-      "horse_id": "hrs_66272171",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Bellewstown",
-      "latest_time": "5:10",
-      "latest_race": "Irish EBF Median Sires Series Fillies Maiden",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "John S O'Donoghue",
-      "latest_jockey": "Ronan Whelan",
-      "latest_draw": 9,
-      "latest_weight_lbs": 129,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "John S O'Donoghue": 1
-      },
-      "jockeys_seen": {
-        "Ronan Whelan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007970",
-          "course": "Bellewstown",
-          "date": "2026-07-02",
-          "off_time": "5:10",
-          "off_dt": "2026-07-02T17:10:00+01:00",
-          "race_name": "Irish EBF Median Sires Series Fillies Maiden",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Ippy",
-          "horse_id": "hrs_66272171",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "John S O'Donoghue",
-          "trainer_id": "trn_351711",
-          "jockey": "Ronan Whelan",
-          "jockey_id": "jky_265689",
-          "draw": 9,
-          "number": 2,
-          "lbs": 129,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "h",
-          "_stored_at": "2026-07-02T04:58:41.807758+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Party In Vegas",
-      "horse_id": "hrs_66272395",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Bellewstown",
-      "latest_time": "5:10",
-      "latest_race": "Irish EBF Median Sires Series Fillies Maiden",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Joseph Patrick O'Brien",
-      "latest_jockey": "Dylan Browne McMonagle",
-      "latest_draw": 1,
-      "latest_weight_lbs": 127,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Joseph Patrick O'Brien": 1
-      },
-      "jockeys_seen": {
-        "Dylan Browne McMonagle": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12007970",
-          "course": "Bellewstown",
-          "date": "2026-07-02",
-          "off_time": "5:10",
-          "off_dt": "2026-07-02T17:10:00+01:00",
-          "race_name": "Irish EBF Median Sires Series Fillies Maiden",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Party In Vegas",
-          "horse_id": "hrs_66272395",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Joseph Patrick O'Brien",
-          "trainer_id": "trn_289305",
-          "jockey": "Dylan Browne McMonagle",
-          "jockey_id": "jky_299181",
-          "draw": 1,
-          "number": 6,
-          "lbs": 127,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-07-02T04:58:41.892879+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 57,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -750,8 +535,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 54,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Stable in form +2 (1/1 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -782,7 +572,7 @@
           "last_run": 32,
           "form": "4",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:41.913688+00:00"
+          "_stored_at": "2026-07-02T00:01:32.891518+00:00"
         }
       ],
       "profile_notes": [],
@@ -804,14 +594,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -820,7 +609,244 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 54,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Party In Vegas",
+      "horse_id": "hrs_66272395",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Bellewstown",
+      "latest_time": "5:10",
+      "latest_race": "Irish EBF Median Sires Series Fillies Maiden",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Joseph Patrick O'Brien",
+      "latest_jockey": "Dylan Browne McMonagle",
+      "latest_draw": 1,
+      "latest_weight_lbs": 127,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Joseph Patrick O'Brien": 1
+      },
+      "jockeys_seen": {
+        "Dylan Browne McMonagle": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 50,
+      "latest_notes": [
+        "Helpful draw",
+        "Stable flying +4 (4/6 last 14 days)",
+        "Jockey in form +2 (2/13 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007970",
+          "course": "Bellewstown",
+          "date": "2026-07-02",
+          "off_time": "5:10",
+          "off_dt": "2026-07-02T17:10:00+01:00",
+          "race_name": "Irish EBF Median Sires Series Fillies Maiden",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Party In Vegas",
+          "horse_id": "hrs_66272395",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Joseph Patrick O'Brien",
+          "trainer_id": "trn_289305",
+          "jockey": "Dylan Browne McMonagle",
+          "jockey_id": "jky_299181",
+          "draw": 1,
+          "number": 6,
+          "lbs": 127,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-02T00:01:32.867913+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 50,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Ippy",
+      "horse_id": "hrs_66272171",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Bellewstown",
+      "latest_time": "5:10",
+      "latest_race": "Irish EBF Median Sires Series Fillies Maiden",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "John S O'Donoghue",
+      "latest_jockey": "Ronan Whelan",
+      "latest_draw": 9,
+      "latest_weight_lbs": 129,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "John S O'Donoghue": 1
+      },
+      "jockeys_seen": {
+        "Ronan Whelan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 44,
+      "latest_notes": [
+        "Stable in form +2 (1/1 last 14 days)",
+        "Jockey in form +2 (1/2 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12007970",
+          "course": "Bellewstown",
+          "date": "2026-07-02",
+          "off_time": "5:10",
+          "off_dt": "2026-07-02T17:10:00+01:00",
+          "race_name": "Irish EBF Median Sires Series Fillies Maiden",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Ippy",
+          "horse_id": "hrs_66272171",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "John S O'Donoghue",
+          "trainer_id": "trn_351711",
+          "jockey": "Ronan Whelan",
+          "jockey_id": "jky_265689",
+          "draw": 9,
+          "number": 2,
+          "lbs": 129,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "h",
+          "_stored_at": "2026-07-02T00:01:32.782373+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 44,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 44,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -865,8 +891,11 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 44,
+      "latest_notes": [
+        "Helpful draw",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -897,7 +926,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:41.850348+00:00"
+          "_stored_at": "2026-07-02T00:01:32.824315+00:00"
         }
       ],
       "profile_notes": [],
@@ -919,14 +948,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 44,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -935,7 +963,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 44,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -982,8 +1010,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 44,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Stable in form +2 (1/1 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1014,7 +1046,7 @@
           "last_run": 11,
           "form": "60",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:28.634131+00:00"
+          "_stored_at": "2026-06-30T01:49:58.828574+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1045,7 +1077,7 @@
           "last_run": 13,
           "form": "60",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:41.871395+00:00"
+          "_stored_at": "2026-07-02T00:01:32.847955+00:00"
         }
       ],
       "profile_notes": [
@@ -1069,14 +1101,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 62,
-      "horse_intelligence_score": 19,
+      "horse_intelligence_score": 38,
       "profile_strengths": [
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1085,7 +1116,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 44,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2

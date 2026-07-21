@@ -4,14 +4,14 @@
   "course": "Nottingham",
   "time": "7:00",
   "race_name": "Gold Star Gallop Handicap",
-  "field_size": 4,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 3,
+  "average_intelligence": 51.67,
+  "top_score": 58,
+  "second_score": 49,
+  "gap": 9,
+  "confidence_score": 59,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
     "horse": "Beyond Borders",
     "horse_id": "hrs_35925575",
@@ -53,8 +53,15 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 69,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -69,7 +76,7 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 7,
+        "field_size": 8,
         "horse": "Beyond Borders",
         "horse_id": "hrs_35925575",
         "age": 5,
@@ -111,15 +118,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 58,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -128,7 +135,7 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 69,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -175,8 +182,12 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 48,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -191,7 +202,7 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 7,
+        "field_size": 8,
         "horse": "Duskaura",
         "horse_id": "hrs_52862740",
         "age": 3,
@@ -231,7 +242,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 49,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -239,7 +250,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -248,16 +258,16 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 48,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Emperor Caradoc",
-    "horse_id": "hrs_26247137",
-    "age": 7,
+    "horse": "Macanudo",
+    "horse_id": "hrs_35767543",
+    "age": 5,
     "sex": "gelding",
     "latest_course": "Nottingham",
     "latest_time": "7:00",
@@ -267,161 +277,43 @@
     "latest_class": "Class 5",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Paul Midgley",
-    "latest_jockey": "David Nolan",
-    "latest_draw": 1,
-    "latest_weight_lbs": 141,
-    "official_rating": "74",
-    "recent_form": "401356",
-    "last_run_days": 18,
-    "profile_runs": 5,
+    "latest_trainer": "Ian Williams",
+    "latest_jockey": "Mikey Sheehy",
+    "latest_draw": 6,
+    "latest_weight_lbs": 123,
+    "official_rating": "56",
+    "recent_form": "4647-0",
+    "last_run_days": 16,
+    "profile_runs": 1,
     "courses_seen": {
-      "Nottingham": 5
+      "Nottingham": 1
     },
     "distances_seen": {
-      "6.0": 5
+      "6.0": 1
     },
     "goings_seen": {
-      "Good To Firm": 5
+      "Good To Firm": 1
     },
     "classes_seen": {
-      "Class 5": 5
+      "Class 5": 1
     },
     "trainers_seen": {
-      "Paul Midgley": 5
+      "Ian Williams": 1
     },
     "jockeys_seen": {
-      "David Nolan": 5
+      "Mikey Sheehy": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 47,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Trainer bonus +2",
+      "Stable in form +2 (1/1 last 14 days)"
+    ],
     "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977238",
-        "course": "Nottingham",
-        "date": "2026-06-25",
-        "off_time": "12:30",
-        "off_dt": "2026-06-25T12:30:00+01:00",
-        "race_name": "Neigh More Early Starts For Martin Stoneman Handicap",
-        "distance_f": 6.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Emperor Caradoc",
-        "horse_id": "hrs_26247137",
-        "age": 7,
-        "sex": "gelding",
-        "trainer": "Paul Midgley",
-        "trainer_id": "trn_143532",
-        "jockey": "David Nolan",
-        "jockey_id": "jky_42996",
-        "draw": 3,
-        "number": null,
-        "lbs": 138,
-        "ofr": "75",
-        "last_run": 9,
-        "form": "401356",
-        "headgear": "p",
-        "_stored_at": "2026-06-25T14:16:21.253182+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977238",
-        "course": "Nottingham",
-        "date": "2026-06-25",
-        "off_time": "12:30",
-        "off_dt": "2026-06-25T12:30:00+01:00",
-        "race_name": "Neigh More Early Starts For Martin Stoneman Handicap",
-        "distance_f": 6.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Emperor Caradoc",
-        "horse_id": "hrs_26247137",
-        "age": 7,
-        "sex": "gelding",
-        "trainer": "Paul Midgley",
-        "trainer_id": "trn_143532",
-        "jockey": "David Nolan",
-        "jockey_id": "jky_42996",
-        "draw": 3,
-        "number": null,
-        "lbs": 138,
-        "ofr": "75",
-        "last_run": 9,
-        "form": "401356",
-        "headgear": "p",
-        "_stored_at": "2026-06-25T17:11:31.039379+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977238",
-        "course": "Nottingham",
-        "date": "2026-06-25",
-        "off_time": "12:30",
-        "off_dt": "2026-06-25T12:30:00+01:00",
-        "race_name": "Neigh More Early Starts For Martin Stoneman Handicap",
-        "distance_f": 6.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Emperor Caradoc",
-        "horse_id": "hrs_26247137",
-        "age": 7,
-        "sex": "gelding",
-        "trainer": "Paul Midgley",
-        "trainer_id": "trn_143532",
-        "jockey": "David Nolan",
-        "jockey_id": "jky_42996",
-        "draw": 3,
-        "number": null,
-        "lbs": 138,
-        "ofr": "75",
-        "last_run": 9,
-        "form": "401356",
-        "headgear": "p",
-        "_stored_at": "2026-06-26T08:14:08.854398+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11977238",
-        "course": "Nottingham",
-        "date": "2026-06-25",
-        "off_time": "12:30",
-        "off_dt": "2026-06-25T12:30:00+01:00",
-        "race_name": "Neigh More Early Starts For Martin Stoneman Handicap",
-        "distance_f": 6.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Emperor Caradoc",
-        "horse_id": "hrs_26247137",
-        "age": 7,
-        "sex": "gelding",
-        "trainer": "Paul Midgley",
-        "trainer_id": "trn_143532",
-        "jockey": "David Nolan",
-        "jockey_id": "jky_42996",
-        "draw": 3,
-        "number": null,
-        "lbs": 138,
-        "ofr": "75",
-        "last_run": 9,
-        "form": "401356",
-        "headgear": "p",
-        "_stored_at": "2026-06-28T12:42:19.675595+00:00"
-      },
       {
         "source": "the_racing_api",
         "race_id": "rac_11989692",
@@ -435,50 +327,47 @@
         "race_type": "Flat",
         "going": "Good To Firm",
         "surface": "Turf",
-        "field_size": 7,
-        "horse": "Emperor Caradoc",
-        "horse_id": "hrs_26247137",
-        "age": 7,
+        "field_size": 8,
+        "horse": "Macanudo",
+        "horse_id": "hrs_35767543",
+        "age": 5,
         "sex": "gelding",
-        "trainer": "Paul Midgley",
-        "trainer_id": "trn_143532",
-        "jockey": "David Nolan",
-        "jockey_id": "jky_42996",
-        "draw": 1,
-        "number": 1,
-        "lbs": 141,
-        "ofr": "74",
-        "last_run": 18,
-        "form": "401356",
-        "headgear": "p"
+        "trainer": "Ian Williams",
+        "trainer_id": "trn_112185",
+        "jockey": "Mikey Sheehy",
+        "jockey_id": "jky_298917",
+        "draw": 6,
+        "number": 8,
+        "lbs": 123,
+        "ofr": "56",
+        "last_run": 16,
+        "form": "4647-0",
+        "headgear": ""
       }
     ],
-    "profile_notes": [
-      "Profile has multiple stored runs",
-      "Low draw today"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Nottingham",
-      "runs": 5
+      "runs": 1
     },
     "favourite_distance": {
       "value": 6.0,
-      "runs": 5
+      "runs": 1
     },
     "favourite_going": {
       "value": "Good To Firm",
-      "runs": 5
+      "runs": 1
     },
     "favourite_class": {
       "value": "Class 5",
-      "runs": 5
+      "runs": 1
     },
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 48,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -486,7 +375,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score"
+      "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
@@ -494,10 +383,10 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 47,
       "average_pulse_score": 0,
-      "profile_runs": 5,
-      "runs_count": 5
+      "profile_runs": 1,
+      "runs_count": 1
     }
   },
   "runners": [
@@ -542,8 +431,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 69,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -558,7 +454,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 7,
+          "field_size": 8,
           "horse": "Beyond Borders",
           "horse_id": "hrs_35925575",
           "age": 5,
@@ -600,15 +496,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 58,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -617,7 +513,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 69,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -664,8 +560,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -680,7 +580,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 7,
+          "field_size": 8,
           "horse": "Duskaura",
           "horse_id": "hrs_52862740",
           "age": 3,
@@ -720,7 +620,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -728,7 +628,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -737,256 +636,10 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 48,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
-    },
-    {
-      "horse": "Emperor Caradoc",
-      "horse_id": "hrs_26247137",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Nottingham",
-      "latest_time": "7:00",
-      "latest_race": "Gold Star Gallop Handicap",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Paul Midgley",
-      "latest_jockey": "David Nolan",
-      "latest_draw": 1,
-      "latest_weight_lbs": 141,
-      "official_rating": "74",
-      "recent_form": "401356",
-      "last_run_days": 18,
-      "profile_runs": 5,
-      "courses_seen": {
-        "Nottingham": 5
-      },
-      "distances_seen": {
-        "6.0": 5
-      },
-      "goings_seen": {
-        "Good To Firm": 5
-      },
-      "classes_seen": {
-        "Class 5": 5
-      },
-      "trainers_seen": {
-        "Paul Midgley": 5
-      },
-      "jockeys_seen": {
-        "David Nolan": 5
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977238",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "12:30",
-          "off_dt": "2026-06-25T12:30:00+01:00",
-          "race_name": "Neigh More Early Starts For Martin Stoneman Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Emperor Caradoc",
-          "horse_id": "hrs_26247137",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Paul Midgley",
-          "trainer_id": "trn_143532",
-          "jockey": "David Nolan",
-          "jockey_id": "jky_42996",
-          "draw": 3,
-          "number": null,
-          "lbs": 138,
-          "ofr": "75",
-          "last_run": 9,
-          "form": "401356",
-          "headgear": "p",
-          "_stored_at": "2026-06-25T14:16:21.253182+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977238",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "12:30",
-          "off_dt": "2026-06-25T12:30:00+01:00",
-          "race_name": "Neigh More Early Starts For Martin Stoneman Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Emperor Caradoc",
-          "horse_id": "hrs_26247137",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Paul Midgley",
-          "trainer_id": "trn_143532",
-          "jockey": "David Nolan",
-          "jockey_id": "jky_42996",
-          "draw": 3,
-          "number": null,
-          "lbs": 138,
-          "ofr": "75",
-          "last_run": 9,
-          "form": "401356",
-          "headgear": "p",
-          "_stored_at": "2026-06-25T17:11:31.039379+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977238",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "12:30",
-          "off_dt": "2026-06-25T12:30:00+01:00",
-          "race_name": "Neigh More Early Starts For Martin Stoneman Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Emperor Caradoc",
-          "horse_id": "hrs_26247137",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Paul Midgley",
-          "trainer_id": "trn_143532",
-          "jockey": "David Nolan",
-          "jockey_id": "jky_42996",
-          "draw": 3,
-          "number": null,
-          "lbs": 138,
-          "ofr": "75",
-          "last_run": 9,
-          "form": "401356",
-          "headgear": "p",
-          "_stored_at": "2026-06-26T08:14:08.854398+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977238",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "12:30",
-          "off_dt": "2026-06-25T12:30:00+01:00",
-          "race_name": "Neigh More Early Starts For Martin Stoneman Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Emperor Caradoc",
-          "horse_id": "hrs_26247137",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Paul Midgley",
-          "trainer_id": "trn_143532",
-          "jockey": "David Nolan",
-          "jockey_id": "jky_42996",
-          "draw": 3,
-          "number": null,
-          "lbs": 138,
-          "ofr": "75",
-          "last_run": 9,
-          "form": "401356",
-          "headgear": "p",
-          "_stored_at": "2026-06-28T12:42:19.675595+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989692",
-          "course": "Nottingham",
-          "date": "2026-07-04",
-          "off_time": "7:00",
-          "off_dt": "2026-07-04T19:00:00+01:00",
-          "race_name": "Gold Star Gallop Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Emperor Caradoc",
-          "horse_id": "hrs_26247137",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Paul Midgley",
-          "trainer_id": "trn_143532",
-          "jockey": "David Nolan",
-          "jockey_id": "jky_42996",
-          "draw": 1,
-          "number": 1,
-          "lbs": 141,
-          "ofr": "74",
-          "last_run": 18,
-          "form": "401356",
-          "headgear": "p"
-        }
-      ],
-      "profile_notes": [
-        "Profile has multiple stored runs",
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Nottingham",
-        "runs": 5
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 5
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 5
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 5
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Nottingham",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 5,
-        "runs_count": 5
       }
     },
     {
@@ -1030,8 +683,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 47,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Trainer bonus +2",
+        "Stable in form +2 (1/1 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1046,7 +705,7 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 7,
+          "field_size": 8,
           "horse": "Macanudo",
           "horse_id": "hrs_35767543",
           "age": 5,
@@ -1086,7 +745,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1094,7 +753,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1103,7 +761,7 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 47,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1112,8 +770,6 @@
   ],
   "notes": [
     "Beyond Borders is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Emperor Caradoc is flagged as a possible dark horse."
+    "Macanudo is flagged as a possible dark horse."
   ]
 }

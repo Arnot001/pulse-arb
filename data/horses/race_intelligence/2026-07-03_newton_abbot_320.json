@@ -4,18 +4,18 @@
   "course": "Newton Abbot",
   "time": "3:20",
   "race_name": "St. Austell Brewery Mares' Handicap Hurdle",
-  "field_size": 5,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 6,
+  "average_intelligence": 53.83,
+  "top_score": 68,
+  "second_score": 63,
+  "gap": 5,
+  "confidence_score": 59,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
-    "horse": "At Sunrise",
-    "horse_id": "hrs_48953121",
-    "age": 5,
+    "horse": "Miss Kassiopi",
+    "horse_id": "hrs_38130631",
+    "age": 7,
     "sex": "mare",
     "latest_course": "Newton Abbot",
     "latest_time": "3:20",
@@ -25,13 +25,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "David Weston",
-    "latest_jockey": "NON-RUNNER",
+    "latest_trainer": "Dan Skelton",
+    "latest_jockey": "Harry Skelton",
     "latest_draw": 0,
-    "latest_weight_lbs": 146,
-    "official_rating": "75",
-    "recent_form": "/7P-45",
-    "last_run_days": 34,
+    "latest_weight_lbs": 167,
+    "official_rating": "96",
+    "recent_form": "213-72",
+    "last_run_days": 12,
     "profile_runs": 1,
     "courses_seen": {
       "Newton Abbot": 1
@@ -46,15 +46,25 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "David Weston": 1
+      "Dan Skelton": 1
     },
     "jockeys_seen": {
-      "NON-RUNNER": 1
+      "Harry Skelton": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 90,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Stable flying +4 (3/7 last 14 days)",
+      "Jockey bonus +2",
+      "Jockey flying +4 (3/6 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -70,25 +80,28 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 7,
-        "horse": "At Sunrise",
-        "horse_id": "hrs_48953121",
-        "age": 5,
+        "horse": "Miss Kassiopi",
+        "horse_id": "hrs_38130631",
+        "age": 7,
         "sex": "mare",
-        "trainer": "David Weston",
-        "trainer_id": "trn_263088",
-        "jockey": "NON-RUNNER",
-        "jockey_id": "jky_224913",
+        "trainer": "Dan Skelton",
+        "trainer_id": "trn_146430",
+        "jockey": "Harry Skelton",
+        "jockey_id": "jky_255654",
         "draw": 0,
-        "number": null,
-        "lbs": 146,
-        "ofr": "75",
-        "last_run": 34,
-        "form": "/7P-45",
-        "headgear": "h",
-        "_stored_at": "2026-07-03T04:58:47.832626+00:00"
+        "number": 2,
+        "lbs": 167,
+        "ofr": "96",
+        "last_run": 12,
+        "form": "213-72",
+        "headgear": "p",
+        "_stored_at": "2026-07-03T00:37:01.552184+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Elite latest Pulse Score",
+      "Recent run timing"
+    ],
     "favourite_course": {
       "value": "Newton Abbot",
       "runs": 1
@@ -110,15 +123,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 68,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -127,16 +140,16 @@
       "latest_distance_f": 21.5,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 90,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Bee's Kiss",
-    "horse_id": "hrs_48644526",
-    "age": 6,
+    "horse": "Ghost Jury",
+    "horse_id": "hrs_34598116",
+    "age": 7,
     "sex": "mare",
     "latest_course": "Newton Abbot",
     "latest_time": "3:20",
@@ -146,13 +159,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Jimmy Frost",
-    "latest_jockey": "Conor O'Farrell",
+    "latest_trainer": "Kayley Woollacott",
+    "latest_jockey": "Sean Bowen",
     "latest_draw": 0,
-    "latest_weight_lbs": 142,
-    "official_rating": "71",
-    "recent_form": "P097-P",
-    "last_run_days": 30,
+    "latest_weight_lbs": 145,
+    "official_rating": "74",
+    "recent_form": "U4-125",
+    "last_run_days": 31,
     "profile_runs": 1,
     "courses_seen": {
       "Newton Abbot": 1
@@ -167,15 +180,22 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Jimmy Frost": 1
+      "Kayley Woollacott": 1
     },
     "jockeys_seen": {
-      "Conor O'Farrell": 1
+      "Sean Bowen": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 80,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Jockey bonus +3",
+      "Jockey in form +2 (1/2 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -191,25 +211,27 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 7,
-        "horse": "Bee's Kiss",
-        "horse_id": "hrs_48644526",
-        "age": 6,
+        "horse": "Ghost Jury",
+        "horse_id": "hrs_34598116",
+        "age": 7,
         "sex": "mare",
-        "trainer": "Jimmy Frost",
-        "trainer_id": "trn_136665",
-        "jockey": "Conor O'Farrell",
-        "jockey_id": "jky_257538",
+        "trainer": "Kayley Woollacott",
+        "trainer_id": "trn_260100",
+        "jockey": "Sean Bowen",
+        "jockey_id": "jky_279558",
         "draw": 0,
-        "number": 8,
-        "lbs": 142,
-        "ofr": "71",
-        "last_run": 30,
-        "form": "P097-P",
-        "headgear": "p",
-        "_stored_at": "2026-07-03T04:58:47.808905+00:00"
+        "number": 7,
+        "lbs": 145,
+        "ofr": "74",
+        "last_run": 31,
+        "form": "U4-125",
+        "headgear": "",
+        "_stored_at": "2026-07-03T00:37:01.651962+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
     "favourite_course": {
       "value": "Newton Abbot",
       "runs": 1
@@ -231,15 +253,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 63,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -248,7 +270,7 @@
       "latest_distance_f": 21.5,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 80,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -295,8 +317,15 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 80,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Jockey bonus +3",
+      "Jockey in form +2 (1/2 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -327,10 +356,12 @@
         "last_run": 31,
         "form": "U4-125",
         "headgear": "",
-        "_stored_at": "2026-07-03T04:58:47.784612+00:00"
+        "_stored_at": "2026-07-03T00:37:01.651962+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
     "favourite_course": {
       "value": "Newton Abbot",
       "runs": 1
@@ -352,15 +383,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 63,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -369,7 +400,7 @@
       "latest_distance_f": 21.5,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 80,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -377,9 +408,9 @@
   },
   "runners": [
     {
-      "horse": "At Sunrise",
-      "horse_id": "hrs_48953121",
-      "age": 5,
+      "horse": "Miss Kassiopi",
+      "horse_id": "hrs_38130631",
+      "age": 7,
       "sex": "mare",
       "latest_course": "Newton Abbot",
       "latest_time": "3:20",
@@ -389,13 +420,13 @@
       "latest_class": "Class 5",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "David Weston",
-      "latest_jockey": "NON-RUNNER",
+      "latest_trainer": "Dan Skelton",
+      "latest_jockey": "Harry Skelton",
       "latest_draw": 0,
-      "latest_weight_lbs": 146,
-      "official_rating": "75",
-      "recent_form": "/7P-45",
-      "last_run_days": 34,
+      "latest_weight_lbs": 167,
+      "official_rating": "96",
+      "recent_form": "213-72",
+      "last_run_days": 12,
       "profile_runs": 1,
       "courses_seen": {
         "Newton Abbot": 1
@@ -410,15 +441,25 @@
         "Class 5": 1
       },
       "trainers_seen": {
-        "David Weston": 1
+        "Dan Skelton": 1
       },
       "jockeys_seen": {
-        "NON-RUNNER": 1
+        "Harry Skelton": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 90,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable flying +4 (3/7 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey flying +4 (3/6 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -434,146 +475,28 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 7,
-          "horse": "At Sunrise",
-          "horse_id": "hrs_48953121",
-          "age": 5,
+          "horse": "Miss Kassiopi",
+          "horse_id": "hrs_38130631",
+          "age": 7,
           "sex": "mare",
-          "trainer": "David Weston",
-          "trainer_id": "trn_263088",
-          "jockey": "NON-RUNNER",
-          "jockey_id": "jky_224913",
+          "trainer": "Dan Skelton",
+          "trainer_id": "trn_146430",
+          "jockey": "Harry Skelton",
+          "jockey_id": "jky_255654",
           "draw": 0,
-          "number": null,
-          "lbs": 146,
-          "ofr": "75",
-          "last_run": 34,
-          "form": "/7P-45",
-          "headgear": "h",
-          "_stored_at": "2026-07-03T04:58:47.832626+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Newton Abbot",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 21.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newton Abbot",
-        "latest_distance_f": 21.5,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Bee's Kiss",
-      "horse_id": "hrs_48644526",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "Newton Abbot",
-      "latest_time": "3:20",
-      "latest_race": "St. Austell Brewery Mares' Handicap Hurdle",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 21.5,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Jimmy Frost",
-      "latest_jockey": "Conor O'Farrell",
-      "latest_draw": 0,
-      "latest_weight_lbs": 142,
-      "official_rating": "71",
-      "recent_form": "P097-P",
-      "last_run_days": 30,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newton Abbot": 1
-      },
-      "distances_seen": {
-        "21.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Jimmy Frost": 1
-      },
-      "jockeys_seen": {
-        "Conor O'Farrell": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987495",
-          "course": "Newton Abbot",
-          "date": "2026-07-03",
-          "off_time": "3:20",
-          "off_dt": "2026-07-03T15:20:00+01:00",
-          "race_name": "St. Austell Brewery Mares' Handicap Hurdle",
-          "distance_f": 21.5,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Bee's Kiss",
-          "horse_id": "hrs_48644526",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "Jimmy Frost",
-          "trainer_id": "trn_136665",
-          "jockey": "Conor O'Farrell",
-          "jockey_id": "jky_257538",
-          "draw": 0,
-          "number": 8,
-          "lbs": 142,
-          "ofr": "71",
-          "last_run": 30,
-          "form": "P097-P",
+          "number": 2,
+          "lbs": 167,
+          "ofr": "96",
+          "last_run": 12,
+          "form": "213-72",
           "headgear": "p",
-          "_stored_at": "2026-07-03T04:58:47.808905+00:00"
+          "_stored_at": "2026-07-03T00:37:01.552184+00:00"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Elite latest Pulse Score",
+        "Recent run timing"
+      ],
       "favourite_course": {
         "value": "Newton Abbot",
         "runs": 1
@@ -595,15 +518,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 68,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -612,7 +535,7 @@
         "latest_distance_f": 21.5,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 90,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -659,8 +582,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 80,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey bonus +3",
+        "Jockey in form +2 (1/2 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -691,10 +621,12 @@
           "last_run": 31,
           "form": "U4-125",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:47.784612+00:00"
+          "_stored_at": "2026-07-03T00:37:01.651962+00:00"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
       "favourite_course": {
         "value": "Newton Abbot",
         "runs": 1
@@ -716,15 +648,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 63,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -733,7 +665,7 @@
         "latest_distance_f": 21.5,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 80,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -780,8 +712,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 62,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +3",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -812,7 +751,7 @@
           "last_run": 21,
           "form": "426-74",
           "headgear": "b",
-          "_stored_at": "2026-07-03T04:58:47.711343+00:00"
+          "_stored_at": "2026-07-03T00:37:01.586002+00:00"
         }
       ],
       "profile_notes": [],
@@ -837,7 +776,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 55,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -845,7 +784,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -854,7 +792,7 @@
         "latest_distance_f": 21.5,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 62,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -901,8 +839,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 55,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -933,7 +876,7 @@
           "last_run": 30,
           "form": "P60-35",
           "headgear": "b",
-          "_stored_at": "2026-07-03T04:58:47.664002+00:00"
+          "_stored_at": "2026-07-03T00:37:01.535772+00:00"
         }
       ],
       "profile_notes": [],
@@ -958,7 +901,260 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 21.5,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 55,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Bee's Kiss",
+      "horse_id": "hrs_48644526",
+      "age": 6,
+      "sex": "mare",
+      "latest_course": "Newton Abbot",
+      "latest_time": "3:20",
+      "latest_race": "St. Austell Brewery Mares' Handicap Hurdle",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 21.5,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jimmy Frost",
+      "latest_jockey": "Conor O'Farrell",
+      "latest_draw": 0,
+      "latest_weight_lbs": 142,
+      "official_rating": "71",
+      "recent_form": "P097-P",
+      "last_run_days": 30,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newton Abbot": 1
+      },
+      "distances_seen": {
+        "21.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Jimmy Frost": 1
+      },
+      "jockeys_seen": {
+        "Conor O'Farrell": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 47,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987495",
+          "course": "Newton Abbot",
+          "date": "2026-07-03",
+          "off_time": "3:20",
+          "off_dt": "2026-07-03T15:20:00+01:00",
+          "race_name": "St. Austell Brewery Mares' Handicap Hurdle",
+          "distance_f": 21.5,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Bee's Kiss",
+          "horse_id": "hrs_48644526",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Jimmy Frost",
+          "trainer_id": "trn_136665",
+          "jockey": "Conor O'Farrell",
+          "jockey_id": "jky_257538",
+          "draw": 0,
+          "number": 8,
+          "lbs": 142,
+          "ofr": "71",
+          "last_run": 30,
+          "form": "P097-P",
+          "headgear": "p",
+          "_stored_at": "2026-07-03T00:37:01.685617+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 21.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 21.5,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 47,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "At Sunrise",
+      "horse_id": "hrs_48953121",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Newton Abbot",
+      "latest_time": "3:20",
+      "latest_race": "St. Austell Brewery Mares' Handicap Hurdle",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 21.5,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "David Weston",
+      "latest_jockey": "NON-RUNNER",
+      "latest_draw": 0,
+      "latest_weight_lbs": 146,
+      "official_rating": "75",
+      "recent_form": "/7P-45",
+      "last_run_days": 34,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newton Abbot": 1
+      },
+      "distances_seen": {
+        "21.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "David Weston": 1
+      },
+      "jockeys_seen": {
+        "NON-RUNNER": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 23,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Non-runner risk",
+        "Jockey concern -2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987495",
+          "course": "Newton Abbot",
+          "date": "2026-07-03",
+          "off_time": "3:20",
+          "off_dt": "2026-07-03T15:20:00+01:00",
+          "race_name": "St. Austell Brewery Mares' Handicap Hurdle",
+          "distance_f": 21.5,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "At Sunrise",
+          "horse_id": "hrs_48953121",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "David Weston",
+          "trainer_id": "trn_263088",
+          "jockey": "NON-RUNNER",
+          "jockey_id": "jky_224913",
+          "draw": 0,
+          "number": null,
+          "lbs": 146,
+          "ofr": "75",
+          "last_run": 34,
+          "form": "/7P-45",
+          "headgear": "h",
+          "_stored_at": "2026-07-03T00:37:01.702018+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 21.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 37,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -975,7 +1171,7 @@
         "latest_distance_f": 21.5,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 23,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -983,9 +1179,7 @@
     }
   ],
   "notes": [
-    "At Sunrise is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
+    "Miss Kassiopi is the top-rated Pulse IQ runner.",
     "Ghost Jury is flagged as a possible dark horse."
   ]
 }

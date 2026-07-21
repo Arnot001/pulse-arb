@@ -4,17 +4,17 @@
   "course": "Fairyhouse",
   "time": "7:25",
   "race_name": "Irish Stallion Farms EBF Maiden",
-  "field_size": 11,
-  "average_intelligence": 23.27,
-  "top_score": 24,
-  "second_score": 24,
-  "gap": 0,
-  "confidence_score": 19,
+  "field_size": 13,
+  "average_intelligence": 45.38,
+  "top_score": 54,
+  "second_score": 51,
+  "gap": 3,
+  "confidence_score": 46,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Auguste Gusteau",
-    "horse_id": "hrs_56127792",
+    "horse": "Sindagan",
+    "horse_id": "hrs_56843941",
     "age": 3,
     "sex": "gelding",
     "latest_course": "Fairyhouse",
@@ -25,13 +25,13 @@
     "latest_class": "",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "M A Cahill",
-    "latest_jockey": "Luke McAteer",
-    "latest_draw": 11,
+    "latest_trainer": "J P Murtagh",
+    "latest_jockey": "Ben Coen",
+    "latest_draw": 9,
     "latest_weight_lbs": 134,
-    "official_rating": "-",
-    "recent_form": "679",
-    "last_run_days": 43,
+    "official_rating": "83",
+    "recent_form": "34-23",
+    "last_run_days": 77,
     "profile_runs": 1,
     "courses_seen": {
       "Fairyhouse": 1
@@ -44,15 +44,20 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "M A Cahill": 1
+      "J P Murtagh": 1
     },
     "jockeys_seen": {
-      "Luke McAteer": 1
+      "Ben Coen": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 66,
+    "latest_notes": [
+      "Strong recent form",
+      "Stable in form +2 (1/5 last 14 days)",
+      "Jockey bonus +1",
+      "Jockey flying +4 (6/9 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -68,20 +73,20 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 15,
-        "horse": "Auguste Gusteau",
-        "horse_id": "hrs_56127792",
+        "horse": "Sindagan",
+        "horse_id": "hrs_56843941",
         "age": 3,
         "sex": "gelding",
-        "trainer": "M A Cahill",
-        "trainer_id": "trn_182250",
-        "jockey": "Luke McAteer",
-        "jockey_id": "jky_289707",
-        "draw": 11,
-        "number": 3,
+        "trainer": "J P Murtagh",
+        "trainer_id": "trn_253620",
+        "jockey": "Ben Coen",
+        "jockey_id": "jky_291093",
+        "draw": 9,
+        "number": 11,
         "lbs": 134,
-        "ofr": "-",
-        "last_run": 43,
-        "form": "679",
+        "ofr": "83",
+        "last_run": 77,
+        "form": "34-23",
         "headgear": ""
       }
     ],
@@ -104,14 +109,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 54,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
+      "Today's going matches known profile preference",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -120,7 +125,7 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 66,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -165,8 +170,13 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 61,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Jockey in form +2 (3/15 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -220,14 +230,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 51,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -236,15 +245,15 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 61,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Cladach",
-    "horse_id": "hrs_66494218",
+    "horse": "Shay's Dream",
+    "horse_id": "hrs_59025302",
     "age": 3,
     "sex": "gelding",
     "latest_course": "Fairyhouse",
@@ -256,12 +265,12 @@
     "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "Joseph Patrick O'Brien",
-    "latest_jockey": "Scott McCullagh",
-    "latest_draw": 10,
+    "latest_jockey": "Nathan Crosse",
+    "latest_draw": 6,
     "latest_weight_lbs": 134,
     "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
+    "recent_form": "0-0",
+    "last_run_days": 28,
     "profile_runs": 1,
     "courses_seen": {
       "Fairyhouse": 1
@@ -277,12 +286,19 @@
       "Joseph Patrick O'Brien": 1
     },
     "jockeys_seen": {
-      "Scott McCullagh": 1
+      "Nathan Crosse": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 51,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Stable flying +4 (10/14 last 14 days)",
+      "Jockey bonus +1"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -298,20 +314,20 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 15,
-        "horse": "Cladach",
-        "horse_id": "hrs_66494218",
+        "horse": "Shay's Dream",
+        "horse_id": "hrs_59025302",
         "age": 3,
         "sex": "gelding",
         "trainer": "Joseph Patrick O'Brien",
         "trainer_id": "trn_289305",
-        "jockey": "Scott McCullagh",
-        "jockey_id": "jky_288162",
-        "draw": 10,
-        "number": 6,
+        "jockey": "Nathan Crosse",
+        "jockey_id": "jky_288798",
+        "draw": 6,
+        "number": 10,
         "lbs": 134,
         "ofr": "-",
-        "last_run": null,
-        "form": "",
+        "last_run": 28,
+        "form": "0-0",
         "headgear": ""
       }
     ],
@@ -334,14 +350,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 47,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -350,7 +365,7 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 51,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -358,8 +373,8 @@
   },
   "runners": [
     {
-      "horse": "Auguste Gusteau",
-      "horse_id": "hrs_56127792",
+      "horse": "Sindagan",
+      "horse_id": "hrs_56843941",
       "age": 3,
       "sex": "gelding",
       "latest_course": "Fairyhouse",
@@ -370,13 +385,13 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "M A Cahill",
-      "latest_jockey": "Luke McAteer",
-      "latest_draw": 11,
+      "latest_trainer": "J P Murtagh",
+      "latest_jockey": "Ben Coen",
+      "latest_draw": 9,
       "latest_weight_lbs": 134,
-      "official_rating": "-",
-      "recent_form": "679",
-      "last_run_days": 43,
+      "official_rating": "83",
+      "recent_form": "34-23",
+      "last_run_days": 77,
       "profile_runs": 1,
       "courses_seen": {
         "Fairyhouse": 1
@@ -389,15 +404,20 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "M A Cahill": 1
+        "J P Murtagh": 1
       },
       "jockeys_seen": {
-        "Luke McAteer": 1
+        "Ben Coen": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 66,
+      "latest_notes": [
+        "Strong recent form",
+        "Stable in form +2 (1/5 last 14 days)",
+        "Jockey bonus +1",
+        "Jockey flying +4 (6/9 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -413,20 +433,20 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 15,
-          "horse": "Auguste Gusteau",
-          "horse_id": "hrs_56127792",
+          "horse": "Sindagan",
+          "horse_id": "hrs_56843941",
           "age": 3,
           "sex": "gelding",
-          "trainer": "M A Cahill",
-          "trainer_id": "trn_182250",
-          "jockey": "Luke McAteer",
-          "jockey_id": "jky_289707",
-          "draw": 11,
-          "number": 3,
+          "trainer": "J P Murtagh",
+          "trainer_id": "trn_253620",
+          "jockey": "Ben Coen",
+          "jockey_id": "jky_291093",
+          "draw": 9,
+          "number": 11,
           "lbs": 134,
-          "ofr": "-",
-          "last_run": 43,
-          "form": "679",
+          "ofr": "83",
+          "last_run": 77,
+          "form": "34-23",
           "headgear": ""
         }
       ],
@@ -449,14 +469,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 54,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's going matches known profile preference",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -465,7 +485,7 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 66,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -510,8 +530,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 61,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey in form +2 (3/15 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -565,14 +590,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -581,15 +605,15 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 61,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Cladach",
-      "horse_id": "hrs_66494218",
+      "horse": "Shay's Dream",
+      "horse_id": "hrs_59025302",
       "age": 3,
       "sex": "gelding",
       "latest_course": "Fairyhouse",
@@ -601,12 +625,12 @@
       "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Joseph Patrick O'Brien",
-      "latest_jockey": "Scott McCullagh",
-      "latest_draw": 10,
+      "latest_jockey": "Nathan Crosse",
+      "latest_draw": 6,
       "latest_weight_lbs": 134,
       "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
+      "recent_form": "0-0",
+      "last_run_days": 28,
       "profile_runs": 1,
       "courses_seen": {
         "Fairyhouse": 1
@@ -622,12 +646,19 @@
         "Joseph Patrick O'Brien": 1
       },
       "jockeys_seen": {
-        "Scott McCullagh": 1
+        "Nathan Crosse": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 51,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Stable flying +4 (10/14 last 14 days)",
+        "Jockey bonus +1"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -643,20 +674,20 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 15,
-          "horse": "Cladach",
-          "horse_id": "hrs_66494218",
+          "horse": "Shay's Dream",
+          "horse_id": "hrs_59025302",
           "age": 3,
           "sex": "gelding",
           "trainer": "Joseph Patrick O'Brien",
           "trainer_id": "trn_289305",
-          "jockey": "Scott McCullagh",
-          "jockey_id": "jky_288162",
-          "draw": 10,
-          "number": 6,
+          "jockey": "Nathan Crosse",
+          "jockey_id": "jky_288798",
+          "draw": 6,
+          "number": 10,
           "lbs": 134,
           "ofr": "-",
-          "last_run": null,
-          "form": "",
+          "last_run": 28,
+          "form": "0-0",
           "headgear": ""
         }
       ],
@@ -679,14 +710,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 47,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -695,697 +725,7 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Farewell To Arms",
-      "horse_id": "hrs_55764555",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Fairyhouse",
-      "latest_time": "7:25",
-      "latest_race": "Irish Stallion Farms EBF Maiden",
-      "latest_date": "2026-07-08",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Charles O'Brien",
-      "latest_jockey": "Ronan Whelan",
-      "latest_draw": 2,
-      "latest_weight_lbs": 134,
-      "official_rating": "-",
-      "recent_form": "8-0",
-      "last_run_days": 54,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Fairyhouse": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Charles O'Brien": 1
-      },
-      "jockeys_seen": {
-        "Ronan Whelan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12016433",
-          "course": "Fairyhouse",
-          "date": "2026-07-08",
-          "off_time": "7:25",
-          "off_dt": "2026-07-08T19:25:00+01:00",
-          "race_name": "Irish Stallion Farms EBF Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Farewell To Arms",
-          "horse_id": "hrs_55764555",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Charles O'Brien",
-          "trainer_id": "trn_68940",
-          "jockey": "Ronan Whelan",
-          "jockey_id": "jky_265689",
-          "draw": 2,
-          "number": 8,
-          "lbs": 134,
-          "ofr": "-",
-          "last_run": 54,
-          "form": "8-0",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Fairyhouse",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Fairyhouse",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Goomah",
-      "horse_id": "hrs_55700806",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Fairyhouse",
-      "latest_time": "7:25",
-      "latest_race": "Irish Stallion Farms EBF Maiden",
-      "latest_date": "2026-07-08",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Miss Natalia Lupini",
-      "latest_jockey": "Wayne Lordan",
-      "latest_draw": 13,
-      "latest_weight_lbs": 129,
-      "official_rating": "74",
-      "recent_form": "76-30",
-      "last_run_days": 45,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Fairyhouse": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Miss Natalia Lupini": 1
-      },
-      "jockeys_seen": {
-        "Wayne Lordan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12016433",
-          "course": "Fairyhouse",
-          "date": "2026-07-08",
-          "off_time": "7:25",
-          "off_dt": "2026-07-08T19:25:00+01:00",
-          "race_name": "Irish Stallion Farms EBF Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Goomah",
-          "horse_id": "hrs_55700806",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Miss Natalia Lupini",
-          "trainer_id": "trn_278505",
-          "jockey": "Wayne Lordan",
-          "jockey_id": "jky_229806",
-          "draw": 13,
-          "number": 14,
-          "lbs": 129,
-          "ofr": "74",
-          "last_run": 45,
-          "form": "76-30",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Fairyhouse",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Fairyhouse",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Little Sure Shot",
-      "horse_id": "hrs_53390232",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Fairyhouse",
-      "latest_time": "7:25",
-      "latest_race": "Irish Stallion Farms EBF Maiden",
-      "latest_date": "2026-07-08",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Henry De Bromhead",
-      "latest_jockey": "W J Lee",
-      "latest_draw": 5,
-      "latest_weight_lbs": 129,
-      "official_rating": "72",
-      "recent_form": "270-6",
-      "last_run_days": 102,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Fairyhouse": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Henry De Bromhead": 1
-      },
-      "jockeys_seen": {
-        "W J Lee": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12016433",
-          "course": "Fairyhouse",
-          "date": "2026-07-08",
-          "off_time": "7:25",
-          "off_dt": "2026-07-08T19:25:00+01:00",
-          "race_name": "Irish Stallion Farms EBF Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Little Sure Shot",
-          "horse_id": "hrs_53390232",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Henry De Bromhead",
-          "trainer_id": "trn_11241",
-          "jockey": "W J Lee",
-          "jockey_id": "jky_244275",
-          "draw": 5,
-          "number": 15,
-          "lbs": 129,
-          "ofr": "72",
-          "last_run": 102,
-          "form": "270-6",
-          "headgear": "b"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Fairyhouse",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Fairyhouse",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Passage Of Power",
-      "horse_id": "hrs_50433565",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Fairyhouse",
-      "latest_time": "7:25",
-      "latest_race": "Irish Stallion Farms EBF Maiden",
-      "latest_date": "2026-07-08",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Joseph Patrick O'Brien",
-      "latest_jockey": "J M Sheridan",
-      "latest_draw": 15,
-      "latest_weight_lbs": 134,
-      "official_rating": "-",
-      "recent_form": "3",
-      "last_run_days": 176,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Fairyhouse": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Joseph Patrick O'Brien": 1
-      },
-      "jockeys_seen": {
-        "J M Sheridan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12016433",
-          "course": "Fairyhouse",
-          "date": "2026-07-08",
-          "off_time": "7:25",
-          "off_dt": "2026-07-08T19:25:00+01:00",
-          "race_name": "Irish Stallion Farms EBF Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Passage Of Power",
-          "horse_id": "hrs_50433565",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Joseph Patrick O'Brien",
-          "trainer_id": "trn_289305",
-          "jockey": "J M Sheridan",
-          "jockey_id": "jky_297513",
-          "draw": 15,
-          "number": 9,
-          "lbs": 134,
-          "ofr": "-",
-          "last_run": 176,
-          "form": "3",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Fairyhouse",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Fairyhouse",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Pettus Bridge",
-      "horse_id": "hrs_65642360",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Fairyhouse",
-      "latest_time": "7:25",
-      "latest_race": "Irish Stallion Farms EBF Maiden",
-      "latest_date": "2026-07-08",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mrs Denise Foster",
-      "latest_jockey": "Patrick McGettigan(5)",
-      "latest_draw": 14,
-      "latest_weight_lbs": 142,
-      "official_rating": "-",
-      "recent_form": "0",
-      "last_run_days": 26,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Fairyhouse": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Mrs Denise Foster": 1
-      },
-      "jockeys_seen": {
-        "Patrick McGettigan(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12016433",
-          "course": "Fairyhouse",
-          "date": "2026-07-08",
-          "off_time": "7:25",
-          "off_dt": "2026-07-08T19:25:00+01:00",
-          "race_name": "Irish Stallion Farms EBF Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Pettus Bridge",
-          "horse_id": "hrs_65642360",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Mrs Denise Foster",
-          "trainer_id": "trn_116100",
-          "jockey": "Patrick McGettigan(5)",
-          "jockey_id": "jky_311598",
-          "draw": 14,
-          "number": 2,
-          "lbs": 142,
-          "ofr": "-",
-          "last_run": 26,
-          "form": "0",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Fairyhouse",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Fairyhouse",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Sindagan",
-      "horse_id": "hrs_56843941",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Fairyhouse",
-      "latest_time": "7:25",
-      "latest_race": "Irish Stallion Farms EBF Maiden",
-      "latest_date": "2026-07-08",
-      "latest_distance_f": 7.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "J P Murtagh",
-      "latest_jockey": "Ben Coen",
-      "latest_draw": 9,
-      "latest_weight_lbs": 134,
-      "official_rating": "83",
-      "recent_form": "34-23",
-      "last_run_days": 77,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Fairyhouse": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "J P Murtagh": 1
-      },
-      "jockeys_seen": {
-        "Ben Coen": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12016433",
-          "course": "Fairyhouse",
-          "date": "2026-07-08",
-          "off_time": "7:25",
-          "off_dt": "2026-07-08T19:25:00+01:00",
-          "race_name": "Irish Stallion Farms EBF Maiden",
-          "distance_f": 7.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Sindagan",
-          "horse_id": "hrs_56843941",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "J P Murtagh",
-          "trainer_id": "trn_253620",
-          "jockey": "Ben Coen",
-          "jockey_id": "jky_291093",
-          "draw": 9,
-          "number": 11,
-          "lbs": 134,
-          "ofr": "83",
-          "last_run": 77,
-          "form": "34-23",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Fairyhouse",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Fairyhouse",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 51,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1430,8 +770,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 52,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable flying +4 (3/12 last 14 days)",
+        "Jockey concern -2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1485,14 +833,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 47,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1501,7 +848,601 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 52,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Little Sure Shot",
+      "horse_id": "hrs_53390232",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Fairyhouse",
+      "latest_time": "7:25",
+      "latest_race": "Irish Stallion Farms EBF Maiden",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Henry De Bromhead",
+      "latest_jockey": "W J Lee",
+      "latest_draw": 5,
+      "latest_weight_lbs": 129,
+      "official_rating": "72",
+      "recent_form": "270-6",
+      "last_run_days": 102,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Fairyhouse": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Henry De Bromhead": 1
+      },
+      "jockeys_seen": {
+        "W J Lee": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Weak recent form",
+        "Helpful draw",
+        "Stable flying +4 (7/23 last 14 days)",
+        "Jockey bonus +1",
+        "Jockey flying +4 (7/11 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12016433",
+          "course": "Fairyhouse",
+          "date": "2026-07-08",
+          "off_time": "7:25",
+          "off_dt": "2026-07-08T19:25:00+01:00",
+          "race_name": "Irish Stallion Farms EBF Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Little Sure Shot",
+          "horse_id": "hrs_53390232",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Henry De Bromhead",
+          "trainer_id": "trn_11241",
+          "jockey": "W J Lee",
+          "jockey_id": "jky_244275",
+          "draw": 5,
+          "number": 15,
+          "lbs": 129,
+          "ofr": "72",
+          "last_run": 102,
+          "form": "270-6",
+          "headgear": "b"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Fairyhouse",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Fairyhouse",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 49,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Pettus Bridge",
+      "horse_id": "hrs_65642360",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Fairyhouse",
+      "latest_time": "7:25",
+      "latest_race": "Irish Stallion Farms EBF Maiden",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Mrs Denise Foster",
+      "latest_jockey": "Patrick McGettigan(5)",
+      "latest_draw": 14,
+      "latest_weight_lbs": 142,
+      "official_rating": "-",
+      "recent_form": "0",
+      "last_run_days": 26,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Fairyhouse": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Mrs Denise Foster": 1
+      },
+      "jockeys_seen": {
+        "Patrick McGettigan(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Jockey concern -2",
+        "Jockey flying +4 (3/3 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12016433",
+          "course": "Fairyhouse",
+          "date": "2026-07-08",
+          "off_time": "7:25",
+          "off_dt": "2026-07-08T19:25:00+01:00",
+          "race_name": "Irish Stallion Farms EBF Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Pettus Bridge",
+          "horse_id": "hrs_65642360",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Mrs Denise Foster",
+          "trainer_id": "trn_116100",
+          "jockey": "Patrick McGettigan(5)",
+          "jockey_id": "jky_311598",
+          "draw": 14,
+          "number": 2,
+          "lbs": 142,
+          "ofr": "-",
+          "last_run": 26,
+          "form": "0",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Fairyhouse",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Fairyhouse",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 49,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Farewell To Arms",
+      "horse_id": "hrs_55764555",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Fairyhouse",
+      "latest_time": "7:25",
+      "latest_race": "Irish Stallion Farms EBF Maiden",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Charles O'Brien",
+      "latest_jockey": "Ronan Whelan",
+      "latest_draw": 2,
+      "latest_weight_lbs": 134,
+      "official_rating": "-",
+      "recent_form": "8-0",
+      "last_run_days": 54,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Fairyhouse": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Charles O'Brien": 1
+      },
+      "jockeys_seen": {
+        "Ronan Whelan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 46,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey flying +4 (3/6 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12016433",
+          "course": "Fairyhouse",
+          "date": "2026-07-08",
+          "off_time": "7:25",
+          "off_dt": "2026-07-08T19:25:00+01:00",
+          "race_name": "Irish Stallion Farms EBF Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Farewell To Arms",
+          "horse_id": "hrs_55764555",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Charles O'Brien",
+          "trainer_id": "trn_68940",
+          "jockey": "Ronan Whelan",
+          "jockey_id": "jky_265689",
+          "draw": 2,
+          "number": 8,
+          "lbs": 134,
+          "ofr": "-",
+          "last_run": 54,
+          "form": "8-0",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Fairyhouse",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 45,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Fairyhouse",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 46,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Cladach",
+      "horse_id": "hrs_66494218",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Fairyhouse",
+      "latest_time": "7:25",
+      "latest_race": "Irish Stallion Farms EBF Maiden",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Joseph Patrick O'Brien",
+      "latest_jockey": "Scott McCullagh",
+      "latest_draw": 10,
+      "latest_weight_lbs": 134,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Fairyhouse": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Joseph Patrick O'Brien": 1
+      },
+      "jockeys_seen": {
+        "Scott McCullagh": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 44,
+      "latest_notes": [
+        "Stable flying +4 (10/14 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12016433",
+          "course": "Fairyhouse",
+          "date": "2026-07-08",
+          "off_time": "7:25",
+          "off_dt": "2026-07-08T19:25:00+01:00",
+          "race_name": "Irish Stallion Farms EBF Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Cladach",
+          "horse_id": "hrs_66494218",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Joseph Patrick O'Brien",
+          "trainer_id": "trn_289305",
+          "jockey": "Scott McCullagh",
+          "jockey_id": "jky_288162",
+          "draw": 10,
+          "number": 6,
+          "lbs": 134,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Fairyhouse",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 44,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Fairyhouse",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 44,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Coolshine",
+      "horse_id": "hrs_65869433",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Fairyhouse",
+      "latest_time": "7:25",
+      "latest_race": "Irish Stallion Farms EBF Maiden",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "K A Heffernan",
+      "latest_jockey": "James Ryan",
+      "latest_draw": 12,
+      "latest_weight_lbs": 134,
+      "official_rating": "-",
+      "recent_form": "90",
+      "last_run_days": 14,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Fairyhouse": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "K A Heffernan": 1
+      },
+      "jockeys_seen": {
+        "James Ryan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 44,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12016433",
+          "course": "Fairyhouse",
+          "date": "2026-07-08",
+          "off_time": "7:25",
+          "off_dt": "2026-07-08T19:25:00+01:00",
+          "race_name": "Irish Stallion Farms EBF Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Coolshine",
+          "horse_id": "hrs_65869433",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "K A Heffernan",
+          "trainer_id": "trn_161820",
+          "jockey": "James Ryan",
+          "jockey_id": "jky_303036",
+          "draw": 12,
+          "number": 7,
+          "lbs": 134,
+          "ofr": "-",
+          "last_run": 14,
+          "form": "90",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Fairyhouse",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 44,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Fairyhouse",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 44,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1527,94 +1468,35 @@
       "official_rating": "-",
       "recent_form": "68",
       "last_run_days": 11,
-      "profile_runs": 3,
+      "profile_runs": 1,
       "courses_seen": {
-        "Curragh": 2,
         "Fairyhouse": 1
       },
       "distances_seen": {
-        "6.0": 2,
         "7.0": 1
       },
       "goings_seen": {
-        "Good To Firm": 2,
         "Good": 1
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Matthew J Smith": 3
+        "Matthew J Smith": 1
       },
       "jockeys_seen": {
-        "Jack Kearney(3)": 2,
         "Robbie Colgan": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 42,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Trainer concern -2",
+        "Stable in form +2 (1/2 last 14 days)",
+        "Jockey concern -2",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
       "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Banshof",
-          "horse_id": "hrs_57041537",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Matthew J Smith",
-          "trainer_id": "trn_246555",
-          "jockey": "Jack Kearney(3)",
-          "jockey_id": "jky_303555",
-          "draw": 9,
-          "number": 1,
-          "lbs": 141,
-          "ofr": "-",
-          "last_run": 32,
-          "form": "6",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:26.418667+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006761",
-          "course": "Curragh",
-          "date": "2026-06-27",
-          "off_time": "5:40",
-          "off_dt": "2026-06-27T17:40:00+01:00",
-          "race_name": "Jo Browne Luxury Skincare Irish European Breeders Fund Maiden",
-          "distance_f": 6.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 21,
-          "horse": "Banshof",
-          "horse_id": "hrs_57041537",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Matthew J Smith",
-          "trainer_id": "trn_246555",
-          "jockey": "Jack Kearney(3)",
-          "jockey_id": "jky_303555",
-          "draw": 9,
-          "number": 1,
-          "lbs": 141,
-          "ofr": "-",
-          "last_run": 32,
-          "form": "6",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:53.892560+00:00"
-        },
         {
           "source": "the_racing_api",
           "race_id": "rac_12016433",
@@ -1647,34 +1529,34 @@
         }
       ],
       "profile_notes": [
-        "Profile has multiple stored runs",
         "Recent run timing"
       ],
       "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
+        "value": "Fairyhouse",
+        "runs": 1
       },
       "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
+        "value": 7.0,
+        "runs": 1
       },
       "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 2
+        "value": "Good",
+        "runs": 1
       },
       "favourite_class": null,
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 55,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 54,
-      "horse_intelligence_score": 16,
-      "profile_strengths": [],
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score"
+        "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -1682,17 +1564,371 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 42,
         "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Goomah",
+      "horse_id": "hrs_55700806",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Fairyhouse",
+      "latest_time": "7:25",
+      "latest_race": "Irish Stallion Farms EBF Maiden",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Miss Natalia Lupini",
+      "latest_jockey": "Wayne Lordan",
+      "latest_draw": 13,
+      "latest_weight_lbs": 129,
+      "official_rating": "74",
+      "recent_form": "76-30",
+      "last_run_days": 45,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Fairyhouse": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Miss Natalia Lupini": 1
+      },
+      "jockeys_seen": {
+        "Wayne Lordan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 40,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12016433",
+          "course": "Fairyhouse",
+          "date": "2026-07-08",
+          "off_time": "7:25",
+          "off_dt": "2026-07-08T19:25:00+01:00",
+          "race_name": "Irish Stallion Farms EBF Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Goomah",
+          "horse_id": "hrs_55700806",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Miss Natalia Lupini",
+          "trainer_id": "trn_278505",
+          "jockey": "Wayne Lordan",
+          "jockey_id": "jky_229806",
+          "draw": 13,
+          "number": 14,
+          "lbs": 129,
+          "ofr": "74",
+          "last_run": 45,
+          "form": "76-30",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Fairyhouse",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 42,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Fairyhouse",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 40,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Passage Of Power",
+      "horse_id": "hrs_50433565",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Fairyhouse",
+      "latest_time": "7:25",
+      "latest_race": "Irish Stallion Farms EBF Maiden",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Joseph Patrick O'Brien",
+      "latest_jockey": "J M Sheridan",
+      "latest_draw": 15,
+      "latest_weight_lbs": 134,
+      "official_rating": "-",
+      "recent_form": "3",
+      "last_run_days": 176,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Fairyhouse": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Joseph Patrick O'Brien": 1
+      },
+      "jockeys_seen": {
+        "J M Sheridan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 37,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Long layoff concern -4",
+        "Stable flying +4 (10/14 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12016433",
+          "course": "Fairyhouse",
+          "date": "2026-07-08",
+          "off_time": "7:25",
+          "off_dt": "2026-07-08T19:25:00+01:00",
+          "race_name": "Irish Stallion Farms EBF Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Passage Of Power",
+          "horse_id": "hrs_50433565",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Joseph Patrick O'Brien",
+          "trainer_id": "trn_289305",
+          "jockey": "J M Sheridan",
+          "jockey_id": "jky_297513",
+          "draw": 15,
+          "number": 9,
+          "lbs": 134,
+          "ofr": "-",
+          "last_run": 176,
+          "form": "3",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Fairyhouse",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 41,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Fairyhouse",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 37,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Auguste Gusteau",
+      "horse_id": "hrs_56127792",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Fairyhouse",
+      "latest_time": "7:25",
+      "latest_race": "Irish Stallion Farms EBF Maiden",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 7.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "M A Cahill",
+      "latest_jockey": "Luke McAteer",
+      "latest_draw": 11,
+      "latest_weight_lbs": 134,
+      "official_rating": "-",
+      "recent_form": "679",
+      "last_run_days": 43,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Fairyhouse": 1
+      },
+      "distances_seen": {
+        "7.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "M A Cahill": 1
+      },
+      "jockeys_seen": {
+        "Luke McAteer": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 35,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12016433",
+          "course": "Fairyhouse",
+          "date": "2026-07-08",
+          "off_time": "7:25",
+          "off_dt": "2026-07-08T19:25:00+01:00",
+          "race_name": "Irish Stallion Farms EBF Maiden",
+          "distance_f": 7.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Auguste Gusteau",
+          "horse_id": "hrs_56127792",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "M A Cahill",
+          "trainer_id": "trn_182250",
+          "jockey": "Luke McAteer",
+          "jockey_id": "jky_289707",
+          "draw": 11,
+          "number": 3,
+          "lbs": 134,
+          "ofr": "-",
+          "last_run": 43,
+          "form": "679",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Fairyhouse",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 40,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Fairyhouse",
+        "latest_distance_f": 7.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 35,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
       }
     }
   ],
   "notes": [
-    "Auguste Gusteau is the top-rated Pulse IQ runner.",
+    "Sindagan is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Cladach is flagged as a possible dark horse."
+    "Shay's Dream is flagged as a possible dark horse."
   ]
 }

@@ -4,14 +4,14 @@
   "course": "Ffos Las",
   "time": "6:39",
   "race_name": "West Wales Properties Pembrokeshire Maiden Stakes (GBB Race)",
-  "field_size": 5,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 8,
+  "average_intelligence": 52.38,
+  "top_score": 66,
+  "second_score": 57,
+  "gap": 9,
+  "confidence_score": 64,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
     "horse": "Dark Whisper",
     "horse_id": "hrs_63680519",
@@ -53,8 +53,20 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 86,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +2",
+      "Stable in form +2 (1/1 last 14 days)",
+      "Jockey bonus +3",
+      "Jockey flying +4 (3/4 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -85,10 +97,11 @@
         "last_run": 30,
         "form": "23",
         "headgear": "",
-        "_stored_at": "2026-06-30T05:14:24.475592+00:00"
+        "_stored_at": "2026-06-30T01:49:55.682884+00:00"
       }
     ],
     "profile_notes": [
+      "Elite latest Pulse Score",
       "Low draw today"
     ],
     "favourite_course": {
@@ -112,15 +125,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 66,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -129,7 +142,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 86,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -176,8 +189,15 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 66,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Race class strength +2",
+      "Trainer bonus +2",
+      "Jockey in form +2 (1/2 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -208,7 +228,7 @@
         "last_run": 25,
         "form": "33",
         "headgear": "",
-        "_stored_at": "2026-06-30T05:14:24.497570+00:00"
+        "_stored_at": "2026-06-30T01:49:55.699045+00:00"
       }
     ],
     "profile_notes": [],
@@ -233,15 +253,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 57,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -250,17 +270,17 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 66,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Kino Plasmat",
-    "horse_id": "hrs_64877365",
+    "horse": "Impierious",
+    "horse_id": "hrs_63680498",
     "age": 3,
-    "sex": "filly",
+    "sex": "gelding",
     "latest_course": "Ffos Las",
     "latest_time": "6:39",
     "latest_race": "West Wales Properties Pembrokeshire Maiden Stakes (GBB Race)",
@@ -269,13 +289,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Ed Walker",
-    "latest_jockey": "Cieren Fallon",
-    "latest_draw": 1,
-    "latest_weight_lbs": 127,
+    "latest_trainer": "Tom Clover",
+    "latest_jockey": "Kieran O'Neill",
+    "latest_draw": 8,
+    "latest_weight_lbs": 132,
     "official_rating": "-",
-    "recent_form": "4",
-    "last_run_days": 20,
+    "recent_form": "33",
+    "last_run_days": 25,
     "profile_runs": 1,
     "courses_seen": {
       "Ffos Las": 1
@@ -290,15 +310,22 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Ed Walker": 1
+      "Tom Clover": 1
     },
     "jockeys_seen": {
-      "Cieren Fallon": 1
+      "Kieran O'Neill": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 66,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Race class strength +2",
+      "Trainer bonus +2",
+      "Jockey in form +2 (1/2 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -314,27 +341,25 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 8,
-        "horse": "Kino Plasmat",
-        "horse_id": "hrs_64877365",
+        "horse": "Impierious",
+        "horse_id": "hrs_63680498",
         "age": 3,
-        "sex": "filly",
-        "trainer": "Ed Walker",
-        "trainer_id": "trn_215334",
-        "jockey": "Cieren Fallon",
-        "jockey_id": "jky_295557",
-        "draw": 1,
-        "number": 8,
-        "lbs": 127,
+        "sex": "gelding",
+        "trainer": "Tom Clover",
+        "trainer_id": "trn_294885",
+        "jockey": "Kieran O'Neill",
+        "jockey_id": "jky_250764",
+        "draw": 8,
+        "number": 2,
+        "lbs": 132,
         "ofr": "-",
-        "last_run": 20,
-        "form": "4",
+        "last_run": 25,
+        "form": "33",
         "headgear": "",
-        "_stored_at": "2026-06-30T05:14:24.619362+00:00"
+        "_stored_at": "2026-06-30T01:49:55.699045+00:00"
       }
     ],
-    "profile_notes": [
-      "Low draw today"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Ffos Las",
       "runs": 1
@@ -356,15 +381,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 57,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -373,7 +398,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 66,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -421,8 +446,20 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 86,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Stable in form +2 (1/1 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey flying +4 (3/4 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -453,10 +490,11 @@
           "last_run": 30,
           "form": "23",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:24.475592+00:00"
+          "_stored_at": "2026-06-30T01:49:55.682884+00:00"
         }
       ],
       "profile_notes": [
+        "Elite latest Pulse Score",
         "Low draw today"
       ],
       "favourite_course": {
@@ -480,15 +518,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 66,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -497,7 +535,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 86,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -544,8 +582,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 66,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Jockey in form +2 (1/2 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -576,7 +621,7 @@
           "last_run": 25,
           "form": "33",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:24.497570+00:00"
+          "_stored_at": "2026-06-30T01:49:55.699045+00:00"
         }
       ],
       "profile_notes": [],
@@ -601,15 +646,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 57,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -618,7 +663,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 66,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -665,8 +710,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 58,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -697,7 +748,7 @@
           "last_run": 20,
           "form": "4",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:24.619362+00:00"
+          "_stored_at": "2026-06-30T01:49:55.783069+00:00"
         }
       ],
       "profile_notes": [
@@ -724,7 +775,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 53,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -732,7 +783,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -741,7 +791,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 58,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -788,8 +838,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 58,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Stable in form +2 (1/2 last 14 days)",
+        "Jockey bonus +1"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -820,7 +878,7 @@
           "last_run": 22,
           "form": "93",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:24.541306+00:00"
+          "_stored_at": "2026-06-30T01:49:55.735901+00:00"
         }
       ],
       "profile_notes": [],
@@ -845,7 +903,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 53,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -853,7 +911,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -862,7 +919,259 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 58,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Ingemar",
+      "horse_id": "hrs_57008420",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Ffos Las",
+      "latest_time": "6:39",
+      "latest_race": "West Wales Properties Pembrokeshire Maiden Stakes (GBB Race)",
+      "latest_date": "2026-06-30",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Brian Meehan",
+      "latest_jockey": "Rob Hornby",
+      "latest_draw": 4,
+      "latest_weight_lbs": 132,
+      "official_rating": "-",
+      "recent_form": "5",
+      "last_run_days": 25,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Ffos Las": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Brian Meehan": 1
+      },
+      "jockeys_seen": {
+        "Rob Hornby": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 56,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988236",
+          "course": "Ffos Las",
+          "date": "2026-06-30",
+          "off_time": "6:39",
+          "off_dt": "2026-06-30T18:39:00+01:00",
+          "race_name": "West Wales Properties Pembrokeshire Maiden Stakes (GBB Race)",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Ingemar",
+          "horse_id": "hrs_57008420",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Brian Meehan",
+          "trainer_id": "trn_64989",
+          "jockey": "Rob Hornby",
+          "jockey_id": "jky_278322",
+          "draw": 4,
+          "number": 3,
+          "lbs": 132,
+          "ofr": "-",
+          "last_run": 25,
+          "form": "5",
+          "headgear": "",
+          "_stored_at": "2026-06-30T01:49:55.699904+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Ffos Las",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Ffos Las",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 56,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Next Guilian",
+      "horse_id": "hrs_65451638",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Ffos Las",
+      "latest_time": "6:39",
+      "latest_race": "West Wales Properties Pembrokeshire Maiden Stakes (GBB Race)",
+      "latest_date": "2026-06-30",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Rod Millman",
+      "latest_jockey": "Darragh Keenan",
+      "latest_draw": 7,
+      "latest_weight_lbs": 132,
+      "official_rating": "-",
+      "recent_form": "3-8",
+      "last_run_days": 22,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Ffos Las": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Rod Millman": 1
+      },
+      "jockeys_seen": {
+        "Darragh Keenan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 55,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988236",
+          "course": "Ffos Las",
+          "date": "2026-06-30",
+          "off_time": "6:39",
+          "off_dt": "2026-06-30T18:39:00+01:00",
+          "race_name": "West Wales Properties Pembrokeshire Maiden Stakes (GBB Race)",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Next Guilian",
+          "horse_id": "hrs_65451638",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Rod Millman",
+          "trainer_id": "trn_40950",
+          "jockey": "Darragh Keenan",
+          "jockey_id": "jky_287445",
+          "draw": 7,
+          "number": 5,
+          "lbs": 132,
+          "ofr": "-",
+          "last_run": 22,
+          "form": "3-8",
+          "headgear": "",
+          "_stored_at": "2026-06-30T01:49:55.735901+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Ffos Las",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Ffos Las",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 55,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -909,8 +1218,11 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 40,
+      "latest_notes": [
+        "Race class strength +2",
+        "Trainer concern -2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -941,7 +1253,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:24.580454+00:00"
+          "_stored_at": "2026-06-30T01:49:55.764404+00:00"
         }
       ],
       "profile_notes": [],
@@ -966,7 +1278,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -983,7 +1295,138 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 40,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Elenaya",
+      "horse_id": "hrs_53294535",
+      "age": 3,
+      "sex": "filly",
+      "latest_course": "Ffos Las",
+      "latest_time": "6:39",
+      "latest_race": "West Wales Properties Pembrokeshire Maiden Stakes (GBB Race)",
+      "latest_date": "2026-06-30",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Mark Loughnane",
+      "latest_jockey": "George Bass",
+      "latest_draw": 2,
+      "latest_weight_lbs": 127,
+      "official_rating": "-",
+      "recent_form": "59-",
+      "last_run_days": 192,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Ffos Las": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Mark Loughnane": 1
+      },
+      "jockeys_seen": {
+        "George Bass": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 31,
+      "latest_notes": [
+        "Weak recent form",
+        "Questionable run timing",
+        "Long layoff concern -4",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer concern -2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988236",
+          "course": "Ffos Las",
+          "date": "2026-06-30",
+          "off_time": "6:39",
+          "off_dt": "2026-06-30T18:39:00+01:00",
+          "race_name": "West Wales Properties Pembrokeshire Maiden Stakes (GBB Race)",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Elenaya",
+          "horse_id": "hrs_53294535",
+          "age": 3,
+          "sex": "filly",
+          "trainer": "Mark Loughnane",
+          "trainer_id": "trn_138861",
+          "jockey": "George Bass",
+          "jockey_id": "jky_290508",
+          "draw": 2,
+          "number": 7,
+          "lbs": 127,
+          "ofr": "-",
+          "last_run": 192,
+          "form": "59-",
+          "headgear": "t",
+          "_stored_at": "2026-06-30T01:49:55.779828+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today",
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Ffos Las",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 41,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Ffos Las",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 31,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -992,8 +1435,6 @@
   ],
   "notes": [
     "Dark Whisper is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Kino Plasmat is flagged as a possible dark horse."
+    "Impierious is flagged as a possible dark horse."
   ]
 }
