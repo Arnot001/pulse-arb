@@ -3,583 +3,104 @@
 {% block title %}Horse Arb | Pulse IQ{% endblock %}
 
 {% block head %}
-<style>
-    .horse-arb-page {
-        padding-bottom: 48px;
-    }
-
-    .horse-arb-header {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 24px;
-        margin-bottom: 24px;
-    }
-
-    .horse-arb-title-row {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-    }
-
-    .horse-arb-title-row .hero-icon {
-        width: 58px;
-        height: 58px;
-        object-fit: contain;
-        filter: drop-shadow(
-            0 0 18px
-            rgba(255, 0, 140, 0.35)
-        );
-    }
-
-    .horse-arb-title-row h1 {
-        margin: 0;
-        font-size: clamp(
-            30px,
-            4vw,
-            48px
-        );
-        letter-spacing: -0.04em;
-    }
-
-    .horse-arb-title-row p {
-        margin: 7px 0 0;
-        color: #8f98aa;
-    }
-
-    .horse-arb-live {
-        display: inline-flex;
-        align-items: center;
-        gap: 9px;
-        padding: 10px 14px;
-        border: 1px solid
-            rgba(0, 230, 118, 0.28);
-        border-radius: 999px;
-        background:
-            rgba(0, 230, 118, 0.07);
-        color: #67f6a7;
-        font-size: 12px;
-        font-weight: 800;
-        letter-spacing: 0.12em;
-        text-transform: uppercase;
-        white-space: nowrap;
-    }
-
-    .horse-arb-live-dot {
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        background: #00e676;
-        box-shadow:
-            0 0 14px
-            rgba(0, 230, 118, 0.9);
-    }
-
-    .horse-arb-alert {
-        margin-bottom: 22px;
-        padding: 15px 18px;
-        border: 1px solid
-            rgba(255, 82, 82, 0.35);
-        border-radius: 14px;
-        background:
-            rgba(255, 82, 82, 0.08);
-        color: #ffb3b3;
-    }
-
-    .horse-arb-kpis {
-        display: grid;
-        grid-template-columns:
-            repeat(
-                4,
-                minmax(0, 1fr)
-            );
-        gap: 14px;
-        margin-bottom: 30px;
-    }
-
-    .horse-arb-kpi {
-        min-width: 0;
-        padding: 19px;
-        border: 1px solid
-            rgba(255, 255, 255, 0.08);
-        border-radius: 16px;
-        background:
-            linear-gradient(
-                145deg,
-                rgba(255, 255, 255, 0.055),
-                rgba(255, 255, 255, 0.018)
-            ),
-            rgba(7, 9, 14, 0.82);
-        box-shadow:
-            inset 0 1px
-            rgba(255, 255, 255, 0.035);
-    }
-
-    .horse-arb-kpi span {
-        display: block;
-        margin-bottom: 10px;
-        color: #81899a;
-        font-size: 11px;
-        font-weight: 800;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-    }
-
-    .horse-arb-kpi strong {
-        display: block;
-        color: #f5f7fb;
-        font-size: 31px;
-        line-height: 1;
-        letter-spacing: -0.04em;
-    }
-
-    .horse-arb-kpi small {
-        display: block;
-        margin-top: 8px;
-        color: #666f81;
-        font-size: 11px;
-    }
-
-    .horse-arb-kpi.guaranteed {
-        border-color:
-            rgba(0, 230, 118, 0.2);
-    }
-
-    .horse-arb-kpi.almost {
-        border-color:
-            rgba(255, 76, 173, 0.2);
-    }
-
-    .horse-arb-kpi.value {
-        border-color:
-            rgba(0, 184, 255, 0.2);
-    }
-
-    .horse-arb-kpi.watching {
-        border-color:
-            rgba(255, 179, 0, 0.2);
-    }
-
-    .horse-arb-kpi.guaranteed strong {
-        color: #5bf29f;
-    }
-
-    .horse-arb-kpi.almost strong {
-        color: #ff69b7;
-    }
-
-    .horse-arb-kpi.value strong {
-        color: #69d7ff;
-    }
-
-    .horse-arb-kpi.watching strong {
-        color: #ffd36a;
-    }
-
-    .horse-arb-section {
-        margin-top: 32px;
-    }
-
-    .horse-arb-section-header {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-        gap: 16px;
-        margin-bottom: 14px;
-    }
-
-    .horse-arb-section-title {
-        display: flex;
-        align-items: center;
-        gap: 11px;
-    }
-
-    .horse-arb-section-title h2 {
-        margin: 0;
-        font-size: 20px;
-        letter-spacing: -0.02em;
-    }
-
-    .horse-arb-section-copy {
-        margin: 5px 0 0;
-        color: #70798a;
-        font-size: 12px;
-    }
-
-    .horse-arb-count {
-        min-width: 28px;
-        padding: 5px 9px;
-        border-radius: 999px;
-        background:
-            rgba(255, 255, 255, 0.07);
-        color: #aab2c2;
-        font-size: 11px;
-        font-weight: 800;
-        text-align: center;
-    }
-
-    .horse-arb-grid {
-        display: grid;
-        grid-template-columns:
-            repeat(
-                2,
-                minmax(0, 1fr)
-            );
-        gap: 16px;
-    }
-
-    .horse-arb-card {
-        position: relative;
-        overflow: hidden;
-        border: 1px solid
-            rgba(255, 255, 255, 0.085);
-        border-radius: 18px;
-        background:
-            radial-gradient(
-                circle at top right,
-                rgba(255, 0, 140, 0.08),
-                transparent 34%
-            ),
-            linear-gradient(
-                145deg,
-                rgba(255, 255, 255, 0.048),
-                rgba(255, 255, 255, 0.015)
-            ),
-            rgba(6, 8, 13, 0.92);
-        box-shadow:
-            0 16px 50px
-            rgba(0, 0, 0, 0.2);
-    }
-
-    .horse-arb-card::before {
-        content: "";
-        position: absolute;
-        inset: 0 auto 0 0;
-        width: 3px;
-        background: #697386;
-    }
-
-    .horse-arb-card.guaranteed::before {
-        background: #00e676;
-    }
-
-    .horse-arb-card.almost::before {
-        background: #ff4cad;
-    }
-
-    .horse-arb-card.value::before {
-        background: #00b8ff;
-    }
-
-    .horse-arb-card.watching::before {
-        background: #ffb300;
-    }
-
-    .horse-arb-card-body {
-        padding: 20px 20px 18px 22px;
-    }
-
-    .horse-arb-card-top {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 18px;
-    }
-
-    .horse-arb-race-name {
-        margin: 0;
-        color: #f5f7fb;
-        font-size: 20px;
-        letter-spacing: -0.03em;
-    }
-
-    .horse-arb-race-meta {
-        margin-top: 6px;
-        color: #727b8c;
-        font-size: 12px;
-    }
-
-    .horse-arb-label {
-        padding: 7px 10px;
-        border: 1px solid
-            rgba(255, 255, 255, 0.1);
-        border-radius: 8px;
-        font-size: 10px;
-        font-weight: 900;
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        white-space: nowrap;
-    }
-
-    .horse-arb-label.guaranteed {
-        border-color:
-            rgba(0, 230, 118, 0.3);
-        background:
-            rgba(0, 230, 118, 0.08);
-        color: #5bf29f;
-    }
-
-    .horse-arb-label.almost {
-        border-color:
-            rgba(255, 76, 173, 0.3);
-        background:
-            rgba(255, 76, 173, 0.08);
-        color: #ff79c2;
-    }
-
-    .horse-arb-label.value {
-        border-color:
-            rgba(0, 184, 255, 0.3);
-        background:
-            rgba(0, 184, 255, 0.08);
-        color: #6bd4ff;
-    }
-
-    .horse-arb-label.watching {
-        border-color:
-            rgba(255, 179, 0, 0.3);
-        background:
-            rgba(255, 179, 0, 0.08);
-        color: #ffd36a;
-    }
-
-    .horse-arb-metrics {
-        display: grid;
-        grid-template-columns:
-            repeat(
-                4,
-                minmax(0, 1fr)
-            );
-        gap: 10px;
-        margin-top: 18px;
-    }
-
-    .horse-arb-metric {
-        padding: 12px;
-        border: 1px solid
-            rgba(255, 255, 255, 0.055);
-        border-radius: 12px;
-        background:
-            rgba(255, 255, 255, 0.025);
-    }
-
-    .horse-arb-metric span {
-        display: block;
-        margin-bottom: 6px;
-        color: #697284;
-        font-size: 9px;
-        font-weight: 800;
-        letter-spacing: 0.09em;
-        text-transform: uppercase;
-    }
-
-    .horse-arb-metric strong {
-        color: #eef2f8;
-        font-size: 17px;
-    }
-
-    .horse-arb-metric .positive {
-        color: #42ec91;
-    }
-
-    .horse-arb-legs {
-        margin-top: 16px;
-        border-top: 1px solid
-            rgba(255, 255, 255, 0.06);
-    }
-
-    .horse-arb-legs summary {
-        padding: 14px 0 0;
-        color: #a1a9b8;
-        cursor: pointer;
-        font-size: 12px;
-        font-weight: 800;
-        list-style: none;
-    }
-
-    .horse-arb-legs summary::-webkit-details-marker {
-        display: none;
-    }
-
-    .horse-arb-leg-list {
-        display: grid;
-        gap: 8px;
-        margin-top: 12px;
-    }
-
-    .horse-arb-leg {
-        display: grid;
-        grid-template-columns:
-            minmax(0, 1fr)
-            auto
-            auto;
-        gap: 14px;
-        align-items: center;
-        padding: 10px 12px;
-        border-radius: 10px;
-        background:
-            rgba(255, 255, 255, 0.03);
-        font-size: 12px;
-    }
-
-    .horse-arb-leg-runner {
-        min-width: 0;
-        color: #e7ebf2;
-        font-weight: 700;
-    }
-
-    .horse-arb-leg-source {
-        color: #929baa;
-    }
-
-    .horse-arb-leg-odds {
-        color: #ff4cad;
-        font-weight: 900;
-    }
-
-    .horse-arb-empty {
-        padding: 28px;
-        border: 1px dashed
-            rgba(255, 255, 255, 0.09);
-        border-radius: 16px;
-        background:
-            rgba(255, 255, 255, 0.012);
-        color: #687183;
-        text-align: center;
-    }
-
-    @media (max-width: 1150px) {
-        .horse-arb-kpis {
-            grid-template-columns:
-                repeat(
-                    2,
-                    minmax(0, 1fr)
-                );
-        }
-    }
-
-    @media (max-width: 900px) {
-        .horse-arb-header {
-            flex-direction: column;
-        }
-
-        .horse-arb-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .horse-arb-metrics {
-            grid-template-columns:
-                repeat(
-                    2,
-                    minmax(0, 1fr)
-                );
-        }
-    }
-
-    @media (max-width: 620px) {
-        .horse-arb-kpis {
-            grid-template-columns: 1fr;
-        }
-
-        .horse-arb-card-top {
-            flex-direction: column;
-        }
-
-        .horse-arb-section-header {
-            align-items: flex-start;
-        }
-    }
-</style>
+<link rel="stylesheet" href="/static/css/horse_arb.css">
+<link rel="stylesheet" href="/static/css/execution.css">
 {% endblock %}
 
-{% macro discovery_card(item, style, label) %}
-<article class="horse-arb-card {{ style }}">
+{% macro arb_card(item, style, label, executable=False) %}
+<article class="horse-arb-card {{ style }}" {% if executable %}data-execution-card{% endif %}>
     <div class="horse-arb-card-body">
         <div class="horse-arb-card-top">
             <div>
-                <h3 class="horse-arb-race-name">
-                    {{ item.course or "Unknown course" }}
-                    {{ item.race_time or "" }}
-                </h3>
-
+                <h3 class="horse-arb-race-name">{{ item.course or "Unknown course" }} {{ item.race_time or "" }}</h3>
                 <div class="horse-arb-race-meta">
                     {{ item.race_date or "Date unavailable" }}
-                    {% if item.runner_count %}
-                        · {{ item.runner_count }} runners
-                    {% endif %}
-                    {% if item.priced_runner_count %}
-                        · {{ item.priced_runner_count }} priced
-                    {% endif %}
+                    {% if item.runner_count %} · {{ item.runner_count }} runners{% endif %}
+                    {% if item.priced_runner_count %} · {{ item.priced_runner_count }} priced{% endif %}
                 </div>
             </div>
-
-            <span class="horse-arb-label {{ style }}">
-                {{ label }}
-            </span>
+            <span class="horse-arb-label {{ style }}">{{ label }}</span>
         </div>
 
         <div class="horse-arb-metrics">
             <div class="horse-arb-metric">
                 <span>Market</span>
-                <strong>
-                    {{ "%.2f"|format(item.market_percentage or 0) }}%
-                </strong>
+                <strong>{{ "%.2f"|format(item.market_percentage or 0) }}%</strong>
             </div>
-
             <div class="horse-arb-metric">
                 <span>From Arb</span>
                 <strong>
-                    {% if item.is_guaranteed_arb %}
-                        0.00%
-                    {% else %}
-                        {{ "%.2f"|format(item.distance_from_arb or 0) }}%
+                    {% if item.is_guaranteed_arb %}0.00%
+                    {% else %}{{ "%.2f"|format(item.distance_from_arb or 0) }}%
                     {% endif %}
                 </strong>
             </div>
-
             <div class="horse-arb-metric">
                 <span>Score</span>
-                <strong>
-                    {{ "%.0f"|format(item.score or 0) }}
-                </strong>
+                <strong>{{ "%.0f"|format(item.score or 0) }}</strong>
             </div>
-
             <div class="horse-arb-metric">
                 <span>Status</span>
-                <strong>
-                    {% if item.complete %}
-                        Ready
-                    {% else %}
-                        Waiting
-                    {% endif %}
-                </strong>
+                <strong>{% if item.complete %}Ready{% else %}Waiting{% endif %}</strong>
             </div>
         </div>
 
         {% if item.opportunity and item.opportunity.legs %}
-        <details class="horse-arb-legs">
-            <summary>
-                View calculated bets
-            </summary>
+        <div class="horse-arb-leg-list">
+            {% for leg in item.opportunity.legs %}
+            <div class="horse-arb-leg">
+                <div>
+                    <span class="horse-arb-leg-runner">{{ leg.runner_name or leg.runner or leg.horse or "Runner" }}</span>
+                    <small class="execution-leg-stake">
+                        Stake £{{ "%.2f"|format(leg.stake or leg.rounded_stake or leg.bet_stake or 0) }}
+                    </small>
+                </div>
+                <span class="horse-arb-leg-source">{{ leg.source or leg.bookmaker or "Unknown" }}</span>
+                <span class="horse-arb-leg-odds">{{ leg.decimal_odds or leg.odds or "-" }}</span>
+            </div>
+            {% endfor %}
+        </div>
 
-            <div class="horse-arb-leg-list">
+        {% if executable %}
+        <div class="execution-card-actions">
+            <button type="button" class="execution-primary-button" data-prepare-arb {% if not item.complete %}disabled{% endif %}>
+                ▶ Prepare Bet Slips
+            </button>
+            <span class="execution-card-state" data-card-state>Waiting</span>
+        </div>
+
+        <div class="execution-card-progress" data-card-progress hidden>
+            <div class="execution-progress-header">
+                <span>Execution telemetry</span>
+                <strong data-progress-summary>Queued</strong>
+            </div>
+
+            <div class="execution-progress-list">
                 {% for leg in item.opportunity.legs %}
-                <div class="horse-arb-leg">
-                    <span class="horse-arb-leg-runner">
-                        {{ leg.runner_name or leg.runner or leg.horse or "Runner" }}
-                    </span>
-
-                    <span class="horse-arb-leg-source">
-                        {{ leg.source or leg.bookmaker or "Unknown" }}
-                    </span>
-
-                    <span class="horse-arb-leg-odds">
-                        {{ leg.decimal_odds or leg.odds or "-" }}
-                    </span>
+                <div class="execution-progress-row"
+                     data-execution-leg
+                     data-bookmaker="{{ leg.source or leg.bookmaker or '' }}"
+                     data-event-name="{{ item.course or 'Unknown course' }} {{ item.race_time or '' }}"
+                     data-selection-name="{{ leg.runner_name or leg.runner or leg.horse or 'Runner' }}"
+                     data-stake="{{ leg.stake or leg.rounded_stake or leg.bet_stake or 0 }}"
+                     data-market-name="Win"
+                     data-event-url="{{ leg.event_url or leg.url or '' }}"
+                     data-decimal-odds="{{ leg.decimal_odds or leg.odds or '' }}"
+                     data-race-time="{{ item.race_time or '' }}"
+                     data-course="{{ item.course or '' }}">
+                    <span class="execution-progress-indicator"></span>
+                    <div>
+                        <strong>{{ leg.source or leg.bookmaker or "Unknown" }}</strong>
+                        <small>{{ leg.runner_name or leg.runner or leg.horse or "Runner" }}</small>
+                    </div>
+                    <span class="execution-progress-status">Waiting</span>
                 </div>
                 {% endfor %}
             </div>
-        </details>
+        </div>
+        {% endif %}
+        {% else %}
+        <div class="horse-arb-empty horse-arb-empty-inline">No calculated execution legs are available.</div>
         {% endif %}
     </div>
 </article>
@@ -587,208 +108,244 @@
 
 {% block content %}
 <div class="horse-arb-page">
-
     <header class="horse-arb-header">
         <div class="horse-arb-title-row">
-            <img
-                src="/static/glyphs_transparent/arb.png"
-                class="hero-icon"
-                alt=""
-            >
-
+            <img src="/static/glyphs_transparent/arb.png" class="hero-icon" alt="">
             <div>
+                <span class="horse-arb-kicker">Market execution workstation</span>
                 <h1>Horse Arb</h1>
-                <p>
-                    Find guaranteed arbs and the races getting closest.
-                </p>
+                <p>Detect complete markets, calculate balanced stakes and prepare bookmaker bet slips for manual confirmation.</p>
             </div>
         </div>
-
-        <div class="horse-arb-live">
-            <span class="horse-arb-live-dot"></span>
-            {{ status or "Waiting" }}
-        </div>
+        <div class="horse-arb-live"><span class="horse-arb-live-dot"></span>{{ status or "Market monitor online" }}</div>
     </header>
 
-    {% if error %}
-    <div class="horse-arb-alert">
-        {{ error }}
-    </div>
-    {% endif %}
+    {% if error %}<div class="horse-arb-alert">{{ error }}</div>{% endif %}
+
+    <section class="execution-system-strip">
+        <div class="execution-system-item"><span class="execution-system-dot live"></span><div><small>Scanner</small><strong>Running</strong></div></div>
+        <div class="execution-system-item"><span class="execution-system-dot" id="execution-api-dot"></span><div><small>Execution API</small><strong id="execution-api-status">Checking</strong></div></div>
+        <div class="execution-system-item"><span class="execution-system-dot" id="browser-engine-dot"></span><div><small>Browser engine</small><strong id="browser-engine-status">Checking</strong></div></div>
+        <div class="execution-system-item"><span class="execution-system-dot"></span><div><small>Ready sessions</small><strong id="execution-ready-count">0</strong></div></div>
+        <div class="execution-system-item"><span class="execution-system-dot"></span><div><small>Queue</small><strong id="execution-queue-count">0 waiting</strong></div></div>
+    </section>
+
+    <section class="execution-centre">
+        <div class="execution-centre-header">
+            <div>
+                <span class="execution-eyebrow">Manual confirmation only</span>
+                <h2>Execution Centre</h2>
+                <p>Open persistent bookmaker sessions, log in once and let Pulse prepare each supported bet slip.</p>
+            </div>
+            <div class="execution-centre-actions">
+                <button type="button" class="execution-secondary-button" id="execution-refresh">Refresh Health</button>
+                <button type="button" class="execution-primary-button" id="execution-open-bet365">Open Bet365</button>
+            </div>
+        </div>
+
+        <div class="execution-centre-grid">
+            <div class="execution-bookmakers">
+                <div class="execution-bookmaker-row" data-bookmaker-row="bet365">
+                    <div class="execution-bookmaker-identity">
+                        <span class="execution-bookmaker-mark">B365</span>
+                        <div><strong>Bet365</strong><small>Live adapter</small></div>
+                    </div>
+                    <div class="execution-bookmaker-health">
+                        <span class="execution-health-pill idle" data-bookmaker-status>Closed</span>
+                        <button type="button" class="execution-row-button" data-open-bookmaker="bet365">Open</button>
+                        <button type="button" class="execution-row-button" data-check-bookmaker="bet365">Check Login</button>
+                        <button type="button" class="execution-row-button danger" data-reset-bookmaker="bet365">Reset</button>
+                    </div>
+                </div>
+
+                {% for bookmaker, code in [("Sky Bet","SKY"),("Coral","COR"),("Paddy Power","PP"),("William Hill","WH")] %}
+                <div class="execution-bookmaker-row disabled">
+                    <div class="execution-bookmaker-identity">
+                        <span class="execution-bookmaker-mark">{{ code }}</span>
+                        <div><strong>{{ bookmaker }}</strong><small>Adapter planned</small></div>
+                    </div>
+                    <span class="execution-health-pill planned">Foundation</span>
+                </div>
+                {% endfor %}
+            </div>
+
+            <aside class="execution-console">
+                <div class="execution-console-header">
+                    <div><span>Live telemetry</span><strong id="execution-console-title">Standby</strong></div>
+                    <span class="execution-console-light"></span>
+                </div>
+                <div class="execution-console-log" id="execution-console-log">
+                    <div class="execution-log-line"><time>--:--:--</time><span>Execution Centre ready.</span></div>
+                </div>
+                <div class="execution-queue-grid">
+                    <div><span>Preparing</span><strong id="queue-preparing">0</strong></div>
+                    <div><span>Ready</span><strong id="queue-ready">0</strong></div>
+                    <div><span>Failed</span><strong id="queue-failed">0</strong></div>
+                </div>
+            </aside>
+        </div>
+    </section>
 
     <section class="horse-arb-kpis">
-        <div class="horse-arb-kpi guaranteed">
-            <span>Guaranteed Arbs</span>
-            <strong>
-                {{ market_summary.guaranteed_arbs or 0 }}
-            </strong>
-            <small>
-                Real profit across every runner
-            </small>
-        </div>
-
-        <div class="horse-arb-kpi almost">
-            <span>Almost There</span>
-            <strong>
-                {{ market_summary.almost_there or 0 }}
-            </strong>
-            <small>
-                Within 1% of an arb
-            </small>
-        </div>
-
-        <div class="horse-arb-kpi value">
-            <span>Best Value</span>
-            <strong>
-                {{ market_summary.best_value or 0 }}
-            </strong>
-            <small>
-                Strong prices across the field
-            </small>
-        </div>
-
-        <div class="horse-arb-kpi watching">
-            <span>Worth Watching</span>
-            <strong>
-                {{ market_summary.worth_watching or 0 }}
-            </strong>
-            <small>
-                Markets moving towards value
-            </small>
-        </div>
+        <div class="horse-arb-kpi guaranteed"><span>Guaranteed Arbs</span><strong>{{ market_summary.guaranteed_arbs or 0 }}</strong><small>Real profit across every runner</small></div>
+        <div class="horse-arb-kpi almost"><span>Almost There</span><strong>{{ market_summary.almost_there or 0 }}</strong><small>Within 1% of an arb</small></div>
+        <div class="horse-arb-kpi value"><span>Best Value</span><strong>{{ market_summary.best_value or 0 }}</strong><small>Strong prices across the field</small></div>
+        <div class="horse-arb-kpi watching"><span>Worth Watching</span><strong>{{ market_summary.worth_watching or 0 }}</strong><small>Markets moving towards value</small></div>
     </section>
 
-    <section class="horse-arb-section">
-        <div class="horse-arb-section-header">
-            <div>
-                <div class="horse-arb-section-title">
-                    <h2>⭐ Almost There</h2>
-                    <span class="horse-arb-count">
-                        {{ almost_there|length }}
-                    </span>
-                </div>
-
-                <p class="horse-arb-section-copy">
-                    These races are closest to becoming guaranteed arbs.
-                </p>
-            </div>
-        </div>
-
-        {% if almost_there %}
-        <div class="horse-arb-grid">
-            {% for item in almost_there %}
-                {{ discovery_card(
-                    item,
-                    "almost",
-                    "Almost There"
-                ) }}
-            {% endfor %}
-        </div>
-        {% else %}
-        <div class="horse-arb-empty">
-            No races are within 1% of an arb right now.
-        </div>
-        {% endif %}
-    </section>
-
-    <section class="horse-arb-section">
-        <div class="horse-arb-section-header">
-            <div>
-                <div class="horse-arb-section-title">
-                    <h2>💎 Best Value</h2>
-                    <span class="horse-arb-count">
-                        {{ best_value|length }}
-                    </span>
-                </div>
-
-                <p class="horse-arb-section-copy">
-                    Strong whole-race prices, but not guaranteed profit.
-                </p>
-            </div>
-        </div>
-
-        {% if best_value %}
-        <div class="horse-arb-grid">
-            {% for item in best_value %}
-                {{ discovery_card(
-                    item,
-                    "value",
-                    "Best Value"
-                ) }}
-            {% endfor %}
-        </div>
-        {% else %}
-        <div class="horse-arb-empty">
-            No standout value markets currently available.
-        </div>
-        {% endif %}
-    </section>
-
-    <section class="horse-arb-section">
-        <div class="horse-arb-section-header">
-            <div>
-                <div class="horse-arb-section-title">
-                    <h2>👀 Worth Watching</h2>
-                    <span class="horse-arb-count">
-                        {{ worth_watching|length }}
-                    </span>
-                </div>
-
-                <p class="horse-arb-section-copy">
-                    Not close enough yet, but worth keeping an eye on.
-                </p>
-            </div>
-        </div>
-
-        {% if worth_watching %}
-        <div class="horse-arb-grid">
-            {% for item in worth_watching %}
-                {{ discovery_card(
-                    item,
-                    "watching",
-                    "Worth Watching"
-                ) }}
-            {% endfor %}
-        </div>
-        {% else %}
-        <div class="horse-arb-empty">
-            Nothing else is close enough to watch right now.
-        </div>
-        {% endif %}
-    </section>
-
-    <section class="horse-arb-section">
-        <div class="horse-arb-section-header">
-            <div>
-                <div class="horse-arb-section-title">
-                    <h2>🟢 Guaranteed Arbs</h2>
-                    <span class="horse-arb-count">
-                        {{ guaranteed_arbs|length }}
-                    </span>
-                </div>
-
-                <p class="horse-arb-section-copy">
-                    These are the real thing: profit whichever horse wins.
-                </p>
-            </div>
-        </div>
-
+    <section class="horse-arb-section horse-arb-section-priority">
+        <div class="horse-arb-section-header"><div><div class="horse-arb-section-title"><h2>🟢 Live Execution Opportunities</h2><span class="horse-arb-count">{{ guaranteed_arbs|length }}</span></div><p class="horse-arb-section-copy">Complete guaranteed markets ready for bookmaker preparation.</p></div></div>
         {% if guaranteed_arbs %}
-        <div class="horse-arb-grid">
-            {% for item in guaranteed_arbs %}
-                {{ discovery_card(
-                    item,
-                    "guaranteed",
-                    "Guaranteed Arb"
-                ) }}
-            {% endfor %}
-        </div>
-        {% else %}
-        <div class="horse-arb-empty">
-            No guaranteed horse arbs detected yet.
-        </div>
-        {% endif %}
+        <div class="horse-arb-grid">{% for item in guaranteed_arbs %}{{ arb_card(item,"guaranteed","Guaranteed Arb",True) }}{% endfor %}</div>
+        {% else %}<div class="horse-arb-empty">Pulse is monitoring for the next complete guaranteed market.</div>{% endif %}
     </section>
 
+    <section class="horse-arb-section">
+        <div class="horse-arb-section-header"><div><div class="horse-arb-section-title"><h2>⭐ Almost There</h2><span class="horse-arb-count">{{ almost_there|length }}</span></div><p class="horse-arb-section-copy">These races are closest to becoming guaranteed arbs.</p></div></div>
+        {% if almost_there %}<div class="horse-arb-grid">{% for item in almost_there %}{{ arb_card(item,"almost","Almost There") }}{% endfor %}</div>{% else %}<div class="horse-arb-empty">No races are within 1% of an arb right now.</div>{% endif %}
+    </section>
+
+    <section class="horse-arb-section">
+        <div class="horse-arb-section-header"><div><div class="horse-arb-section-title"><h2>💎 Best Value</h2><span class="horse-arb-count">{{ best_value|length }}</span></div><p class="horse-arb-section-copy">Strong whole-race prices, but not guaranteed profit.</p></div></div>
+        {% if best_value %}<div class="horse-arb-grid">{% for item in best_value %}{{ arb_card(item,"value","Best Value") }}{% endfor %}</div>{% else %}<div class="horse-arb-empty">No standout value markets currently available.</div>{% endif %}
+    </section>
+
+    <section class="horse-arb-section">
+        <div class="horse-arb-section-header"><div><div class="horse-arb-section-title"><h2>👀 Worth Watching</h2><span class="horse-arb-count">{{ worth_watching|length }}</span></div><p class="horse-arb-section-copy">Not close enough yet, but worth keeping an eye on.</p></div></div>
+        {% if worth_watching %}<div class="horse-arb-grid">{% for item in worth_watching %}{{ arb_card(item,"watching","Worth Watching") }}{% endfor %}</div>{% else %}<div class="horse-arb-empty">Nothing else is close enough to watch right now.</div>{% endif %}
+    </section>
 </div>
-{% endblock %}
+
+<script>
+(() => {
+    const state = { preparing: 0, ready: 0, failed: 0 };
+    const logBox = document.getElementById("execution-console-log");
+    const title = document.getElementById("execution-console-title");
+
+    function stamp(){ return new Date().toLocaleTimeString([], {hour12:false}); }
+    function log(message, level="info"){
+        const line=document.createElement("div");
+        line.className=`execution-log-line ${level}`;
+        line.innerHTML=`<time>${stamp()}</time><span></span>`;
+        line.querySelector("span").textContent=message;
+        logBox.prepend(line);
+        while(logBox.children.length>12) logBox.removeChild(logBox.lastChild);
+    }
+    function updateQueue(){
+        document.getElementById("queue-preparing").textContent=state.preparing;
+        document.getElementById("queue-ready").textContent=state.ready;
+        document.getElementById("queue-failed").textContent=state.failed;
+        document.getElementById("execution-queue-count").textContent=`${state.preparing} preparing`;
+    }
+    async function request(url,payload=null,method="POST"){
+        const options={method,headers:{"Content-Type":"application/json"}};
+        if(payload!==null) options.body=JSON.stringify(payload);
+        const response=await fetch(url,options);
+        const data=await response.json().catch(()=>({}));
+        if(!response.ok){
+            const detail=data.detail||data;
+            throw new Error(typeof detail==="string"?detail:(detail.message||JSON.stringify(detail)||`HTTP ${response.status}`));
+        }
+        return data;
+    }
+    function setStatus(bookmaker,text,klass){
+        const row=document.querySelector(`[data-bookmaker-row="${bookmaker}"]`);
+        if(!row) return;
+        const pill=row.querySelector("[data-bookmaker-status]");
+        pill.textContent=text;
+        pill.className=`execution-health-pill ${klass}`;
+    }
+    async function health(){
+        try{
+            const data=await request("/execution/health",null,"GET");
+            document.getElementById("execution-api-dot").classList.add("live");
+            document.getElementById("execution-api-status").textContent="Ready";
+            document.getElementById("browser-engine-dot").classList.add("live");
+            document.getElementById("browser-engine-status").textContent="Connected";
+            const sessions=data.manager?.sessions||data.manager?.bookmakers||{};
+            const entries=Array.isArray(sessions)?sessions:Object.values(sessions);
+            document.getElementById("execution-ready-count").textContent=entries.filter(s=>s.ready_for_execution||s.logged_in||s.is_logged_in).length;
+            const b365=Array.isArray(sessions)?sessions.find(s=>(s.bookmaker||s.key||"").toLowerCase()==="bet365"):sessions.bet365;
+            if(b365){
+                const ready=b365.ready_for_execution||b365.logged_in||b365.is_logged_in;
+                setStatus("bet365",ready?"Logged In":"Open",ready?"live":"review");
+            }else setStatus("bet365","Closed","idle");
+        }catch(error){
+            document.getElementById("execution-api-status").textContent="Offline";
+            document.getElementById("browser-engine-status").textContent="Unavailable";
+            log(`Health check failed: ${error.message}`,"error");
+        }
+    }
+    async function openBook(bookmaker){
+        title.textContent="Opening session"; setStatus(bookmaker,"Opening","review"); log(`Opening ${bookmaker} session.`);
+        try{
+            const r=await request("/execution/session/open",{bookmaker,headless:false,replace:false});
+            setStatus(bookmaker,"Open","review"); title.textContent="Login required"; log(r.message||`${bookmaker} opened.`,"success");
+        }catch(e){ setStatus(bookmaker,"Failed","error"); title.textContent="Session error"; log(e.message,"error"); }
+    }
+    async function checkLogin(bookmaker){
+        title.textContent="Checking login"; log(`Checking ${bookmaker} login.`);
+        try{
+            const r=await request("/execution/session/login-check",{bookmaker});
+            if(r.successful){setStatus(bookmaker,"Logged In","live");title.textContent="Session ready";log(r.message||`${bookmaker} ready.`,"success");}
+            else{setStatus(bookmaker,"Login Required","review");title.textContent="Login required";log(r.message||"Manual login required.","warning");}
+        }catch(e){setStatus(bookmaker,"Check Failed","error");title.textContent="Login check failed";log(e.message,"error");}
+    }
+    async function resetBook(bookmaker){
+        title.textContent="Resetting session"; log(`Resetting ${bookmaker}.`);
+        try{const r=await request("/execution/session/reset",{bookmaker,reopen_home:true});setStatus(bookmaker,"Open","review");title.textContent="Session reset";log(r.message||`${bookmaker} reset.`,"success");}
+        catch(e){setStatus(bookmaker,"Reset Failed","error");title.textContent="Reset failed";log(e.message,"error");}
+    }
+    function legPayload(row){
+        const odds=row.dataset.decimalOdds?Number(row.dataset.decimalOdds):null;
+        return {
+            bookmaker:row.dataset.bookmaker,
+            event_name:row.dataset.eventName,
+            selection_name:row.dataset.selectionName,
+            stake:Number(row.dataset.stake||0),
+            market_name:row.dataset.marketName||"Win",
+            event_url:row.dataset.eventUrl||null,
+            decimal_odds:odds,
+            race_time:row.dataset.raceTime||null,
+            course:row.dataset.course||null,
+            metadata:{}
+        };
+    }
+    async function prepareCard(card){
+        const button=card.querySelector("[data-prepare-arb]");
+        const cardState=card.querySelector("[data-card-state]");
+        const panel=card.querySelector("[data-card-progress]");
+        const summary=card.querySelector("[data-progress-summary]");
+        const legs=[...card.querySelectorAll("[data-execution-leg]")];
+        button.disabled=true; panel.hidden=false; card.classList.add("preparing"); cardState.textContent="Preparing";
+        state.preparing++; updateQueue();
+        let ready=0,failed=0;
+        for(const row of legs){
+            const status=row.querySelector(".execution-progress-status");
+            const payload=legPayload(row);
+            if(!payload.stake||payload.stake<=0){failed++;row.classList.add("failed");status.textContent="No stake";log(`${payload.bookmaker}: missing stake.`,"error");continue;}
+            row.classList.add("preparing");status.textContent="Preparing";title.textContent=`Preparing ${payload.bookmaker}`;log(`${payload.bookmaker}: ${payload.selection_name} £${payload.stake.toFixed(2)}.`);
+            try{const r=await request("/execution/prepare",payload);ready++;row.classList.remove("preparing");row.classList.add("ready");status.textContent="Ready";log(r.message||`${payload.bookmaker} ready.`,"success");}
+            catch(e){failed++;row.classList.remove("preparing");row.classList.add("failed");status.textContent="Failed";log(`${payload.bookmaker}: ${e.message}`,"error");}
+            summary.textContent=`${ready} / ${legs.length} ready`;
+        }
+        state.preparing=Math.max(0,state.preparing-1);
+        if(failed===0&&ready===legs.length){state.ready++;card.classList.remove("preparing");card.classList.add("execution-ready");cardState.textContent="Ready to confirm";summary.textContent="All bet slips ready";title.textContent="Ready for manual confirmation";log("All supported bet slips are ready. Pulse will not place bets.","success");}
+        else{state.failed++;card.classList.remove("preparing");card.classList.add("execution-failed");cardState.textContent=`${failed} failed`;summary.textContent=`${ready} ready · ${failed} failed`;title.textContent="Execution incomplete";button.disabled=false;button.textContent="↻ Retry Preparation";}
+        updateQueue(); health();
+    }
+    document.addEventListener("click",e=>{
+        const open=e.target.closest("[data-open-bookmaker]");
+        const check=e.target.closest("[data-check-bookmaker]");
+        const reset=e.target.closest("[data-reset-bookmaker]");
+        const prepare=e.target.closest("[data-prepare-arb]");
+        if(open) openBook(open.dataset.openBookmaker);
+        if(check) checkLogin(check.dataset.checkBookmaker);
+        if(reset) resetBook(reset.dataset.resetBookmaker);
+        if(prepare) prepareCard(prepare.closest("[data-execution-card]"));
+    });
+    document.getElementById("execution-open-bet365").addEventListener("click",()=>openBook("bet365"));
+    document.getElementById("execution-refresh").addEventListener("click",health);
+    health(); updateQueue();
+})();
+</script>

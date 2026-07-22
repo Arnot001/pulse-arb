@@ -7,6 +7,12 @@ import threading
 import requests
 import time
 
+from app.modules.arbitrage.execution.routes import (
+    router as execution_router,
+)
+from app.modules.arbitrage.execution.service import (
+    execution_service,
+)
 from typing import Optional
 from app.modules.notifications import (load_notification_settings,save_notification_settings,test_discord_notification,test_telegram_notification,)
 from app.modules.performance.profit_engine import simulate_level_stakes
@@ -71,6 +77,7 @@ from app.core.lay_calculator import calculate_lay_arb
 
 
 app = FastAPI(title="Pulse")
+app.include_router(execution_router)
 
 app.mount(
     "/static",
@@ -229,6 +236,17 @@ def start_pulse_live_engine():
     PULSE_LIVE_THREAD.start()
 
     print("Pulse Live Engine plugged in ✅")
+
+@app.on_event("startup")
+def start_execution_service():
+    execution_service.start()
+    print("Pulse Execution Service plugged in ✅")
+
+
+@app.on_event("shutdown")
+def stop_execution_service():
+    execution_service.stop()
+    print("Pulse Execution Service stopped.")
 
 def start_update(mode, redirect_url="/"):
     with UPDATE_LOCK:

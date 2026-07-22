@@ -1,0 +1,406 @@
+.horse-arb-page {
+    max-width: 1280px;
+    padding-bottom: 52px;
+}
+
+.horse-arb-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.horse-arb-title-row {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.horse-arb-title-row .hero-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 18px rgba(255, 0, 140, 0.35));
+}
+
+.horse-arb-kicker {
+    display: block;
+    color: #ff5cad;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+}
+
+.horse-arb-title-row h1 {
+    margin: 5px 0 0;
+    color: #fff;
+    font-size: clamp(34px, 4.5vw, 54px);
+    letter-spacing: -0.045em;
+}
+
+.horse-arb-title-row p {
+    max-width: 720px;
+    margin: 7px 0 0;
+    color: #8f98aa;
+    line-height: 1.55;
+}
+
+.horse-arb-live {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 14px;
+    border: 1px solid rgba(0, 230, 118, 0.28);
+    border-radius: 999px;
+    background: rgba(0, 230, 118, 0.07);
+    color: #67f6a7;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.horse-arb-live-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #00e676;
+    box-shadow: 0 0 14px rgba(0, 230, 118, 0.9);
+}
+
+.horse-arb-alert {
+    margin-bottom: 22px;
+    padding: 15px 18px;
+    border: 1px solid rgba(255, 82, 82, 0.35);
+    border-radius: 14px;
+    background: rgba(255, 82, 82, 0.08);
+    color: #ffb3b3;
+}
+
+.horse-arb-kpis {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+    margin: 30px 0;
+}
+
+.horse-arb-kpi {
+    min-width: 0;
+    padding: 19px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.055),
+            rgba(255, 255, 255, 0.018)
+        ),
+        rgba(7, 9, 14, 0.82);
+}
+
+.horse-arb-kpi span {
+    display: block;
+    margin-bottom: 10px;
+    color: #81899a;
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.horse-arb-kpi strong {
+    display: block;
+    color: #f5f7fb;
+    font-size: 31px;
+    line-height: 1;
+}
+
+.horse-arb-kpi small {
+    display: block;
+    margin-top: 8px;
+    color: #666f81;
+    font-size: 11px;
+}
+
+.horse-arb-kpi.guaranteed strong {
+    color: #5bf29f;
+}
+
+.horse-arb-kpi.almost strong {
+    color: #ff69b7;
+}
+
+.horse-arb-kpi.value strong {
+    color: #69d7ff;
+}
+
+.horse-arb-kpi.watching strong {
+    color: #ffd36a;
+}
+
+.horse-arb-section {
+    margin-top: 34px;
+}
+
+.horse-arb-section-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+.horse-arb-section-title {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.horse-arb-section-title h2 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.horse-arb-section-copy {
+    margin: 5px 0 0;
+    color: #70798a;
+    font-size: 12px;
+}
+
+.horse-arb-count {
+    min-width: 28px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.07);
+    color: #aab2c2;
+    font-size: 11px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.horse-arb-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.horse-arb-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.085);
+    border-radius: 18px;
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(255, 0, 140, 0.08),
+            transparent 34%
+        ),
+        linear-gradient(
+            145deg,
+            rgba(255, 255, 255, 0.048),
+            rgba(255, 255, 255, 0.015)
+        ),
+        rgba(6, 8, 13, 0.92);
+    box-shadow: 0 16px 50px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+.horse-arb-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255, 0, 140, 0.22);
+}
+
+.horse-arb-card::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 3px;
+    background: #697386;
+}
+
+.horse-arb-card.guaranteed::before {
+    background: #00e676;
+}
+
+.horse-arb-card.almost::before {
+    background: #ff4cad;
+}
+
+.horse-arb-card.value::before {
+    background: #00b8ff;
+}
+
+.horse-arb-card.watching::before {
+    background: #ffb300;
+}
+
+.horse-arb-card-body {
+    padding: 20px 20px 20px 22px;
+}
+
+.horse-arb-card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.horse-arb-race-name {
+    margin: 0;
+    color: #f5f7fb;
+    font-size: 20px;
+}
+
+.horse-arb-race-meta {
+    margin-top: 6px;
+    color: #727b8c;
+    font-size: 12px;
+}
+
+.horse-arb-label {
+    padding: 7px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.horse-arb-label.guaranteed {
+    border-color: rgba(0, 230, 118, 0.3);
+    background: rgba(0, 230, 118, 0.08);
+    color: #5bf29f;
+}
+
+.horse-arb-label.almost {
+    border-color: rgba(255, 76, 173, 0.3);
+    background: rgba(255, 76, 173, 0.08);
+    color: #ff79c2;
+}
+
+.horse-arb-label.value {
+    border-color: rgba(0, 184, 255, 0.3);
+    background: rgba(0, 184, 255, 0.08);
+    color: #6bd4ff;
+}
+
+.horse-arb-label.watching {
+    border-color: rgba(255, 179, 0, 0.3);
+    background: rgba(255, 179, 0, 0.08);
+    color: #ffd36a;
+}
+
+.horse-arb-metrics {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.horse-arb-metric {
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.025);
+}
+
+.horse-arb-metric span {
+    display: block;
+    margin-bottom: 6px;
+    color: #697284;
+    font-size: 9px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.horse-arb-metric strong {
+    color: #eef2f8;
+    font-size: 17px;
+}
+
+.horse-arb-leg-list {
+    display: grid;
+    gap: 8px;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.horse-arb-leg {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    gap: 14px;
+    align-items: center;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    font-size: 12px;
+}
+
+.horse-arb-leg-runner {
+    display: block;
+    color: #e7ebf2;
+    font-weight: 800;
+}
+
+.horse-arb-leg-source {
+    color: #929baa;
+}
+
+.horse-arb-leg-odds {
+    color: #ff4cad;
+    font-weight: 900;
+}
+
+.horse-arb-empty {
+    padding: 28px;
+    border: 1px dashed rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.012);
+    color: #687183;
+    text-align: center;
+}
+
+.horse-arb-empty-inline {
+    margin-top: 16px;
+    padding: 18px;
+}
+
+@media (max-width: 1150px) {
+    .horse-arb-kpis {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 900px) {
+    .horse-arb-header {
+        flex-direction: column;
+    }
+
+    .horse-arb-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .horse-arb-metrics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 620px) {
+    .horse-arb-kpis {
+        grid-template-columns: 1fr;
+    }
+
+    .horse-arb-card-top {
+        flex-direction: column;
+    }
+
+    .horse-arb-leg {
+        grid-template-columns: 1fr auto;
+    }
+}
