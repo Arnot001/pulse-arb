@@ -4,12 +4,12 @@
   "course": "Yarmouth",
   "time": "4:50",
   "race_name": "Mark Sumner Handicap",
-  "field_size": 6,
-  "average_intelligence": 48.67,
-  "top_score": 53,
-  "second_score": 52,
-  "gap": 1,
-  "confidence_score": 43,
+  "field_size": 4,
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 22,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -53,13 +53,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 58,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -90,7 +85,7 @@
         "last_run": 50,
         "form": "177-13",
         "headgear": "",
-        "_stored_at": "2026-07-02T00:01:32.392998+00:00"
+        "_stored_at": "2026-07-02T04:58:41.511884+00:00"
       }
     ],
     "profile_notes": [
@@ -117,7 +112,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 53,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -125,6 +120,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -133,13 +129,137 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": 58,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
+    "horse": "Luminous Warrior",
+    "horse_id": "hrs_39960312",
+    "age": 4,
+    "sex": "gelding",
+    "latest_course": "Yarmouth",
+    "latest_time": "4:50",
+    "latest_race": "Mark Sumner Handicap",
+    "latest_date": "2026-07-02",
+    "latest_distance_f": 8.0,
+    "latest_class": "Class 6",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Dylan Cunha",
+    "latest_jockey": "Saffie Osborne",
+    "latest_draw": 1,
+    "latest_weight_lbs": 135,
+    "official_rating": "55",
+    "recent_form": "700786",
+    "last_run_days": 12,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Yarmouth": 1
+    },
+    "distances_seen": {
+      "8.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 6": 1
+    },
+    "trainers_seen": {
+      "Dylan Cunha": 1
+    },
+    "jockeys_seen": {
+      "Saffie Osborne": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988769",
+        "course": "Yarmouth",
+        "date": "2026-07-02",
+        "off_time": "4:50",
+        "off_dt": "2026-07-02T16:50:00+01:00",
+        "race_name": "Mark Sumner Handicap",
+        "distance_f": 8.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Luminous Warrior",
+        "horse_id": "hrs_39960312",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Dylan Cunha",
+        "trainer_id": "trn_354717",
+        "jockey": "Saffie Osborne",
+        "jockey_id": "jky_301050",
+        "draw": 1,
+        "number": 5,
+        "lbs": 135,
+        "ofr": "55",
+        "last_run": 12,
+        "form": "700786",
+        "headgear": "t",
+        "_stored_at": "2026-07-02T04:58:41.532607+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Low draw today",
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Yarmouth",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 8.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 6",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Yarmouth",
+      "latest_distance_f": 8.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 6",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
     "horse": "Mart",
     "horse_id": "hrs_35553294",
     "age": 5,
@@ -180,12 +300,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 56,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Jockey in form +2 (2/2 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -216,7 +332,7 @@
         "last_run": 13,
         "form": "475436",
         "headgear": "",
-        "_stored_at": "2026-07-02T00:01:32.359313+00:00"
+        "_stored_at": "2026-07-02T04:58:41.490182+00:00"
       }
     ],
     "profile_notes": [
@@ -243,7 +359,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 52,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -251,6 +367,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -259,132 +376,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 6",
-      "latest_pulse_score": 56,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Give Me The Night",
-    "horse_id": "hrs_52830946",
-    "age": 4,
-    "sex": "gelding",
-    "latest_course": "Yarmouth",
-    "latest_time": "4:50",
-    "latest_race": "Mark Sumner Handicap",
-    "latest_date": "2026-07-02",
-    "latest_distance_f": 8.0,
-    "latest_class": "Class 6",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Mark Rimell",
-    "latest_jockey": "Mikey Sheehy",
-    "latest_draw": 4,
-    "latest_weight_lbs": 140,
-    "official_rating": "60",
-    "recent_form": "78-480",
-    "last_run_days": 29,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Yarmouth": 1
-    },
-    "distances_seen": {
-      "8.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 6": 1
-    },
-    "trainers_seen": {
-      "Mark Rimell": 1
-    },
-    "jockeys_seen": {
-      "Mikey Sheehy": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 44,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Jockey bonus +1"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988769",
-        "course": "Yarmouth",
-        "date": "2026-07-02",
-        "off_time": "4:50",
-        "off_dt": "2026-07-02T16:50:00+01:00",
-        "race_name": "Mark Sumner Handicap",
-        "distance_f": 8.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Give Me The Night",
-        "horse_id": "hrs_52830946",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Mark Rimell",
-        "trainer_id": "trn_96741",
-        "jockey": "Mikey Sheehy",
-        "jockey_id": "jky_298917",
-        "draw": 4,
-        "number": 1,
-        "lbs": 140,
-        "ofr": "60",
-        "last_run": 29,
-        "form": "78-480",
-        "headgear": "tb",
-        "_stored_at": "2026-07-02T00:01:32.279415+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Yarmouth",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 8.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 6",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 47,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Yarmouth",
-      "latest_distance_f": 8.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 6",
-      "latest_pulse_score": 44,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -432,13 +424,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 58,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Jockey bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -469,7 +456,7 @@
           "last_run": 50,
           "form": "177-13",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:32.392998+00:00"
+          "_stored_at": "2026-07-02T04:58:41.511884+00:00"
         }
       ],
       "profile_notes": [
@@ -496,7 +483,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 53,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -504,6 +491,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -512,258 +500,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 58,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Mart",
-      "horse_id": "hrs_35553294",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Yarmouth",
-      "latest_time": "4:50",
-      "latest_race": "Mark Sumner Handicap",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Dylan Cunha",
-      "latest_jockey": "Taryn Langley(5)",
-      "latest_draw": 5,
-      "latest_weight_lbs": 137,
-      "official_rating": "57",
-      "recent_form": "475436",
-      "last_run_days": 13,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Yarmouth": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Dylan Cunha": 1
-      },
-      "jockeys_seen": {
-        "Taryn Langley(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 56,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Jockey in form +2 (2/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988769",
-          "course": "Yarmouth",
-          "date": "2026-07-02",
-          "off_time": "4:50",
-          "off_dt": "2026-07-02T16:50:00+01:00",
-          "race_name": "Mark Sumner Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Mart",
-          "horse_id": "hrs_35553294",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Dylan Cunha",
-          "trainer_id": "trn_354717",
-          "jockey": "Taryn Langley(5)",
-          "jockey_id": "jky_302604",
-          "draw": 5,
-          "number": 3,
-          "lbs": 137,
-          "ofr": "57",
-          "last_run": 13,
-          "form": "475436",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:32.359313+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Yarmouth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Yarmouth",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 56,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Give Me The Night",
-      "horse_id": "hrs_52830946",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Yarmouth",
-      "latest_time": "4:50",
-      "latest_race": "Mark Sumner Handicap",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mark Rimell",
-      "latest_jockey": "Mikey Sheehy",
-      "latest_draw": 4,
-      "latest_weight_lbs": 140,
-      "official_rating": "60",
-      "recent_form": "78-480",
-      "last_run_days": 29,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Yarmouth": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Mark Rimell": 1
-      },
-      "jockeys_seen": {
-        "Mikey Sheehy": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988769",
-          "course": "Yarmouth",
-          "date": "2026-07-02",
-          "off_time": "4:50",
-          "off_dt": "2026-07-02T16:50:00+01:00",
-          "race_name": "Mark Sumner Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Give Me The Night",
-          "horse_id": "hrs_52830946",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Mark Rimell",
-          "trainer_id": "trn_96741",
-          "jockey": "Mikey Sheehy",
-          "jockey_id": "jky_298917",
-          "draw": 4,
-          "number": 1,
-          "lbs": 140,
-          "ofr": "60",
-          "last_run": 29,
-          "form": "78-480",
-          "headgear": "tb",
-          "_stored_at": "2026-07-02T00:01:32.279415+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Yarmouth",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Yarmouth",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -810,14 +547,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Jockey bonus +2",
-        "Jockey in form +2 (2/8 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -848,7 +579,7 @@
           "last_run": 12,
           "form": "700786",
           "headgear": "t",
-          "_stored_at": "2026-07-02T00:01:32.412935+00:00"
+          "_stored_at": "2026-07-02T04:58:41.532607+00:00"
         }
       ],
       "profile_notes": [
@@ -876,7 +607,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 47,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -884,6 +615,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -892,17 +624,17 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 44,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Sporty Socks",
-      "horse_id": "hrs_52742172",
-      "age": 3,
-      "sex": "filly",
+      "horse": "Mart",
+      "horse_id": "hrs_35553294",
+      "age": 5,
+      "sex": "gelding",
       "latest_course": "Yarmouth",
       "latest_time": "4:50",
       "latest_race": "Mark Sumner Handicap",
@@ -911,13 +643,13 @@
       "latest_class": "Class 6",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "William Stone",
-      "latest_jockey": "Kieran O'Neill",
-      "latest_draw": 2,
-      "latest_weight_lbs": 117,
-      "official_rating": "46",
-      "recent_form": "2653-7",
-      "last_run_days": 65,
+      "latest_trainer": "Dylan Cunha",
+      "latest_jockey": "Taryn Langley(5)",
+      "latest_draw": 5,
+      "latest_weight_lbs": 137,
+      "official_rating": "57",
+      "recent_form": "475436",
+      "last_run_days": 13,
       "profile_runs": 1,
       "courses_seen": {
         "Yarmouth": 1
@@ -932,18 +664,15 @@
         "Class 6": 1
       },
       "trainers_seen": {
-        "William Stone": 1
+        "Dylan Cunha": 1
       },
       "jockeys_seen": {
-        "Kieran O'Neill": 1
+        "Taryn Langley(5)": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -959,26 +688,26 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 7,
-          "horse": "Sporty Socks",
-          "horse_id": "hrs_52742172",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "William Stone",
-          "trainer_id": "trn_146763",
-          "jockey": "Kieran O'Neill",
-          "jockey_id": "jky_250764",
-          "draw": 2,
-          "number": 7,
-          "lbs": 117,
-          "ofr": "46",
-          "last_run": 65,
-          "form": "2653-7",
+          "horse": "Mart",
+          "horse_id": "hrs_35553294",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Dylan Cunha",
+          "trainer_id": "trn_354717",
+          "jockey": "Taryn Langley(5)",
+          "jockey_id": "jky_302604",
+          "draw": 5,
+          "number": 3,
+          "lbs": 137,
+          "ofr": "57",
+          "last_run": 13,
+          "form": "475436",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:32.480674+00:00"
+          "_stored_at": "2026-07-02T04:58:41.490182+00:00"
         }
       ],
       "profile_notes": [
-        "Low draw today"
+        "Recent run timing"
       ],
       "favourite_course": {
         "value": "Yarmouth",
@@ -1001,7 +730,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 47,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1009,6 +738,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1017,7 +747,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 45,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1064,12 +794,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 43,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1100,7 +826,7 @@
           "last_run": 30,
           "form": "558-90",
           "headgear": "p",
-          "_stored_at": "2026-07-02T00:01:32.455510+00:00"
+          "_stored_at": "2026-07-02T04:58:41.554736+00:00"
         }
       ],
       "profile_notes": [],
@@ -1125,7 +851,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 46,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1133,6 +859,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1141,7 +868,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 6",
-        "latest_pulse_score": 43,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1151,6 +878,7 @@
   "notes": [
     "Campani is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Give Me The Night is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Mart is flagged as a possible dark horse."
   ]
 }

@@ -40,6 +40,7 @@ from collectors.daily_update import (
     is_mode_complete_today,
     run_jobs,
 )
+from app.modules.arbitrage.execution.routes import router as execution_router
 from collectors.pulse_live_engine import (LIVE_ENGINE_BUSY,run_loop as run_pulse_live_engine,)
 from fastapi import FastAPI, Query, HTTPException, Form, Request
 from fastapi.responses import HTMLResponse, RedirectResponse
@@ -77,6 +78,8 @@ from app.core.lay_calculator import calculate_lay_arb
 
 
 app = FastAPI(title="Pulse")
+app.include_router(execution_router)
+
 app.include_router(execution_router)
 
 app.mount(

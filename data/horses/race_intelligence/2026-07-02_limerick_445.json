@@ -5,14 +5,129 @@
   "time": "4:45",
   "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
   "field_size": 8,
-  "average_intelligence": 50.62,
-  "top_score": 62,
-  "second_score": 54,
-  "gap": 8,
-  "confidence_score": 59,
-  "confidence": "MEDIUM",
-  "race_shape": "COMPETITIVE EDGE",
+  "average_intelligence": 24.0,
+  "top_score": 24,
+  "second_score": 24,
+  "gap": 0,
+  "confidence_score": 19,
+  "confidence": "LOW",
+  "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Bop Wont Stop",
+    "horse_id": "hrs_46697182",
+    "age": 6,
+    "sex": "gelding",
+    "latest_course": "Limerick",
+    "latest_time": "4:45",
+    "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
+    "latest_date": "2026-07-02",
+    "latest_distance_f": 16.5,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Rodger Sweeney",
+    "latest_jockey": "John Shinnick",
+    "latest_draw": 0,
+    "latest_weight_lbs": 161,
+    "official_rating": "105",
+    "recent_form": "006/49",
+    "last_run_days": 33,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Limerick": 1
+    },
+    "distances_seen": {
+      "16.5": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Rodger Sweeney": 1
+    },
+    "jockeys_seen": {
+      "John Shinnick": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12008074",
+        "course": "Limerick",
+        "date": "2026-07-02",
+        "off_time": "4:45",
+        "off_dt": "2026-07-02T16:45:00+01:00",
+        "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
+        "distance_f": 16.5,
+        "race_class": "",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 12,
+        "horse": "Bop Wont Stop",
+        "horse_id": "hrs_46697182",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Rodger Sweeney",
+        "trainer_id": "trn_98325",
+        "jockey": "John Shinnick",
+        "jockey_id": "jky_295839",
+        "draw": 0,
+        "number": 4,
+        "lbs": 161,
+        "ofr": "105",
+        "last_run": 33,
+        "form": "006/49",
+        "headgear": "",
+        "_stored_at": "2026-07-02T04:58:43.733545+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Limerick",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 16.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Limerick",
+      "latest_distance_f": 16.5,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Eastmore",
     "horse_id": "hrs_35881209",
     "age": 6,
@@ -51,15 +166,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 85,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer bonus +2",
-      "Jockey bonus +3"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -90,131 +198,7 @@
         "last_run": 34,
         "form": "222-32",
         "headgear": "t",
-        "_stored_at": "2026-07-02T00:01:34.877793+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Elite latest Pulse Score"
-    ],
-    "favourite_course": {
-      "value": "Limerick",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 16.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 62,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Elite latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Limerick",
-      "latest_distance_f": 16.5,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 85,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Dairy Force",
-    "horse_id": "hrs_38288453",
-    "age": 7,
-    "sex": "gelding",
-    "latest_course": "Limerick",
-    "latest_time": "4:45",
-    "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
-    "latest_date": "2026-07-02",
-    "latest_distance_f": 16.5,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Gordon Elliott",
-    "latest_jockey": "Jack Kennedy",
-    "latest_draw": 0,
-    "latest_weight_lbs": 161,
-    "official_rating": "105",
-    "recent_form": "42F2-0",
-    "last_run_days": 48,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Limerick": 1
-    },
-    "distances_seen": {
-      "16.5": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Gordon Elliott": 1
-    },
-    "jockeys_seen": {
-      "Jack Kennedy": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 66,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Trainer bonus +2",
-      "Stable in form +2 (2/2 last 14 days)",
-      "Jockey bonus +3"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12008074",
-        "course": "Limerick",
-        "date": "2026-07-02",
-        "off_time": "4:45",
-        "off_dt": "2026-07-02T16:45:00+01:00",
-        "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
-        "distance_f": 16.5,
-        "race_class": "",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 12,
-        "horse": "Dairy Force",
-        "horse_id": "hrs_38288453",
-        "age": 7,
-        "sex": "gelding",
-        "trainer": "Gordon Elliott",
-        "trainer_id": "trn_163305",
-        "jockey": "Jack Kennedy",
-        "jockey_id": "jky_283509",
-        "draw": 0,
-        "number": 5,
-        "lbs": 161,
-        "ofr": "105",
-        "last_run": 48,
-        "form": "42F2-0",
-        "headgear": "h",
-        "_stored_at": "2026-07-02T00:01:34.793944+00:00"
+        "_stored_at": "2026-07-02T04:58:43.822790+00:00"
       }
     ],
     "profile_notes": [],
@@ -236,135 +220,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 54,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Limerick",
-      "latest_distance_f": 16.5,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 66,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
-    "horse": "Silly Mongoose",
-    "horse_id": "hrs_49145096",
-    "age": 5,
-    "sex": "gelding",
-    "latest_course": "Limerick",
-    "latest_time": "4:45",
-    "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
-    "latest_date": "2026-07-02",
-    "latest_distance_f": 16.5,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Patrick T Foley",
-    "latest_jockey": "Simon Torrens",
-    "latest_draw": 0,
-    "latest_weight_lbs": 159,
-    "official_rating": "103",
-    "recent_form": "680-51",
-    "last_run_days": 17,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Limerick": 1
-    },
-    "distances_seen": {
-      "16.5": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Patrick T Foley": 1
-    },
-    "jockeys_seen": {
-      "Simon Torrens": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 62,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer bonus +1",
-      "Jockey bonus +1"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12008074",
-        "course": "Limerick",
-        "date": "2026-07-02",
-        "off_time": "4:45",
-        "off_dt": "2026-07-02T16:45:00+01:00",
-        "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
-        "distance_f": 16.5,
-        "race_class": "",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 12,
-        "horse": "Silly Mongoose",
-        "horse_id": "hrs_49145096",
-        "age": 5,
-        "sex": "gelding",
-        "trainer": "Patrick T Foley",
-        "trainer_id": "trn_343980",
-        "jockey": "Simon Torrens",
-        "jockey_id": "jky_279411",
-        "draw": 0,
-        "number": 7,
-        "lbs": 159,
-        "ofr": "103",
-        "last_run": 17,
-        "form": "680-51",
-        "headgear": "h",
-        "_stored_at": "2026-07-02T00:01:34.844893+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Limerick",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 16.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 52,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -373,13 +236,243 @@
       "latest_distance_f": 16.5,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 62,
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Emesteraye",
+    "horse_id": "hrs_58133614",
+    "age": 5,
+    "sex": "mare",
+    "latest_course": "Limerick",
+    "latest_time": "4:45",
+    "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
+    "latest_date": "2026-07-02",
+    "latest_distance_f": 16.5,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Ross O'Sullivan",
+    "latest_jockey": "Danny Gilligan",
+    "latest_draw": 0,
+    "latest_weight_lbs": 157,
+    "official_rating": "101",
+    "recent_form": "608-3",
+    "last_run_days": 36,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Limerick": 1
+    },
+    "distances_seen": {
+      "16.5": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Ross O'Sullivan": 1
+    },
+    "jockeys_seen": {
+      "Danny Gilligan": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12008074",
+        "course": "Limerick",
+        "date": "2026-07-02",
+        "off_time": "4:45",
+        "off_dt": "2026-07-02T16:45:00+01:00",
+        "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
+        "distance_f": 16.5,
+        "race_class": "",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 12,
+        "horse": "Emesteraye",
+        "horse_id": "hrs_58133614",
+        "age": 5,
+        "sex": "mare",
+        "trainer": "Ross O'Sullivan",
+        "trainer_id": "trn_227025",
+        "jockey": "Danny Gilligan",
+        "jockey_id": "jky_304860",
+        "draw": 0,
+        "number": 9,
+        "lbs": 157,
+        "ofr": "101",
+        "last_run": 36,
+        "form": "608-3",
+        "headgear": "",
+        "_stored_at": "2026-07-02T04:58:43.846850+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Limerick",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 16.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Limerick",
+      "latest_distance_f": 16.5,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Bop Wont Stop",
+      "horse_id": "hrs_46697182",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Limerick",
+      "latest_time": "4:45",
+      "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Rodger Sweeney",
+      "latest_jockey": "John Shinnick",
+      "latest_draw": 0,
+      "latest_weight_lbs": 161,
+      "official_rating": "105",
+      "recent_form": "006/49",
+      "last_run_days": 33,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Limerick": 1
+      },
+      "distances_seen": {
+        "16.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Rodger Sweeney": 1
+      },
+      "jockeys_seen": {
+        "John Shinnick": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008074",
+          "course": "Limerick",
+          "date": "2026-07-02",
+          "off_time": "4:45",
+          "off_dt": "2026-07-02T16:45:00+01:00",
+          "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
+          "distance_f": 16.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Bop Wont Stop",
+          "horse_id": "hrs_46697182",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Rodger Sweeney",
+          "trainer_id": "trn_98325",
+          "jockey": "John Shinnick",
+          "jockey_id": "jky_295839",
+          "draw": 0,
+          "number": 4,
+          "lbs": 161,
+          "ofr": "105",
+          "last_run": 33,
+          "form": "006/49",
+          "headgear": "",
+          "_stored_at": "2026-07-02T04:58:43.733545+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Limerick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Limerick",
+        "latest_distance_f": 16.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Eastmore",
       "horse_id": "hrs_35881209",
@@ -419,15 +512,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 85,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Jockey bonus +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -458,131 +544,7 @@
           "last_run": 34,
           "form": "222-32",
           "headgear": "t",
-          "_stored_at": "2026-07-02T00:01:34.877793+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 62,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 16.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 85,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Dairy Force",
-      "horse_id": "hrs_38288453",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Limerick",
-      "latest_time": "4:45",
-      "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 16.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gordon Elliott",
-      "latest_jockey": "Jack Kennedy",
-      "latest_draw": 0,
-      "latest_weight_lbs": 161,
-      "official_rating": "105",
-      "recent_form": "42F2-0",
-      "last_run_days": 48,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "16.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Gordon Elliott": 1
-      },
-      "jockeys_seen": {
-        "Jack Kennedy": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 66,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Stable in form +2 (2/2 last 14 days)",
-        "Jockey bonus +3"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008074",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "4:45",
-          "off_dt": "2026-07-02T16:45:00+01:00",
-          "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
-          "distance_f": 16.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Dairy Force",
-          "horse_id": "hrs_38288453",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "Jack Kennedy",
-          "jockey_id": "jky_283509",
-          "draw": 0,
-          "number": 5,
-          "lbs": 161,
-          "ofr": "105",
-          "last_run": 48,
-          "form": "42F2-0",
-          "headgear": "h",
-          "_stored_at": "2026-07-02T00:01:34.793944+00:00"
+          "_stored_at": "2026-07-02T04:58:43.822790+00:00"
         }
       ],
       "profile_notes": [],
@@ -604,135 +566,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 16.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 66,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Silly Mongoose",
-      "horse_id": "hrs_49145096",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Limerick",
-      "latest_time": "4:45",
-      "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 16.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Patrick T Foley",
-      "latest_jockey": "Simon Torrens",
-      "latest_draw": 0,
-      "latest_weight_lbs": 159,
-      "official_rating": "103",
-      "recent_form": "680-51",
-      "last_run_days": 17,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "16.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Patrick T Foley": 1
-      },
-      "jockeys_seen": {
-        "Simon Torrens": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 62,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008074",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "4:45",
-          "off_dt": "2026-07-02T16:45:00+01:00",
-          "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
-          "distance_f": 16.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Silly Mongoose",
-          "horse_id": "hrs_49145096",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Patrick T Foley",
-          "trainer_id": "trn_343980",
-          "jockey": "Simon Torrens",
-          "jockey_id": "jky_279411",
-          "draw": 0,
-          "number": 7,
-          "lbs": 159,
-          "ofr": "103",
-          "last_run": 17,
-          "form": "680-51",
-          "headgear": "h",
-          "_stored_at": "2026-07-02T00:01:34.844893+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -741,248 +582,7 @@
         "latest_distance_f": 16.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 62,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Mo Ghille Mar",
-      "horse_id": "hrs_36035454",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Limerick",
-      "latest_time": "4:45",
-      "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 16.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "John Joseph Hanlon",
-      "latest_jockey": "Paddy Hanlon(5)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 162,
-      "official_rating": "106",
-      "recent_form": "606-17",
-      "last_run_days": 31,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "16.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "John Joseph Hanlon": 1
-      },
-      "jockeys_seen": {
-        "Paddy Hanlon(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 59,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Stable in form +2 (1/2 last 14 days)",
-        "Jockey in form +2 (1/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008074",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "4:45",
-          "off_dt": "2026-07-02T16:45:00+01:00",
-          "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
-          "distance_f": 16.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Mo Ghille Mar",
-          "horse_id": "hrs_36035454",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "John Joseph Hanlon",
-          "trainer_id": "trn_169605",
-          "jockey": "Paddy Hanlon(5)",
-          "jockey_id": "jky_308520",
-          "draw": 0,
-          "number": 2,
-          "lbs": 162,
-          "ofr": "106",
-          "last_run": 31,
-          "form": "606-17",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.712663+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 16.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 59,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Youlita",
-      "horse_id": "hrs_38305477",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Limerick",
-      "latest_time": "4:45",
-      "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 16.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "C Byrnes",
-      "latest_jockey": "Mark McDonagh",
-      "latest_draw": 0,
-      "latest_weight_lbs": 162,
-      "official_rating": "106",
-      "recent_form": "15361-",
-      "last_run_days": 98,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "16.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "C Byrnes": 1
-      },
-      "jockeys_seen": {
-        "Mark McDonagh": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Trainer bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008074",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "4:45",
-          "off_dt": "2026-07-02T16:45:00+01:00",
-          "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
-          "distance_f": 16.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Youlita",
-          "horse_id": "hrs_38305477",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "C Byrnes",
-          "trainer_id": "trn_80190",
-          "jockey": "Mark McDonagh",
-          "jockey_id": "jky_292344",
-          "draw": 0,
-          "number": 3,
-          "lbs": 162,
-          "ofr": "106",
-          "last_run": 98,
-          "form": "15361-",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.753047+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 16.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 60,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1027,15 +627,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Stable in form +2 (2/5 last 14 days)",
-        "Jockey bonus +1",
-        "Jockey flying +4 (4/6 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1066,7 +659,7 @@
           "last_run": 36,
           "form": "608-3",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.894403+00:00"
+          "_stored_at": "2026-07-02T04:58:43.846850+00:00"
         }
       ],
       "profile_notes": [],
@@ -1088,13 +681,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 47,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1103,127 +697,7 @@
         "latest_distance_f": 16.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 51,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Bop Wont Stop",
-      "horse_id": "hrs_46697182",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Limerick",
-      "latest_time": "4:45",
-      "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 16.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Rodger Sweeney",
-      "latest_jockey": "John Shinnick",
-      "latest_draw": 0,
-      "latest_weight_lbs": 161,
-      "official_rating": "105",
-      "recent_form": "006/49",
-      "last_run_days": 33,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "16.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Rodger Sweeney": 1
-      },
-      "jockeys_seen": {
-        "John Shinnick": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 48,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer concern -2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008074",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "4:45",
-          "off_dt": "2026-07-02T16:45:00+01:00",
-          "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
-          "distance_f": 16.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Bop Wont Stop",
-          "horse_id": "hrs_46697182",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Rodger Sweeney",
-          "trainer_id": "trn_98325",
-          "jockey": "John Shinnick",
-          "jockey_id": "jky_295839",
-          "draw": 0,
-          "number": 4,
-          "lbs": 161,
-          "ofr": "105",
-          "last_run": 33,
-          "form": "006/49",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:34.786547+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 46,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 16.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 48,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1268,13 +742,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 40,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1305,7 +774,7 @@
           "last_run": 122,
           "form": "92540-",
           "headgear": "p",
-          "_stored_at": "2026-07-02T00:01:34.827304+00:00"
+          "_stored_at": "2026-07-02T04:58:43.777512+00:00"
         }
       ],
       "profile_notes": [
@@ -1329,7 +798,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 42,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1345,7 +814,471 @@
         "latest_distance_f": 16.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 40,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Mo Ghille Mar",
+      "horse_id": "hrs_36035454",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Limerick",
+      "latest_time": "4:45",
+      "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "John Joseph Hanlon",
+      "latest_jockey": "Paddy Hanlon(5)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 162,
+      "official_rating": "106",
+      "recent_form": "606-17",
+      "last_run_days": 31,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Limerick": 1
+      },
+      "distances_seen": {
+        "16.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "John Joseph Hanlon": 1
+      },
+      "jockeys_seen": {
+        "Paddy Hanlon(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008074",
+          "course": "Limerick",
+          "date": "2026-07-02",
+          "off_time": "4:45",
+          "off_dt": "2026-07-02T16:45:00+01:00",
+          "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
+          "distance_f": 16.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Mo Ghille Mar",
+          "horse_id": "hrs_36035454",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "John Joseph Hanlon",
+          "trainer_id": "trn_169605",
+          "jockey": "Paddy Hanlon(5)",
+          "jockey_id": "jky_308520",
+          "draw": 0,
+          "number": 2,
+          "lbs": 162,
+          "ofr": "106",
+          "last_run": 31,
+          "form": "606-17",
+          "headgear": "",
+          "_stored_at": "2026-07-02T04:58:43.689496+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Limerick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Limerick",
+        "latest_distance_f": 16.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Northern Ruler",
+      "horse_id": "hrs_41723430",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Limerick",
+      "latest_time": "4:45",
+      "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "M D O'Callaghan",
+      "latest_jockey": "Ricky Doyle",
+      "latest_draw": 0,
+      "latest_weight_lbs": 152,
+      "official_rating": "96",
+      "recent_form": "006-",
+      "last_run_days": 120,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Limerick": 1
+      },
+      "distances_seen": {
+        "16.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "M D O'Callaghan": 1
+      },
+      "jockeys_seen": {
+        "Ricky Doyle": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008074",
+          "course": "Limerick",
+          "date": "2026-07-02",
+          "off_time": "4:45",
+          "off_dt": "2026-07-02T16:45:00+01:00",
+          "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
+          "distance_f": 16.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Northern Ruler",
+          "horse_id": "hrs_41723430",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "M D O'Callaghan",
+          "trainer_id": "trn_240543",
+          "jockey": "Ricky Doyle",
+          "jockey_id": "jky_272205",
+          "draw": 0,
+          "number": 11,
+          "lbs": 152,
+          "ofr": "96",
+          "last_run": 120,
+          "form": "006-",
+          "headgear": "t",
+          "_stored_at": "2026-07-02T04:58:43.891487+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Limerick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Limerick",
+        "latest_distance_f": 16.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Silly Mongoose",
+      "horse_id": "hrs_49145096",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Limerick",
+      "latest_time": "4:45",
+      "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Patrick T Foley",
+      "latest_jockey": "Simon Torrens",
+      "latest_draw": 0,
+      "latest_weight_lbs": 159,
+      "official_rating": "103",
+      "recent_form": "680-51",
+      "last_run_days": 17,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Limerick": 1
+      },
+      "distances_seen": {
+        "16.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Patrick T Foley": 1
+      },
+      "jockeys_seen": {
+        "Simon Torrens": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008074",
+          "course": "Limerick",
+          "date": "2026-07-02",
+          "off_time": "4:45",
+          "off_dt": "2026-07-02T16:45:00+01:00",
+          "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
+          "distance_f": 16.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Silly Mongoose",
+          "horse_id": "hrs_49145096",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Patrick T Foley",
+          "trainer_id": "trn_343980",
+          "jockey": "Simon Torrens",
+          "jockey_id": "jky_279411",
+          "draw": 0,
+          "number": 7,
+          "lbs": 159,
+          "ofr": "103",
+          "last_run": 17,
+          "form": "680-51",
+          "headgear": "h",
+          "_stored_at": "2026-07-02T04:58:43.800403+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Limerick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Limerick",
+        "latest_distance_f": 16.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Youlita",
+      "horse_id": "hrs_38305477",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Limerick",
+      "latest_time": "4:45",
+      "latest_race": "Cappawhite Civil Engineering Handicap Hurdle",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 16.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "C Byrnes",
+      "latest_jockey": "Mark McDonagh",
+      "latest_draw": 0,
+      "latest_weight_lbs": 162,
+      "official_rating": "106",
+      "recent_form": "15361-",
+      "last_run_days": 98,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Limerick": 1
+      },
+      "distances_seen": {
+        "16.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "C Byrnes": 1
+      },
+      "jockeys_seen": {
+        "Mark McDonagh": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008074",
+          "course": "Limerick",
+          "date": "2026-07-02",
+          "off_time": "4:45",
+          "off_dt": "2026-07-02T16:45:00+01:00",
+          "race_name": "Cappawhite Civil Engineering Handicap Hurdle",
+          "distance_f": 16.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Youlita",
+          "horse_id": "hrs_38305477",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "C Byrnes",
+          "trainer_id": "trn_80190",
+          "jockey": "Mark McDonagh",
+          "jockey_id": "jky_292344",
+          "draw": 0,
+          "number": 3,
+          "lbs": 162,
+          "ofr": "106",
+          "last_run": 98,
+          "form": "15361-",
+          "headgear": "",
+          "_stored_at": "2026-07-02T04:58:43.710531+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Limerick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Limerick",
+        "latest_distance_f": 16.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1353,7 +1286,9 @@
     }
   ],
   "notes": [
-    "Eastmore is the top-rated Pulse IQ runner.",
-    "Silly Mongoose is flagged as a possible dark horse."
+    "Bop Wont Stop is the top-rated Pulse IQ runner.",
+    "The race looks competitive with no clear standout.",
+    "This race has a generally weak profile strength.",
+    "Emesteraye is flagged as a possible dark horse."
   ]
 }

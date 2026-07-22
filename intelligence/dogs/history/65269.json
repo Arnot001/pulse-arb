@@ -8,31 +8,38 @@
   "owner": "The Ryder Racing Syndicate",
   "sire": "Ballymac Best",
   "dam": "Jumeirah Zena",
-  "current_form": "52226",
+  "current_form": "22264",
   "overall": {
-    "runs": 20,
+    "runs": 21,
     "wins": 2,
     "seconds": 4,
     "thirds": 4,
     "places": 10
   },
   "tracks": {
+    "Nottingham": {
+      "runs": 3,
+      "wins": 0,
+      "seconds": 0,
+      "thirds": 1,
+      "places": 1
+    },
     "Doncaster": {
       "runs": 18,
       "wins": 2,
       "seconds": 4,
       "thirds": 3,
       "places": 9
-    },
-    "Nottingham": {
-      "runs": 2,
+    }
+  },
+  "distances": {
+    "305": {
+      "runs": 3,
       "wins": 0,
       "seconds": 0,
       "thirds": 1,
       "places": 1
-    }
-  },
-  "distances": {
+    },
     "450": {
       "runs": 12,
       "wins": 1,
@@ -46,18 +53,11 @@
       "seconds": 0,
       "thirds": 2,
       "places": 3
-    },
-    "305": {
-      "runs": 2,
-      "wins": 0,
-      "seconds": 0,
-      "thirds": 1,
-      "places": 1
     }
   },
   "traps": {
     "2": {
-      "runs": 10,
+      "runs": 11,
       "wins": 1,
       "seconds": 1,
       "thirds": 1,
@@ -72,13 +72,6 @@
     }
   },
   "classes": {
-    "B7": {
-      "runs": 9,
-      "wins": 1,
-      "seconds": 4,
-      "thirds": 0,
-      "places": 5
-    },
     "D4": {
       "runs": 8,
       "wins": 1,
@@ -86,17 +79,31 @@
       "thirds": 3,
       "places": 4
     },
+    "B7": {
+      "runs": 9,
+      "wins": 1,
+      "seconds": 4,
+      "thirds": 0,
+      "places": 5
+    },
     "B6": {
       "runs": 3,
       "wins": 0,
       "seconds": 0,
       "thirds": 1,
       "places": 1
+    },
+    "IT": {
+      "runs": 1,
+      "wins": 0,
+      "seconds": 0,
+      "thirds": 0,
+      "places": 0
     }
   },
   "best_time": 17.68,
-  "average_time": 24.83,
-  "last_seen": "2026-07-08",
-  "win_rate": 10.0,
-  "place_rate": 50.0
+  "average_time": 24.55,
+  "last_seen": "2026-07-16",
+  "win_rate": 9.52,
+  "place_rate": 47.62
 }

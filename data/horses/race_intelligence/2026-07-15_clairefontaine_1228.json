@@ -5,11 +5,11 @@
   "time": "12:28",
   "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
   "field_size": 10,
-  "average_intelligence": 52.4,
-  "top_score": 58,
-  "second_score": 57,
-  "gap": 1,
-  "confidence_score": 47,
+  "average_intelligence": 55.1,
+  "top_score": 65,
+  "second_score": 63,
+  "gap": 2,
+  "confidence_score": 53,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
@@ -23,7 +23,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 19.5,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Soft",
     "latest_surface": "Turf",
     "latest_trainer": "Nathan Vergne",
     "latest_jockey": "Leo-Paul Brechet",
@@ -39,7 +39,9 @@
     "distances_seen": {
       "19.5": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Soft": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "Nathan Vergne": 1
@@ -49,13 +51,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 83,
+    "latest_pulse_score": 91,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
-      "Historical winner +3"
+      "Trainer bonus +3",
+      "Jockey bonus +3",
+      "Historical winner +3",
+      "Proven on going +2 (1/1 on going)"
     ],
     "runs": [
       {
@@ -68,10 +73,10 @@
         "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
         "distance_f": 19.5,
         "race_class": "",
-        "race_type": "Flat",
-        "going": "",
+        "race_type": "Chase",
+        "going": "Soft",
         "surface": "Turf",
-        "field_size": 10,
+        "field_size": 9,
         "horse": "Divilskin",
         "horse_id": "hrs_29735391",
         "age": 8,
@@ -100,30 +105,33 @@
       "value": 19.5,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Soft",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 58,
+    "suitability_score": 80,
+    "horse_intelligence_score": 65,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Clairefontaine",
       "latest_distance_f": 19.5,
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_class": "",
-      "latest_pulse_score": 83,
+      "latest_pulse_score": 91,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -140,7 +148,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 19.5,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Soft",
     "latest_surface": "Turf",
     "latest_trainer": "Dalibor Torok",
     "latest_jockey": "Anthony Renard",
@@ -156,7 +164,9 @@
     "distances_seen": {
       "19.5": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Soft": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "Dalibor Torok": 1
@@ -166,12 +176,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 80,
+    "latest_pulse_score": 87,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Helpful draw"
+      "Helpful draw",
+      "Trainer bonus +4",
+      "Jockey bonus +3"
     ],
     "runs": [
       {
@@ -184,10 +196,10 @@
         "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
         "distance_f": 19.5,
         "race_class": "",
-        "race_type": "Flat",
-        "going": "",
+        "race_type": "Chase",
+        "going": "Soft",
         "surface": "Turf",
-        "field_size": 10,
+        "field_size": 9,
         "horse": "Cats'Agility",
         "horse_id": "hrs_35416829",
         "age": 7,
@@ -216,30 +228,33 @@
       "value": 19.5,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Soft",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 57,
+    "suitability_score": 80,
+    "horse_intelligence_score": 63,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Clairefontaine",
       "latest_distance_f": 19.5,
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_class": "",
-      "latest_pulse_score": 80,
+      "latest_pulse_score": 87,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -256,7 +271,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 19.5,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Soft",
     "latest_surface": "Turf",
     "latest_trainer": "Dalibor Torok",
     "latest_jockey": "Anthony Renard",
@@ -272,7 +287,9 @@
     "distances_seen": {
       "19.5": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Soft": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "Dalibor Torok": 1
@@ -282,12 +299,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 80,
+    "latest_pulse_score": 87,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
-      "Helpful draw"
+      "Helpful draw",
+      "Trainer bonus +4",
+      "Jockey bonus +3"
     ],
     "runs": [
       {
@@ -300,10 +319,10 @@
         "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
         "distance_f": 19.5,
         "race_class": "",
-        "race_type": "Flat",
-        "going": "",
+        "race_type": "Chase",
+        "going": "Soft",
         "surface": "Turf",
-        "field_size": 10,
+        "field_size": 9,
         "horse": "Cats'Agility",
         "horse_id": "hrs_35416829",
         "age": 7,
@@ -332,30 +351,33 @@
       "value": 19.5,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Soft",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 57,
+    "suitability_score": 80,
+    "horse_intelligence_score": 63,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Clairefontaine",
       "latest_distance_f": 19.5,
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_class": "",
-      "latest_pulse_score": 80,
+      "latest_pulse_score": 87,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -373,7 +395,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 19.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Nathan Vergne",
       "latest_jockey": "Leo-Paul Brechet",
@@ -389,7 +411,9 @@
       "distances_seen": {
         "19.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Nathan Vergne": 1
@@ -399,13 +423,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 83,
+      "latest_pulse_score": 91,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
-        "Historical winner +3"
+        "Trainer bonus +3",
+        "Jockey bonus +3",
+        "Historical winner +3",
+        "Proven on going +2 (1/1 on going)"
       ],
       "runs": [
         {
@@ -418,10 +445,10 @@
           "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
           "distance_f": 19.5,
           "race_class": "",
-          "race_type": "Flat",
-          "going": "",
+          "race_type": "Chase",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Divilskin",
           "horse_id": "hrs_29735391",
           "age": 8,
@@ -450,30 +477,33 @@
         "value": 19.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 58,
+      "suitability_score": 80,
+      "horse_intelligence_score": 65,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 19.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
-        "latest_pulse_score": 83,
+        "latest_pulse_score": 91,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -490,7 +520,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 19.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Dalibor Torok",
       "latest_jockey": "Anthony Renard",
@@ -506,7 +536,9 @@
       "distances_seen": {
         "19.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Dalibor Torok": 1
@@ -516,12 +548,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 80,
+      "latest_pulse_score": 87,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw"
+        "Helpful draw",
+        "Trainer bonus +4",
+        "Jockey bonus +3"
       ],
       "runs": [
         {
@@ -534,10 +568,10 @@
           "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
           "distance_f": 19.5,
           "race_class": "",
-          "race_type": "Flat",
-          "going": "",
+          "race_type": "Chase",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Cats'Agility",
           "horse_id": "hrs_35416829",
           "age": 7,
@@ -566,30 +600,33 @@
         "value": 19.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 57,
+      "suitability_score": 80,
+      "horse_intelligence_score": 63,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 19.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
-        "latest_pulse_score": 80,
+        "latest_pulse_score": 87,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -606,7 +643,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 19.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "J Boisnard",
       "latest_jockey": "Theo Chevillard",
@@ -622,7 +659,9 @@
       "distances_seen": {
         "19.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "J Boisnard": 1
@@ -632,12 +671,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 73,
+      "latest_pulse_score": 77,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw"
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -650,10 +691,10 @@
           "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
           "distance_f": 19.5,
           "race_class": "",
-          "race_type": "Flat",
-          "going": "",
+          "race_type": "Chase",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Let Me Dream",
           "horse_id": "hrs_51434166",
           "age": 5,
@@ -680,30 +721,33 @@
         "value": 19.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 54,
+      "suitability_score": 80,
+      "horse_intelligence_score": 59,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 19.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
-        "latest_pulse_score": 73,
+        "latest_pulse_score": 77,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -720,7 +764,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 19.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Josef Vana Jr",
       "latest_jockey": "Jan Kratochvil",
@@ -736,7 +780,9 @@
       "distances_seen": {
         "19.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Josef Vana Jr": 1
@@ -746,11 +792,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 72,
+      "latest_pulse_score": 74,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
-        "Helpful draw"
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
@@ -763,10 +811,10 @@
           "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
           "distance_f": 19.5,
           "race_class": "",
-          "race_type": "Flat",
-          "going": "",
+          "race_type": "Chase",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Le Petit Nice",
           "horse_id": "hrs_23048711",
           "age": 9,
@@ -793,30 +841,33 @@
         "value": 19.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 53,
+      "suitability_score": 80,
+      "horse_intelligence_score": 57,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 19.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
-        "latest_pulse_score": 72,
+        "latest_pulse_score": 74,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -833,7 +884,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 19.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "L & M Viel",
       "latest_jockey": "Axel Lepage",
@@ -849,7 +900,9 @@
       "distances_seen": {
         "19.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "L & M Viel": 1
@@ -859,12 +912,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 68,
+      "latest_pulse_score": 72,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw"
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Jockey bonus +2"
       ],
       "runs": [
         {
@@ -877,10 +932,10 @@
           "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
           "distance_f": 19.5,
           "race_class": "",
-          "race_type": "Flat",
-          "going": "",
+          "race_type": "Chase",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Allons A Vassy",
           "horse_id": "hrs_40312293",
           "age": 5,
@@ -907,30 +962,33 @@
         "value": 19.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 52,
+      "suitability_score": 80,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 19.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
-        "latest_pulse_score": 68,
+        "latest_pulse_score": 72,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -947,7 +1005,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 19.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Giada Menato",
       "latest_jockey": "Theo Pierrisnard",
@@ -963,7 +1021,9 @@
       "distances_seen": {
         "19.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Giada Menato": 1
@@ -973,12 +1033,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 70,
+      "latest_pulse_score": 71,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw"
+        "Helpful draw",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
@@ -991,10 +1052,10 @@
           "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
           "distance_f": 19.5,
           "race_class": "",
-          "race_type": "Flat",
-          "going": "",
+          "race_type": "Chase",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Make Sense",
           "horse_id": "hrs_63356475",
           "age": 5,
@@ -1021,258 +1082,33 @@
         "value": 19.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 52,
+      "suitability_score": 80,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 19.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
-        "latest_pulse_score": 70,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Foudre Delta",
-      "horse_id": "hrs_18231843",
-      "age": 11,
-      "sex": "gelding",
-      "latest_course": "Clairefontaine",
-      "latest_time": "12:28",
-      "latest_race": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 19.5,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Yannick Fouin",
-      "latest_jockey": "Kevin Ouvrier",
-      "latest_draw": 0,
-      "latest_weight_lbs": 154,
-      "official_rating": "-",
-      "recent_form": "2P21P3",
-      "last_run_days": 68,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "19.5": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "Yannick Fouin": 1
-      },
-      "jockeys_seen": {
-        "Kevin Ouvrier": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 66,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000003965",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "12:28",
-          "off_dt": "2026-07-15T12:28:00+01:00",
-          "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
-          "distance_f": 19.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Foudre Delta",
-          "horse_id": "hrs_18231843",
-          "age": 11,
-          "sex": "gelding",
-          "trainer": "Yannick Fouin",
-          "trainer_id": "trn_122085",
-          "jockey": "Kevin Ouvrier",
-          "jockey_id": "jky_302160",
-          "draw": 0,
-          "number": 4,
-          "lbs": 154,
-          "ofr": "-",
-          "last_run": 68,
-          "form": "2P21P3",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 19.5,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 19.5,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 66,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Kimarillo",
-      "horse_id": "hrs_34500382",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Clairefontaine",
-      "latest_time": "12:28",
-      "latest_race": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 19.5,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "F Bellemere",
-      "latest_jockey": "Bastien Marchand",
-      "latest_draw": 0,
-      "latest_weight_lbs": 150,
-      "official_rating": "-",
-      "recent_form": "652837",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "19.5": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "F Bellemere": 1
-      },
-      "jockeys_seen": {
-        "Bastien Marchand": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 67,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Historical winner +3",
-        "Previous course winner +4"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000003965",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "12:28",
-          "off_dt": "2026-07-15T12:28:00+01:00",
-          "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
-          "distance_f": 19.5,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Kimarillo",
-          "horse_id": "hrs_34500382",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "F Bellemere",
-          "trainer_id": "trn_363177",
-          "jockey": "Bastien Marchand",
-          "jockey_id": "jky_301917",
-          "draw": 0,
-          "number": 9,
-          "lbs": 150,
-          "ofr": "-",
-          "last_run": 18,
-          "form": "652837",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 19.5,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 19.5,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 67,
+        "latest_pulse_score": 71,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1289,7 +1125,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 19.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Giada Menato",
       "latest_jockey": "Baptiste Le Clerc",
@@ -1305,7 +1141,9 @@
       "distances_seen": {
         "19.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Giada Menato": 1
@@ -1315,12 +1153,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 60,
+      "latest_pulse_score": 61,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw"
+        "Helpful draw",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
@@ -1333,10 +1172,10 @@
           "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
           "distance_f": 19.5,
           "race_class": "",
-          "race_type": "Flat",
-          "going": "",
+          "race_type": "Chase",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Djembe Davis",
           "horse_id": "hrs_46913874",
           "age": 5,
@@ -1363,29 +1202,151 @@
         "value": 19.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 48,
+      "suitability_score": 80,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 19.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
-        "latest_pulse_score": 60,
+        "latest_pulse_score": 61,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Kimarillo",
+      "horse_id": "hrs_34500382",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Clairefontaine",
+      "latest_time": "12:28",
+      "latest_race": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 19.5,
+      "latest_class": "",
+      "latest_going": "Soft",
+      "latest_surface": "Turf",
+      "latest_trainer": "F Bellemere",
+      "latest_jockey": "Bastien Marchand",
+      "latest_draw": 0,
+      "latest_weight_lbs": 150,
+      "official_rating": "-",
+      "recent_form": "652837",
+      "last_run_days": 18,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "19.5": 1
+      },
+      "goings_seen": {
+        "Soft": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "F Bellemere": 1
+      },
+      "jockeys_seen": {
+        "Bastien Marchand": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 61,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000003965",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "12:28",
+          "off_dt": "2026-07-15T12:28:00+01:00",
+          "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
+          "distance_f": 19.5,
+          "race_class": "",
+          "race_type": "Chase",
+          "going": "Soft",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Kimarillo",
+          "horse_id": "hrs_34500382",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "F Bellemere",
+          "trainer_id": "trn_363177",
+          "jockey": "Bastien Marchand",
+          "jockey_id": "jky_301917",
+          "draw": 0,
+          "number": 9,
+          "lbs": 150,
+          "ofr": "-",
+          "last_run": 18,
+          "form": "652837",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 51,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 19.5,
+        "latest_going": "Soft",
+        "latest_class": "",
+        "latest_pulse_score": 61,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1402,7 +1363,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 19.5,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Soft",
       "latest_surface": "Turf",
       "latest_trainer": "Mme P Butel & J-L Beaunez",
       "latest_jockey": "Lucas Vandamme",
@@ -1418,7 +1379,9 @@
       "distances_seen": {
         "19.5": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Soft": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Mme P Butel & J-L Beaunez": 1
@@ -1446,10 +1409,10 @@
           "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
           "distance_f": 19.5,
           "race_class": "",
-          "race_type": "Flat",
-          "going": "",
+          "race_type": "Chase",
+          "going": "Soft",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 9,
           "horse": "Surinfil",
           "horse_id": "hrs_35150689",
           "age": 6,
@@ -1476,29 +1439,152 @@
         "value": 19.5,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 48,
+      "suitability_score": 80,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 19.5,
-        "latest_going": "",
+        "latest_going": "Soft",
         "latest_class": "",
         "latest_pulse_score": 60,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Foudre Delta",
+      "horse_id": "hrs_18231843",
+      "age": 11,
+      "sex": "gelding",
+      "latest_course": "Clairefontaine",
+      "latest_time": "12:28",
+      "latest_race": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 19.5,
+      "latest_class": "",
+      "latest_going": "Soft",
+      "latest_surface": "Turf",
+      "latest_trainer": "Yannick Fouin",
+      "latest_jockey": "Kevin Ouvrier",
+      "latest_draw": 0,
+      "latest_weight_lbs": 154,
+      "official_rating": "-",
+      "recent_form": "2P21P3",
+      "last_run_days": 68,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "19.5": 1
+      },
+      "goings_seen": {
+        "Soft": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Yannick Fouin": 1
+      },
+      "jockeys_seen": {
+        "Kevin Ouvrier": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 39,
+      "latest_notes": [
+        "Strong recent form",
+        "Helpful draw",
+        "Non-runner risk",
+        "Trainer bonus +2",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000003965",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "12:28",
+          "off_dt": "2026-07-15T12:28:00+01:00",
+          "race_name": "Prix L'ecole D'equitation Du Pic Longines (Prix Cdt Guy De Pibrac)",
+          "distance_f": 19.5,
+          "race_class": "",
+          "race_type": "Chase",
+          "going": "Soft",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Foudre Delta",
+          "horse_id": "hrs_18231843",
+          "age": 11,
+          "sex": "gelding",
+          "trainer": "Yannick Fouin",
+          "trainer_id": "trn_122085",
+          "jockey": "Kevin Ouvrier",
+          "jockey_id": "jky_302160",
+          "draw": 0,
+          "number": null,
+          "lbs": 154,
+          "ofr": "-",
+          "last_run": 68,
+          "form": "2P21P3",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Soft",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 42,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 19.5,
+        "latest_going": "Soft",
+        "latest_class": "",
+        "latest_pulse_score": 39,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1

@@ -5,13 +5,13 @@
   "time": "7:39",
   "race_name": "Helen Stewart Appreciation Handicap (For Pro-Am Female Jockeys)",
   "field_size": 4,
-  "average_intelligence": 53.0,
-  "top_score": 61,
-  "second_score": 52,
-  "gap": 9,
-  "confidence_score": 61,
-  "confidence": "MEDIUM",
-  "race_shape": "COMPETITIVE EDGE",
+  "average_intelligence": 25.75,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 21,
+  "confidence": "LOW",
+  "race_shape": "OPEN RACE",
   "top_runner": {
     "horse": "Alpine Sierra",
     "horse_id": "hrs_24855355",
@@ -23,7 +23,7 @@
     "latest_date": "2026-07-04",
     "latest_distance_f": 11.0,
     "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "Jim Goldie",
     "latest_jockey": "Lauren Young",
@@ -40,7 +40,7 @@
       "11.0": 1
     },
     "goings_seen": {
-      "Good To Firm": 1
+      "Good": 1
     },
     "classes_seen": {
       "Class 5": 1
@@ -53,12 +53,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 76,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -71,7 +67,7 @@
         "distance_f": 11.0,
         "race_class": "Class 5",
         "race_type": "Flat",
-        "going": "Good To Firm",
+        "going": "Good",
         "surface": "Turf",
         "field_size": 5,
         "horse": "Alpine Sierra",
@@ -103,7 +99,7 @@
       "runs": 1
     },
     "favourite_going": {
-      "value": "Good To Firm",
+      "value": "Good",
       "runs": 1
     },
     "favourite_class": {
@@ -115,134 +111,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 61,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Carlisle",
-      "latest_distance_f": 11.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 5",
-      "latest_pulse_score": 76,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Covert Legend",
-    "horse_id": "hrs_34874385",
-    "age": 6,
-    "sex": "gelding",
-    "latest_course": "Carlisle",
-    "latest_time": "7:39",
-    "latest_race": "Helen Stewart Appreciation Handicap (For Pro-Am Female Jockeys)",
-    "latest_date": "2026-07-04",
-    "latest_distance_f": 11.0,
-    "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Maurice Andrew Ahern",
-    "latest_jockey": "Miss M O'Sullivan",
-    "latest_draw": 1,
-    "latest_weight_lbs": 144,
-    "official_rating": "62",
-    "recent_form": "6442-4",
-    "last_run_days": 8,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Carlisle": 1
-    },
-    "distances_seen": {
-      "11.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 5": 1
-    },
-    "trainers_seen": {
-      "Maurice Andrew Ahern": 1
-    },
-    "jockeys_seen": {
-      "Miss M O'Sullivan": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 55,
-    "latest_notes": [
-      "Strong recent form",
-      "Helpful draw",
-      "Trainer bonus +1"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11989510",
-        "course": "Carlisle",
-        "date": "2026-07-04",
-        "off_time": "7:39",
-        "off_dt": "2026-07-04T19:39:00+01:00",
-        "race_name": "Helen Stewart Appreciation Handicap (For Pro-Am Female Jockeys)",
-        "distance_f": 11.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Covert Legend",
-        "horse_id": "hrs_34874385",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "Maurice Andrew Ahern",
-        "trainer_id": "trn_381051",
-        "jockey": "Miss M O'Sullivan",
-        "jockey_id": "jky_262911",
-        "draw": 1,
-        "number": 4,
-        "lbs": 144,
-        "ofr": "62",
-        "last_run": 8,
-        "form": "6442-4",
-        "headgear": "t"
-      }
-    ],
-    "profile_notes": [
-      "Low draw today",
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Carlisle",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 11.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 52,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -250,21 +119,22 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Carlisle",
       "latest_distance_f": 11.0,
-      "latest_going": "Good To Firm",
+      "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 55,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
+  "main_threat": {
     "horse": "Junkyard Dog",
     "horse_id": "hrs_45855180",
     "age": 4,
@@ -275,7 +145,7 @@
     "latest_date": "2026-07-04",
     "latest_distance_f": 11.0,
     "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "Iain Jardine",
     "latest_jockey": "Cara Tuke(5)",
@@ -292,7 +162,7 @@
       "11.0": 1
     },
     "goings_seen": {
-      "Good To Firm": 1
+      "Good": 1
     },
     "classes_seen": {
       "Class 5": 1
@@ -305,15 +175,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 54,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Trainer bonus +3",
-      "Stable in form +2 (1/1 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -326,7 +189,7 @@
         "distance_f": 11.0,
         "race_class": "Class 5",
         "race_type": "Flat",
-        "going": "Good To Firm",
+        "going": "Good",
         "surface": "Turf",
         "field_size": 5,
         "horse": "Junkyard Dog",
@@ -358,7 +221,7 @@
       "runs": 1
     },
     "favourite_going": {
-      "value": "Good To Firm",
+      "value": "Good",
       "runs": 1
     },
     "favourite_class": {
@@ -370,7 +233,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 51,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -378,15 +241,138 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Carlisle",
       "latest_distance_f": 11.0,
-      "latest_going": "Good To Firm",
+      "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 54,
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "V Twelve",
+    "horse_id": "hrs_29945048",
+    "age": 7,
+    "sex": "gelding",
+    "latest_course": "Carlisle",
+    "latest_time": "7:39",
+    "latest_race": "Helen Stewart Appreciation Handicap (For Pro-Am Female Jockeys)",
+    "latest_date": "2026-07-04",
+    "latest_distance_f": 11.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Martin Todhunter",
+    "latest_jockey": "Josephine Gordon",
+    "latest_draw": 3,
+    "latest_weight_lbs": 144,
+    "official_rating": "62",
+    "recent_form": "1373-9",
+    "last_run_days": null,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Carlisle": 1
+    },
+    "distances_seen": {
+      "11.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 5": 1
+    },
+    "trainers_seen": {
+      "Martin Todhunter": 1
+    },
+    "jockeys_seen": {
+      "Josephine Gordon": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11989510",
+        "course": "Carlisle",
+        "date": "2026-07-04",
+        "off_time": "7:39",
+        "off_dt": "2026-07-04T19:39:00+01:00",
+        "race_name": "Helen Stewart Appreciation Handicap (For Pro-Am Female Jockeys)",
+        "distance_f": 11.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "V Twelve",
+        "horse_id": "hrs_29945048",
+        "age": 7,
+        "sex": "gelding",
+        "trainer": "Martin Todhunter",
+        "trainer_id": "trn_87237",
+        "jockey": "Josephine Gordon",
+        "jockey_id": "jky_278403",
+        "draw": 3,
+        "number": 5,
+        "lbs": 144,
+        "ofr": "62",
+        "last_run": null,
+        "form": "1373-9",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Carlisle",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 11.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Carlisle",
+      "latest_distance_f": 11.0,
+      "latest_going": "Good",
+      "latest_class": "Class 5",
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -404,7 +390,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 11.0,
       "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Jim Goldie",
       "latest_jockey": "Lauren Young",
@@ -421,7 +407,7 @@
         "11.0": 1
       },
       "goings_seen": {
-        "Good To Firm": 1
+        "Good": 1
       },
       "classes_seen": {
         "Class 5": 1
@@ -434,12 +420,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 76,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -452,7 +434,7 @@
           "distance_f": 11.0,
           "race_class": "Class 5",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 5,
           "horse": "Alpine Sierra",
@@ -484,7 +466,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good To Firm",
+        "value": "Good",
         "runs": 1
       },
       "favourite_class": {
@@ -496,134 +478,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 61,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Carlisle",
-        "latest_distance_f": 11.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 76,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Covert Legend",
-      "horse_id": "hrs_34874385",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Carlisle",
-      "latest_time": "7:39",
-      "latest_race": "Helen Stewart Appreciation Handicap (For Pro-Am Female Jockeys)",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 11.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Maurice Andrew Ahern",
-      "latest_jockey": "Miss M O'Sullivan",
-      "latest_draw": 1,
-      "latest_weight_lbs": 144,
-      "official_rating": "62",
-      "recent_form": "6442-4",
-      "last_run_days": 8,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Carlisle": 1
-      },
-      "distances_seen": {
-        "11.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Maurice Andrew Ahern": 1
-      },
-      "jockeys_seen": {
-        "Miss M O'Sullivan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw",
-        "Trainer bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11989510",
-          "course": "Carlisle",
-          "date": "2026-07-04",
-          "off_time": "7:39",
-          "off_dt": "2026-07-04T19:39:00+01:00",
-          "race_name": "Helen Stewart Appreciation Handicap (For Pro-Am Female Jockeys)",
-          "distance_f": 11.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Covert Legend",
-          "horse_id": "hrs_34874385",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Maurice Andrew Ahern",
-          "trainer_id": "trn_381051",
-          "jockey": "Miss M O'Sullivan",
-          "jockey_id": "jky_262911",
-          "draw": 1,
-          "number": 4,
-          "lbs": 144,
-          "ofr": "62",
-          "last_run": 8,
-          "form": "6442-4",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Carlisle",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 11.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -631,15 +486,16 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Carlisle",
         "latest_distance_f": 11.0,
-        "latest_going": "Good To Firm",
+        "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 55,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -656,7 +512,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 11.0,
       "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Iain Jardine",
       "latest_jockey": "Cara Tuke(5)",
@@ -673,7 +529,7 @@
         "11.0": 1
       },
       "goings_seen": {
-        "Good To Firm": 1
+        "Good": 1
       },
       "classes_seen": {
         "Class 5": 1
@@ -686,15 +542,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +3",
-        "Stable in form +2 (1/1 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -707,7 +556,7 @@
           "distance_f": 11.0,
           "race_class": "Class 5",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 5,
           "horse": "Junkyard Dog",
@@ -739,7 +588,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good To Firm",
+        "value": "Good",
         "runs": 1
       },
       "favourite_class": {
@@ -751,7 +600,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 51,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -759,15 +608,16 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Carlisle",
         "latest_distance_f": 11.0,
-        "latest_going": "Good To Firm",
+        "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 54,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -784,7 +634,7 @@
       "latest_date": "2026-07-04",
       "latest_distance_f": 11.0,
       "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Martin Todhunter",
       "latest_jockey": "Josephine Gordon",
@@ -801,7 +651,7 @@
         "11.0": 1
       },
       "goings_seen": {
-        "Good To Firm": 1
+        "Good": 1
       },
       "classes_seen": {
         "Class 5": 1
@@ -814,12 +664,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 47,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -832,7 +678,7 @@
           "distance_f": 11.0,
           "race_class": "Class 5",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "Good",
           "surface": "Turf",
           "field_size": 5,
           "horse": "V Twelve",
@@ -864,7 +710,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good To Firm",
+        "value": "Good",
         "runs": 1
       },
       "favourite_class": {
@@ -876,7 +722,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 48,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -884,23 +730,214 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Carlisle",
         "latest_distance_f": 11.0,
-        "latest_going": "Good To Firm",
+        "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 47,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Covert Legend",
+      "horse_id": "hrs_34874385",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Carlisle",
+      "latest_time": "7:39",
+      "latest_race": "Helen Stewart Appreciation Handicap (For Pro-Am Female Jockeys)",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 11.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Maurice Andrew Ahern",
+      "latest_jockey": "Miss M O'Sullivan",
+      "latest_draw": 1,
+      "latest_weight_lbs": 144,
+      "official_rating": "62",
+      "recent_form": "6442-4",
+      "last_run_days": 8,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Curragh": 2,
+        "Carlisle": 1
+      },
+      "distances_seen": {
+        "12.0": 2,
+        "11.0": 1
+      },
+      "goings_seen": {
+        "Good": 3
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Maurice Andrew Ahern": 3
+      },
+      "jockeys_seen": {
+        "Shay Wallace(7)": 2,
+        "Miss M O'Sullivan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12005890",
+          "course": "Curragh",
+          "date": "2026-06-26",
+          "off_time": "6:45",
+          "off_dt": "2026-06-26T18:45:00+01:00",
+          "race_name": "Fitzpatrick's Mercedes-Benz Apprentice Derby Handicap",
+          "distance_f": 12.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 17,
+          "horse": "Covert Legend",
+          "horse_id": "hrs_34874385",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Maurice Andrew Ahern",
+          "trainer_id": "trn_381051",
+          "jockey": "Shay Wallace(7)",
+          "jockey_id": "jky_310965",
+          "draw": 7,
+          "number": 15,
+          "lbs": 122,
+          "ofr": "62",
+          "last_run": 239,
+          "form": "46442-",
+          "headgear": "t",
+          "_stored_at": "2026-06-26T08:14:13.314223+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12005890",
+          "course": "Curragh",
+          "date": "2026-06-26",
+          "off_time": "6:45",
+          "off_dt": "2026-06-26T18:45:00+01:00",
+          "race_name": "Fitzpatrick's Mercedes-Benz Apprentice Derby Handicap",
+          "distance_f": 12.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 17,
+          "horse": "Covert Legend",
+          "horse_id": "hrs_34874385",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Maurice Andrew Ahern",
+          "trainer_id": "trn_381051",
+          "jockey": "Shay Wallace(7)",
+          "jockey_id": "jky_310965",
+          "draw": 7,
+          "number": 15,
+          "lbs": 122,
+          "ofr": "62",
+          "last_run": 239,
+          "form": "46442-",
+          "headgear": "t",
+          "_stored_at": "2026-06-28T12:42:27.778041+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11989510",
+          "course": "Carlisle",
+          "date": "2026-07-04",
+          "off_time": "7:39",
+          "off_dt": "2026-07-04T19:39:00+01:00",
+          "race_name": "Helen Stewart Appreciation Handicap (For Pro-Am Female Jockeys)",
+          "distance_f": 11.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Covert Legend",
+          "horse_id": "hrs_34874385",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Maurice Andrew Ahern",
+          "trainer_id": "trn_381051",
+          "jockey": "Miss M O'Sullivan",
+          "jockey_id": "jky_262911",
+          "draw": 1,
+          "number": 4,
+          "lbs": 144,
+          "ofr": "62",
+          "last_run": 8,
+          "form": "6442-4",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Curragh",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 12.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 3
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 72,
+      "horse_intelligence_score": 22,
+      "profile_strengths": [
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
+        "Low latest Pulse Score"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Carlisle",
+        "latest_distance_f": 11.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
       }
     }
   ],
   "notes": [
     "Alpine Sierra is the top-rated Pulse IQ runner.",
-    "Junkyard Dog is flagged as a possible dark horse."
+    "The race looks competitive with no clear standout.",
+    "This race has a generally weak profile strength.",
+    "V Twelve is flagged as a possible dark horse."
   ]
 }

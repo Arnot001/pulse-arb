@@ -1,37 +1,37 @@
 {
-  "race_id": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+  "race_id": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
   "date": "2026-07-11",
   "course": "Chester",
   "time": "2:45",
-  "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+  "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
   "field_size": 10,
-  "average_intelligence": 51.1,
-  "top_score": 56,
-  "second_score": 56,
+  "average_intelligence": 23.7,
+  "top_score": 27,
+  "second_score": 27,
   "gap": 0,
-  "confidence_score": 44,
+  "confidence_score": 21,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Eagle Bay",
-    "horse_id": "hrs_57653554",
+    "horse": "Advance Twentyfive",
+    "horse_id": "hrs_53294570",
     "age": 3,
     "sex": "gelding",
     "latest_course": "Chester",
     "latest_time": "2:45",
-    "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+    "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
     "latest_date": "2026-07-11",
     "latest_distance_f": 7.5,
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Harriet Bethell",
-    "latest_jockey": "Sean D Bowen",
-    "latest_draw": 5,
-    "latest_weight_lbs": 133,
-    "official_rating": "85",
-    "recent_form": "3-11",
-    "last_run_days": 14,
+    "latest_trainer": "Richard & Peter Fahey",
+    "latest_jockey": "Harry Russell",
+    "latest_draw": 6,
+    "latest_weight_lbs": 126,
+    "official_rating": "78",
+    "recent_form": "95-607",
+    "last_run_days": 42,
     "profile_runs": 1,
     "courses_seen": {
       "Chester": 1
@@ -46,26 +46,15 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Harriet Bethell": 1
+      "Richard & Peter Fahey": 1
     },
     "jockeys_seen": {
-      "Sean D Bowen": 1
+      "Harry Russell": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 65,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Non-runner risk",
-      "Race class strength +2",
-      "Trainer bonus +4",
-      "Jockey bonus +3",
-      "Jockey flying +4 (3/11 last 14 days)",
-      "Historical winner +3",
-      "Previous course winner +4"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -74,33 +63,31 @@
         "date": "2026-07-11",
         "off_time": "2:45",
         "off_dt": "2026-07-11T14:45:00+01:00",
-        "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+        "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
         "distance_f": 7.5,
         "race_class": "Class 4",
         "race_type": "Flat",
         "going": "Good",
         "surface": "Turf",
         "field_size": 9,
-        "horse": "Eagle Bay",
-        "horse_id": "hrs_57653554",
+        "horse": "Advance Twentyfive",
+        "horse_id": "hrs_53294570",
         "age": 3,
         "sex": "gelding",
-        "trainer": "Harriet Bethell",
-        "trainer_id": "trn_267615",
-        "jockey": "Sean D Bowen",
-        "jockey_id": "jky_303900",
-        "draw": 5,
-        "number": null,
-        "lbs": 133,
-        "ofr": "85",
-        "last_run": 14,
-        "form": "3-11",
-        "headgear": ""
+        "trainer": "Richard & Peter Fahey",
+        "trainer_id": "trn_386964",
+        "jockey": "Harry Russell",
+        "jockey_id": "jky_285711",
+        "draw": 6,
+        "number": 9,
+        "lbs": 126,
+        "ofr": "78",
+        "last_run": 42,
+        "form": "95-607",
+        "headgear": "v"
       }
     ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Chester",
       "runs": 1
@@ -122,15 +109,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 56,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -139,32 +126,32 @@
       "latest_distance_f": 7.5,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": 65,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Obelix",
-    "horse_id": "hrs_31725176",
-    "age": 6,
+    "horse": "He's A Gentleman",
+    "horse_id": "hrs_24819557",
+    "age": 7,
     "sex": "gelding",
     "latest_course": "Chester",
     "latest_time": "2:45",
-    "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+    "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
     "latest_date": "2026-07-11",
     "latest_distance_f": 7.5,
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Julie Camacho",
-    "latest_jockey": "Dylan Hogan",
-    "latest_draw": 2,
-    "latest_weight_lbs": 140,
-    "official_rating": "83",
-    "recent_form": "89-015",
-    "last_run_days": 21,
+    "latest_trainer": "Hugo Palmer",
+    "latest_jockey": "Jack Callan(3)",
+    "latest_draw": 10,
+    "latest_weight_lbs": 133,
+    "official_rating": "76",
+    "recent_form": "29-722",
+    "last_run_days": 102,
     "profile_runs": 1,
     "courses_seen": {
       "Chester": 1
@@ -179,22 +166,15 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Julie Camacho": 1
+      "Hugo Palmer": 1
     },
     "jockeys_seen": {
-      "Dylan Hogan": 1
+      "Jack Callan(3)": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 64,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +2",
-      "Jockey in form +2 (2/2 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -203,32 +183,32 @@
         "date": "2026-07-11",
         "off_time": "2:45",
         "off_dt": "2026-07-11T14:45:00+01:00",
-        "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+        "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
         "distance_f": 7.5,
         "race_class": "Class 4",
         "race_type": "Flat",
         "going": "Good",
         "surface": "Turf",
         "field_size": 9,
-        "horse": "Obelix",
-        "horse_id": "hrs_31725176",
-        "age": 6,
+        "horse": "He's A Gentleman",
+        "horse_id": "hrs_24819557",
+        "age": 7,
         "sex": "gelding",
-        "trainer": "Julie Camacho",
-        "trainer_id": "trn_110025",
-        "jockey": "Dylan Hogan",
-        "jockey_id": "jky_277860",
-        "draw": 2,
-        "number": 3,
-        "lbs": 140,
-        "ofr": "83",
-        "last_run": 21,
-        "form": "89-015",
-        "headgear": "h"
+        "trainer": "Hugo Palmer",
+        "trainer_id": "trn_225081",
+        "jockey": "Jack Callan(3)",
+        "jockey_id": "jky_307578",
+        "draw": 10,
+        "number": 6,
+        "lbs": 133,
+        "ofr": "76",
+        "last_run": 102,
+        "form": "29-722",
+        "headgear": "v"
       }
     ],
     "profile_notes": [
-      "Low draw today"
+      "Returning from a break"
     ],
     "favourite_course": {
       "value": "Chester",
@@ -251,7 +231,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 56,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -259,6 +239,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -267,32 +248,32 @@
       "latest_distance_f": 7.5,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": 64,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Obelix",
-    "horse_id": "hrs_31725176",
-    "age": 6,
+    "horse": "Miami Matrix",
+    "horse_id": "hrs_49481369",
+    "age": 4,
     "sex": "gelding",
     "latest_course": "Chester",
     "latest_time": "2:45",
-    "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+    "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
     "latest_date": "2026-07-11",
     "latest_distance_f": 7.5,
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Julie Camacho",
-    "latest_jockey": "Dylan Hogan",
-    "latest_draw": 2,
-    "latest_weight_lbs": 140,
-    "official_rating": "83",
-    "recent_form": "89-015",
-    "last_run_days": 21,
+    "latest_trainer": "Patrick Morris",
+    "latest_jockey": "Donagh Murphy(7)",
+    "latest_draw": 3,
+    "latest_weight_lbs": 141,
+    "official_rating": "84",
+    "recent_form": "002-49",
+    "last_run_days": 42,
     "profile_runs": 1,
     "courses_seen": {
       "Chester": 1
@@ -307,22 +288,15 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Julie Camacho": 1
+      "Patrick Morris": 1
     },
     "jockeys_seen": {
-      "Dylan Hogan": 1
+      "Donagh Murphy(7)": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 64,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +2",
-      "Jockey in form +2 (2/2 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -331,28 +305,28 @@
         "date": "2026-07-11",
         "off_time": "2:45",
         "off_dt": "2026-07-11T14:45:00+01:00",
-        "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+        "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
         "distance_f": 7.5,
         "race_class": "Class 4",
         "race_type": "Flat",
         "going": "Good",
         "surface": "Turf",
         "field_size": 9,
-        "horse": "Obelix",
-        "horse_id": "hrs_31725176",
-        "age": 6,
+        "horse": "Miami Matrix",
+        "horse_id": "hrs_49481369",
+        "age": 4,
         "sex": "gelding",
-        "trainer": "Julie Camacho",
-        "trainer_id": "trn_110025",
-        "jockey": "Dylan Hogan",
-        "jockey_id": "jky_277860",
-        "draw": 2,
-        "number": 3,
-        "lbs": 140,
-        "ofr": "83",
-        "last_run": 21,
-        "form": "89-015",
-        "headgear": "h"
+        "trainer": "Patrick Morris",
+        "trainer_id": "trn_128637",
+        "jockey": "Donagh Murphy(7)",
+        "jockey_id": "jky_310608",
+        "draw": 3,
+        "number": 2,
+        "lbs": 141,
+        "ofr": "84",
+        "last_run": 42,
+        "form": "002-49",
+        "headgear": "p"
       }
     ],
     "profile_notes": [
@@ -379,7 +353,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 56,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -387,6 +361,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -395,7 +370,7 @@
       "latest_distance_f": 7.5,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": 64,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -403,25 +378,25 @@
   },
   "runners": [
     {
-      "horse": "Eagle Bay",
-      "horse_id": "hrs_57653554",
+      "horse": "Advance Twentyfive",
+      "horse_id": "hrs_53294570",
       "age": 3,
       "sex": "gelding",
       "latest_course": "Chester",
       "latest_time": "2:45",
-      "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+      "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
       "latest_date": "2026-07-11",
       "latest_distance_f": 7.5,
       "latest_class": "Class 4",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Harriet Bethell",
-      "latest_jockey": "Sean D Bowen",
-      "latest_draw": 5,
-      "latest_weight_lbs": 133,
-      "official_rating": "85",
-      "recent_form": "3-11",
-      "last_run_days": 14,
+      "latest_trainer": "Richard & Peter Fahey",
+      "latest_jockey": "Harry Russell",
+      "latest_draw": 6,
+      "latest_weight_lbs": 126,
+      "official_rating": "78",
+      "recent_form": "95-607",
+      "last_run_days": 42,
       "profile_runs": 1,
       "courses_seen": {
         "Chester": 1
@@ -436,26 +411,15 @@
         "Class 4": 1
       },
       "trainers_seen": {
-        "Harriet Bethell": 1
+        "Richard & Peter Fahey": 1
       },
       "jockeys_seen": {
-        "Sean D Bowen": 1
+        "Harry Russell": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 65,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Non-runner risk",
-        "Race class strength +2",
-        "Trainer bonus +4",
-        "Jockey bonus +3",
-        "Jockey flying +4 (3/11 last 14 days)",
-        "Historical winner +3",
-        "Previous course winner +4"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -464,284 +428,28 @@
           "date": "2026-07-11",
           "off_time": "2:45",
           "off_dt": "2026-07-11T14:45:00+01:00",
-          "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+          "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
           "distance_f": 7.5,
           "race_class": "Class 4",
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
           "field_size": 9,
-          "horse": "Eagle Bay",
-          "horse_id": "hrs_57653554",
+          "horse": "Advance Twentyfive",
+          "horse_id": "hrs_53294570",
           "age": 3,
           "sex": "gelding",
-          "trainer": "Harriet Bethell",
-          "trainer_id": "trn_267615",
-          "jockey": "Sean D Bowen",
-          "jockey_id": "jky_303900",
-          "draw": 5,
-          "number": null,
-          "lbs": 133,
-          "ofr": "85",
-          "last_run": 14,
-          "form": "3-11",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Chester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Chester",
-        "latest_distance_f": 7.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 65,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Obelix",
-      "horse_id": "hrs_31725176",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Chester",
-      "latest_time": "2:45",
-      "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 7.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Julie Camacho",
-      "latest_jockey": "Dylan Hogan",
-      "latest_draw": 2,
-      "latest_weight_lbs": 140,
-      "official_rating": "83",
-      "recent_form": "89-015",
-      "last_run_days": 21,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Chester": 1
-      },
-      "distances_seen": {
-        "7.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Julie Camacho": 1
-      },
-      "jockeys_seen": {
-        "Dylan Hogan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 64,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +2",
-        "Jockey in form +2 (2/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000494",
-          "course": "Chester",
-          "date": "2026-07-11",
-          "off_time": "2:45",
-          "off_dt": "2026-07-11T14:45:00+01:00",
-          "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
-          "distance_f": 7.5,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Obelix",
-          "horse_id": "hrs_31725176",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Julie Camacho",
-          "trainer_id": "trn_110025",
-          "jockey": "Dylan Hogan",
-          "jockey_id": "jky_277860",
-          "draw": 2,
-          "number": 3,
-          "lbs": 140,
-          "ofr": "83",
-          "last_run": 21,
-          "form": "89-015",
-          "headgear": "h"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Chester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 56,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Chester",
-        "latest_distance_f": 7.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 64,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Vixey",
-      "horse_id": "hrs_32076093",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "Chester",
-      "latest_time": "2:45",
-      "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 7.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Simon West",
-      "latest_jockey": "Aiden Brookes",
-      "latest_draw": 8,
-      "latest_weight_lbs": 134,
-      "official_rating": "77",
-      "recent_form": "1335-8",
-      "last_run_days": 17,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Chester": 1
-      },
-      "distances_seen": {
-        "7.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Simon West": 1
-      },
-      "jockeys_seen": {
-        "Aiden Brookes": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 63,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +2",
-        "Stable in form +2 (1/1 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000494",
-          "course": "Chester",
-          "date": "2026-07-11",
-          "off_time": "2:45",
-          "off_dt": "2026-07-11T14:45:00+01:00",
-          "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
-          "distance_f": 7.5,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Vixey",
-          "horse_id": "hrs_32076093",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "Simon West",
-          "trainer_id": "trn_190674",
-          "jockey": "Aiden Brookes",
-          "jockey_id": "jky_302091",
-          "draw": 8,
-          "number": 4,
-          "lbs": 134,
-          "ofr": "77",
-          "last_run": 17,
-          "form": "1335-8",
-          "headgear": ""
+          "trainer": "Richard & Peter Fahey",
+          "trainer_id": "trn_386964",
+          "jockey": "Harry Russell",
+          "jockey_id": "jky_285711",
+          "draw": 6,
+          "number": 9,
+          "lbs": 126,
+          "ofr": "78",
+          "last_run": 42,
+          "form": "95-607",
+          "headgear": "v"
         }
       ],
       "profile_notes": [],
@@ -766,7 +474,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 55,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -774,6 +482,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -782,134 +491,7 @@
         "latest_distance_f": 7.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": 63,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Moon Beginnings",
-      "horse_id": "hrs_56713251",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Chester",
-      "latest_time": "2:45",
-      "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 7.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "David Loughnane",
-      "latest_jockey": "Laura Pearson",
-      "latest_draw": 9,
-      "latest_weight_lbs": 131,
-      "official_rating": "74",
-      "recent_form": "-88054",
-      "last_run_days": 29,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Chester": 1
-      },
-      "distances_seen": {
-        "7.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "David Loughnane": 1
-      },
-      "jockeys_seen": {
-        "Laura Pearson": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Race class strength +2",
-        "Trainer bonus +2",
-        "Stable flying +4 (4/7 last 14 days)",
-        "Jockey flying +4 (3/6 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000494",
-          "course": "Chester",
-          "date": "2026-07-11",
-          "off_time": "2:45",
-          "off_dt": "2026-07-11T14:45:00+01:00",
-          "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
-          "distance_f": 7.5,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Moon Beginnings",
-          "horse_id": "hrs_56713251",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "David Loughnane",
-          "trainer_id": "trn_285282",
-          "jockey": "Laura Pearson",
-          "jockey_id": "jky_295806",
-          "draw": 9,
-          "number": 7,
-          "lbs": 131,
-          "ofr": "74",
-          "last_run": 29,
-          "form": "-88054",
-          "headgear": "/es"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Chester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Chester",
-        "latest_distance_f": 7.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 60,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -922,7 +504,7 @@
       "sex": "gelding",
       "latest_course": "Chester",
       "latest_time": "2:45",
-      "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+      "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
       "latest_date": "2026-07-11",
       "latest_distance_f": 7.5,
       "latest_class": "Class 4",
@@ -956,13 +538,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Positive recent form",
-        "Race class strength +2",
-        "Trainer bonus +2",
-        "Jockey bonus +3"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -971,7 +548,7 @@
           "date": "2026-07-11",
           "off_time": "2:45",
           "off_dt": "2026-07-11T14:45:00+01:00",
-          "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+          "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
           "distance_f": 7.5,
           "race_class": "Class 4",
           "race_type": "Flat",
@@ -1019,7 +596,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1027,6 +604,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1035,7 +613,7 @@
         "latest_distance_f": 7.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": 55,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1048,7 +626,7 @@
       "sex": "gelding",
       "latest_course": "Chester",
       "latest_time": "2:45",
-      "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+      "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
       "latest_date": "2026-07-11",
       "latest_distance_f": 7.5,
       "latest_class": "Class 4",
@@ -1082,14 +660,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1098,7 +670,7 @@
           "date": "2026-07-11",
           "off_time": "2:45",
           "off_dt": "2026-07-11T14:45:00+01:00",
-          "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+          "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
           "distance_f": 7.5,
           "race_class": "Class 4",
           "race_type": "Flat",
@@ -1146,7 +718,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1154,6 +726,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1162,10 +735,713 @@
         "latest_distance_f": 7.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": 55,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Moon Beginnings",
+      "horse_id": "hrs_56713251",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Chester",
+      "latest_time": "2:45",
+      "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
+      "latest_date": "2026-07-11",
+      "latest_distance_f": 7.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "David Loughnane",
+      "latest_jockey": "Laura Pearson",
+      "latest_draw": 9,
+      "latest_weight_lbs": 131,
+      "official_rating": "74",
+      "recent_form": "-88054",
+      "last_run_days": 29,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Chester": 1
+      },
+      "distances_seen": {
+        "7.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "David Loughnane": 1
+      },
+      "jockeys_seen": {
+        "Laura Pearson": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000494",
+          "course": "Chester",
+          "date": "2026-07-11",
+          "off_time": "2:45",
+          "off_dt": "2026-07-11T14:45:00+01:00",
+          "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
+          "distance_f": 7.5,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Moon Beginnings",
+          "horse_id": "hrs_56713251",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "David Loughnane",
+          "trainer_id": "trn_285282",
+          "jockey": "Laura Pearson",
+          "jockey_id": "jky_295806",
+          "draw": 9,
+          "number": 7,
+          "lbs": 131,
+          "ofr": "74",
+          "last_run": 29,
+          "form": "-88054",
+          "headgear": "/es"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Chester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Chester",
+        "latest_distance_f": 7.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Obelix",
+      "horse_id": "hrs_31725176",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Chester",
+      "latest_time": "2:45",
+      "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
+      "latest_date": "2026-07-11",
+      "latest_distance_f": 7.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Julie Camacho",
+      "latest_jockey": "Dylan Hogan",
+      "latest_draw": 2,
+      "latest_weight_lbs": 140,
+      "official_rating": "83",
+      "recent_form": "89-015",
+      "last_run_days": 21,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Chester": 1
+      },
+      "distances_seen": {
+        "7.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Julie Camacho": 1
+      },
+      "jockeys_seen": {
+        "Dylan Hogan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000494",
+          "course": "Chester",
+          "date": "2026-07-11",
+          "off_time": "2:45",
+          "off_dt": "2026-07-11T14:45:00+01:00",
+          "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
+          "distance_f": 7.5,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Obelix",
+          "horse_id": "hrs_31725176",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Julie Camacho",
+          "trainer_id": "trn_110025",
+          "jockey": "Dylan Hogan",
+          "jockey_id": "jky_277860",
+          "draw": 2,
+          "number": 3,
+          "lbs": 140,
+          "ofr": "83",
+          "last_run": 21,
+          "form": "89-015",
+          "headgear": "h"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Chester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Chester",
+        "latest_distance_f": 7.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Vixey",
+      "horse_id": "hrs_32076093",
+      "age": 6,
+      "sex": "mare",
+      "latest_course": "Chester",
+      "latest_time": "2:45",
+      "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
+      "latest_date": "2026-07-11",
+      "latest_distance_f": 7.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Simon West",
+      "latest_jockey": "Aiden Brookes",
+      "latest_draw": 8,
+      "latest_weight_lbs": 134,
+      "official_rating": "77",
+      "recent_form": "1335-8",
+      "last_run_days": 17,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Chester": 1
+      },
+      "distances_seen": {
+        "7.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Simon West": 1
+      },
+      "jockeys_seen": {
+        "Aiden Brookes": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000494",
+          "course": "Chester",
+          "date": "2026-07-11",
+          "off_time": "2:45",
+          "off_dt": "2026-07-11T14:45:00+01:00",
+          "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
+          "distance_f": 7.5,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Vixey",
+          "horse_id": "hrs_32076093",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Simon West",
+          "trainer_id": "trn_190674",
+          "jockey": "Aiden Brookes",
+          "jockey_id": "jky_302091",
+          "draw": 8,
+          "number": 4,
+          "lbs": 134,
+          "ofr": "77",
+          "last_run": 17,
+          "form": "1335-8",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Chester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 7.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Chester",
+        "latest_distance_f": 7.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Eagle Bay",
+      "horse_id": "hrs_57653554",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Chester",
+      "latest_time": "2:45",
+      "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
+      "latest_date": "2026-07-11",
+      "latest_distance_f": 7.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Harriet Bethell",
+      "latest_jockey": "Sean D Bowen",
+      "latest_draw": 5,
+      "latest_weight_lbs": 133,
+      "official_rating": "85",
+      "recent_form": "3-11",
+      "last_run_days": 14,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Chester": 3
+      },
+      "distances_seen": {
+        "7.5": 3
+      },
+      "goings_seen": {
+        "Good": 3
+      },
+      "classes_seen": {
+        "Class 3": 2,
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Harriet Bethell": 3
+      },
+      "jockeys_seen": {
+        "Sean D Bowen": 3
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977823",
+          "course": "Chester",
+          "date": "2026-06-27",
+          "off_time": "2:32",
+          "off_dt": "2026-06-27T14:32:00+01:00",
+          "race_name": "Absolut Tabasco Novice Stakes (GBB Race)",
+          "distance_f": 7.5,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 4,
+          "horse": "Eagle Bay",
+          "horse_id": "hrs_57653554",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Harriet Bethell",
+          "trainer_id": "trn_267615",
+          "jockey": "Sean D Bowen",
+          "jockey_id": "jky_303900",
+          "draw": 3,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "80",
+          "last_run": 22,
+          "form": "3-1",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:15.109976+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977823",
+          "course": "Chester",
+          "date": "2026-06-27",
+          "off_time": "2:32",
+          "off_dt": "2026-06-27T14:32:00+01:00",
+          "race_name": "Absolut Tabasco Novice Stakes (GBB Race)",
+          "distance_f": 7.5,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 4,
+          "horse": "Eagle Bay",
+          "horse_id": "hrs_57653554",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Harriet Bethell",
+          "trainer_id": "trn_267615",
+          "jockey": "Sean D Bowen",
+          "jockey_id": "jky_303900",
+          "draw": 3,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "80",
+          "last_run": 22,
+          "form": "3-1",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:44.217918+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000494",
+          "course": "Chester",
+          "date": "2026-07-11",
+          "off_time": "2:45",
+          "off_dt": "2026-07-11T14:45:00+01:00",
+          "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
+          "distance_f": 7.5,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Eagle Bay",
+          "horse_id": "hrs_57653554",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Harriet Bethell",
+          "trainer_id": "trn_267615",
+          "jockey": "Sean D Bowen",
+          "jockey_id": "jky_303900",
+          "draw": 5,
+          "number": null,
+          "lbs": 133,
+          "ofr": "85",
+          "last_run": 14,
+          "form": "3-11",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Chester",
+        "runs": 3
+      },
+      "favourite_distance": {
+        "value": 7.5,
+        "runs": 3
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 3
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 55,
+      "suitability_score": 81,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Chester",
+        "latest_distance_f": 7.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
+      }
+    },
+    {
+      "horse": "Percy's Lad",
+      "horse_id": "hrs_22488004",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Chester",
+      "latest_time": "2:45",
+      "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
+      "latest_date": "2026-07-11",
+      "latest_distance_f": 7.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Daniel & Claire Kubler",
+      "latest_jockey": "Edward Greatrex",
+      "latest_draw": 4,
+      "latest_weight_lbs": 144,
+      "official_rating": "87",
+      "recent_form": "4/0062",
+      "last_run_days": 12,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Kempton (AW)": 1,
+        "Chester": 1
+      },
+      "distances_seen": {
+        "8.0": 1,
+        "7.5": 1
+      },
+      "goings_seen": {
+        "Standard To Slow": 1,
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "Daniel & Claire Kubler": 2
+      },
+      "jockeys_seen": {
+        "Ray Dawson": 1,
+        "Edward Greatrex": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12006527",
+          "course": "Kempton (AW)",
+          "date": "2026-06-29",
+          "off_time": "7:45",
+          "off_dt": "2026-06-29T19:45:00+01:00",
+          "race_name": "Unibet Supporting Racing Staff Week Handicap",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Standard To Slow",
+          "surface": "AW",
+          "field_size": 14,
+          "horse": "Percy's Lad",
+          "horse_id": "hrs_22488004",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Daniel & Claire Kubler",
+          "trainer_id": "trn_338733",
+          "jockey": "Ray Dawson",
+          "jockey_id": "jky_266394",
+          "draw": 5,
+          "number": 3,
+          "lbs": 142,
+          "ofr": "85",
+          "last_run": 39,
+          "form": "04/006",
+          "headgear": "",
+          "_stored_at": "2026-06-29T11:41:31.543634+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000000494",
+          "course": "Chester",
+          "date": "2026-07-11",
+          "off_time": "2:45",
+          "off_dt": "2026-07-11T14:45:00+01:00",
+          "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
+          "distance_f": 7.5,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 9,
+          "horse": "Percy's Lad",
+          "horse_id": "hrs_22488004",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Daniel & Claire Kubler",
+          "trainer_id": "trn_338733",
+          "jockey": "Edward Greatrex",
+          "jockey_id": "jky_282474",
+          "draw": 4,
+          "number": 1,
+          "lbs": 144,
+          "ofr": "87",
+          "last_run": 12,
+          "form": "4/0062",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Kempton (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard To Slow",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 55,
+      "class_suitability_score": 90,
+      "suitability_score": 64,
+      "horse_intelligence_score": 19,
+      "profile_strengths": [
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Chester",
+        "latest_distance_f": 7.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -1175,7 +1451,7 @@
       "sex": "gelding",
       "latest_course": "Chester",
       "latest_time": "2:45",
-      "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+      "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
       "latest_date": "2026-07-11",
       "latest_distance_f": 7.5,
       "latest_class": "Class 4",
@@ -1188,42 +1464,34 @@
       "official_rating": "60",
       "recent_form": "630024",
       "last_run_days": 9,
-      "profile_runs": 3,
+      "profile_runs": 2,
       "courses_seen": {
-        "Chester": 2,
-        "Yarmouth": 1
+        "Yarmouth": 1,
+        "Chester": 1
       },
       "distances_seen": {
-        "7.0": 2,
+        "7.0": 1,
         "7.5": 1
       },
       "goings_seen": {
-        "Good": 2,
-        "Good To Firm": 1
+        "Good To Firm": 1,
+        "Good": 1
       },
       "classes_seen": {
         "Class 6": 1,
-        "Class 5": 1,
         "Class 4": 1
       },
       "trainers_seen": {
-        "Ian Williams": 3
+        "Ian Williams": 2
       },
       "jockeys_seen": {
-        "Harry Davies": 2,
-        "Ryan Kavanagh(5)": 1
+        "Ryan Kavanagh(5)": 1,
+        "Harry Davies": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 64,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Trainer bonus +3",
-        "Stable flying +4 (5/5 last 14 days)",
-        "Jockey bonus +1",
-        "Jockey in form +2 (2/2 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1254,37 +1522,7 @@
           "last_run": 10,
           "form": "-63002",
           "headgear": "",
-          "_stored_at": "2026-07-02T00:01:32.498240+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991135",
-          "course": "Chester",
-          "date": "2026-07-10",
-          "off_time": "8:50",
-          "off_dt": "2026-07-10T20:50:00+01:00",
-          "race_name": "Fired Up Tess Handicap (Div 2)",
-          "distance_f": 7.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Giant",
-          "horse_id": "hrs_32500125",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Ian Williams",
-          "trainer_id": "trn_112185",
-          "jockey": "Harry Davies",
-          "jockey_id": "jky_304524",
-          "draw": 2,
-          "number": 6,
-          "lbs": 134,
-          "ofr": "60",
-          "last_run": 8,
-          "form": "630024",
-          "headgear": ""
+          "_stored_at": "2026-07-02T04:58:41.599328+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1293,7 +1531,7 @@
           "date": "2026-07-11",
           "off_time": "2:45",
           "off_dt": "2026-07-11T14:45:00+01:00",
-          "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+          "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
           "distance_f": 7.5,
           "race_class": "Class 4",
           "race_type": "Flat",
@@ -1318,166 +1556,37 @@
         }
       ],
       "profile_notes": [
-        "Profile has multiple stored runs",
         "Low draw today",
         "Recent run timing"
       ],
       "favourite_course": {
-        "value": "Chester",
-        "runs": 2
+        "value": "Yarmouth",
+        "runs": 1
       },
       "favourite_distance": {
         "value": 7.0,
-        "runs": 2
+        "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
-        "runs": 2
+        "value": "Good To Firm",
+        "runs": 1
       },
       "favourite_class": {
         "value": "Class 6",
         "runs": 1
       },
-      "course_suitability_score": 90,
+      "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 90,
+      "going_suitability_score": 55,
       "class_suitability_score": 55,
-      "suitability_score": 72,
-      "horse_intelligence_score": 50,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
+      "suitability_score": 55,
+      "horse_intelligence_score": 16,
+      "profile_strengths": [],
       "profile_cautions": [
-        "Distance not yet a clear profile strength"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Chester",
-        "latest_distance_f": 7.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 64,
-        "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
-      }
-    },
-    {
-      "horse": "Percy's Lad",
-      "horse_id": "hrs_22488004",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Chester",
-      "latest_time": "2:45",
-      "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 7.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Daniel & Claire Kubler",
-      "latest_jockey": "Edward Greatrex",
-      "latest_draw": 4,
-      "latest_weight_lbs": 144,
-      "official_rating": "87",
-      "recent_form": "4/0062",
-      "last_run_days": 12,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Chester": 1
-      },
-      "distances_seen": {
-        "7.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Daniel & Claire Kubler": 1
-      },
-      "jockeys_seen": {
-        "Edward Greatrex": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Race class strength +2",
-        "Trainer bonus +2",
-        "Jockey bonus +3",
-        "Jockey in form +2 (2/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000494",
-          "course": "Chester",
-          "date": "2026-07-11",
-          "off_time": "2:45",
-          "off_dt": "2026-07-11T14:45:00+01:00",
-          "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
-          "distance_f": 7.5,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Percy's Lad",
-          "horse_id": "hrs_22488004",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Daniel & Claire Kubler",
-          "trainer_id": "trn_338733",
-          "jockey": "Edward Greatrex",
-          "jockey_id": "jky_282474",
-          "draw": 4,
-          "number": 1,
-          "lbs": 144,
-          "ofr": "87",
-          "last_run": 12,
-          "form": "4/0062",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Chester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 48,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1486,135 +1595,10 @@
         "latest_distance_f": 7.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": 46,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Advance Twentyfive",
-      "horse_id": "hrs_53294570",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Chester",
-      "latest_time": "2:45",
-      "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 7.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Richard & Peter Fahey",
-      "latest_jockey": "Harry Russell",
-      "latest_draw": 6,
-      "latest_weight_lbs": 126,
-      "official_rating": "78",
-      "recent_form": "95-607",
-      "last_run_days": 42,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Chester": 1
-      },
-      "distances_seen": {
-        "7.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Richard & Peter Fahey": 1
-      },
-      "jockeys_seen": {
-        "Harry Russell": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Race class strength +2",
-        "Trainer bonus +3",
-        "Stable in form +2 (3/13 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000000494",
-          "course": "Chester",
-          "date": "2026-07-11",
-          "off_time": "2:45",
-          "off_dt": "2026-07-11T14:45:00+01:00",
-          "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
-          "distance_f": 7.5,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Advance Twentyfive",
-          "horse_id": "hrs_53294570",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Richard & Peter Fahey",
-          "trainer_id": "trn_386964",
-          "jockey": "Harry Russell",
-          "jockey_id": "jky_285711",
-          "draw": 6,
-          "number": 9,
-          "lbs": 126,
-          "ofr": "78",
-          "last_run": 42,
-          "form": "95-607",
-          "headgear": "v"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Chester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 47,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Chester",
-        "latest_distance_f": 7.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": 44,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -1624,7 +1608,7 @@
       "sex": "gelding",
       "latest_course": "Chester",
       "latest_time": "2:45",
-      "latest_race": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+      "latest_race": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
       "latest_date": "2026-07-11",
       "latest_distance_f": 7.5,
       "latest_class": "Class 4",
@@ -1637,40 +1621,34 @@
       "official_rating": "72",
       "recent_form": "09-075",
       "last_run_days": 16,
-      "profile_runs": 3,
+      "profile_runs": 5,
       "courses_seen": {
-        "Chester": 2,
-        "Nottingham": 1
+        "Nottingham": 4,
+        "Chester": 1
       },
       "distances_seen": {
-        "6.0": 1,
-        "5.5": 1,
+        "6.0": 4,
         "7.5": 1
       },
       "goings_seen": {
-        "Good": 3
+        "Good To Firm": 4,
+        "Good": 1
       },
       "classes_seen": {
-        "Class 4": 2,
-        "Class 5": 1
+        "Class 5": 4,
+        "Class 4": 1
       },
       "trainers_seen": {
-        "Donald McCain": 2,
-        "D McCain Jnr": 1
+        "Donald McCain": 5
       },
       "jockeys_seen": {
-        "James Sullivan": 1,
-        "Andrew Mullen": 1,
+        "James Sullivan": 4,
         "David Allan": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 37,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1683,14 +1661,14 @@
           "distance_f": 6.0,
           "race_class": "Class 5",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 5,
           "horse": "Paws For Thought",
           "horse_id": "hrs_21683844",
           "age": 8,
           "sex": "gelding",
-          "trainer": "D McCain Jnr",
+          "trainer": "Donald McCain",
           "trainer_id": "trn_141066",
           "jockey": "James Sullivan",
           "jockey_id": "jky_253623",
@@ -1701,37 +1679,100 @@
           "last_run": 13,
           "form": "109-07",
           "headgear": "p",
-          "_stored_at": "2026-06-25T06:53:22.486867+00:00"
+          "_stored_at": "2026-06-25T14:16:21.189808+00:00"
         },
         {
           "source": "the_racing_api",
-          "race_id": "rac_11991109",
-          "course": "Chester",
-          "date": "2026-07-10",
-          "off_time": "7:35",
-          "off_dt": "2026-07-10T19:35:00+01:00",
-          "race_name": "John Smith's Handicap",
-          "distance_f": 5.5,
-          "race_class": "Class 4",
+          "race_id": "rac_11977238",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "12:30",
+          "off_dt": "2026-06-25T12:30:00+01:00",
+          "race_name": "Neigh More Early Starts For Martin Stoneman Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 5",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 7,
+          "field_size": 5,
           "horse": "Paws For Thought",
           "horse_id": "hrs_21683844",
           "age": 8,
           "sex": "gelding",
           "trainer": "Donald McCain",
           "trainer_id": "trn_141066",
-          "jockey": "Andrew Mullen",
-          "jockey_id": "jky_243498",
-          "draw": 7,
-          "number": null,
-          "lbs": 122,
-          "ofr": "72",
-          "last_run": 15,
-          "form": "09-075",
-          "headgear": "b"
+          "jockey": "James Sullivan",
+          "jockey_id": "jky_253623",
+          "draw": 5,
+          "number": 2,
+          "lbs": 137,
+          "ofr": "74",
+          "last_run": 13,
+          "form": "109-07",
+          "headgear": "p",
+          "_stored_at": "2026-06-25T17:11:30.987889+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977238",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "12:30",
+          "off_dt": "2026-06-25T12:30:00+01:00",
+          "race_name": "Neigh More Early Starts For Martin Stoneman Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Paws For Thought",
+          "horse_id": "hrs_21683844",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Donald McCain",
+          "trainer_id": "trn_141066",
+          "jockey": "James Sullivan",
+          "jockey_id": "jky_253623",
+          "draw": 5,
+          "number": 2,
+          "lbs": 137,
+          "ofr": "74",
+          "last_run": 13,
+          "form": "109-07",
+          "headgear": "p",
+          "_stored_at": "2026-06-26T08:14:08.804576+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977238",
+          "course": "Nottingham",
+          "date": "2026-06-25",
+          "off_time": "12:30",
+          "off_dt": "2026-06-25T12:30:00+01:00",
+          "race_name": "Neigh More Early Starts For Martin Stoneman Handicap",
+          "distance_f": 6.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Paws For Thought",
+          "horse_id": "hrs_21683844",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Donald McCain",
+          "trainer_id": "trn_141066",
+          "jockey": "James Sullivan",
+          "jockey_id": "jky_253623",
+          "draw": 5,
+          "number": 2,
+          "lbs": 137,
+          "ofr": "74",
+          "last_run": 13,
+          "form": "109-07",
+          "headgear": "p",
+          "_stored_at": "2026-06-28T12:42:19.531987+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1740,7 +1781,7 @@
           "date": "2026-07-11",
           "off_time": "2:45",
           "off_dt": "2026-07-11T14:45:00+01:00",
-          "race_name": "Tom Jones Live At Chester Racecourse Handicap (Div 1)",
+          "race_name": "Tom Jones Live At Chester Racecourse Handicap Stakes (Div I)",
           "distance_f": 7.5,
           "race_class": "Class 4",
           "race_type": "Flat",
@@ -1768,34 +1809,32 @@
         "Profile has multiple stored runs"
       ],
       "favourite_course": {
-        "value": "Chester",
-        "runs": 2
+        "value": "Nottingham",
+        "runs": 4
       },
       "favourite_distance": {
         "value": 6.0,
-        "runs": 1
+        "runs": 4
       },
       "favourite_going": {
-        "value": "Good",
-        "runs": 3
+        "value": "Good To Firm",
+        "runs": 4
       },
       "favourite_class": {
-        "value": "Class 4",
-        "runs": 2
+        "value": "Class 5",
+        "runs": 4
       },
-      "course_suitability_score": 90,
+      "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 81,
-      "horse_intelligence_score": 41,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
+      "going_suitability_score": 55,
+      "class_suitability_score": 55,
+      "suitability_score": 55,
+      "horse_intelligence_score": 16,
+      "profile_strengths": [],
       "profile_cautions": [
+        "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
+        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1804,16 +1843,17 @@
         "latest_distance_f": 7.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": 37,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
+        "profile_runs": 5,
+        "runs_count": 5
       }
     }
   ],
   "notes": [
-    "Eagle Bay is the top-rated Pulse IQ runner.",
+    "Advance Twentyfive is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Obelix is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Miami Matrix is flagged as a possible dark horse."
   ]
 }

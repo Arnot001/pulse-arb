@@ -1,10 +1,10 @@
 {
-  "learning_events": 330,
-  "performance_date": "2026-07-20",
+  "learning_events": 438,
+  "performance_date": "2026-07-21",
   "learning_signal_summary": [
     {
       "factor": "Profile strength existed",
-      "missed_winner_count": 1135,
+      "missed_winner_count": 1489,
       "examples": [
         {
           "horse": "Accademia",
@@ -37,6 +37,12 @@
           "reason": "Positive latest Pulse Score"
         },
         {
+          "horse": "Act Of Violence",
+          "pulse_rank": 6,
+          "sp": "10/3",
+          "reason": "Race class matches common profile level"
+        },
+        {
           "horse": "Aleatrix",
           "pulse_rank": 7,
           "sp": "10/3",
@@ -59,24 +65,24 @@
           "pulse_rank": 7,
           "sp": "10/3",
           "reason": "Race class matches common profile level"
-        },
-        {
-          "horse": "Alfa Whiteburd",
-          "pulse_rank": 6,
-          "sp": "9/4",
-          "reason": "Today's course matches strongest profile pattern"
         }
       ]
     },
     {
       "factor": "Favourite class matched",
-      "missed_winner_count": 315,
+      "missed_winner_count": 406,
       "examples": [
         {
           "horse": "Accademia",
           "pulse_rank": 6,
           "sp": "11/2",
           "reason": "Winner ran at its most common class: Class 5"
+        },
+        {
+          "horse": "Act Of Violence",
+          "pulse_rank": 6,
+          "sp": "10/3",
+          "reason": "Winner ran at its most common class: Class 6"
         },
         {
           "horse": "Aleatrix",
@@ -125,18 +131,12 @@
           "pulse_rank": 8,
           "sp": "15/2",
           "reason": "Winner ran at its most common class: "
-        },
-        {
-          "horse": "Amazing Journey",
-          "pulse_rank": 6,
-          "sp": "5/1",
-          "reason": "Winner ran at its most common class: Class 4"
         }
       ]
     },
     {
       "factor": "Strong suitability profile",
-      "missed_winner_count": 301,
+      "missed_winner_count": 386,
       "examples": [
         {
           "horse": "Accademia",
@@ -193,82 +193,16 @@
           "reason": "Suitability Score was 80"
         },
         {
-          "horse": "Amazing Journey",
+          "horse": "Al Samsama",
           "pulse_rank": 6,
-          "sp": "5/1",
+          "sp": "11/1",
           "reason": "Suitability Score was 90"
         }
       ]
     },
     {
-      "factor": "Favourite distance matched",
-      "missed_winner_count": 296,
-      "examples": [
-        {
-          "horse": "Accademia",
-          "pulse_rank": 6,
-          "sp": "11/2",
-          "reason": "Winner ran at its most common distance: 7.0f"
-        },
-        {
-          "horse": "Aleatrix",
-          "pulse_rank": 7,
-          "sp": "10/3",
-          "reason": "Winner ran at its most common distance: 10.0f"
-        },
-        {
-          "horse": "Alfa Whiteburd",
-          "pulse_rank": 6,
-          "sp": "9/4",
-          "reason": "Winner ran at its most common distance: 7.0f"
-        },
-        {
-          "horse": "Alfred Wincham",
-          "pulse_rank": 4,
-          "sp": "2/1",
-          "reason": "Winner ran at its most common distance: 12.0f"
-        },
-        {
-          "horse": "All Ways Glamorous",
-          "pulse_rank": 5,
-          "sp": "2/1",
-          "reason": "Winner ran at its most common distance: 5.0f"
-        },
-        {
-          "horse": "Alpinara",
-          "pulse_rank": 10,
-          "sp": "4/5",
-          "reason": "Winner ran at its most common distance: 12.0f"
-        },
-        {
-          "horse": "Altareq",
-          "pulse_rank": 5,
-          "sp": "9/4",
-          "reason": "Winner ran at its most common distance: 10.0f"
-        },
-        {
-          "horse": "Alwaysanangel",
-          "pulse_rank": 8,
-          "sp": "15/2",
-          "reason": "Winner ran at its most common distance: 6.0f"
-        },
-        {
-          "horse": "Amazing Journey",
-          "pulse_rank": 6,
-          "sp": "5/1",
-          "reason": "Winner ran at its most common distance: 6.0f"
-        },
-        {
-          "horse": "Amber Ocean",
-          "pulse_rank": 5,
-          "sp": "5/1",
-          "reason": "Winner ran at its most common distance: 5.0f"
-        }
-      ]
-    },
-    {
       "factor": "Favourite going matched",
-      "missed_winner_count": 295,
+      "missed_winner_count": 384,
       "examples": [
         {
           "horse": "Accademia",
@@ -325,16 +259,82 @@
           "reason": "Winner ran on its most common going: Good"
         },
         {
+          "horse": "Al Samsama",
+          "pulse_rank": 6,
+          "sp": "11/1",
+          "reason": "Winner ran on its most common going: Good To Firm"
+        }
+      ]
+    },
+    {
+      "factor": "Favourite distance matched",
+      "missed_winner_count": 376,
+      "examples": [
+        {
+          "horse": "Accademia",
+          "pulse_rank": 6,
+          "sp": "11/2",
+          "reason": "Winner ran at its most common distance: 7.0f"
+        },
+        {
+          "horse": "Aleatrix",
+          "pulse_rank": 7,
+          "sp": "10/3",
+          "reason": "Winner ran at its most common distance: 10.0f"
+        },
+        {
+          "horse": "Alfa Whiteburd",
+          "pulse_rank": 6,
+          "sp": "9/4",
+          "reason": "Winner ran at its most common distance: 7.0f"
+        },
+        {
+          "horse": "Alfred Wincham",
+          "pulse_rank": 4,
+          "sp": "2/1",
+          "reason": "Winner ran at its most common distance: 12.0f"
+        },
+        {
+          "horse": "All Ways Glamorous",
+          "pulse_rank": 5,
+          "sp": "2/1",
+          "reason": "Winner ran at its most common distance: 5.0f"
+        },
+        {
+          "horse": "Alpinara",
+          "pulse_rank": 10,
+          "sp": "4/5",
+          "reason": "Winner ran at its most common distance: 12.0f"
+        },
+        {
+          "horse": "Altareq",
+          "pulse_rank": 5,
+          "sp": "9/4",
+          "reason": "Winner ran at its most common distance: 10.0f"
+        },
+        {
+          "horse": "Alwaysanangel",
+          "pulse_rank": 8,
+          "sp": "15/2",
+          "reason": "Winner ran at its most common distance: 6.0f"
+        },
+        {
+          "horse": "Al Samsama",
+          "pulse_rank": 6,
+          "sp": "11/1",
+          "reason": "Winner ran at its most common distance: 6.0f"
+        },
+        {
           "horse": "Amazing Journey",
           "pulse_rank": 6,
           "sp": "5/1",
-          "reason": "Winner ran on its most common going: Good"
+          "reason": "Winner ran at its most common distance: 6.0f"
         }
       ]
     },
     {
       "factor": "Favourite course matched",
-      "missed_winner_count": 285,
+      "missed_winner_count": 352,
       "examples": [
         {
           "horse": "Accademia",
@@ -391,21 +391,33 @@
           "reason": "Winner ran at its most common course: Fairyhouse"
         },
         {
-          "horse": "Amber Ocean",
-          "pulse_rank": 5,
-          "sp": "5/1",
-          "reason": "Winner ran at its most common course: Chepstow"
+          "horse": "Al Samsama",
+          "pulse_rank": 6,
+          "sp": "11/1",
+          "reason": "Winner ran at its most common course: Newbury"
         }
       ]
     },
     {
       "factor": "Stored history available",
-      "missed_winner_count": 16,
+      "missed_winner_count": 38,
       "examples": [
+        {
+          "horse": "Act Of Violence",
+          "pulse_rank": 6,
+          "sp": "10/3",
+          "reason": "Profile had 3 stored runs"
+        },
         {
           "horse": "Alondra",
           "pulse_rank": 4,
           "sp": "9/2",
+          "reason": "Profile had 3 stored runs"
+        },
+        {
+          "horse": "Amazonian Dream",
+          "pulse_rank": null,
+          "sp": "7/4",
           "reason": "Profile had 3 stored runs"
         },
         {
@@ -421,9 +433,27 @@
           "reason": "Profile had 3 stored runs"
         },
         {
+          "horse": "Bella Colombia",
+          "pulse_rank": null,
+          "sp": "85/40",
+          "reason": "Profile had 3 stored runs"
+        },
+        {
+          "horse": "Curran",
+          "pulse_rank": null,
+          "sp": "4/5",
+          "reason": "Profile had 4 stored runs"
+        },
+        {
           "horse": "Doon The Glen",
-          "pulse_rank": 7,
+          "pulse_rank": 5,
           "sp": "11/4",
+          "reason": "Profile had 7 stored runs"
+        },
+        {
+          "horse": "Farasi Lane",
+          "pulse_rank": 6,
+          "sp": "28/1",
           "reason": "Profile had 3 stored runs"
         },
         {
@@ -431,48 +461,24 @@
           "pulse_rank": 6,
           "sp": "7/1",
           "reason": "Profile had 3 stored runs"
-        },
-        {
-          "horse": "Jesmond Dawn",
-          "pulse_rank": 5,
-          "sp": "3/1",
-          "reason": "Profile had 3 stored runs"
-        },
-        {
-          "horse": "King's Code",
-          "pulse_rank": 8,
-          "sp": "18/1",
-          "reason": "Profile had 7 stored runs"
-        },
-        {
-          "horse": "Manhattan Chute",
-          "pulse_rank": 9,
-          "sp": "11/2",
-          "reason": "Profile had 3 stored runs"
-        },
-        {
-          "horse": "Meriden",
-          "pulse_rank": null,
-          "sp": "11/2",
-          "reason": "Profile had 3 stored runs"
-        },
-        {
-          "horse": "Midnight Strike",
-          "pulse_rank": 4,
-          "sp": "8/13",
-          "reason": "Profile had 3 stored runs"
         }
       ]
     },
     {
       "factor": "Strong horse intelligence profile",
-      "missed_winner_count": 4,
+      "missed_winner_count": 5,
       "examples": [
         {
           "horse": "Jazl",
           "pulse_rank": 6,
           "sp": "12/1",
           "reason": "Horse Intelligence was 66"
+        },
+        {
+          "horse": "Pep Talking",
+          "pulse_rank": null,
+          "sp": "5/2",
+          "reason": "Horse Intelligence was 65"
         },
         {
           "horse": "Quickstepgal",
@@ -487,9 +493,9 @@
           "reason": "Horse Intelligence was 66"
         },
         {
-          "horse": "Sunray Shadow",
-          "pulse_rank": null,
-          "sp": "5/4",
+          "horse": "Silius",
+          "pulse_rank": 4,
+          "sp": "4/1",
           "reason": "Horse Intelligence was 66"
         }
       ]

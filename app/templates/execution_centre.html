@@ -1,0 +1,238 @@
+{% extends "base.html" %}
+{% block title %}Execution Centre | Pulse IQ{% endblock %}
+{% block head %}<link rel="stylesheet" href="/static/css/execution_centre.css">{% endblock %}
+{% block content %}
+<div class="execution-page" data-execution-page>
+    <header class="execution-header">
+        <div class="execution-title-row">
+            <img src="/static/glyphs_transparent/engine.png" class="hero-icon" alt="">
+            <div>
+                <span class="execution-kicker">Pulse Arb</span>
+                <h1>Execution Centre</h1>
+                <p>Persistent bookmaker sessions, login health and manual bet-slip preparation control.</p>
+            </div>
+        </div>
+        <div class="execution-live-pill" data-service-pill>
+            <span class="execution-live-dot"></span>
+            <span data-service-label>Connecting</span>
+        </div>
+    </header>
+
+    <section class="execution-system-strip">
+        <article><span>Service</span><strong data-service-status>Checking</strong><small>Execution worker</small></article>
+        <article><span>Browser</span><strong data-browser-status>Standby</strong><small>Shared Playwright context</small></article>
+        <article><span>Open Sessions</span><strong data-session-count>0</strong><small>Bookmaker tabs</small></article>
+        <article><span>Ready</span><strong data-ready-count>0</strong><small>Prepared or logged in</small></article>
+        <article><span>Last Poll</span><strong data-last-poll>--:--:--</strong><small>Two-second refresh</small></article>
+    </section>
+
+    <section class="execution-toolbar">
+        <div><h2>Session Controls</h2><p>Open bookmaker windows first, then log in manually.</p></div>
+        <div class="execution-toolbar-actions">
+            <button class="execution-button primary" data-open-all>Open Available</button>
+            <button class="execution-button" data-check-all>Check Logins</button>
+            <button class="execution-button" data-reset-all>Reset Sessions</button>
+            <button class="execution-button danger" data-close-all>Close Sessions</button>
+        </div>
+    </section>
+
+    <div class="execution-layout">
+        <main class="execution-panel">
+            <div class="execution-panel-header">
+                <div><span class="execution-kicker">Browser Grid</span><h2>Bookmaker Sessions</h2></div>
+                <span class="execution-panel-meta">Manual confirmation only</span>
+            </div>
+
+            <div class="execution-bookmaker-grid">
+                {% for bookmaker in bookmakers %}
+                <article class="execution-bookmaker-card" data-bookmaker-card="{{ bookmaker.key }}" data-supported="{{ 'true' if bookmaker.supported else 'false' }}">
+                    <div class="execution-bookmaker-top">
+                        <div class="execution-bookmaker-identity">
+                            <span class="execution-bookmaker-mark">{{ bookmaker.short }}</span>
+                            <div><h3>{{ bookmaker.name }}</h3><p>{{ 'Adapter connected' if bookmaker.supported else 'Adapter pending' }}</p></div>
+                        </div>
+                        <span class="execution-state offline" data-state>{{ 'Closed' if bookmaker.supported else 'Pending' }}</span>
+                    </div>
+
+                    <dl class="execution-bookmaker-stats">
+                        <div><dt>Browser</dt><dd data-browser>Closed</dd></div>
+                        <div><dt>Login</dt><dd data-login>Unknown</dd></div>
+                        <div><dt>Status</dt><dd data-adapter-status>{{ 'Available' if bookmaker.supported else 'Not installed' }}</dd></div>
+                        <div><dt>Last Activity</dt><dd data-last-activity>Never</dd></div>
+                    </dl>
+
+                    <div class="execution-bookmaker-url" data-url>No active page</div>
+
+                    <div class="execution-bookmaker-actions">
+                        <button class="execution-mini-button primary" data-action="open" {% if not bookmaker.supported %}disabled{% endif %}>Open</button>
+                        <button class="execution-mini-button" data-action="login-check" {% if not bookmaker.supported %}disabled{% endif %}>Login Check</button>
+                        <button class="execution-mini-button" data-action="reset" {% if not bookmaker.supported %}disabled{% endif %}>Reset</button>
+                        <button class="execution-mini-button danger" data-action="close" {% if not bookmaker.supported %}disabled{% endif %}>Close</button>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </main>
+
+        <aside class="execution-console-panel">
+            <div class="execution-panel-header">
+                <div><span class="execution-kicker">Telemetry</span><h2>Live Execution Log</h2></div>
+                <button class="execution-clear-button" data-clear-log>Clear</button>
+            </div>
+            <div class="execution-console" data-console></div>
+            <div class="execution-console-footer"><span></span>Pulse never presses the final Place Bet button.</div>
+        </aside>
+    </div>
+</div>
+
+<script>
+(() => {
+    const page = document.querySelector('[data-execution-page]');
+    if (!page) return;
+
+    const consoleBox = page.querySelector('[data-console]');
+    const supported = [...page.querySelectorAll('[data-supported="true"]')].map(card => card.dataset.bookmakerCard);
+    let polling = false;
+
+    const time = () => new Date().toLocaleTimeString('en-GB', { hour12: false });
+    const log = (message, level = 'info') => {
+        const row = document.createElement('div');
+        row.className = `execution-log-line ${level}`;
+        row.innerHTML = `<time>${time()}</time><span></span>`;
+        row.querySelector('span').textContent = message;
+        consoleBox.appendChild(row);
+        consoleBox.scrollTop = consoleBox.scrollHeight;
+    };
+
+    async function api(path, payload = null) {
+        const options = { method: payload ? 'POST' : 'GET', headers: { 'Content-Type': 'application/json' } };
+        if (payload) options.body = JSON.stringify(payload);
+        const response = await fetch(path, options);
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(typeof data.detail === 'string' ? data.detail : JSON.stringify(data.detail || data));
+        return data;
+    }
+
+    function loggedIn(session) {
+        if (typeof session?.logged_in === 'boolean') return session.logged_in;
+        const status = String(session?.status || '').toUpperCase();
+        return status === 'READY' || status === 'BUSY';
+    }
+
+    function updateCard(bookmaker, session) {
+        const card = page.querySelector(`[data-bookmaker-card="${bookmaker}"]`);
+        if (!card) return;
+        const state = card.querySelector('[data-state]');
+        if (!session) {
+            state.className = 'execution-state offline';
+            state.textContent = 'Closed';
+            card.querySelector('[data-browser]').textContent = 'Closed';
+            card.querySelector('[data-login]').textContent = 'Unknown';
+            card.querySelector('[data-adapter-status]').textContent = 'Available';
+            card.querySelector('[data-url]').textContent = 'No active page';
+            return;
+        }
+
+        const closed = Boolean(session.browser_closed ?? session.closed ?? false);
+        const ready = loggedIn(session);
+        const status = String(session.status || (closed ? 'CLOSED' : 'OPEN')).toUpperCase();
+        state.className = `execution-state ${closed ? 'offline' : status === 'ERROR' ? 'error' : ready ? 'ready' : 'open'}`;
+        state.textContent = closed ? 'Closed' : status === 'ERROR' ? 'Error' : ready ? 'Ready' : 'Open';
+        card.querySelector('[data-browser]').textContent = closed ? 'Closed' : 'Open';
+        card.querySelector('[data-login]').textContent = ready ? 'Logged in' : 'Check required';
+        card.querySelector('[data-adapter-status]').textContent = status.replaceAll('_', ' ');
+        card.querySelector('[data-last-activity]').textContent = session.last_activity_at || session.last_checked_at || 'Active';
+        card.querySelector('[data-url]').textContent = session.url || 'Bookmaker home page';
+    }
+
+    async function poll() {
+        if (polling) return;
+        polling = true;
+        try {
+            const data = await api('/execution/health');
+            const manager = data.manager || {};
+            const sessions = manager.sessions || {};
+            page.querySelector('[data-service-status]').textContent = data.service_running ? 'Running' : 'Stopped';
+            page.querySelector('[data-browser-status]').textContent = Object.keys(sessions).length ? 'Running' : 'Standby';
+            page.querySelector('[data-session-count]').textContent = manager.session_count ?? Object.keys(sessions).length;
+            page.querySelector('[data-ready-count]').textContent = manager.ready_count ?? 0;
+            page.querySelector('[data-last-poll]').textContent = time();
+            page.querySelector('[data-service-label]').textContent = data.service_running ? 'Execution Live' : 'Offline';
+            page.querySelector('[data-service-pill]').classList.toggle('offline', !data.service_running);
+            supported.forEach(bookmaker => updateCard(bookmaker, sessions[bookmaker] || null));
+        } catch (error) {
+            page.querySelector('[data-service-status]').textContent = 'Unavailable';
+            page.querySelector('[data-service-label]').textContent = 'Disconnected';
+            page.querySelector('[data-service-pill]').classList.add('offline');
+        } finally {
+            polling = false;
+        }
+    }
+
+    async function perform(bookmaker, action) {
+
+        const routes = {
+            open: ['/execution/session/open', { bookmaker, headless: false, replace: false }],
+            'login-check': ['/execution/session/login-check', { bookmaker }],
+            reset: ['/execution/session/reset', { bookmaker, reopen_home: true }],
+            close: ['/execution/session/close', { bookmaker }]
+        };
+
+        log(`${action}: ${bookmaker}`);
+
+        try {
+
+            const [path, payload] = routes[action];
+
+            console.log("POST", path, payload);
+
+            const result = await api(path, payload);
+
+            console.log("RESULT:", result);
+
+            log(
+                result.message ?? JSON.stringify(result),
+                "success",
+            );
+
+        } catch (err) {
+
+            console.error("ERROR:", err);
+
+            log(
+                err.stack || err.message || JSON.stringify(err),
+                "error",
+            );
+
+        }
+
+        await poll();
+    }
+
+    async function runAll(action) {
+        for (const bookmaker of supported) await perform(bookmaker, action);
+    }
+
+    page.addEventListener('click', async event => {
+        const button = event.target.closest('button');
+        if (!button || button.disabled) return;
+        const card = button.closest('[data-bookmaker-card]');
+        if (card && button.dataset.action) {
+            button.disabled = true;
+            try { await perform(card.dataset.bookmakerCard, button.dataset.action); }
+            finally { button.disabled = false; }
+            return;
+        }
+        if (button.matches('[data-open-all]')) await runAll('open');
+        if (button.matches('[data-check-all]')) await runAll('login-check');
+        if (button.matches('[data-reset-all]')) await runAll('reset');
+        if (button.matches('[data-close-all]')) await runAll('close');
+        if (button.matches('[data-clear-log]')) { consoleBox.innerHTML = ''; log('Execution log cleared.'); }
+    });
+
+    log('Execution Centre initialised.', 'success');
+    poll();
+    setInterval(poll, 2000);
+})();
+</script>
+{% endblock %}
