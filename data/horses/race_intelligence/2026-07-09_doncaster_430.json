@@ -4,8 +4,8 @@
   "course": "Doncaster",
   "time": "4:30",
   "race_name": "Betfred Nifty 50 Handicap (Rnd)",
-  "field_size": 6,
-  "average_intelligence": 25.33,
+  "field_size": 5,
+  "average_intelligence": 25.0,
   "top_score": 27,
   "second_score": 27,
   "gap": 0,
@@ -13,128 +13,6 @@
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Celtic Chariot",
-    "horse_id": "hrs_63971089",
-    "age": 3,
-    "sex": "gelding",
-    "latest_course": "Doncaster",
-    "latest_time": "4:30",
-    "latest_race": "Betfred Nifty 50 Handicap (Rnd)",
-    "latest_date": "2026-07-09",
-    "latest_distance_f": 8.0,
-    "latest_class": "Class 6",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Kevin & Lauren Frost",
-    "latest_jockey": "David Egan",
-    "latest_draw": 1,
-    "latest_weight_lbs": 132,
-    "official_rating": "64",
-    "recent_form": "3664",
-    "last_run_days": 24,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Doncaster": 1
-    },
-    "distances_seen": {
-      "8.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 6": 1
-    },
-    "trainers_seen": {
-      "Kevin & Lauren Frost": 1
-    },
-    "jockeys_seen": {
-      "David Egan": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11990563",
-        "course": "Doncaster",
-        "date": "2026-07-09",
-        "off_time": "4:30",
-        "off_dt": "2026-07-09T16:30:00+01:00",
-        "race_name": "Betfred Nifty 50 Handicap (Rnd)",
-        "distance_f": 8.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Celtic Chariot",
-        "horse_id": "hrs_63971089",
-        "age": 3,
-        "sex": "gelding",
-        "trainer": "Kevin & Lauren Frost",
-        "trainer_id": "trn_388557",
-        "jockey": "David Egan",
-        "jockey_id": "jky_286164",
-        "draw": 1,
-        "number": 5,
-        "lbs": 132,
-        "ofr": "64",
-        "last_run": 24,
-        "form": "3664",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ],
-    "favourite_course": {
-      "value": "Doncaster",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 8.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 6",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Doncaster",
-      "latest_distance_f": 8.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 6",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Kiss Me My Love",
     "horse_id": "hrs_41090882",
     "age": 4,
@@ -256,7 +134,7 @@
       "runs_count": 1
     }
   },
-  "dark_horse": {
+  "main_threat": {
     "horse": "Myrrh",
     "horse_id": "hrs_56094885",
     "age": 3,
@@ -376,129 +254,129 @@
       "runs_count": 1
     }
   },
-  "runners": [
-    {
-      "horse": "Celtic Chariot",
-      "horse_id": "hrs_63971089",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Doncaster",
-      "latest_time": "4:30",
-      "latest_race": "Betfred Nifty 50 Handicap (Rnd)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Kevin & Lauren Frost",
-      "latest_jockey": "David Egan",
-      "latest_draw": 1,
-      "latest_weight_lbs": 132,
-      "official_rating": "64",
-      "recent_form": "3664",
-      "last_run_days": 24,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Doncaster": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Kevin & Lauren Frost": 1
-      },
-      "jockeys_seen": {
-        "David Egan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990563",
-          "course": "Doncaster",
-          "date": "2026-07-09",
-          "off_time": "4:30",
-          "off_dt": "2026-07-09T16:30:00+01:00",
-          "race_name": "Betfred Nifty 50 Handicap (Rnd)",
-          "distance_f": 8.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Celtic Chariot",
-          "horse_id": "hrs_63971089",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Kevin & Lauren Frost",
-          "trainer_id": "trn_388557",
-          "jockey": "David Egan",
-          "jockey_id": "jky_286164",
-          "draw": 1,
-          "number": 5,
-          "lbs": 132,
-          "ofr": "64",
-          "last_run": 24,
-          "form": "3664",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Doncaster",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Doncaster",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 6",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
+  "dark_horse": {
+    "horse": "The Anthony Gover",
+    "horse_id": "hrs_62615126",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Doncaster",
+    "latest_time": "4:30",
+    "latest_race": "Betfred Nifty 50 Handicap (Rnd)",
+    "latest_date": "2026-07-09",
+    "latest_distance_f": 8.0,
+    "latest_class": "Class 6",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Dr Richard Newland & Jamie Insole",
+    "latest_jockey": "Rowan Scott",
+    "latest_draw": 2,
+    "latest_weight_lbs": 129,
+    "official_rating": "61",
+    "recent_form": "36064",
+    "last_run_days": 34,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Doncaster": 1
     },
+    "distances_seen": {
+      "8.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 6": 1
+    },
+    "trainers_seen": {
+      "Dr Richard Newland & Jamie Insole": 1
+    },
+    "jockeys_seen": {
+      "Rowan Scott": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11990563",
+        "course": "Doncaster",
+        "date": "2026-07-09",
+        "off_time": "4:30",
+        "off_dt": "2026-07-09T16:30:00+01:00",
+        "race_name": "Betfred Nifty 50 Handicap (Rnd)",
+        "distance_f": 8.0,
+        "race_class": "Class 6",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "The Anthony Gover",
+        "horse_id": "hrs_62615126",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Dr Richard Newland & Jamie Insole",
+        "trainer_id": "trn_368685",
+        "jockey": "Rowan Scott",
+        "jockey_id": "jky_277695",
+        "draw": 2,
+        "number": 7,
+        "lbs": 129,
+        "ofr": "61",
+        "last_run": 34,
+        "form": "36064",
+        "headgear": "b"
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Doncaster",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 8.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 6",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Doncaster",
+      "latest_distance_f": 8.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 6",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "runners": [
     {
       "horse": "Kiss Me My Love",
       "horse_id": "hrs_41090882",
@@ -1398,9 +1276,9 @@
     }
   ],
   "notes": [
-    "Celtic Chariot is the top-rated Pulse IQ runner.",
+    "Kiss Me My Love is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Myrrh is flagged as a possible dark horse."
+    "The Anthony Gover is flagged as a possible dark horse."
   ]
 }

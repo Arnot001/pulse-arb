@@ -41,11 +41,17 @@
             </div>
             <div class="horse-arb-metric">
                 <span>Status</span>
-                <strong>{% if item.complete %}Ready{% else %}Waiting{% endif %}</strong>
+                <strong>
+                    {% if item.complete and item.runner_count >= 2 and item.opportunity and item.opportunity.legs|length >= 2 %}
+                        Ready
+                    {% else %}
+                        Waiting
+                    {% endif %}
+                </strong>
             </div>
         </div>
 
-        {% if item.opportunity and item.opportunity.legs %}
+        {% if not item.completeor item.runner_count < 2or not item.opportunityor not item.opportunity.legsor item.opportunity.legs|length < 2 %}disabled{% endif %}
         <div class="horse-arb-leg-list">
             {% for leg in item.opportunity.legs %}
             <div class="horse-arb-leg">
@@ -63,7 +69,7 @@
 
         {% if executable %}
         <div class="execution-card-actions">
-            <button type="button" class="execution-primary-button" data-prepare-arb {% if not item.complete %}disabled{% endif %}>
+            <button type="button" class="execution-primary-button" data-prepare-arb {% if not item.opportunity or not item.opportunity.legs %}disabled{% endif %}>
                 ▶ Prepare Bet Slips
             </button>
             <span class="execution-card-state" data-card-state>Waiting</span>
@@ -317,22 +323,171 @@
         const panel=card.querySelector("[data-card-progress]");
         const summary=card.querySelector("[data-progress-summary]");
         const legs=[...card.querySelectorAll("[data-execution-leg]")];
-        button.disabled=true; panel.hidden=false; card.classList.add("preparing"); cardState.textContent="Preparing";
-        state.preparing++; updateQueue();
-        let ready=0,failed=0;
+
+        button.disabled=true;
+        panel.hidden=false;
+        card.classList.add("preparing");
+        cardState.textContent="Preparing";
+
+        state.preparing++;
+        updateQueue();
+
+        let ready=0;
+        let failed=0;
+
         for(const row of legs){
             const status=row.querySelector(".execution-progress-status");
             const payload=legPayload(row);
-            if(!payload.stake||payload.stake<=0){failed++;row.classList.add("failed");status.textContent="No stake";log(`${payload.bookmaker}: missing stake.`,"error");continue;}
-            row.classList.add("preparing");status.textContent="Preparing";title.textContent=`Preparing ${payload.bookmaker}`;log(`${payload.bookmaker}: ${payload.selection_name} £${payload.stake.toFixed(2)}.`);
-            try{const r=await request("/execution/prepare",payload);ready++;row.classList.remove("preparing");row.classList.add("ready");status.textContent="Ready";log(r.message||`${payload.bookmaker} ready.`,"success");}
-            catch(e){failed++;row.classList.remove("preparing");row.classList.add("failed");status.textContent="Failed";log(`${payload.bookmaker}: ${e.message}`,"error");}
-            summary.textContent=`${ready} / ${legs.length} ready`;
+            const bookmaker=(payload.bookmaker||"")
+                .trim()
+                .toLowerCase();
+
+            if(bookmaker!=="bet365"){
+                failed++;
+                row.classList.add("unsupported");
+                status.textContent="Not supported";
+
+                log(
+                    `${payload.bookmaker}: execution adapter not installed yet.`,
+                    "warning"
+                );
+
+                summary.textContent=
+                    `${ready} ready · ${failed} failed`;
+
+                continue;
+            }
+
+            if(!payload.stake||payload.stake<=0){
+                failed++;
+                row.classList.add("failed");
+                status.textContent="No stake";
+
+                log(
+                    `${payload.bookmaker}: missing stake.`,
+                    "error"
+                );
+
+                summary.textContent=
+                    `${ready} ready · ${failed} failed`;
+
+                continue;
+            }
+
+            row.classList.add("preparing");
+            status.textContent="Preparing";
+            title.textContent=`Preparing ${payload.bookmaker}`;
+
+            log(
+                `${payload.bookmaker}: ${payload.selection_name} £${payload.stake.toFixed(2)}.`
+            );
+
+            try{
+                const r=await request(
+                    "/execution/prepare",
+                    payload
+                );
+
+                ready++;
+
+                row.classList.remove(
+                    "preparing",
+                    "failed"
+                );
+
+                row.classList.add("ready");
+                status.textContent="Ready";
+
+                log(
+                    r.message||
+                    `${payload.bookmaker} ready.`,
+                    "success"
+                );
+            }
+            catch(e){
+                failed++;
+
+                row.classList.remove(
+                    "preparing",
+                    "ready"
+                );
+
+                row.classList.add("failed");
+                status.textContent="Failed";
+
+                log(
+                    `${payload.bookmaker}: ${e.message}`,
+                    "error"
+                );
+            }
+
+            summary.textContent=
+                `${ready} ready · ${failed} failed`;
         }
-        state.preparing=Math.max(0,state.preparing-1);
-        if(failed===0&&ready===legs.length){state.ready++;card.classList.remove("preparing");card.classList.add("execution-ready");cardState.textContent="Ready to confirm";summary.textContent="All bet slips ready";title.textContent="Ready for manual confirmation";log("All supported bet slips are ready. Pulse will not place bets.","success");}
-        else{state.failed++;card.classList.remove("preparing");card.classList.add("execution-failed");cardState.textContent=`${failed} failed`;summary.textContent=`${ready} ready · ${failed} failed`;title.textContent="Execution incomplete";button.disabled=false;button.textContent="↻ Retry Preparation";}
-        updateQueue(); health();
+
+        state.preparing=Math.max(
+            0,
+            state.preparing-1
+        );
+
+        if(
+            failed===0
+            && ready===legs.length
+            && legs.length>0
+        ){
+            state.ready++;
+
+            card.classList.remove(
+                "preparing",
+                "execution-failed"
+            );
+
+            card.classList.add(
+                "execution-ready"
+            );
+
+            cardState.textContent=
+                "Ready to confirm";
+
+            summary.textContent=
+                "All bet slips ready";
+
+            title.textContent=
+                "Ready for manual confirmation";
+
+            log(
+                "All supported bet slips are ready. Pulse will not place bets.",
+                "success"
+            );
+        }
+        else{
+            state.failed++;
+
+            card.classList.remove(
+                "preparing",
+                "execution-ready"
+            );
+
+            card.classList.add(
+                "execution-failed"
+            );
+
+            cardState.textContent=
+                `${failed} failed`;
+
+            summary.textContent=
+                `${ready} ready · ${failed} failed`;
+
+            title.textContent=
+                "Execution incomplete";
+
+            button.disabled=false;
+            button.textContent=
+                "↻ Retry Preparation";
+        }
+
+        updateQueue();
+        health();
     }
     document.addEventListener("click",e=>{
         const open=e.target.closest("[data-open-bookmaker]");
@@ -349,3 +504,4 @@
     health(); updateQueue();
 })();
 </script>
+{% endblock %}

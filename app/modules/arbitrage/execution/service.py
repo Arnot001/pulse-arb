@@ -9,7 +9,10 @@ from playwright.sync_api import (
     Page,
     TimeoutError as PlaywrightTimeoutError,
 )
-
+from app.browser import BrowserPage
+from app.modules.arbitrage.execution.adapters.bet365 import (
+    Bet365Adapter as Bet365ExecutionAdapter,
+)
 from app.modules.arbitrage.execution.execution_browser import (
     ExecutionBrowserInstance,
     execution_browser_manager,

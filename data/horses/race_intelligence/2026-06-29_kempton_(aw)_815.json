@@ -4,7 +4,7 @@
   "course": "Kempton (AW)",
   "time": "8:15",
   "race_name": "Kempton Park Supporting Racing Staff Week Handicap (GBBPlus Race)",
-  "field_size": 9,
+  "field_size": 8,
   "average_intelligence": 27.0,
   "top_score": 27,
   "second_score": 27,
@@ -13,129 +13,6 @@
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Assail",
-    "horse_id": "hrs_37774590",
-    "age": 6,
-    "sex": "gelding",
-    "latest_course": "Kempton (AW)",
-    "latest_time": "8:15",
-    "latest_race": "Kempton Park Supporting Racing Staff Week Handicap (GBBPlus Race)",
-    "latest_date": "2026-06-29",
-    "latest_distance_f": 11.0,
-    "latest_class": "Class 4",
-    "latest_going": "Standard To Slow",
-    "latest_surface": "AW",
-    "latest_trainer": "David Simcock",
-    "latest_jockey": "Silvestre De Sousa",
-    "latest_draw": 11,
-    "latest_weight_lbs": 133,
-    "official_rating": "83",
-    "recent_form": "926-64",
-    "last_run_days": 152,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Kempton (AW)": 1
-    },
-    "distances_seen": {
-      "11.0": 1
-    },
-    "goings_seen": {
-      "Standard To Slow": 1
-    },
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "David Simcock": 1
-    },
-    "jockeys_seen": {
-      "Silvestre De Sousa": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12006540",
-        "course": "Kempton (AW)",
-        "date": "2026-06-29",
-        "off_time": "8:15",
-        "off_dt": "2026-06-29T20:15:00+01:00",
-        "race_name": "Kempton Park Supporting Racing Staff Week Handicap (GBBPlus Race)",
-        "distance_f": 11.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Standard To Slow",
-        "surface": "AW",
-        "field_size": 12,
-        "horse": "Assail",
-        "horse_id": "hrs_37774590",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "David Simcock",
-        "trainer_id": "trn_145287",
-        "jockey": "Silvestre De Sousa",
-        "jockey_id": "jky_251238",
-        "draw": 11,
-        "number": 3,
-        "lbs": 133,
-        "ofr": "83",
-        "last_run": 152,
-        "form": "926-64",
-        "headgear": "",
-        "_stored_at": "2026-06-29T11:41:31.840075+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Returning from a break"
-    ],
-    "favourite_course": {
-      "value": "Kempton (AW)",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 11.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Standard To Slow",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Kempton (AW)",
-      "latest_distance_f": 11.0,
-      "latest_going": "Standard To Slow",
-      "latest_class": "Class 4",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Charmaine",
     "horse_id": "hrs_36428035",
     "age": 5,
@@ -258,7 +135,7 @@
       "runs_count": 1
     }
   },
-  "dark_horse": {
+  "main_threat": {
     "horse": "Diderot",
     "horse_id": "hrs_23112404",
     "age": 8,
@@ -379,130 +256,128 @@
       "runs_count": 1
     }
   },
-  "runners": [
-    {
-      "horse": "Assail",
-      "horse_id": "hrs_37774590",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Kempton (AW)",
-      "latest_time": "8:15",
-      "latest_race": "Kempton Park Supporting Racing Staff Week Handicap (GBBPlus Race)",
-      "latest_date": "2026-06-29",
-      "latest_distance_f": 11.0,
-      "latest_class": "Class 4",
-      "latest_going": "Standard To Slow",
-      "latest_surface": "AW",
-      "latest_trainer": "David Simcock",
-      "latest_jockey": "Silvestre De Sousa",
-      "latest_draw": 11,
-      "latest_weight_lbs": 133,
-      "official_rating": "83",
-      "recent_form": "926-64",
-      "last_run_days": 152,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Kempton (AW)": 1
-      },
-      "distances_seen": {
-        "11.0": 1
-      },
-      "goings_seen": {
-        "Standard To Slow": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "David Simcock": 1
-      },
-      "jockeys_seen": {
-        "Silvestre De Sousa": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006540",
-          "course": "Kempton (AW)",
-          "date": "2026-06-29",
-          "off_time": "8:15",
-          "off_dt": "2026-06-29T20:15:00+01:00",
-          "race_name": "Kempton Park Supporting Racing Staff Week Handicap (GBBPlus Race)",
-          "distance_f": 11.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 12,
-          "horse": "Assail",
-          "horse_id": "hrs_37774590",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "David Simcock",
-          "trainer_id": "trn_145287",
-          "jockey": "Silvestre De Sousa",
-          "jockey_id": "jky_251238",
-          "draw": 11,
-          "number": 3,
-          "lbs": 133,
-          "ofr": "83",
-          "last_run": 152,
-          "form": "926-64",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:31.840075+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Kempton (AW)",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 11.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Standard To Slow",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Kempton (AW)",
-        "latest_distance_f": 11.0,
-        "latest_going": "Standard To Slow",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
+  "dark_horse": {
+    "horse": "Fox Avatar",
+    "horse_id": "hrs_44659888",
+    "age": 5,
+    "sex": "gelding",
+    "latest_course": "Kempton (AW)",
+    "latest_time": "8:15",
+    "latest_race": "Kempton Park Supporting Racing Staff Week Handicap (GBBPlus Race)",
+    "latest_date": "2026-06-29",
+    "latest_distance_f": 11.0,
+    "latest_class": "Class 4",
+    "latest_going": "Standard To Slow",
+    "latest_surface": "AW",
+    "latest_trainer": "Roger Varian",
+    "latest_jockey": "Ray Dawson",
+    "latest_draw": 5,
+    "latest_weight_lbs": 135,
+    "official_rating": "85",
+    "recent_form": "5151-6",
+    "last_run_days": 33,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Kempton (AW)": 1
     },
+    "distances_seen": {
+      "11.0": 1
+    },
+    "goings_seen": {
+      "Standard To Slow": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Roger Varian": 1
+    },
+    "jockeys_seen": {
+      "Ray Dawson": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12006540",
+        "course": "Kempton (AW)",
+        "date": "2026-06-29",
+        "off_time": "8:15",
+        "off_dt": "2026-06-29T20:15:00+01:00",
+        "race_name": "Kempton Park Supporting Racing Staff Week Handicap (GBBPlus Race)",
+        "distance_f": 11.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Standard To Slow",
+        "surface": "AW",
+        "field_size": 12,
+        "horse": "Fox Avatar",
+        "horse_id": "hrs_44659888",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "Roger Varian",
+        "trainer_id": "trn_224010",
+        "jockey": "Ray Dawson",
+        "jockey_id": "jky_266394",
+        "draw": 5,
+        "number": 1,
+        "lbs": 135,
+        "ofr": "85",
+        "last_run": 33,
+        "form": "5151-6",
+        "headgear": "",
+        "_stored_at": "2026-06-29T11:41:31.795449+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Kempton (AW)",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 11.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Standard To Slow",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Kempton (AW)",
+      "latest_distance_f": 11.0,
+      "latest_going": "Standard To Slow",
+      "latest_class": "Class 4",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "runners": [
     {
       "horse": "Charmaine",
       "horse_id": "hrs_36428035",
@@ -1479,9 +1354,9 @@
     }
   ],
   "notes": [
-    "Assail is the top-rated Pulse IQ runner.",
+    "Charmaine is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Diderot is flagged as a possible dark horse."
+    "Fox Avatar is flagged as a possible dark horse."
   ]
 }

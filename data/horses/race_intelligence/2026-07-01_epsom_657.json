@@ -4,7 +4,7 @@
   "course": "Epsom",
   "time": "6:57",
   "race_name": "Betfred 'The Classic Bookmaker' Handicap (GBBPlus Race)",
-  "field_size": 8,
+  "field_size": 7,
   "average_intelligence": 27.0,
   "top_score": 27,
   "second_score": 27,
@@ -13,127 +13,6 @@
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Alma Latina",
-    "horse_id": "hrs_63422653",
-    "age": 3,
-    "sex": "filly",
-    "latest_course": "Epsom",
-    "latest_time": "6:57",
-    "latest_race": "Betfred 'The Classic Bookmaker' Handicap (GBBPlus Race)",
-    "latest_date": "2026-07-01",
-    "latest_distance_f": 12.0,
-    "latest_class": "Class 4",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Ralph Beckett",
-    "latest_jockey": "Hector Crouch",
-    "latest_draw": 8,
-    "latest_weight_lbs": 132,
-    "official_rating": "82",
-    "recent_form": "321",
-    "last_run_days": 29,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Epsom": 1
-    },
-    "distances_seen": {
-      "12.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "Ralph Beckett": 1
-    },
-    "jockeys_seen": {
-      "Hector Crouch": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988470",
-        "course": "Epsom",
-        "date": "2026-07-01",
-        "off_time": "6:57",
-        "off_dt": "2026-07-01T18:57:00+01:00",
-        "race_name": "Betfred 'The Classic Bookmaker' Handicap (GBBPlus Race)",
-        "distance_f": 12.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 10,
-        "horse": "Alma Latina",
-        "horse_id": "hrs_63422653",
-        "age": 3,
-        "sex": "filly",
-        "trainer": "Ralph Beckett",
-        "trainer_id": "trn_125253",
-        "jockey": "Hector Crouch",
-        "jockey_id": "jky_278418",
-        "draw": 8,
-        "number": 7,
-        "lbs": 132,
-        "ofr": "82",
-        "last_run": 29,
-        "form": "321",
-        "headgear": "",
-        "_stored_at": "2026-07-01T13:17:48.334664+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Epsom",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 12.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Epsom",
-      "latest_distance_f": 12.0,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Analogical",
     "horse_id": "hrs_45568495",
     "age": 4,
@@ -257,7 +136,7 @@
       "runs_count": 1
     }
   },
-  "dark_horse": {
+  "main_threat": {
     "horse": "Central Command",
     "horse_id": "hrs_58380294",
     "age": 3,
@@ -380,128 +259,128 @@
       "runs_count": 1
     }
   },
-  "runners": [
-    {
-      "horse": "Alma Latina",
-      "horse_id": "hrs_63422653",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Epsom",
-      "latest_time": "6:57",
-      "latest_race": "Betfred 'The Classic Bookmaker' Handicap (GBBPlus Race)",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 12.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ralph Beckett",
-      "latest_jockey": "Hector Crouch",
-      "latest_draw": 8,
-      "latest_weight_lbs": 132,
-      "official_rating": "82",
-      "recent_form": "321",
-      "last_run_days": 29,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Epsom": 1
-      },
-      "distances_seen": {
-        "12.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Ralph Beckett": 1
-      },
-      "jockeys_seen": {
-        "Hector Crouch": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988470",
-          "course": "Epsom",
-          "date": "2026-07-01",
-          "off_time": "6:57",
-          "off_dt": "2026-07-01T18:57:00+01:00",
-          "race_name": "Betfred 'The Classic Bookmaker' Handicap (GBBPlus Race)",
-          "distance_f": 12.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Alma Latina",
-          "horse_id": "hrs_63422653",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Ralph Beckett",
-          "trainer_id": "trn_125253",
-          "jockey": "Hector Crouch",
-          "jockey_id": "jky_278418",
-          "draw": 8,
-          "number": 7,
-          "lbs": 132,
-          "ofr": "82",
-          "last_run": 29,
-          "form": "321",
-          "headgear": "",
-          "_stored_at": "2026-07-01T13:17:48.334664+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Epsom",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 12.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Epsom",
-        "latest_distance_f": 12.0,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
+  "dark_horse": {
+    "horse": "Double Red",
+    "horse_id": "hrs_33789805",
+    "age": 5,
+    "sex": "gelding",
+    "latest_course": "Epsom",
+    "latest_time": "6:57",
+    "latest_race": "Betfred 'The Classic Bookmaker' Handicap (GBBPlus Race)",
+    "latest_date": "2026-07-01",
+    "latest_distance_f": 12.0,
+    "latest_class": "Class 4",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Henry Candy",
+    "latest_jockey": "David Probert",
+    "latest_draw": 4,
+    "latest_weight_lbs": 137,
+    "official_rating": "75",
+    "recent_form": "15-184",
+    "last_run_days": 23,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Epsom": 1
     },
+    "distances_seen": {
+      "12.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Henry Candy": 1
+    },
+    "jockeys_seen": {
+      "David Probert": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988470",
+        "course": "Epsom",
+        "date": "2026-07-01",
+        "off_time": "6:57",
+        "off_dt": "2026-07-01T18:57:00+01:00",
+        "race_name": "Betfred 'The Classic Bookmaker' Handicap (GBBPlus Race)",
+        "distance_f": 12.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 10,
+        "horse": "Double Red",
+        "horse_id": "hrs_33789805",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "Henry Candy",
+        "trainer_id": "trn_3024",
+        "jockey": "David Probert",
+        "jockey_id": "jky_258039",
+        "draw": 4,
+        "number": 5,
+        "lbs": 137,
+        "ofr": "75",
+        "last_run": 23,
+        "form": "15-184",
+        "headgear": "",
+        "_stored_at": "2026-07-01T13:17:48.293284+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Epsom",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 12.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Epsom",
+      "latest_distance_f": 12.0,
+      "latest_going": "Good",
+      "latest_class": "Class 4",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "runners": [
     {
       "horse": "Analogical",
       "horse_id": "hrs_45568495",
@@ -1358,9 +1237,9 @@
     }
   ],
   "notes": [
-    "Alma Latina is the top-rated Pulse IQ runner.",
+    "Analogical is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Central Command is flagged as a possible dark horse."
+    "Double Red is flagged as a possible dark horse."
   ]
 }

@@ -1,19 +1,15 @@
 {
-  "date": "2026-07-01",
+  "date": "2026-07-22",
   "horse": "Barmyblade",
-  "pulse_rank": 7,
+  "pulse_rank": null,
   "winner": true,
-  "sp": "9/1",
-  "course": "Thirsk",
-  "time": "13:40",
-  "top_pick": "Stormy Pearl",
-  "top_pick_score": 72,
-  "winner_score": 49,
+  "sp": "13/2",
+  "course": "Catterick",
+  "time": "15:42",
+  "top_pick": "Riddikulus",
+  "top_pick_score": 77,
+  "winner_score": null,
   "signals": [
-    {
-      "signal": "Favourite course matched",
-      "reason": "Winner ran at its most common course: Thirsk"
-    },
     {
       "signal": "Favourite distance matched",
       "reason": "Winner ran at its most common distance: 6.0f"
@@ -28,11 +24,11 @@
     },
     {
       "signal": "Strong suitability profile",
-      "reason": "Suitability Score was 90"
+      "reason": "Suitability Score was 81"
     },
     {
-      "signal": "Profile strength existed",
-      "reason": "Today's course matches strongest profile pattern"
+      "signal": "Stored history available",
+      "reason": "Profile had 3 stored runs"
     },
     {
       "signal": "Profile strength existed",
@@ -45,32 +41,36 @@
     {
       "signal": "Profile strength existed",
       "reason": "Race class matches common profile level"
+    },
+    {
+      "signal": "Profile strength existed",
+      "reason": "Positive latest Pulse Score"
     }
   ],
   "profile_snapshot": {
     "average_pulse_score": 0,
-    "latest_pulse_score": 49,
-    "horse_intelligence_score": 49,
-    "suitability_score": 90,
-    "profile_runs": 1,
+    "latest_pulse_score": 65,
+    "horse_intelligence_score": 54,
+    "suitability_score": 81,
+    "profile_runs": 3,
     "favourite_course": {
       "value": "Thirsk",
       "runs": 1
     },
     "favourite_distance": {
       "value": 6.0,
-      "runs": 1
+      "runs": 2
     },
     "favourite_going": {
       "value": "Good To Firm",
-      "runs": 1
+      "runs": 3
     },
     "favourite_class": {
       "value": "Class 6",
-      "runs": 1
+      "runs": 3
     }
   },
   "cautions": [
-    "Limited stored profile data"
+    "Course does not strongly match stored profile"
   ]
 }

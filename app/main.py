@@ -242,13 +242,12 @@ def start_pulse_live_engine():
 
 @app.on_event("startup")
 def start_execution_service():
-    execution_service.start()
     print("Pulse Execution Service plugged in ✅")
 
 
 @app.on_event("shutdown")
 def stop_execution_service():
-    execution_service.stop()
+    execution_service.close_all_sessions()
     print("Pulse Execution Service stopped.")
 
 def start_update(mode, redirect_url="/"):

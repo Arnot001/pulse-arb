@@ -4,7 +4,7 @@
   "course": "Limerick",
   "time": "6:58",
   "race_name": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
-  "field_size": 10,
+  "field_size": 6,
   "average_intelligence": 24.0,
   "top_score": 24,
   "second_score": 24,
@@ -128,121 +128,6 @@
     }
   },
   "main_threat": {
-    "horse": "Ballinaboola Gold",
-    "horse_id": "hrs_53328317",
-    "age": 5,
-    "sex": "mare",
-    "latest_course": "Limerick",
-    "latest_time": "6:58",
-    "latest_race": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
-    "latest_date": "2026-07-02",
-    "latest_distance_f": 22.5,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "R Donohoe",
-    "latest_jockey": "Danny Mullins",
-    "latest_draw": 0,
-    "latest_weight_lbs": 149,
-    "official_rating": "81",
-    "recent_form": "008-25",
-    "last_run_days": 36,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Limerick": 1
-    },
-    "distances_seen": {
-      "22.5": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "R Donohoe": 1
-    },
-    "jockeys_seen": {
-      "Danny Mullins": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12008126",
-        "course": "Limerick",
-        "date": "2026-07-02",
-        "off_time": "6:58",
-        "off_dt": "2026-07-02T18:58:00+01:00",
-        "race_name": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
-        "distance_f": 22.5,
-        "race_class": "",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 18,
-        "horse": "Ballinaboola Gold",
-        "horse_id": "hrs_53328317",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "R Donohoe",
-        "trainer_id": "trn_108468",
-        "jockey": "Danny Mullins",
-        "jockey_id": "jky_262572",
-        "draw": 0,
-        "number": 13,
-        "lbs": 149,
-        "ofr": "81",
-        "last_run": 36,
-        "form": "008-25",
-        "headgear": "",
-        "_stored_at": "2026-07-02T04:58:45.235785+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Limerick",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 22.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 24,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Limerick",
-      "latest_distance_f": 22.5,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
     "horse": "Can't Catch Molly",
     "horse_id": "hrs_58745932",
     "age": 6,
@@ -314,6 +199,121 @@
         "form": "00006-",
         "headgear": "",
         "_stored_at": "2026-07-02T04:58:45.267513+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Limerick",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 22.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Limerick",
+      "latest_distance_f": 22.5,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Friends Of Barry",
+    "horse_id": "hrs_57223439",
+    "age": 5,
+    "sex": "gelding",
+    "latest_course": "Limerick",
+    "latest_time": "6:58",
+    "latest_race": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
+    "latest_date": "2026-07-02",
+    "latest_distance_f": 22.5,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "John E & Thomas Kiely",
+    "latest_jockey": "Phillip Enright",
+    "latest_draw": 0,
+    "latest_weight_lbs": 155,
+    "official_rating": "87",
+    "recent_form": "080-02",
+    "last_run_days": 34,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Limerick": 1
+    },
+    "distances_seen": {
+      "22.5": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "John E & Thomas Kiely": 1
+    },
+    "jockeys_seen": {
+      "Phillip Enright": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12008126",
+        "course": "Limerick",
+        "date": "2026-07-02",
+        "off_time": "6:58",
+        "off_dt": "2026-07-02T18:58:00+01:00",
+        "race_name": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
+        "distance_f": 22.5,
+        "race_class": "",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 18,
+        "horse": "Friends Of Barry",
+        "horse_id": "hrs_57223439",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "John E & Thomas Kiely",
+        "trainer_id": "trn_364005",
+        "jockey": "Phillip Enright",
+        "jockey_id": "jky_248040",
+        "draw": 0,
+        "number": 10,
+        "lbs": 155,
+        "ofr": "87",
+        "last_run": 34,
+        "form": "080-02",
+        "headgear": "p",
+        "_stored_at": "2026-07-02T04:58:45.137966+00:00"
       }
     ],
     "profile_notes": [],
@@ -474,121 +474,6 @@
       }
     },
     {
-      "horse": "Ballinaboola Gold",
-      "horse_id": "hrs_53328317",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Limerick",
-      "latest_time": "6:58",
-      "latest_race": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 22.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "R Donohoe",
-      "latest_jockey": "Danny Mullins",
-      "latest_draw": 0,
-      "latest_weight_lbs": 149,
-      "official_rating": "81",
-      "recent_form": "008-25",
-      "last_run_days": 36,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "22.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "R Donohoe": 1
-      },
-      "jockeys_seen": {
-        "Danny Mullins": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008126",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "6:58",
-          "off_dt": "2026-07-02T18:58:00+01:00",
-          "race_name": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
-          "distance_f": 22.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Ballinaboola Gold",
-          "horse_id": "hrs_53328317",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "R Donohoe",
-          "trainer_id": "trn_108468",
-          "jockey": "Danny Mullins",
-          "jockey_id": "jky_262572",
-          "draw": 0,
-          "number": 13,
-          "lbs": 149,
-          "ofr": "81",
-          "last_run": 36,
-          "form": "008-25",
-          "headgear": "",
-          "_stored_at": "2026-07-02T04:58:45.235785+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 22.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 22.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
       "horse": "Can't Catch Molly",
       "horse_id": "hrs_58745932",
       "age": 6,
@@ -660,121 +545,6 @@
           "form": "00006-",
           "headgear": "",
           "_stored_at": "2026-07-02T04:58:45.267513+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 22.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 22.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Charlie's Dilemma",
-      "horse_id": "hrs_35813218",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Limerick",
-      "latest_time": "6:58",
-      "latest_race": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 22.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "John C McConnell",
-      "latest_jockey": "Alex Harvey",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "100",
-      "recent_form": "P/78-8",
-      "last_run_days": 37,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "22.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "John C McConnell": 1
-      },
-      "jockeys_seen": {
-        "Alex Harvey": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008126",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "6:58",
-          "off_dt": "2026-07-02T18:58:00+01:00",
-          "race_name": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
-          "distance_f": 22.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Charlie's Dilemma",
-          "horse_id": "hrs_35813218",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "John C McConnell",
-          "trainer_id": "trn_132759",
-          "jockey": "Alex Harvey",
-          "jockey_id": "jky_26976",
-          "draw": 0,
-          "number": 1,
-          "lbs": 168,
-          "ofr": "100",
-          "last_run": 37,
-          "form": "P/78-8",
-          "headgear": "b",
-          "_stored_at": "2026-07-02T04:58:44.916965+00:00"
         }
       ],
       "profile_notes": [],
@@ -1008,238 +778,6 @@
         }
       ],
       "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 22.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 22.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Liss Eile",
-      "horse_id": "hrs_45126060",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "Limerick",
-      "latest_time": "6:58",
-      "latest_race": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 22.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "G Ahern",
-      "latest_jockey": "Sam Ewing",
-      "latest_draw": 0,
-      "latest_weight_lbs": 149,
-      "official_rating": "81",
-      "recent_form": "70P-40",
-      "last_run_days": 27,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "22.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "G Ahern": 1
-      },
-      "jockeys_seen": {
-        "Sam Ewing": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008126",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "6:58",
-          "off_dt": "2026-07-02T18:58:00+01:00",
-          "race_name": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
-          "distance_f": 22.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Liss Eile",
-          "horse_id": "hrs_45126060",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "G Ahern",
-          "trainer_id": "trn_170181",
-          "jockey": "Sam Ewing",
-          "jockey_id": "jky_301095",
-          "draw": 0,
-          "number": 15,
-          "lbs": 149,
-          "ofr": "81",
-          "last_run": 27,
-          "form": "70P-40",
-          "headgear": "p",
-          "_stored_at": "2026-07-02T04:58:45.295760+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 22.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Limerick",
-        "latest_distance_f": 22.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Ocean Murphy",
-      "horse_id": "hrs_57654562",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Limerick",
-      "latest_time": "6:58",
-      "latest_race": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 22.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "P J Rothwell",
-      "latest_jockey": "Darragh O'Keeffe",
-      "latest_draw": 0,
-      "latest_weight_lbs": 157,
-      "official_rating": "94",
-      "recent_form": "0F574-",
-      "last_run_days": 95,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Limerick": 1
-      },
-      "distances_seen": {
-        "22.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "P J Rothwell": 1
-      },
-      "jockeys_seen": {
-        "Darragh O'Keeffe": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008126",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "6:58",
-          "off_dt": "2026-07-02T18:58:00+01:00",
-          "race_name": "Munster Suite At Limerick Races Handicap Hurdle (0-100) (Div 1)",
-          "distance_f": 22.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Ocean Murphy",
-          "horse_id": "hrs_57654562",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "P J Rothwell",
-          "trainer_id": "trn_122130",
-          "jockey": "Darragh O'Keeffe",
-          "jockey_id": "jky_289173",
-          "draw": 0,
-          "number": 8,
-          "lbs": 157,
-          "ofr": "94",
-          "last_run": 95,
-          "form": "0F574-",
-          "headgear": "p",
-          "_stored_at": "2026-07-02T04:58:45.083564+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
       "favourite_course": {
         "value": "Limerick",
         "runs": 1
@@ -1515,6 +1053,6 @@
     "Any Chance is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Can't Catch Molly is flagged as a possible dark horse."
+    "Friends Of Barry is flagged as a possible dark horse."
   ]
 }
