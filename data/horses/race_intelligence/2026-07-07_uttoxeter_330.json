@@ -4,140 +4,15 @@
   "course": "Uttoxeter",
   "time": "3:30",
   "race_name": "CopyBet Pay First Past The Post Handicap Hurdle",
-  "field_size": 5,
-  "average_intelligence": 51.6,
-  "top_score": 57,
-  "second_score": 54,
-  "gap": 3,
-  "confidence_score": 49,
+  "field_size": 4,
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 22,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Huit Reflets",
-    "horse_id": "hrs_24555363",
-    "age": 9,
-    "sex": "gelding",
-    "latest_course": "Uttoxeter",
-    "latest_time": "3:30",
-    "latest_race": "CopyBet Pay First Past The Post Handicap Hurdle",
-    "latest_date": "2026-07-07",
-    "latest_distance_f": 16.0,
-    "latest_class": "Class 5",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Mark Walford",
-    "latest_jockey": "Jamie Hamilton",
-    "latest_draw": 0,
-    "latest_weight_lbs": 157,
-    "official_rating": "87",
-    "recent_form": "3225-9",
-    "last_run_days": 16,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Uttoxeter": 1
-    },
-    "distances_seen": {
-      "16.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 5": 1
-    },
-    "trainers_seen": {
-      "Mark Walford": 1
-    },
-    "jockeys_seen": {
-      "Jamie Hamilton": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 67,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11987677",
-        "course": "Uttoxeter",
-        "date": "2026-07-07",
-        "off_time": "3:30",
-        "off_dt": "2026-07-07T15:30:00+01:00",
-        "race_name": "CopyBet Pay First Past The Post Handicap Hurdle",
-        "distance_f": 16.0,
-        "race_class": "Class 5",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 10,
-        "horse": "Huit Reflets",
-        "horse_id": "hrs_24555363",
-        "age": 9,
-        "sex": "gelding",
-        "trainer": "Mark Walford",
-        "trainer_id": "trn_259884",
-        "jockey": "Jamie Hamilton",
-        "jockey_id": "jky_271551",
-        "draw": 0,
-        "number": 8,
-        "lbs": 157,
-        "ofr": "87",
-        "last_run": 16,
-        "form": "3225-9",
-        "headgear": "p"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Uttoxeter",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 16.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 57,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Uttoxeter",
-      "latest_distance_f": 16.0,
-      "latest_going": "Good",
-      "latest_class": "Class 5",
-      "latest_pulse_score": 67,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Buxted Reel",
     "horse_id": "hrs_25606210",
     "age": 7,
@@ -178,13 +53,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 60,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -199,7 +69,7 @@
         "race_type": "Hurdle",
         "going": "Good",
         "surface": "Turf",
-        "field_size": 10,
+        "field_size": 11,
         "horse": "Buxted Reel",
         "horse_id": "hrs_25606210",
         "age": 7,
@@ -239,7 +109,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 54,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -247,6 +117,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -255,16 +126,16 @@
       "latest_distance_f": 16.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 60,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
-    "horse": "Whatcombe",
-    "horse_id": "hrs_44785895",
-    "age": 4,
+  "main_threat": {
+    "horse": "Network Rgb",
+    "horse_id": "hrs_58596790",
+    "age": 3,
     "sex": "gelding",
     "latest_course": "Uttoxeter",
     "latest_time": "3:30",
@@ -274,13 +145,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Faye Bramley",
-    "latest_jockey": "Ben Poste",
+    "latest_trainer": "Olly Murphy",
+    "latest_jockey": "Sean Bowen",
     "latest_draw": 0,
-    "latest_weight_lbs": 147,
-    "official_rating": "81",
-    "recent_form": "40-5P",
-    "last_run_days": 44,
+    "latest_weight_lbs": 164,
+    "official_rating": "98",
+    "recent_form": "744-",
+    "last_run_days": 198,
     "profile_runs": 1,
     "courses_seen": {
       "Uttoxeter": 1
@@ -295,21 +166,15 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Faye Bramley": 1
+      "Olly Murphy": 1
     },
     "jockeys_seen": {
-      "Ben Poste": 1
+      "Sean Bowen": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 55,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Stable flying +4 (3/3 last 14 days)",
-      "Jockey in form +2 (2/2 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -324,22 +189,144 @@
         "race_type": "Hurdle",
         "going": "Good",
         "surface": "Turf",
-        "field_size": 10,
-        "horse": "Whatcombe",
-        "horse_id": "hrs_44785895",
-        "age": 4,
+        "field_size": 11,
+        "horse": "Network Rgb",
+        "horse_id": "hrs_58596790",
+        "age": 3,
         "sex": "gelding",
-        "trainer": "Faye Bramley",
-        "trainer_id": "trn_380052",
-        "jockey": "Ben Poste",
-        "jockey_id": "jky_264270",
+        "trainer": "Olly Murphy",
+        "trainer_id": "trn_301977",
+        "jockey": "Sean Bowen",
+        "jockey_id": "jky_279558",
         "draw": 0,
-        "number": 11,
-        "lbs": 147,
-        "ofr": "81",
-        "last_run": 44,
-        "form": "40-5P",
+        "number": 4,
+        "lbs": 164,
+        "ofr": "98",
+        "last_run": 198,
+        "form": "744-",
         "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Returning from a break"
+    ],
+    "favourite_course": {
+      "value": "Uttoxeter",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 16.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Uttoxeter",
+      "latest_distance_f": 16.0,
+      "latest_going": "Good",
+      "latest_class": "Class 5",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Tara Iti",
+    "horse_id": "hrs_22381555",
+    "age": 8,
+    "sex": "gelding",
+    "latest_course": "Uttoxeter",
+    "latest_time": "3:30",
+    "latest_race": "CopyBet Pay First Past The Post Handicap Hurdle",
+    "latest_date": "2026-07-07",
+    "latest_distance_f": 16.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Barry Brennan",
+    "latest_jockey": "James Best",
+    "latest_draw": 0,
+    "latest_weight_lbs": 160,
+    "official_rating": "90",
+    "recent_form": "656P-7",
+    "last_run_days": 20,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Uttoxeter": 1
+    },
+    "distances_seen": {
+      "16.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 5": 1
+    },
+    "trainers_seen": {
+      "Barry Brennan": 1
+    },
+    "jockeys_seen": {
+      "James Best": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11987677",
+        "course": "Uttoxeter",
+        "date": "2026-07-07",
+        "off_time": "3:30",
+        "off_dt": "2026-07-07T15:30:00+01:00",
+        "race_name": "CopyBet Pay First Past The Post Handicap Hurdle",
+        "distance_f": 16.0,
+        "race_class": "Class 5",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 11,
+        "horse": "Tara Iti",
+        "horse_id": "hrs_22381555",
+        "age": 8,
+        "sex": "gelding",
+        "trainer": "Barry Brennan",
+        "trainer_id": "trn_70668",
+        "jockey": "James Best",
+        "jockey_id": "jky_273690",
+        "draw": 0,
+        "number": 6,
+        "lbs": 160,
+        "ofr": "90",
+        "last_run": 20,
+        "form": "656P-7",
+        "headgear": "v"
       }
     ],
     "profile_notes": [],
@@ -364,7 +351,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 52,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -372,6 +359,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -380,138 +368,13 @@
       "latest_distance_f": 16.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": 55,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Huit Reflets",
-      "horse_id": "hrs_24555363",
-      "age": 9,
-      "sex": "gelding",
-      "latest_course": "Uttoxeter",
-      "latest_time": "3:30",
-      "latest_race": "CopyBet Pay First Past The Post Handicap Hurdle",
-      "latest_date": "2026-07-07",
-      "latest_distance_f": 16.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mark Walford",
-      "latest_jockey": "Jamie Hamilton",
-      "latest_draw": 0,
-      "latest_weight_lbs": 157,
-      "official_rating": "87",
-      "recent_form": "3225-9",
-      "last_run_days": 16,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Uttoxeter": 1
-      },
-      "distances_seen": {
-        "16.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Mark Walford": 1
-      },
-      "jockeys_seen": {
-        "Jamie Hamilton": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 67,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987677",
-          "course": "Uttoxeter",
-          "date": "2026-07-07",
-          "off_time": "3:30",
-          "off_dt": "2026-07-07T15:30:00+01:00",
-          "race_name": "CopyBet Pay First Past The Post Handicap Hurdle",
-          "distance_f": 16.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Huit Reflets",
-          "horse_id": "hrs_24555363",
-          "age": 9,
-          "sex": "gelding",
-          "trainer": "Mark Walford",
-          "trainer_id": "trn_259884",
-          "jockey": "Jamie Hamilton",
-          "jockey_id": "jky_271551",
-          "draw": 0,
-          "number": 8,
-          "lbs": 157,
-          "ofr": "87",
-          "last_run": 16,
-          "form": "3225-9",
-          "headgear": "p"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Uttoxeter",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 57,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Uttoxeter",
-        "latest_distance_f": 16.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 67,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Buxted Reel",
       "horse_id": "hrs_25606210",
@@ -553,13 +416,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -574,7 +432,7 @@
           "race_type": "Hurdle",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 11,
           "horse": "Buxted Reel",
           "horse_id": "hrs_25606210",
           "age": 7,
@@ -614,7 +472,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -622,6 +480,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -630,257 +489,7 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 60,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Whatcombe",
-      "horse_id": "hrs_44785895",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Uttoxeter",
-      "latest_time": "3:30",
-      "latest_race": "CopyBet Pay First Past The Post Handicap Hurdle",
-      "latest_date": "2026-07-07",
-      "latest_distance_f": 16.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Faye Bramley",
-      "latest_jockey": "Ben Poste",
-      "latest_draw": 0,
-      "latest_weight_lbs": 147,
-      "official_rating": "81",
-      "recent_form": "40-5P",
-      "last_run_days": 44,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Uttoxeter": 1
-      },
-      "distances_seen": {
-        "16.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Faye Bramley": 1
-      },
-      "jockeys_seen": {
-        "Ben Poste": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Stable flying +4 (3/3 last 14 days)",
-        "Jockey in form +2 (2/2 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987677",
-          "course": "Uttoxeter",
-          "date": "2026-07-07",
-          "off_time": "3:30",
-          "off_dt": "2026-07-07T15:30:00+01:00",
-          "race_name": "CopyBet Pay First Past The Post Handicap Hurdle",
-          "distance_f": 16.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Whatcombe",
-          "horse_id": "hrs_44785895",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Faye Bramley",
-          "trainer_id": "trn_380052",
-          "jockey": "Ben Poste",
-          "jockey_id": "jky_264270",
-          "draw": 0,
-          "number": 11,
-          "lbs": 147,
-          "ofr": "81",
-          "last_run": 44,
-          "form": "40-5P",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Uttoxeter",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Uttoxeter",
-        "latest_distance_f": 16.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 55,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Tara Iti",
-      "horse_id": "hrs_22381555",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Uttoxeter",
-      "latest_time": "3:30",
-      "latest_race": "CopyBet Pay First Past The Post Handicap Hurdle",
-      "latest_date": "2026-07-07",
-      "latest_distance_f": 16.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Barry Brennan",
-      "latest_jockey": "James Best",
-      "latest_draw": 0,
-      "latest_weight_lbs": 160,
-      "official_rating": "90",
-      "recent_form": "656P-7",
-      "last_run_days": 20,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Uttoxeter": 1
-      },
-      "distances_seen": {
-        "16.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Barry Brennan": 1
-      },
-      "jockeys_seen": {
-        "James Best": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Stable flying +4 (3/3 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987677",
-          "course": "Uttoxeter",
-          "date": "2026-07-07",
-          "off_time": "3:30",
-          "off_dt": "2026-07-07T15:30:00+01:00",
-          "race_name": "CopyBet Pay First Past The Post Handicap Hurdle",
-          "distance_f": 16.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Tara Iti",
-          "horse_id": "hrs_22381555",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Barry Brennan",
-          "trainer_id": "trn_70668",
-          "jockey": "James Best",
-          "jockey_id": "jky_273690",
-          "draw": 0,
-          "number": 6,
-          "lbs": 160,
-          "ofr": "90",
-          "last_run": 20,
-          "form": "656P-7",
-          "headgear": "v"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Uttoxeter",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Uttoxeter",
-        "latest_distance_f": 16.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 54,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -927,14 +536,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 37,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw",
-        "Jockey flying +4 (3/9 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -949,7 +552,7 @@
           "race_type": "Hurdle",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 10,
+          "field_size": 11,
           "horse": "Network Rgb",
           "horse_id": "hrs_58596790",
           "age": 3,
@@ -991,7 +594,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 44,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1008,7 +611,247 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": 37,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Tara Iti",
+      "horse_id": "hrs_22381555",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Uttoxeter",
+      "latest_time": "3:30",
+      "latest_race": "CopyBet Pay First Past The Post Handicap Hurdle",
+      "latest_date": "2026-07-07",
+      "latest_distance_f": 16.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Barry Brennan",
+      "latest_jockey": "James Best",
+      "latest_draw": 0,
+      "latest_weight_lbs": 160,
+      "official_rating": "90",
+      "recent_form": "656P-7",
+      "last_run_days": 20,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Uttoxeter": 1
+      },
+      "distances_seen": {
+        "16.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Barry Brennan": 1
+      },
+      "jockeys_seen": {
+        "James Best": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987677",
+          "course": "Uttoxeter",
+          "date": "2026-07-07",
+          "off_time": "3:30",
+          "off_dt": "2026-07-07T15:30:00+01:00",
+          "race_name": "CopyBet Pay First Past The Post Handicap Hurdle",
+          "distance_f": 16.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Tara Iti",
+          "horse_id": "hrs_22381555",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Barry Brennan",
+          "trainer_id": "trn_70668",
+          "jockey": "James Best",
+          "jockey_id": "jky_273690",
+          "draw": 0,
+          "number": 6,
+          "lbs": 160,
+          "ofr": "90",
+          "last_run": 20,
+          "form": "656P-7",
+          "headgear": "v"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Uttoxeter",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Uttoxeter",
+        "latest_distance_f": 16.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Whatcombe",
+      "horse_id": "hrs_44785895",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Uttoxeter",
+      "latest_time": "3:30",
+      "latest_race": "CopyBet Pay First Past The Post Handicap Hurdle",
+      "latest_date": "2026-07-07",
+      "latest_distance_f": 16.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Faye Bramley",
+      "latest_jockey": "Ben Poste",
+      "latest_draw": 0,
+      "latest_weight_lbs": 147,
+      "official_rating": "81",
+      "recent_form": "40-5P",
+      "last_run_days": 44,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Uttoxeter": 1
+      },
+      "distances_seen": {
+        "16.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Faye Bramley": 1
+      },
+      "jockeys_seen": {
+        "Ben Poste": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987677",
+          "course": "Uttoxeter",
+          "date": "2026-07-07",
+          "off_time": "3:30",
+          "off_dt": "2026-07-07T15:30:00+01:00",
+          "race_name": "CopyBet Pay First Past The Post Handicap Hurdle",
+          "distance_f": 16.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Whatcombe",
+          "horse_id": "hrs_44785895",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Faye Bramley",
+          "trainer_id": "trn_380052",
+          "jockey": "Ben Poste",
+          "jockey_id": "jky_264270",
+          "draw": 0,
+          "number": 11,
+          "lbs": 147,
+          "ofr": "81",
+          "last_run": 44,
+          "form": "40-5P",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Uttoxeter",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Uttoxeter",
+        "latest_distance_f": 16.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1016,8 +859,9 @@
     }
   ],
   "notes": [
-    "Huit Reflets is the top-rated Pulse IQ runner.",
+    "Buxted Reel is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Whatcombe is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Tara Iti is flagged as a possible dark horse."
   ]
 }

@@ -4,7 +4,7 @@
   "course": "Windsor",
   "time": "7:15",
   "race_name": "Sporting Times Sri Lanka British Stallion Studs EBF Novice Stakes (GBB/GBBPlus Race)",
-  "field_size": 2,
+  "field_size": 3,
   "average_intelligence": 27.0,
   "top_score": 27,
   "second_score": 27,
@@ -13,6 +13,160 @@
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Gonna Fly",
+    "horse_id": "hrs_58033612",
+    "age": 3,
+    "sex": "colt",
+    "latest_course": "Windsor",
+    "latest_time": "7:15",
+    "latest_race": "Sporting Times Sri Lanka British Stallion Studs EBF Novice Stakes (GBB/GBBPlus Race)",
+    "latest_date": "2026-06-27",
+    "latest_distance_f": 10.0,
+    "latest_class": "Class 3",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Ralph Beckett",
+    "latest_jockey": "Rossa Ryan",
+    "latest_draw": 3,
+    "latest_weight_lbs": 137,
+    "official_rating": "90",
+    "recent_form": "1-8",
+    "last_run_days": 70,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Windsor": 2
+    },
+    "distances_seen": {
+      "10.0": 2
+    },
+    "goings_seen": {
+      "Good To Firm": 2
+    },
+    "classes_seen": {
+      "Class 3": 2
+    },
+    "trainers_seen": {
+      "Ralph Beckett": 2
+    },
+    "jockeys_seen": {
+      "Rossa Ryan": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977953",
+        "course": "Windsor",
+        "date": "2026-06-27",
+        "off_time": "7:15",
+        "off_dt": "2026-06-27T19:15:00+01:00",
+        "race_name": "Sporting Times Sri Lanka British Stallion Studs EBF Novice Stakes (GBB/GBBPlus Race)",
+        "distance_f": 10.0,
+        "race_class": "Class 3",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 4,
+        "horse": "Gonna Fly",
+        "horse_id": "hrs_58033612",
+        "age": 3,
+        "sex": "colt",
+        "trainer": "Ralph Beckett",
+        "trainer_id": "trn_125253",
+        "jockey": "Rossa Ryan",
+        "jockey_id": "jky_287232",
+        "draw": 3,
+        "number": 2,
+        "lbs": 137,
+        "ofr": "90",
+        "last_run": 70,
+        "form": "1-8",
+        "headgear": "",
+        "_stored_at": "2026-06-27T10:06:20.553374+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11977953",
+        "course": "Windsor",
+        "date": "2026-06-27",
+        "off_time": "7:15",
+        "off_dt": "2026-06-27T19:15:00+01:00",
+        "race_name": "Sporting Times Sri Lanka British Stallion Studs EBF Novice Stakes (GBB/GBBPlus Race)",
+        "distance_f": 10.0,
+        "race_class": "Class 3",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 4,
+        "horse": "Gonna Fly",
+        "horse_id": "hrs_58033612",
+        "age": 3,
+        "sex": "colt",
+        "trainer": "Ralph Beckett",
+        "trainer_id": "trn_125253",
+        "jockey": "Rossa Ryan",
+        "jockey_id": "jky_287232",
+        "draw": 3,
+        "number": 2,
+        "lbs": 137,
+        "ofr": "90",
+        "last_run": 70,
+        "form": "1-8",
+        "headgear": "",
+        "_stored_at": "2026-06-28T12:42:48.133381+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Windsor",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 10.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 3",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Windsor",
+      "latest_distance_f": 10.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 3",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "main_threat": {
     "horse": "Peace And Quiet",
     "horse_id": "hrs_64812986",
     "age": 4,
@@ -164,7 +318,7 @@
       "runs_count": 2
     }
   },
-  "main_threat": {
+  "dark_horse": {
     "horse": "Ruler Of Time",
     "horse_id": "hrs_54933711",
     "age": 3,
@@ -318,8 +472,161 @@
       "runs_count": 2
     }
   },
-  "dark_horse": null,
   "runners": [
+    {
+      "horse": "Gonna Fly",
+      "horse_id": "hrs_58033612",
+      "age": 3,
+      "sex": "colt",
+      "latest_course": "Windsor",
+      "latest_time": "7:15",
+      "latest_race": "Sporting Times Sri Lanka British Stallion Studs EBF Novice Stakes (GBB/GBBPlus Race)",
+      "latest_date": "2026-06-27",
+      "latest_distance_f": 10.0,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ralph Beckett",
+      "latest_jockey": "Rossa Ryan",
+      "latest_draw": 3,
+      "latest_weight_lbs": 137,
+      "official_rating": "90",
+      "recent_form": "1-8",
+      "last_run_days": 70,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Windsor": 2
+      },
+      "distances_seen": {
+        "10.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {
+        "Class 3": 2
+      },
+      "trainers_seen": {
+        "Ralph Beckett": 2
+      },
+      "jockeys_seen": {
+        "Rossa Ryan": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977953",
+          "course": "Windsor",
+          "date": "2026-06-27",
+          "off_time": "7:15",
+          "off_dt": "2026-06-27T19:15:00+01:00",
+          "race_name": "Sporting Times Sri Lanka British Stallion Studs EBF Novice Stakes (GBB/GBBPlus Race)",
+          "distance_f": 10.0,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 4,
+          "horse": "Gonna Fly",
+          "horse_id": "hrs_58033612",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Ralph Beckett",
+          "trainer_id": "trn_125253",
+          "jockey": "Rossa Ryan",
+          "jockey_id": "jky_287232",
+          "draw": 3,
+          "number": 2,
+          "lbs": 137,
+          "ofr": "90",
+          "last_run": 70,
+          "form": "1-8",
+          "headgear": "",
+          "_stored_at": "2026-06-27T10:06:20.553374+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11977953",
+          "course": "Windsor",
+          "date": "2026-06-27",
+          "off_time": "7:15",
+          "off_dt": "2026-06-27T19:15:00+01:00",
+          "race_name": "Sporting Times Sri Lanka British Stallion Studs EBF Novice Stakes (GBB/GBBPlus Race)",
+          "distance_f": 10.0,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 4,
+          "horse": "Gonna Fly",
+          "horse_id": "hrs_58033612",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Ralph Beckett",
+          "trainer_id": "trn_125253",
+          "jockey": "Rossa Ryan",
+          "jockey_id": "jky_287232",
+          "draw": 3,
+          "number": 2,
+          "lbs": 137,
+          "ofr": "90",
+          "last_run": 70,
+          "form": "1-8",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:48.133381+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Windsor",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 10.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Windsor",
+        "latest_distance_f": 10.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
     {
       "horse": "Peace And Quiet",
       "horse_id": "hrs_64812986",
@@ -628,8 +935,9 @@
     }
   ],
   "notes": [
-    "Peace And Quiet is the top-rated Pulse IQ runner.",
+    "Gonna Fly is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength."
+    "This race has a generally weak profile strength.",
+    "Ruler Of Time is flagged as a possible dark horse."
   ]
 }

@@ -1,29 +1,145 @@
 {
-  "race_id": "Breakaway Handicap",
+  "race_id": "Breakaway Handicap (Class 3) (Course B) (Turf)",
   "date": "2026-07-08",
   "course": "Happy Valley",
   "time": "2:45",
-  "race_name": "Breakaway Handicap",
+  "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
   "field_size": 12,
-  "average_intelligence": 47.25,
-  "top_score": 58,
-  "second_score": 52,
-  "gap": 6,
-  "confidence_score": 53,
+  "average_intelligence": 22.75,
+  "top_score": 24,
+  "second_score": 24,
+  "gap": 0,
+  "confidence_score": 19,
   "confidence": "LOW",
-  "race_shape": "COMPETITIVE EDGE",
+  "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Blue Illusion",
+    "horse_id": "hrs_37489382",
+    "age": 4,
+    "sex": "gelding",
+    "latest_course": "Happy Valley",
+    "latest_time": "2:45",
+    "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
+    "latest_date": "2026-07-08",
+    "latest_distance_f": 5.0,
+    "latest_class": "",
+    "latest_going": "Good To Yielding",
+    "latest_surface": "Turf",
+    "latest_trainer": "P C Ng",
+    "latest_jockey": "Richard Kingscote",
+    "latest_draw": 6,
+    "latest_weight_lbs": 118,
+    "official_rating": "60",
+    "recent_form": "899909",
+    "last_run_days": 14,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Happy Valley": 1
+    },
+    "distances_seen": {
+      "5.0": 1
+    },
+    "goings_seen": {
+      "Good To Yielding": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "P C Ng": 1
+    },
+    "jockeys_seen": {
+      "Richard Kingscote": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12017616",
+        "course": "Happy Valley",
+        "date": "2026-07-08",
+        "off_time": "2:45",
+        "off_dt": "2026-07-08T14:45:00+01:00",
+        "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
+        "distance_f": 5.0,
+        "race_class": "",
+        "race_type": "Flat",
+        "going": "Good To Yielding",
+        "surface": "Turf",
+        "field_size": 12,
+        "horse": "Blue Illusion",
+        "horse_id": "hrs_37489382",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "P C Ng",
+        "trainer_id": "trn_357858",
+        "jockey": "Richard Kingscote",
+        "jockey_id": "jky_250662",
+        "draw": 6,
+        "number": 12,
+        "lbs": 118,
+        "ofr": "60",
+        "last_run": 14,
+        "form": "899909",
+        "headgear": "tb"
+      }
+    ],
+    "profile_notes": [
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Happy Valley",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 5.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Yielding",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 24,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Happy Valley",
+      "latest_distance_f": 5.0,
+      "latest_going": "Good To Yielding",
+      "latest_class": "",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Bunta Baby",
     "horse_id": "hrs_46514930",
     "age": 5,
     "sex": "gelding",
     "latest_course": "Happy Valley",
     "latest_time": "2:45",
-    "latest_race": "Breakaway Handicap",
+    "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
     "latest_date": "2026-07-08",
     "latest_distance_f": 5.0,
     "latest_class": "",
-    "latest_going": "Good",
+    "latest_going": "Good To Yielding",
     "latest_surface": "Turf",
     "latest_trainer": "K L Man",
     "latest_jockey": "Zac Purton",
@@ -40,7 +156,7 @@
       "5.0": 1
     },
     "goings_seen": {
-      "Good": 1
+      "Good To Yielding": 1
     },
     "classes_seen": {},
     "trainers_seen": {
@@ -51,13 +167,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 76,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Jockey flying +4 (6/15 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -66,11 +177,11 @@
         "date": "2026-07-08",
         "off_time": "2:45",
         "off_dt": "2026-07-08T14:45:00+01:00",
-        "race_name": "Breakaway Handicap",
+        "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
         "distance_f": 5.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "Good To Yielding",
         "surface": "Turf",
         "field_size": 12,
         "horse": "Bunta Baby",
@@ -102,7 +213,7 @@
       "runs": 1
     },
     "favourite_going": {
-      "value": "Good",
+      "value": "Good To Yielding",
       "runs": 1
     },
     "favourite_class": null,
@@ -111,165 +222,48 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 58,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Happy Valley",
-      "latest_distance_f": 5.0,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": 76,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Candlelight Dinner",
-    "horse_id": "hrs_39959871",
-    "age": 5,
-    "sex": "gelding",
-    "latest_course": "Happy Valley",
-    "latest_time": "2:45",
-    "latest_race": "Breakaway Handicap",
-    "latest_date": "2026-07-08",
-    "latest_distance_f": 5.0,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Y S Tsui",
-    "latest_jockey": "Jerry Chau(2)",
-    "latest_draw": 7,
-    "latest_weight_lbs": 135,
-    "official_rating": "77",
-    "recent_form": "103443",
-    "last_run_days": 42,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Happy Valley": 1
-    },
-    "distances_seen": {
-      "5.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Y S Tsui": 1
-    },
-    "jockeys_seen": {
-      "Jerry Chau(2)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 62,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Jockey flying +4 (3/6 last 14 days)"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12017616",
-        "course": "Happy Valley",
-        "date": "2026-07-08",
-        "off_time": "2:45",
-        "off_dt": "2026-07-08T14:45:00+01:00",
-        "race_name": "Breakaway Handicap",
-        "distance_f": 5.0,
-        "race_class": "",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 12,
-        "horse": "Candlelight Dinner",
-        "horse_id": "hrs_39959871",
-        "age": 5,
-        "sex": "gelding",
-        "trainer": "Y S Tsui",
-        "trainer_id": "trn_161982",
-        "jockey": "Jerry Chau(2)",
-        "jockey_id": "jky_297369",
-        "draw": 7,
-        "number": 1,
-        "lbs": 135,
-        "ofr": "77",
-        "last_run": 42,
-        "form": "103443",
-        "headgear": "h"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Happy Valley",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 5.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 52,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Happy Valley",
       "latest_distance_f": 5.0,
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_class": "",
-      "latest_pulse_score": 62,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Robot Lucky Star",
-    "horse_id": "hrs_54399212",
+    "horse": "California Blitz",
+    "horse_id": "hrs_48323079",
     "age": 4,
     "sex": "gelding",
     "latest_course": "Happy Valley",
     "latest_time": "2:45",
-    "latest_race": "Breakaway Handicap",
+    "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
     "latest_date": "2026-07-08",
     "latest_distance_f": 5.0,
     "latest_class": "",
-    "latest_going": "Good",
+    "latest_going": "Good To Yielding",
     "latest_surface": "Turf",
-    "latest_trainer": "Mark Newnham",
-    "latest_jockey": "Angus Chung(2)",
-    "latest_draw": 3,
-    "latest_weight_lbs": 119,
-    "official_rating": "61",
-    "recent_form": "22-845",
-    "last_run_days": 14,
+    "latest_trainer": "W K Mo",
+    "latest_jockey": "Matthew Chadwick",
+    "latest_draw": 2,
+    "latest_weight_lbs": 123,
+    "official_rating": "65",
+    "recent_form": "1-3238",
+    "last_run_days": 105,
     "profile_runs": 1,
     "courses_seen": {
       "Happy Valley": 1
@@ -278,24 +272,19 @@
       "5.0": 1
     },
     "goings_seen": {
-      "Good": 1
+      "Good To Yielding": 1
     },
     "classes_seen": {},
     "trainers_seen": {
-      "Mark Newnham": 1
+      "W K Mo": 1
     },
     "jockeys_seen": {
-      "Angus Chung(2)": 1
+      "Matthew Chadwick": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 62,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -304,33 +293,33 @@
         "date": "2026-07-08",
         "off_time": "2:45",
         "off_dt": "2026-07-08T14:45:00+01:00",
-        "race_name": "Breakaway Handicap",
+        "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
         "distance_f": 5.0,
         "race_class": "",
         "race_type": "Flat",
-        "going": "Good",
+        "going": "Good To Yielding",
         "surface": "Turf",
         "field_size": 12,
-        "horse": "Robot Lucky Star",
-        "horse_id": "hrs_54399212",
+        "horse": "California Blitz",
+        "horse_id": "hrs_48323079",
         "age": 4,
         "sex": "gelding",
-        "trainer": "Mark Newnham",
-        "trainer_id": "trn_290223",
-        "jockey": "Angus Chung(2)",
-        "jockey_id": "jky_304404",
-        "draw": 3,
-        "number": 11,
-        "lbs": 119,
-        "ofr": "61",
-        "last_run": 14,
-        "form": "22-845",
-        "headgear": ""
+        "trainer": "W K Mo",
+        "trainer_id": "trn_366579",
+        "jockey": "Matthew Chadwick",
+        "jockey_id": "jky_265302",
+        "draw": 2,
+        "number": 5,
+        "lbs": 123,
+        "ofr": "65",
+        "last_run": 105,
+        "form": "1-3238",
+        "headgear": "tb"
       }
     ],
     "profile_notes": [
       "Low draw today",
-      "Recent run timing"
+      "Returning from a break"
     ],
     "favourite_course": {
       "value": "Happy Valley",
@@ -341,7 +330,7 @@
       "runs": 1
     },
     "favourite_going": {
-      "value": "Good",
+      "value": "Good To Yielding",
       "runs": 1
     },
     "favourite_class": null,
@@ -350,22 +339,23 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 52,
+    "horse_intelligence_score": 24,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Happy Valley",
       "latest_distance_f": 5.0,
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_class": "",
-      "latest_pulse_score": 62,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -373,17 +363,133 @@
   },
   "runners": [
     {
+      "horse": "Blue Illusion",
+      "horse_id": "hrs_37489382",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Happy Valley",
+      "latest_time": "2:45",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 5.0,
+      "latest_class": "",
+      "latest_going": "Good To Yielding",
+      "latest_surface": "Turf",
+      "latest_trainer": "P C Ng",
+      "latest_jockey": "Richard Kingscote",
+      "latest_draw": 6,
+      "latest_weight_lbs": 118,
+      "official_rating": "60",
+      "recent_form": "899909",
+      "last_run_days": 14,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Happy Valley": 1
+      },
+      "distances_seen": {
+        "5.0": 1
+      },
+      "goings_seen": {
+        "Good To Yielding": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "P C Ng": 1
+      },
+      "jockeys_seen": {
+        "Richard Kingscote": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12017616",
+          "course": "Happy Valley",
+          "date": "2026-07-08",
+          "off_time": "2:45",
+          "off_dt": "2026-07-08T14:45:00+01:00",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
+          "distance_f": 5.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Yielding",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Blue Illusion",
+          "horse_id": "hrs_37489382",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "P C Ng",
+          "trainer_id": "trn_357858",
+          "jockey": "Richard Kingscote",
+          "jockey_id": "jky_250662",
+          "draw": 6,
+          "number": 12,
+          "lbs": 118,
+          "ofr": "60",
+          "last_run": 14,
+          "form": "899909",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Happy Valley",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Yielding",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Happy Valley",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good To Yielding",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
       "horse": "Bunta Baby",
       "horse_id": "hrs_46514930",
       "age": 5,
       "sex": "gelding",
       "latest_course": "Happy Valley",
       "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
       "latest_date": "2026-07-08",
       "latest_distance_f": 5.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "K L Man",
       "latest_jockey": "Zac Purton",
@@ -400,7 +506,7 @@
         "5.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -411,13 +517,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 76,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey flying +4 (6/15 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -426,11 +527,11 @@
           "date": "2026-07-08",
           "off_time": "2:45",
           "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
           "distance_f": 5.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Bunta Baby",
@@ -462,7 +563,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -471,261 +572,23 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 58,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Happy Valley",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 76,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Candlelight Dinner",
-      "horse_id": "hrs_39959871",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Happy Valley",
-      "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
-      "latest_date": "2026-07-08",
-      "latest_distance_f": 5.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Y S Tsui",
-      "latest_jockey": "Jerry Chau(2)",
-      "latest_draw": 7,
-      "latest_weight_lbs": 135,
-      "official_rating": "77",
-      "recent_form": "103443",
-      "last_run_days": 42,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Happy Valley": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Y S Tsui": 1
-      },
-      "jockeys_seen": {
-        "Jerry Chau(2)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 62,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Jockey flying +4 (3/6 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12017616",
-          "course": "Happy Valley",
-          "date": "2026-07-08",
-          "off_time": "2:45",
-          "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
-          "distance_f": 5.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Candlelight Dinner",
-          "horse_id": "hrs_39959871",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Y S Tsui",
-          "trainer_id": "trn_161982",
-          "jockey": "Jerry Chau(2)",
-          "jockey_id": "jky_297369",
-          "draw": 7,
-          "number": 1,
-          "lbs": 135,
-          "ofr": "77",
-          "last_run": 42,
-          "form": "103443",
-          "headgear": "h"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Happy Valley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Happy Valley",
         "latest_distance_f": 5.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
-        "latest_pulse_score": 62,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Robot Lucky Star",
-      "horse_id": "hrs_54399212",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Happy Valley",
-      "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
-      "latest_date": "2026-07-08",
-      "latest_distance_f": 5.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Mark Newnham",
-      "latest_jockey": "Angus Chung(2)",
-      "latest_draw": 3,
-      "latest_weight_lbs": 119,
-      "official_rating": "61",
-      "recent_form": "22-845",
-      "last_run_days": 14,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Happy Valley": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Mark Newnham": 1
-      },
-      "jockeys_seen": {
-        "Angus Chung(2)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 62,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12017616",
-          "course": "Happy Valley",
-          "date": "2026-07-08",
-          "off_time": "2:45",
-          "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
-          "distance_f": 5.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Robot Lucky Star",
-          "horse_id": "hrs_54399212",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Mark Newnham",
-          "trainer_id": "trn_290223",
-          "jockey": "Angus Chung(2)",
-          "jockey_id": "jky_304404",
-          "draw": 3,
-          "number": 11,
-          "lbs": 119,
-          "ofr": "61",
-          "last_run": 14,
-          "form": "22-845",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Happy Valley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 52,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Happy Valley",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 62,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -738,11 +601,11 @@
       "sex": "gelding",
       "latest_course": "Happy Valley",
       "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
       "latest_date": "2026-07-08",
       "latest_distance_f": 5.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "W K Mo",
       "latest_jockey": "Matthew Chadwick",
@@ -759,7 +622,7 @@
         "5.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -770,11 +633,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 58,
-      "latest_notes": [
-        "Strong recent form",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -783,11 +643,11 @@
           "date": "2026-07-08",
           "off_time": "2:45",
           "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
           "distance_f": 5.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "California Blitz",
@@ -820,7 +680,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -829,110 +689,70 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 50,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Happy Valley",
         "latest_distance_f": 5.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
-        "latest_pulse_score": 58,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Dancing Classics",
-      "horse_id": "hrs_52741458",
+      "horse": "Candlelight Dinner",
+      "horse_id": "hrs_39959871",
       "age": 5,
       "sex": "gelding",
       "latest_course": "Happy Valley",
       "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
       "latest_date": "2026-07-08",
       "latest_distance_f": 5.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
-      "latest_trainer": "C Fownes",
-      "latest_jockey": "Joao Moreira",
-      "latest_draw": 10,
-      "latest_weight_lbs": 121,
-      "official_rating": "63",
-      "recent_form": "810-80",
-      "last_run_days": 7,
-      "profile_runs": 2,
+      "latest_trainer": "Y S Tsui",
+      "latest_jockey": "Jerry Chau(2)",
+      "latest_draw": 7,
+      "latest_weight_lbs": 135,
+      "official_rating": "77",
+      "recent_form": "103443",
+      "last_run_days": 42,
+      "profile_runs": 1,
       "courses_seen": {
-        "Sha Tin": 1,
         "Happy Valley": 1
       },
       "distances_seen": {
-        "5.0": 2
+        "5.0": 1
       },
       "goings_seen": {
-        "Good": 2
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
-        "C Fownes": 2
+        "Y S Tsui": 1
       },
       "jockeys_seen": {
-        "C Y Ho": 1,
-        "Joao Moreira": 1
+        "Jerry Chau(2)": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 61,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Trainer bonus +2",
-        "Jockey bonus +2",
-        "Jockey in form +2 (1/1 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009335",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "12:05",
-          "off_dt": "2026-07-01T12:05:00+01:00",
-          "race_name": "The Guangdong-Hong Kong Cup (Handicap) (Class 3) (Course C) (Turf)",
-          "distance_f": 5.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Dancing Classics",
-          "horse_id": "hrs_52741458",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "C Fownes",
-          "trainer_id": "trn_144855",
-          "jockey": "C Y Ho",
-          "jockey_id": "jky_272061",
-          "draw": 2,
-          "number": 10,
-          "lbs": 119,
-          "ofr": "64",
-          "last_run": 28,
-          "form": "7810-8",
-          "headgear": "t",
-          "_stored_at": "2026-06-30T23:10:45.640269+00:00"
-        },
         {
           "source": "the_racing_api",
           "race_id": "rac_12017616",
@@ -940,151 +760,113 @@
           "date": "2026-07-08",
           "off_time": "2:45",
           "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
           "distance_f": 5.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
-          "horse": "Dancing Classics",
-          "horse_id": "hrs_52741458",
+          "horse": "Candlelight Dinner",
+          "horse_id": "hrs_39959871",
           "age": 5,
           "sex": "gelding",
-          "trainer": "C Fownes",
-          "trainer_id": "trn_144855",
-          "jockey": "Joao Moreira",
-          "jockey_id": "jky_254763",
-          "draw": 10,
-          "number": 8,
-          "lbs": 121,
-          "ofr": "63",
-          "last_run": 7,
-          "form": "810-80",
-          "headgear": "tb"
+          "trainer": "Y S Tsui",
+          "trainer_id": "trn_161982",
+          "jockey": "Jerry Chau(2)",
+          "jockey_id": "jky_297369",
+          "draw": 7,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "77",
+          "last_run": 42,
+          "form": "103443",
+          "headgear": "h"
         }
       ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
+      "profile_notes": [],
       "favourite_course": {
-        "value": "Sha Tin",
+        "value": "Happy Valley",
         "runs": 1
       },
       "favourite_distance": {
         "value": 5.0,
-        "runs": 2
+        "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
-        "runs": 2
+        "value": "Good To Yielding",
+        "runs": 1
       },
       "favourite_class": null,
-      "course_suitability_score": 55,
+      "course_suitability_score": 90,
       "distance_suitability_score": 90,
       "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 71,
-      "horse_intelligence_score": 49,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
+        "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Happy Valley",
         "latest_distance_f": 5.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
-        "latest_pulse_score": 61,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 1,
+        "runs_count": 1
       }
     },
     {
-      "horse": "Parents' Love",
-      "horse_id": "hrs_37920701",
+      "horse": "Casa Of Honor",
+      "horse_id": "hrs_51765917",
       "age": 5,
       "sex": "gelding",
       "latest_course": "Happy Valley",
       "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
       "latest_date": "2026-07-08",
       "latest_distance_f": 5.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
-      "latest_trainer": "A S Cruz",
-      "latest_jockey": "Britney Wong(7)",
-      "latest_draw": 5,
-      "latest_weight_lbs": 120,
-      "official_rating": "62",
-      "recent_form": "801506",
-      "last_run_days": 7,
-      "profile_runs": 2,
+      "latest_trainer": "C W Chang",
+      "latest_jockey": "Matthew Poon",
+      "latest_draw": 4,
+      "latest_weight_lbs": 125,
+      "official_rating": "67",
+      "recent_form": "-06018",
+      "last_run_days": 42,
+      "profile_runs": 1,
       "courses_seen": {
-        "Sha Tin": 1,
         "Happy Valley": 1
       },
       "distances_seen": {
-        "5.0": 2
+        "5.0": 1
       },
       "goings_seen": {
-        "Good": 2
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
-        "A S Cruz": 2
+        "C W Chang": 1
       },
       "jockeys_seen": {
-        "Britney Wong(7)": 2
+        "Matthew Poon": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 57,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Trainer bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009335",
-          "course": "Sha Tin",
-          "date": "2026-07-01",
-          "off_time": "12:05",
-          "off_dt": "2026-07-01T12:05:00+01:00",
-          "race_name": "The Guangdong-Hong Kong Cup (Handicap) (Class 3) (Course C) (Turf)",
-          "distance_f": 5.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 14,
-          "horse": "Parents' Love",
-          "horse_id": "hrs_37920701",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "A S Cruz",
-          "trainer_id": "trn_114903",
-          "jockey": "Britney Wong(7)",
-          "jockey_id": "jky_309648",
-          "draw": 8,
-          "number": 14,
-          "lbs": 118,
-          "ofr": "63",
-          "last_run": 24,
-          "form": "780150",
-          "headgear": "ht",
-          "_stored_at": "2026-06-30T23:10:45.759492+00:00"
-        },
         {
           "source": "the_racing_api",
           "race_id": "rac_12017616",
@@ -1092,70 +874,69 @@
           "date": "2026-07-08",
           "off_time": "2:45",
           "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
           "distance_f": 5.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
-          "horse": "Parents' Love",
-          "horse_id": "hrs_37920701",
+          "horse": "Casa Of Honor",
+          "horse_id": "hrs_51765917",
           "age": 5,
           "sex": "gelding",
-          "trainer": "A S Cruz",
-          "trainer_id": "trn_114903",
-          "jockey": "Britney Wong(7)",
-          "jockey_id": "jky_309648",
-          "draw": 5,
-          "number": 9,
-          "lbs": 120,
-          "ofr": "62",
-          "last_run": 7,
-          "form": "801506",
-          "headgear": "ht"
+          "trainer": "C W Chang",
+          "trainer_id": "trn_180099",
+          "jockey": "Matthew Poon",
+          "jockey_id": "jky_287175",
+          "draw": 4,
+          "number": 4,
+          "lbs": 125,
+          "ofr": "67",
+          "last_run": 42,
+          "form": "-06018",
+          "headgear": ""
         }
       ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
+      "profile_notes": [],
       "favourite_course": {
-        "value": "Sha Tin",
+        "value": "Happy Valley",
         "runs": 1
       },
       "favourite_distance": {
         "value": 5.0,
-        "runs": 2
+        "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
-        "runs": 2
+        "value": "Good To Yielding",
+        "runs": 1
       },
       "favourite_class": null,
-      "course_suitability_score": 55,
+      "course_suitability_score": 90,
       "distance_suitability_score": 90,
       "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 71,
-      "horse_intelligence_score": 47,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
+        "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Happy Valley",
         "latest_distance_f": 5.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
-        "latest_pulse_score": 57,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 1,
+        "runs_count": 1
       }
     },
     {
@@ -1165,11 +946,11 @@
       "sex": "gelding",
       "latest_course": "Happy Valley",
       "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
       "latest_date": "2026-07-08",
       "latest_distance_f": 5.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "W Y So",
       "latest_jockey": "M L Yeung",
@@ -1186,7 +967,7 @@
         "5.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1197,12 +978,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 48,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1211,11 +988,11 @@
           "date": "2026-07-08",
           "off_time": "2:45",
           "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
           "distance_f": 5.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Copper Core",
@@ -1247,7 +1024,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -1256,47 +1033,48 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 46,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Happy Valley",
         "latest_distance_f": 5.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
-        "latest_pulse_score": 48,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Casa Of Honor",
-      "horse_id": "hrs_51765917",
-      "age": 5,
-      "sex": "gelding",
+      "horse": "Duke Atreides",
+      "horse_id": "hrs_54494692",
+      "age": 3,
+      "sex": "colt",
       "latest_course": "Happy Valley",
       "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
       "latest_date": "2026-07-08",
       "latest_distance_f": 5.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
-      "latest_trainer": "C W Chang",
-      "latest_jockey": "Matthew Poon",
-      "latest_draw": 4,
-      "latest_weight_lbs": 125,
-      "official_rating": "67",
-      "recent_form": "-06018",
-      "last_run_days": 42,
+      "latest_trainer": "Annabel & Rob Archibald",
+      "latest_jockey": "Lyle Hewitson",
+      "latest_draw": 8,
+      "latest_weight_lbs": 123,
+      "official_rating": "65",
+      "recent_form": "4187-",
+      "last_run_days": 312,
       "profile_runs": 1,
       "courses_seen": {
         "Happy Valley": 1
@@ -1305,23 +1083,19 @@
         "5.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
-        "C W Chang": 1
+        "Annabel & Rob Archibald": 1
       },
       "jockeys_seen": {
-        "Matthew Poon": 1
+        "Lyle Hewitson": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 47,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Helpful draw"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1330,31 +1104,33 @@
           "date": "2026-07-08",
           "off_time": "2:45",
           "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
           "distance_f": 5.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
-          "horse": "Casa Of Honor",
-          "horse_id": "hrs_51765917",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "C W Chang",
-          "trainer_id": "trn_180099",
-          "jockey": "Matthew Poon",
-          "jockey_id": "jky_287175",
-          "draw": 4,
-          "number": 4,
-          "lbs": 125,
-          "ofr": "67",
-          "last_run": 42,
-          "form": "-06018",
+          "horse": "Duke Atreides",
+          "horse_id": "hrs_54494692",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Annabel & Rob Archibald",
+          "trainer_id": "trn_374463",
+          "jockey": "Lyle Hewitson",
+          "jockey_id": "jky_286149",
+          "draw": 8,
+          "number": 6,
+          "lbs": 123,
+          "ofr": "65",
+          "last_run": 312,
+          "form": "4187-",
           "headgear": ""
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Returning from a break"
+      ],
       "favourite_course": {
         "value": "Happy Valley",
         "runs": 1
@@ -1364,7 +1140,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -1373,22 +1149,23 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 45,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Happy Valley",
         "latest_distance_f": 5.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
-        "latest_pulse_score": 47,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1401,11 +1178,11 @@
       "sex": "gelding",
       "latest_course": "Happy Valley",
       "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
       "latest_date": "2026-07-08",
       "latest_distance_f": 5.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "C S Shum",
       "latest_jockey": "Hugh Bowman",
@@ -1422,7 +1199,7 @@
         "5.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1433,14 +1210,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 47,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw",
-        "Jockey flying +4 (3/9 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1449,11 +1220,11 @@
           "date": "2026-07-08",
           "off_time": "2:45",
           "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
           "distance_f": 5.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Eternal Fortune",
@@ -1486,7 +1257,7 @@
         "runs": 1
       },
       "favourite_going": {
-        "value": "Good",
+        "value": "Good To Yielding",
         "runs": 1
       },
       "favourite_class": null,
@@ -1495,248 +1266,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Happy Valley",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 47,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Blue Illusion",
-      "horse_id": "hrs_37489382",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Happy Valley",
-      "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
-      "latest_date": "2026-07-08",
-      "latest_distance_f": 5.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "P C Ng",
-      "latest_jockey": "Richard Kingscote",
-      "latest_draw": 6,
-      "latest_weight_lbs": 118,
-      "official_rating": "60",
-      "recent_form": "899909",
-      "last_run_days": 14,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Happy Valley": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "P C Ng": 1
-      },
-      "jockeys_seen": {
-        "Richard Kingscote": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 44,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Stable flying +4 (3/3 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12017616",
-          "course": "Happy Valley",
-          "date": "2026-07-08",
-          "off_time": "2:45",
-          "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
-          "distance_f": 5.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Blue Illusion",
-          "horse_id": "hrs_37489382",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "P C Ng",
-          "trainer_id": "trn_357858",
-          "jockey": "Richard Kingscote",
-          "jockey_id": "jky_250662",
-          "draw": 6,
-          "number": 12,
-          "lbs": 118,
-          "ofr": "60",
-          "last_run": 14,
-          "form": "899909",
-          "headgear": "tb"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Happy Valley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Happy Valley",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": 44,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Duke Atreides",
-      "horse_id": "hrs_54494692",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Happy Valley",
-      "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
-      "latest_date": "2026-07-08",
-      "latest_distance_f": 5.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Annabel & Rob Archibald",
-      "latest_jockey": "Lyle Hewitson",
-      "latest_draw": 8,
-      "latest_weight_lbs": 123,
-      "official_rating": "65",
-      "recent_form": "4187-",
-      "last_run_days": 312,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Happy Valley": 1
-      },
-      "distances_seen": {
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Annabel & Rob Archibald": 1
-      },
-      "jockeys_seen": {
-        "Lyle Hewitson": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 35,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Very long absence concern -7",
-        "Jockey flying +4 (3/6 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12017616",
-          "course": "Happy Valley",
-          "date": "2026-07-08",
-          "off_time": "2:45",
-          "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
-          "distance_f": 5.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Duke Atreides",
-          "horse_id": "hrs_54494692",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Annabel & Rob Archibald",
-          "trainer_id": "trn_374463",
-          "jockey": "Lyle Hewitson",
-          "jockey_id": "jky_286149",
-          "draw": 8,
-          "number": 6,
-          "lbs": 123,
-          "ofr": "65",
-          "last_run": 312,
-          "form": "4187-",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Happy Valley",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 5.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 40,
+      "horse_intelligence_score": 24,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1750,12 +1280,279 @@
       "enrich_signature": {
         "latest_course": "Happy Valley",
         "latest_distance_f": 5.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
-        "latest_pulse_score": 35,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Robot Lucky Star",
+      "horse_id": "hrs_54399212",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Happy Valley",
+      "latest_time": "2:45",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 5.0,
+      "latest_class": "",
+      "latest_going": "Good To Yielding",
+      "latest_surface": "Turf",
+      "latest_trainer": "Mark Newnham",
+      "latest_jockey": "Angus Chung(2)",
+      "latest_draw": 3,
+      "latest_weight_lbs": 119,
+      "official_rating": "61",
+      "recent_form": "22-845",
+      "last_run_days": 14,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Happy Valley": 1
+      },
+      "distances_seen": {
+        "5.0": 1
+      },
+      "goings_seen": {
+        "Good To Yielding": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Mark Newnham": 1
+      },
+      "jockeys_seen": {
+        "Angus Chung(2)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12017616",
+          "course": "Happy Valley",
+          "date": "2026-07-08",
+          "off_time": "2:45",
+          "off_dt": "2026-07-08T14:45:00+01:00",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
+          "distance_f": 5.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Yielding",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Robot Lucky Star",
+          "horse_id": "hrs_54399212",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Mark Newnham",
+          "trainer_id": "trn_290223",
+          "jockey": "Angus Chung(2)",
+          "jockey_id": "jky_304404",
+          "draw": 3,
+          "number": 11,
+          "lbs": 119,
+          "ofr": "61",
+          "last_run": 14,
+          "form": "22-845",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Happy Valley",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Yielding",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 24,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Happy Valley",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good To Yielding",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Dancing Classics",
+      "horse_id": "hrs_52741458",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Happy Valley",
+      "latest_time": "2:45",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 5.0,
+      "latest_class": "",
+      "latest_going": "Good To Yielding",
+      "latest_surface": "Turf",
+      "latest_trainer": "C Fownes",
+      "latest_jockey": "Joao Moreira",
+      "latest_draw": 10,
+      "latest_weight_lbs": 121,
+      "official_rating": "63",
+      "recent_form": "810-80",
+      "last_run_days": 7,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 1,
+        "Happy Valley": 1
+      },
+      "distances_seen": {
+        "5.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 1,
+        "Good To Yielding": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "C Fownes": 2
+      },
+      "jockeys_seen": {
+        "C Y Ho": 1,
+        "Joao Moreira": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009335",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "12:05",
+          "off_dt": "2026-07-01T12:05:00+01:00",
+          "race_name": "Guangdong-Hong Kong Cup (Handicap) (Class 3) (Course C) (Turf)",
+          "distance_f": 5.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Dancing Classics",
+          "horse_id": "hrs_52741458",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "C Fownes",
+          "trainer_id": "trn_144855",
+          "jockey": "C Y Ho",
+          "jockey_id": "jky_272061",
+          "draw": 2,
+          "number": 10,
+          "lbs": 119,
+          "ofr": "64",
+          "last_run": 28,
+          "form": "7810-8",
+          "headgear": "t",
+          "_stored_at": "2026-07-01T13:17:54.775522+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12017616",
+          "course": "Happy Valley",
+          "date": "2026-07-08",
+          "off_time": "2:45",
+          "off_dt": "2026-07-08T14:45:00+01:00",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
+          "distance_f": 5.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Yielding",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Dancing Classics",
+          "horse_id": "hrs_52741458",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "C Fownes",
+          "trainer_id": "trn_144855",
+          "jockey": "Joao Moreira",
+          "jockey_id": "jky_254763",
+          "draw": 10,
+          "number": 8,
+          "lbs": 121,
+          "ofr": "63",
+          "last_run": 7,
+          "form": "810-80",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 55,
+      "class_suitability_score": 50,
+      "suitability_score": 62,
+      "horse_intelligence_score": 19,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Happy Valley",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good To Yielding",
+        "latest_class": "",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -1765,11 +1562,11 @@
       "sex": "gelding",
       "latest_course": "Happy Valley",
       "latest_time": "2:45",
-      "latest_race": "Breakaway Handicap",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
       "latest_date": "2026-07-08",
       "latest_distance_f": 5.0,
       "latest_class": "",
-      "latest_going": "Good",
+      "latest_going": "Good To Yielding",
       "latest_surface": "Turf",
       "latest_trainer": "Jamie Richards",
       "latest_jockey": "K C Leung",
@@ -1787,7 +1584,8 @@
         "5.0": 2
       },
       "goings_seen": {
-        "Good": 2
+        "Good To Firm": 1,
+        "Good To Yielding": 1
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1799,13 +1597,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 40,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1814,11 +1607,11 @@
           "date": "2026-07-01",
           "off_time": "12:05",
           "off_dt": "2026-07-01T12:05:00+01:00",
-          "race_name": "The Guangdong-Hong Kong Cup (Handicap) (Class 3) (Course C) (Turf)",
+          "race_name": "Guangdong-Hong Kong Cup (Handicap) (Class 3) (Course C) (Turf)",
           "distance_f": 5.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 14,
           "horse": "Dragon Four Seas",
@@ -1836,7 +1629,7 @@
           "last_run": 24,
           "form": "0-0000",
           "headgear": "tb",
-          "_stored_at": "2026-06-30T23:10:45.592781+00:00"
+          "_stored_at": "2026-07-01T13:17:54.752449+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1845,11 +1638,11 @@
           "date": "2026-07-08",
           "off_time": "2:45",
           "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Breakaway Handicap",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
           "distance_f": 5.0,
           "race_class": "",
           "race_type": "Flat",
-          "going": "Good",
+          "going": "Good To Yielding",
           "surface": "Turf",
           "field_size": 12,
           "horse": "Dragon Four Seas",
@@ -1881,22 +1674,22 @@
         "runs": 2
       },
       "favourite_going": {
-        "value": "Good",
-        "runs": 2
+        "value": "Good To Firm",
+        "runs": 1
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 55,
       "class_suitability_score": 50,
-      "suitability_score": 71,
-      "horse_intelligence_score": 39,
+      "suitability_score": 62,
+      "horse_intelligence_score": 19,
       "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's distance matches strongest profile pattern"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
+        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -1904,9 +1697,158 @@
       "enrich_signature": {
         "latest_course": "Happy Valley",
         "latest_distance_f": 5.0,
-        "latest_going": "Good",
+        "latest_going": "Good To Yielding",
         "latest_class": "",
-        "latest_pulse_score": 40,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Parents' Love",
+      "horse_id": "hrs_37920701",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Happy Valley",
+      "latest_time": "2:45",
+      "latest_race": "Breakaway Handicap (Class 3) (Course B) (Turf)",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 5.0,
+      "latest_class": "",
+      "latest_going": "Good To Yielding",
+      "latest_surface": "Turf",
+      "latest_trainer": "A S Cruz",
+      "latest_jockey": "Britney Wong(7)",
+      "latest_draw": 5,
+      "latest_weight_lbs": 120,
+      "official_rating": "62",
+      "recent_form": "801506",
+      "last_run_days": 7,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Sha Tin": 1,
+        "Happy Valley": 1
+      },
+      "distances_seen": {
+        "5.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 1,
+        "Good To Yielding": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "A S Cruz": 2
+      },
+      "jockeys_seen": {
+        "Britney Wong(7)": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009335",
+          "course": "Sha Tin",
+          "date": "2026-07-01",
+          "off_time": "12:05",
+          "off_dt": "2026-07-01T12:05:00+01:00",
+          "race_name": "Guangdong-Hong Kong Cup (Handicap) (Class 3) (Course C) (Turf)",
+          "distance_f": 5.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 14,
+          "horse": "Parents' Love",
+          "horse_id": "hrs_37920701",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "A S Cruz",
+          "trainer_id": "trn_114903",
+          "jockey": "Britney Wong(7)",
+          "jockey_id": "jky_309648",
+          "draw": 8,
+          "number": 14,
+          "lbs": 118,
+          "ofr": "63",
+          "last_run": 24,
+          "form": "780150",
+          "headgear": "ht",
+          "_stored_at": "2026-07-01T13:17:54.865065+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12017616",
+          "course": "Happy Valley",
+          "date": "2026-07-08",
+          "off_time": "2:45",
+          "off_dt": "2026-07-08T14:45:00+01:00",
+          "race_name": "Breakaway Handicap (Class 3) (Course B) (Turf)",
+          "distance_f": 5.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good To Yielding",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Parents' Love",
+          "horse_id": "hrs_37920701",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "A S Cruz",
+          "trainer_id": "trn_114903",
+          "jockey": "Britney Wong(7)",
+          "jockey_id": "jky_309648",
+          "draw": 5,
+          "number": 9,
+          "lbs": 120,
+          "ofr": "62",
+          "last_run": 7,
+          "form": "801506",
+          "headgear": "ht"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Sha Tin",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 55,
+      "class_suitability_score": 50,
+      "suitability_score": 62,
+      "horse_intelligence_score": 19,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Going is not clearly proven from stored profile",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Happy Valley",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good To Yielding",
+        "latest_class": "",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1914,7 +1856,9 @@
     }
   ],
   "notes": [
-    "Bunta Baby is the top-rated Pulse IQ runner.",
-    "Robot Lucky Star is flagged as a possible dark horse."
+    "Blue Illusion is the top-rated Pulse IQ runner.",
+    "The race looks competitive with no clear standout.",
+    "This race has a generally weak profile strength.",
+    "California Blitz is flagged as a possible dark horse."
   ]
 }

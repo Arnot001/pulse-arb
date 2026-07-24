@@ -4,141 +4,15 @@
   "course": "Musselburgh",
   "time": "3:30",
   "race_name": "Max Recycle Handicap",
-  "field_size": 6,
-  "average_intelligence": 47.33,
-  "top_score": 54,
-  "second_score": 52,
-  "gap": 2,
-  "confidence_score": 45,
+  "field_size": 2,
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 22,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Monhammer",
-    "horse_id": "hrs_24495709",
-    "age": 8,
-    "sex": "gelding",
-    "latest_course": "Musselburgh",
-    "latest_time": "3:30",
-    "latest_race": "Max Recycle Handicap",
-    "latest_date": "2026-06-30",
-    "latest_distance_f": 7.0,
-    "latest_class": "Class 6",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Linda Perratt",
-    "latest_jockey": "Andrew Mullen",
-    "latest_draw": 10,
-    "latest_weight_lbs": 130,
-    "official_rating": "48",
-    "recent_form": "325-03",
-    "last_run_days": 10,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Musselburgh": 1
-    },
-    "distances_seen": {
-      "7.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 6": 1
-    },
-    "trainers_seen": {
-      "Linda Perratt": 1
-    },
-    "jockeys_seen": {
-      "Andrew Mullen": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 61,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Jockey bonus +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988366",
-        "course": "Musselburgh",
-        "date": "2026-06-30",
-        "off_time": "3:30",
-        "off_dt": "2026-06-30T15:30:00+01:00",
-        "race_name": "Max Recycle Handicap",
-        "distance_f": 7.0,
-        "race_class": "Class 6",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 9,
-        "horse": "Monhammer",
-        "horse_id": "hrs_24495709",
-        "age": 8,
-        "sex": "gelding",
-        "trainer": "Linda Perratt",
-        "trainer_id": "trn_51552",
-        "jockey": "Andrew Mullen",
-        "jockey_id": "jky_243498",
-        "draw": 10,
-        "number": 10,
-        "lbs": 130,
-        "ofr": "48",
-        "last_run": 10,
-        "form": "325-03",
-        "headgear": "",
-        "_stored_at": "2026-06-30T01:49:56.764680+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Recent run timing"
-    ],
-    "favourite_course": {
-      "value": "Musselburgh",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 7.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 6",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 54,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Musselburgh",
-      "latest_distance_f": 7.0,
-      "latest_going": "Good",
-      "latest_class": "Class 6",
-      "latest_pulse_score": 61,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Rajstar",
     "horse_id": "hrs_43667176",
     "age": 4,
@@ -179,12 +53,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 55,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Jockey bonus +1"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -215,7 +85,7 @@
         "last_run": 12,
         "form": "5-5187",
         "headgear": "",
-        "_stored_at": "2026-06-30T01:49:56.650173+00:00"
+        "_stored_at": "2026-06-30T05:14:25.817196+00:00"
       }
     ],
     "profile_notes": [
@@ -242,7 +112,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 52,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -250,6 +120,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -258,13 +129,13 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good",
       "latest_class": "Class 6",
-      "latest_pulse_score": 55,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
+  "main_threat": {
     "horse": "Willowinghurn",
     "horse_id": "hrs_51557744",
     "age": 3,
@@ -305,15 +176,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 54,
-    "latest_notes": [
-      "Weak recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Jockey bonus +3",
-      "Jockey flying +4 (3/3 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -344,7 +208,7 @@
         "last_run": 16,
         "form": "9-7850",
         "headgear": "p",
-        "_stored_at": "2026-06-30T01:49:56.753622+00:00"
+        "_stored_at": "2026-06-30T05:14:25.956305+00:00"
       }
     ],
     "profile_notes": [
@@ -371,7 +235,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 51,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -379,6 +243,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -387,139 +252,14 @@
       "latest_distance_f": 7.0,
       "latest_going": "Good",
       "latest_class": "Class 6",
-      "latest_pulse_score": 54,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
+  "dark_horse": null,
   "runners": [
-    {
-      "horse": "Monhammer",
-      "horse_id": "hrs_24495709",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Musselburgh",
-      "latest_time": "3:30",
-      "latest_race": "Max Recycle Handicap",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Linda Perratt",
-      "latest_jockey": "Andrew Mullen",
-      "latest_draw": 10,
-      "latest_weight_lbs": 130,
-      "official_rating": "48",
-      "recent_form": "325-03",
-      "last_run_days": 10,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Musselburgh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Linda Perratt": 1
-      },
-      "jockeys_seen": {
-        "Andrew Mullen": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 61,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988366",
-          "course": "Musselburgh",
-          "date": "2026-06-30",
-          "off_time": "3:30",
-          "off_dt": "2026-06-30T15:30:00+01:00",
-          "race_name": "Max Recycle Handicap",
-          "distance_f": 7.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Monhammer",
-          "horse_id": "hrs_24495709",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Linda Perratt",
-          "trainer_id": "trn_51552",
-          "jockey": "Andrew Mullen",
-          "jockey_id": "jky_243498",
-          "draw": 10,
-          "number": 10,
-          "lbs": 130,
-          "ofr": "48",
-          "last_run": 10,
-          "form": "325-03",
-          "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.764680+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Musselburgh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 54,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Musselburgh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 61,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Rajstar",
       "horse_id": "hrs_43667176",
@@ -561,12 +301,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 55,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Jockey bonus +1"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -597,7 +333,7 @@
           "last_run": 12,
           "form": "5-5187",
           "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.650173+00:00"
+          "_stored_at": "2026-06-30T05:14:25.817196+00:00"
         }
       ],
       "profile_notes": [
@@ -624,7 +360,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 52,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -632,6 +368,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -640,7 +377,7 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "Class 6",
-        "latest_pulse_score": 55,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -687,15 +424,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Jockey bonus +3",
-        "Jockey flying +4 (3/3 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -726,7 +456,7 @@
           "last_run": 16,
           "form": "9-7850",
           "headgear": "p",
-          "_stored_at": "2026-06-30T01:49:56.753622+00:00"
+          "_stored_at": "2026-06-30T05:14:25.956305+00:00"
         }
       ],
       "profile_notes": [
@@ -753,381 +483,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Musselburgh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 54,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Ramon Di Loria",
-      "horse_id": "hrs_22241121",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Musselburgh",
-      "latest_time": "3:30",
-      "latest_race": "Max Recycle Handicap",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ewan Whillans",
-      "latest_jockey": "Greg Fairley",
-      "latest_draw": 7,
-      "latest_weight_lbs": 136,
-      "official_rating": "54",
-      "recent_form": "235636",
-      "last_run_days": 15,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Musselburgh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Ewan Whillans": 1
-      },
-      "jockeys_seen": {
-        "Greg Fairley": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 51,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988366",
-          "course": "Musselburgh",
-          "date": "2026-06-30",
-          "off_time": "3:30",
-          "off_dt": "2026-06-30T15:30:00+01:00",
-          "race_name": "Max Recycle Handicap",
-          "distance_f": 7.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Ramon Di Loria",
-          "horse_id": "hrs_22241121",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Ewan Whillans",
-          "trainer_id": "trn_348426",
-          "jockey": "Greg Fairley",
-          "jockey_id": "jky_252060",
-          "draw": 7,
-          "number": 6,
-          "lbs": 136,
-          "ofr": "54",
-          "last_run": 15,
-          "form": "235636",
-          "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.715308+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Musselburgh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 50,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Musselburgh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 51,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Cotai Starlight",
-      "horse_id": "hrs_56746431",
-      "age": 3,
-      "sex": "filly",
-      "latest_course": "Musselburgh",
-      "latest_time": "3:30",
-      "latest_race": "Max Recycle Handicap",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Katie Scott",
-      "latest_jockey": "Sam James",
-      "latest_draw": 4,
-      "latest_weight_lbs": 132,
-      "official_rating": "59",
-      "recent_form": "6-35",
-      "last_run_days": 69,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Musselburgh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Katie Scott": 1
-      },
-      "jockeys_seen": {
-        "Sam James": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 46,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988366",
-          "course": "Musselburgh",
-          "date": "2026-06-30",
-          "off_time": "3:30",
-          "off_dt": "2026-06-30T15:30:00+01:00",
-          "race_name": "Max Recycle Handicap",
-          "distance_f": 7.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Cotai Starlight",
-          "horse_id": "hrs_56746431",
-          "age": 3,
-          "sex": "filly",
-          "trainer": "Katie Scott",
-          "trainer_id": "trn_171504",
-          "jockey": "Sam James",
-          "jockey_id": "jky_261870",
-          "draw": 4,
-          "number": 8,
-          "lbs": 132,
-          "ofr": "59",
-          "last_run": 69,
-          "form": "6-35",
-          "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.731697+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Musselburgh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 48,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Musselburgh",
-        "latest_distance_f": 7.0,
-        "latest_going": "Good",
-        "latest_class": "Class 6",
-        "latest_pulse_score": 46,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Due Respect",
-      "horse_id": "hrs_44939888",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Musselburgh",
-      "latest_time": "3:30",
-      "latest_race": "Max Recycle Handicap",
-      "latest_date": "2026-06-30",
-      "latest_distance_f": 7.0,
-      "latest_class": "Class 6",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gary Rutherford",
-      "latest_jockey": "NON-RUNNER",
-      "latest_draw": 8,
-      "latest_weight_lbs": 133,
-      "official_rating": "51",
-      "recent_form": "8-7504",
-      "last_run_days": 8,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Musselburgh": 1
-      },
-      "distances_seen": {
-        "7.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 6": 1
-      },
-      "trainers_seen": {
-        "Gary Rutherford": 1
-      },
-      "jockeys_seen": {
-        "NON-RUNNER": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 4,
-      "latest_notes": [
-        "Weak recent form",
-        "Non-runner risk",
-        "Trainer concern -2",
-        "Jockey concern -2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988366",
-          "course": "Musselburgh",
-          "date": "2026-06-30",
-          "off_time": "3:30",
-          "off_dt": "2026-06-30T15:30:00+01:00",
-          "race_name": "Max Recycle Handicap",
-          "distance_f": 7.0,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Due Respect",
-          "horse_id": "hrs_44939888",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Gary Rutherford",
-          "trainer_id": "trn_288135",
-          "jockey": "NON-RUNNER",
-          "jockey_id": "jky_224913",
-          "draw": 8,
-          "number": null,
-          "lbs": 133,
-          "ofr": "51",
-          "last_run": 8,
-          "form": "8-7504",
-          "headgear": "",
-          "_stored_at": "2026-06-30T01:49:56.766857+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Musselburgh",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 7.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 29,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1144,7 +500,7 @@
         "latest_distance_f": 7.0,
         "latest_going": "Good",
         "latest_class": "Class 6",
-        "latest_pulse_score": 4,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1152,8 +508,8 @@
     }
   ],
   "notes": [
-    "Monhammer is the top-rated Pulse IQ runner.",
+    "Rajstar is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Willowinghurn is flagged as a possible dark horse."
+    "This race has a generally weak profile strength."
   ]
 }

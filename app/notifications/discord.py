@@ -1,6 +1,6 @@
 import requests
 
-from app.core.bookmakers import get_bookmaker_url
+from app.modules.arbitrage.bookmakers import get_bookmaker_url
 
 
 def format_discord_arb(item):

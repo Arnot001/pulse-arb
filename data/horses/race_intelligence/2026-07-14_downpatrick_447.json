@@ -5,14 +5,174 @@
   "time": "4:47",
   "race_name": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
   "field_size": 15,
-  "average_intelligence": 45.47,
+  "average_intelligence": 46.0,
   "top_score": 57,
-  "second_score": 55,
-  "gap": 2,
-  "confidence_score": 46,
+  "second_score": 56,
+  "gap": 1,
+  "confidence_score": 45,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Nakassama",
+    "horse_id": "hrs_36234576",
+    "age": 6,
+    "sex": "gelding",
+    "latest_course": "Downpatrick",
+    "latest_time": "4:47",
+    "latest_race": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
+    "latest_date": "2026-07-14",
+    "latest_distance_f": 22.0,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Noel C Kelly",
+    "latest_jockey": "Mr O McGill(5)",
+    "latest_draw": 0,
+    "latest_weight_lbs": 165,
+    "official_rating": "109",
+    "recent_form": "692-12",
+    "last_run_days": 16,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Cartmel": 1,
+      "Downpatrick": 1
+    },
+    "distances_seen": {
+      "22.0": 2
+    },
+    "goings_seen": {
+      "Good": 2
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Noel C Kelly": 2
+    },
+    "jockeys_seen": {
+      "Mr O McGill(5)": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 80,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Jockey bonus +3"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11973858",
+        "course": "Cartmel",
+        "date": "2026-06-28",
+        "off_time": "3:02",
+        "off_dt": "2026-06-28T15:02:00+01:00",
+        "race_name": "Campbell & Rowley Handicap Hurdle",
+        "distance_f": 22.0,
+        "race_class": "Class 4",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 12,
+        "horse": "Nakassama",
+        "horse_id": "hrs_36234576",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Noel C Kelly",
+        "trainer_id": "trn_159876",
+        "jockey": "Mr O McGill(5)",
+        "jockey_id": "jky_297411",
+        "draw": 0,
+        "number": 4,
+        "lbs": 161,
+        "ofr": "111",
+        "last_run": 15,
+        "form": "1692-1",
+        "headgear": "t",
+        "_stored_at": "2026-06-28T12:43:00.980985+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000002561",
+        "course": "Downpatrick",
+        "date": "2026-07-14",
+        "off_time": "4:47",
+        "off_dt": "2026-07-14T16:47:00+01:00",
+        "race_name": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
+        "distance_f": 22.0,
+        "race_class": "",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 13,
+        "horse": "Nakassama",
+        "horse_id": "hrs_36234576",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Noel C Kelly",
+        "trainer_id": "trn_159876",
+        "jockey": "Mr O McGill(5)",
+        "jockey_id": "jky_297411",
+        "draw": 0,
+        "number": 2,
+        "lbs": 165,
+        "ofr": "109",
+        "last_run": 16,
+        "form": "692-12",
+        "headgear": "t"
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
+    "favourite_course": {
+      "value": "Cartmel",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 22.0,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 55,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 71,
+    "horse_intelligence_score": 57,
+    "profile_strengths": [
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Course does not strongly match stored profile",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Downpatrick",
+      "latest_distance_f": 22.0,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": 80,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "main_threat": {
     "horse": "Morell River",
     "horse_id": "hrs_43859928",
     "age": 6,
@@ -23,7 +183,7 @@
     "latest_date": "2026-07-14",
     "latest_distance_f": 22.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
     "latest_trainer": "Colin Bowe",
     "latest_jockey": "Sean O'Keeffe",
@@ -39,7 +199,9 @@
     "distances_seen": {
       "22.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
       "Colin Bowe": 1
@@ -49,13 +211,11 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 80,
+    "latest_pulse_score": 72,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
-      "Helpful draw",
-      "Stable flying +4 (3/3 last 14 days)",
-      "Jockey flying +4 (6/12 last 14 days)"
+      "Helpful draw"
     ],
     "runs": [
       {
@@ -69,9 +229,9 @@
         "distance_f": 22.0,
         "race_class": "",
         "race_type": "Hurdle",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
-        "field_size": 18,
+        "field_size": 13,
         "horse": "Morell River",
         "horse_id": "hrs_43859928",
         "age": 6,
@@ -89,122 +249,6 @@
         "headgear": ""
       }
     ],
-    "profile_notes": [
-      "Elite latest Pulse Score"
-    ],
-    "favourite_course": {
-      "value": "Downpatrick",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 22.0,
-      "runs": 1
-    },
-    "favourite_going": null,
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 50,
-    "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 57,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Elite latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Going is not clearly proven from stored profile",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Downpatrick",
-      "latest_distance_f": 22.0,
-      "latest_going": "",
-      "latest_class": "",
-      "latest_pulse_score": 80,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Cozone",
-    "horse_id": "hrs_16761360",
-    "age": 9,
-    "sex": "gelding",
-    "latest_course": "Downpatrick",
-    "latest_time": "4:47",
-    "latest_race": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
-    "latest_date": "2026-07-14",
-    "latest_distance_f": 22.0,
-    "latest_class": "",
-    "latest_going": "",
-    "latest_surface": "Turf",
-    "latest_trainer": "Matthew J Smith",
-    "latest_jockey": "Keith Donoghue",
-    "latest_draw": 0,
-    "latest_weight_lbs": 164,
-    "official_rating": "108",
-    "recent_form": "/16-31",
-    "last_run_days": 31,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Downpatrick": 1
-    },
-    "distances_seen": {
-      "22.0": 1
-    },
-    "goings_seen": {},
-    "classes_seen": {},
-    "trainers_seen": {
-      "Matthew J Smith": 1
-    },
-    "jockeys_seen": {
-      "Keith Donoghue": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 76,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000002561",
-        "course": "Downpatrick",
-        "date": "2026-07-14",
-        "off_time": "4:47",
-        "off_dt": "2026-07-14T16:47:00+01:00",
-        "race_name": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
-        "distance_f": 22.0,
-        "race_class": "",
-        "race_type": "Hurdle",
-        "going": "",
-        "surface": "Turf",
-        "field_size": 18,
-        "horse": "Cozone",
-        "horse_id": "hrs_16761360",
-        "age": 9,
-        "sex": "gelding",
-        "trainer": "Matthew J Smith",
-        "trainer_id": "trn_246555",
-        "jockey": "Keith Donoghue",
-        "jockey_id": "jky_266196",
-        "draw": 0,
-        "number": 5,
-        "lbs": 164,
-        "ofr": "108",
-        "last_run": 31,
-        "form": "/16-31",
-        "headgear": "tb"
-      }
-    ],
     "profile_notes": [],
     "favourite_course": {
       "value": "Downpatrick",
@@ -214,55 +258,58 @@
       "value": 22.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 55,
+    "suitability_score": 80,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Downpatrick",
       "latest_distance_f": 22.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 76,
+      "latest_pulse_score": 72,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Cozone",
-    "horse_id": "hrs_16761360",
-    "age": 9,
-    "sex": "gelding",
+    "horse": "Morell River",
+    "horse_id": "hrs_43859928",
+    "age": 6,
+    "sex": "mare",
     "latest_course": "Downpatrick",
     "latest_time": "4:47",
     "latest_race": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
     "latest_date": "2026-07-14",
     "latest_distance_f": 22.0,
     "latest_class": "",
-    "latest_going": "",
+    "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Matthew J Smith",
-    "latest_jockey": "Keith Donoghue",
+    "latest_trainer": "Colin Bowe",
+    "latest_jockey": "Sean O'Keeffe",
     "latest_draw": 0,
-    "latest_weight_lbs": 164,
-    "official_rating": "108",
-    "recent_form": "/16-31",
-    "last_run_days": 31,
+    "latest_weight_lbs": 159,
+    "official_rating": "103",
+    "recent_form": "518-12",
+    "last_run_days": 37,
     "profile_runs": 1,
     "courses_seen": {
       "Downpatrick": 1
@@ -270,21 +317,22 @@
     "distances_seen": {
       "22.0": 1
     },
-    "goings_seen": {},
+    "goings_seen": {
+      "Good": 1
+    },
     "classes_seen": {},
     "trainers_seen": {
-      "Matthew J Smith": 1
+      "Colin Bowe": 1
     },
     "jockeys_seen": {
-      "Keith Donoghue": 1
+      "Sean O'Keeffe": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 76,
+    "latest_pulse_score": 72,
     "latest_notes": [
       "Strong recent form",
       "Good recent run timing",
-      "Ideal layoff profile +2",
       "Helpful draw"
     ],
     "runs": [
@@ -299,24 +347,24 @@
         "distance_f": 22.0,
         "race_class": "",
         "race_type": "Hurdle",
-        "going": "",
+        "going": "Good",
         "surface": "Turf",
-        "field_size": 18,
-        "horse": "Cozone",
-        "horse_id": "hrs_16761360",
-        "age": 9,
-        "sex": "gelding",
-        "trainer": "Matthew J Smith",
-        "trainer_id": "trn_246555",
-        "jockey": "Keith Donoghue",
-        "jockey_id": "jky_266196",
+        "field_size": 13,
+        "horse": "Morell River",
+        "horse_id": "hrs_43859928",
+        "age": 6,
+        "sex": "mare",
+        "trainer": "Colin Bowe",
+        "trainer_id": "trn_201249",
+        "jockey": "Sean O'Keeffe",
+        "jockey_id": "jky_295554",
         "draw": 0,
-        "number": 5,
-        "lbs": 164,
-        "ofr": "108",
-        "last_run": 31,
-        "form": "/16-31",
-        "headgear": "tb"
+        "number": 12,
+        "lbs": 159,
+        "ofr": "103",
+        "last_run": 37,
+        "form": "518-12",
+        "headgear": ""
       }
     ],
     "profile_notes": [],
@@ -328,267 +376,39 @@
       "value": 22.0,
       "runs": 1
     },
-    "favourite_going": null,
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
     "favourite_class": null,
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 50,
+    "going_suitability_score": 90,
     "class_suitability_score": 50,
-    "suitability_score": 70,
-    "horse_intelligence_score": 55,
+    "suitability_score": 80,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Downpatrick",
       "latest_distance_f": 22.0,
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": 76,
+      "latest_pulse_score": 72,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Morell River",
-      "horse_id": "hrs_43859928",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "Downpatrick",
-      "latest_time": "4:47",
-      "latest_race": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 22.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Colin Bowe",
-      "latest_jockey": "Sean O'Keeffe",
-      "latest_draw": 0,
-      "latest_weight_lbs": 159,
-      "official_rating": "103",
-      "recent_form": "518-12",
-      "last_run_days": 37,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Downpatrick": 1
-      },
-      "distances_seen": {
-        "22.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "Colin Bowe": 1
-      },
-      "jockeys_seen": {
-        "Sean O'Keeffe": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 80,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Stable flying +4 (3/3 last 14 days)",
-        "Jockey flying +4 (6/12 last 14 days)"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000002561",
-          "course": "Downpatrick",
-          "date": "2026-07-14",
-          "off_time": "4:47",
-          "off_dt": "2026-07-14T16:47:00+01:00",
-          "race_name": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
-          "distance_f": 22.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Morell River",
-          "horse_id": "hrs_43859928",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "Colin Bowe",
-          "trainer_id": "trn_201249",
-          "jockey": "Sean O'Keeffe",
-          "jockey_id": "jky_295554",
-          "draw": 0,
-          "number": 12,
-          "lbs": 159,
-          "ofr": "103",
-          "last_run": 37,
-          "form": "518-12",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Elite latest Pulse Score"
-      ],
-      "favourite_course": {
-        "value": "Downpatrick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 22.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 57,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Elite latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Downpatrick",
-        "latest_distance_f": 22.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 80,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Cozone",
-      "horse_id": "hrs_16761360",
-      "age": 9,
-      "sex": "gelding",
-      "latest_course": "Downpatrick",
-      "latest_time": "4:47",
-      "latest_race": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 22.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Matthew J Smith",
-      "latest_jockey": "Keith Donoghue",
-      "latest_draw": 0,
-      "latest_weight_lbs": 164,
-      "official_rating": "108",
-      "recent_form": "/16-31",
-      "last_run_days": 31,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Downpatrick": 1
-      },
-      "distances_seen": {
-        "22.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "Matthew J Smith": 1
-      },
-      "jockeys_seen": {
-        "Keith Donoghue": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 76,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000002561",
-          "course": "Downpatrick",
-          "date": "2026-07-14",
-          "off_time": "4:47",
-          "off_dt": "2026-07-14T16:47:00+01:00",
-          "race_name": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
-          "distance_f": 22.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Cozone",
-          "horse_id": "hrs_16761360",
-          "age": 9,
-          "sex": "gelding",
-          "trainer": "Matthew J Smith",
-          "trainer_id": "trn_246555",
-          "jockey": "Keith Donoghue",
-          "jockey_id": "jky_266196",
-          "draw": 0,
-          "number": 5,
-          "lbs": 164,
-          "ofr": "108",
-          "last_run": 31,
-          "form": "/16-31",
-          "headgear": "tb"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Downpatrick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 22.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 55,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Downpatrick",
-        "latest_distance_f": 22.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 76,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Nakassama",
       "horse_id": "hrs_36234576",
@@ -600,7 +420,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 22.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Noel C Kelly",
       "latest_jockey": "Mr O McGill(5)",
@@ -609,31 +429,69 @@
       "official_rating": "109",
       "recent_form": "692-12",
       "last_run_days": 16,
-      "profile_runs": 1,
+      "profile_runs": 2,
       "courses_seen": {
+        "Cartmel": 1,
         "Downpatrick": 1
       },
       "distances_seen": {
-        "22.0": 1
+        "22.0": 2
       },
-      "goings_seen": {},
-      "classes_seen": {},
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
       "trainers_seen": {
-        "Noel C Kelly": 1
+        "Noel C Kelly": 2
       },
       "jockeys_seen": {
-        "Mr O McGill(5)": 1
+        "Mr O McGill(5)": 2
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 75,
+      "latest_pulse_score": 80,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw"
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Jockey bonus +3"
       ],
       "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973858",
+          "course": "Cartmel",
+          "date": "2026-06-28",
+          "off_time": "3:02",
+          "off_dt": "2026-06-28T15:02:00+01:00",
+          "race_name": "Campbell & Rowley Handicap Hurdle",
+          "distance_f": 22.0,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Nakassama",
+          "horse_id": "hrs_36234576",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Noel C Kelly",
+          "trainer_id": "trn_159876",
+          "jockey": "Mr O McGill(5)",
+          "jockey_id": "jky_297411",
+          "draw": 0,
+          "number": 4,
+          "lbs": 161,
+          "ofr": "111",
+          "last_run": 15,
+          "form": "1692-1",
+          "headgear": "t",
+          "_stored_at": "2026-06-28T12:43:00.980985+00:00"
+        },
         {
           "source": "the_racing_api",
           "race_id": "rac_13000002561",
@@ -645,9 +503,9 @@
           "distance_f": 22.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 13,
           "horse": "Nakassama",
           "horse_id": "hrs_36234576",
           "age": 6,
@@ -665,6 +523,129 @@
           "headgear": "t"
         }
       ],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
+      "favourite_course": {
+        "value": "Cartmel",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 22.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 55,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 71,
+      "horse_intelligence_score": 57,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Downpatrick",
+        "latest_distance_f": 22.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 80,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
+    {
+      "horse": "Morell River",
+      "horse_id": "hrs_43859928",
+      "age": 6,
+      "sex": "mare",
+      "latest_course": "Downpatrick",
+      "latest_time": "4:47",
+      "latest_race": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 22.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Colin Bowe",
+      "latest_jockey": "Sean O'Keeffe",
+      "latest_draw": 0,
+      "latest_weight_lbs": 159,
+      "official_rating": "103",
+      "recent_form": "518-12",
+      "last_run_days": 37,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Downpatrick": 1
+      },
+      "distances_seen": {
+        "22.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Colin Bowe": 1
+      },
+      "jockeys_seen": {
+        "Sean O'Keeffe": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 72,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000002561",
+          "course": "Downpatrick",
+          "date": "2026-07-14",
+          "off_time": "4:47",
+          "off_dt": "2026-07-14T16:47:00+01:00",
+          "race_name": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
+          "distance_f": 22.0,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Morell River",
+          "horse_id": "hrs_43859928",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Colin Bowe",
+          "trainer_id": "trn_201249",
+          "jockey": "Sean O'Keeffe",
+          "jockey_id": "jky_295554",
+          "draw": 0,
+          "number": 12,
+          "lbs": 159,
+          "ofr": "103",
+          "last_run": 37,
+          "form": "518-12",
+          "headgear": ""
+        }
+      ],
       "profile_notes": [],
       "favourite_course": {
         "value": "Downpatrick",
@@ -674,30 +655,33 @@
         "value": 22.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 55,
+      "suitability_score": 80,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Downpatrick",
         "latest_distance_f": 22.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 75,
+        "latest_pulse_score": 72,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -714,7 +698,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 22.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Dermot A McLoughlin",
       "latest_jockey": "Patrick M O'Brien(5)",
@@ -730,7 +714,9 @@
       "distances_seen": {
         "22.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Dermot A McLoughlin": 1
@@ -740,12 +726,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 68,
+      "latest_pulse_score": 69,
       "latest_notes": [
         "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw"
+        "Helpful draw",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
@@ -759,9 +746,9 @@
           "distance_f": 22.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 13,
           "horse": "Joya Del Mar",
           "horse_id": "hrs_35025536",
           "age": 8,
@@ -788,30 +775,33 @@
         "value": 22.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 52,
+      "suitability_score": 80,
+      "horse_intelligence_score": 55,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Downpatrick",
         "latest_distance_f": 22.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 68,
+        "latest_pulse_score": 69,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -828,7 +818,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 22.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Henry De Bromhead",
       "latest_jockey": "Darragh O'Keeffe",
@@ -844,7 +834,9 @@
       "distances_seen": {
         "22.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Henry De Bromhead": 1
@@ -854,13 +846,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 65,
+      "latest_pulse_score": 61,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Helpful draw",
-        "Stable flying +4 (12/28 last 14 days)",
-        "Jockey flying +4 (6/21 last 14 days)"
+        "Trainer bonus +1",
+        "Jockey bonus +3"
       ],
       "runs": [
         {
@@ -874,9 +866,9 @@
           "distance_f": 22.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 13,
           "horse": "Adaliz",
           "horse_id": "hrs_49325773",
           "age": 6,
@@ -903,30 +895,32 @@
         "value": 22.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Positive latest Pulse Score"
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Downpatrick",
         "latest_distance_f": 22.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 65,
+        "latest_pulse_score": 61,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -943,7 +937,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 22.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "A L T Moore",
       "latest_jockey": "Ricky Doyle",
@@ -959,7 +953,9 @@
       "distances_seen": {
         "22.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "A L T Moore": 1
@@ -969,13 +965,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 61,
+      "latest_pulse_score": 60,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
-        "Jockey flying +4 (3/6 last 14 days)"
+        "Trainer bonus +2",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
@@ -989,9 +986,9 @@
           "distance_f": 22.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 13,
           "horse": "Ringdufferin",
           "horse_id": "hrs_31394636",
           "age": 8,
@@ -1018,29 +1015,32 @@
         "value": 22.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 48,
+      "suitability_score": 80,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Downpatrick",
         "latest_distance_f": 22.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 61,
+        "latest_pulse_score": 60,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1057,7 +1057,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 22.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Gerard Keane",
       "latest_jockey": "Eoghan Finegan(5)",
@@ -1076,7 +1076,7 @@
         "22.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1087,10 +1087,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 67,
+      "latest_pulse_score": 69,
       "latest_notes": [
         "Strong recent form",
+        "Good recent run timing",
         "Helpful draw",
+        "Trainer bonus +2",
         "Jockey bonus +1"
       ],
       "runs": [
@@ -1107,7 +1109,7 @@
           "race_type": "Hurdle",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 16,
+          "field_size": 15,
           "horse": "Mephisto",
           "horse_id": "hrs_19359270",
           "age": 9,
@@ -1135,9 +1137,9 @@
           "distance_f": 22.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 13,
           "horse": "Mephisto",
           "horse_id": "hrs_19359270",
           "age": 9,
@@ -1168,34 +1170,151 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 46,
+      "suitability_score": 62,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
+        "Today's going matches known profile preference",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Downpatrick",
         "latest_distance_f": 22.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 67,
+        "latest_pulse_score": 69,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
+      }
+    },
+    {
+      "horse": "Oh Janey",
+      "horse_id": "hrs_40920390",
+      "age": 6,
+      "sex": "mare",
+      "latest_course": "Downpatrick",
+      "latest_time": "4:47",
+      "latest_race": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 22.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "S R B Crawford",
+      "latest_jockey": "Sam Ewing",
+      "latest_draw": 0,
+      "latest_weight_lbs": 160,
+      "official_rating": "104",
+      "recent_form": "2416-6",
+      "last_run_days": 61,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Downpatrick": 1
+      },
+      "distances_seen": {
+        "22.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "S R B Crawford": 1
+      },
+      "jockeys_seen": {
+        "Sam Ewing": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 51,
+      "latest_notes": [
+        "Positive recent form",
+        "Helpful draw",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000002561",
+          "course": "Downpatrick",
+          "date": "2026-07-14",
+          "off_time": "4:47",
+          "off_dt": "2026-07-14T16:47:00+01:00",
+          "race_name": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
+          "distance_f": 22.0,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Oh Janey",
+          "horse_id": "hrs_40920390",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "S R B Crawford",
+          "trainer_id": "trn_149364",
+          "jockey": "Sam Ewing",
+          "jockey_id": "jky_301095",
+          "draw": 0,
+          "number": 11,
+          "lbs": 160,
+          "ofr": "104",
+          "last_run": 61,
+          "form": "2416-6",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Downpatrick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 22.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Downpatrick",
+        "latest_distance_f": 22.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 51,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
       }
     },
     {
@@ -1209,10 +1328,10 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 22.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "David M O'Brien",
-      "latest_jockey": "Reserve 3",
+      "latest_jockey": "Josh Williamson(5)",
       "latest_draw": 0,
       "latest_weight_lbs": 153,
       "official_rating": "97",
@@ -1228,7 +1347,7 @@
         "22.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1236,18 +1355,18 @@
       },
       "jockeys_seen": {
         "Cian Quirke": 1,
-        "Reserve 3": 1
+        "Josh Williamson(5)": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 65,
+      "latest_pulse_score": 64,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2",
         "Helpful draw",
-        "Stable in form +2 (1/1 last 14 days)",
-        "Jockey bonus +1"
+        "Historical winner +3",
+        "Previous course winner +4",
+        "Going specialist +4 (16/16 on going)"
       ],
       "runs": [
         {
@@ -1263,7 +1382,7 @@
           "race_type": "Hurdle",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 16,
+          "field_size": 15,
           "horse": "Tolka Row",
           "horse_id": "hrs_59429566",
           "age": 6,
@@ -1291,17 +1410,17 @@
           "distance_f": 22.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 13,
           "horse": "Tolka Row",
           "horse_id": "hrs_59429566",
           "age": 6,
           "sex": "gelding",
           "trainer": "David M O'Brien",
           "trainer_id": "trn_116154",
-          "jockey": "Reserve 3",
-          "jockey_id": "",
+          "jockey": "Josh Williamson(5)",
+          "jockey_id": "jky_307062",
           "draw": 0,
           "number": 18,
           "lbs": 153,
@@ -1324,40 +1443,39 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 45,
+      "suitability_score": 62,
+      "horse_intelligence_score": 47,
       "profile_strengths": [
-        "Positive latest Pulse Score"
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Downpatrick",
         "latest_distance_f": 22.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 65,
+        "latest_pulse_score": 64,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
       }
     },
     {
-      "horse": "Tribal Moon",
-      "horse_id": "hrs_36665132",
-      "age": 5,
+      "horse": "Cozone",
+      "horse_id": "hrs_16761360",
+      "age": 9,
       "sex": "gelding",
       "latest_course": "Downpatrick",
       "latest_time": "4:47",
@@ -1365,15 +1483,15 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 22.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Noel C Kelly",
-      "latest_jockey": "Simon Torrens",
+      "latest_trainer": "Matthew J Smith",
+      "latest_jockey": "Keith Donoghue",
       "latest_draw": 0,
-      "latest_weight_lbs": 161,
-      "official_rating": "105",
-      "recent_form": "0-73",
-      "last_run_days": 18,
+      "latest_weight_lbs": 164,
+      "official_rating": "108",
+      "recent_form": "/16-31",
+      "last_run_days": 31,
       "profile_runs": 1,
       "courses_seen": {
         "Downpatrick": 1
@@ -1381,22 +1499,27 @@
       "distances_seen": {
         "22.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
-        "Noel C Kelly": 1
+        "Matthew J Smith": 1
       },
       "jockeys_seen": {
-        "Simon Torrens": 1
+        "Keith Donoghue": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 53,
+      "latest_pulse_score": 49,
       "latest_notes": [
-        "Weak recent form",
+        "Strong recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
-        "Helpful draw"
+        "Helpful draw",
+        "Non-runner risk",
+        "Trainer bonus +2",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
@@ -1410,9 +1533,194 @@
           "distance_f": 22.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 13,
+          "horse": "Cozone",
+          "horse_id": "hrs_16761360",
+          "age": 9,
+          "sex": "gelding",
+          "trainer": "Matthew J Smith",
+          "trainer_id": "trn_246555",
+          "jockey": "Keith Donoghue",
+          "jockey_id": "jky_266196",
+          "draw": 0,
+          "number": null,
+          "lbs": 164,
+          "ofr": "108",
+          "last_run": 31,
+          "form": "/16-31",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Downpatrick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 22.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Downpatrick",
+        "latest_distance_f": 22.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 49,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Tribal Moon",
+      "horse_id": "hrs_36665132",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Downpatrick",
+      "latest_time": "4:47",
+      "latest_race": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 22.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Noel C Kelly",
+      "latest_jockey": "Simon Torrens",
+      "latest_draw": 0,
+      "latest_weight_lbs": 161,
+      "official_rating": "105",
+      "recent_form": "0-73",
+      "last_run_days": 18,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Cartmel": 2,
+        "Downpatrick": 1
+      },
+      "distances_seen": {
+        "22.0": 3
+      },
+      "goings_seen": {
+        "Good": 3
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "Noel C Kelly": 3
+      },
+      "jockeys_seen": {
+        "Mr D McGill(5)": 2,
+        "Simon Torrens": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 55,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973728",
+          "course": "Cartmel",
+          "date": "2026-06-26",
+          "off_time": "2:18",
+          "off_dt": "2026-06-26T14:18:00+01:00",
+          "race_name": "RF Miller & Co Novices' Hurdle (GBB Race)",
+          "distance_f": 22.0,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Tribal Moon",
+          "horse_id": "hrs_36665132",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Noel C Kelly",
+          "trainer_id": "trn_159876",
+          "jockey": "Mr D McGill(5)",
+          "jockey_id": "jky_301134",
+          "draw": 0,
+          "number": 4,
+          "lbs": 156,
+          "ofr": "-",
+          "last_run": 12,
+          "form": "0-7",
+          "headgear": "",
+          "_stored_at": "2026-06-26T08:14:09.513354+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973728",
+          "course": "Cartmel",
+          "date": "2026-06-26",
+          "off_time": "2:18",
+          "off_dt": "2026-06-26T14:18:00+01:00",
+          "race_name": "RF Miller & Co Novices' Hurdle (GBB Race)",
+          "distance_f": 22.0,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Tribal Moon",
+          "horse_id": "hrs_36665132",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Noel C Kelly",
+          "trainer_id": "trn_159876",
+          "jockey": "Mr D McGill(5)",
+          "jockey_id": "jky_301134",
+          "draw": 0,
+          "number": 4,
+          "lbs": 156,
+          "ofr": "-",
+          "last_run": 12,
+          "form": "0-7",
+          "headgear": "",
+          "_stored_at": "2026-06-28T12:42:21.287311+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000002561",
+          "course": "Downpatrick",
+          "date": "2026-07-14",
+          "off_time": "4:47",
+          "off_dt": "2026-07-14T16:47:00+01:00",
+          "race_name": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
+          "distance_f": 22.0,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
           "horse": "Tribal Moon",
           "horse_id": "hrs_36665132",
           "age": 5,
@@ -1430,306 +1738,48 @@
           "headgear": "t"
         }
       ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Downpatrick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 22.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 45,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Downpatrick",
-        "latest_distance_f": 22.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 53,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Oh Janey",
-      "horse_id": "hrs_40920390",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "Downpatrick",
-      "latest_time": "4:47",
-      "latest_race": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 22.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "S R B Crawford",
-      "latest_jockey": "Sam Ewing",
-      "latest_draw": 0,
-      "latest_weight_lbs": 160,
-      "official_rating": "104",
-      "recent_form": "2416-6",
-      "last_run_days": 61,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Downpatrick": 1
-      },
-      "distances_seen": {
-        "22.0": 1
-      },
-      "goings_seen": {},
-      "classes_seen": {},
-      "trainers_seen": {
-        "S R B Crawford": 1
-      },
-      "jockeys_seen": {
-        "Sam Ewing": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 50,
-      "latest_notes": [
-        "Positive recent form",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000002561",
-          "course": "Downpatrick",
-          "date": "2026-07-14",
-          "off_time": "4:47",
-          "off_dt": "2026-07-14T16:47:00+01:00",
-          "race_name": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
-          "distance_f": 22.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Oh Janey",
-          "horse_id": "hrs_40920390",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "S R B Crawford",
-          "trainer_id": "trn_149364",
-          "jockey": "Sam Ewing",
-          "jockey_id": "jky_301095",
-          "draw": 0,
-          "number": 11,
-          "lbs": 160,
-          "ofr": "104",
-          "last_run": 61,
-          "form": "2416-6",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Downpatrick",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 22.0,
-        "runs": 1
-      },
-      "favourite_going": null,
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 50,
-      "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 44,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Downpatrick",
-        "latest_distance_f": 22.0,
-        "latest_going": "",
-        "latest_class": "",
-        "latest_pulse_score": 50,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Mickey Cohen",
-      "horse_id": "hrs_40918479",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Downpatrick",
-      "latest_time": "4:47",
-      "latest_race": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
-      "latest_date": "2026-07-14",
-      "latest_distance_f": 22.0,
-      "latest_class": "",
-      "latest_going": "",
-      "latest_surface": "Turf",
-      "latest_trainer": "Noel Meade",
-      "latest_jockey": "Reserve 1",
-      "latest_draw": 0,
-      "latest_weight_lbs": 156,
-      "official_rating": "100",
-      "recent_form": "4312-4",
-      "last_run_days": 2,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Limerick": 1,
-        "Downpatrick": 1
-      },
-      "distances_seen": {
-        "20.0": 1,
-        "22.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Noel Meade": 2
-      },
-      "jockeys_seen": {
-        "Mr Finn Tegetmeier(7)": 1,
-        "Reserve 1": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 54,
-      "latest_notes": [
-        "Strong recent form",
-        "Questionable run timing",
-        "Very long absence concern -7",
-        "Helpful draw",
-        "Trainer bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12008113",
-          "course": "Limerick",
-          "date": "2026-07-02",
-          "off_time": "6:23",
-          "off_dt": "2026-07-02T18:23:00+01:00",
-          "race_name": "Joe Walsh Flooring Handicap Hurdle",
-          "distance_f": 20.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Mickey Cohen",
-          "horse_id": "hrs_40918479",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Noel Meade",
-          "trainer_id": "trn_40014",
-          "jockey": "Mr Finn Tegetmeier(7)",
-          "jockey_id": "jky_308967",
-          "draw": 0,
-          "number": 8,
-          "lbs": 160,
-          "ofr": "100",
-          "last_run": 269,
-          "form": "34312-",
-          "headgear": "",
-          "_stored_at": "2026-07-02T00:01:35.760276+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000002561",
-          "course": "Downpatrick",
-          "date": "2026-07-14",
-          "off_time": "4:47",
-          "off_dt": "2026-07-14T16:47:00+01:00",
-          "race_name": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
-          "distance_f": 22.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "",
-          "surface": "Turf",
-          "field_size": 18,
-          "horse": "Mickey Cohen",
-          "horse_id": "hrs_40918479",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Noel Meade",
-          "trainer_id": "trn_40014",
-          "jockey": "Reserve 1",
-          "jockey_id": "",
-          "draw": 0,
-          "number": 16,
-          "lbs": 156,
-          "ofr": "100",
-          "last_run": 2,
-          "form": "4312-4",
-          "headgear": ""
-        }
-      ],
       "profile_notes": [
-        "Recent run timing"
+        "Profile has multiple stored runs"
       ],
       "favourite_course": {
-        "value": "Limerick",
-        "runs": 1
+        "value": "Cartmel",
+        "runs": 2
       },
       "favourite_distance": {
-        "value": 20.0,
-        "runs": 1
+        "value": 22.0,
+        "runs": 3
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 3
       },
-      "favourite_class": null,
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
       "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
-      "horse_intelligence_score": 40,
-      "profile_strengths": [],
+      "suitability_score": 71,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
+        "Course does not strongly match stored profile"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Downpatrick",
         "latest_distance_f": 22.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 54,
+        "latest_pulse_score": 55,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -1743,7 +1793,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 22.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "T G McCourt",
       "latest_jockey": "Ben Harvey",
@@ -1762,7 +1812,7 @@
         "22.0": 1
       },
       "goings_seen": {
-        "Good": 1
+        "Good": 2
       },
       "classes_seen": {},
       "trainers_seen": {
@@ -1774,11 +1824,11 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 53,
+      "latest_pulse_score": 45,
       "latest_notes": [
-        "Positive recent form",
+        "Weak recent form",
         "Good recent run timing",
-        "Ideal layoff profile +2"
+        "Helpful draw"
       ],
       "runs": [
         {
@@ -1810,7 +1860,7 @@
           "last_run": 26,
           "form": "4-5628",
           "headgear": "p",
-          "_stored_at": "2026-07-03T00:37:06.354479+00:00"
+          "_stored_at": "2026-07-03T04:58:51.855695+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1823,9 +1873,9 @@
           "distance_f": 22.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 13,
           "horse": "Eastern Wind",
           "horse_id": "hrs_26036997",
           "age": 7,
@@ -1856,29 +1906,30 @@
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": null,
       "course_suitability_score": 55,
       "distance_suitability_score": 55,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 52,
+      "suitability_score": 62,
       "horse_intelligence_score": 39,
-      "profile_strengths": [],
+      "profile_strengths": [
+        "Today's going matches known profile preference"
+      ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Downpatrick",
         "latest_distance_f": 22.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 53,
+        "latest_pulse_score": 45,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1895,7 +1946,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 22.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Gordon Elliott",
       "latest_jockey": "Danny Gilligan",
@@ -1911,7 +1962,9 @@
       "distances_seen": {
         "22.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Gordon Elliott": 1
@@ -1921,14 +1974,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 36,
+      "latest_pulse_score": 31,
       "latest_notes": [
         "Weak recent form",
         "Questionable run timing",
         "Very long absence concern -7",
         "Helpful draw",
-        "Stable flying +4 (15/15 last 14 days)",
-        "Jockey flying +4 (6/9 last 14 days)"
+        "Trainer bonus +2",
+        "Jockey bonus +1"
       ],
       "runs": [
         {
@@ -1942,9 +1995,9 @@
           "distance_f": 22.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 13,
           "horse": "Boston Beach",
           "horse_id": "hrs_43797131",
           "age": 7,
@@ -1973,20 +2026,23 @@
         "value": 22.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 37,
+      "suitability_score": 80,
+      "horse_intelligence_score": 38,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -1994,9 +2050,9 @@
       "enrich_signature": {
         "latest_course": "Downpatrick",
         "latest_distance_f": 22.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": 36,
+        "latest_pulse_score": 31,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -2013,7 +2069,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 22.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "W P Mullins",
       "latest_jockey": "Brian Hayes",
@@ -2029,7 +2085,9 @@
       "distances_seen": {
         "22.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "W P Mullins": 1
@@ -2058,9 +2116,9 @@
           "distance_f": 22.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 13,
           "horse": "Caher Roes Den",
           "horse_id": "hrs_32264743",
           "age": 8,
@@ -2089,20 +2147,23 @@
         "value": 22.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 35,
+      "suitability_score": 80,
+      "horse_intelligence_score": 38,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -2110,7 +2171,7 @@
       "enrich_signature": {
         "latest_course": "Downpatrick",
         "latest_distance_f": 22.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 31,
         "average_pulse_score": 0,
@@ -2129,7 +2190,7 @@
       "latest_date": "2026-07-14",
       "latest_distance_f": 22.0,
       "latest_class": "",
-      "latest_going": "",
+      "latest_going": "Good",
       "latest_surface": "Turf",
       "latest_trainer": "Dermot A McLoughlin",
       "latest_jockey": "P J O'Hanlon",
@@ -2145,7 +2206,9 @@
       "distances_seen": {
         "22.0": 1
       },
-      "goings_seen": {},
+      "goings_seen": {
+        "Good": 1
+      },
       "classes_seen": {},
       "trainers_seen": {
         "Dermot A McLoughlin": 1
@@ -2174,9 +2237,9 @@
           "distance_f": 22.0,
           "race_class": "",
           "race_type": "Hurdle",
-          "going": "",
+          "going": "Good",
           "surface": "Turf",
-          "field_size": 18,
+          "field_size": 13,
           "horse": "Ivybrook",
           "horse_id": "hrs_38002398",
           "age": 8,
@@ -2205,20 +2268,23 @@
         "value": 22.0,
         "runs": 1
       },
-      "favourite_going": null,
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
       "favourite_class": null,
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 50,
+      "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 70,
-      "horse_intelligence_score": 34,
+      "suitability_score": 80,
+      "horse_intelligence_score": 37,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern"
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Going is not clearly proven from stored profile",
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -2226,18 +2292,174 @@
       "enrich_signature": {
         "latest_course": "Downpatrick",
         "latest_distance_f": 22.0,
-        "latest_going": "",
+        "latest_going": "Good",
         "latest_class": "",
         "latest_pulse_score": 28,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
+    },
+    {
+      "horse": "Mickey Cohen",
+      "horse_id": "hrs_40918479",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Downpatrick",
+      "latest_time": "4:47",
+      "latest_race": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
+      "latest_date": "2026-07-14",
+      "latest_distance_f": 22.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Noel Meade",
+      "latest_jockey": "Reserve 1",
+      "latest_draw": 0,
+      "latest_weight_lbs": 156,
+      "official_rating": "100",
+      "recent_form": "4312-4",
+      "last_run_days": 2,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Limerick": 1,
+        "Downpatrick": 1
+      },
+      "distances_seen": {
+        "20.0": 1,
+        "22.0": 1
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Noel Meade": 2
+      },
+      "jockeys_seen": {
+        "Mr Finn Tegetmeier(7)": 1,
+        "Reserve 1": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 29,
+      "latest_notes": [
+        "Strong recent form",
+        "Questionable run timing",
+        "Sharp return concern -3",
+        "Helpful draw",
+        "Non-runner risk"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12008113",
+          "course": "Limerick",
+          "date": "2026-07-02",
+          "off_time": "6:23",
+          "off_dt": "2026-07-02T18:23:00+01:00",
+          "race_name": "Joe Walsh Flooring Handicap Hurdle",
+          "distance_f": 20.0,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 15,
+          "horse": "Mickey Cohen",
+          "horse_id": "hrs_40918479",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Noel Meade",
+          "trainer_id": "trn_40014",
+          "jockey": "Mr Finn Tegetmeier(7)",
+          "jockey_id": "jky_308967",
+          "draw": 0,
+          "number": 8,
+          "lbs": 160,
+          "ofr": "100",
+          "last_run": 269,
+          "form": "34312-",
+          "headgear": "",
+          "_stored_at": "2026-07-02T04:58:44.720641+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000002561",
+          "course": "Downpatrick",
+          "date": "2026-07-14",
+          "off_time": "4:47",
+          "off_dt": "2026-07-14T16:47:00+01:00",
+          "race_name": "Tote Guarantee, Never Beaten By SP Handicap Hurdle",
+          "distance_f": 22.0,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Mickey Cohen",
+          "horse_id": "hrs_40918479",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Noel Meade",
+          "trainer_id": "trn_40014",
+          "jockey": "Reserve 1",
+          "jockey_id": "",
+          "draw": 0,
+          "number": null,
+          "lbs": 156,
+          "ofr": "100",
+          "last_run": 2,
+          "form": "4312-4",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Limerick",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 20.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": null,
+      "course_suitability_score": 55,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 62,
+      "horse_intelligence_score": 32,
+      "profile_strengths": [
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength",
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Downpatrick",
+        "latest_distance_f": 22.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 29,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
     }
   ],
   "notes": [
-    "Morell River is the top-rated Pulse IQ runner.",
+    "Nakassama is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "Cozone is flagged as a possible dark horse."
+    "Morell River is flagged as a possible dark horse."
   ]
 }

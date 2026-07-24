@@ -17,8 +17,12 @@ from app.modules.arbitrage.models import (
     RaceMarket,
     RunnerMarket,
 )
-from app.core.bookmakers import UK_ALLOWED_BOOKS
-from app.modules.arbitrage.store import normalize_bookmaker
+from app.modules.arbitrage.bookmakers import (
+    get_bookmaker,
+    is_sportsbook,
+    is_verified_bookmaker,
+    supports_horse_racing,
+)
 
 DEFAULT_OUTPUT_PATH = Path(
     "data/arbitrage/horse_opportunities.json"
@@ -479,20 +483,18 @@ class ArbitrageEngine:
                         or price_data.get("source")
                     )
 
-                    bookmaker_key = normalize_bookmaker(bookmaker)
+                    book = get_bookmaker(bookmaker)
 
-                    allowed_books = {
-                        normalize_bookmaker(book)
-                        for book in UK_ALLOWED_BOOKS
-                    }
+                    if book is None:
+                        continue
 
-                    print(
-                        f"[ARB BOOK FILTER] {bookmaker!r} -> "
-                        f"{bookmaker_key!r} | "
-                        f"allowed={bookmaker_key in allowed_books}"
-                    )
+                    if not is_verified_bookmaker(bookmaker):
+                        continue
 
-                    if bookmaker_key not in allowed_books:
+                    if not is_sportsbook(bookmaker):
+                        continue
+
+                    if not supports_horse_racing(bookmaker):
                         continue
 
                     raw_odds = clean(

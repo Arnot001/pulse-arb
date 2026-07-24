@@ -4,18 +4,18 @@
   "course": "Wolverhampton (AW)",
   "time": "6:10",
   "race_name": "Get Raceday Ready Handicap",
-  "field_size": 7,
-  "average_intelligence": 47.57,
-  "top_score": 54,
-  "second_score": 53,
-  "gap": 1,
-  "confidence_score": 43,
+  "field_size": 5,
+  "average_intelligence": 27.0,
+  "top_score": 27,
+  "second_score": 27,
+  "gap": 0,
+  "confidence_score": 22,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Reds And Wolves",
-    "horse_id": "hrs_51557884",
-    "age": 4,
+    "horse": "Cephalus",
+    "horse_id": "hrs_25637906",
+    "age": 7,
     "sex": "gelding",
     "latest_course": "Wolverhampton (AW)",
     "latest_time": "6:10",
@@ -25,13 +25,13 @@
     "latest_class": "Class 5",
     "latest_going": "Standard",
     "latest_surface": "AW",
-    "latest_trainer": "Hugo Palmer",
-    "latest_jockey": "Oisin Murphy",
-    "latest_draw": 11,
-    "latest_weight_lbs": 134,
-    "official_rating": "69",
-    "recent_form": "554-4",
-    "last_run_days": 19,
+    "latest_trainer": "Chelsea Banham",
+    "latest_jockey": "Joey Haynes",
+    "latest_draw": 12,
+    "latest_weight_lbs": 130,
+    "official_rating": "65",
+    "recent_form": "-69089",
+    "last_run_days": 48,
     "profile_runs": 1,
     "courses_seen": {
       "Wolverhampton (AW)": 1
@@ -46,20 +46,15 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Hugo Palmer": 1
+      "Chelsea Banham": 1
     },
     "jockeys_seen": {
-      "Oisin Murphy": 1
+      "Joey Haynes": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 60,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Jockey bonus +2"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -75,21 +70,21 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 12,
-        "horse": "Reds And Wolves",
-        "horse_id": "hrs_51557884",
-        "age": 4,
+        "horse": "Cephalus",
+        "horse_id": "hrs_25637906",
+        "age": 7,
         "sex": "gelding",
-        "trainer": "Hugo Palmer",
-        "trainer_id": "trn_225081",
-        "jockey": "Oisin Murphy",
-        "jockey_id": "jky_278184",
-        "draw": 11,
-        "number": 3,
-        "lbs": 134,
-        "ofr": "69",
-        "last_run": 19,
-        "form": "554-4",
-        "headgear": "t"
+        "trainer": "Chelsea Banham",
+        "trainer_id": "trn_326448",
+        "jockey": "Joey Haynes",
+        "jockey_id": "jky_274959",
+        "draw": 12,
+        "number": 7,
+        "lbs": 130,
+        "ofr": "65",
+        "last_run": 48,
+        "form": "-69089",
+        "headgear": "b"
       }
     ],
     "profile_notes": [],
@@ -114,7 +109,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 54,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -122,6 +117,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -130,7 +126,7 @@
       "latest_distance_f": 8.5,
       "latest_going": "Standard",
       "latest_class": "Class 5",
-      "latest_pulse_score": 60,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -177,13 +173,8 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 58,
-    "latest_notes": [
-      "Strong recent form",
-      "Good recent run timing",
-      "Helpful draw",
-      "Jockey concern -2"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -238,7 +229,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 53,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -246,6 +237,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -254,15 +246,15 @@
       "latest_distance_f": 8.5,
       "latest_going": "Standard",
       "latest_class": "Class 5",
-      "latest_pulse_score": 58,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "R P Mcmurphy",
-    "horse_id": "hrs_52329578",
+    "horse": "Reds And Wolves",
+    "horse_id": "hrs_51557884",
     "age": 4,
     "sex": "gelding",
     "latest_course": "Wolverhampton (AW)",
@@ -273,13 +265,13 @@
     "latest_class": "Class 5",
     "latest_going": "Standard",
     "latest_surface": "AW",
-    "latest_trainer": "Michael Appleby",
-    "latest_jockey": "Edward Greatrex",
-    "latest_draw": 4,
-    "latest_weight_lbs": 126,
-    "official_rating": "61",
-    "recent_form": "33-318",
-    "last_run_days": 144,
+    "latest_trainer": "Hugo Palmer",
+    "latest_jockey": "Oisin Murphy",
+    "latest_draw": 11,
+    "latest_weight_lbs": 134,
+    "official_rating": "69",
+    "recent_form": "554-4",
+    "last_run_days": 19,
     "profile_runs": 1,
     "courses_seen": {
       "Wolverhampton (AW)": 1
@@ -294,24 +286,15 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Michael Appleby": 1
+      "Hugo Palmer": 1
     },
     "jockeys_seen": {
-      "Edward Greatrex": 1
+      "Oisin Murphy": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 53,
-    "latest_notes": [
-      "Strong recent form",
-      "Questionable run timing",
-      "Long layoff concern -4",
-      "Helpful draw",
-      "Trainer concern -2",
-      "Stable in form +2 (1/5 last 14 days)",
-      "Jockey bonus +2",
-      "Jockey flying +4 (3/6 last 14 days)"
-    ],
+    "latest_pulse_score": null,
+    "latest_notes": [],
     "runs": [
       {
         "source": "the_racing_api",
@@ -327,26 +310,24 @@
         "going": "Standard",
         "surface": "AW",
         "field_size": 12,
-        "horse": "R P Mcmurphy",
-        "horse_id": "hrs_52329578",
+        "horse": "Reds And Wolves",
+        "horse_id": "hrs_51557884",
         "age": 4,
         "sex": "gelding",
-        "trainer": "Michael Appleby",
-        "trainer_id": "trn_93267",
-        "jockey": "Edward Greatrex",
-        "jockey_id": "jky_282474",
-        "draw": 4,
-        "number": 10,
-        "lbs": 126,
-        "ofr": "61",
-        "last_run": 144,
-        "form": "33-318",
-        "headgear": "p"
+        "trainer": "Hugo Palmer",
+        "trainer_id": "trn_225081",
+        "jockey": "Oisin Murphy",
+        "jockey_id": "jky_278184",
+        "draw": 11,
+        "number": 3,
+        "lbs": 134,
+        "ofr": "69",
+        "last_run": 19,
+        "form": "554-4",
+        "headgear": "t"
       }
     ],
-    "profile_notes": [
-      "Returning from a break"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Wolverhampton (AW)",
       "runs": 1
@@ -368,7 +349,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 51,
+    "horse_intelligence_score": 27,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -376,6 +357,7 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -384,7 +366,7 @@
       "latest_distance_f": 8.5,
       "latest_going": "Standard",
       "latest_class": "Class 5",
-      "latest_pulse_score": 53,
+      "latest_pulse_score": null,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -392,9 +374,9 @@
   },
   "runners": [
     {
-      "horse": "Reds And Wolves",
-      "horse_id": "hrs_51557884",
-      "age": 4,
+      "horse": "Cephalus",
+      "horse_id": "hrs_25637906",
+      "age": 7,
       "sex": "gelding",
       "latest_course": "Wolverhampton (AW)",
       "latest_time": "6:10",
@@ -404,13 +386,13 @@
       "latest_class": "Class 5",
       "latest_going": "Standard",
       "latest_surface": "AW",
-      "latest_trainer": "Hugo Palmer",
-      "latest_jockey": "Oisin Murphy",
-      "latest_draw": 11,
-      "latest_weight_lbs": 134,
-      "official_rating": "69",
-      "recent_form": "554-4",
-      "last_run_days": 19,
+      "latest_trainer": "Chelsea Banham",
+      "latest_jockey": "Joey Haynes",
+      "latest_draw": 12,
+      "latest_weight_lbs": 130,
+      "official_rating": "65",
+      "recent_form": "-69089",
+      "last_run_days": 48,
       "profile_runs": 1,
       "courses_seen": {
         "Wolverhampton (AW)": 1
@@ -425,20 +407,15 @@
         "Class 5": 1
       },
       "trainers_seen": {
-        "Hugo Palmer": 1
+        "Chelsea Banham": 1
       },
       "jockeys_seen": {
-        "Oisin Murphy": 1
+        "Joey Haynes": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 60,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Jockey bonus +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -454,21 +431,21 @@
           "going": "Standard",
           "surface": "AW",
           "field_size": 12,
-          "horse": "Reds And Wolves",
-          "horse_id": "hrs_51557884",
-          "age": 4,
+          "horse": "Cephalus",
+          "horse_id": "hrs_25637906",
+          "age": 7,
           "sex": "gelding",
-          "trainer": "Hugo Palmer",
-          "trainer_id": "trn_225081",
-          "jockey": "Oisin Murphy",
-          "jockey_id": "jky_278184",
-          "draw": 11,
-          "number": 3,
-          "lbs": 134,
-          "ofr": "69",
-          "last_run": 19,
-          "form": "554-4",
-          "headgear": "t"
+          "trainer": "Chelsea Banham",
+          "trainer_id": "trn_326448",
+          "jockey": "Joey Haynes",
+          "jockey_id": "jky_274959",
+          "draw": 12,
+          "number": 7,
+          "lbs": 130,
+          "ofr": "65",
+          "last_run": 48,
+          "form": "-69089",
+          "headgear": "b"
         }
       ],
       "profile_notes": [],
@@ -493,7 +470,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -501,6 +478,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -509,7 +487,7 @@
         "latest_distance_f": 8.5,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": 60,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -556,13 +534,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 58,
-      "latest_notes": [
-        "Strong recent form",
-        "Good recent run timing",
-        "Helpful draw",
-        "Jockey concern -2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -617,7 +590,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 53,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -625,6 +598,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -633,7 +607,127 @@
         "latest_distance_f": 8.5,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": 58,
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Reds And Wolves",
+      "horse_id": "hrs_51557884",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Wolverhampton (AW)",
+      "latest_time": "6:10",
+      "latest_race": "Get Raceday Ready Handicap",
+      "latest_date": "2026-07-07",
+      "latest_distance_f": 8.5,
+      "latest_class": "Class 5",
+      "latest_going": "Standard",
+      "latest_surface": "AW",
+      "latest_trainer": "Hugo Palmer",
+      "latest_jockey": "Oisin Murphy",
+      "latest_draw": 11,
+      "latest_weight_lbs": 134,
+      "official_rating": "69",
+      "recent_form": "554-4",
+      "last_run_days": 19,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wolverhampton (AW)": 1
+      },
+      "distances_seen": {
+        "8.5": 1
+      },
+      "goings_seen": {
+        "Standard": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Hugo Palmer": 1
+      },
+      "jockeys_seen": {
+        "Oisin Murphy": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11992110",
+          "course": "Wolverhampton (AW)",
+          "date": "2026-07-07",
+          "off_time": "6:10",
+          "off_dt": "2026-07-07T18:10:00+01:00",
+          "race_name": "Get Raceday Ready Handicap",
+          "distance_f": 8.5,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Standard",
+          "surface": "AW",
+          "field_size": 12,
+          "horse": "Reds And Wolves",
+          "horse_id": "hrs_51557884",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "Hugo Palmer",
+          "trainer_id": "trn_225081",
+          "jockey": "Oisin Murphy",
+          "jockey_id": "jky_278184",
+          "draw": 11,
+          "number": 3,
+          "lbs": 134,
+          "ofr": "69",
+          "last_run": 19,
+          "form": "554-4",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wolverhampton (AW)",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Standard",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wolverhampton (AW)",
+        "latest_distance_f": 8.5,
+        "latest_going": "Standard",
+        "latest_class": "Class 5",
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -680,17 +774,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 53,
-      "latest_notes": [
-        "Strong recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw",
-        "Trainer concern -2",
-        "Stable in form +2 (1/5 last 14 days)",
-        "Jockey bonus +2",
-        "Jockey flying +4 (3/6 last 14 days)"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -747,7 +832,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 51,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -755,6 +840,7 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -763,7 +849,7 @@
         "latest_distance_f": 8.5,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": 53,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -810,12 +896,8 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 53,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2"
-      ],
+      "latest_pulse_score": null,
+      "latest_notes": [],
       "runs": [
         {
           "source": "the_racing_api",
@@ -870,133 +952,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 51,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 53,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Pursuit Of Truth",
-      "horse_id": "hrs_36062075",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "6:10",
-      "latest_race": "Get Raceday Ready Handicap",
-      "latest_date": "2026-07-07",
-      "latest_distance_f": 8.5,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Pat Phelan",
-      "latest_jockey": "Rhys Clutterbuck",
-      "latest_draw": 5,
-      "latest_weight_lbs": 134,
-      "official_rating": "69",
-      "recent_form": "4710-4",
-      "last_run_days": 132,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wolverhampton (AW)": 1
-      },
-      "distances_seen": {
-        "8.5": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Pat Phelan": 1
-      },
-      "jockeys_seen": {
-        "Rhys Clutterbuck": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 36,
-      "latest_notes": [
-        "Positive recent form",
-        "Questionable run timing",
-        "Long layoff concern -4",
-        "Helpful draw"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992110",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-07",
-          "off_time": "6:10",
-          "off_dt": "2026-07-07T18:10:00+01:00",
-          "race_name": "Get Raceday Ready Handicap",
-          "distance_f": 8.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 12,
-          "horse": "Pursuit Of Truth",
-          "horse_id": "hrs_36062075",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Pat Phelan",
-          "trainer_id": "trn_143226",
-          "jockey": "Rhys Clutterbuck",
-          "jockey_id": "jky_294762",
-          "draw": 5,
-          "number": 2,
-          "lbs": 134,
-          "ofr": "69",
-          "last_run": 132,
-          "form": "4710-4",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 43,
+      "horse_intelligence_score": 27,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1013,300 +969,17 @@
         "latest_distance_f": 8.5,
         "latest_going": "Standard",
         "latest_class": "Class 5",
-        "latest_pulse_score": 36,
+        "latest_pulse_score": null,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
-    },
-    {
-      "horse": "Cephalus",
-      "horse_id": "hrs_25637906",
-      "age": 7,
-      "sex": "gelding",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "6:10",
-      "latest_race": "Get Raceday Ready Handicap",
-      "latest_date": "2026-07-07",
-      "latest_distance_f": 8.5,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Chelsea Banham",
-      "latest_jockey": "Joey Haynes",
-      "latest_draw": 12,
-      "latest_weight_lbs": 130,
-      "official_rating": "65",
-      "recent_form": "-69089",
-      "last_run_days": 48,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wolverhampton (AW)": 1
-      },
-      "distances_seen": {
-        "8.5": 1
-      },
-      "goings_seen": {
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Chelsea Banham": 1
-      },
-      "jockeys_seen": {
-        "Joey Haynes": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 34,
-      "latest_notes": [
-        "Weak recent form",
-        "Good recent run timing",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992110",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-07",
-          "off_time": "6:10",
-          "off_dt": "2026-07-07T18:10:00+01:00",
-          "race_name": "Get Raceday Ready Handicap",
-          "distance_f": 8.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 12,
-          "horse": "Cephalus",
-          "horse_id": "hrs_25637906",
-          "age": 7,
-          "sex": "gelding",
-          "trainer": "Chelsea Banham",
-          "trainer_id": "trn_326448",
-          "jockey": "Joey Haynes",
-          "jockey_id": "jky_274959",
-          "draw": 12,
-          "number": 7,
-          "lbs": 130,
-          "ofr": "65",
-          "last_run": 48,
-          "form": "-69089",
-          "headgear": "b"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wolverhampton (AW)",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Standard",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 42,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 34,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "River Wharfe",
-      "horse_id": "hrs_21866964",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Wolverhampton (AW)",
-      "latest_time": "6:10",
-      "latest_race": "Get Raceday Ready Handicap",
-      "latest_date": "2026-07-07",
-      "latest_distance_f": 8.5,
-      "latest_class": "Class 5",
-      "latest_going": "Standard",
-      "latest_surface": "AW",
-      "latest_trainer": "Tony Carroll",
-      "latest_jockey": "Matthew Lloyd Slater(7)",
-      "latest_draw": 8,
-      "latest_weight_lbs": 119,
-      "official_rating": "54",
-      "recent_form": "718606",
-      "last_run_days": 12,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Nottingham": 1,
-        "Wolverhampton (AW)": 1
-      },
-      "distances_seen": {
-        "8.5": 2
-      },
-      "goings_seen": {
-        "Good": 1,
-        "Standard": 1
-      },
-      "classes_seen": {
-        "Class 6": 1,
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "A W Carroll": 1,
-        "Tony Carroll": 1
-      },
-      "jockeys_seen": {
-        "Matthew Slater": 1,
-        "Matthew Lloyd Slater(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 45,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977277",
-          "course": "Nottingham",
-          "date": "2026-06-25",
-          "off_time": "11:30",
-          "off_dt": "2026-06-25T11:30:00+01:00",
-          "race_name": "Cambion Electronics 65 Years In Manufacturing 'Hands And Heels' Apprentice Handicap",
-          "distance_f": 8.5,
-          "race_class": "Class 6",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "River Wharfe",
-          "horse_id": "hrs_21866964",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "A W Carroll",
-          "trainer_id": "trn_87426",
-          "jockey": "Matthew Slater",
-          "jockey_id": "jky_313539",
-          "draw": 8,
-          "number": 8,
-          "lbs": 130,
-          "ofr": "56",
-          "last_run": 58,
-          "form": "371860",
-          "headgear": "",
-          "_stored_at": "2026-06-25T06:53:22.322698+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11992110",
-          "course": "Wolverhampton (AW)",
-          "date": "2026-07-07",
-          "off_time": "6:10",
-          "off_dt": "2026-07-07T18:10:00+01:00",
-          "race_name": "Get Raceday Ready Handicap",
-          "distance_f": 8.5,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Standard",
-          "surface": "AW",
-          "field_size": 12,
-          "horse": "River Wharfe",
-          "horse_id": "hrs_21866964",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Tony Carroll",
-          "trainer_id": "trn_87426",
-          "jockey": "Matthew Lloyd Slater(7)",
-          "jockey_id": "jky_306570",
-          "draw": 8,
-          "number": 12,
-          "lbs": 119,
-          "ofr": "54",
-          "last_run": 12,
-          "form": "718606",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Nottingham",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 6",
-        "runs": 1
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 55,
-      "class_suitability_score": 55,
-      "suitability_score": 64,
-      "horse_intelligence_score": 39,
-      "profile_strengths": [
-        "Today's distance matches strongest profile pattern"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wolverhampton (AW)",
-        "latest_distance_f": 8.5,
-        "latest_going": "Standard",
-        "latest_class": "Class 5",
-        "latest_pulse_score": 45,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
       }
     }
   ],
   "notes": [
-    "Reds And Wolves is the top-rated Pulse IQ runner.",
+    "Cephalus is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "R P Mcmurphy is flagged as a possible dark horse."
+    "This race has a generally weak profile strength.",
+    "Reds And Wolves is flagged as a possible dark horse."
   ]
 }

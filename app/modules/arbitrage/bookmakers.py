@@ -24,6 +24,8 @@ class Bookmaker:
     uk_supported: bool = True
 
     supports_deep_links: bool = False
+    
+    execution_adapter: bool = False
 
     execution_priority: int = 100
 
@@ -43,6 +45,7 @@ BOOKMAKERS: Dict[str, Bookmaker] = {
         id="bet365",
         display_name="Bet365",
         homepage="https://www.bet365.com/",
+        execution_adapter=True,
         execution_priority=10,
     ),
 
@@ -153,6 +156,35 @@ BOOKMAKERS: Dict[str, Bookmaker] = {
 # Helpers
 # ---------------------------------------------------------
 
+def bookmaker_status(bookmaker: str) -> str:
+    info = get_bookmaker(bookmaker)
+
+    if info is None:
+        return "UNKNOWN"
+
+    if not info.enabled:
+        return "INACTIVE"
+
+    if info.exchange:
+        return "EXCHANGE"
+
+    if info.execution_adapter:
+        return "ADAPTER"
+
+    return "MANUAL"
+
+
+def execution_supported(bookmaker: str) -> bool:
+    info = get_bookmaker(bookmaker)
+
+    return bool(
+        info
+        and info.enabled
+        and info.uk_supported
+        and not info.exchange
+        and info.execution_adapter
+    )
+
 def get_bookmaker(
     bookmaker_id: str,
 ) -> Bookmaker | None:
@@ -194,3 +226,16 @@ def exchange_bookmakers():
         for bookmaker in all_bookmakers()
         if bookmaker.exchange
     ]
+    
+def sportsbook_ids() -> set[str]:
+    return {
+        bookmaker.id
+        for bookmaker in sportsbook_bookmakers()
+    }
+
+
+def exchange_ids() -> set[str]:
+    return {
+        bookmaker.id
+        for bookmaker in exchange_bookmakers()
+    }
