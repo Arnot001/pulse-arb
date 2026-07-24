@@ -4,132 +4,15 @@
   "course": "Wexford",
   "time": "6:52",
   "race_name": "Slaney Valley Beginners Chase",
-  "field_size": 7,
-  "average_intelligence": 24.0,
-  "top_score": 24,
-  "second_score": 24,
+  "field_size": 10,
+  "average_intelligence": 49.3,
+  "top_score": 54,
+  "second_score": 54,
   "gap": 0,
-  "confidence_score": 19,
+  "confidence_score": 42,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Cinammon Roll",
-    "horse_id": "hrs_47621070",
-    "age": 6,
-    "sex": "gelding",
-    "latest_course": "Wexford",
-    "latest_time": "6:52",
-    "latest_race": "Slaney Valley Beginners Chase",
-    "latest_date": "2026-07-03",
-    "latest_distance_f": 19.5,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Gordon Elliott",
-    "latest_jockey": "Josh Williamson(5)",
-    "latest_draw": 0,
-    "latest_weight_lbs": 166,
-    "official_rating": "-",
-    "recent_form": "11626-",
-    "last_run_days": 272,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Wexford": 1
-    },
-    "distances_seen": {
-      "19.5": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Gordon Elliott": 1
-    },
-    "jockeys_seen": {
-      "Josh Williamson(5)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12009465",
-        "course": "Wexford",
-        "date": "2026-07-03",
-        "off_time": "6:52",
-        "off_dt": "2026-07-03T18:52:00+01:00",
-        "race_name": "Slaney Valley Beginners Chase",
-        "distance_f": 19.5,
-        "race_class": "",
-        "race_type": "Chase",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 11,
-        "horse": "Cinammon Roll",
-        "horse_id": "hrs_47621070",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "Gordon Elliott",
-        "trainer_id": "trn_163305",
-        "jockey": "Josh Williamson(5)",
-        "jockey_id": "jky_307062",
-        "draw": 0,
-        "number": 1,
-        "lbs": 166,
-        "ofr": "-",
-        "last_run": 272,
-        "form": "11626-",
-        "headgear": "p",
-        "_stored_at": "2026-07-03T04:58:54.006236+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Returning from a break"
-    ],
-    "favourite_course": {
-      "value": "Wexford",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 19.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 24,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Wexford",
-      "latest_distance_f": 19.5,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Coyote Spirit",
     "horse_id": "hrs_41152909",
     "age": 8,
@@ -168,8 +51,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 66,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Stable in form +2 (2/2 last 14 days)",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -200,7 +91,7 @@
         "last_run": 18,
         "form": "3410-6",
         "headgear": "p",
-        "_stored_at": "2026-07-03T04:58:54.033083+00:00"
+        "_stored_at": "2026-07-03T00:37:09.090288+00:00"
       }
     ],
     "profile_notes": [],
@@ -222,14 +113,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 54,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
+      "Today's going matches known profile preference",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -238,16 +129,16 @@
       "latest_distance_f": 19.5,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 66,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
-    "horse": "Donnie Devito",
-    "horse_id": "hrs_35513366",
-    "age": 6,
+  "main_threat": {
+    "horse": "Jackson Lamb",
+    "horse_id": "hrs_34598158",
+    "age": 7,
     "sex": "gelding",
     "latest_course": "Wexford",
     "latest_time": "6:52",
@@ -257,13 +148,13 @@
     "latest_class": "",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Ross O'Sullivan",
-    "latest_jockey": "Danny Gilligan",
+    "latest_trainer": "John C McConnell",
+    "latest_jockey": "Alex Harvey",
     "latest_draw": 0,
     "latest_weight_lbs": 166,
     "official_rating": "-",
-    "recent_form": "34323-",
-    "last_run_days": 218,
+    "recent_form": "3110-P",
+    "last_run_days": 33,
     "profile_runs": 1,
     "courses_seen": {
       "Wexford": 1
@@ -276,15 +167,22 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "Ross O'Sullivan": 1
+      "John C McConnell": 1
     },
     "jockeys_seen": {
-      "Danny Gilligan": 1
+      "Alex Harvey": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 67,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer concern -2",
+      "Jockey concern -2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -300,27 +198,25 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 11,
-        "horse": "Donnie Devito",
-        "horse_id": "hrs_35513366",
-        "age": 6,
+        "horse": "Jackson Lamb",
+        "horse_id": "hrs_34598158",
+        "age": 7,
         "sex": "gelding",
-        "trainer": "Ross O'Sullivan",
-        "trainer_id": "trn_227025",
-        "jockey": "Danny Gilligan",
-        "jockey_id": "jky_304860",
+        "trainer": "John C McConnell",
+        "trainer_id": "trn_132759",
+        "jockey": "Alex Harvey",
+        "jockey_id": "jky_26976",
         "draw": 0,
-        "number": 3,
+        "number": 7,
         "lbs": 166,
         "ofr": "-",
-        "last_run": 218,
-        "form": "34323-",
-        "headgear": "t",
-        "_stored_at": "2026-07-03T04:58:54.059848+00:00"
+        "last_run": 33,
+        "form": "3110-P",
+        "headgear": "h",
+        "_stored_at": "2026-07-03T00:37:09.262235+00:00"
       }
     ],
-    "profile_notes": [
-      "Returning from a break"
-    ],
+    "profile_notes": [],
     "favourite_course": {
       "value": "Wexford",
       "runs": 1
@@ -339,14 +235,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 54,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
+      "Today's going matches known profile preference",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -355,130 +251,137 @@
       "latest_distance_f": 19.5,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 67,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Pinot Gris",
+    "horse_id": "hrs_34874322",
+    "age": 6,
+    "sex": "gelding",
+    "latest_course": "Wexford",
+    "latest_time": "6:52",
+    "latest_race": "Slaney Valley Beginners Chase",
+    "latest_date": "2026-07-03",
+    "latest_distance_f": 19.5,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Henry De Bromhead",
+    "latest_jockey": "Darragh O'Keeffe",
+    "latest_draw": 0,
+    "latest_weight_lbs": 166,
+    "official_rating": "-",
+    "recent_form": "7/004-",
+    "last_run_days": 80,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Wexford": 1
+    },
+    "distances_seen": {
+      "19.5": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Henry De Bromhead": 1
+    },
+    "jockeys_seen": {
+      "Darragh O'Keeffe": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 64,
+    "latest_notes": [
+      "Weak recent form",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Stable flying +4 (3/10 last 14 days)",
+      "Jockey bonus +3",
+      "Jockey flying +4 (3/11 last 14 days)",
+      "Historical winner +3",
+      "Previous course winner +4",
+      "Going specialist +4 (2/2 on going)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12009465",
+        "course": "Wexford",
+        "date": "2026-07-03",
+        "off_time": "6:52",
+        "off_dt": "2026-07-03T18:52:00+01:00",
+        "race_name": "Slaney Valley Beginners Chase",
+        "distance_f": 19.5,
+        "race_class": "",
+        "race_type": "Chase",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 11,
+        "horse": "Pinot Gris",
+        "horse_id": "hrs_34874322",
+        "age": 6,
+        "sex": "gelding",
+        "trainer": "Henry De Bromhead",
+        "trainer_id": "trn_11241",
+        "jockey": "Darragh O'Keeffe",
+        "jockey_id": "jky_289173",
+        "draw": 0,
+        "number": 9,
+        "lbs": 166,
+        "ofr": "-",
+        "last_run": 80,
+        "form": "7/004-",
+        "headgear": "tp",
+        "_stored_at": "2026-07-03T00:37:09.340493+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Wexford",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 19.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 53,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Wexford",
+      "latest_distance_f": 19.5,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": 64,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Cinammon Roll",
-      "horse_id": "hrs_47621070",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Wexford",
-      "latest_time": "6:52",
-      "latest_race": "Slaney Valley Beginners Chase",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 19.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gordon Elliott",
-      "latest_jockey": "Josh Williamson(5)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 166,
-      "official_rating": "-",
-      "recent_form": "11626-",
-      "last_run_days": 272,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "19.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Gordon Elliott": 1
-      },
-      "jockeys_seen": {
-        "Josh Williamson(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009465",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "6:52",
-          "off_dt": "2026-07-03T18:52:00+01:00",
-          "race_name": "Slaney Valley Beginners Chase",
-          "distance_f": 19.5,
-          "race_class": "",
-          "race_type": "Chase",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Cinammon Roll",
-          "horse_id": "hrs_47621070",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "Josh Williamson(5)",
-          "jockey_id": "jky_307062",
-          "draw": 0,
-          "number": 1,
-          "lbs": 166,
-          "ofr": "-",
-          "last_run": 272,
-          "form": "11626-",
-          "headgear": "p",
-          "_stored_at": "2026-07-03T04:58:54.006236+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 19.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 19.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Coyote Spirit",
       "horse_id": "hrs_41152909",
@@ -518,8 +421,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 66,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -550,7 +461,7 @@
           "last_run": 18,
           "form": "3410-6",
           "headgear": "p",
-          "_stored_at": "2026-07-03T04:58:54.033083+00:00"
+          "_stored_at": "2026-07-03T00:37:09.090288+00:00"
         }
       ],
       "profile_notes": [],
@@ -572,14 +483,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 54,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's going matches known profile preference",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -588,16 +499,16 @@
         "latest_distance_f": 19.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 66,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Donnie Devito",
-      "horse_id": "hrs_35513366",
-      "age": 6,
+      "horse": "Jackson Lamb",
+      "horse_id": "hrs_34598158",
+      "age": 7,
       "sex": "gelding",
       "latest_course": "Wexford",
       "latest_time": "6:52",
@@ -607,13 +518,13 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Ross O'Sullivan",
-      "latest_jockey": "Danny Gilligan",
+      "latest_trainer": "John C McConnell",
+      "latest_jockey": "Alex Harvey",
       "latest_draw": 0,
       "latest_weight_lbs": 166,
       "official_rating": "-",
-      "recent_form": "34323-",
-      "last_run_days": 218,
+      "recent_form": "3110-P",
+      "last_run_days": 33,
       "profile_runs": 1,
       "courses_seen": {
         "Wexford": 1
@@ -626,15 +537,22 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Ross O'Sullivan": 1
+        "John C McConnell": 1
       },
       "jockeys_seen": {
-        "Danny Gilligan": 1
+        "Alex Harvey": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 67,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer concern -2",
+        "Jockey concern -2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -650,139 +568,22 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 11,
-          "horse": "Donnie Devito",
-          "horse_id": "hrs_35513366",
-          "age": 6,
+          "horse": "Jackson Lamb",
+          "horse_id": "hrs_34598158",
+          "age": 7,
           "sex": "gelding",
-          "trainer": "Ross O'Sullivan",
-          "trainer_id": "trn_227025",
-          "jockey": "Danny Gilligan",
-          "jockey_id": "jky_304860",
+          "trainer": "John C McConnell",
+          "trainer_id": "trn_132759",
+          "jockey": "Alex Harvey",
+          "jockey_id": "jky_26976",
           "draw": 0,
-          "number": 3,
+          "number": 7,
           "lbs": 166,
           "ofr": "-",
-          "last_run": 218,
-          "form": "34323-",
-          "headgear": "t",
-          "_stored_at": "2026-07-03T04:58:54.059848+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 19.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 19.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Duke Silver",
-      "horse_id": "hrs_39469115",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Wexford",
-      "latest_time": "6:52",
-      "latest_race": "Slaney Valley Beginners Chase",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 19.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Joseph Patrick O'Brien",
-      "latest_jockey": "J J Slevin",
-      "latest_draw": 0,
-      "latest_weight_lbs": 166,
-      "official_rating": "-",
-      "recent_form": "17603-",
-      "last_run_days": 64,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "19.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Joseph Patrick O'Brien": 1
-      },
-      "jockeys_seen": {
-        "J J Slevin": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009465",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "6:52",
-          "off_dt": "2026-07-03T18:52:00+01:00",
-          "race_name": "Slaney Valley Beginners Chase",
-          "distance_f": 19.5,
-          "race_class": "",
-          "race_type": "Chase",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Duke Silver",
-          "horse_id": "hrs_39469115",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Joseph Patrick O'Brien",
-          "trainer_id": "trn_289305",
-          "jockey": "J J Slevin",
-          "jockey_id": "jky_264864",
-          "draw": 0,
-          "number": 4,
-          "lbs": 166,
-          "ofr": "-",
-          "last_run": 64,
-          "form": "17603-",
-          "headgear": "",
-          "_stored_at": "2026-07-03T04:58:54.087930+00:00"
+          "last_run": 33,
+          "form": "3110-P",
+          "headgear": "h",
+          "_stored_at": "2026-07-03T00:37:09.262235+00:00"
         }
       ],
       "profile_notes": [],
@@ -804,14 +605,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 54,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's going matches known profile preference",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -820,237 +621,7 @@
         "latest_distance_f": 19.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Eclipse Chaser",
-      "horse_id": "hrs_39959668",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Wexford",
-      "latest_time": "6:52",
-      "latest_race": "Slaney Valley Beginners Chase",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 19.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "W P Mullins",
-      "latest_jockey": "Sean O'Keeffe",
-      "latest_draw": 0,
-      "latest_weight_lbs": 166,
-      "official_rating": "-",
-      "recent_form": "40PP-3",
-      "last_run_days": 57,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "19.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "W P Mullins": 1
-      },
-      "jockeys_seen": {
-        "Sean O'Keeffe": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009465",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "6:52",
-          "off_dt": "2026-07-03T18:52:00+01:00",
-          "race_name": "Slaney Valley Beginners Chase",
-          "distance_f": 19.5,
-          "race_class": "",
-          "race_type": "Chase",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Eclipse Chaser",
-          "horse_id": "hrs_39959668",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "W P Mullins",
-          "trainer_id": "trn_13275",
-          "jockey": "Sean O'Keeffe",
-          "jockey_id": "jky_295554",
-          "draw": 0,
-          "number": 5,
-          "lbs": 166,
-          "ofr": "-",
-          "last_run": 57,
-          "form": "40PP-3",
-          "headgear": "t",
-          "_stored_at": "2026-07-03T04:58:54.114226+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 19.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 19.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Fillyoureye",
-      "horse_id": "hrs_41052214",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Wexford",
-      "latest_time": "6:52",
-      "latest_race": "Slaney Valley Beginners Chase",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 19.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "W P Mullins",
-      "latest_jockey": "Brian Hayes",
-      "latest_draw": 0,
-      "latest_weight_lbs": 166,
-      "official_rating": "-",
-      "recent_form": "31P0-U",
-      "last_run_days": 27,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Wexford": 1
-      },
-      "distances_seen": {
-        "19.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "W P Mullins": 1
-      },
-      "jockeys_seen": {
-        "Brian Hayes": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009465",
-          "course": "Wexford",
-          "date": "2026-07-03",
-          "off_time": "6:52",
-          "off_dt": "2026-07-03T18:52:00+01:00",
-          "race_name": "Slaney Valley Beginners Chase",
-          "distance_f": 19.5,
-          "race_class": "",
-          "race_type": "Chase",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Fillyoureye",
-          "horse_id": "hrs_41052214",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "W P Mullins",
-          "trainer_id": "trn_13275",
-          "jockey": "Brian Hayes",
-          "jockey_id": "jky_251892",
-          "draw": 0,
-          "number": 6,
-          "lbs": 166,
-          "ofr": "-",
-          "last_run": 27,
-          "form": "31P0-U",
-          "headgear": "",
-          "_stored_at": "2026-07-03T04:58:54.141962+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Wexford",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 19.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Wexford",
-        "latest_distance_f": 19.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 67,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1095,8 +666,18 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 64,
+      "latest_notes": [
+        "Weak recent form",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable flying +4 (3/10 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey flying +4 (3/11 last 14 days)",
+        "Historical winner +3",
+        "Previous course winner +4",
+        "Going specialist +4 (2/2 on going)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1127,7 +708,7 @@
           "last_run": 80,
           "form": "7/004-",
           "headgear": "tp",
-          "_stored_at": "2026-07-03T04:58:54.225641+00:00"
+          "_stored_at": "2026-07-03T00:37:09.340493+00:00"
         }
       ],
       "profile_notes": [],
@@ -1149,14 +730,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 53,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1165,7 +745,857 @@
         "latest_distance_f": 19.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 64,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Fillyoureye",
+      "horse_id": "hrs_41052214",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "6:52",
+      "latest_race": "Slaney Valley Beginners Chase",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 19.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "W P Mullins",
+      "latest_jockey": "Brian Hayes",
+      "latest_draw": 0,
+      "latest_weight_lbs": 166,
+      "official_rating": "-",
+      "recent_form": "31P0-U",
+      "last_run_days": 27,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "19.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "W P Mullins": 1
+      },
+      "jockeys_seen": {
+        "Brian Hayes": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 63,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009465",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "6:52",
+          "off_dt": "2026-07-03T18:52:00+01:00",
+          "race_name": "Slaney Valley Beginners Chase",
+          "distance_f": 19.5,
+          "race_class": "",
+          "race_type": "Chase",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Fillyoureye",
+          "horse_id": "hrs_41052214",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "W P Mullins",
+          "trainer_id": "trn_13275",
+          "jockey": "Brian Hayes",
+          "jockey_id": "jky_251892",
+          "draw": 0,
+          "number": 6,
+          "lbs": 166,
+          "ofr": "-",
+          "last_run": 27,
+          "form": "31P0-U",
+          "headgear": "",
+          "_stored_at": "2026-07-03T00:37:09.229193+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 19.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 63,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Donnie Devito",
+      "horse_id": "hrs_35513366",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "6:52",
+      "latest_race": "Slaney Valley Beginners Chase",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 19.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ross O'Sullivan",
+      "latest_jockey": "Danny Gilligan",
+      "latest_draw": 0,
+      "latest_weight_lbs": 166,
+      "official_rating": "-",
+      "recent_form": "34323-",
+      "last_run_days": 218,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "19.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Ross O'Sullivan": 1
+      },
+      "jockeys_seen": {
+        "Danny Gilligan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 58,
+      "latest_notes": [
+        "Strong recent form",
+        "Questionable run timing",
+        "Long layoff concern -4",
+        "Helpful draw",
+        "Stable in form +2 (2/5 last 14 days)",
+        "Jockey bonus +1",
+        "Jockey flying +4 (4/6 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009465",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "6:52",
+          "off_dt": "2026-07-03T18:52:00+01:00",
+          "race_name": "Slaney Valley Beginners Chase",
+          "distance_f": 19.5,
+          "race_class": "",
+          "race_type": "Chase",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Donnie Devito",
+          "horse_id": "hrs_35513366",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Ross O'Sullivan",
+          "trainer_id": "trn_227025",
+          "jockey": "Danny Gilligan",
+          "jockey_id": "jky_304860",
+          "draw": 0,
+          "number": 3,
+          "lbs": 166,
+          "ofr": "-",
+          "last_run": 218,
+          "form": "34323-",
+          "headgear": "t",
+          "_stored_at": "2026-07-03T00:37:09.129487+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 19.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 58,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Eclipse Chaser",
+      "horse_id": "hrs_39959668",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "6:52",
+      "latest_race": "Slaney Valley Beginners Chase",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 19.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "W P Mullins",
+      "latest_jockey": "Sean O'Keeffe",
+      "latest_draw": 0,
+      "latest_weight_lbs": 166,
+      "official_rating": "-",
+      "recent_form": "40PP-3",
+      "last_run_days": 57,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "19.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "W P Mullins": 1
+      },
+      "jockeys_seen": {
+        "Sean O'Keeffe": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 53,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Jockey in form +2 (1/4 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009465",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "6:52",
+          "off_dt": "2026-07-03T18:52:00+01:00",
+          "race_name": "Slaney Valley Beginners Chase",
+          "distance_f": 19.5,
+          "race_class": "",
+          "race_type": "Chase",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Eclipse Chaser",
+          "horse_id": "hrs_39959668",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "W P Mullins",
+          "trainer_id": "trn_13275",
+          "jockey": "Sean O'Keeffe",
+          "jockey_id": "jky_295554",
+          "draw": 0,
+          "number": 5,
+          "lbs": 166,
+          "ofr": "-",
+          "last_run": 57,
+          "form": "40PP-3",
+          "headgear": "t",
+          "_stored_at": "2026-07-03T00:37:09.190106+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 19.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 53,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Silent Selector",
+      "horse_id": "hrs_41052466",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "6:52",
+      "latest_race": "Slaney Valley Beginners Chase",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 19.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gerard Edmund O'Leary",
+      "latest_jockey": "Philip Donovan",
+      "latest_draw": 0,
+      "latest_weight_lbs": 166,
+      "official_rating": "-",
+      "recent_form": "P156-8",
+      "last_run_days": 54,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "19.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Gerard Edmund O'Leary": 1
+      },
+      "jockeys_seen": {
+        "Philip Donovan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 54,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009465",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "6:52",
+          "off_dt": "2026-07-03T18:52:00+01:00",
+          "race_name": "Slaney Valley Beginners Chase",
+          "distance_f": 19.5,
+          "race_class": "",
+          "race_type": "Chase",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Silent Selector",
+          "horse_id": "hrs_41052466",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Gerard Edmund O'Leary",
+          "trainer_id": "trn_372690",
+          "jockey": "Philip Donovan",
+          "jockey_id": "jky_276471",
+          "draw": 0,
+          "number": 10,
+          "lbs": 166,
+          "ofr": "-",
+          "last_run": 54,
+          "form": "P156-8",
+          "headgear": "",
+          "_stored_at": "2026-07-03T00:37:09.413408+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 19.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 54,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Cinammon Roll",
+      "horse_id": "hrs_47621070",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "6:52",
+      "latest_race": "Slaney Valley Beginners Chase",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 19.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gordon Elliott",
+      "latest_jockey": "Josh Williamson(5)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 166,
+      "official_rating": "-",
+      "recent_form": "11626-",
+      "last_run_days": 272,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "19.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Gordon Elliott": 1
+      },
+      "jockeys_seen": {
+        "Josh Williamson(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Very long absence concern -7",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/2 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey in form +2 (1/3 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009465",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "6:52",
+          "off_dt": "2026-07-03T18:52:00+01:00",
+          "race_name": "Slaney Valley Beginners Chase",
+          "distance_f": 19.5,
+          "race_class": "",
+          "race_type": "Chase",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Cinammon Roll",
+          "horse_id": "hrs_47621070",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Gordon Elliott",
+          "trainer_id": "trn_163305",
+          "jockey": "Josh Williamson(5)",
+          "jockey_id": "jky_307062",
+          "draw": 0,
+          "number": 1,
+          "lbs": 166,
+          "ofr": "-",
+          "last_run": 272,
+          "form": "11626-",
+          "headgear": "p",
+          "_stored_at": "2026-07-03T00:37:09.044655+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 19.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 49,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Duke Silver",
+      "horse_id": "hrs_39469115",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "6:52",
+      "latest_race": "Slaney Valley Beginners Chase",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 19.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Joseph Patrick O'Brien",
+      "latest_jockey": "J J Slevin",
+      "latest_draw": 0,
+      "latest_weight_lbs": 166,
+      "official_rating": "-",
+      "recent_form": "17603-",
+      "last_run_days": 64,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "19.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Joseph Patrick O'Brien": 1
+      },
+      "jockeys_seen": {
+        "J J Slevin": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 46,
+      "latest_notes": [
+        "Weak recent form",
+        "Helpful draw",
+        "Stable flying +4 (4/6 last 14 days)",
+        "Jockey in form +2 (1/4 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009465",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "6:52",
+          "off_dt": "2026-07-03T18:52:00+01:00",
+          "race_name": "Slaney Valley Beginners Chase",
+          "distance_f": 19.5,
+          "race_class": "",
+          "race_type": "Chase",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Duke Silver",
+          "horse_id": "hrs_39469115",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Joseph Patrick O'Brien",
+          "trainer_id": "trn_289305",
+          "jockey": "J J Slevin",
+          "jockey_id": "jky_264864",
+          "draw": 0,
+          "number": 4,
+          "lbs": 166,
+          "ofr": "-",
+          "last_run": 64,
+          "form": "17603-",
+          "headgear": "",
+          "_stored_at": "2026-07-03T00:37:09.158757+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 45,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 19.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 46,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Mickie Angel",
+      "horse_id": "hrs_33080747",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Wexford",
+      "latest_time": "6:52",
+      "latest_race": "Slaney Valley Beginners Chase",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 19.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Denis Gerard Hogan",
+      "latest_jockey": "Daniel King",
+      "latest_draw": 0,
+      "latest_weight_lbs": 166,
+      "official_rating": "116",
+      "recent_form": "F3726-",
+      "last_run_days": 159,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Wexford": 1
+      },
+      "distances_seen": {
+        "19.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Denis Gerard Hogan": 1
+      },
+      "jockeys_seen": {
+        "Daniel King": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 42,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Long layoff concern -4",
+        "Helpful draw",
+        "Stable in form +2 (2/4 last 14 days)",
+        "Jockey in form +2 (2/4 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009465",
+          "course": "Wexford",
+          "date": "2026-07-03",
+          "off_time": "6:52",
+          "off_dt": "2026-07-03T18:52:00+01:00",
+          "race_name": "Slaney Valley Beginners Chase",
+          "distance_f": 19.5,
+          "race_class": "",
+          "race_type": "Chase",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Mickie Angel",
+          "horse_id": "hrs_33080747",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "Denis Gerard Hogan",
+          "trainer_id": "trn_196911",
+          "jockey": "Daniel King",
+          "jockey_id": "jky_303180",
+          "draw": 0,
+          "number": 8,
+          "lbs": 166,
+          "ofr": "116",
+          "last_run": 159,
+          "form": "F3726-",
+          "headgear": "",
+          "_stored_at": "2026-07-03T00:37:09.294231+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Wexford",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 19.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Wexford",
+        "latest_distance_f": 19.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 42,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1173,9 +1603,8 @@
     }
   ],
   "notes": [
-    "Cinammon Roll is the top-rated Pulse IQ runner.",
+    "Coyote Spirit is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Donnie Devito is flagged as a possible dark horse."
+    "Pinot Gris is flagged as a possible dark horse."
   ]
 }

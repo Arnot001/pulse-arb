@@ -4,135 +4,15 @@
   "course": "Chester",
   "time": "5:32",
   "race_name": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
-  "field_size": 6,
-  "average_intelligence": 25.67,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 21,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 3,
+  "average_intelligence": 51.33,
+  "top_score": 66,
+  "second_score": 53,
+  "gap": 13,
+  "confidence_score": 69,
+  "confidence": "MEDIUM",
+  "race_shape": "PULSE EDGE",
   "top_runner": {
-    "horse": "Gaelic Approach",
-    "horse_id": "hrs_52709685",
-    "age": 3,
-    "sex": "gelding",
-    "latest_course": "Chester",
-    "latest_time": "5:32",
-    "latest_race": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
-    "latest_date": "2026-07-11",
-    "latest_distance_f": 14.5,
-    "latest_class": "Class 4",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Charlie Johnston",
-    "latest_jockey": "Jack Callan",
-    "latest_draw": 7,
-    "latest_weight_lbs": 125,
-    "official_rating": "76",
-    "recent_form": "212130",
-    "last_run_days": 17,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Chester": 1
-    },
-    "distances_seen": {
-      "14.5": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "Charlie Johnston": 1
-    },
-    "jockeys_seen": {
-      "Jack Callan": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11991200",
-        "course": "Chester",
-        "date": "2026-07-11",
-        "off_time": "5:32",
-        "off_dt": "2026-07-11T17:32:00+01:00",
-        "race_name": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
-        "distance_f": 14.5,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 6,
-        "horse": "Gaelic Approach",
-        "horse_id": "hrs_52709685",
-        "age": 3,
-        "sex": "gelding",
-        "trainer": "Charlie Johnston",
-        "trainer_id": "trn_361179",
-        "jockey": "Jack Callan",
-        "jockey_id": "jky_307578",
-        "draw": 7,
-        "number": 7,
-        "lbs": 125,
-        "ofr": "76",
-        "last_run": 17,
-        "form": "212130",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Chester",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 14.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Chester",
-      "latest_distance_f": 14.5,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Mudita",
     "horse_id": "hrs_62170899",
     "age": 3,
@@ -173,8 +53,18 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 87,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +3",
+      "Stable in form +2 (3/13 last 14 days)",
+      "Jockey bonus +3",
+      "Jockey flying +4 (3/5 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -189,7 +79,7 @@
         "race_type": "Flat",
         "going": "Good",
         "surface": "Turf",
-        "field_size": 6,
+        "field_size": 7,
         "horse": "Mudita",
         "horse_id": "hrs_62170899",
         "age": 3,
@@ -207,7 +97,9 @@
         "headgear": ""
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
     "favourite_course": {
       "value": "Chester",
       "runs": 1
@@ -229,15 +121,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 66,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -246,7 +138,136 @@
       "latest_distance_f": 14.5,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 87,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "Imperial Sovereign",
+    "horse_id": "hrs_37932454",
+    "age": 5,
+    "sex": "gelding",
+    "latest_course": "Chester",
+    "latest_time": "5:32",
+    "latest_race": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
+    "latest_date": "2026-07-11",
+    "latest_distance_f": 14.5,
+    "latest_class": "Class 4",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Philip Kirby",
+    "latest_jockey": "Donagh Murphy(5)",
+    "latest_draw": 8,
+    "latest_weight_lbs": 138,
+    "official_rating": "76",
+    "recent_form": "-43764",
+    "last_run_days": 14,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Chester": 1
+    },
+    "distances_seen": {
+      "14.5": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Philip Kirby": 1
+    },
+    "jockeys_seen": {
+      "Donagh Murphy(5)": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 58,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Stable in form +2 (2/10 last 14 days)",
+      "Jockey bonus +2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11991200",
+        "course": "Chester",
+        "date": "2026-07-11",
+        "off_time": "5:32",
+        "off_dt": "2026-07-11T17:32:00+01:00",
+        "race_name": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
+        "distance_f": 14.5,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Imperial Sovereign",
+        "horse_id": "hrs_37932454",
+        "age": 5,
+        "sex": "gelding",
+        "trainer": "Philip Kirby",
+        "trainer_id": "trn_169875",
+        "jockey": "Donagh Murphy(5)",
+        "jockey_id": "jky_310608",
+        "draw": 8,
+        "number": 2,
+        "lbs": 138,
+        "ofr": "76",
+        "last_run": 14,
+        "form": "-43764",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Chester",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 14.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 53,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Chester",
+      "latest_distance_f": 14.5,
+      "latest_going": "Good",
+      "latest_class": "Class 4",
+      "latest_pulse_score": 58,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -293,8 +314,18 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 18,
+    "latest_notes": [
+      "Positive recent form",
+      "Questionable run timing",
+      "Very long absence concern -7",
+      "Helpful draw",
+      "Non-runner risk",
+      "Race class strength +2",
+      "Trainer bonus +2",
+      "Stable flying +4 (7/9 last 14 days)",
+      "Jockey bonus +3"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -309,7 +340,7 @@
         "race_type": "Flat",
         "going": "Good",
         "surface": "Turf",
-        "field_size": 6,
+        "field_size": 7,
         "horse": "Tailorman",
         "horse_id": "hrs_37316790",
         "age": 4,
@@ -319,7 +350,7 @@
         "jockey": "Liam Wright",
         "jockey_id": "jky_304650",
         "draw": 6,
-        "number": null,
+        "number": 4,
         "lbs": 135,
         "ofr": "73",
         "last_run": 301,
@@ -351,7 +382,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 35,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -368,133 +399,13 @@
       "latest_distance_f": 14.5,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 18,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Gaelic Approach",
-      "horse_id": "hrs_52709685",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Chester",
-      "latest_time": "5:32",
-      "latest_race": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 14.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Charlie Johnston",
-      "latest_jockey": "Jack Callan",
-      "latest_draw": 7,
-      "latest_weight_lbs": 125,
-      "official_rating": "76",
-      "recent_form": "212130",
-      "last_run_days": 17,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Chester": 1
-      },
-      "distances_seen": {
-        "14.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Charlie Johnston": 1
-      },
-      "jockeys_seen": {
-        "Jack Callan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991200",
-          "course": "Chester",
-          "date": "2026-07-11",
-          "off_time": "5:32",
-          "off_dt": "2026-07-11T17:32:00+01:00",
-          "race_name": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
-          "distance_f": 14.5,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Gaelic Approach",
-          "horse_id": "hrs_52709685",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Charlie Johnston",
-          "trainer_id": "trn_361179",
-          "jockey": "Jack Callan",
-          "jockey_id": "jky_307578",
-          "draw": 7,
-          "number": 7,
-          "lbs": 125,
-          "ofr": "76",
-          "last_run": 17,
-          "form": "212130",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Chester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 14.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Chester",
-        "latest_distance_f": 14.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Mudita",
       "horse_id": "hrs_62170899",
@@ -536,8 +447,18 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 87,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +3",
+        "Stable in form +2 (3/13 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey flying +4 (3/5 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -552,7 +473,7 @@
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 6,
+          "field_size": 7,
           "horse": "Mudita",
           "horse_id": "hrs_62170899",
           "age": 3,
@@ -570,7 +491,9 @@
           "headgear": ""
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
       "favourite_course": {
         "value": "Chester",
         "runs": 1
@@ -592,15 +515,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 66,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -609,7 +532,136 @@
         "latest_distance_f": 14.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 87,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Imperial Sovereign",
+      "horse_id": "hrs_37932454",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Chester",
+      "latest_time": "5:32",
+      "latest_race": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
+      "latest_date": "2026-07-11",
+      "latest_distance_f": 14.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Philip Kirby",
+      "latest_jockey": "Donagh Murphy(5)",
+      "latest_draw": 8,
+      "latest_weight_lbs": 138,
+      "official_rating": "76",
+      "recent_form": "-43764",
+      "last_run_days": 14,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Chester": 1
+      },
+      "distances_seen": {
+        "14.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Philip Kirby": 1
+      },
+      "jockeys_seen": {
+        "Donagh Murphy(5)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 58,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Stable in form +2 (2/10 last 14 days)",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11991200",
+          "course": "Chester",
+          "date": "2026-07-11",
+          "off_time": "5:32",
+          "off_dt": "2026-07-11T17:32:00+01:00",
+          "race_name": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
+          "distance_f": 14.5,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Imperial Sovereign",
+          "horse_id": "hrs_37932454",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Philip Kirby",
+          "trainer_id": "trn_169875",
+          "jockey": "Donagh Murphy(5)",
+          "jockey_id": "jky_310608",
+          "draw": 8,
+          "number": 2,
+          "lbs": 138,
+          "ofr": "76",
+          "last_run": 14,
+          "form": "-43764",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Chester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 14.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 53,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Chester",
+        "latest_distance_f": 14.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 58,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -656,8 +708,18 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 18,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Very long absence concern -7",
+        "Helpful draw",
+        "Non-runner risk",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Stable flying +4 (7/9 last 14 days)",
+        "Jockey bonus +3"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -672,7 +734,7 @@
           "race_type": "Flat",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 6,
+          "field_size": 7,
           "horse": "Tailorman",
           "horse_id": "hrs_37316790",
           "age": 4,
@@ -682,7 +744,7 @@
           "jockey": "Liam Wright",
           "jockey_id": "jky_304650",
           "draw": 6,
-          "number": null,
+          "number": 4,
           "lbs": 135,
           "ofr": "73",
           "last_run": 301,
@@ -714,7 +776,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 35,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -731,511 +793,16 @@
         "latest_distance_f": 14.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 18,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
-    },
-    {
-      "horse": "Vaguely Royal",
-      "horse_id": "hrs_31996251",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Chester",
-      "latest_time": "5:32",
-      "latest_race": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 14.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ian Williams",
-      "latest_jockey": "Ryan Kavanagh",
-      "latest_draw": 4,
-      "latest_weight_lbs": 127,
-      "official_rating": "65",
-      "recent_form": "693336",
-      "last_run_days": 40,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Chester": 1
-      },
-      "distances_seen": {
-        "14.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Ian Williams": 1
-      },
-      "jockeys_seen": {
-        "Ryan Kavanagh": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991200",
-          "course": "Chester",
-          "date": "2026-07-11",
-          "off_time": "5:32",
-          "off_dt": "2026-07-11T17:32:00+01:00",
-          "race_name": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
-          "distance_f": 14.5,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Vaguely Royal",
-          "horse_id": "hrs_31996251",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Ian Williams",
-          "trainer_id": "trn_112185",
-          "jockey": "Ryan Kavanagh",
-          "jockey_id": "jky_308169",
-          "draw": 4,
-          "number": 6,
-          "lbs": 127,
-          "ofr": "65",
-          "last_run": 40,
-          "form": "693336",
-          "headgear": "v"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Chester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 14.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Chester",
-        "latest_distance_f": 14.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Venezuelan",
-      "horse_id": "hrs_45887674",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Chester",
-      "latest_time": "5:32",
-      "latest_race": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 14.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gary Hanmer",
-      "latest_jockey": "Zoe Lewis(7)",
-      "latest_draw": 1,
-      "latest_weight_lbs": 142,
-      "official_rating": "80",
-      "recent_form": "122-84",
-      "last_run_days": 14,
-      "profile_runs": 3,
-      "courses_seen": {
-        "Chester": 3
-      },
-      "distances_seen": {
-        "16.0": 2,
-        "14.5": 1
-      },
-      "goings_seen": {
-        "Good": 3
-      },
-      "classes_seen": {
-        "Class 4": 3
-      },
-      "trainers_seen": {
-        "Gary Hanmer": 3
-      },
-      "jockeys_seen": {
-        "Toby Moore(7)": 2,
-        "Zoe Lewis(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977797",
-          "course": "Chester",
-          "date": "2026-06-27",
-          "off_time": "5:20",
-          "off_dt": "2026-06-27T17:20:00+01:00",
-          "race_name": "Roxy Ball Room Handicap (GBBPlus Race)",
-          "distance_f": 16.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Venezuelan",
-          "horse_id": "hrs_45887674",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Gary Hanmer",
-          "trainer_id": "trn_54981",
-          "jockey": "Toby Moore(7)",
-          "jockey_id": "jky_314079",
-          "draw": 3,
-          "number": 1,
-          "lbs": 137,
-          "ofr": "82",
-          "last_run": 28,
-          "form": "4122-8",
-          "headgear": "v",
-          "_stored_at": "2026-06-27T10:06:16.170907+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977797",
-          "course": "Chester",
-          "date": "2026-06-27",
-          "off_time": "5:20",
-          "off_dt": "2026-06-27T17:20:00+01:00",
-          "race_name": "Roxy Ball Room Handicap (GBBPlus Race)",
-          "distance_f": 16.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Venezuelan",
-          "horse_id": "hrs_45887674",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Gary Hanmer",
-          "trainer_id": "trn_54981",
-          "jockey": "Toby Moore(7)",
-          "jockey_id": "jky_314079",
-          "draw": 3,
-          "number": 1,
-          "lbs": 137,
-          "ofr": "82",
-          "last_run": 28,
-          "form": "4122-8",
-          "headgear": "v",
-          "_stored_at": "2026-06-28T12:42:44.902851+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991200",
-          "course": "Chester",
-          "date": "2026-07-11",
-          "off_time": "5:32",
-          "off_dt": "2026-07-11T17:32:00+01:00",
-          "race_name": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
-          "distance_f": 14.5,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Venezuelan",
-          "horse_id": "hrs_45887674",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Gary Hanmer",
-          "trainer_id": "trn_54981",
-          "jockey": "Zoe Lewis(7)",
-          "jockey_id": "jky_303243",
-          "draw": 1,
-          "number": 1,
-          "lbs": 142,
-          "ofr": "80",
-          "last_run": 14,
-          "form": "122-84",
-          "headgear": "v"
-        }
-      ],
-      "profile_notes": [
-        "Profile has multiple stored runs",
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Chester",
-        "runs": 3
-      },
-      "favourite_distance": {
-        "value": 16.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 3
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 3
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 81,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Distance not yet a clear profile strength",
-        "Low latest Pulse Score"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Chester",
-        "latest_distance_f": 14.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
-      }
-    },
-    {
-      "horse": "Imperial Sovereign",
-      "horse_id": "hrs_37932454",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Chester",
-      "latest_time": "5:32",
-      "latest_race": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 14.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Philip Kirby",
-      "latest_jockey": "Donagh Murphy(5)",
-      "latest_draw": 8,
-      "latest_weight_lbs": 138,
-      "official_rating": "76",
-      "recent_form": "-43764",
-      "last_run_days": 14,
-      "profile_runs": 3,
-      "courses_seen": {
-        "York": 2,
-        "Chester": 1
-      },
-      "distances_seen": {
-        "14.0": 2,
-        "14.5": 1
-      },
-      "goings_seen": {
-        "Good": 3
-      },
-      "classes_seen": {
-        "Class 4": 3
-      },
-      "trainers_seen": {
-        "Philip Kirby": 3
-      },
-      "jockeys_seen": {
-        "Clifford Lee": 2,
-        "Donagh Murphy(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978083",
-          "course": "York",
-          "date": "2026-06-27",
-          "off_time": "3:38",
-          "off_dt": "2026-06-27T15:38:00+01:00",
-          "race_name": "Al Basti Equiworld Dubai Handicap (GBBPlus Race)",
-          "distance_f": 14.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Imperial Sovereign",
-          "horse_id": "hrs_37932454",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Philip Kirby",
-          "trainer_id": "trn_169875",
-          "jockey": "Clifford Lee",
-          "jockey_id": "jky_280440",
-          "draw": 4,
-          "number": 4,
-          "lbs": 136,
-          "ofr": "78",
-          "last_run": 28,
-          "form": "3-4376",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:21.819171+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978083",
-          "course": "York",
-          "date": "2026-06-27",
-          "off_time": "3:38",
-          "off_dt": "2026-06-27T15:38:00+01:00",
-          "race_name": "Al Basti Equiworld Dubai Handicap (GBBPlus Race)",
-          "distance_f": 14.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Imperial Sovereign",
-          "horse_id": "hrs_37932454",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Philip Kirby",
-          "trainer_id": "trn_169875",
-          "jockey": "Clifford Lee",
-          "jockey_id": "jky_280440",
-          "draw": 4,
-          "number": 4,
-          "lbs": 136,
-          "ofr": "78",
-          "last_run": 28,
-          "form": "3-4376",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:49.241877+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991200",
-          "course": "Chester",
-          "date": "2026-07-11",
-          "off_time": "5:32",
-          "off_dt": "2026-07-11T17:32:00+01:00",
-          "race_name": "Bootleg Beatles Live At Chester Apprentice Handicap (GBBPlus Race)",
-          "distance_f": 14.5,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Imperial Sovereign",
-          "horse_id": "hrs_37932454",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Philip Kirby",
-          "trainer_id": "trn_169875",
-          "jockey": "Donagh Murphy(5)",
-          "jockey_id": "jky_310608",
-          "draw": 8,
-          "number": 2,
-          "lbs": 138,
-          "ofr": "76",
-          "last_run": 14,
-          "form": "-43764",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Profile has multiple stored runs",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "York",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 14.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 3
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 3
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 72,
-      "horse_intelligence_score": 22,
-      "profile_strengths": [
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Low latest Pulse Score"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Chester",
-        "latest_distance_f": 14.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
       }
     }
   ],
   "notes": [
-    "Gaelic Approach is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
+    "Mudita is the top-rated Pulse IQ runner.",
+    "The top runner has a clear intelligence gap over the field.",
     "Tailorman is flagged as a possible dark horse."
   ]
 }

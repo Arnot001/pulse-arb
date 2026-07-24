@@ -4,13 +4,13 @@
   "course": "Worcester",
   "time": "3:55",
   "race_name": "Warrens Hall Riding School Champions Handicap Hurdle",
-  "field_size": 7,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
+  "field_size": 5,
+  "average_intelligence": 54.4,
+  "top_score": 63,
+  "second_score": 59,
+  "gap": 4,
+  "confidence_score": 55,
+  "confidence": "MEDIUM",
   "race_shape": "OPEN RACE",
   "top_runner": {
     "horse": "Al Mootamarid",
@@ -53,8 +53,15 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 81,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +3",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -69,7 +76,7 @@
         "race_type": "Hurdle",
         "going": "Good",
         "surface": "Turf",
-        "field_size": 9,
+        "field_size": 10,
         "horse": "Al Mootamarid",
         "horse_id": "hrs_36062061",
         "age": 5,
@@ -85,7 +92,138 @@
         "last_run": 14,
         "form": "2135-3",
         "headgear": "t",
-        "_stored_at": "2026-07-01T13:17:52.173965+00:00"
+        "_stored_at": "2026-06-30T23:10:41.231850+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score",
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Worcester",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 16.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 63,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Worcester",
+      "latest_distance_f": 16.0,
+      "latest_going": "Good",
+      "latest_class": "Class 5",
+      "latest_pulse_score": 81,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "Both Of Us",
+    "horse_id": "hrs_53181632",
+    "age": 4,
+    "sex": "gelding",
+    "latest_course": "Worcester",
+    "latest_time": "3:55",
+    "latest_race": "Warrens Hall Riding School Champions Handicap Hurdle",
+    "latest_date": "2026-07-01",
+    "latest_distance_f": 16.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Kerry Lee",
+    "latest_jockey": "Conor O'Farrell",
+    "latest_draw": 0,
+    "latest_weight_lbs": 160,
+    "official_rating": "94",
+    "recent_form": "433-4",
+    "last_run_days": 14,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Worcester": 1
+    },
+    "distances_seen": {
+      "16.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 5": 1
+    },
+    "trainers_seen": {
+      "Kerry Lee": 1
+    },
+    "jockeys_seen": {
+      "Conor O'Farrell": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 72,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Jockey bonus +2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11987352",
+        "course": "Worcester",
+        "date": "2026-07-01",
+        "off_time": "3:55",
+        "off_dt": "2026-07-01T15:55:00+01:00",
+        "race_name": "Warrens Hall Riding School Champions Handicap Hurdle",
+        "distance_f": 16.0,
+        "race_class": "Class 5",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 10,
+        "horse": "Both Of Us",
+        "horse_id": "hrs_53181632",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Kerry Lee",
+        "trainer_id": "trn_279351",
+        "jockey": "Conor O'Farrell",
+        "jockey_id": "jky_257538",
+        "draw": 0,
+        "number": 8,
+        "lbs": 160,
+        "ofr": "94",
+        "last_run": 14,
+        "form": "433-4",
+        "headgear": "t",
+        "_stored_at": "2026-06-30T23:10:41.348918+00:00"
       }
     ],
     "profile_notes": [
@@ -112,15 +250,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 59,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -129,139 +267,16 @@
       "latest_distance_f": 16.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Belcamo",
-    "horse_id": "hrs_37932356",
-    "age": 5,
-    "sex": "gelding",
-    "latest_course": "Worcester",
-    "latest_time": "3:55",
-    "latest_race": "Warrens Hall Riding School Champions Handicap Hurdle",
-    "latest_date": "2026-07-01",
-    "latest_distance_f": 16.0,
-    "latest_class": "Class 5",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Alex Hales",
-    "latest_jockey": "Toby McCain-Mitchell(3)",
-    "latest_draw": 0,
-    "latest_weight_lbs": 168,
-    "official_rating": "98",
-    "recent_form": "62601-",
-    "last_run_days": 164,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Worcester": 1
-    },
-    "distances_seen": {
-      "16.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 5": 1
-    },
-    "trainers_seen": {
-      "Alex Hales": 1
-    },
-    "jockeys_seen": {
-      "Toby McCain-Mitchell(3)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11987352",
-        "course": "Worcester",
-        "date": "2026-07-01",
-        "off_time": "3:55",
-        "off_dt": "2026-07-01T15:55:00+01:00",
-        "race_name": "Warrens Hall Riding School Champions Handicap Hurdle",
-        "distance_f": 16.0,
-        "race_class": "Class 5",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 9,
-        "horse": "Belcamo",
-        "horse_id": "hrs_37932356",
-        "age": 5,
-        "sex": "gelding",
-        "trainer": "Alex Hales",
-        "trainer_id": "trn_125883",
-        "jockey": "Toby McCain-Mitchell(3)",
-        "jockey_id": "jky_300099",
-        "draw": 0,
-        "number": 2,
-        "lbs": 168,
-        "ofr": "98",
-        "last_run": 164,
-        "form": "62601-",
-        "headgear": "",
-        "_stored_at": "2026-07-01T13:17:52.125876+00:00"
-      }
-    ],
-    "profile_notes": [
-      "Returning from a break"
-    ],
-    "favourite_course": {
-      "value": "Worcester",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 16.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Worcester",
-      "latest_distance_f": 16.0,
-      "latest_going": "Good",
-      "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 72,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Blazing Saint",
-    "horse_id": "hrs_59460926",
-    "age": 5,
+    "horse": "Both Of Us",
+    "horse_id": "hrs_53181632",
+    "age": 4,
     "sex": "gelding",
     "latest_course": "Worcester",
     "latest_time": "3:55",
@@ -271,13 +286,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Christian Williams",
-    "latest_jockey": "Jack Tudor",
+    "latest_trainer": "Kerry Lee",
+    "latest_jockey": "Conor O'Farrell",
     "latest_draw": 0,
-    "latest_weight_lbs": 155,
-    "official_rating": "85",
-    "recent_form": "96P-1",
-    "last_run_days": 51,
+    "latest_weight_lbs": 160,
+    "official_rating": "94",
+    "recent_form": "433-4",
+    "last_run_days": 14,
     "profile_runs": 1,
     "courses_seen": {
       "Worcester": 1
@@ -292,15 +307,22 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Christian Williams": 1
+      "Kerry Lee": 1
     },
     "jockeys_seen": {
-      "Jack Tudor": 1
+      "Conor O'Farrell": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 72,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -315,26 +337,28 @@
         "race_type": "Hurdle",
         "going": "Good",
         "surface": "Turf",
-        "field_size": 9,
-        "horse": "Blazing Saint",
-        "horse_id": "hrs_59460926",
-        "age": 5,
+        "field_size": 10,
+        "horse": "Both Of Us",
+        "horse_id": "hrs_53181632",
+        "age": 4,
         "sex": "gelding",
-        "trainer": "Christian Williams",
-        "trainer_id": "trn_298674",
-        "jockey": "Jack Tudor",
-        "jockey_id": "jky_296019",
+        "trainer": "Kerry Lee",
+        "trainer_id": "trn_279351",
+        "jockey": "Conor O'Farrell",
+        "jockey_id": "jky_257538",
         "draw": 0,
-        "number": 9,
-        "lbs": 155,
-        "ofr": "85",
-        "last_run": 51,
-        "form": "96P-1",
-        "headgear": "",
-        "_stored_at": "2026-07-01T13:17:52.284224+00:00"
+        "number": 8,
+        "lbs": 160,
+        "ofr": "94",
+        "last_run": 14,
+        "form": "433-4",
+        "headgear": "t",
+        "_stored_at": "2026-06-30T23:10:41.348918+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Recent run timing"
+    ],
     "favourite_course": {
       "value": "Worcester",
       "runs": 1
@@ -356,15 +380,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 59,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -373,7 +397,7 @@
       "latest_distance_f": 16.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 72,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -421,8 +445,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 81,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +3",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -437,7 +468,7 @@
           "race_type": "Hurdle",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 10,
           "horse": "Al Mootamarid",
           "horse_id": "hrs_36062061",
           "age": 5,
@@ -453,10 +484,11 @@
           "last_run": 14,
           "form": "2135-3",
           "headgear": "t",
-          "_stored_at": "2026-07-01T13:17:52.173965+00:00"
+          "_stored_at": "2026-06-30T23:10:41.231850+00:00"
         }
       ],
       "profile_notes": [
+        "Elite latest Pulse Score",
         "Recent run timing"
       ],
       "favourite_course": {
@@ -480,15 +512,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 63,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -497,251 +529,7 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Belcamo",
-      "horse_id": "hrs_37932356",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Worcester",
-      "latest_time": "3:55",
-      "latest_race": "Warrens Hall Riding School Champions Handicap Hurdle",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 16.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Alex Hales",
-      "latest_jockey": "Toby McCain-Mitchell(3)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 168,
-      "official_rating": "98",
-      "recent_form": "62601-",
-      "last_run_days": 164,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Worcester": 1
-      },
-      "distances_seen": {
-        "16.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Alex Hales": 1
-      },
-      "jockeys_seen": {
-        "Toby McCain-Mitchell(3)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987352",
-          "course": "Worcester",
-          "date": "2026-07-01",
-          "off_time": "3:55",
-          "off_dt": "2026-07-01T15:55:00+01:00",
-          "race_name": "Warrens Hall Riding School Champions Handicap Hurdle",
-          "distance_f": 16.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Belcamo",
-          "horse_id": "hrs_37932356",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Alex Hales",
-          "trainer_id": "trn_125883",
-          "jockey": "Toby McCain-Mitchell(3)",
-          "jockey_id": "jky_300099",
-          "draw": 0,
-          "number": 2,
-          "lbs": 168,
-          "ofr": "98",
-          "last_run": 164,
-          "form": "62601-",
-          "headgear": "",
-          "_stored_at": "2026-07-01T13:17:52.125876+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Worcester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Worcester",
-        "latest_distance_f": 16.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Blazing Saint",
-      "horse_id": "hrs_59460926",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Worcester",
-      "latest_time": "3:55",
-      "latest_race": "Warrens Hall Riding School Champions Handicap Hurdle",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 16.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Christian Williams",
-      "latest_jockey": "Jack Tudor",
-      "latest_draw": 0,
-      "latest_weight_lbs": 155,
-      "official_rating": "85",
-      "recent_form": "96P-1",
-      "last_run_days": 51,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Worcester": 1
-      },
-      "distances_seen": {
-        "16.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Christian Williams": 1
-      },
-      "jockeys_seen": {
-        "Jack Tudor": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987352",
-          "course": "Worcester",
-          "date": "2026-07-01",
-          "off_time": "3:55",
-          "off_dt": "2026-07-01T15:55:00+01:00",
-          "race_name": "Warrens Hall Riding School Champions Handicap Hurdle",
-          "distance_f": 16.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Blazing Saint",
-          "horse_id": "hrs_59460926",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Christian Williams",
-          "trainer_id": "trn_298674",
-          "jockey": "Jack Tudor",
-          "jockey_id": "jky_296019",
-          "draw": 0,
-          "number": 9,
-          "lbs": 155,
-          "ofr": "85",
-          "last_run": 51,
-          "form": "96P-1",
-          "headgear": "",
-          "_stored_at": "2026-07-01T13:17:52.284224+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Worcester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Worcester",
-        "latest_distance_f": 16.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 81,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -788,8 +576,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 72,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -804,7 +599,7 @@
           "race_type": "Hurdle",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 10,
           "horse": "Both Of Us",
           "horse_id": "hrs_53181632",
           "age": 4,
@@ -820,7 +615,7 @@
           "last_run": 14,
           "form": "433-4",
           "headgear": "t",
-          "_stored_at": "2026-07-01T13:17:52.264427+00:00"
+          "_stored_at": "2026-06-30T23:10:41.348918+00:00"
         }
       ],
       "profile_notes": [
@@ -847,15 +642,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 59,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -864,16 +659,16 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 72,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Castle Quarter",
-      "horse_id": "hrs_15233358",
-      "age": 10,
+      "horse": "Blazing Saint",
+      "horse_id": "hrs_59460926",
+      "age": 5,
       "sex": "gelding",
       "latest_course": "Worcester",
       "latest_time": "3:55",
@@ -883,13 +678,13 @@
       "latest_class": "Class 5",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Neil Mulholland",
-      "latest_jockey": "Richie McLernon",
+      "latest_trainer": "Christian Williams",
+      "latest_jockey": "Jack Tudor",
       "latest_draw": 0,
       "latest_weight_lbs": 155,
       "official_rating": "85",
-      "recent_form": "P3P6-7",
-      "last_run_days": null,
+      "recent_form": "96P-1",
+      "last_run_days": 51,
       "profile_runs": 1,
       "courses_seen": {
         "Worcester": 1
@@ -904,15 +699,20 @@
         "Class 5": 1
       },
       "trainers_seen": {
-        "Neil Mulholland": 1
+        "Christian Williams": 1
       },
       "jockeys_seen": {
-        "Richie McLernon": 1
+        "Jack Tudor": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 54,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -927,23 +727,23 @@
           "race_type": "Hurdle",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 9,
-          "horse": "Castle Quarter",
-          "horse_id": "hrs_15233358",
-          "age": 10,
+          "field_size": 10,
+          "horse": "Blazing Saint",
+          "horse_id": "hrs_59460926",
+          "age": 5,
           "sex": "gelding",
-          "trainer": "Neil Mulholland",
-          "trainer_id": "trn_184059",
-          "jockey": "Richie McLernon",
-          "jockey_id": "jky_251094",
+          "trainer": "Christian Williams",
+          "trainer_id": "trn_298674",
+          "jockey": "Jack Tudor",
+          "jockey_id": "jky_296019",
           "draw": 0,
-          "number": 10,
+          "number": 9,
           "lbs": 155,
           "ofr": "85",
-          "last_run": null,
-          "form": "P3P6-7",
-          "headgear": "hp",
-          "_stored_at": "2026-07-01T13:17:52.302578+00:00"
+          "last_run": 51,
+          "form": "96P-1",
+          "headgear": "",
+          "_stored_at": "2026-06-30T23:10:41.362931+00:00"
         }
       ],
       "profile_notes": [],
@@ -968,7 +768,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -976,7 +776,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -985,130 +784,7 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Jet Patrol",
-      "horse_id": "hrs_29326962",
-      "age": 9,
-      "sex": "gelding",
-      "latest_course": "Worcester",
-      "latest_time": "3:55",
-      "latest_race": "Warrens Hall Riding School Champions Handicap Hurdle",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 16.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "James Owen",
-      "latest_jockey": "Sean Bowen",
-      "latest_draw": 0,
-      "latest_weight_lbs": 167,
-      "official_rating": "97",
-      "recent_form": "161P6-",
-      "last_run_days": 239,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Worcester": 1
-      },
-      "distances_seen": {
-        "16.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "James Owen": 1
-      },
-      "jockeys_seen": {
-        "Sean Bowen": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987352",
-          "course": "Worcester",
-          "date": "2026-07-01",
-          "off_time": "3:55",
-          "off_dt": "2026-07-01T15:55:00+01:00",
-          "race_name": "Warrens Hall Riding School Champions Handicap Hurdle",
-          "distance_f": 16.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 9,
-          "horse": "Jet Patrol",
-          "horse_id": "hrs_29326962",
-          "age": 9,
-          "sex": "gelding",
-          "trainer": "James Owen",
-          "trainer_id": "trn_360648",
-          "jockey": "Sean Bowen",
-          "jockey_id": "jky_279558",
-          "draw": 0,
-          "number": 3,
-          "lbs": 167,
-          "ofr": "97",
-          "last_run": 239,
-          "form": "161P6-",
-          "headgear": "ht",
-          "_stored_at": "2026-07-01T13:17:52.147928+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Worcester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 16.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Worcester",
-        "latest_distance_f": 16.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 54,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1155,8 +831,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 51,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1171,7 +852,7 @@
           "race_type": "Hurdle",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 9,
+          "field_size": 10,
           "horse": "Uncle Remus",
           "horse_id": "hrs_47313658",
           "age": 5,
@@ -1187,7 +868,7 @@
           "last_run": 57,
           "form": "6403-9",
           "headgear": "",
-          "_stored_at": "2026-07-01T13:17:52.245380+00:00"
+          "_stored_at": "2026-06-30T23:10:41.320475+00:00"
         }
       ],
       "profile_notes": [],
@@ -1212,7 +893,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1220,7 +901,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1229,7 +909,133 @@
         "latest_distance_f": 16.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 51,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Mojo Ego",
+      "horse_id": "hrs_32089596",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Worcester",
+      "latest_time": "3:55",
+      "latest_race": "Warrens Hall Riding School Champions Handicap Hurdle",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 16.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Fergal O'Brien",
+      "latest_jockey": "Liam Harrison",
+      "latest_draw": 0,
+      "latest_weight_lbs": 161,
+      "official_rating": "91",
+      "recent_form": "248-76",
+      "last_run_days": 35,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Worcester": 1
+      },
+      "distances_seen": {
+        "16.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Fergal O'Brien": 1
+      },
+      "jockeys_seen": {
+        "Liam Harrison": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987352",
+          "course": "Worcester",
+          "date": "2026-07-01",
+          "off_time": "3:55",
+          "off_dt": "2026-07-01T15:55:00+01:00",
+          "race_name": "Warrens Hall Riding School Champions Handicap Hurdle",
+          "distance_f": 16.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Mojo Ego",
+          "horse_id": "hrs_32089596",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Fergal O'Brien",
+          "trainer_id": "trn_125874",
+          "jockey": "Liam Harrison",
+          "jockey_id": "jky_295335",
+          "draw": 0,
+          "number": 6,
+          "lbs": 161,
+          "ofr": "91",
+          "last_run": 35,
+          "form": "248-76",
+          "headgear": "",
+          "_stored_at": "2026-06-30T23:10:41.283115+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Worcester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 16.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 49,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Worcester",
+        "latest_distance_f": 16.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 48,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1239,7 +1045,6 @@
   "notes": [
     "Al Mootamarid is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Blazing Saint is flagged as a possible dark horse."
+    "Both Of Us is flagged as a possible dark horse."
   ]
 }

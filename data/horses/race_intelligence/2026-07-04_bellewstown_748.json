@@ -4,129 +4,15 @@
   "course": "Bellewstown",
   "time": "7:48",
   "race_name": "QuinnBet Bellewstown Handicap Hurdle",
-  "field_size": 10,
-  "average_intelligence": 24.0,
-  "top_score": 24,
-  "second_score": 24,
-  "gap": 0,
-  "confidence_score": 19,
+  "field_size": 14,
+  "average_intelligence": 49.5,
+  "top_score": 57,
+  "second_score": 56,
+  "gap": 1,
+  "confidence_score": 46,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Accustomed",
-    "horse_id": "hrs_40786501",
-    "age": 6,
-    "sex": "gelding",
-    "latest_course": "Bellewstown",
-    "latest_time": "7:48",
-    "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
-    "latest_date": "2026-07-04",
-    "latest_distance_f": 24.5,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "E D Delany",
-    "latest_jockey": "Daniel King",
-    "latest_draw": 0,
-    "latest_weight_lbs": 143,
-    "official_rating": "97",
-    "recent_form": "62P0-5",
-    "last_run_days": 27,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Bellewstown": 1
-    },
-    "distances_seen": {
-      "24.5": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "E D Delany": 1
-    },
-    "jockeys_seen": {
-      "Daniel King": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12010323",
-        "course": "Bellewstown",
-        "date": "2026-07-04",
-        "off_time": "7:48",
-        "off_dt": "2026-07-04T19:48:00+01:00",
-        "race_name": "QuinnBet Bellewstown Handicap Hurdle",
-        "distance_f": 24.5,
-        "race_class": "",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 15,
-        "horse": "Accustomed",
-        "horse_id": "hrs_40786501",
-        "age": 6,
-        "sex": "gelding",
-        "trainer": "E D Delany",
-        "trainer_id": "trn_67716",
-        "jockey": "Daniel King",
-        "jockey_id": "jky_303180",
-        "draw": 0,
-        "number": 16,
-        "lbs": 143,
-        "ofr": "97",
-        "last_run": 27,
-        "form": "62P0-5",
-        "headgear": "p"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Bellewstown",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 24.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 24,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Bellewstown",
-      "latest_distance_f": 24.5,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Burning Ability",
     "horse_id": "hrs_57071756",
     "age": 5,
@@ -165,8 +51,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 74,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +1"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -181,7 +73,7 @@
         "race_type": "Hurdle",
         "going": "Good",
         "surface": "Turf",
-        "field_size": 15,
+        "field_size": 16,
         "horse": "Burning Ability",
         "horse_id": "hrs_57071756",
         "age": 5,
@@ -218,14 +110,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 57,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
+      "Today's going matches known profile preference",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -234,7 +126,126 @@
       "latest_distance_f": 24.5,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 74,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
+    "horse": "Jisco Du Brem",
+    "horse_id": "hrs_37821637",
+    "age": 7,
+    "sex": "gelding",
+    "latest_course": "Bellewstown",
+    "latest_time": "7:48",
+    "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+    "latest_date": "2026-07-04",
+    "latest_distance_f": 24.5,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Jonathan Sweeney",
+    "latest_jockey": "Alan O'Sullivan(5)",
+    "latest_draw": 0,
+    "latest_weight_lbs": 157,
+    "official_rating": "111",
+    "recent_form": "533-51",
+    "last_run_days": 39,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Bellewstown": 1
+    },
+    "distances_seen": {
+      "24.5": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Jonathan Sweeney": 1
+    },
+    "jockeys_seen": {
+      "Alan O'Sullivan(5)": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 72,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Jockey bonus +2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12010323",
+        "course": "Bellewstown",
+        "date": "2026-07-04",
+        "off_time": "7:48",
+        "off_dt": "2026-07-04T19:48:00+01:00",
+        "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+        "distance_f": 24.5,
+        "race_class": "",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 16,
+        "horse": "Jisco Du Brem",
+        "horse_id": "hrs_37821637",
+        "age": 7,
+        "sex": "gelding",
+        "trainer": "Jonathan Sweeney",
+        "trainer_id": "trn_251550",
+        "jockey": "Alan O'Sullivan(5)",
+        "jockey_id": "jky_301110",
+        "draw": 0,
+        "number": 5,
+        "lbs": 157,
+        "ofr": "111",
+        "last_run": 39,
+        "form": "533-51",
+        "headgear": "t"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Bellewstown",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 24.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 56,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Bellewstown",
+      "latest_distance_f": 24.5,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": 72,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -279,8 +290,13 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 72,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -295,7 +311,7 @@
         "race_type": "Hurdle",
         "going": "Good",
         "surface": "Turf",
-        "field_size": 15,
+        "field_size": 16,
         "horse": "Jisco Du Brem",
         "horse_id": "hrs_37821637",
         "age": 7,
@@ -332,14 +348,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
+      "Today's going matches known profile preference",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -348,127 +364,13 @@
       "latest_distance_f": 24.5,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 72,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Accustomed",
-      "horse_id": "hrs_40786501",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "7:48",
-      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 24.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "E D Delany",
-      "latest_jockey": "Daniel King",
-      "latest_draw": 0,
-      "latest_weight_lbs": 143,
-      "official_rating": "97",
-      "recent_form": "62P0-5",
-      "last_run_days": 27,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "24.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "E D Delany": 1
-      },
-      "jockeys_seen": {
-        "Daniel King": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010323",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "7:48",
-          "off_dt": "2026-07-04T19:48:00+01:00",
-          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
-          "distance_f": 24.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Accustomed",
-          "horse_id": "hrs_40786501",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "E D Delany",
-          "trainer_id": "trn_67716",
-          "jockey": "Daniel King",
-          "jockey_id": "jky_303180",
-          "draw": 0,
-          "number": 16,
-          "lbs": 143,
-          "ofr": "97",
-          "last_run": 27,
-          "form": "62P0-5",
-          "headgear": "p"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 24.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 24.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Burning Ability",
       "horse_id": "hrs_57071756",
@@ -508,8 +410,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 74,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -524,7 +432,7 @@
           "race_type": "Hurdle",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 16,
           "horse": "Burning Ability",
           "horse_id": "hrs_57071756",
           "age": 5,
@@ -561,14 +469,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 57,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's going matches known profile preference",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -577,7 +485,7 @@
         "latest_distance_f": 24.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 74,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -622,8 +530,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 72,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -638,7 +551,7 @@
           "race_type": "Hurdle",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 16,
           "horse": "Jisco Du Brem",
           "horse_id": "hrs_37821637",
           "age": 7,
@@ -675,14 +588,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's going matches known profile preference",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -691,693 +604,7 @@
         "latest_distance_f": 24.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Le Kap",
-      "horse_id": "hrs_50907108",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "7:48",
-      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 24.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Henry De Bromhead",
-      "latest_jockey": "Darragh O'Keeffe",
-      "latest_draw": 0,
-      "latest_weight_lbs": 155,
-      "official_rating": "109",
-      "recent_form": "438-6",
-      "last_run_days": 51,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "24.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Henry De Bromhead": 1
-      },
-      "jockeys_seen": {
-        "Darragh O'Keeffe": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010323",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "7:48",
-          "off_dt": "2026-07-04T19:48:00+01:00",
-          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
-          "distance_f": 24.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Le Kap",
-          "horse_id": "hrs_50907108",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Henry De Bromhead",
-          "trainer_id": "trn_11241",
-          "jockey": "Darragh O'Keeffe",
-          "jockey_id": "jky_289173",
-          "draw": 0,
-          "number": 7,
-          "lbs": 155,
-          "ofr": "109",
-          "last_run": 51,
-          "form": "438-6",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 24.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 24.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Lisnagar Fortune",
-      "horse_id": "hrs_29931671",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "7:48",
-      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 24.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "John C McConnell",
-      "latest_jockey": "Alex Harvey",
-      "latest_draw": 0,
-      "latest_weight_lbs": 166,
-      "official_rating": "120",
-      "recent_form": "3/87-8",
-      "last_run_days": 26,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "24.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "John C McConnell": 1
-      },
-      "jockeys_seen": {
-        "Alex Harvey": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010323",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "7:48",
-          "off_dt": "2026-07-04T19:48:00+01:00",
-          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
-          "distance_f": 24.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Lisnagar Fortune",
-          "horse_id": "hrs_29931671",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "John C McConnell",
-          "trainer_id": "trn_132759",
-          "jockey": "Alex Harvey",
-          "jockey_id": "jky_26976",
-          "draw": 0,
-          "number": 1,
-          "lbs": 166,
-          "ofr": "120",
-          "last_run": 26,
-          "form": "3/87-8",
-          "headgear": "p"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 24.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 24.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Mavetherave",
-      "horse_id": "hrs_41378652",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "7:48",
-      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 24.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ms Claire O'Connell",
-      "latest_jockey": "J J Slevin",
-      "latest_draw": 0,
-      "latest_weight_lbs": 150,
-      "official_rating": "104",
-      "recent_form": "42050-",
-      "last_run_days": 109,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "24.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Ms Claire O'Connell": 1
-      },
-      "jockeys_seen": {
-        "J J Slevin": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010323",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "7:48",
-          "off_dt": "2026-07-04T19:48:00+01:00",
-          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
-          "distance_f": 24.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Mavetherave",
-          "horse_id": "hrs_41378652",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Ms Claire O'Connell",
-          "trainer_id": "trn_192114",
-          "jockey": "J J Slevin",
-          "jockey_id": "jky_264864",
-          "draw": 0,
-          "number": 13,
-          "lbs": 150,
-          "ofr": "104",
-          "last_run": 109,
-          "form": "42050-",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Returning from a break"
-      ],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 24.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 24.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Ottoman Style",
-      "horse_id": "hrs_23111305",
-      "age": 10,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "7:48",
-      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 24.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Dermot A McLoughlin",
-      "latest_jockey": "Liam McKenna(3)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 160,
-      "official_rating": "114",
-      "recent_form": "0/P-4P",
-      "last_run_days": 27,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "24.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Dermot A McLoughlin": 1
-      },
-      "jockeys_seen": {
-        "Liam McKenna(3)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010323",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "7:48",
-          "off_dt": "2026-07-04T19:48:00+01:00",
-          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
-          "distance_f": 24.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Ottoman Style",
-          "horse_id": "hrs_23111305",
-          "age": 10,
-          "sex": "gelding",
-          "trainer": "Dermot A McLoughlin",
-          "trainer_id": "trn_207063",
-          "jockey": "Liam McKenna(3)",
-          "jockey_id": "jky_273744",
-          "draw": 0,
-          "number": 4,
-          "lbs": 160,
-          "ofr": "114",
-          "last_run": 27,
-          "form": "0/P-4P",
-          "headgear": "tb"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 24.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 24.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Outside The Door",
-      "horse_id": "hrs_22259412",
-      "age": 10,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "7:48",
-      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 24.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Padraig Roche",
-      "latest_jockey": "Peter Smithers(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 162,
-      "official_rating": "116",
-      "recent_form": "1P072-",
-      "last_run_days": 65,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "24.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Padraig Roche": 1
-      },
-      "jockeys_seen": {
-        "Peter Smithers(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010323",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "7:48",
-          "off_dt": "2026-07-04T19:48:00+01:00",
-          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
-          "distance_f": 24.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "Outside The Door",
-          "horse_id": "hrs_22259412",
-          "age": 10,
-          "sex": "gelding",
-          "trainer": "Padraig Roche",
-          "trainer_id": "trn_307287",
-          "jockey": "Peter Smithers(7)",
-          "jockey_id": "jky_304341",
-          "draw": 0,
-          "number": 2,
-          "lbs": 162,
-          "ofr": "116",
-          "last_run": 65,
-          "form": "1P072-",
-          "headgear": "b"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 24.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 24.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "The Miracle Man",
-      "horse_id": "hrs_28608090",
-      "age": 8,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "7:48",
-      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 24.5,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Gordon Elliott",
-      "latest_jockey": "Jack Kennedy",
-      "latest_draw": 0,
-      "latest_weight_lbs": 151,
-      "official_rating": "105",
-      "recent_form": "2433-9",
-      "last_run_days": 53,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "24.5": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Gordon Elliott": 1
-      },
-      "jockeys_seen": {
-        "Jack Kennedy": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010323",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "7:48",
-          "off_dt": "2026-07-04T19:48:00+01:00",
-          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
-          "distance_f": 24.5,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 15,
-          "horse": "The Miracle Man",
-          "horse_id": "hrs_28608090",
-          "age": 8,
-          "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "Jack Kennedy",
-          "jockey_id": "jky_283509",
-          "draw": 0,
-          "number": 12,
-          "lbs": 151,
-          "ofr": "105",
-          "last_run": 53,
-          "form": "2433-9",
-          "headgear": "b"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 24.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 24.5,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 72,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1422,8 +649,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 67,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey bonus +2",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1438,7 +672,7 @@
           "race_type": "Hurdle",
           "going": "Good",
           "surface": "Turf",
-          "field_size": 15,
+          "field_size": 16,
           "horse": "Whatsavailable",
           "horse_id": "hrs_24216374",
           "age": 9,
@@ -1475,7 +709,1316 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 54,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 24.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 67,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Radar Ahead",
+      "horse_id": "hrs_37207828",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Bellewstown",
+      "latest_time": "7:48",
+      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 24.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "T G McCourt",
+      "latest_jockey": "Sam Ewing",
+      "latest_draw": 0,
+      "latest_weight_lbs": 154,
+      "official_rating": "108",
+      "recent_form": "2105-U",
+      "last_run_days": 20,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "24.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "T G McCourt": 1
+      },
+      "jockeys_seen": {
+        "Sam Ewing": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 65,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010323",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "7:48",
+          "off_dt": "2026-07-04T19:48:00+01:00",
+          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+          "distance_f": 24.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Radar Ahead",
+          "horse_id": "hrs_37207828",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "T G McCourt",
+          "trainer_id": "trn_38196",
+          "jockey": "Sam Ewing",
+          "jockey_id": "jky_301095",
+          "draw": 0,
+          "number": 9,
+          "lbs": 154,
+          "ofr": "108",
+          "last_run": 20,
+          "form": "2105-U",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 24.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 53,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 24.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 65,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Accustomed",
+      "horse_id": "hrs_40786501",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "7:48",
+      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 24.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "E D Delany",
+      "latest_jockey": "Daniel King",
+      "latest_draw": 0,
+      "latest_weight_lbs": 143,
+      "official_rating": "97",
+      "recent_form": "62P0-5",
+      "last_run_days": 27,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "24.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "E D Delany": 1
+      },
+      "jockeys_seen": {
+        "Daniel King": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 60,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010323",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "7:48",
+          "off_dt": "2026-07-04T19:48:00+01:00",
+          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+          "distance_f": 24.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Accustomed",
+          "horse_id": "hrs_40786501",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "E D Delany",
+          "trainer_id": "trn_67716",
+          "jockey": "Daniel King",
+          "jockey_id": "jky_303180",
+          "draw": 0,
+          "number": 16,
+          "lbs": 143,
+          "ofr": "97",
+          "last_run": 27,
+          "form": "62P0-5",
+          "headgear": "p"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 24.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 51,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 24.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 60,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "The Miracle Man",
+      "horse_id": "hrs_28608090",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "7:48",
+      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 24.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "A L T Moore",
+      "latest_jockey": "Jack Kennedy",
+      "latest_draw": 0,
+      "latest_weight_lbs": 151,
+      "official_rating": "105",
+      "recent_form": "2433-9",
+      "last_run_days": 53,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "24.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "A L T Moore": 1
+      },
+      "jockeys_seen": {
+        "Jack Kennedy": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 60,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey bonus +3"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010323",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "7:48",
+          "off_dt": "2026-07-04T19:48:00+01:00",
+          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+          "distance_f": 24.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "The Miracle Man",
+          "horse_id": "hrs_28608090",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "A L T Moore",
+          "trainer_id": "trn_8829",
+          "jockey": "Jack Kennedy",
+          "jockey_id": "jky_283509",
+          "draw": 0,
+          "number": 12,
+          "lbs": 151,
+          "ofr": "105",
+          "last_run": 53,
+          "form": "2433-9",
+          "headgear": "b"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 24.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 51,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 24.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 60,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Le Kap",
+      "horse_id": "hrs_50907108",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "7:48",
+      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 24.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Henry De Bromhead",
+      "latest_jockey": "Darragh O'Keeffe",
+      "latest_draw": 0,
+      "latest_weight_lbs": 155,
+      "official_rating": "109",
+      "recent_form": "438-6",
+      "last_run_days": 51,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "24.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Henry De Bromhead": 1
+      },
+      "jockeys_seen": {
+        "Darragh O'Keeffe": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 57,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Stable in form +2 (1/2 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey in form +2 (1/3 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010323",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "7:48",
+          "off_dt": "2026-07-04T19:48:00+01:00",
+          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+          "distance_f": 24.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Le Kap",
+          "horse_id": "hrs_50907108",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Henry De Bromhead",
+          "trainer_id": "trn_11241",
+          "jockey": "Darragh O'Keeffe",
+          "jockey_id": "jky_289173",
+          "draw": 0,
+          "number": 7,
+          "lbs": 155,
+          "ofr": "109",
+          "last_run": 51,
+          "form": "438-6",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 24.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 24.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 57,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Midnight Moonshine",
+      "horse_id": "hrs_40096098",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "7:48",
+      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 24.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "William Harvey",
+      "latest_jockey": "Ben Harvey",
+      "latest_draw": 0,
+      "latest_weight_lbs": 151,
+      "official_rating": "105",
+      "recent_form": "43F-09",
+      "last_run_days": 35,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "24.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "William Harvey": 1
+      },
+      "jockeys_seen": {
+        "Ben Harvey": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 58,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey bonus +3",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010323",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "7:48",
+          "off_dt": "2026-07-04T19:48:00+01:00",
+          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+          "distance_f": 24.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Midnight Moonshine",
+          "horse_id": "hrs_40096098",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "William Harvey",
+          "trainer_id": "trn_373212",
+          "jockey": "Ben Harvey",
+          "jockey_id": "jky_288771",
+          "draw": 0,
+          "number": 11,
+          "lbs": 151,
+          "ofr": "105",
+          "last_run": 35,
+          "form": "43F-09",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 24.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 24.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 58,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Ottoman Style",
+      "horse_id": "hrs_23111305",
+      "age": 10,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "7:48",
+      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 24.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Dermot A McLoughlin",
+      "latest_jockey": "Liam McKenna(3)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 160,
+      "official_rating": "114",
+      "recent_form": "0/P-4P",
+      "last_run_days": 27,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "24.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Dermot A McLoughlin": 1
+      },
+      "jockeys_seen": {
+        "Liam McKenna(3)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 58,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010323",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "7:48",
+          "off_dt": "2026-07-04T19:48:00+01:00",
+          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+          "distance_f": 24.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Ottoman Style",
+          "horse_id": "hrs_23111305",
+          "age": 10,
+          "sex": "gelding",
+          "trainer": "Dermot A McLoughlin",
+          "trainer_id": "trn_207063",
+          "jockey": "Liam McKenna(3)",
+          "jockey_id": "jky_273744",
+          "draw": 0,
+          "number": 4,
+          "lbs": 160,
+          "ofr": "114",
+          "last_run": 27,
+          "form": "0/P-4P",
+          "headgear": "tb"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 24.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 24.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 58,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Dorans Law",
+      "horse_id": "hrs_35231938",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "7:48",
+      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 24.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "P J Rothwell",
+      "latest_jockey": "Brian Barry(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 154,
+      "official_rating": "108",
+      "recent_form": "2PP-65",
+      "last_run_days": 19,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "24.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "P J Rothwell": 1
+      },
+      "jockeys_seen": {
+        "Brian Barry(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 53,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010323",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "7:48",
+          "off_dt": "2026-07-04T19:48:00+01:00",
+          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+          "distance_f": 24.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Dorans Law",
+          "horse_id": "hrs_35231938",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "P J Rothwell",
+          "trainer_id": "trn_122130",
+          "jockey": "Brian Barry(7)",
+          "jockey_id": "jky_303081",
+          "draw": 0,
+          "number": 8,
+          "lbs": 154,
+          "ofr": "108",
+          "last_run": 19,
+          "form": "2PP-65",
+          "headgear": "tp"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 24.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 48,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 24.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 53,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Mavetherave",
+      "horse_id": "hrs_41378652",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "7:48",
+      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 24.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "W R Crawford",
+      "latest_jockey": "J J Slevin",
+      "latest_draw": 0,
+      "latest_weight_lbs": 150,
+      "official_rating": "104",
+      "recent_form": "42050-",
+      "last_run_days": 109,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "24.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "W R Crawford": 1
+      },
+      "jockeys_seen": {
+        "J J Slevin": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Positive recent form",
+        "Helpful draw",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010323",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "7:48",
+          "off_dt": "2026-07-04T19:48:00+01:00",
+          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+          "distance_f": 24.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Mavetherave",
+          "horse_id": "hrs_41378652",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "W R Crawford",
+          "trainer_id": "trn_344052",
+          "jockey": "J J Slevin",
+          "jockey_id": "jky_264864",
+          "draw": 0,
+          "number": 13,
+          "lbs": 150,
+          "ofr": "104",
+          "last_run": 109,
+          "form": "42050-",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 24.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 24.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 49,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Lisnagar Fortune",
+      "horse_id": "hrs_29931671",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "7:48",
+      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 24.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "John C McConnell",
+      "latest_jockey": "Alex Harvey",
+      "latest_draw": 0,
+      "latest_weight_lbs": 166,
+      "official_rating": "120",
+      "recent_form": "3/87-8",
+      "last_run_days": 26,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "24.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "John C McConnell": 1
+      },
+      "jockeys_seen": {
+        "Alex Harvey": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 45,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010323",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "7:48",
+          "off_dt": "2026-07-04T19:48:00+01:00",
+          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+          "distance_f": 24.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Lisnagar Fortune",
+          "horse_id": "hrs_29931671",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "John C McConnell",
+          "trainer_id": "trn_132759",
+          "jockey": "Alex Harvey",
+          "jockey_id": "jky_26976",
+          "draw": 0,
+          "number": 1,
+          "lbs": 166,
+          "ofr": "120",
+          "last_run": 26,
+          "form": "3/87-8",
+          "headgear": "p"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 24.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 44,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 24.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 45,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Outside The Door",
+      "horse_id": "hrs_22259412",
+      "age": 10,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "7:48",
+      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 24.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Padraig Roche",
+      "latest_jockey": "Peter Smithers(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 162,
+      "official_rating": "116",
+      "recent_form": "1P072-",
+      "last_run_days": 65,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "24.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Padraig Roche": 1
+      },
+      "jockeys_seen": {
+        "Peter Smithers(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 45,
+      "latest_notes": [
+        "Positive recent form",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010323",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "7:48",
+          "off_dt": "2026-07-04T19:48:00+01:00",
+          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+          "distance_f": 24.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Outside The Door",
+          "horse_id": "hrs_22259412",
+          "age": 10,
+          "sex": "gelding",
+          "trainer": "Padraig Roche",
+          "trainer_id": "trn_307287",
+          "jockey": "Peter Smithers(7)",
+          "jockey_id": "jky_304341",
+          "draw": 0,
+          "number": 2,
+          "lbs": 162,
+          "ofr": "116",
+          "last_run": 65,
+          "form": "1P072-",
+          "headgear": "b"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 24.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 44,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 24.5,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 45,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Justatan",
+      "horse_id": "hrs_37576784",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "7:48",
+      "latest_race": "QuinnBet Bellewstown Handicap Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 24.5,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Emmet Mullins",
+      "latest_jockey": "Ricky Doyle",
+      "latest_draw": 0,
+      "latest_weight_lbs": 146,
+      "official_rating": "100",
+      "recent_form": "55309-",
+      "last_run_days": 160,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "24.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Emmet Mullins": 1
+      },
+      "jockeys_seen": {
+        "Ricky Doyle": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 33,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Long layoff concern -4",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010323",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "7:48",
+          "off_dt": "2026-07-04T19:48:00+01:00",
+          "race_name": "QuinnBet Bellewstown Handicap Hurdle",
+          "distance_f": 24.5,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Justatan",
+          "horse_id": "hrs_37576784",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "Emmet Mullins",
+          "trainer_id": "trn_278739",
+          "jockey": "Ricky Doyle",
+          "jockey_id": "jky_272205",
+          "draw": 0,
+          "number": 14,
+          "lbs": 146,
+          "ofr": "100",
+          "last_run": 160,
+          "form": "55309-",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 24.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 39,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1491,7 +2034,7 @@
         "latest_distance_f": 24.5,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 33,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1499,9 +2042,8 @@
     }
   ],
   "notes": [
-    "Accustomed is the top-rated Pulse IQ runner.",
+    "Burning Ability is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
     "Jisco Du Brem is flagged as a possible dark horse."
   ]
 }

@@ -4,7 +4,7 @@
   "course": "Newton Abbot",
   "time": "6:45",
   "race_name": "Happy Birthday June O'Dwyer Novices' Hurdle (GBB Race)",
-  "field_size": 4,
+  "field_size": 5,
   "average_intelligence": 27.0,
   "top_score": 27,
   "second_score": 27,
@@ -13,6 +13,158 @@
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Ballinoulart",
+    "horse_id": "hrs_29917510",
+    "age": 8,
+    "sex": "gelding",
+    "latest_course": "Newton Abbot",
+    "latest_time": "6:45",
+    "latest_race": "Happy Birthday June O'Dwyer Novices' Hurdle (GBB Race)",
+    "latest_date": "2026-06-23",
+    "latest_distance_f": 21.5,
+    "latest_class": "Class 4",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "D G Bridgwater",
+    "latest_jockey": "Mr Richard Upton",
+    "latest_draw": 0,
+    "latest_weight_lbs": 155,
+    "official_rating": "69",
+    "recent_form": "P-2243",
+    "last_run_days": null,
+    "profile_runs": 2,
+    "courses_seen": {
+      "Newton Abbot": 2
+    },
+    "distances_seen": {
+      "21.5": 2
+    },
+    "goings_seen": {
+      "Good": 2
+    },
+    "classes_seen": {
+      "Class 4": 2
+    },
+    "trainers_seen": {
+      "D G Bridgwater": 2
+    },
+    "jockeys_seen": {
+      "Mr Richard Upton": 2
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": null,
+    "latest_notes": [],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11973494",
+        "course": "Newton Abbot",
+        "date": "2026-06-23",
+        "off_time": "6:45",
+        "off_dt": "2026-06-23T18:45:00+01:00",
+        "race_name": "Happy Birthday June O'Dwyer Novices' Hurdle (GBB Race)",
+        "distance_f": 21.5,
+        "race_class": "Class 4",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 6,
+        "horse": "Ballinoulart",
+        "horse_id": "hrs_29917510",
+        "age": 8,
+        "sex": "gelding",
+        "trainer": "D G Bridgwater",
+        "trainer_id": "trn_119187",
+        "jockey": "Mr Richard Upton",
+        "jockey_id": "jky_311985",
+        "draw": 0,
+        "number": 4,
+        "lbs": 155,
+        "ofr": "69",
+        "last_run": null,
+        "form": "P-2243",
+        "headgear": "p",
+        "_stored_at": "2026-06-23T21:32:41.405412+00:00"
+      },
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11973494",
+        "course": "Newton Abbot",
+        "date": "2026-06-23",
+        "off_time": "6:45",
+        "off_dt": "2026-06-23T18:45:00+01:00",
+        "race_name": "Happy Birthday June O'Dwyer Novices' Hurdle (GBB Race)",
+        "distance_f": 21.5,
+        "race_class": "Class 4",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 6,
+        "horse": "Ballinoulart",
+        "horse_id": "hrs_29917510",
+        "age": 8,
+        "sex": "gelding",
+        "trainer": "D G Bridgwater",
+        "trainer_id": "trn_119187",
+        "jockey": "Mr Richard Upton",
+        "jockey_id": "jky_311985",
+        "draw": 0,
+        "number": 4,
+        "lbs": 155,
+        "ofr": "69",
+        "last_run": null,
+        "form": "P-2243",
+        "headgear": "p",
+        "_stored_at": "2026-06-25T06:53:18.573971+00:00"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Newton Abbot",
+      "runs": 2
+    },
+    "favourite_distance": {
+      "value": 21.5,
+      "runs": 2
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 2
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 2
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 27,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Low latest Pulse Score",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Newton Abbot",
+      "latest_distance_f": 21.5,
+      "latest_going": "Good",
+      "latest_class": "Class 4",
+      "latest_pulse_score": null,
+      "average_pulse_score": 0,
+      "profile_runs": 2,
+      "runs_count": 2
+    }
+  },
+  "main_threat": {
     "horse": "Coumeenoole",
     "horse_id": "hrs_41189904",
     "age": 7,
@@ -164,7 +316,7 @@
       "runs_count": 2
     }
   },
-  "main_threat": {
+  "dark_horse": {
     "horse": "Glenary",
     "horse_id": "hrs_51341738",
     "age": 6,
@@ -316,159 +468,159 @@
       "runs_count": 2
     }
   },
-  "dark_horse": {
-    "horse": "Keep Off The Sugar",
-    "horse_id": "hrs_51308278",
-    "age": 5,
-    "sex": "gelding",
-    "latest_course": "Newton Abbot",
-    "latest_time": "6:45",
-    "latest_race": "Happy Birthday June O'Dwyer Novices' Hurdle (GBB Race)",
-    "latest_date": "2026-06-23",
-    "latest_distance_f": 21.5,
-    "latest_class": "Class 4",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "J D Frost",
-    "latest_jockey": "C O'Farrell",
-    "latest_draw": 0,
-    "latest_weight_lbs": 155,
-    "official_rating": "-",
-    "recent_form": "/00-7P",
-    "last_run_days": 20,
-    "profile_runs": 2,
-    "courses_seen": {
-      "Newton Abbot": 2
-    },
-    "distances_seen": {
-      "21.5": 2
-    },
-    "goings_seen": {
-      "Good": 2
-    },
-    "classes_seen": {
-      "Class 4": 2
-    },
-    "trainers_seen": {
-      "J D Frost": 2
-    },
-    "jockeys_seen": {
-      "C O'Farrell": 2
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11973494",
-        "course": "Newton Abbot",
-        "date": "2026-06-23",
-        "off_time": "6:45",
-        "off_dt": "2026-06-23T18:45:00+01:00",
-        "race_name": "Happy Birthday June O'Dwyer Novices' Hurdle (GBB Race)",
-        "distance_f": 21.5,
-        "race_class": "Class 4",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 6,
-        "horse": "Keep Off The Sugar",
-        "horse_id": "hrs_51308278",
-        "age": 5,
-        "sex": "gelding",
-        "trainer": "J D Frost",
-        "trainer_id": "trn_136665",
-        "jockey": "C O'Farrell",
-        "jockey_id": "jky_257538",
-        "draw": 0,
-        "number": 6,
-        "lbs": 155,
-        "ofr": "-",
-        "last_run": 20,
-        "form": "/00-7P",
-        "headgear": "h",
-        "_stored_at": "2026-06-23T21:32:41.445120+00:00"
-      },
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11973494",
-        "course": "Newton Abbot",
-        "date": "2026-06-23",
-        "off_time": "6:45",
-        "off_dt": "2026-06-23T18:45:00+01:00",
-        "race_name": "Happy Birthday June O'Dwyer Novices' Hurdle (GBB Race)",
-        "distance_f": 21.5,
-        "race_class": "Class 4",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 6,
-        "horse": "Keep Off The Sugar",
-        "horse_id": "hrs_51308278",
-        "age": 5,
-        "sex": "gelding",
-        "trainer": "J D Frost",
-        "trainer_id": "trn_136665",
-        "jockey": "C O'Farrell",
-        "jockey_id": "jky_257538",
-        "draw": 0,
-        "number": 6,
-        "lbs": 155,
-        "ofr": "-",
-        "last_run": 20,
-        "form": "/00-7P",
-        "headgear": "h",
-        "_stored_at": "2026-06-25T06:53:18.595002+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Newton Abbot",
-      "runs": 2
-    },
-    "favourite_distance": {
-      "value": 21.5,
-      "runs": 2
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 2
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 2
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Newton Abbot",
-      "latest_distance_f": 21.5,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 2,
-      "runs_count": 2
-    }
-  },
   "runners": [
+    {
+      "horse": "Ballinoulart",
+      "horse_id": "hrs_29917510",
+      "age": 8,
+      "sex": "gelding",
+      "latest_course": "Newton Abbot",
+      "latest_time": "6:45",
+      "latest_race": "Happy Birthday June O'Dwyer Novices' Hurdle (GBB Race)",
+      "latest_date": "2026-06-23",
+      "latest_distance_f": 21.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "D G Bridgwater",
+      "latest_jockey": "Mr Richard Upton",
+      "latest_draw": 0,
+      "latest_weight_lbs": 155,
+      "official_rating": "69",
+      "recent_form": "P-2243",
+      "last_run_days": null,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Newton Abbot": 2
+      },
+      "distances_seen": {
+        "21.5": 2
+      },
+      "goings_seen": {
+        "Good": 2
+      },
+      "classes_seen": {
+        "Class 4": 2
+      },
+      "trainers_seen": {
+        "D G Bridgwater": 2
+      },
+      "jockeys_seen": {
+        "Mr Richard Upton": 2
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": null,
+      "latest_notes": [],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973494",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "6:45",
+          "off_dt": "2026-06-23T18:45:00+01:00",
+          "race_name": "Happy Birthday June O'Dwyer Novices' Hurdle (GBB Race)",
+          "distance_f": 21.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Ballinoulart",
+          "horse_id": "hrs_29917510",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "D G Bridgwater",
+          "trainer_id": "trn_119187",
+          "jockey": "Mr Richard Upton",
+          "jockey_id": "jky_311985",
+          "draw": 0,
+          "number": 4,
+          "lbs": 155,
+          "ofr": "69",
+          "last_run": null,
+          "form": "P-2243",
+          "headgear": "p",
+          "_stored_at": "2026-06-23T21:32:41.405412+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11973494",
+          "course": "Newton Abbot",
+          "date": "2026-06-23",
+          "off_time": "6:45",
+          "off_dt": "2026-06-23T18:45:00+01:00",
+          "race_name": "Happy Birthday June O'Dwyer Novices' Hurdle (GBB Race)",
+          "distance_f": 21.5,
+          "race_class": "Class 4",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Ballinoulart",
+          "horse_id": "hrs_29917510",
+          "age": 8,
+          "sex": "gelding",
+          "trainer": "D G Bridgwater",
+          "trainer_id": "trn_119187",
+          "jockey": "Mr Richard Upton",
+          "jockey_id": "jky_311985",
+          "draw": 0,
+          "number": 4,
+          "lbs": 155,
+          "ofr": "69",
+          "last_run": null,
+          "form": "P-2243",
+          "headgear": "p",
+          "_stored_at": "2026-06-25T06:53:18.573971+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newton Abbot",
+        "runs": 2
+      },
+      "favourite_distance": {
+        "value": 21.5,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 2
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 27,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Low latest Pulse Score",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newton Abbot",
+        "latest_distance_f": 21.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": null,
+        "average_pulse_score": 0,
+        "profile_runs": 2,
+        "runs_count": 2
+      }
+    },
     {
       "horse": "Coumeenoole",
       "horse_id": "hrs_41189904",
@@ -1079,9 +1231,9 @@
     }
   ],
   "notes": [
-    "Coumeenoole is the top-rated Pulse IQ runner.",
+    "Ballinoulart is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "This race has a generally weak profile strength.",
-    "Keep Off The Sugar is flagged as a possible dark horse."
+    "Glenary is flagged as a possible dark horse."
   ]
 }

@@ -20,6 +20,14 @@ def utc_now() -> str:
 def clean(value) -> str:
     return str(value or "").strip()
 
+def normalize_bookmaker(bookmaker: str) -> str:
+    return (
+        clean(bookmaker)
+        .lower()
+        .replace(" ", "")
+        .replace("-", "")
+        .replace("_", "")
+    )
 
 def safe_float(value, default: float = 0.0) -> float:
     try:

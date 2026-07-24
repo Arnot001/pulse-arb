@@ -5,14 +5,147 @@
   "time": "7:50",
   "race_name": "Get Your Tickets For Cube Glass Ladies Night Handicap",
   "field_size": 4,
-  "average_intelligence": 25.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 21,
+  "average_intelligence": 55.5,
+  "top_score": 63,
+  "second_score": 62,
+  "gap": 1,
+  "confidence_score": 50,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Showcasing Star",
+    "horse_id": "hrs_62326439",
+    "age": 3,
+    "sex": "gelding",
+    "latest_course": "Hamilton",
+    "latest_time": "7:50",
+    "latest_race": "Get Your Tickets For Cube Glass Ladies Night Handicap",
+    "latest_date": "2026-07-11",
+    "latest_distance_f": 8.5,
+    "latest_class": "Class 4",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Charlie Johnston",
+    "latest_jockey": "Connor Beasley",
+    "latest_draw": 2,
+    "latest_weight_lbs": 129,
+    "official_rating": "75",
+    "recent_form": "22270",
+    "last_run_days": 12,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Hamilton": 1
+    },
+    "distances_seen": {
+      "8.5": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "Charlie Johnston": 1
+    },
+    "jockeys_seen": {
+      "Connor Beasley": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 80,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +2",
+      "Stable in form +2 (2/3 last 14 days)",
+      "Jockey bonus +2"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11991460",
+        "course": "Hamilton",
+        "date": "2026-07-11",
+        "off_time": "7:50",
+        "off_dt": "2026-07-11T19:50:00+01:00",
+        "race_name": "Get Your Tickets For Cube Glass Ladies Night Handicap",
+        "distance_f": 8.5,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 5,
+        "horse": "Showcasing Star",
+        "horse_id": "hrs_62326439",
+        "age": 3,
+        "sex": "gelding",
+        "trainer": "Charlie Johnston",
+        "trainer_id": "trn_361179",
+        "jockey": "Connor Beasley",
+        "jockey_id": "jky_272604",
+        "draw": 2,
+        "number": 6,
+        "lbs": 129,
+        "ofr": "75",
+        "last_run": 12,
+        "form": "22270",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [
+      "Elite latest Pulse Score",
+      "Low draw today",
+      "Recent run timing"
+    ],
+    "favourite_course": {
+      "value": "Hamilton",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 8.5,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 63,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Hamilton",
+      "latest_distance_f": 8.5,
+      "latest_going": "Good",
+      "latest_class": "Class 4",
+      "latest_pulse_score": 80,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Lucky Camino",
     "horse_id": "hrs_63971096",
     "age": 3,
@@ -53,8 +186,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 77,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +2",
+      "Jockey bonus +3"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -111,15 +252,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 62,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -128,137 +269,17 @@
       "latest_distance_f": 8.5,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Quiet Resolve",
-    "horse_id": "hrs_38417218",
-    "age": 5,
-    "sex": "gelding",
-    "latest_course": "Hamilton",
-    "latest_time": "7:50",
-    "latest_race": "Get Your Tickets For Cube Glass Ladies Night Handicap",
-    "latest_date": "2026-07-11",
-    "latest_distance_f": 8.5,
-    "latest_class": "Class 4",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Alan Brown",
-    "latest_jockey": "Jack Nicholls(5)",
-    "latest_draw": 5,
-    "latest_weight_lbs": 135,
-    "official_rating": "72",
-    "recent_form": "36-126",
-    "last_run_days": 39,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Hamilton": 1
-    },
-    "distances_seen": {
-      "8.5": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "Alan Brown": 1
-    },
-    "jockeys_seen": {
-      "Jack Nicholls(5)": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11991460",
-        "course": "Hamilton",
-        "date": "2026-07-11",
-        "off_time": "7:50",
-        "off_dt": "2026-07-11T19:50:00+01:00",
-        "race_name": "Get Your Tickets For Cube Glass Ladies Night Handicap",
-        "distance_f": 8.5,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 5,
-        "horse": "Quiet Resolve",
-        "horse_id": "hrs_38417218",
-        "age": 5,
-        "sex": "gelding",
-        "trainer": "Alan Brown",
-        "trainer_id": "trn_702",
-        "jockey": "Jack Nicholls(5)",
-        "jockey_id": "jky_308319",
-        "draw": 5,
-        "number": 3,
-        "lbs": 135,
-        "ofr": "72",
-        "last_run": 39,
-        "form": "36-126",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Hamilton",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 8.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Hamilton",
-      "latest_distance_f": 8.5,
-      "latest_going": "Good",
-      "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 77,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Zowal",
-    "horse_id": "hrs_46483276",
-    "age": 4,
-    "sex": "gelding",
+    "horse": "Lucky Camino",
+    "horse_id": "hrs_63971096",
+    "age": 3,
+    "sex": "colt",
     "latest_course": "Hamilton",
     "latest_time": "7:50",
     "latest_race": "Get Your Tickets For Cube Glass Ladies Night Handicap",
@@ -267,13 +288,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "John & Sean Quinn",
-    "latest_jockey": "Dougie Costello",
-    "latest_draw": 6,
-    "latest_weight_lbs": 140,
-    "official_rating": "77",
-    "recent_form": "P0-613",
-    "last_run_days": 21,
+    "latest_trainer": "Hugo Palmer",
+    "latest_jockey": "Kevin Stott",
+    "latest_draw": 3,
+    "latest_weight_lbs": 134,
+    "official_rating": "80",
+    "recent_form": "223",
+    "last_run_days": 28,
     "profile_runs": 1,
     "courses_seen": {
       "Hamilton": 1
@@ -288,15 +309,23 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "John & Sean Quinn": 1
+      "Hugo Palmer": 1
     },
     "jockeys_seen": {
-      "Dougie Costello": 1
+      "Kevin Stott": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 77,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +2",
+      "Jockey bonus +3"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -312,24 +341,26 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 5,
-        "horse": "Zowal",
-        "horse_id": "hrs_46483276",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "John & Sean Quinn",
-        "trainer_id": "trn_369855",
-        "jockey": "Dougie Costello",
-        "jockey_id": "jky_234714",
-        "draw": 6,
-        "number": null,
-        "lbs": 140,
-        "ofr": "77",
-        "last_run": 21,
-        "form": "P0-613",
+        "horse": "Lucky Camino",
+        "horse_id": "hrs_63971096",
+        "age": 3,
+        "sex": "colt",
+        "trainer": "Hugo Palmer",
+        "trainer_id": "trn_225081",
+        "jockey": "Kevin Stott",
+        "jockey_id": "jky_275601",
+        "draw": 3,
+        "number": 4,
+        "lbs": 134,
+        "ofr": "80",
+        "last_run": 28,
+        "form": "223",
         "headgear": ""
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Low draw today"
+    ],
     "favourite_course": {
       "value": "Hamilton",
       "runs": 1
@@ -351,15 +382,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 62,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -368,13 +399,146 @@
       "latest_distance_f": 8.5,
       "latest_going": "Good",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 77,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Showcasing Star",
+      "horse_id": "hrs_62326439",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Hamilton",
+      "latest_time": "7:50",
+      "latest_race": "Get Your Tickets For Cube Glass Ladies Night Handicap",
+      "latest_date": "2026-07-11",
+      "latest_distance_f": 8.5,
+      "latest_class": "Class 4",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Charlie Johnston",
+      "latest_jockey": "Connor Beasley",
+      "latest_draw": 2,
+      "latest_weight_lbs": 129,
+      "official_rating": "75",
+      "recent_form": "22270",
+      "last_run_days": 12,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Hamilton": 1
+      },
+      "distances_seen": {
+        "8.5": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Charlie Johnston": 1
+      },
+      "jockeys_seen": {
+        "Connor Beasley": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 80,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Stable in form +2 (2/3 last 14 days)",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11991460",
+          "course": "Hamilton",
+          "date": "2026-07-11",
+          "off_time": "7:50",
+          "off_dt": "2026-07-11T19:50:00+01:00",
+          "race_name": "Get Your Tickets For Cube Glass Ladies Night Handicap",
+          "distance_f": 8.5,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 5,
+          "horse": "Showcasing Star",
+          "horse_id": "hrs_62326439",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Charlie Johnston",
+          "trainer_id": "trn_361179",
+          "jockey": "Connor Beasley",
+          "jockey_id": "jky_272604",
+          "draw": 2,
+          "number": 6,
+          "lbs": 129,
+          "ofr": "75",
+          "last_run": 12,
+          "form": "22270",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score",
+        "Low draw today",
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Hamilton",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.5,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 63,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Hamilton",
+        "latest_distance_f": 8.5,
+        "latest_going": "Good",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 80,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Lucky Camino",
       "horse_id": "hrs_63971096",
@@ -416,8 +580,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 77,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Jockey bonus +3"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -474,15 +646,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 62,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -491,7 +663,7 @@
         "latest_distance_f": 8.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 77,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -538,8 +710,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 65,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +2",
+        "Jockey bonus +3",
+        "Jockey flying +4 (7/7 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -594,15 +773,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -611,7 +790,7 @@
         "latest_distance_f": 8.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 65,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -658,8 +837,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 32,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Non-runner risk",
+        "Race class strength +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -714,7 +900,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 41,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -731,175 +917,16 @@
         "latest_distance_f": 8.5,
         "latest_going": "Good",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 32,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
-    },
-    {
-      "horse": "Showcasing Star",
-      "horse_id": "hrs_62326439",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Hamilton",
-      "latest_time": "7:50",
-      "latest_race": "Get Your Tickets For Cube Glass Ladies Night Handicap",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 8.5,
-      "latest_class": "Class 4",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Charlie Johnston",
-      "latest_jockey": "Connor Beasley",
-      "latest_draw": 2,
-      "latest_weight_lbs": 129,
-      "official_rating": "75",
-      "recent_form": "22270",
-      "last_run_days": 12,
-      "profile_runs": 2,
-      "courses_seen": {
-        "Kempton (AW)": 1,
-        "Hamilton": 1
-      },
-      "distances_seen": {
-        "8.0": 1,
-        "8.5": 1
-      },
-      "goings_seen": {
-        "Standard To Slow": 1,
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 4": 2
-      },
-      "trainers_seen": {
-        "Charlie Johnston": 2
-      },
-      "jockeys_seen": {
-        "Pat Cosgrave": 1,
-        "Connor Beasley": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006527",
-          "course": "Kempton (AW)",
-          "date": "2026-06-29",
-          "off_time": "7:45",
-          "off_dt": "2026-06-29T19:45:00+01:00",
-          "race_name": "Unibet Supporting Racing Staff Week Handicap",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 14,
-          "horse": "Showcasing Star",
-          "horse_id": "hrs_62326439",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Charlie Johnston",
-          "trainer_id": "trn_361179",
-          "jockey": "Pat Cosgrave",
-          "jockey_id": "jky_43887",
-          "draw": 3,
-          "number": 14,
-          "lbs": 124,
-          "ofr": "77",
-          "last_run": 17,
-          "form": "2227",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:31.771808+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991460",
-          "course": "Hamilton",
-          "date": "2026-07-11",
-          "off_time": "7:50",
-          "off_dt": "2026-07-11T19:50:00+01:00",
-          "race_name": "Get Your Tickets For Cube Glass Ladies Night Handicap",
-          "distance_f": 8.5,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 5,
-          "horse": "Showcasing Star",
-          "horse_id": "hrs_62326439",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Charlie Johnston",
-          "trainer_id": "trn_361179",
-          "jockey": "Connor Beasley",
-          "jockey_id": "jky_272604",
-          "draw": 2,
-          "number": 6,
-          "lbs": 129,
-          "ofr": "75",
-          "last_run": 12,
-          "form": "22270",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Kempton (AW)",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Standard To Slow",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 2
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 55,
-      "class_suitability_score": 90,
-      "suitability_score": 64,
-      "horse_intelligence_score": 19,
-      "profile_strengths": [
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Hamilton",
-        "latest_distance_f": 8.5,
-        "latest_going": "Good",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
-      }
     }
   ],
   "notes": [
-    "Lucky Camino is the top-rated Pulse IQ runner.",
+    "Showcasing Star is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Zowal is flagged as a possible dark horse."
+    "Lucky Camino is flagged as a possible dark horse."
   ]
 }

@@ -4,17 +4,17 @@
   "course": "Newbury",
   "time": "7:27",
   "race_name": "Pump Technology Engineered To Perform Handicap (Str)",
-  "field_size": 10,
-  "average_intelligence": 26.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 21,
+  "field_size": 12,
+  "average_intelligence": 55.58,
+  "top_score": 63,
+  "second_score": 62,
+  "gap": 1,
+  "confidence_score": 50,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Captain Fox",
-    "horse_id": "hrs_54059677",
+    "horse": "Storm Point",
+    "horse_id": "hrs_57160145",
     "age": 3,
     "sex": "gelding",
     "latest_course": "Newbury",
@@ -25,13 +25,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Richard Hughes",
-    "latest_jockey": "Finley Marsh",
-    "latest_draw": 2,
-    "latest_weight_lbs": 133,
-    "official_rating": "80",
-    "recent_form": "523-16",
-    "last_run_days": 93,
+    "latest_trainer": "Ed Walker",
+    "latest_jockey": "Kieran Shoemark",
+    "latest_draw": 10,
+    "latest_weight_lbs": 131,
+    "official_rating": "78",
+    "recent_form": "54-161",
+    "last_run_days": 28,
     "profile_runs": 1,
     "courses_seen": {
       "Newbury": 1
@@ -46,15 +46,23 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Richard Hughes": 1
+      "Ed Walker": 1
     },
     "jockeys_seen": {
-      "Finley Marsh": 1
+      "Kieran Shoemark": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 80,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Race class strength +2",
+      "Stable flying +4 (3/6 last 14 days)",
+      "Jockey bonus +1",
+      "Jockey flying +4 (3/12 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -70,26 +78,25 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 12,
-        "horse": "Captain Fox",
-        "horse_id": "hrs_54059677",
+        "horse": "Storm Point",
+        "horse_id": "hrs_57160145",
         "age": 3,
         "sex": "gelding",
-        "trainer": "Richard Hughes",
-        "trainer_id": "trn_280692",
-        "jockey": "Finley Marsh",
-        "jockey_id": "jky_287355",
-        "draw": 2,
-        "number": 10,
-        "lbs": 133,
-        "ofr": "80",
-        "last_run": 93,
-        "form": "523-16",
+        "trainer": "Ed Walker",
+        "trainer_id": "trn_215334",
+        "jockey": "Kieran Shoemark",
+        "jockey_id": "jky_279711",
+        "draw": 10,
+        "number": 11,
+        "lbs": 131,
+        "ofr": "78",
+        "last_run": 28,
+        "form": "54-161",
         "headgear": ""
       }
     ],
     "profile_notes": [
-      "Low draw today",
-      "Returning from a break"
+      "Elite latest Pulse Score"
     ],
     "favourite_course": {
       "value": "Newbury",
@@ -112,15 +119,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 63,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -129,7 +136,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 80,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -176,8 +183,15 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 77,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Jockey flying +4 (6/9 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -232,15 +246,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 62,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -249,16 +263,16 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 77,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Sea Founder",
-    "horse_id": "hrs_43131634",
-    "age": 4,
+    "horse": "Chale Chalo",
+    "horse_id": "hrs_50435602",
+    "age": 3,
     "sex": "gelding",
     "latest_course": "Newbury",
     "latest_time": "7:27",
@@ -268,13 +282,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Richard Hughes",
-    "latest_jockey": "Oliver Hoodless(7)",
-    "latest_draw": 4,
-    "latest_weight_lbs": 140,
-    "official_rating": "78",
-    "recent_form": "714419",
-    "last_run_days": 26,
+    "latest_trainer": "Tom Dascombe",
+    "latest_jockey": "Pierre-Louis Jamin",
+    "latest_draw": 6,
+    "latest_weight_lbs": 130,
+    "official_rating": "77",
+    "recent_form": "931-29",
+    "last_run_days": 19,
     "profile_runs": 1,
     "courses_seen": {
       "Newbury": 1
@@ -289,15 +303,22 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Richard Hughes": 1
+      "Tom Dascombe": 1
     },
     "jockeys_seen": {
-      "Oliver Hoodless(7)": 1
+      "Pierre-Louis Jamin": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 77,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Jockey flying +4 (6/9 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -313,21 +334,21 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 12,
-        "horse": "Sea Founder",
-        "horse_id": "hrs_43131634",
-        "age": 4,
+        "horse": "Chale Chalo",
+        "horse_id": "hrs_50435602",
+        "age": 3,
         "sex": "gelding",
-        "trainer": "Richard Hughes",
-        "trainer_id": "trn_280692",
-        "jockey": "Oliver Hoodless(7)",
-        "jockey_id": "jky_314196",
-        "draw": 4,
-        "number": 3,
-        "lbs": 140,
-        "ofr": "78",
-        "last_run": 26,
-        "form": "714419",
-        "headgear": ""
+        "trainer": "Tom Dascombe",
+        "trainer_id": "trn_161406",
+        "jockey": "Pierre-Louis Jamin",
+        "jockey_id": "jky_283893",
+        "draw": 6,
+        "number": 12,
+        "lbs": 130,
+        "ofr": "77",
+        "last_run": 19,
+        "form": "931-29",
+        "headgear": "p"
       }
     ],
     "profile_notes": [],
@@ -352,15 +373,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 62,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -369,13 +390,270 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 77,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Storm Point",
+      "horse_id": "hrs_57160145",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Newbury",
+      "latest_time": "7:27",
+      "latest_race": "Pump Technology Engineered To Perform Handicap (Str)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ed Walker",
+      "latest_jockey": "Kieran Shoemark",
+      "latest_draw": 10,
+      "latest_weight_lbs": 131,
+      "official_rating": "78",
+      "recent_form": "54-161",
+      "last_run_days": 28,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newbury": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Ed Walker": 1
+      },
+      "jockeys_seen": {
+        "Kieran Shoemark": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 80,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2",
+        "Stable flying +4 (3/6 last 14 days)",
+        "Jockey bonus +1",
+        "Jockey flying +4 (3/12 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990667",
+          "course": "Newbury",
+          "date": "2026-07-09",
+          "off_time": "7:27",
+          "off_dt": "2026-07-09T19:27:00+01:00",
+          "race_name": "Pump Technology Engineered To Perform Handicap (Str)",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Storm Point",
+          "horse_id": "hrs_57160145",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Ed Walker",
+          "trainer_id": "trn_215334",
+          "jockey": "Kieran Shoemark",
+          "jockey_id": "jky_279711",
+          "draw": 10,
+          "number": 11,
+          "lbs": 131,
+          "ofr": "78",
+          "last_run": 28,
+          "form": "54-161",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 63,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 80,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Chale Chalo",
+      "horse_id": "hrs_50435602",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Newbury",
+      "latest_time": "7:27",
+      "latest_race": "Pump Technology Engineered To Perform Handicap (Str)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Tom Dascombe",
+      "latest_jockey": "Pierre-Louis Jamin",
+      "latest_draw": 6,
+      "latest_weight_lbs": 130,
+      "official_rating": "77",
+      "recent_form": "931-29",
+      "last_run_days": 19,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newbury": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Tom Dascombe": 1
+      },
+      "jockeys_seen": {
+        "Pierre-Louis Jamin": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 77,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Jockey flying +4 (6/9 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990667",
+          "course": "Newbury",
+          "date": "2026-07-09",
+          "off_time": "7:27",
+          "off_dt": "2026-07-09T19:27:00+01:00",
+          "race_name": "Pump Technology Engineered To Perform Handicap (Str)",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Chale Chalo",
+          "horse_id": "hrs_50435602",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "Tom Dascombe",
+          "trainer_id": "trn_161406",
+          "jockey": "Pierre-Louis Jamin",
+          "jockey_id": "jky_283893",
+          "draw": 6,
+          "number": 12,
+          "lbs": 130,
+          "ofr": "77",
+          "last_run": 19,
+          "form": "931-29",
+          "headgear": "p"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 62,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 77,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Captain Fox",
       "horse_id": "hrs_54059677",
@@ -417,8 +695,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 75,
+      "latest_notes": [
+        "Strong recent form",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Stable flying +4 (3/9 last 14 days)",
+        "Jockey flying +4 (6/12 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -476,15 +761,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 61,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -493,127 +778,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Chale Chalo",
-      "horse_id": "hrs_50435602",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Newbury",
-      "latest_time": "7:27",
-      "latest_race": "Pump Technology Engineered To Perform Handicap (Str)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Tom Dascombe",
-      "latest_jockey": "Pierre-Louis Jamin",
-      "latest_draw": 6,
-      "latest_weight_lbs": 130,
-      "official_rating": "77",
-      "recent_form": "931-29",
-      "last_run_days": 19,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newbury": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Tom Dascombe": 1
-      },
-      "jockeys_seen": {
-        "Pierre-Louis Jamin": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990667",
-          "course": "Newbury",
-          "date": "2026-07-09",
-          "off_time": "7:27",
-          "off_dt": "2026-07-09T19:27:00+01:00",
-          "race_name": "Pump Technology Engineered To Perform Handicap (Str)",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Chale Chalo",
-          "horse_id": "hrs_50435602",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Tom Dascombe",
-          "trainer_id": "trn_161406",
-          "jockey": "Pierre-Louis Jamin",
-          "jockey_id": "jky_283893",
-          "draw": 6,
-          "number": 12,
-          "lbs": 130,
-          "ofr": "77",
-          "last_run": 19,
-          "form": "931-29",
-          "headgear": "p"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Newbury",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newbury",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 75,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -660,8 +825,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 71,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Stable flying +4 (3/9 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -716,15 +889,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 59,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -733,247 +906,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Signcastle City",
-      "horse_id": "hrs_29227275",
-      "age": 6,
-      "sex": "gelding",
-      "latest_course": "Newbury",
-      "latest_time": "7:27",
-      "latest_race": "Pump Technology Engineered To Perform Handicap (Str)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Richard Hannon",
-      "latest_jockey": "Joe Leavy",
-      "latest_draw": 8,
-      "latest_weight_lbs": 136,
-      "official_rating": "74",
-      "recent_form": "402325",
-      "last_run_days": 16,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newbury": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Richard Hannon": 1
-      },
-      "jockeys_seen": {
-        "Joe Leavy": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990667",
-          "course": "Newbury",
-          "date": "2026-07-09",
-          "off_time": "7:27",
-          "off_dt": "2026-07-09T19:27:00+01:00",
-          "race_name": "Pump Technology Engineered To Perform Handicap (Str)",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Signcastle City",
-          "horse_id": "hrs_29227275",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Richard Hannon",
-          "trainer_id": "trn_259083",
-          "jockey": "Joe Leavy",
-          "jockey_id": "jky_303777",
-          "draw": 8,
-          "number": 9,
-          "lbs": 136,
-          "ofr": "74",
-          "last_run": 16,
-          "form": "402325",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Newbury",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newbury",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Storm Point",
-      "horse_id": "hrs_57160145",
-      "age": 3,
-      "sex": "gelding",
-      "latest_course": "Newbury",
-      "latest_time": "7:27",
-      "latest_race": "Pump Technology Engineered To Perform Handicap (Str)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ed Walker",
-      "latest_jockey": "Kieran Shoemark",
-      "latest_draw": 10,
-      "latest_weight_lbs": 131,
-      "official_rating": "78",
-      "recent_form": "54-161",
-      "last_run_days": 28,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newbury": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Ed Walker": 1
-      },
-      "jockeys_seen": {
-        "Kieran Shoemark": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990667",
-          "course": "Newbury",
-          "date": "2026-07-09",
-          "off_time": "7:27",
-          "off_dt": "2026-07-09T19:27:00+01:00",
-          "race_name": "Pump Technology Engineered To Perform Handicap (Str)",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "Storm Point",
-          "horse_id": "hrs_57160145",
-          "age": 3,
-          "sex": "gelding",
-          "trainer": "Ed Walker",
-          "trainer_id": "trn_215334",
-          "jockey": "Kieran Shoemark",
-          "jockey_id": "jky_279711",
-          "draw": 10,
-          "number": 11,
-          "lbs": 131,
-          "ofr": "78",
-          "last_run": 28,
-          "form": "54-161",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Newbury",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newbury",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 71,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1020,8 +953,17 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 72,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Stable flying +4 (6/6 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey flying +4 (3/6 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1076,15 +1018,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 59,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1093,127 +1035,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "The Third Star",
-      "horse_id": "hrs_46667978",
-      "age": 4,
-      "sex": "filly",
-      "latest_course": "Newbury",
-      "latest_time": "7:27",
-      "latest_race": "Pump Technology Engineered To Perform Handicap (Str)",
-      "latest_date": "2026-07-09",
-      "latest_distance_f": 8.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Owen Burrows",
-      "latest_jockey": "Callum Rodriguez",
-      "latest_draw": 7,
-      "latest_weight_lbs": 138,
-      "official_rating": "76",
-      "recent_form": "697-52",
-      "last_run_days": 38,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newbury": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Owen Burrows": 1
-      },
-      "jockeys_seen": {
-        "Callum Rodriguez": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990667",
-          "course": "Newbury",
-          "date": "2026-07-09",
-          "off_time": "7:27",
-          "off_dt": "2026-07-09T19:27:00+01:00",
-          "race_name": "Pump Technology Engineered To Perform Handicap (Str)",
-          "distance_f": 8.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 12,
-          "horse": "The Third Star",
-          "horse_id": "hrs_46667978",
-          "age": 4,
-          "sex": "filly",
-          "trainer": "Owen Burrows",
-          "trainer_id": "trn_286011",
-          "jockey": "Callum Rodriguez",
-          "jockey_id": "jky_282675",
-          "draw": 7,
-          "number": 5,
-          "lbs": 138,
-          "ofr": "76",
-          "last_run": 38,
-          "form": "697-52",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Newbury",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newbury",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 72,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1260,8 +1082,17 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 72,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Jockey bonus +1",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1316,15 +1147,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 59,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1333,10 +1164,332 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 72,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
+      }
+    },
+    {
+      "horse": "Mythical Bird",
+      "horse_id": "hrs_43730582",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Newbury",
+      "latest_time": "7:27",
+      "latest_race": "Pump Technology Engineered To Perform Handicap (Str)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Hughie Morrison",
+      "latest_jockey": "Rob Hornby",
+      "latest_draw": 3,
+      "latest_weight_lbs": 137,
+      "official_rating": "75",
+      "recent_form": "46-130",
+      "last_run_days": 27,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newbury": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Hughie Morrison": 1
+      },
+      "jockeys_seen": {
+        "Rob Hornby": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 68,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Jockey in form +2 (3/15 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990667",
+          "course": "Newbury",
+          "date": "2026-07-09",
+          "off_time": "7:27",
+          "off_dt": "2026-07-09T19:27:00+01:00",
+          "race_name": "Pump Technology Engineered To Perform Handicap (Str)",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Mythical Bird",
+          "horse_id": "hrs_43730582",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Hughie Morrison",
+          "trainer_id": "trn_96336",
+          "jockey": "Rob Hornby",
+          "jockey_id": "jky_278322",
+          "draw": 3,
+          "number": 8,
+          "lbs": 137,
+          "ofr": "75",
+          "last_run": 27,
+          "form": "46-130",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 68,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Signcastle City",
+      "horse_id": "hrs_29227275",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Newbury",
+      "latest_time": "7:27",
+      "latest_race": "Pump Technology Engineered To Perform Handicap (Str)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Richard Hannon",
+      "latest_jockey": "Joe Leavy",
+      "latest_draw": 8,
+      "latest_weight_lbs": 136,
+      "official_rating": "74",
+      "recent_form": "402325",
+      "last_run_days": 16,
+      "profile_runs": 3,
+      "courses_seen": {
+        "Newbury": 3
+      },
+      "distances_seen": {
+        "7.0": 2,
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 3
+      },
+      "classes_seen": {
+        "Class 5": 2,
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "R Hannon": 2,
+        "Richard Hannon": 1
+      },
+      "jockeys_seen": {
+        "P J Dobbs": 2,
+        "Joe Leavy": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 77,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2",
+        "Stable flying +4 (9/15 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Signcastle City",
+          "horse_id": "hrs_29227275",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "R Hannon",
+          "trainer_id": "trn_259083",
+          "jockey": "P J Dobbs",
+          "jockey_id": "jky_226518",
+          "draw": 13,
+          "number": 1,
+          "lbs": 142,
+          "ofr": "75",
+          "last_run": 31,
+          "form": "540232",
+          "headgear": "",
+          "_stored_at": "2026-06-23T21:32:40.494488+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Signcastle City",
+          "horse_id": "hrs_29227275",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "R Hannon",
+          "trainer_id": "trn_259083",
+          "jockey": "P J Dobbs",
+          "jockey_id": "jky_226518",
+          "draw": 13,
+          "number": 1,
+          "lbs": 142,
+          "ofr": "75",
+          "last_run": 31,
+          "form": "540232",
+          "headgear": "",
+          "_stored_at": "2026-06-25T06:53:17.777824+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990667",
+          "course": "Newbury",
+          "date": "2026-07-09",
+          "off_time": "7:27",
+          "off_dt": "2026-07-09T19:27:00+01:00",
+          "race_name": "Pump Technology Engineered To Perform Handicap (Str)",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Signcastle City",
+          "horse_id": "hrs_29227275",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Richard Hannon",
+          "trainer_id": "trn_259083",
+          "jockey": "Joe Leavy",
+          "jockey_id": "jky_303777",
+          "draw": 8,
+          "number": 9,
+          "lbs": 136,
+          "ofr": "74",
+          "last_run": 16,
+          "form": "402325",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Profile has multiple stored runs"
+      ],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 3
+      },
+      "favourite_distance": {
+        "value": 7.0,
+        "runs": 2
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 3
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 2
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 55,
+      "going_suitability_score": 90,
+      "class_suitability_score": 55,
+      "suitability_score": 72,
+      "horse_intelligence_score": 56,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Distance not yet a clear profile strength"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 77,
+        "average_pulse_score": 0,
+        "profile_runs": 3,
+        "runs_count": 3
       }
     },
     {
@@ -1383,8 +1536,16 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 65,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Jockey bonus +3",
+        "Jockey in form +2 (2/2 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1415,7 +1576,7 @@
           "last_run": 19,
           "form": "1237-0",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:35.612139+00:00"
+          "_stored_at": "2026-07-02T00:01:26.459813+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1473,15 +1634,15 @@
       "going_suitability_score": 55,
       "class_suitability_score": 90,
       "suitability_score": 72,
-      "horse_intelligence_score": 22,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's distance matches strongest profile pattern",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1490,7 +1651,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 65,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1516,33 +1677,106 @@
       "official_rating": "71",
       "recent_form": "025561",
       "last_run_days": 8,
-      "profile_runs": 2,
+      "profile_runs": 4,
       "courses_seen": {
-        "Bath": 1,
-        "Newbury": 1
+        "Newbury": 3,
+        "Bath": 1
       },
       "distances_seen": {
+        "7.0": 2,
         "8.0": 2
       },
       "goings_seen": {
-        "Good To Firm": 2
+        "Good To Firm": 3,
+        "Firm": 1
       },
       "classes_seen": {
-        "Class 5": 1,
+        "Class 5": 3,
         "Class 4": 1
       },
       "trainers_seen": {
+        "G Harris": 2,
         "Grace Harris": 2
       },
       "jockeys_seen": {
+        "D Egan": 2,
         "David Egan": 1,
         "Harry Davies": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 61,
+      "latest_notes": [
+        "Positive recent form",
+        "Helpful draw",
+        "Trainer bonus +3",
+        "Stable in form +2 (1/4 last 14 days)",
+        "Jockey bonus +2",
+        "Jockey in form +2 (2/2 last 14 days)"
+      ],
       "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Nakaaha",
+          "horse_id": "hrs_46667985",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "G Harris",
+          "trainer_id": "trn_226845",
+          "jockey": "D Egan",
+          "jockey_id": "jky_286164",
+          "draw": 15,
+          "number": 3,
+          "lbs": 140,
+          "ofr": "73",
+          "last_run": 19,
+          "form": "8-0255",
+          "headgear": "h",
+          "_stored_at": "2026-06-23T21:32:40.525237+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11976679",
+          "course": "Newbury",
+          "date": "2026-06-23",
+          "off_time": "7:00",
+          "off_dt": "2026-06-23T19:00:00+01:00",
+          "race_name": "Venture Security Handicap",
+          "distance_f": 7.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 13,
+          "horse": "Nakaaha",
+          "horse_id": "hrs_46667985",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "G Harris",
+          "trainer_id": "trn_226845",
+          "jockey": "D Egan",
+          "jockey_id": "jky_286164",
+          "draw": 15,
+          "number": 3,
+          "lbs": 140,
+          "ofr": "73",
+          "last_run": 19,
+          "form": "8-0255",
+          "headgear": "h",
+          "_stored_at": "2026-06-25T06:53:17.798799+00:00"
+        },
         {
           "source": "the_racing_api",
           "race_id": "rac_11988392",
@@ -1554,7 +1788,7 @@
           "distance_f": 8.0,
           "race_class": "Class 5",
           "race_type": "Flat",
-          "going": "Good To Firm",
+          "going": "Firm",
           "surface": "Turf",
           "field_size": 7,
           "horse": "Nakaaha",
@@ -1572,7 +1806,7 @@
           "last_run": 8,
           "form": "-02556",
           "headgear": "h",
-          "_stored_at": "2026-07-01T13:17:47.240076+00:00"
+          "_stored_at": "2026-06-30T23:10:34.375340+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1606,36 +1840,285 @@
         }
       ],
       "profile_notes": [
+        "Profile has multiple stored runs",
         "Recent run timing"
       ],
       "favourite_course": {
-        "value": "Bath",
-        "runs": 1
+        "value": "Newbury",
+        "runs": 3
       },
       "favourite_distance": {
-        "value": 8.0,
+        "value": 7.0,
         "runs": 2
       },
       "favourite_going": {
         "value": "Good To Firm",
-        "runs": 2
+        "runs": 3
       },
       "favourite_class": {
         "value": "Class 5",
-        "runs": 1
+        "runs": 3
       },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 90,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 55,
       "going_suitability_score": 90,
       "class_suitability_score": 55,
       "suitability_score": 72,
-      "horse_intelligence_score": 22,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
-        "Today's distance matches strongest profile pattern",
+        "Today's course matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
+        "Distance not yet a clear profile strength"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 61,
+        "average_pulse_score": 0,
+        "profile_runs": 4,
+        "runs_count": 4
+      }
+    },
+    {
+      "horse": "The Third Star",
+      "horse_id": "hrs_46667978",
+      "age": 4,
+      "sex": "filly",
+      "latest_course": "Newbury",
+      "latest_time": "7:27",
+      "latest_race": "Pump Technology Engineered To Perform Handicap (Str)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Owen Burrows",
+      "latest_jockey": "Callum Rodriguez",
+      "latest_draw": 7,
+      "latest_weight_lbs": 138,
+      "official_rating": "76",
+      "recent_form": "697-52",
+      "last_run_days": 38,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newbury": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Owen Burrows": 1
+      },
+      "jockeys_seen": {
+        "Callum Rodriguez": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990667",
+          "course": "Newbury",
+          "date": "2026-07-09",
+          "off_time": "7:27",
+          "off_dt": "2026-07-09T19:27:00+01:00",
+          "race_name": "Pump Technology Engineered To Perform Handicap (Str)",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "The Third Star",
+          "horse_id": "hrs_46667978",
+          "age": 4,
+          "sex": "filly",
+          "trainer": "Owen Burrows",
+          "trainer_id": "trn_286011",
+          "jockey": "Callum Rodriguez",
+          "jockey_id": "jky_282675",
+          "draw": 7,
+          "number": 5,
+          "lbs": 138,
+          "ofr": "76",
+          "last_run": 38,
+          "form": "697-52",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 49,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 49,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Distinct Spirit",
+      "horse_id": "hrs_43003387",
+      "age": 6,
+      "sex": "gelding",
+      "latest_course": "Newbury",
+      "latest_time": "7:27",
+      "latest_race": "Pump Technology Engineered To Perform Handicap (Str)",
+      "latest_date": "2026-07-09",
+      "latest_distance_f": 8.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Daniel & Claire Kubler",
+      "latest_jockey": "Ebrahim Nader",
+      "latest_draw": 12,
+      "latest_weight_lbs": 138,
+      "official_rating": "76",
+      "recent_form": "15/5U-",
+      "last_run_days": 276,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newbury": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Daniel & Claire Kubler": 1
+      },
+      "jockeys_seen": {
+        "Ebrahim Nader": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 31,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Very long absence concern -7",
+        "Race class strength +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990667",
+          "course": "Newbury",
+          "date": "2026-07-09",
+          "off_time": "7:27",
+          "off_dt": "2026-07-09T19:27:00+01:00",
+          "race_name": "Pump Technology Engineered To Perform Handicap (Str)",
+          "distance_f": 8.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 12,
+          "horse": "Distinct Spirit",
+          "horse_id": "hrs_43003387",
+          "age": 6,
+          "sex": "gelding",
+          "trainer": "Daniel & Claire Kubler",
+          "trainer_id": "trn_338733",
+          "jockey": "Ebrahim Nader",
+          "jockey_id": "jky_302586",
+          "draw": 12,
+          "number": 6,
+          "lbs": 138,
+          "ofr": "76",
+          "last_run": 276,
+          "form": "15/5U-",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 41,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
         "Low latest Pulse Score",
         "Limited stored profile data"
       ],
@@ -1645,17 +2128,16 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 31,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 1,
+        "runs_count": 1
       }
     }
   ],
   "notes": [
-    "Captain Fox is the top-rated Pulse IQ runner.",
+    "Storm Point is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Sea Founder is flagged as a possible dark horse."
+    "Chale Chalo is flagged as a possible dark horse."
   ]
 }

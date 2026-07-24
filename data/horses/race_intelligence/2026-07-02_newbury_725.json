@@ -4,136 +4,15 @@
   "course": "Newbury",
   "time": "7:25",
   "race_name": "Fidelity Energy Green Future Novice Stakes",
-  "field_size": 8,
-  "average_intelligence": 26.38,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 21,
+  "field_size": 10,
+  "average_intelligence": 51.2,
+  "top_score": 58,
+  "second_score": 56,
+  "gap": 2,
+  "confidence_score": 48,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Alaskan Bear",
-    "horse_id": "hrs_64523186",
-    "age": 2,
-    "sex": "colt",
-    "latest_course": "Newbury",
-    "latest_time": "7:25",
-    "latest_race": "Fidelity Energy Green Future Novice Stakes",
-    "latest_date": "2026-07-02",
-    "latest_distance_f": 6.0,
-    "latest_class": "Class 4",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Jack W Davison",
-    "latest_jockey": "Hector Crouch",
-    "latest_draw": 6,
-    "latest_weight_lbs": 128,
-    "official_rating": "-",
-    "recent_form": "24",
-    "last_run_days": 39,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Newbury": 1
-    },
-    "distances_seen": {
-      "6.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 4": 1
-    },
-    "trainers_seen": {
-      "Jack W Davison": 1
-    },
-    "jockeys_seen": {
-      "Hector Crouch": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11988652",
-        "course": "Newbury",
-        "date": "2026-07-02",
-        "off_time": "7:25",
-        "off_dt": "2026-07-02T19:25:00+01:00",
-        "race_name": "Fidelity Energy Green Future Novice Stakes",
-        "distance_f": 6.0,
-        "race_class": "Class 4",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 11,
-        "horse": "Alaskan Bear",
-        "horse_id": "hrs_64523186",
-        "age": 2,
-        "sex": "colt",
-        "trainer": "Jack W Davison",
-        "trainer_id": "trn_302778",
-        "jockey": "Hector Crouch",
-        "jockey_id": "jky_278418",
-        "draw": 6,
-        "number": 1,
-        "lbs": 128,
-        "ofr": "-",
-        "last_run": 39,
-        "form": "24",
-        "headgear": "",
-        "_stored_at": "2026-07-02T04:58:37.542464+00:00"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Newbury",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 6.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 4",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Newbury",
-      "latest_distance_f": 6.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 4",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Jimtrott",
     "horse_id": "hrs_65414741",
     "age": 2,
@@ -174,8 +53,17 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 68,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +1",
+      "Stable flying +4 (4/5 last 14 days)",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -206,7 +94,7 @@
         "last_run": 21,
         "form": "2",
         "headgear": "",
-        "_stored_at": "2026-07-02T04:58:37.609209+00:00"
+        "_stored_at": "2026-07-02T00:01:28.443717+00:00"
       }
     ],
     "profile_notes": [],
@@ -231,15 +119,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 58,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -248,17 +136,17 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 68,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
-    "horse": "Noahs Gold",
-    "horse_id": "hrs_66305715",
+  "main_threat": {
+    "horse": "Tumishi",
+    "horse_id": "hrs_65287257",
     "age": 2,
-    "sex": "gelding",
+    "sex": "colt",
     "latest_course": "Newbury",
     "latest_time": "7:25",
     "latest_race": "Fidelity Energy Green Future Novice Stakes",
@@ -267,13 +155,13 @@
     "latest_class": "Class 4",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Emma Lavelle",
-    "latest_jockey": "David Egan",
-    "latest_draw": 11,
+    "latest_trainer": "James Fanshawe",
+    "latest_jockey": "Tom Marquand",
+    "latest_draw": 3,
     "latest_weight_lbs": 128,
     "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
+    "recent_form": "4",
+    "last_run_days": 29,
     "profile_runs": 1,
     "courses_seen": {
       "Newbury": 1
@@ -288,15 +176,23 @@
       "Class 4": 1
     },
     "trainers_seen": {
-      "Emma Lavelle": 1
+      "James Fanshawe": 1
     },
     "jockeys_seen": {
-      "David Egan": 1
+      "Tom Marquand": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 64,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +3",
+      "Jockey bonus +3"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -312,25 +208,27 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 11,
-        "horse": "Noahs Gold",
-        "horse_id": "hrs_66305715",
+        "horse": "Tumishi",
+        "horse_id": "hrs_65287257",
         "age": 2,
-        "sex": "gelding",
-        "trainer": "Emma Lavelle",
-        "trainer_id": "trn_118044",
-        "jockey": "David Egan",
-        "jockey_id": "jky_286164",
-        "draw": 11,
-        "number": 6,
+        "sex": "colt",
+        "trainer": "James Fanshawe",
+        "trainer_id": "trn_40860",
+        "jockey": "Tom Marquand",
+        "jockey_id": "jky_281841",
+        "draw": 3,
+        "number": 11,
         "lbs": 128,
         "ofr": "-",
-        "last_run": null,
-        "form": "",
+        "last_run": 29,
+        "form": "4",
         "headgear": "",
-        "_stored_at": "2026-07-02T04:58:37.653202+00:00"
+        "_stored_at": "2026-07-02T00:01:28.610433+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Low draw today"
+    ],
     "favourite_course": {
       "value": "Newbury",
       "runs": 1
@@ -352,7 +250,7 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 56,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
@@ -360,7 +258,6 @@
       "Race class matches common profile level"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -369,134 +266,143 @@
       "latest_distance_f": 6.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 4",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 64,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Tumishi",
+    "horse_id": "hrs_65287257",
+    "age": 2,
+    "sex": "colt",
+    "latest_course": "Newbury",
+    "latest_time": "7:25",
+    "latest_race": "Fidelity Energy Green Future Novice Stakes",
+    "latest_date": "2026-07-02",
+    "latest_distance_f": 6.0,
+    "latest_class": "Class 4",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "James Fanshawe",
+    "latest_jockey": "Tom Marquand",
+    "latest_draw": 3,
+    "latest_weight_lbs": 128,
+    "official_rating": "-",
+    "recent_form": "4",
+    "last_run_days": 29,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Newbury": 1
+    },
+    "distances_seen": {
+      "6.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 4": 1
+    },
+    "trainers_seen": {
+      "James Fanshawe": 1
+    },
+    "jockeys_seen": {
+      "Tom Marquand": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 64,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +2",
+      "Trainer bonus +3",
+      "Jockey bonus +3"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11988652",
+        "course": "Newbury",
+        "date": "2026-07-02",
+        "off_time": "7:25",
+        "off_dt": "2026-07-02T19:25:00+01:00",
+        "race_name": "Fidelity Energy Green Future Novice Stakes",
+        "distance_f": 6.0,
+        "race_class": "Class 4",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 11,
+        "horse": "Tumishi",
+        "horse_id": "hrs_65287257",
+        "age": 2,
+        "sex": "colt",
+        "trainer": "James Fanshawe",
+        "trainer_id": "trn_40860",
+        "jockey": "Tom Marquand",
+        "jockey_id": "jky_281841",
+        "draw": 3,
+        "number": 11,
+        "lbs": 128,
+        "ofr": "-",
+        "last_run": 29,
+        "form": "4",
+        "headgear": "",
+        "_stored_at": "2026-07-02T00:01:28.610433+00:00"
+      }
+    ],
+    "profile_notes": [
+      "Low draw today"
+    ],
+    "favourite_course": {
+      "value": "Newbury",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 6.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 4",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 56,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Newbury",
+      "latest_distance_f": 6.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 4",
+      "latest_pulse_score": 64,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Alaskan Bear",
-      "horse_id": "hrs_64523186",
-      "age": 2,
-      "sex": "colt",
-      "latest_course": "Newbury",
-      "latest_time": "7:25",
-      "latest_race": "Fidelity Energy Green Future Novice Stakes",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Jack W Davison",
-      "latest_jockey": "Hector Crouch",
-      "latest_draw": 6,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "24",
-      "last_run_days": 39,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newbury": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Jack W Davison": 1
-      },
-      "jockeys_seen": {
-        "Hector Crouch": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988652",
-          "course": "Newbury",
-          "date": "2026-07-02",
-          "off_time": "7:25",
-          "off_dt": "2026-07-02T19:25:00+01:00",
-          "race_name": "Fidelity Energy Green Future Novice Stakes",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Alaskan Bear",
-          "horse_id": "hrs_64523186",
-          "age": 2,
-          "sex": "colt",
-          "trainer": "Jack W Davison",
-          "trainer_id": "trn_302778",
-          "jockey": "Hector Crouch",
-          "jockey_id": "jky_278418",
-          "draw": 6,
-          "number": 1,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": 39,
-          "form": "24",
-          "headgear": "",
-          "_stored_at": "2026-07-02T04:58:37.542464+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Newbury",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newbury",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Jimtrott",
       "horse_id": "hrs_65414741",
@@ -538,8 +444,17 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 68,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Stable flying +4 (4/5 last 14 days)",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -570,7 +485,7 @@
           "last_run": 21,
           "form": "2",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:37.609209+00:00"
+          "_stored_at": "2026-07-02T00:01:28.443717+00:00"
         }
       ],
       "profile_notes": [],
@@ -595,15 +510,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 58,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -612,136 +527,15 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 68,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Noahs Gold",
-      "horse_id": "hrs_66305715",
-      "age": 2,
-      "sex": "gelding",
-      "latest_course": "Newbury",
-      "latest_time": "7:25",
-      "latest_race": "Fidelity Energy Green Future Novice Stakes",
-      "latest_date": "2026-07-02",
-      "latest_distance_f": 6.0,
-      "latest_class": "Class 4",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Emma Lavelle",
-      "latest_jockey": "David Egan",
-      "latest_draw": 11,
-      "latest_weight_lbs": 128,
-      "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Newbury": 1
-      },
-      "distances_seen": {
-        "6.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 4": 1
-      },
-      "trainers_seen": {
-        "Emma Lavelle": 1
-      },
-      "jockeys_seen": {
-        "David Egan": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11988652",
-          "course": "Newbury",
-          "date": "2026-07-02",
-          "off_time": "7:25",
-          "off_dt": "2026-07-02T19:25:00+01:00",
-          "race_name": "Fidelity Energy Green Future Novice Stakes",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 11,
-          "horse": "Noahs Gold",
-          "horse_id": "hrs_66305715",
-          "age": 2,
-          "sex": "gelding",
-          "trainer": "Emma Lavelle",
-          "trainer_id": "trn_118044",
-          "jockey": "David Egan",
-          "jockey_id": "jky_286164",
-          "draw": 11,
-          "number": 6,
-          "lbs": 128,
-          "ofr": "-",
-          "last_run": null,
-          "form": "",
-          "headgear": "",
-          "_stored_at": "2026-07-02T04:58:37.653202+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Newbury",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 4",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Newbury",
-        "latest_distance_f": 6.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 4",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Off The Peg",
-      "horse_id": "hrs_66305673",
+      "horse": "Tumishi",
+      "horse_id": "hrs_65287257",
       "age": 2,
       "sex": "colt",
       "latest_course": "Newbury",
@@ -752,13 +546,13 @@
       "latest_class": "Class 4",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Richard Hughes",
-      "latest_jockey": "Finley Marsh",
-      "latest_draw": 7,
+      "latest_trainer": "James Fanshawe",
+      "latest_jockey": "Tom Marquand",
+      "latest_draw": 3,
       "latest_weight_lbs": 128,
       "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
+      "recent_form": "4",
+      "last_run_days": 29,
       "profile_runs": 1,
       "courses_seen": {
         "Newbury": 1
@@ -773,15 +567,23 @@
         "Class 4": 1
       },
       "trainers_seen": {
-        "Richard Hughes": 1
+        "James Fanshawe": 1
       },
       "jockeys_seen": {
-        "Finley Marsh": 1
+        "Tom Marquand": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 64,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +3",
+        "Jockey bonus +3"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -797,22 +599,151 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 11,
-          "horse": "Off The Peg",
-          "horse_id": "hrs_66305673",
+          "horse": "Tumishi",
+          "horse_id": "hrs_65287257",
           "age": 2,
           "sex": "colt",
-          "trainer": "Richard Hughes",
-          "trainer_id": "trn_280692",
-          "jockey": "Finley Marsh",
-          "jockey_id": "jky_287355",
-          "draw": 7,
-          "number": 7,
+          "trainer": "James Fanshawe",
+          "trainer_id": "trn_40860",
+          "jockey": "Tom Marquand",
+          "jockey_id": "jky_281841",
+          "draw": 3,
+          "number": 11,
           "lbs": 128,
           "ofr": "-",
-          "last_run": null,
-          "form": "",
+          "last_run": 29,
+          "form": "4",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:37.680875+00:00"
+          "_stored_at": "2026-07-02T00:01:28.610433+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 56,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 64,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Alaskan Bear",
+      "horse_id": "hrs_64523186",
+      "age": 2,
+      "sex": "colt",
+      "latest_course": "Newbury",
+      "latest_time": "7:25",
+      "latest_race": "Fidelity Energy Green Future Novice Stakes",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jack W Davison",
+      "latest_jockey": "Hector Crouch",
+      "latest_draw": 6,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "24",
+      "last_run_days": 39,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newbury": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Jack W Davison": 1
+      },
+      "jockeys_seen": {
+        "Hector Crouch": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 61,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Jockey bonus +3",
+        "Jockey in form +2 (2/2 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988652",
+          "course": "Newbury",
+          "date": "2026-07-02",
+          "off_time": "7:25",
+          "off_dt": "2026-07-02T19:25:00+01:00",
+          "race_name": "Fidelity Energy Green Future Novice Stakes",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Alaskan Bear",
+          "horse_id": "hrs_64523186",
+          "age": 2,
+          "sex": "colt",
+          "trainer": "Jack W Davison",
+          "trainer_id": "trn_302778",
+          "jockey": "Hector Crouch",
+          "jockey_id": "jky_278418",
+          "draw": 6,
+          "number": 1,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": 39,
+          "form": "24",
+          "headgear": "",
+          "_stored_at": "2026-07-02T00:01:28.329160+00:00"
         }
       ],
       "profile_notes": [],
@@ -837,7 +768,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 54,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -845,7 +776,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -854,7 +784,136 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 61,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Magi Melchior",
+      "horse_id": "hrs_60821761",
+      "age": 2,
+      "sex": "colt",
+      "latest_course": "Newbury",
+      "latest_time": "7:25",
+      "latest_race": "Fidelity Energy Green Future Novice Stakes",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Richard Hannon",
+      "latest_jockey": "Sean Levey",
+      "latest_draw": 1,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newbury": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Richard Hannon": 1
+      },
+      "jockeys_seen": {
+        "Sean Levey": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 56,
+      "latest_notes": [
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +3",
+        "Stable in form +2 (2/6 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey in form +2 (2/4 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988652",
+          "course": "Newbury",
+          "date": "2026-07-02",
+          "off_time": "7:25",
+          "off_dt": "2026-07-02T19:25:00+01:00",
+          "race_name": "Fidelity Energy Green Future Novice Stakes",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Magi Melchior",
+          "horse_id": "hrs_60821761",
+          "age": 2,
+          "sex": "colt",
+          "trainer": "Richard Hannon",
+          "trainer_id": "trn_259083",
+          "jockey": "Sean Levey",
+          "jockey_id": "jky_253908",
+          "draw": 1,
+          "number": 5,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-02T00:01:28.459341+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 56,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -901,8 +960,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 50,
+      "latest_notes": [
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Jockey bonus +3"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -933,7 +997,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:37.703298+00:00"
+          "_stored_at": "2026-07-02T00:01:28.528671+00:00"
         }
       ],
       "profile_notes": [
@@ -960,7 +1024,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -968,7 +1032,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -977,15 +1040,15 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 50,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Secano",
-      "horse_id": "hrs_65974524",
+      "horse": "Coatimundi",
+      "horse_id": "hrs_66305687",
       "age": 2,
       "sex": "colt",
       "latest_course": "Newbury",
@@ -996,9 +1059,9 @@
       "latest_class": "Class 4",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Harry Charlton",
-      "latest_jockey": "Lewis Edmunds",
-      "latest_draw": 9,
+      "latest_trainer": "Charles Hills",
+      "latest_jockey": "Jason Watson",
+      "latest_draw": 5,
       "latest_weight_lbs": 128,
       "official_rating": "-",
       "recent_form": "",
@@ -1017,15 +1080,20 @@
         "Class 4": 1
       },
       "trainers_seen": {
-        "Harry Charlton": 1
+        "Charles Hills": 1
       },
       "jockeys_seen": {
-        "Lewis Edmunds": 1
+        "Jason Watson": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Helpful draw",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Jockey bonus +3"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1041,22 +1109,22 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 11,
-          "horse": "Secano",
-          "horse_id": "hrs_65974524",
+          "horse": "Coatimundi",
+          "horse_id": "hrs_66305687",
           "age": 2,
           "sex": "colt",
-          "trainer": "Harry Charlton",
-          "trainer_id": "trn_369216",
-          "jockey": "Lewis Edmunds",
-          "jockey_id": "jky_283989",
-          "draw": 9,
-          "number": 9,
+          "trainer": "Charles Hills",
+          "trainer_id": "trn_230652",
+          "jockey": "Jason Watson",
+          "jockey_id": "jky_288666",
+          "draw": 5,
+          "number": 2,
           "lbs": 128,
           "ofr": "-",
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:37.724614+00:00"
+          "_stored_at": "2026-07-02T00:01:28.361379+00:00"
         }
       ],
       "profile_notes": [],
@@ -1081,7 +1149,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1089,7 +1157,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1098,7 +1165,257 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 48,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Noahs Gold",
+      "horse_id": "hrs_66305715",
+      "age": 2,
+      "sex": "gelding",
+      "latest_course": "Newbury",
+      "latest_time": "7:25",
+      "latest_race": "Fidelity Energy Green Future Novice Stakes",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Emma Lavelle",
+      "latest_jockey": "David Egan",
+      "latest_draw": 11,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newbury": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Emma Lavelle": 1
+      },
+      "jockeys_seen": {
+        "David Egan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 48,
+      "latest_notes": [
+        "Race class strength +2",
+        "Trainer bonus +2",
+        "Jockey bonus +2",
+        "Jockey in form +2 (2/2 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988652",
+          "course": "Newbury",
+          "date": "2026-07-02",
+          "off_time": "7:25",
+          "off_dt": "2026-07-02T19:25:00+01:00",
+          "race_name": "Fidelity Energy Green Future Novice Stakes",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Noahs Gold",
+          "horse_id": "hrs_66305715",
+          "age": 2,
+          "sex": "gelding",
+          "trainer": "Emma Lavelle",
+          "trainer_id": "trn_118044",
+          "jockey": "David Egan",
+          "jockey_id": "jky_286164",
+          "draw": 11,
+          "number": 6,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-02T00:01:28.493744+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 49,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 48,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Off The Peg",
+      "horse_id": "hrs_66305673",
+      "age": 2,
+      "sex": "colt",
+      "latest_course": "Newbury",
+      "latest_time": "7:25",
+      "latest_race": "Fidelity Energy Green Future Novice Stakes",
+      "latest_date": "2026-07-02",
+      "latest_distance_f": 6.0,
+      "latest_class": "Class 4",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Richard Hughes",
+      "latest_jockey": "Finley Marsh",
+      "latest_draw": 7,
+      "latest_weight_lbs": 128,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Newbury": 1
+      },
+      "distances_seen": {
+        "6.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 4": 1
+      },
+      "trainers_seen": {
+        "Richard Hughes": 1
+      },
+      "jockeys_seen": {
+        "Finley Marsh": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Race class strength +2",
+        "Trainer bonus +3",
+        "Stable in form +2 (2/5 last 14 days)",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11988652",
+          "course": "Newbury",
+          "date": "2026-07-02",
+          "off_time": "7:25",
+          "off_dt": "2026-07-02T19:25:00+01:00",
+          "race_name": "Fidelity Energy Green Future Novice Stakes",
+          "distance_f": 6.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 11,
+          "horse": "Off The Peg",
+          "horse_id": "hrs_66305673",
+          "age": 2,
+          "sex": "colt",
+          "trainer": "Richard Hughes",
+          "trainer_id": "trn_280692",
+          "jockey": "Finley Marsh",
+          "jockey_id": "jky_287355",
+          "draw": 7,
+          "number": 7,
+          "lbs": 128,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-02T00:01:28.509372+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Newbury",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 6.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 4",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 49,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Newbury",
+        "latest_distance_f": 6.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 4",
+        "latest_pulse_score": 49,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1145,8 +1462,12 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 46,
+      "latest_notes": [
+        "Race class strength +2",
+        "Stable in form +2 (2/4 last 14 days)",
+        "Jockey in form +2 (2/2 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1177,7 +1498,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:37.746020+00:00"
+          "_stored_at": "2026-07-02T00:01:28.578859+00:00"
         }
       ],
       "profile_notes": [],
@@ -1202,7 +1523,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1210,7 +1531,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1219,15 +1539,15 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 46,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Tumishi",
-      "horse_id": "hrs_65287257",
+      "horse": "Secano",
+      "horse_id": "hrs_65974524",
       "age": 2,
       "sex": "colt",
       "latest_course": "Newbury",
@@ -1238,71 +1558,41 @@
       "latest_class": "Class 4",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "James Fanshawe",
-      "latest_jockey": "Tom Marquand",
-      "latest_draw": 3,
+      "latest_trainer": "Harry Charlton",
+      "latest_jockey": "Lewis Edmunds",
+      "latest_draw": 9,
       "latest_weight_lbs": 128,
       "official_rating": "-",
-      "recent_form": "4",
-      "last_run_days": 29,
-      "profile_runs": 2,
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
       "courses_seen": {
-        "Kempton (AW)": 1,
         "Newbury": 1
       },
       "distances_seen": {
-        "6.0": 2
+        "6.0": 1
       },
       "goings_seen": {
-        "Standard To Slow": 1,
         "Good To Firm": 1
       },
       "classes_seen": {
-        "Class 4": 2
+        "Class 4": 1
       },
       "trainers_seen": {
-        "James Fanshawe": 2
+        "Harry Charlton": 1
       },
       "jockeys_seen": {
-        "Daniel Muscutt": 1,
-        "Tom Marquand": 1
+        "Lewis Edmunds": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 45,
+      "latest_notes": [
+        "Race class strength +2",
+        "Jockey bonus +1",
+        "Jockey in form +2 (1/5 last 14 days)"
+      ],
       "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12006514",
-          "course": "Kempton (AW)",
-          "date": "2026-06-29",
-          "off_time": "7:15",
-          "off_dt": "2026-06-29T19:15:00+01:00",
-          "race_name": "Unibet Supporting Safer Gambling/EBF 'Confined' Maiden Stakes (GBB race)",
-          "distance_f": 6.0,
-          "race_class": "Class 4",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 11,
-          "horse": "Tumishi",
-          "horse_id": "hrs_65287257",
-          "age": 2,
-          "sex": "colt",
-          "trainer": "James Fanshawe",
-          "trainer_id": "trn_40860",
-          "jockey": "Daniel Muscutt",
-          "jockey_id": "jky_275571",
-          "draw": 2,
-          "number": 10,
-          "lbs": 133,
-          "ofr": "-",
-          "last_run": 26,
-          "form": "4",
-          "headgear": "",
-          "_stored_at": "2026-06-29T11:41:31.464504+00:00"
-        },
         {
           "source": "the_racing_api",
           "race_id": "rac_11988652",
@@ -1317,57 +1607,54 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 11,
-          "horse": "Tumishi",
-          "horse_id": "hrs_65287257",
+          "horse": "Secano",
+          "horse_id": "hrs_65974524",
           "age": 2,
           "sex": "colt",
-          "trainer": "James Fanshawe",
-          "trainer_id": "trn_40860",
-          "jockey": "Tom Marquand",
-          "jockey_id": "jky_281841",
-          "draw": 3,
-          "number": 11,
+          "trainer": "Harry Charlton",
+          "trainer_id": "trn_369216",
+          "jockey": "Lewis Edmunds",
+          "jockey_id": "jky_283989",
+          "draw": 9,
+          "number": 9,
           "lbs": 128,
           "ofr": "-",
-          "last_run": 29,
-          "form": "4",
+          "last_run": null,
+          "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:37.767292+00:00"
+          "_stored_at": "2026-07-02T00:01:28.559307+00:00"
         }
       ],
-      "profile_notes": [
-        "Low draw today"
-      ],
+      "profile_notes": [],
       "favourite_course": {
-        "value": "Kempton (AW)",
+        "value": "Newbury",
         "runs": 1
       },
       "favourite_distance": {
         "value": 6.0,
-        "runs": 2
+        "runs": 1
       },
       "favourite_going": {
-        "value": "Standard To Slow",
+        "value": "Good To Firm",
         "runs": 1
       },
       "favourite_class": {
         "value": "Class 4",
-        "runs": 2
+        "runs": 1
       },
-      "course_suitability_score": 55,
+      "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 55,
+      "going_suitability_score": 90,
       "class_suitability_score": 90,
-      "suitability_score": 72,
-      "horse_intelligence_score": 22,
+      "suitability_score": 90,
+      "horse_intelligence_score": 47,
       "profile_strengths": [
+        "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1376,17 +1663,16 @@
         "latest_distance_f": 6.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 4",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 45,
         "average_pulse_score": 0,
-        "profile_runs": 2,
-        "runs_count": 2
+        "profile_runs": 1,
+        "runs_count": 1
       }
     }
   ],
   "notes": [
-    "Alaskan Bear is the top-rated Pulse IQ runner.",
+    "Jimtrott is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Noahs Gold is flagged as a possible dark horse."
+    "Tumishi is flagged as a possible dark horse."
   ]
 }

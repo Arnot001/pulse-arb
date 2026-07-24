@@ -4,19 +4,19 @@
   "course": "Ascot",
   "time": "3:34",
   "race_name": "Ascot Hospitality Handicap (GBBPlus Race)",
-  "field_size": 6,
-  "average_intelligence": 24.33,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 21,
-  "confidence": "LOW",
+  "field_size": 5,
+  "average_intelligence": 61.2,
+  "top_score": 71,
+  "second_score": 67,
+  "gap": 4,
+  "confidence_score": 61,
+  "confidence": "MEDIUM",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Anniversary",
-    "horse_id": "hrs_43892450",
-    "age": 4,
-    "sex": "gelding",
+    "horse": "King Of Berkshire",
+    "horse_id": "hrs_56437843",
+    "age": 3,
+    "sex": "colt",
     "latest_course": "Ascot",
     "latest_time": "3:34",
     "latest_race": "Ascot Hospitality Handicap (GBBPlus Race)",
@@ -25,13 +25,13 @@
     "latest_class": "Class 3",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "Ralph Beckett",
-    "latest_jockey": "Rhys Clutterbuck",
-    "latest_draw": 6,
-    "latest_weight_lbs": 142,
-    "official_rating": "88",
-    "recent_form": "-55527",
-    "last_run_days": 41,
+    "latest_trainer": "Andrew Balding",
+    "latest_jockey": "David Probert",
+    "latest_draw": 4,
+    "latest_weight_lbs": 121,
+    "official_rating": "80",
+    "recent_form": "421313",
+    "last_run_days": 29,
     "profile_runs": 1,
     "courses_seen": {
       "Ascot": 1
@@ -46,15 +46,25 @@
       "Class 3": 1
     },
     "trainers_seen": {
-      "Ralph Beckett": 1
+      "Andrew Balding": 1
     },
     "jockeys_seen": {
-      "Rhys Clutterbuck": 1
+      "David Probert": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 98,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +4",
+      "Trainer bonus +4",
+      "Stable flying +4 (8/14 last 14 days)",
+      "Jockey bonus +1",
+      "Jockey flying +4 (6/11 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -70,24 +80,26 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 6,
-        "horse": "Anniversary",
-        "horse_id": "hrs_43892450",
-        "age": 4,
-        "sex": "gelding",
-        "trainer": "Ralph Beckett",
-        "trainer_id": "trn_125253",
-        "jockey": "Rhys Clutterbuck",
-        "jockey_id": "jky_294762",
-        "draw": 6,
-        "number": 1,
-        "lbs": 142,
-        "ofr": "88",
-        "last_run": 41,
-        "form": "-55527",
-        "headgear": "b"
+        "horse": "King Of Berkshire",
+        "horse_id": "hrs_56437843",
+        "age": 3,
+        "sex": "colt",
+        "trainer": "Andrew Balding",
+        "trainer_id": "trn_140445",
+        "jockey": "David Probert",
+        "jockey_id": "jky_258039",
+        "draw": 4,
+        "number": 6,
+        "lbs": 121,
+        "ofr": "80",
+        "last_run": 29,
+        "form": "421313",
+        "headgear": ""
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
     "favourite_course": {
       "value": "Ascot",
       "runs": 1
@@ -109,15 +121,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 71,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -126,16 +138,16 @@
       "latest_distance_f": 14.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 3",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 98,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Divine Knight",
-    "horse_id": "hrs_54242629",
-    "age": 5,
+    "horse": "Galilean Quality",
+    "horse_id": "hrs_56437822",
+    "age": 3,
     "sex": "gelding",
     "latest_course": "Ascot",
     "latest_time": "3:34",
@@ -145,13 +157,13 @@
     "latest_class": "Class 3",
     "latest_going": "Good To Firm",
     "latest_surface": "Turf",
-    "latest_trainer": "William Haggas",
-    "latest_jockey": "Cieren Fallon",
-    "latest_draw": 2,
-    "latest_weight_lbs": 138,
-    "official_rating": "84",
-    "recent_form": "240-63",
-    "last_run_days": 21,
+    "latest_trainer": "K. R. Burke",
+    "latest_jockey": "Sam James",
+    "latest_draw": 3,
+    "latest_weight_lbs": 128,
+    "official_rating": "87",
+    "recent_form": "1-1316",
+    "last_run_days": 23,
     "profile_runs": 1,
     "courses_seen": {
       "Ascot": 1
@@ -166,15 +178,24 @@
       "Class 3": 1
     },
     "trainers_seen": {
-      "William Haggas": 1
+      "K. R. Burke": 1
     },
     "jockeys_seen": {
-      "Cieren Fallon": 1
+      "Sam James": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 89,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +4",
+      "Trainer bonus +4",
+      "Stable flying +4 (14/24 last 14 days)",
+      "Jockey bonus +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -190,24 +211,25 @@
         "going": "Good To Firm",
         "surface": "Turf",
         "field_size": 6,
-        "horse": "Divine Knight",
-        "horse_id": "hrs_54242629",
-        "age": 5,
+        "horse": "Galilean Quality",
+        "horse_id": "hrs_56437822",
+        "age": 3,
         "sex": "gelding",
-        "trainer": "William Haggas",
-        "trainer_id": "trn_30735",
-        "jockey": "Cieren Fallon",
-        "jockey_id": "jky_295557",
-        "draw": 2,
-        "number": 3,
-        "lbs": 138,
-        "ofr": "84",
-        "last_run": 21,
-        "form": "240-63",
+        "trainer": "K. R. Burke",
+        "trainer_id": "trn_45171",
+        "jockey": "Sam James",
+        "jockey_id": "jky_261870",
+        "draw": 3,
+        "number": 5,
+        "lbs": 128,
+        "ofr": "87",
+        "last_run": 23,
+        "form": "1-1316",
         "headgear": ""
       }
     ],
     "profile_notes": [
+      "Elite latest Pulse Score",
       "Low draw today"
     ],
     "favourite_course": {
@@ -231,15 +253,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 67,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -248,7 +270,7 @@
       "latest_distance_f": 14.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 3",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 89,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -295,8 +317,17 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 89,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Race class strength +4",
+      "Trainer bonus +4",
+      "Stable flying +4 (14/24 last 14 days)",
+      "Jockey bonus +4"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -330,6 +361,7 @@
       }
     ],
     "profile_notes": [
+      "Elite latest Pulse Score",
       "Low draw today"
     ],
     "favourite_course": {
@@ -353,15 +385,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 67,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -370,7 +402,7 @@
       "latest_distance_f": 14.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 3",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 89,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -378,10 +410,10 @@
   },
   "runners": [
     {
-      "horse": "Anniversary",
-      "horse_id": "hrs_43892450",
-      "age": 4,
-      "sex": "gelding",
+      "horse": "King Of Berkshire",
+      "horse_id": "hrs_56437843",
+      "age": 3,
+      "sex": "colt",
       "latest_course": "Ascot",
       "latest_time": "3:34",
       "latest_race": "Ascot Hospitality Handicap (GBBPlus Race)",
@@ -390,13 +422,13 @@
       "latest_class": "Class 3",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Ralph Beckett",
-      "latest_jockey": "Rhys Clutterbuck",
-      "latest_draw": 6,
-      "latest_weight_lbs": 142,
-      "official_rating": "88",
-      "recent_form": "-55527",
-      "last_run_days": 41,
+      "latest_trainer": "Andrew Balding",
+      "latest_jockey": "David Probert",
+      "latest_draw": 4,
+      "latest_weight_lbs": 121,
+      "official_rating": "80",
+      "recent_form": "421313",
+      "last_run_days": 29,
       "profile_runs": 1,
       "courses_seen": {
         "Ascot": 1
@@ -411,15 +443,25 @@
         "Class 3": 1
       },
       "trainers_seen": {
-        "Ralph Beckett": 1
+        "Andrew Balding": 1
       },
       "jockeys_seen": {
-        "Rhys Clutterbuck": 1
+        "David Probert": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 98,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4",
+        "Trainer bonus +4",
+        "Stable flying +4 (8/14 last 14 days)",
+        "Jockey bonus +1",
+        "Jockey flying +4 (6/11 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -435,24 +477,26 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 6,
-          "horse": "Anniversary",
-          "horse_id": "hrs_43892450",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Ralph Beckett",
-          "trainer_id": "trn_125253",
-          "jockey": "Rhys Clutterbuck",
-          "jockey_id": "jky_294762",
-          "draw": 6,
-          "number": 1,
-          "lbs": 142,
-          "ofr": "88",
-          "last_run": 41,
-          "form": "-55527",
-          "headgear": "b"
+          "horse": "King Of Berkshire",
+          "horse_id": "hrs_56437843",
+          "age": 3,
+          "sex": "colt",
+          "trainer": "Andrew Balding",
+          "trainer_id": "trn_140445",
+          "jockey": "David Probert",
+          "jockey_id": "jky_258039",
+          "draw": 4,
+          "number": 6,
+          "lbs": 121,
+          "ofr": "80",
+          "last_run": 29,
+          "form": "421313",
+          "headgear": ""
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
       "favourite_course": {
         "value": "Ascot",
         "runs": 1
@@ -474,15 +518,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 71,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -491,7 +535,139 @@
         "latest_distance_f": 14.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 98,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Galilean Quality",
+      "horse_id": "hrs_56437822",
+      "age": 3,
+      "sex": "gelding",
+      "latest_course": "Ascot",
+      "latest_time": "3:34",
+      "latest_race": "Ascot Hospitality Handicap (GBBPlus Race)",
+      "latest_date": "2026-07-11",
+      "latest_distance_f": 14.0,
+      "latest_class": "Class 3",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "K. R. Burke",
+      "latest_jockey": "Sam James",
+      "latest_draw": 3,
+      "latest_weight_lbs": 128,
+      "official_rating": "87",
+      "recent_form": "1-1316",
+      "last_run_days": 23,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Ascot": 1
+      },
+      "distances_seen": {
+        "14.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "K. R. Burke": 1
+      },
+      "jockeys_seen": {
+        "Sam James": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 89,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4",
+        "Trainer bonus +4",
+        "Stable flying +4 (14/24 last 14 days)",
+        "Jockey bonus +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11991057",
+          "course": "Ascot",
+          "date": "2026-07-11",
+          "off_time": "3:34",
+          "off_dt": "2026-07-11T15:34:00+01:00",
+          "race_name": "Ascot Hospitality Handicap (GBBPlus Race)",
+          "distance_f": 14.0,
+          "race_class": "Class 3",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 6,
+          "horse": "Galilean Quality",
+          "horse_id": "hrs_56437822",
+          "age": 3,
+          "sex": "gelding",
+          "trainer": "K. R. Burke",
+          "trainer_id": "trn_45171",
+          "jockey": "Sam James",
+          "jockey_id": "jky_261870",
+          "draw": 3,
+          "number": 5,
+          "lbs": 128,
+          "ofr": "87",
+          "last_run": 23,
+          "form": "1-1316",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Elite latest Pulse Score",
+        "Low draw today"
+      ],
+      "favourite_course": {
+        "value": "Ascot",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 14.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 67,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Ascot",
+        "latest_distance_f": 14.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 89,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -538,8 +714,18 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 71,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4",
+        "Trainer bonus +4",
+        "Stable flying +4 (7/15 last 14 days)",
+        "Jockey bonus +3",
+        "Jockey flying +4 (5/8 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -596,15 +782,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 59,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -613,16 +799,16 @@
         "latest_distance_f": 14.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 71,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Galilean Quality",
-      "horse_id": "hrs_56437822",
-      "age": 3,
+      "horse": "Anniversary",
+      "horse_id": "hrs_43892450",
+      "age": 4,
       "sex": "gelding",
       "latest_course": "Ascot",
       "latest_time": "3:34",
@@ -632,13 +818,13 @@
       "latest_class": "Class 3",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "K. R. Burke",
-      "latest_jockey": "Sam James",
-      "latest_draw": 3,
-      "latest_weight_lbs": 128,
-      "official_rating": "87",
-      "recent_form": "1-1316",
-      "last_run_days": 23,
+      "latest_trainer": "Ralph Beckett",
+      "latest_jockey": "Rhys Clutterbuck",
+      "latest_draw": 6,
+      "latest_weight_lbs": 142,
+      "official_rating": "88",
+      "recent_form": "-55527",
+      "last_run_days": 41,
       "profile_runs": 1,
       "courses_seen": {
         "Ascot": 1
@@ -653,15 +839,23 @@
         "Class 3": 1
       },
       "trainers_seen": {
-        "K. R. Burke": 1
+        "Ralph Beckett": 1
       },
       "jockeys_seen": {
-        "Sam James": 1
+        "Rhys Clutterbuck": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 66,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +4",
+        "Trainer bonus +3",
+        "Stable flying +4 (11/13 last 14 days)",
+        "Jockey in form +2 (2/9 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -677,143 +871,21 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 6,
-          "horse": "Galilean Quality",
-          "horse_id": "hrs_56437822",
-          "age": 3,
+          "horse": "Anniversary",
+          "horse_id": "hrs_43892450",
+          "age": 4,
           "sex": "gelding",
-          "trainer": "K. R. Burke",
-          "trainer_id": "trn_45171",
-          "jockey": "Sam James",
-          "jockey_id": "jky_261870",
-          "draw": 3,
-          "number": 5,
-          "lbs": 128,
-          "ofr": "87",
-          "last_run": 23,
-          "form": "1-1316",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Low draw today"
-      ],
-      "favourite_course": {
-        "value": "Ascot",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 14.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Ascot",
-        "latest_distance_f": 14.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 3",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "King Of Berkshire",
-      "horse_id": "hrs_56437843",
-      "age": 3,
-      "sex": "colt",
-      "latest_course": "Ascot",
-      "latest_time": "3:34",
-      "latest_race": "Ascot Hospitality Handicap (GBBPlus Race)",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 14.0,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Andrew Balding",
-      "latest_jockey": "David Probert",
-      "latest_draw": 4,
-      "latest_weight_lbs": 121,
-      "official_rating": "80",
-      "recent_form": "421313",
-      "last_run_days": 29,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Ascot": 1
-      },
-      "distances_seen": {
-        "14.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "Andrew Balding": 1
-      },
-      "jockeys_seen": {
-        "David Probert": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991057",
-          "course": "Ascot",
-          "date": "2026-07-11",
-          "off_time": "3:34",
-          "off_dt": "2026-07-11T15:34:00+01:00",
-          "race_name": "Ascot Hospitality Handicap (GBBPlus Race)",
-          "distance_f": 14.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "King Of Berkshire",
-          "horse_id": "hrs_56437843",
-          "age": 3,
-          "sex": "colt",
-          "trainer": "Andrew Balding",
-          "trainer_id": "trn_140445",
-          "jockey": "David Probert",
-          "jockey_id": "jky_258039",
-          "draw": 4,
-          "number": 6,
-          "lbs": 121,
-          "ofr": "80",
-          "last_run": 29,
-          "form": "421313",
-          "headgear": ""
+          "trainer": "Ralph Beckett",
+          "trainer_id": "trn_125253",
+          "jockey": "Rhys Clutterbuck",
+          "jockey_id": "jky_294762",
+          "draw": 6,
+          "number": 1,
+          "lbs": 142,
+          "ofr": "88",
+          "last_run": 41,
+          "form": "-55527",
+          "headgear": "b"
         }
       ],
       "profile_notes": [],
@@ -838,15 +910,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 57,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -855,198 +927,10 @@
         "latest_distance_f": 14.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 66,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
-      }
-    },
-    {
-      "horse": "Fireblade",
-      "horse_id": "hrs_45157721",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Ascot",
-      "latest_time": "3:34",
-      "latest_race": "Ascot Hospitality Handicap (GBBPlus Race)",
-      "latest_date": "2026-07-11",
-      "latest_distance_f": 14.0,
-      "latest_class": "Class 3",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Dylan Cunha",
-      "latest_jockey": "Callum Rodriguez",
-      "latest_draw": 1,
-      "latest_weight_lbs": 142,
-      "official_rating": "88",
-      "recent_form": "930-44",
-      "last_run_days": 14,
-      "profile_runs": 3,
-      "courses_seen": {
-        "Windsor": 2,
-        "Ascot": 1
-      },
-      "distances_seen": {
-        "11.5": 2,
-        "14.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 3
-      },
-      "classes_seen": {
-        "Class 3": 3
-      },
-      "trainers_seen": {
-        "Dylan Cunha": 3
-      },
-      "jockeys_seen": {
-        "Charles Bishop": 2,
-        "Callum Rodriguez": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977940",
-          "course": "Windsor",
-          "date": "2026-06-27",
-          "off_time": "7:45",
-          "off_dt": "2026-06-27T19:45:00+01:00",
-          "race_name": "Sri Lanka Paradise Island Handicap (GBBPlus Race)",
-          "distance_f": 11.5,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Fireblade",
-          "horse_id": "hrs_45157721",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Dylan Cunha",
-          "trainer_id": "trn_354717",
-          "jockey": "Charles Bishop",
-          "jockey_id": "jky_268881",
-          "draw": 5,
-          "number": 5,
-          "lbs": 131,
-          "ofr": "90",
-          "last_run": 67,
-          "form": "1930-4",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:20.698265+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977940",
-          "course": "Windsor",
-          "date": "2026-06-27",
-          "off_time": "7:45",
-          "off_dt": "2026-06-27T19:45:00+01:00",
-          "race_name": "Sri Lanka Paradise Island Handicap (GBBPlus Race)",
-          "distance_f": 11.5,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Fireblade",
-          "horse_id": "hrs_45157721",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Dylan Cunha",
-          "trainer_id": "trn_354717",
-          "jockey": "Charles Bishop",
-          "jockey_id": "jky_268881",
-          "draw": 5,
-          "number": 5,
-          "lbs": 131,
-          "ofr": "90",
-          "last_run": 67,
-          "form": "1930-4",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:48.245475+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11991057",
-          "course": "Ascot",
-          "date": "2026-07-11",
-          "off_time": "3:34",
-          "off_dt": "2026-07-11T15:34:00+01:00",
-          "race_name": "Ascot Hospitality Handicap (GBBPlus Race)",
-          "distance_f": 14.0,
-          "race_class": "Class 3",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 6,
-          "horse": "Fireblade",
-          "horse_id": "hrs_45157721",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Dylan Cunha",
-          "trainer_id": "trn_354717",
-          "jockey": "Callum Rodriguez",
-          "jockey_id": "jky_282675",
-          "draw": 1,
-          "number": 2,
-          "lbs": 142,
-          "ofr": "88",
-          "last_run": 14,
-          "form": "930-44",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Profile has multiple stored runs",
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Windsor",
-        "runs": 2
-      },
-      "favourite_distance": {
-        "value": 11.5,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 3
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 3
-      },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 72,
-      "horse_intelligence_score": 22,
-      "profile_strengths": [
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Low latest Pulse Score"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Ascot",
-        "latest_distance_f": 14.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 3",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
       }
     },
     {
@@ -1069,97 +953,39 @@
       "official_rating": "84",
       "recent_form": "160400",
       "last_run_days": 14,
-      "profile_runs": 3,
+      "profile_runs": 1,
       "courses_seen": {
-        "Newcastle (AW)": 2,
         "Ascot": 1
       },
       "distances_seen": {
-        "16.5": 2,
         "14.0": 1
       },
       "goings_seen": {
-        "Standard To Slow": 2,
         "Good To Firm": 1
       },
       "classes_seen": {
-        "Class 2": 2,
         "Class 3": 1
       },
       "trainers_seen": {
-        "Charlie Johnston": 3
+        "Charlie Johnston": 1
       },
       "jockeys_seen": {
-        "Cieren Fallon": 2,
         "Oliver Stammers": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 56,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4",
+        "Trainer bonus +3",
+        "Stable flying +4 (16/31 last 14 days)",
+        "Jockey bonus +1"
+      ],
       "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978759",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:40",
-          "off_dt": "2026-06-27T14:40:00+01:00",
-          "race_name": "JenningsBet Festival Northumberland Vase Handicap (Consolation Race For Northumberland Plate) (GBBPlus Race)",
-          "distance_f": 16.5,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 20,
-          "horse": "Artisan Dancer",
-          "horse_id": "hrs_31725092",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Charlie Johnston",
-          "trainer_id": "trn_361179",
-          "jockey": "Cieren Fallon",
-          "jockey_id": "jky_295557",
-          "draw": 18,
-          "number": 5,
-          "lbs": 136,
-          "ofr": "86",
-          "last_run": 27,
-          "form": "-16040",
-          "headgear": "",
-          "_stored_at": "2026-06-27T10:06:17.616065+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11978759",
-          "course": "Newcastle (AW)",
-          "date": "2026-06-27",
-          "off_time": "2:40",
-          "off_dt": "2026-06-27T14:40:00+01:00",
-          "race_name": "JenningsBet Festival Northumberland Vase Handicap (Consolation Race For Northumberland Plate) (GBBPlus Race)",
-          "distance_f": 16.5,
-          "race_class": "Class 2",
-          "race_type": "Flat",
-          "going": "Standard To Slow",
-          "surface": "AW",
-          "field_size": 20,
-          "horse": "Artisan Dancer",
-          "horse_id": "hrs_31725092",
-          "age": 6,
-          "sex": "gelding",
-          "trainer": "Charlie Johnston",
-          "trainer_id": "trn_361179",
-          "jockey": "Cieren Fallon",
-          "jockey_id": "jky_295557",
-          "draw": 18,
-          "number": 5,
-          "lbs": 136,
-          "ofr": "86",
-          "last_run": 27,
-          "form": "-16040",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:46.402697+00:00"
-        },
         {
           "source": "the_racing_api",
           "race_id": "rac_11991057",
@@ -1192,37 +1018,38 @@
         }
       ],
       "profile_notes": [
-        "Profile has multiple stored runs",
         "Recent run timing"
       ],
       "favourite_course": {
-        "value": "Newcastle (AW)",
-        "runs": 2
+        "value": "Ascot",
+        "runs": 1
       },
       "favourite_distance": {
-        "value": 16.5,
-        "runs": 2
+        "value": 14.0,
+        "runs": 1
       },
       "favourite_going": {
-        "value": "Standard To Slow",
-        "runs": 2
+        "value": "Good To Firm",
+        "runs": 1
       },
       "favourite_class": {
-        "value": "Class 2",
-        "runs": 2
+        "value": "Class 3",
+        "runs": 1
       },
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 55,
-      "class_suitability_score": 55,
-      "suitability_score": 55,
-      "horse_intelligence_score": 16,
-      "profile_strengths": [],
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 52,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Going is not clearly proven from stored profile",
-        "Low latest Pulse Score"
+        "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -1230,17 +1057,16 @@
         "latest_distance_f": 14.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 3",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 56,
         "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
+        "profile_runs": 1,
+        "runs_count": 1
       }
     }
   ],
   "notes": [
-    "Anniversary is the top-rated Pulse IQ runner.",
+    "King Of Berkshire is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
     "Galilean Quality is flagged as a possible dark horse."
   ]
 }

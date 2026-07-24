@@ -4,17 +4,17 @@
   "course": "Bellewstown",
   "time": "5:48",
   "race_name": "Grimme Ireland Maiden Hurdle",
-  "field_size": 14,
-  "average_intelligence": 23.29,
-  "top_score": 24,
-  "second_score": 24,
-  "gap": 0,
-  "confidence_score": 19,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 12,
+  "average_intelligence": 46.17,
+  "top_score": 60,
+  "second_score": 49,
+  "gap": 11,
+  "confidence_score": 62,
+  "confidence": "MEDIUM",
+  "race_shape": "PULSE EDGE",
   "top_runner": {
-    "horse": "Allroadsleadtorome",
-    "horse_id": "hrs_59895731",
+    "horse": "Hopeful Hero",
+    "horse_id": "hrs_53539640",
     "age": 5,
     "sex": "gelding",
     "latest_course": "Bellewstown",
@@ -25,13 +25,13 @@
     "latest_class": "",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "John C McConnell",
-    "latest_jockey": "Shane Fitzsimons(7)",
+    "latest_trainer": "T Hogan",
+    "latest_jockey": "Alan O'Sullivan(5)",
     "latest_draw": 0,
     "latest_weight_lbs": 158,
-    "official_rating": "-",
-    "recent_form": "5-579",
-    "last_run_days": 20,
+    "official_rating": "104",
+    "recent_form": "3223-3",
+    "last_run_days": 25,
     "profile_runs": 1,
     "courses_seen": {
       "Bellewstown": 1
@@ -44,15 +44,21 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "John C McConnell": 1
+      "T Hogan": 1
     },
     "jockeys_seen": {
-      "Shane Fitzsimons(7)": 1
+      "Alan O'Sullivan(5)": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 80,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -68,24 +74,26 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 16,
-        "horse": "Allroadsleadtorome",
-        "horse_id": "hrs_59895731",
+        "horse": "Hopeful Hero",
+        "horse_id": "hrs_53539640",
         "age": 5,
         "sex": "gelding",
-        "trainer": "John C McConnell",
-        "trainer_id": "trn_132759",
-        "jockey": "Shane Fitzsimons(7)",
-        "jockey_id": "jky_308607",
+        "trainer": "T Hogan",
+        "trainer_id": "trn_95337",
+        "jockey": "Alan O'Sullivan(5)",
+        "jockey_id": "jky_301110",
         "draw": 0,
-        "number": 6,
+        "number": 8,
         "lbs": 158,
-        "ofr": "-",
-        "last_run": 20,
-        "form": "5-579",
-        "headgear": ""
+        "ofr": "104",
+        "last_run": 25,
+        "form": "3223-3",
+        "headgear": "h"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
     "favourite_course": {
       "value": "Bellewstown",
       "runs": 1
@@ -104,14 +112,14 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 60,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
+      "Today's going matches known profile preference",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -120,127 +128,13 @@
       "latest_distance_f": 17.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 80,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "main_threat": {
-    "horse": "Double Order",
-    "horse_id": "hrs_52496262",
-    "age": 5,
-    "sex": "mare",
-    "latest_course": "Bellewstown",
-    "latest_time": "5:48",
-    "latest_race": "Grimme Ireland Maiden Hurdle",
-    "latest_date": "2026-07-04",
-    "latest_distance_f": 17.0,
-    "latest_class": "",
-    "latest_going": "Good",
-    "latest_surface": "Turf",
-    "latest_trainer": "Ian Patrick Donoghue",
-    "latest_jockey": "P J O'Hanlon",
-    "latest_draw": 0,
-    "latest_weight_lbs": 151,
-    "official_rating": "-",
-    "recent_form": "9-60",
-    "last_run_days": 38,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Bellewstown": 1
-    },
-    "distances_seen": {
-      "17.0": 1
-    },
-    "goings_seen": {
-      "Good": 1
-    },
-    "classes_seen": {},
-    "trainers_seen": {
-      "Ian Patrick Donoghue": 1
-    },
-    "jockeys_seen": {
-      "P J O'Hanlon": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_12010271",
-        "course": "Bellewstown",
-        "date": "2026-07-04",
-        "off_time": "5:48",
-        "off_dt": "2026-07-04T17:48:00+01:00",
-        "race_name": "Grimme Ireland Maiden Hurdle",
-        "distance_f": 17.0,
-        "race_class": "",
-        "race_type": "Hurdle",
-        "going": "Good",
-        "surface": "Turf",
-        "field_size": 16,
-        "horse": "Double Order",
-        "horse_id": "hrs_52496262",
-        "age": 5,
-        "sex": "mare",
-        "trainer": "Ian Patrick Donoghue",
-        "trainer_id": "trn_344160",
-        "jockey": "P J O'Hanlon",
-        "jockey_id": "jky_283935",
-        "draw": 0,
-        "number": 15,
-        "lbs": 151,
-        "ofr": "-",
-        "last_run": 38,
-        "form": "9-60",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Bellewstown",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 17.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good",
-      "runs": 1
-    },
-    "favourite_class": null,
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 50,
-    "suitability_score": 80,
-    "horse_intelligence_score": 24,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Bellewstown",
-      "latest_distance_f": 17.0,
-      "latest_going": "Good",
-      "latest_class": "",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "dark_horse": {
     "horse": "Getaway Tobin",
     "horse_id": "hrs_62170892",
     "age": 5,
@@ -279,8 +173,13 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 55,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -332,14 +231,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 49,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -348,7 +246,125 @@
       "latest_distance_f": 17.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 55,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "Wackestone",
+    "horse_id": "hrs_44075927",
+    "age": 4,
+    "sex": "gelding",
+    "latest_course": "Bellewstown",
+    "latest_time": "5:48",
+    "latest_race": "Grimme Ireland Maiden Hurdle",
+    "latest_date": "2026-07-04",
+    "latest_distance_f": 17.0,
+    "latest_class": "",
+    "latest_going": "Good",
+    "latest_surface": "Turf",
+    "latest_trainer": "Gordon Elliott",
+    "latest_jockey": "Jack Kennedy",
+    "latest_draw": 0,
+    "latest_weight_lbs": 154,
+    "official_rating": "117",
+    "recent_form": "43260-",
+    "last_run_days": 89,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Bellewstown": 1
+    },
+    "distances_seen": {
+      "17.0": 1
+    },
+    "goings_seen": {
+      "Good": 1
+    },
+    "classes_seen": {},
+    "trainers_seen": {
+      "Gordon Elliott": 1
+    },
+    "jockeys_seen": {
+      "Jack Kennedy": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 55,
+    "latest_notes": [
+      "Positive recent form",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Jockey bonus +3"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_12010271",
+        "course": "Bellewstown",
+        "date": "2026-07-04",
+        "off_time": "5:48",
+        "off_dt": "2026-07-04T17:48:00+01:00",
+        "race_name": "Grimme Ireland Maiden Hurdle",
+        "distance_f": 17.0,
+        "race_class": "",
+        "race_type": "Hurdle",
+        "going": "Good",
+        "surface": "Turf",
+        "field_size": 16,
+        "horse": "Wackestone",
+        "horse_id": "hrs_44075927",
+        "age": 4,
+        "sex": "gelding",
+        "trainer": "Gordon Elliott",
+        "trainer_id": "trn_163305",
+        "jockey": "Jack Kennedy",
+        "jockey_id": "jky_283509",
+        "draw": 0,
+        "number": 14,
+        "lbs": 154,
+        "ofr": "117",
+        "last_run": 89,
+        "form": "43260-",
+        "headgear": "p"
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Bellewstown",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 17.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good",
+      "runs": 1
+    },
+    "favourite_class": null,
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 50,
+    "suitability_score": 80,
+    "horse_intelligence_score": 49,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Bellewstown",
+      "latest_distance_f": 17.0,
+      "latest_going": "Good",
+      "latest_class": "",
+      "latest_pulse_score": 55,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -356,8 +372,8 @@
   },
   "runners": [
     {
-      "horse": "Allroadsleadtorome",
-      "horse_id": "hrs_59895731",
+      "horse": "Hopeful Hero",
+      "horse_id": "hrs_53539640",
       "age": 5,
       "sex": "gelding",
       "latest_course": "Bellewstown",
@@ -368,13 +384,13 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "John C McConnell",
-      "latest_jockey": "Shane Fitzsimons(7)",
+      "latest_trainer": "T Hogan",
+      "latest_jockey": "Alan O'Sullivan(5)",
       "latest_draw": 0,
       "latest_weight_lbs": 158,
-      "official_rating": "-",
-      "recent_form": "5-579",
-      "last_run_days": 20,
+      "official_rating": "104",
+      "recent_form": "3223-3",
+      "last_run_days": 25,
       "profile_runs": 1,
       "courses_seen": {
         "Bellewstown": 1
@@ -387,15 +403,21 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "John C McConnell": 1
+        "T Hogan": 1
       },
       "jockeys_seen": {
-        "Shane Fitzsimons(7)": 1
+        "Alan O'Sullivan(5)": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 80,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -411,24 +433,26 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 16,
-          "horse": "Allroadsleadtorome",
-          "horse_id": "hrs_59895731",
+          "horse": "Hopeful Hero",
+          "horse_id": "hrs_53539640",
           "age": 5,
           "sex": "gelding",
-          "trainer": "John C McConnell",
-          "trainer_id": "trn_132759",
-          "jockey": "Shane Fitzsimons(7)",
-          "jockey_id": "jky_308607",
+          "trainer": "T Hogan",
+          "trainer_id": "trn_95337",
+          "jockey": "Alan O'Sullivan(5)",
+          "jockey_id": "jky_301110",
           "draw": 0,
-          "number": 6,
+          "number": 8,
           "lbs": 158,
-          "ofr": "-",
-          "last_run": 20,
-          "form": "5-579",
-          "headgear": ""
+          "ofr": "104",
+          "last_run": 25,
+          "form": "3223-3",
+          "headgear": "h"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
       "favourite_course": {
         "value": "Bellewstown",
         "runs": 1
@@ -447,14 +471,14 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 60,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
+        "Today's going matches known profile preference",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -463,121 +487,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Double Order",
-      "horse_id": "hrs_52496262",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Bellewstown",
-      "latest_time": "5:48",
-      "latest_race": "Grimme Ireland Maiden Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Ian Patrick Donoghue",
-      "latest_jockey": "P J O'Hanlon",
-      "latest_draw": 0,
-      "latest_weight_lbs": 151,
-      "official_rating": "-",
-      "recent_form": "9-60",
-      "last_run_days": 38,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Ian Patrick Donoghue": 1
-      },
-      "jockeys_seen": {
-        "P J O'Hanlon": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010271",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "5:48",
-          "off_dt": "2026-07-04T17:48:00+01:00",
-          "race_name": "Grimme Ireland Maiden Hurdle",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Double Order",
-          "horse_id": "hrs_52496262",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "Ian Patrick Donoghue",
-          "trainer_id": "trn_344160",
-          "jockey": "P J O'Hanlon",
-          "jockey_id": "jky_283935",
-          "draw": 0,
-          "number": 15,
-          "lbs": 151,
-          "ofr": "-",
-          "last_run": 38,
-          "form": "9-60",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 80,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -622,8 +532,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 55,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -675,14 +590,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -691,129 +605,15 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 55,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Hopeful Hero",
-      "horse_id": "hrs_53539640",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "5:48",
-      "latest_race": "Grimme Ireland Maiden Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "T Hogan",
-      "latest_jockey": "Alan O'Sullivan(5)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 158,
-      "official_rating": "104",
-      "recent_form": "3223-3",
-      "last_run_days": 25,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "T Hogan": 1
-      },
-      "jockeys_seen": {
-        "Alan O'Sullivan(5)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010271",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "5:48",
-          "off_dt": "2026-07-04T17:48:00+01:00",
-          "race_name": "Grimme Ireland Maiden Hurdle",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Hopeful Hero",
-          "horse_id": "hrs_53539640",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "T Hogan",
-          "trainer_id": "trn_95337",
-          "jockey": "Alan O'Sullivan(5)",
-          "jockey_id": "jky_301110",
-          "draw": 0,
-          "number": 8,
-          "lbs": 158,
-          "ofr": "104",
-          "last_run": 25,
-          "form": "3223-3",
-          "headgear": "h"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Kasper Hauser",
-      "horse_id": "hrs_46233684",
+      "horse": "Wackestone",
+      "horse_id": "hrs_44075927",
       "age": 4,
       "sex": "gelding",
       "latest_course": "Bellewstown",
@@ -824,13 +624,13 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Kevin Thomas Coleman",
-      "latest_jockey": "Calum Hogan(5)",
+      "latest_trainer": "Gordon Elliott",
+      "latest_jockey": "Jack Kennedy",
       "latest_draw": 0,
       "latest_weight_lbs": 154,
-      "official_rating": "107",
-      "recent_form": "P852-5",
-      "last_run_days": 50,
+      "official_rating": "117",
+      "recent_form": "43260-",
+      "last_run_days": 89,
       "profile_runs": 1,
       "courses_seen": {
         "Bellewstown": 1
@@ -843,15 +643,20 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Kevin Thomas Coleman": 1
+        "Gordon Elliott": 1
       },
       "jockeys_seen": {
-        "Calum Hogan(5)": 1
+        "Jack Kennedy": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 55,
+      "latest_notes": [
+        "Positive recent form",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Jockey bonus +3"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -867,21 +672,21 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 16,
-          "horse": "Kasper Hauser",
-          "horse_id": "hrs_46233684",
+          "horse": "Wackestone",
+          "horse_id": "hrs_44075927",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Kevin Thomas Coleman",
-          "trainer_id": "trn_312012",
-          "jockey": "Calum Hogan(5)",
-          "jockey_id": "jky_307422",
+          "trainer": "Gordon Elliott",
+          "trainer_id": "trn_163305",
+          "jockey": "Jack Kennedy",
+          "jockey_id": "jky_283509",
           "draw": 0,
-          "number": 11,
+          "number": 14,
           "lbs": 154,
-          "ofr": "107",
-          "last_run": 50,
-          "form": "P852-5",
-          "headgear": ""
+          "ofr": "117",
+          "last_run": 89,
+          "form": "43260-",
+          "headgear": "p"
         }
       ],
       "profile_notes": [],
@@ -903,14 +708,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 49,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -919,121 +723,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Laxxio",
-      "horse_id": "hrs_55515859",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "5:48",
-      "latest_race": "Grimme Ireland Maiden Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Anthony Mullins",
-      "latest_jockey": "J J Slevin",
-      "latest_draw": 0,
-      "latest_weight_lbs": 166,
-      "official_rating": "110",
-      "recent_form": "F43P3-",
-      "last_run_days": 77,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Anthony Mullins": 1
-      },
-      "jockeys_seen": {
-        "J J Slevin": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010271",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "5:48",
-          "off_dt": "2026-07-04T17:48:00+01:00",
-          "race_name": "Grimme Ireland Maiden Hurdle",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Laxxio",
-          "horse_id": "hrs_55515859",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Anthony Mullins",
-          "trainer_id": "trn_28521",
-          "jockey": "J J Slevin",
-          "jockey_id": "jky_264864",
-          "draw": 0,
-          "number": 1,
-          "lbs": 166,
-          "ofr": "110",
-          "last_run": 77,
-          "form": "F43P3-",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 55,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1078,8 +768,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 53,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Jockey bonus +3",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1131,14 +828,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1147,7 +843,125 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 53,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Allroadsleadtorome",
+      "horse_id": "hrs_59895731",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "5:48",
+      "latest_race": "Grimme Ireland Maiden Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "John C McConnell",
+      "latest_jockey": "Shane Fitzsimons(7)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 158,
+      "official_rating": "-",
+      "recent_form": "5-579",
+      "last_run_days": 20,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "John C McConnell": 1
+      },
+      "jockeys_seen": {
+        "Shane Fitzsimons(7)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 52,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010271",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "5:48",
+          "off_dt": "2026-07-04T17:48:00+01:00",
+          "race_name": "Grimme Ireland Maiden Hurdle",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Allroadsleadtorome",
+          "horse_id": "hrs_59895731",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "John C McConnell",
+          "trainer_id": "trn_132759",
+          "jockey": "Shane Fitzsimons(7)",
+          "jockey_id": "jky_308607",
+          "draw": 0,
+          "number": 6,
+          "lbs": 158,
+          "ofr": "-",
+          "last_run": 20,
+          "form": "5-579",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 47,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 52,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1192,8 +1006,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 47,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1245,14 +1064,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1261,129 +1079,15 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 47,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Pepper Noir",
-      "horse_id": "hrs_38532179",
-      "age": 5,
-      "sex": "mare",
-      "latest_course": "Bellewstown",
-      "latest_time": "5:48",
-      "latest_race": "Grimme Ireland Maiden Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "John C McConnell",
-      "latest_jockey": "Alyse Clarke(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 159,
-      "official_rating": "-",
-      "recent_form": "U0/",
-      "last_run_days": null,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "John C McConnell": 1
-      },
-      "jockeys_seen": {
-        "Alyse Clarke(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010271",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "5:48",
-          "off_dt": "2026-07-04T17:48:00+01:00",
-          "race_name": "Grimme Ireland Maiden Hurdle",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "Pepper Noir",
-          "horse_id": "hrs_38532179",
-          "age": 5,
-          "sex": "mare",
-          "trainer": "John C McConnell",
-          "trainer_id": "trn_132759",
-          "jockey": "Alyse Clarke(7)",
-          "jockey_id": "jky_309378",
-          "draw": 0,
-          "number": 5,
-          "lbs": 159,
-          "ofr": "-",
-          "last_run": null,
-          "form": "U0/",
-          "headgear": "t"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Press The Button",
-      "horse_id": "hrs_46697210",
+      "horse": "Sunny Dude",
+      "horse_id": "hrs_36738625",
       "age": 6,
       "sex": "gelding",
       "latest_course": "Bellewstown",
@@ -1394,12 +1098,12 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Gavin Cromwell",
-      "latest_jockey": "Keith Donoghue",
+      "latest_trainer": "D Buckley",
+      "latest_jockey": "Benjamin P Kennedy(7)",
       "latest_draw": 0,
-      "latest_weight_lbs": 166,
+      "latest_weight_lbs": 158,
       "official_rating": "-",
-      "recent_form": "F/14-2",
+      "recent_form": "0",
       "last_run_days": 39,
       "profile_runs": 1,
       "courses_seen": {
@@ -1413,15 +1117,19 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Gavin Cromwell": 1
+        "D Buckley": 1
       },
       "jockeys_seen": {
-        "Keith Donoghue": 1
+        "Benjamin P Kennedy(7)": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 45,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Helpful draw"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1437,21 +1145,21 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 16,
-          "horse": "Press The Button",
-          "horse_id": "hrs_46697210",
+          "horse": "Sunny Dude",
+          "horse_id": "hrs_36738625",
           "age": 6,
           "sex": "gelding",
-          "trainer": "Gavin Cromwell",
-          "trainer_id": "trn_160524",
-          "jockey": "Keith Donoghue",
-          "jockey_id": "jky_266196",
+          "trainer": "D Buckley",
+          "trainer_id": "trn_19152",
+          "jockey": "Benjamin P Kennedy(7)",
+          "jockey_id": "jky_301101",
           "draw": 0,
-          "number": 3,
-          "lbs": 166,
+          "number": 19,
+          "lbs": 158,
           "ofr": "-",
           "last_run": 39,
-          "form": "F/14-2",
-          "headgear": "p"
+          "form": "0",
+          "headgear": ""
         }
       ],
       "profile_notes": [],
@@ -1473,14 +1181,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 44,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1489,121 +1196,7 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "The Flying Rambler",
-      "horse_id": "hrs_63357315",
-      "age": 4,
-      "sex": "gelding",
-      "latest_course": "Bellewstown",
-      "latest_time": "5:48",
-      "latest_race": "Grimme Ireland Maiden Hurdle",
-      "latest_date": "2026-07-04",
-      "latest_distance_f": 17.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "J P Dempsey",
-      "latest_jockey": "Conor Stone-Walsh",
-      "latest_draw": 0,
-      "latest_weight_lbs": 154,
-      "official_rating": "-",
-      "recent_form": "7-",
-      "last_run_days": 77,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "17.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "J P Dempsey": 1
-      },
-      "jockeys_seen": {
-        "Conor Stone-Walsh": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12010271",
-          "course": "Bellewstown",
-          "date": "2026-07-04",
-          "off_time": "5:48",
-          "off_dt": "2026-07-04T17:48:00+01:00",
-          "race_name": "Grimme Ireland Maiden Hurdle",
-          "distance_f": 17.0,
-          "race_class": "",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 16,
-          "horse": "The Flying Rambler",
-          "horse_id": "hrs_63357315",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "J P Dempsey",
-          "trainer_id": "trn_147078",
-          "jockey": "Conor Stone-Walsh",
-          "jockey_id": "jky_305553",
-          "draw": 0,
-          "number": 13,
-          "lbs": 154,
-          "ofr": "-",
-          "last_run": 77,
-          "form": "7-",
-          "headgear": "h"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 17.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 17.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 45,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1648,8 +1241,10 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 44,
+      "latest_notes": [
+        "Helpful draw"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1674,7 +1269,7 @@
           "jockey": "Alix Balfe(7)",
           "jockey_id": "jky_308367",
           "draw": 0,
-          "number": null,
+          "number": 18,
           "lbs": 147,
           "ofr": "-",
           "last_run": null,
@@ -1701,7 +1296,124 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 44,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 44,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Double Order",
+      "horse_id": "hrs_52496262",
+      "age": 5,
+      "sex": "mare",
+      "latest_course": "Bellewstown",
+      "latest_time": "5:48",
+      "latest_race": "Grimme Ireland Maiden Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Ian Patrick Donoghue",
+      "latest_jockey": "P J O'Hanlon",
+      "latest_draw": 0,
+      "latest_weight_lbs": 151,
+      "official_rating": "-",
+      "recent_form": "9-60",
+      "last_run_days": 38,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Ian Patrick Donoghue": 1
+      },
+      "jockeys_seen": {
+        "P J O'Hanlon": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 39,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Helpful draw"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010271",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "5:48",
+          "off_dt": "2026-07-04T17:48:00+01:00",
+          "race_name": "Grimme Ireland Maiden Hurdle",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Double Order",
+          "horse_id": "hrs_52496262",
+          "age": 5,
+          "sex": "mare",
+          "trainer": "Ian Patrick Donoghue",
+          "trainer_id": "trn_344160",
+          "jockey": "P J O'Hanlon",
+          "jockey_id": "jky_283935",
+          "draw": 0,
+          "number": 15,
+          "lbs": 151,
+          "ofr": "-",
+          "last_run": 38,
+          "form": "9-60",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -1717,7 +1429,130 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 39,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Highland Realm",
+      "horse_id": "hrs_55882365",
+      "age": 4,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "5:48",
+      "latest_race": "Grimme Ireland Maiden Hurdle",
+      "latest_date": "2026-07-04",
+      "latest_distance_f": 17.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "W P Mullins",
+      "latest_jockey": "Sean O'Keeffe",
+      "latest_draw": 0,
+      "latest_weight_lbs": 158,
+      "official_rating": "-",
+      "recent_form": "2-",
+      "last_run_days": 323,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "17.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "W P Mullins": 1
+      },
+      "jockeys_seen": {
+        "Sean O'Keeffe": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 41,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Very long absence concern -7",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Stable in form +2 (1/2 last 14 days)",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12010271",
+          "course": "Bellewstown",
+          "date": "2026-07-04",
+          "off_time": "5:48",
+          "off_dt": "2026-07-04T17:48:00+01:00",
+          "race_name": "Grimme Ireland Maiden Hurdle",
+          "distance_f": 17.0,
+          "race_class": "",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 16,
+          "horse": "Highland Realm",
+          "horse_id": "hrs_55882365",
+          "age": 4,
+          "sex": "gelding",
+          "trainer": "W P Mullins",
+          "trainer_id": "trn_13275",
+          "jockey": "Sean O'Keeffe",
+          "jockey_id": "jky_295554",
+          "draw": 0,
+          "number": 7,
+          "lbs": 158,
+          "ofr": "-",
+          "last_run": 323,
+          "form": "2-",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 17.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 42,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 17.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 41,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1764,8 +1599,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 53,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Stable in form +2 (1/3 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1796,7 +1637,7 @@
           "last_run": 26,
           "form": "F-F0",
           "headgear": "",
-          "_stored_at": "2026-07-02T04:58:44.510528+00:00"
+          "_stored_at": "2026-07-02T00:01:35.592191+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1848,14 +1689,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 62,
-      "horse_intelligence_score": 19,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1864,15 +1704,15 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 53,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
       }
     },
     {
-      "horse": "Wackestone",
-      "horse_id": "hrs_44075927",
+      "horse": "The Flying Rambler",
+      "horse_id": "hrs_63357315",
       "age": 4,
       "sex": "gelding",
       "latest_course": "Bellewstown",
@@ -1883,99 +1723,38 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Gordon Elliott",
-      "latest_jockey": "Jack Kennedy",
+      "latest_trainer": "J P Dempsey",
+      "latest_jockey": "Conor Stone-Walsh",
       "latest_draw": 0,
       "latest_weight_lbs": 154,
-      "official_rating": "117",
-      "recent_form": "43260-",
-      "last_run_days": 89,
-      "profile_runs": 3,
+      "official_rating": "-",
+      "recent_form": "7-",
+      "last_run_days": 77,
+      "profile_runs": 1,
       "courses_seen": {
-        "Curragh": 2,
         "Bellewstown": 1
       },
       "distances_seen": {
-        "12.0": 2,
         "17.0": 1
       },
       "goings_seen": {
-        "Good": 3
+        "Good": 1
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Gordon Elliott": 3
+        "J P Dempsey": 1
       },
       "jockeys_seen": {
-        "Jack Kennedy": 1
+        "Conor Stone-Walsh": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 41,
+      "latest_notes": [
+        "Weak recent form",
+        "Helpful draw"
+      ],
       "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12005929",
-          "course": "Curragh",
-          "date": "2026-06-26",
-          "off_time": "8:30",
-          "off_dt": "2026-06-26T20:30:00+01:00",
-          "race_name": "Corinthian Challenge Charity Race Series",
-          "distance_f": 12.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Wackestone",
-          "horse_id": "hrs_44075927",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 0,
-          "number": 10,
-          "lbs": 168,
-          "ofr": "-",
-          "last_run": null,
-          "form": "74/3-",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:13.854206+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12005929",
-          "course": "Curragh",
-          "date": "2026-06-26",
-          "off_time": "8:30",
-          "off_dt": "2026-06-26T20:30:00+01:00",
-          "race_name": "Corinthian Challenge Charity Race Series",
-          "distance_f": 12.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Wackestone",
-          "horse_id": "hrs_44075927",
-          "age": 4,
-          "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "",
-          "jockey_id": "",
-          "draw": 0,
-          "number": 10,
-          "lbs": 168,
-          "ofr": "-",
-          "last_run": null,
-          "form": "74/3-",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:28.605640+00:00"
-        },
         {
           "source": "the_racing_api",
           "race_id": "rac_12010271",
@@ -1990,52 +1769,50 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 16,
-          "horse": "Wackestone",
-          "horse_id": "hrs_44075927",
+          "horse": "The Flying Rambler",
+          "horse_id": "hrs_63357315",
           "age": 4,
           "sex": "gelding",
-          "trainer": "Gordon Elliott",
-          "trainer_id": "trn_163305",
-          "jockey": "Jack Kennedy",
-          "jockey_id": "jky_283509",
+          "trainer": "J P Dempsey",
+          "trainer_id": "trn_147078",
+          "jockey": "Conor Stone-Walsh",
+          "jockey_id": "jky_305553",
           "draw": 0,
-          "number": 14,
+          "number": 13,
           "lbs": 154,
-          "ofr": "117",
-          "last_run": 89,
-          "form": "43260-",
-          "headgear": "p"
+          "ofr": "-",
+          "last_run": 77,
+          "form": "7-",
+          "headgear": "h"
         }
       ],
-      "profile_notes": [
-        "Profile has multiple stored runs"
-      ],
+      "profile_notes": [],
       "favourite_course": {
-        "value": "Curragh",
-        "runs": 2
+        "value": "Bellewstown",
+        "runs": 1
       },
       "favourite_distance": {
-        "value": 12.0,
-        "runs": 2
+        "value": 17.0,
+        "runs": 1
       },
       "favourite_going": {
         "value": "Good",
-        "runs": 3
+        "runs": 1
       },
       "favourite_class": null,
-      "course_suitability_score": 55,
-      "distance_suitability_score": 55,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
       "going_suitability_score": 90,
       "class_suitability_score": 50,
-      "suitability_score": 62,
-      "horse_intelligence_score": 19,
+      "suitability_score": 80,
+      "horse_intelligence_score": 42,
       "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Course does not strongly match stored profile",
-        "Distance not yet a clear profile strength",
-        "Low latest Pulse Score"
+        "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -2043,17 +1820,16 @@
         "latest_distance_f": 17.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 41,
         "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
+        "profile_runs": 1,
+        "runs_count": 1
       }
     }
   ],
   "notes": [
-    "Allroadsleadtorome is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Getaway Tobin is flagged as a possible dark horse."
+    "Hopeful Hero is the top-rated Pulse IQ runner.",
+    "The top runner has a clear intelligence gap over the field.",
+    "Wackestone is flagged as a possible dark horse."
   ]
 }

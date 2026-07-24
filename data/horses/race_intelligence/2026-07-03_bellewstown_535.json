@@ -5,18 +5,18 @@
   "time": "5:35",
   "race_name": "Irish EBF Median Sires Series (C & G) Maiden",
   "field_size": 9,
-  "average_intelligence": 23.44,
-  "top_score": 24,
-  "second_score": 24,
-  "gap": 0,
-  "confidence_score": 19,
+  "average_intelligence": 45.11,
+  "top_score": 51,
+  "second_score": 48,
+  "gap": 3,
+  "confidence_score": 44,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Celestial Heights",
-    "horse_id": "hrs_66399452",
+    "horse": "Kraar",
+    "horse_id": "hrs_65225083",
     "age": 2,
-    "sex": "gelding",
+    "sex": "colt",
     "latest_course": "Bellewstown",
     "latest_time": "5:35",
     "latest_race": "Irish EBF Median Sires Series (C & G) Maiden",
@@ -25,13 +25,13 @@
     "latest_class": "",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Jack W Davison",
-    "latest_jockey": "James Ryan",
-    "latest_draw": 4,
+    "latest_trainer": "Donnacha Aidan O'Brien",
+    "latest_jockey": "Chris Hayes",
+    "latest_draw": 2,
     "latest_weight_lbs": 127,
     "official_rating": "-",
-    "recent_form": "",
-    "last_run_days": null,
+    "recent_form": "72",
+    "last_run_days": 14,
     "profile_runs": 1,
     "courses_seen": {
       "Bellewstown": 1
@@ -44,15 +44,21 @@
     },
     "classes_seen": {},
     "trainers_seen": {
-      "Jack W Davison": 1
+      "Donnacha Aidan O'Brien": 1
     },
     "jockeys_seen": {
-      "James Ryan": 1
+      "Chris Hayes": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 59,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +1"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -68,25 +74,28 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Celestial Heights",
-        "horse_id": "hrs_66399452",
+        "horse": "Kraar",
+        "horse_id": "hrs_65225083",
         "age": 2,
-        "sex": "gelding",
-        "trainer": "Jack W Davison",
-        "trainer_id": "trn_302778",
-        "jockey": "James Ryan",
-        "jockey_id": "jky_303036",
-        "draw": 4,
-        "number": 3,
+        "sex": "colt",
+        "trainer": "Donnacha Aidan O'Brien",
+        "trainer_id": "trn_331254",
+        "jockey": "Chris Hayes",
+        "jockey_id": "jky_250446",
+        "draw": 2,
+        "number": 5,
         "lbs": 127,
         "ofr": "-",
-        "last_run": null,
-        "form": "",
+        "last_run": 14,
+        "form": "72",
         "headgear": "",
-        "_stored_at": "2026-07-03T04:58:50.163264+00:00"
+        "_stored_at": "2026-07-03T00:37:04.535071+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Low draw today",
+      "Recent run timing"
+    ],
     "favourite_course": {
       "value": "Bellewstown",
       "runs": 1
@@ -105,14 +114,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 51,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -121,7 +129,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 59,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -166,8 +174,15 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 54,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Stable in form +2 (1/1 last 14 days)",
+      "Jockey flying +4 (4/6 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -198,7 +213,7 @@
         "last_run": 21,
         "form": "09",
         "headgear": "",
-        "_stored_at": "2026-07-03T04:58:50.307633+00:00"
+        "_stored_at": "2026-07-03T00:37:04.635318+00:00"
       }
     ],
     "profile_notes": [
@@ -222,14 +237,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 48,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -238,7 +252,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 54,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -283,8 +297,13 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 49,
+    "latest_notes": [
+      "Weak recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Jockey in form +2 (1/1 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -315,7 +334,7 @@
         "last_run": 26,
         "form": "9",
         "headgear": "",
-        "_stored_at": "2026-07-03T04:58:50.335229+00:00"
+        "_stored_at": "2026-07-03T00:37:04.651597+00:00"
       }
     ],
     "profile_notes": [],
@@ -337,14 +356,13 @@
     "going_suitability_score": 90,
     "class_suitability_score": 50,
     "suitability_score": 80,
-    "horse_intelligence_score": 24,
+    "horse_intelligence_score": 46,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -353,7 +371,7 @@
       "latest_distance_f": 8.0,
       "latest_going": "Good",
       "latest_class": "",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 49,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -361,10 +379,10 @@
   },
   "runners": [
     {
-      "horse": "Celestial Heights",
-      "horse_id": "hrs_66399452",
+      "horse": "Kraar",
+      "horse_id": "hrs_65225083",
       "age": 2,
-      "sex": "gelding",
+      "sex": "colt",
       "latest_course": "Bellewstown",
       "latest_time": "5:35",
       "latest_race": "Irish EBF Median Sires Series (C & G) Maiden",
@@ -373,13 +391,13 @@
       "latest_class": "",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "Jack W Davison",
-      "latest_jockey": "James Ryan",
-      "latest_draw": 4,
+      "latest_trainer": "Donnacha Aidan O'Brien",
+      "latest_jockey": "Chris Hayes",
+      "latest_draw": 2,
       "latest_weight_lbs": 127,
       "official_rating": "-",
-      "recent_form": "",
-      "last_run_days": null,
+      "recent_form": "72",
+      "last_run_days": 14,
       "profile_runs": 1,
       "courses_seen": {
         "Bellewstown": 1
@@ -392,15 +410,21 @@
       },
       "classes_seen": {},
       "trainers_seen": {
-        "Jack W Davison": 1
+        "Donnacha Aidan O'Brien": 1
       },
       "jockeys_seen": {
-        "James Ryan": 1
+        "Chris Hayes": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 59,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +1"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -416,25 +440,28 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 10,
-          "horse": "Celestial Heights",
-          "horse_id": "hrs_66399452",
+          "horse": "Kraar",
+          "horse_id": "hrs_65225083",
           "age": 2,
-          "sex": "gelding",
-          "trainer": "Jack W Davison",
-          "trainer_id": "trn_302778",
-          "jockey": "James Ryan",
-          "jockey_id": "jky_303036",
-          "draw": 4,
-          "number": 3,
+          "sex": "colt",
+          "trainer": "Donnacha Aidan O'Brien",
+          "trainer_id": "trn_331254",
+          "jockey": "Chris Hayes",
+          "jockey_id": "jky_250446",
+          "draw": 2,
+          "number": 5,
           "lbs": 127,
           "ofr": "-",
-          "last_run": null,
-          "form": "",
+          "last_run": 14,
+          "form": "72",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:50.163264+00:00"
+          "_stored_at": "2026-07-03T00:37:04.535071+00:00"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Low draw today",
+        "Recent run timing"
+      ],
       "favourite_course": {
         "value": "Bellewstown",
         "runs": 1
@@ -453,14 +480,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 51,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -469,7 +495,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 59,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -514,8 +540,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 54,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Stable in form +2 (1/1 last 14 days)",
+        "Jockey flying +4 (4/6 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -546,7 +579,7 @@
           "last_run": 21,
           "form": "09",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:50.307633+00:00"
+          "_stored_at": "2026-07-03T00:37:04.635318+00:00"
         }
       ],
       "profile_notes": [
@@ -570,14 +603,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -586,7 +618,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 54,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -631,8 +663,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 49,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Jockey in form +2 (1/1 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -663,7 +700,7 @@
           "last_run": 26,
           "form": "9",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:50.335229+00:00"
+          "_stored_at": "2026-07-03T00:37:04.651597+00:00"
         }
       ],
       "profile_notes": [],
@@ -685,14 +722,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 46,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -701,7 +737,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 49,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -746,8 +782,11 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 46,
+      "latest_notes": [
+        "Helpful draw",
+        "Stable in form +2 (2/2 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -778,7 +817,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:50.192876+00:00"
+          "_stored_at": "2026-07-03T00:37:04.511909+00:00"
         }
       ],
       "profile_notes": [
@@ -802,14 +841,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -818,7 +856,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 46,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -863,8 +901,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 46,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey bonus +1",
+        "Jockey in form +2 (2/7 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -895,7 +939,7 @@
           "last_run": 60,
           "form": "8",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:50.108526+00:00"
+          "_stored_at": "2026-07-03T00:37:04.386379+00:00"
         }
       ],
       "profile_notes": [],
@@ -917,14 +961,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -933,125 +976,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Kraar",
-      "horse_id": "hrs_65225083",
-      "age": 2,
-      "sex": "colt",
-      "latest_course": "Bellewstown",
-      "latest_time": "5:35",
-      "latest_race": "Irish EBF Median Sires Series (C & G) Maiden",
-      "latest_date": "2026-07-03",
-      "latest_distance_f": 8.0,
-      "latest_class": "",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Donnacha Aidan O'Brien",
-      "latest_jockey": "Chris Hayes",
-      "latest_draw": 2,
-      "latest_weight_lbs": 127,
-      "official_rating": "-",
-      "recent_form": "72",
-      "last_run_days": 14,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Bellewstown": 1
-      },
-      "distances_seen": {
-        "8.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {},
-      "trainers_seen": {
-        "Donnacha Aidan O'Brien": 1
-      },
-      "jockeys_seen": {
-        "Chris Hayes": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_12009569",
-          "course": "Bellewstown",
-          "date": "2026-07-03",
-          "off_time": "5:35",
-          "off_dt": "2026-07-03T17:35:00+01:00",
-          "race_name": "Irish EBF Median Sires Series (C & G) Maiden",
-          "distance_f": 8.0,
-          "race_class": "",
-          "race_type": "Flat",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Kraar",
-          "horse_id": "hrs_65225083",
-          "age": 2,
-          "sex": "colt",
-          "trainer": "Donnacha Aidan O'Brien",
-          "trainer_id": "trn_331254",
-          "jockey": "Chris Hayes",
-          "jockey_id": "jky_250446",
-          "draw": 2,
-          "number": 5,
-          "lbs": 127,
-          "ofr": "-",
-          "last_run": 14,
-          "form": "72",
-          "headgear": "",
-          "_stored_at": "2026-07-03T04:58:50.224535+00:00"
-        }
-      ],
-      "profile_notes": [
-        "Low draw today",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Bellewstown",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 8.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": null,
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 50,
-      "suitability_score": 80,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Bellewstown",
-        "latest_distance_f": 8.0,
-        "latest_going": "Good",
-        "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 46,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1096,8 +1021,11 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 46,
+      "latest_notes": [
+        "Stable flying +4 (4/6 last 14 days)",
+        "Jockey in form +2 (2/13 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1128,7 +1056,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:50.362204+00:00"
+          "_stored_at": "2026-07-03T00:37:04.700842+00:00"
         }
       ],
       "profile_notes": [],
@@ -1150,14 +1078,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 45,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1166,7 +1093,124 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 46,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Celestial Heights",
+      "horse_id": "hrs_66399452",
+      "age": 2,
+      "sex": "gelding",
+      "latest_course": "Bellewstown",
+      "latest_time": "5:35",
+      "latest_race": "Irish EBF Median Sires Series (C & G) Maiden",
+      "latest_date": "2026-07-03",
+      "latest_distance_f": 8.0,
+      "latest_class": "",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Jack W Davison",
+      "latest_jockey": "James Ryan",
+      "latest_draw": 4,
+      "latest_weight_lbs": 127,
+      "official_rating": "-",
+      "recent_form": "",
+      "last_run_days": null,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Bellewstown": 1
+      },
+      "distances_seen": {
+        "8.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {},
+      "trainers_seen": {
+        "Jack W Davison": 1
+      },
+      "jockeys_seen": {
+        "James Ryan": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 43,
+      "latest_notes": [
+        "Helpful draw",
+        "Trainer bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_12009569",
+          "course": "Bellewstown",
+          "date": "2026-07-03",
+          "off_time": "5:35",
+          "off_dt": "2026-07-03T17:35:00+01:00",
+          "race_name": "Irish EBF Median Sires Series (C & G) Maiden",
+          "distance_f": 8.0,
+          "race_class": "",
+          "race_type": "Flat",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Celestial Heights",
+          "horse_id": "hrs_66399452",
+          "age": 2,
+          "sex": "gelding",
+          "trainer": "Jack W Davison",
+          "trainer_id": "trn_302778",
+          "jockey": "James Ryan",
+          "jockey_id": "jky_303036",
+          "draw": 4,
+          "number": 3,
+          "lbs": 127,
+          "ofr": "-",
+          "last_run": null,
+          "form": "",
+          "headgear": "",
+          "_stored_at": "2026-07-03T00:37:04.471160+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Bellewstown",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 8.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": null,
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 50,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Bellewstown",
+        "latest_distance_f": 8.0,
+        "latest_going": "Good",
+        "latest_class": "",
+        "latest_pulse_score": 43,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1211,8 +1255,10 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 42,
+      "latest_notes": [
+        "Stable in form +2 (2/6 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1243,7 +1289,7 @@
           "last_run": null,
           "form": "",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:50.253314+00:00"
+          "_stored_at": "2026-07-03T00:37:04.568726+00:00"
         }
       ],
       "profile_notes": [],
@@ -1265,14 +1311,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 80,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 43,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1281,7 +1326,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 42,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1328,8 +1373,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 47,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Stable in form +2 (1/1 last 14 days)",
+        "Jockey concern -2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -1360,7 +1411,7 @@
           "last_run": 11,
           "form": "8",
           "headgear": "",
-          "_stored_at": "2026-06-30T05:14:28.654212+00:00"
+          "_stored_at": "2026-06-30T01:49:58.840594+00:00"
         },
         {
           "source": "the_racing_api",
@@ -1391,7 +1442,7 @@
           "last_run": 14,
           "form": "8",
           "headgear": "",
-          "_stored_at": "2026-07-03T04:58:50.280448+00:00"
+          "_stored_at": "2026-07-03T00:37:04.585210+00:00"
         }
       ],
       "profile_notes": [
@@ -1415,14 +1466,13 @@
       "going_suitability_score": 90,
       "class_suitability_score": 50,
       "suitability_score": 62,
-      "horse_intelligence_score": 19,
+      "horse_intelligence_score": 40,
       "profile_strengths": [
         "Today's going matches known profile preference"
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
         "Distance not yet a clear profile strength",
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -1431,7 +1481,7 @@
         "latest_distance_f": 8.0,
         "latest_going": "Good",
         "latest_class": "",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 47,
         "average_pulse_score": 0,
         "profile_runs": 2,
         "runs_count": 2
@@ -1439,9 +1489,8 @@
     }
   ],
   "notes": [
-    "Celestial Heights is the top-rated Pulse IQ runner.",
+    "Kraar is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
     "Come On Noddy is flagged as a possible dark horse."
   ]
 }

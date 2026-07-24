@@ -4,15 +4,137 @@
   "course": "Clairefontaine",
   "time": "2:45",
   "race_name": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
-  "field_size": 6,
-  "average_intelligence": 55.5,
-  "top_score": 58,
-  "second_score": 57,
+  "field_size": 7,
+  "average_intelligence": 50.71,
+  "top_score": 55,
+  "second_score": 54,
   "gap": 1,
-  "confidence_score": 47,
+  "confidence_score": 45,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
+    "horse": "Jumpanjive",
+    "horse_id": "hrs_51800189",
+    "age": 5,
+    "sex": "filly",
+    "latest_course": "Clairefontaine",
+    "latest_time": "2:45",
+    "latest_race": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
+    "latest_date": "2026-07-15",
+    "latest_distance_f": 18.5,
+    "latest_class": "Class 3",
+    "latest_going": "",
+    "latest_surface": "Turf",
+    "latest_trainer": "Noel George & Amanda Zetterholm",
+    "latest_jockey": "James Reveley",
+    "latest_draw": 0,
+    "latest_weight_lbs": 152,
+    "official_rating": "-",
+    "recent_form": "11-F95",
+    "last_run_days": 50,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Clairefontaine": 1
+    },
+    "distances_seen": {
+      "18.5": 1
+    },
+    "goings_seen": {},
+    "classes_seen": {
+      "Class 3": 1
+    },
+    "trainers_seen": {
+      "Noel George & Amanda Zetterholm": 1
+    },
+    "jockeys_seen": {
+      "James Reveley": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 68,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Race class strength +4",
+      "Historical winner +3",
+      "Previous course winner +4"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_13000004017",
+        "course": "Clairefontaine",
+        "date": "2026-07-15",
+        "off_time": "2:45",
+        "off_dt": "2026-07-15T14:45:00+01:00",
+        "race_name": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
+        "distance_f": 18.5,
+        "race_class": "Class 3",
+        "race_type": "Chase",
+        "going": "",
+        "surface": "Turf",
+        "field_size": 7,
+        "horse": "Jumpanjive",
+        "horse_id": "hrs_51800189",
+        "age": 5,
+        "sex": "filly",
+        "trainer": "Noel George & Amanda Zetterholm",
+        "trainer_id": "trn_362196",
+        "jockey": "James Reveley",
+        "jockey_id": "jky_253794",
+        "draw": 0,
+        "number": 3,
+        "lbs": 152,
+        "ofr": "-",
+        "last_run": 50,
+        "form": "11-F95",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Clairefontaine",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 18.5,
+      "runs": 1
+    },
+    "favourite_going": null,
+    "favourite_class": {
+      "value": "Class 3",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 50,
+    "class_suitability_score": 90,
+    "suitability_score": 80,
+    "horse_intelligence_score": 55,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Going is not clearly proven from stored profile",
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Clairefontaine",
+      "latest_distance_f": 18.5,
+      "latest_going": "",
+      "latest_class": "Class 3",
+      "latest_pulse_score": 68,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "main_threat": {
     "horse": "Djin's",
     "horse_id": "hrs_41053019",
     "age": 5,
@@ -23,7 +145,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 18.5,
     "latest_class": "Class 3",
-    "latest_going": "Soft",
+    "latest_going": "",
     "latest_surface": "Turf",
     "latest_trainer": "M Seror",
     "latest_jockey": "Ludovic Philipperon",
@@ -39,9 +161,7 @@
     "distances_seen": {
       "18.5": 1
     },
-    "goings_seen": {
-      "Soft": 1
-    },
+    "goings_seen": {},
     "classes_seen": {
       "Class 3": 1
     },
@@ -53,15 +173,13 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 68,
+    "latest_pulse_score": 66,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
-      "Race class strength +4",
-      "Trainer bonus +1",
-      "Jockey bonus +1"
+      "Race class strength +4"
     ],
     "runs": [
       {
@@ -75,7 +193,7 @@
         "distance_f": 18.5,
         "race_class": "Class 3",
         "race_type": "Chase",
-        "going": "Soft",
+        "going": "",
         "surface": "Turf",
         "field_size": 7,
         "horse": "Djin's",
@@ -104,165 +222,34 @@
       "value": 18.5,
       "runs": 1
     },
-    "favourite_going": {
-      "value": "Soft",
-      "runs": 1
-    },
+    "favourite_going": null,
     "favourite_class": {
       "value": "Class 3",
       "runs": 1
     },
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 90,
+    "going_suitability_score": 50,
     "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 58,
+    "suitability_score": 80,
+    "horse_intelligence_score": 54,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
       "Race class matches common profile level",
       "Positive latest Pulse Score"
     ],
     "profile_cautions": [
+      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Clairefontaine",
       "latest_distance_f": 18.5,
-      "latest_going": "Soft",
+      "latest_going": "",
       "latest_class": "Class 3",
-      "latest_pulse_score": 68,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
-    "horse": "Nikkaluokta",
-    "horse_id": "hrs_40393528",
-    "age": 5,
-    "sex": "gelding",
-    "latest_course": "Clairefontaine",
-    "latest_time": "2:45",
-    "latest_race": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
-    "latest_date": "2026-07-15",
-    "latest_distance_f": 18.5,
-    "latest_class": "Class 3",
-    "latest_going": "Soft",
-    "latest_surface": "Turf",
-    "latest_trainer": "M Seror",
-    "latest_jockey": "Bertrand Lestrade",
-    "latest_draw": 0,
-    "latest_weight_lbs": 147,
-    "official_rating": "-",
-    "recent_form": "-67453",
-    "last_run_days": 18,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Clairefontaine": 1
-    },
-    "distances_seen": {
-      "18.5": 1
-    },
-    "goings_seen": {
-      "Soft": 1
-    },
-    "classes_seen": {
-      "Class 3": 1
-    },
-    "trainers_seen": {
-      "M Seror": 1
-    },
-    "jockeys_seen": {
-      "Bertrand Lestrade": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": 67,
-    "latest_notes": [
-      "Positive recent form",
-      "Good recent run timing",
-      "Ideal layoff profile +2",
-      "Helpful draw",
-      "Race class strength +4",
-      "Trainer bonus +1",
-      "Jockey bonus +2"
-    ],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_13000004017",
-        "course": "Clairefontaine",
-        "date": "2026-07-15",
-        "off_time": "2:45",
-        "off_dt": "2026-07-15T14:45:00+01:00",
-        "race_name": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
-        "distance_f": 18.5,
-        "race_class": "Class 3",
-        "race_type": "Chase",
-        "going": "Soft",
-        "surface": "Turf",
-        "field_size": 7,
-        "horse": "Nikkaluokta",
-        "horse_id": "hrs_40393528",
-        "age": 5,
-        "sex": "gelding",
-        "trainer": "M Seror",
-        "trainer_id": "trn_204525",
-        "jockey": "Bertrand Lestrade",
-        "jockey_id": "jky_258963",
-        "draw": 0,
-        "number": 5,
-        "lbs": 147,
-        "ofr": "-",
-        "last_run": 18,
-        "form": "-67453",
-        "headgear": "v"
-      }
-    ],
-    "profile_notes": [],
-    "favourite_course": {
-      "value": "Clairefontaine",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 18.5,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Soft",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 3",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 57,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
-    ],
-    "profile_cautions": [
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Clairefontaine",
-      "latest_distance_f": 18.5,
-      "latest_going": "Soft",
-      "latest_class": "Class 3",
-      "latest_pulse_score": 67,
+      "latest_pulse_score": 66,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -279,7 +266,7 @@
     "latest_date": "2026-07-15",
     "latest_distance_f": 18.5,
     "latest_class": "Class 3",
-    "latest_going": "Soft",
+    "latest_going": "",
     "latest_surface": "Turf",
     "latest_trainer": "M Seror",
     "latest_jockey": "Bertrand Lestrade",
@@ -295,9 +282,7 @@
     "distances_seen": {
       "18.5": 1
     },
-    "goings_seen": {
-      "Soft": 1
-    },
+    "goings_seen": {},
     "classes_seen": {
       "Class 3": 1
     },
@@ -309,15 +294,13 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": 67,
+    "latest_pulse_score": 64,
     "latest_notes": [
       "Positive recent form",
       "Good recent run timing",
       "Ideal layoff profile +2",
       "Helpful draw",
-      "Race class strength +4",
-      "Trainer bonus +1",
-      "Jockey bonus +2"
+      "Race class strength +4"
     ],
     "runs": [
       {
@@ -331,7 +314,7 @@
         "distance_f": 18.5,
         "race_class": "Class 3",
         "race_type": "Chase",
-        "going": "Soft",
+        "going": "",
         "surface": "Turf",
         "field_size": 7,
         "horse": "Nikkaluokta",
@@ -360,299 +343,39 @@
       "value": 18.5,
       "runs": 1
     },
-    "favourite_going": {
-      "value": "Soft",
-      "runs": 1
-    },
+    "favourite_going": null,
     "favourite_class": {
       "value": "Class 3",
       "runs": 1
     },
     "course_suitability_score": 90,
     "distance_suitability_score": 90,
-    "going_suitability_score": 90,
+    "going_suitability_score": 50,
     "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 57,
+    "suitability_score": 80,
+    "horse_intelligence_score": 53,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level",
-      "Positive latest Pulse Score"
+      "Race class matches common profile level"
     ],
     "profile_cautions": [
+      "Going is not clearly proven from stored profile",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
     "enrich_signature": {
       "latest_course": "Clairefontaine",
       "latest_distance_f": 18.5,
-      "latest_going": "Soft",
+      "latest_going": "",
       "latest_class": "Class 3",
-      "latest_pulse_score": 67,
+      "latest_pulse_score": 64,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
-    {
-      "horse": "Djin's",
-      "horse_id": "hrs_41053019",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Clairefontaine",
-      "latest_time": "2:45",
-      "latest_race": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 18.5,
-      "latest_class": "Class 3",
-      "latest_going": "Soft",
-      "latest_surface": "Turf",
-      "latest_trainer": "M Seror",
-      "latest_jockey": "Ludovic Philipperon",
-      "latest_draw": 0,
-      "latest_weight_lbs": 154,
-      "official_rating": "-",
-      "recent_form": "-24264",
-      "last_run_days": 16,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "18.5": 1
-      },
-      "goings_seen": {
-        "Soft": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "M Seror": 1
-      },
-      "jockeys_seen": {
-        "Ludovic Philipperon": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 68,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004017",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "2:45",
-          "off_dt": "2026-07-15T14:45:00+01:00",
-          "race_name": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
-          "distance_f": 18.5,
-          "race_class": "Class 3",
-          "race_type": "Chase",
-          "going": "Soft",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Djin's",
-          "horse_id": "hrs_41053019",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "M Seror",
-          "trainer_id": "trn_204525",
-          "jockey": "Ludovic Philipperon",
-          "jockey_id": "jky_267726",
-          "draw": 0,
-          "number": 2,
-          "lbs": 154,
-          "ofr": "-",
-          "last_run": 16,
-          "form": "-24264",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 18.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Soft",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 58,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 18.5,
-        "latest_going": "Soft",
-        "latest_class": "Class 3",
-        "latest_pulse_score": 68,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Nikkaluokta",
-      "horse_id": "hrs_40393528",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Clairefontaine",
-      "latest_time": "2:45",
-      "latest_race": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
-      "latest_date": "2026-07-15",
-      "latest_distance_f": 18.5,
-      "latest_class": "Class 3",
-      "latest_going": "Soft",
-      "latest_surface": "Turf",
-      "latest_trainer": "M Seror",
-      "latest_jockey": "Bertrand Lestrade",
-      "latest_draw": 0,
-      "latest_weight_lbs": 147,
-      "official_rating": "-",
-      "recent_form": "-67453",
-      "last_run_days": 18,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Clairefontaine": 1
-      },
-      "distances_seen": {
-        "18.5": 1
-      },
-      "goings_seen": {
-        "Soft": 1
-      },
-      "classes_seen": {
-        "Class 3": 1
-      },
-      "trainers_seen": {
-        "M Seror": 1
-      },
-      "jockeys_seen": {
-        "Bertrand Lestrade": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": 67,
-      "latest_notes": [
-        "Positive recent form",
-        "Good recent run timing",
-        "Ideal layoff profile +2",
-        "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +1",
-        "Jockey bonus +2"
-      ],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_13000004017",
-          "course": "Clairefontaine",
-          "date": "2026-07-15",
-          "off_time": "2:45",
-          "off_dt": "2026-07-15T14:45:00+01:00",
-          "race_name": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
-          "distance_f": 18.5,
-          "race_class": "Class 3",
-          "race_type": "Chase",
-          "going": "Soft",
-          "surface": "Turf",
-          "field_size": 7,
-          "horse": "Nikkaluokta",
-          "horse_id": "hrs_40393528",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "M Seror",
-          "trainer_id": "trn_204525",
-          "jockey": "Bertrand Lestrade",
-          "jockey_id": "jky_258963",
-          "draw": 0,
-          "number": 5,
-          "lbs": 147,
-          "ofr": "-",
-          "last_run": 18,
-          "form": "-67453",
-          "headgear": "v"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Clairefontaine",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 18.5,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Soft",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 3",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 57,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level",
-        "Positive latest Pulse Score"
-      ],
-      "profile_cautions": [
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Clairefontaine",
-        "latest_distance_f": 18.5,
-        "latest_going": "Soft",
-        "latest_class": "Class 3",
-        "latest_pulse_score": 67,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
     {
       "horse": "Jumpanjive",
       "horse_id": "hrs_51800189",
@@ -664,7 +387,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "Soft",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Noel George & Amanda Zetterholm",
       "latest_jockey": "James Reveley",
@@ -680,9 +403,7 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {
-        "Soft": 1
-      },
+      "goings_seen": {},
       "classes_seen": {
         "Class 3": 1
       },
@@ -694,14 +415,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 65,
+      "latest_pulse_score": 68,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
         "Helpful draw",
         "Race class strength +4",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
+        "Historical winner +3",
+        "Previous course winner +4"
       ],
       "runs": [
         {
@@ -715,7 +436,7 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "Soft",
+          "going": "",
           "surface": "Turf",
           "field_size": 7,
           "horse": "Jumpanjive",
@@ -744,62 +465,59 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Soft",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 56,
+      "suitability_score": 80,
+      "horse_intelligence_score": 55,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
         "Race class matches common profile level",
         "Positive latest Pulse Score"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "Soft",
+        "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": 65,
+        "latest_pulse_score": 68,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Kotkidina",
-      "horse_id": "hrs_40766810",
+      "horse": "Djin's",
+      "horse_id": "hrs_41053019",
       "age": 5,
-      "sex": "filly",
+      "sex": "gelding",
       "latest_course": "Clairefontaine",
       "latest_time": "2:45",
       "latest_race": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "Soft",
+      "latest_going": "",
       "latest_surface": "Turf",
-      "latest_trainer": "D Bressou",
-      "latest_jockey": "Maxime Behocaray",
+      "latest_trainer": "M Seror",
+      "latest_jockey": "Ludovic Philipperon",
       "latest_draw": 0,
-      "latest_weight_lbs": 156,
+      "latest_weight_lbs": 154,
       "official_rating": "-",
-      "recent_form": "336-55",
-      "last_run_days": 48,
+      "recent_form": "-24264",
+      "last_run_days": 16,
       "profile_runs": 1,
       "courses_seen": {
         "Clairefontaine": 1
@@ -807,28 +525,25 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {
-        "Soft": 1
-      },
+      "goings_seen": {},
       "classes_seen": {
         "Class 3": 1
       },
       "trainers_seen": {
-        "D Bressou": 1
+        "M Seror": 1
       },
       "jockeys_seen": {
-        "Maxime Behocaray": 1
+        "Ludovic Philipperon": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 62,
+      "latest_pulse_score": 66,
       "latest_notes": [
         "Positive recent form",
         "Good recent run timing",
+        "Ideal layoff profile +2",
         "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +2",
-        "Jockey bonus +2"
+        "Race class strength +4"
       ],
       "runs": [
         {
@@ -842,23 +557,23 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "Soft",
+          "going": "",
           "surface": "Turf",
           "field_size": 7,
-          "horse": "Kotkidina",
-          "horse_id": "hrs_40766810",
+          "horse": "Djin's",
+          "horse_id": "hrs_41053019",
           "age": 5,
-          "sex": "filly",
-          "trainer": "D Bressou",
-          "trainer_id": "trn_146592",
-          "jockey": "Maxime Behocaray",
-          "jockey_id": "jky_300843",
+          "sex": "gelding",
+          "trainer": "M Seror",
+          "trainer_id": "trn_204525",
+          "jockey": "Ludovic Philipperon",
+          "jockey_id": "jky_267726",
           "draw": 0,
-          "number": 1,
-          "lbs": 156,
+          "number": 2,
+          "lbs": 154,
           "ofr": "-",
-          "last_run": 48,
-          "form": "336-55",
+          "last_run": 16,
+          "form": "-24264",
           "headgear": ""
         }
       ],
@@ -871,36 +586,154 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Soft",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 55,
+      "suitability_score": 80,
+      "horse_intelligence_score": 54,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "Soft",
+        "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": 62,
+        "latest_pulse_score": 66,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Nikkaluokta",
+      "horse_id": "hrs_40393528",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Clairefontaine",
+      "latest_time": "2:45",
+      "latest_race": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 18.5,
+      "latest_class": "Class 3",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "M Seror",
+      "latest_jockey": "Bertrand Lestrade",
+      "latest_draw": 0,
+      "latest_weight_lbs": 147,
+      "official_rating": "-",
+      "recent_form": "-67453",
+      "last_run_days": 18,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "18.5": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "M Seror": 1
+      },
+      "jockeys_seen": {
+        "Bertrand Lestrade": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 64,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004017",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "2:45",
+          "off_dt": "2026-07-15T14:45:00+01:00",
+          "race_name": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
+          "distance_f": 18.5,
+          "race_class": "Class 3",
+          "race_type": "Chase",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Nikkaluokta",
+          "horse_id": "hrs_40393528",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "M Seror",
+          "trainer_id": "trn_204525",
+          "jockey": "Bertrand Lestrade",
+          "jockey_id": "jky_258963",
+          "draw": 0,
+          "number": 5,
+          "lbs": 147,
+          "ofr": "-",
+          "last_run": 18,
+          "form": "-67453",
+          "headgear": "v"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 18.5,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 53,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 18.5,
+        "latest_going": "",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 64,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -917,7 +750,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "Soft",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Josef Vana Jr",
       "latest_jockey": "Jan Kratochvil",
@@ -933,9 +766,7 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {
-        "Soft": 1
-      },
+      "goings_seen": {},
       "classes_seen": {
         "Class 3": 1
       },
@@ -947,15 +778,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 59,
+      "latest_pulse_score": 57,
       "latest_notes": [
         "Strong recent form",
         "Questionable run timing",
         "Long layoff concern -4",
         "Helpful draw",
-        "Race class strength +4",
-        "Trainer bonus +1",
-        "Jockey bonus +1"
+        "Race class strength +4"
       ],
       "runs": [
         {
@@ -969,7 +798,7 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "Soft",
+          "going": "",
           "surface": "Turf",
           "field_size": 7,
           "horse": "Billy Jango",
@@ -1000,36 +829,152 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Soft",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 54,
+      "suitability_score": 80,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "Soft",
+        "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": 59,
+        "latest_pulse_score": 57,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Kotkidina",
+      "horse_id": "hrs_40766810",
+      "age": 5,
+      "sex": "filly",
+      "latest_course": "Clairefontaine",
+      "latest_time": "2:45",
+      "latest_race": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 18.5,
+      "latest_class": "Class 3",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "D Bressou",
+      "latest_jockey": "Maxime Behocaray",
+      "latest_draw": 0,
+      "latest_weight_lbs": 156,
+      "official_rating": "-",
+      "recent_form": "336-55",
+      "last_run_days": 48,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "18.5": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "D Bressou": 1
+      },
+      "jockeys_seen": {
+        "Maxime Behocaray": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 58,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004017",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "2:45",
+          "off_dt": "2026-07-15T14:45:00+01:00",
+          "race_name": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
+          "distance_f": 18.5,
+          "race_class": "Class 3",
+          "race_type": "Chase",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Kotkidina",
+          "horse_id": "hrs_40766810",
+          "age": 5,
+          "sex": "filly",
+          "trainer": "D Bressou",
+          "trainer_id": "trn_146592",
+          "jockey": "Maxime Behocaray",
+          "jockey_id": "jky_300843",
+          "draw": 0,
+          "number": 1,
+          "lbs": 156,
+          "ofr": "-",
+          "last_run": 48,
+          "form": "336-55",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 18.5,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 18.5,
+        "latest_going": "",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 58,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1046,7 +991,7 @@
       "latest_date": "2026-07-15",
       "latest_distance_f": 18.5,
       "latest_class": "Class 3",
-      "latest_going": "Soft",
+      "latest_going": "",
       "latest_surface": "Turf",
       "latest_trainer": "Mme A-S Pacault",
       "latest_jockey": "Rayan Poincot",
@@ -1062,9 +1007,7 @@
       "distances_seen": {
         "18.5": 1
       },
-      "goings_seen": {
-        "Soft": 1
-      },
+      "goings_seen": {},
       "classes_seen": {
         "Class 3": 1
       },
@@ -1076,14 +1019,13 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": 58,
+      "latest_pulse_score": 57,
       "latest_notes": [
         "Weak recent form",
         "Good recent run timing",
         "Ideal layoff profile +2",
         "Helpful draw",
-        "Race class strength +4",
-        "Jockey bonus +1"
+        "Race class strength +4"
       ],
       "runs": [
         {
@@ -1097,7 +1039,7 @@
           "distance_f": 18.5,
           "race_class": "Class 3",
           "race_type": "Chase",
-          "going": "Soft",
+          "going": "",
           "surface": "Turf",
           "field_size": 7,
           "horse": "Rogatien",
@@ -1126,36 +1068,155 @@
         "value": 18.5,
         "runs": 1
       },
-      "favourite_going": {
-        "value": "Soft",
-        "runs": 1
-      },
+      "favourite_going": null,
       "favourite_class": {
         "value": "Class 3",
         "runs": 1
       },
       "course_suitability_score": 90,
       "distance_suitability_score": 90,
-      "going_suitability_score": 90,
+      "going_suitability_score": 50,
       "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 53,
+      "suitability_score": 80,
+      "horse_intelligence_score": 50,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
         "Race class matches common profile level"
       ],
       "profile_cautions": [
+        "Going is not clearly proven from stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
         "latest_course": "Clairefontaine",
         "latest_distance_f": 18.5,
-        "latest_going": "Soft",
+        "latest_going": "",
         "latest_class": "Class 3",
-        "latest_pulse_score": 58,
+        "latest_pulse_score": 57,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "All Moonshine",
+      "horse_id": "hrs_45886820",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Clairefontaine",
+      "latest_time": "2:45",
+      "latest_race": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
+      "latest_date": "2026-07-15",
+      "latest_distance_f": 18.5,
+      "latest_class": "Class 3",
+      "latest_going": "",
+      "latest_surface": "Turf",
+      "latest_trainer": "Sourdeau Sourdeau De Beauregard",
+      "latest_jockey": "Anthony Renard",
+      "latest_draw": 0,
+      "latest_weight_lbs": 147,
+      "official_rating": "-",
+      "recent_form": "1P7-P1",
+      "last_run_days": 141,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Clairefontaine": 1
+      },
+      "distances_seen": {
+        "18.5": 1
+      },
+      "goings_seen": {},
+      "classes_seen": {
+        "Class 3": 1
+      },
+      "trainers_seen": {
+        "Sourdeau Sourdeau De Beauregard": 1
+      },
+      "jockeys_seen": {
+        "Anthony Renard": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 43,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Long layoff concern -4",
+        "Helpful draw",
+        "Race class strength +4"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_13000004017",
+          "course": "Clairefontaine",
+          "date": "2026-07-15",
+          "off_time": "2:45",
+          "off_dt": "2026-07-15T14:45:00+01:00",
+          "race_name": "Prix Pole International Du Cheval (Prix Des Ypreaux)",
+          "distance_f": 18.5,
+          "race_class": "Class 3",
+          "race_type": "Chase",
+          "going": "",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "All Moonshine",
+          "horse_id": "hrs_45886820",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "Sourdeau Sourdeau De Beauregard",
+          "trainer_id": "trn_9000000198",
+          "jockey": "Anthony Renard",
+          "jockey_id": "jky_272781",
+          "draw": 0,
+          "number": 7,
+          "lbs": 147,
+          "ofr": "-",
+          "last_run": 141,
+          "form": "1P7-P1",
+          "headgear": "t"
+        }
+      ],
+      "profile_notes": [
+        "Returning from a break"
+      ],
+      "favourite_course": {
+        "value": "Clairefontaine",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 18.5,
+        "runs": 1
+      },
+      "favourite_going": null,
+      "favourite_class": {
+        "value": "Class 3",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 50,
+      "class_suitability_score": 90,
+      "suitability_score": 80,
+      "horse_intelligence_score": 43,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Going is not clearly proven from stored profile",
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Clairefontaine",
+        "latest_distance_f": 18.5,
+        "latest_going": "",
+        "latest_class": "Class 3",
+        "latest_pulse_score": 43,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -1163,7 +1224,7 @@
     }
   ],
   "notes": [
-    "Djin's is the top-rated Pulse IQ runner.",
+    "Jumpanjive is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
     "Nikkaluokta is flagged as a possible dark horse."
   ]

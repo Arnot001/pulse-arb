@@ -4,137 +4,15 @@
   "course": "Yarmouth",
   "time": "2:45",
   "race_name": "Infobond Nursery",
-  "field_size": 5,
-  "average_intelligence": 25.8,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 21,
+  "field_size": 7,
+  "average_intelligence": 51.86,
+  "top_score": 58,
+  "second_score": 57,
+  "gap": 1,
+  "confidence_score": 47,
   "confidence": "LOW",
   "race_shape": "OPEN RACE",
   "top_runner": {
-    "horse": "Cydney Sweenie",
-    "horse_id": "hrs_63741930",
-    "age": 2,
-    "sex": "filly",
-    "latest_course": "Yarmouth",
-    "latest_time": "2:45",
-    "latest_race": "Infobond Nursery",
-    "latest_date": "2026-07-08",
-    "latest_distance_f": 5.0,
-    "latest_class": "Class 5",
-    "latest_going": "Good To Firm",
-    "latest_surface": "Turf",
-    "latest_trainer": "Jack Morland",
-    "latest_jockey": "Daniel Muscutt",
-    "latest_draw": 1,
-    "latest_weight_lbs": 126,
-    "official_rating": "66",
-    "recent_form": "438",
-    "last_run_days": 43,
-    "profile_runs": 1,
-    "courses_seen": {
-      "Yarmouth": 1
-    },
-    "distances_seen": {
-      "5.0": 1
-    },
-    "goings_seen": {
-      "Good To Firm": 1
-    },
-    "classes_seen": {
-      "Class 5": 1
-    },
-    "trainers_seen": {
-      "Jack Morland": 1
-    },
-    "jockeys_seen": {
-      "Daniel Muscutt": 1
-    },
-    "average_pulse_score": 0,
-    "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
-    "runs": [
-      {
-        "source": "the_racing_api",
-        "race_id": "rac_11990368",
-        "course": "Yarmouth",
-        "date": "2026-07-08",
-        "off_time": "2:45",
-        "off_dt": "2026-07-08T14:45:00+01:00",
-        "race_name": "Infobond Nursery",
-        "distance_f": 5.0,
-        "race_class": "Class 5",
-        "race_type": "Flat",
-        "going": "Good To Firm",
-        "surface": "Turf",
-        "field_size": 8,
-        "horse": "Cydney Sweenie",
-        "horse_id": "hrs_63741930",
-        "age": 2,
-        "sex": "filly",
-        "trainer": "Jack Morland",
-        "trainer_id": "trn_376524",
-        "jockey": "Daniel Muscutt",
-        "jockey_id": "jky_275571",
-        "draw": 1,
-        "number": 7,
-        "lbs": 126,
-        "ofr": "66",
-        "last_run": 43,
-        "form": "438",
-        "headgear": ""
-      }
-    ],
-    "profile_notes": [
-      "Low draw today"
-    ],
-    "favourite_course": {
-      "value": "Yarmouth",
-      "runs": 1
-    },
-    "favourite_distance": {
-      "value": 5.0,
-      "runs": 1
-    },
-    "favourite_going": {
-      "value": "Good To Firm",
-      "runs": 1
-    },
-    "favourite_class": {
-      "value": "Class 5",
-      "runs": 1
-    },
-    "course_suitability_score": 90,
-    "distance_suitability_score": 90,
-    "going_suitability_score": 90,
-    "class_suitability_score": 90,
-    "suitability_score": 90,
-    "horse_intelligence_score": 27,
-    "profile_strengths": [
-      "Today's course matches strongest profile pattern",
-      "Today's distance matches strongest profile pattern",
-      "Today's going matches known profile preference",
-      "Race class matches common profile level"
-    ],
-    "profile_cautions": [
-      "Low latest Pulse Score",
-      "Limited stored profile data"
-    ],
-    "enrich_version": "profile_enrich_v2",
-    "enrich_signature": {
-      "latest_course": "Yarmouth",
-      "latest_distance_f": 5.0,
-      "latest_going": "Good To Firm",
-      "latest_class": "Class 5",
-      "latest_pulse_score": null,
-      "average_pulse_score": 0,
-      "profile_runs": 1,
-      "runs_count": 1
-    }
-  },
-  "main_threat": {
     "horse": "Dubai Charm",
     "horse_id": "hrs_64072386",
     "age": 2,
@@ -175,8 +53,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 69,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Trainer bonus +1",
+      "Stable flying +4 (3/9 last 14 days)",
+      "Jockey bonus +1",
+      "Jockey flying +4 (13/22 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -231,15 +117,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 58,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -248,13 +134,13 @@
       "latest_distance_f": 5.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 69,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
-  "dark_horse": {
+  "main_threat": {
     "horse": "My Maria",
     "horse_id": "hrs_64967959",
     "age": 2,
@@ -295,8 +181,16 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 67,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Jockey bonus +2",
+      "Jockey flying +4 (3/6 last 14 days)"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -351,15 +245,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 57,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -368,13 +262,397 @@
       "latest_distance_f": 5.0,
       "latest_going": "Good To Firm",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 67,
+      "average_pulse_score": 0,
+      "profile_runs": 1,
+      "runs_count": 1
+    }
+  },
+  "dark_horse": {
+    "horse": "My Maria",
+    "horse_id": "hrs_64967959",
+    "age": 2,
+    "sex": "filly",
+    "latest_course": "Yarmouth",
+    "latest_time": "2:45",
+    "latest_race": "Infobond Nursery",
+    "latest_date": "2026-07-08",
+    "latest_distance_f": 5.0,
+    "latest_class": "Class 5",
+    "latest_going": "Good To Firm",
+    "latest_surface": "Turf",
+    "latest_trainer": "Archie Watson",
+    "latest_jockey": "Kieran Shoemark",
+    "latest_draw": 4,
+    "latest_weight_lbs": 127,
+    "official_rating": "67",
+    "recent_form": "43",
+    "last_run_days": 32,
+    "profile_runs": 1,
+    "courses_seen": {
+      "Yarmouth": 1
+    },
+    "distances_seen": {
+      "5.0": 1
+    },
+    "goings_seen": {
+      "Good To Firm": 1
+    },
+    "classes_seen": {
+      "Class 5": 1
+    },
+    "trainers_seen": {
+      "Archie Watson": 1
+    },
+    "jockeys_seen": {
+      "Kieran Shoemark": 1
+    },
+    "average_pulse_score": 0,
+    "best_pulse_score": null,
+    "latest_pulse_score": 67,
+    "latest_notes": [
+      "Positive recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +2",
+      "Jockey bonus +2",
+      "Jockey flying +4 (3/6 last 14 days)"
+    ],
+    "runs": [
+      {
+        "source": "the_racing_api",
+        "race_id": "rac_11990368",
+        "course": "Yarmouth",
+        "date": "2026-07-08",
+        "off_time": "2:45",
+        "off_dt": "2026-07-08T14:45:00+01:00",
+        "race_name": "Infobond Nursery",
+        "distance_f": 5.0,
+        "race_class": "Class 5",
+        "race_type": "Flat",
+        "going": "Good To Firm",
+        "surface": "Turf",
+        "field_size": 8,
+        "horse": "My Maria",
+        "horse_id": "hrs_64967959",
+        "age": 2,
+        "sex": "filly",
+        "trainer": "Archie Watson",
+        "trainer_id": "trn_290484",
+        "jockey": "Kieran Shoemark",
+        "jockey_id": "jky_279711",
+        "draw": 4,
+        "number": 6,
+        "lbs": 127,
+        "ofr": "67",
+        "last_run": 32,
+        "form": "43",
+        "headgear": ""
+      }
+    ],
+    "profile_notes": [],
+    "favourite_course": {
+      "value": "Yarmouth",
+      "runs": 1
+    },
+    "favourite_distance": {
+      "value": 5.0,
+      "runs": 1
+    },
+    "favourite_going": {
+      "value": "Good To Firm",
+      "runs": 1
+    },
+    "favourite_class": {
+      "value": "Class 5",
+      "runs": 1
+    },
+    "course_suitability_score": 90,
+    "distance_suitability_score": 90,
+    "going_suitability_score": 90,
+    "class_suitability_score": 90,
+    "suitability_score": 90,
+    "horse_intelligence_score": 57,
+    "profile_strengths": [
+      "Today's course matches strongest profile pattern",
+      "Today's distance matches strongest profile pattern",
+      "Today's going matches known profile preference",
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
+    ],
+    "profile_cautions": [
+      "Limited stored profile data"
+    ],
+    "enrich_version": "profile_enrich_v2",
+    "enrich_signature": {
+      "latest_course": "Yarmouth",
+      "latest_distance_f": 5.0,
+      "latest_going": "Good To Firm",
+      "latest_class": "Class 5",
+      "latest_pulse_score": 67,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "runners": [
+    {
+      "horse": "Dubai Charm",
+      "horse_id": "hrs_64072386",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Yarmouth",
+      "latest_time": "2:45",
+      "latest_race": "Infobond Nursery",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Richard Hughes",
+      "latest_jockey": "Billy Loughnane",
+      "latest_draw": 7,
+      "latest_weight_lbs": 135,
+      "official_rating": "75",
+      "recent_form": "230",
+      "last_run_days": 19,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Yarmouth": 1
+      },
+      "distances_seen": {
+        "5.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Richard Hughes": 1
+      },
+      "jockeys_seen": {
+        "Billy Loughnane": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 69,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Trainer bonus +1",
+        "Stable flying +4 (3/9 last 14 days)",
+        "Jockey bonus +1",
+        "Jockey flying +4 (13/22 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990368",
+          "course": "Yarmouth",
+          "date": "2026-07-08",
+          "off_time": "2:45",
+          "off_dt": "2026-07-08T14:45:00+01:00",
+          "race_name": "Infobond Nursery",
+          "distance_f": 5.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Dubai Charm",
+          "horse_id": "hrs_64072386",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Richard Hughes",
+          "trainer_id": "trn_280692",
+          "jockey": "Billy Loughnane",
+          "jockey_id": "jky_233301",
+          "draw": 7,
+          "number": 1,
+          "lbs": 135,
+          "ofr": "75",
+          "last_run": 19,
+          "form": "230",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Yarmouth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 58,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Yarmouth",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 69,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "My Maria",
+      "horse_id": "hrs_64967959",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Yarmouth",
+      "latest_time": "2:45",
+      "latest_race": "Infobond Nursery",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Archie Watson",
+      "latest_jockey": "Kieran Shoemark",
+      "latest_draw": 4,
+      "latest_weight_lbs": 127,
+      "official_rating": "67",
+      "recent_form": "43",
+      "last_run_days": 32,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Yarmouth": 1
+      },
+      "distances_seen": {
+        "5.0": 1
+      },
+      "goings_seen": {
+        "Good To Firm": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Archie Watson": 1
+      },
+      "jockeys_seen": {
+        "Kieran Shoemark": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 67,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Jockey bonus +2",
+        "Jockey flying +4 (3/6 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990368",
+          "course": "Yarmouth",
+          "date": "2026-07-08",
+          "off_time": "2:45",
+          "off_dt": "2026-07-08T14:45:00+01:00",
+          "race_name": "Infobond Nursery",
+          "distance_f": 5.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "My Maria",
+          "horse_id": "hrs_64967959",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Archie Watson",
+          "trainer_id": "trn_290484",
+          "jockey": "Kieran Shoemark",
+          "jockey_id": "jky_279711",
+          "draw": 4,
+          "number": 6,
+          "lbs": 127,
+          "ofr": "67",
+          "last_run": 32,
+          "form": "43",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Yarmouth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 57,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Yarmouth",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 67,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
     {
       "horse": "Cydney Sweenie",
       "horse_id": "hrs_63741930",
@@ -416,8 +694,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 57,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Jockey flying +4 (6/6 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -474,7 +758,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 53,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -482,7 +766,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -491,15 +774,15 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 57,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "Dubai Charm",
-      "horse_id": "hrs_64072386",
+      "horse": "Sable Island",
+      "horse_id": "hrs_64135099",
       "age": 2,
       "sex": "filly",
       "latest_course": "Yarmouth",
@@ -510,13 +793,13 @@
       "latest_class": "Class 5",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Richard Hughes",
-      "latest_jockey": "Billy Loughnane",
-      "latest_draw": 7,
-      "latest_weight_lbs": 135,
-      "official_rating": "75",
-      "recent_form": "230",
-      "last_run_days": 19,
+      "latest_trainer": "Chris Dwyer",
+      "latest_jockey": "Mason Paetel(5)",
+      "latest_draw": 6,
+      "latest_weight_lbs": 128,
+      "official_rating": "68",
+      "recent_form": "337",
+      "last_run_days": 26,
       "profile_runs": 1,
       "courses_seen": {
         "Yarmouth": 1
@@ -531,15 +814,19 @@
         "Class 5": 1
       },
       "trainers_seen": {
-        "Richard Hughes": 1
+        "Chris Dwyer": 1
       },
       "jockeys_seen": {
-        "Billy Loughnane": 1
+        "Mason Paetel(5)": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 57,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -555,21 +842,21 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 8,
-          "horse": "Dubai Charm",
-          "horse_id": "hrs_64072386",
+          "horse": "Sable Island",
+          "horse_id": "hrs_64135099",
           "age": 2,
           "sex": "filly",
-          "trainer": "Richard Hughes",
-          "trainer_id": "trn_280692",
-          "jockey": "Billy Loughnane",
-          "jockey_id": "jky_233301",
-          "draw": 7,
-          "number": 1,
-          "lbs": 135,
-          "ofr": "75",
-          "last_run": 19,
-          "form": "230",
-          "headgear": ""
+          "trainer": "Chris Dwyer",
+          "trainer_id": "trn_45567",
+          "jockey": "Mason Paetel(5)",
+          "jockey_id": "jky_312036",
+          "draw": 6,
+          "number": 5,
+          "lbs": 128,
+          "ofr": "68",
+          "last_run": 26,
+          "form": "337",
+          "headgear": "p"
         }
       ],
       "profile_notes": [],
@@ -594,7 +881,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 53,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -602,7 +889,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -611,15 +897,15 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 57,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
       }
     },
     {
-      "horse": "My Maria",
-      "horse_id": "hrs_64967959",
+      "horse": "Miss U Gino",
+      "horse_id": "hrs_64745009",
       "age": 2,
       "sex": "filly",
       "latest_course": "Yarmouth",
@@ -630,13 +916,13 @@
       "latest_class": "Class 5",
       "latest_going": "Good To Firm",
       "latest_surface": "Turf",
-      "latest_trainer": "Archie Watson",
-      "latest_jockey": "Kieran Shoemark",
-      "latest_draw": 4,
-      "latest_weight_lbs": 127,
-      "official_rating": "67",
-      "recent_form": "43",
-      "last_run_days": 32,
+      "latest_trainer": "Philip McBride",
+      "latest_jockey": "Sean D Bowen",
+      "latest_draw": 5,
+      "latest_weight_lbs": 117,
+      "official_rating": "57",
+      "recent_form": "500",
+      "last_run_days": 12,
       "profile_runs": 1,
       "courses_seen": {
         "Yarmouth": 1
@@ -651,15 +937,21 @@
         "Class 5": 1
       },
       "trainers_seen": {
-        "Archie Watson": 1
+        "Philip McBride": 1
       },
       "jockeys_seen": {
-        "Kieran Shoemark": 1
+        "Sean D Bowen": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 52,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Trainer bonus +1",
+        "Jockey bonus +3",
+        "Jockey flying +4 (3/9 last 14 days)"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -675,54 +967,217 @@
           "going": "Good To Firm",
           "surface": "Turf",
           "field_size": 8,
-          "horse": "My Maria",
-          "horse_id": "hrs_64967959",
+          "horse": "Miss U Gino",
+          "horse_id": "hrs_64745009",
           "age": 2,
           "sex": "filly",
-          "trainer": "Archie Watson",
-          "trainer_id": "trn_290484",
-          "jockey": "Kieran Shoemark",
-          "jockey_id": "jky_279711",
-          "draw": 4,
+          "trainer": "Philip McBride",
+          "trainer_id": "trn_71712",
+          "jockey": "Sean D Bowen",
+          "jockey_id": "jky_303900",
+          "draw": 5,
+          "number": 8,
+          "lbs": 117,
+          "ofr": "57",
+          "last_run": 12,
+          "form": "500",
+          "headgear": ""
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Yarmouth",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 5.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good To Firm",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Yarmouth",
+        "latest_distance_f": 5.0,
+        "latest_going": "Good To Firm",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 52,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Holi Scarlett",
+      "horse_id": "hrs_64258082",
+      "age": 2,
+      "sex": "filly",
+      "latest_course": "Yarmouth",
+      "latest_time": "2:45",
+      "latest_race": "Infobond Nursery",
+      "latest_date": "2026-07-08",
+      "latest_distance_f": 5.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good To Firm",
+      "latest_surface": "Turf",
+      "latest_trainer": "Stuart Williams",
+      "latest_jockey": "William Buick",
+      "latest_draw": 8,
+      "latest_weight_lbs": 130,
+      "official_rating": "64",
+      "recent_form": "7631",
+      "last_run_days": 6,
+      "profile_runs": 2,
+      "courses_seen": {
+        "Nottingham": 1,
+        "Yarmouth": 1
+      },
+      "distances_seen": {
+        "5.0": 2
+      },
+      "goings_seen": {
+        "Good To Firm": 2
+      },
+      "classes_seen": {
+        "Class 4": 1,
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Stuart Williams": 2
+      },
+      "jockeys_seen": {
+        "Jack Doughty": 1,
+        "William Buick": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 59,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Race class strength +2",
+        "Trainer bonus +1",
+        "Jockey bonus +3",
+        "Jockey flying +4 (3/3 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11995906",
+          "course": "Nottingham",
+          "date": "2026-07-02",
+          "off_time": "3:00",
+          "off_dt": "2026-07-02T15:00:00+01:00",
+          "race_name": "Hon. Alderman Malcolm Wood Memorial Nursery",
+          "distance_f": 5.0,
+          "race_class": "Class 4",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 7,
+          "horse": "Holi Scarlett",
+          "horse_id": "hrs_64258082",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Stuart Williams",
+          "trainer_id": "trn_76887",
+          "jockey": "Jack Doughty",
+          "jockey_id": "jky_309594",
+          "draw": 6,
           "number": 6,
-          "lbs": 127,
-          "ofr": "67",
-          "last_run": 32,
-          "form": "43",
+          "lbs": 119,
+          "ofr": "64",
+          "last_run": 27,
+          "form": "763",
+          "headgear": "",
+          "_stored_at": "2026-07-02T00:01:29.874560+00:00"
+        },
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11990368",
+          "course": "Yarmouth",
+          "date": "2026-07-08",
+          "off_time": "2:45",
+          "off_dt": "2026-07-08T14:45:00+01:00",
+          "race_name": "Infobond Nursery",
+          "distance_f": 5.0,
+          "race_class": "Class 5",
+          "race_type": "Flat",
+          "going": "Good To Firm",
+          "surface": "Turf",
+          "field_size": 8,
+          "horse": "Holi Scarlett",
+          "horse_id": "hrs_64258082",
+          "age": 2,
+          "sex": "filly",
+          "trainer": "Stuart Williams",
+          "trainer_id": "trn_76887",
+          "jockey": "William Buick",
+          "jockey_id": "jky_257379",
+          "draw": 8,
+          "number": 3,
+          "lbs": 130,
+          "ofr": "64",
+          "last_run": 6,
+          "form": "7631",
           "headgear": ""
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Recent run timing"
+      ],
       "favourite_course": {
-        "value": "Yarmouth",
+        "value": "Nottingham",
         "runs": 1
       },
       "favourite_distance": {
         "value": 5.0,
-        "runs": 1
+        "runs": 2
       },
       "favourite_going": {
         "value": "Good To Firm",
-        "runs": 1
+        "runs": 2
       },
       "favourite_class": {
-        "value": "Class 5",
+        "value": "Class 4",
         "runs": 1
       },
-      "course_suitability_score": 90,
+      "course_suitability_score": 55,
       "distance_suitability_score": 90,
       "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "class_suitability_score": 55,
+      "suitability_score": 72,
+      "horse_intelligence_score": 48,
       "profile_strengths": [
-        "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Today's going matches known profile preference"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
+        "Course does not strongly match stored profile",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -731,10 +1186,10 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 59,
         "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
+        "profile_runs": 2,
+        "runs_count": 2
       }
     },
     {
@@ -757,31 +1212,36 @@
       "official_rating": "72",
       "recent_form": "082",
       "last_run_days": 13,
-      "profile_runs": 5,
+      "profile_runs": 2,
       "courses_seen": {
-        "Leicester": 4,
+        "Leicester": 1,
         "Yarmouth": 1
       },
       "distances_seen": {
-        "5.0": 5
+        "5.0": 2
       },
       "goings_seen": {
-        "Good To Firm": 5
+        "Good To Firm": 2
       },
       "classes_seen": {
-        "Class 5": 5
+        "Class 5": 2
       },
       "trainers_seen": {
-        "Michael Bell": 5
+        "M L W Bell": 1,
+        "Michael Bell": 1
       },
       "jockeys_seen": {
-        "Ross Coakley": 4,
+        "Ross Coakley": 1,
         "Cieren Fallon": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 43,
+      "latest_notes": [
+        "Weak recent form",
+        "Good recent run timing",
+        "Trainer bonus +1"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -796,12 +1256,12 @@
           "race_type": "Flat",
           "going": "Good To Firm",
           "surface": "Turf",
-          "field_size": 8,
+          "field_size": 9,
           "horse": "Fly Test",
           "horse_id": "hrs_63811076",
           "age": 2,
           "sex": "gelding",
-          "trainer": "Michael Bell",
+          "trainer": "M L W Bell",
           "trainer_id": "trn_37017",
           "jockey": "Ross Coakley",
           "jockey_id": "jky_269919",
@@ -812,100 +1272,7 @@
           "last_run": 24,
           "form": "08",
           "headgear": "",
-          "_stored_at": "2026-06-25T14:16:19.148177+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977160",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "6:15",
-          "off_dt": "2026-06-25T18:15:00+01:00",
-          "race_name": "British Stallion Studs EBF Restricted Maiden Stakes (GBB Race)",
-          "distance_f": 5.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Fly Test",
-          "horse_id": "hrs_63811076",
-          "age": 2,
-          "sex": "gelding",
-          "trainer": "Michael Bell",
-          "trainer_id": "trn_37017",
-          "jockey": "Ross Coakley",
-          "jockey_id": "jky_269919",
-          "draw": 7,
-          "number": 2,
-          "lbs": 133,
-          "ofr": "-",
-          "last_run": 24,
-          "form": "08",
-          "headgear": "",
-          "_stored_at": "2026-06-25T17:11:28.829635+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977160",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "6:15",
-          "off_dt": "2026-06-25T18:15:00+01:00",
-          "race_name": "British Stallion Studs EBF Restricted Maiden Stakes (GBB Race)",
-          "distance_f": 5.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Fly Test",
-          "horse_id": "hrs_63811076",
-          "age": 2,
-          "sex": "gelding",
-          "trainer": "Michael Bell",
-          "trainer_id": "trn_37017",
-          "jockey": "Ross Coakley",
-          "jockey_id": "jky_269919",
-          "draw": 7,
-          "number": 2,
-          "lbs": 133,
-          "ofr": "-",
-          "last_run": 24,
-          "form": "08",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:06.675702+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977160",
-          "course": "Leicester",
-          "date": "2026-06-25",
-          "off_time": "6:15",
-          "off_dt": "2026-06-25T18:15:00+01:00",
-          "race_name": "British Stallion Studs EBF Restricted Maiden Stakes (GBB Race)",
-          "distance_f": 5.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Fly Test",
-          "horse_id": "hrs_63811076",
-          "age": 2,
-          "sex": "gelding",
-          "trainer": "Michael Bell",
-          "trainer_id": "trn_37017",
-          "jockey": "Ross Coakley",
-          "jockey_id": "jky_269919",
-          "draw": 7,
-          "number": 2,
-          "lbs": 133,
-          "ofr": "-",
-          "last_run": 24,
-          "form": "08",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:15.183415+00:00"
+          "_stored_at": "2026-06-25T06:53:19.757923+00:00"
         },
         {
           "source": "the_racing_api",
@@ -939,32 +1306,31 @@
         }
       ],
       "profile_notes": [
-        "Profile has multiple stored runs",
         "Low draw today",
         "Recent run timing"
       ],
       "favourite_course": {
         "value": "Leicester",
-        "runs": 4
+        "runs": 1
       },
       "favourite_distance": {
         "value": 5.0,
-        "runs": 5
+        "runs": 2
       },
       "favourite_going": {
         "value": "Good To Firm",
-        "runs": 5
+        "runs": 2
       },
       "favourite_class": {
         "value": "Class 5",
-        "runs": 5
+        "runs": 2
       },
       "course_suitability_score": 55,
       "distance_suitability_score": 90,
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 81,
-      "horse_intelligence_score": 24,
+      "horse_intelligence_score": 44,
       "profile_strengths": [
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
@@ -972,7 +1338,7 @@
       ],
       "profile_cautions": [
         "Course does not strongly match stored profile",
-        "Low latest Pulse Score"
+        "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
       "enrich_signature": {
@@ -980,202 +1346,16 @@
         "latest_distance_f": 5.0,
         "latest_going": "Good To Firm",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 43,
         "average_pulse_score": 0,
-        "profile_runs": 5,
-        "runs_count": 5
-      }
-    },
-    {
-      "horse": "Miss U Gino",
-      "horse_id": "hrs_64745009",
-      "age": 2,
-      "sex": "filly",
-      "latest_course": "Yarmouth",
-      "latest_time": "2:45",
-      "latest_race": "Infobond Nursery",
-      "latest_date": "2026-07-08",
-      "latest_distance_f": 5.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good To Firm",
-      "latest_surface": "Turf",
-      "latest_trainer": "Philip McBride",
-      "latest_jockey": "Sean D Bowen",
-      "latest_draw": 5,
-      "latest_weight_lbs": 117,
-      "official_rating": "57",
-      "recent_form": "500",
-      "last_run_days": 12,
-      "profile_runs": 3,
-      "courses_seen": {
-        "Yarmouth": 3
-      },
-      "distances_seen": {
-        "6.0": 2,
-        "5.0": 1
-      },
-      "goings_seen": {
-        "Good To Firm": 3
-      },
-      "classes_seen": {
-        "Class 5": 3
-      },
-      "trainers_seen": {
-        "Philip McBride": 3
-      },
-      "jockeys_seen": {
-        "Sean D Bowen": 3
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977628",
-          "course": "Yarmouth",
-          "date": "2026-06-26",
-          "off_time": "11:00",
-          "off_dt": "2026-06-26T11:00:00+01:00",
-          "race_name": "First Furnishings' Front Runners Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Miss U Gino",
-          "horse_id": "hrs_64745009",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Philip McBride",
-          "trainer_id": "trn_71712",
-          "jockey": "Sean D Bowen",
-          "jockey_id": "jky_303900",
-          "draw": 2,
-          "number": 10,
-          "lbs": 125,
-          "ofr": "-",
-          "last_run": 23,
-          "form": "50",
-          "headgear": "",
-          "_stored_at": "2026-06-26T08:14:12.019157+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11977628",
-          "course": "Yarmouth",
-          "date": "2026-06-26",
-          "off_time": "11:00",
-          "off_dt": "2026-06-26T11:00:00+01:00",
-          "race_name": "First Furnishings' Front Runners Handicap",
-          "distance_f": 6.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 13,
-          "horse": "Miss U Gino",
-          "horse_id": "hrs_64745009",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Philip McBride",
-          "trainer_id": "trn_71712",
-          "jockey": "Sean D Bowen",
-          "jockey_id": "jky_303900",
-          "draw": 2,
-          "number": 10,
-          "lbs": 125,
-          "ofr": "-",
-          "last_run": 23,
-          "form": "50",
-          "headgear": "",
-          "_stored_at": "2026-06-28T12:42:25.445620+00:00"
-        },
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11990368",
-          "course": "Yarmouth",
-          "date": "2026-07-08",
-          "off_time": "2:45",
-          "off_dt": "2026-07-08T14:45:00+01:00",
-          "race_name": "Infobond Nursery",
-          "distance_f": 5.0,
-          "race_class": "Class 5",
-          "race_type": "Flat",
-          "going": "Good To Firm",
-          "surface": "Turf",
-          "field_size": 8,
-          "horse": "Miss U Gino",
-          "horse_id": "hrs_64745009",
-          "age": 2,
-          "sex": "filly",
-          "trainer": "Philip McBride",
-          "trainer_id": "trn_71712",
-          "jockey": "Sean D Bowen",
-          "jockey_id": "jky_303900",
-          "draw": 5,
-          "number": 8,
-          "lbs": 117,
-          "ofr": "57",
-          "last_run": 12,
-          "form": "500",
-          "headgear": ""
-        }
-      ],
-      "profile_notes": [
-        "Profile has multiple stored runs",
-        "Recent run timing"
-      ],
-      "favourite_course": {
-        "value": "Yarmouth",
-        "runs": 3
-      },
-      "favourite_distance": {
-        "value": 6.0,
-        "runs": 2
-      },
-      "favourite_going": {
-        "value": "Good To Firm",
-        "runs": 3
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 3
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 55,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 81,
-      "horse_intelligence_score": 24,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Distance not yet a clear profile strength",
-        "Low latest Pulse Score"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Yarmouth",
-        "latest_distance_f": 5.0,
-        "latest_going": "Good To Firm",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 3,
-        "runs_count": 3
+        "profile_runs": 2,
+        "runs_count": 2
       }
     }
   ],
   "notes": [
-    "Cydney Sweenie is the top-rated Pulse IQ runner.",
+    "Dubai Charm is the top-rated Pulse IQ runner.",
     "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
     "My Maria is flagged as a possible dark horse."
   ]
 }

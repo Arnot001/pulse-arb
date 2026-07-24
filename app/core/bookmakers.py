@@ -1,4 +1,5 @@
 UK_ALLOWED_BOOKS = {
+    "bet365",
     "betfair_ex_uk",
     "smarkets",
     "paddypower",

@@ -4,18 +4,18 @@
   "course": "Worcester",
   "time": "4:55",
   "race_name": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
-  "field_size": 5,
-  "average_intelligence": 27.0,
-  "top_score": 27,
-  "second_score": 27,
-  "gap": 0,
-  "confidence_score": 22,
-  "confidence": "LOW",
-  "race_shape": "OPEN RACE",
+  "field_size": 7,
+  "average_intelligence": 54.86,
+  "top_score": 66,
+  "second_score": 60,
+  "gap": 6,
+  "confidence_score": 60,
+  "confidence": "MEDIUM",
+  "race_shape": "COMPETITIVE EDGE",
   "top_runner": {
-    "horse": "Granite Sands",
-    "horse_id": "hrs_50401722",
-    "age": 5,
+    "horse": "Artiste d'Ainay",
+    "horse_id": "hrs_29622348",
+    "age": 8,
     "sex": "gelding",
     "latest_course": "Worcester",
     "latest_time": "4:55",
@@ -25,12 +25,12 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "David Killahena & Graeme McPherson",
-    "latest_jockey": "Nick Slatter",
+    "latest_trainer": "Billy Aprahamian",
+    "latest_jockey": "Benjamin Macey",
     "latest_draw": 0,
-    "latest_weight_lbs": 164,
-    "official_rating": "101",
-    "recent_form": "/95-35",
+    "latest_weight_lbs": 161,
+    "official_rating": "98",
+    "recent_form": "P31-51",
     "last_run_days": 22,
     "profile_runs": 1,
     "courses_seen": {
@@ -46,15 +46,22 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "David Killahena & Graeme McPherson": 1
+      "Billy Aprahamian": 1
     },
     "jockeys_seen": {
-      "Nick Slatter": 1
+      "Benjamin Macey": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 86,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Ideal layoff profile +2",
+      "Helpful draw",
+      "Trainer bonus +3",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -70,25 +77,27 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Granite Sands",
-        "horse_id": "hrs_50401722",
-        "age": 5,
+        "horse": "Artiste d'Ainay",
+        "horse_id": "hrs_29622348",
+        "age": 8,
         "sex": "gelding",
-        "trainer": "David Killahena & Graeme McPherson",
-        "trainer_id": "trn_365184",
-        "jockey": "Nick Slatter",
-        "jockey_id": "jky_265353",
+        "trainer": "Billy Aprahamian",
+        "trainer_id": "trn_354006",
+        "jockey": "Benjamin Macey",
+        "jockey_id": "jky_308742",
         "draw": 0,
-        "number": 5,
-        "lbs": 164,
-        "ofr": "101",
+        "number": 9,
+        "lbs": 161,
+        "ofr": "98",
         "last_run": 22,
-        "form": "/95-35",
-        "headgear": "h",
-        "_stored_at": "2026-07-01T13:17:52.622618+00:00"
+        "form": "P31-51",
+        "headgear": "t",
+        "_stored_at": "2026-06-30T23:10:42.106587+00:00"
       }
     ],
-    "profile_notes": [],
+    "profile_notes": [
+      "Elite latest Pulse Score"
+    ],
     "favourite_course": {
       "value": "Worcester",
       "runs": 1
@@ -110,15 +119,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 66,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Elite latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -127,7 +136,7 @@
       "latest_distance_f": 23.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 86,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -174,8 +183,14 @@
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 73,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Trainer bonus +1",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -206,7 +221,7 @@
         "last_run": 37,
         "form": "9351-3",
         "headgear": "",
-        "_stored_at": "2026-07-01T13:17:52.546123+00:00"
+        "_stored_at": "2026-06-30T23:10:41.798217+00:00"
       }
     ],
     "profile_notes": [],
@@ -231,15 +246,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 60,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -248,17 +263,17 @@
       "latest_distance_f": 23.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 73,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
     }
   },
   "dark_horse": {
-    "horse": "Lacrima",
-    "horse_id": "hrs_45920595",
-    "age": 5,
-    "sex": "gelding",
+    "horse": "Iamyouare",
+    "horse_id": "hrs_53181443",
+    "age": 6,
+    "sex": "mare",
     "latest_course": "Worcester",
     "latest_time": "4:55",
     "latest_race": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
@@ -267,13 +282,13 @@
     "latest_class": "Class 5",
     "latest_going": "Good",
     "latest_surface": "Turf",
-    "latest_trainer": "Nick Scholfield",
-    "latest_jockey": "Jack Stenhouse(7)",
+    "latest_trainer": "Donald McCain",
+    "latest_jockey": "William Maggs(3)",
     "latest_draw": 0,
-    "latest_weight_lbs": 165,
-    "official_rating": "102",
-    "recent_form": "18-845",
-    "last_run_days": 25,
+    "latest_weight_lbs": 168,
+    "official_rating": "105",
+    "recent_form": "9351-3",
+    "last_run_days": 37,
     "profile_runs": 1,
     "courses_seen": {
       "Worcester": 1
@@ -288,15 +303,21 @@
       "Class 5": 1
     },
     "trainers_seen": {
-      "Nick Scholfield": 1
+      "Donald McCain": 1
     },
     "jockeys_seen": {
-      "Jack Stenhouse(7)": 1
+      "William Maggs(3)": 1
     },
     "average_pulse_score": 0,
     "best_pulse_score": null,
-    "latest_pulse_score": null,
-    "latest_notes": [],
+    "latest_pulse_score": 73,
+    "latest_notes": [
+      "Strong recent form",
+      "Good recent run timing",
+      "Helpful draw",
+      "Trainer bonus +1",
+      "Jockey bonus +2"
+    ],
     "runs": [
       {
         "source": "the_racing_api",
@@ -312,22 +333,22 @@
         "going": "Good",
         "surface": "Turf",
         "field_size": 10,
-        "horse": "Lacrima",
-        "horse_id": "hrs_45920595",
-        "age": 5,
-        "sex": "gelding",
-        "trainer": "Nick Scholfield",
-        "trainer_id": "trn_383553",
-        "jockey": "Jack Stenhouse(7)",
-        "jockey_id": "jky_308034",
+        "horse": "Iamyouare",
+        "horse_id": "hrs_53181443",
+        "age": 6,
+        "sex": "mare",
+        "trainer": "Donald McCain",
+        "trainer_id": "trn_141066",
+        "jockey": "William Maggs(3)",
+        "jockey_id": "jky_304521",
         "draw": 0,
-        "number": 4,
-        "lbs": 165,
-        "ofr": "102",
-        "last_run": 25,
-        "form": "18-845",
-        "headgear": "tb",
-        "_stored_at": "2026-07-01T13:17:52.603310+00:00"
+        "number": 1,
+        "lbs": 168,
+        "ofr": "105",
+        "last_run": 37,
+        "form": "9351-3",
+        "headgear": "",
+        "_stored_at": "2026-06-30T23:10:41.798217+00:00"
       }
     ],
     "profile_notes": [],
@@ -352,15 +373,15 @@
     "going_suitability_score": 90,
     "class_suitability_score": 90,
     "suitability_score": 90,
-    "horse_intelligence_score": 27,
+    "horse_intelligence_score": 60,
     "profile_strengths": [
       "Today's course matches strongest profile pattern",
       "Today's distance matches strongest profile pattern",
       "Today's going matches known profile preference",
-      "Race class matches common profile level"
+      "Race class matches common profile level",
+      "Positive latest Pulse Score"
     ],
     "profile_cautions": [
-      "Low latest Pulse Score",
       "Limited stored profile data"
     ],
     "enrich_version": "profile_enrich_v2",
@@ -369,7 +390,7 @@
       "latest_distance_f": 23.0,
       "latest_going": "Good",
       "latest_class": "Class 5",
-      "latest_pulse_score": null,
+      "latest_pulse_score": 73,
       "average_pulse_score": 0,
       "profile_runs": 1,
       "runs_count": 1
@@ -377,9 +398,9 @@
   },
   "runners": [
     {
-      "horse": "Granite Sands",
-      "horse_id": "hrs_50401722",
-      "age": 5,
+      "horse": "Artiste d'Ainay",
+      "horse_id": "hrs_29622348",
+      "age": 8,
       "sex": "gelding",
       "latest_course": "Worcester",
       "latest_time": "4:55",
@@ -389,12 +410,12 @@
       "latest_class": "Class 5",
       "latest_going": "Good",
       "latest_surface": "Turf",
-      "latest_trainer": "David Killahena & Graeme McPherson",
-      "latest_jockey": "Nick Slatter",
+      "latest_trainer": "Billy Aprahamian",
+      "latest_jockey": "Benjamin Macey",
       "latest_draw": 0,
-      "latest_weight_lbs": 164,
-      "official_rating": "101",
-      "recent_form": "/95-35",
+      "latest_weight_lbs": 161,
+      "official_rating": "98",
+      "recent_form": "P31-51",
       "last_run_days": 22,
       "profile_runs": 1,
       "courses_seen": {
@@ -410,15 +431,22 @@
         "Class 5": 1
       },
       "trainers_seen": {
-        "David Killahena & Graeme McPherson": 1
+        "Billy Aprahamian": 1
       },
       "jockeys_seen": {
-        "Nick Slatter": 1
+        "Benjamin Macey": 1
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 86,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +3",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -434,25 +462,27 @@
           "going": "Good",
           "surface": "Turf",
           "field_size": 10,
-          "horse": "Granite Sands",
-          "horse_id": "hrs_50401722",
-          "age": 5,
+          "horse": "Artiste d'Ainay",
+          "horse_id": "hrs_29622348",
+          "age": 8,
           "sex": "gelding",
-          "trainer": "David Killahena & Graeme McPherson",
-          "trainer_id": "trn_365184",
-          "jockey": "Nick Slatter",
-          "jockey_id": "jky_265353",
+          "trainer": "Billy Aprahamian",
+          "trainer_id": "trn_354006",
+          "jockey": "Benjamin Macey",
+          "jockey_id": "jky_308742",
           "draw": 0,
-          "number": 5,
-          "lbs": 164,
-          "ofr": "101",
+          "number": 9,
+          "lbs": 161,
+          "ofr": "98",
           "last_run": 22,
-          "form": "/95-35",
-          "headgear": "h",
-          "_stored_at": "2026-07-01T13:17:52.622618+00:00"
+          "form": "P31-51",
+          "headgear": "t",
+          "_stored_at": "2026-06-30T23:10:42.106587+00:00"
         }
       ],
-      "profile_notes": [],
+      "profile_notes": [
+        "Elite latest Pulse Score"
+      ],
       "favourite_course": {
         "value": "Worcester",
         "runs": 1
@@ -474,15 +504,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 66,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Elite latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -491,7 +521,7 @@
         "latest_distance_f": 23.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 86,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -538,8 +568,14 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 73,
+      "latest_notes": [
+        "Strong recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Trainer bonus +1",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -570,7 +606,7 @@
           "last_run": 37,
           "form": "9351-3",
           "headgear": "",
-          "_stored_at": "2026-07-01T13:17:52.546123+00:00"
+          "_stored_at": "2026-06-30T23:10:41.798217+00:00"
         }
       ],
       "profile_notes": [],
@@ -595,15 +631,15 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 60,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
         "Today's going matches known profile preference",
-        "Race class matches common profile level"
+        "Race class matches common profile level",
+        "Positive latest Pulse Score"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -612,249 +648,7 @@
         "latest_distance_f": 23.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Lacrima",
-      "horse_id": "hrs_45920595",
-      "age": 5,
-      "sex": "gelding",
-      "latest_course": "Worcester",
-      "latest_time": "4:55",
-      "latest_race": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 23.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Nick Scholfield",
-      "latest_jockey": "Jack Stenhouse(7)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 165,
-      "official_rating": "102",
-      "recent_form": "18-845",
-      "last_run_days": 25,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Worcester": 1
-      },
-      "distances_seen": {
-        "23.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Nick Scholfield": 1
-      },
-      "jockeys_seen": {
-        "Jack Stenhouse(7)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987313",
-          "course": "Worcester",
-          "date": "2026-07-01",
-          "off_time": "4:55",
-          "off_dt": "2026-07-01T16:55:00+01:00",
-          "race_name": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
-          "distance_f": 23.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Lacrima",
-          "horse_id": "hrs_45920595",
-          "age": 5,
-          "sex": "gelding",
-          "trainer": "Nick Scholfield",
-          "trainer_id": "trn_383553",
-          "jockey": "Jack Stenhouse(7)",
-          "jockey_id": "jky_308034",
-          "draw": 0,
-          "number": 4,
-          "lbs": 165,
-          "ofr": "102",
-          "last_run": 25,
-          "form": "18-845",
-          "headgear": "tb",
-          "_stored_at": "2026-07-01T13:17:52.603310+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Worcester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 23.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Worcester",
-        "latest_distance_f": 23.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
-        "average_pulse_score": 0,
-        "profile_runs": 1,
-        "runs_count": 1
-      }
-    },
-    {
-      "horse": "Pure Seduction",
-      "horse_id": "hrs_39827109",
-      "age": 6,
-      "sex": "mare",
-      "latest_course": "Worcester",
-      "latest_time": "4:55",
-      "latest_race": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
-      "latest_date": "2026-07-01",
-      "latest_distance_f": 23.0,
-      "latest_class": "Class 5",
-      "latest_going": "Good",
-      "latest_surface": "Turf",
-      "latest_trainer": "Fergal O'Brien",
-      "latest_jockey": "Fern O'Brien(3)",
-      "latest_draw": 0,
-      "latest_weight_lbs": 163,
-      "official_rating": "100",
-      "recent_form": "1/66-2",
-      "last_run_days": 45,
-      "profile_runs": 1,
-      "courses_seen": {
-        "Worcester": 1
-      },
-      "distances_seen": {
-        "23.0": 1
-      },
-      "goings_seen": {
-        "Good": 1
-      },
-      "classes_seen": {
-        "Class 5": 1
-      },
-      "trainers_seen": {
-        "Fergal O'Brien": 1
-      },
-      "jockeys_seen": {
-        "Fern O'Brien(3)": 1
-      },
-      "average_pulse_score": 0,
-      "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
-      "runs": [
-        {
-          "source": "the_racing_api",
-          "race_id": "rac_11987313",
-          "course": "Worcester",
-          "date": "2026-07-01",
-          "off_time": "4:55",
-          "off_dt": "2026-07-01T16:55:00+01:00",
-          "race_name": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
-          "distance_f": 23.0,
-          "race_class": "Class 5",
-          "race_type": "Hurdle",
-          "going": "Good",
-          "surface": "Turf",
-          "field_size": 10,
-          "horse": "Pure Seduction",
-          "horse_id": "hrs_39827109",
-          "age": 6,
-          "sex": "mare",
-          "trainer": "Fergal O'Brien",
-          "trainer_id": "trn_125874",
-          "jockey": "Fern O'Brien(3)",
-          "jockey_id": "jky_303396",
-          "draw": 0,
-          "number": 6,
-          "lbs": 163,
-          "ofr": "100",
-          "last_run": 45,
-          "form": "1/66-2",
-          "headgear": "",
-          "_stored_at": "2026-07-01T13:17:52.640535+00:00"
-        }
-      ],
-      "profile_notes": [],
-      "favourite_course": {
-        "value": "Worcester",
-        "runs": 1
-      },
-      "favourite_distance": {
-        "value": 23.0,
-        "runs": 1
-      },
-      "favourite_going": {
-        "value": "Good",
-        "runs": 1
-      },
-      "favourite_class": {
-        "value": "Class 5",
-        "runs": 1
-      },
-      "course_suitability_score": 90,
-      "distance_suitability_score": 90,
-      "going_suitability_score": 90,
-      "class_suitability_score": 90,
-      "suitability_score": 90,
-      "horse_intelligence_score": 27,
-      "profile_strengths": [
-        "Today's course matches strongest profile pattern",
-        "Today's distance matches strongest profile pattern",
-        "Today's going matches known profile preference",
-        "Race class matches common profile level"
-      ],
-      "profile_cautions": [
-        "Low latest Pulse Score",
-        "Limited stored profile data"
-      ],
-      "enrich_version": "profile_enrich_v2",
-      "enrich_signature": {
-        "latest_course": "Worcester",
-        "latest_distance_f": 23.0,
-        "latest_going": "Good",
-        "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 73,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -901,8 +695,15 @@
       },
       "average_pulse_score": 0,
       "best_pulse_score": null,
-      "latest_pulse_score": null,
-      "latest_notes": [],
+      "latest_pulse_score": 64,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Jockey bonus +2"
+      ],
       "runs": [
         {
           "source": "the_racing_api",
@@ -933,7 +734,7 @@
           "last_run": 28,
           "form": "/156-7",
           "headgear": "p",
-          "_stored_at": "2026-07-01T13:17:52.713819+00:00"
+          "_stored_at": "2026-06-30T23:10:42.137833+00:00"
         }
       ],
       "profile_notes": [],
@@ -958,7 +759,7 @@
       "going_suitability_score": 90,
       "class_suitability_score": 90,
       "suitability_score": 90,
-      "horse_intelligence_score": 27,
+      "horse_intelligence_score": 56,
       "profile_strengths": [
         "Today's course matches strongest profile pattern",
         "Today's distance matches strongest profile pattern",
@@ -966,7 +767,6 @@
         "Race class matches common profile level"
       ],
       "profile_cautions": [
-        "Low latest Pulse Score",
         "Limited stored profile data"
       ],
       "enrich_version": "profile_enrich_v2",
@@ -975,7 +775,513 @@
         "latest_distance_f": 23.0,
         "latest_going": "Good",
         "latest_class": "Class 5",
-        "latest_pulse_score": null,
+        "latest_pulse_score": 64,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Granite Sands",
+      "horse_id": "hrs_50401722",
+      "age": 5,
+      "sex": "gelding",
+      "latest_course": "Worcester",
+      "latest_time": "4:55",
+      "latest_race": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 23.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "David Killahena & Graeme McPherson",
+      "latest_jockey": "Nick Slatter",
+      "latest_draw": 0,
+      "latest_weight_lbs": 164,
+      "official_rating": "101",
+      "recent_form": "/95-35",
+      "last_run_days": 22,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Worcester": 1
+      },
+      "distances_seen": {
+        "23.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "David Killahena & Graeme McPherson": 1
+      },
+      "jockeys_seen": {
+        "Nick Slatter": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 63,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Ideal layoff profile +2",
+        "Helpful draw",
+        "Trainer bonus +2",
+        "Jockey bonus +1"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987313",
+          "course": "Worcester",
+          "date": "2026-07-01",
+          "off_time": "4:55",
+          "off_dt": "2026-07-01T16:55:00+01:00",
+          "race_name": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
+          "distance_f": 23.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Granite Sands",
+          "horse_id": "hrs_50401722",
+          "age": 5,
+          "sex": "gelding",
+          "trainer": "David Killahena & Graeme McPherson",
+          "trainer_id": "trn_365184",
+          "jockey": "Nick Slatter",
+          "jockey_id": "jky_265353",
+          "draw": 0,
+          "number": 5,
+          "lbs": 164,
+          "ofr": "101",
+          "last_run": 22,
+          "form": "/95-35",
+          "headgear": "h",
+          "_stored_at": "2026-06-30T23:10:41.936435+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Worcester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 23.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 55,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Worcester",
+        "latest_distance_f": 23.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 63,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Barry Fife",
+      "horse_id": "hrs_40096021",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Worcester",
+      "latest_time": "4:55",
+      "latest_race": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 23.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Gary Hanmer",
+      "latest_jockey": "Alan Doyle",
+      "latest_draw": 0,
+      "latest_weight_lbs": 165,
+      "official_rating": "102",
+      "recent_form": "2/7-35",
+      "last_run_days": 46,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Worcester": 1
+      },
+      "distances_seen": {
+        "23.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Gary Hanmer": 1
+      },
+      "jockeys_seen": {
+        "Alan Doyle": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 54,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Trainer bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987313",
+          "course": "Worcester",
+          "date": "2026-07-01",
+          "off_time": "4:55",
+          "off_dt": "2026-07-01T16:55:00+01:00",
+          "race_name": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
+          "distance_f": 23.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Barry Fife",
+          "horse_id": "hrs_40096021",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "Gary Hanmer",
+          "trainer_id": "trn_54981",
+          "jockey": "Alan Doyle",
+          "jockey_id": "jky_285558",
+          "draw": 0,
+          "number": 3,
+          "lbs": 165,
+          "ofr": "102",
+          "last_run": 46,
+          "form": "2/7-35",
+          "headgear": "",
+          "_stored_at": "2026-06-30T23:10:41.846839+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Worcester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 23.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 51,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Worcester",
+        "latest_distance_f": 23.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 54,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Pure Seduction",
+      "horse_id": "hrs_39827109",
+      "age": 6,
+      "sex": "mare",
+      "latest_course": "Worcester",
+      "latest_time": "4:55",
+      "latest_race": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 23.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "Fergal O'Brien",
+      "latest_jockey": "Fern O'Brien(3)",
+      "latest_draw": 0,
+      "latest_weight_lbs": 163,
+      "official_rating": "100",
+      "recent_form": "1/66-2",
+      "last_run_days": 45,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Worcester": 1
+      },
+      "distances_seen": {
+        "23.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "Fergal O'Brien": 1
+      },
+      "jockeys_seen": {
+        "Fern O'Brien(3)": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 51,
+      "latest_notes": [
+        "Positive recent form",
+        "Good recent run timing",
+        "Helpful draw",
+        "Jockey bonus +2"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987313",
+          "course": "Worcester",
+          "date": "2026-07-01",
+          "off_time": "4:55",
+          "off_dt": "2026-07-01T16:55:00+01:00",
+          "race_name": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
+          "distance_f": 23.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Pure Seduction",
+          "horse_id": "hrs_39827109",
+          "age": 6,
+          "sex": "mare",
+          "trainer": "Fergal O'Brien",
+          "trainer_id": "trn_125874",
+          "jockey": "Fern O'Brien(3)",
+          "jockey_id": "jky_303396",
+          "draw": 0,
+          "number": 6,
+          "lbs": 163,
+          "ofr": "100",
+          "last_run": 45,
+          "form": "1/66-2",
+          "headgear": "",
+          "_stored_at": "2026-06-30T23:10:41.957002+00:00"
+        }
+      ],
+      "profile_notes": [],
+      "favourite_course": {
+        "value": "Worcester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 23.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 50,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Worcester",
+        "latest_distance_f": 23.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 51,
+        "average_pulse_score": 0,
+        "profile_runs": 1,
+        "runs_count": 1
+      }
+    },
+    {
+      "horse": "Roxboro River",
+      "horse_id": "hrs_46233901",
+      "age": 7,
+      "sex": "gelding",
+      "latest_course": "Worcester",
+      "latest_time": "4:55",
+      "latest_race": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
+      "latest_date": "2026-07-01",
+      "latest_distance_f": 23.0,
+      "latest_class": "Class 5",
+      "latest_going": "Good",
+      "latest_surface": "Turf",
+      "latest_trainer": "John Joseph Hanlon",
+      "latest_jockey": "Paddy Hanlon",
+      "latest_draw": 0,
+      "latest_weight_lbs": 163,
+      "official_rating": "100",
+      "recent_form": "0-7472",
+      "last_run_days": 5,
+      "profile_runs": 1,
+      "courses_seen": {
+        "Worcester": 1
+      },
+      "distances_seen": {
+        "23.0": 1
+      },
+      "goings_seen": {
+        "Good": 1
+      },
+      "classes_seen": {
+        "Class 5": 1
+      },
+      "trainers_seen": {
+        "John Joseph Hanlon": 1
+      },
+      "jockeys_seen": {
+        "Paddy Hanlon": 1
+      },
+      "average_pulse_score": 0,
+      "best_pulse_score": null,
+      "latest_pulse_score": 42,
+      "latest_notes": [
+        "Positive recent form",
+        "Questionable run timing",
+        "Sharp return concern -3",
+        "Helpful draw",
+        "Stable in form +2 (1/2 last 14 days)",
+        "Jockey in form +2 (1/2 last 14 days)"
+      ],
+      "runs": [
+        {
+          "source": "the_racing_api",
+          "race_id": "rac_11987313",
+          "course": "Worcester",
+          "date": "2026-07-01",
+          "off_time": "4:55",
+          "off_dt": "2026-07-01T16:55:00+01:00",
+          "race_name": "Britannia Dynamic Logistics Promises Delivered Conditional Jockeys' Handicap Hurdle",
+          "distance_f": 23.0,
+          "race_class": "Class 5",
+          "race_type": "Hurdle",
+          "going": "Good",
+          "surface": "Turf",
+          "field_size": 10,
+          "horse": "Roxboro River",
+          "horse_id": "hrs_46233901",
+          "age": 7,
+          "sex": "gelding",
+          "trainer": "John Joseph Hanlon",
+          "trainer_id": "trn_169605",
+          "jockey": "Paddy Hanlon",
+          "jockey_id": "jky_308520",
+          "draw": 0,
+          "number": 7,
+          "lbs": 163,
+          "ofr": "100",
+          "last_run": 5,
+          "form": "0-7472",
+          "headgear": "p",
+          "_stored_at": "2026-06-30T23:10:42.003873+00:00"
+        }
+      ],
+      "profile_notes": [
+        "Recent run timing"
+      ],
+      "favourite_course": {
+        "value": "Worcester",
+        "runs": 1
+      },
+      "favourite_distance": {
+        "value": 23.0,
+        "runs": 1
+      },
+      "favourite_going": {
+        "value": "Good",
+        "runs": 1
+      },
+      "favourite_class": {
+        "value": "Class 5",
+        "runs": 1
+      },
+      "course_suitability_score": 90,
+      "distance_suitability_score": 90,
+      "going_suitability_score": 90,
+      "class_suitability_score": 90,
+      "suitability_score": 90,
+      "horse_intelligence_score": 46,
+      "profile_strengths": [
+        "Today's course matches strongest profile pattern",
+        "Today's distance matches strongest profile pattern",
+        "Today's going matches known profile preference",
+        "Race class matches common profile level"
+      ],
+      "profile_cautions": [
+        "Limited stored profile data"
+      ],
+      "enrich_version": "profile_enrich_v2",
+      "enrich_signature": {
+        "latest_course": "Worcester",
+        "latest_distance_f": 23.0,
+        "latest_going": "Good",
+        "latest_class": "Class 5",
+        "latest_pulse_score": 42,
         "average_pulse_score": 0,
         "profile_runs": 1,
         "runs_count": 1
@@ -983,9 +1289,7 @@
     }
   ],
   "notes": [
-    "Granite Sands is the top-rated Pulse IQ runner.",
-    "The race looks competitive with no clear standout.",
-    "This race has a generally weak profile strength.",
-    "Lacrima is flagged as a possible dark horse."
+    "Artiste d'Ainay is the top-rated Pulse IQ runner.",
+    "Iamyouare is flagged as a possible dark horse."
   ]
 }

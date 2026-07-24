@@ -10,104 +10,187 @@
 {% macro arb_card(item, style, label, executable=False) %}
 <article class="horse-arb-card {{ style }}" {% if executable %}data-execution-card{% endif %}>
     <div class="horse-arb-card-body">
+
         <div class="horse-arb-card-top">
             <div>
-                <h3 class="horse-arb-race-name">{{ item.course or "Unknown course" }} {{ item.race_time or "" }}</h3>
+                <h3 class="horse-arb-race-name">
+                    {{ item.course or "Unknown course" }} {{ item.race_time or "" }}
+                </h3>
+
                 <div class="horse-arb-race-meta">
                     {{ item.race_date or "Date unavailable" }}
-                    {% if item.runner_count %} · {{ item.runner_count }} runners{% endif %}
-                    {% if item.priced_runner_count %} · {{ item.priced_runner_count }} priced{% endif %}
+
+                    {% if item.runner_count %}
+                        · {{ item.runner_count }} runners
+                    {% endif %}
+
+                    {% if item.priced_runner_count %}
+                        · {{ item.priced_runner_count }} priced
+                    {% endif %}
                 </div>
             </div>
-            <span class="horse-arb-label {{ style }}">{{ label }}</span>
+
+            <span class="horse-arb-label {{ style }}">
+                {{ label }}
+            </span>
         </div>
 
         <div class="horse-arb-metrics">
+
             <div class="horse-arb-metric">
                 <span>Market</span>
                 <strong>{{ "%.2f"|format(item.market_percentage or 0) }}%</strong>
             </div>
+
             <div class="horse-arb-metric">
                 <span>From Arb</span>
                 <strong>
-                    {% if item.is_guaranteed_arb %}0.00%
-                    {% else %}{{ "%.2f"|format(item.distance_from_arb or 0) }}%
+                    {% if item.is_guaranteed_arb %}
+                        0.00%
+                    {% else %}
+                        {{ "%.2f"|format(item.distance_from_arb or 0) }}%
                     {% endif %}
                 </strong>
             </div>
+
             <div class="horse-arb-metric">
                 <span>Score</span>
                 <strong>{{ "%.0f"|format(item.score or 0) }}</strong>
             </div>
+
             <div class="horse-arb-metric">
                 <span>Status</span>
                 <strong>
-                    {% if item.complete and item.runner_count >= 2 and item.opportunity and item.opportunity.legs|length >= 2 %}
+                    {% if item.runner_count >= 2
+                        and legs|length >= 2 %}                   
                         Ready
                     {% else %}
                         Waiting
                     {% endif %}
                 </strong>
             </div>
+
         </div>
 
-        {% if not item.completeor item.runner_count < 2or not item.opportunityor not item.opportunity.legsor item.opportunity.legs|length < 2 %}disabled{% endif %}
+        {% set legs = item.opportunity.legs if item.opportunity else [] %}
+
+        {% if legs %}
+
         <div class="horse-arb-leg-list">
-            {% for leg in item.opportunity.legs %}
+
+            {% for leg in legs %}
+
             <div class="horse-arb-leg">
+
                 <div>
-                    <span class="horse-arb-leg-runner">{{ leg.runner_name or leg.runner or leg.horse or "Runner" }}</span>
+                    <span class="horse-arb-leg-runner">
+                        {{ leg.runner_name or leg.runner or leg.horse or "Runner" }}
+                    </span>
+
                     <small class="execution-leg-stake">
-                        Stake £{{ "%.2f"|format(leg.stake or leg.rounded_stake or leg.bet_stake or 0) }}
+                        Stake £{{ "%.2f"|format(
+                            leg.stake
+                            or leg.rounded_stake
+                            or leg.bet_stake
+                            or 0
+                        ) }}
                     </small>
                 </div>
-                <span class="horse-arb-leg-source">{{ leg.source or leg.bookmaker or "Unknown" }}</span>
-                <span class="horse-arb-leg-odds">{{ leg.decimal_odds or leg.odds or "-" }}</span>
+
+                <span class="horse-arb-leg-source">
+                    {{ leg.source or leg.bookmaker or "Unknown" }}
+                </span>
+
+                <span class="horse-arb-leg-odds">
+                    {{ leg.decimal_odds or leg.odds or "-" }}
+                </span>
+
             </div>
+
             {% endfor %}
+
         </div>
 
         {% if executable %}
+
         <div class="execution-card-actions">
-            <button type="button" class="execution-primary-button" data-prepare-arb {% if not item.opportunity or not item.opportunity.legs %}disabled{% endif %}>
+
+            <button
+                type="button"
+                class="execution-primary-button"
+                data-prepare-arb
+
+                {% if item.runner_count < 2
+                    or legs|length < 2 %}                
+                    disabled
+                {% endif %}
+            >
                 ▶ Prepare Bet Slips
             </button>
-            <span class="execution-card-state" data-card-state>Waiting</span>
+
+            <span
+                class="execution-card-state"
+                data-card-state>
+                Waiting
+            </span>
+
         </div>
 
-        <div class="execution-card-progress" data-card-progress hidden>
+        <div class="execution-card-progress"
+             data-card-progress
+             hidden>
+
             <div class="execution-progress-header">
                 <span>Execution telemetry</span>
                 <strong data-progress-summary>Queued</strong>
             </div>
 
             <div class="execution-progress-list">
-                {% for leg in item.opportunity.legs %}
-                <div class="execution-progress-row"
-                     data-execution-leg
-                     data-bookmaker="{{ leg.source or leg.bookmaker or '' }}"
-                     data-event-name="{{ item.course or 'Unknown course' }} {{ item.race_time or '' }}"
-                     data-selection-name="{{ leg.runner_name or leg.runner or leg.horse or 'Runner' }}"
-                     data-stake="{{ leg.stake or leg.rounded_stake or leg.bet_stake or 0 }}"
-                     data-market-name="Win"
-                     data-event-url="{{ leg.event_url or leg.url or '' }}"
-                     data-decimal-odds="{{ leg.decimal_odds or leg.odds or '' }}"
-                     data-race-time="{{ item.race_time or '' }}"
-                     data-course="{{ item.course or '' }}">
+
+                {% for leg in legs %}
+
+                <div
+                    class="execution-progress-row"
+                    data-execution-leg
+                    data-bookmaker="{{ leg.source or leg.bookmaker or '' }}"
+                    data-event-name="{{ item.course or 'Unknown course' }} {{ item.race_time or '' }}"
+                    data-selection-name="{{ leg.runner_name or leg.runner or leg.horse or 'Runner' }}"
+                    data-stake="{{ leg.stake or leg.rounded_stake or leg.bet_stake or 0 }}"
+                    data-market-name="Win"
+                    data-event-url="{{ leg.event_url or leg.url or '' }}"
+                    data-decimal-odds="{{ leg.decimal_odds or leg.odds or '' }}"
+                    data-race-time="{{ item.race_time or '' }}"
+                    data-course="{{ item.course or '' }}">
+
                     <span class="execution-progress-indicator"></span>
+
                     <div>
                         <strong>{{ leg.source or leg.bookmaker or "Unknown" }}</strong>
                         <small>{{ leg.runner_name or leg.runner or leg.horse or "Runner" }}</small>
                     </div>
-                    <span class="execution-progress-status">Waiting</span>
+
+                    <span class="execution-progress-status">
+                        Waiting
+                    </span>
+
                 </div>
+
                 {% endfor %}
+
             </div>
+
         </div>
+
         {% endif %}
+
         {% else %}
-        <div class="horse-arb-empty horse-arb-empty-inline">No calculated execution legs are available.</div>
+
+        <div class="horse-arb-empty horse-arb-empty-inline">
+            No calculated execution legs are available.
+        </div>
+
         {% endif %}
+
     </div>
 </article>
 {% endmacro %}
@@ -334,6 +417,7 @@
 
         let ready=0;
         let failed=0;
+        let unsupported=0;
 
         for(const row of legs){
             const status=row.querySelector(".execution-progress-status");
@@ -343,7 +427,13 @@
                 .toLowerCase();
 
             if(bookmaker!=="bet365"){
-                failed++;
+                unsupported++;
+
+                row.classList.remove(
+                    "preparing",
+                    "ready",
+                    "failed"
+                );
                 row.classList.add("unsupported");
                 status.textContent="Not supported";
 
@@ -353,13 +443,18 @@
                 );
 
                 summary.textContent=
-                    `${ready} ready · ${failed} failed`;
+                    `${ready} ready · ${failed} failed · ${unsupported} unsupported`;
 
                 continue;
             }
 
             if(!payload.stake||payload.stake<=0){
                 failed++;
+
+                row.classList.remove(
+                    "preparing",
+                    "ready"
+                );
                 row.classList.add("failed");
                 status.textContent="No stake";
 
@@ -369,11 +464,16 @@
                 );
 
                 summary.textContent=
-                    `${ready} ready · ${failed} failed`;
+                    `${ready} ready · ${failed} failed · ${unsupported} unsupported`;
 
                 continue;
             }
 
+            row.classList.remove(
+                "failed",
+                "ready",
+                "unsupported"
+            );
             row.classList.add("preparing");
             status.textContent="Preparing";
             title.textContent=`Preparing ${payload.bookmaker}`;
@@ -383,7 +483,7 @@
             );
 
             try{
-                const r=await request(
+                const result=await request(
                     "/execution/prepare",
                     payload
                 );
@@ -394,35 +494,33 @@
                     "preparing",
                     "failed"
                 );
-
                 row.classList.add("ready");
                 status.textContent="Ready";
 
                 log(
-                    r.message||
+                    result.message||
                     `${payload.bookmaker} ready.`,
                     "success"
                 );
             }
-            catch(e){
+            catch(error){
                 failed++;
 
                 row.classList.remove(
                     "preparing",
                     "ready"
                 );
-
                 row.classList.add("failed");
                 status.textContent="Failed";
 
                 log(
-                    `${payload.bookmaker}: ${e.message}`,
+                    `${payload.bookmaker}: ${error.message}`,
                     "error"
                 );
             }
 
             summary.textContent=
-                `${ready} ready · ${failed} failed`;
+                `${ready} ready · ${failed} failed · ${unsupported} unsupported`;
         }
 
         state.preparing=Math.max(
@@ -430,10 +528,13 @@
             state.preparing-1
         );
 
+        const supportedCount=
+            legs.length-unsupported;
+
         if(
             failed===0
-            && ready===legs.length
-            && legs.length>0
+            && supportedCount>0
+            && ready===supportedCount
         ){
             state.ready++;
 
@@ -441,7 +542,6 @@
                 "preparing",
                 "execution-failed"
             );
-
             card.classList.add(
                 "execution-ready"
             );
@@ -450,7 +550,9 @@
                 "Ready to confirm";
 
             summary.textContent=
-                "All bet slips ready";
+                unsupported>0
+                    ? `${ready} ready · ${unsupported} unsupported`
+                    : "All bet slips ready";
 
             title.textContent=
                 "Ready for manual confirmation";
@@ -467,16 +569,17 @@
                 "preparing",
                 "execution-ready"
             );
-
             card.classList.add(
                 "execution-failed"
             );
 
             cardState.textContent=
-                `${failed} failed`;
+                failed>0
+                    ? `${failed} failed`
+                    : "No supported legs";
 
             summary.textContent=
-                `${ready} ready · ${failed} failed`;
+                `${ready} ready · ${failed} failed · ${unsupported} unsupported`;
 
             title.textContent=
                 "Execution incomplete";
